@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="26" endPosition="0" unitName="NYoSh.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="ExecuteCommand_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="NYoSh.behavior.ExecuteCommand_BehaviorDescriptor" />
+  <unitInfo fileName="Script_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="NYoSh.behavior.Script_BehaviorDescriptor" />
+</debugInfo>
+

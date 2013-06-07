@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <root nodeId="7214213678029114457" modelId="r:3994be14-ee76-4712-b070-fd8d0d908ae8(NYoSh.sandbox.ScriptA)">
+    <nodeInfo nodeId="7214213678029114462" fileName="ScriptTemplate.java" startLine="8" startPosition="5" endLine="9" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7214213678029114470" fileName="ScriptTemplate.java" startLine="9" startPosition="30" endLine="10" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7214213678029114513" fileName="ScriptTemplate.java" startLine="10" startPosition="16" endLine="11" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7214213678029114477" fileName="ScriptTemplate.java" startLine="11" startPosition="44" endLine="12" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7214213678029114493" fileName="ScriptTemplate.java" startLine="12" startPosition="20" endLine="13" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7214213678029114458" fileName="ScriptTemplate.java" startLine="7" startPosition="42" endLine="14" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="7214213678029114457" fileName="ScriptTemplate.java" startLine="6" startPosition="29" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="main#([Ljava/lang/String;)V" />
+    <scopeInfo nodeId="7214213678029114459" fileName="ScriptTemplate.java" startLine="8" startPosition="5" endLine="13" endPosition="35">
+      <varInfo nodeId="7214213678029114471" varName="a" />
+      <varInfo nodeId="7214213678029114478" varName="b" />
+    </scopeInfo>
+    <scopeInfo nodeId="7214213678029114457" fileName="ScriptTemplate.java" startLine="7" startPosition="42" endLine="14" endPosition="5" />
+    <scopeInfo nodeId="7214213678029114457" fileName="ScriptTemplate.java" startLine="6" startPosition="29" endLine="16" endPosition="0">
+      <varInfo nodeId="7214213678029114457" varName="args" />
+    </scopeInfo>
+    <unitInfo nodeId="7214213678029114457" fileName="ScriptTemplate.java" startLine="6" startPosition="0" endLine="17" endPosition="0" unitName="NYoSh.sandbox.ScriptA.ScriptTemplate" />
+  </root>
+</debugInfo>
+
