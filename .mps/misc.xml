@@ -2,14 +2,14 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
-      <modulePath path="${project}/NYoSh/languages/NYoSh/NYoSh.mpl" />
-      <modulePath path="${project}/NYoSh/solutions/NYoSh.sandbox/NYoSh.sandbox.msd" />
+      <modulePath path="$PROJECT_DIR$/languages/NYoSh/NYoSh.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/NYoSh.sandbox/NYoSh.sandbox.msd" folder="" />
     </projectModules>
     <genConfs />
   </component>
   <component name="ProjectRootManager" version="2" />
   <component name="ProjectVersion">
-    <option name="version" value="2.5" />
+    <option name="version" value="3.0" />
   </component>
 </project>
 

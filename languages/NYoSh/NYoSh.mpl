@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="NYoSh" uuid="a21a7294-c126-4f63-8335-8fecd8c28c7e" doNotGenerateAdapters="true">
+<language namespace="NYoSh" uuid="a21a7294-c126-4f63-8335-8fecd8c28c7e" generatorOutputPath="${module}/source_gen">
   <models>
-    <modelRoot path="${language_descriptor}/languageModels" />
+    <modelRoot contentPath="${module}" type="default">
+      <sourceRoot location="languageModels" />
+    </modelRoot>
   </models>
   <accessoryModels />
   <generators>
     <generator name="ToJava" generatorUID="NYoSh#8197864363320338521" uuid="b0ebc3f2-c15d-4fad-bdc5-56b3ea4437a2">
       <models>
-        <modelRoot path="${language_descriptor}/generator/template" />
+        <modelRoot contentPath="${module}" type="default">
+          <sourceRoot location="generator/template" />
+        </modelRoot>
       </models>
       <external-templates />
       <usedLanguages>
