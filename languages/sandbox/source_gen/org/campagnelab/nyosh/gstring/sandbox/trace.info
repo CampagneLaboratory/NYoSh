@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <root nodeRef="r:14d44bc5-c1f2-4780-9ed4-df66ebe32ddb(org.campagnelab.nyosh.gstring.sandbox)/3511072301772211888">
+    <nodeInfo nodeId="4087517305354124011" fileName="help.java" startLine="7" startPosition="42" endLine="8" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4087517305354124344" fileName="help.java" startLine="8" startPosition="25" endLine="9" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4087517305355346182" fileName="help.java" startLine="9" startPosition="30" endLine="10" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4087517305357853985" fileName="help.java" startLine="10" startPosition="31" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="4087517305354457260" fileName="help.java" startLine="11" startPosition="0" endLine="12" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4087517305357746074" fileName="help.java" startLine="12" startPosition="33" endLine="13" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4087517305357761615" fileName="help.java" startLine="13" startPosition="33" endLine="14" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="948389776221108864" fileName="help.java" startLine="14" startPosition="33" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="5053522144444812128" fileName="help.java" startLine="15" startPosition="0" endLine="16" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5053522144444812135" fileName="help.java" startLine="16" startPosition="19" endLine="17" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5053522144444812142" fileName="help.java" startLine="17" startPosition="19" endLine="18" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5053522144444812148" fileName="help.java" startLine="18" startPosition="19" endLine="19" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1701747447221505651" fileName="help.java" startLine="19" startPosition="19" endLine="20" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5516529521000836442" fileName="help.java" startLine="20" startPosition="49" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="4087517305354123899" fileName="help.java" startLine="7" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="main#([Ljava/lang/String;)V" />
+    <scopeInfo nodeId="4087517305354123905" fileName="help.java" startLine="7" startPosition="42" endLine="21" endPosition="0">
+      <varInfo nodeId="4087517305354124347" varName="a" />
+      <varInfo nodeId="5053522144444812129" varName="a1" />
+      <varInfo nodeId="4087517305354124014" varName="b" />
+      <varInfo nodeId="5053522144444812136" varName="b1" />
+      <varInfo nodeId="5053522144444812143" varName="c1" />
+      <varInfo nodeId="5053522144444812149" varName="d1" />
+      <varInfo nodeId="4087517305355346185" varName="f" />
+      <varInfo nodeId="1701747447221505654" varName="sjkd" />
+    </scopeInfo>
+    <scopeInfo nodeId="4087517305354123899" fileName="help.java" startLine="7" startPosition="0" endLine="23" endPosition="0">
+      <varInfo nodeId="4087517305354123900" varName="args" />
+    </scopeInfo>
+    <unitInfo nodeId="3511072301772211888" fileName="help.java" startLine="6" startPosition="0" endLine="24" endPosition="0" unitName="org.campagnelab.nyosh.gstring.sandbox.help" />
+  </root>
+  <root nodeRef="r:14d44bc5-c1f2-4780-9ed4-df66ebe32ddb(org.campagnelab.nyosh.gstring.sandbox)/948389776220881604" />
+</debugInfo>
+
