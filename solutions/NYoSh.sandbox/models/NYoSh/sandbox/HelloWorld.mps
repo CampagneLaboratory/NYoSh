@@ -14,6 +14,9 @@
     <node type="4tvk.Script" typeId="4tvk.8197864363320245969" id="6254274815096603175">
       <property name="name" nameId="tpck.1169194664001" value="HelloWorld" />
     </node>
+    <node type="4tvk.Script" typeId="4tvk.8197864363320245969" id="851869296737001729">
+      <property name="name" nameId="tpck.1169194664001" value="RunThis" />
+    </node>
   </roots>
   <root id="6254274815096603175">
     <node role="statements" roleId="4tvk.8197864363320245970" type="tpee.StatementList" typeId="tpee.1068580123136" id="6254274815096603176">
@@ -99,7 +102,34 @@
           <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="851869296734937193" />
         </node>
       </node>
-      <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="6254274815096604999" />
+      <node role="statement" roleId="tpee.1068581517665" type="4tvk.ExecuteCommand" typeId="4tvk.8197864363320353692" id="851869296736316320">
+        <node role="command" roleId="4tvk.851869296734402315" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="851869296736317967">
+          <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringVarReference" typeId="f2ff.1012285663620336025" id="851869296736317968">
+            <link role="varRef" roleId="f2ff.4087517305354402375" targetNodeId="6254274815096604068" resolveInfo="b" />
+          </node>
+          <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="851869296736317969">
+            <property name="value" nameId="f2ff.1012285663620336023" value="aaa" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </root>
+  <root id="851869296737001729">
+    <node role="statements" roleId="4tvk.8197864363320245970" type="tpee.StatementList" typeId="tpee.1068580123136" id="851869296737001730">
+      <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="851869296737001766">
+        <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="851869296737001762">
+          <node role="operand" roleId="tpee.1197027771414" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="851869296737001763">
+            <link role="classifier" roleId="tpee.1144433057691" targetNodeId="e2lb.~System" resolveInfo="System" />
+            <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="e2lb.~System%dout" resolveInfo="out" />
+          </node>
+          <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="851869296737001764">
+            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fxg7.~PrintStream%dprintln(java%dlang%dString)%cvoid" resolveInfo="println" />
+            <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="851869296737001765">
+              <property name="value" nameId="tpee.1070475926801" value="HelloWorld!" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </root>
 </model>

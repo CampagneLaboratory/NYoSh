@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies version="2" modelHash="4k5m9xpmtqrlzfgioublel3gndgubnj">
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+  <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
+  <dep model="r:ab86e397-1503-48ca-8931-8dc598446fee(NYoSh.generator.template.main@generator)" hash="a0aso3hoz4afu6ikaxz2prkickmr1fo" />
+  <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
+  <common hash="6dd3bo1ono64r1x70am6dazs6o3advr">
+    <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
+  </common>
+  <source id="5153453187032300199" name="Test" hash="c6m9py321vfjwnjzz25qbdem0dai3bm">
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
+    <dep model="r:ab86e397-1503-48ca-8931-8dc598446fee(NYoSh.generator.template.main@generator)" />
+    <file name="ScriptTemplate.java" />
+  </source>
+</dependencies>
+

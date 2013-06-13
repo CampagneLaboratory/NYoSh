@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="NYoSh.sandbox.HelloWorld.HelloWorld" file="HelloWorld.java">
+    <classNode dependClassName="java.lang.Exception" />
+    <classNode dependClassName="java.lang.Process" />
+    <classNode dependClassName="java.lang.ProcessBuilder" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.lang.System" />
+    <classNode dependClassName="org.apache.log4j.LogManager" />
+    <classNode dependClassName="org.apache.log4j.Logger" />
+  </dependency>
+  <dependency className="NYoSh.sandbox.HelloWorld.RunThis" file="RunThis.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.lang.System" />
+  </dependency>
+</dependenciesRoot>
+
