@@ -1,22 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <root nodeRef="r:c7c3835a-fef5-44ab-bbab-4406619e1dcc(NYoSh.sandbox.HelloWorld)/6254274815096603175">
-    <nodeInfo nodeId="6254274815096603179" fileName="ScriptTemplate.java" startLine="7" startPosition="47" endLine="8" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6254274815096604020" fileName="ScriptTemplate.java" startLine="8" startPosition="43" endLine="9" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6254274815096604065" fileName="ScriptTemplate.java" startLine="9" startPosition="14" endLine="10" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6254274815096604147" fileName="ScriptTemplate.java" startLine="10" startPosition="21" endLine="11" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6254274815096604999" fileName="ScriptTemplate.java" startLine="11" startPosition="33" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="6254274815096603175" fileName="ScriptTemplate.java" startLine="12" startPosition="0" endLine="13" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6254274815096603175" fileName="ScriptTemplate.java" startLine="7" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="main#([Ljava/lang/String;)V" />
-    <scopeInfo nodeId="6254274815096603176" fileName="ScriptTemplate.java" startLine="7" startPosition="47" endLine="12" endPosition="0">
+    <nodeInfo nodeId="851869296734749676" fileName="ScriptTemplate.java" startLine="7" startPosition="47" endLine="8" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="851869296734950113" fileName="ScriptTemplate.java" startLine="8" startPosition="26" endLine="9" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="851869296734929018" fileName="ScriptTemplate.java" startLine="9" startPosition="27" endLine="10" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6254274815096604020" fileName="ScriptTemplate.java" startLine="10" startPosition="59" endLine="11" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6254274815096604065" fileName="ScriptTemplate.java" startLine="11" startPosition="14" endLine="12" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6254274815096604147" fileName="ScriptTemplate.java" startLine="12" startPosition="21" endLine="13" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="851869296734937195" fileName="ScriptTemplate.java" startLine="13" startPosition="33" endLine="14" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6254274815096604999" fileName="ScriptTemplate.java" startLine="14" startPosition="23" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="6254274815096603175" fileName="ScriptTemplate.java" startLine="15" startPosition="0" endLine="16" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6254274815096603175" fileName="ScriptTemplate.java" startLine="7" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="main#([Ljava/lang/String;)V" />
+    <scopeInfo nodeId="6254274815096603176" fileName="ScriptTemplate.java" startLine="7" startPosition="47" endLine="15" endPosition="0">
       <varInfo nodeId="6254274815096604023" varName="a" />
       <varInfo nodeId="6254274815096604068" varName="b" />
+      <varInfo nodeId="851869296734749679" varName="command" />
+      <varInfo nodeId="851869296734950114" varName="option" />
+      <varInfo nodeId="851869296734937198" varName="s" />
     </scopeInfo>
-    <scopeInfo nodeId="6254274815096603175" fileName="ScriptTemplate.java" startLine="7" startPosition="47" endLine="13" endPosition="46" />
-    <scopeInfo nodeId="6254274815096603175" fileName="ScriptTemplate.java" startLine="7" startPosition="0" endLine="15" endPosition="0">
+    <scopeInfo nodeId="6254274815096603175" fileName="ScriptTemplate.java" startLine="7" startPosition="47" endLine="16" endPosition="46" />
+    <scopeInfo nodeId="6254274815096603175" fileName="ScriptTemplate.java" startLine="7" startPosition="0" endLine="18" endPosition="0">
       <varInfo nodeId="6254274815096603175" varName="arguments" />
     </scopeInfo>
-    <unitInfo nodeId="6254274815096603175" fileName="ScriptTemplate.java" startLine="6" startPosition="0" endLine="16" endPosition="0" unitName="NYoSh.sandbox.HelloWorld.ScriptTemplate" />
+    <unitInfo nodeId="6254274815096603175" fileName="ScriptTemplate.java" startLine="6" startPosition="0" endLine="19" endPosition="0" unitName="NYoSh.sandbox.HelloWorld.ScriptTemplate" />
   </root>
 </debugInfo>
 
