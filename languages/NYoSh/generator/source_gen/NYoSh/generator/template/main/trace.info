@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <unitInfo fileName="QueriesGenerated.java" startLine="12" startPosition="0" endLine="29" endPosition="0" unitName="NYoSh.generator.template.main.QueriesGenerated" />
+  <root nodeRef="r:ab86e397-1503-48ca-8931-8dc598446fee(NYoSh.generator.template.main@generator)/8197864363320340829">
+    <nodeInfo nodeId="8483436209635881996" fileName="QueriesGenerated.java" startLine="13" startPosition="154" endLine="14" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5153453187032310353" fileName="QueriesGenerated.java" startLine="17" startPosition="150" endLine="18" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <scopeInfo nodeId="8483436209635881990" fileName="QueriesGenerated.java" startLine="13" startPosition="154" endLine="14" endPosition="69" />
+    <scopeInfo nodeId="5153453187032310352" fileName="QueriesGenerated.java" startLine="17" startPosition="150" endLine="18" endPosition="77" />
+  </root>
+  <root nodeRef="r:ab86e397-1503-48ca-8931-8dc598446fee(NYoSh.generator.template.main@generator)/8197864363320355702">
+    <nodeInfo nodeId="851869296735224736" fileName="QueriesGenerated.java" startLine="21" startPosition="149" endLine="22" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <scopeInfo nodeId="851869296735224730" fileName="QueriesGenerated.java" startLine="21" startPosition="149" endLine="22" endPosition="74" />
+  </root>
+  <root nodeRef="r:ab86e397-1503-48ca-8931-8dc598446fee(NYoSh.generator.template.main@generator)/851869296735320040">
+    <nodeInfo nodeId="851869296735653986" fileName="QueriesGenerated.java" startLine="25" startPosition="149" endLine="26" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <scopeInfo nodeId="851869296735641501" fileName="QueriesGenerated.java" startLine="25" startPosition="149" endLine="26" endPosition="74" />
+  </root>
+</debugInfo>
+
