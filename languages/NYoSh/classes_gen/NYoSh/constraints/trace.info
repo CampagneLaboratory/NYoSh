@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="9" startPosition="0" endLine="25" endPosition="0" unitName="NYoSh.constraints.ConstraintsAspectDescriptor" />
+  <root nodeRef="r:bbce89e8-2bb0-4c95-b1b7-870a649b438d(NYoSh.constraints)/8155370969619094455">
+    <nodeInfo nodeId="8155370969619094455" fileName="ConsumeCommandOutputWithStream_Constraints.java" startLine="14" startPosition="55" endLine="15" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="8155370969619094455" fileName="ConsumeCommandOutputWithStream_Constraints.java" startLine="19" startPosition="43" endLine="20" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8155370969619094455" fileName="ConsumeCommandOutputWithStream_Constraints.java" startLine="24" startPosition="200" endLine="25" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8155370969619094455" fileName="ConsumeCommandOutputWithStream_Constraints.java" startLine="25" startPosition="96" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="8155370969619094455" fileName="ConsumeCommandOutputWithStream_Constraints.java" startLine="27" startPosition="51" endLine="28" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8155370969619094455" fileName="ConsumeCommandOutputWithStream_Constraints.java" startLine="29" startPosition="5" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="8155370969619094455" fileName="ConsumeCommandOutputWithStream_Constraints.java" startLine="30" startPosition="0" endLine="31" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8155370969619422103" fileName="ConsumeCommandOutputWithStream_Constraints.java" startLine="35" startPosition="25" endLine="36" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8155370969619151827" fileName="ConsumeCommandOutputWithStream_Constraints.java" startLine="37" startPosition="5" endLine="38" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="8155370969619362082" fileName="ConsumeCommandOutputWithStream_Constraints.java" startLine="39" startPosition="57" endLine="40" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8155370969619381731" fileName="ConsumeCommandOutputWithStream_Constraints.java" startLine="41" startPosition="12" endLine="42" endPosition="114" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8155370969619367278" fileName="ConsumeCommandOutputWithStream_Constraints.java" startLine="43" startPosition="5" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="8155370969619094455" fileName="ConsumeCommandOutputWithStream_Constraints.java" startLine="47" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="canBeChildBreakingPoint" />
+    <nodeInfo nodeId="8155370969619369358" fileName="ConsumeCommandOutputWithStream_Constraints.java" startLine="41" startPosition="10" endLine="43" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8155370969619094455" fileName="ConsumeCommandOutputWithStream_Constraints.java" startLine="14" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ConsumeCommandOutputWithStream_Constraints#()V" />
+    <nodeInfo nodeId="8155370969619094455" fileName="ConsumeCommandOutputWithStream_Constraints.java" startLine="26" startPosition="0" endLine="29" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8155370969619414356" fileName="ConsumeCommandOutputWithStream_Constraints.java" startLine="34" startPosition="148" endLine="37" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8155370969619094455" fileName="ConsumeCommandOutputWithStream_Constraints.java" startLine="18" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasOwnCanBeChildMethod#()Z" />
+    <nodeInfo nodeId="8155370969619347326" fileName="ConsumeCommandOutputWithStream_Constraints.java" startLine="38" startPosition="94" endLine="43" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8155370969619094455" fileName="ConsumeCommandOutputWithStream_Constraints.java" startLine="23" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="canBeChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
+    <nodeInfo nodeId="8155370969619094455" fileName="ConsumeCommandOutputWithStream_Constraints.java" startLine="34" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="static_canBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/smodel/IOperationContext;)Z" />
+    <scopeInfo nodeId="8155370969619094455" fileName="ConsumeCommandOutputWithStream_Constraints.java" startLine="14" startPosition="55" endLine="15" endPosition="60" />
+    <scopeInfo nodeId="8155370969619094455" fileName="ConsumeCommandOutputWithStream_Constraints.java" startLine="19" startPosition="43" endLine="20" endPosition="16" />
+    <scopeInfo nodeId="8155370969619094455" fileName="ConsumeCommandOutputWithStream_Constraints.java" startLine="27" startPosition="51" endLine="28" endPosition="67" />
+    <scopeInfo nodeId="8155370969619414359" fileName="ConsumeCommandOutputWithStream_Constraints.java" startLine="35" startPosition="25" endLine="36" endPosition="18" />
+    <scopeInfo nodeId="8155370969619347329" fileName="ConsumeCommandOutputWithStream_Constraints.java" startLine="39" startPosition="57" endLine="40" endPosition="19" />
+    <scopeInfo nodeId="8155370969619369359" fileName="ConsumeCommandOutputWithStream_Constraints.java" startLine="41" startPosition="12" endLine="42" endPosition="114" />
+    <scopeInfo nodeId="8155370969619094455" fileName="ConsumeCommandOutputWithStream_Constraints.java" startLine="14" startPosition="0" endLine="17" endPosition="0" />
+    <scopeInfo nodeId="8155370969619094455" fileName="ConsumeCommandOutputWithStream_Constraints.java" startLine="18" startPosition="0" endLine="22" endPosition="0" />
+    <scopeInfo nodeId="8155370969619094455" fileName="ConsumeCommandOutputWithStream_Constraints.java" startLine="24" startPosition="200" endLine="31" endPosition="18">
+      <varInfo nodeId="8155370969619094455" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="8155370969619094455" fileName="ConsumeCommandOutputWithStream_Constraints.java" startLine="23" startPosition="0" endLine="33" endPosition="0">
+      <varInfo nodeId="8155370969619094455" varName="checkingNodeContext" />
+      <varInfo nodeId="8155370969619094455" varName="childConcept" />
+      <varInfo nodeId="8155370969619094455" varName="link" />
+      <varInfo nodeId="8155370969619094455" varName="node" />
+      <varInfo nodeId="8155370969619094455" varName="operationContext" />
+      <varInfo nodeId="8155370969619094455" varName="parentNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="8155370969619095089" fileName="ConsumeCommandOutputWithStream_Constraints.java" startLine="34" startPosition="148" endLine="44" endPosition="0" />
+    <scopeInfo nodeId="8155370969619094455" fileName="ConsumeCommandOutputWithStream_Constraints.java" startLine="34" startPosition="0" endLine="46" endPosition="0">
+      <varInfo nodeId="8155370969619094455" varName="childConcept" />
+      <varInfo nodeId="8155370969619094455" varName="link" />
+      <varInfo nodeId="8155370969619094455" varName="node" />
+      <varInfo nodeId="8155370969619094455" varName="operationContext" />
+      <varInfo nodeId="8155370969619094455" varName="parentNode" />
+    </scopeInfo>
+    <unitInfo nodeId="8155370969619094455" fileName="ConsumeCommandOutputWithStream_Constraints.java" startLine="13" startPosition="0" endLine="49" endPosition="0" unitName="NYoSh.constraints.ConsumeCommandOutputWithStream_Constraints" />
+  </root>
+  <root nodeRef="r:bbce89e8-2bb0-4c95-b1b7-870a649b438d(NYoSh.constraints)/8155370969620209749" />
+  <root nodeRef="r:bbce89e8-2bb0-4c95-b1b7-870a649b438d(NYoSh.constraints)/8155370969620214260" />
+</debugInfo>
+

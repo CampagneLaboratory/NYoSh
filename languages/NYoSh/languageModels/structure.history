@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="-1" />
+    </dependencies>
+    <rename id="4tvk.8155370969619067580" type="CONCEPT" from="Command" to="GStringCommand" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="0" />
+    </dependencies>
+    <rename id="4tvk.8155370969619637137" type="CONCEPT" from="ConceptFunction_parameter" to="ConceptFunctionParameter_output" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="1" />
+    </dependencies>
+    <rename id="4tvk.8155370969619548882" type="CONCEPT" from="ConceptFunction_ConsumeOutputBlock" to="ConceptFunction_ConsumeOutputStreamBlock" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="2" />
+    </dependencies>
+    <rename id="4tvk.8155370969619637137" type="CONCEPT" from="ConceptFunctionParameter_output" to="ConceptFunctionParameter_outputStream" />
+  </StructureModification>
+</history>
+

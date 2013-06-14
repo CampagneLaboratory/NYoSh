@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-7jeybeosq8lz5jyx0ubdeie9884ff6x">
+<dependencies version="2" modelHash="-1qj0gem179dd0kd0i0y2n4c6w919468">
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
-  <dep model="f:java_stub#a3e4657f-a76c-45bb-bbda-c764596ecc65#org.apache.log4j(jetbrains.mps.baseLanguage.logging.runtime/org.apache.log4j@java_stub)" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
-  <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" />
-  <dep model="r:00000000-0000-4000-0000-011c89590580(jetbrains.mps.baseLanguage.logging.generator.baseLanguage.template.main@generator)" />
-  <dep model="r:ab86e397-1503-48ca-8931-8dc598446fee(NYoSh.generator.template.main@generator)" />
-  <common hash="-70giesrfac8f5geeciws89ibkf89xo9" />
-  <source id="6254274815096603175" name="HelloWorld" hash="-82szyeemzrzekmwtuzbw9y6g6ptjrcv">
+  <dep model="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" hash="3n9oyt53aii69hsmczu46c8p5sfjn18" />
+  <dep model="r:ab86e397-1503-48ca-8931-8dc598446fee(NYoSh.generator.template.main@generator)" hash="e28kz2i0i5h85kcvdfqjqtxhj60837a" />
+  <common hash="-1xe6l9x03pco1nkbwoh51rr4msavpwo" />
+  <source id="6254274815096603175" name="HelloWorld" hash="30szjni3jlohbvqicoei2w6p5f3ft8m">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
-    <dep model="f:java_stub#a3e4657f-a76c-45bb-bbda-c764596ecc65#org.apache.log4j(jetbrains.mps.baseLanguage.logging.runtime/org.apache.log4j@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
-    <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" />
-    <dep model="r:00000000-0000-4000-0000-011c89590580(jetbrains.mps.baseLanguage.logging.generator.baseLanguage.template.main@generator)" />
     <dep model="r:ab86e397-1503-48ca-8931-8dc598446fee(NYoSh.generator.template.main@generator)" />
     <file name="HelloWorld.java" />
   </source>
@@ -21,6 +16,13 @@
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <dep model="r:ab86e397-1503-48ca-8931-8dc598446fee(NYoSh.generator.template.main@generator)" />
     <file name="RunThis.java" />
+  </source>
+  <source id="8155370969621420701" name="HelloWorld2" hash="35wpqs6gisagxgym85s4zy2wvaueud7">
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" />
+    <dep model="r:ab86e397-1503-48ca-8931-8dc598446fee(NYoSh.generator.template.main@generator)" />
+    <file name="HelloWorld2.java" />
   </source>
 </dependencies>
 
