@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="CodeStyleSettings">
+    <option name="fieldPrefix" value="" />
+    <option name="fieldSuffix" value="" />
+    <option name="localVariablePrefix" value="" />
+    <option name="localVariableSuffix" value="" />
+    <option name="parameterPrefix" value="" />
+    <option name="parameterSuffix" value="" />
+    <option name="staticFieldPrefix" value="" />
+    <option name="staticFieldSuffix" value="" />
+  </component>
   <component name="MPSProject">
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/NYoSh/NYoSh.mpl" folder="" />
@@ -8,6 +18,20 @@
       <modulePath path="$PROJECT_DIR$/solutions/NYoSh.sandbox/NYoSh.sandbox.msd" folder="" />
     </projectModules>
     <genConfs />
+  </component>
+  <component name="ProjectLibraryManager">
+    <option name="libraries">
+      <map>
+        <entry key="patterns">
+          <value>
+            <Library>
+              <option name="name" value="patterns" />
+              <option name="path" value="$PROJECT_DIR$/../lib" />
+            </Library>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="ProjectRootManager" version="2" />
   <component name="ProjectVersion">

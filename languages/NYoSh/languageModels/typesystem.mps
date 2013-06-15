@@ -12,7 +12,6 @@
   <import index="tpd4" modelUID="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" version="3" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" implicit="yes" />
   <import index="tp3r" modelUID="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" version="0" implicit="yes" />
-  <import index="f2ff" modelUID="r:48d5f7d2-24be-4d82-ac12-8f4a2d414b11(org.campagnelab.nyosh.gstring.structure)" version="-1" implicit="yes" />
   <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="8155370969619768452" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="typeof_ConceptFunctionParameter_outputReader" />
     <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="8155370969619768453" nodeInfo="nn">
@@ -63,35 +62,24 @@
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="4tvk.8155370969619637137" resolveInfo="ConceptFunctionParameter_outputStream" />
     </node>
   </root>
-  <root type="tpd4.NonTypesystemRule" typeId="tpd4.1195214364922" id="4903231125778226967" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="check_AndCommandOperator" />
-    <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="4903231125778226968" nodeInfo="nn">
-      <node role="statement" roleId="tpee.1068581517665" type="tpd4.CreateStrongGreaterThanInequationStatement" typeId="tpd4.3585736512129529703" id="4903231125778268442" nodeInfo="nn">
-        <node role="leftExpression" roleId="tpd4.1174660783413" type="tpd4.NormalTypeClause" typeId="tpd4.1185788614172" id="4903231125778268444" nodeInfo="ng">
-          <node role="normalType" roleId="tpd4.1185788644032" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="4903231125778268445" nodeInfo="nn">
-            <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="4903231125778226970" resolveInfo="AndOp" />
+  <root type="tpd4.SubtypingRule" typeId="tpd4.1175147670730" id="1237318323633943221" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="AndOp" />
+    <node role="body" roleId="tpd4.1175147624276" type="tpee.StatementList" typeId="tpee.1068580123136" id="1237318323633943222" nodeInfo="nn">
+      <node role="statement" roleId="tpee.1068581517665" type="tpd4.CreateEquationStatement" typeId="tpd4.1174658326157" id="1237318323633948254" nodeInfo="nn">
+        <node role="leftExpression" roleId="tpd4.1174660783413" type="tpd4.NormalTypeClause" typeId="tpd4.1185788614172" id="1237318323633948257" nodeInfo="ng">
+          <node role="normalType" roleId="tpd4.1185788644032" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="1237318323633946525" nodeInfo="nn">
+            <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="1237318323633943224" resolveInfo="op" />
           </node>
         </node>
-        <node role="rightExpression" roleId="tpd4.1174660783414" type="tpd4.NormalTypeClause" typeId="tpd4.1185788614172" id="4903231125778268446" nodeInfo="ng">
-          <node role="normalType" roleId="tpd4.1185788644032" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="4903231125778268447" nodeInfo="nn">
-            <node role="quotedNode" roleId="tp3r.1196350785114" type="4tvk.BinaryCommandOperator" typeId="4tvk.4903231125777680052" id="4903231125778268448" nodeInfo="ng">
-              <node role="rightExpression" roleId="tpee.1081773367579" type="4tvk.GStringCommand" typeId="4tvk.8155370969619067580" id="4903231125778268449" nodeInfo="ng">
-                <node role="command" roleId="4tvk.8155370969619067612" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="4903231125778268450" nodeInfo="ng">
-                  <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringComponent" typeId="f2ff.1012285663620335805" id="4903231125778268451" nodeInfo="nr" />
-                </node>
-              </node>
-              <node role="leftExpression" roleId="tpee.1081773367580" type="4tvk.GStringCommand" typeId="4tvk.8155370969619067580" id="4903231125778268452" nodeInfo="ng">
-                <node role="command" roleId="4tvk.8155370969619067612" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="4903231125778268453" nodeInfo="ng">
-                  <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringComponent" typeId="f2ff.1012285663620335805" id="4903231125778268454" nodeInfo="nr" />
-                </node>
-              </node>
-            </node>
+        <node role="rightExpression" roleId="tpd4.1174660783414" type="tpd4.NormalTypeClause" typeId="tpd4.1185788614172" id="1237318323633948377" nodeInfo="ng">
+          <node role="normalType" roleId="tpd4.1185788644032" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="1237318323633948375" nodeInfo="nn">
+            <node role="quotedNode" roleId="tp3r.1196350785114" type="tpee.BooleanType" typeId="tpee.1070534644030" id="1237318323633948478" nodeInfo="in" />
           </node>
         </node>
       </node>
     </node>
-    <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="4903231125778226970" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="AndOp" />
+    <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="1237318323633943224" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="op" />
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="4tvk.4903231125777492941" resolveInfo="AndCommandOperator" />
     </node>
   </root>

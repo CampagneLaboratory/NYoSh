@@ -2,7 +2,7 @@
 <debugInfo>
   <unitInfo fileName="AbstractCommand_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="NYoSh.behavior.AbstractCommand_BehaviorDescriptor" />
   <unitInfo fileName="AndCommandOperator_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="NYoSh.behavior.AndCommandOperator_BehaviorDescriptor" />
-  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="48" endPosition="0" unitName="NYoSh.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="50" endPosition="0" unitName="NYoSh.behavior.BehaviorAspectDescriptor" />
   <unitInfo fileName="BinaryCommandOperator_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="NYoSh.behavior.BinaryCommandOperator_BehaviorDescriptor" />
   <unitInfo fileName="ConceptFunctionParameter_outputReader_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="17" endPosition="0" unitName="NYoSh.behavior.ConceptFunctionParameter_outputReader_BehaviorDescriptor" />
   <unitInfo fileName="ConceptFunctionParameter_outputStream_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="17" endPosition="0" unitName="NYoSh.behavior.ConceptFunctionParameter_outputStream_BehaviorDescriptor" />
@@ -12,18 +12,36 @@
   <unitInfo fileName="ConsumeCommandOutputWithStream_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="NYoSh.behavior.ConsumeCommandOutputWithStream_BehaviorDescriptor" />
   <unitInfo fileName="ExecuteCommand_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="NYoSh.behavior.ExecuteCommand_BehaviorDescriptor" />
   <unitInfo fileName="GStringCommand_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="NYoSh.behavior.GStringCommand_BehaviorDescriptor" />
+  <unitInfo fileName="OrCommandOperator_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="NYoSh.behavior.OrCommandOperator_BehaviorDescriptor" />
   <unitInfo fileName="PipeCommandOperator_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="NYoSh.behavior.PipeCommandOperator_BehaviorDescriptor" />
   <unitInfo fileName="Script_BehaviorDescriptor.java" startLine="12" startPosition="0" endLine="33" endPosition="0" unitName="NYoSh.behavior.Script_BehaviorDescriptor" />
   <unitInfo fileName="SemiColonCommandOperator_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="NYoSh.behavior.SemiColonCommandOperator_BehaviorDescriptor" />
+  <root nodeRef="r:2a3903cf-99a2-4e4b-9216-412f36303d74(NYoSh.behavior)/1237318323632240235">
+    <nodeInfo nodeId="1237318323632240239" fileName="AndCommandOperator_Behavior.java" startLine="9" startPosition="43" endLine="10" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1237318323632240235" fileName="AndCommandOperator_Behavior.java" startLine="9" startPosition="0" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <scopeInfo nodeId="1237318323632240237" fileName="AndCommandOperator_Behavior.java" startLine="9" startPosition="43" endLine="10" endPosition="55" />
+    <scopeInfo nodeId="1237318323632240235" fileName="AndCommandOperator_Behavior.java" startLine="9" startPosition="0" endLine="12" endPosition="0">
+      <varInfo nodeId="1237318323632240235" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="1237318323632240235" fileName="AndCommandOperator_Behavior.java" startLine="8" startPosition="0" endLine="13" endPosition="0" unitName="NYoSh.behavior.AndCommandOperator_Behavior" />
+  </root>
+  <root nodeRef="r:2a3903cf-99a2-4e4b-9216-412f36303d74(NYoSh.behavior)/1237318323632258951">
+    <nodeInfo nodeId="1237318323632258972" fileName="PipeCommandOperator_Behavior.java" startLine="9" startPosition="43" endLine="10" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1237318323632258951" fileName="PipeCommandOperator_Behavior.java" startLine="9" startPosition="0" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <scopeInfo nodeId="1237318323632258953" fileName="PipeCommandOperator_Behavior.java" startLine="9" startPosition="43" endLine="10" endPosition="55" />
+    <scopeInfo nodeId="1237318323632258951" fileName="PipeCommandOperator_Behavior.java" startLine="9" startPosition="0" endLine="12" endPosition="0">
+      <varInfo nodeId="1237318323632258951" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="1237318323632258951" fileName="PipeCommandOperator_Behavior.java" startLine="8" startPosition="0" endLine="13" endPosition="0" unitName="NYoSh.behavior.PipeCommandOperator_Behavior" />
+  </root>
   <root nodeRef="r:2a3903cf-99a2-4e4b-9216-412f36303d74(NYoSh.behavior)/4903231125778801446">
-    <nodeInfo nodeId="4903231125778801563" fileName="BinaryCommandOperator_Behavior.java" startLine="10" startPosition="43" endLine="11" endPosition="135" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4903231125778813032" fileName="BinaryCommandOperator_Behavior.java" startLine="11" startPosition="135" endLine="12" endPosition="136" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4903231125778801446" fileName="BinaryCommandOperator_Behavior.java" startLine="10" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <scopeInfo nodeId="4903231125778801448" fileName="BinaryCommandOperator_Behavior.java" startLine="10" startPosition="43" endLine="12" endPosition="136" />
-    <scopeInfo nodeId="4903231125778801446" fileName="BinaryCommandOperator_Behavior.java" startLine="10" startPosition="0" endLine="14" endPosition="0">
+    <nodeInfo nodeId="1237318323632216420" fileName="BinaryCommandOperator_Behavior.java" startLine="9" startPosition="43" endLine="10" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4903231125778801446" fileName="BinaryCommandOperator_Behavior.java" startLine="9" startPosition="0" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <scopeInfo nodeId="4903231125778801448" fileName="BinaryCommandOperator_Behavior.java" startLine="9" startPosition="43" endLine="10" endPosition="55" />
+    <scopeInfo nodeId="4903231125778801446" fileName="BinaryCommandOperator_Behavior.java" startLine="9" startPosition="0" endLine="12" endPosition="0">
       <varInfo nodeId="4903231125778801446" varName="thisNode" />
     </scopeInfo>
-    <unitInfo nodeId="4903231125778801446" fileName="BinaryCommandOperator_Behavior.java" startLine="9" startPosition="0" endLine="15" endPosition="0" unitName="NYoSh.behavior.BinaryCommandOperator_Behavior" />
+    <unitInfo nodeId="4903231125778801446" fileName="BinaryCommandOperator_Behavior.java" startLine="8" startPosition="0" endLine="13" endPosition="0" unitName="NYoSh.behavior.BinaryCommandOperator_Behavior" />
   </root>
   <root nodeRef="r:2a3903cf-99a2-4e4b-9216-412f36303d74(NYoSh.behavior)/4903231125778908791">
     <nodeInfo nodeId="4903231125779351737" fileName="ExecuteCommand_Behavior.java" startLine="13" startPosition="43" endLine="14" endPosition="132" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -61,6 +79,45 @@
     </scopeInfo>
     <scopeInfo nodeId="4903231125779353316" fileName="ExecuteCommand_Behavior.java" startLine="18" startPosition="0" endLine="30" endPosition="0" />
     <unitInfo nodeId="4903231125778908791" fileName="ExecuteCommand_Behavior.java" startLine="12" startPosition="0" endLine="31" endPosition="0" unitName="NYoSh.behavior.ExecuteCommand_Behavior" />
+  </root>
+  <root nodeRef="r:2a3903cf-99a2-4e4b-9216-412f36303d74(NYoSh.behavior)/5651321229811872425">
+    <nodeInfo nodeId="5651321229811873232" fileName="GStringCommand_Behavior.java" startLine="13" startPosition="43" endLine="14" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5651321229811935580" fileName="GStringCommand_Behavior.java" startLine="17" startPosition="61" endLine="18" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5651321229811935580" fileName="GStringCommand_Behavior.java" startLine="18" startPosition="63" endLine="19" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5651321229811935580" fileName="GStringCommand_Behavior.java" startLine="19" startPosition="30" endLine="20" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5651321229811935580" fileName="GStringCommand_Behavior.java" startLine="20" startPosition="30" endLine="21" endPosition="161" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5651321229811935580" fileName="GStringCommand_Behavior.java" startLine="21" startPosition="161" endLine="22" endPosition="168" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5651321229811935580" fileName="GStringCommand_Behavior.java" startLine="22" startPosition="168" endLine="23" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5651321229811935580" fileName="GStringCommand_Behavior.java" startLine="23" startPosition="73" endLine="24" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5651321229811935580" fileName="GStringCommand_Behavior.java" startLine="24" startPosition="54" endLine="25" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5651321229811872425" fileName="GStringCommand_Behavior.java" startLine="13" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="5651321229811935580" fileName="GStringCommand_Behavior.java" startLine="21" startPosition="161" endLine="24" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5651321229811935580" fileName="GStringCommand_Behavior.java" startLine="21" startPosition="161" endLine="24" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5651321229811935580" fileName="GStringCommand_Behavior.java" startLine="20" startPosition="30" endLine="24" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5651321229811935580" fileName="GStringCommand_Behavior.java" startLine="20" startPosition="30" endLine="24" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5651321229811935580" fileName="GStringCommand_Behavior.java" startLine="17" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_qkh7vj_a0a0a#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <scopeInfo nodeId="5651321229811872799" fileName="GStringCommand_Behavior.java" startLine="13" startPosition="43" endLine="14" endPosition="95" />
+    <scopeInfo nodeId="5651321229811872425" fileName="GStringCommand_Behavior.java" startLine="13" startPosition="0" endLine="16" endPosition="0">
+      <varInfo nodeId="5651321229811872425" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="5651321229811935580" fileName="GStringCommand_Behavior.java" startLine="21" startPosition="161" endLine="24" endPosition="54" />
+    <scopeInfo nodeId="5651321229811935580" fileName="GStringCommand_Behavior.java" startLine="20" startPosition="30" endLine="24" endPosition="54" />
+    <scopeInfo nodeId="5651321229811935580" fileName="GStringCommand_Behavior.java" startLine="17" startPosition="61" endLine="25" endPosition="24">
+      <varInfo nodeId="5651321229811935580" varName="facade" />
+      <varInfo nodeId="5651321229811935580" varName="quotedNode_1" />
+      <varInfo nodeId="5651321229811935580" varName="quotedNode_2" />
+    </scopeInfo>
+    <scopeInfo nodeId="5651321229811935580" fileName="GStringCommand_Behavior.java" startLine="17" startPosition="0" endLine="27" endPosition="0" />
+    <unitInfo nodeId="5651321229811872425" fileName="GStringCommand_Behavior.java" startLine="12" startPosition="0" endLine="28" endPosition="0" unitName="NYoSh.behavior.GStringCommand_Behavior" />
+  </root>
+  <root nodeRef="r:2a3903cf-99a2-4e4b-9216-412f36303d74(NYoSh.behavior)/5651321229814097021">
+    <nodeInfo nodeId="5651321229814097831" fileName="OrCommandOperator_Behavior.java" startLine="9" startPosition="43" endLine="10" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5651321229814097021" fileName="OrCommandOperator_Behavior.java" startLine="9" startPosition="0" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <scopeInfo nodeId="5651321229814097023" fileName="OrCommandOperator_Behavior.java" startLine="9" startPosition="43" endLine="10" endPosition="55" />
+    <scopeInfo nodeId="5651321229814097021" fileName="OrCommandOperator_Behavior.java" startLine="9" startPosition="0" endLine="12" endPosition="0">
+      <varInfo nodeId="5651321229814097021" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="5651321229814097021" fileName="OrCommandOperator_Behavior.java" startLine="8" startPosition="0" endLine="13" endPosition="0" unitName="NYoSh.behavior.OrCommandOperator_Behavior" />
   </root>
   <root nodeRef="r:2a3903cf-99a2-4e4b-9216-412f36303d74(NYoSh.behavior)/8155370969619587022" />
   <root nodeRef="r:2a3903cf-99a2-4e4b-9216-412f36303d74(NYoSh.behavior)/8155370969619623119">

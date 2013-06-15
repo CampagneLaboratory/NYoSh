@@ -7,15 +7,11 @@ import jetbrains.mps.openapi.editor.cells.EditorCell;
 import jetbrains.mps.openapi.editor.EditorContext;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
-import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
-import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
-import jetbrains.mps.baseLanguage.editor.BinaryOperation_LeftArgument_Actions;
-import jetbrains.mps.smodel.IOperationContext;
-import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
+import jetbrains.mps.nodeEditor.MPSFonts;
 import jetbrains.mps.baseLanguage.editor.BinaryOperation_Symbol_Actions;
 import jetbrains.mps.baseLanguage.editor.CastExpression_KeyMap;
 import jetbrains.mps.nodeEditor.cellMenu.CompositeSubstituteInfo;
@@ -25,6 +21,7 @@ import jetbrains.mps.lang.editor.generator.internal.AbstractCellMenuPart_Replace
 import jetbrains.mps.lang.editor.generator.internal.AbstractCellMenuPart_Generic_Group;
 import java.util.List;
 import jetbrains.mps.smodel.IScope;
+import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.openapi.editor.cells.SubstituteAction;
 import jetbrains.mps.smodel.action.ModelActions;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
@@ -33,7 +30,6 @@ import jetbrains.mps.smodel.action.AbstractChildNodeSetter;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import org.jetbrains.mps.openapi.model.SModel;
-import jetbrains.mps.baseLanguage.editor.BinaryOperation_RightArgument_Actions;
 
 public class BinaryCommandOperator_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
@@ -44,48 +40,26 @@ public class BinaryCommandOperator_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_ppd0db_a");
     editorCell.setBig(true);
-    editorCell.addEditorCell(this.createRefNode_ppd0db_a0(editorContext, node));
-    editorCell.addEditorCell(this.createComponent_ppd0db_b0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_ppd0db_c0(editorContext, node));
+    editorCell.addEditorCell(this.createComponent_ppd0db_a0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createRefNode_ppd0db_a0(EditorContext editorContext, SNode node) {
-    CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
-    provider.setRole("leftCommand");
-    provider.setNoTargetText("<no leftCommand>");
-    EditorCell editorCell;
-    editorCell = provider.createEditorCell(editorContext);
-    if (editorCell.getRole() == null) {
-      editorCell.setRole("leftCommand");
-    }
-    BinaryOperation_LeftArgument_Actions.setCellActions(editorCell, node, editorContext);
-    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
-    SNode attributeConcept = provider.getRoleAttribute();
-    Class attributeKind = provider.getRoleAttributeClass();
-    if (attributeConcept != null) {
-      IOperationContext opContext = editorContext.getOperationContext();
-      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
-      return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
-    } else
-    return editorCell;
-  }
-
-  private EditorCell createComponent_ppd0db_b0(EditorContext editorContext, SNode node) {
+  private EditorCell createComponent_ppd0db_a0(EditorContext editorContext, SNode node) {
     EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.lang.core.editor.AliasEditorComponent");
     Style style = new StyleImpl();
     BaseLanguageStyle_StyleSheet.applyOperator(style, editorCell);
     style.set(StyleAttributes.SELECTABLE, true);
     style.set(StyleAttributes.EDITABLE, true);
+    style.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
     editorCell.getStyle().putAll(style);
     BinaryOperation_Symbol_Actions.setCellActions(editorCell, node, editorContext);
     editorCell.addKeyMap(new CastExpression_KeyMap());
-    editorCell.setSubstituteInfo(new CompositeSubstituteInfo(editorContext, new BasicCellContext(node), new SubstituteInfoPartExt[]{new BinaryCommandOperator_Editor.ReplaceWith_BinaryOperation_cellMenu_ppd0db_a0b0(), new BinaryCommandOperator_Editor.BinaryCommandOperator_generic_cellMenu_ppd0db_b0b0()}));
+    editorCell.setSubstituteInfo(new CompositeSubstituteInfo(editorContext, new BasicCellContext(node), new SubstituteInfoPartExt[]{new BinaryCommandOperator_Editor.ReplaceWith_BinaryOperation_cellMenu_ppd0db_a0a0(), new BinaryCommandOperator_Editor.BinaryCommandOperator_generic_cellMenu_ppd0db_b0a0()}));
     return editorCell;
   }
 
-  public static class ReplaceWith_BinaryOperation_cellMenu_ppd0db_a0b0 extends AbstractCellMenuPart_ReplaceNode_CustomNodeConcept {
-    public ReplaceWith_BinaryOperation_cellMenu_ppd0db_a0b0() {
+  public static class ReplaceWith_BinaryOperation_cellMenu_ppd0db_a0a0 extends AbstractCellMenuPart_ReplaceNode_CustomNodeConcept {
+    public ReplaceWith_BinaryOperation_cellMenu_ppd0db_a0a0() {
     }
 
     public String getReplacementConceptName() {
@@ -93,8 +67,8 @@ public class BinaryCommandOperator_Editor extends DefaultNodeEditor {
     }
   }
 
-  public static class BinaryCommandOperator_generic_cellMenu_ppd0db_b0b0 extends AbstractCellMenuPart_Generic_Group {
-    public BinaryCommandOperator_generic_cellMenu_ppd0db_b0b0() {
+  public static class BinaryCommandOperator_generic_cellMenu_ppd0db_b0a0 extends AbstractCellMenuPart_Generic_Group {
+    public BinaryCommandOperator_generic_cellMenu_ppd0db_b0a0() {
     }
 
     public List<?> createParameterObjects(SNode node, IScope scope, IOperationContext operationContext, EditorContext editorContext) {
@@ -140,26 +114,5 @@ public class BinaryCommandOperator_Editor extends DefaultNodeEditor {
     public String getDescriptionText_internal(SubstituteAction parameterObject) {
       return parameterObject.getDescriptionText(null);
     }
-  }
-
-  private EditorCell createRefNode_ppd0db_c0(EditorContext editorContext, SNode node) {
-    CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
-    provider.setRole("rightCommand");
-    provider.setNoTargetText("<no rightCommand>");
-    EditorCell editorCell;
-    editorCell = provider.createEditorCell(editorContext);
-    if (editorCell.getRole() == null) {
-      editorCell.setRole("rightCommand");
-    }
-    BinaryOperation_RightArgument_Actions.setCellActions(editorCell, node, editorContext);
-    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
-    SNode attributeConcept = provider.getRoleAttribute();
-    Class attributeKind = provider.getRoleAttributeClass();
-    if (attributeConcept != null) {
-      IOperationContext opContext = editorContext.getOperationContext();
-      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
-      return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
-    } else
-    return editorCell;
   }
 }

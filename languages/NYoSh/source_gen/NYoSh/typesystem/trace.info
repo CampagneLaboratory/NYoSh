@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <unitInfo fileName="TypesystemDescriptor.java" startLine="8" startPosition="0" endLine="20" endPosition="0" unitName="NYoSh.typesystem.TypesystemDescriptor" />
+  <root nodeRef="r:d274dffc-d0bf-4ec5-bbf4-c1d30ee1f423(NYoSh.typesystem)/1237318323633943221" />
+  <root nodeRef="r:d274dffc-d0bf-4ec5-bbf4-c1d30ee1f423(NYoSh.typesystem)/4903231125778226967" />
   <root nodeRef="r:d274dffc-d0bf-4ec5-bbf4-c1d30ee1f423(NYoSh.typesystem)/8155370969619768452">
     <nodeInfo nodeId="2893726635884035517" fileName="typeof_ConceptFunctionParameter_outputReader_InferenceRule.java" startLine="21" startPosition="5" endLine="22" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="2893726635884035517" fileName="typeof_ConceptFunctionParameter_outputReader_InferenceRule.java" startLine="22" startPosition="46" endLine="23" endPosition="182" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />

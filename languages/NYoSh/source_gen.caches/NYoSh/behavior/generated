@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-90h5rzu7kjczvdd2dcaq8mx1xriofrx">
+<dependencies version="2" modelHash="ac2vtourv36aaemt2s092h7eb8l4t8g">
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
-  <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.extapi.model(MPS.Core/jetbrains.mps.extapi.model@java_stub)" />
-  <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel(MPS.Core/jetbrains.mps.smodel@java_stub)" />
   <dep model="f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.model(MPS.OpenAPI/org.jetbrains.mps.openapi.model@java_stub)" />
   <dep model="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
@@ -16,15 +14,19 @@
   <dep model="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" />
   <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
   <dep model="r:3b7ed80f-6cfd-45bc-b051-2f66c620dd27(jetbrains.mps.lang.traceable.structure)" />
-  <dep model="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" hash="-8mn9b2rmbs69xtqfu9ux63my299o30a" />
+  <dep model="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" hash="-2x25nz4xqkb8k1n5q17eau4qbp4kmeg" />
   <dep model="r:7f489494-339f-481c-be61-2af4deb51551(jetbrains.mps.execution.util.behavior)" />
   <dep model="r:95397225-9080-48bc-b1aa-0ce7c4f3d2ce(jetbrains.mps.lang.traceable.behavior)" />
   <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
   <dep model="r:fa713d69-08ea-4732-b1f2-cb07f9e103ef(jetbrains.mps.execution.util.structure)" />
-  <common hash="-cevaq3419i8o7grsravweou25sl8796" dependsOnNodes="true">
+  <common hash="87k04yapmcglze53gbdubhg3zwywqua" dependsOnNodes="true">
+    <dep root="1237318323632240235" />
+    <dep root="1237318323632258951" />
     <dep root="4903231125778801446" />
     <dep root="4903231125778908791" />
+    <dep root="5651321229811872425" />
+    <dep root="5651321229814097021" />
     <dep root="8155370969619623119" />
     <dep root="8155370969620027834" />
     <dep model="f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.model(MPS.OpenAPI/org.jetbrains.mps.openapi.model@java_stub)" />
@@ -52,6 +54,7 @@
     <file name="ConsumeCommandOutputWithStream_BehaviorDescriptor.java" />
     <file name="ExecuteCommand_BehaviorDescriptor.java" />
     <file name="GStringCommand_BehaviorDescriptor.java" />
+    <file name="OrCommandOperator_BehaviorDescriptor.java" />
     <file name="PipeCommandOperator_BehaviorDescriptor.java" />
     <file name="Script_BehaviorDescriptor.java" />
     <file name="SemiColonCommandOperator_BehaviorDescriptor.java" />
@@ -76,18 +79,13 @@
     <dep model="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" />
     <file name="ConceptFunction_ConsumeOutputReaderBlock_Behavior.java" />
   </source>
-  <source id="4903231125778801446" name="BinaryCommandOperator_Behavior" hash="d2vqfignmjzrmhjqbkx3mfvkgbve1rg">
-    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
-    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
-    <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.extapi.model(MPS.Core/jetbrains.mps.extapi.model@java_stub)" />
-    <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel(MPS.Core/jetbrains.mps.smodel@java_stub)" />
+  <source id="4903231125778801446" name="BinaryCommandOperator_Behavior" hash="-bwktkxf6zxzfa8g8iz8htu0n2uyj43">
     <dep model="f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.model(MPS.OpenAPI/org.jetbrains.mps.openapi.model@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" />
     <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
     <dep model="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" />
-    <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" />
     <file name="BinaryCommandOperator_Behavior.java" />
   </source>
   <source id="4903231125778908791" name="ExecuteCommand_Behavior" hash="-e801aendf08tz67c7ar3y09nn00vd8m">
@@ -104,6 +102,45 @@
     <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" />
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="ExecuteCommand_Behavior.java" />
+  </source>
+  <source id="1237318323632240235" name="AndCommandOperator_Behavior" hash="6q4qzjoo98jmwpdn6v43j8j0jwp8ib5">
+    <dep model="f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.model(MPS.OpenAPI/org.jetbrains.mps.openapi.model@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
+    <dep model="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" />
+    <file name="AndCommandOperator_Behavior.java" />
+  </source>
+  <source id="1237318323632258951" name="PipeCommandOperator_Behavior" hash="4lm16ci7gkd94eoylz8cm4otkhzpf67">
+    <dep model="f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.model(MPS.OpenAPI/org.jetbrains.mps.openapi.model@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
+    <dep model="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" />
+    <file name="PipeCommandOperator_Behavior.java" />
+  </source>
+  <source id="5651321229811872425" name="GStringCommand_Behavior" hash="19iyfrdip4bkbqg7k8b9wvtqfgm3680">
+    <dep model="f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.model(MPS.OpenAPI/org.jetbrains.mps.openapi.model@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
+    <dep model="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" />
+    <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
+    <file name="GStringCommand_Behavior.java" />
+  </source>
+  <source id="5651321229814097021" name="OrCommandOperator_Behavior" hash="-ciq4cf3iqfmplhr30wggon2o6df8on4">
+    <dep model="f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.model(MPS.OpenAPI/org.jetbrains.mps.openapi.model@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
+    <dep model="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" />
+    <file name="OrCommandOperator_Behavior.java" />
   </source>
 </dependencies>
 

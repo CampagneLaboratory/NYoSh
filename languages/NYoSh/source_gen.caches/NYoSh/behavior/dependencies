@@ -6,6 +6,10 @@
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
+  <dependency className="NYoSh.behavior.AndCommandOperator_Behavior" file="AndCommandOperator_Behavior.java">
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+  </dependency>
   <dependency className="NYoSh.behavior.AndCommandOperator_BehaviorDescriptor" file="AndCommandOperator_BehaviorDescriptor.java">
     <classNode dependClassName="NYoSh.behavior.BinaryCommandOperator_BehaviorDescriptor" />
     <classNode dependClassName="java.lang.Override" />
@@ -23,6 +27,7 @@
     <classNode dependClassName="NYoSh.behavior.ConsumeCommandOutputWithStream_BehaviorDescriptor" />
     <classNode dependClassName="NYoSh.behavior.ExecuteCommand_BehaviorDescriptor" />
     <classNode dependClassName="NYoSh.behavior.GStringCommand_BehaviorDescriptor" />
+    <classNode dependClassName="NYoSh.behavior.OrCommandOperator_BehaviorDescriptor" />
     <classNode dependClassName="NYoSh.behavior.PipeCommandOperator_BehaviorDescriptor" />
     <classNode dependClassName="NYoSh.behavior.Script_BehaviorDescriptor" />
     <classNode dependClassName="NYoSh.behavior.SemiColonCommandOperator_BehaviorDescriptor" />
@@ -33,8 +38,7 @@
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor" />
   </dependency>
   <dependency className="NYoSh.behavior.BinaryCommandOperator_Behavior" file="BinaryCommandOperator_Behavior.java">
-    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations" />
-    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
   </dependency>
   <dependency className="NYoSh.behavior.BinaryCommandOperator_BehaviorDescriptor" file="BinaryCommandOperator_BehaviorDescriptor.java">
@@ -125,11 +129,33 @@
     <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.Statement_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
+  <dependency className="NYoSh.behavior.GStringCommand_Behavior" file="GStringCommand_Behavior.java">
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNodeAccessUtil" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.persistence.PersistenceFacade" />
+  </dependency>
   <dependency className="NYoSh.behavior.GStringCommand_BehaviorDescriptor" file="GStringCommand_BehaviorDescriptor.java">
     <classNode dependClassName="NYoSh.behavior.AbstractCommand_BehaviorDescriptor" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="NYoSh.behavior.OrCommandOperator_Behavior" file="OrCommandOperator_Behavior.java">
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+  </dependency>
+  <dependency className="NYoSh.behavior.OrCommandOperator_BehaviorDescriptor" file="OrCommandOperator_BehaviorDescriptor.java">
+    <classNode dependClassName="NYoSh.behavior.BinaryCommandOperator_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="NYoSh.behavior.PipeCommandOperator_Behavior" file="PipeCommandOperator_Behavior.java">
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
   </dependency>
   <dependency className="NYoSh.behavior.PipeCommandOperator_BehaviorDescriptor" file="PipeCommandOperator_BehaviorDescriptor.java">
     <classNode dependClassName="NYoSh.behavior.BinaryCommandOperator_BehaviorDescriptor" />

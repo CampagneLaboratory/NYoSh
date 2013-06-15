@@ -12,7 +12,7 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
 
   public BehaviorDescriptor getDescriptor(String fqName) {
     switch (Arrays.binarySearch(stringSwitchCases_846f5o_a0a0b, fqName)) {
-      case 11:
+      case 12:
         return new Script_BehaviorDescriptor();
       case 8:
         return new ExecuteCommand_BehaviorDescriptor();
@@ -32,16 +32,18 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return new ConsumeCommandOutputWithReader_BehaviorDescriptor();
       case 0:
         return new AndCommandOperator_BehaviorDescriptor();
-      case 12:
+      case 13:
         return new SemiColonCommandOperator_BehaviorDescriptor();
-      case 10:
+      case 11:
         return new PipeCommandOperator_BehaviorDescriptor();
       case 1:
         return new BinaryCommandOperator_BehaviorDescriptor();
+      case 10:
+        return new OrCommandOperator_BehaviorDescriptor();
       default:
         return BehaviorAspectInterpreted.getInstance().getDescriptor(fqName);
     }
   }
 
-  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"NYoSh.structure.AndCommandOperator", "NYoSh.structure.BinaryCommandOperator", "NYoSh.structure.ConceptFunctionParameter_outputReader", "NYoSh.structure.ConceptFunctionParameter_outputStream", "NYoSh.structure.ConceptFunction_ConsumeOutputReaderBlock", "NYoSh.structure.ConceptFunction_ConsumeOutputStreamBlock", "NYoSh.structure.ConsumeCommandOutputWithReader", "NYoSh.structure.ConsumeCommandOutputWithStream", "NYoSh.structure.ExecuteCommand", "NYoSh.structure.GStringCommand", "NYoSh.structure.PipeCommandOperator", "NYoSh.structure.Script", "NYoSh.structure.SemiColonCommandOperator"};
+  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"NYoSh.structure.AndCommandOperator", "NYoSh.structure.BinaryCommandOperator", "NYoSh.structure.ConceptFunctionParameter_outputReader", "NYoSh.structure.ConceptFunctionParameter_outputStream", "NYoSh.structure.ConceptFunction_ConsumeOutputReaderBlock", "NYoSh.structure.ConceptFunction_ConsumeOutputStreamBlock", "NYoSh.structure.ConsumeCommandOutputWithReader", "NYoSh.structure.ConsumeCommandOutputWithStream", "NYoSh.structure.ExecuteCommand", "NYoSh.structure.GStringCommand", "NYoSh.structure.OrCommandOperator", "NYoSh.structure.PipeCommandOperator", "NYoSh.structure.Script", "NYoSh.structure.SemiColonCommandOperator"};
 }

@@ -12,7 +12,7 @@
   <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" />
   <dep model="r:00000000-0000-4000-0000-011c8959030d(jetbrains.mps.lang.constraints.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c8959030e(jetbrains.mps.lang.constraints.generator.baseLanguage.template.main@generator)" />
-  <dep model="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" hash="-8mn9b2rmbs69xtqfu9ux63my299o30a" />
+  <dep model="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" hash="-2x25nz4xqkb8k1n5q17eau4qbp4kmeg" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
   <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
   <common hash="3axflrcpw3x6akd6lfi53akp4gcvt3c" dependsOnNodes="true">
