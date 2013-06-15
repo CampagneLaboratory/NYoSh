@@ -16,7 +16,7 @@
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1012285663620335803" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="components" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1..n" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="1012285663620335805" resolveInfo="GStringComponent" />
     </node>
   </root>
@@ -43,7 +43,7 @@
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
       <property name="role" nameId="tpce.1071599776563" value="varRef" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link  role="target" roleId="tpce.1071599976176" targetNodeId="tpee.1068431474542" resolveInfo="VariableDeclaration" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="tpee.1068431474542" resolveInfo="VariableDeclaration" />
     </node>
   </root>
 </model>
