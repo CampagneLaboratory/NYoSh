@@ -12,13 +12,17 @@ public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime
 
   public ConstraintsDescriptor getDescriptor(String fqName) {
     switch (Arrays.binarySearch(stringSwitchCases_2qnle6_a0a0b, fqName)) {
-      case 0:
+      case 2:
         return new ConsumeCommandOutputWithStream_Constraints();
+      case 1:
+        return new ConceptFunctionParameter_outputStream_Constraints();
+      case 0:
+        return new ConceptFunctionParameter_outputReader_Constraints();
       default:
         // todo: illegal in some cases? 
         return new BaseConstraintsDescriptor(fqName);
     }
   }
 
-  private static String[] stringSwitchCases_2qnle6_a0a0b = new String[]{"NYoSh.structure.ConsumeCommandOutputWithStream"};
+  private static String[] stringSwitchCases_2qnle6_a0a0b = new String[]{"NYoSh.structure.ConceptFunctionParameter_outputReader", "NYoSh.structure.ConceptFunctionParameter_outputStream", "NYoSh.structure.ConsumeCommandOutputWithStream"};
 }

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <unitInfo fileName="QueriesGenerated.java" startLine="12" startPosition="0" endLine="18" endPosition="0" unitName="NYoSh.actions.QueriesGenerated" />
+  <root nodeRef="r:e81db3c8-c3eb-4adc-83ad-930c89141029(NYoSh.actions)/4903231125777723307">
+    <nodeInfo nodeId="4903231125777723308" fileName="QueriesGenerated.java" startLine="13" startPosition="220" endLine="14" endPosition="93" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4903231125777723308" fileName="QueriesGenerated.java" startLine="14" startPosition="93" endLine="15" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4903231125777723308" fileName="QueriesGenerated.java" startLine="13" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="nodeSubstituteActionsBuilder_ActionsFactory_BinaryCommandOperator_4903231125777723308#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/action/NodeSubstituteActionsFactoryContext;)Ljava/util/List;" />
+    <scopeInfo nodeId="4903231125777723308" fileName="QueriesGenerated.java" startLine="13" startPosition="220" endLine="15" endPosition="18">
+      <varInfo nodeId="4903231125777723308" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="4903231125777723308" fileName="QueriesGenerated.java" startLine="13" startPosition="0" endLine="17" endPosition="0">
+      <varInfo nodeId="4903231125777723308" varName="_context" />
+      <varInfo nodeId="4903231125777723308" varName="operationContext" />
+    </scopeInfo>
+  </root>
+</debugInfo>
+

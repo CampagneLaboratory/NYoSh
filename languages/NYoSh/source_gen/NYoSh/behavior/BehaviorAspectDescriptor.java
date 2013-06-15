@@ -12,28 +12,36 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
 
   public BehaviorDescriptor getDescriptor(String fqName) {
     switch (Arrays.binarySearch(stringSwitchCases_846f5o_a0a0b, fqName)) {
-      case 8:
+      case 11:
         return new Script_BehaviorDescriptor();
-      case 6:
+      case 8:
         return new ExecuteCommand_BehaviorDescriptor();
-      case 5:
-        return new ConsumeCommandOutputWithStream_BehaviorDescriptor();
       case 7:
+        return new ConsumeCommandOutputWithStream_BehaviorDescriptor();
+      case 9:
         return new GStringCommand_BehaviorDescriptor();
-      case 3:
+      case 5:
         return new ConceptFunction_ConsumeOutputStreamBlock_BehaviorDescriptor();
-      case 1:
+      case 3:
         return new ConceptFunctionParameter_outputStream_BehaviorDescriptor();
-      case 2:
-        return new ConceptFunction_ConsumeOutputReaderBlock_BehaviorDescriptor();
-      case 0:
-        return new ConceptFunctionParameter_outputReader_BehaviorDescriptor();
       case 4:
+        return new ConceptFunction_ConsumeOutputReaderBlock_BehaviorDescriptor();
+      case 2:
+        return new ConceptFunctionParameter_outputReader_BehaviorDescriptor();
+      case 6:
         return new ConsumeCommandOutputWithReader_BehaviorDescriptor();
+      case 0:
+        return new AndCommandOperator_BehaviorDescriptor();
+      case 12:
+        return new SemiColonCommandOperator_BehaviorDescriptor();
+      case 10:
+        return new PipeCommandOperator_BehaviorDescriptor();
+      case 1:
+        return new BinaryCommandOperator_BehaviorDescriptor();
       default:
         return BehaviorAspectInterpreted.getInstance().getDescriptor(fqName);
     }
   }
 
-  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"NYoSh.structure.ConceptFunctionParameter_outputReader", "NYoSh.structure.ConceptFunctionParameter_outputStream", "NYoSh.structure.ConceptFunction_ConsumeOutputReaderBlock", "NYoSh.structure.ConceptFunction_ConsumeOutputStreamBlock", "NYoSh.structure.ConsumeCommandOutputWithReader", "NYoSh.structure.ConsumeCommandOutputWithStream", "NYoSh.structure.ExecuteCommand", "NYoSh.structure.GStringCommand", "NYoSh.structure.Script"};
+  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"NYoSh.structure.AndCommandOperator", "NYoSh.structure.BinaryCommandOperator", "NYoSh.structure.ConceptFunctionParameter_outputReader", "NYoSh.structure.ConceptFunctionParameter_outputStream", "NYoSh.structure.ConceptFunction_ConsumeOutputReaderBlock", "NYoSh.structure.ConceptFunction_ConsumeOutputStreamBlock", "NYoSh.structure.ConsumeCommandOutputWithReader", "NYoSh.structure.ConsumeCommandOutputWithStream", "NYoSh.structure.ExecuteCommand", "NYoSh.structure.GStringCommand", "NYoSh.structure.PipeCommandOperator", "NYoSh.structure.Script", "NYoSh.structure.SemiColonCommandOperator"};
 }

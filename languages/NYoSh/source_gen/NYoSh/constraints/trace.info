@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="9" startPosition="0" endLine="25" endPosition="0" unitName="NYoSh.constraints.ConstraintsAspectDescriptor" />
+  <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="9" startPosition="0" endLine="29" endPosition="0" unitName="NYoSh.constraints.ConstraintsAspectDescriptor" />
   <root nodeRef="r:bbce89e8-2bb0-4c95-b1b7-870a649b438d(NYoSh.constraints)/8155370969619094455">
     <nodeInfo nodeId="8155370969619094455" fileName="ConsumeCommandOutputWithStream_Constraints.java" startLine="14" startPosition="55" endLine="15" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
     <nodeInfo nodeId="8155370969619094455" fileName="ConsumeCommandOutputWithStream_Constraints.java" startLine="19" startPosition="43" endLine="20" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -52,7 +52,93 @@
     </scopeInfo>
     <unitInfo nodeId="8155370969619094455" fileName="ConsumeCommandOutputWithStream_Constraints.java" startLine="13" startPosition="0" endLine="49" endPosition="0" unitName="NYoSh.constraints.ConsumeCommandOutputWithStream_Constraints" />
   </root>
-  <root nodeRef="r:bbce89e8-2bb0-4c95-b1b7-870a649b438d(NYoSh.constraints)/8155370969620209749" />
-  <root nodeRef="r:bbce89e8-2bb0-4c95-b1b7-870a649b438d(NYoSh.constraints)/8155370969620214260" />
+  <root nodeRef="r:bbce89e8-2bb0-4c95-b1b7-870a649b438d(NYoSh.constraints)/8155370969620209749">
+    <nodeInfo nodeId="8155370969620209749" fileName="ConceptFunctionParameter_outputStream_Constraints.java" startLine="15" startPosition="62" endLine="16" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="8155370969620209749" fileName="ConceptFunctionParameter_outputStream_Constraints.java" startLine="20" startPosition="43" endLine="21" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8155370969620209749" fileName="ConceptFunctionParameter_outputStream_Constraints.java" startLine="25" startPosition="200" endLine="26" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8155370969620209749" fileName="ConceptFunctionParameter_outputStream_Constraints.java" startLine="26" startPosition="96" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="8155370969620209749" fileName="ConceptFunctionParameter_outputStream_Constraints.java" startLine="28" startPosition="51" endLine="29" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8155370969620209749" fileName="ConceptFunctionParameter_outputStream_Constraints.java" startLine="30" startPosition="5" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="8155370969620209749" fileName="ConceptFunctionParameter_outputStream_Constraints.java" startLine="31" startPosition="0" endLine="32" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8155370969620213196" fileName="ConceptFunctionParameter_outputStream_Constraints.java" startLine="36" startPosition="189" endLine="37" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8155370969620212345" fileName="ConceptFunctionParameter_outputStream_Constraints.java" startLine="38" startPosition="5" endLine="39" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8155370969620209749" fileName="ConceptFunctionParameter_outputStream_Constraints.java" startLine="42" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="canBeChildBreakingPoint" />
+    <nodeInfo nodeId="8155370969620209749" fileName="ConceptFunctionParameter_outputStream_Constraints.java" startLine="15" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ConceptFunctionParameter_outputStream_Constraints#()V" />
+    <nodeInfo nodeId="8155370969620209749" fileName="ConceptFunctionParameter_outputStream_Constraints.java" startLine="27" startPosition="0" endLine="30" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8155370969620106618" fileName="ConceptFunctionParameter_outputStream_Constraints.java" startLine="35" startPosition="148" endLine="38" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8155370969620209749" fileName="ConceptFunctionParameter_outputStream_Constraints.java" startLine="19" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasOwnCanBeChildMethod#()Z" />
+    <nodeInfo nodeId="8155370969620209749" fileName="ConceptFunctionParameter_outputStream_Constraints.java" startLine="35" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="static_canBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/smodel/IOperationContext;)Z" />
+    <nodeInfo nodeId="8155370969620209749" fileName="ConceptFunctionParameter_outputStream_Constraints.java" startLine="24" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="canBeChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
+    <scopeInfo nodeId="8155370969620209749" fileName="ConceptFunctionParameter_outputStream_Constraints.java" startLine="15" startPosition="62" endLine="16" endPosition="67" />
+    <scopeInfo nodeId="8155370969620209749" fileName="ConceptFunctionParameter_outputStream_Constraints.java" startLine="20" startPosition="43" endLine="21" endPosition="16" />
+    <scopeInfo nodeId="8155370969620209749" fileName="ConceptFunctionParameter_outputStream_Constraints.java" startLine="28" startPosition="51" endLine="29" endPosition="67" />
+    <scopeInfo nodeId="8155370969620106621" fileName="ConceptFunctionParameter_outputStream_Constraints.java" startLine="36" startPosition="189" endLine="37" endPosition="19" />
+    <scopeInfo nodeId="8155370969620209749" fileName="ConceptFunctionParameter_outputStream_Constraints.java" startLine="15" startPosition="0" endLine="18" endPosition="0" />
+    <scopeInfo nodeId="8155370969620209749" fileName="ConceptFunctionParameter_outputStream_Constraints.java" startLine="19" startPosition="0" endLine="23" endPosition="0" />
+    <scopeInfo nodeId="8155370969620209751" fileName="ConceptFunctionParameter_outputStream_Constraints.java" startLine="35" startPosition="148" endLine="39" endPosition="16" />
+    <scopeInfo nodeId="8155370969620209749" fileName="ConceptFunctionParameter_outputStream_Constraints.java" startLine="35" startPosition="0" endLine="41" endPosition="0">
+      <varInfo nodeId="8155370969620209749" varName="childConcept" />
+      <varInfo nodeId="8155370969620209749" varName="link" />
+      <varInfo nodeId="8155370969620209749" varName="node" />
+      <varInfo nodeId="8155370969620209749" varName="operationContext" />
+      <varInfo nodeId="8155370969620209749" varName="parentNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="8155370969620209749" fileName="ConceptFunctionParameter_outputStream_Constraints.java" startLine="25" startPosition="200" endLine="32" endPosition="18">
+      <varInfo nodeId="8155370969620209749" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="8155370969620209749" fileName="ConceptFunctionParameter_outputStream_Constraints.java" startLine="24" startPosition="0" endLine="34" endPosition="0">
+      <varInfo nodeId="8155370969620209749" varName="checkingNodeContext" />
+      <varInfo nodeId="8155370969620209749" varName="childConcept" />
+      <varInfo nodeId="8155370969620209749" varName="link" />
+      <varInfo nodeId="8155370969620209749" varName="node" />
+      <varInfo nodeId="8155370969620209749" varName="operationContext" />
+      <varInfo nodeId="8155370969620209749" varName="parentNode" />
+    </scopeInfo>
+    <unitInfo nodeId="8155370969620209749" fileName="ConceptFunctionParameter_outputStream_Constraints.java" startLine="14" startPosition="0" endLine="44" endPosition="0" unitName="NYoSh.constraints.ConceptFunctionParameter_outputStream_Constraints" />
+  </root>
+  <root nodeRef="r:bbce89e8-2bb0-4c95-b1b7-870a649b438d(NYoSh.constraints)/8155370969620214260">
+    <nodeInfo nodeId="8155370969620214260" fileName="ConceptFunctionParameter_outputReader_Constraints.java" startLine="15" startPosition="62" endLine="16" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="8155370969620214260" fileName="ConceptFunctionParameter_outputReader_Constraints.java" startLine="20" startPosition="43" endLine="21" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8155370969620214260" fileName="ConceptFunctionParameter_outputReader_Constraints.java" startLine="25" startPosition="200" endLine="26" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8155370969620214260" fileName="ConceptFunctionParameter_outputReader_Constraints.java" startLine="26" startPosition="96" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="8155370969620214260" fileName="ConceptFunctionParameter_outputReader_Constraints.java" startLine="28" startPosition="51" endLine="29" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8155370969620214260" fileName="ConceptFunctionParameter_outputReader_Constraints.java" startLine="30" startPosition="5" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="8155370969620214260" fileName="ConceptFunctionParameter_outputReader_Constraints.java" startLine="31" startPosition="0" endLine="32" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8155370969620214715" fileName="ConceptFunctionParameter_outputReader_Constraints.java" startLine="36" startPosition="189" endLine="37" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8155370969620214717" fileName="ConceptFunctionParameter_outputReader_Constraints.java" startLine="38" startPosition="5" endLine="39" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8155370969620214260" fileName="ConceptFunctionParameter_outputReader_Constraints.java" startLine="42" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="canBeChildBreakingPoint" />
+    <nodeInfo nodeId="8155370969620214260" fileName="ConceptFunctionParameter_outputReader_Constraints.java" startLine="15" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ConceptFunctionParameter_outputReader_Constraints#()V" />
+    <nodeInfo nodeId="8155370969620214260" fileName="ConceptFunctionParameter_outputReader_Constraints.java" startLine="27" startPosition="0" endLine="30" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8155370969620214707" fileName="ConceptFunctionParameter_outputReader_Constraints.java" startLine="35" startPosition="148" endLine="38" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8155370969620214260" fileName="ConceptFunctionParameter_outputReader_Constraints.java" startLine="19" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasOwnCanBeChildMethod#()Z" />
+    <nodeInfo nodeId="8155370969620214260" fileName="ConceptFunctionParameter_outputReader_Constraints.java" startLine="35" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="static_canBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/smodel/IOperationContext;)Z" />
+    <nodeInfo nodeId="8155370969620214260" fileName="ConceptFunctionParameter_outputReader_Constraints.java" startLine="24" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="canBeChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
+    <scopeInfo nodeId="8155370969620214260" fileName="ConceptFunctionParameter_outputReader_Constraints.java" startLine="15" startPosition="62" endLine="16" endPosition="67" />
+    <scopeInfo nodeId="8155370969620214260" fileName="ConceptFunctionParameter_outputReader_Constraints.java" startLine="20" startPosition="43" endLine="21" endPosition="16" />
+    <scopeInfo nodeId="8155370969620214260" fileName="ConceptFunctionParameter_outputReader_Constraints.java" startLine="28" startPosition="51" endLine="29" endPosition="67" />
+    <scopeInfo nodeId="8155370969620214714" fileName="ConceptFunctionParameter_outputReader_Constraints.java" startLine="36" startPosition="189" endLine="37" endPosition="19" />
+    <scopeInfo nodeId="8155370969620214260" fileName="ConceptFunctionParameter_outputReader_Constraints.java" startLine="15" startPosition="0" endLine="18" endPosition="0" />
+    <scopeInfo nodeId="8155370969620214260" fileName="ConceptFunctionParameter_outputReader_Constraints.java" startLine="19" startPosition="0" endLine="23" endPosition="0" />
+    <scopeInfo nodeId="8155370969620214262" fileName="ConceptFunctionParameter_outputReader_Constraints.java" startLine="35" startPosition="148" endLine="39" endPosition="16" />
+    <scopeInfo nodeId="8155370969620214260" fileName="ConceptFunctionParameter_outputReader_Constraints.java" startLine="35" startPosition="0" endLine="41" endPosition="0">
+      <varInfo nodeId="8155370969620214260" varName="childConcept" />
+      <varInfo nodeId="8155370969620214260" varName="link" />
+      <varInfo nodeId="8155370969620214260" varName="node" />
+      <varInfo nodeId="8155370969620214260" varName="operationContext" />
+      <varInfo nodeId="8155370969620214260" varName="parentNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="8155370969620214260" fileName="ConceptFunctionParameter_outputReader_Constraints.java" startLine="25" startPosition="200" endLine="32" endPosition="18">
+      <varInfo nodeId="8155370969620214260" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="8155370969620214260" fileName="ConceptFunctionParameter_outputReader_Constraints.java" startLine="24" startPosition="0" endLine="34" endPosition="0">
+      <varInfo nodeId="8155370969620214260" varName="checkingNodeContext" />
+      <varInfo nodeId="8155370969620214260" varName="childConcept" />
+      <varInfo nodeId="8155370969620214260" varName="link" />
+      <varInfo nodeId="8155370969620214260" varName="node" />
+      <varInfo nodeId="8155370969620214260" varName="operationContext" />
+      <varInfo nodeId="8155370969620214260" varName="parentNode" />
+    </scopeInfo>
+    <unitInfo nodeId="8155370969620214260" fileName="ConceptFunctionParameter_outputReader_Constraints.java" startLine="14" startPosition="0" endLine="44" endPosition="0" unitName="NYoSh.constraints.ConceptFunctionParameter_outputReader_Constraints" />
+  </root>
 </debugInfo>
 

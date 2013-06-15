@@ -10,44 +10,41 @@ public class HelloWorld2 {
   public static void main(String[] arguments) {
     String command = "ls";
     String option = "-ltr";
-    {
-      String commandLine = command+" "+option;
-      try {
-        System.out.println("executing: " + commandLine);
-        Process p = Runtime.getRuntime().exec(commandLine.split(" "));
-        {
-          // consume stream  
-          InputStream stream = p.getInputStream();
-          System.out.println("STATEMENTS GO HERE" + stream);
-        }
-
-        p.waitFor();
-
-        if (p.exitValue() != 0) {
-        }
-
-      } catch (Exception e) {
+    try {
+      System.out.println("executing: " + command+" "+option);
+      Process p = Runtime.getRuntime().exec(command+" "+option);
+      Process p = Runtime.getRuntime().exec(<!TextGen not found for 'NYoSh.structure.ConceptFunction_ConsumeOutputStreamBlock'!>);
+      {
+        // consume stream  
+        InputStream stream = p.getInputStream();
+        System.out.println("STATEMENTS GO HERE" + stream);
       }
+
+      p.waitFor();
+
+      if (p.exitValue() != 0) {
+      }
+
+    } catch (Exception e) {
     }
-    {
-      String commandLine = command+" "+option;
-      try {
-        System.out.println("executing: " + commandLine);
-        Process p = Runtime.getRuntime().exec(commandLine.split(" "));
-        {
-          // consume reader 
-          InputStream stream = p.getInputStream();
-          BufferedReader reader = new BufferedReader(new InputStreamReader(stream));
-          System.out.println("CONSUME READER HERE" + reader);
-        }
-
-        p.waitFor();
-
-        if (p.exitValue() != 0) {
-        }
-
-      } catch (Exception e) {
+    try {
+      System.out.println("executing: " + command+" "+option);
+      Process p = Runtime.getRuntime().exec(command+" "+option);
+      Process p = Runtime.getRuntime().exec(
+      <!TextGen not found for 'NYoSh.structure.ConceptFunction_ConsumeOutputReaderBlock'!>;);
+      {
+        // consume reader 
+        InputStream stream = p.getInputStream();
+        BufferedReader reader = new BufferedReader(new InputStreamReader(stream));
+        System.out.println("CONSUME READER HERE" + reader);
       }
+
+      p.waitFor();
+
+      if (p.exitValue() != 0) {
+      }
+
+    } catch (Exception e) {
     }
 
   }

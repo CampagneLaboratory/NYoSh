@@ -24,5 +24,11 @@
     </dependencies>
     <rename id="4tvk.8155370969619637137" type="CONCEPT" from="ConceptFunctionParameter_output" to="ConceptFunctionParameter_outputStream" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="3" />
+    </dependencies>
+    <rename id="4tvk.4903231125777493118" type="CONCEPT" from="SemiColonCommandOPerator" to="SemiColonCommandOperator" />
+  </StructureModification>
 </history>
 
