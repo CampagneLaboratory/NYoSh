@@ -38,7 +38,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 11:
         return new ConceptDescriptorBuilder("NYoSh.structure.OrCommandOperator").super_("NYoSh.structure.BinaryCommandOperator").parents("NYoSh.structure.BinaryCommandOperator").alias("||", "").create();
       case 12:
-        return new ConceptDescriptorBuilder("NYoSh.structure.PipeCommandOperator").super_("NYoSh.structure.BinaryCommandOperator").parents("NYoSh.structure.BinaryCommandOperator").alias("|", "").create();
+        return new ConceptDescriptorBuilder("NYoSh.structure.PipeCommandOperator").super_("NYoSh.structure.BinaryCommandOperator").parents("NYoSh.structure.BinaryCommandOperator").alias("|", "").helpURL("http://goby.campagnelab.org").create();
       case 13:
         return new ConceptDescriptorBuilder("NYoSh.structure.Script").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept", "jetbrains.mps.execution.util.structure.IMainClass").children(new String[]{"statements"}, new boolean[]{false}).create();
       case 14:

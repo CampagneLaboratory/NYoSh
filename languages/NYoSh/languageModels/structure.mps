@@ -128,6 +128,7 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4903231125777596373" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="PipeCommandOperator" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="|" />
+    <property name="helpURL" nameId="tpce.2465654535473034588" value="http://goby.campagnelab.org" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="4903231125777680052" resolveInfo="BinaryCommandOperator" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4903231125777680052" nodeInfo="ig">

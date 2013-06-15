@@ -354,6 +354,16 @@
         <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.PipeCommandOperator" typeId="4tvk.4903231125777596373" id="5651321229814335929">
           <property name="operator" nameId="4tvk.1237318323632149032" value="3" />
         </node>
+        <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.GStringCommand" typeId="4tvk.8155370969619067580" id="5651321229814443173">
+          <node role="command" roleId="4tvk.8155370969619067612" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="5651321229814443174">
+            <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="5651321229814443175">
+              <property name="value" nameId="f2ff.1012285663620336023" value="&lt;replace-this&gt;" />
+            </node>
+          </node>
+        </node>
+        <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.OrCommandOperator" typeId="4tvk.5651321229814097020" id="5651321229814464382">
+          <property name="operator" nameId="4tvk.1237318323632149032" value="2" />
+        </node>
         <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.GStringCommand" typeId="4tvk.8155370969619067580" id="5651321229814192100">
           <node role="command" roleId="4tvk.8155370969619067612" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="5651321229814192101">
             <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="5651321229814192102">
@@ -369,6 +379,11 @@
             <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="5651321229814192106">
               <property name="value" nameId="f2ff.1012285663620336023" value=" echo DONE!&quot;" />
             </node>
+          </node>
+        </node>
+        <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.ConsumeCommandOutputWithReader" typeId="4tvk.8155370969620237552" id="5651321229814443209">
+          <node role="readerExpression" roleId="4tvk.8155370969620237554" type="4tvk.ConceptFunction_ConsumeOutputReaderBlock" typeId="4tvk.8155370969620027248" id="5651321229814443211">
+            <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="5651321229814443213" />
           </node>
         </node>
       </node>
