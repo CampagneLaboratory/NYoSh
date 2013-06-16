@@ -16,6 +16,7 @@
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.nyosh.gstring.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/NYoSh.build/NYoSh.build.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/NYoSh.sandbox/NYoSh.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/../GStringJavaCode/solutions/GStringJavaCode.sandbox/GStringJavaCode.sandbox.msd" folder="" />
     </projectModules>
     <genConfs />
   </component>

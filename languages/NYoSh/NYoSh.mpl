@@ -9,12 +9,16 @@
   <generators>
     <generator name="ToJava" generatorUID="NYoSh#8197864363320338521" uuid="b0ebc3f2-c15d-4fad-bdc5-56b3ea4437a2">
       <models>
-        <modelRoot contentPath="${module}" type="default" />
+        <modelRoot contentPath="${module}" type="default">
+          <sourceRoot location="generator" />
+        </modelRoot>
       </models>
       <external-templates />
       <dependencies>
+        <dependency reexport="false">3b27e3ac-d62d-4ccc-9a44-84dbed0349e3(GStringJavaCode.sandbox)</dependency>
         <dependency reexport="false">f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</dependency>
         <dependency reexport="true">760a0a8c-eabb-4521-8bfd-65db761a9ba3(jetbrains.mps.baseLanguage.logging)</dependency>
+        <dependency reexport="false">642f71f8-327a-425b-84f9-44ad58786d27(jetbrains.mps.lang.project.modules)</dependency>
       </dependencies>
       <usedLanguages>
         <usedLanguage>b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)</usedLanguage>
@@ -27,11 +31,12 @@
     </generator>
   </generators>
   <stubModelEntries>
-    <stubModelEntry path="${module}/languageModels/pattern-matcher-1.0.1-SNAPSHOT.jar" />
+    <stubModelEntry path="/Users/fac2003/MPSProjects/GStringJavaCode/GStringJavaCode.mpr" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
     <dependency reexport="false">3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)</dependency>
+    <dependency reexport="false">3b27e3ac-d62d-4ccc-9a44-84dbed0349e3(GStringJavaCode.sandbox)</dependency>
     <dependency reexport="true">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
     <dependency reexport="false">6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)</dependency>
     <dependency reexport="false">1ed103c3-3aa6-49b7-9c21-6765ee11f224(MPS.Editor)</dependency>

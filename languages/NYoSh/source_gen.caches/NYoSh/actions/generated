@@ -4,7 +4,7 @@
   <dep model="r:00000000-0000-4000-0000-011c895902a9(jetbrains.mps.lang.actions.generator.baseLanguage.template.main@generator)" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" />
-  <dep model="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" hash="168jlhd24ika96hjvcg1atta9330e4s" />
+  <dep model="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" hash="-dn1kd7nxcsnkits3cdw40z9ipy0smmz" />
   <common hash="ma550qjkijyrhmm9us5he4xhpcar09">
     <dep root="4903231125777723307" />
     <dep model="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.openapi.editor.cells(MPS.Editor/jetbrains.mps.openapi.editor.cells@java_stub)" />

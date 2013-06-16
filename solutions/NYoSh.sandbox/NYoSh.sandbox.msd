@@ -5,8 +5,12 @@
       <sourceRoot location="models" />
     </modelRoot>
   </models>
+  <stubModelEntries>
+    <stubModelEntry path="/Users/fac2003/IdeaProjects/git/GStringPatternMatcher/target/pattern-matcher-1.0.1-SNAPSHOT.jar" />
+  </stubModelEntries>
   <sourcePath />
   <dependencies>
+    <dependency reexport="false">3b27e3ac-d62d-4ccc-9a44-84dbed0349e3(GStringJavaCode.sandbox)</dependency>
     <dependency reexport="true">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
     <dependency reexport="true">a21a7294-c126-4f63-8335-8fecd8c28c7e(NYoSh)</dependency>
     <dependency reexport="true">f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</dependency>

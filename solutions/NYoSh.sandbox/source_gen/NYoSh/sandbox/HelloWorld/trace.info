@@ -1,7 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <root nodeRef="r:c7c3835a-fef5-44ab-bbab-4406619e1dcc(NYoSh.sandbox.HelloWorld)/6254274815096603175" />
-  <root nodeRef="r:c7c3835a-fef5-44ab-bbab-4406619e1dcc(NYoSh.sandbox.HelloWorld)/8155370969621420701" />
-  <root nodeRef="r:c7c3835a-fef5-44ab-bbab-4406619e1dcc(NYoSh.sandbox.HelloWorld)/851869296737001729" />
+  <root nodeRef="r:c7c3835a-fef5-44ab-bbab-4406619e1dcc(NYoSh.sandbox.HelloWorld)/6254274815096603175">
+    <nodeInfo nodeId="851869296734749676" fileName="HelloWorld.java" startLine="8" startPosition="47" endLine="9" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="851869296734950113" fileName="HelloWorld.java" startLine="9" startPosition="26" endLine="10" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8155370969619344171" fileName="HelloWorld.java" startLine="11" startPosition="5" endLine="12" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8155370969619344171" fileName="HelloWorld.java" startLine="12" startPosition="58" endLine="13" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8155370969619344171" fileName="HelloWorld.java" startLine="13" startPosition="50" endLine="14" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8155370969619344171" fileName="HelloWorld.java" startLine="14" startPosition="33" endLine="15" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8155370969619442723" fileName="HelloWorld.java" startLine="17" startPosition="5" endLine="18" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8155370969619442723" fileName="HelloWorld.java" startLine="18" startPosition="58" endLine="19" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8155370969619442723" fileName="HelloWorld.java" startLine="19" startPosition="36" endLine="20" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8155370969619442723" fileName="HelloWorld.java" startLine="20" startPosition="33" endLine="21" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6254274815096604020" fileName="HelloWorld.java" startLine="22" startPosition="5" endLine="23" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6254274815096604065" fileName="HelloWorld.java" startLine="23" startPosition="14" endLine="24" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6254274815096604147" fileName="HelloWorld.java" startLine="24" startPosition="21" endLine="25" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="851869296734937195" fileName="HelloWorld.java" startLine="25" startPosition="33" endLine="26" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8155370969619690470" fileName="HelloWorld.java" startLine="27" startPosition="5" endLine="28" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8155370969619690470" fileName="HelloWorld.java" startLine="28" startPosition="58" endLine="29" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8155370969619690470" fileName="HelloWorld.java" startLine="29" startPosition="36" endLine="30" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8155370969619690470" fileName="HelloWorld.java" startLine="30" startPosition="33" endLine="31" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8155370969619848572" fileName="HelloWorld.java" startLine="32" startPosition="5" endLine="33" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8155370969619344171" fileName="HelloWorld.java" startLine="10" startPosition="27" endLine="16" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8155370969619442723" fileName="HelloWorld.java" startLine="16" startPosition="5" endLine="22" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8155370969619690470" fileName="HelloWorld.java" startLine="26" startPosition="23" endLine="32" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6254274815096603175" fileName="HelloWorld.java" startLine="8" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="main#([Ljava/lang/String;)V" />
+    <scopeInfo nodeId="8155370969619344171" fileName="HelloWorld.java" startLine="11" startPosition="5" endLine="15" endPosition="48">
+      <varInfo nodeId="8155370969619344171" varName="assembler" />
+    </scopeInfo>
+    <scopeInfo nodeId="8155370969619442723" fileName="HelloWorld.java" startLine="17" startPosition="5" endLine="21" endPosition="48">
+      <varInfo nodeId="8155370969619442723" varName="assembler" />
+    </scopeInfo>
+    <scopeInfo nodeId="8155370969619690470" fileName="HelloWorld.java" startLine="27" startPosition="5" endLine="31" endPosition="48">
+      <varInfo nodeId="8155370969619690470" varName="assembler" />
+    </scopeInfo>
+    <scopeInfo nodeId="6254274815096603175" fileName="HelloWorld.java" startLine="8" startPosition="47" endLine="33" endPosition="33" />
+    <scopeInfo nodeId="6254274815096603176" fileName="HelloWorld.java" startLine="8" startPosition="47" endLine="33" endPosition="33">
+      <varInfo nodeId="6254274815096604023" varName="a" />
+      <varInfo nodeId="6254274815096604068" varName="b" />
+      <varInfo nodeId="851869296734749679" varName="command" />
+      <varInfo nodeId="851869296734950114" varName="option" />
+      <varInfo nodeId="851869296734937198" varName="s" />
+    </scopeInfo>
+    <scopeInfo nodeId="6254274815096603175" fileName="HelloWorld.java" startLine="8" startPosition="0" endLine="35" endPosition="0">
+      <varInfo nodeId="6254274815096603175" varName="arguments" />
+    </scopeInfo>
+    <unitInfo nodeId="6254274815096603175" fileName="HelloWorld.java" startLine="7" startPosition="0" endLine="36" endPosition="0" unitName="NYoSh.sandbox.HelloWorld.HelloWorld" />
+  </root>
+  <root nodeRef="r:c7c3835a-fef5-44ab-bbab-4406619e1dcc(NYoSh.sandbox.HelloWorld)/8155370969621420701">
+    <nodeInfo nodeId="8155370969621420703" fileName="HelloWorld2.java" startLine="8" startPosition="47" endLine="9" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8155370969621420707" fileName="HelloWorld2.java" startLine="9" startPosition="26" endLine="10" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4903231125777643464" fileName="HelloWorld2.java" startLine="10" startPosition="27" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="8155370969621420711" fileName="HelloWorld2.java" startLine="12" startPosition="5" endLine="13" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8155370969621420711" fileName="HelloWorld2.java" startLine="13" startPosition="58" endLine="14" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8155370969621420711" fileName="HelloWorld2.java" startLine="14" startPosition="50" endLine="15" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8155370969621420711" fileName="HelloWorld2.java" startLine="15" startPosition="33" endLine="16" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3114396182493746451" fileName="HelloWorld2.java" startLine="18" startPosition="5" endLine="19" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3114396182493746451" fileName="HelloWorld2.java" startLine="19" startPosition="58" endLine="20" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3114396182493746451" fileName="HelloWorld2.java" startLine="20" startPosition="50" endLine="21" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3114396182493746451" fileName="HelloWorld2.java" startLine="21" startPosition="33" endLine="22" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4903231125778908437" fileName="HelloWorld2.java" startLine="23" startPosition="5" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="1237318323633136476" fileName="HelloWorld2.java" startLine="25" startPosition="5" endLine="26" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1237318323633136476" fileName="HelloWorld2.java" startLine="26" startPosition="58" endLine="27" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1237318323633136476" fileName="HelloWorld2.java" startLine="27" startPosition="57" endLine="28" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1237318323633136476" fileName="HelloWorld2.java" startLine="28" startPosition="36" endLine="29" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1237318323633136476" fileName="HelloWorld2.java" startLine="29" startPosition="39" endLine="30" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1237318323633136476" fileName="HelloWorld2.java" startLine="30" startPosition="33" endLine="31" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7872582389601177672" fileName="HelloWorld2.java" startLine="32" startPosition="5" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="4903231125778908560" fileName="HelloWorld2.java" startLine="34" startPosition="5" endLine="35" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4903231125778908560" fileName="HelloWorld2.java" startLine="35" startPosition="58" endLine="36" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4903231125778908560" fileName="HelloWorld2.java" startLine="36" startPosition="37" endLine="37" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4903231125778908560" fileName="HelloWorld2.java" startLine="37" startPosition="36" endLine="38" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4903231125778908560" fileName="HelloWorld2.java" startLine="38" startPosition="39" endLine="39" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4903231125778908560" fileName="HelloWorld2.java" startLine="39" startPosition="37" endLine="40" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4903231125778908560" fileName="HelloWorld2.java" startLine="40" startPosition="47" endLine="41" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4903231125778908560" fileName="HelloWorld2.java" startLine="41" startPosition="37" endLine="42" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4903231125778908560" fileName="HelloWorld2.java" startLine="42" startPosition="45" endLine="43" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4903231125778908560" fileName="HelloWorld2.java" startLine="43" startPosition="33" endLine="44" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4903231125779373514" fileName="HelloWorld2.java" startLine="45" startPosition="5" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="4903231125779373792" fileName="HelloWorld2.java" startLine="47" startPosition="5" endLine="48" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4903231125779373792" fileName="HelloWorld2.java" startLine="48" startPosition="58" endLine="49" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4903231125779373792" fileName="HelloWorld2.java" startLine="49" startPosition="37" endLine="50" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4903231125779373792" fileName="HelloWorld2.java" startLine="50" startPosition="37" endLine="51" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4903231125779373792" fileName="HelloWorld2.java" startLine="51" startPosition="43" endLine="52" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4903231125779373792" fileName="HelloWorld2.java" startLine="52" startPosition="33" endLine="53" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5651321229814492523" fileName="HelloWorld2.java" startLine="54" startPosition="5" endLine="55" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="8155370969621420711" fileName="HelloWorld2.java" startLine="11" startPosition="0" endLine="17" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3114396182493746451" fileName="HelloWorld2.java" startLine="17" startPosition="5" endLine="23" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1237318323633136476" fileName="HelloWorld2.java" startLine="24" startPosition="0" endLine="32" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4903231125779373792" fileName="HelloWorld2.java" startLine="46" startPosition="0" endLine="54" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4903231125778908560" fileName="HelloWorld2.java" startLine="33" startPosition="0" endLine="45" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8155370969621420701" fileName="HelloWorld2.java" startLine="8" startPosition="0" endLine="57" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="main#([Ljava/lang/String;)V" />
+    <scopeInfo nodeId="8155370969621420711" fileName="HelloWorld2.java" startLine="12" startPosition="5" endLine="16" endPosition="48">
+      <varInfo nodeId="8155370969621420711" varName="assembler" />
+    </scopeInfo>
+    <scopeInfo nodeId="3114396182493746451" fileName="HelloWorld2.java" startLine="18" startPosition="5" endLine="22" endPosition="48">
+      <varInfo nodeId="3114396182493746451" varName="assembler" />
+    </scopeInfo>
+    <scopeInfo nodeId="1237318323633136476" fileName="HelloWorld2.java" startLine="25" startPosition="5" endLine="31" endPosition="48">
+      <varInfo nodeId="1237318323633136476" varName="assembler" />
+    </scopeInfo>
+    <scopeInfo nodeId="4903231125779373792" fileName="HelloWorld2.java" startLine="47" startPosition="5" endLine="53" endPosition="48">
+      <varInfo nodeId="4903231125779373792" varName="assembler" />
+    </scopeInfo>
+    <scopeInfo nodeId="4903231125778908560" fileName="HelloWorld2.java" startLine="34" startPosition="5" endLine="44" endPosition="48">
+      <varInfo nodeId="4903231125778908560" varName="assembler" />
+    </scopeInfo>
+    <scopeInfo nodeId="8155370969621420701" fileName="HelloWorld2.java" startLine="8" startPosition="47" endLine="55" endPosition="0" />
+    <scopeInfo nodeId="8155370969621420702" fileName="HelloWorld2.java" startLine="8" startPosition="47" endLine="55" endPosition="0">
+      <varInfo nodeId="8155370969621420704" varName="command" />
+      <varInfo nodeId="8155370969621420708" varName="option" />
+    </scopeInfo>
+    <scopeInfo nodeId="8155370969621420701" fileName="HelloWorld2.java" startLine="8" startPosition="0" endLine="57" endPosition="0">
+      <varInfo nodeId="8155370969621420701" varName="arguments" />
+    </scopeInfo>
+    <unitInfo nodeId="8155370969621420701" fileName="HelloWorld2.java" startLine="7" startPosition="0" endLine="58" endPosition="0" unitName="NYoSh.sandbox.HelloWorld.HelloWorld2" />
+  </root>
+  <root nodeRef="r:c7c3835a-fef5-44ab-bbab-4406619e1dcc(NYoSh.sandbox.HelloWorld)/851869296737001729">
+    <nodeInfo nodeId="851869296737001766" fileName="RunThis.java" startLine="7" startPosition="47" endLine="8" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="851869296737001729" fileName="RunThis.java" startLine="7" startPosition="0" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="main#([Ljava/lang/String;)V" />
+    <scopeInfo nodeId="851869296737001729" fileName="RunThis.java" startLine="7" startPosition="47" endLine="8" endPosition="38" />
+    <scopeInfo nodeId="851869296737001730" fileName="RunThis.java" startLine="7" startPosition="47" endLine="8" endPosition="38" />
+    <scopeInfo nodeId="851869296737001729" fileName="RunThis.java" startLine="7" startPosition="0" endLine="10" endPosition="0">
+      <varInfo nodeId="851869296737001729" varName="arguments" />
+    </scopeInfo>
+    <unitInfo nodeId="851869296737001729" fileName="RunThis.java" startLine="6" startPosition="0" endLine="11" endPosition="0" unitName="NYoSh.sandbox.HelloWorld.RunThis" />
+  </root>
 </debugInfo>
 

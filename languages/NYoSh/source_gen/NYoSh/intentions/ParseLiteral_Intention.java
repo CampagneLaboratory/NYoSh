@@ -151,6 +151,7 @@ public class ParseLiteral_Intention implements IntentionFactory {
         SNodeOperations.deleteNode(ListSequence.fromList(SNodeOperations.getDescendants(node, "NYoSh.structure.GStringCommand", false, new String[]{})).first());
         ListSequence.fromList(SLinkOperations.getTargets(node, "commands", true)).addSequence(ListSequence.fromList(commands));
 
+
       }
     }
 

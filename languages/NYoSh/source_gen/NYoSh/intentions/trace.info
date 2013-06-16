@@ -200,20 +200,21 @@
     <nodeInfo nodeId="5651321229813829319" fileName="ParseLiteral_Intention.java" startLine="148" startPosition="11" endLine="149" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="5651321229812644454" fileName="ParseLiteral_Intention.java" startLine="150" startPosition="9" endLine="151" endPosition="161" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1237318323633221972" fileName="ParseLiteral_Intention.java" startLine="151" startPosition="161" endLine="152" endPosition="127" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1237318323633702206" fileName="ParseLiteral_Intention.java" startLine="152" startPosition="127" endLine="153" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="4903231125779396114" fileName="ParseLiteral_Intention.java" startLine="157" startPosition="48" endLine="158" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4903231125779396114" fileName="ParseLiteral_Intention.java" startLine="162" startPosition="0" endLine="163" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="LOG" />
-    <nodeInfo nodeId="5651321229813100268" fileName="ParseLiteral_Intention.java" startLine="164" startPosition="66" endLine="165" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5651321229813100268" fileName="ParseLiteral_Intention.java" startLine="165" startPosition="63" endLine="166" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5651321229813100268" fileName="ParseLiteral_Intention.java" startLine="166" startPosition="30" endLine="167" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5651321229814936129" fileName="ParseLiteral_Intention.java" startLine="152" startPosition="127" endLine="153" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="5651321229814942992" fileName="ParseLiteral_Intention.java" startLine="153" startPosition="0" endLine="154" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="4903231125779396114" fileName="ParseLiteral_Intention.java" startLine="158" startPosition="48" endLine="159" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4903231125779396114" fileName="ParseLiteral_Intention.java" startLine="163" startPosition="0" endLine="164" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="LOG" />
+    <nodeInfo nodeId="5651321229813100268" fileName="ParseLiteral_Intention.java" startLine="165" startPosition="66" endLine="166" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5651321229813100268" fileName="ParseLiteral_Intention.java" startLine="166" startPosition="63" endLine="167" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="5651321229813100268" fileName="ParseLiteral_Intention.java" startLine="167" startPosition="30" endLine="168" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5651321229813100268" fileName="ParseLiteral_Intention.java" startLine="168" startPosition="30" endLine="169" endPosition="144" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5651321229813100268" fileName="ParseLiteral_Intention.java" startLine="169" startPosition="144" endLine="170" endPosition="161" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5651321229813100268" fileName="ParseLiteral_Intention.java" startLine="170" startPosition="161" endLine="171" endPosition="168" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5651321229813100268" fileName="ParseLiteral_Intention.java" startLine="171" startPosition="168" endLine="172" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5651321229813100268" fileName="ParseLiteral_Intention.java" startLine="172" startPosition="64" endLine="173" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5651321229813100268" fileName="ParseLiteral_Intention.java" startLine="173" startPosition="54" endLine="174" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5651321229813100268" fileName="ParseLiteral_Intention.java" startLine="174" startPosition="51" endLine="175" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5651321229813100268" fileName="ParseLiteral_Intention.java" startLine="168" startPosition="30" endLine="169" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5651321229813100268" fileName="ParseLiteral_Intention.java" startLine="169" startPosition="30" endLine="170" endPosition="144" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5651321229813100268" fileName="ParseLiteral_Intention.java" startLine="170" startPosition="144" endLine="171" endPosition="161" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5651321229813100268" fileName="ParseLiteral_Intention.java" startLine="171" startPosition="161" endLine="172" endPosition="168" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5651321229813100268" fileName="ParseLiteral_Intention.java" startLine="172" startPosition="168" endLine="173" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5651321229813100268" fileName="ParseLiteral_Intention.java" startLine="173" startPosition="64" endLine="174" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5651321229813100268" fileName="ParseLiteral_Intention.java" startLine="174" startPosition="54" endLine="175" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5651321229813100268" fileName="ParseLiteral_Intention.java" startLine="175" startPosition="51" endLine="176" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4903231125779396114" fileName="ParseLiteral_Intention.java" startLine="35" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ParseLiteral_Intention#()V" />
     <nodeInfo nodeId="4903231125779396114" fileName="ParseLiteral_Intention.java" startLine="96" startPosition="0" endLine="98" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="IntentionImplementation#()V" />
     <nodeInfo nodeId="4903231125779396114" fileName="ParseLiteral_Intention.java" startLine="38" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
@@ -236,22 +237,22 @@
     <nodeInfo nodeId="1237318323632630722" fileName="ParseLiteral_Intention.java" startLine="134" startPosition="20" endLine="137" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="5651321229811686106" fileName="ParseLiteral_Intention.java" startLine="145" startPosition="0" endLine="148" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="5651321229811686106" fileName="ParseLiteral_Intention.java" startLine="145" startPosition="0" endLine="148" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="4903231125779396114" fileName="ParseLiteral_Intention.java" startLine="157" startPosition="0" endLine="160" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescriptor#()Ljetbrains/mps/intentions/IntentionDescriptor;" />
-    <nodeInfo nodeId="5651321229813100268" fileName="ParseLiteral_Intention.java" startLine="170" startPosition="161" endLine="173" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="5651321229813100268" fileName="ParseLiteral_Intention.java" startLine="170" startPosition="161" endLine="173" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="5651321229813100268" fileName="ParseLiteral_Intention.java" startLine="169" startPosition="144" endLine="174" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="5651321229813100268" fileName="ParseLiteral_Intention.java" startLine="169" startPosition="144" endLine="174" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4903231125779396114" fileName="ParseLiteral_Intention.java" startLine="158" startPosition="0" endLine="161" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescriptor#()Ljetbrains/mps/intentions/IntentionDescriptor;" />
+    <nodeInfo nodeId="5651321229813100268" fileName="ParseLiteral_Intention.java" startLine="171" startPosition="161" endLine="174" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5651321229813100268" fileName="ParseLiteral_Intention.java" startLine="171" startPosition="161" endLine="174" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5651321229813100268" fileName="ParseLiteral_Intention.java" startLine="170" startPosition="144" endLine="175" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5651321229813100268" fileName="ParseLiteral_Intention.java" startLine="170" startPosition="144" endLine="175" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="4903231125779396114" fileName="ParseLiteral_Intention.java" startLine="62" startPosition="0" endLine="68" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicable#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
     <nodeInfo nodeId="4903231125779396114" fileName="ParseLiteral_Intention.java" startLine="88" startPosition="0" endLine="94" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="instances#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/util/Collection;" />
-    <nodeInfo nodeId="5651321229813100268" fileName="ParseLiteral_Intention.java" startLine="168" startPosition="30" endLine="174" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="5651321229813100268" fileName="ParseLiteral_Intention.java" startLine="168" startPosition="30" endLine="174" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5651321229813100268" fileName="ParseLiteral_Intention.java" startLine="169" startPosition="30" endLine="175" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5651321229813100268" fileName="ParseLiteral_Intention.java" startLine="169" startPosition="30" endLine="175" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1237318323632701204" fileName="ParseLiteral_Intention.java" startLine="141" startPosition="14" endLine="150" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="4903231125779396114" fileName="ParseLiteral_Intention.java" startLine="69" startPosition="0" endLine="79" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableToNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
-    <nodeInfo nodeId="5651321229813100268" fileName="ParseLiteral_Intention.java" startLine="164" startPosition="0" endLine="177" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_m4ussu_a0a0a1a7a0#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="5651321229813100268" fileName="ParseLiteral_Intention.java" startLine="165" startPosition="0" endLine="178" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_m4ussu_a0a0a1a7a0#()Lorg/jetbrains/mps/openapi/model/SNode;" />
     <nodeInfo nodeId="1237318323632305770" fileName="ParseLiteral_Intention.java" startLine="120" startPosition="79" endLine="139" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.SwitchStatement" />
     <nodeInfo nodeId="1237318323632061336" fileName="ParseLiteral_Intention.java" startLine="116" startPosition="9" endLine="150" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1237318323631945353" fileName="ParseLiteral_Intention.java" startLine="112" startPosition="52" endLine="154" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="4903231125779396114" fileName="ParseLiteral_Intention.java" startLine="103" startPosition="0" endLine="156" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+    <nodeInfo nodeId="1237318323631945353" fileName="ParseLiteral_Intention.java" startLine="112" startPosition="52" endLine="155" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="4903231125779396114" fileName="ParseLiteral_Intention.java" startLine="103" startPosition="0" endLine="157" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
     <scopeInfo nodeId="4903231125779396114" fileName="ParseLiteral_Intention.java" startLine="35" startPosition="35" endLine="35" endPosition="35" />
     <scopeInfo nodeId="4903231125779396114" fileName="ParseLiteral_Intention.java" startLine="96" startPosition="38" endLine="96" endPosition="38" />
     <scopeInfo nodeId="4903231125779396114" fileName="ParseLiteral_Intention.java" startLine="38" startPosition="30" endLine="39" endPosition="44" />
@@ -270,7 +271,7 @@
     <scopeInfo nodeId="1237318323631948457" fileName="ParseLiteral_Intention.java" startLine="114" startPosition="34" endLine="115" endPosition="45" />
     <scopeInfo nodeId="1237318323632630722" fileName="ParseLiteral_Intention.java" startLine="135" startPosition="53" endLine="136" endPosition="90" />
     <scopeInfo nodeId="5651321229811686106" fileName="ParseLiteral_Intention.java" startLine="146" startPosition="36" endLine="147" endPosition="66" />
-    <scopeInfo nodeId="4903231125779396114" fileName="ParseLiteral_Intention.java" startLine="157" startPosition="48" endLine="158" endPosition="41" />
+    <scopeInfo nodeId="4903231125779396114" fileName="ParseLiteral_Intention.java" startLine="158" startPosition="48" endLine="159" endPosition="41" />
     <scopeInfo nodeId="4903231125779396114" fileName="ParseLiteral_Intention.java" startLine="35" startPosition="0" endLine="37" endPosition="0" />
     <scopeInfo nodeId="4903231125779396114" fileName="ParseLiteral_Intention.java" startLine="96" startPosition="0" endLine="98" endPosition="0" />
     <scopeInfo nodeId="1237318323632314700" fileName="ParseLiteral_Intention.java" startLine="122" startPosition="19" endLine="124" endPosition="20" />
@@ -293,12 +294,12 @@
     <scopeInfo nodeId="1237318323631948457" fileName="ParseLiteral_Intention.java" startLine="113" startPosition="69" endLine="116" endPosition="9" />
     <scopeInfo nodeId="1237318323632630722" fileName="ParseLiteral_Intention.java" startLine="134" startPosition="20" endLine="137" endPosition="15" />
     <scopeInfo nodeId="5651321229811686106" fileName="ParseLiteral_Intention.java" startLine="145" startPosition="0" endLine="148" endPosition="11" />
-    <scopeInfo nodeId="4903231125779396114" fileName="ParseLiteral_Intention.java" startLine="157" startPosition="0" endLine="160" endPosition="0" />
-    <scopeInfo nodeId="5651321229813100268" fileName="ParseLiteral_Intention.java" startLine="170" startPosition="161" endLine="173" endPosition="54" />
+    <scopeInfo nodeId="4903231125779396114" fileName="ParseLiteral_Intention.java" startLine="158" startPosition="0" endLine="161" endPosition="0" />
+    <scopeInfo nodeId="5651321229813100268" fileName="ParseLiteral_Intention.java" startLine="171" startPosition="161" endLine="174" endPosition="54" />
     <scopeInfo nodeId="4903231125779396114" fileName="ParseLiteral_Intention.java" startLine="62" startPosition="84" endLine="66" endPosition="16" />
     <scopeInfo nodeId="4903231125779396114" fileName="ParseLiteral_Intention.java" startLine="88" startPosition="99" endLine="92" endPosition="30" />
     <scopeInfo nodeId="1237318323632305774" fileName="ParseLiteral_Intention.java" startLine="134" startPosition="20" endLine="138" endPosition="23" />
-    <scopeInfo nodeId="5651321229813100268" fileName="ParseLiteral_Intention.java" startLine="169" startPosition="144" endLine="174" endPosition="51" />
+    <scopeInfo nodeId="5651321229813100268" fileName="ParseLiteral_Intention.java" startLine="170" startPosition="144" endLine="175" endPosition="51" />
     <scopeInfo nodeId="4903231125779396114" fileName="ParseLiteral_Intention.java" startLine="62" startPosition="0" endLine="68" endPosition="0">
       <varInfo nodeId="4903231125779396114" varName="editorContext" />
       <varInfo nodeId="4903231125779396114" varName="node" />
@@ -307,7 +308,7 @@
       <varInfo nodeId="4903231125779396114" varName="context" />
       <varInfo nodeId="4903231125779396114" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="5651321229813100268" fileName="ParseLiteral_Intention.java" startLine="168" startPosition="30" endLine="174" endPosition="51" />
+    <scopeInfo nodeId="5651321229813100268" fileName="ParseLiteral_Intention.java" startLine="169" startPosition="30" endLine="175" endPosition="51" />
     <scopeInfo nodeId="4903231125779400321" fileName="ParseLiteral_Intention.java" startLine="69" startPosition="91" endLine="77" endPosition="363">
       <varInfo nodeId="4903231125779696761" varName="applicable" />
       <varInfo nodeId="4903231125779797854" varName="c" />
@@ -319,35 +320,44 @@
       <varInfo nodeId="4903231125779396114" varName="editorContext" />
       <varInfo nodeId="4903231125779396114" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="5651321229813100268" fileName="ParseLiteral_Intention.java" startLine="164" startPosition="66" endLine="175" endPosition="24">
+    <scopeInfo nodeId="5651321229813100268" fileName="ParseLiteral_Intention.java" startLine="165" startPosition="66" endLine="176" endPosition="24">
       <varInfo nodeId="5651321229813100268" varName="facade" />
       <varInfo nodeId="5651321229813100268" varName="quotedNode_1" />
       <varInfo nodeId="5651321229813100268" varName="quotedNode_2" />
       <varInfo nodeId="5651321229813100268" varName="quotedNode_3" />
     </scopeInfo>
-    <scopeInfo nodeId="5651321229813100268" fileName="ParseLiteral_Intention.java" startLine="164" startPosition="0" endLine="177" endPosition="0" />
+    <scopeInfo nodeId="5651321229813100268" fileName="ParseLiteral_Intention.java" startLine="165" startPosition="0" endLine="178" endPosition="0" />
     <scopeInfo nodeId="1237318323632061339" fileName="ParseLiteral_Intention.java" startLine="117" startPosition="36" endLine="140" endPosition="69">
       <varInfo nodeId="1237318323632138814" varName="binaryOperator" />
       <varInfo nodeId="1237318323632607676" varName="index" />
       <varInfo nodeId="1237318323632328727" varName="operators" />
     </scopeInfo>
-    <scopeInfo nodeId="1237318323631945359" fileName="ParseLiteral_Intention.java" startLine="113" startPosition="69" endLine="153" endPosition="0" />
-    <scopeInfo nodeId="1237318323631945353" fileName="ParseLiteral_Intention.java" startLine="112" startPosition="52" endLine="154" endPosition="7">
+    <scopeInfo nodeId="1237318323631945359" fileName="ParseLiteral_Intention.java" startLine="113" startPosition="69" endLine="154" endPosition="0" />
+    <scopeInfo nodeId="1237318323631945353" fileName="ParseLiteral_Intention.java" startLine="112" startPosition="52" endLine="155" endPosition="7">
       <varInfo nodeId="1237318323631945355" varName="component" />
     </scopeInfo>
-    <scopeInfo nodeId="4903231125779396118" fileName="ParseLiteral_Intention.java" startLine="103" startPosition="78" endLine="154" endPosition="7">
+    <scopeInfo nodeId="4903231125779396118" fileName="ParseLiteral_Intention.java" startLine="103" startPosition="78" endLine="155" endPosition="7">
       <varInfo nodeId="4903231125780342209" varName="c" />
       <varInfo nodeId="1237318323632058064" varName="commands" />
       <varInfo nodeId="3840880361761116936" varName="components" />
       <varInfo nodeId="4903231125780342143" varName="literalValue" />
       <varInfo nodeId="3840880361761057552" varName="matcher" />
     </scopeInfo>
-    <scopeInfo nodeId="4903231125779396114" fileName="ParseLiteral_Intention.java" startLine="103" startPosition="0" endLine="156" endPosition="0">
+    <scopeInfo nodeId="4903231125779396114" fileName="ParseLiteral_Intention.java" startLine="103" startPosition="0" endLine="157" endPosition="0">
       <varInfo nodeId="4903231125779396114" varName="editorContext" />
       <varInfo nodeId="4903231125779396114" varName="node" />
     </scopeInfo>
-    <unitInfo nodeId="4903231125779396114" fileName="ParseLiteral_Intention.java" startLine="95" startPosition="0" endLine="161" endPosition="0" unitName="NYoSh.intentions.ParseLiteral_Intention$IntentionImplementation" />
-    <unitInfo nodeId="4903231125779396114" fileName="ParseLiteral_Intention.java" startLine="32" startPosition="0" endLine="178" endPosition="0" unitName="NYoSh.intentions.ParseLiteral_Intention" />
+    <unitInfo nodeId="4903231125779396114" fileName="ParseLiteral_Intention.java" startLine="95" startPosition="0" endLine="162" endPosition="0" unitName="NYoSh.intentions.ParseLiteral_Intention$IntentionImplementation" />
+    <unitInfo nodeId="4903231125779396114" fileName="ParseLiteral_Intention.java" startLine="32" startPosition="0" endLine="179" endPosition="0" unitName="NYoSh.intentions.ParseLiteral_Intention" />
+  </root>
+  <root nodeRef="r:3fd8f008-20f7-41de-ac4a-40f2d89b8fb2(NYoSh.intentions)/5651321229814965730">
+    <nodeInfo nodeId="5651321229814965854" fileName="Test.java" startLine="7" startPosition="42" endLine="8" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="5651321229814965745" fileName="Test.java" startLine="7" startPosition="0" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="main#([Ljava/lang/String;)V" />
+    <scopeInfo nodeId="5651321229814965751" fileName="Test.java" startLine="7" startPosition="42" endLine="8" endPosition="0" />
+    <scopeInfo nodeId="5651321229814965745" fileName="Test.java" startLine="7" startPosition="0" endLine="10" endPosition="0">
+      <varInfo nodeId="5651321229814965746" varName="args" />
+    </scopeInfo>
+    <unitInfo nodeId="5651321229814965730" fileName="Test.java" startLine="6" startPosition="0" endLine="11" endPosition="0" unitName="NYoSh.intentions.Test" />
   </root>
 </debugInfo>
 

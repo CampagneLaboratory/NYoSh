@@ -51,5 +51,8 @@
     <classNode dependClassName="java.util.regex.Matcher" />
     <classNode dependClassName="java.util.regex.Pattern" />
   </dependency>
+  <dependency className="NYoSh.intentions.Test" file="Test.java">
+    <classNode dependClassName="java.lang.String" />
+  </dependency>
 </dependenciesRoot>
 
