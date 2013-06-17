@@ -10,7 +10,7 @@
   <import index="tpcw" modelUID="r:00000000-0000-4000-0000-011c895902bc(jetbrains.mps.lang.sharedConcepts.structure)" version="0" />
   <import index="tpek" modelUID="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" version="-1" />
   <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="4" />
-  <import index="59cw" modelUID="f:project#3b27e3ac-d62d-4ccc-9a44-84dbed0349e3(jetbrains.mps.lang.project.modules/module.GStringJavaCode.sandbox@project_stub)" version="-1" />
+  <import index="480i" modelUID="f:project#10a7b07c-52b8-42f5-9335-f5127f1e3407(jetbrains.mps.lang.project.modules/module.GStringJavaCode@project_stub)" version="-1" />
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
