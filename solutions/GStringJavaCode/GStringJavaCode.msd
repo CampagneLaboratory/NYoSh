@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="GStringJavaCode" uuid="10a7b07c-52b8-42f5-9335-f5127f1e3407" compileInMPS="true">
+<solution name="GStringJavaCode" uuid="10a7b07c-52b8-42f5-9335-f5127f1e3407" compileInMPS="true" generatorOutputPath="${module}/source_gen">
   <models>
     <modelRoot path="${module}/pattern-matcher-1.0.1-SNAPSHOT.jar" type="java_classes" />
   </models>

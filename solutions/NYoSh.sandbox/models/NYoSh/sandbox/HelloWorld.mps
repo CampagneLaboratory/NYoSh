@@ -410,7 +410,7 @@
         <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.GStringCommand" typeId="4tvk.8155370969619067580" id="2248369528798772064">
           <node role="command" roleId="4tvk.8155370969619067612" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="2248369528798772065">
             <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="2248369528798772066">
-              <property name="value" nameId="f2ff.1012285663620336023" value=" grep -v .txt&quot;" />
+              <property name="value" nameId="f2ff.1012285663620336023" value=" grep -v .txt" />
             </node>
           </node>
         </node>
