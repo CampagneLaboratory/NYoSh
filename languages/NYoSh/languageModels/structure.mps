@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="4">
+<model modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="5">
   <persistence version="8" />
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
   <language namespace="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
@@ -9,7 +9,7 @@
   <import index="f2ff" modelUID="r:48d5f7d2-24be-4d82-ac12-8f4a2d414b11(org.campagnelab.nyosh.gstring.structure)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
-  <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="4" implicit="yes" />
+  <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="5" implicit="yes" />
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8197864363320245969" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Script" />
     <property name="rootable" nameId="tpce.1096454100552" value="true" />
@@ -126,7 +126,7 @@
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="4903231125777680052" resolveInfo="BinaryCommandOperator" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4903231125777596373" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="PipeCommandOperator" />
+    <property name="name" nameId="tpck.1169194664001" value="PipeOutCommandOperator" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="|" />
     <property name="helpURL" nameId="tpce.2465654535473034588" value="http://goby.campagnelab.org" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="4903231125777680052" resolveInfo="BinaryCommandOperator" />
@@ -160,10 +160,20 @@
       <property name="externalValue" nameId="tpce.1083923523172" value="|" />
       <property name="internalValue" nameId="tpce.1083923523171" value="3" />
     </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="2248369528797956861" nodeInfo="ig">
+      <property name="externalValue" nameId="tpce.1083923523172" value="|&amp;" />
+      <property name="internalValue" nameId="tpce.1083923523171" value="4" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5651321229814097020" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="OrCommandOperator" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="||" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="4903231125777680052" resolveInfo="BinaryCommandOperator" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2248369528797870024" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="PipeOutErrCommandOperator" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="|&amp;" />
+    <property name="helpURL" nameId="tpce.2465654535473034588" value="http://goby.campagnelab.org" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="4903231125777680052" resolveInfo="BinaryCommandOperator" />
   </root>
 </model>

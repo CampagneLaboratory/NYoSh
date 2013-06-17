@@ -9,7 +9,7 @@
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" />
   <import index="tpcw" modelUID="r:00000000-0000-4000-0000-011c895902bc(jetbrains.mps.lang.sharedConcepts.structure)" version="0" />
   <import index="tpek" modelUID="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" version="-1" />
-  <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="4" />
+  <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="5" />
   <import index="480i" modelUID="f:project#10a7b07c-52b8-42f5-9335-f5127f1e3407(jetbrains.mps.lang.project.modules/module.GStringJavaCode@project_stub)" version="-1" />
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
@@ -240,7 +240,7 @@
     </node>
   </root>
   <root type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="1237318323632258951" nodeInfo="ng">
-    <link role="concept" roleId="1i04.1225194240799" targetNodeId="4tvk.4903231125777596373" resolveInfo="PipeCommandOperator" />
+    <link role="concept" roleId="1i04.1225194240799" targetNodeId="4tvk.4903231125777596373" resolveInfo="PipeOutCommandOperator" />
     <node role="constructor" roleId="1i04.1225194240801" type="1i04.ConceptConstructorDeclaration" typeId="1i04.1225194413805" id="1237318323632258952" nodeInfo="nn">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="1237318323632258953" nodeInfo="nn">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="1237318323632258972" nodeInfo="nn">
@@ -299,6 +299,27 @@
                 <link role="property" roleId="tp25.1138056395725" targetNodeId="4tvk.1237318323632149032" resolveInfo="operator" />
               </node>
               <node role="operand" roleId="tpee.1197027771414" type="1i04.ThisNodeExpression" typeId="1i04.1225194691553" id="5651321229814097836" nodeInfo="nn" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </root>
+  <root type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="2248369528797953099" nodeInfo="ng">
+    <link role="concept" roleId="1i04.1225194240799" targetNodeId="4tvk.2248369528797870024" resolveInfo="PipeOutErrCommandOperator" />
+    <node role="constructor" roleId="1i04.1225194240801" type="1i04.ConceptConstructorDeclaration" typeId="1i04.1225194413805" id="2248369528797953100" nodeInfo="nn">
+      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="2248369528797953101" nodeInfo="nn">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="2248369528797953272" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="2248369528797953273" nodeInfo="nn">
+            <node role="rValue" roleId="tpee.1068498886297" type="tp25.EnumMemberValueRefExpression" typeId="tp25.6973815483243445083" id="2248369528797953274" nodeInfo="nn">
+              <link role="enum" roleId="tp25.6973815483243564601" targetNodeId="4tvk.1237318323632149275" resolveInfo="BinaryOperatorKind" />
+              <link role="member" roleId="tp25.6973815483243565416" targetNodeId="4tvk.2248369528797956861" />
+            </node>
+            <node role="lValue" roleId="tpee.1068498886295" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2248369528797953275" nodeInfo="nn">
+              <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="2248369528797953276" nodeInfo="nn">
+                <link role="property" roleId="tp25.1138056395725" targetNodeId="4tvk.1237318323632149032" resolveInfo="operator" />
+              </node>
+              <node role="operand" roleId="tpee.1197027771414" type="1i04.ThisNodeExpression" typeId="1i04.1225194691553" id="2248369528797953277" nodeInfo="nn" />
             </node>
           </node>
         </node>

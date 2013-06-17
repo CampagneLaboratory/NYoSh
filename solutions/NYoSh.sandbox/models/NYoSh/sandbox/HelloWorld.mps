@@ -12,7 +12,7 @@
   <import index="fxg7" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" implicit="yes" />
-  <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="4" implicit="yes" />
+  <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="5" implicit="yes" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" implicit="yes" />
   <import index="f2ff" modelUID="r:48d5f7d2-24be-4d82-ac12-8f4a2d414b11(org.campagnelab.nyosh.gstring.structure)" version="-1" implicit="yes" />
   <roots>
@@ -285,7 +285,7 @@
             </node>
           </node>
         </node>
-        <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.PipeCommandOperator" typeId="4tvk.4903231125777596373" id="5651321229814018000">
+        <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.PipeOutCommandOperator" typeId="4tvk.4903231125777596373" id="5651321229814018000">
           <property name="operator" nameId="4tvk.1237318323632149032" value="3" />
         </node>
         <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.GStringCommand" typeId="4tvk.8155370969619067580" id="5651321229814018001">
@@ -305,7 +305,7 @@
             </node>
           </node>
         </node>
-        <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.PipeCommandOperator" typeId="4tvk.4903231125777596373" id="5651321229814335929">
+        <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.PipeOutCommandOperator" typeId="4tvk.4903231125777596373" id="5651321229814335929">
           <property name="operator" nameId="4tvk.1237318323632149032" value="3" />
         </node>
         <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.GStringCommand" typeId="4tvk.8155370969619067580" id="5651321229814443173">
@@ -376,7 +376,64 @@
           </node>
         </node>
       </node>
-      <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="5651321229814492523" />
+      <node role="statement" roleId="tpee.1068581517665" type="4tvk.ExecuteCommand" typeId="4tvk.8197864363320353692" id="2248369528798416651">
+        <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.GStringCommand" typeId="4tvk.8155370969619067580" id="2248369528798772052">
+          <node role="command" roleId="4tvk.8155370969619067612" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="2248369528798772053">
+            <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="2248369528798772054">
+              <property name="value" nameId="f2ff.1012285663620336023" value="ls " />
+            </node>
+          </node>
+        </node>
+        <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.OrCommandOperator" typeId="4tvk.5651321229814097020" id="2248369528798772055">
+          <property name="operator" nameId="4tvk.1237318323632149032" value="2" />
+        </node>
+        <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.GStringCommand" typeId="4tvk.8155370969619067580" id="2248369528798772056">
+          <node role="command" roleId="4tvk.8155370969619067612" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="2248369528798772057">
+            <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="2248369528798772058">
+              <property name="value" nameId="f2ff.1012285663620336023" value=" ls " />
+            </node>
+          </node>
+        </node>
+        <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.PipeOutErrCommandOperator" typeId="4tvk.2248369528797870024" id="2248369528798772059">
+          <property name="operator" nameId="4tvk.1237318323632149032" value="4" />
+        </node>
+        <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.GStringCommand" typeId="4tvk.8155370969619067580" id="2248369528798772060">
+          <node role="command" roleId="4tvk.8155370969619067612" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="2248369528798772061">
+            <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="2248369528798772062">
+              <property name="value" nameId="f2ff.1012285663620336023" value=" grep src " />
+            </node>
+          </node>
+        </node>
+        <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.PipeOutCommandOperator" typeId="4tvk.4903231125777596373" id="2248369528798772063">
+          <property name="operator" nameId="4tvk.1237318323632149032" value="3" />
+        </node>
+        <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.GStringCommand" typeId="4tvk.8155370969619067580" id="2248369528798772064">
+          <node role="command" roleId="4tvk.8155370969619067612" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="2248369528798772065">
+            <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="2248369528798772066">
+              <property name="value" nameId="f2ff.1012285663620336023" value=" grep -v .txt&quot;" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="statement" roleId="tpee.1068581517665" type="4tvk.ExecuteCommand" typeId="4tvk.8197864363320353692" id="2248369528798781445">
+        <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.GStringCommand" typeId="4tvk.8155370969619067580" id="2248369528799075665">
+          <node role="command" roleId="4tvk.8155370969619067612" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="2248369528799075666">
+            <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="2248369528799075667">
+              <property name="value" nameId="f2ff.1012285663620336023" value="d" />
+            </node>
+          </node>
+        </node>
+        <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.PipeOutCommandOperator" typeId="4tvk.4903231125777596373" id="2248369528799075668">
+          <property name="operator" nameId="4tvk.1237318323632149032" value="3" />
+        </node>
+        <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.GStringCommand" typeId="4tvk.8155370969619067580" id="2248369528799075669">
+          <node role="command" roleId="4tvk.8155370969619067612" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="2248369528799075670">
+            <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="2248369528799075671">
+              <property name="value" nameId="f2ff.1012285663620336023" value="d" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </root>
 </model>
