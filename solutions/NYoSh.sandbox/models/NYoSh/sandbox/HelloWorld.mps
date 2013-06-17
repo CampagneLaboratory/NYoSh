@@ -434,6 +434,57 @@
           </node>
         </node>
       </node>
+      <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="2248369528799581499">
+        <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="2248369528799581500">
+          <property name="name" nameId="tpck.1169194664001" value="a" />
+          <node role="initializer" roleId="tpee.1068431790190" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2248369528799581501">
+            <property name="value" nameId="tpee.1070475926801" value="" />
+          </node>
+          <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="2248369528799581502" />
+        </node>
+      </node>
+      <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="2248369528799589879">
+        <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="2248369528799589880">
+          <property name="name" nameId="tpck.1169194664001" value="b" />
+          <node role="initializer" roleId="tpee.1068431790190" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2248369528799589881">
+            <property name="value" nameId="tpee.1070475926801" value="" />
+          </node>
+          <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="2248369528799589882" />
+        </node>
+      </node>
+      <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="2248369528799589886">
+        <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="2248369528799589887">
+          <property name="name" nameId="tpck.1169194664001" value="c" />
+          <node role="initializer" roleId="tpee.1068431790190" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2248369528799589888">
+            <property name="value" nameId="tpee.1070475926801" value="" />
+          </node>
+          <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="2248369528799589889" />
+        </node>
+      </node>
+      <node role="statement" roleId="tpee.1068581517665" type="4tvk.ExecuteCommand" typeId="4tvk.8197864363320353692" id="2248369528799151150">
+        <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.GStringCommand" typeId="4tvk.8155370969619067580" id="2248369528799151151">
+          <node role="command" roleId="4tvk.8155370969619067612" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="2248369528799151152">
+            <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="2248369528799589869">
+              <property name="value" nameId="f2ff.1012285663620336023" value="aaaa" />
+            </node>
+            <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringVarReference" typeId="f2ff.1012285663620336025" id="2248369528799589870">
+              <link role="varRef" roleId="f2ff.4087517305354402375" targetNodeId="2248369528799581500" resolveInfo="a" />
+            </node>
+            <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="2248369528799589876">
+              <property name="value" nameId="f2ff.1012285663620336023" value="aaaa" />
+            </node>
+            <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringVarReference" typeId="f2ff.1012285663620336025" id="2248369528799589877">
+              <link role="varRef" roleId="f2ff.4087517305354402375" targetNodeId="2248369528799589880" resolveInfo="b" />
+            </node>
+            <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="2248369528799589883">
+              <property name="value" nameId="f2ff.1012285663620336023" value="aaaa" />
+            </node>
+            <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringVarReference" typeId="f2ff.1012285663620336025" id="2248369528799589884">
+              <link role="varRef" roleId="f2ff.4087517305354402375" targetNodeId="2248369528799589887" resolveInfo="c" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </root>
 </model>
