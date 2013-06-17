@@ -376,11 +376,27 @@
           </node>
         </node>
       </node>
+      <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="6839116863303079327">
+        <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="6839116863303079330">
+          <property name="name" nameId="tpck.1169194664001" value="path" />
+          <node role="initializer" roleId="tpee.1068431790190" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="6839116863303082340">
+            <property name="value" nameId="tpee.1070475926801" value="/bin" />
+          </node>
+          <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="6839116863303079325" />
+        </node>
+      </node>
       <node role="statement" roleId="tpee.1068581517665" type="4tvk.ExecuteCommand" typeId="4tvk.8197864363320353692" id="2248369528798416651">
         <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.GStringCommand" typeId="4tvk.8155370969619067580" id="2248369528798772052">
           <node role="command" roleId="4tvk.8155370969619067612" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="2248369528798772053">
             <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="2248369528798772054">
               <property name="value" nameId="f2ff.1012285663620336023" value="ls " />
+            </node>
+          </node>
+        </node>
+        <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.ChangeDirectory" typeId="4tvk.6839116863302727356" id="6839116863303028834">
+          <node role="path" roleId="4tvk.6839116863302880700" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="6839116863303028836">
+            <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringVarReference" typeId="f2ff.1012285663620336025" id="6839116863303043263">
+              <link role="varRef" roleId="f2ff.4087517305354402375" targetNodeId="6839116863303079330" resolveInfo="path" />
             </node>
           </node>
         </node>
@@ -410,7 +426,7 @@
         <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.GStringCommand" typeId="4tvk.8155370969619067580" id="2248369528798772064">
           <node role="command" roleId="4tvk.8155370969619067612" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="2248369528798772065">
             <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="2248369528798772066">
-              <property name="value" nameId="f2ff.1012285663620336023" value=" grep -v .txt" />
+              <property name="value" nameId="f2ff.1012285663620336023" value=" grep -v .txt " />
             </node>
           </node>
         </node>
