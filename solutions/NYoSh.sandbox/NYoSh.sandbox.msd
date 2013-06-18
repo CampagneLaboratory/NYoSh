@@ -6,7 +6,8 @@
     </modelRoot>
   </models>
   <stubModelEntries>
-    <stubModelEntry path="/Users/fac2003/MPSProjects/NYoSh/solutions/GStringJavaCode/pattern-matcher-1.0.1-SNAPSHOT.jar" />
+    <stubModelEntry path="/Users/fac2003/MPSProjects/NYoSh/solutions/GStringJavaCode/pattern-matcher-1.0.2-SNAPSHOT.jar" />
+    <stubModelEntry path="/Users/fac2003/MPSProjects/NYoSh/solutions/GStringJavaCode/wildcard-1.03.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
