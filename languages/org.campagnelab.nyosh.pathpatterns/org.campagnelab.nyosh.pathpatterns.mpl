@@ -30,7 +30,7 @@
   </generators>
   <sourcePath />
   <dependencies>
-    <dependency reexport="true">10a7b07c-52b8-42f5-9335-f5127f1e3407(GStringJavaCode)</dependency>
+    <dependency reexport="false">10a7b07c-52b8-42f5-9335-f5127f1e3407(GStringJavaCode)</dependency>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
   </dependencies>
   <usedLanguages>
