@@ -5,10 +5,6 @@
       <sourceRoot location="models" />
     </modelRoot>
   </models>
-  <stubModelEntries>
-    <stubModelEntry path="/Users/fac2003/MPSProjects/NYoSh/solutions/GStringJavaCode/pattern-matcher-1.0.2-SNAPSHOT.jar" />
-    <stubModelEntry path="/Users/fac2003/MPSProjects/NYoSh/solutions/GStringJavaCode/wildcard-1.03.jar" />
-  </stubModelEntries>
   <sourcePath />
   <dependencies>
     <dependency reexport="true">10a7b07c-52b8-42f5-9335-f5127f1e3407(GStringJavaCode)</dependency>

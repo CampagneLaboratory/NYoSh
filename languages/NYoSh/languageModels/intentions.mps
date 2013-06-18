@@ -34,6 +34,16 @@
       <property name="name" nameId="tpck.1169194664001" value="IterateReaderLines" />
       <link role="forConcept" roleId="tp3j.2522969319638198290" targetNodeId="tpee.1068580123157" resolveInfo="Statement" />
     </node>
+    <node type="tp3j.ParameterizedIntentionDeclaration" typeId="tp3j.1240395258925" id="4370546365691800536">
+      <property name="name" nameId="tpck.1169194664001" value="FixEntryPointError" />
+      <property name="isErrorIntention" nameId="tp3j.2522969319638091385" value="true" />
+      <link role="forConcept" roleId="tp3j.2522969319638198290" targetNodeId="4tvk.8197864363320245969" resolveInfo="Script" />
+    </node>
+    <node type="tp3j.IntentionDeclaration" typeId="tp3j.1192794744107" id="4370546365691947887">
+      <property name="isErrorIntention" nameId="tp3j.2522969319638091385" value="true" />
+      <property name="name" nameId="tpck.1169194664001" value="QuickFixEntryPoint" />
+      <link role="forConcept" roleId="tp3j.2522969319638198290" targetNodeId="4tvk.8197864363320245969" resolveInfo="Script" />
+    </node>
   </roots>
   <root id="4903231125779396114">
     <node role="descriptionFunction" roleId="tp3j.2522969319638093993" type="tp3j.DescriptionBlock" typeId="tp3j.1192794782375" id="4903231125779396115">
@@ -994,6 +1004,40 @@
           </node>
         </node>
       </node>
+    </node>
+  </root>
+  <root id="4370546365691800536">
+    <node role="descriptionFunction" roleId="tp3j.2522969319638093993" type="tp3j.ParameterizedDescriptionBlock" typeId="tp3j.1812109616120608865" id="4370546365691800537">
+      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="4370546365691800538">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="4370546365691803472">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4370546365691803471">
+            <property name="value" nameId="tpee.1070475926801" value="Create a method to process the entry point" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="executeFunction" roleId="tp3j.2522969319638198291" type="tp3j.ParameterizedExecuteBlock" typeId="tp3j.1812109616120795373" id="4370546365691800539">
+      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="4370546365691800540" />
+    </node>
+    <node role="queryBlock" roleId="tp3j.1240395532443" type="tp3j.QueryBlock" typeId="tp3j.1240316299033" id="4370546365691810815">
+      <node role="paramType" roleId="tp3j.1240393479918" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="4370546365691811799">
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="e2lb.~Class" resolveInfo="Class" />
+      </node>
+      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="4370546365691810816" />
+    </node>
+  </root>
+  <root id="4370546365691947887">
+    <node role="descriptionFunction" roleId="tp3j.2522969319638093993" type="tp3j.DescriptionBlock" typeId="tp3j.1192794782375" id="4370546365691947888">
+      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="4370546365691947889">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="4370546365691950352">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4370546365691950351">
+            <property name="value" nameId="tpee.1070475926801" value="Fix entry point method" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="executeFunction" roleId="tp3j.2522969319638198291" type="tp3j.ExecuteBlock" typeId="tp3j.1192795911897" id="4370546365691947890">
+      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="4370546365691947891" />
     </node>
   </root>
 </model>
