@@ -23,6 +23,9 @@
       <property name="name" nameId="tpck.1169194664001" value="HelloWorld2" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="" />
     </node>
+    <node type="tpee.Interface" typeId="tpee.1107796713796" id="5476203539468372478">
+      <property name="name" nameId="tpck.1169194664001" value="SomeInterface" />
+    </node>
   </roots>
   <root id="6254274815096603175">
     <node role="statements" roleId="4tvk.8197864363320245970" type="tpee.StatementList" typeId="tpee.1068580123136" id="6254274815096603176">
@@ -310,6 +313,7 @@
   </root>
   <root id="8155370969621420701">
     <node role="statements" roleId="4tvk.8197864363320245970" type="tpee.StatementList" typeId="tpee.1068580123136" id="8155370969621420702">
+      <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="5476203539466277120" />
       <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="8155370969621420703">
         <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="8155370969621420704">
           <property name="name" nameId="tpck.1169194664001" value="command" />
@@ -775,6 +779,9 @@
         </node>
       </node>
     </node>
+  </root>
+  <root id="5476203539468372478">
+    <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="5476203539468372479" />
   </root>
 </model>
 
