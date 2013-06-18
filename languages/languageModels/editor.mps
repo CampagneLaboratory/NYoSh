@@ -10,7 +10,7 @@
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="3511072301772127861" nodeInfo="ng">
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="f2ff.1012285663620319605" resolveInfo="GString" />
     <node role="contextHints" roleId="tpc2.2597348684684069742" type="tpc2.ConceptEditorHintDeclarationReference" typeId="tpc2.6822301196700715228" id="3535022670934308246" nodeInfo="ig">
-      <link role="hint" roleId="tpc2.5944657839026714445" targetNodeId="3535022670934307376" resolveInfo="compact" />
+      <link role="hint" roleId="tpc2.5944657839026714445" targetNodeId="3535022670934307376" resolveInfo="default" />
     </node>
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="3511072301772127863" nodeInfo="nn">
       <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.PunctuationLeftStyleClassItem" typeId="tpc2.1233758997495" id="4087517305357597113" nodeInfo="nn">
@@ -49,7 +49,7 @@
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="3511072301772223593" nodeInfo="ng">
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="f2ff.1012285663620336022" resolveInfo="GStringLiteral" />
     <node role="contextHints" roleId="tpc2.2597348684684069742" type="tpc2.ConceptEditorHintDeclarationReference" typeId="tpc2.6822301196700715228" id="3535022670934307387" nodeInfo="ig">
-      <link role="hint" roleId="tpc2.5944657839026714445" targetNodeId="3535022670934307376" resolveInfo="compact" />
+      <link role="hint" roleId="tpc2.5944657839026714445" targetNodeId="3535022670934307376" resolveInfo="default" />
     </node>
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="3511072301772223595" nodeInfo="nn">
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="3511072301772223596" nodeInfo="nn" />
@@ -79,7 +79,7 @@
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="4087517305354362392" nodeInfo="ng">
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="f2ff.1012285663620336025" resolveInfo="GStringVarReference" />
     <node role="contextHints" roleId="tpc2.2597348684684069742" type="tpc2.ConceptEditorHintDeclarationReference" typeId="tpc2.6822301196700715228" id="3535022670934307398" nodeInfo="ig">
-      <link role="hint" roleId="tpc2.5944657839026714445" targetNodeId="3535022670934307376" resolveInfo="compact" />
+      <link role="hint" roleId="tpc2.5944657839026714445" targetNodeId="3535022670934307376" resolveInfo="default" />
     </node>
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="4087517305354362394" nodeInfo="nn">
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Horizontal" typeId="tpc2.1106270549637" id="4087517305357485087" nodeInfo="nn" />
@@ -169,15 +169,15 @@
   </root>
   <root type="tpc2.ConceptEditorContextHints" typeId="tpc2.5944657839000868711" id="2311021689530552299" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="GStringHints" />
+    <node role="hints" roleId="tpc2.5944657839000877563" type="tpc2.ConceptEditorHintDeclaration" typeId="tpc2.5944657839003601246" id="3535022670934307376" nodeInfo="ig">
+      <property name="showInUI" nameId="tpc2.168363875802087287" value="true" />
+      <property name="name" nameId="tpck.1169194664001" value="default" />
+      <property name="presentation" nameId="tpc2.5944657839012629576" value="Compact presentation" />
+    </node>
     <node role="hints" roleId="tpc2.5944657839000877563" type="tpc2.ConceptEditorHintDeclaration" typeId="tpc2.5944657839003601246" id="2311021689530552300" nodeInfo="ig">
       <property name="showInUI" nameId="tpc2.168363875802087287" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="exploded" />
       <property name="presentation" nameId="tpc2.5944657839012629576" value="Exploded presentation" />
-    </node>
-    <node role="hints" roleId="tpc2.5944657839000877563" type="tpc2.ConceptEditorHintDeclaration" typeId="tpc2.5944657839003601246" id="3535022670934307376" nodeInfo="ig">
-      <property name="showInUI" nameId="tpc2.168363875802087287" value="true" />
-      <property name="name" nameId="tpck.1169194664001" value="compact" />
-      <property name="presentation" nameId="tpc2.5944657839012629576" value="Compact presentation" />
     </node>
   </root>
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="3535022670934308309" nodeInfo="ng">
