@@ -16,6 +16,7 @@
       <external-templates />
       <dependencies>
         <dependency reexport="false">10a7b07c-52b8-42f5-9335-f5127f1e3407(GStringJavaCode)</dependency>
+        <dependency reexport="false">a21a7294-c126-4f63-8335-8fecd8c28c7e(NYoSh)</dependency>
         <dependency reexport="false">f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</dependency>
         <dependency reexport="true">760a0a8c-eabb-4521-8bfd-65db761a9ba3(jetbrains.mps.baseLanguage.logging)</dependency>
       </dependencies>
