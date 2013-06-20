@@ -36,5 +36,29 @@
     </dependencies>
     <rename id="4tvk.4903231125777596373" type="CONCEPT" from="PipeCommandOperator" to="PipeOutCommandOperator" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="5" />
+    </dependencies>
+    <rename id="4tvk.4897094796210519903" type="CHILD" from="paramType" to="argType" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="6" />
+    </dependencies>
+    <rename id="4tvk.4897094796210782421" type="CONCEPT" from="ConceptFunctionParameter_outputReader" to="ConceptFunctionParameter_ParsedArguments" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="7" />
+    </dependencies>
+    <rename id="4tvk.4897094796210782421" type="CONCEPT" from="ConceptFunctionParameter_outpuader" to="ConceptFunctionParameter_oupuader" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="8" />
+    </dependencies>
+    <rename id="4tvk.4897094796212941385" type="REFERENCE" from="parser" to="parserResultType" />
+  </StructureModification>
 </history>
 
