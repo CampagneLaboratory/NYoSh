@@ -5,10 +5,6 @@
       <sourceRoot location="models" />
     </modelRoot>
   </models>
-  <stubModelEntries>
-    <stubModelEntry path="/Users/fac2003/MPSProjects/NYoSh/solutions/GStringJavaCode/pattern-matcher-1.0.2-SNAPSHOT.jar" />
-    <stubModelEntry path="/Users/fac2003/MPSProjects/NYoSh/solutions/GStringJavaCode/wildcard-1.03.jar" />
-  </stubModelEntries>
   <sourcePath />
   <dependencies>
     <dependency reexport="true">10a7b07c-52b8-42f5-9335-f5127f1e3407(GStringJavaCode)</dependency>
@@ -23,6 +19,7 @@
     <usedLanguage>a21a7294-c126-4f63-8335-8fecd8c28c7e(NYoSh)</usedLanguage>
     <usedLanguage>f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</usedLanguage>
     <usedLanguage>c6567f13-87ab-4686-8f6f-42e8228c0e27(org.campagnelab.nyosh.gstring)</usedLanguage>
+    <usedLanguage>7e7f12dd-4eb6-4f35-9b4d-d37f5140fd33(org.campagnelab.nyosh.pathpatterns)</usedLanguage>
   </usedLanguages>
 </solution>
 
