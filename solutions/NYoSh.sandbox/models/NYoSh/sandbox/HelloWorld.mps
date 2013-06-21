@@ -180,12 +180,12 @@
   </root>
   <root id="4897094796211710204">
     <node role="entryPoints" roleId="4tvk.4370546365667651420" type="4tvk.EntryPoint" typeId="4tvk.4370546365667651425" id="4897094796213865606">
-      <property name="name" value="main" />
+      <property name="name" nameId="tpck.1169194664001" value="main" />
       <link role="script" roleId="4tvk.1185348143925735982" targetNodeId="4897094796211710204" resolveInfo="Test10" />
       <link role="parser" roleId="4tvk.4370546365688249126" targetNodeId="4370546365688485499" resolveInfo="RawArgsParser" />
       <node role="implementation" roleId="4tvk.7275222926030009590" type="4tvk.EntryPointImplementation" typeId="4tvk.4897094796213865715" id="4897094796214008862">
         <property name="name" nameId="tpck.1169194664001" value="main2" />
-        <node role="returnType" roleId="tpee.1068580123133" type="tpee.Type" typeId="tpee.1068431790189" id="4897094796214008863" />
+        <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="1607788858916763643" />
         <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="4897094796214008864">
           <node role="statement" roleId="tpee.1068581517665" type="tpee.BlockStatement" typeId="tpee.1082485599095" id="4897094796214295805">
             <node role="statements" roleId="tpee.1082485599096" type="tpee.StatementList" typeId="tpee.1068580123136" id="4897094796214295806">
@@ -274,9 +274,9 @@
   </root>
   <root id="6254274815096603175">
     <node role="entryPoints" roleId="4tvk.4370546365667651420" type="4tvk.EntryPoint" typeId="4tvk.4370546365667651425" id="4370546365688482132">
-      <property name="name" value="main" />
-      <link role="parser" roleId="4tvk.4370546365688249126" targetNodeId="tts8.4370546365688485499" resolveInfo="RawArgsParser" />
+      <property name="name" nameId="tpck.1169194664001" value="main" />
       <link role="method" targetNodeId="tts8.7275222926026457726" resolveInfo="main" />
+      <link role="parser" roleId="4tvk.4370546365688249126" targetNodeId="4370546365688485499" resolveInfo="RawArgsParser" />
     </node>
     <node role="statements" roleId="4tvk.8197864363320245970" type="tpee.StatementList" typeId="tpee.1068580123136" id="6254274815096603176">
       <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="851869296734749676">
@@ -301,13 +301,13 @@
         <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.GStringCommand" typeId="4tvk.8155370969619067580" id="8155370969619980007">
           <node role="command" roleId="4tvk.8155370969619067612" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="8155370969619980009">
             <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringVarReference" typeId="f2ff.1012285663620336025" id="8155370969619980019">
-              <link role="varRef" roleId="f2ff.4087517305354402375" targetNodeId="tts8.851869296734749679" resolveInfo="command" />
+              <link role="varRef" roleId="f2ff.4087517305354402375" targetNodeId="851869296734749679" resolveInfo="command" />
             </node>
             <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="8155370969619980042">
               <property name="value" nameId="f2ff.1012285663620336023" value=" " />
             </node>
             <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringVarReference" typeId="f2ff.1012285663620336025" id="8155370969619980024">
-              <link role="varRef" roleId="f2ff.4087517305354402375" targetNodeId="tts8.851869296734950114" resolveInfo="option" />
+              <link role="varRef" roleId="f2ff.4087517305354402375" targetNodeId="851869296734950114" resolveInfo="option" />
             </node>
           </node>
         </node>
@@ -354,7 +354,7 @@
             <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fxg7.~PrintStream%dprintln(java%dlang%dString)%cvoid" resolveInfo="println" />
             <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="6254274815096604990">
               <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.VariableReference" typeId="tpee.1068498886296" id="6254274815096604993">
-                <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="tts8.6254274815096604068" resolveInfo="b" />
+                <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="6254274815096604068" resolveInfo="b" />
               </node>
               <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="6254274815096604146">
                 <property name="value" nameId="tpee.1070475926801" value="b:" />
@@ -368,7 +368,7 @@
           <property name="name" nameId="tpck.1169194664001" value="s" />
           <node role="initializer" roleId="tpee.1068431790190" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="851869296734949783">
             <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringVarReference" typeId="f2ff.1012285663620336025" id="851869296734950048">
-              <link role="varRef" roleId="f2ff.4087517305354402375" targetNodeId="tts8.6254274815096604068" resolveInfo="b" />
+              <link role="varRef" roleId="f2ff.4087517305354402375" targetNodeId="6254274815096604068" resolveInfo="b" />
             </node>
             <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="851869296734950084">
               <property name="value" nameId="f2ff.1012285663620336023" value="aaa" />
@@ -387,7 +387,7 @@
             <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fxg7.~PrintStream%dprintln(java%dlang%dString)%cvoid" resolveInfo="println" />
             <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="8155370969619852513">
               <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.VariableReference" typeId="tpee.1068498886296" id="8155370969619852516">
-                <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="tts8.6254274815096604023" resolveInfo="a" />
+                <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="6254274815096604023" resolveInfo="a" />
               </node>
               <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="8155370969619848571">
                 <property name="value" nameId="tpee.1070475926801" value="a:" />
@@ -411,14 +411,14 @@
       <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="7275222926026457732">
         <property name="name" nameId="tpck.1169194664001" value="args" />
         <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="7275222926026457733">
-          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="tts8.4370546365689875041" resolveInfo="RawParsedArguments" />
+          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="4370546365689875041" resolveInfo="RawParsedArguments" />
         </node>
       </node>
     </node>
   </root>
   <root id="8155370969621420701">
     <node role="entryPoints" roleId="4tvk.4370546365667651420" type="4tvk.EntryPoint" typeId="4tvk.4370546365667651425" id="4897094796219951981">
-      <property name="name" value="main" />
+      <property name="name" nameId="tpck.1169194664001" value="main" />
       <link role="script" roleId="4tvk.1185348143925735982" targetNodeId="8155370969621420701" resolveInfo="HelloWorld2" />
       <link role="parser" roleId="4tvk.4370546365688249126" targetNodeId="4370546365688485499" resolveInfo="RawArgsParser" />
       <node role="implementation" roleId="4tvk.7275222926030009590" type="4tvk.EntryPointImplementation" typeId="4tvk.4897094796213865715" id="4897094796219951982">
@@ -948,7 +948,7 @@
   </root>
   <root id="851869296737001729">
     <node role="entryPoints" roleId="4tvk.4370546365667651420" type="4tvk.EntryPoint" typeId="4tvk.4370546365667651425" id="4370546365689846103">
-      <property name="name" value="main2" />
+      <property name="name" nameId="tpck.1169194664001" value="main2" />
       <link role="method" targetNodeId="tts8.7275222926027956393" resolveInfo="main2" />
       <link role="parser" roleId="4tvk.4370546365688249126" targetNodeId="4370546365688485499" resolveInfo="RawArgsParser" />
       <node role="implementation" roleId="4tvk.7275222926030009590" type="4tvk.EntryPointImplementation" typeId="4tvk.4897094796213865715" id="4897094796220098976">
