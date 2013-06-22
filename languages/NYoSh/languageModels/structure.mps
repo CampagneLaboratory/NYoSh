@@ -290,5 +290,13 @@
     <property name="final" nameId="tpce.4628067390765956807" value="false" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
   </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2829258213793694770" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="GobyWebAlignPluginPrototype" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="align" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="2829258213785539345" resolveInfo="EntryPointPrototype" />
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="2829258213793694771" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="2829258213784965274" resolveInfo="IEntryPointPrototype" />
+    </node>
+  </root>
 </model>
 
