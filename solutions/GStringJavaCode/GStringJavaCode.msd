@@ -3,7 +3,6 @@
   <models>
     <modelRoot contentPath="${module}" type="default" />
     <modelRoot path="${module}/pattern-matcher-1.0.2-SNAPSHOT.jar" type="java_classes" />
-    <modelRoot path="${module}/wildcard-1.03.jar" type="java_classes" />
   </models>
   <stubModelEntries>
     <stubModelEntry path="${module}/pattern-matcher-1.0.2-SNAPSHOT.jar" />

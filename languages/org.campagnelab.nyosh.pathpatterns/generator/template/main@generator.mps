@@ -5,8 +5,8 @@
   <language namespace="d7706f63-9be2-479c-a3da-ae92af1e64d5(jetbrains.mps.lang.generator.generationContext)" />
   <language namespace="b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <import index="6ibb" modelUID="f:java_stub#10a7b07c-52b8-42f5-9335-f5127f1e3407#com.esotericsoftware.wildcard(GStringJavaCode/com.esotericsoftware.wildcard@java_stub)" version="-1" />
   <import index="fxg7" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" version="-1" />
+  <import index="n8zb" modelUID="f:java_stub#7e7f12dd-4eb6-4f35-9b4d-d37f5140fd33#com.esotericsoftware.wildcard(org.campagnelab.nyosh.pathpatterns/com.esotericsoftware.wildcard@java_stub)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpf8" modelUID="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" version="2" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" implicit="yes" />
@@ -140,11 +140,11 @@
             <property name="name" nameId="tpck.1169194664001" value="paths" />
             <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="250886629053692575">
               <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="250886629053726228">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="6ibb.~Paths%d&lt;init&gt;()" resolveInfo="Paths" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="n8zb.~Paths%d&lt;init&gt;()" resolveInfo="Paths" />
               </node>
             </node>
             <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="250886629053692545">
-              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="6ibb.~Paths" resolveInfo="Paths" />
+              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="n8zb.~Paths" resolveInfo="Paths" />
             </node>
           </node>
         </node>
@@ -265,11 +265,11 @@
           </node>
           <node role="iterable" roleId="tpee.1144226360166" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2796621537983154449">
             <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="2796621537983154450">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="6ibb.~Paths%dgetPaths()%cjava%dutil%dList" resolveInfo="getPaths" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="n8zb.~Paths%dgetPaths()%cjava%dutil%dList" resolveInfo="getPaths" />
             </node>
             <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2796621537983154451">
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="2796621537983154452">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="6ibb.~Paths%dglob(java%dlang%dString,java%dlang%dString%d%d%d)%ccom%desotericsoftware%dwildcard%dPaths" resolveInfo="glob" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="n8zb.~Paths%dglob(java%dlang%dString,java%dlang%dString%d%d%d)%ccom%desotericsoftware%dwildcard%dPaths" resolveInfo="glob" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="2796621537983154453">
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="250886629055077497" resolveInfo="workingDir" />
                 </node>
