@@ -15,9 +15,7 @@
       <modulePath path="$PROJECT_DIR$/languages/NYoSh/NYoSh.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.nyosh.gstring.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.nyosh.pathpatterns/org.campagnelab.nyosh.pathpatterns.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/GStringJavaCode/GStringJavaCode.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/NYoSh.IDEA-plugin/NYoSh.IDEA-plugin.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/NYoSh.idea/NYoSh.IDEA.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/NYoSh.sandbox/NYoSh.sandbox.msd" folder="" />
     </projectModules>
     <genConfs />

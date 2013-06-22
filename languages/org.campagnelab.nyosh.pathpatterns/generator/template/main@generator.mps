@@ -7,6 +7,7 @@
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   <import index="fxg7" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" version="-1" />
   <import index="n8zb" modelUID="f:java_stub#7e7f12dd-4eb6-4f35-9b4d-d37f5140fd33#com.esotericsoftware.wildcard(org.campagnelab.nyosh.pathpatterns/com.esotericsoftware.wildcard@java_stub)" version="-1" />
+  <import index="9807" modelUID="f:project#c6567f13-87ab-4686-8f6f-42e8228c0e27(jetbrains.mps.lang.project.modules/module.org.campagnelab.nyosh.gstring@project_stub)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpf8" modelUID="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" version="2" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" implicit="yes" />

@@ -21,7 +21,7 @@
   <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" />
-  <dep model="r:2a3903cf-99a2-4e4b-9216-412f36303d74(NYoSh.behavior)" hash="-63qdgrjqa0qt3txrrxm1qomcap41g65" />
+  <dep model="r:2a3903cf-99a2-4e4b-9216-412f36303d74(NYoSh.behavior)" hash="cqtpofshh4sea7b1zemsv45xy3ejoaj" />
   <dep model="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" hash="45qdy4wekkzdi475m53z9bdwuuw7g0i" />
   <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />

@@ -70,7 +70,7 @@ public class ParseLiteral_Intention implements IntentionFactory {
 
   private boolean isApplicableToNode(final SNode node, final EditorContext editorContext) {
     //  Check that the execute command has one and only one GString literal 
-    boolean applicable = false;
+    boolean applicable;
     applicable = (int) ListSequence.fromList(SLinkOperations.getTargets(node, "commands", true)).count() == 1 && SNodeOperations.isInstanceOf(ListSequence.fromList(SLinkOperations.getTargets(node, "commands", true)).first(), "NYoSh.structure.GStringCommand");
     if (!(applicable)) {
       return false;
@@ -99,7 +99,7 @@ public class ParseLiteral_Intention implements IntentionFactory {
     }
 
     public String getDescription(final SNode node, final EditorContext editorContext) {
-      return "Parse literal into command expression";
+      return "Parse literal into command expressions";
     }
 
     public void execute(final SNode node, final EditorContext editorContext) {

@@ -17,11 +17,5 @@
     <classNode dependClassName="java.lang.String" />
     <classNode extendsClassName="NYoSh.sandbox.Working.Ra" />
   </dependency>
-  <dependency className="NYoSh.sandbox.Working.Test10" file="Test10.java">
-    <classNode dependClassName="NYoSh.sandbox.Working.IParsedArguments" />
-    <classNode dependClassName="NYoSh.sandbox.Working.RawArgParser" />
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.lang.System" />
-  </dependency>
 </dependenciesRoot>
 

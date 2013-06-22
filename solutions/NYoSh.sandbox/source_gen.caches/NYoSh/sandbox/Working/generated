@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-9yi1vxdw74dszyl6of98k2zkxfkm9g">
-  <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
+<dependencies version="2" modelHash="a2p4vo1t2x24koqb63vzj1y3dky2eka">
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
-  <dep model="r:ab86e397-1503-48ca-8931-8dc598446fee(NYoSh.generator.template.main@generator)" hash="-5bipu4upgd4003qpukrht50imq13t9b" />
-  <common hash="c6a5wky199dko1lptokcu6o36rkwnkh" />
-  <source id="4897094796211710204" name="Test10" hash="2oeg8s1p2356ha0rxo824zgps3buuun">
-    <dep root="4370546365688485499" />
-    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
-    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
-    <dep model="r:ab86e397-1503-48ca-8931-8dc598446fee(NYoSh.generator.template.main@generator)" />
-    <file name="Test10.java" />
-  </source>
+  <common hash="-8zokniaqda0hwsm7cxim2opapqzzcdm" />
   <source id="4370546365688554159" name="Ra" hash="a2b3rgdbcv6af1eobtdrl4398lgkmyp">
     <file name="Ra.java" />
   </source>

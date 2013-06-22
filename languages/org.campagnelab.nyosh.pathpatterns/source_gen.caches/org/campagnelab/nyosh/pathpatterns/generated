@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="6ctwamnhuyb3q3mhxxpd2h43klwiase">
+<dependencies version="2" modelHash="8znx080dtgazu4mlvet92z8tiug6kd6">
   <dep model="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
   <dep model="r:1f26b740-c511-4773-8742-66c7b05928bd(org.campagnelab.nyosh.pathpatterns.typesystem)" hash="6rxxt28dcqypm21be006x467fgy2cnx" />
