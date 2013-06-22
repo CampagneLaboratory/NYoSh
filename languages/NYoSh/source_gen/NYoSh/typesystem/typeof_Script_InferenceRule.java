@@ -15,9 +15,6 @@ import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.typesystem.inference.EquationInfo;
 import jetbrains.mps.errors.BaseQuickFixProvider;
-import jetbrains.mps.errors.messageTargets.MessageTarget;
-import jetbrains.mps.errors.messageTargets.NodeMessageTarget;
-import jetbrains.mps.errors.IErrorReporter;
 import jetbrains.mps.smodel.SModelUtil_new;
 
 public class typeof_Script_InferenceRule extends AbstractInferenceRule_Runtime implements InferenceRule_Runtime {
@@ -45,18 +42,6 @@ public class typeof_Script_InferenceRule extends AbstractInferenceRule_Runtime i
         }
         typeCheckingContext.createEquation((SNode) typeOfParseMethod, (SNode) typeOfImplementationMethod, _info_12389875345);
       }
-      /*
-        {
-          MessageTarget errorTarget = new NodeMessageTarget();
-          IErrorReporter _reporter_2309309498 = typeCheckingContext.reportInfo(entryPoint, "typeOfParseMethod: " + typeOfParseMethod + " typeOfImplementation: " + typeOfImplementationMethod, "r:d274dffc-d0bf-4ec5-bbf4-c1d30ee1f423(NYoSh.typesystem)", "4370546365690874057", null, errorTarget);
-        }
-        for (SNode method : Classifier_Behavior.call_methods_5292274854859311639(SLinkOperations.getTarget(entryPoint, "parser", false))) {
-          {
-            MessageTarget errorTarget = new NodeMessageTarget();
-            IErrorReporter _reporter_2309309498 = typeCheckingContext.reportInfo(method, "method: " + SPropertyOperations.getString(method, "name"), "r:d274dffc-d0bf-4ec5-bbf4-c1d30ee1f423(NYoSh.typesystem)", "4370546365691051198", null, errorTarget);
-          }
-        }
-      */
 
 
 
