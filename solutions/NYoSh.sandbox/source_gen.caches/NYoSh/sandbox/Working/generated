@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies version="2" modelHash="a2p4vo1t2x24koqb63vzj1y3dky2eka">
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+  <common hash="-8zokniaqda0hwsm7cxim2opapqzzcdm" />
+  <source id="4370546365688554159" name="Ra" hash="a2b3rgdbcv6af1eobtdrl4398lgkmyp">
+    <file name="Ra.java" />
+  </source>
+  <source id="4370546365688554232" name="IParsedArguments" hash="eud0ggfhwsy81jl9tgjc0ago1h517xi">
+    <file name="IParsedArguments.java" />
+  </source>
+  <source id="4370546365688485499" name="RawArgParser" hash="22ns1rcr48rhrgrv61vveb13tf2wjok">
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <file name="RawArgParser.java" />
+  </source>
+  <source id="4370546365689875041" name="Raw" hash="29tqujeozcgtivn1fxyhazzrfhcxj3c">
+    <file name="Raw.java" />
+  </source>
+</dependencies>
+

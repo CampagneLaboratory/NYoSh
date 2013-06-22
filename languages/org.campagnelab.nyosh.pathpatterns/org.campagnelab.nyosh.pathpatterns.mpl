@@ -4,6 +4,7 @@
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="languageModels" />
     </modelRoot>
+    <modelRoot path="${module}/wildcard-1.03.jar" type="java_classes" />
   </models>
   <accessoryModels />
   <generators>
@@ -12,11 +13,13 @@
         <modelRoot contentPath="${module}" type="default">
           <sourceRoot location="generator/template" />
         </modelRoot>
+        <modelRoot path="${module}/wildcard-1.03.jar" type="java_classes" />
       </models>
       <external-templates />
       <dependencies>
-        <dependency reexport="false">10a7b07c-52b8-42f5-9335-f5127f1e3407(GStringJavaCode)</dependency>
         <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
+        <dependency reexport="false">642f71f8-327a-425b-84f9-44ad58786d27(jetbrains.mps.lang.project.modules)</dependency>
+        <dependency reexport="false">c6567f13-87ab-4686-8f6f-42e8228c0e27(org.campagnelab.nyosh.gstring)</dependency>
       </dependencies>
       <usedLanguages>
         <usedLanguage>b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)</usedLanguage>
@@ -40,9 +43,6 @@
   <usedDevKits>
     <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>
   </usedDevKits>
-  <runtime>
-    <dependency reexport="false">10a7b07c-52b8-42f5-9335-f5127f1e3407(GStringJavaCode)</dependency>
-  </runtime>
   <extendedLanguages>
     <extendedLanguage>c6567f13-87ab-4686-8f6f-42e8228c0e27(org.campagnelab.nyosh.gstring)</extendedLanguage>
   </extendedLanguages>
