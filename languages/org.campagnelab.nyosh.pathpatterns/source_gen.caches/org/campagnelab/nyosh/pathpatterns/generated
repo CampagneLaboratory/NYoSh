@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies version="2" modelHash="-9lmbw6d4idk3uhxljg39sirl4r2jx2b">
+  <dep model="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+  <dep model="r:1f26b740-c511-4773-8742-66c7b05928bd(org.campagnelab.nyosh.pathpatterns.typesystem)" hash="-dtlv6rgg69r5sxnx81kw10oehqezq4x" />
+  <dep model="r:f27c9430-4a49-4360-b728-fb75fbbb95be(org.campagnelab.nyosh.pathpatterns.editor)" hash="9ycsls4e640zu93u8cuw8hm6z2ju6dh" />
+  <common>
+    <dep model="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:1f26b740-c511-4773-8742-66c7b05928bd(org.campagnelab.nyosh.pathpatterns.typesystem)" />
+    <dep model="r:f27c9430-4a49-4360-b728-fb75fbbb95be(org.campagnelab.nyosh.pathpatterns.editor)" />
+    <file name="Language.java" />
+  </common>
+</dependencies>
+
