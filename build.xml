@@ -5,7 +5,9 @@
   <property name="build.layout" location="${build.dir}/artifacts/NYoSh" />
   <property name="idea_home" location="${basedir}/../../../../Applications/IntelliJ IDEA 12.app" />
   <property name="plugins_home" location="${idea_home}/plugins" />
-  <property name="artifacts.mpsPlugin" location="${idea_home}/plugins" />
+  <property name="artifacts.mpsPlugin" location="${idea_home}/plugins/" />
+  <property name="artifacts.mpsBuild" location="${idea_home}/plugins" />
+  <property name="artifacts.mpsExecutionPlugin" location="${idea_home}/plugins" />
   <property name="artifacts.IDEA" location="${idea_home}" />
   <property file="${artifacts.mpsPlugin}/build.properties" prefix="import.mpsPlugin" />
   <property name="mpsPlugin.plugin.version" value="${import.mpsPlugin.mpsPlugin.plugin.version}" />
@@ -27,8 +29,10 @@
       <idea-plugin version="2" xmlns:xi="http://www.w3.org/2001/XInclude">
         <id>NYoSh</id>
         <name>NYoSh</name>
+        <description>NYoSh IDEA plugin</description>
         <version>1.0</version>
         <depends>jetbrains.mps.core</depends>
+        <depends>jetbrains.mps.build</depends>
         
         <extensions defaultExtensionNs="com.intellij">
           <mps.LanguageLibrary dir="/languages" />
@@ -36,7 +40,7 @@
       </idea-plugin>
     </echoxml>
     <mkdir dir="${build.tmp}/default/NYoSh.zip/NYoSh/languages" />
-    <mkdir dir="${build.tmp}/default/NYoSh.zip/NYoSh/languages/NYoSh" />
+    <mkdir dir="${build.tmp}/default/NYoSh.zip/NYoSh/languages/grouped content" />
     <mkdir dir="${build.tmp}/default/NYoSh.jar" />
     <mkdir dir="${build.tmp}/default/NYoSh.jar/META-INF" />
     <echoxml file="${build.tmp}/default/NYoSh.jar/META-INF/module.xml">
@@ -51,17 +55,19 @@
           <module ref="a3e4657f-a76c-45bb-bbda-c764596ecc65(jetbrains.mps.baseLanguage.logging.runtime)" />
           <module ref="d44dab97-aaac-44cb-9745-8a14db674c03(jetbrains.mps.baseLanguage.tuples.runtime)" />
           <module ref="2af156ab-65c1-4a62-bd0d-ea734f71eab6(jetbrains.mps.dataFlow.runtime)" />
+          <module ref="2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)" />
+          <module ref="d7eb0a2a-bd50-4576-beae-e4a89db35f20(jetbrains.mps.lang.scopes.runtime)" />
           <module ref="8fe4c62a-2020-4ff4-8eda-f322a55bdc9f(jetbrains.mps.refactoring.runtime)" />
         </dependencies>
         <sources jar="NYoSh-src.jar" descriptor="NYoSh.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/NYoSh.zip/NYoSh/languages/NYoSh/NYoSh.jar">
+    <jar destfile="${build.tmp}/default/NYoSh.zip/NYoSh/languages/grouped content/NYoSh.jar">
       <fileset dir="${build.tmp}/java/out/NYoSh" />
       <fileset dir="${basedir}/languages/NYoSh" includes="icons/**, resources/**" />
       <fileset dir="${build.tmp}/default/NYoSh.jar" />
     </jar>
-    <jar destfile="${build.tmp}/default/NYoSh.zip/NYoSh/languages/NYoSh/NYoSh-generator.jar">
+    <jar destfile="${build.tmp}/default/NYoSh.zip/NYoSh/languages/grouped content/NYoSh-generator.jar">
       <fileset dir="${build.tmp}/java/out/NYoSh#8197864363320338521" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-NYoSh-generator">
@@ -70,7 +76,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-NYoSh-languageModels">
       <fileset dir="${basedir}/languages/NYoSh/languageModels" includes="**/*.mps, **/*.metadata, **/*.history" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/NYoSh.zip/NYoSh/languages/NYoSh/NYoSh-src.jar">
+    <jar destfile="${build.tmp}/default/NYoSh.zip/NYoSh/languages/grouped content/NYoSh-src.jar">
       <fileset dir="${basedir}/languages/NYoSh/generator/source_gen" includes="**/*.java" />
       <fileset dir="${basedir}/languages/NYoSh/source_gen" includes="**/*.java" />
       <zipfileset file="${basedir}/languages/NYoSh/NYoSh.mpl" prefix="module" />
@@ -92,7 +98,7 @@
         </dependencies>
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/NYoSh.zip/NYoSh/languages/NYoSh/NYoSh#8197864363320338521.jar">
+    <jar destfile="${build.tmp}/default/NYoSh.zip/NYoSh/languages/grouped content/NYoSh#8197864363320338521.jar">
       <fileset dir="${build.tmp}/java/out/NYoSh#8197864363320338521" />
       <fileset dir="${build.tmp}/default/NYoSh#8197864363320338521.jar" />
     </jar>
@@ -116,12 +122,12 @@
         <sources jar="org.campagnelab.nyosh.gstring-src.jar" descriptor="org.campagnelab.nyosh.gstring.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/NYoSh.zip/NYoSh/languages/NYoSh/org.campagnelab.nyosh.gstring.jar">
+    <jar destfile="${build.tmp}/default/NYoSh.zip/NYoSh/languages/grouped content/org.campagnelab.nyosh.gstring.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.nyosh.gstring" />
       <fileset dir="${basedir}/languages" includes="icons/**, resources/**" />
       <fileset dir="${build.tmp}/default/org.campagnelab.nyosh.gstring.jar" />
     </jar>
-    <jar destfile="${build.tmp}/default/NYoSh.zip/NYoSh/languages/NYoSh/org.campagnelab.nyosh.gstring-generator.jar">
+    <jar destfile="${build.tmp}/default/NYoSh.zip/NYoSh/languages/grouped content/org.campagnelab.nyosh.gstring-generator.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.nyosh.gstring#1012285663620319601" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-generator-template">
@@ -130,7 +136,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-languageModels">
       <fileset dir="${basedir}/languages/languageModels" includes="**/*.mps, **/*.metadata, **/*.history" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/NYoSh.zip/NYoSh/languages/NYoSh/org.campagnelab.nyosh.gstring-src.jar">
+    <jar destfile="${build.tmp}/default/NYoSh.zip/NYoSh/languages/grouped content/org.campagnelab.nyosh.gstring-src.jar">
       <fileset dir="${basedir}/languages/generator/source_gen" includes="**/*.java" />
       <fileset dir="${basedir}/languages/source_gen" includes="**/*.java" />
       <zipfileset file="${basedir}/languages/org.campagnelab.nyosh.gstring.mpl" prefix="module" />
@@ -152,7 +158,7 @@
         </dependencies>
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/NYoSh.zip/NYoSh/languages/NYoSh/org.campagnelab.nyosh.gstring#1012285663620319601.jar">
+    <jar destfile="${build.tmp}/default/NYoSh.zip/NYoSh/languages/grouped content/org.campagnelab.nyosh.gstring#1012285663620319601.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.nyosh.gstring#1012285663620319601" />
       <fileset dir="${build.tmp}/default/org.campagnelab.nyosh.gstring#1012285663620319601.jar" />
     </jar>
@@ -176,12 +182,12 @@
         <sources jar="org.campagnelab.nyosh.pathpatterns-src.jar" descriptor="org.campagnelab.nyosh.pathpatterns.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/NYoSh.zip/NYoSh/languages/NYoSh/org.campagnelab.nyosh.pathpatterns.jar">
+    <jar destfile="${build.tmp}/default/NYoSh.zip/NYoSh/languages/grouped content/org.campagnelab.nyosh.pathpatterns.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.nyosh.pathpatterns" />
       <fileset dir="${basedir}/languages/org.campagnelab.nyosh.pathpatterns" includes="icons/**, resources/**" />
       <fileset dir="${build.tmp}/default/org.campagnelab.nyosh.pathpatterns.jar" />
     </jar>
-    <jar destfile="${build.tmp}/default/NYoSh.zip/NYoSh/languages/NYoSh/org.campagnelab.nyosh.pathpatterns-generator.jar">
+    <jar destfile="${build.tmp}/default/NYoSh.zip/NYoSh/languages/grouped content/org.campagnelab.nyosh.pathpatterns-generator.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.nyosh.pathpatterns#1081263916558044417" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.nyosh.pathpatterns-generator-template">
@@ -190,7 +196,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.nyosh.pathpatterns-languageModels">
       <fileset dir="${basedir}/languages/org.campagnelab.nyosh.pathpatterns/languageModels" includes="**/*.mps, **/*.metadata, **/*.history" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/NYoSh.zip/NYoSh/languages/NYoSh/org.campagnelab.nyosh.pathpatterns-src.jar">
+    <jar destfile="${build.tmp}/default/NYoSh.zip/NYoSh/languages/grouped content/org.campagnelab.nyosh.pathpatterns-src.jar">
       <fileset dir="${basedir}/languages/org.campagnelab.nyosh.pathpatterns/generator/source_gen" includes="**/*.java" />
       <fileset dir="${basedir}/languages/org.campagnelab.nyosh.pathpatterns/source_gen" includes="**/*.java" />
       <zipfileset file="${basedir}/languages/org.campagnelab.nyosh.pathpatterns/org.campagnelab.nyosh.pathpatterns.mpl" prefix="module" />
@@ -212,10 +218,24 @@
         </dependencies>
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/NYoSh.zip/NYoSh/languages/NYoSh/org.campagnelab.nyosh.pathpatterns#1081263916558044417.jar">
+    <jar destfile="${build.tmp}/default/NYoSh.zip/NYoSh/languages/grouped content/org.campagnelab.nyosh.pathpatterns#1081263916558044417.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.nyosh.pathpatterns#1081263916558044417" />
       <fileset dir="${build.tmp}/default/org.campagnelab.nyosh.pathpatterns#1081263916558044417.jar" />
     </jar>
+    <echoxml file="${build.tmp}/default/NYoSh.zip/NYoSh/plugin.xml">
+      <idea-plugin version="2" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <id>NYoSh</id>
+        <name>NYoSh</name>
+        <description>NYoSh IDEA plugin</description>
+        <version>1.0</version>
+        <depends>jetbrains.mps.core</depends>
+        <depends>jetbrains.mps.build</depends>
+        
+        <extensions defaultExtensionNs="com.intellij">
+          <mps.LanguageLibrary dir="/languages" />
+        </extensions>
+      </idea-plugin>
+    </echoxml>
     <zip destfile="${build.layout}/NYoSh.zip">
       <fileset file="${basedir}/languages/org.campagnelab.nyosh.pathpatterns/wildcard-1.03.jar" />
       <fileset file="${basedir}/languages/pattern-matcher-1.0.2-SNAPSHOT.jar" />
@@ -248,6 +268,7 @@
   <target name="generate" depends="declare-mps-tasks, fetchDependencies">
     <echo message="generating" />
     <generate parallelMode="true" fork="true">
+      <plugin path="${artifacts.mpsPlugin}/mps-build" />
       <library file="${artifacts.mpsPlugin}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
       <library file="${artifacts.mpsPlugin}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
       <library file="${artifacts.mpsPlugin}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.closures.jar" />
@@ -355,9 +376,17 @@
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mpsPlugin}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mpsPlugin}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
+        <fileset file="${artifacts.mpsPlugin}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
+        <fileset file="${artifacts.mpsPlugin}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.closures.jar" />
+        <fileset file="${artifacts.mpsPlugin}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.collections.jar" />
+        <fileset file="${artifacts.mpsPlugin}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.jar" />
         <fileset file="${artifacts.mpsPlugin}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
+        <fileset file="${artifacts.mpsPlugin}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.tuples.jar" />
         <fileset file="${artifacts.mpsPlugin}/mps-core/languages/util/jetbrains.mps.execution.util.jar" />
+        <fileset file="${artifacts.mpsPlugin}/mps-core/languages/languageDesign/jetbrains.mps.lang.checkedName.jar" />
         <fileset file="${artifacts.mpsPlugin}/mps-core/languages/languageDesign/jetbrains.mps.lang.core.jar" />
+        <fileset file="${artifacts.mpsPlugin}/mps-core/languages/languageDesign/jetbrains.mps.lang.plugin.jar" />
+        <fileset file="${artifacts.mpsPlugin}/mps-core/languages/languageDesign/jetbrains.mps.lang.scopes.runtime.jar" />
         <fileset file="${artifacts.mpsPlugin}/mps-core/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       </classpath>
     </javac>
