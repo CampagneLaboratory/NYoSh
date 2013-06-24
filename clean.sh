@@ -1,5 +1,6 @@
 
-
+rm -fr build
+rm -fr test
 find . -name source_gen|xargs git rm -rf  
 find . -name source_gen.caches|xargs git rm -rf  
 find . -name classes_gen|xargs git rm -rf 
