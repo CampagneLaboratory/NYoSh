@@ -117,6 +117,11 @@
             </node>
           </node>
         </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="1024752404813027844" nodeInfo="nn">
+          <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="1024752404813027859" nodeInfo="nn">
+            <property name="text" nameId="tpee.6329021646629104958" value=" comment" />
+          </node>
+        </node>
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="8155370969620214717" nodeInfo="nn">
           <node role="expression" roleId="tpee.1068581517676" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="8155370969620214718" nodeInfo="nn">
             <property name="value" nameId="tpee.1068580123138" value="true" />
@@ -124,9 +129,6 @@
         </node>
       </node>
     </node>
-  </root>
-  <root type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="4897094796214307932" nodeInfo="ng">
-    <link role="concept" roleId="tp1t.1213093996982" targetNodeId="4tvk.4897094796213865715" resolveInfo="EntryPointImplementation" />
   </root>
 </model>
 

@@ -5,7 +5,7 @@
   <property name="build.layout" location="${build.dir}/artifacts/NYoSh" />
   <property name="idea_home" location="${basedir}/../../../../Applications/IntelliJ IDEA 12.app" />
   <property name="plugins_home" location="${idea_home}/plugins" />
-  <property name="artifacts.mpsPlugin" location="${plugins_home}" />
+  <property name="artifacts.mpsPlugin" location="${idea_home}/plugins" />
   <property name="artifacts.IDEA" location="${idea_home}" />
   <property file="${artifacts.mpsPlugin}/build.properties" prefix="import.mpsPlugin" />
   <property name="mpsPlugin.plugin.version" value="${import.mpsPlugin.mpsPlugin.plugin.version}" />
