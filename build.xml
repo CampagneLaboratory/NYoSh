@@ -31,6 +31,7 @@
         <name>NYoSh</name>
         <description>NYoSh IDEA plugin</description>
         <version>1.0</version>
+        <vendor url="http://campagnelab.org">Campagne laboratory</vendor>
         <depends>jetbrains.mps.core</depends>
         
         <extensions defaultExtensionNs="com.intellij">
@@ -225,6 +226,7 @@
         <name>NYoSh</name>
         <description>NYoSh IDEA plugin</description>
         <version>1.0</version>
+        <vendor url="http://campagnelab.org">Campagne laboratory</vendor>
         <depends>jetbrains.mps.core</depends>
         
         <extensions defaultExtensionNs="com.intellij">
