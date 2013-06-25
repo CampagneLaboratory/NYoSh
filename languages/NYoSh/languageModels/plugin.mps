@@ -41,15 +41,11 @@
       <link role="facet" roleId="vvvw.6447445394688422643" targetNodeId="vjup.258639336594455174" resolveInfo="CopyTraceInfo" />
     </node>
     <node role="targetDeclaration" roleId="vvvw.6418371274763146558" type="vvvw.TargetDeclaration" typeId="vvvw.6418371274763029565" id="8487975854032975621" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="CopyClasses" />
-      <property name="resourcesPolicy" nameId="vvvw.1675547159918562088" value="PASSTHRU" />
+      <property name="name" nameId="tpck.1169194664001" value="CopyClassesToPlugin" />
+      <property name="resourcesPolicy" nameId="vvvw.1675547159918562088" value="PRODUCE" />
       <property name="weight" nameId="vvvw.184542595914096177" value="400" />
       <node role="dependency" roleId="vvvw.6418371274763146553" type="vvvw.TargetDependency" typeId="vvvw.6418371274763029600" id="258639336594466430" nodeInfo="ng">
         <link role="dependsOn" roleId="vvvw.6418371274763029603" targetNodeId="fy8e.525295658369136956" resolveInfo="reconcile" />
-      </node>
-      <node role="dependency" roleId="vvvw.6418371274763146553" type="vvvw.TargetDependency" typeId="vvvw.6418371274763029600" id="258639336594466433" nodeInfo="ng">
-        <property name="qualifier" nameId="vvvw.8351679702044326377" value="AFTER" />
-        <link role="dependsOn" roleId="vvvw.6418371274763029603" targetNodeId="fy8e.6648795410103967074" resolveInfo="compile" />
       </node>
       <node role="dependency" roleId="vvvw.6418371274763146553" type="vvvw.TargetDependency" typeId="vvvw.6418371274763029600" id="8487975854041177776" nodeInfo="ng">
         <property name="qualifier" nameId="vvvw.8351679702044326377" value="AFTER" />
