@@ -104,7 +104,7 @@
       <node role="pluginTrees" roleId="4tvk.3645074773131327936" type="4tvk.PluginTree" typeId="4tvk.3645074773131328305" id="3645074773131673876" nodeInfo="ng">
         <property name="pluginRoot" nameId="4tvk.3645074773125579814" value="/Users/campagne/IdeaProjects/git/plugins-2/test-data/root-for-mps" />
         <property name="pluginId" nameId="4tvk.3645074773125579816" value="RNASELECT_TASK" />
-        <property name="pluginKind" nameId="4tvk.3645074773125579819" value="task" />
+        <property name="pluginKind" nameId="4tvk.3645074773125579819" value="tasks" />
       </node>
     </node>
   </root>
