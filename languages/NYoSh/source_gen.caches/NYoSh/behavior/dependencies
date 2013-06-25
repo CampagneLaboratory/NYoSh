@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="NYoSh.behavior.AbstractCommand_BehaviorDescriptor" file="AbstractCommand_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="NYoSh.behavior.AndCommandOperator_BehaviorDescriptor" file="AndCommandOperator_BehaviorDescriptor.java">
+    <classNode dependClassName="NYoSh.behavior.BinaryCommandOperator_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="NYoSh.behavior.ArgumentParser_BehaviorDescriptor" file="ArgumentParser_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.ClassConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="NYoSh.behavior.BehaviorAspectDescriptor" file="BehaviorAspectDescriptor.java">
+    <classNode dependClassName="NYoSh.behavior.AndCommandOperator_BehaviorDescriptor" />
+    <classNode dependClassName="NYoSh.behavior.ArgumentParser_BehaviorDescriptor" />
+    <classNode dependClassName="NYoSh.behavior.BinaryCommandOperator_BehaviorDescriptor" />
+    <classNode dependClassName="NYoSh.behavior.ChangeDirectory_BehaviorDescriptor" />
+    <classNode dependClassName="NYoSh.behavior.ConceptFunctionParameter_ParsedArguments_BehaviorDescriptor" />
+    <classNode dependClassName="NYoSh.behavior.ConceptFunctionParameter_outputReader_BehaviorDescriptor" />
+    <classNode dependClassName="NYoSh.behavior.ConceptFunctionParameter_outputStream_BehaviorDescriptor" />
+    <classNode dependClassName="NYoSh.behavior.ConceptFunction_ConsumeOutputReaderBlock_BehaviorDescriptor" />
+    <classNode dependClassName="NYoSh.behavior.ConceptFunction_ConsumeOutputStreamBlock_BehaviorDescriptor" />
+    <classNode dependClassName="NYoSh.behavior.ConceptFunction_EntryPoint_BehaviorDescriptor" />
+    <classNode dependClassName="NYoSh.behavior.ConsumeCommandOutputWithReader_BehaviorDescriptor" />
+    <classNode dependClassName="NYoSh.behavior.ConsumeCommandOutputWithStream_BehaviorDescriptor" />
+    <classNode dependClassName="NYoSh.behavior.DefaultArgumentPrototype_BehaviorDescriptor" />
+    <classNode dependClassName="NYoSh.behavior.EntryPoint_BehaviorDescriptor" />
+    <classNode dependClassName="NYoSh.behavior.ExecuteCommand_BehaviorDescriptor" />
+    <classNode dependClassName="NYoSh.behavior.GStringCommand_BehaviorDescriptor" />
+    <classNode dependClassName="NYoSh.behavior.GobyWebAlignPluginPrototype_BehaviorDescriptor" />
+    <classNode dependClassName="NYoSh.behavior.OrCommandOperator_BehaviorDescriptor" />
+    <classNode dependClassName="NYoSh.behavior.ParsedArgumentType_BehaviorDescriptor" />
+    <classNode dependClassName="NYoSh.behavior.PipeOutCommandOperator_BehaviorDescriptor" />
+    <classNode dependClassName="NYoSh.behavior.PipeOutErrCommandOperator_BehaviorDescriptor" />
+    <classNode dependClassName="NYoSh.behavior.Script_BehaviorDescriptor" />
+    <classNode dependClassName="NYoSh.behavior.SemiColonCommandOperator_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Arrays" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.interpreted.BehaviorAspectInterpreted" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor" />
+  </dependency>
+  <dependency className="NYoSh.behavior.BinaryCommandOperator_BehaviorDescriptor" file="BinaryCommandOperator_BehaviorDescriptor.java">
+    <classNode dependClassName="NYoSh.behavior.AbstractCommand_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="NYoSh.behavior.ChangeDirectory_BehaviorDescriptor" file="ChangeDirectory_BehaviorDescriptor.java">
+    <classNode dependClassName="NYoSh.behavior.AbstractCommand_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="NYoSh.behavior.ConceptFunctionParameter_ParsedArguments_BehaviorDescriptor" file="ConceptFunctionParameter_ParsedArguments_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.ConceptFunctionParameter_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.IDontSubstituteByDefault_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="NYoSh.behavior.ConceptFunctionParameter_outputReader_BehaviorDescriptor" file="ConceptFunctionParameter_outputReader_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.ConceptFunctionParameter_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.IDontSubstituteByDefault_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="NYoSh.behavior.ConceptFunctionParameter_outputStream_BehaviorDescriptor" file="ConceptFunctionParameter_outputStream_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.ConceptFunctionParameter_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.IDontSubstituteByDefault_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="NYoSh.behavior.ConceptFunction_ConsumeOutputReaderBlock_Behavior" file="ConceptFunction_ConsumeOutputReaderBlock_Behavior.java">
+    <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.language.SAbstractConcept" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+  </dependency>
+  <dependency className="NYoSh.behavior.ConceptFunction_ConsumeOutputReaderBlock_BehaviorDescriptor" file="ConceptFunction_ConsumeOutputReaderBlock_BehaviorDescriptor.java">
+    <classNode dependClassName="NYoSh.behavior.ConceptFunction_ConsumeOutputReaderBlock_Behavior" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.ConceptFunction_BehaviorDescriptor" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.language.SConcept" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="NYoSh.behavior.ConceptFunction_ConsumeOutputStreamBlock_Behavior" file="ConceptFunction_ConsumeOutputStreamBlock_Behavior.java">
+    <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.language.SAbstractConcept" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+  </dependency>
+  <dependency className="NYoSh.behavior.ConceptFunction_ConsumeOutputStreamBlock_BehaviorDescriptor" file="ConceptFunction_ConsumeOutputStreamBlock_BehaviorDescriptor.java">
+    <classNode dependClassName="NYoSh.behavior.ConceptFunction_ConsumeOutputStreamBlock_Behavior" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.ConceptFunction_BehaviorDescriptor" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.language.SConcept" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="NYoSh.behavior.ConceptFunction_EntryPoint_BehaviorDescriptor" file="ConceptFunction_EntryPoint_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.ConceptFunction_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="NYoSh.behavior.ConsumeCommandOutputWithReader_BehaviorDescriptor" file="ConsumeCommandOutputWithReader_BehaviorDescriptor.java">
+    <classNode dependClassName="NYoSh.behavior.ConsumeOutput_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="NYoSh.behavior.ConsumeCommandOutputWithStream_BehaviorDescriptor" file="ConsumeCommandOutputWithStream_BehaviorDescriptor.java">
+    <classNode dependClassName="NYoSh.behavior.ConsumeOutput_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="NYoSh.behavior.ConsumeOutput_Behavior" file="ConsumeOutput_Behavior.java">
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+  </dependency>
+  <dependency className="NYoSh.behavior.ConsumeOutput_BehaviorDescriptor" file="ConsumeOutput_BehaviorDescriptor.java">
+    <classNode dependClassName="NYoSh.behavior.AbstractCommand_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="NYoSh.behavior.DefaultArgumentPrototype_Behavior" file="DefaultArgumentPrototype_Behavior.java">
+    <classNode dependClassName="java.util.ArrayList" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNodeAccessUtil" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.persistence.PersistenceFacade" />
+  </dependency>
+  <dependency className="NYoSh.behavior.DefaultArgumentPrototype_BehaviorDescriptor" file="DefaultArgumentPrototype_BehaviorDescriptor.java">
+    <classNode dependClassName="NYoSh.behavior.DefaultArgumentPrototype_Behavior" />
+    <classNode dependClassName="NYoSh.behavior.EntryPointPrototype_BehaviorDescriptor" />
+    <classNode dependClassName="NYoSh.behavior.IEntryPointPrototype_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="NYoSh.behavior.EntryPointPrototype_BehaviorDescriptor" file="EntryPointPrototype_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="NYoSh.behavior.EntryPoint_Behavior" file="EntryPoint_Behavior.java">
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNodeAccessUtil" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.persistence.PersistenceFacade" />
+  </dependency>
+  <dependency className="NYoSh.behavior.EntryPoint_BehaviorDescriptor" file="EntryPoint_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="NYoSh.behavior.ExecuteCommand_BehaviorDescriptor" file="ExecuteCommand_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.Statement_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="NYoSh.behavior.GStringCommand_BehaviorDescriptor" file="GStringCommand_BehaviorDescriptor.java">
+    <classNode dependClassName="NYoSh.behavior.AbstractCommand_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="NYoSh.behavior.GobyWebAlignPluginPrototype_Behavior" file="GobyWebAlignPluginPrototype_Behavior.java">
+    <classNode dependClassName="java.util.ArrayList" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNodeAccessUtil" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.persistence.PersistenceFacade" />
+  </dependency>
+  <dependency className="NYoSh.behavior.GobyWebAlignPluginPrototype_BehaviorDescriptor" file="GobyWebAlignPluginPrototype_BehaviorDescriptor.java">
+    <classNode dependClassName="NYoSh.behavior.EntryPointPrototype_BehaviorDescriptor" />
+    <classNode dependClassName="NYoSh.behavior.GobyWebAlignPluginPrototype_Behavior" />
+    <classNode dependClassName="NYoSh.behavior.IEntryPointPrototype_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="NYoSh.behavior.IEntryPointPrototype_Behavior" file="IEntryPointPrototype_Behavior.java">
+    <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Deprecated" />
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorManager" />
+    <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+  </dependency>
+  <dependency className="NYoSh.behavior.IEntryPointPrototype_BehaviorDescriptor" file="IEntryPointPrototype_BehaviorDescriptor.java">
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+  </dependency>
+  <dependency className="NYoSh.behavior.OrCommandOperator_BehaviorDescriptor" file="OrCommandOperator_BehaviorDescriptor.java">
+    <classNode dependClassName="NYoSh.behavior.BinaryCommandOperator_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="NYoSh.behavior.ParsedArgumentType_BehaviorDescriptor" file="ParsedArgumentType_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.ClassConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="NYoSh.behavior.PipeOutCommandOperator_BehaviorDescriptor" file="PipeOutCommandOperator_BehaviorDescriptor.java">
+    <classNode dependClassName="NYoSh.behavior.BinaryCommandOperator_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="NYoSh.behavior.PipeOutErrCommandOperator_BehaviorDescriptor" file="PipeOutErrCommandOperator_BehaviorDescriptor.java">
+    <classNode dependClassName="NYoSh.behavior.BinaryCommandOperator_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="NYoSh.behavior.Script_Behavior" file="Script_Behavior.java">
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+  </dependency>
+  <dependency className="NYoSh.behavior.Script_BehaviorDescriptor" file="Script_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.execution.util.behavior.IMainClass_Behavior" />
+    <classNode dependClassName="jetbrains.mps.execution.util.behavior.IMainClass_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.InterfacePart_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.ScopeProvider_Behavior" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.ScopeProvider_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.scope.Scope" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="NYoSh.behavior.SemiColonCommandOperator_BehaviorDescriptor" file="SemiColonCommandOperator_BehaviorDescriptor.java">
+    <classNode dependClassName="NYoSh.behavior.BinaryCommandOperator_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+</dependenciesRoot>
+
