@@ -5,9 +5,11 @@
   <property name="build.layout" location="${build.dir}/artifacts/NYoSh" />
   <property name="idea_home" location="${basedir}/../../../../Applications/IntelliJ IDEA 12.app" />
   <property name="plugins_home" location="${idea_home}/plugins" />
+  <property name="mps_home" location="${basedir}/../../../../Applications/MPS 3.0.app" />
   <property name="artifacts.mpsPlugin" location="${idea_home}/plugins/" />
   <property name="artifacts.mpsBuild" location="${idea_home}/plugins" />
   <property name="artifacts.mpsExecutionPlugin" location="${idea_home}/plugins" />
+  <property name="artifacts.mpsWorkbench" location="${mps_home}" />
   <property name="artifacts.IDEA" location="${idea_home}" />
   <property file="${artifacts.mpsPlugin}/build.properties" prefix="import.mpsPlugin" />
   <property name="mpsPlugin.plugin.version" value="${import.mpsPlugin.mpsPlugin.plugin.version}" />
@@ -51,6 +53,7 @@
           <module ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" />
           <module ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224(MPS.Editor)" />
           <module ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" />
+          <module ref="86441d7a-e194-42da-81a5-2161ec62a379(MPS.Workbench)" />
           <module ref="4c6a28d1-2c60-478d-b36e-db9b3cbb21fb(closures.runtime)" />
           <module ref="9b80526e-f0bf-4992-bdf5-cee39c1833f3(collections.runtime)" />
           <module ref="a3e4657f-a76c-45bb-bbda-c764596ecc65(jetbrains.mps.baseLanguage.logging.runtime)" />
@@ -287,6 +290,7 @@
       <library file="${artifacts.mpsPlugin}/mps-core/languages/devkits/jetbrains.mps.devkit.bootstrap-languages.devkit" />
       <library file="${artifacts.mpsPlugin}/mps-core/languages/devkits/jetbrains.mps.devkit.general-purpose.devkit" />
       <library file="${artifacts.mpsPlugin}/mps-core/languages/devkits/jetbrains.mps.devkit.language-design.devkit" />
+      <library file="${artifacts.mpsPlugin}/mps-core/languages/languageDesign/jetbrains.mps.lang.access.jar" />
       <library file="${artifacts.mpsPlugin}/mps-core/languages/languageDesign/jetbrains.mps.lang.actions.jar" />
       <library file="${artifacts.mpsPlugin}/mps-core/languages/languageDesign/jetbrains.mps.lang.behavior.jar" />
       <library file="${artifacts.mpsPlugin}/mps-core/languages/languageDesign/jetbrains.mps.lang.checkedName.jar" />
@@ -327,6 +331,10 @@
       <library file="${artifacts.mpsPlugin}/mps-core/lib/mps-openapi.jar" />
       <library file="${artifacts.mpsPlugin}/mps-core/lib/mps-platform.jar" />
       <library file="${artifacts.mpsPlugin}/mps-core/lib/mps-tuples.jar" />
+      <library file="${artifacts.mpsPlugin}/mps-core/lib/mps-ui.jar" />
+      <library file="${artifacts.mpsWorkbench}/languages/workbench/jetbrains.mps.lang.plugin.standalone.jar" />
+      <library file="${artifacts.mpsWorkbench}/languages/workbench/jetbrains.mps.uiLanguage.jar" />
+      <library file="${artifacts.mpsWorkbench}/lib/mps-workbench.jar" />
       <chunk>
         <module file="${basedir}/languages/org.campagnelab.nyosh.gstring.mpl" />
         <module file="" />
@@ -365,6 +373,9 @@
         <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.gstring" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.pathpatterns" />
+        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-ui.jar" />
+        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-icons.jar" />
+        <fileset file="${artifacts.mpsWorkbench}/lib/mps-workbench.jar" />
         <fileset file="${basedir}/languages/pattern-matcher-1.0.2-SNAPSHOT.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.pathpatterns/wildcard-1.03.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
@@ -411,6 +422,9 @@
         <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-editor-runtime.jar" />
         <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-editor.jar" />
         <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-platform.jar" />
+        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-ui.jar" />
+        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-icons.jar" />
+        <fileset file="${artifacts.mpsWorkbench}/lib/mps-workbench.jar" />
         <pathelement path="${build.tmp}/java/out/NYoSh" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.gstring" />
         <fileset file="${basedir}/languages/pattern-matcher-1.0.2-SNAPSHOT.jar" />
