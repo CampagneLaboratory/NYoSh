@@ -10,7 +10,7 @@
   <import index="8r4j" modelUID="f:descriptor#a21a7294-c126-4f63-8335-8fecd8c28c7e(NYoSh@descriptor)" version="-1" />
   <import index="ykn1" modelUID="f:java_stub#c6567f13-87ab-4686-8f6f-42e8228c0e27#org.campagnelab.nyosh.exec(org.campagnelab.nyosh.gstring/org.campagnelab.nyosh.exec@java_stub)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="9" implicit="yes" />
+  <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="10" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" implicit="yes" />
   <root type="4tvk.Script" typeId="4tvk.8197864363320245969" id="2829258213792741301" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Test2" />
@@ -98,6 +98,13 @@
             <node role="componentType" roleId="tpee.1070534760952" type="tpee.StringType" typeId="tpee.1225271177708" id="3645074773126567458" nodeInfo="in" />
           </node>
         </node>
+      </node>
+    </node>
+    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="4tvk.GobyWebPluginTree" typeId="4tvk.3645074773125579813" id="3645074773131277423" nodeInfo="ng">
+      <node role="pluginTrees" roleId="4tvk.3645074773131327936" type="4tvk.PluginTree" typeId="4tvk.3645074773131328305" id="3645074773131673876" nodeInfo="ng">
+        <property name="pluginRoot" nameId="4tvk.3645074773125579814" value="/Users/campagne/IdeaProjects/git/plugins-2/test-data/root-for-mps" />
+        <property name="pluginId" nameId="4tvk.3645074773125579816" value="RNASELECT_TASK" />
+        <property name="pluginKind" nameId="4tvk.3645074773125579819" value="task" />
       </node>
     </node>
   </root>

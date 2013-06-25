@@ -60,5 +60,11 @@
     </dependencies>
     <rename id="4tvk.4897094796212941385" type="REFERENCE" from="parser" to="parserResultType" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="9" />
+    </dependencies>
+    <rename id="4tvk.3645074773125677240" type="CHILD" from="tree" to="trees" />
+  </StructureModification>
 </history>
 
