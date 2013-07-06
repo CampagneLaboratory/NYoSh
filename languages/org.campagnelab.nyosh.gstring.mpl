@@ -8,18 +8,13 @@
   </models>
   <accessoryModels />
   <generators>
-    <generator generatorUID="org.campagnelab.nyosh.gstring#1012285663620319601" uuid="a5d2ffba-970b-444d-a691-bab9259014f4">
+    <generator name="Empty" generatorUID="org.campagnelab.nyosh.gstring#4153369314447940144" uuid="36789a43-e909-4a7b-b800-664d4992ee11">
       <models>
-        <modelRoot contentPath="${module}" type="default">
-          <sourceRoot location="generator/template" />
+        <modelRoot contentPath="${module}/generator/template" type="default">
+          <sourceRoot location="." />
         </modelRoot>
       </models>
       <external-templates />
-      <dependencies>
-        <dependency reexport="false">f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</dependency>
-        <dependency reexport="false">ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</dependency>
-        <dependency reexport="false">c6567f13-87ab-4686-8f6f-42e8228c0e27(org.campagnelab.nyosh.gstring)</dependency>
-      </dependencies>
       <usedLanguages>
         <usedLanguage>b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)</usedLanguage>
         <usedLanguage>d7706f63-9be2-479c-a3da-ae92af1e64d5(jetbrains.mps.lang.generator.generationContext)</usedLanguage>
