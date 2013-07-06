@@ -114,9 +114,6 @@
       <property name="name" nameId="tpck.1169194664001" value="parameters" />
       <link role="overriddenMethod" roleId="1i04.1225194472831" targetNodeId="4ezj.2829258213786778419" resolveInfo="parameters" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="1645071448550974767" nodeInfo="nn" />
-      <node role="returnType" roleId="tpee.1068580123133" type="tp25.SNodeListType" typeId="tp25.1145383075378" id="1645071448550974768" nodeInfo="in">
-        <link role="elementConcept" roleId="tp25.1145383142433" targetNodeId="tpee.1068498886292" resolveInfo="ParameterDeclaration" />
-      </node>
       <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="1645071448550974769" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="1645071448550974770" nodeInfo="nn">
           <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="1645071448550974771" nodeInfo="nr">
@@ -168,6 +165,9 @@
             <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1645071448550974771" resolveInfo="parameters" />
           </node>
         </node>
+      </node>
+      <node role="returnType" roleId="tpee.1068580123133" type="tp25.SNodeListType" typeId="tp25.1145383075378" id="7914415056327470499" nodeInfo="in">
+        <link role="elementConcept" roleId="tp25.1145383142433" targetNodeId="tpee.1068498886292" resolveInfo="ParameterDeclaration" />
       </node>
     </node>
   </root>
