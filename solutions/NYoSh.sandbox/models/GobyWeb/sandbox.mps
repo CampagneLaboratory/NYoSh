@@ -14,11 +14,9 @@
   <import index="fxg7" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" version="-1" implicit="yes" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" implicit="yes" />
   <root type="935h.PluginScript" typeId="935h.1090105717920801947" id="1090105717921298473" nodeInfo="ng">
-    <node role="pluginSystem" roleId="935h.1090105717920801999" type="935h.PluginTree" typeId="935h.1090105717921353605" id="1090105717922382997" nodeInfo="ng">
-      <property name="pluginRoot" nameId="935h.1090105717921353606" value="/Users/campagne/IdeaProjects/git/gobyweb2-plugins" />
-      <property name="pluginId" nameId="935h.1090105717921353607" value="BWA_ALIGN" />
-      <property name="pluginKind" nameId="935h.1090105717921353608" value="aligners" />
-    </node>
+    <property name="pluginId" nameId="935h.6874736155930792589" value="BWA_ALIGN" />
+    <property name="version" value="1.0" />
+    <property name="pluginKind" nameId="935h.6874736155930792593" value="analyses" />
     <node role="script" roleId="935h.1090105717921230261" type="4tvk.Script" typeId="4tvk.8197864363320245969" id="1090105717921298474" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="SomeScript" />
       <node role="entryPoints" roleId="4tvk.4370546365667651420" type="4tvk.EntryPoint" typeId="4tvk.4370546365667651425" id="1090105717921336620" nodeInfo="ng">
@@ -76,6 +74,9 @@
           </node>
         </node>
       </node>
+    </node>
+    <node role="pluginSystem" roleId="935h.1090105717920801999" type="935h.PluginSystemRootDirectory" typeId="935h.6874736155930792596" id="6874736155931000803" nodeInfo="ng">
+      <property name="path" nameId="935h.6874736155930792624" value="/Users/campagne/IdeaProjects/git/gobyweb2-plugins" />
     </node>
   </root>
 </model>

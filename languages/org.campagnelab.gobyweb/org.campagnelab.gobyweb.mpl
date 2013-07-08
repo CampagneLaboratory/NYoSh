@@ -7,14 +7,19 @@
   </models>
   <accessoryModels />
   <generators>
-    <generator generatorUID="org.campagnelab.gobyweb#1090105717920801462" uuid="ae984eb0-b5d6-4751-be51-025e23c91f0a">
+    <generator name="" generatorUID="org.campagnelab.gobyweb#1090105717920801462" uuid="ae984eb0-b5d6-4751-be51-025e23c91f0a">
       <models>
         <modelRoot contentPath="${module}" type="default">
           <sourceRoot location="generator/template" />
         </modelRoot>
       </models>
       <external-templates />
+      <dependencies>
+        <dependency reexport="false">a21a7294-c126-4f63-8335-8fecd8c28c7e(NYoSh)</dependency>
+      </dependencies>
       <usedLanguages>
+        <usedLanguage>a21a7294-c126-4f63-8335-8fecd8c28c7e(NYoSh)</usedLanguage>
+        <usedLanguage>901f5cf3-dc77-4c1e-bc5a-6382baee28b4(TextOutput)</usedLanguage>
         <usedLanguage>b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)</usedLanguage>
         <usedLanguage>d7706f63-9be2-479c-a3da-ae92af1e64d5(jetbrains.mps.lang.generator.generationContext)</usedLanguage>
       </usedLanguages>
@@ -35,6 +40,7 @@
   </dependencies>
   <usedLanguages>
     <usedLanguage>a21a7294-c126-4f63-8335-8fecd8c28c7e(NYoSh)</usedLanguage>
+    <usedLanguage>901f5cf3-dc77-4c1e-bc5a-6382baee28b4(TextOutput)</usedLanguage>
     <usedLanguage>63650c59-16c8-498a-99c8-005c7ee9515d(jetbrains.mps.lang.access)</usedLanguage>
     <usedLanguage>28f9e497-3b42-4291-aeba-0a1039153ab1(jetbrains.mps.lang.plugin)</usedLanguage>
     <usedLanguage>696c1165-4a59-463b-bc5d-902caab85dd0(jetbrains.mps.make.facet)</usedLanguage>
@@ -46,6 +52,7 @@
   </usedDevKits>
   <extendedLanguages>
     <extendedLanguage>ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</extendedLanguage>
+    <extendedLanguage>901f5cf3-dc77-4c1e-bc5a-6382baee28b4(TextOutput)</extendedLanguage>
   </extendedLanguages>
 </language>
 
