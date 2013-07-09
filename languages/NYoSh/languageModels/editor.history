@@ -6,8 +6,8 @@
       <model index="q17a" modelUID="r:3fd8f008-20f7-41de-ac4a-40f2d89b8fb2(NYoSh.intentions)" version="-1" />
       <model index="q8mp" modelUID="r:e81db3c8-c3eb-4adc-83ad-930c89141029(NYoSh.actions)" version="-1" />
       <model index="aet2" modelUID="r:ab86e397-1503-48ca-8931-8dc598446fee(NYoSh.generator.template.main@generator)" version="-1" />
-      <model index="idop" modelUID="r:d274dffc-d0bf-4ec5-bbf4-c1d30ee1f423(NYoSh.typesystem)" version="-1" />
       <model index="866" modelUID="r:b5bf8283-80d1-4ef0-93cb-73126a01373f(NYoSh.plugin)" version="-1" />
+      <model index="idop" modelUID="r:d274dffc-d0bf-4ec5-bbf4-c1d30ee1f423(NYoSh.typesystem)" version="-1" />
       <model index="4ezj" modelUID="r:2a3903cf-99a2-4e4b-9216-412f36303d74(NYoSh.behavior)" version="-1" />
       <model index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="10" />
       <model index="f6d6" modelUID="r:bbce89e8-2bb0-4c95-b1b7-870a649b438d(NYoSh.constraints)" version="-1" />
@@ -28,8 +28,8 @@
       <model index="q17a" modelUID="r:3fd8f008-20f7-41de-ac4a-40f2d89b8fb2(org.campagnelab.nyosh.intentions)" version="0" />
       <model index="q8mp" modelUID="r:e81db3c8-c3eb-4adc-83ad-930c89141029(org.campagnelab.nyosh.actions)" version="0" />
       <model index="aet2" modelUID="r:ab86e397-1503-48ca-8931-8dc598446fee(org.campagnelab.nyosh.generator.template.main@generator)" version="0" />
-      <model index="idop" modelUID="r:d274dffc-d0bf-4ec5-bbf4-c1d30ee1f423(org.campagnelab.nyosh.typesystem)" version="0" />
       <model index="866" modelUID="r:b5bf8283-80d1-4ef0-93cb-73126a01373f(org.campagnelab.nyosh.plugin)" version="0" />
+      <model index="idop" modelUID="r:d274dffc-d0bf-4ec5-bbf4-c1d30ee1f423(org.campagnelab.nyosh.typesystem)" version="0" />
       <model index="4ezj" modelUID="r:2a3903cf-99a2-4e4b-9216-412f36303d74(org.campagnelab.nyosh.behavior)" version="0" />
       <model index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(org.campagnelab.nyosh.structure)" version="11" />
       <model index="f6d6" modelUID="r:bbce89e8-2bb0-4c95-b1b7-870a649b438d(org.campagnelab.nyosh.constraints)" version="0" />
@@ -49,8 +49,8 @@
       <model index="36xx" modelUID="r:31af932a-3b06-429d-8d4c-b0b4ebe2bde6(org.campagnelab.NYoSh.editor)" version="1" />
       <model index="4ezj" modelUID="r:2a3903cf-99a2-4e4b-9216-412f36303d74(org.campagnelab.NYoSh.behavior)" version="1" />
       <model index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(org.campagnelab.NYoSh.structure)" version="12" />
-      <model index="2do4" modelUID="r:37480788-d5bb-44f1-9b59-9a1a08c5e7d7(org.campagnelab.gobyweb.behavior)" version="-1" />
       <model index="aolm" modelUID="r:25b034d9-9d15-40d6-b320-353339f9d236(org.campagnelab.gobyweb.editor)" version="-1" />
+      <model index="2do4" modelUID="r:37480788-d5bb-44f1-9b59-9a1a08c5e7d7(org.campagnelab.gobyweb.behavior)" version="-1" />
       <model index="3x59" modelUID="r:d679b7ff-0589-488d-88f2-70a6a8ce9f59(org.campagnelab.gobyweb.structure)" version="-1" />
     </dependencies>
     <move id="4tvk.3645074773131327936" to="3x59.1645071448550969710" />
@@ -109,8 +109,8 @@
       <model index="36xx" modelUID="r:31af932a-3b06-429d-8d4c-b0b4ebe2bde6(org.campagnelab.NYoSh.editor)" version="2" />
       <model index="4ezj" modelUID="r:2a3903cf-99a2-4e4b-9216-412f36303d74(org.campagnelab.NYoSh.behavior)" version="2" />
       <model index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(org.campagnelab.NYoSh.structure)" version="14" />
-      <model index="2do4" modelUID="r:37480788-d5bb-44f1-9b59-9a1a08c5e7d7(org.campagnelab.gobyweb.behavior)" version="0" />
       <model index="aolm" modelUID="r:25b034d9-9d15-40d6-b320-353339f9d236(org.campagnelab.gobyweb.editor)" version="0" />
+      <model index="2do4" modelUID="r:37480788-d5bb-44f1-9b59-9a1a08c5e7d7(org.campagnelab.gobyweb.behavior)" version="0" />
       <model index="3x59" modelUID="r:d679b7ff-0589-488d-88f2-70a6a8ce9f59(org.campagnelab.gobyweb.structure)" version="1" />
     </dependencies>
     <move id="4tvk.2829258213793694771" to="3x59.1645071448550974758" />
@@ -178,6 +178,36 @@
     <move id="36xx.3645074773131892994" to="aolm.1645071448550977345" />
     <move id="36xx.3645074773131892993" to="aolm.1645071448550977344" />
     <move id="36xx.3645074773131892987" to="aolm.1645071448550977334" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="36xx" modelUID="r:31af932a-3b06-429d-8d4c-b0b4ebe2bde6(NYoSh.editor)" version="4" />
+      <model index="uk16" modelUID="r:63193f4d-76a2-48d4-b116-0f4aaae07639(org.campagnelab.gobyweb.editor)" version="-1" />
+      <model index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="-1" />
+      <model index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="10" />
+    </dependencies>
+    <move id="4tvk.3645074773125579819" to="935h.1090105717921353608" />
+    <move id="4tvk.3645074773125579816" to="935h.1090105717921353607" />
+    <move id="4tvk.3645074773125579814" to="935h.1090105717921353606" />
+    <move id="4tvk.3645074773131328305" to="935h.1090105717921353605" />
+    <move id="36xx.3645074773131892986" to="uk16.1090105717921353613" />
+    <move id="36xx.3645074773131892981" to="uk16.1090105717921353620" />
+    <move id="36xx.3645074773131892995" to="uk16.1090105717921353626" />
+    <move id="36xx.3645074773131892994" to="uk16.1090105717921353625" />
+    <move id="36xx.3645074773132124507" to="uk16.1090105717921353611" />
+    <move id="36xx.3645074773131892979" to="uk16.1090105717921353617" />
+    <move id="36xx.3645074773131892980" to="uk16.1090105717921353618" />
+    <move id="36xx.3645074773132124506" to="uk16.1090105717921353610" />
+    <move id="36xx.3645074773131892989" to="uk16.1090105717921353616" />
+    <move id="36xx.3645074773131893068" to="uk16.1090105717921353623" />
+    <move id="36xx.3645074773131892988" to="uk16.1090105717921353615" />
+    <move id="36xx.3645074773132124753" to="uk16.1090105717921353621" />
+    <move id="36xx.3645074773131892976" to="uk16.1090105717921353609" />
+    <move id="36xx.3645074773131892992" to="uk16.1090105717921353622" />
+    <move id="36xx.3645074773131892987" to="uk16.1090105717921353614" />
+    <move id="36xx.3645074773132513562" to="uk16.1090105717921353619" />
+    <move id="36xx.3645074773131892978" to="uk16.1090105717921353612" />
+    <move id="36xx.3645074773131892993" to="uk16.1090105717921353624" />
   </StructureModification>
 </history>
 

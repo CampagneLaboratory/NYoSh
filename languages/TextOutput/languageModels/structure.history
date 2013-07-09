@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="p6sl" modelUID="r:175e6779-7e81-49b1-b295-33bbabafa8d6(TextOutput.structure)" version="-1" />
+    </dependencies>
+    <rename id="p6sl.5493669862519718600" type="PROPERTY" from="line" to="text" />
+  </StructureModification>
+</history>
+
