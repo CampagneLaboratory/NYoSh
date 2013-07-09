@@ -18,7 +18,7 @@
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="8245000766498768269" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="8245000766498768267" nodeInfo="nn">
           <node role="expression" roleId="tpee.1068580123156" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="8245000766498768266" nodeInfo="nn">
-            <property name="value" nameId="tpee.1070475926801" value="Split line at \n" />
+            <property name="value" nameId="tpee.1070475926801" value="Split line at \\n" />
           </node>
         </node>
       </node>
@@ -61,7 +61,7 @@
                   <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="5493669862520578610" nodeInfo="nn">
                     <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~String%dsplit(java%dlang%dString)%cjava%dlang%dString[]" resolveInfo="split" />
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="5493669862520578611" nodeInfo="nn">
-                      <property name="value" nameId="tpee.1070475926801" value="\\\\\n" />
+                      <property name="value" nameId="tpee.1070475926801" value="\\\\n" />
                     </node>
                   </node>
                 </node>
