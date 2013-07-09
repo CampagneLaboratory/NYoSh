@@ -379,11 +379,6 @@
             <link role="language" roleId="kdzh.4278635856200794928" targetNodeId="ffeo.8939513996048535435" resolveInfo="jetbrains.mps.baseLanguage" />
           </node>
         </node>
-        <node role="generator" roleId="kdzh.9200313594498201639" type="kdzh.BuildMps_Generator" typeId="kdzh.5507251971038816436" id="8420881301282763474" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="org.campagnelab.nyosh.gstring#4153369314447940144" />
-          <property name="uuid" nameId="kdzh.322010710375892619" value="36789a43-e909-4a7b-b800-664d4992ee11" />
-          <property name="doNotCompile" nameId="kdzh.1500819558096356884" value="false" />
-        </node>
       </node>
       <node role="modules" roleId="kdzh.1500819558095907806" type="kdzh.BuildMps_Language" typeId="kdzh.3189788309731840248" id="8420881301282763445" nodeInfo="ng">
         <property name="compact" nameId="kdzh.8369506495128725901" value="true" />
