@@ -13,5 +13,8 @@
     </projectModules>
     <genConfs />
   </component>
+  <component name="ProjectModuleManager">
+    <modules />
+  </component>
 </project>
 

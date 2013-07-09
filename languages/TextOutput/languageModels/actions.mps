@@ -314,6 +314,5 @@
       </node>
     </node>
   </root>
-  <root type="tpdg.SmartEditorActions" typeId="tpdg.1235051137001" id="5493669862520670504" nodeInfo="ng" />
 </model>
 
