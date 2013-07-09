@@ -26,7 +26,7 @@
           <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutNewLineStyleClassItem" typeId="tpc2.1237308012275" id="5493669862520042366" nodeInfo="nn">
             <property name="flag" nameId="tpc2.1186414551515" value="true" />
           </node>
-          <node role="emptyCellModel" roleId="tpc2.1140524464359" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="8245000766498892320" nodeInfo="nn">
+          <node role="emptyCellModel" roleId="tpc2.1140524464359" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="1072453283800042544" nodeInfo="nn">
             <property name="text" nameId="tpc2.1073389577007" value=" " />
           </node>
         </node>
@@ -35,10 +35,38 @@
   </root>
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="5493669862520038241" nodeInfo="ng">
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="p6sl.5493669862519709805" resolveInfo="Line" />
-    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="5493669862520038270" nodeInfo="ng">
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="1072453283799954756" nodeInfo="nn">
+      <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Horizontal" typeId="tpc2.1106270549637" id="1072453283799954757" nodeInfo="nn" />
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="1072453283799954760" nodeInfo="ng">
+        <property name="allowEmptyText" nameId="tpc2.1140114345053" value="true" />
+        <property name="emptyNoTargetText" nameId="tpc2.1214560368769" value="true" />
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="p6sl.5493669862519718600" resolveInfo="text" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNodeList" typeId="tpc2.1073390211982" id="1072453283799954765" nodeInfo="ng">
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="p6sl.1680136183140337477" />
+        <node role="cellLayout" roleId="tpc2.1140524464360" type="tpc2.CellLayout_Horizontal" typeId="tpc2.1106270549637" id="1072453283799954766" nodeInfo="nn" />
+        <node role="emptyCellModel" roleId="tpc2.1140524464359" type="tpc2.CellModel_Empty" typeId="tpc2.8313721352726366579" id="1072453283800095288" nodeInfo="ng" />
+      </node>
+      <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.PunctuationLeftStyleClassItem" typeId="tpc2.1233758997495" id="1072453283800129630" nodeInfo="nn">
+        <property name="flag" nameId="tpc2.1186414551515" value="true" />
+      </node>
+      <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.PunctuationRightStyleClassItem" typeId="tpc2.1233759184865" id="1072453283800129786" nodeInfo="nn">
+        <property name="flag" nameId="tpc2.1186414551515" value="true" />
+      </node>
+    </node>
+  </root>
+  <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="1680136183140337491" nodeInfo="ng">
+    <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="p6sl.1680136183140337486" resolveInfo="Phrase" />
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="1680136183140342127" nodeInfo="ng">
       <property name="allowEmptyText" nameId="tpc2.1140114345053" value="true" />
-      <property name="noTargetText" nameId="tpc2.1139852716018" value=" " />
-      <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="p6sl.5493669862519718600" resolveInfo="text" />
+      <property name="emptyNoTargetText" nameId="tpc2.1214560368769" value="true" />
+      <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="p6sl.1680136183140337487" resolveInfo="text" />
+      <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.PunctuationLeftStyleClassItem" typeId="tpc2.1233758997495" id="1072453283800144401" nodeInfo="nn">
+        <property name="flag" nameId="tpc2.1186414551515" value="true" />
+      </node>
+      <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.PunctuationRightStyleClassItem" typeId="tpc2.1233759184865" id="1072453283800144503" nodeInfo="nn">
+        <property name="flag" nameId="tpc2.1186414551515" value="true" />
+      </node>
     </node>
   </root>
 </model>

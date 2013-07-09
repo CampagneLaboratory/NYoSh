@@ -7,7 +7,7 @@
           <value>
             <Library>
               <option name="name" value="patterns" />
-              <option name="path" value="$PROJECT_DIR$/../lib" />
+              <option name="path" value="${lisson.home}/lib" />
             </Library>
           </value>
         </entry>
