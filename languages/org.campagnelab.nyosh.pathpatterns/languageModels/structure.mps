@@ -18,11 +18,11 @@
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1..n" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="1326095133172717614" resolveInfo="IncludePattern" />
     </node>
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1326095133173057128" nodeInfo="ig">
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1326095133177132634" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
-      <property name="role" nameId="tpce.1071599776563" value="exclude" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="1326095133172726396" resolveInfo="ExcludePattern" />
+      <property name="role" nameId="tpce.1071599776563" value="excludeList" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="1326095133177132516" resolveInfo="ExcludeList" />
     </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1081263916558050169" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
@@ -50,6 +50,17 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1326095133172726396" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="ExcludePattern" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="1326095133172717603" resolveInfo="Pattern" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1326095133177132516" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="ExcludeList" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="exclude" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1326095133177132534" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1..n" />
+      <property name="role" nameId="tpce.1071599776563" value="exclude" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="1326095133172726396" resolveInfo="ExcludePattern" />
+    </node>
   </root>
 </model>
 
