@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:3aab623e-bf18-471c-8282-deafe95cbc41(TextOutput.generator.template.main@generator)">
+<model modelUID="r:3aab623e-bf18-471c-8282-deafe95cbc41(org.campagnelab.textoutput.generator.template.main@generator)" version="0">
   <persistence version="8" />
   <language namespace="d7706f63-9be2-479c-a3da-ae92af1e64d5(jetbrains.mps.lang.generator.generationContext)" />
   <language namespace="b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)" />

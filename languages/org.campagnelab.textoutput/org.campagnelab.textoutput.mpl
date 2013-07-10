@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="TextOutput" uuid="901f5cf3-dc77-4c1e-bc5a-6382baee28b4">
+<language namespace="org.campagnelab.textoutput" uuid="901f5cf3-dc77-4c1e-bc5a-6382baee28b4">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="languageModels" />
@@ -7,7 +7,7 @@
   </models>
   <accessoryModels />
   <generators>
-    <generator generatorUID="TextOutput#6874736155931251038" uuid="2a6b8be2-e610-4c56-b728-d6ee644c94bc">
+    <generator generatorUID="org.campagnelab.textoutput#6874736155931251038" uuid="2a6b8be2-e610-4c56-b728-d6ee644c94bc">
       <models>
         <modelRoot contentPath="${module}" type="default">
           <sourceRoot location="generator/template" />

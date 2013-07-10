@@ -477,28 +477,28 @@
         </node>
         <node role="dependencies" roleId="kdzh.5253498789149547704" type="kdzh.BuildMps_ExtractedModuleDependency" typeId="kdzh.7259033139236285166" id="5493669862522193706" nodeInfo="nn">
           <node role="dependency" roleId="kdzh.7259033139236285167" type="kdzh.BuildMps_ModuleDependencyExtendLanguage" typeId="kdzh.4278635856200794926" id="5493669862522193707" nodeInfo="ng">
-            <link role="language" roleId="kdzh.4278635856200794928" targetNodeId="5493669862522192116" resolveInfo="TextOutput" />
+            <link role="language" roleId="kdzh.4278635856200794928" targetNodeId="5493669862522192116" resolveInfo="org.campagnelab.textoutput" />
           </node>
         </node>
       </node>
       <node role="modules" roleId="kdzh.1500819558095907806" type="kdzh.BuildMps_Language" typeId="kdzh.3189788309731840248" id="5493669862522192116" nodeInfo="ng">
         <property name="compact" nameId="kdzh.8369506495128725901" value="true" />
-        <property name="name" nameId="tpck.1169194664001" value="TextOutput" />
+        <property name="name" nameId="tpck.1169194664001" value="org.campagnelab.textoutput" />
         <property name="uuid" nameId="kdzh.322010710375892619" value="901f5cf3-dc77-4c1e-bc5a-6382baee28b4" />
         <property name="doNotCompile" nameId="kdzh.1500819558096356884" value="false" />
         <node role="path" roleId="kdzh.322010710375956261" type="3ior.BuildSourceProjectRelativePath" typeId="3ior.5481553824944787378" id="5493669862522192119" nodeInfo="ng">
           <node role="compositePart" roleId="3ior.7321017245477039051" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="5493669862522193106" nodeInfo="nn">
             <property name="head" nameId="3ior.8618885170173601779" value="languages" />
-            <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="5493669862522193309" nodeInfo="nn">
-              <property name="head" nameId="3ior.8618885170173601779" value="TextOutput" />
-              <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="5493669862522193512" nodeInfo="nn">
-                <property name="head" nameId="3ior.8618885170173601779" value="TextOutput.mpl" />
+            <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="1072453283811488836" nodeInfo="nn">
+              <property name="head" nameId="3ior.8618885170173601779" value="org.campagnelab.textoutput" />
+              <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="1072453283811489390" nodeInfo="nn">
+                <property name="head" nameId="3ior.8618885170173601779" value="org.campagnelab.textoutput.mpl" />
               </node>
             </node>
           </node>
         </node>
         <node role="generator" roleId="kdzh.9200313594498201639" type="kdzh.BuildMps_Generator" typeId="kdzh.5507251971038816436" id="5493669862522193719" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="TextOutput#6874736155931251038" />
+          <property name="name" nameId="tpck.1169194664001" value="org.campagnelab.textoutput#6874736155931251038" />
           <property name="uuid" nameId="kdzh.322010710375892619" value="2a6b8be2-e610-4c56-b728-d6ee644c94bc" />
           <property name="doNotCompile" nameId="kdzh.1500819558096356884" value="false" />
         </node>
