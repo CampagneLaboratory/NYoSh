@@ -10,7 +10,7 @@
   <import index="8w0" modelUID="r:eb1d368a-5e85-4af8-8740-90a6516e7dd4(org.campagnelab.nyosh.pathpatterns.structure)" version="0" implicit="yes" />
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1081263916558049837" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Path" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="path" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="paths" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="4153369314447955958" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
@@ -61,6 +61,11 @@
       <property name="role" nameId="tpce.1071599776563" value="exclude" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="1326095133172726396" resolveInfo="ExcludePattern" />
     </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1326095133187313992" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="PathAsList" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="pathsAsList" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="1081263916558049837" resolveInfo="Path" />
   </root>
 </model>
 
