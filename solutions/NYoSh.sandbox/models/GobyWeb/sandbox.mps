@@ -16,7 +16,7 @@
   <root type="935h.PluginScript" typeId="935h.1090105717920801947" id="1090105717921298473" nodeInfo="ng">
     <property name="pluginId" nameId="935h.6874736155930792589" value="BWA_ALIGN" />
     <property name="version" value="1.0" />
-    <property name="pluginKind" nameId="935h.6874736155930792593" value="analyses" />
+    <property name="pluginKind" nameId="935h.6874736155930792593" value="aligners" />
     <node role="script" roleId="935h.1090105717921230261" type="4tvk.Script" typeId="4tvk.8197864363320245969" id="1090105717921298474" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="SomeScript" />
       <node role="entryPoints" roleId="4tvk.4370546365667651420" type="4tvk.EntryPoint" typeId="4tvk.4370546365667651425" id="1090105717921336620" nodeInfo="ng">
