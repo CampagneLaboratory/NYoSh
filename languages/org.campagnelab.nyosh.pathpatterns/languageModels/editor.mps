@@ -43,7 +43,7 @@
         </node>
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="1326095133177674709" nodeInfo="nn">
-        <property name="text" nameId="tpc2.1073389577007" value="} " />
+        <property name="text" nameId="tpc2.1073389577007" value="}" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="1326095133177134459" nodeInfo="ng">
         <property name="emptyNoTargetText" nameId="tpc2.1214560368769" value="true" />
