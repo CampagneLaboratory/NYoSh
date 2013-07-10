@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="ejop" modelUID="r:55d3455f-42cc-4fb7-8ffb-91281ea900e9(TextOutput.intentions)" version="-1" />
+      <model index="pti0" modelUID="r:24bbe5ed-fbbd-4921-a27f-6c4984503c1d(TextOutput.typesystem)" version="-1" />
+      <model index="kapv" modelUID="r:7edd17f0-f811-4c6c-99e7-b7718114eeae(TextOutput.constraints)" version="-1" />
+      <model index="ukw8" modelUID="r:ec1af95f-841b-4805-a3bd-a16f13b6257d(TextOutput.behavior)" version="-1" />
+      <model index="za1d" modelUID="r:a0366b8f-5b1a-498b-9f47-b7dbade2c94e(TextOutput.textGen)" version="-1" />
+      <model index="axwy" modelUID="r:b47e7b03-9df7-4be6-b195-787ee5e4bca9(TextOutput.editor)" version="-1" />
+      <model index="1qmy" modelUID="r:3de17468-1ab7-4380-a3fb-42c2b2e96e30(TextOutput.actions)" version="-1" />
+      <model index="gt70" modelUID="r:3aab623e-bf18-471c-8282-deafe95cbc41(TextOutput.generator.template.main@generator)" version="-1" />
+      <model index="p6sl" modelUID="r:175e6779-7e81-49b1-b295-33bbabafa8d6(TextOutput.structure)" version="0" />
+    </dependencies>
+    <RenameModel oldModel="r:b47e7b03-9df7-4be6-b195-787ee5e4bca9(TextOutput.editor)" newModel="r:b47e7b03-9df7-4be6-b195-787ee5e4bca9(org.campagnelab.textoutput.editor)" />
+    <RenameModel oldModel="r:3de17468-1ab7-4380-a3fb-42c2b2e96e30(TextOutput.actions)" newModel="r:3de17468-1ab7-4380-a3fb-42c2b2e96e30(org.campagnelab.textoutput.actions)" />
+    <RenameModel oldModel="r:a0366b8f-5b1a-498b-9f47-b7dbade2c94e(TextOutput.textGen)" newModel="r:a0366b8f-5b1a-498b-9f47-b7dbade2c94e(org.campagnelab.textoutput.textGen)" />
+    <RenameModel oldModel="r:ec1af95f-841b-4805-a3bd-a16f13b6257d(TextOutput.behavior)" newModel="r:ec1af95f-841b-4805-a3bd-a16f13b6257d(org.campagnelab.textoutput.behavior)" />
+    <RenameModel oldModel="r:175e6779-7e81-49b1-b295-33bbabafa8d6(TextOutput.structure)" newModel="r:175e6779-7e81-49b1-b295-33bbabafa8d6(org.campagnelab.textoutput.structure)" />
+    <RenameModel oldModel="r:55d3455f-42cc-4fb7-8ffb-91281ea900e9(TextOutput.intentions)" newModel="r:55d3455f-42cc-4fb7-8ffb-91281ea900e9(org.campagnelab.textoutput.intentions)" />
+    <RenameModel oldModel="r:24bbe5ed-fbbd-4921-a27f-6c4984503c1d(TextOutput.typesystem)" newModel="r:24bbe5ed-fbbd-4921-a27f-6c4984503c1d(org.campagnelab.textoutput.typesystem)" />
+    <RenameModel oldModel="r:7edd17f0-f811-4c6c-99e7-b7718114eeae(TextOutput.constraints)" newModel="r:7edd17f0-f811-4c6c-99e7-b7718114eeae(org.campagnelab.textoutput.constraints)" />
+    <RenameModel oldModel="r:3aab623e-bf18-471c-8282-deafe95cbc41(TextOutput.generator.template.main@generator)" newModel="r:3aab623e-bf18-471c-8282-deafe95cbc41(org.campagnelab.textoutput.generator.template.main@generator)" />
+  </StructureModification>
+</history>
+
