@@ -8,7 +8,7 @@
   </models>
   <accessoryModels />
   <generators>
-    <generator name="Empty" generatorUID="org.campagnelab.nyosh.gstring#4153369314447940144" uuid="36789a43-e909-4a7b-b800-664d4992ee11">
+    <generator name="Empty" generatorUID="org.campagnelab.nyosh.gstring#2352262435451178168" uuid="30ec5d40-5a33-41bf-b2af-e1f4ade5bca6">
       <models>
         <modelRoot contentPath="${module}/generator/template" type="default">
           <sourceRoot location="." />

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="8w0" modelUID="r:eb1d368a-5e85-4af8-8740-90a6516e7dd4(org.campagnelab.nyosh.pathpatterns.structure)" version="-1" />
+    </dependencies>
+    <rename id="8w0.1326095133172717614" type="CONCEPT" from="IncludePatter" to="IncludePattern" />
+  </StructureModification>
+</history>
+
