@@ -7,24 +7,7 @@
     <modelRoot path="${module}/pattern-matcher-1.0.2-SNAPSHOT.jar" type="java_classes" />
   </models>
   <accessoryModels />
-  <generators>
-    <generator name="Empty" generatorUID="org.campagnelab.nyosh.gstring#2352262435451178168" uuid="30ec5d40-5a33-41bf-b2af-e1f4ade5bca6">
-      <models>
-        <modelRoot contentPath="${module}/generator/template" type="default">
-          <sourceRoot location="." />
-        </modelRoot>
-      </models>
-      <external-templates />
-      <usedLanguages>
-        <usedLanguage>b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)</usedLanguage>
-        <usedLanguage>d7706f63-9be2-479c-a3da-ae92af1e64d5(jetbrains.mps.lang.generator.generationContext)</usedLanguage>
-      </usedLanguages>
-      <usedDevKits>
-        <usedDevKit>fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)</usedDevKit>
-      </usedDevKits>
-      <mapping-priorities />
-    </generator>
-  </generators>
+  <generators />
   <stubModelEntries>
     <stubModelEntry path="${module}/pattern-matcher-1.0.2-SNAPSHOT.jar" />
   </stubModelEntries>
@@ -36,6 +19,7 @@
   <usedLanguages>
     <usedLanguage>f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</usedLanguage>
     <usedLanguage>b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)</usedLanguage>
+    <usedLanguage>8585453e-6bfb-4d80-98de-b16074f1d86c(jetbrains.mps.lang.test)</usedLanguage>
     <usedLanguage>696c1165-4a59-463b-bc5d-902caab85dd0(jetbrains.mps.make.facet)</usedLanguage>
   </usedLanguages>
   <usedDevKits>

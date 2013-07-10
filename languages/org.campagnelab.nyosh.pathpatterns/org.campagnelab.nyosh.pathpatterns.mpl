@@ -17,6 +17,7 @@
       </models>
       <external-templates />
       <dependencies>
+        <dependency reexport="false">c6567f13-87ab-4686-8f6f-42e8228c0e27(org.campagnelab.nyosh.gstring)</dependency>
         <dependency reexport="false">7e7f12dd-4eb6-4f35-9b4d-d37f5140fd33(org.campagnelab.nyosh.pathpatterns)</dependency>
       </dependencies>
       <usedLanguages>
