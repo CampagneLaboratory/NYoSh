@@ -3,3 +3,17 @@
 */*/source_gen.caches/**/*
 */*/classes_gen/**/*
 trace.info
+./languages/generator/source_gen
+./languages/NYoSh/generator/source_gen
+./languages/NYoSh/source_gen
+./languages/org.campagnelab.gobyweb/generator/source_gen
+./languages/org.campagnelab.gobyweb/source_gen
+./languages/org.campagnelab.nyosh.pathpatterns/generator/source_gen
+./languages/org.campagnelab.nyosh.pathpatterns/source_gen
+./languages/org.campagnelab.textoutput/generator/source_gen
+./languages/org.campagnelab.textoutput/source_gen
+./languages/source_gen
+./languages/TextOutput/generator/source_gen
+./languages/TextOutput/source_gen
+./solutions/NYoSh.idea3/source_gen
+./solutions/NYoSh.sandbox/source_gen
