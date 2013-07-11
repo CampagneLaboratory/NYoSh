@@ -73,6 +73,29 @@
         </node>
       </node>
     </node>
+    <node role="rootMappingRule" roleId="tpf8.1167514678247" type="tpf8.Root_MappingRule" typeId="tpf8.1167514355419" id="3173353997328970314" nodeInfo="ng">
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="935h.1072453283800374842" resolveInfo="PluginExecuteScript" />
+      <link role="template" roleId="tpf8.1167514355421" targetNodeId="8245000766499343517" resolveInfo="task" />
+      <node role="conditionFunction" roleId="tpf8.1167169362365" type="tpf8.BaseMappingRule_Condition" typeId="tpf8.1167168920554" id="3173353997328972276" nodeInfo="nn">
+        <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="3173353997328972277" nodeInfo="sn">
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3173353997328979097" nodeInfo="nn">
+            <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3173353997328989444" nodeInfo="nn">
+              <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3173353997328979483" nodeInfo="nn">
+                <node role="operand" roleId="tpee.1197027771414" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="3173353997328979096" nodeInfo="nn" />
+                <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="3173353997328983480" nodeInfo="nn">
+                  <link role="property" roleId="tp25.1138056395725" targetNodeId="935h.1072453283800481038" resolveInfo="pluginKind" />
+                </node>
+              </node>
+              <node role="operation" roleId="tpee.1197027833540" type="tp25.Property_HasValue_Enum" typeId="tp25.1146171026731" id="3173353997329003623" nodeInfo="nn">
+                <node role="value" roleId="tp25.1146171026732" type="tp25.EnumMemberReference" typeId="tp25.1138676077309" id="3173353997329003625" nodeInfo="nn">
+                  <link role="enumMember" roleId="tp25.1138676095763" targetNodeId="935h.1090105717922383029" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node role="rootMappingRule" roleId="tpf8.1167514678247" type="tpf8.Root_MappingRule" typeId="tpf8.1167514355419" id="1072453283800880493" nodeInfo="ng">
       <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="935h.1072453283800374546" resolveInfo="RunMpsScript" />
       <link role="template" roleId="tpf8.1167514355421" targetNodeId="8245000766499724145" resolveInfo="run_model" />
@@ -141,11 +164,14 @@
         <property name="text" nameId="p6sl.1680136183140337487" value="" />
       </node>
     </node>
-    <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8245000766499341283" nodeInfo="ng">
-      <property name="text" nameId="p6sl.5493669862519718600" value="" />
+    <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="3173353997328940204" nodeInfo="ng">
+      <property name="text" nameId="p6sl.5493669862519718600" value="    #invoke the entry point in the concept model" />
     </node>
-    <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8245000766499341284" nodeInfo="ng">
-      <property name="text" nameId="p6sl.5493669862519718600" value="    #function implementation" />
+    <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="3173353997328940205" nodeInfo="ng">
+      <property name="text" nameId="p6sl.5493669862519718600" value="    ./run_model.sh plugin_alignment_analysis_split ${NUMBER_OF_PARTS} ${SPLICING_PLAN_RESULT} ${PARTS} " />
+    </node>
+    <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="3173353997328939295" nodeInfo="ng">
+      <property name="text" nameId="p6sl.5493669862519718600" value="" />
     </node>
     <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8245000766499341285" nodeInfo="ng">
       <property name="text" nameId="p6sl.5493669862519718600" value="}" />
@@ -174,14 +200,11 @@
     <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8245000766499341293" nodeInfo="ng">
       <property name="text" nameId="p6sl.5493669862519718600" value="    SPLICING_PLAN_FILE=$1" />
     </node>
-    <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8245000766499341294" nodeInfo="ng">
-      <property name="text" nameId="p6sl.5493669862519718600" value="" />
+    <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="3173353997328952440" nodeInfo="ng">
+      <property name="text" nameId="p6sl.5493669862519718600" value="     #invoke the entry point in the concept model" />
     </node>
-    <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8245000766499341295" nodeInfo="ng">
-      <property name="text" nameId="p6sl.5493669862519718600" value="    #function implementation" />
-    </node>
-    <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8245000766499341296" nodeInfo="ng">
-      <property name="text" nameId="p6sl.5493669862519718600" value="" />
+    <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="3173353997328945864" nodeInfo="ng">
+      <property name="text" nameId="p6sl.5493669862519718600" value="    ./run_model.sh plugin_alignment_analysis_num_parts ${SPLICING_PLAN_FILE} " />
     </node>
     <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8245000766499341297" nodeInfo="ng">
       <property name="text" nameId="p6sl.5493669862519718600" value="}" />
@@ -201,11 +224,11 @@
     <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8245000766499341302" nodeInfo="ng">
       <property name="text" nameId="p6sl.5493669862519718600" value="    CURRENT_PART=$2" />
     </node>
-    <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8245000766499341303" nodeInfo="ng">
-      <property name="text" nameId="p6sl.5493669862519718600" value="" />
-    </node>
     <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8245000766499341304" nodeInfo="ng">
-      <property name="text" nameId="p6sl.5493669862519718600" value="    #function implementation" />
+      <property name="text" nameId="p6sl.5493669862519718600" value="    #invoke the entry point in the concept model" />
+    </node>
+    <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="3173353997328954249" nodeInfo="ng">
+      <property name="text" nameId="p6sl.5493669862519718600" value="    ./run_model.sh plugin_alignment_analysis_process ${SLICING_PLAN_FILENAME} ${CURRENT_PART} " />
     </node>
     <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8245000766499341305" nodeInfo="ng">
       <property name="text" nameId="p6sl.5493669862519718600" value="" />
@@ -246,11 +269,14 @@
     <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8245000766499341317" nodeInfo="ng">
       <property name="text" nameId="p6sl.5493669862519718600" value="    PART_RESULT_FILES=$*" />
     </node>
+    <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="3173353997328959669" nodeInfo="ng">
+      <property name="text" nameId="p6sl.5493669862519718600" value="    #invoke the entry point in the concept model" />
+    </node>
+    <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="3173353997328959670" nodeInfo="ng">
+      <property name="text" nameId="p6sl.5493669862519718600" value="    ./run_model.sh plugin_alignment_analysis_combine ${RESULT_FILE} ${PART_RESULT_FILES} " />
+    </node>
     <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8245000766499341318" nodeInfo="ng">
       <property name="text" nameId="p6sl.5493669862519718600" value="" />
-    </node>
-    <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8245000766499341319" nodeInfo="ng">
-      <property name="text" nameId="p6sl.5493669862519718600" value="    #function implementation" />
     </node>
     <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8245000766499341320" nodeInfo="ng">
       <property name="text" nameId="p6sl.5493669862519718600" value="}" />
@@ -322,29 +348,22 @@
     <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8245000766499322855" nodeInfo="ng">
       <property name="text" nameId="p6sl.5493669862519718600" value="  OUTPUT=$1" />
     </node>
-    <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="4279449414584467565" nodeInfo="ng">
-      <property name="text" nameId="p6sl.5493669862519718600" value="sdfkl" />
-    </node>
-    <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="4279449414584467632" nodeInfo="ng">
-      <property name="text" nameId="p6sl.5493669862519718600" value="" />
-      <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="4279449414584467701" nodeInfo="ng">
-        <property name="text" nameId="p6sl.1680136183140337487" value="./run-mps" />
-      </node>
-      <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="4279449414584467702" nodeInfo="ng">
-        <property name="text" nameId="p6sl.1680136183140337487" value=".sh" />
-      </node>
-    </node>
     <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8245000766499322856" nodeInfo="ng">
       <property name="text" nameId="p6sl.5493669862519718600" value="  BASENAME=$2" />
     </node>
+    <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="3173353997328882741" nodeInfo="ng">
+      <property name="text" nameId="p6sl.5493669862519718600" value="  #invoke the model throught the script generated by RunMpsScript" />
+    </node>
     <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8245000766499322857" nodeInfo="ng">
-      <property name="text" nameId="p6sl.5493669862519718600" value="./run-mps.sh plugin_align ${OUTPUT} ${BASENAME}" />
-      <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="4279449414581196280" nodeInfo="ng">
-        <property name="text" nameId="p6sl.1680136183140337487" value="." />
-      </node>
+      <property name="text" nameId="p6sl.5493669862519718600" value="  ./run_model.sh plugin_align ${OUTPUT} ${BASENAME}" />
     </node>
     <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8245000766499322858" nodeInfo="ng">
-      <property name="text" nameId="p6sl.5493669862519718600" value="  #aligner's logic goes here" />
+      <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="3173353997328456608" nodeInfo="ng">
+        <property name="text" nameId="p6sl.1680136183140337487" value="" />
+      </node>
+      <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="3173353997328454855" nodeInfo="ng">
+        <property name="text" nameId="p6sl.1680136183140337487" value="" />
+      </node>
       <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="4279449414581196262" nodeInfo="ng">
         <property name="text" nameId="p6sl.1680136183140337487" value="" />
       </node>
@@ -362,11 +381,6 @@
       </node>
       <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="4279449414581196239" nodeInfo="ng">
         <property name="text" nameId="p6sl.1680136183140337487" value="" />
-      </node>
-    </node>
-    <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8245000766499322859" nodeInfo="ng">
-      <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="4279449414581196260" nodeInfo="ng">
-        <property name="text" nameId="p6sl.1680136183140337487" value="." />
       </node>
     </node>
     <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8245000766499322860" nodeInfo="ng">
@@ -426,10 +440,13 @@
       <property name="text" nameId="p6sl.5493669862519718600" value="function plugin_task {" />
     </node>
     <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8245000766499343879" nodeInfo="ng">
-      <property name="text" nameId="p6sl.5493669862519718600" value="" />
+      <property name="text" nameId="p6sl.5493669862519718600" value="     TASK_PARAMETERS=$*" />
     </node>
-    <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8245000766499343880" nodeInfo="ng">
-      <property name="text" nameId="p6sl.5493669862519718600" value="  echo  &quot;the plugin logic goes here&quot;" />
+    <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="3173353997328963426" nodeInfo="ng">
+      <property name="text" nameId="p6sl.5493669862519718600" value="    #invoke the entry point in the concept model" />
+    </node>
+    <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="3173353997328963427" nodeInfo="ng">
+      <property name="text" nameId="p6sl.5493669862519718600" value="    ./run_model.sh plugin_task ${TASK_PARAMETERS}  " />
     </node>
     <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8245000766499343881" nodeInfo="ng">
       <property name="text" nameId="p6sl.5493669862519718600" value="" />
@@ -511,7 +528,7 @@
         <property name="text" nameId="p6sl.1680136183140337487" value="MODEL=" />
       </node>
       <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="1072453283801109679" nodeInfo="ng">
-        <property name="text" nameId="p6sl.1680136183140337487" value="Working" />
+        <property name="text" nameId="p6sl.1680136183140337487" value="model" />
         <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.PropertyMacro" typeId="tpf8.1087833241328" id="1072453283801109682" nodeInfo="nn">
           <property name="propertyName" nameId="tpck.1757699476691236117" value="text" />
           <node role="propertyValueFunction" roleId="tpf8.1167756362303" type="tpf8.PropertyMacro_GetPropertyValue" typeId="tpf8.1167756080639" id="1072453283801109683" nodeInfo="nn">
@@ -535,7 +552,7 @@
         <property name="text" nameId="p6sl.1680136183140337487" value="CONCEPT=" />
       </node>
       <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="1072453283801120911" nodeInfo="ng">
-        <property name="text" nameId="p6sl.1680136183140337487" value="Test2" />
+        <property name="text" nameId="p6sl.1680136183140337487" value="concept" />
         <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.PropertyMacro" typeId="tpf8.1087833241328" id="1072453283801121850" nodeInfo="nn">
           <property name="propertyName" nameId="tpck.1757699476691236117" value="text" />
           <node role="propertyValueFunction" roleId="tpf8.1167756362303" type="tpf8.PropertyMacro_GetPropertyValue" typeId="tpf8.1167756080639" id="1072453283801121851" nodeInfo="nn">
@@ -616,6 +633,7 @@
   </root>
   <root type="935h.PluginExecuteScript" typeId="935h.1072453283800374842" id="1072453283801260403" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="map_PluginScript" />
+    <property name="pluginKind" nameId="935h.1072453283800481038" value="kind" />
     <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.RootTemplateAnnotation" typeId="tpf8.1168619357332" id="1072453283801260404" nodeInfo="ng">
       <link role="applicableConcept" roleId="tpf8.1168619429071" targetNodeId="935h.1090105717920801947" resolveInfo="PluginScript" />
     </node>
