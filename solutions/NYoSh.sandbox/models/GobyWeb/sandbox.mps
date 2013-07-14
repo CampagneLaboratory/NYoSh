@@ -118,18 +118,10 @@
                       <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="3173353997338341248" nodeInfo="ng">
                         <property name="value" nameId="f2ff.1012285663620336023" value="source/" />
                       </node>
-                    </node>
-                  </node>
-                  <node role="value" roleId="8w0.4153369314447955958" type="8w0.IncludePattern" typeId="8w0.1326095133172717614" id="7901651670851932758" nodeInfo="ng">
-                    <node role="value" roleId="8w0.1326095133174481588" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="7901651670851932759" nodeInfo="ng">
-                      <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringVarReference" typeId="f2ff.1012285663620336025" id="7901651670851932781" nodeInfo="ng">
+                      <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringVarReference" typeId="f2ff.1012285663620336025" id="7901651670851936415" nodeInfo="ng">
                         <link role="varRef" roleId="f2ff.4087517305354402375" targetNodeId="3173353997333877244" resolveInfo="basename" />
                       </node>
-                    </node>
-                  </node>
-                  <node role="value" roleId="8w0.4153369314447955958" type="8w0.IncludePattern" typeId="8w0.1326095133172717614" id="7901651670851932787" nodeInfo="ng">
-                    <node role="value" roleId="8w0.1326095133174481588" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="7901651670851932788" nodeInfo="ng">
-                      <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="7901651670851932789" nodeInfo="ng">
+                      <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="7901651670851936422" nodeInfo="ng">
                         <property name="value" nameId="f2ff.1012285663620336023" value=".*" />
                       </node>
                     </node>
