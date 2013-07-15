@@ -9,9 +9,9 @@
   <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="3" implicit="yes" />
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1090105717920801947" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="PluginScript" />
-    <property name="rootable" nameId="tpce.1096454100552" value="true" />
     <property name="abstract" nameId="tpce.4628067390765956802" value="true" />
     <property name="final" nameId="tpce.4628067390765956807" value="false" />
+    <property name="rootable" nameId="tpce.1096454100552" value="true" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="6874736155930792589" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="pluginId" />
@@ -108,7 +108,7 @@
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3173353997329129964" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="AlignerAlignEntryPointPrototype" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="aligners" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="4tvk.2829258213785539345" resolveInfo="EntryPointPrototype" />
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="3173353997329130237" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="4tvk.2829258213784965274" resolveInfo="IEntryPointPrototype" />
@@ -116,7 +116,7 @@
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3173353997329486142" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="AlignerAlignEntryPoint" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="aligners" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="4tvk.4370546365667651425" resolveInfo="EntryPoint" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3173353997329126934" nodeInfo="ig">
@@ -124,7 +124,7 @@
     <property name="rootable" nameId="tpce.1096454100552" value="true" />
     <property name="final" nameId="tpce.4628067390765956807" value="true" />
     <property name="abstract" nameId="tpce.4628067390765956802" value="false" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="aligners" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="1090105717920801947" resolveInfo="PluginScript" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7901651670846553392" nodeInfo="ig">
