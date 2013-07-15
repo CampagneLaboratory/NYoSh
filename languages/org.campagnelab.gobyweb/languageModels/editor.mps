@@ -3,7 +3,7 @@
   <persistence version="8" />
   <language namespace="18bc6592-03a6-4e29-a83a-7ff23bde13ba(jetbrains.mps.lang.editor)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="2" />
+  <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="3" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="11" />
   <import index="tpc2" modelUID="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" version="32" implicit="yes" />
@@ -249,6 +249,7 @@
     </node>
   </root>
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="3173353997330250251" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="" />
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="935h.3173353997329486142" resolveInfo="AlignerAlignEntryPoint" />
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="1185348143929437068" nodeInfo="nn">
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="1185348143929437069" nodeInfo="nn" />
@@ -282,6 +283,7 @@
     </node>
   </root>
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="3173353997332143014" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="" />
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="935h.3173353997329129964" resolveInfo="AlignerAlignEntryPointPrototype" />
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="3173353997332143084" nodeInfo="nn">
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="3173353997332143091" nodeInfo="nn">
@@ -291,7 +293,7 @@
     </node>
   </root>
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="7901651670847980936" nodeInfo="ng">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="resources" />
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="935h.7901651670847962496" resolveInfo="ArtifactInstallEntryPointPrototype" />
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="7901651670847982460" nodeInfo="nn">
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="7901651670847982461" nodeInfo="nn">
@@ -301,12 +303,12 @@
     </node>
   </root>
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="7901651670847983191" nodeInfo="ng">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="resources" />
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="935h.7901651670847958631" resolveInfo="ArtifactInstallEntryPoint" />
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="7901651670847983363" nodeInfo="nn">
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="7901651670847983364" nodeInfo="nn" />
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="7901651670847983365" nodeInfo="nn">
-        <property name="text" nameId="tpc2.1073389577007" value="artifact entry point" />
+        <property name="text" nameId="tpc2.1073389577007" value="artifact install entry point" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="7901651670847983366" nodeInfo="ng">
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1169194664001" resolveInfo="name" />
@@ -332,6 +334,50 @@
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="7901651670847983373" nodeInfo="nn">
         <property name="text" nameId="tpc2.1073389577007" value="}" />
       </node>
+    </node>
+  </root>
+  <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="3173353997343051987" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="resources" />
+    <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="935h.3173353997342375669" resolveInfo="ArtifactAttributeValuesEntryPoint" />
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="3173353997343052087" nodeInfo="nn">
+      <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="3173353997343052088" nodeInfo="nn" />
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="3173353997343052089" nodeInfo="nn">
+        <property name="text" nameId="tpc2.1073389577007" value="artifact get_attribute entry point" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="3173353997343052090" nodeInfo="ng">
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1169194664001" resolveInfo="name" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="3173353997343052091" nodeInfo="nn">
+        <property name="text" nameId="tpc2.1073389577007" value="{" />
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutNewLineStyleClassItem" typeId="tpc2.1237308012275" id="3173353997343052092" nodeInfo="nn">
+          <property name="flag" nameId="tpc2.1186414551515" value="true" />
+        </node>
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="3173353997343052093" nodeInfo="ng">
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="4tvk.2829258213786621720" />
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutIndentStyleClassItem" typeId="tpc2.1237307900041" id="3173353997343052094" nodeInfo="nn">
+          <property name="flag" nameId="tpc2.1186414551515" value="true" />
+        </node>
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="3173353997343052095" nodeInfo="nn">
+        <property name="text" nameId="tpc2.1073389577007" value="" />
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutNewLineStyleClassItem" typeId="tpc2.1237308012275" id="3173353997343052096" nodeInfo="nn">
+          <property name="flag" nameId="tpc2.1186414551515" value="true" />
+        </node>
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="3173353997343052097" nodeInfo="nn">
+        <property name="text" nameId="tpc2.1073389577007" value="}" />
+      </node>
+    </node>
+  </root>
+  <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="3173353997343052517" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="resources" />
+    <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="935h.3173353997342375996" resolveInfo="ArtifactAttributeValuesEntryPointPrototype" />
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="3173353997343052579" nodeInfo="nn">
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="3173353997343052580" nodeInfo="nn">
+        <property name="text" nameId="tpc2.1073389577007" value="default parser" />
+      </node>
+      <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="3173353997343052581" nodeInfo="nn" />
     </node>
   </root>
 </model>
