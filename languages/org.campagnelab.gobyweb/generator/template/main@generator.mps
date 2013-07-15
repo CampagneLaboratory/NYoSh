@@ -685,7 +685,7 @@
       </node>
     </node>
     <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="1072453283801109641" nodeInfo="ng">
-      <property name="text" nameId="p6sl.5493669862519718600" value="export MPS_HOME=/Applications/MPS\ 3.0.app/" />
+      <property name="text" nameId="p6sl.5493669862519718600" value="export MPS_HOME=${RESOURCES_ARTIFACTS_MPS_DISTRIBUTION}" />
     </node>
     <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="1072453283801109642" nodeInfo="ng">
       <property name="text" nameId="p6sl.5493669862519718600" value="CLASSPATH=`cat mps-jars-required.txt |awk '{ORS=&quot;:&quot;; print $1}'`" />
@@ -775,7 +775,7 @@
       <property name="text" nameId="p6sl.5493669862519718600" value="CLASSNAME=${MODULE}.${MODEL}.${NYOSH_SCRIPTNAME}" />
     </node>
     <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="1072453283801109649" nodeInfo="ng">
-      <property name="text" nameId="p6sl.5493669862519718600" value="java -classpath ${CLASSPATH}&quot;:&quot;${MODULE_GEN_CLASSES} ${CLASSNAME} &quot;$@&quot;" />
+      <property name="text" nameId="p6sl.5493669862519718600" value="java -classpath  ${RESOURCES_ARTIFACTS_MPS_SUPPORT_LIBS}/wildcard-1.03.jar:${RESOURCES_MPS_PATTERN_MATCHER}:${CLASSPATH}:${MODULE_GEN_CLASSES} ${CLASSNAME} &quot;$@&quot;" />
     </node>
     <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="1072453283801109636" nodeInfo="ng">
       <property name="text" nameId="p6sl.5493669862519718600" value="" />
