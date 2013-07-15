@@ -142,5 +142,12 @@
       </node>
     </node>
   </root>
+  <root type="935h.ResourceWithArtifactScript" typeId="935h.7901651670846553392" id="7901651670852617204" nodeInfo="ng">
+    <property name="pluginKind" nameId="935h.6874736155930792593" value="resources" />
+    <property name="pluginId" nameId="935h.6874736155930792589" value="TestResource" />
+    <node role="script" roleId="935h.1090105717921230261" type="4tvk.Script" typeId="4tvk.8197864363320245969" id="7901651670852617224" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="testResource" />
+    </node>
+  </root>
 </model>
 
