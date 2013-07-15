@@ -48,5 +48,11 @@
     </dependencies>
     <rename id="935h.3173353997342375996" type="CONCEPT" from="ArtifactAttributeValuesEntryPoint" to="ArtifactAttributeValuesEntryPointPrototype" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="3" />
+    </dependencies>
+    <rename id="935h.3173353997349575999" type="PROPERTY" from="sourceScriptName" to="scriptName" />
+  </StructureModification>
 </history>
 
