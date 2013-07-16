@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="6pk0" modelUID="r:48f4e449-1a18-435e-ae88-4830aa794dc7(org.campagnelab.nyosh.environment.structure)" version="-1" />
+    </dependencies>
+    <rename id="6pk0.3173353997360795160" type="CONCEPT" from="FileReader" to="FileMapReader" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="6pk0" modelUID="r:48f4e449-1a18-435e-ae88-4830aa794dc7(org.campagnelab.nyosh.environment.structure)" version="0" />
+    </dependencies>
+    <rename id="6pk0.3173353997360878302" type="CONCEPT" from="FileSource" to="MapFileSource" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="6pk0" modelUID="r:48f4e449-1a18-435e-ae88-4830aa794dc7(org.campagnelab.nyosh.environment.structure)" version="1" />
+    </dependencies>
+    <rename id="6pk0.3173353997360795160" type="CONCEPT" from="FileMapFileReader" to="MapFileReader" />
+  </StructureModification>
+</history>
+
