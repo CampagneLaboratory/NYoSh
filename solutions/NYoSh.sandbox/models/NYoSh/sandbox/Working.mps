@@ -17,9 +17,9 @@
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" implicit="yes" />
   <import index="f2ff" modelUID="r:48d5f7d2-24be-4d82-ac12-8f4a2d414b11(org.campagnelab.nyosh.gstring.structure)" version="-1" implicit="yes" />
   <import index="8w0" modelUID="r:eb1d368a-5e85-4af8-8740-90a6516e7dd4(org.campagnelab.nyosh.pathpatterns.structure)" version="0" implicit="yes" />
-  <import index="6pk0" modelUID="r:48f4e449-1a18-435e-ae88-4830aa794dc7(org.campagnelab.nyosh.environment.structure)" version="3" implicit="yes" />
   <import index="fxg8" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" version="-1" implicit="yes" />
   <import index="e2lc" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" implicit="yes" />
+  <import index="6pk0" modelUID="r:48f4e449-1a18-435e-ae88-4830aa794dc7(org.campagnelab.nyosh.environment.structure)" version="8" implicit="yes" />
   <root type="4tvk.Script" typeId="4tvk.8197864363320245969" id="1326095133177002154" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="PatternMatcher" />
     <node role="entryPoints" roleId="4tvk.4370546365667651420" type="4tvk.EntryPoint" typeId="4tvk.4370546365667651425" id="1326095133177002182" nodeInfo="ng">
@@ -159,23 +159,23 @@
         <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="3173353997360838274" nodeInfo="in" />
         <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="3173353997360838275" nodeInfo="nn" />
         <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="3173353997360838276" nodeInfo="sn">
-          <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="3173353997361484507" nodeInfo="nn">
-            <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="3173353997361484510" nodeInfo="nr">
-              <property name="name" nameId="tpck.1169194664001" value="envObj" />
-              <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="3173353997361484505" nodeInfo="in" />
-              <node role="initializer" roleId="tpee.1068431790190" type="6pk0.EnvironmentSourceList" typeId="6pk0.3173353997360946752" id="3173353997361484559" nodeInfo="ng">
-                <node role="sources" roleId="6pk0.3173353997360946804" type="6pk0.MapFileSource" typeId="6pk0.3173353997360878302" id="3173353997361484604" nodeInfo="ng">
-                  <property name="file" nameId="6pk0.3173353997360818781" value="auto-options.sh" />
-                  <node role="reader" roleId="6pk0.3173353997360796899" type="6pk0.MapFileReader" typeId="6pk0.3173353997360795160" id="3173353997361484605" nodeInfo="ng" />
-                </node>
-                <node role="sources" roleId="6pk0.3173353997360946804" type="6pk0.MapFileSource" typeId="6pk0.3173353997360878302" id="3173353997361484644" nodeInfo="ng">
-                  <property name="file" nameId="6pk0.3173353997360818781" value="constants.sh " />
-                  <node role="reader" roleId="6pk0.3173353997360796899" type="6pk0.MapFileReader" typeId="6pk0.3173353997360795160" id="3173353997361484645" nodeInfo="ng" />
-                </node>
-                <node role="sources" roleId="6pk0.3173353997360946804" type="6pk0.MapFileSource" typeId="6pk0.3173353997360878302" id="3173353997361484768" nodeInfo="ng">
-                  <property name="file" nameId="6pk0.3173353997360818781" value="exports.sh" />
-                  <node role="reader" roleId="6pk0.3173353997360796899" type="6pk0.MapFileReader" typeId="6pk0.3173353997360795160" id="3173353997361484769" nodeInfo="ng" />
-                </node>
+          <node role="statement" roleId="tpee.1068581517665" type="6pk0.EnvironmentSourceList" typeId="6pk0.3173353997360946752" id="3173353997363122134" nodeInfo="ng">
+            <node role="sources" roleId="6pk0.3173353997360946804" type="6pk0.MapFileSource" typeId="6pk0.3173353997360878302" id="3173353997363122140" nodeInfo="ng">
+              <property name="source" nameId="6pk0.3173353997360818781" value="auto-options.sh" />
+              <node role="loader" roleId="6pk0.3173353997360796899" type="6pk0.MapFileLoader" typeId="6pk0.3173353997360795160" id="3173353997363122143" nodeInfo="ng">
+                <link role="source" roleId="6pk0.3173353997362497485" targetNodeId="3173353997363122140" />
+              </node>
+            </node>
+            <node role="sources" roleId="6pk0.3173353997360946804" type="6pk0.MapFileSource" typeId="6pk0.3173353997360878302" id="3173353997363144793" nodeInfo="ng">
+              <property name="source" nameId="6pk0.3173353997360818781" value="constant.sh" />
+              <node role="loader" roleId="6pk0.3173353997360796899" type="6pk0.MapFileLoader" typeId="6pk0.3173353997360795160" id="3173353997363144796" nodeInfo="ng">
+                <link role="source" roleId="6pk0.3173353997362497485" targetNodeId="3173353997363144793" />
+              </node>
+            </node>
+            <node role="sources" roleId="6pk0.3173353997360946804" type="6pk0.MapFileSource" typeId="6pk0.3173353997360878302" id="3173353997363191132" nodeInfo="ng">
+              <property name="source" nameId="6pk0.3173353997360818781" value="exports.sh" />
+              <node role="loader" roleId="6pk0.3173353997360796899" type="6pk0.MapFileLoader" typeId="6pk0.3173353997360795160" id="3173353997363191135" nodeInfo="ng">
+                <link role="source" roleId="6pk0.3173353997362497485" targetNodeId="3173353997363191132" />
               </node>
             </node>
           </node>
