@@ -12,10 +12,18 @@
     <property name="abstract" nameId="tpce.4628067390765956802" value="true" />
     <property name="final" nameId="tpce.4628067390765956807" value="false" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="3173353997362497485" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
+      <property name="role" nameId="tpce.1071599776563" value="source" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="3173353997360796893" resolveInfo="EnvironmentSource" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3173353997360795160" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="MapFileReader" />
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="read the environment from a file where each row is in the format NAME=VALUE" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="MapFiles" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="mapFileReader" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="3173353997360795105" resolveInfo="Reader" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3173353997360796893" nodeInfo="ig">
@@ -38,6 +46,7 @@
     <property name="name" nameId="tpck.1169194664001" value="MapFileSource" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="loadMapFile" />
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="a plain text file where each row is in the format NAME=VALUE" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="MapFiles" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="3173353997360796893" resolveInfo="EnvironmentSource" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3173353997360946752" nodeInfo="ig">
@@ -49,6 +58,30 @@
       <property name="role" nameId="tpce.1071599776563" value="sources" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1..n" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="3173353997360796893" resolveInfo="EnvironmentSource" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3173353997362528350" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="Environment" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="environment " />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068498886294" resolveInfo="AssignmentExpression" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="3173353997362537697" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="variables" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="3173353997362537659" resolveInfo="Variable" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3173353997362537659" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="Variable" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="an environment variable" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="3173353997362537660" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="name" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="3173353997362537662" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="value" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
     </node>
   </root>
 </model>
