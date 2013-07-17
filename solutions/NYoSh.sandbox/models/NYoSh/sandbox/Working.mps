@@ -179,6 +179,15 @@
               </node>
             </node>
           </node>
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="3173353997363218104" nodeInfo="nn">
+            <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="3173353997363218107" nodeInfo="nr">
+              <property name="name" nameId="tpck.1169194664001" value="value" />
+              <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="3173353997363218102" nodeInfo="in" />
+              <node role="initializer" roleId="tpee.1068431790190" type="6pk0.Reader" typeId="6pk0.3173353997363191763" id="3173353997363218153" nodeInfo="ng">
+                <property name="name" nameId="tpck.1169194664001" value="NAME" />
+              </node>
+            </node>
+          </node>
         </node>
         <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="3173353997360838277" nodeInfo="ir">
           <property name="name" nameId="tpck.1169194664001" value="arguments" />
