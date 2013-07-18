@@ -9,7 +9,7 @@ find . -name trace.info |xargs git rm
 
 find . -name source_gen|xargs git rm -rf --cached
 find . -name source_gen.caches|xargs git rm -rf --cached
-find . -name classes_gen|xargs git rm -rfi  --cached
+find . -name classes_gen|xargs git rm -rf  --cached
 
 
 
