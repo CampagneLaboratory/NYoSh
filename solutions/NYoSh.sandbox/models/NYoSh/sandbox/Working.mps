@@ -159,23 +159,22 @@
         <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="3173353997360838275" nodeInfo="nn" />
         <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="3173353997360838276" nodeInfo="sn">
           <node role="statement" roleId="tpee.1068581517665" type="6pk0.EnvironmentSourceList" typeId="6pk0.3173353997360946752" id="3173353997363122134" nodeInfo="ng">
+            <node role="sources" roleId="6pk0.3173353997360946804" type="6pk0.MapFileSource" typeId="6pk0.3173353997360878302" id="5955265417290397859" nodeInfo="ng">
+              <property name="source" nameId="6pk0.3173353997360818781" value="/Users/mas2182/temp/auto-options.sh" />
+              <node role="loader" roleId="6pk0.3173353997360796899" type="6pk0.MapFileLoader" typeId="6pk0.3173353997360795160" id="5955265417290397862" nodeInfo="ng">
+                <link role="source" roleId="6pk0.3173353997362497485" targetNodeId="5955265417290397859" />
+              </node>
+            </node>
             <node role="sources" roleId="6pk0.3173353997360946804" type="6pk0.MapFileSource" typeId="6pk0.3173353997360878302" id="3173353997363122140" nodeInfo="ng">
-              <property name="source" nameId="6pk0.3173353997360818781" value="auto-options.sh" />
+              <property name="source" nameId="6pk0.3173353997360818781" value="/Users/mas2182/temp/constants.sh" />
               <node role="loader" roleId="6pk0.3173353997360796899" type="6pk0.MapFileLoader" typeId="6pk0.3173353997360795160" id="3173353997363122143" nodeInfo="ng">
                 <link role="source" roleId="6pk0.3173353997362497485" targetNodeId="3173353997363122140" />
               </node>
             </node>
-            <node role="sources" roleId="6pk0.3173353997360946804" type="6pk0.MapFileSource" typeId="6pk0.3173353997360878302" id="3173353997363144793" nodeInfo="ng">
-              <property name="source" nameId="6pk0.3173353997360818781" value="constant.sh" />
-              <node role="loader" roleId="6pk0.3173353997360796899" type="6pk0.MapFileLoader" typeId="6pk0.3173353997360795160" id="3173353997363144796" nodeInfo="ng">
-                <link role="source" roleId="6pk0.3173353997362497485" targetNodeId="3173353997363144793" />
-              </node>
-            </node>
-            <node role="sources" roleId="6pk0.3173353997360946804" type="6pk0.MapFileSource" typeId="6pk0.3173353997360878302" id="3173353997363191132" nodeInfo="ng">
-              <property name="source" nameId="6pk0.3173353997360818781" value="exports.sh" />
-              <node role="loader" roleId="6pk0.3173353997360796899" type="6pk0.MapFileLoader" typeId="6pk0.3173353997360795160" id="3173353997363191135" nodeInfo="ng">
-                <link role="source" roleId="6pk0.3173353997362497485" targetNodeId="3173353997363191132" />
-              </node>
+          </node>
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="5955265417290512138" nodeInfo="nn">
+            <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="5955265417290513722" nodeInfo="nn">
+              <property name="text" nameId="tpee.6329021646629104958" value="from auto-options.sh" />
             </node>
           </node>
           <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="3173353997363218104" nodeInfo="nn">
@@ -183,7 +182,7 @@
               <property name="name" nameId="tpck.1169194664001" value="value" />
               <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="3173353997363218102" nodeInfo="in" />
               <node role="initializer" roleId="tpee.1068431790190" type="6pk0.VariableReader" typeId="6pk0.3173353997363191763" id="5850079210451331448" nodeInfo="ng">
-                <property name="key" nameId="6pk0.5850079210449423205" value="RESOURCES_ARTIFACT_SOMETHING" />
+                <property name="key" nameId="6pk0.5850079210449423205" value="RESOURCES_FETCH_URL_SCRIPT_PATTERN" />
               </node>
             </node>
           </node>
@@ -200,12 +199,47 @@
                     <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3173353997363218107" resolveInfo="value" />
                   </node>
                   <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="187657099335942476" nodeInfo="nn">
-                    <property name="value" nameId="tpee.1070475926801" value="Value of name is: " />
+                    <property name="value" nameId="tpee.1070475926801" value="Value of RESOURCES_FETCH_URL_SCRIPT_PATTERN is: " />
                   </node>
                 </node>
               </node>
             </node>
           </node>
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="5955265417290538295" nodeInfo="nn">
+            <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="5955265417290541436" nodeInfo="nn">
+              <property name="text" nameId="tpee.6329021646629104958" value="from constants.sh" />
+            </node>
+          </node>
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5955265417290520058" nodeInfo="nn">
+            <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="5955265417290521948" nodeInfo="nn">
+              <node role="rValue" roleId="tpee.1068498886297" type="6pk0.VariableReader" typeId="6pk0.3173353997363191763" id="5955265417290523726" nodeInfo="ng">
+                <property name="key" nameId="6pk0.5850079210449423205" value="JOB_DIR" />
+              </node>
+              <node role="lValue" roleId="tpee.1068498886295" type="tpee.VariableReference" typeId="tpee.1068498886296" id="5955265417290520057" nodeInfo="nn">
+                <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3173353997363218107" resolveInfo="value" />
+              </node>
+            </node>
+          </node>
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5955265417290527308" nodeInfo="nn">
+            <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5955265417290527309" nodeInfo="nn">
+              <node role="operand" roleId="tpee.1197027771414" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="5955265417290527310" nodeInfo="nn">
+                <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="e2lb.~System%dout" resolveInfo="out" />
+                <link role="classifier" roleId="tpee.1144433057691" targetNodeId="e2lb.~System" resolveInfo="System" />
+              </node>
+              <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="5955265417290527311" nodeInfo="nn">
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fxg7.~PrintStream%dprintln(java%dlang%dString)%cvoid" resolveInfo="println" />
+                <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="5955265417290527312" nodeInfo="nn">
+                  <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.VariableReference" typeId="tpee.1068498886296" id="5955265417290527313" nodeInfo="nn">
+                    <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3173353997363218107" resolveInfo="value" />
+                  </node>
+                  <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="5955265417290527314" nodeInfo="nn">
+                    <property name="value" nameId="tpee.1070475926801" value="Value of JOB_DIR is: " />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="5955265417290525694" nodeInfo="nn" />
         </node>
         <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="3173353997360838277" nodeInfo="ir">
           <property name="name" nameId="tpck.1169194664001" value="arguments" />
