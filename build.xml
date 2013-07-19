@@ -671,7 +671,7 @@
     </javac>
   </target>
   
-  <target name="java.compile.org.campagnelab.gobyweb" depends="java.compile.NYoSh, java.compile.org.campagnelab.nyosh.gstring, java.compile.org.campagnelab.nyosh.pathpatterns, java.compile.org.campagnelab.textoutput, fetchDependencies">
+  <target name="java.compile.org.campagnelab.gobyweb" depends="java.compile.NYoSh, java.compile.org.campagnelab.textoutput, fetchDependencies">
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.gobyweb" />
     <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb" fork="true" includeantruntime="false">
       <compilerarg value="-Xlint:none" />
@@ -690,12 +690,7 @@
         <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-ui.jar" />
         <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/NYoSh" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-test.jar" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.gstring" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.pathpatterns" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.textoutput" />
-        <fileset file="${basedir}/languages/pattern-matcher-1.0.2-SNAPSHOT.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.pathpatterns/wildcard-1.03.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.IDEA}/lib/log4j.jar" />
         <fileset file="${artifacts.IDEA}/lib/jdom.jar" />
@@ -716,7 +711,7 @@
     </javac>
   </target>
   
-  <target name="java.compile.org.campagnelab.gobyweb#1090105717920801462" depends="java.compile.NYoSh, java.compile.NYoSh#8197864363320338521, java.compile.org.campagnelab.gobyweb, java.compile.org.campagnelab.textoutput, fetchDependencies">
+  <target name="java.compile.org.campagnelab.gobyweb#1090105717920801462" depends="java.compile.NYoSh, java.compile.org.campagnelab.gobyweb, java.compile.org.campagnelab.textoutput, fetchDependencies">
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.gobyweb#1090105717920801462" />
     <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb#1090105717920801462" fork="true" includeantruntime="false">
       <compilerarg value="-Xlint:none" />
@@ -735,7 +730,6 @@
         <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-ui.jar" />
         <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/NYoSh" />
-        <pathelement path="${build.tmp}/java/out/NYoSh#8197864363320338521" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.textoutput" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
@@ -749,7 +743,6 @@
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mpsPlugin}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mpsPlugin}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.jar" />
         <fileset file="${artifacts.mpsPlugin}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
         <fileset file="${artifacts.mpsPlugin}/mps-core/languages/util/jetbrains.mps.execution.util.jar" />
         <fileset file="${artifacts.mpsPlugin}/mps-core/languages/languageDesign/jetbrains.mps.lang.core.jar" />

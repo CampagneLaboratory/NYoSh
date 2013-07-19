@@ -86,6 +86,8 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5955265417291063310" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="JVM" />
     <property name="name" nameId="tpck.1169194664001" value="JVMLoader" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="Java Environment loader" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="load the environment visible to the JVM" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="3173353997360795105" resolveInfo="Loader" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5955265417291138207" nodeInfo="ig">
