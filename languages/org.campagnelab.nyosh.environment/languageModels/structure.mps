@@ -90,7 +90,8 @@
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5955265417291138207" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="EnvVariableDeclaration" />
-    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="variable available in the current environment" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="variable available" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="var declaration" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="5955265417291138208" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
