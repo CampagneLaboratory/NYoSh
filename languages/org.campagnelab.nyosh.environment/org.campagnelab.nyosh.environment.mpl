@@ -4,7 +4,7 @@
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="." />
     </modelRoot>
-    <modelRoot path="/Users/mas2182/Lab/Projects/MPS/nyosh/languages/pattern-matcher-1.0.2-SNAPSHOT.jar" type="java_classes" />
+    <modelRoot path="/Users/manuelesimi/CampagneLab/NYoSh/languages/pattern-matcher-1.0.2-SNAPSHOT.jar" type="java_classes" />
   </models>
   <accessoryModels />
   <generators>
@@ -52,7 +52,7 @@
     </generator>
   </generators>
   <stubModelEntries>
-    <stubModelEntry path="/Users/mas2182/Lab/Projects/MPS/nyosh/languages/pattern-matcher-1.0.2-SNAPSHOT.jar" />
+    <stubModelEntry path="/Users/manuelesimi/CampagneLab/NYoSh/languages/pattern-matcher-1.0.2-SNAPSHOT.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

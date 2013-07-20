@@ -16,6 +16,7 @@
       <external-templates />
       <dependencies>
         <dependency reexport="false">a21a7294-c126-4f63-8335-8fecd8c28c7e(NYoSh)</dependency>
+        <dependency reexport="false">b0ebc3f2-c15d-4fad-bdc5-56b3ea4437a2(NYoSh#8197864363320338521)</dependency>
         <dependency reexport="false">f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</dependency>
         <dependency reexport="false">adfd00cb-58d7-4094-bca8-f941a491e04f(org.campagnelab.gobyweb)</dependency>
       </dependencies>
@@ -35,7 +36,6 @@
   <sourcePath />
   <dependencies>
     <dependency reexport="false">8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)</dependency>
-    <dependency reexport="false">a21a7294-c126-4f63-8335-8fecd8c28c7e(NYoSh)</dependency>
     <dependency reexport="false">2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)</dependency>
     <dependency reexport="false">f8e20673-3f65-44e9-84c0-c4a4b6ede37e(jetbrains.mps.make.facets)</dependency>
     <dependency reexport="false">a1250a4d-c090-42c3-ad7c-d298a3357dd4(jetbrains.mps.make.runtime)</dependency>
@@ -57,6 +57,7 @@
     <extendedLanguage>ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</extendedLanguage>
     <extendedLanguage>f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</extendedLanguage>
     <extendedLanguage>901f5cf3-dc77-4c1e-bc5a-6382baee28b4(org.campagnelab.textoutput)</extendedLanguage>
+    <extendedLanguage>a21a7294-c126-4f63-8335-8fecd8c28c7e(NYoSh)</extendedLanguage>
   </extendedLanguages>
 </language>
 
