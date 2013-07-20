@@ -9,7 +9,7 @@
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="kdzh" modelUID="r:0353b795-df17-4050-9687-ee47eeb7094f(jetbrains.mps.build.mps.structure)" version="1" implicit="yes" />
   <root type="3ior.BuildProject" typeId="3ior.5617550519002745363" id="8318417660238159958" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="NYoSh" />
+    <property name="name" nameId="tpck.1169194664001" value="GobyWorkbench" />
     <property name="internalBaseDirectory" nameId="3ior.5204048710541015587" value="../../" />
     <node role="plugins" roleId="3ior.6647099934206700656" type="3ior.BuildJavaPlugin" typeId="3ior.6647099934206700647" id="8318417660238159959" nodeInfo="ng" />
     <node role="plugins" roleId="3ior.6647099934206700656" type="kdzh.BuildMPSPlugin" typeId="kdzh.868032131020265945" id="8318417660238159960" nodeInfo="ng" />
@@ -132,7 +132,7 @@
       <node role="initialValue" roleId="3ior.2755237150521975432" type="3ior.BuildVariableMacroInitWithString" typeId="3ior.2755237150521975431" id="8318417660238159964" nodeInfo="ng">
         <node role="value" roleId="3ior.2755237150521975437" type="3ior.BuildString" typeId="3ior.4380385936562003279" id="8318417660238159965" nodeInfo="ng">
           <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="8318417660238159966" nodeInfo="ng">
-            <property name="text" nameId="3ior.4903714810883755350" value="NYoSh-SNAPSHOT" />
+            <property name="text" nameId="3ior.4903714810883755350" value="GobyWorkbench-SNAPSHOT" />
           </node>
         </node>
       </node>
@@ -794,11 +794,13 @@
     </node>
   </root>
   <root type="3ior.BuildProject" typeId="3ior.5617550519002745363" id="8318417660238160177" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="NYoShDistribution" />
+    <property name="name" nameId="tpck.1169194664001" value="GobyWorkbenchDistribution" />
     <property name="fileName" nameId="3ior.4915877860348071612" value="buildDistribution.xml" />
     <property name="internalBaseDirectory" nameId="3ior.5204048710541015587" value="../../" />
+    <node role="plugins" roleId="3ior.6647099934206700656" type="3ior.BuildJavaPlugin" typeId="3ior.6647099934206700647" id="6297714630046832571" nodeInfo="ng" />
+    <node role="plugins" roleId="3ior.6647099934206700656" type="kdzh.BuildMPSPlugin" typeId="kdzh.868032131020265945" id="6297714630046832577" nodeInfo="ng" />
     <node role="dependencies" roleId="3ior.5617550519002745381" type="3ior.BuildProjectDependency" typeId="3ior.4993211115183325728" id="8318417660238160178" nodeInfo="ng">
-      <link role="script" roleId="3ior.5617550519002745380" targetNodeId="8318417660238159958" resolveInfo="NYoSh" />
+      <link role="script" roleId="3ior.5617550519002745380" targetNodeId="8318417660238159958" resolveInfo="GobyWorkbench" />
     </node>
     <node role="dependencies" roleId="3ior.5617550519002745381" type="3ior.BuildProjectDependency" typeId="3ior.4993211115183325728" id="8318417660239325491" nodeInfo="ng">
       <link role="script" roleId="3ior.5617550519002745380" targetNodeId="ffeo.6361939271669846483" resolveInfo="mpsExecutionPlugin" />
@@ -1559,8 +1561,8 @@
       <property name="name" nameId="tpck.1169194664001" value="version" />
       <node role="initialValue" roleId="3ior.2755237150521975432" type="3ior.BuildVariableMacroInitWithString" typeId="3ior.2755237150521975431" id="8318417660238160182" nodeInfo="ng">
         <node role="value" roleId="3ior.2755237150521975437" type="3ior.BuildString" typeId="3ior.4380385936562003279" id="8318417660238160183" nodeInfo="ng">
-          <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="8318417660238160184" nodeInfo="ng">
-            <property name="text" nameId="3ior.4903714810883755350" value="2.5" />
+          <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="6297714630046934659" nodeInfo="ng">
+            <property name="text" nameId="3ior.4903714810883755350" value="1.0" />
           </node>
         </node>
       </node>
