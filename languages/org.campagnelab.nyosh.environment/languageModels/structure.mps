@@ -41,11 +41,17 @@
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="3173353997360795105" resolveInfo="Loader" />
     </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="9004698741416289947" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="availableVariables" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="5955265417291138207" resolveInfo="EnvVariableDeclaration" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3173353997360878302" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="MapFileSource" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="loadMapFile" />
-    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="use as source a plain text file in which each row is in the format NAME=VALUE" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="path to a plain text file in which each row is in the format NAME=VALUE" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="MapFiles" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="3173353997360796893" resolveInfo="EnvironmentSource" />
   </root>
@@ -65,12 +71,6 @@
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="read an environment variable and return its value" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="${" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="5722823819936657297" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="availableVariables" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="5955265417291138207" resolveInfo="EnvVariableDeclaration" />
-    </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="5955265417291138249" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
       <property name="role" nameId="tpce.1071599776563" value="loadedVariable" />
@@ -81,6 +81,7 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5955265417291063247" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="JVMSource" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="JVM" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="the java runtime environment" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="3173353997360796893" resolveInfo="EnvironmentSource" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5955265417291063310" nodeInfo="ig">
