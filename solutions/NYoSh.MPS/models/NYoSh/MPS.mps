@@ -1080,20 +1080,6 @@
               </node>
             </node>
             <node role="children" roleId="3ior.7389400916848037006" type="3ior.BuildLayout_Folder" typeId="3ior.7389400916848036984" id="8318417660238160419" nodeInfo="ng">
-              <node role="children" roleId="3ior.7389400916848037006" type="3ior.BuildLayout_File" typeId="3ior.9126048691955220717" id="8318417660238160420" nodeInfo="ng">
-                <node role="path" roleId="3ior.9126048691955220762" type="3ior.BuildSourceMacroRelativePath" typeId="3ior.7389400916848153117" id="8318417660238160296" nodeInfo="ng">
-                  <link role="macro" roleId="3ior.7389400916848153130" targetNodeId="8318417660238160180" resolveInfo="mps_home" />
-                  <node role="compositePart" roleId="3ior.7321017245477039051" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="8318417660238160297" nodeInfo="nn">
-                    <property name="head" nameId="3ior.8618885170173601779" value="bin" />
-                    <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="8318417660238160298" nodeInfo="nn">
-                      <property name="head" nameId="3ior.8618885170173601779" value="mac" />
-                      <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="8318417660238160299" nodeInfo="nn">
-                        <property name="head" nameId="3ior.8618885170173601779" value="info_plist_parser.scpt" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
               <node role="children" roleId="3ior.7389400916848037006" type="3ior.BuildLayout_File" typeId="3ior.9126048691955220717" id="8318417660238160421" nodeInfo="ng">
                 <node role="path" roleId="3ior.9126048691955220762" type="3ior.BuildSourceMacroRelativePath" typeId="3ior.7389400916848153117" id="8318417660238160304" nodeInfo="ng">
                   <link role="macro" roleId="3ior.7389400916848153130" targetNodeId="8318417660238160180" resolveInfo="mps_home" />
@@ -1117,34 +1103,6 @@
                       <property name="head" nameId="3ior.8618885170173601779" value="mac" />
                       <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="8318417660238160315" nodeInfo="nn">
                         <property name="head" nameId="3ior.8618885170173601779" value="libbreakgen64.jnilib" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node role="children" roleId="3ior.7389400916848037006" type="3ior.BuildLayout_File" typeId="3ior.9126048691955220717" id="8318417660238160423" nodeInfo="ng">
-                <node role="path" roleId="3ior.9126048691955220762" type="3ior.BuildSourceMacroRelativePath" typeId="3ior.7389400916848153117" id="8318417660238160320" nodeInfo="ng">
-                  <link role="macro" roleId="3ior.7389400916848153130" targetNodeId="8318417660238160180" resolveInfo="mps_home" />
-                  <node role="compositePart" roleId="3ior.7321017245477039051" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="8318417660238160321" nodeInfo="nn">
-                    <property name="head" nameId="3ior.8618885170173601779" value="bin" />
-                    <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="8318417660238160322" nodeInfo="nn">
-                      <property name="head" nameId="3ior.8618885170173601779" value="mac" />
-                      <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="8318417660238160323" nodeInfo="nn">
-                        <property name="head" nameId="3ior.8618885170173601779" value="libquaqua.jnilib" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node role="children" roleId="3ior.7389400916848037006" type="3ior.BuildLayout_File" typeId="3ior.9126048691955220717" id="8318417660238160424" nodeInfo="ng">
-                <node role="path" roleId="3ior.9126048691955220762" type="3ior.BuildSourceMacroRelativePath" typeId="3ior.7389400916848153117" id="8318417660238160328" nodeInfo="ng">
-                  <link role="macro" roleId="3ior.7389400916848153130" targetNodeId="8318417660238160180" resolveInfo="mps_home" />
-                  <node role="compositePart" roleId="3ior.7321017245477039051" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="8318417660238160329" nodeInfo="nn">
-                    <property name="head" nameId="3ior.8618885170173601779" value="bin" />
-                    <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="8318417660238160330" nodeInfo="nn">
-                      <property name="head" nameId="3ior.8618885170173601779" value="mac" />
-                      <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="8318417660238160331" nodeInfo="nn">
-                        <property name="head" nameId="3ior.8618885170173601779" value="libquaqua64.jnilib" />
                       </node>
                     </node>
                   </node>

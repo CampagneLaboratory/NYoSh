@@ -59,11 +59,8 @@
       <zipfileset file="${mps_home}/bin/linux/fsnotifier" prefix="NYoSh ${version}/bin/linux" filemode="755" />
       <zipfileset file="${mps_home}/bin/linux/fsnotifier64" prefix="NYoSh ${version}/bin/linux" filemode="755" />
       <zipfileset dir="${mps_home}/bin/nix" prefix="NYoSh ${version}/bin/nix" filemode="755" />
-      <zipfileset file="${mps_home}/bin/mac/info_plist_parser.scpt" prefix="NYoSh ${version}/bin/mac" />
       <zipfileset file="${mps_home}/bin/mac/libbreakgen.jnilib" prefix="NYoSh ${version}/bin/mac" />
       <zipfileset file="${mps_home}/bin/mac/libbreakgen64.jnilib" prefix="NYoSh ${version}/bin/mac" />
-      <zipfileset file="${mps_home}/bin/mac/libquaqua.jnilib" prefix="NYoSh ${version}/bin/mac" />
-      <zipfileset file="${mps_home}/bin/mac/libquaqua64.jnilib" prefix="NYoSh ${version}/bin/mac" />
       <zipfileset file="${mps_home}/bin/mac/restarter" prefix="NYoSh ${version}/bin/mac" filemode="755" />
       <zipfileset file="${mps_home}/bin/mac/fsnotifier" prefix="NYoSh ${version}/bin/mac" filemode="755" />
       <zipfileset file="${mps_home}/bin/mac/Contents/Info.plist" prefix="NYoSh ${version}/bin/mac/Contents" />
