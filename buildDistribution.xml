@@ -39,6 +39,9 @@
       </tarfileset>
       <tarfileset file="${mps_home}/bin/linux/fsnotifier" prefix="NYoSh ${version}/bin" filemode="755" />
       <tarfileset file="${mps_home}/bin/linux/fsnotifier64" prefix="NYoSh ${version}/bin" filemode="755" />
+      <tarfileset dir="${artifacts.mpsDebuggerPlugin}/mps-debugger-java" prefix="NYoSh ${version}/plugins/mps-debugger-java" />
+      <tarfileset dir="${artifacts.mpsDebuggerPlugin}/mps-debugger-api" prefix="NYoSh ${version}/plugins/mps-debugger-api" />
+      <tarfileset dir="${artifacts.mpsExecutionPlugin}/mps-execution-languages" prefix="NYoSh ${version}/plugins/mps-execution-languages" />
       <tarfileset dir="${build.tmp}/default/_dl__lbrace_build.number_rbrace_-linux.tar.gz_f755" filemode="755" prefix="NYoSh ${version}" />
       <tarfileset dir="${build.tmp}/default/_dl__lbrace_build.number_rbrace_-linux.tar.gz" />
     </tar>
