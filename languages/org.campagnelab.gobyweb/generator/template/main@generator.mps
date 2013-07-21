@@ -14,11 +14,12 @@
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" />
   <import index="aet2" modelUID="r:ab86e397-1503-48ca-8931-8dc598446fee(NYoSh.generator.template.main@generator)" version="1" />
-  <import index="fxg7" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" version="-1" />
+  <import index="fxg7" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(java.io@java_stub)" version="-1" />
   <import index="tpf8" modelUID="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" version="2" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
   <import index="tpf3" modelUID="r:00000000-0000-4000-0000-011c895902f3(jetbrains.mps.lang.generator.generationContext.structure)" version="0" implicit="yes" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" implicit="yes" />
+  <import index="fxg8" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" version="-1" implicit="yes" />
   <root type="tpf8.MappingConfiguration" typeId="tpf8.1095416546421" id="1090105717920801463" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="main" />
     <node role="weavingMappingRule" roleId="tpf8.1167172143858" type="tpf8.Weaving_MappingRule" typeId="tpf8.1167171569011" id="2829258213791617278" nodeInfo="ng">
@@ -339,7 +340,7 @@
       <property name="text" nameId="p6sl.5493669862519718600" value="    #invoke the entry point in the concept model" />
     </node>
     <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="3173353997328940205" nodeInfo="ng">
-      <property name="text" nameId="p6sl.5493669862519718600" value="    ./run_model.sh plugin_alignment_analysis_split ${NUMBER_OF_PARTS} ${SPLICING_PLAN_RESULT} ${PARTS} " />
+      <property name="text" nameId="p6sl.5493669862519718600" value="    . ${JOB_DIR}/run_model.sh plugin_alignment_analysis_split ${NUMBER_OF_PARTS} ${SPLICING_PLAN_RESULT} ${PARTS} " />
     </node>
     <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="3173353997328939295" nodeInfo="ng">
       <property name="text" nameId="p6sl.5493669862519718600" value="" />
@@ -375,7 +376,7 @@
       <property name="text" nameId="p6sl.5493669862519718600" value="     #invoke the entry point in the concept model" />
     </node>
     <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="3173353997328945864" nodeInfo="ng">
-      <property name="text" nameId="p6sl.5493669862519718600" value="    ./run_model.sh plugin_alignment_analysis_num_parts ${SPLICING_PLAN_FILE} " />
+      <property name="text" nameId="p6sl.5493669862519718600" value="    . ${JOB_DIR}/run_model.sh plugin_alignment_analysis_num_parts ${SPLICING_PLAN_FILE} " />
     </node>
     <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8245000766499341297" nodeInfo="ng">
       <property name="text" nameId="p6sl.5493669862519718600" value="}" />
@@ -399,7 +400,7 @@
       <property name="text" nameId="p6sl.5493669862519718600" value="    #invoke the entry point in the concept model" />
     </node>
     <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="3173353997328954249" nodeInfo="ng">
-      <property name="text" nameId="p6sl.5493669862519718600" value="    ./run_model.sh plugin_alignment_analysis_process ${SLICING_PLAN_FILENAME} ${CURRENT_PART} " />
+      <property name="text" nameId="p6sl.5493669862519718600" value="    . ${JOB_DIR}/run_model.sh plugin_alignment_analysis_process ${SLICING_PLAN_FILENAME} ${CURRENT_PART} " />
     </node>
     <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8245000766499341305" nodeInfo="ng">
       <property name="text" nameId="p6sl.5493669862519718600" value="" />
@@ -444,7 +445,7 @@
       <property name="text" nameId="p6sl.5493669862519718600" value="    #invoke the entry point in the concept model" />
     </node>
     <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="3173353997328959670" nodeInfo="ng">
-      <property name="text" nameId="p6sl.5493669862519718600" value="    ./run_model.sh plugin_alignment_analysis_combine ${RESULT_FILE} ${PART_RESULT_FILES} " />
+      <property name="text" nameId="p6sl.5493669862519718600" value="    . ${JOB_DIR}/run_model.sh plugin_alignment_analysis_combine ${RESULT_FILE} ${PART_RESULT_FILES} " />
     </node>
     <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8245000766499341318" nodeInfo="ng">
       <property name="text" nameId="p6sl.5493669862519718600" value="" />
@@ -617,7 +618,7 @@
       <property name="text" nameId="p6sl.5493669862519718600" value="    #invoke the entry point in the concept model" />
     </node>
     <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="3173353997328963427" nodeInfo="ng">
-      <property name="text" nameId="p6sl.5493669862519718600" value="    ./run_model.sh plugin_task ${TASK_PARAMETERS}  " />
+      <property name="text" nameId="p6sl.5493669862519718600" value="    . ${JOB_DIR}/run_model.sh plugin_task ${TASK_PARAMETERS}  " />
     </node>
     <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8245000766499343881" nodeInfo="ng">
       <property name="text" nameId="p6sl.5493669862519718600" value="" />
@@ -945,7 +946,7 @@
                           <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="e2lb.~System%derr" resolveInfo="err" />
                         </node>
                         <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="3173353997335527461" nodeInfo="nn">
-                          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fxg7.~PrintStream%dprintln(java%dlang%dString)%cvoid" resolveInfo="println" />
+                          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fxg8.~PrintStream%dprintln(java%dlang%dString)%cvoid" resolveInfo="println" />
                           <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3173353997335527665" nodeInfo="nn">
                             <property name="value" nameId="tpee.1070475926801" value="Invalid number of arguments" />
                           </node>
@@ -1004,7 +1005,7 @@
       <property name="text" nameId="p6sl.5493669862519718600" value="    #invoke the model throught the script generated by RunMpsScript" />
     </node>
     <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="7901651670847185180" nodeInfo="ng">
-      <property name="text" nameId="p6sl.5493669862519718600" value="    ./run_model.sh plugin_install_artifact ${ID} ${INSTALLATION_PATH}" />
+      <property name="text" nameId="p6sl.5493669862519718600" value="    . ${JOB_DIR}/run_model.sh plugin_install_artifact ${ID} ${INSTALLATION_PATH}" />
     </node>
     <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="7901651670847174089" nodeInfo="ng">
       <property name="text" nameId="p6sl.5493669862519718600" value="" />
@@ -1028,7 +1029,7 @@
       <property name="text" nameId="p6sl.5493669862519718600" value="  #invoke the model throught the script generated by RunMpsScript" />
     </node>
     <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="7901651670847185257" nodeInfo="ng">
-      <property name="text" nameId="p6sl.5493669862519718600" value="  ./run_model.sh get_attribute_values" />
+      <property name="text" nameId="p6sl.5493669862519718600" value="  . ${JOB_DIR}/run_model.sh get_attribute_values" />
     </node>
     <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="7901651670847174096" nodeInfo="ng">
       <property name="text" nameId="p6sl.5493669862519718600" value="" />
@@ -1127,7 +1128,7 @@
                           <link role="classifier" roleId="tpee.1144433057691" targetNodeId="e2lb.~System" resolveInfo="System" />
                         </node>
                         <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="3173353997342968568" nodeInfo="nn">
-                          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fxg7.~PrintStream%dprintln(java%dlang%dString)%cvoid" resolveInfo="println" />
+                          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fxg8.~PrintStream%dprintln(java%dlang%dString)%cvoid" resolveInfo="println" />
                           <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3173353997342968569" nodeInfo="nn">
                             <property name="value" nameId="tpee.1070475926801" value="Invalid number of arguments" />
                           </node>
@@ -1240,7 +1241,7 @@
                           <link role="classifier" roleId="tpee.1144433057691" targetNodeId="e2lb.~System" resolveInfo="System" />
                         </node>
                         <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="3173353997344250839" nodeInfo="nn">
-                          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fxg7.~PrintStream%dprintln(java%dlang%dString)%cvoid" resolveInfo="println" />
+                          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fxg8.~PrintStream%dprintln(java%dlang%dString)%cvoid" resolveInfo="println" />
                           <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3173353997344250840" nodeInfo="nn">
                             <property name="value" nameId="tpee.1070475926801" value="Invalid number of arguments" />
                           </node>
