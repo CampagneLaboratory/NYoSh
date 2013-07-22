@@ -54,10 +54,10 @@
       </fileset>
     </copy>
     <copy todir="${build.layout}/lib">
-      <fileset file="${org.campagnelab.goby.workbench.home}/languages/pattern-matcher-1.0.2-SNAPSHOT.jar" />
+      <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support.jar" />
     </copy>
     <copy todir="${build.layout}/lib">
-      <fileset file="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.nyosh.pathpatterns/wildcard-1.03.jar" />
+      <fileset file="${org.campagnelab.goby.workbench.home}/lib/wildcard-1.03.jar" />
     </copy>
     <mkdir dir="${build.tmp}/default/branding.jar" />
     <mkdir dir="${build.tmp}/default/branding.jar/idea" />
@@ -135,7 +135,7 @@
           <module ref="8fe4c62a-2020-4ff4-8eda-f322a55bdc9f(jetbrains.mps.refactoring.runtime)" />
           <module ref="9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)" />
         </dependencies>
-        <library jar="../../../../lib/pattern-matcher-1.0.2-SNAPSHOT.jar" />
+        <library jar="../../../../lib/nyosh-runtime-support.jar" />
         <sources jar="org.campagnelab.nyosh.environment-src.jar" descriptor="org.campagnelab.nyosh.environment.mpl" />
       </module>
     </echoxml>
@@ -305,7 +305,7 @@
           <module ref="8fe4c62a-2020-4ff4-8eda-f322a55bdc9f(jetbrains.mps.refactoring.runtime)" />
           <module ref="9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)" />
         </dependencies>
-        <library jar="../../../../lib/pattern-matcher-1.0.2-SNAPSHOT.jar" />
+        <library jar="../../../../lib/nyosh-runtime-support.jar" />
         <sources jar="org.campagnelab.nyosh.gstring-src.jar" descriptor="org.campagnelab.nyosh.gstring.mpl" />
       </module>
     </echoxml>
@@ -511,7 +511,7 @@
         <fileset file="${artifacts.mpsStandalone}/lib/mps-editor-runtime.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/mps-editor.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/mps-platform.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/languages/pattern-matcher-1.0.2-SNAPSHOT.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/log4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/jdom.jar" />
@@ -550,7 +550,7 @@
         <fileset file="${artifacts.mpsStandalone}/lib/mps-editor.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.environment" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/languages/pattern-matcher-1.0.2-SNAPSHOT.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/log4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/jdom.jar" />
@@ -590,8 +590,8 @@
         <fileset file="${artifacts.mpsStandalone}/lib/mps-editor.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.gstring" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/languages/pattern-matcher-1.0.2-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.nyosh.pathpatterns/wildcard-1.03.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/wildcard-1.03.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/log4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/jdom.jar" />
@@ -630,8 +630,8 @@
         <fileset file="${artifacts.mpsStandalone}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.gstring" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.pathpatterns" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/languages/pattern-matcher-1.0.2-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.nyosh.pathpatterns/wildcard-1.03.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/wildcard-1.03.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/log4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/jdom.jar" />
@@ -747,7 +747,7 @@
         <fileset file="${artifacts.mpsStandalone}/lib/mps-editor.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.gstring" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/languages/pattern-matcher-1.0.2-SNAPSHOT.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/log4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/jdom.jar" />
@@ -787,7 +787,7 @@
         <pathelement path="${build.tmp}/java/out/NYoSh" />
         <fileset file="${artifacts.mpsStandalone}/lib/mps-test.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.gstring" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/languages/pattern-matcher-1.0.2-SNAPSHOT.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/log4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/jdom.jar" />
@@ -826,7 +826,7 @@
         <fileset file="${artifacts.mpsStandalone}/lib/mps-editor-runtime.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/mps-editor.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/mps-platform.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/languages/pattern-matcher-1.0.2-SNAPSHOT.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.unitTest.libs/bsh-core-2.0b4.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.unitTest.libs/cglib-nodep-2.1_3.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.unitTest.libs/hamcrest-core-1.1.jar" />

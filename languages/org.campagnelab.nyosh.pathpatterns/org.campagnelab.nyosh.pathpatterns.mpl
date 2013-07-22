@@ -4,7 +4,7 @@
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="languageModels" />
     </modelRoot>
-    <modelRoot path="${module}/wildcard-1.03.jar" type="java_classes" />
+    <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/wildcard-1.03.jar" type="java_classes" />
   </models>
   <accessoryModels />
   <generators>
@@ -13,7 +13,7 @@
         <modelRoot contentPath="${module}" type="default">
           <sourceRoot location="generator/template" />
         </modelRoot>
-        <modelRoot path="${module}/wildcard-1.03.jar" type="java_classes" />
+        <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/wildcard-1.03.jar" type="java_classes" />
       </models>
       <external-templates />
       <dependencies>
@@ -33,7 +33,7 @@
     </generator>
   </generators>
   <stubModelEntries>
-    <stubModelEntry path="${module}/wildcard-1.03.jar" />
+    <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/wildcard-1.03.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

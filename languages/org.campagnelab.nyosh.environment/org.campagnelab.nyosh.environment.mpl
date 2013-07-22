@@ -4,7 +4,7 @@
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="." />
     </modelRoot>
-    <modelRoot path="${org.campagnelab.goby.workbench.home}/languages/pattern-matcher-1.0.2-SNAPSHOT.jar" type="java_classes" />
+    <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support.jar" type="java_classes" />
   </models>
   <accessoryModels />
   <generators>
@@ -52,7 +52,7 @@
     </generator>
   </generators>
   <stubModelEntries>
-    <stubModelEntry path="${org.campagnelab.goby.workbench.home}/languages/pattern-matcher-1.0.2-SNAPSHOT.jar" />
+    <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
