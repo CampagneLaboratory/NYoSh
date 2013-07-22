@@ -73,9 +73,9 @@
       <zipfileset file="${mps_home}/mps.bat" prefix="NYoSh ${version}" filemode="755" />
     </zip>
     <mkdir dir="${build.tmp}/default/_dl__lbrace_build.number_rbrace_-macos.zip" />
-    <mkdir dir="${build.tmp}/default/_dl__lbrace_build.number_rbrace_-macos.zip/NYoSh ${version}.app" />
-    <mkdir dir="${build.tmp}/default/_dl__lbrace_build.number_rbrace_-macos.zip/NYoSh ${version}.app/bin" />
-    <copy todir="${build.tmp}/default/_dl__lbrace_build.number_rbrace_-macos.zip/NYoSh ${version}.app/bin">
+    <mkdir dir="${build.tmp}/default/_dl__lbrace_build.number_rbrace_-macos.zip/GobyWorkbench ${version}.app" />
+    <mkdir dir="${build.tmp}/default/_dl__lbrace_build.number_rbrace_-macos.zip/GobyWorkbench ${version}.app/bin" />
+    <copy todir="${build.tmp}/default/_dl__lbrace_build.number_rbrace_-macos.zip/GobyWorkbench ${version}.app/bin">
       <fileset file="${mps_home}/bin/mps.vmoptions" />
       <filterchain>
         <fixcrlf eol="lf" eof="remove" />
@@ -89,18 +89,18 @@
       </filterchain>
     </copy>
     <zip destfile="${build.layout}/${GobyWorkbench.build.number}-macos.zip">
-      <zipfileset dir="${artifacts.GobyWorkbench}" prefix="NYoSh ${version}.app" />
-      <zipfileset file="${mps_home}/bin/mac/Contents/Info.plist" prefix="NYoSh ${version}.app/Contents" />
-      <zipfileset file="${mps_home}/bin/mac/Contents/Resources/mps.icns" prefix="NYoSh ${version}.app/Contents/Resources" />
-      <zipfileset file="${mps_home}/bin/mac/Contents/MacOS/mps" prefix="NYoSh ${version}.app/Contents/MacOS" filemode="755" />
-      <zipfileset file="${mps_home}/bin/mac/info_plist_parser.scpt" prefix="NYoSh ${version}.app/bin" />
-      <zipfileset file="${mps_home}/bin/mac/libbreakgen.jnilib" prefix="NYoSh ${version}.app/bin" />
-      <zipfileset file="${mps_home}/bin/mac/libbreakgen64.jnilib" prefix="NYoSh ${version}.app/bin" />
-      <zipfileset file="${mps_home}/bin/mac/libquaqua.jnilib" prefix="NYoSh ${version}.app/bin" />
-      <zipfileset file="${mps_home}/bin/mac/libquaqua64.jnilib" prefix="NYoSh ${version}.app/bin" />
-      <zipfileset file="${mps_home}/bin/mac/restarter" prefix="NYoSh ${version}.app/bin" filemode="755" />
-      <zipfileset file="${mps_home}/bin/mac/fsnotifier" prefix="NYoSh ${version}.app/bin" filemode="755" />
-      <zipfileset dir="${build.tmp}/default/_dl__lbrace_build.number_rbrace_-macos.zip_f755" filemode="755" prefix="NYoSh ${version}.app" />
+      <zipfileset dir="${artifacts.GobyWorkbench}" prefix="GobyWorkbench ${version}.app" />
+      <zipfileset file="${mps_home}/bin/mac/Contents/Info.plist" prefix="GobyWorkbench ${version}.app/Contents" />
+      <zipfileset file="${mps_home}/bin/mac/Contents/Resources/mps.icns" prefix="GobyWorkbench ${version}.app/Contents/Resources" />
+      <zipfileset file="${mps_home}/bin/mac/Contents/MacOS/mps" prefix="GobyWorkbench ${version}.app/Contents/MacOS" filemode="755" />
+      <zipfileset file="${mps_home}/bin/mac/info_plist_parser.scpt" prefix="GobyWorkbench ${version}.app/bin" />
+      <zipfileset file="${mps_home}/bin/mac/libbreakgen.jnilib" prefix="GobyWorkbench ${version}.app/bin" />
+      <zipfileset file="${mps_home}/bin/mac/libbreakgen64.jnilib" prefix="GobyWorkbench ${version}.app/bin" />
+      <zipfileset file="${mps_home}/bin/mac/libquaqua.jnilib" prefix="GobyWorkbench ${version}.app/bin" />
+      <zipfileset file="${mps_home}/bin/mac/libquaqua64.jnilib" prefix="GobyWorkbench ${version}.app/bin" />
+      <zipfileset file="${mps_home}/bin/mac/restarter" prefix="GobyWorkbench ${version}.app/bin" filemode="755" />
+      <zipfileset file="${mps_home}/bin/mac/fsnotifier" prefix="GobyWorkbench ${version}.app/bin" filemode="755" />
+      <zipfileset dir="${build.tmp}/default/_dl__lbrace_build.number_rbrace_-macos.zip_f755" filemode="755" prefix="GobyWorkbench ${version}.app" />
       <fileset dir="${build.tmp}/default/_dl__lbrace_build.number_rbrace_-macos.zip" />
     </zip>
     <echo file="${build.layout}/build.properties">GobyWorkbenchDistribution.version=${version}${line.separator}GobyWorkbench.date=${GobyWorkbench.date}${line.separator}GobyWorkbench.build.number=${GobyWorkbench.build.number}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}</echo>
