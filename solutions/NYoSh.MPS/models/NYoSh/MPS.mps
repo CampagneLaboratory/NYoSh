@@ -734,7 +734,10 @@
           <node role="compositePart" roleId="3ior.7321017245477039051" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="8318417660238160037" nodeInfo="nn">
             <property name="head" nameId="3ior.8618885170173601779" value="languages" />
             <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="8318417660238160038" nodeInfo="nn">
-              <property name="head" nameId="3ior.8618885170173601779" value="org.campagnelab.nyosh.gstring.mpl" />
+              <property name="head" nameId="3ior.8618885170173601779" value="org.campagnelab.nyosh.gstring" />
+              <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="6730757766001790269" nodeInfo="nn">
+                <property name="head" nameId="3ior.8618885170173601779" value="org.campagnelab.nyosh.gstring.mpl" />
+              </node>
             </node>
           </node>
         </node>
