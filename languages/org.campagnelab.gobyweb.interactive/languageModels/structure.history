@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="-1" />
+    </dependencies>
+    <rename id="bs99.2051553890368763385" type="CONCEPT" from="Slot" to="SlotValue" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="0" />
+    </dependencies>
+    <rename id="bs99.2051553890368763385" type="CONCEPT" from="SlotValue" to="SlotValues" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="1" />
+    </dependencies>
+    <rename id="bs99.2051553890368763385" type="CONCEPT" from="SlotValues" to="Slot" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="2" />
+    </dependencies>
+    <rename id="bs99.2051553890368778931" type="CONCEPT" from="FileSet" to="FileSetInstance" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="3" />
+    </dependencies>
+    <rename id="bs99.2051553890368785078" type="PROPERTY" from="user" to="username" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="4" />
+    </dependencies>
+    <rename id="bs99.2051553890369292719" type="CONCEPT" from="JobRe" to="JobResult" />
+  </StructureModification>
+</history>
+
