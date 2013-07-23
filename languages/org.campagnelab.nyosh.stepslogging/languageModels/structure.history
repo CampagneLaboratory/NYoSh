@@ -6,5 +6,17 @@
     </dependencies>
     <rename id="zv30.2051553890369898250" type="CONCEPT" from="Doing" to="StepPrefix" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="zv30" modelUID="r:2d577d18-023a-4db8-96a2-8572d7230ece(org.campagnelab.nyosh.stepslogging.structure)" version="0" />
+    </dependencies>
+    <rename id="zv30.2051553890369899810" type="CHILD" from="edback" to="feedback" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="zv30" modelUID="r:2d577d18-023a-4db8-96a2-8572d7230ece(org.campagnelab.nyosh.stepslogging.structure)" version="1" />
+    </dependencies>
+    <rename id="zv30.2051553890369898250" type="CONCEPT" from="StepPrefix" to="Step" />
+  </StructureModification>
 </history>
 
