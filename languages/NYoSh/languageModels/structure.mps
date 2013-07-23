@@ -301,9 +301,6 @@
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1..n" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="6pk0.2195928368806215045" resolveInfo="EnvVariableDeclarationReference" />
     </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6956376092816043591" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
-    </node>
   </root>
 </model>
 
