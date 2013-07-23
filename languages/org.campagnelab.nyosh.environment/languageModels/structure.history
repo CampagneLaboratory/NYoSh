@@ -66,5 +66,11 @@
     </dependencies>
     <rename id="6pk0.5850079210449423205" type="PROPERTY" from="name" to="key" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="6pk0" modelUID="r:48f4e449-1a18-435e-ae88-4830aa794dc7(org.campagnelab.nyosh.environment.structure)" version="10" />
+    </dependencies>
+    <rename id="6pk0.2195928368806215045" type="CONCEPT" from="EnvVariableDeclarationList" to="EnvVariableDeclarationReference" />
+  </StructureModification>
 </history>
 
