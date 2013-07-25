@@ -179,9 +179,16 @@
         <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="2509699171508780485" nodeInfo="nn" />
         <node role="statement" roleId="tpee.1068581517665" type="tpee.BlockStatement" typeId="tpee.1082485599095" id="2509699171508775040" nodeInfo="nn">
           <node role="statements" roleId="tpee.1082485599096" type="tpee.StatementList" typeId="tpee.1068580123136" id="2509699171508775042" nodeInfo="sn">
+            <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="435930706548742014" nodeInfo="nn">
+              <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="435930706548742072" nodeInfo="nn">
+                <property name="text" nameId="tpee.6329021646629104958" value="BEFORE_ENTRY_POINT_EXECUTION" />
+              </node>
+            </node>
             <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="2509699171508775041" nodeInfo="nn" />
           </node>
-          <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.LabelMacro" typeId="tpf8.5133195082121471908" id="2509699171508810050" nodeInfo="nn" />
+          <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.LabelMacro" typeId="tpf8.5133195082121471908" id="2509699171508810050" nodeInfo="nn">
+            <link role="mappingLabel" roleId="tpf8.1200912223215" targetNodeId="2509699171508816937" resolveInfo="BEFORE_ENTRY_POINT_EXEC" />
+          </node>
         </node>
         <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="6431787771174398183" nodeInfo="nn">
           <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.LoopMacro" typeId="tpf8.1118786554307" id="6431787771175731888" nodeInfo="nn">
