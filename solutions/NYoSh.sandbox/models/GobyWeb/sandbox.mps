@@ -138,323 +138,433 @@
                 </node>
               </node>
             </node>
-            <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="1455940728765293430" nodeInfo="nn" />
-            <node role="statement" roleId="tpee.1068581517665" type="6pk0.EnvironmentSourceList" typeId="6pk0.3173353997360946752" id="1455940728765295100" nodeInfo="ng">
-              <node role="sources" roleId="6pk0.3173353997360946804" type="6pk0.JVMSource" typeId="6pk0.5955265417291063247" id="1455940728765295910" nodeInfo="ng">
-                <node role="loader" roleId="6pk0.3173353997360796899" type="6pk0.JVMLoader" typeId="6pk0.5955265417291063310" id="1455940728765295913" nodeInfo="ng">
-                  <link role="source" roleId="6pk0.3173353997362497485" targetNodeId="1455940728765295910" />
+            <node role="statement" roleId="tpee.1068581517665" type="6pk0.EnvironmentSourceList" typeId="6pk0.3173353997360946752" id="1455940728767702754" nodeInfo="ng">
+              <node role="sources" roleId="6pk0.3173353997360946804" type="6pk0.JVMSource" typeId="6pk0.5955265417291063247" id="1455940728767705778" nodeInfo="ng">
+                <node role="loader" roleId="6pk0.3173353997360796899" type="6pk0.JVMLoader" typeId="6pk0.5955265417291063310" id="1455940728767705781" nodeInfo="ng">
+                  <link role="source" roleId="6pk0.3173353997362497485" targetNodeId="1455940728767705778" />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766003300" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767750492" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="SHELL" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="/bin/bash" />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766003301" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767750493" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="TMPDIR" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="/var/folders/_b/yxqf80914033gdcjr2jz91_h0000gq/T/" />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766003302" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767750494" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="com.apple.java.jvmMode" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="client" />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766003303" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767750495" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="__CF_USER_TEXT_ENCODING" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="0x1F7:0:0" />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766003304" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767750496" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="PATH" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="/usr/bin:/bin:/usr/sbin:/sbin" />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766003305" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767750497" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="COMMAND_MODE" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="unix2003" />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766003306" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767750498" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="USER" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="mas2182" />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766003307" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767750499" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="com.apple.java.jvmTask" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="BundledApp" />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766003308" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767750500" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="HOME" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="/Users/mas2182" />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766003309" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767750501" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="LOGNAME" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="mas2182" />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766003310" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767750502" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="Apple_Ubiquity_Message" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="/tmp/launch-flsNtS/Apple_Ubiquity_Message" />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766003311" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767750503" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="Apple_PubSub_Socket_Render" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="/tmp/launch-9iv71a/Render" />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766003312" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767750504" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="JAVA_LIBRARY_PATH" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="/Applications/Work/MPS 3.0.app/Contents/Resources/Java:/System/Library/PrivateFrameworks/JavaApplicationLauncher.framework/Resources" />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766003313" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767750505" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="SSH_AUTH_SOCK" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="/tmp/launch-ASOZvi/Listeners" />
                 </node>
               </node>
-              <node role="sources" roleId="6pk0.3173353997360946804" type="6pk0.GobyWebSource" typeId="6pk0.5469406079154460114" id="1455940728765299796" nodeInfo="ng">
-                <node role="loader" roleId="6pk0.3173353997360796899" type="6pk0.GobyWebLoader" typeId="6pk0.1455940728762902354" id="1455940728765299799" nodeInfo="ng">
-                  <link role="source" roleId="6pk0.3173353997362497485" targetNodeId="1455940728765299796" />
+              <node role="sources" roleId="6pk0.3173353997360946804" type="6pk0.GobyWebSource" typeId="6pk0.5469406079154460114" id="1455940728767742413" nodeInfo="ng">
+                <node role="loader" roleId="6pk0.3173353997360796899" type="6pk0.GobyWebLoader" typeId="6pk0.1455940728762902354" id="1455940728767742416" nodeInfo="ng">
+                  <link role="source" roleId="6pk0.3173353997362497485" targetNodeId="1455940728767742413" />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766003317" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767750509" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="JOB_DIR" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="/Users/mas2182/temp" />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766003318" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767750510" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="TMPDIR" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="/Users/mas2182/temp" />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766003319" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767750511" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="SGE_O_WORKDIR" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="/Users/mas2182/temp" />
                 </node>
               </node>
             </node>
-            <node role="statement" roleId="tpee.1068581517665" type="6pk0.EnvironmentSourceList" typeId="6pk0.3173353997360946752" id="1455940728766021531" nodeInfo="ng">
-              <node role="sources" roleId="6pk0.3173353997360946804" type="6pk0.MapFileSource" typeId="6pk0.3173353997360878302" id="1455940728766022036" nodeInfo="ng">
-                <node role="loader" roleId="6pk0.3173353997360796899" type="6pk0.MapFileLoader" typeId="6pk0.3173353997360795160" id="1455940728766022039" nodeInfo="ng">
-                  <link role="source" roleId="6pk0.3173353997362497485" targetNodeId="1455940728766022036" />
+            <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="1455940728767758266" nodeInfo="nn">
+              <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="1455940728767758269" nodeInfo="nr">
+                <property name="name" nameId="tpck.1169194664001" value="job_dir" />
+                <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="1455940728767758264" nodeInfo="in" />
+                <node role="initializer" roleId="tpee.1068431790190" type="6pk0.VariableReader" typeId="6pk0.3173353997363191763" id="1455940728767766175" nodeInfo="ng">
+                  <link role="loadedVariable" roleId="6pk0.5955265417291138249" targetNodeId="1455940728767750509" resolveInfo="JOB_DIR" />
                 </node>
-                <node role="source" roleId="6pk0.1455940728763205902" type="6pk0.SourcePath" typeId="6pk0.1455940728763133433" id="1455940728766022040" nodeInfo="ng">
+              </node>
+            </node>
+            <node role="statement" roleId="tpee.1068581517665" type="6pk0.EnvironmentSourceList" typeId="6pk0.3173353997360946752" id="1455940728767821771" nodeInfo="ng">
+              <node role="sources" roleId="6pk0.3173353997360946804" type="6pk0.MapFileSource" typeId="6pk0.3173353997360878302" id="1455940728767827694" nodeInfo="ng">
+                <node role="loader" roleId="6pk0.3173353997360796899" type="6pk0.MapFileLoader" typeId="6pk0.3173353997360795160" id="1455940728767827697" nodeInfo="ng">
+                  <link role="source" roleId="6pk0.3173353997362497485" targetNodeId="1455940728767827694" />
+                </node>
+                <node role="source" roleId="6pk0.1455940728763205902" type="6pk0.SourcePath" typeId="6pk0.1455940728763133433" id="1455940728767827698" nodeInfo="ng">
                   <property name="filename" nameId="6pk0.1455940728763133434" value="constants.sh" />
-                  <node role="path" roleId="6pk0.1455940728763133446" type="6pk0.EnvVariableDeclarationReference" typeId="6pk0.2195928368806215045" id="1455940728766022795" nodeInfo="ng">
-                    <link role="ref" roleId="6pk0.2195928368806266469" targetNodeId="1455940728766003317" resolveInfo="JOB_DIR" />
+                  <node role="path" roleId="6pk0.1455940728763133446" type="6pk0.EnvVariableDeclarationReference" typeId="6pk0.2195928368806215045" id="1455940728767834566" nodeInfo="ng">
+                    <link role="ref" roleId="6pk0.2195928368806266469" targetNodeId="1455940728767750509" resolveInfo="JOB_DIR" />
                   </node>
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022851" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767947989" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="CHUNK_SIZE" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;50000000&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022852" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767947990" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="JOB_PART_COMPRESS_STATUS" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;compress&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022853" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767947991" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="JOB_PART_CONCAT_STATUS" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;concat&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022854" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767947992" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="NUMBER_OF_PARTS" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;2&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022855" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767947993" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="JOB_PART_COUNTS_STATUS" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;counts&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022856" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767947994" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="QUEUE_WRITER" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;${RESOURCES_GROOVY_EXECUTABLE} ${RESOURCES_GOBYWEB_SERVER_SIDE_QUEUE_WRITER} --handler-service PluginsSDK --queue-message-dir /Users/mas2182/.clustergateway/queue-message-dir&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022857" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767947995" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;Sample_MAN1&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022858" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767947996" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="READS_PLATFORM" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;Illumina&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022859" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767947997" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="SUPPORTS_GOBY_ALIGNMENTS" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;false&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022860" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767947998" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="JOB_PART_TRANSFER_STATUS" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;transfer&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022861" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767947999" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="JOB_PART_MERGE_STATUS" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;merge&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022862" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948000" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="PLUGIN_ID" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;SAMPLE_ALIGNER_WITH_MPS&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022863" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948001" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="JOB_PART_FAILED_STATUS" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;failed&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022864" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948002" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_ALIGNMENT" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;false&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022865" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948003" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="QUEUE_NAME" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;rascals.q&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022866" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948004" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="SUPPORTS_FASTQ_READS" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;false&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022867" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948005" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="ALIGNER" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;SAMPLE_ALIGNER_WITH_MPS&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022868" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948006" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="JOB_PART_SPLIT_STATUS" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;split&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022869" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948007" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="ARTIFACT_REPOSITORY_DIR" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;/scratchLocal/gobyweb/ARTIFACT_REPOSITORY-PLUGINS-SDK&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022870" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948008" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="SUPPORTS_PAIRED_END_ALIGNMENTS" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;true&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022871" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948009" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="FILESET_TARGET_DIR" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;${TMPDIR}&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022872" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948010" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="GRID_JVM_FLAGS" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;-Xms8g -Xmx8g&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022873" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948011" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="SUPPORTS_FASTA_READS" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;false&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022874" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948012" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="INPUT_READ_LENGTH" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;4&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022875" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948013" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="CPU_REQUIREMENTS" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022876" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948014" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="KILL_FILE" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;/zenodotus/dat01/campagne_lab_scratch/gobyweb/GOBYWEB_TRIAL/SGE_JOBS/manuele.simi/RSWPFXA/kill.sh&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022877" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948015" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="JOB_PART_ALIGN_STATUS" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;align&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022878" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948016" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="SUPPORTS_BAM_ALIGNMENTS" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;false&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022879" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948017" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="COLOR_SPACE" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;false&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022880" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948018" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="FILESET_COMMAND" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;java -cp ${RESOURCES_GOBYWEB_SERVER_SIDE_FILESET_JAR}:${RESOURCES_GOBYWEB_SERVER_SIDE_DEPENDENCIES_JAR} org.campagnelab.gobyweb.filesets.JobInterface --fileset-area-cache ${FILESET_TARGET_DIR} --pb-file /zenodotus/dat01/campagne_lab_scratch/gobyweb/GOBYWEB_TRIAL/SGE_JOBS/manuele.simi/RSWPFXA/filesets.pb --job-tag RSWPFXA&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022881" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948019" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="WEB_SERVER_SSH_PREFIX" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;mas2182@mac150355.med.cornell.edu&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022882" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948020" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="JOB_PART_COMPLETED_STATUS" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;completed&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022883" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948021" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="READS_LABEL" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;Sample_MAN1&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022884" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948022" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;1000GENOMES.37&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022885" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948023" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="SUPPORTS_GOBY_READS" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;true&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022886" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948024" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="GOBY_DIR" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;${TMPDIR}&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022887" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948025" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="NUMBER_OF_ALIGN_PARTS" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;0&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022888" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948026" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="JOB_KILLED_STATUS" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;killed&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022889" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948027" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="JOB_PART_DIFF_EXP_STATUS" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;diff_exp&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022890" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948028" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="SGE_O_WORKDIR" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;/zenodotus/dat01/campagne_lab_scratch/gobyweb/GOBYWEB_TRIAL/SGE_JOBS/manuele.simi/RSWPFXA&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022891" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948029" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="TAG" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;RSWPFXA&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022892" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948030" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="JOB_PART_ALIGNMENT_STATS_STATUS" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;alignment_stats&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022893" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948031" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="INITIAL_STATE" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;pre_align&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022894" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948032" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;homo_sapiens&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022895" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948033" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="JOB_PART_SORT_STATUS" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;sort&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022896" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948034" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="LIB_PROTOCOL_PRESERVE_STRAND" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;true&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022897" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948035" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="JOB_DIR" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;/zenodotus/dat01/campagne_lab_scratch/gobyweb/GOBYWEB_TRIAL/SGE_JOBS/manuele.simi/RSWPFXA&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022898" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948036" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="PLUGIN_NEED_ALIGN_JVM" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;4g&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022899" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948037" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="INDEX_PREFIX" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;index&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022900" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948038" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="JOB_PART_WIGGLES_STATUS" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;wiggles&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022901" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948039" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="JOB_START_STATUS" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;start&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022902" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948040" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="JOB_PART_ALIGNMENT_SEQ_VARIATION_STATS_STATUS" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;alignment_seq_variation_stats&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022903" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948041" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="SOURCE_READS_ID" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;TDYMGLG&quot; " />
                 </node>
-                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728766022904" nodeInfo="ng">
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948042" nodeInfo="ng">
                   <property name="name" nameId="tpck.1169194664001" value="SUPPORTS_BISULFITE_CONVERTED_READS" />
                   <property name="value" nameId="6pk0.5469406079154538151" value="&quot;false&quot; " />
                 </node>
               </node>
+              <node role="sources" roleId="6pk0.3173353997360946804" type="6pk0.MapFileSource" typeId="6pk0.3173353997360878302" id="1455940728767920136" nodeInfo="ng">
+                <node role="loader" roleId="6pk0.3173353997360796899" type="6pk0.MapFileLoader" typeId="6pk0.3173353997360795160" id="1455940728767920139" nodeInfo="ng">
+                  <link role="source" roleId="6pk0.3173353997362497485" targetNodeId="1455940728767920136" />
+                </node>
+                <node role="source" roleId="6pk0.1455940728763205902" type="6pk0.SourcePath" typeId="6pk0.1455940728763133433" id="1455940728767920140" nodeInfo="ng">
+                  <property name="filename" nameId="6pk0.1455940728763133434" value="auto-options.sh" />
+                  <node role="path" roleId="6pk0.1455940728763133446" type="6pk0.EnvVariableDeclarationReference" typeId="6pk0.2195928368806215045" id="1455940728767928328" nodeInfo="ng">
+                    <link role="ref" roleId="6pk0.2195928368806266469" targetNodeId="1455940728767750509" resolveInfo="JOB_DIR" />
+                  </node>
+                </node>
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948066" nodeInfo="ng">
+                  <property name="name" nameId="tpck.1169194664001" value="RESOURCES_GOBYWEB_SERVER_SIDE_QUEUE_WRITER" />
+                  <property name="value" nameId="6pk0.5469406079154538151" value="${JOB_DIR}/QueueWriter.groovy" />
+                </node>
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948067" nodeInfo="ng">
+                  <property name="name" nameId="tpck.1169194664001" value="RESOURCES_GOBYWEB_SERVER_SIDE_GLOBAL_GOBY_JAR" />
+                  <property name="value" nameId="6pk0.5469406079154538151" value="${JOB_DIR}/global_goby.jar" />
+                </node>
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948068" nodeInfo="ng">
+                  <property name="name" nameId="tpck.1169194664001" value="RESOURCES_MPS_PATTERN_MATCHER" />
+                  <property name="value" nameId="6pk0.5469406079154538151" value="${JOB_DIR}/pattern-matcher.jar" />
+                </node>
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948069" nodeInfo="ng">
+                  <property name="name" nameId="tpck.1169194664001" value="PLUGINS_ALIGNER_SAMPLE_ALIGNER_WITH_MPS_FILES_RUN_MODEL_SCRIPT" />
+                  <property name="value" nameId="6pk0.5469406079154538151" value="${JOB_DIR}/run_model.sh" />
+                </node>
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948070" nodeInfo="ng">
+                  <property name="name" nameId="tpck.1169194664001" value="RESOURCES_BASH_LIBRARY_CALCULATE_MD5" />
+                  <property name="value" nameId="6pk0.5469406079154538151" value="${JOB_DIR}/calculateMD5.sh" />
+                </node>
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948071" nodeInfo="ng">
+                  <property name="name" nameId="tpck.1169194664001" value="RESOURCES_GOBYWEB_SERVER_SIDE_LOG4J_PROPERTIES" />
+                  <property name="value" nameId="6pk0.5469406079154538151" value="${JOB_DIR}/log4j.properties" />
+                </node>
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948072" nodeInfo="ng">
+                  <property name="name" nameId="tpck.1169194664001" value="PLUGINS_ALIGNER_SAMPLE_ALIGNER_WITH_MPS_FILES_SCRIPT" />
+                  <property name="value" nameId="6pk0.5469406079154538151" value="${JOB_DIR}/script.sh" />
+                </node>
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948073" nodeInfo="ng">
+                  <property name="name" nameId="tpck.1169194664001" value="RESOURCES_GROOVY_INSTALL" />
+                  <property name="value" nameId="6pk0.5469406079154538151" value="${JOB_DIR}/install.sh" />
+                </node>
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948074" nodeInfo="ng">
+                  <property name="name" nameId="tpck.1169194664001" value="RESOURCES_GOBYWEB_SERVER_SIDE_ARTIFACTS_MANAGER_JAR" />
+                  <property name="value" nameId="6pk0.5469406079154538151" value="${JOB_DIR}/artifact-manager.sh" />
+                </node>
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948075" nodeInfo="ng">
+                  <property name="name" nameId="tpck.1169194664001" value="RESOURCES_GOBYWEB_SERVER_SIDE_ICB_GROOVY_SUPPORT_JAR" />
+                  <property name="value" nameId="6pk0.5469406079154538151" value="${JOB_DIR}/icb-groovy-support.jar" />
+                </node>
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948076" nodeInfo="ng">
+                  <property name="name" nameId="tpck.1169194664001" value="RESOURCES_BASH_LIBRARY_MAPS_IN_BASH3" />
+                  <property name="value" nameId="6pk0.5469406079154538151" value="${JOB_DIR}/maps_in_bash3.sh" />
+                </node>
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948077" nodeInfo="ng">
+                  <property name="name" nameId="tpck.1169194664001" value="RESOURCES_GOBYWEB_SERVER_SIDE_DEPENDENCIES_JAR" />
+                  <property name="value" nameId="6pk0.5469406079154538151" value="${JOB_DIR}/serverside-dependencies.jar" />
+                </node>
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948078" nodeInfo="ng">
+                  <property name="name" nameId="tpck.1169194664001" value="RESOURCES_MPS_JARS_LIST" />
+                  <property name="value" nameId="6pk0.5469406079154538151" value="${JOB_DIR}/mps-jars-required.txt" />
+                </node>
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948079" nodeInfo="ng">
+                  <property name="name" nameId="tpck.1169194664001" value="RESOURCES_GOBYWEB_SERVER_SIDE_QUEUE_WRITER_WRAPPER" />
+                  <property name="value" nameId="6pk0.5469406079154538151" value="${JOB_DIR}/queue-writer.sh" />
+                </node>
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948080" nodeInfo="ng">
+                  <property name="name" nameId="tpck.1169194664001" value="RESOURCES_FETCH_URL_SCRIPT_PATTERN" />
+                  <property name="value" nameId="6pk0.5469406079154538151" value="${JOB_DIR}/fetch_url_pattern" />
+                </node>
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948081" nodeInfo="ng">
+                  <property name="name" nameId="tpck.1169194664001" value="RESOURCES_GOBYWEB_SERVER_SIDE_ARTIFACTS_SCRIPT" />
+                  <property name="value" nameId="6pk0.5469406079154538151" value="${JOB_DIR}/artifacts.sh" />
+                </node>
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948082" nodeInfo="ng">
+                  <property name="name" nameId="tpck.1169194664001" value="RESOURCES_MPS_INSTALL" />
+                  <property name="value" nameId="6pk0.5469406079154538151" value="${JOB_DIR}/install.sh" />
+                </node>
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948083" nodeInfo="ng">
+                  <property name="name" nameId="tpck.1169194664001" value="RESOURCES_GOBYWEB_SERVER_SIDE_TSV_VCF_TO_SQLITE" />
+                  <property name="value" nameId="6pk0.5469406079154538151" value="${JOB_DIR}/TsvVcfToSqlite.groovy" />
+                </node>
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948084" nodeInfo="ng">
+                  <property name="name" nameId="tpck.1169194664001" value="RESOURCES_GOBYWEB_SERVER_SIDE_PROCESS_SAMPLES" />
+                  <property name="value" nameId="6pk0.5469406079154538151" value="${JOB_DIR}/ProcessSamples.groovy" />
+                </node>
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948085" nodeInfo="ng">
+                  <property name="name" nameId="tpck.1169194664001" value="RESOURCES_GROOVY_EXECUTABLE" />
+                  <property name="value" nameId="6pk0.5469406079154538151" value="${JOB_DIR}/groovy" />
+                </node>
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948086" nodeInfo="ng">
+                  <property name="name" nameId="tpck.1169194664001" value="RESOURCES_FETCH_URL_SCRIPT" />
+                  <property name="value" nameId="6pk0.5469406079154538151" value="${JOB_DIR}/fetch_url" />
+                </node>
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948087" nodeInfo="ng">
+                  <property name="name" nameId="tpck.1169194664001" value="RESOURCES_GOBYWEB_SERVER_SIDE_FILESET_JAR" />
+                  <property name="value" nameId="6pk0.5469406079154538151" value="${JOB_DIR}/filesets.jar" />
+                </node>
+                <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="1455940728767948088" nodeInfo="ng">
+                  <property name="name" nameId="tpck.1169194664001" value="PLUGINS_ALIGNER_SAMPLE_ALIGNER_WITH_MPS_FILES_PLUGIN_CLASSES" />
+                  <property name="value" nameId="6pk0.5469406079154538151" value="${JOB_DIR}/GobyWeb" />
+                </node>
+              </node>
             </node>
-            <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="1455940728766003568" nodeInfo="nn" />
-            <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="1455940728766005383" nodeInfo="nn">
-              <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="1455940728766005386" nodeInfo="nr">
+            <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="1455940728767860883" nodeInfo="nn">
+              <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="1455940728767860886" nodeInfo="nr">
                 <property name="name" nameId="tpck.1169194664001" value="var" />
-                <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="1455940728766005381" nodeInfo="in" />
-                <node role="initializer" roleId="tpee.1068431790190" type="6pk0.VariableReader" typeId="6pk0.3173353997363191763" id="1455940728766006327" nodeInfo="ng">
-                  <link role="loadedVariable" roleId="6pk0.5955265417291138249" targetNodeId="1455940728766022867" resolveInfo="ALIGNER" />
+                <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="1455940728767860881" nodeInfo="in" />
+                <node role="initializer" roleId="tpee.1068431790190" type="6pk0.VariableReader" typeId="6pk0.3173353997363191763" id="1455940728767866215" nodeInfo="ng">
+                  <link role="loadedVariable" roleId="6pk0.5955265417291138249" targetNodeId="1455940728767948005" resolveInfo="ALIGNER" />
                 </node>
               </node>
             </node>
