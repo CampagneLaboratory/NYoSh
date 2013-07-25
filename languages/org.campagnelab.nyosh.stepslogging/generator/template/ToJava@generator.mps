@@ -24,7 +24,6 @@
   <import index="tpib" modelUID="r:00000000-0000-4000-0000-011c8959057f(jetbrains.mps.baseLanguage.logging.structure)" version="0" implicit="yes" />
   <import index="fxg8" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" version="-1" implicit="yes" />
   <import index="bgoc" modelUID="f:java_stub#7fcc6d04-9588-4f7a-9c26-8beb6f4862fd#org.campagnelab.stepslogger(org.campagnelab.nyosh.stepslogging/org.campagnelab.stepslogger@java_stub)" version="-1" implicit="yes" />
-  <import index="98gu" modelUID="f:diff_old#r:5002308f-320a-44af-b34b-5a4795ff9f8b(org.campagnelab.nyosh.stepslogging.generator.ToJava@generator@old)" version="-1" implicit="yes" />
   <root type="tpf8.MappingConfiguration" typeId="tpf8.1095416546421" id="5236568322513739528" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="ToJavaMapping" />
     <node role="weavingMappingRule" roleId="tpf8.1167172143858" type="tpf8.Weaving_MappingRule" typeId="tpf8.1167171569011" id="1169464520732" nodeInfo="ng">
@@ -824,7 +823,7 @@
               </node>
               <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="2060680358178954860" nodeInfo="nn">
                 <node role="expression" roleId="tpee.1068580123156" type="tpee.LocalMethodCall" typeId="tpee.7812454656619025412" id="2060680358178954859" nodeInfo="nn">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="98gu.2060680358178952927" resolveInfo="fail" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="2060680358178952927" resolveInfo="fail" />
                   <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="2509699171507801363" nodeInfo="nn">
                     <property name="value" nameId="tpee.1068580123138" value="false" />
                     <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.CopySrcNodeMacro" typeId="tpf8.1114706874351" id="2509699171507801364" nodeInfo="nn">
@@ -871,11 +870,7 @@
         <property name="name" nameId="tpck.1169194664001" value="fail" />
         <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="2060680358178952928" nodeInfo="in" />
         <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="2060680358180222894" nodeInfo="nn" />
-        <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="2060680358178952930" nodeInfo="sn">
-          <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="435930706553859750" nodeInfo="nn">
-            <node role="expression" roleId="tpee.1068581517676" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="435930706553678102" nodeInfo="nn" />
-          </node>
-        </node>
+        <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="2060680358178952930" nodeInfo="sn" />
         <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="2060680358178952931" nodeInfo="ir">
           <property name="name" nameId="tpck.1169194664001" value="expression" />
           <node role="type" roleId="tpee.5680397130376446158" type="tpee.BooleanType" typeId="tpee.1070534644030" id="2060680358178952932" nodeInfo="in" />
