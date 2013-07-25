@@ -57,6 +57,9 @@
       <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support.jar" />
     </copy>
     <copy todir="${build.layout}/lib">
+      <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.0.1-SNAPSHOT.jar" />
+    </copy>
+    <copy todir="${build.layout}/lib">
       <fileset file="${org.campagnelab.goby.workbench.home}/lib/wildcard-1.03.jar" />
     </copy>
     <mkdir dir="${build.tmp}/default/branding.jar" />
@@ -363,7 +366,6 @@
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.textoutput-generator-template" prefix="module/generator/template" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.textoutput-languageModels" prefix="module/languageModels" />
     </jar>
-<<<<<<< HEAD
     <mkdir dir="${build.tmp}/default/org.campagnelab.nyosh.stepslogging.jar" />
     <mkdir dir="${build.tmp}/default/org.campagnelab.nyosh.stepslogging.jar/META-INF" />
     <echoxml file="${build.tmp}/default/org.campagnelab.nyosh.stepslogging.jar/META-INF/module.xml">
@@ -381,16 +383,16 @@
           <module ref="8fe4c62a-2020-4ff4-8eda-f322a55bdc9f(jetbrains.mps.refactoring.runtime)" />
           <module ref="9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)" />
         </dependencies>
-        <library jar="../../../org.campagnelab.stepslogger-1.0.1-SNAPSHOT.jar" />
+        <library jar="../../../../lib/org.campagnelab.stepslogger-1.0.1-SNAPSHOT.jar" />
         <sources jar="org.campagnelab.nyosh.stepslogging-src.jar" descriptor="org.campagnelab.nyosh.stepslogging.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/NYoSh.zip/NYoSh/languages/grouped content/org.campagnelab.nyosh.stepslogging.jar">
+    <jar destfile="${build.layout}/plugins/NYoSh/languages/NYoSh/org.campagnelab.nyosh.stepslogging.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.nyosh.stepslogging" />
       <fileset dir="${basedir}/languages/org.campagnelab.nyosh.stepslogging" includes="icons/**, resources/**" />
       <fileset dir="${build.tmp}/default/org.campagnelab.nyosh.stepslogging.jar" />
     </jar>
-    <jar destfile="${build.tmp}/default/NYoSh.zip/NYoSh/languages/grouped content/org.campagnelab.nyosh.stepslogging-generator.jar">
+    <jar destfile="${build.layout}/plugins/NYoSh/languages/NYoSh/org.campagnelab.nyosh.stepslogging-generator.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.nyosh.stepslogging#2051553890369898195" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.nyosh.stepslogging-generator-template">
@@ -399,36 +401,13 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.nyosh.stepslogging-languageModels">
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.nyosh.stepslogging/languageModels" includes="**/*.mps, **/*.metadata, **/*.history" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/NYoSh.zip/NYoSh/languages/grouped content/org.campagnelab.nyosh.stepslogging-src.jar">
+    <jar destfile="${build.layout}/plugins/NYoSh/languages/NYoSh/org.campagnelab.nyosh.stepslogging-src.jar">
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.nyosh.stepslogging/generator/source_gen" includes="**/*.java" />
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.nyosh.stepslogging/source_gen" includes="**/*.java" />
       <zipfileset file="${basedir}/languages/org.campagnelab.nyosh.stepslogging/org.campagnelab.nyosh.stepslogging.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.nyosh.stepslogging-generator-template" prefix="module/generator/template" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.nyosh.stepslogging-languageModels" prefix="module/languageModels" />
     </jar>
-    <echoxml file="${build.tmp}/default/NYoSh.zip/NYoSh/plugin.xml">
-      <idea-plugin version="2" xmlns:xi="http://www.w3.org/2001/XInclude">
-        <id>NYoSh</id>
-        <name>NYoSh</name>
-        <description>NYoSh IDEA plugin</description>
-        <version>1.0</version>
-        <vendor url="http://campagnelab.org">Campagne laboratory</vendor>
-        <depends>jetbrains.mps.core</depends>
-        <depends>jetbrains.mps.build</depends>
-        
-        <extensions defaultExtensionNs="com.intellij">
-          <mps.LanguageLibrary dir="/languages" />
-        </extensions>
-      </idea-plugin>
-    </echoxml>
-    <zip destfile="${build.layout}/NYoSh.zip">
-      <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support.jar" />
-      <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.0.1-SNAPSHOT.jar" />
-      <fileset file="${org.campagnelab.goby.workbench.home}/lib/wildcard-1.03.jar" />
-      <fileset dir="${build.tmp}/default/NYoSh.zip" />
-    </zip>
-    <echo file="${build.layout}/build.properties">mpsPlugin.plugin.version=${mpsPlugin.plugin.version}${line.separator}mpsPlugin.date=${mpsPlugin.date}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}</echo>
-=======
     <copy file="${artifacts.mpsMakePlugin}/mps-make.jar" todir="${build.layout}/plugins" />
     <mkdir dir="${build.layout}/plugins/git4idea" />
     <copy todir="${build.layout}/plugins/git4idea">
@@ -448,7 +427,6 @@
     </copy>
     <echo file="${build.layout}/build.number">build.number=${build.number}${line.separator}date=${date}${line.separator}version=1.0</echo>
     <echo file="${build.layout}/build.properties">GobyWorkbench.date=${date}${line.separator}GobyWorkbench.build.number=${build.number}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}</echo>
->>>>>>> 40ca9a86ca6224a3b7e988d91b326cc18eef92a6
   </target>
   
   <target name="buildDependents" />
@@ -462,11 +440,7 @@
     <delete dir="${build.layout}" />
   </target>
   
-<<<<<<< HEAD
-  <target name="compileJava" depends="java.compile.NYoSh, java.compile.NYoSh#8197864363320338521, java.compile.org.campagnelab.nyosh.gstring, java.compile.org.campagnelab.nyosh.pathpatterns, java.compile.org.campagnelab.nyosh.pathpatterns#1081263916558044417, java.compile.org.campagnelab.gobyweb, java.compile.org.campagnelab.gobyweb#1090105717920801462, java.compile.org.campagnelab.textoutput, java.compile.org.campagnelab.textoutput#6874736155931251038, java.compile.org.campagnelab.nyosh.stepslogging, java.compile.org.campagnelab.nyosh.stepslogging#2051553890369898195" />
-=======
-  <target name="compileJava" depends="java.compile.org.campagnelab.nyosh.environment, java.compile.org.campagnelab.nyosh.environment#3173353997360794809, java.compile.org.campagnelab.nyosh.pathpatterns, java.compile.org.campagnelab.nyosh.pathpatterns#1081263916558044417, java.compile.org.campagnelab.gobyweb, java.compile.org.campagnelab.gobyweb#1090105717920801462, java.compile.NYoSh, java.compile.NYoSh#8197864363320338521, java.compile.org.campagnelab.nyosh.gstring, java.compile.org.campagnelab.textoutput, java.compile.org.campagnelab.textoutput#6874736155931251038" />
->>>>>>> 40ca9a86ca6224a3b7e988d91b326cc18eef92a6
+  <target name="compileJava" depends="java.compile.org.campagnelab.nyosh.environment, java.compile.org.campagnelab.nyosh.environment#3173353997360794809, java.compile.org.campagnelab.nyosh.pathpatterns, java.compile.org.campagnelab.nyosh.pathpatterns#1081263916558044417, java.compile.org.campagnelab.gobyweb, java.compile.org.campagnelab.gobyweb#1090105717920801462, java.compile.NYoSh, java.compile.NYoSh#8197864363320338521, java.compile.org.campagnelab.nyosh.gstring, java.compile.org.campagnelab.textoutput, java.compile.org.campagnelab.textoutput#6874736155931251038, java.compile.org.campagnelab.nyosh.stepslogging, java.compile.org.campagnelab.nyosh.stepslogging#2051553890369898195" />
   
   <target name="processResources" />
   
@@ -546,10 +520,7 @@
       <library file="${artifacts.mpsTesting}/mps-testing/languages/languageDesign/jetbrains.mps.lang.test.jar" />
       <library file="${artifacts.mpsTesting}/mps-testing/languages/languageDesign/jetbrains.mps.lang.test.runtime.jar" />
       <chunk>
-<<<<<<< HEAD
-=======
         <module file="${basedir}/languages/org.campagnelab.nyosh.environment/org.campagnelab.nyosh.environment.mpl" />
->>>>>>> 40ca9a86ca6224a3b7e988d91b326cc18eef92a6
         <module file="${basedir}/languages/org.campagnelab.nyosh.gstring/org.campagnelab.nyosh.gstring.mpl" />
         <module file="${basedir}/languages/org.campagnelab.nyosh.stepslogging/org.campagnelab.nyosh.stepslogging.mpl" />
         <module file="${basedir}/languages/org.campagnelab.textoutput/org.campagnelab.textoutput.mpl" />
@@ -571,94 +542,14 @@
   
   <target name="makeDependents" />
   
-<<<<<<< HEAD
-  <target name="java.compile.NYoSh" depends="java.compile.org.campagnelab.nyosh.gstring, java.compile.org.campagnelab.nyosh.stepslogging, fetchDependencies">
-    <mkdir dir="${build.tmp}/java/out/NYoSh" />
-    <javac destdir="${build.tmp}/java/out/NYoSh" fork="true" includeantruntime="false">
-=======
   <target name="java.compile.org.campagnelab.nyosh.environment" depends="fetchDependencies">
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.nyosh.environment" />
     <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.environment" fork="true" includeantruntime="false">
->>>>>>> 40ca9a86ca6224a3b7e988d91b326cc18eef92a6
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.nyosh.environment/source_gen" />
       </src>
       <classpath>
-<<<<<<< HEAD
-        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-openapi.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-closures.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-collections.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-tuples.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-core.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-test.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-editor-api.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-editor-runtime.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-editor.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-platform.jar" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.gstring" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.stepslogging" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.0.1-SNAPSHOT.jar" />
-        <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/lib/log4j.jar" />
-        <fileset file="${artifacts.IDEA}/lib/jdom.jar" />
-        <fileset file="${artifacts.IDEA}/lib/ecj-4.2.1.jar" />
-        <fileset file="${artifacts.IDEA}/lib/trove4j.jar" />
-        <fileset file="${artifacts.IDEA}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.IDEA}/lib/asm4-all.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/diffutils-1.2.1.jar" />
-        <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/languages/util/jetbrains.mps.execution.util.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/languages/languageDesign/jetbrains.mps.lang.core.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
-      </classpath>
-    </javac>
-  </target>
-  
-  <target name="java.compile.NYoSh#8197864363320338521" depends="java.compile.NYoSh, java.compile.org.campagnelab.nyosh.gstring, java.compile.org.campagnelab.nyosh.stepslogging, fetchDependencies">
-    <mkdir dir="${build.tmp}/java/out/NYoSh#8197864363320338521" />
-    <javac destdir="${build.tmp}/java/out/NYoSh#8197864363320338521" fork="true" includeantruntime="false">
-      <compilerarg value="-Xlint:none" />
-      <src>
-        <path location="${org.campagnelab.goby.workbench.home}/languages/NYoSh/generator/source_gen" />
-      </src>
-      <classpath>
-        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-openapi.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-closures.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-collections.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-tuples.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-core.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-editor-api.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-editor-runtime.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-editor.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-platform.jar" />
-        <pathelement path="${build.tmp}/java/out/NYoSh" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-test.jar" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.gstring" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.stepslogging" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.0.1-SNAPSHOT.jar" />
-        <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/lib/log4j.jar" />
-        <fileset file="${artifacts.IDEA}/lib/jdom.jar" />
-        <fileset file="${artifacts.IDEA}/lib/ecj-4.2.1.jar" />
-        <fileset file="${artifacts.IDEA}/lib/trove4j.jar" />
-        <fileset file="${artifacts.IDEA}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.IDEA}/lib/asm4-all.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/diffutils-1.2.1.jar" />
-        <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/languages/util/jetbrains.mps.execution.util.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/languages/languageDesign/jetbrains.mps.lang.core.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
-=======
         <fileset file="${artifacts.mpsStandalone}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/mps-closures.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/mps-collections.jar" />
@@ -685,7 +576,6 @@
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
->>>>>>> 40ca9a86ca6224a3b7e988d91b326cc18eef92a6
       </classpath>
     </javac>
   </target>
@@ -828,25 +718,7 @@
         <pathelement path="${build.tmp}/java/out/NYoSh" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.stepslogging" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.textoutput" />
-<<<<<<< HEAD
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.0.1-SNAPSHOT.jar" />
-        <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/lib/log4j.jar" />
-        <fileset file="${artifacts.IDEA}/lib/jdom.jar" />
-        <fileset file="${artifacts.IDEA}/lib/ecj-4.2.1.jar" />
-        <fileset file="${artifacts.IDEA}/lib/trove4j.jar" />
-        <fileset file="${artifacts.IDEA}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.IDEA}/lib/asm4-all.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/diffutils-1.2.1.jar" />
-        <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/languages/util/jetbrains.mps.execution.util.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/languages/languageDesign/jetbrains.mps.lang.core.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/languages/languageDesign/jetbrains.mps.lang.scopes.runtime.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
-=======
         <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/log4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/jdom.jar" />
@@ -858,14 +730,11 @@
         <fileset dir="${artifacts.mpsStandalone}/lib" includes="*.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
-        <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.closures.jar" />
-        <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.collections.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/util/jetbrains.mps.execution.util.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/languageDesign/jetbrains.mps.lang.scopes.runtime.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
->>>>>>> 40ca9a86ca6224a3b7e988d91b326cc18eef92a6
       </classpath>
     </javac>
   </target>
@@ -891,24 +760,7 @@
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.stepslogging" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.textoutput" />
-<<<<<<< HEAD
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.0.1-SNAPSHOT.jar" />
-        <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/lib/log4j.jar" />
-        <fileset file="${artifacts.IDEA}/lib/jdom.jar" />
-        <fileset file="${artifacts.IDEA}/lib/ecj-4.2.1.jar" />
-        <fileset file="${artifacts.IDEA}/lib/trove4j.jar" />
-        <fileset file="${artifacts.IDEA}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.IDEA}/lib/asm4-all.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/diffutils-1.2.1.jar" />
-        <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/languages/util/jetbrains.mps.execution.util.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/languages/languageDesign/jetbrains.mps.lang.core.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
-=======
         <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/log4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/jdom.jar" />
@@ -930,7 +782,7 @@
     </javac>
   </target>
   
-  <target name="java.compile.NYoSh" depends="java.compile.org.campagnelab.nyosh.environment, java.compile.org.campagnelab.nyosh.gstring, fetchDependencies">
+  <target name="java.compile.NYoSh" depends="java.compile.org.campagnelab.nyosh.gstring, java.compile.org.campagnelab.nyosh.stepslogging, fetchDependencies">
     <mkdir dir="${build.tmp}/java/out/NYoSh" />
     <javac destdir="${build.tmp}/java/out/NYoSh" fork="true" includeantruntime="false">
       <compilerarg value="-Xlint:none" />
@@ -943,14 +795,15 @@
         <fileset file="${artifacts.mpsStandalone}/lib/mps-collections.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/mps-core.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/mps-test.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/mps-editor-api.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/mps-editor-runtime.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/mps-editor.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/mps-platform.jar" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.environment" />
-        <fileset file="${artifacts.mpsStandalone}/lib/mps-test.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.gstring" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.stepslogging" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.0.1-SNAPSHOT.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/log4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/jdom.jar" />
@@ -962,8 +815,6 @@
         <fileset dir="${artifacts.mpsStandalone}/lib" includes="*.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
-        <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.closures.jar" />
-        <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.collections.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/util/jetbrains.mps.execution.util.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
@@ -972,7 +823,7 @@
     </javac>
   </target>
   
-  <target name="java.compile.NYoSh#8197864363320338521" depends="java.compile.NYoSh, java.compile.org.campagnelab.nyosh.gstring, fetchDependencies">
+  <target name="java.compile.NYoSh#8197864363320338521" depends="java.compile.NYoSh, java.compile.org.campagnelab.nyosh.gstring, java.compile.org.campagnelab.nyosh.stepslogging, fetchDependencies">
     <mkdir dir="${build.tmp}/java/out/NYoSh#8197864363320338521" />
     <javac destdir="${build.tmp}/java/out/NYoSh#8197864363320338521" fork="true" includeantruntime="false">
       <compilerarg value="-Xlint:none" />
@@ -992,7 +843,9 @@
         <pathelement path="${build.tmp}/java/out/NYoSh" />
         <fileset file="${artifacts.mpsStandalone}/lib/mps-test.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.gstring" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.stepslogging" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.0.1-SNAPSHOT.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/log4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/jdom.jar" />
@@ -1004,8 +857,6 @@
         <fileset dir="${artifacts.mpsStandalone}/lib" includes="*.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
-        <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.closures.jar" />
-        <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.collections.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/util/jetbrains.mps.execution.util.jar" />
@@ -1059,7 +910,6 @@
         <fileset file="${artifacts.mpsStandalone}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
         <fileset file="${artifacts.mpsTesting}/mps-testing/languages/languageDesign/jetbrains.mps.lang.test.runtime.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
->>>>>>> 40ca9a86ca6224a3b7e988d91b326cc18eef92a6
       </classpath>
     </javac>
   </target>
@@ -1135,30 +985,30 @@
         <path location="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.nyosh.stepslogging/source_gen" />
       </src>
       <classpath>
-        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-openapi.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-closures.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-collections.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-tuples.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-core.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-editor-api.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-editor-runtime.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-editor.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-platform.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/mps-openapi.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/mps-closures.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/mps-tuples.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/mps-core.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/mps-editor-api.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/mps-editor-runtime.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/mps-editor.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/mps-platform.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.0.1-SNAPSHOT.jar" />
-        <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/lib/log4j.jar" />
-        <fileset file="${artifacts.IDEA}/lib/jdom.jar" />
-        <fileset file="${artifacts.IDEA}/lib/ecj-4.2.1.jar" />
-        <fileset file="${artifacts.IDEA}/lib/trove4j.jar" />
-        <fileset file="${artifacts.IDEA}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.IDEA}/lib/asm4-all.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/diffutils-1.2.1.jar" />
-        <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/languages/languageDesign/jetbrains.mps.lang.core.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/log4j.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/jdom.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/ecj-4.2.1.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/trove4j.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/xstream-1.4.3.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/asm4-all.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/diffutils-1.2.1.jar" />
+        <fileset dir="${artifacts.mpsStandalone}/lib" includes="*.jar" />
+        <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
+        <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
+        <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
+        <fileset file="${artifacts.mpsStandalone}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
+        <fileset file="${artifacts.mpsStandalone}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       </classpath>
     </javac>
   </target>
@@ -1171,41 +1021,38 @@
         <path location="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.nyosh.stepslogging/generator/source_gen" />
       </src>
       <classpath>
-        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-openapi.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-closures.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-collections.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-tuples.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-core.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-editor-api.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-editor-runtime.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-editor.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/mps-platform.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/mps-openapi.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/mps-closures.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/mps-tuples.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/mps-core.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/mps-editor-api.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/mps-editor-runtime.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/mps-editor.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.stepslogging" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.0.1-SNAPSHOT.jar" />
-        <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/lib/log4j.jar" />
-        <fileset file="${artifacts.IDEA}/lib/jdom.jar" />
-        <fileset file="${artifacts.IDEA}/lib/ecj-4.2.1.jar" />
-        <fileset file="${artifacts.IDEA}/lib/trove4j.jar" />
-        <fileset file="${artifacts.IDEA}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.IDEA}/lib/asm4-all.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/lib/diffutils-1.2.1.jar" />
-        <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/languages/languageDesign/jetbrains.mps.lang.core.jar" />
-        <fileset file="${artifacts.mpsPlugin}/mps-core/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/log4j.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/jdom.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/ecj-4.2.1.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/trove4j.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/xstream-1.4.3.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/asm4-all.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/diffutils-1.2.1.jar" />
+        <fileset dir="${artifacts.mpsStandalone}/lib" includes="*.jar" />
+        <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
+        <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
+        <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
+        <fileset file="${artifacts.mpsStandalone}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
+        <fileset file="${artifacts.mpsStandalone}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       </classpath>
     </javac>
   </target>
   
   <target name="cleanSources">
-<<<<<<< HEAD
-=======
     <delete dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.nyosh.environment/source_gen" />
     <delete dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.nyosh.environment/generator/source_gen" />
->>>>>>> 40ca9a86ca6224a3b7e988d91b326cc18eef92a6
     <delete dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.nyosh.gstring/source_gen" />
     <delete dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.nyosh.stepslogging/source_gen" />
     <delete dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.nyosh.stepslogging/generator/source_gen" />
