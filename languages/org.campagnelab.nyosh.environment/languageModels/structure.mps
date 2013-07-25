@@ -31,10 +31,6 @@
     <property name="abstract" nameId="tpce.4628067390765956802" value="true" />
     <property name="final" nameId="tpce.4628067390765956807" value="false" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
-    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="3173353997360818781" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="source" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
-    </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="3173353997360796899" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="loader" />
@@ -50,10 +46,15 @@
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3173353997360878302" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="MapFileSource" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="loadMapFile" />
-    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="path to a plain text file in which each row is in the format NAME=VALUE" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="text file in which each row is in the format NAME=VALUE" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="MapFiles" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="3173353997360796893" resolveInfo="EnvironmentSource" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1455940728763205902" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="source" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="1455940728763133433" resolveInfo="SourcePath" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3173353997360946752" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="EnvironmentSourceList" />
@@ -96,6 +97,10 @@
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="variable available" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="var declaration" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="5469406079154538151" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="value" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="5955265417291138208" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
     </node>
@@ -108,6 +113,31 @@
       <property name="role" nameId="tpce.1071599776563" value="ref" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="5955265417291138207" resolveInfo="EnvVariableDeclaration" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5469406079154460114" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="GobyWebSource" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="GobyWeb" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3173353997360796893" resolveInfo="EnvironmentSource" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1455940728762902354" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="GobyWeb" />
+    <property name="name" nameId="tpck.1169194664001" value="GobyWebLoader" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="GobyWeb loader environment" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="load the basic GobyWeb environment" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3173353997360795105" resolveInfo="Loader" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1455940728763133433" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="SourcePath" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1455940728763133446" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="path" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="2195928368806215045" resolveInfo="EnvVariableDeclarationReference" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="1455940728763133434" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="filename" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
     </node>
   </root>
 </model>
