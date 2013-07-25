@@ -365,6 +365,10 @@
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="step" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="stepslogging" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1082485599095" resolveInfo="BlockStatement" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="6991050200773783034" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="hidden" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657063" resolveInfo="boolean" />
+    </node>
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="435930706556016197" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="description" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
