@@ -24,5 +24,11 @@
     </dependencies>
     <rename id="zv30.2060680358178459406" type="CONCEPT" from="FailMethod" to="FailStaticMethod" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="zv30" modelUID="r:2d577d18-023a-4db8-96a2-8572d7230ece(org.campagnelab.nyosh.stepslogging.structure)" version="3" />
+    </dependencies>
+    <rename id="zv30.2051553890369899800" type="CONCEPT" from="Success" to="WriteLogFile" />
+  </StructureModification>
 </history>
 

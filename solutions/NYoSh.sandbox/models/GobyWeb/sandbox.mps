@@ -20,8 +20,7 @@
   <import index="f2ff" modelUID="r:48d5f7d2-24be-4d82-ac12-8f4a2d414b11(org.campagnelab.nyosh.gstring.structure)" version="-1" implicit="yes" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" implicit="yes" />
   <import index="8w0" modelUID="r:eb1d368a-5e85-4af8-8740-90a6516e7dd4(org.campagnelab.nyosh.pathpatterns.structure)" version="0" implicit="yes" />
-  <import index="zv30" modelUID="r:2d577d18-023a-4db8-96a2-8572d7230ece(org.campagnelab.nyosh.stepslogging.structure)" version="3" implicit="yes" />
-  <import index="tpib" modelUID="r:00000000-0000-4000-0000-011c8959057f(jetbrains.mps.baseLanguage.logging.structure)" version="0" implicit="yes" />
+  <import index="zv30" modelUID="r:2d577d18-023a-4db8-96a2-8572d7230ece(org.campagnelab.nyosh.stepslogging.structure)" version="4" implicit="yes" />
   <root type="935h.AlignerScript" typeId="935h.3173353997329126934" id="3173353997343766612" nodeInfo="ng">
     <property name="pluginKind" nameId="935h.6874736155930792593" value="aligners" />
     <property name="pluginId" nameId="935h.6874736155930792589" value="SAMPLE_ALIGNER_WITH_MPS" />
@@ -167,12 +166,6 @@
           <node role="statement" roleId="tpee.1068581517665" type="zv30.Step" typeId="zv30.2051553890369898250" id="2060680358181706381" nodeInfo="ng">
             <property name="description" nameId="zv30.5236568322513714219" value="enclosingStep" />
             <node role="statements" roleId="tpee.1082485599096" type="tpee.StatementList" typeId="tpee.1068580123136" id="2060680358181706383" nodeInfo="sn">
-              <node role="statement" roleId="tpee.1068581517665" type="tpib.LogStatement" typeId="tpib.1167227138527" id="2509699171505573517" nodeInfo="nn">
-                <property name="severity" nameId="tpib.1167245565795" value="info" />
-                <node role="logExpression" roleId="tpib.1167227463056" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2509699171505573519" nodeInfo="nn">
-                  <property name="value" nameId="tpee.1070475926801" value="hello" />
-                </node>
-              </node>
               <node role="statement" roleId="tpee.1068581517665" type="zv30.Step" typeId="zv30.2051553890369898250" id="2060680358177977524" nodeInfo="ng">
                 <property name="description" nameId="zv30.5236568322513714219" value="try something" />
                 <node role="statements" roleId="tpee.1082485599096" type="tpee.StatementList" typeId="tpee.1068580123136" id="2060680358177977525" nodeInfo="sn">
@@ -196,9 +189,32 @@
                       <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2060680358178119919" resolveInfo="a" />
                     </node>
                   </node>
+                  <node role="statement" roleId="tpee.1068581517665" type="zv30.Assert" typeId="zv30.2060680358177994137" id="435930706553268193" nodeInfo="ng">
+                    <property name="message" nameId="zv30.2051553890369899808" value="This definitely will fail" />
+                    <link role="step" roleId="zv30.2060680358162246674" targetNodeId="2060680358177977524" />
+                    <node role="statements" roleId="tpee.1082485599096" type="tpee.StatementList" typeId="tpee.1068580123136" id="435930706553268195" nodeInfo="sn">
+                      <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="435930706553268194" nodeInfo="nn" />
+                    </node>
+                    <node role="expression" roleId="zv30.2060680358177994230" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="435930706553268211" nodeInfo="nn">
+                      <property name="value" nameId="tpee.1068580123138" value="false" />
+                    </node>
+                  </node>
                 </node>
               </node>
-              <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="2060680358178241263" nodeInfo="nn" />
+              <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="435930706550745234" nodeInfo="nn">
+                <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="435930706550745230" nodeInfo="nn">
+                  <node role="operand" roleId="tpee.1197027771414" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="435930706550745231" nodeInfo="nn">
+                    <link role="classifier" roleId="tpee.1144433057691" targetNodeId="e2lb.~System" resolveInfo="System" />
+                    <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="e2lb.~System%dout" resolveInfo="out" />
+                  </node>
+                  <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="435930706550745232" nodeInfo="nn">
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fxg7.~PrintStream%dprintln(java%dlang%dString)%cvoid" resolveInfo="println" />
+                    <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="435930706550745233" nodeInfo="nn">
+                      <property name="value" nameId="tpee.1070475926801" value="" />
+                    </node>
+                  </node>
+                </node>
+              </node>
               <node role="statement" roleId="tpee.1068581517665" type="zv30.Step" typeId="zv30.2051553890369898250" id="2060680358178242691" nodeInfo="ng">
                 <property name="description" nameId="zv30.5236568322513714219" value="another step" />
                 <node role="statements" roleId="tpee.1082485599096" type="tpee.StatementList" typeId="tpee.1068580123136" id="2060680358178242693" nodeInfo="sn">

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:2d577d18-023a-4db8-96a2-8572d7230ece(org.campagnelab.nyosh.stepslogging.structure)" version="3">
+<model modelUID="r:2d577d18-023a-4db8-96a2-8572d7230ece(org.campagnelab.nyosh.stepslogging.structure)" version="4">
   <persistence version="8" />
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" />
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="zv30" modelUID="r:2d577d18-023a-4db8-96a2-8572d7230ece(org.campagnelab.nyosh.stepslogging.structure)" version="3" implicit="yes" />
+  <import index="zv30" modelUID="r:2d577d18-023a-4db8-96a2-8572d7230ece(org.campagnelab.nyosh.stepslogging.structure)" version="4" implicit="yes" />
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2051553890369898250" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Step" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="step" />
@@ -25,9 +25,9 @@
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2051553890369899800" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="Success" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="success" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="2051553890369899807" resolveInfo="Feedback" />
+    <property name="name" nameId="tpck.1169194664001" value="WriteLogFile" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="write-log-file" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068580123157" resolveInfo="Statement" />
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="2509699171508948074" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="2509699171508948044" resolveInfo="ISomeStepLoggingStatement" />
     </node>
@@ -98,6 +98,11 @@
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="88876930576191664" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1319728274784973096" resolveInfo="InterfacePart" />
     </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="435930706551810289" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="StepMarker" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="StepMarker" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1082485599095" resolveInfo="BlockStatement" />
   </root>
 </model>
 
