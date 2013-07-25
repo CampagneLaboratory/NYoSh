@@ -10,17 +10,16 @@
   <language namespace="901f5cf3-dc77-4c1e-bc5a-6382baee28b4(org.campagnelab.textoutput)" />
   <language namespace="7e7f12dd-4eb6-4f35-9b4d-d37f5140fd33(org.campagnelab.nyosh.pathpatterns)" />
   <language namespace="c6567f13-87ab-4686-8f6f-42e8228c0e27(org.campagnelab.nyosh.gstring)" />
-  <language namespace="7fcc6d04-9588-4f7a-9c26-8beb6f4862fd(org.campagnelab.nyosh.stepslogging)" />
   <language namespace="760a0a8c-eabb-4521-8bfd-65db761a9ba3(jetbrains.mps.baseLanguage.logging)" />
+  <language-engaged-on-generation namespace="a21a7294-c126-4f63-8335-8fecd8c28c7e(NYoSh)" />
   <import index="fxg7" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" version="-1" />
-  <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="12" implicit="yes" />
+  <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="13" implicit="yes" />
   <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="4" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" implicit="yes" />
   <import index="f2ff" modelUID="r:48d5f7d2-24be-4d82-ac12-8f4a2d414b11(org.campagnelab.nyosh.gstring.structure)" version="-1" implicit="yes" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" implicit="yes" />
   <import index="8w0" modelUID="r:eb1d368a-5e85-4af8-8740-90a6516e7dd4(org.campagnelab.nyosh.pathpatterns.structure)" version="0" implicit="yes" />
-  <import index="zv30" modelUID="r:2d577d18-023a-4db8-96a2-8572d7230ece(org.campagnelab.nyosh.stepslogging.structure)" version="4" implicit="yes" />
   <root type="935h.AlignerScript" typeId="935h.3173353997329126934" id="3173353997343766612" nodeInfo="ng">
     <property name="pluginKind" nameId="935h.6874736155930792593" value="aligners" />
     <property name="pluginId" nameId="935h.6874736155930792589" value="SAMPLE_ALIGNER_WITH_MPS" />
@@ -164,12 +163,12 @@
         <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="2060680358160016154" nodeInfo="nn" />
         <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="2060680358160016155" nodeInfo="sn">
           <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="435930706554870742" nodeInfo="nn" />
-          <node role="statement" roleId="tpee.1068581517665" type="zv30.Step" typeId="zv30.2051553890369898250" id="2060680358181706381" nodeInfo="ng">
-            <property name="description" nameId="zv30.5236568322513714219" value="enclosingStep" />
+          <node role="statement" roleId="tpee.1068581517665" type="4tvk.Step" typeId="4tvk.435930706556016196" id="2060680358181706381" nodeInfo="ng">
+            <property name="description" nameId="4tvk.435930706556016197" value="enclosingStep" />
             <node role="statements" roleId="tpee.1082485599096" type="tpee.StatementList" typeId="tpee.1068580123136" id="2060680358181706383" nodeInfo="sn">
               <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="435930706554871559" nodeInfo="nn" />
-              <node role="statement" roleId="tpee.1068581517665" type="zv30.Step" typeId="zv30.2051553890369898250" id="2060680358177977524" nodeInfo="ng">
-                <property name="description" nameId="zv30.5236568322513714219" value="try something" />
+              <node role="statement" roleId="tpee.1068581517665" type="4tvk.Step" typeId="4tvk.435930706556016196" id="2060680358177977524" nodeInfo="ng">
+                <property name="description" nameId="4tvk.435930706556016197" value="try something" />
                 <node role="statements" roleId="tpee.1082485599096" type="tpee.StatementList" typeId="tpee.1068580123136" id="2060680358177977525" nodeInfo="sn">
                   <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="2060680358178258049" nodeInfo="nn" />
                   <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="2060680358178119916" nodeInfo="nn">
@@ -181,25 +180,25 @@
                       </node>
                     </node>
                   </node>
-                  <node role="statement" roleId="tpee.1068581517665" type="zv30.Assert" typeId="zv30.2060680358177994137" id="2060680358178091696" nodeInfo="ng">
-                    <property name="message" nameId="zv30.2051553890369899808" value="some message" />
-                    <link role="step" roleId="zv30.2060680358162246674" targetNodeId="2060680358177977524" />
+                  <node role="statement" roleId="tpee.1068581517665" type="4tvk.Assert" typeId="4tvk.435930706556016183" id="2060680358178091696" nodeInfo="ng">
+                    <property name="message" nameId="4tvk.435930706556016193" value="some message" />
+                    <link role="step" roleId="4tvk.435930706556016192" targetNodeId="2060680358177977524" />
                     <node role="statements" roleId="tpee.1082485599096" type="tpee.StatementList" typeId="tpee.1068580123136" id="2060680358178091698" nodeInfo="sn">
                       <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="2060680358178091697" nodeInfo="nn" />
                     </node>
-                    <node role="expression" roleId="zv30.2060680358177994230" type="tpee.VariableReference" typeId="tpee.1068498886296" id="2060680358178119969" nodeInfo="nn">
+                    <node role="expression" roleId="4tvk.435930706556016184" type="tpee.VariableReference" typeId="tpee.1068498886296" id="2060680358178119969" nodeInfo="nn">
                       <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2060680358178119919" resolveInfo="a" />
                     </node>
                   </node>
                 </node>
               </node>
-              <node role="statement" roleId="tpee.1068581517665" type="zv30.Step" typeId="zv30.2051553890369898250" id="2060680358178242691" nodeInfo="ng">
-                <property name="description" nameId="zv30.5236568322513714219" value="another step" />
+              <node role="statement" roleId="tpee.1068581517665" type="4tvk.Step" typeId="4tvk.435930706556016196" id="2060680358178242691" nodeInfo="ng">
+                <property name="description" nameId="4tvk.435930706556016197" value="another step" />
                 <node role="statements" roleId="tpee.1082485599096" type="tpee.StatementList" typeId="tpee.1068580123136" id="2060680358178242693" nodeInfo="sn">
                   <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="2060680358178258765" nodeInfo="nn" />
-                  <node role="statement" roleId="tpee.1068581517665" type="zv30.Fail" typeId="zv30.2051553890369899804" id="2060680358178243783" nodeInfo="ng">
-                    <property name="message" nameId="zv30.2051553890369899808" value="I could not do that" />
-                    <link role="step" roleId="zv30.2060680358162246674" targetNodeId="2060680358178242691" />
+                  <node role="statement" roleId="tpee.1068581517665" type="4tvk.Fail" typeId="4tvk.435930706556016185" id="2060680358178243783" nodeInfo="ng">
+                    <property name="message" nameId="4tvk.435930706556016193" value="I could not do that" />
+                    <link role="step" roleId="4tvk.435930706556016192" targetNodeId="2060680358178242691" />
                     <node role="statements" roleId="tpee.1082485599096" type="tpee.StatementList" typeId="tpee.1068580123136" id="2060680358178243785" nodeInfo="sn">
                       <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="2060680358178243784" nodeInfo="nn" />
                     </node>
