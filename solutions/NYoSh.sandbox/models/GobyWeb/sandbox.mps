@@ -32,10 +32,9 @@
       <property name="name" nameId="tpck.1169194664001" value="Aligner" />
       <node role="entryPoints" roleId="4tvk.4370546365667651420" type="935h.AlignerAlignEntryPoint" typeId="935h.3173353997329486142" id="3173353997343766614" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="plugin_align" />
+        <property name="header" nameId="4tvk.3834344539446559282" value="aligner entry point" />
         <link role="script" roleId="4tvk.1185348143925735982" targetNodeId="3173353997343766613" resolveInfo="Aligner" />
-        <node role="prototype" roleId="4tvk.2829258213785974077" type="935h.AlignerAlignEntryPointPrototype" typeId="935h.3173353997329129964" id="3173353997343766623" nodeInfo="ng">
-          <property name="header" nameId="4tvk.3834344539452020032" value="aligner entry point" />
-        </node>
+        <node role="prototype" roleId="4tvk.2829258213785974077" type="935h.AlignerAlignEntryPointPrototype" typeId="935h.3173353997329129964" id="3173353997343766623" nodeInfo="ng" />
         <node role="implementation" roleId="4tvk.2829258213786621720" type="tpee.StaticMethodDeclaration" typeId="tpee.1081236700938" id="3173353997343766624" nodeInfo="ig">
           <property name="name" nameId="tpck.1169194664001" value="align" />
           <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="3173353997343766625" nodeInfo="in" />
@@ -594,7 +593,9 @@
     <property name="name" nameId="tpck.1169194664001" value="StepsLoggerTest" />
     <node role="entryPoints" roleId="4tvk.4370546365667651420" type="4tvk.EntryPoint" typeId="4tvk.4370546365667651425" id="2060680358160016150" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="main" />
+      <property name="header" nameId="4tvk.3834344539446559282" value="entry point" />
       <link role="script" roleId="4tvk.1185348143925735982" targetNodeId="2060680358160012379" resolveInfo="StepsLoggerTest" />
+      <node role="prototype" roleId="4tvk.2829258213785974077" type="4tvk.DefaultArgumentPrototype" typeId="4tvk.2829258213784965402" id="2060680358160016151" nodeInfo="ng" />
       <node role="implementation" roleId="4tvk.2829258213786621720" type="tpee.StaticMethodDeclaration" typeId="tpee.1081236700938" id="2060680358160016152" nodeInfo="ig">
         <property name="name" nameId="tpck.1169194664001" value="implementation" />
         <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="2060680358160016153" nodeInfo="in" />
