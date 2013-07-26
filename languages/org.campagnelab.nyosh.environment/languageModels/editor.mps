@@ -243,6 +243,9 @@
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="6pk0.1455940728763133434" resolveInfo="filename" />
       </node>
     </node>
+    <node role="inspectedCellModel" roleId="tpc2.1078153129734" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="7439640740230047877" nodeInfo="ng">
+      <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="6pk0.1455940728763133434" resolveInfo="filename" />
+    </node>
   </root>
 </model>
 
