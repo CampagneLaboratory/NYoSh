@@ -26,7 +26,9 @@
     <node role="entryPoints" roleId="4tvk.4370546365667651420" type="4tvk.EntryPoint" typeId="4tvk.4370546365667651425" id="1326095133177002182" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="main" />
       <link role="script" roleId="4tvk.1185348143925735982" targetNodeId="1326095133177002154" resolveInfo="PatternMatcher" />
-      <node role="prototype" roleId="4tvk.2829258213785974077" type="4tvk.DefaultArgumentPrototype" typeId="4tvk.2829258213784965402" id="1326095133177002183" nodeInfo="ng" />
+      <node role="prototype" roleId="4tvk.2829258213785974077" type="4tvk.DefaultArgumentPrototype" typeId="4tvk.2829258213784965402" id="1326095133177002183" nodeInfo="ng">
+        <property name="header" nameId="4tvk.3834344539452020032" value="entry point" />
+      </node>
       <node role="implementation" roleId="4tvk.2829258213786621720" type="tpee.StaticMethodDeclaration" typeId="tpee.1081236700938" id="1326095133177002184" nodeInfo="ig">
         <property name="name" nameId="tpck.1169194664001" value="implementation" />
         <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="1326095133177002185" nodeInfo="in" />
@@ -41,7 +43,6 @@
               </node>
             </node>
           </node>
-          <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="1326095133188359299" nodeInfo="nn" />
           <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="1326095133177003229" nodeInfo="nn">
             <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="1326095133177003230" nodeInfo="nr">
               <property name="name" nameId="tpck.1169194664001" value="files" />
@@ -139,6 +140,8 @@
               <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="1326095133188350742" nodeInfo="in" />
             </node>
           </node>
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="3834344539453190678" nodeInfo="nn" />
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="3834344539453202135" nodeInfo="nn" />
         </node>
         <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="1326095133177002188" nodeInfo="ir">
           <property name="name" nameId="tpck.1169194664001" value="arguments" />
@@ -154,7 +157,9 @@
     <node role="entryPoints" roleId="4tvk.4370546365667651420" type="4tvk.EntryPoint" typeId="4tvk.4370546365667651425" id="3173353997360838271" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="main" />
       <link role="script" roleId="4tvk.1185348143925735982" targetNodeId="3173353997360838162" resolveInfo="EnvironmentTest" />
-      <node role="prototype" roleId="4tvk.2829258213785974077" type="4tvk.DefaultArgumentPrototype" typeId="4tvk.2829258213784965402" id="3173353997360838272" nodeInfo="ng" />
+      <node role="prototype" roleId="4tvk.2829258213785974077" type="4tvk.DefaultArgumentPrototype" typeId="4tvk.2829258213784965402" id="3173353997360838272" nodeInfo="ng">
+        <property name="header" nameId="4tvk.3834344539452020032" value="entry point" />
+      </node>
       <node role="implementation" roleId="4tvk.2829258213786621720" type="tpee.StaticMethodDeclaration" typeId="tpee.1081236700938" id="3173353997360838273" nodeInfo="ig">
         <property name="name" nameId="tpck.1169194664001" value="implementation" />
         <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="3173353997360838274" nodeInfo="in" />
@@ -689,7 +694,9 @@
     <node role="entryPoints" roleId="4tvk.4370546365667651420" type="4tvk.EntryPoint" typeId="4tvk.4370546365667651425" id="6956376092815322084" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="main" />
       <link role="script" roleId="4tvk.1185348143925735982" targetNodeId="6956376092815321803" resolveInfo="CommandTest" />
-      <node role="prototype" roleId="4tvk.2829258213785974077" type="4tvk.DefaultArgumentPrototype" typeId="4tvk.2829258213784965402" id="6956376092815322085" nodeInfo="ng" />
+      <node role="prototype" roleId="4tvk.2829258213785974077" type="4tvk.DefaultArgumentPrototype" typeId="4tvk.2829258213784965402" id="6956376092815322085" nodeInfo="ng">
+        <property name="header" nameId="4tvk.3834344539452020032" value="entry point" />
+      </node>
       <node role="implementation" roleId="4tvk.2829258213786621720" type="tpee.StaticMethodDeclaration" typeId="tpee.1081236700938" id="6956376092815322086" nodeInfo="ig">
         <property name="name" nameId="tpck.1169194664001" value="implementation" />
         <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="6956376092815322087" nodeInfo="in" />

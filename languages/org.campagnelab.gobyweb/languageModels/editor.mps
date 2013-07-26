@@ -260,20 +260,5 @@
       </node>
     </node>
   </root>
-  <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="3173353997332143014" nodeInfo="ng">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="aligners" />
-    <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="935h.3173353997329129964" resolveInfo="AlignerAlignEntryPointPrototype" />
-    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Empty" typeId="tpc2.8313721352726366579" id="3834344539448375364" nodeInfo="ng" />
-  </root>
-  <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="7901651670847980936" nodeInfo="ng">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="resources" />
-    <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="935h.7901651670847962496" resolveInfo="ArtifactInstallEntryPointPrototype" />
-    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Empty" typeId="tpc2.8313721352726366579" id="3834344539447155526" nodeInfo="ng" />
-  </root>
-  <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="3173353997343052517" nodeInfo="ng">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="resources" />
-    <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="935h.3173353997342375996" resolveInfo="ArtifactAttributeValuesEntryPointPrototype" />
-    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Empty" typeId="tpc2.8313721352726366579" id="3834344539447209164" nodeInfo="ng" />
-  </root>
 </model>
 

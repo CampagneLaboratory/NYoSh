@@ -213,6 +213,10 @@
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="3834344539446559282" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="header" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="3834344539453211489" nodeInfo="ig">
+        <property name="comment" nameId="tpce.1225118933224" value="Use prototype.header instead." />
+        <property name="build" nameId="tpce.1225118929411" value="1.0-SNAPSHOT" />
+      </node>
     </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="2829258213786621720" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
@@ -275,6 +279,10 @@
   </root>
   <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="2829258213784965274" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="IEntryPointPrototype" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="3834344539452020032" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="header" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
     <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="2829258213785299847" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
     </node>
@@ -292,6 +300,10 @@
     <property name="abstract" nameId="tpce.4628067390765956802" value="true" />
     <property name="final" nameId="tpce.4628067390765956807" value="false" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="3834344539450541468" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="header" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6956376092815676508" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="ExportCommand" />
