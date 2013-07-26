@@ -13,6 +13,7 @@
         <modelRoot contentPath="${module}" type="default">
           <sourceRoot location="generator/template" />
         </modelRoot>
+        <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support.jar" type="java_classes" />
       </models>
       <external-templates>
         <generator generatorUID="5f9babc9-8d5d-4825-8e61-17b241ee6272(jetbrains.mps.baseLanguage.collections#1151699677197)" />

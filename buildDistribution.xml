@@ -5,6 +5,7 @@
   <property name="build.layout" location="${build.dir}/artifacts/GobyWorkbenchDistribution" />
   <property name="mps_home" location="${basedir}/../../MPS 3.0" />
   <property name="version" value="1.0" />
+  <property name="org.campagnelab.goby.workbench.home" location="${basedir}" />
   <property name="artifacts.GobyWorkbench" location="${build.dir}/artifacts/GobyWorkbench" />
   <property name="artifacts.mpsExecutionPlugin" location="${mps_home}/plugins/" />
   <property name="artifacts.mpsDebuggerPlugin" location="${mps_home}/plugins/" />
