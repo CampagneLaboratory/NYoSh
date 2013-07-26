@@ -58,7 +58,7 @@
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3173353997360946752" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="EnvironmentSourceList" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="readEnvironment" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="load environment sources" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068580123157" resolveInfo="Statement" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="3173353997360946804" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
@@ -82,7 +82,7 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5955265417291063247" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="JVMSource" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="JVM" />
-    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="the java runtime environment" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="the Java runtime environment" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="3173353997360796893" resolveInfo="EnvironmentSource" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5955265417291063310" nodeInfo="ig">
@@ -118,6 +118,7 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5469406079154460114" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="GobyWebSource" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="GobyWeb" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="the GobyWeb runtime environment" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="3173353997360796893" resolveInfo="EnvironmentSource" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1455940728762902354" nodeInfo="ig">
