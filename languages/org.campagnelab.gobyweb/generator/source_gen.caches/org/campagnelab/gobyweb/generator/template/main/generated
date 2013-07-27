@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies version="2" modelHash="et8mes0lmz8wgcnc2bsz5eu86u3dv6a">
+  <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+  <dep model="r:00000000-0000-4000-0000-011c895902cc(jetbrains.mps.baseLanguage.generator.java.conceptFunctionDefaults@generator)" />
+  <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" />
+  <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
+  <dep model="r:00000000-0000-4000-0000-011c895902f4(jetbrains.mps.lang.generator.generationContext.generator.baseLanguage.template.main@generator)" />
+  <dep model="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
+  <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" />
+  <dep model="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" hash="2s3v8iob0zpo139ihcd6enavs24x0ra" />
+  <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" />
+  <dep model="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" hash="-48b2srpctrmsf49wsrfzasi3vptv214" />
+  <common hash="834q6ogw4lajehbgfov4n3cbnwedm7g">
+    <dep root="1072453283801174526" />
+    <dep root="1072453283801260403" />
+    <dep root="1090105717920801463" />
+    <dep root="2829258213785063553" />
+    <dep root="3173353997342968528" />
+    <dep root="3173353997343005655" />
+    <dep root="5493669862521842190" />
+    <dep root="8245000766498880586" />
+    <dep root="8245000766499343517" />
+    <dep root="8245000766499724145" />
+    <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cc(jetbrains.mps.baseLanguage.generator.java.conceptFunctionDefaults@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902f4(jetbrains.mps.lang.generator.generationContext.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" />
+    <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" />
+    <dep model="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" />
+    <file name="QueriesGenerated.java" />
+  </common>
+  <source id="1090105717920801463" name="main" hash="d8w54bbttdu99awgeofum7747vntm4v">
+    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
+  </source>
+  <source id="5493669862521842190" name="alignment_analysis" hash="-b5v0rxhxhl1id1t6w185i9yt29iwcqk">
+    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
+  </source>
+  <source id="8245000766498880586" name="aligner" hash="d8axodewm45do86qgg03rcxerwrv26i">
+    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
+  </source>
+  <source id="8245000766499343517" name="task" hash="-cuzycy7p63gvaswoyzetz7ahg1xtwu6">
+    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
+  </source>
+  <source id="8245000766499724145" name="run_model" hash="9ulicugyq7c358cm2gl5ru20w4lpldv">
+    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
+  </source>
+  <source id="1072453283801174526" name="RunMpsScript" hash="anqckzm64s2w85sp4ssa71g0bbz1cxo">
+    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
+  </source>
+  <source id="1072453283801260403" name="map_PluginScript" hash="-aj2wbx6vaozx44tnr6i2jxtkbkfcltl">
+    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
+  </source>
+  <source id="2829258213785063553" name="ArtifactGetAttributesPrototypeTemplate" hash="-4hpv9nid0ydttf8kzdg799pb07r5ko2">
+    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
+  </source>
+  <source id="7901651670846582747" name="install" hash="-811rtvwsfybiy7kqmr2quiyvcwmynhx">
+    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
+  </source>
+  <source id="3173353997342968528" name="ArtifactInstallPrototypeTemplate" hash="-ad7uuboicjvgbd1kxn52e9o8ybs4usm">
+    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
+  </source>
+  <source id="3173353997343005655" name="AlignerArgumentPrototypeTemplate" hash="8hecsrqy3o0jshj8hw4nln33yyu64yc">
+    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
+  </source>
+</dependencies>
+
