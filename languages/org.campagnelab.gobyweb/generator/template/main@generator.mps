@@ -8,7 +8,7 @@
   <language namespace="a21a7294-c126-4f63-8335-8fecd8c28c7e(NYoSh)" />
   <language namespace="adfd00cb-58d7-4094-bca8-f941a491e04f(org.campagnelab.gobyweb)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="4" />
+  <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="5" />
   <import index="p6sl" modelUID="r:175e6779-7e81-49b1-b295-33bbabafa8d6(org.campagnelab.textoutput.structure)" version="1" />
   <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="14" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
@@ -176,7 +176,7 @@
     </node>
     <node role="rootMappingRule" roleId="tpf8.1167514678247" type="tpf8.Root_MappingRule" typeId="tpf8.1167514355419" id="5493669862521808139" nodeInfo="ng">
       <link role="template" roleId="tpf8.1167514355421" targetNodeId="8245000766498880586" resolveInfo="aligner" />
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="935h.1072453283800374842" resolveInfo="PluginExecuteScript" />
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="935h.1072453283800374842" resolveInfo="ExecutablePluginScript" />
       <node role="conditionFunction" roleId="tpf8.1167169362365" type="tpf8.BaseMappingRule_Condition" typeId="tpf8.1167168920554" id="5493669862521808141" nodeInfo="nn">
         <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="5493669862521808142" nodeInfo="sn">
           <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5493669862521808946" nodeInfo="nn">
@@ -199,7 +199,7 @@
     </node>
     <node role="rootMappingRule" roleId="tpf8.1167514678247" type="tpf8.Root_MappingRule" typeId="tpf8.1167514355419" id="5493669862521844820" nodeInfo="ng">
       <link role="template" roleId="tpf8.1167514355421" targetNodeId="5493669862521842190" resolveInfo="alignment_analysis" />
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="935h.1072453283800374842" resolveInfo="PluginExecuteScript" />
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="935h.1072453283800374842" resolveInfo="ExecutablePluginScript" />
       <node role="conditionFunction" roleId="tpf8.1167169362365" type="tpf8.BaseMappingRule_Condition" typeId="tpf8.1167168920554" id="5493669862521844821" nodeInfo="nn">
         <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="5493669862521844822" nodeInfo="sn">
           <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5493669862521844823" nodeInfo="nn">
@@ -221,7 +221,7 @@
       </node>
     </node>
     <node role="rootMappingRule" roleId="tpf8.1167514678247" type="tpf8.Root_MappingRule" typeId="tpf8.1167514355419" id="3173353997328970314" nodeInfo="ng">
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="935h.1072453283800374842" resolveInfo="PluginExecuteScript" />
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="935h.1072453283800374842" resolveInfo="ExecutablePluginScript" />
       <link role="template" roleId="tpf8.1167514355421" targetNodeId="8245000766499343517" resolveInfo="task" />
       <node role="conditionFunction" roleId="tpf8.1167169362365" type="tpf8.BaseMappingRule_Condition" typeId="tpf8.1167168920554" id="3173353997328972276" nodeInfo="nn">
         <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="3173353997328972277" nodeInfo="sn">
@@ -245,7 +245,7 @@
     </node>
     <node role="rootMappingRule" roleId="tpf8.1167514678247" type="tpf8.Root_MappingRule" typeId="tpf8.1167514355419" id="7901651670847189651" nodeInfo="ng">
       <link role="template" roleId="tpf8.1167514355421" targetNodeId="7901651670846582747" resolveInfo="install" />
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="935h.1072453283800374842" resolveInfo="PluginExecuteScript" />
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="935h.1072453283800374842" resolveInfo="ExecutablePluginScript" />
       <node role="conditionFunction" roleId="tpf8.1167169362365" type="tpf8.BaseMappingRule_Condition" typeId="tpf8.1167168920554" id="7901651670847193590" nodeInfo="nn">
         <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="7901651670847193591" nodeInfo="sn">
           <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="7901651670847195689" nodeInfo="nn">
@@ -274,7 +274,7 @@
     <node role="mappingLabel" roleId="tpf8.1200911492601" type="tpf8.MappingLabelDeclaration" typeId="tpf8.1200911316486" id="5493669862521206129" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="CreateScript" />
       <link role="targetConcept" roleId="tpf8.1200913004646" targetNodeId="p6sl.6874736155931251147" resolveInfo="TextOutput" />
-      <link role="sourceConcept" roleId="tpf8.1200911342686" targetNodeId="935h.1072453283800374842" resolveInfo="PluginExecuteScript" />
+      <link role="sourceConcept" roleId="tpf8.1200911342686" targetNodeId="935h.1072453283800374842" resolveInfo="ExecutablePluginScript" />
     </node>
     <node role="mappingLabel" roleId="tpf8.1200911492601" type="tpf8.MappingLabelDeclaration" typeId="tpf8.1200911316486" id="2829258213789139199" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="parseArguments" />
@@ -472,7 +472,7 @@
       </node>
     </node>
     <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.RootTemplateAnnotation" typeId="tpf8.1168619357332" id="5493669862521842199" nodeInfo="ng">
-      <link role="applicableConcept" roleId="tpf8.1168619429071" targetNodeId="935h.1072453283800374842" resolveInfo="PluginExecuteScript" />
+      <link role="applicableConcept" roleId="tpf8.1168619429071" targetNodeId="935h.1072453283800374842" resolveInfo="ExecutablePluginScript" />
     </node>
     <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.PropertyMacro" typeId="tpf8.1087833241328" id="4279449414586765800" nodeInfo="nn">
       <property name="propertyName" nameId="tpck.1757699476691236117" value="name" />
@@ -577,7 +577,7 @@
       </node>
     </node>
     <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.RootTemplateAnnotation" typeId="tpf8.1168619357332" id="8245000766498880607" nodeInfo="ng">
-      <link role="applicableConcept" roleId="tpf8.1168619429071" targetNodeId="935h.1072453283800374842" resolveInfo="PluginExecuteScript" />
+      <link role="applicableConcept" roleId="tpf8.1168619429071" targetNodeId="935h.1072453283800374842" resolveInfo="ExecutablePluginScript" />
     </node>
     <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.PropertyMacro" typeId="tpf8.1087833241328" id="4279449414586081194" nodeInfo="nn">
       <property name="propertyName" nameId="tpck.1757699476691236117" value="name" />
@@ -645,7 +645,7 @@
       </node>
     </node>
     <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.RootTemplateAnnotation" typeId="tpf8.1168619357332" id="8245000766499343539" nodeInfo="ng">
-      <link role="applicableConcept" roleId="tpf8.1168619429071" targetNodeId="935h.1072453283800374842" resolveInfo="PluginExecuteScript" />
+      <link role="applicableConcept" roleId="tpf8.1168619429071" targetNodeId="935h.1072453283800374842" resolveInfo="ExecutablePluginScript" />
     </node>
     <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.PropertyMacro" typeId="tpf8.1087833241328" id="4279449414586778197" nodeInfo="nn">
       <property name="propertyName" nameId="tpck.1757699476691236117" value="name" />
@@ -862,7 +862,7 @@
       </node>
     </node>
   </root>
-  <root type="935h.PluginExecuteScript" typeId="935h.1072453283800374842" id="1072453283801260403" nodeInfo="ng">
+  <root type="935h.ExecutablePluginScript" typeId="935h.1072453283800374842" id="1072453283801260403" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="map_PluginScript" />
     <property name="pluginKind" nameId="935h.1072453283800481038" value="kind" />
     <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.RootTemplateAnnotation" typeId="tpf8.1168619357332" id="1072453283801260404" nodeInfo="ng">
@@ -978,7 +978,7 @@
     <property name="extension" nameId="p6sl.4279449414579828182" value="sh" />
     <property name="filename" nameId="p6sl.4279449414579828201" value="install" />
     <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.RootTemplateAnnotation" typeId="tpf8.1168619357332" id="7901651670846582748" nodeInfo="ng">
-      <link role="applicableConcept" roleId="tpf8.1168619429071" targetNodeId="935h.1072453283800374842" resolveInfo="PluginExecuteScript" />
+      <link role="applicableConcept" roleId="tpf8.1168619429071" targetNodeId="935h.1072453283800374842" resolveInfo="ExecutablePluginScript" />
     </node>
     <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="7901651670847174079" nodeInfo="ng">
       <property name="text" nameId="p6sl.5493669862519718600" value="#This function is expected to an install the artifact in the given installation path" />

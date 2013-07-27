@@ -4,8 +4,8 @@
     <dependencies>
       <model index="36xx" modelUID="r:31af932a-3b06-429d-8d4c-b0b4ebe2bde6(NYoSh.editor)" version="4" />
       <model index="uk16" modelUID="r:63193f4d-76a2-48d4-b116-0f4aaae07639(org.campagnelab.gobyweb.editor)" version="-1" />
-      <model index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="10" />
       <model index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="-1" />
+      <model index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="10" />
     </dependencies>
     <move id="4tvk.3645074773125579819" to="935h.1090105717921353608" />
     <move id="4tvk.3645074773125579816" to="935h.1090105717921353607" />
@@ -53,6 +53,12 @@
       <model index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="3" />
     </dependencies>
     <rename id="935h.3173353997349575999" type="PROPERTY" from="sourceScriptName" to="scriptName" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="4" />
+    </dependencies>
+    <rename id="935h.1072453283800374842" type="CONCEPT" from="PluginExecuteScript" to="ExecutablePluginScript" />
   </StructureModification>
 </history>
 

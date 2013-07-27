@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="4">
+<model modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="5">
   <persistence version="8" />
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="14" />
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="4" implicit="yes" />
+  <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="5" implicit="yes" />
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1090105717920801947" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="PluginScript" />
     <property name="abstract" nameId="tpce.4628067390765956802" value="true" />
@@ -98,7 +98,7 @@
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1072453283800374842" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="PluginExecuteScript" />
+    <property name="name" nameId="tpck.1169194664001" value="ExecutablePluginScript" />
     <property name="rootable" nameId="tpce.1096454100552" value="true" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="1072453283800481038" nodeInfo="ig">
@@ -142,7 +142,7 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7901651670847958631" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="ArtifactInstallEntryPoint" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="resources" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="4tvk.4370546365667651425" resolveInfo="EntryPoint" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="385706599064973507" resolveInfo="GobyWebEntryPoint" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7901651670847962496" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="resources" />
@@ -155,7 +155,7 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3173353997342375669" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="resources" />
     <property name="name" nameId="tpck.1169194664001" value="ArtifactAttributeValuesEntryPoint" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="4tvk.4370546365667651425" resolveInfo="EntryPoint" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="385706599064973507" resolveInfo="GobyWebEntryPoint" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3173353997342375996" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="resources" />

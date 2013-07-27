@@ -24,12 +24,14 @@
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="load the environment from a file where each row is in the format NAME=VALUE" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="MapFiles" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="mapFileLoader" />
+    <property name="staticScope" nameId="tpce.5404671619616246344" value="root" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="3173353997360795105" resolveInfo="Loader" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3173353997360796893" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="EnvironmentSource" />
     <property name="abstract" nameId="tpce.4628067390765956802" value="true" />
     <property name="final" nameId="tpce.4628067390765956807" value="false" />
+    <property name="staticScope" nameId="tpce.5404671619616246344" value="root" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="3173353997360796899" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
@@ -48,6 +50,7 @@
     <property name="name" nameId="tpck.1169194664001" value="MapFileSource" />
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="text file in which each row is in the format NAME=VALUE" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="MapFiles" />
+    <property name="staticScope" nameId="tpce.5404671619616246344" value="root" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="3173353997360796893" resolveInfo="EnvironmentSource" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1455940728763205902" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
@@ -59,6 +62,7 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3173353997360946752" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="EnvironmentSourceList" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="load environment sources" />
+    <property name="staticScope" nameId="tpce.5404671619616246344" value="root" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068580123157" resolveInfo="Statement" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="3173353997360946804" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
@@ -83,6 +87,7 @@
     <property name="name" nameId="tpck.1169194664001" value="JVMSource" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="JVM" />
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="the Java runtime environment" />
+    <property name="staticScope" nameId="tpce.5404671619616246344" value="root" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="3173353997360796893" resolveInfo="EnvironmentSource" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5955265417291063310" nodeInfo="ig">
@@ -90,12 +95,14 @@
     <property name="name" nameId="tpck.1169194664001" value="JVMLoader" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="Java Environment loader" />
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="load the environment visible to the JVM" />
+    <property name="staticScope" nameId="tpce.5404671619616246344" value="root" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="3173353997360795105" resolveInfo="Loader" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5955265417291138207" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="EnvVariableDeclaration" />
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="variable available" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="var declaration" />
+    <property name="staticScope" nameId="tpce.5404671619616246344" value="root" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="5469406079154538151" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="value" />
@@ -119,6 +126,7 @@
     <property name="name" nameId="tpck.1169194664001" value="GobyWebSource" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="GobyWeb" />
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="the GobyWeb runtime environment" />
+    <property name="staticScope" nameId="tpce.5404671619616246344" value="root" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="3173353997360796893" resolveInfo="EnvironmentSource" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1455940728762902354" nodeInfo="ig">
@@ -126,6 +134,7 @@
     <property name="name" nameId="tpck.1169194664001" value="GobyWebLoader" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="GobyWeb loader environment" />
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="load the basic GobyWeb environment" />
+    <property name="staticScope" nameId="tpce.5404671619616246344" value="root" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="3173353997360795105" resolveInfo="Loader" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1455940728763133433" nodeInfo="ig">
