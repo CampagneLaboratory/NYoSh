@@ -30,15 +30,18 @@
     </node>
     <node role="script" roleId="935h.1090105717921230261" type="4tvk.Script" typeId="4tvk.8197864363320245969" id="3173353997343766613" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="Aligner" />
-      <node role="entryPoints" roleId="4tvk.4370546365667651420" type="935h.AlignerAlignEntryPoint" typeId="935h.3173353997329486142" id="3173353997343766614" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="plugin_align" />
+      <node role="entryPoints" roleId="4tvk.4370546365667651420" type="4tvk.EntryPoint" typeId="4tvk.4370546365667651425" id="385706599065796889" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="main" />
         <link role="script" roleId="4tvk.1185348143925735982" targetNodeId="3173353997343766613" resolveInfo="Aligner" />
-        <node role="prototype" roleId="4tvk.2829258213785974077" type="935h.AlignerAlignEntryPointPrototype" typeId="935h.3173353997329129964" id="3173353997343766623" nodeInfo="ng">
+        <node role="prototype" roleId="4tvk.2829258213785974077" type="935h.AlignerAlignEntryPointPrototype" typeId="935h.3173353997329129964" id="385706599065796901" nodeInfo="ng">
           <property name="header" nameId="4tvk.3834344539452020032" value="aligner entry point" />
+          <property name="name" nameId="tpck.1169194664001" value="prototype" />
         </node>
-        <node role="implementation" roleId="4tvk.2829258213786621720" type="4tvk.StaticEntryPointMethod" typeId="4tvk.3834344539462083799" id="3834344539474334504" nodeInfo="ig">
+        <node role="implementation" roleId="4tvk.2829258213786621720" type="4tvk.StaticEntryPointMethod" typeId="4tvk.3834344539462083799" id="385706599065796903" nodeInfo="ig">
           <property name="name" nameId="tpck.1169194664001" value="align" />
-          <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="3173353997343766627" nodeInfo="sn">
+          <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="385706599065796904" nodeInfo="in" />
+          <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="385706599065796905" nodeInfo="nn" />
+          <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="385706599065796906" nodeInfo="sn">
             <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="2051553890369302922" nodeInfo="nn">
               <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="2051553890369305210" nodeInfo="nn">
                 <property name="text" nameId="tpee.6329021646629104958" value="doing some step" />
@@ -56,13 +59,13 @@
                     <property name="value" nameId="f2ff.1012285663620336023" value="Inside plugin_align entry point. Parameters: " />
                   </node>
                   <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringVarReference" typeId="f2ff.1012285663620336025" id="3173353997348131088" nodeInfo="ng">
-                    <link role="varRef" roleId="f2ff.4087517305354402375" targetNodeId="3173353997343766628" resolveInfo="output" />
+                    <link role="varRef" roleId="f2ff.4087517305354402375" targetNodeId="385706599065796909" resolveInfo="basename" />
                   </node>
                   <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="3173353997348131123" nodeInfo="ng">
                     <property name="value" nameId="f2ff.1012285663620336023" value=", " />
                   </node>
                   <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringVarReference" typeId="f2ff.1012285663620336025" id="3173353997348131161" nodeInfo="ng">
-                    <link role="varRef" roleId="f2ff.4087517305354402375" targetNodeId="3173353997343766630" resolveInfo="basename" />
+                    <link role="varRef" roleId="f2ff.4087517305354402375" targetNodeId="385706599065796907" resolveInfo="output" />
                   </node>
                 </node>
               </node>
@@ -70,8 +73,8 @@
             <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3173353997348112969" nodeInfo="nn">
               <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3173353997348125631" nodeInfo="nn">
                 <node role="operand" roleId="tpee.1197027771414" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="3173353997348112968" nodeInfo="nn">
-                  <link role="classifier" roleId="tpee.1144433057691" targetNodeId="e2lb.~System" resolveInfo="System" />
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="e2lb.~System%dout" resolveInfo="out" />
+                  <link role="classifier" roleId="tpee.1144433057691" targetNodeId="e2lb.~System" resolveInfo="System" />
                 </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="3173353997348126890" nodeInfo="nn">
                   <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fxg8.~PrintStream%dprintln(java%dlang%dString)%cvoid" resolveInfo="println" />
@@ -570,17 +573,14 @@
                 </node>
               </node>
             </node>
-            <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="3834344539456568584" nodeInfo="nn" />
-            <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="3834344539460282364" nodeInfo="nn" />
           </node>
-          <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="3173353997343766625" nodeInfo="in" />
-          <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="3173353997343766628" nodeInfo="ir">
+          <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="385706599065796907" nodeInfo="ir">
             <property name="name" nameId="tpck.1169194664001" value="output" />
-            <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="3173353997343766629" nodeInfo="in" />
+            <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="385706599065796908" nodeInfo="in" />
           </node>
-          <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="3173353997343766630" nodeInfo="ir">
+          <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="385706599065796909" nodeInfo="ir">
             <property name="name" nameId="tpck.1169194664001" value="basename" />
-            <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="3173353997343766631" nodeInfo="in" />
+            <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="385706599065796910" nodeInfo="in" />
           </node>
         </node>
       </node>
@@ -620,6 +620,50 @@
           <node role="type" roleId="tpee.5680397130376446158" type="tpee.ArrayType" typeId="tpee.1070534760951" id="3834344539461035260" nodeInfo="in">
             <node role="componentType" roleId="tpee.1070534760952" type="tpee.StringType" typeId="tpee.1225271177708" id="3834344539461035261" nodeInfo="in" />
           </node>
+        </node>
+      </node>
+    </node>
+  </root>
+  <root type="935h.ResourceWithArtifactScript" typeId="935h.7901651670846553392" id="385706599066152060" nodeInfo="ng">
+    <property name="pluginKind" nameId="935h.6874736155930792593" value="resources" />
+    <property name="pluginId" nameId="935h.6874736155930792589" value="ID_1" />
+    <node role="script" roleId="935h.1090105717921230261" type="4tvk.Script" typeId="4tvk.8197864363320245969" id="385706599066152061" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="SomeScript" />
+      <node role="entryPoints" roleId="4tvk.4370546365667651420" type="935h.ArtifactInstallEntryPoint" typeId="935h.7901651670847958631" id="385706599066152062" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="plugin_install_artifact" />
+        <link role="script" roleId="4tvk.1185348143925735982" targetNodeId="385706599066152061" resolveInfo="SomeScript" />
+        <node role="prototype" roleId="4tvk.2829258213785974077" type="935h.ArtifactInstallEntryPointPrototype" typeId="935h.7901651670847962496" id="385706599066152068" nodeInfo="ng">
+          <property name="header" nameId="4tvk.3834344539452020032" value="resource artifact entry point" />
+          <property name="name" nameId="tpck.1169194664001" value="prototype" />
+        </node>
+        <node role="implementation" roleId="4tvk.2829258213786621720" type="4tvk.StaticEntryPointMethod" typeId="4tvk.3834344539462083799" id="385706599066152069" nodeInfo="ig">
+          <property name="name" nameId="tpck.1169194664001" value="plugin_install_artifact" />
+          <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="385706599066152070" nodeInfo="ir">
+            <property name="name" nameId="tpck.1169194664001" value="id" />
+            <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="385706599066152071" nodeInfo="in" />
+          </node>
+          <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="385706599066152072" nodeInfo="ir">
+            <property name="name" nameId="tpck.1169194664001" value="installation_path" />
+            <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="385706599066152073" nodeInfo="in" />
+          </node>
+          <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="385706599066152074" nodeInfo="in" />
+          <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="385706599066152075" nodeInfo="nn" />
+          <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="385706599066152076" nodeInfo="sn" />
+        </node>
+      </node>
+      <node role="entryPoints" roleId="4tvk.4370546365667651420" type="935h.ArtifactAttributeValuesEntryPoint" typeId="935h.3173353997342375669" id="385706599066152077" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="get_attribute_values" />
+        <property name="header" nameId="4tvk.3834344539446559282" value="resource entry point" />
+        <link role="script" roleId="4tvk.1185348143925735982" targetNodeId="385706599066152061" resolveInfo="SomeScript" />
+        <node role="prototype" roleId="4tvk.2829258213785974077" type="935h.ArtifactAttributeValuesEntryPointPrototype" typeId="935h.3173353997342375996" id="385706599066152083" nodeInfo="ng">
+          <property name="header" nameId="4tvk.3834344539452020032" value="resource artifact entry point" />
+          <property name="name" nameId="tpck.1169194664001" value="prototype" />
+        </node>
+        <node role="implementation" roleId="4tvk.2829258213786621720" type="4tvk.StaticEntryPointMethod" typeId="4tvk.3834344539462083799" id="385706599066152084" nodeInfo="ig">
+          <property name="name" nameId="tpck.1169194664001" value="get_attribute_values" />
+          <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="385706599066152085" nodeInfo="in" />
+          <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="385706599066152086" nodeInfo="nn" />
+          <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="385706599066152087" nodeInfo="sn" />
         </node>
       </node>
     </node>

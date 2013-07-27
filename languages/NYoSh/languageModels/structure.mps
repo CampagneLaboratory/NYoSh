@@ -36,6 +36,7 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8197864363320353692" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="ExecuteCommand" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="execute" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="commandOperators" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068580123157" resolveInfo="Statement" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="851869296734402315" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
@@ -47,6 +48,7 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8155370969619065197" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="ConsumeCommandOutputWithStream" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="consume stream" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="consumeOutput" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="6839116863305307535" resolveInfo="ConsumeOutput" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8155370969619067484" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
@@ -58,6 +60,7 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8155370969619067580" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="GStringCommand" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="command" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="commandOperators" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="8155370969619067689" resolveInfo="AbstractCommand" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8155370969619067612" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
@@ -76,6 +79,7 @@
     <property name="name" nameId="tpck.1169194664001" value="ConceptFunction_ConsumeOutputStreamBlock" />
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="consume stream from previous command" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="get stream" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="consumeOutput" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
     <node role="conceptLink" roleId="tpce.1105736949336" type="tpce.AggregationConceptLink" typeId="tpce.1105736889287" id="8155370969619702449" nodeInfo="ig">
       <link role="conceptLinkDeclaration" roleId="tpce.1105736734721" targetNodeId="tpee.1137545148427" resolveInfo="conceptFunctionReturnType" />
@@ -86,6 +90,7 @@
     <property name="name" nameId="tpck.1169194664001" value="ConceptFunctionParameter_outputStream" />
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="output from the previous command" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="stream" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="consumeOutput" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8155370969619668153" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1835621062190663819" resolveInfo="IDontSubstituteByDefault" />
@@ -95,6 +100,7 @@
     <property name="name" nameId="tpck.1169194664001" value="ConceptFunction_ConsumeOutputReaderBlock" />
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="consume reader from previous command" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="get reader" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="consumeOutput" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
     <node role="conceptLink" roleId="tpce.1105736949336" type="tpce.AggregationConceptLink" typeId="tpce.1105736889287" id="8155370969620027249" nodeInfo="ig">
       <link role="conceptLinkDeclaration" roleId="tpce.1105736734721" targetNodeId="tpee.1137545148427" resolveInfo="conceptFunctionReturnType" />
@@ -105,6 +111,7 @@
     <property name="name" nameId="tpck.1169194664001" value="ConceptFunctionParameter_outputReader" />
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="output from the previous command" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="reader" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="consumeOutput" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8155370969620059062" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1835621062190663819" resolveInfo="IDontSubstituteByDefault" />
@@ -113,6 +120,7 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8155370969620237552" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="ConsumeCommandOutputWithReader" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="consume reader" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="consumeOutput" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="6839116863305307535" resolveInfo="ConsumeOutput" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8155370969620237554" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
@@ -124,22 +132,26 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4903231125777492941" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="AndCommandOperator" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="&amp;&amp;" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="commandOperators" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="4903231125777680052" resolveInfo="BinaryCommandOperator" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4903231125777493118" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="SemiColonCommandOperator" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value=";" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="commandOperators" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="4903231125777680052" resolveInfo="BinaryCommandOperator" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4903231125777596373" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="PipeOutCommandOperator" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="|" />
     <property name="helpURL" nameId="tpce.2465654535473034588" value="http://goby.campagnelab.org" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="commandOperators" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="4903231125777680052" resolveInfo="BinaryCommandOperator" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4903231125777680052" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="BinaryCommandOperator" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="&lt;?&gt;" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="commandOperators" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="8155370969619067689" resolveInfo="AbstractCommand" />
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="1237318323632149032" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="operator" />
@@ -149,6 +161,7 @@
   <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="1237318323632149275" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="BinaryOperatorKind" />
     <property name="memberIdentifierPolicy" nameId="tpce.1197591154882" value="derive_from_internal_value" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="commandOperators" />
     <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983041843" resolveInfo="string" />
     <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="1237318323632149276" nodeInfo="ig">
       <property name="internalValue" nameId="tpce.1083923523171" value="0" />
@@ -174,12 +187,14 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5651321229814097020" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="OrCommandOperator" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="||" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="commandOperators" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="4903231125777680052" resolveInfo="BinaryCommandOperator" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2248369528797870024" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="PipeOutErrCommandOperator" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="|&amp;" />
     <property name="helpURL" nameId="tpce.2465654535473034588" value="http://goby.campagnelab.org" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="commandOperators" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="4903231125777680052" resolveInfo="BinaryCommandOperator" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6839116863302727356" nodeInfo="ig">
@@ -197,6 +212,7 @@
     <property name="name" nameId="tpck.1169194664001" value="ConsumeOutput" />
     <property name="abstract" nameId="tpce.4628067390765956802" value="true" />
     <property name="final" nameId="tpce.4628067390765956807" value="false" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="consumeOutput" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="8155370969619067689" resolveInfo="AbstractCommand" />
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="6839116863305307657" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="consumeStandardOutput" />
@@ -250,6 +266,7 @@
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4897094796210780970" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="ConceptFunction_EntryPoint" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="consumeOutput" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="4897094796212553911" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
@@ -266,6 +283,7 @@
     <property name="name" nameId="tpck.1169194664001" value="ConceptFunctionParameter_ParsedArguments" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="arguments" />
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Arguments parsed with the entry point parser" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="consumeOutput" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="4897094796212941385" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
@@ -309,6 +327,7 @@
     <property name="name" nameId="tpck.1169194664001" value="ExportCommand" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="export" />
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="export variables for the next executed commands" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="commandOperators" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068580123157" resolveInfo="Statement" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="2195928368806321877" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />

@@ -120,7 +120,7 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3173353997329486142" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="AlignerAlignEntryPoint" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="aligners" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="4tvk.4370546365667651425" resolveInfo="EntryPoint" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="385706599064973507" resolveInfo="GobyWebEntryPoint" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3173353997329126934" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="AlignerScript" />
@@ -164,6 +164,10 @@
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="3173353997342513807" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="4tvk.2829258213784965274" resolveInfo="IEntryPointPrototype" />
     </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="385706599064973507" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="GobyWebEntryPoint" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="4tvk.4370546365667651425" resolveInfo="EntryPoint" />
   </root>
 </model>
 

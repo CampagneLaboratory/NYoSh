@@ -14,6 +14,7 @@
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" implicit="yes" />
   <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="8155370969619768452" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="typeof_ConceptFunctionParameter_outputReader" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="consumeOutput" />
     <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="8155370969619768453" nodeInfo="sn">
       <node role="statement" roleId="tpee.1068581517665" type="tpd4.CreateEquationStatement" typeId="tpd4.1174658326157" id="2893726635884035517" nodeInfo="nn">
         <node role="leftExpression" roleId="tpd4.1174660783413" type="tpd4.NormalTypeClause" typeId="tpd4.1185788614172" id="2893726635884035520" nodeInfo="ng">
@@ -39,6 +40,7 @@
   </root>
   <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="8155370969620061426" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="typeof_ConceptFunctionParameter_outputStream" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="consumeOutput" />
     <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="8155370969620061427" nodeInfo="sn">
       <node role="statement" roleId="tpee.1068581517665" type="tpd4.CreateEquationStatement" typeId="tpd4.1174658326157" id="8155370969620061428" nodeInfo="nn">
         <node role="leftExpression" roleId="tpd4.1174660783413" type="tpd4.NormalTypeClause" typeId="tpd4.1185788614172" id="8155370969620061429" nodeInfo="ng">
@@ -64,6 +66,7 @@
   </root>
   <root type="tpd4.NonTypesystemRule" typeId="tpd4.1195214364922" id="6839116863304112483" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="CommandsSeparatedByOperators" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="commandOperators" />
     <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="6839116863304112484" nodeInfo="sn">
       <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="6839116863304265756" nodeInfo="nn">
         <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="6839116863304265759" nodeInfo="nr">
@@ -160,6 +163,7 @@
   </root>
   <root type="tpd4.NonTypesystemRule" typeId="tpd4.1195214364922" id="6839116863304412898" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="OperatorsNotNextToOneAnother" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="commandOperators" />
     <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="6839116863304412932" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="binOp" />
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="4tvk.4903231125777680052" resolveInfo="BinaryCommandOperator" />
