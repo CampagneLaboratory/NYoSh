@@ -699,7 +699,7 @@
     </javac>
   </target>
   
-  <target name="java.compile.org.campagnelab.gobyweb" depends="java.compile.NYoSh, java.compile.org.campagnelab.textoutput, fetchDependencies">
+  <target name="java.compile.org.campagnelab.gobyweb" depends="java.compile.NYoSh, java.compile.org.campagnelab.nyosh.environment, java.compile.org.campagnelab.textoutput, fetchDependencies">
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.gobyweb" />
     <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb" fork="true" includeantruntime="false">
       <compilerarg value="-Xlint:none" />
@@ -717,8 +717,10 @@
         <fileset file="${artifacts.mpsStandalone}/lib/mps-editor.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/NYoSh" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.environment" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.textoutput" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1-SNAPSHOT.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/log4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/jdom.jar" />
@@ -730,6 +732,8 @@
         <fileset dir="${artifacts.mpsStandalone}/lib" includes="*.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
+        <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.closures.jar" />
+        <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.collections.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/util/jetbrains.mps.execution.util.jar" />
