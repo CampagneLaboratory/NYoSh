@@ -70,8 +70,8 @@
     <dependencies>
       <model index="36xx" modelUID="r:31af932a-3b06-429d-8d4c-b0b4ebe2bde6(NYoSh.editor)" version="4" />
       <model index="uk16" modelUID="r:63193f4d-76a2-48d4-b116-0f4aaae07639(org.campagnelab.gobyweb.editor)" version="-1" />
-      <model index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="-1" />
       <model index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="10" />
+      <model index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="-1" />
     </dependencies>
     <move id="4tvk.3645074773125579819" to="935h.1090105717921353608" />
     <move id="4tvk.3645074773125579816" to="935h.1090105717921353607" />
@@ -106,8 +106,8 @@
     <dependencies>
       <model index="36xx" modelUID="r:31af932a-3b06-429d-8d4c-b0b4ebe2bde6(NYoSh.editor)" version="5" />
       <model index="en36" modelUID="r:551ab8cf-6845-4ac9-88f8-60375ccdd853(NYoSh.textGen)" version="-1" />
-      <model index="d7pi" modelUID="r:0d56f895-b9b9-4d6c-b914-a58415510e3b(org.campagnelab.nyosh.stepslogging.textGen)" version="-1" />
       <model index="ryst" modelUID="r:10f048de-13d8-43b1-b395-d019346b629b(org.campagnelab.nyosh.stepslogging.actions)" version="0" />
+      <model index="d7pi" modelUID="r:0d56f895-b9b9-4d6c-b914-a58415510e3b(org.campagnelab.nyosh.stepslogging.textGen)" version="-1" />
       <model index="ireb" modelUID="r:b013704a-e9db-4069-a6f6-0c9fe7aa4c8f(org.campagnelab.nyosh.stepslogging.editor)" version="0" />
       <model index="q8mp" modelUID="r:e81db3c8-c3eb-4adc-83ad-930c89141029(NYoSh.actions)" version="1" />
       <model index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="12" />
@@ -211,6 +211,12 @@
     <move id="ireb.2060680358178459814" to="36xx.435930706556016320" />
     <move id="ireb.2060680358178034823" to="36xx.435930706556016311" />
     <move id="ireb.2060680358178035029" to="36xx.435930706556016316" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="13" />
+    </dependencies>
+    <rename id="4tvk.7439640740223872017" type="CHILD" from="sources" to="environment" />
   </StructureModification>
 </history>
 

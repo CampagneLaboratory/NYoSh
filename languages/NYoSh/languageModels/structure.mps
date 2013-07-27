@@ -222,7 +222,7 @@
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="implementation" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="3834344539462083799" resolveInfo="StaticEntryPointMethod" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="tpee.1081236700938" resolveInfo="StaticMethodDeclaration" />
     </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="2829258213785974077" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
@@ -359,21 +359,14 @@
     <property name="final" nameId="tpce.4628067390765956807" value="false" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="stepslogging" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1082485599095" resolveInfo="BlockStatement" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="3834344539456286424" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="message" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
-    </node>
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="3834344539456862402" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="statusCode" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
-    </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="435930706556016192" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
       <property name="role" nameId="tpce.1071599776563" value="step" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="435930706556016196" resolveInfo="Step" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="435930706556016193" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="message" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
     </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="435930706556016194" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="435930706556016195" resolveInfo="ISomeStepLoggingStatement" />
@@ -433,16 +426,6 @@
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="435930706556016206" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="435930706556016195" resolveInfo="ISomeStepLoggingStatement" />
     </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3834344539457182554" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="stepslogging" />
-    <property name="name" nameId="tpck.1169194664001" value="Done" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="done" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="435930706556016191" resolveInfo="Feedback" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3834344539462083799" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="StaticEntryPointMethod" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1081236700938" resolveInfo="StaticMethodDeclaration" />
   </root>
 </model>
 
