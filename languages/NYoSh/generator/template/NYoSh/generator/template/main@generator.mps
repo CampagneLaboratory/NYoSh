@@ -16,7 +16,7 @@
   <import index="k7g3" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" version="-1" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" />
   <import index="ykn1" modelUID="f:java_stub#c6567f13-87ab-4686-8f6f-42e8228c0e27#org.campagnelab.nyosh.exec(org.campagnelab.nyosh.gstring/org.campagnelab.nyosh.exec@java_stub)" version="-1" />
-  <import index="6pk0" modelUID="r:48f4e449-1a18-435e-ae88-4830aa794dc7(org.campagnelab.nyosh.environment.structure)" version="12" />
+  <import index="6pk0" modelUID="r:48f4e449-1a18-435e-ae88-4830aa794dc7(org.campagnelab.nyosh.environment.structure)" version="13" />
   <import index="bi7z" modelUID="f:java_stub#b0ebc3f2-c15d-4fad-bdc5-56b3ea4437a2#org.campagnelab.stepslogger.util(NYoSh#8197864363320338521/org.campagnelab.stepslogger.util@java_stub)" version="-1" />
   <import index="gh23" modelUID="f:java_stub#b0ebc3f2-c15d-4fad-bdc5-56b3ea4437a2#campagnelab.stepslogger(NYoSh#8197864363320338521/campagnelab.stepslogger@java_stub)" version="-1" />
   <import index="ulsh" modelUID="f:java_stub#b0ebc3f2-c15d-4fad-bdc5-56b3ea4437a2#org.campagnelab.stepslogger(NYoSh#8197864363320338521/org.campagnelab.stepslogger@java_stub)" version="-1" />
