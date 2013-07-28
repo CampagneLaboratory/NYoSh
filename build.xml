@@ -75,6 +75,7 @@
         <package code="code" />
         <names product="NYoSh Workbench" fullname="NYoSh WorkBench" />
         <welcome-screen caption-url="/caption.png" slogan-url="/slogan.png" logo-url="/logo.png" />
+        <help file="help" root="${build.number}" webhelp-url="http://nyosh.campagnelab.org" />
       </component>
     </echoxml>
     <jar destfile="${build.layout}/lib/branding.jar">
@@ -105,13 +106,14 @@
     <copy todir="${build.layout}/plugins/mps-core">
       <fileset dir="${artifacts.mpsStandalone}/plugins/mps-core" />
     </copy>
-    <mkdir dir="${build.layout}/plugins/NYoSh" />
-    <mkdir dir="${build.layout}/plugins/NYoSh/META-INF" />
-    <echoxml file="${build.layout}/plugins/NYoSh/META-INF/plugin.xml">
+    <mkdir dir="${build.layout}/plugins/NYoSh Workbench" />
+    <mkdir dir="${build.layout}/plugins/NYoSh Workbench/META-INF" />
+    <echoxml file="${build.layout}/plugins/NYoSh Workbench/META-INF/plugin.xml">
       <idea-plugin version="2" xmlns:xi="http://www.w3.org/2001/XInclude">
-        <id>NYoSh</id>
-        <name>NYoSh</name>
+        <id>NYoShWorkench</id>
+        <name>NYoSh Workbench</name>
         <version>1.0</version>
+        <vendor url="http://campagnelab.org">Campagne Laboratory</vendor>
         <depends>jetbrains.mps.core</depends>
         
         <extensions defaultExtensionNs="com.intellij">
@@ -119,8 +121,8 @@
         </extensions>
       </idea-plugin>
     </echoxml>
-    <mkdir dir="${build.layout}/plugins/NYoSh/languages" />
-    <mkdir dir="${build.layout}/plugins/NYoSh/languages/NYoSh" />
+    <mkdir dir="${build.layout}/plugins/NYoSh Workbench/languages" />
+    <mkdir dir="${build.layout}/plugins/NYoSh Workbench/languages/NYoSh" />
     <mkdir dir="${build.tmp}/default/org.campagnelab.nyosh.environment.jar" />
     <mkdir dir="${build.tmp}/default/org.campagnelab.nyosh.environment.jar/META-INF" />
     <echoxml file="${build.tmp}/default/org.campagnelab.nyosh.environment.jar/META-INF/module.xml">
@@ -143,12 +145,12 @@
         <sources jar="org.campagnelab.nyosh.environment-src.jar" descriptor="org.campagnelab.nyosh.environment.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.layout}/plugins/NYoSh/languages/NYoSh/org.campagnelab.nyosh.environment.jar">
+    <jar destfile="${build.layout}/plugins/NYoSh Workbench/languages/NYoSh/org.campagnelab.nyosh.environment.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.nyosh.environment" />
       <fileset dir="${basedir}/languages/org.campagnelab.nyosh.environment" includes="icons/**, resources/**" />
       <fileset dir="${build.tmp}/default/org.campagnelab.nyosh.environment.jar" />
     </jar>
-    <jar destfile="${build.layout}/plugins/NYoSh/languages/NYoSh/org.campagnelab.nyosh.environment-generator.jar">
+    <jar destfile="${build.layout}/plugins/NYoSh Workbench/languages/NYoSh/org.campagnelab.nyosh.environment-generator.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.nyosh.environment#3173353997360794809" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.nyosh.environment">
@@ -157,7 +159,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.nyosh.environment-generator-template">
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.nyosh.environment/generator/template" includes="**/*.mps, **/*.metadata, **/*.history" />
     </copyModels>
-    <jar destfile="${build.layout}/plugins/NYoSh/languages/NYoSh/org.campagnelab.nyosh.environment-src.jar">
+    <jar destfile="${build.layout}/plugins/NYoSh Workbench/languages/NYoSh/org.campagnelab.nyosh.environment-src.jar">
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.nyosh.environment/generator/source_gen" includes="**/*.java" />
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.nyosh.environment/source_gen" includes="**/*.java" />
       <zipfileset file="${basedir}/languages/org.campagnelab.nyosh.environment/org.campagnelab.nyosh.environment.mpl" prefix="module" />
@@ -185,12 +187,12 @@
         <sources jar="org.campagnelab.nyosh.pathpatterns-src.jar" descriptor="org.campagnelab.nyosh.pathpatterns.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.layout}/plugins/NYoSh/languages/NYoSh/org.campagnelab.nyosh.pathpatterns.jar">
+    <jar destfile="${build.layout}/plugins/NYoSh Workbench/languages/NYoSh/org.campagnelab.nyosh.pathpatterns.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.nyosh.pathpatterns" />
       <fileset dir="${basedir}/languages/org.campagnelab.nyosh.pathpatterns" includes="icons/**, resources/**" />
       <fileset dir="${build.tmp}/default/org.campagnelab.nyosh.pathpatterns.jar" />
     </jar>
-    <jar destfile="${build.layout}/plugins/NYoSh/languages/NYoSh/org.campagnelab.nyosh.pathpatterns-generator.jar">
+    <jar destfile="${build.layout}/plugins/NYoSh Workbench/languages/NYoSh/org.campagnelab.nyosh.pathpatterns-generator.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.nyosh.pathpatterns#1081263916558044417" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.nyosh.pathpatterns-generator-template">
@@ -199,7 +201,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.nyosh.pathpatterns-languageModels">
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.nyosh.pathpatterns/languageModels" includes="**/*.mps, **/*.metadata, **/*.history" />
     </copyModels>
-    <jar destfile="${build.layout}/plugins/NYoSh/languages/NYoSh/org.campagnelab.nyosh.pathpatterns-src.jar">
+    <jar destfile="${build.layout}/plugins/NYoSh Workbench/languages/NYoSh/org.campagnelab.nyosh.pathpatterns-src.jar">
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.nyosh.pathpatterns/generator/source_gen" includes="**/*.java" />
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.nyosh.pathpatterns/source_gen" includes="**/*.java" />
       <zipfileset file="${basedir}/languages/org.campagnelab.nyosh.pathpatterns/org.campagnelab.nyosh.pathpatterns.mpl" prefix="module" />
@@ -228,12 +230,12 @@
         <sources jar="org.campagnelab.gobyweb-src.jar" descriptor="org.campagnelab.gobyweb.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.layout}/plugins/NYoSh/languages/NYoSh/org.campagnelab.gobyweb.jar">
+    <jar destfile="${build.layout}/plugins/NYoSh Workbench/languages/NYoSh/org.campagnelab.gobyweb.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.gobyweb" />
       <fileset dir="${basedir}/languages/org.campagnelab.gobyweb" includes="icons/**, resources/**" />
       <fileset dir="${build.tmp}/default/org.campagnelab.gobyweb.jar" />
     </jar>
-    <jar destfile="${build.layout}/plugins/NYoSh/languages/NYoSh/org.campagnelab.gobyweb-generator.jar">
+    <jar destfile="${build.layout}/plugins/NYoSh Workbench/languages/NYoSh/org.campagnelab.gobyweb-generator.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.gobyweb#1090105717920801462" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb-generator-template">
@@ -242,7 +244,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb-languageModels">
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb/languageModels" includes="**/*.mps, **/*.metadata, **/*.history" />
     </copyModels>
-    <jar destfile="${build.layout}/plugins/NYoSh/languages/NYoSh/org.campagnelab.gobyweb-src.jar">
+    <jar destfile="${build.layout}/plugins/NYoSh Workbench/languages/NYoSh/org.campagnelab.gobyweb-src.jar">
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb/generator/source_gen" includes="**/*.java" />
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb/source_gen" includes="**/*.java" />
       <zipfileset file="${basedir}/languages/org.campagnelab.gobyweb/org.campagnelab.gobyweb.mpl" prefix="module" />
@@ -271,12 +273,12 @@
         <sources jar="NYoSh-src.jar" descriptor="NYoSh.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.layout}/plugins/NYoSh/languages/NYoSh/NYoSh.jar">
+    <jar destfile="${build.layout}/plugins/NYoSh Workbench/languages/NYoSh/NYoSh.jar">
       <fileset dir="${build.tmp}/java/out/NYoSh" />
       <fileset dir="${basedir}/languages/NYoSh" includes="icons/**, resources/**" />
       <fileset dir="${build.tmp}/default/NYoSh.jar" />
     </jar>
-    <jar destfile="${build.layout}/plugins/NYoSh/languages/NYoSh/NYoSh-generator.jar">
+    <jar destfile="${build.layout}/plugins/NYoSh Workbench/languages/NYoSh/NYoSh-generator.jar">
       <fileset dir="${build.tmp}/java/out/NYoSh#8197864363320338521" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-NYoSh-generator">
@@ -285,7 +287,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-NYoSh-languageModels">
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/NYoSh/languageModels" includes="**/*.mps, **/*.metadata, **/*.history" />
     </copyModels>
-    <jar destfile="${build.layout}/plugins/NYoSh/languages/NYoSh/NYoSh-src.jar">
+    <jar destfile="${build.layout}/plugins/NYoSh Workbench/languages/NYoSh/NYoSh-src.jar">
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/NYoSh/generator/source_gen" includes="**/*.java" />
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/NYoSh/source_gen" includes="**/*.java" />
       <zipfileset file="${basedir}/languages/NYoSh/NYoSh.mpl" prefix="module" />
@@ -315,7 +317,7 @@
         <sources jar="org.campagnelab.nyosh.gstring-src.jar" descriptor="org.campagnelab.nyosh.gstring.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.layout}/plugins/NYoSh/languages/NYoSh/org.campagnelab.nyosh.gstring.jar">
+    <jar destfile="${build.layout}/plugins/NYoSh Workbench/languages/NYoSh/org.campagnelab.nyosh.gstring.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.nyosh.gstring" />
       <fileset dir="${basedir}/languages/org.campagnelab.nyosh.gstring" includes="icons/**, resources/**" />
       <fileset dir="${build.tmp}/default/org.campagnelab.nyosh.gstring.jar" />
@@ -323,7 +325,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.nyosh.gstring-languageModels">
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.nyosh.gstring/languageModels" includes="**/*.mps, **/*.metadata, **/*.history" />
     </copyModels>
-    <jar destfile="${build.layout}/plugins/NYoSh/languages/NYoSh/org.campagnelab.nyosh.gstring-src.jar">
+    <jar destfile="${build.layout}/plugins/NYoSh Workbench/languages/NYoSh/org.campagnelab.nyosh.gstring-src.jar">
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.nyosh.gstring/source_gen" includes="**/*.java" />
       <zipfileset file="${basedir}/languages/org.campagnelab.nyosh.gstring/org.campagnelab.nyosh.gstring.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.nyosh.gstring-languageModels" prefix="module/languageModels" />
@@ -348,12 +350,12 @@
         <sources jar="org.campagnelab.textoutput-src.jar" descriptor="org.campagnelab.textoutput.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.layout}/plugins/NYoSh/languages/NYoSh/org.campagnelab.textoutput.jar">
+    <jar destfile="${build.layout}/plugins/NYoSh Workbench/languages/NYoSh/org.campagnelab.textoutput.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.textoutput" />
       <fileset dir="${basedir}/languages/org.campagnelab.textoutput" includes="icons/**, resources/**" />
       <fileset dir="${build.tmp}/default/org.campagnelab.textoutput.jar" />
     </jar>
-    <jar destfile="${build.layout}/plugins/NYoSh/languages/NYoSh/org.campagnelab.textoutput-generator.jar">
+    <jar destfile="${build.layout}/plugins/NYoSh Workbench/languages/NYoSh/org.campagnelab.textoutput-generator.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.textoutput#6874736155931251038" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.textoutput-generator-template">
@@ -362,7 +364,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.textoutput-languageModels">
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.textoutput/languageModels" includes="**/*.mps, **/*.metadata, **/*.history" />
     </copyModels>
-    <jar destfile="${build.layout}/plugins/NYoSh/languages/NYoSh/org.campagnelab.textoutput-src.jar">
+    <jar destfile="${build.layout}/plugins/NYoSh Workbench/languages/NYoSh/org.campagnelab.textoutput-src.jar">
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.textoutput/generator/source_gen" includes="**/*.java" />
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.textoutput/source_gen" includes="**/*.java" />
       <zipfileset file="${basedir}/languages/org.campagnelab.textoutput/org.campagnelab.textoutput.mpl" prefix="module" />

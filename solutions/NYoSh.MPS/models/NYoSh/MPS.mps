@@ -121,6 +121,23 @@
           </node>
         </node>
       </node>
+      <node role="help" roleId="kdzh.437343344536486297" type="kdzh.BuildMps_BrandingHelp" typeId="kdzh.7753544965996489992" id="3327308458745332418" nodeInfo="ng">
+        <node role="url" roleId="kdzh.437343344536486294" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="3327308458745332419" nodeInfo="ng">
+          <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="3327308458745332900" nodeInfo="ng">
+            <property name="text" nameId="3ior.4903714810883755350" value="http://nyosh.campagnelab.org" />
+          </node>
+        </node>
+        <node role="file" roleId="kdzh.437343344536486296" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="3327308458745332421" nodeInfo="ng">
+          <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="3327308458745340087" nodeInfo="ng">
+            <property name="text" nameId="3ior.4903714810883755350" value="help" />
+          </node>
+        </node>
+        <node role="root" roleId="kdzh.437343344536486295" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="3327308458745338217" nodeInfo="ng">
+          <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildVarRefStringPart" typeId="3ior.4903714810883702017" id="3327308458745338455" nodeInfo="ng">
+            <link role="macro" roleId="3ior.4903714810883702018" targetNodeId="8318417660238159963" resolveInfo="build.number" />
+          </node>
+        </node>
+      </node>
     </node>
     <node role="macros" roleId="3ior.5617550519002745378" type="3ior.BuildVariableMacro" typeId="3ior.3767587139141066978" id="8318417660238159961" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="date" />
@@ -361,10 +378,10 @@
       </node>
     </node>
     <node role="parts" roleId="3ior.7389400916848080626" type="kdzh.BuildMps_IdeaPlugin" typeId="kdzh.6592112598314498932" id="8318417660238160048" nodeInfo="ng">
-      <property name="id" nameId="kdzh.6592112598314498927" value="NYoSh" />
+      <property name="id" nameId="kdzh.6592112598314498927" value="NYoShWorkench" />
       <node role="name" roleId="kdzh.6592112598314499021" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="8318417660238160049" nodeInfo="ng">
         <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="8318417660238160050" nodeInfo="ng">
-          <property name="text" nameId="3ior.4903714810883755350" value="NYoSh" />
+          <property name="text" nameId="3ior.4903714810883755350" value="NYoSh Workbench" />
         </node>
       </node>
       <node role="version" roleId="kdzh.6592112598314498931" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="8318417660238160051" nodeInfo="ng">
@@ -380,8 +397,12 @@
       </node>
       <node role="containerName" roleId="kdzh.6592112598314855574" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="8318417660238160055" nodeInfo="ng">
         <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="8318417660238160056" nodeInfo="ng">
-          <property name="text" nameId="3ior.4903714810883755350" value="NYoSh" />
+          <property name="text" nameId="3ior.4903714810883755350" value="NYoSh Workbench" />
         </node>
+      </node>
+      <node role="vendor" roleId="kdzh.7832771629084912518" type="kdzh.BuildMps_IdeaPluginVendor" typeId="kdzh.7832771629084799699" id="3327308458745340325" nodeInfo="ng">
+        <property name="name" nameId="kdzh.7832771629084799702" value="Campagne Laboratory" />
+        <property name="url" nameId="kdzh.7832771629084799701" value="http://campagnelab.org" />
       </node>
     </node>
     <node role="parts" roleId="3ior.7389400916848080626" type="kdzh.BuildMps_Group" typeId="kdzh.1500819558095907805" id="8318417660238160047" nodeInfo="ng">
