@@ -4,6 +4,7 @@
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="14" />
+  <import index="6pk0" modelUID="r:48f4e449-1a18-435e-ae88-4830aa794dc7(org.campagnelab.nyosh.environment.structure)" version="13" />
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="5" implicit="yes" />
@@ -171,6 +172,18 @@
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6225477831029718591" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.3734116213129792499" resolveInfo="ScopeProvider" />
     </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7423498045461870545" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="GobyWebSource" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="the GobyWeb runtime environment" />
+    <property name="staticScope" nameId="tpce.5404671619616246344" value="root" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="6pk0.3173353997360796893" resolveInfo="EnvironmentSource" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7423498045461888424" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="GobyWebLoader" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="GobyWeb Environment loader" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="load the basic GobyWeb environment" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="6pk0.3173353997360795105" resolveInfo="Loader" />
   </root>
 </model>
 

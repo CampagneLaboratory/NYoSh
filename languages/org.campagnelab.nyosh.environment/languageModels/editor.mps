@@ -188,44 +188,6 @@
       </node>
     </node>
   </root>
-  <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="1455940728762828975" nodeInfo="ng">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="GobyWeb" />
-    <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="6pk0.5469406079154460114" resolveInfo="GobyWebSource" />
-    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="1455940728762840664" nodeInfo="nn">
-      <property name="text" nameId="tpc2.1073389577007" value="GobyWeb Environment" />
-    </node>
-  </root>
-  <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="1455940728762902414" nodeInfo="ng">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="GobyWeb" />
-    <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="6pk0.1455940728762902354" resolveInfo="GobyWebLoader" />
-    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="1455940728762909231" nodeInfo="nn">
-      <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="1455940728762909232" nodeInfo="nn" />
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="1455940728762909233" nodeInfo="nn">
-        <property name="text" nameId="tpc2.1073389577007" value="GobyWeb loader" />
-      </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="1455940728762909234" nodeInfo="nn">
-        <property name="text" nameId="tpc2.1073389577007" value="(" />
-        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.PunctuationLeftStyleClassItem" typeId="tpc2.1233758997495" id="1455940728762909235" nodeInfo="nn">
-          <property name="flag" nameId="tpc2.1186414551515" value="true" />
-        </node>
-        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.MatchingLabelStyleClassItem" typeId="tpc2.1236262245656" id="1455940728762909236" nodeInfo="nn">
-          <property name="labelName" nameId="tpc2.1238091709220" value="body-paren" />
-        </node>
-        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.PunctuationRightStyleClassItem" typeId="tpc2.1233759184865" id="1455940728762909237" nodeInfo="nn">
-          <property name="flag" nameId="tpc2.1186414551515" value="true" />
-        </node>
-      </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="1455940728762909238" nodeInfo="nn">
-        <property name="text" nameId="tpc2.1073389577007" value=")" />
-        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.PunctuationLeftStyleClassItem" typeId="tpc2.1233758997495" id="1455940728762909239" nodeInfo="nn">
-          <property name="flag" nameId="tpc2.1186414551515" value="true" />
-        </node>
-        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.MatchingLabelStyleClassItem" typeId="tpc2.1236262245656" id="1455940728762909240" nodeInfo="nn">
-          <property name="labelName" nameId="tpc2.1238091709220" value="body-paren" />
-        </node>
-      </node>
-    </node>
-  </root>
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="1455940728763133474" nodeInfo="ng">
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="6pk0.1455940728763133433" resolveInfo="SourcePath" />
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="1455940728763133476" nodeInfo="nn">
