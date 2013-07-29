@@ -455,16 +455,6 @@
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="435930706556016195" resolveInfo="ISomeStepLoggingStatement" />
     </node>
   </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7439640740220767648" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="EntryPointEnvironment" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068580123136" resolveInfo="StatementList" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="7439640740223872017" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="environment" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="6pk0.3173353997360946752" resolveInfo="EnvironmentSourceList" />
-    </node>
-  </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3834344539462083799" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="StaticEntryPointMethod" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1081236700938" resolveInfo="StaticMethodDeclaration" />
