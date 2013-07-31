@@ -4,6 +4,7 @@
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="languageModels" />
     </modelRoot>
+    <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/plugins-2.3-SNAPSHOT.jar" type="java_classes" />
   </models>
   <accessoryModels />
   <generators>
