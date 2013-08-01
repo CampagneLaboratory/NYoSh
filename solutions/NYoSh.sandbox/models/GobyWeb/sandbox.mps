@@ -26,6 +26,7 @@
   <import index="8w0" modelUID="r:eb1d368a-5e85-4af8-8740-90a6516e7dd4(org.campagnelab.nyosh.pathpatterns.structure)" version="0" implicit="yes" />
   <import index="6pk0" modelUID="r:48f4e449-1a18-435e-ae88-4830aa794dc7(org.campagnelab.nyosh.environment.structure)" version="13" implicit="yes" />
   <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="5" implicit="yes" />
+  <import index="tpib" modelUID="r:00000000-0000-4000-0000-011c8959057f(jetbrains.mps.baseLanguage.logging.structure)" version="0" implicit="yes" />
   <root type="4tvk.Script" typeId="4tvk.8197864363320245969" id="2060680358160012379" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="StepsLoggerTest" />
     <node role="entryPoints" roleId="4tvk.4370546365667651420" type="4tvk.EntryPoint" typeId="4tvk.4370546365667651425" id="3834344539461035253" nodeInfo="nr">
@@ -664,6 +665,9 @@
     <node role="errorHandlers" roleId="4tvk.8594065538792360950" type="4tvk.ErrorHandlerReference" typeId="4tvk.8594065538793583176" id="8594065538795661042" nodeInfo="ng">
       <link role="handler" roleId="4tvk.8594065538793583177" targetNodeId="8594065538794303268" resolveInfo="PrintOutHandler" />
     </node>
+    <node role="errorHandlers" roleId="4tvk.8594065538792360950" type="4tvk.ErrorHandlerReference" typeId="4tvk.8594065538793583176" id="9039864166932145842" nodeInfo="ng">
+      <link role="handler" roleId="4tvk.8594065538793583177" targetNodeId="9039864166932095060" resolveInfo="Log4J" />
+    </node>
     <node role="errorHandlers" roleId="4tvk.8594065538792360950" type="4tvk.ErrorHandlerReference" typeId="4tvk.8594065538793583176" id="8594065538798024966" nodeInfo="ng">
       <link role="handler" roleId="4tvk.8594065538793583177" targetNodeId="8594065538797998654" resolveInfo="ExitTheJVM" />
     </node>
@@ -715,6 +719,21 @@
             <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="e2lb.~System" resolveInfo="System" />
             <node role="actualArgument" roleId="tpee.1068499141038" type="4tvk.ConceptFunctionParameter_StatusCode" typeId="4tvk.8594065538798973223" id="8594065538799060708" nodeInfo="ng" />
           </node>
+        </node>
+      </node>
+    </node>
+  </root>
+  <root type="4tvk.ErrorHandler" typeId="4tvk.8594065538792360952" id="9039864166932095060" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="Log4J" />
+    <node role="handlerFunction" roleId="4tvk.8594065538792617639" type="4tvk.ConceptFunction_ProcessExceptionBlock" typeId="4tvk.8594065538794719198" id="9039864166932095061" nodeInfo="ng">
+      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="9039864166932095062" nodeInfo="sn">
+        <node role="statement" roleId="tpee.1068581517665" type="tpib.LogStatement" typeId="tpib.1167227138527" id="9039864166932095073" nodeInfo="nn">
+          <property name="severity" nameId="tpib.1167245565795" value="error" />
+          <property name="hasException" nameId="tpib.1167228628751" value="true" />
+          <node role="logExpression" roleId="tpib.1167227463056" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="9039864166932095269" nodeInfo="nn">
+            <property name="value" nameId="tpee.1070475926801" value="Oops, a problem occurred, we got an exception!" />
+          </node>
+          <node role="exception" roleId="tpib.1167227561449" type="4tvk.ConceptFunctionParameter_ExceptionType" typeId="4tvk.8594065538794719440" id="9039864166932095193" nodeInfo="ng" />
         </node>
       </node>
     </node>
