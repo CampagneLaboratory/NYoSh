@@ -12,15 +12,17 @@
   <language namespace="c6567f13-87ab-4686-8f6f-42e8228c0e27(org.campagnelab.nyosh.gstring)" />
   <language namespace="0f071fdb-3faa-4b8c-9f5e-1da0a01466d5(org.campagnelab.nyosh.environment)" />
   <language namespace="a8fb88b0-7e9f-478c-aab4-a1b076131192(org.campagnelab.gobyweb.interactive)" />
+  <language namespace="de1ad86d-6e50-4a02-b306-d4d17f64c375(jetbrains.mps.console.base)" />
   <language-engaged-on-generation namespace="a21a7294-c126-4f63-8335-8fecd8c28c7e(NYoSh)" />
   <import index="j35t" modelUID="r:bb233557-1e55-4cea-86a9-116ffc5b5913(NYoSh.sandbox.Working)" version="-1" />
   <import index="fxg7" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" version="-1" />
-  <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="15" implicit="yes" />
+  <import index="qgo0" modelUID="r:de40a5a4-f08c-4c67-ac43-e1f5c384f7d6(jetbrains.mps.console.tool)" version="-1" />
+  <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" />
+  <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="18" implicit="yes" />
   <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="5" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" implicit="yes" />
   <import index="f2ff" modelUID="r:48d5f7d2-24be-4d82-ac12-8f4a2d414b11(org.campagnelab.nyosh.gstring.structure)" version="-1" implicit="yes" />
-  <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" implicit="yes" />
   <import index="8w0" modelUID="r:eb1d368a-5e85-4af8-8740-90a6516e7dd4(org.campagnelab.nyosh.pathpatterns.structure)" version="0" implicit="yes" />
   <import index="6pk0" modelUID="r:48f4e449-1a18-435e-ae88-4830aa794dc7(org.campagnelab.nyosh.environment.structure)" version="13" implicit="yes" />
   <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="5" implicit="yes" />
@@ -324,6 +326,7 @@
     </node>
     <node role="script" roleId="935h.1090105717921230261" type="4tvk.Script" typeId="4tvk.8197864363320245969" id="6225477831028292667" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="MyScript" />
+      <link role="errorManagement" roleId="4tvk.8594065538799394764" targetNodeId="8594065538793084771" resolveInfo="MyErrorManagement" />
       <node role="entryPoints" roleId="4tvk.4370546365667651420" type="935h.AlignerAlignEntryPoint" typeId="935h.3173353997329486142" id="6225477831028292668" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="aligner entry point" />
         <link role="script" roleId="4tvk.1185348143925735982" targetNodeId="6225477831028292667" resolveInfo="MyScript" />
@@ -610,21 +613,6 @@
       </node>
     </node>
   </root>
-  <root type="bs99.Job" typeId="bs99.2051553890368756070" id="6449713081311049924" nodeInfo="ng">
-    <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="6225477831028292666" />
-    <link role="executionEnvironment" roleId="bs99.2051553890368806506" targetNodeId="6449713081311327914" resolveInfo="RunOnSpanky" />
-    <node role="options" roleId="bs99.2051553890368761092" type="bs99.StringOption" typeId="bs99.6449713081312088553" id="6449713081312314598" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="param-value" />
-      <property name="value" nameId="bs99.6449713081312198894" value="0.3" />
-    </node>
-    <node role="options" roleId="bs99.2051553890368761092" type="bs99.BooleanOption" typeId="bs99.6449713081312314600" id="6449713081312644293" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="verbose" />
-      <property name="value" nameId="bs99.6449713081312314601" value="true" />
-    </node>
-    <node role="options" roleId="bs99.2051553890368761092" type="bs99.BooleanOption" typeId="bs99.6449713081312314600" id="6449713081312864854" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="anotherFlag" />
-    </node>
-  </root>
   <root type="bs99.ExecutionNode" typeId="bs99.2051553890368785075" id="6449713081311057712" nodeInfo="ng">
     <property name="username" nameId="bs99.2051553890368785078" value="campagne" />
     <property name="server" nameId="bs99.2051553890368785076" value="spanky.med.cornell.edu" />
@@ -644,6 +632,91 @@
       <property name="name" nameId="tpck.1169194664001" value="ZenodotusFileSetArea" />
       <property name="path" nameId="bs99.6449713081311703917" value="/zenodotus/dat01/campagne_lab_scratch/campagne/FILESET-AREA" />
       <link role="executionNode" roleId="bs99.6449713081311510412" targetNodeId="6449713081311057712" resolveInfo="spanky" />
+    </node>
+  </root>
+  <root type="bs99.Job" typeId="bs99.2051553890368756070" id="5949986731305577229" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="someJob" />
+    <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="6225477831028292666" />
+    <link role="executionEnvironment" roleId="bs99.2051553890368806506" targetNodeId="6449713081311327914" resolveInfo="RunOnSpanky" />
+    <node role="options" roleId="bs99.2051553890368761092" type="bs99.StringOption" typeId="bs99.6449713081312088553" id="6449713081312314598" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="param-value" />
+      <property name="value" nameId="bs99.6449713081312198894" value="0.3" />
+    </node>
+    <node role="options" roleId="bs99.2051553890368761092" type="bs99.BooleanOption" typeId="bs99.6449713081312314600" id="6449713081312644293" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="verbose" />
+      <property name="value" nameId="bs99.6449713081312314601" value="true" />
+    </node>
+    <node role="options" roleId="bs99.2051553890368761092" type="bs99.BooleanOption" typeId="bs99.6449713081312314600" id="6449713081312864854" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="anotherFlag" />
+    </node>
+  </root>
+  <root type="bs99.PluginSDKInstallation" typeId="bs99.2735543333319077191" id="2735543333321027802" nodeInfo="ng">
+    <property name="installationPath" nameId="bs99.2735543333319514314" value="/home/campagne" />
+    <property name="distributionUrl" nameId="bs99.2735543333319647607" value="http://campagnelab.org/?wpdmact=process&amp;did=MS5ob3RsaW5r" />
+    <node role="nodeInstalledOn" roleId="bs99.2735543333319111874" type="bs99.ExecutionNode" typeId="bs99.2051553890368785075" id="2735543333321027803" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="spanky.med.cornel.edu" />
+      <property name="server" nameId="bs99.2051553890368785076" value="spanky.med.cornel.edu" />
+      <property name="username" nameId="bs99.2051553890368785078" value="campagne" />
+    </node>
+  </root>
+  <root type="4tvk.ErrorManagement" typeId="4tvk.8594065538792360516" id="8594065538793084771" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="MyErrorManagement" />
+    <node role="errorHandlers" roleId="4tvk.8594065538792360950" type="4tvk.ErrorHandlerReference" typeId="4tvk.8594065538793583176" id="8594065538795661042" nodeInfo="ng">
+      <link role="handler" roleId="4tvk.8594065538793583177" targetNodeId="8594065538794303268" resolveInfo="PrintOutHandler" />
+    </node>
+    <node role="errorHandlers" roleId="4tvk.8594065538792360950" type="4tvk.ErrorHandlerReference" typeId="4tvk.8594065538793583176" id="8594065538798024966" nodeInfo="ng">
+      <link role="handler" roleId="4tvk.8594065538793583177" targetNodeId="8594065538797998654" resolveInfo="ExitTheJVM" />
+    </node>
+  </root>
+  <root type="4tvk.ErrorHandler" typeId="4tvk.8594065538792360952" id="8594065538794303268" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="PrintOutHandler" />
+    <node role="handlerFunction" roleId="4tvk.8594065538792617639" type="4tvk.ConceptFunction_ProcessExceptionBlock" typeId="4tvk.8594065538794719198" id="8594065538796433638" nodeInfo="ng">
+      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="8594065538796433639" nodeInfo="sn">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="8594065538799063570" nodeInfo="nn">
+          <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="8594065538799063573" nodeInfo="sn">
+            <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="8594065538796433700" nodeInfo="nn">
+              <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8594065538796433696" nodeInfo="nn">
+                <node role="operand" roleId="tpee.1197027771414" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="8594065538796433697" nodeInfo="nn">
+                  <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="e2lb.~System%dout" resolveInfo="out" />
+                  <link role="classifier" roleId="tpee.1144433057691" targetNodeId="e2lb.~System" resolveInfo="System" />
+                </node>
+                <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="8594065538796433698" nodeInfo="nn">
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fxg7.~PrintStream%dprintln(java%dlang%dString)%cvoid" resolveInfo="println" />
+                  <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="8594065538796435789" nodeInfo="nn">
+                    <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8594065538796546986" nodeInfo="nn">
+                      <node role="operand" roleId="tpee.1197027771414" type="4tvk.ConceptFunctionParameter_ExceptionType" typeId="4tvk.8594065538794719440" id="8594065538796435912" nodeInfo="ng" />
+                      <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="8594065538796552139" nodeInfo="nn">
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~Throwable%dgetMessage()%cjava%dlang%dString" resolveInfo="getMessage" />
+                      </node>
+                    </node>
+                    <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="8594065538796433699" nodeInfo="nn">
+                      <property name="value" nameId="tpee.1070475926801" value="exception message" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="condition" roleId="tpee.1068580123160" type="tpee.NotEqualsExpression" typeId="tpee.1073239437375" id="8594065538799067400" nodeInfo="nn">
+            <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="8594065538799069103" nodeInfo="nn" />
+            <node role="leftExpression" roleId="tpee.1081773367580" type="4tvk.ConceptFunctionParameter_ExceptionType" typeId="4tvk.8594065538794719440" id="8594065538799065268" nodeInfo="ng" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </root>
+  <root type="4tvk.ErrorHandler" typeId="4tvk.8594065538792360952" id="8594065538797998654" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="ExitTheJVM" />
+    <node role="handlerFunction" roleId="4tvk.8594065538792617639" type="4tvk.ConceptFunction_ProcessExceptionBlock" typeId="4tvk.8594065538794719198" id="8594065538797998655" nodeInfo="ng">
+      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="8594065538797998656" nodeInfo="sn">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="8594065538797998668" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="8594065538798024908" nodeInfo="nn">
+            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~System%dexit(int)%cvoid" resolveInfo="exit" />
+            <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="e2lb.~System" resolveInfo="System" />
+            <node role="actualArgument" roleId="tpee.1068499141038" type="4tvk.ConceptFunctionParameter_StatusCode" typeId="4tvk.8594065538798973223" id="8594065538799060708" nodeInfo="ng" />
+          </node>
+        </node>
+      </node>
     </node>
   </root>
 </model>
