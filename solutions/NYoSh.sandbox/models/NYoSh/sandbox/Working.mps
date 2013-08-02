@@ -686,6 +686,7 @@
   </root>
   <root type="4tvk.Script" typeId="4tvk.8197864363320245969" id="6956376092815321803" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="CommandTest" />
+    <link role="errorManagement" roleId="4tvk.8594065538799394764" targetNodeId="779522448610372414" resolveInfo="CatchErrors" />
     <node role="entryPoints" roleId="4tvk.4370546365667651420" type="4tvk.EntryPoint" typeId="4tvk.4370546365667651425" id="6956376092815322084" nodeInfo="nr">
       <property name="name" nameId="tpck.1169194664001" value="main" />
       <link role="script" roleId="4tvk.1185348143925735982" targetNodeId="6956376092815321803" resolveInfo="CommandTest" />
@@ -712,7 +713,7 @@
                 </node>
               </node>
               <node role="statement" roleId="tpee.1068581517665" type="4tvk.ExportCommand" typeId="4tvk.6956376092815676508" id="7423498045461440259" nodeInfo="ng">
-                <node role="variables" roleId="4tvk.2195928368806321877" type="6pk0.EnvVariableDeclarationReference" typeId="6pk0.2195928368806215045" id="3834344539481019826" nodeInfo="ng">
+                <node role="variables" roleId="4tvk.2195928368806321877" type="6pk0.EnvVariableDeclarationReference" typeId="6pk0.2195928368806215045" id="779522448613582058" nodeInfo="ng">
                   <link role="ref" roleId="6pk0.2195928368806266469" targetNodeId="7423498045465256253" resolveInfo="RESOURCES_BASH_LIBRARY_CALCULATE_MD5" />
                 </node>
               </node>
@@ -794,6 +795,7 @@
                 </node>
               </node>
               <node role="statement" roleId="tpee.1068581517665" type="4tvk.ExecuteCommand" typeId="4tvk.8197864363320353692" id="6449713081303221960" nodeInfo="ng">
+                <property name="printExecutedToStdout" nameId="4tvk.7855977029128099301" value="true" />
                 <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.GStringCommand" typeId="4tvk.8155370969619067580" id="6449713081305509228" nodeInfo="ng">
                   <node role="command" roleId="4tvk.8155370969619067612" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="6449713081305509230" nodeInfo="ng">
                     <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="6449713081305509232" nodeInfo="ng">
@@ -857,25 +859,6 @@
                   </node>
                 </node>
               </node>
-              <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="6449713081307493700" nodeInfo="nn">
-                <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6449713081307493696" nodeInfo="nn">
-                  <node role="operand" roleId="tpee.1197027771414" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="6449713081307493697" nodeInfo="nn">
-                    <link role="classifier" roleId="tpee.1144433057691" targetNodeId="e2lc.~System" resolveInfo="System" />
-                    <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="e2lc.~System%derr" resolveInfo="err" />
-                  </node>
-                  <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="6449713081307493698" nodeInfo="nn">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fxg8.~PrintStream%dprintln(java%dlang%dString)%cvoid" resolveInfo="println" />
-                    <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="6449713081307495779" nodeInfo="nn">
-                      <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.VariableReference" typeId="tpee.1068498886296" id="900103933245220314" nodeInfo="nn">
-                        <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="4907898740898160970" resolveInfo="a" />
-                      </node>
-                      <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="6449713081307493699" nodeInfo="nn">
-                        <property name="value" nameId="tpee.1070475926801" value="a=" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
             </node>
           </node>
         </node>
@@ -887,6 +870,18 @@
           </node>
         </node>
       </node>
+    </node>
+  </root>
+  <root type="4tvk.ErrorManagement" typeId="4tvk.8594065538792360516" id="779522448610372414" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="CatchErrors" />
+    <node role="errorHandlers" roleId="4tvk.8594065538792360950" type="4tvk.ErrorHandlerReference" typeId="4tvk.8594065538793583176" id="4236149660850462258" nodeInfo="ng">
+      <link role="handler" roleId="4tvk.8594065538793583177" targetNodeId="4236149660850460500" resolveInfo="DoSomething" />
+    </node>
+  </root>
+  <root type="4tvk.ErrorHandler" typeId="4tvk.8594065538792360952" id="4236149660850460500" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="DoSomething" />
+    <node role="handlerFunction" roleId="4tvk.8594065538792617639" type="4tvk.ConceptFunction_ProcessExceptionBlock" typeId="4tvk.8594065538794719198" id="4236149660850460501" nodeInfo="ng">
+      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="4236149660850460502" nodeInfo="sn" />
     </node>
   </root>
 </model>

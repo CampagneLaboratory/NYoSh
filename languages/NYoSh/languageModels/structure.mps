@@ -587,6 +587,22 @@
         </node>
       </node>
     </node>
+    <node role="conceptLink" roleId="tpce.1105736949336" type="tpce.AggregationConceptLink" typeId="tpce.1105736889287" id="4236149660850302666" nodeInfo="ig">
+      <link role="conceptLinkDeclaration" roleId="tpce.1105736734721" targetNodeId="tpee.1137546998352" resolveInfo="conceptFunctionParameter" />
+      <node role="target" roleId="tpce.1105736901241" type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4236149660850302716" nodeInfo="ig">
+        <property name="name" nameId="tpck.1169194664001" value="ConceptFunctionParameter_Reason" />
+        <property name="conceptAlias" nameId="tpce.5092175715804935370" value="reason" />
+        <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="the step description or reason the exception may have occured" />
+        <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
+        <node role="conceptLink" roleId="tpce.1105736949336" type="tpce.AggregationConceptLink" typeId="tpce.1105736889287" id="4236149660850302723" nodeInfo="ig">
+          <link role="conceptLinkDeclaration" roleId="tpce.1105736734721" targetNodeId="tpee.1137545963098" resolveInfo="conceptFunctionParameterType" />
+          <node role="target" roleId="tpce.1105736901241" type="tpee.StringType" typeId="tpee.1225271177708" id="4236149660850302727" nodeInfo="in" />
+        </node>
+        <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="4236149660850302719" nodeInfo="ig">
+          <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1835621062190663819" resolveInfo="IDontSubstituteByDefault" />
+        </node>
+      </node>
+    </node>
     <node role="conceptLink" roleId="tpce.1105736949336" type="tpce.AggregationConceptLink" typeId="tpce.1105736889287" id="8594065538794719434" nodeInfo="ig">
       <link role="conceptLinkDeclaration" roleId="tpce.1105736734721" targetNodeId="tpee.1137546998352" resolveInfo="conceptFunctionParameter" />
       <node role="target" roleId="tpce.1105736901241" type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8594065538794719440" nodeInfo="ig">
@@ -615,6 +631,13 @@
       <property name="role" nameId="tpce.1071599776563" value="errorManagement" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="8594065538792360516" resolveInfo="ErrorManagement" />
     </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7015383683227760144" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="errors" />
+    <property name="name" nameId="tpck.1169194664001" value="StepsLoggingHandler" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="stepsLoggingHandler" />
+    <property name="rootable" nameId="tpce.1096454100552" value="true" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="8594065538792360952" resolveInfo="ErrorHandler" />
   </root>
 </model>
 
