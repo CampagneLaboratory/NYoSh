@@ -276,7 +276,7 @@
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="7423498045461872499" nodeInfo="ng">
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="935h.7423498045461870545" resolveInfo="GobyWebSource" />
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="7423498045461874743" nodeInfo="nn">
-      <property name="text" nameId="tpc2.1073389577007" value="GobyWeb Environment" />
+      <property name="text" nameId="tpc2.1073389577007" value="GobyWebSource " />
     </node>
   </root>
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="7423498045461888469" nodeInfo="ng">

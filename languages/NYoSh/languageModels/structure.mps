@@ -339,19 +339,6 @@
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
     </node>
   </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6956376092815676508" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="ExportCommand" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="export" />
-    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="export variables for the next executed commands" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="commandOperators" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068580123157" resolveInfo="Statement" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="2195928368806321877" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="variables" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1..n" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="6pk0.2195928368806215045" resolveInfo="EnvVariableDeclarationReference" />
-    </node>
-  </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="435930706556016183" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Assert" />
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Assert that the expression is true, or log failure" />
