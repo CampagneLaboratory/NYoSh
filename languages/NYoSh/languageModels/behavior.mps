@@ -247,10 +247,17 @@
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="7439640740229092949" nodeInfo="nn">
           <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="385706599063594835" nodeInfo="nn">
             <node role="rValue" roleId="tpee.1068498886297" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="385706599063596143" nodeInfo="nn">
-              <node role="quotedNode" roleId="tp3r.1196350785114" type="4tvk.StaticEntryPointMethod" typeId="4tvk.3834344539462083799" id="385706599063596669" nodeInfo="ig">
-                <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="385706599063596671" nodeInfo="in" />
-                <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="385706599063596672" nodeInfo="nn" />
-                <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="385706599063596673" nodeInfo="sn" />
+              <node role="quotedNode" roleId="tp3r.1196350785114" type="4tvk.StaticEntryPointMethod" typeId="4tvk.3834344539462083799" id="7518874264099232526" nodeInfo="ig">
+                <property name="name" nameId="tpck.1169194664001" value="implementation" />
+                <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="7518874264099233597" nodeInfo="ir">
+                  <property name="name" nameId="tpck.1169194664001" value="arguments" />
+                  <node role="type" roleId="tpee.5680397130376446158" type="tpee.ArrayType" typeId="tpee.1070534760951" id="7518874264099234132" nodeInfo="in">
+                    <node role="componentType" roleId="tpee.1070534760952" type="tpee.StringType" typeId="tpee.1225271177708" id="7518874264099234105" nodeInfo="in" />
+                  </node>
+                </node>
+                <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="7518874264099232527" nodeInfo="in" />
+                <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="7518874264099232528" nodeInfo="nn" />
+                <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="7518874264099232529" nodeInfo="sn" />
               </node>
             </node>
             <node role="lValue" roleId="tpee.1068498886295" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7439640740229093891" nodeInfo="nn">
@@ -478,6 +485,25 @@
               <node role="operand" roleId="tpee.1197027771414" type="1i04.ThisNodeExpression" typeId="1i04.1225194691553" id="3834344539451145342" nodeInfo="nn" />
               <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="3834344539451148066" nodeInfo="nn">
                 <link role="property" roleId="tp25.1138056395725" targetNodeId="4tvk.3834344539450541468" resolveInfo="header" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="7518874264100743448" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="7518874264100759011" nodeInfo="nn">
+            <node role="rValue" roleId="tpee.1068498886297" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="7518874264100759325" nodeInfo="nn">
+              <node role="quotedNode" roleId="tp3r.1196350785114" type="tpee.StatementList" typeId="tpee.1068580123136" id="7518874264100759667" nodeInfo="sn">
+                <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="7518874264100759970" nodeInfo="nn">
+                  <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="7518874264100760272" nodeInfo="nn">
+                    <property name="text" nameId="tpee.6329021646629104958" value="empty for now, will be replaced at generation" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node role="lValue" roleId="tpee.1068498886295" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7518874264100744270" nodeInfo="nn">
+              <node role="operand" roleId="tpee.1197027771414" type="1i04.ThisNodeExpression" typeId="1i04.1225194691553" id="7518874264100743441" nodeInfo="nn" />
+              <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="7518874264100750653" nodeInfo="nn">
+                <link role="link" roleId="tp25.1138056516764" targetNodeId="tpee.1082485599096" />
               </node>
             </node>
           </node>
