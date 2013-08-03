@@ -791,27 +791,6 @@
       </node>
     </node>
   </root>
-  <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="2195928368806497218" nodeInfo="ng">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="commandOperators" />
-    <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="4tvk.6956376092815676508" resolveInfo="ExportCommand" />
-    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="2195928368806679992" nodeInfo="nn">
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2195928368806679999" nodeInfo="nn">
-        <property name="text" nameId="tpc2.1073389577007" value="export" />
-      </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNodeList" typeId="tpc2.1073390211982" id="2195928368806680005" nodeInfo="ng">
-        <property name="separatorText" nameId="tpc2.1140524450557" value="," />
-        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="4tvk.2195928368806321877" />
-        <node role="cellLayout" roleId="tpc2.1140524464360" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="2195928368806680006" nodeInfo="nn" />
-        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.PunctuationRightStyleClassItem" typeId="tpc2.1233759184865" id="3834344539479503938" nodeInfo="nn">
-          <property name="flag" nameId="tpc2.1186414551515" value="true" />
-        </node>
-      </node>
-      <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="2195928368806679995" nodeInfo="nn" />
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2195928368806870854" nodeInfo="nn">
-        <property name="text" nameId="tpc2.1073389577007" value=";" />
-      </node>
-    </node>
-  </root>
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="435930706556016280" nodeInfo="ng">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="stepslogging" />
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="4tvk.435930706556016185" resolveInfo="Fail" />
