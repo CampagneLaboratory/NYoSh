@@ -13,7 +13,7 @@
   <import index="8dfq" modelUID="r:6004843e-4cf7-4dde-8866-5ff0783b6316(org.campagnelab.nyosh.environment.behavior)" version="-1" />
   <import index="aet2" modelUID="r:ab86e397-1503-48ca-8931-8dc598446fee(NYoSh.generator.template.main@generator)" version="1" />
   <import index="k7g3" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" version="-1" />
-  <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="18" />
+  <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="22" />
   <import index="oalf" modelUID="r:68607197-56b2-4223-a1cb-36b5b04b26a2(org.campagnelab.nyosh.environment.generator.template.main@generator)" version="-1" />
   <import index="29df" modelUID="f:java_stub#ca3c497c-ccac-4f23-9e37-111977da1ae3#org.campagnelab.nyosh.environment.parsers(org.campagnelab.nyosh.environment#3173353997360794809/org.campagnelab.nyosh.environment.parsers@java_stub)" version="-1" />
   <import index="n33h" modelUID="f:java_stub#c6567f13-87ab-4686-8f6f-42e8228c0e27#org.campagnelab.nyosh.environment.parsers(org.campagnelab.nyosh.gstring/org.campagnelab.nyosh.environment.parsers@java_stub)" version="-1" />
