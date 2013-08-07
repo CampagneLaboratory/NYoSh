@@ -616,6 +616,77 @@
                 </node>
               </node>
             </node>
+            <node role="statement" roleId="tpee.1068581517665" type="4tvk.ExecuteCommand" typeId="4tvk.8197864363320353692" id="3993884511391745899" nodeInfo="ng">
+              <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.GStringCommand" typeId="4tvk.8155370969619067580" id="3993884511395356897" nodeInfo="ng">
+                <node role="command" roleId="4tvk.8155370969619067612" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="3993884511395356899" nodeInfo="ng">
+                  <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="3993884511395356901" nodeInfo="ng">
+                    <property name="value" nameId="f2ff.1012285663620336023" value="ls" />
+                  </node>
+                </node>
+              </node>
+              <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.SemiColonCommandOperator" typeId="4tvk.4903231125777493118" id="3993884511395357004" nodeInfo="ng" />
+              <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.GStringCommand" typeId="4tvk.8155370969619067580" id="3993884511395721086" nodeInfo="ng">
+                <node role="command" roleId="4tvk.8155370969619067612" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="3993884511395721088" nodeInfo="ng">
+                  <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="3993884511395721114" nodeInfo="ng">
+                    <property name="value" nameId="f2ff.1012285663620336023" value="ls" />
+                  </node>
+                </node>
+              </node>
+              <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.SemiColonCommandOperator" typeId="4tvk.4903231125777493118" id="3993884511397192031" nodeInfo="ng" />
+              <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.GStringCommand" typeId="4tvk.8155370969619067580" id="3993884511397192085" nodeInfo="ng">
+                <node role="command" roleId="4tvk.8155370969619067612" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="3993884511397192087" nodeInfo="ng">
+                  <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="3993884511397192159" nodeInfo="ng">
+                    <property name="value" nameId="f2ff.1012285663620336023" value="wc -l" />
+                  </node>
+                </node>
+              </node>
+              <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.SemiColonCommandOperator" typeId="4tvk.4903231125777493118" id="3993884511397192049" nodeInfo="ng" />
+              <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.ChangeDirectory" typeId="4tvk.6839116863302727356" id="3993884511397473422" nodeInfo="ng">
+                <node role="path" roleId="4tvk.6839116863302880700" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="3993884511397473424" nodeInfo="ng">
+                  <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="3993884511397473426" nodeInfo="ng">
+                    <property name="value" nameId="f2ff.1012285663620336023" value="dir" />
+                  </node>
+                </node>
+              </node>
+              <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.SemiColonCommandOperator" typeId="4tvk.4903231125777493118" id="3993884511397473477" nodeInfo="ng" />
+              <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.BashFragment" typeId="4tvk.3834344539479154904" id="3993884511397565313" nodeInfo="ng">
+                <node role="fragment" roleId="4tvk.3834344539479155079" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="3993884511397565315" nodeInfo="ng">
+                  <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="3993884511397565317" nodeInfo="ng">
+                    <property name="value" nameId="f2ff.1012285663620336023" value="cooking" />
+                  </node>
+                </node>
+              </node>
+              <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.SemiColonCommandOperator" typeId="4tvk.4903231125777493118" id="3993884511397661903" nodeInfo="ng" />
+              <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.GStringCommand" typeId="4tvk.8155370969619067580" id="3993884511397473513" nodeInfo="ng">
+                <node role="command" roleId="4tvk.8155370969619067612" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="3993884511397473515" nodeInfo="ng">
+                  <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="3993884511397473517" nodeInfo="ng">
+                    <property name="value" nameId="f2ff.1012285663620336023" value="ksdlsjdkjsdjkjsdkj ksdkjkdsj kjkds" />
+                  </node>
+                </node>
+              </node>
+              <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.GStringCommand" typeId="4tvk.8155370969619067580" id="3993884511397473558" nodeInfo="ng">
+                <node role="command" roleId="4tvk.8155370969619067612" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="3993884511397473560" nodeInfo="ng">
+                  <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="3993884511397473562" nodeInfo="ng">
+                    <property name="value" nameId="f2ff.1012285663620336023" value="ksdljksldklskldslskld" />
+                  </node>
+                </node>
+              </node>
+              <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.GStringCommand" typeId="4tvk.8155370969619067580" id="3993884511397473609" nodeInfo="ng">
+                <node role="command" roleId="4tvk.8155370969619067612" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="3993884511397473611" nodeInfo="ng">
+                  <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="3993884511397473613" nodeInfo="ng">
+                    <property name="value" nameId="f2ff.1012285663620336023" value="ksldklskdklsdkskldkl" />
+                  </node>
+                </node>
+              </node>
+              <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.GStringCommand" typeId="4tvk.8155370969619067580" id="3993884511397478895" nodeInfo="ng">
+                <node role="command" roleId="4tvk.8155370969619067612" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="3993884511397478897" nodeInfo="ng">
+                  <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="3993884511397478899" nodeInfo="ng">
+                    <property name="value" nameId="f2ff.1012285663620336023" value="sad" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="3993884511395981415" nodeInfo="nn" />
           </node>
         </node>
       </node>
