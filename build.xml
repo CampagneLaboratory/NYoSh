@@ -112,6 +112,10 @@
     <copy todir="${build.layout}/plugins/mps-core">
       <fileset dir="${artifacts.mpsStandalone}/plugins/mps-core" />
     </copy>
+    <mkdir dir="${build.layout}/plugins/mps-build" />
+    <copy todir="${build.layout}/plugins/mps-build">
+      <fileset dir="${build.layout}/plugins/mps-build" />
+    </copy>
     <mkdir dir="${build.layout}/plugins/NYoSh Workbench" />
     <mkdir dir="${build.layout}/plugins/NYoSh Workbench/META-INF" />
     <echoxml file="${build.layout}/plugins/NYoSh Workbench/META-INF/plugin.xml">

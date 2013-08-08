@@ -609,6 +609,11 @@
                       </node>
                     </node>
                   </node>
+                  <node role="statement" roleId="tpee.1068581517665" type="4tvk.Step" typeId="4tvk.435930706556016196" id="6632689342639759610" nodeInfo="ng">
+                    <property name="description" nameId="4tvk.435930706556016197" value="Catch all step for GobyWeb" />
+                    <property name="hidden" nameId="4tvk.6991050200773783034" value="true" />
+                    <node role="statements" roleId="tpee.1082485599096" type="tpee.StatementList" typeId="tpee.1068580123136" id="6632689342639759613" nodeInfo="sn" />
+                  </node>
                 </node>
               </node>
             </node>

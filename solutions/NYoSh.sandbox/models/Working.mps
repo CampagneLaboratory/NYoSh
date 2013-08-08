@@ -891,6 +891,7 @@
               </node>
               <node role="statement" roleId="tpee.1068581517665" type="4tvk.ExecuteCommand" typeId="4tvk.8197864363320353692" id="6449713081303221960" nodeInfo="ng">
                 <property name="printExecutedToStdout" nameId="4tvk.7855977029128099301" value="true" />
+                <property name="ignoreErrors" nameId="4tvk.4325409482886283468" value="true" />
                 <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.GStringCommand" typeId="4tvk.8155370969619067580" id="6449713081305509228" nodeInfo="ng">
                   <node role="command" roleId="4tvk.8155370969619067612" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="6449713081305509230" nodeInfo="ng">
                     <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="6449713081305509232" nodeInfo="ng">
@@ -945,11 +946,11 @@
                   <link role="variable" roleId="4tvk.3834344539479651523" targetNodeId="4907898740898160970" resolveInfo="a" />
                 </node>
               </node>
-              <node role="statement" roleId="tpee.1068581517665" type="4tvk.ExecuteCommand" typeId="4tvk.8197864363320353692" id="6449713081309582965" nodeInfo="ng">
-                <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.GStringCommand" typeId="4tvk.8155370969619067580" id="6449713081309585273" nodeInfo="ng">
-                  <node role="command" roleId="4tvk.8155370969619067612" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="6449713081309585274" nodeInfo="ng">
-                    <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="6449713081309587514" nodeInfo="ng">
-                      <property name="value" nameId="f2ff.1012285663620336023" value="literal value" />
+              <node role="statement" roleId="tpee.1068581517665" type="4tvk.ExecuteCommand" typeId="4tvk.8197864363320353692" id="6632689342639673607" nodeInfo="ng">
+                <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.BashFragment" typeId="4tvk.3834344539479154904" id="6632689342639674396" nodeInfo="ng">
+                  <node role="fragment" roleId="4tvk.3834344539479155079" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="6632689342639674397" nodeInfo="ng">
+                    <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringVarReference" typeId="f2ff.1012285663620336025" id="6632689342639675481" nodeInfo="ng">
+                      <link role="varRef" roleId="f2ff.4087517305354402375" targetNodeId="7507736014936042363" resolveInfo="arguments" />
                     </node>
                   </node>
                 </node>
@@ -966,6 +967,7 @@
     <node role="errorHandlers" roleId="4tvk.8594065538792360950" type="4tvk.ErrorHandlerReference" typeId="4tvk.8594065538793583176" id="4236149660850462258" nodeInfo="ng">
       <link role="handler" roleId="4tvk.8594065538793583177" targetNodeId="4236149660850460500" resolveInfo="DoSomething" />
     </node>
+    <node role="errorHandlers" roleId="4tvk.8594065538792360950" type="4tvk.ErrorHandlerReference" typeId="4tvk.8594065538793583176" id="6632689342639676918" nodeInfo="ng" />
   </root>
   <root type="4tvk.ErrorHandler" typeId="4tvk.8594065538792360952" id="4236149660850460500" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="DoSomething" />
