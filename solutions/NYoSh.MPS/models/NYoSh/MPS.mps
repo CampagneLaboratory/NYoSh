@@ -340,6 +340,9 @@
         <node role="children" roleId="3ior.7389400916848037006" type="3ior.BuildLayout_Import" typeId="3ior.841011766565753074" id="8318417660238160092" nodeInfo="ng">
           <link role="target" roleId="3ior.841011766565753076" targetNodeId="ffeo.618786790401954546" />
         </node>
+        <node role="children" roleId="3ior.7389400916848037006" type="3ior.BuildLayout_Import" typeId="3ior.841011766565753074" id="6632689342637655549" nodeInfo="ng">
+          <link role="target" roleId="3ior.841011766565753076" targetNodeId="ffeo.7117056644539732844" resolveInfo="mps-build" />
+        </node>
         <node role="children" roleId="3ior.7389400916848037006" type="kdzh.BuildMpsLayout_Plugin" typeId="kdzh.6592112598314498926" id="8318417660238160093" nodeInfo="ng">
           <link role="plugin" roleId="kdzh.6592112598314801433" targetNodeId="8318417660238160048" />
         </node>
@@ -1136,7 +1139,7 @@
           </node>
           <node role="containerName" roleId="3ior.4380385936562148502" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="8318417660238160234" nodeInfo="ng">
             <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="8318417660238160235" nodeInfo="ng">
-              <property name="text" nameId="3ior.4903714810883755350" value="NYoSh " />
+              <property name="text" nameId="3ior.4903714810883755350" value="NYoSh Workbench " />
             </node>
             <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildVarRefStringPart" typeId="3ior.4903714810883702017" id="8318417660238160236" nodeInfo="ng">
               <link role="macro" roleId="3ior.4903714810883702018" targetNodeId="8318417660238160181" resolveInfo="version" />
@@ -1463,7 +1466,7 @@
           </node>
           <node role="containerName" roleId="3ior.4380385936562148502" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="8318417660238160443" nodeInfo="ng">
             <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="8318417660238160444" nodeInfo="ng">
-              <property name="text" nameId="3ior.4903714810883755350" value="NYoSh " />
+              <property name="text" nameId="3ior.4903714810883755350" value="NYoSh Workbench " />
             </node>
             <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildVarRefStringPart" typeId="3ior.4903714810883702017" id="8318417660238160445" nodeInfo="ng">
               <link role="macro" roleId="3ior.4903714810883702018" targetNodeId="8318417660238160181" resolveInfo="version" />
@@ -1709,7 +1712,7 @@
           </node>
           <node role="containerName" roleId="3ior.4380385936562148502" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="8318417660238160581" nodeInfo="ng">
             <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="8318417660238160582" nodeInfo="ng">
-              <property name="text" nameId="3ior.4903714810883755350" value="GobyWorkbench " />
+              <property name="text" nameId="3ior.4903714810883755350" value="NYoSh Workbench " />
             </node>
             <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildVarRefStringPart" typeId="3ior.4903714810883702017" id="8318417660238160583" nodeInfo="ng">
               <link role="macro" roleId="3ior.4903714810883702018" targetNodeId="8318417660238160181" resolveInfo="version" />
