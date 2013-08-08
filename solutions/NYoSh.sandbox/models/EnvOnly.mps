@@ -161,6 +161,12 @@
     <node role="successHandler" roleId="4tvk.7507736014957923089" type="4tvk.SuccessHandlerReference" typeId="4tvk.7507736014957922714" id="7507736014961971790" nodeInfo="ng">
       <link role="handler" roleId="4tvk.7507736014957922715" targetNodeId="7507736014960005822" resolveInfo="PrintToConsole" />
     </node>
+    <node role="successHandler" roleId="4tvk.7507736014957923089" type="4tvk.SuccessHandlerReference" typeId="4tvk.7507736014957922714" id="8956798804348770302" nodeInfo="ng">
+      <link role="handler" roleId="4tvk.7507736014957922715" targetNodeId="7507736014960005822" resolveInfo="PrintToConsole" />
+    </node>
+    <node role="successHandler" roleId="4tvk.7507736014957923089" type="4tvk.SuccessHandlerReference" typeId="4tvk.7507736014957922714" id="8956798804348770299" nodeInfo="ng">
+      <link role="handler" roleId="4tvk.7507736014957922715" targetNodeId="7507736014960005822" resolveInfo="PrintToConsole" />
+    </node>
   </root>
   <root type="935h.AlignerScript" typeId="935h.3173353997329126934" id="7518874264106509507" nodeInfo="ng">
     <property name="pluginKind" nameId="935h.6874736155930792593" value="aligners" />
@@ -170,7 +176,7 @@
     </node>
     <node role="script" roleId="935h.1090105717921230261" type="4tvk.Script" typeId="4tvk.8197864363320245969" id="7518874264106509508" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="MyScript" />
-      <link role="errorManagement" roleId="4tvk.8594065538799394764" targetNodeId="ie5o.8594065538793084771" resolveInfo="MyErrorManagement" />
+      <link role="errorManagement" roleId="4tvk.8594065538799394764" targetNodeId="779522448610372414" resolveInfo="CatchErrors" />
       <node role="entryPoints" roleId="4tvk.4370546365667651420" type="935h.AlignerAlignEntryPoint" typeId="935h.3173353997329486142" id="7518874264106509509" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="aligner entry point" />
         <property name="header" nameId="4tvk.3834344539446559282" value="some header" />
