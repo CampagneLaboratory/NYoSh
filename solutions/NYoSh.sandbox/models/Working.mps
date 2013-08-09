@@ -10,7 +10,6 @@
   <language namespace="0f071fdb-3faa-4b8c-9f5e-1da0a01466d5(org.campagnelab.nyosh.environment)" />
   <language namespace="83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)" />
   <language namespace="0202ed86-955d-4227-9c20-377dd6b1f9ff(org.campagnelab.nyosh.lib)" />
-  <language-engaged-on-generation namespace="0202ed86-955d-4227-9c20-377dd6b1f9ff(org.campagnelab.nyosh.lib)" />
   <import index="fxg7" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" version="-1" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
@@ -954,15 +953,6 @@
                   <property name="consumeStandardOutput" nameId="4tvk.6839116863305307657" value="true" />
                   <property name="consumeStandardError" nameId="4tvk.6839116863305307659" value="false" />
                   <link role="variable" roleId="4tvk.3834344539479651523" targetNodeId="4907898740898160970" resolveInfo="a" />
-                </node>
-              </node>
-              <node role="statement" roleId="tpee.1068581517665" type="4tvk.ExecuteCommand" typeId="4tvk.8197864363320353692" id="6632689342639673607" nodeInfo="ng">
-                <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.BashFragment" typeId="4tvk.3834344539479154904" id="6632689342639674396" nodeInfo="ng">
-                  <node role="fragment" roleId="4tvk.3834344539479155079" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="6632689342639674397" nodeInfo="ng">
-                    <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringVarReference" typeId="f2ff.1012285663620336025" id="6632689342639675481" nodeInfo="ng">
-                      <link role="varRef" roleId="f2ff.4087517305354402375" targetNodeId="7507736014936042363" resolveInfo="arguments" />
-                    </node>
-                  </node>
                 </node>
               </node>
             </node>

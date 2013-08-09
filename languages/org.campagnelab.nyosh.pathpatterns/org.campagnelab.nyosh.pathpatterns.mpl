@@ -5,6 +5,10 @@
       <sourceRoot location="languageModels" />
     </modelRoot>
   </models>
+  <facets>
+    <facet type="java" />
+    <facet type="tests" />
+  </facets>
   <accessoryModels />
   <generators>
     <generator name="" generatorUID="org.campagnelab.nyosh.pathpatterns#1081263916558044417" uuid="474d2a76-9c62-4ab1-9c68-2673d43f8f3b">
@@ -35,6 +39,7 @@
   <sourcePath />
   <dependencies>
     <dependency reexport="false">c6567f13-87ab-4686-8f6f-42e8228c0e27(org.campagnelab.nyosh.gstring)</dependency>
+    <dependency reexport="false">0202ed86-955d-4227-9c20-377dd6b1f9ff(org.campagnelab.nyosh.lib)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)</usedLanguage>
@@ -49,7 +54,6 @@
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
   </runtime>
   <extendedLanguages>
-    <extendedLanguage>0202ed86-955d-4227-9c20-377dd6b1f9ff(org.campagnelab.nyosh.lib)</extendedLanguage>
     <extendedLanguage>c6567f13-87ab-4686-8f6f-42e8228c0e27(org.campagnelab.nyosh.gstring)</extendedLanguage>
   </extendedLanguages>
 </language>
