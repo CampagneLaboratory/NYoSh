@@ -8,7 +8,9 @@
   <language namespace="a21a7294-c126-4f63-8335-8fecd8c28c7e(NYoSh)" />
   <language namespace="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
   <language namespace="289fcc83-6543-41e8-a5ca-768235715ce4(jetbrains.mps.lang.generator.generationParameters)" />
+  <language namespace="0202ed86-955d-4227-9c20-377dd6b1f9ff(org.campagnelab.nyosh.lib)" />
   <language-engaged-on-generation namespace="760a0a8c-eabb-4521-8bfd-65db761a9ba3(jetbrains.mps.baseLanguage.logging)" />
+  <language-engaged-on-generation namespace="0202ed86-955d-4227-9c20-377dd6b1f9ff(org.campagnelab.nyosh.lib)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="22" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
@@ -23,7 +25,7 @@
   <import index="bs02" modelUID="f:java_stub#a21a7294-c126-4f63-8335-8fecd8c28c7e#org.campagnelab.stepslogger(NYoSh/org.campagnelab.stepslogger@java_stub)" version="-1" />
   <import index="k7g3" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" version="-1" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" />
-  <import index="ykn1" modelUID="f:java_stub#c6567f13-87ab-4686-8f6f-42e8228c0e27#org.campagnelab.nyosh.exec(org.campagnelab.nyosh.gstring/org.campagnelab.nyosh.exec@java_stub)" version="-1" />
+  <import index="r9z8" modelUID="f:java_stub#0202ed86-955d-4227-9c20-377dd6b1f9ff#org.campagnelab.nyosh.exec(org.campagnelab.nyosh.lib/org.campagnelab.nyosh.exec@java_stub)" version="-1" />
   <import index="tpf8" modelUID="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" version="2" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
   <import index="tp2c" modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" implicit="yes" />
@@ -32,6 +34,7 @@
   <import index="tpib" modelUID="r:00000000-0000-4000-0000-011c8959057f(jetbrains.mps.baseLanguage.logging.structure)" version="0" implicit="yes" />
   <import index="tp3r" modelUID="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" version="0" implicit="yes" />
   <import index="q5cj" modelUID="r:41fb14d2-a085-41df-8256-2db786d90029(jetbrains.mps.lang.generator.generationParameters.structure)" version="-1" implicit="yes" />
+  <import index="ykn1" modelUID="f:java_stub#c6567f13-87ab-4686-8f6f-42e8228c0e27#org.campagnelab.nyosh.exec(org.campagnelab.nyosh.gstring/org.campagnelab.nyosh.exec@java_stub)" version="-1" implicit="yes" />
   <root type="tpf8.MappingConfiguration" typeId="tpf8.1095416546421" id="8197864363320338552" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="CommandOperatorsToJava" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="commandOperators" />
@@ -909,18 +912,18 @@
                   <property name="name" nameId="tpck.1169194664001" value="assembler" />
                   <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="4927548581349126134" nodeInfo="nn">
                     <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="4927548581349126135" nodeInfo="nn">
-                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ykn1.~CommandAssembler%d&lt;init&gt;()" resolveInfo="CommandAssembler" />
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="r9z8.~CommandAssembler%d&lt;init&gt;()" resolveInfo="CommandAssembler" />
                     </node>
                   </node>
                   <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="4927548581349126136" nodeInfo="in">
-                    <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ykn1.~CommandAssembler" resolveInfo="CommandAssembler" />
+                    <link role="classifier" roleId="tpee.1107535924139" targetNodeId="r9z8.~CommandAssembler" resolveInfo="CommandAssembler" />
                   </node>
                 </node>
               </node>
               <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="4927548581349126137" nodeInfo="nn">
                 <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4927548581349126138" nodeInfo="nn">
                   <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="4927548581349126139" nodeInfo="nn">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ykn1.~CommandAssembler%dappendCommand(java%dlang%dString)%cvoid" resolveInfo="appendCommand" />
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="r9z8.~CommandAssembler%dappendCommand(java%dlang%dString)%cvoid" resolveInfo="appendCommand" />
                     <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.ReferenceMacro" typeId="tpf8.1088761943574" id="4927548581349126140" nodeInfo="nn">
                       <property name="linkRole" nameId="tpck.1757699476691236116" value="baseMethodDeclaration" />
                       <node role="referentFunction" roleId="tpf8.1167770376702" type="tpf8.ReferenceMacro_GetReferent" typeId="tpf8.1167770111131" id="4927548581349126141" nodeInfo="nn">
@@ -1150,11 +1153,11 @@
                 <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="9138295635397021348" nodeInfo="nr">
                   <property name="name" nameId="tpck.1169194664001" value="consumeProcessOutputToVar" />
                   <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="9138295635397021349" nodeInfo="in">
-                    <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ykn1.~OutputConsumerToString" resolveInfo="OutputConsumerToString" />
+                    <link role="classifier" roleId="tpee.1107535924139" targetNodeId="r9z8.~OutputConsumerToString" resolveInfo="OutputConsumerToString" />
                   </node>
                   <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="3834344539480395353" nodeInfo="nn">
                     <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="9138295635397553480" nodeInfo="nn">
-                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ykn1.~OutputConsumerToString%d&lt;init&gt;()" resolveInfo="OutputConsumerToString" />
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="r9z8.~OutputConsumerToString%d&lt;init&gt;()" resolveInfo="OutputConsumerToString" />
                     </node>
                   </node>
                 </node>
@@ -1245,7 +1248,7 @@
                 <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="9138295635397507033" nodeInfo="nr">
                   <property name="name" nameId="tpck.1169194664001" value="plan" />
                   <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="9138295635397507034" nodeInfo="in">
-                    <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ykn1.~CommandExecutionPlan" resolveInfo="CommandExecutionPlan" />
+                    <link role="classifier" roleId="tpee.1107535924139" targetNodeId="r9z8.~CommandExecutionPlan" resolveInfo="CommandExecutionPlan" />
                   </node>
                   <node role="initializer" roleId="tpee.1068431790190" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="9138295635397533883" nodeInfo="nn" />
                 </node>
@@ -1320,7 +1323,7 @@
                         <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="4927548581349126133" resolveInfo="assembler" />
                       </node>
                       <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="4927548581349126464" nodeInfo="nn">
-                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ykn1.~CommandAssembler%dsetLocalEnvironment(java%dutil%dSet)%cvoid" resolveInfo="setLocalEnvironment" />
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="r9z8.~CommandAssembler%dsetLocalEnvironment(java%dutil%dSet)%cvoid" resolveInfo="setLocalEnvironment" />
                         <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="9138295635397434851" nodeInfo="nn">
                           <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="4927548581349081606" resolveInfo="exportedVariables" />
                           <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.ReferenceMacro" typeId="tpf8.1088761943574" id="779522448613348829" nodeInfo="nn">
@@ -1355,7 +1358,7 @@
                   <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="4927548581349126465" nodeInfo="nn">
                     <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4927548581349126466" nodeInfo="nn">
                       <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="4927548581349126467" nodeInfo="nn">
-                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ykn1.~CommandAssembler%dfinishAssembly()%cvoid" resolveInfo="finishAssembly" />
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="r9z8.~CommandAssembler%dfinishAssembly()%cvoid" resolveInfo="finishAssembly" />
                       </node>
                       <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="4927548581349126468" nodeInfo="nn">
                         <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="4927548581349126133" resolveInfo="assembler" />
@@ -1372,7 +1375,7 @@
                           <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="4927548581349126133" resolveInfo="assembler" />
                         </node>
                         <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="3834344539455972034" nodeInfo="nn">
-                          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ykn1.~CommandAssembler%dgetCommandExecutionPlan()%corg%dcampagnelab%dnyosh%dexec%dCommandExecutionPlan" resolveInfo="getCommandExecutionPlan" />
+                          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="r9z8.~CommandAssembler%dgetCommandExecutionPlan()%corg%dcampagnelab%dnyosh%dexec%dCommandExecutionPlan" resolveInfo="getCommandExecutionPlan" />
                         </node>
                       </node>
                     </node>
@@ -1384,7 +1387,7 @@
                           <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="9138295635397507033" resolveInfo="plan" />
                         </node>
                         <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="7414196263097706927" nodeInfo="nn">
-                          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ykn1.~CommandExecutionPlan%drun()%cint" resolveInfo="run" />
+                          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="r9z8.~CommandExecutionPlan%drun()%cint" resolveInfo="run" />
                         </node>
                       </node>
                       <node role="lValue" roleId="tpee.1068498886295" type="tpee.VariableReference" typeId="tpee.1068498886296" id="7414196263097699067" nodeInfo="nn">
@@ -1442,7 +1445,7 @@
                             <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="9138295635397507033" resolveInfo="plan" />
                           </node>
                           <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="3834344539456088117" nodeInfo="nn">
-                            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ykn1.~CommandExecutionPlan%dexecutedCompletely()%cboolean" resolveInfo="executedCompletely" />
+                            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="r9z8.~CommandExecutionPlan%dexecutedCompletely()%cboolean" resolveInfo="executedCompletely" />
                           </node>
                         </node>
                       </node>
@@ -1514,7 +1517,7 @@
                               <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="9138295635397021348" resolveInfo="consumeProcessOutputToVar" />
                             </node>
                             <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="7414196263098621674" nodeInfo="nn">
-                              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ykn1.~OutputConsumerToString%dgetValue()%cjava%dlang%dString" resolveInfo="getValue" />
+                              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="r9z8.~OutputConsumerToString%dgetValue()%cjava%dlang%dString" resolveInfo="getValue" />
                             </node>
                           </node>
                           <node role="lValue" roleId="tpee.1068498886295" type="tpee.VariableReference" typeId="tpee.1068498886296" id="7414196263097400684" nodeInfo="nn">
@@ -2929,11 +2932,11 @@
               <property name="name" nameId="tpck.1169194664001" value="assembler" />
               <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="4907898740900771658" nodeInfo="nn">
                 <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="4907898740900771659" nodeInfo="nn">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ykn1.~CommandAssembler%d&lt;init&gt;()" resolveInfo="CommandAssembler" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="r9z8.~CommandAssembler%d&lt;init&gt;()" resolveInfo="CommandAssembler" />
                 </node>
               </node>
               <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="4907898740900771660" nodeInfo="in">
-                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ykn1.~CommandAssembler" resolveInfo="CommandAssembler" />
+                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="r9z8.~CommandAssembler" resolveInfo="CommandAssembler" />
               </node>
             </node>
           </node>
@@ -2941,13 +2944,13 @@
           <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="4907898740900748839" nodeInfo="nn">
             <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4907898740900748861" nodeInfo="nn">
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="4907898740900748862" nodeInfo="nn">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ykn1.~CommandAssembler%dconsumeStandardOutput(org%dcampagnelab%dnyosh%dexec%dOutputConsumer)%cvoid" resolveInfo="consumeStandardOutput" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="r9z8.~CommandAssembler%dconsumeStandardOutput(org%dcampagnelab%dnyosh%dexec%dOutputConsumer)%cvoid" resolveInfo="consumeStandardOutput" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="4907898740900748863" nodeInfo="nn">
                   <node role="creator" roleId="tpee.1145553007750" type="tpee.AnonymousClassCreator" typeId="tpee.1182160077978" id="4907898740900748864" nodeInfo="nn">
                     <node role="cls" roleId="tpee.1182160096073" type="tpee.AnonymousClass" typeId="tpee.1170345865475" id="4907898740900748865" nodeInfo="ig">
                       <property name="nonStatic" nameId="tpee.521412098689998745" value="true" />
-                      <link role="classifier" roleId="tpee.1170346070688" targetNodeId="ykn1.~OutputConsumer" resolveInfo="OutputConsumer" />
-                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ykn1.~OutputConsumer%d&lt;init&gt;()" resolveInfo="OutputConsumer" />
+                      <link role="classifier" roleId="tpee.1170346070688" targetNodeId="r9z8.~OutputConsumer" resolveInfo="OutputConsumer" />
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~Object%d&lt;init&gt;()" resolveInfo="Object" />
                       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="4907898740900748866" nodeInfo="nn" />
                       <node role="member" roleId="tpee.5375687026011219971" type="tpee.InstanceMethodDeclaration" typeId="tpee.1068580123165" id="4907898740900748867" nodeInfo="igu">
                         <property name="isAbstract" nameId="tpee.1178608670077" value="false" />
@@ -3012,7 +3015,7 @@
                               <node role="catchBody" roleId="tpee.1164903359218" type="tpee.StatementList" typeId="tpee.1068580123136" id="4907898740900748897" nodeInfo="sn">
                                 <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="4907898740900855209" nodeInfo="nn">
                                   <node role="expression" roleId="tpee.1068580123156" type="tpee.LocalMethodCall" typeId="tpee.7812454656619025412" id="4907898740900855208" nodeInfo="nn">
-                                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ykn1.~OutputConsumer%dhandleException(java%dlang%dException)%cvoid" resolveInfo="handleException" />
+                                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="r9z8.~OutputConsumer%dhandleException(java%dlang%dException)%cvoid" resolveInfo="handleException" />
                                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="4907898740900855839" nodeInfo="nn">
                                       <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="4907898740900748895" resolveInfo="e" />
                                     </node>
@@ -3068,11 +3071,11 @@
               <property name="name" nameId="tpck.1169194664001" value="assembler" />
               <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="4907898740900789981" nodeInfo="nn">
                 <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="4907898740900789982" nodeInfo="nn">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ykn1.~CommandAssembler%d&lt;init&gt;()" resolveInfo="CommandAssembler" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="r9z8.~CommandAssembler%d&lt;init&gt;()" resolveInfo="CommandAssembler" />
                 </node>
               </node>
               <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="4907898740900789983" nodeInfo="in">
-                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ykn1.~CommandAssembler" resolveInfo="CommandAssembler" />
+                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="r9z8.~CommandAssembler" resolveInfo="CommandAssembler" />
               </node>
             </node>
           </node>
@@ -3080,13 +3083,13 @@
           <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="4907898740900827828" nodeInfo="nn">
             <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4927548581349126338" nodeInfo="nn">
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="4927548581349126339" nodeInfo="nn">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ykn1.~CommandAssembler%dconsumeStandardOutput(org%dcampagnelab%dnyosh%dexec%dOutputConsumer)%cvoid" resolveInfo="consumeStandardOutput" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="r9z8.~CommandAssembler%dconsumeStandardOutput(org%dcampagnelab%dnyosh%dexec%dOutputConsumer)%cvoid" resolveInfo="consumeStandardOutput" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="4927548581349126340" nodeInfo="nn">
                   <node role="creator" roleId="tpee.1145553007750" type="tpee.AnonymousClassCreator" typeId="tpee.1182160077978" id="4927548581349126341" nodeInfo="nn">
                     <node role="cls" roleId="tpee.1182160096073" type="tpee.AnonymousClass" typeId="tpee.1170345865475" id="4927548581349126342" nodeInfo="ig">
                       <property name="nonStatic" nameId="tpee.521412098689998745" value="true" />
-                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ykn1.~OutputConsumer%d&lt;init&gt;()" resolveInfo="OutputConsumer" />
-                      <link role="classifier" roleId="tpee.1170346070688" targetNodeId="ykn1.~OutputConsumer" resolveInfo="OutputConsumer" />
+                      <link role="classifier" roleId="tpee.1170346070688" targetNodeId="r9z8.~OutputConsumer" resolveInfo="OutputConsumer" />
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="r9z8.~OutputConsumer%d&lt;init&gt;()" resolveInfo="OutputConsumer" />
                       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="4927548581349126343" nodeInfo="nn" />
                       <node role="member" roleId="tpee.5375687026011219971" type="tpee.InstanceMethodDeclaration" typeId="tpee.1068580123165" id="4927548581349126344" nodeInfo="igu">
                         <property name="isAbstract" nameId="tpee.1178608670077" value="false" />
@@ -3174,7 +3177,7 @@
                               <node role="catchBody" roleId="tpee.1164903359218" type="tpee.StatementList" typeId="tpee.1068580123136" id="4927548581349126384" nodeInfo="sn">
                                 <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="4907898740900852004" nodeInfo="nn">
                                   <node role="expression" roleId="tpee.1068580123156" type="tpee.LocalMethodCall" typeId="tpee.7812454656619025412" id="4907898740900852003" nodeInfo="nn">
-                                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ykn1.~OutputConsumer%dhandleException(java%dlang%dException)%cvoid" resolveInfo="handleException" />
+                                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="r9z8.~OutputConsumer%dhandleException(java%dlang%dException)%cvoid" resolveInfo="handleException" />
                                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="4907898740900852942" nodeInfo="nn">
                                       <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="4927548581349126382" resolveInfo="e" />
                                     </node>
@@ -3230,24 +3233,24 @@
               <property name="name" nameId="tpck.1169194664001" value="assembler" />
               <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="4907898740900974455" nodeInfo="nn">
                 <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="4907898740900974456" nodeInfo="nn">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ykn1.~CommandAssembler%d&lt;init&gt;()" resolveInfo="CommandAssembler" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="r9z8.~CommandAssembler%d&lt;init&gt;()" resolveInfo="CommandAssembler" />
                 </node>
               </node>
               <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="4907898740900974457" nodeInfo="in">
-                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ykn1.~CommandAssembler" resolveInfo="CommandAssembler" />
+                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="r9z8.~CommandAssembler" resolveInfo="CommandAssembler" />
               </node>
             </node>
           </node>
           <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="4907898740901002402" nodeInfo="nn">
             <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4927548581349126276" nodeInfo="nn">
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="4927548581349126277" nodeInfo="nn">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ykn1.~CommandAssembler%dconsumeStandardError(org%dcampagnelab%dnyosh%dexec%dOutputConsumer)%cvoid" resolveInfo="consumeStandardError" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="r9z8.~CommandAssembler%dconsumeStandardError(org%dcampagnelab%dnyosh%dexec%dOutputConsumer)%cvoid" resolveInfo="consumeStandardError" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="4927548581349126278" nodeInfo="nn">
                   <node role="creator" roleId="tpee.1145553007750" type="tpee.AnonymousClassCreator" typeId="tpee.1182160077978" id="4927548581349126279" nodeInfo="nn">
                     <node role="cls" roleId="tpee.1182160096073" type="tpee.AnonymousClass" typeId="tpee.1170345865475" id="4927548581349126280" nodeInfo="ig">
                       <property name="nonStatic" nameId="tpee.521412098689998745" value="true" />
-                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ykn1.~OutputConsumer%d&lt;init&gt;()" resolveInfo="OutputConsumer" />
-                      <link role="classifier" roleId="tpee.1170346070688" targetNodeId="ykn1.~OutputConsumer" resolveInfo="OutputConsumer" />
+                      <link role="classifier" roleId="tpee.1170346070688" targetNodeId="r9z8.~OutputConsumer" resolveInfo="OutputConsumer" />
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="r9z8.~OutputConsumer%d&lt;init&gt;()" resolveInfo="OutputConsumer" />
                       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="4927548581349126281" nodeInfo="nn" />
                       <node role="member" roleId="tpee.5375687026011219971" type="tpee.InstanceMethodDeclaration" typeId="tpee.1068580123165" id="4927548581349126282" nodeInfo="igu">
                         <property name="isAbstract" nameId="tpee.1178608670077" value="false" />
@@ -3309,7 +3312,7 @@
                               <node role="catchBody" roleId="tpee.1164903359218" type="tpee.StatementList" typeId="tpee.1068580123136" id="4927548581349126312" nodeInfo="sn">
                                 <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="4907898740901006346" nodeInfo="nn">
                                   <node role="expression" roleId="tpee.1068580123156" type="tpee.LocalMethodCall" typeId="tpee.7812454656619025412" id="4907898740901006345" nodeInfo="nn">
-                                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ykn1.~OutputConsumer%dhandleException(java%dlang%dException)%cvoid" resolveInfo="handleException" />
+                                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="r9z8.~OutputConsumer%dhandleException(java%dlang%dException)%cvoid" resolveInfo="handleException" />
                                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="4907898740901006966" nodeInfo="nn">
                                       <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="4927548581349126310" resolveInfo="e" />
                                     </node>
@@ -3366,24 +3369,24 @@
               <property name="name" nameId="tpck.1169194664001" value="assembler" />
               <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="4907898740901033452" nodeInfo="nn">
                 <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="4907898740901033453" nodeInfo="nn">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ykn1.~CommandAssembler%d&lt;init&gt;()" resolveInfo="CommandAssembler" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="r9z8.~CommandAssembler%d&lt;init&gt;()" resolveInfo="CommandAssembler" />
                 </node>
               </node>
               <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="4907898740901033454" nodeInfo="in">
-                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ykn1.~CommandAssembler" resolveInfo="CommandAssembler" />
+                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="r9z8.~CommandAssembler" resolveInfo="CommandAssembler" />
               </node>
             </node>
           </node>
           <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="4907898740901061342" nodeInfo="nn">
             <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4907898740901061364" nodeInfo="nn">
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="4907898740901061365" nodeInfo="nn">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ykn1.~CommandAssembler%dconsumeStandardError(org%dcampagnelab%dnyosh%dexec%dOutputConsumer)%cvoid" resolveInfo="consumeStandardError" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="r9z8.~CommandAssembler%dconsumeStandardError(org%dcampagnelab%dnyosh%dexec%dOutputConsumer)%cvoid" resolveInfo="consumeStandardError" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="4907898740901061366" nodeInfo="nn">
                   <node role="creator" roleId="tpee.1145553007750" type="tpee.AnonymousClassCreator" typeId="tpee.1182160077978" id="4907898740901061367" nodeInfo="nn">
                     <node role="cls" roleId="tpee.1182160096073" type="tpee.AnonymousClass" typeId="tpee.1170345865475" id="4907898740901061368" nodeInfo="ig">
                       <property name="nonStatic" nameId="tpee.521412098689998745" value="true" />
-                      <link role="classifier" roleId="tpee.1170346070688" targetNodeId="ykn1.~OutputConsumer" resolveInfo="OutputConsumer" />
-                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ykn1.~OutputConsumer%d&lt;init&gt;()" resolveInfo="OutputConsumer" />
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="r9z8.~OutputConsumer%d&lt;init&gt;()" resolveInfo="OutputConsumer" />
+                      <link role="classifier" roleId="tpee.1170346070688" targetNodeId="r9z8.~OutputConsumer" resolveInfo="OutputConsumer" />
                       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="4907898740901061369" nodeInfo="nn" />
                       <node role="member" roleId="tpee.5375687026011219971" type="tpee.InstanceMethodDeclaration" typeId="tpee.1068580123165" id="4907898740901061370" nodeInfo="igu">
                         <property name="isAbstract" nameId="tpee.1178608670077" value="false" />
@@ -3527,11 +3530,11 @@
               <property name="name" nameId="tpck.1169194664001" value="assembler" />
               <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="4907898740901132734" nodeInfo="nn">
                 <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="4907898740901132735" nodeInfo="nn">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ykn1.~CommandAssembler%d&lt;init&gt;()" resolveInfo="CommandAssembler" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="r9z8.~CommandAssembler%d&lt;init&gt;()" resolveInfo="CommandAssembler" />
                 </node>
               </node>
               <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="4907898740901132736" nodeInfo="in">
-                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ykn1.~CommandAssembler" resolveInfo="CommandAssembler" />
+                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="r9z8.~CommandAssembler" resolveInfo="CommandAssembler" />
               </node>
             </node>
           </node>
@@ -3540,11 +3543,11 @@
               <property name="name" nameId="tpck.1169194664001" value="consumeProcessOutputToVar" />
               <property name="isFinal" nameId="tpee.1176718929932" value="true" />
               <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="4907898740901159591" nodeInfo="in">
-                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ykn1.~OutputConsumerToString" resolveInfo="OutputConsumerToString" />
+                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="r9z8.~OutputConsumerToString" resolveInfo="OutputConsumerToString" />
               </node>
               <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="4907898740901159592" nodeInfo="nn">
                 <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="4907898740901159593" nodeInfo="nn">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ykn1.~OutputConsumerToString%d&lt;init&gt;()" resolveInfo="OutputConsumerToString" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="r9z8.~OutputConsumerToString%d&lt;init&gt;()" resolveInfo="OutputConsumerToString" />
                 </node>
               </node>
             </node>
@@ -3553,7 +3556,7 @@
           <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="4907898740901152963" nodeInfo="nn">
             <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4907898740901152964" nodeInfo="nn">
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="4907898740901152965" nodeInfo="nn">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ykn1.~CommandAssembler%dconsumeStandardOutput(org%dcampagnelab%dnyosh%dexec%dOutputConsumer)%cvoid" resolveInfo="consumeStandardOutput" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="r9z8.~CommandAssembler%dconsumeStandardOutput(org%dcampagnelab%dnyosh%dexec%dOutputConsumer)%cvoid" resolveInfo="consumeStandardOutput" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="4907898740901152966" nodeInfo="nn">
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="9138295635397021348" resolveInfo="consumeProcessOutputToVar" />
                 </node>
@@ -3601,21 +3604,21 @@
               <property name="name" nameId="tpck.1169194664001" value="assembler" />
               <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="4907898740901223765" nodeInfo="nn">
                 <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="4907898740901223766" nodeInfo="nn">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ykn1.~CommandAssembler%d&lt;init&gt;()" resolveInfo="CommandAssembler" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="r9z8.~CommandAssembler%d&lt;init&gt;()" resolveInfo="CommandAssembler" />
                 </node>
               </node>
               <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="4907898740901223767" nodeInfo="in">
-                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ykn1.~CommandAssembler" resolveInfo="CommandAssembler" />
+                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="r9z8.~CommandAssembler" resolveInfo="CommandAssembler" />
               </node>
             </node>
           </node>
           <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="4907898740901223768" nodeInfo="nn">
             <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4907898740901223769" nodeInfo="nn">
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="4907898740901223770" nodeInfo="nn">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ykn1.~CommandAssembler%dconsumeStandardOutput(org%dcampagnelab%dnyosh%dexec%dOutputConsumer)%cvoid" resolveInfo="consumeStandardOutput" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="r9z8.~CommandAssembler%dconsumeStandardOutput(org%dcampagnelab%dnyosh%dexec%dOutputConsumer)%cvoid" resolveInfo="consumeStandardOutput" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="4907898740901223771" nodeInfo="nn">
                   <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="4907898740901254015" nodeInfo="nn">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ykn1.~RedirectToFile%d&lt;init&gt;(java%dio%dFile)" resolveInfo="RedirectToFile" />
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="r9z8.~RedirectToFile%d&lt;init&gt;(java%dio%dFile)" resolveInfo="RedirectToFile" />
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="4907898740901228136" nodeInfo="nn">
                       <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="4907898740901240649" nodeInfo="nn">
                         <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fxg7.~File%d&lt;init&gt;(java%dlang%dString)" resolveInfo="File" />

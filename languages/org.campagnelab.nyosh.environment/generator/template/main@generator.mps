@@ -11,12 +11,9 @@
   <import index="6pk0" modelUID="r:48f4e449-1a18-435e-ae88-4830aa794dc7(org.campagnelab.nyosh.environment.structure)" version="13" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <import index="8dfq" modelUID="r:6004843e-4cf7-4dde-8866-5ff0783b6316(org.campagnelab.nyosh.environment.behavior)" version="-1" />
-  <import index="aet2" modelUID="r:ab86e397-1503-48ca-8931-8dc598446fee(NYoSh.generator.template.main@generator)" version="1" />
   <import index="k7g3" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" version="-1" />
-  <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="22" />
-  <import index="oalf" modelUID="r:68607197-56b2-4223-a1cb-36b5b04b26a2(org.campagnelab.nyosh.environment.generator.template.main@generator)" version="-1" />
-  <import index="n33h" modelUID="f:java_stub#c6567f13-87ab-4686-8f6f-42e8228c0e27#org.campagnelab.nyosh.environment.parsers(org.campagnelab.nyosh.gstring/org.campagnelab.nyosh.environment.parsers@java_stub)" version="-1" />
   <import index="d0cg" modelUID="f:java_stub#0202ed86-955d-4227-9c20-377dd6b1f9ff#org.campagnelab.nyosh.environment(org.campagnelab.nyosh.lib/org.campagnelab.nyosh.environment@java_stub)" version="-1" />
+  <import index="evra" modelUID="f:java_stub#0202ed86-955d-4227-9c20-377dd6b1f9ff#org.campagnelab.nyosh.environment.parsers(org.campagnelab.nyosh.lib/org.campagnelab.nyosh.environment.parsers@java_stub)" version="-1" />
   <import index="tpf8" modelUID="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" version="2" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" implicit="yes" />
@@ -36,11 +33,11 @@
             <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5722823819935264736" nodeInfo="nn">
               <node role="operand" roleId="tpee.1197027771414" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="5722823819935214773" nodeInfo="nn">
                 <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="5722823819935264401" nodeInfo="nn">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="n33h.~MapFileParser%d&lt;init&gt;()" resolveInfo="MapFileParser" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="evra.~MapFileParser%d&lt;init&gt;()" resolveInfo="MapFileParser" />
                 </node>
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="5722823819935268891" nodeInfo="nn">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="n33h.~MapFileParser%dparseAtRunTime(java%dlang%dString)%cvoid" resolveInfo="parseAtRunTime" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="evra.~MapFileParser%dparseAtRunTime(java%dlang%dString)%cvoid" resolveInfo="parseAtRunTime" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="5722823819935268939" nodeInfo="nn">
                   <property name="value" nameId="tpee.1070475926801" value="file" />
                   <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.PropertyMacro" typeId="tpf8.1087833241328" id="5722823819935269245" nodeInfo="nn">
@@ -248,11 +245,11 @@
             <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8112761687168586727" nodeInfo="nn">
               <node role="operand" roleId="tpee.1197027771414" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="8112761687168586728" nodeInfo="nn">
                 <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="8112761687168586729" nodeInfo="nn">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="n33h.~JVMEnvParser%d&lt;init&gt;()" resolveInfo="JVMEnvParser" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="evra.~JVMEnvParser%d&lt;init&gt;()" resolveInfo="JVMEnvParser" />
                 </node>
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="8112761687168586730" nodeInfo="nn">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="n33h.~JVMEnvParser%dparseAtRunTime(java%dlang%dString)%cvoid" resolveInfo="parseAtRunTime" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="evra.~JVMEnvParser%dparseAtRunTime(java%dlang%dString)%cvoid" resolveInfo="parseAtRunTime" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="1455940728763523646" nodeInfo="nn">
                   <property name="value" nameId="tpee.1070475926801" value="" />
                 </node>
