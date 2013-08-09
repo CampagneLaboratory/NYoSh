@@ -4,6 +4,7 @@
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="languageModels" />
     </modelRoot>
+    <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support.jar" type="java_classes" />
   </models>
   <accessoryModels />
   <generators>
@@ -24,6 +25,9 @@
       <mapping-priorities />
     </generator>
   </generators>
+  <stubModelEntries>
+    <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support.jar" />
+  </stubModelEntries>
   <sourcePath />
   <dependencies>
     <dependency reexport="false">a21a7294-c126-4f63-8335-8fecd8c28c7e(NYoSh)</dependency>
