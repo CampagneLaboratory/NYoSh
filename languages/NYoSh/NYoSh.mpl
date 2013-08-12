@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language namespace="NYoSh" uuid="a21a7294-c126-4f63-8335-8fecd8c28c7e">
   <models>
-    <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1-SNAPSHOT.jar" type="java_classes" />
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="languageModels" />
       <sourceRoot location="languageAccessories" />
@@ -94,7 +93,6 @@
   </generators>
   <stubModelEntries>
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/commons-io-2.4.jar" />
-    <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1-SNAPSHOT.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

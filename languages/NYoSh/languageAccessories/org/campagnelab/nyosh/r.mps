@@ -2,10 +2,11 @@
 <model modelUID="r:ce512917-b947-401e-b3ed-0f65a14da3e5(org.campagnelab.nyosh.r)">
   <persistence version="8" />
   <language namespace="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
+  <language-engaged-on-generation namespace="0202ed86-955d-4227-9c20-377dd6b1f9ff(org.campagnelab.nyosh.lib)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   <import index="fxg7" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" version="-1" />
-  <import index="mnpo" modelUID="f:java_stub#a21a7294-c126-4f63-8335-8fecd8c28c7e#campagnelab.stepslogger(NYoSh/campagnelab.stepslogger@java_stub)" version="-1" />
-  <import index="bs02" modelUID="f:java_stub#a21a7294-c126-4f63-8335-8fecd8c28c7e#org.campagnelab.stepslogger(NYoSh/org.campagnelab.stepslogger@java_stub)" version="-1" />
+  <import index="x2pl" modelUID="f:java_stub#0202ed86-955d-4227-9c20-377dd6b1f9ff#org.campagnelab.stepslogger(org.campagnelab.nyosh.lib/org.campagnelab.stepslogger@java_stub)" version="-1" />
+  <import index="kl8j" modelUID="f:java_stub#0202ed86-955d-4227-9c20-377dd6b1f9ff#campagnelab.stepslogger(org.campagnelab.nyosh.lib/campagnelab.stepslogger@java_stub)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" implicit="yes" />
   <root type="tpee.ClassConcept" typeId="tpee.1068390468198" id="7015383683227815344" nodeInfo="ig">
@@ -25,7 +26,7 @@
                       <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="435930706556389257" resolveInfo="_steps" />
                     </node>
                     <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="435930706556389307" nodeInfo="nn">
-                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bs02.~FileStepsLogger%derror(java%dlang%dString)%cvoid" resolveInfo="error" />
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="x2pl.~FileStepsLogger%derror(java%dlang%dString)%cvoid" resolveInfo="error" />
                       <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="435930706556389308" nodeInfo="nn">
                         <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="435930706556389330" resolveInfo="reason" />
                       </node>
@@ -51,7 +52,7 @@
                           <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="435930706556389257" resolveInfo="_steps" />
                         </node>
                         <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="435930706556389315" nodeInfo="nn">
-                          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bs02.~FileStepsLogger%dclose()%cvoid" resolveInfo="close" />
+                          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="x2pl.~FileStepsLogger%dclose()%cvoid" resolveInfo="close" />
                         </node>
                       </node>
                       <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpck.SuppressErrorsAnnotation" typeId="tpck.4222318806802425298" id="435930706556389316" nodeInfo="ng" />
@@ -114,7 +115,7 @@
       <property name="name" nameId="tpck.1169194664001" value="_steps" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="435930706556389258" nodeInfo="nn" />
       <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="7015383683227590746" nodeInfo="in">
-        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="bs02.~FileStepsLogger" resolveInfo="FileStepsLogger" />
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="x2pl.~FileStepsLogger" resolveInfo="FileStepsLogger" />
       </node>
     </node>
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.StaticMethodDeclaration" typeId="tpee.1081236700938" id="435930706556389264" nodeInfo="igu">
@@ -128,7 +129,7 @@
               <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="435930706556389271" nodeInfo="nn">
                 <node role="rValue" roleId="tpee.1068498886297" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="435930706556389272" nodeInfo="nn">
                   <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="435930706556389273" nodeInfo="nn">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bs02.~FileStepsLogger%d&lt;init&gt;(java%dio%dFile)" resolveInfo="FileStepsLogger" />
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="x2pl.~FileStepsLogger%d&lt;init&gt;(java%dio%dFile)" resolveInfo="FileStepsLogger" />
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="435930706556389274" nodeInfo="nn">
                       <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="435930706556389275" nodeInfo="nn">
                         <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fxg7.~File%d&lt;init&gt;(java%dlang%dString)" resolveInfo="File" />
@@ -193,7 +194,7 @@
               <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="435930706556389257" resolveInfo="_steps" />
             </node>
             <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="3834344539457595253" nodeInfo="nn">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bs02.~FileStepsLogger%dstep(java%dlang%dString,int)%cvoid" resolveInfo="step" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="x2pl.~FileStepsLogger%dstep(java%dlang%dString,int)%cvoid" resolveInfo="step" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="3834344539457595306" nodeInfo="nn">
                 <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3834344539457587326" resolveInfo="stepDescription" />
               </node>

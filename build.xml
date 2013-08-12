@@ -277,7 +277,6 @@
           <module ref="9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)" />
         </dependencies>
         <library jar="../../../../lib/commons-io-2.4.jar" />
-        <library jar="../../../../lib/org.campagnelab.stepslogger-1.1-SNAPSHOT.jar" />
         <sources jar="NYoSh-src.jar" descriptor="NYoSh.mpl" />
       </module>
     </echoxml>
@@ -399,6 +398,7 @@
         </dependencies>
         <library jar="../../../../lib/wildcard-1.03.jar" />
         <library jar="../../../../lib/nyosh-runtime-support.jar" />
+        <library jar="../../../../lib/org.campagnelab.stepslogger-1.1-SNAPSHOT.jar" />
         <sources jar="org.campagnelab.nyosh.lib-src.jar" descriptor="org.campagnelab.nyosh.lib.mpl" />
       </module>
     </echoxml>
@@ -569,6 +569,7 @@
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.lib" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/wildcard-1.03.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1-SNAPSHOT.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/log4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/jdom.jar" />
@@ -613,6 +614,7 @@
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.lib" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/wildcard-1.03.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1-SNAPSHOT.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/log4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/jdom.jar" />
@@ -657,6 +659,7 @@
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.lib" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/wildcard-1.03.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1-SNAPSHOT.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/log4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/jdom.jar" />
@@ -702,6 +705,7 @@
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.pathpatterns" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/wildcard-1.03.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1-SNAPSHOT.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/log4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/jdom.jar" />
@@ -747,9 +751,9 @@
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.lib" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.textoutput" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/commons-io-2.4.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1-SNAPSHOT.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/wildcard-1.03.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1-SNAPSHOT.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/log4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/jdom.jar" />
@@ -799,9 +803,9 @@
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.lib" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.textoutput" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/commons-io-2.4.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1-SNAPSHOT.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/wildcard-1.03.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1-SNAPSHOT.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/log4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/jdom.jar" />
@@ -848,9 +852,9 @@
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.gstring" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.lib" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/commons-io-2.4.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1-SNAPSHOT.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/wildcard-1.03.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1-SNAPSHOT.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/log4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/jdom.jar" />
@@ -899,9 +903,9 @@
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.gstring" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.lib" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/commons-io-2.4.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1-SNAPSHOT.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/wildcard-1.03.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1-SNAPSHOT.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/log4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/jdom.jar" />
@@ -948,6 +952,7 @@
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.lib" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/wildcard-1.03.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1-SNAPSHOT.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/log4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/jdom.jar" />
@@ -1071,6 +1076,7 @@
         <fileset file="${artifacts.mpsStandalone}/lib/mps-platform.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/wildcard-1.03.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1-SNAPSHOT.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/log4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/jdom.jar" />
@@ -1114,6 +1120,7 @@
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.lib" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/wildcard-1.03.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1-SNAPSHOT.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/log4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/jdom.jar" />

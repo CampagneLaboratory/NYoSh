@@ -21,11 +21,11 @@
   <import index="tpjw" modelUID="r:00000000-0000-4000-0000-011c89590580(jetbrains.mps.baseLanguage.logging.generator.baseLanguage.template.main@generator)" version="-1" />
   <import index="dph6" modelUID="r:5ea5cfa7-405a-4cc9-8472-d124bf4a8970(NYoSh.generator.template.HelperCode)" version="-1" />
   <import index="fxg7" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" version="-1" />
-  <import index="mnpo" modelUID="f:java_stub#a21a7294-c126-4f63-8335-8fecd8c28c7e#campagnelab.stepslogger(NYoSh/campagnelab.stepslogger@java_stub)" version="-1" />
-  <import index="bs02" modelUID="f:java_stub#a21a7294-c126-4f63-8335-8fecd8c28c7e#org.campagnelab.stepslogger(NYoSh/org.campagnelab.stepslogger@java_stub)" version="-1" />
   <import index="k7g3" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" version="-1" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" />
   <import index="r9z8" modelUID="f:java_stub#0202ed86-955d-4227-9c20-377dd6b1f9ff#org.campagnelab.nyosh.exec(org.campagnelab.nyosh.lib/org.campagnelab.nyosh.exec@java_stub)" version="-1" />
+  <import index="kl8j" modelUID="f:java_stub#0202ed86-955d-4227-9c20-377dd6b1f9ff#campagnelab.stepslogger(org.campagnelab.nyosh.lib/campagnelab.stepslogger@java_stub)" version="-1" />
+  <import index="x2pl" modelUID="f:java_stub#0202ed86-955d-4227-9c20-377dd6b1f9ff#org.campagnelab.stepslogger(org.campagnelab.nyosh.lib/org.campagnelab.stepslogger@java_stub)" version="-1" />
   <import index="tpf8" modelUID="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" version="2" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
   <import index="tp2c" modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" implicit="yes" />
@@ -34,7 +34,6 @@
   <import index="tpib" modelUID="r:00000000-0000-4000-0000-011c8959057f(jetbrains.mps.baseLanguage.logging.structure)" version="0" implicit="yes" />
   <import index="tp3r" modelUID="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" version="0" implicit="yes" />
   <import index="q5cj" modelUID="r:41fb14d2-a085-41df-8256-2db786d90029(jetbrains.mps.lang.generator.generationParameters.structure)" version="-1" implicit="yes" />
-  <import index="ykn1" modelUID="f:java_stub#c6567f13-87ab-4686-8f6f-42e8228c0e27#org.campagnelab.nyosh.exec(org.campagnelab.nyosh.gstring/org.campagnelab.nyosh.exec@java_stub)" version="-1" implicit="yes" />
   <root type="tpf8.MappingConfiguration" typeId="tpf8.1095416546421" id="8197864363320338552" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="CommandOperatorsToJava" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="commandOperators" />
@@ -718,8 +717,8 @@
   </root>
   <root type="tpee.ClassConcept" typeId="tpee.1068390468198" id="2829258213785068376" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="DefaultArgumentParser" />
-    <node role="implementedInterface" roleId="tpee.1095933932569" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="2829258213785075704" nodeInfo="in">
-      <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ykn1.~IArgumentParser" resolveInfo="IArgumentParser" />
+    <node role="implementedInterface" roleId="tpee.1095933932569" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="8902365438460494620" nodeInfo="in">
+      <link role="classifier" roleId="tpee.1107535924139" targetNodeId="r9z8.~IArgumentParser" resolveInfo="IArgumentParser" />
     </node>
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="2829258213785069020" nodeInfo="igu">
       <property name="isVolatile" nameId="tpee.1240249534625" value="false" />
@@ -787,7 +786,7 @@
   <root type="tpee.ClassConcept" typeId="tpee.1068390468198" id="2829258213785223221" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="DefaultParsedArguments" />
     <node role="implementedInterface" roleId="tpee.1095933932569" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="2829258213785248437" nodeInfo="in">
-      <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ykn1.~IParsedArguments" resolveInfo="IParsedArguments" />
+      <link role="classifier" roleId="tpee.1107535924139" targetNodeId="r9z8.~IParsedArguments" resolveInfo="IParsedArguments" />
     </node>
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="2829258213785223951" nodeInfo="igu">
       <property name="isVolatile" nameId="tpee.1240249534625" value="false" />
@@ -2104,7 +2103,7 @@
                     <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="435930706556389014" resolveInfo="_steps" />
                   </node>
                   <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="435930706556389004" nodeInfo="nn">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bs02.~FileStepsLogger%dclose()%cvoid" resolveInfo="close" />
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="x2pl.~FileStepsLogger%dclose()%cvoid" resolveInfo="close" />
                   </node>
                 </node>
               </node>
@@ -2138,7 +2137,7 @@
         <property name="name" nameId="tpck.1169194664001" value="_steps" />
         <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="435930706556389015" nodeInfo="nn" />
         <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="3356917312215823518" nodeInfo="in">
-          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="bs02.~FileStepsLogger" resolveInfo="FileStepsLogger" />
+          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="x2pl.~FileStepsLogger" resolveInfo="FileStepsLogger" />
         </node>
       </node>
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="435930706556389017" nodeInfo="nn" />
@@ -2264,7 +2263,7 @@
         <property name="isFinal" nameId="tpee.1176718929932" value="false" />
         <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="435930706556389061" nodeInfo="nn" />
         <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="435930706556389062" nodeInfo="in">
-          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="bs02.~FileStepsLogger" resolveInfo="FileStepsLogger" />
+          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="x2pl.~FileStepsLogger" resolveInfo="FileStepsLogger" />
         </node>
       </node>
       <node role="member" roleId="tpee.5375687026011219971" type="tpee.StaticMethodDeclaration" typeId="tpee.1081236700938" id="435930706556389063" nodeInfo="igu">
@@ -2307,7 +2306,7 @@
                 <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="435930706556389083" nodeInfo="nn">
                   <node role="rValue" roleId="tpee.1068498886297" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="435930706556389084" nodeInfo="nn">
                     <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="435930706556389085" nodeInfo="nn">
-                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bs02.~FileStepsLogger%d&lt;init&gt;(java%dio%dFile)" resolveInfo="FileStepsLogger" />
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="x2pl.~FileStepsLogger%d&lt;init&gt;(java%dio%dFile)" resolveInfo="FileStepsLogger" />
                       <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="435930706556389086" nodeInfo="nn">
                         <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="435930706556389087" nodeInfo="nn">
                           <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fxg7.~File%d&lt;init&gt;(java%dlang%dString)" resolveInfo="File" />
@@ -4715,7 +4714,7 @@
         <property name="name" nameId="tpck.1169194664001" value="_steps" />
         <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="435930706556389258" nodeInfo="nn" />
         <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="6991050200772306781" nodeInfo="in">
-          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="bs02.~FileStepsLogger" resolveInfo="FileStepsLogger" />
+          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="x2pl.~FileStepsLogger" resolveInfo="FileStepsLogger" />
         </node>
         <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.TemplateFragment" typeId="tpf8.1095672379244" id="435930706556389260" nodeInfo="ng" />
         <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.MapSrcNodeMacro" typeId="tpf8.1131073187192" id="435930706556389261" nodeInfo="nn" />
@@ -4734,7 +4733,7 @@
                 <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="435930706556389271" nodeInfo="nn">
                   <node role="rValue" roleId="tpee.1068498886297" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="435930706556389272" nodeInfo="nn">
                     <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="435930706556389273" nodeInfo="nn">
-                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bs02.~FileStepsLogger%d&lt;init&gt;(java%dio%dFile)" resolveInfo="FileStepsLogger" />
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="x2pl.~FileStepsLogger%d&lt;init&gt;(java%dio%dFile)" resolveInfo="FileStepsLogger" />
                       <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="435930706556389274" nodeInfo="nn">
                         <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="435930706556389275" nodeInfo="nn">
                           <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fxg7.~File%d&lt;init&gt;(java%dlang%dString)" resolveInfo="File" />
@@ -4806,7 +4805,7 @@
                 <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="435930706556389257" resolveInfo="_steps" />
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="3834344539457595253" nodeInfo="nn">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bs02.~FileStepsLogger%dstep(java%dlang%dString,int)%cvoid" resolveInfo="step" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="x2pl.~FileStepsLogger%dstep(java%dlang%dString,int)%cvoid" resolveInfo="step" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="3834344539457595306" nodeInfo="nn">
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3834344539457587326" resolveInfo="stepDescription" />
                 </node>
@@ -4845,7 +4844,7 @@
                     <link role="classifier" roleId="tpee.1144433057691" targetNodeId="435930706556389256" resolveInfo="dummy" />
                   </node>
                   <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="435930706556389307" nodeInfo="nn">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bs02.~FileStepsLogger%derror(java%dlang%dString)%cvoid" resolveInfo="error" />
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="x2pl.~FileStepsLogger%derror(java%dlang%dString)%cvoid" resolveInfo="error" />
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="435930706556389308" nodeInfo="nn">
                       <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="435930706556389330" resolveInfo="reason" />
                     </node>
@@ -4862,7 +4861,7 @@
                         <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="435930706556389257" resolveInfo="_steps" />
                       </node>
                       <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="435930706556389315" nodeInfo="nn">
-                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bs02.~FileStepsLogger%dclose()%cvoid" resolveInfo="close" />
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="x2pl.~FileStepsLogger%dclose()%cvoid" resolveInfo="close" />
                       </node>
                     </node>
                     <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpck.SuppressErrorsAnnotation" typeId="tpck.4222318806802425298" id="435930706556389316" nodeInfo="ng" />
