@@ -6,6 +6,7 @@
     </modelRoot>
     <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/wildcard-1.03.jar" type="java_classes" />
     <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support.jar" type="java_classes" />
+    <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1-SNAPSHOT.jar" type="java_classes" />
   </models>
   <accessoryModels />
   <generators>
@@ -30,6 +31,7 @@
   <stubModelEntries>
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/wildcard-1.03.jar" />
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support.jar" />
+    <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1-SNAPSHOT.jar" />
   </stubModelEntries>
   <sourcePath />
   <usedDevKits>
