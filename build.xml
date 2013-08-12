@@ -12,6 +12,8 @@
   <property name="artifacts.mpsStandalone" location="${mps_home}" />
   <property name="artifacts.mpsMakePlugin" location="${mps_home}/plugins" />
   <property name="artifacts.mpsTesting" location="${mps_home}/plugins" />
+  <property name="artifacts.mpsBuild" location="${mps_home}/plugins" />
+  <property name="artifacts.mpsBuildUI" location="${mps_home}/plugins" />
   <property file="${artifacts.mpsStandalone}/build.properties" prefix="import.mpsStandalone" />
   <property name="mpsBootstrapCore.version" value="${import.mpsStandalone.mpsBootstrapCore.version}" />
   
@@ -25,6 +27,10 @@
     <mkdir dir="${build.layout}/languages" />
     <copy todir="${build.layout}/languages">
       <fileset dir="${artifacts.mpsStandalone}/languages" />
+    </copy>
+    <mkdir dir="${build.layout}/mps-build" />
+    <copy todir="${build.layout}/mps-build">
+      <fileset dir="${artifacts.mpsBuildUI}/mps-build" />
     </copy>
     <mkdir dir="${build.layout}/license" />
     <copy todir="${build.layout}/license">
@@ -111,10 +117,6 @@
     <mkdir dir="${build.layout}/plugins/mps-core" />
     <copy todir="${build.layout}/plugins/mps-core">
       <fileset dir="${artifacts.mpsStandalone}/plugins/mps-core" />
-    </copy>
-    <mkdir dir="${build.layout}/plugins/mps-build" />
-    <copy todir="${build.layout}/plugins/mps-build">
-      <fileset dir="${build.layout}/plugins/mps-build" />
     </copy>
     <mkdir dir="${build.layout}/plugins/NYoSh Workbench" />
     <mkdir dir="${build.layout}/plugins/NYoSh Workbench/META-INF" />
@@ -424,6 +426,14 @@
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.nyosh.lib-languageModels" prefix="module/languageModels" />
     </jar>
     <copy file="${artifacts.mpsMakePlugin}/mps-make.jar" todir="${build.layout}/plugins" />
+    <mkdir dir="${build.layout}/plugins/mps-build" />
+    <copy todir="${build.layout}/plugins/mps-build">
+      <fileset dir="${artifacts.mpsBuildUI}/mps-build" />
+    </copy>
+    <mkdir dir="${build.layout}/plugins/mps-build" />
+    <copy todir="${build.layout}/plugins/mps-build">
+      <fileset dir="${artifacts.mpsBuild}/mps-build" />
+    </copy>
     <mkdir dir="${build.layout}/plugins/git4idea" />
     <copy todir="${build.layout}/plugins/git4idea">
       <fileset dir="${artifacts.mpsStandalone}/plugins/git4idea" />
