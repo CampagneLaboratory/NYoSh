@@ -5,7 +5,6 @@
       <sourceRoot location="languageModels" />
       <sourceRoot location="languageAccessories" />
     </modelRoot>
-    <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/commons-io-2.4.jar" type="java_classes" />
   </models>
   <accessoryModels>
     <model modelUID="r:ce512917-b947-401e-b3ed-0f65a14da3e5(org.campagnelab.nyosh.r)" />
@@ -91,9 +90,6 @@
       </mapping-priorities>
     </generator>
   </generators>
-  <stubModelEntries>
-    <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/commons-io-2.4.jar" />
-  </stubModelEntries>
   <sourcePath />
   <dependencies>
     <dependency reexport="false">3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)</dependency>
