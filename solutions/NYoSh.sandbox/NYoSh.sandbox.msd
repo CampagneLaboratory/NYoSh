@@ -10,6 +10,7 @@
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/commons-io-2.4.jar" />
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support.jar" />
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/wildcard-1.03.jar" />
+    <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/plugins-2.3-SNAPSHOT.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

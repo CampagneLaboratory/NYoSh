@@ -37,7 +37,7 @@
                 </node>
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="5722823819935268891" nodeInfo="nn">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="evra.~MapFileParser%dparseAtRunTime(java%dlang%dString)%cvoid" resolveInfo="parseAtRunTime" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="evra.~MapFileParser%dparseAtRunTime(java%dlang%dString%d%d%d)%cvoid" resolveInfo="parseAtRunTime" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="5722823819935268939" nodeInfo="nn">
                   <property name="value" nameId="tpee.1070475926801" value="file" />
                   <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.PropertyMacro" typeId="tpf8.1087833241328" id="5722823819935269245" nodeInfo="nn">
@@ -249,7 +249,7 @@
                 </node>
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="8112761687168586730" nodeInfo="nn">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="evra.~JVMEnvParser%dparseAtRunTime(java%dlang%dString)%cvoid" resolveInfo="parseAtRunTime" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="evra.~JVMEnvParser%dparseAtRunTime(java%dlang%dString%d%d%d)%cvoid" resolveInfo="parseAtRunTime" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="1455940728763523646" nodeInfo="nn">
                   <property name="value" nameId="tpee.1070475926801" value="" />
                 </node>
