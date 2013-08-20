@@ -8,6 +8,8 @@
     <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support.jar" type="java_classes" />
     <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1-SNAPSHOT.jar" type="java_classes" />
     <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/commons-io-2.4.jar" type="java_classes" />
+    <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/plugins-2.3-SNAPSHOT.jar" type="java_classes" />
+    <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/filesets-1.1.jar" type="java_classes" />
   </models>
   <accessoryModels />
   <generators>
@@ -34,6 +36,8 @@
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1-SNAPSHOT.jar" />
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/commons-io-2.4.jar" />
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support.jar" />
+    <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/plugins-2.3-SNAPSHOT.jar" />
+    <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/filesets-1.1.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
