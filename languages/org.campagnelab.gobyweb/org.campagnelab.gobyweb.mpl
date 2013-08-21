@@ -4,8 +4,11 @@
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="languageModels" />
     </modelRoot>
-    <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/plugins-2.3-SNAPSHOT.jar" type="java_classes" />
   </models>
+  <facets>
+    <facet type="java" />
+    <facet type="tests" />
+  </facets>
   <accessoryModels />
   <generators>
     <generator name="" generatorUID="org.campagnelab.gobyweb#1090105717920801462" uuid="ae984eb0-b5d6-4751-be51-025e23c91f0a">
@@ -87,8 +90,8 @@
   <extendedLanguages>
     <extendedLanguage>0f071fdb-3faa-4b8c-9f5e-1da0a01466d5(org.campagnelab.nyosh.environment)</extendedLanguage>
     <extendedLanguage>f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</extendedLanguage>
-    <extendedLanguage>a21a7294-c126-4f63-8335-8fecd8c28c7e(NYoSh)</extendedLanguage>
     <extendedLanguage>901f5cf3-dc77-4c1e-bc5a-6382baee28b4(org.campagnelab.textoutput)</extendedLanguage>
+    <extendedLanguage>a21a7294-c126-4f63-8335-8fecd8c28c7e(NYoSh)</extendedLanguage>
   </extendedLanguages>
 </language>
 
