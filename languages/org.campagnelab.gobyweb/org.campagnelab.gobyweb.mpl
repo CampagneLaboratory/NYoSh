@@ -17,6 +17,10 @@
           <sourceRoot location="generator/template" />
         </modelRoot>
       </models>
+      <facets>
+        <facet type="java" />
+        <facet type="java" />
+      </facets>
       <external-templates>
         <generator generatorUID="ca3c497c-ccac-4f23-9e37-111977da1ae3(org.campagnelab.nyosh.environment#3173353997360794809)" />
         <generator generatorUID="b0ebc3f2-c15d-4fad-bdc5-56b3ea4437a2(NYoSh#8197864363320338521)" />
@@ -40,8 +44,13 @@
         <usedDevKit>fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)</usedDevKit>
       </usedDevKits>
       <mapping-priorities>
-        <mapping-priority-rule kind="strictly_after">
-          <greater-priority-mapping />
+        <mapping-priority-rule kind="strictly_before">
+          <greater-priority-mapping>
+            <generator generatorUID="ae984eb0-b5d6-4751-be51-025e23c91f0a(org.campagnelab.gobyweb#1090105717920801462)" />
+            <external-mapping>
+              <mapping-node modelUID="r:61e13d24-631f-40c2-b2e9-0830ef4cd280(org.campagnelab.gobyweb.generator.template.main@generator)" nodeID="1090105717920801463" />
+            </external-mapping>
+          </greater-priority-mapping>
           <lesser-priority-mapping>
             <generator generatorUID="ca3c497c-ccac-4f23-9e37-111977da1ae3(org.campagnelab.nyosh.environment#3173353997360794809)" />
             <external-mapping>
@@ -49,8 +58,13 @@
             </external-mapping>
           </lesser-priority-mapping>
         </mapping-priority-rule>
-        <mapping-priority-rule kind="strictly_after">
-          <greater-priority-mapping />
+        <mapping-priority-rule kind="strictly_before">
+          <greater-priority-mapping>
+            <generator generatorUID="ae984eb0-b5d6-4751-be51-025e23c91f0a(org.campagnelab.gobyweb#1090105717920801462)" />
+            <external-mapping>
+              <mapping-node modelUID="r:61e13d24-631f-40c2-b2e9-0830ef4cd280(org.campagnelab.gobyweb.generator.template.main@generator)" nodeID="1090105717920801463" />
+            </external-mapping>
+          </greater-priority-mapping>
           <lesser-priority-mapping>
             <generator generatorUID="b0ebc3f2-c15d-4fad-bdc5-56b3ea4437a2(NYoSh#8197864363320338521)" />
             <external-mapping>
