@@ -602,41 +602,14 @@
     <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="3173353997353887152" nodeInfo="ng">
       <property name="text" nameId="p6sl.5493669862519718600" value="MPS_LIBS=`cat ${JOB_DIR}/${RESOURCES_MPS_JARS_LIST} |awk '{ORS=&quot;:&quot;; print $1}'`" />
     </node>
+    <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="2397243584922421218" nodeInfo="ng">
+      <property name="text" nameId="p6sl.5493669862519718600" value="export NYOSH_SUPPORT_LIBS_DIR=${RESOURCES_ARTIFACTS_MPS_SUPPORT_LIBS}" />
+    </node>
+    <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="2397243584922441520" nodeInfo="ng">
+      <property name="text" nameId="p6sl.5493669862519718600" value="NYOSH_SUPPORT_LIBS=`cat ${JOB_DIR}/${RESOURCES_MPS_SUPPORT_JARS_LIST} |awk '{ORS=&quot;:&quot;; print $1}'`" />
+    </node>
     <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="1072453283801109642" nodeInfo="ng">
-      <property name="text" nameId="p6sl.5493669862519718600" value="CLASSPATH=${MPS_LIBS}${RESOURCES_ARTIFACTS_MPS_SUPPORT_LIBS}/wildcard-1.03.jar:${RESOURCES_MPS_PATTERN_MATCHER}:${JOB_DIR}" />
-    </node>
-    <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="1072453283801109643" nodeInfo="ng">
-      <property name="text" nameId="p6sl.5493669862519718600" value="#MODULE=NYoSh.sandbox" />
-    </node>
-    <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="1072453283801109645" nodeInfo="ng">
-      <property name="text" nameId="p6sl.5493669862519718600" value="#" />
-      <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="1072453283801120910" nodeInfo="ng">
-        <property name="text" nameId="p6sl.1680136183140337487" value="CONCEPT=" />
-      </node>
-      <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="1072453283801120911" nodeInfo="ng">
-        <property name="text" nameId="p6sl.1680136183140337487" value="concept" />
-        <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.PropertyMacro" typeId="tpf8.1087833241328" id="1072453283801121850" nodeInfo="nn">
-          <property name="propertyName" nameId="tpck.1757699476691236117" value="text" />
-          <node role="propertyValueFunction" roleId="tpf8.1167756362303" type="tpf8.PropertyMacro_GetPropertyValue" typeId="tpf8.1167756080639" id="1072453283801121851" nodeInfo="nn">
-            <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="1072453283801121852" nodeInfo="sn">
-              <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="1072453283801122681" nodeInfo="nn">
-                <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1072453283801123071" nodeInfo="nn">
-                  <node role="operand" roleId="tpee.1197027771414" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="1072453283801122680" nodeInfo="nn" />
-                  <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="1072453283801130252" nodeInfo="nn">
-                    <link role="property" roleId="tp25.1138056395725" targetNodeId="935h.1072453283800573585" resolveInfo="conceptName" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="1072453283801109646" nodeInfo="ng">
-      <property name="text" nameId="p6sl.5493669862519718600" value="#MODULE_GEN_CLASSES=`find ${JOB_DIR} -name classes_gen | awk '{ORS=&quot;:&quot;; print $1}'`" />
-    </node>
-    <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="1072453283801109647" nodeInfo="ng">
-      <property name="text" nameId="p6sl.5493669862519718600" value="#echo &quot;MODULE_GEN_CLASSES: ${MODULE_GEN_CLASSES}&quot;" />
+      <property name="text" nameId="p6sl.5493669862519718600" value="CLASSPATH=${MPS_LIBS}${NYOSH_SUPPORT_LIBS}${JOB_DIR}" />
     </node>
     <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="1072453283801109644" nodeInfo="ng">
       <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="3173353997354279985" nodeInfo="ng">
