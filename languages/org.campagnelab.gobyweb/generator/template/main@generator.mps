@@ -593,16 +593,13 @@
       <property name="text" nameId="p6sl.5493669862519718600" value="export MPS_HOME=${RESOURCES_ARTIFACTS_MPS_DISTRIBUTION}" />
     </node>
     <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="3173353997353887152" nodeInfo="ng">
-      <property name="text" nameId="p6sl.5493669862519718600" value="MPS_LIBS=`cat ${JOB_DIR}/${RESOURCES_MPS_JARS_LIST} |awk '{ORS=&quot;:&quot;; print $1}'`" />
+      <property name="text" nameId="p6sl.5493669862519718600" value="MPS_LIBS=`cat ${RESOURCES_MPS_JARS_LIST} |awk '{ORS=&quot;:&quot;; print $1}'`" />
     </node>
-    <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="2397243584922421218" nodeInfo="ng">
-      <property name="text" nameId="p6sl.5493669862519718600" value="export NYOSH_SUPPORT_LIBS_DIR=${RESOURCES_ARTIFACTS_MPS_SUPPORT_LIBS}" />
+    <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="7105388934540718320" nodeInfo="ng">
+      <property name="text" nameId="p6sl.5493669862519718600" value="NYOSH_SUPPORT_LIBS=&quot;$RESOURCES_ARTIFACTS_MPS_SUPPORT_LIBS/*&quot;" />
     </node>
-    <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="2397243584922441520" nodeInfo="ng">
-      <property name="text" nameId="p6sl.5493669862519718600" value="NYOSH_SUPPORT_LIBS=`cat ${JOB_DIR}/${RESOURCES_MPS_SUPPORT_JARS_LIST} |awk '{ORS=&quot;:&quot;; print $1}'`" />
-    </node>
-    <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="1072453283801109642" nodeInfo="ng">
-      <property name="text" nameId="p6sl.5493669862519718600" value="CLASSPATH=${MPS_LIBS}${NYOSH_SUPPORT_LIBS}${JOB_DIR}" />
+    <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="7105388934540725781" nodeInfo="ng">
+      <property name="text" nameId="p6sl.5493669862519718600" value="CLASSPATH=${MPS_LIBS}${NYOSH_SUPPORT_LIBS}:${JOB_DIR}" />
     </node>
     <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="1072453283801109644" nodeInfo="ng">
       <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="3173353997354279985" nodeInfo="ng">
