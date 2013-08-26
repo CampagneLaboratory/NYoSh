@@ -593,24 +593,6 @@
                         <property name="value" nameId="6pk0.5469406079154538151" value="/Users/mas2182/temp" />
                       </node>
                     </node>
-                    <node role="sources" roleId="6pk0.3173353997360946804" type="6pk0.MapFileSource" typeId="6pk0.3173353997360878302" id="3327308458739933268" nodeInfo="nr">
-                      <node role="loader" roleId="6pk0.3173353997360796899" type="6pk0.MapFileLoader" typeId="6pk0.3173353997360795160" id="3327308458739933271" nodeInfo="nr">
-                        <link role="source" roleId="6pk0.3173353997362497485" targetNodeId="3327308458739933268" />
-                      </node>
-                      <node role="source" roleId="6pk0.1455940728763205902" type="6pk0.SourcePath" typeId="6pk0.1455940728763133433" id="3327308458739933272" nodeInfo="ng">
-                        <property name="filename" nameId="6pk0.1455940728763133434" value="constants.sh" />
-                        <link role="path" roleId="6pk0.3741291048046407953" targetNodeId="5354049477817027171" resolveInfo="JOB_DIR" />
-                      </node>
-                    </node>
-                    <node role="sources" roleId="6pk0.3173353997360946804" type="6pk0.MapFileSource" typeId="6pk0.3173353997360878302" id="3327308458739933329" nodeInfo="nr">
-                      <node role="loader" roleId="6pk0.3173353997360796899" type="6pk0.MapFileLoader" typeId="6pk0.3173353997360795160" id="3327308458739933332" nodeInfo="nr">
-                        <link role="source" roleId="6pk0.3173353997362497485" targetNodeId="3327308458739933329" />
-                      </node>
-                      <node role="source" roleId="6pk0.1455940728763205902" type="6pk0.SourcePath" typeId="6pk0.1455940728763133433" id="3327308458739933333" nodeInfo="ng">
-                        <property name="filename" nameId="6pk0.1455940728763133434" value="auto-options.sh" />
-                        <link role="path" roleId="6pk0.3741291048046407953" targetNodeId="5354049477817027171" resolveInfo="JOB_DIR" />
-                      </node>
-                    </node>
                   </node>
                   <node role="statement" roleId="tpee.1068581517665" type="4tvk.Step" typeId="4tvk.435930706556016196" id="6632689342639759610" nodeInfo="ng">
                     <property name="description" nameId="4tvk.435930706556016197" value="Catch all step for GobyWeb" />
