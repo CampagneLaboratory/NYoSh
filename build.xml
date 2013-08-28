@@ -81,7 +81,7 @@
       <fileset file="${org.campagnelab.goby.workbench.home}/lib/groovy-all-1.8.6.jar" />
     </copy>
     <copy todir="${build.layout}/lib">
-      <fileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.2.3.jar" />
+      <fileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.3.0-SNAPSHOT.jar" />
     </copy>
     <copy todir="${build.layout}/lib">
       <fileset file="${org.campagnelab.goby.workbench.home}/lib/fastutil-6.4.4.jar" />
@@ -421,11 +421,11 @@
         <library jar="../../../../lib/filesets-1.1.jar" />
         <library jar="../../../../lib/plugins-2.3-SNAPSHOT.jar" />
         <library jar="../../../../lib/groovy-all-1.8.6.jar" />
-        <library jar="../../../../lib/artifacts-2.2.3.jar" />
         <library jar="../../../../lib/fastutil-6.4.4.jar" />
         <library jar="../../../../lib/option-validation-language-2.1.0.jar" />
         <library jar="../../../../lib/scala-library-2.9.2.jar" />
         <library jar="../../../../lib/nyosh-runtime-support-1.0.3-SNAPSHOT.jar" />
+        <library jar="../../../../lib/artifacts-2.3.0-SNAPSHOT.jar" />
         <sources jar="org.campagnelab.nyosh.lib-src.jar" descriptor="org.campagnelab.nyosh.lib.mpl" />
       </module>
     </echoxml>
@@ -611,11 +611,11 @@
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/filesets-1.1.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.3-SNAPSHOT.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/groovy-all-1.8.6.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.2.3.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/fastutil-6.4.4.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/option-validation-language-2.1.0.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/scala-library-2.9.2.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.0.3-SNAPSHOT.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.3.0-SNAPSHOT.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/log4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/jdom.jar" />
@@ -664,11 +664,11 @@
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/filesets-1.1.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.3-SNAPSHOT.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/groovy-all-1.8.6.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.2.3.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/fastutil-6.4.4.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/option-validation-language-2.1.0.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/scala-library-2.9.2.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.0.3-SNAPSHOT.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.3.0-SNAPSHOT.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/log4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/jdom.jar" />
@@ -717,11 +717,11 @@
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/filesets-1.1.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.3-SNAPSHOT.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/groovy-all-1.8.6.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.2.3.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/fastutil-6.4.4.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/option-validation-language-2.1.0.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/scala-library-2.9.2.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.0.3-SNAPSHOT.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.3.0-SNAPSHOT.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/log4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/jdom.jar" />
@@ -771,11 +771,11 @@
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/filesets-1.1.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.3-SNAPSHOT.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/groovy-all-1.8.6.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.2.3.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/fastutil-6.4.4.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/option-validation-language-2.1.0.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/scala-library-2.9.2.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.0.3-SNAPSHOT.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.3.0-SNAPSHOT.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/log4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/jdom.jar" />
@@ -826,11 +826,11 @@
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/filesets-1.1.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.3-SNAPSHOT.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/groovy-all-1.8.6.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.2.3.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/fastutil-6.4.4.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/option-validation-language-2.1.0.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/scala-library-2.9.2.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.0.3-SNAPSHOT.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.3.0-SNAPSHOT.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/log4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/jdom.jar" />
@@ -885,11 +885,11 @@
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/filesets-1.1.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.3-SNAPSHOT.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/groovy-all-1.8.6.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.2.3.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/fastutil-6.4.4.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/option-validation-language-2.1.0.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/scala-library-2.9.2.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.0.3-SNAPSHOT.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.3.0-SNAPSHOT.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/log4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/jdom.jar" />
@@ -941,11 +941,11 @@
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/filesets-1.1.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.3-SNAPSHOT.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/groovy-all-1.8.6.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.2.3.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/fastutil-6.4.4.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/option-validation-language-2.1.0.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/scala-library-2.9.2.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.0.3-SNAPSHOT.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.3.0-SNAPSHOT.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/log4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/jdom.jar" />
@@ -999,11 +999,11 @@
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/filesets-1.1.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.3-SNAPSHOT.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/groovy-all-1.8.6.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.2.3.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/fastutil-6.4.4.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/option-validation-language-2.1.0.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/scala-library-2.9.2.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.0.3-SNAPSHOT.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.3.0-SNAPSHOT.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/log4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/jdom.jar" />
@@ -1054,11 +1054,11 @@
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/filesets-1.1.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.3-SNAPSHOT.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/groovy-all-1.8.6.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.2.3.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/fastutil-6.4.4.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/option-validation-language-2.1.0.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/scala-library-2.9.2.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.0.3-SNAPSHOT.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.3.0-SNAPSHOT.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/log4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/jdom.jar" />
@@ -1186,11 +1186,11 @@
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/filesets-1.1.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.3-SNAPSHOT.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/groovy-all-1.8.6.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.2.3.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/fastutil-6.4.4.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/option-validation-language-2.1.0.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/scala-library-2.9.2.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.0.3-SNAPSHOT.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.3.0-SNAPSHOT.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/log4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/jdom.jar" />
@@ -1238,11 +1238,11 @@
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/filesets-1.1.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.3-SNAPSHOT.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/groovy-all-1.8.6.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.2.3.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/fastutil-6.4.4.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/option-validation-language-2.1.0.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/scala-library-2.9.2.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.0.3-SNAPSHOT.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.3.0-SNAPSHOT.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/log4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/jdom.jar" />

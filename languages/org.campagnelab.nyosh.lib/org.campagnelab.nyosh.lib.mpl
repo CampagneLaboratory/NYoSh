@@ -10,11 +10,11 @@
     <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/plugins-2.3-SNAPSHOT.jar" type="java_classes" />
     <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/filesets-1.1.jar" type="java_classes" />
     <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/groovy-all-1.8.6.jar" type="java_classes" />
-    <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.2.3.jar" type="java_classes" />
     <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/fastutil-6.4.4.jar" type="java_classes" />
     <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/option-validation-language-2.1.0.jar" type="java_classes" />
     <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/scala-library-2.9.2.jar" type="java_classes" />
     <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.0.3-SNAPSHOT.jar" type="java_classes" />
+    <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.3.0-SNAPSHOT.jar" type="java_classes" />
   </models>
   <accessoryModels />
   <generators>
@@ -43,11 +43,11 @@
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/plugins-2.3-SNAPSHOT.jar" />
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/filesets-1.1.jar" />
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/groovy-all-1.8.6.jar" />
-    <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.2.3.jar" />
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/fastutil-6.4.4.jar" />
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/option-validation-language-2.1.0.jar" />
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/scala-library-2.9.2.jar" />
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.0.3-SNAPSHOT.jar" />
+    <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.3.0-SNAPSHOT.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
