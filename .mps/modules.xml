@@ -13,7 +13,6 @@
       <modulePath path="$PROJECT_DIR$/solutions/NYoSh.MPS/NYoSh.MPS.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/NYoSh.idea3/NYoSh.IDEA.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/NYoSh.sandbox/NYoSh.sandbox.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.nyosh.runtime/org.campagnelab.nyosh.runtime.msd" folder="" />
     </projectModules>
   </component>
   <component name="ProjectModuleManager">
