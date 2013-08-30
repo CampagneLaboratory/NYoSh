@@ -14,7 +14,6 @@
   <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="5" implicit="yes" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" implicit="yes" />
   <import index="f2ff" modelUID="r:48d5f7d2-24be-4d82-ac12-8f4a2d414b11(org.campagnelab.nyosh.gstring.structure)" version="-1" implicit="yes" />
-  <import index="fxg7" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" version="-1" implicit="yes" />
   <root type="935h.AlignerScript" typeId="935h.3173353997329126934" id="4164691987241669620" nodeInfo="ng">
     <property name="pluginKind" nameId="935h.6874736155930792593" value="aligners" />
     <property name="pluginId" nameId="935h.6874736155930792589" value="BWA_GOBY_ARTIFACT_NYOSH" />
@@ -622,23 +621,21 @@
                   </node>
                   <node role="ifFalseStatement" roleId="tpee.1082485599094" type="tpee.BlockStatement" typeId="tpee.1082485599095" id="9111004363163640369" nodeInfo="nn">
                     <node role="statements" roleId="tpee.1082485599096" type="tpee.StatementList" typeId="tpee.1068580123136" id="9111004363163640370" nodeInfo="sn">
-                      <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="9111004363163678269" nodeInfo="nn">
-                        <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="9111004363163680196" nodeInfo="nn">
-                          <node role="operand" roleId="tpee.1197027771414" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="9111004363163678268" nodeInfo="nn">
-                            <link role="classifier" roleId="tpee.1144433057691" targetNodeId="e2lb.~System" resolveInfo="System" />
-                            <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="e2lb.~System%dout" resolveInfo="out" />
+                      <node role="statement" roleId="tpee.1068581517665" type="4tvk.Fail" typeId="4tvk.435930706556016185" id="3904503094450573620" nodeInfo="ng">
+                        <link role="step" roleId="4tvk.435930706556016192" targetNodeId="4164691987241669670" />
+                        <node role="statements" roleId="tpee.1082485599096" type="tpee.StatementList" typeId="tpee.1068580123136" id="3904503094450573622" nodeInfo="sn">
+                          <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="3904503094450573621" nodeInfo="nn" />
+                        </node>
+                        <node role="message" roleId="4tvk.3834344539456286424" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="9111004363163692465" nodeInfo="nn">
+                          <node role="rightExpression" roleId="tpee.1081773367579" type="6pk0.VariableReader" typeId="6pk0.3173353997363191763" id="9111004363163692578" nodeInfo="ng">
+                            <link role="envVariable" roleId="6pk0.5955265417291138249" targetNodeId="9111004363162529265" resolveInfo="GENOME_REFERENCE_ID" />
                           </node>
-                          <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="9111004363163688630" nodeInfo="nn">
-                            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fxg7.~PrintStream%dprintln(java%dlang%dString)%cvoid" resolveInfo="println" />
-                            <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="9111004363163692465" nodeInfo="nn">
-                              <node role="rightExpression" roleId="tpee.1081773367579" type="6pk0.VariableReader" typeId="6pk0.3173353997363191763" id="9111004363163692578" nodeInfo="ng">
-                                <link role="envVariable" roleId="6pk0.5955265417291138249" targetNodeId="9111004363162529265" resolveInfo="GENOME_REFERENCE_ID" />
-                              </node>
-                              <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="9111004363163688705" nodeInfo="nn">
-                                <property name="value" nameId="tpee.1070475926801" value="Invalid genome " />
-                              </node>
-                            </node>
+                          <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="9111004363163688705" nodeInfo="nn">
+                            <property name="value" nameId="tpee.1070475926801" value="Invalid genome " />
                           </node>
+                        </node>
+                        <node role="statusCode" roleId="4tvk.3834344539456862402" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="3904503094450575180" nodeInfo="nn">
+                          <property name="value" nameId="tpee.1068580320021" value="1" />
                         </node>
                       </node>
                     </node>
