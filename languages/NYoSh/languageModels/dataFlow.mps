@@ -69,6 +69,47 @@
                 </node>
               </node>
             </node>
+            <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="2328891098878741996" nodeInfo="nn">
+              <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="2328891098878741997" nodeInfo="sn">
+                <node role="statement" roleId="tpee.1068581517665" type="tp41.EmitCodeForStatement" typeId="tp41.1206454052847" id="2328891098878774144" nodeInfo="nn">
+                  <node role="codeFor" roleId="tp41.1206454079161" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2328891098878774191" nodeInfo="nn">
+                    <node role="operand" roleId="tpee.1197027771414" type="tp25.SNodeTypeCastExpression" typeId="tp25.1140137987495" id="2328891098878774192" nodeInfo="nn">
+                      <link role="concept" roleId="tp25.1140138128738" targetNodeId="4tvk.8155370969619067580" resolveInfo="GStringCommand" />
+                      <node role="leftExpression" roleId="tp25.1140138123956" type="tp2q.ForEachVariableReference" typeId="tp2q.1153944233411" id="2328891098878774193" nodeInfo="nn">
+                        <link role="variable" roleId="tp2q.1153944258490" targetNodeId="900103933245195946" resolveInfo="component" />
+                      </node>
+                    </node>
+                    <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="2328891098878774194" nodeInfo="nn">
+                      <link role="link" roleId="tp25.1138056516764" targetNodeId="4tvk.8155370969619067612" />
+                    </node>
+                  </node>
+                </node>
+                <node role="statement" roleId="tpee.1068581517665" type="tp41.EmitReadStatement" typeId="tp41.1206443823146" id="2328891098878750250" nodeInfo="nn">
+                  <node role="variable" roleId="tp41.1206444629799" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2328891098878762496" nodeInfo="nn">
+                    <node role="operand" roleId="tpee.1197027771414" type="tp25.SNodeTypeCastExpression" typeId="tp25.1140137987495" id="2328891098878757847" nodeInfo="nn">
+                      <link role="concept" roleId="tp25.1140138128738" targetNodeId="4tvk.8155370969619067580" resolveInfo="GStringCommand" />
+                      <node role="leftExpression" roleId="tp25.1140138123956" type="tp2q.ForEachVariableReference" typeId="tp2q.1153944233411" id="2328891098878750278" nodeInfo="nn">
+                        <link role="variable" roleId="tp2q.1153944258490" targetNodeId="900103933245195946" resolveInfo="component" />
+                      </node>
+                    </node>
+                    <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="2328891098878772753" nodeInfo="nn">
+                      <link role="link" roleId="tp25.1138056516764" targetNodeId="4tvk.8155370969619067612" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node role="condition" roleId="tpee.1068580123160" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2328891098878742000" nodeInfo="nn">
+                <node role="operand" roleId="tpee.1197027771414" type="tp2q.ForEachVariableReference" typeId="tp2q.1153944233411" id="2328891098878742001" nodeInfo="nn">
+                  <link role="variable" roleId="tp2q.1153944258490" targetNodeId="900103933245195946" resolveInfo="component" />
+                </node>
+                <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_IsInstanceOfOperation" typeId="tp25.1139621453865" id="2328891098878742002" nodeInfo="nn">
+                  <node role="conceptArgument" roleId="tp25.1177027386292" type="tp25.RefConcept_Reference" typeId="tp25.1177026924588" id="2328891098878742487" nodeInfo="nn">
+                    <link role="conceptDeclaration" roleId="tp25.1177026940964" targetNodeId="4tvk.8155370969619067580" resolveInfo="GStringCommand" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="2328891098878741715" nodeInfo="nn" />
           </node>
         </node>
       </node>

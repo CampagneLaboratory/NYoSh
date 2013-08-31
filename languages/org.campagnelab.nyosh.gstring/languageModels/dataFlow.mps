@@ -54,5 +54,33 @@
       </node>
     </node>
   </root>
+  <root type="tp41.DataFlowBuilderDeclaration" typeId="tp41.1206442055221" id="2328891098878516261" nodeInfo="ng">
+    <link role="conceptDeclaration" roleId="tp41.1206442096288" targetNodeId="f2ff.1012285663620336025" resolveInfo="GStringVarReference" />
+    <node role="builderBlock" roleId="tp41.1206442812839" type="tp41.BuilderBlock" typeId="tp41.1206442659665" id="2328891098878516262" nodeInfo="nn">
+      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="2328891098878516263" nodeInfo="sn">
+        <node role="statement" roleId="tpee.1068581517665" type="tp41.EmitReadStatement" typeId="tp41.1206443823146" id="2328891098878516339" nodeInfo="nn">
+          <node role="variable" roleId="tp41.1206444629799" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2328891098878527668" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2328891098878516759" nodeInfo="nn">
+              <node role="operand" roleId="tpee.1197027771414" type="tp41.NodeParameter" typeId="tp41.1206442747519" id="2328891098878516357" nodeInfo="nn" />
+              <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="2328891098878523358" nodeInfo="nn">
+                <link role="link" roleId="tp25.1138056516764" targetNodeId="f2ff.4087517305354402375" />
+              </node>
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="2328891098878546501" nodeInfo="nn">
+              <link role="link" roleId="tp25.1138056516764" targetNodeId="tpee.1068431790190" />
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tp41.EmitReadStatement" typeId="tp41.1206443823146" id="2328891098878683302" nodeInfo="nn">
+          <node role="variable" roleId="tp41.1206444629799" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2328891098878683304" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tp41.NodeParameter" typeId="tp41.1206442747519" id="2328891098878683305" nodeInfo="nn" />
+            <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="2328891098878683306" nodeInfo="nn">
+              <link role="link" roleId="tp25.1138056516764" targetNodeId="f2ff.4087517305354402375" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </root>
 </model>
 
