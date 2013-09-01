@@ -674,24 +674,6 @@
                     </node>
                   </node>
                 </node>
-                <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="224223098168460151" nodeInfo="nn">
-                  <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="224223098168460152" nodeInfo="nr">
-                    <property name="name" nameId="tpck.1169194664001" value="INPUT_READ_LENGTH" />
-                    <node role="initializer" roleId="tpee.1068431790190" type="6pk0.VariableReader" typeId="6pk0.3173353997363191763" id="224223098168744078" nodeInfo="ng">
-                      <link role="envVariable" roleId="6pk0.5955265417291138249" targetNodeId="224223098165466049" resolveInfo="INPUT_READ_LENGTH" />
-                    </node>
-                    <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="224223098168460154" nodeInfo="in" />
-                  </node>
-                </node>
-                <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="224223098168460181" nodeInfo="nn">
-                  <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="224223098168460182" nodeInfo="nr">
-                    <property name="name" nameId="tpck.1169194664001" value="READS_FILE" />
-                    <node role="initializer" roleId="tpee.1068431790190" type="6pk0.VariableReader" typeId="6pk0.3173353997363191763" id="224223098169147937" nodeInfo="ng">
-                      <link role="envVariable" roleId="6pk0.5955265417291138249" targetNodeId="224223098165466068" resolveInfo="READS_FILE" />
-                    </node>
-                    <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="224223098168460184" nodeInfo="in" />
-                  </node>
-                </node>
                 <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="9111004363162620204" nodeInfo="nn">
                   <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="9111004363162620207" nodeInfo="nr">
                     <property name="name" nameId="tpck.1169194664001" value="SAMPLE_NAME" />
@@ -861,8 +843,8 @@
                           <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="224223098170138286" nodeInfo="ng">
                             <property name="value" nameId="f2ff.1012285663620336023" value=" -l " />
                           </node>
-                          <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringVarReference" typeId="f2ff.1012285663620336025" id="224223098170138287" nodeInfo="ng">
-                            <link role="varRef" roleId="f2ff.4087517305354402375" targetNodeId="224223098168460152" resolveInfo="INPUT_READ_LENGTH" />
+                          <node role="components" roleId="f2ff.1012285663620335803" type="6pk0.VariableReaderGStringComponent" typeId="6pk0.2328891098886457362" id="2759019212564945475" nodeInfo="ng">
+                            <link role="envVariable" roleId="6pk0.2328891098886457363" targetNodeId="224223098165466049" resolveInfo="INPUT_READ_LENGTH" />
                           </node>
                           <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="224223098170138292" nodeInfo="ng">
                             <property name="value" nameId="f2ff.1012285663620336023" value=" " />
@@ -891,8 +873,8 @@
                           <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="224223098170138316" nodeInfo="ng">
                             <property name="value" nameId="f2ff.1012285663620336023" value=" " />
                           </node>
-                          <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringVarReference" typeId="f2ff.1012285663620336025" id="224223098170138317" nodeInfo="ng">
-                            <link role="varRef" roleId="f2ff.4087517305354402375" targetNodeId="224223098168460182" resolveInfo="READS_FILE" />
+                          <node role="components" roleId="f2ff.1012285663620335803" type="6pk0.VariableReaderGStringComponent" typeId="6pk0.2328891098886457362" id="2759019212564945412" nodeInfo="ng">
+                            <link role="envVariable" roleId="6pk0.2328891098886457363" targetNodeId="224223098165466068" resolveInfo="READS_FILE" />
                           </node>
                         </node>
                       </node>
@@ -928,8 +910,8 @@
                           <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="224223098171724806" nodeInfo="ng">
                             <property name="value" nameId="f2ff.1012285663620336023" value=" -l " />
                           </node>
-                          <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringVarReference" typeId="f2ff.1012285663620336025" id="224223098171724807" nodeInfo="ng">
-                            <link role="varRef" roleId="f2ff.4087517305354402375" targetNodeId="224223098168460152" resolveInfo="INPUT_READ_LENGTH" />
+                          <node role="components" roleId="f2ff.1012285663620335803" type="6pk0.VariableReaderGStringComponent" typeId="6pk0.2328891098886457362" id="2759019212564961802" nodeInfo="ng">
+                            <link role="envVariable" roleId="6pk0.2328891098886457363" targetNodeId="224223098165466049" resolveInfo="INPUT_READ_LENGTH" />
                           </node>
                           <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="224223098171724808" nodeInfo="ng">
                             <property name="value" nameId="f2ff.1012285663620336023" value=" " />
@@ -958,8 +940,8 @@
                           <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="224223098171724816" nodeInfo="ng">
                             <property name="value" nameId="f2ff.1012285663620336023" value=" " />
                           </node>
-                          <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringVarReference" typeId="f2ff.1012285663620336025" id="224223098171724817" nodeInfo="ng">
-                            <link role="varRef" roleId="f2ff.4087517305354402375" targetNodeId="224223098168460182" resolveInfo="READS_FILE" />
+                          <node role="components" roleId="f2ff.1012285663620335803" type="6pk0.VariableReaderGStringComponent" typeId="6pk0.2328891098886457362" id="2759019212564978159" nodeInfo="ng">
+                            <link role="envVariable" roleId="6pk0.2328891098886457363" targetNodeId="224223098165466068" resolveInfo="READS_FILE" />
                           </node>
                         </node>
                       </node>
@@ -1025,8 +1007,8 @@
                           <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="224223098171753054" nodeInfo="ng">
                             <property name="value" nameId="f2ff.1012285663620336023" value=" " />
                           </node>
-                          <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringVarReference" typeId="f2ff.1012285663620336025" id="224223098171747893" nodeInfo="ng">
-                            <link role="varRef" roleId="f2ff.4087517305354402375" targetNodeId="224223098168460182" resolveInfo="READS_FILE" />
+                          <node role="components" roleId="f2ff.1012285663620335803" type="6pk0.VariableReaderGStringComponent" typeId="6pk0.2328891098886457362" id="2759019212564978134" nodeInfo="ng">
+                            <link role="envVariable" roleId="6pk0.2328891098886457363" targetNodeId="224223098165466068" resolveInfo="READS_FILE" />
                           </node>
                           <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="224223098171747894" nodeInfo="ng">
                             <property name="value" nameId="f2ff.1012285663620336023" value=" -r " />
@@ -1105,8 +1087,8 @@
                             <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="224223098169147807" nodeInfo="ng">
                               <property name="value" nameId="f2ff.1012285663620336023" value=" -l " />
                             </node>
-                            <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringVarReference" typeId="f2ff.1012285663620336025" id="224223098169147808" nodeInfo="ng">
-                              <link role="varRef" roleId="f2ff.4087517305354402375" targetNodeId="224223098168460152" resolveInfo="INPUT_READ_LENGTH" />
+                            <node role="components" roleId="f2ff.1012285663620335803" type="6pk0.VariableReaderGStringComponent" typeId="6pk0.2328891098886457362" id="2759019212565002545" nodeInfo="ng">
+                              <link role="envVariable" roleId="6pk0.2328891098886457363" targetNodeId="224223098165466049" resolveInfo="INPUT_READ_LENGTH" />
                             </node>
                             <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="224223098169147809" nodeInfo="ng">
                               <property name="value" nameId="f2ff.1012285663620336023" value=" " />
@@ -1135,8 +1117,8 @@
                             <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="224223098169147817" nodeInfo="ng">
                               <property name="value" nameId="f2ff.1012285663620336023" value=" " />
                             </node>
-                            <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringVarReference" typeId="f2ff.1012285663620336025" id="224223098169147818" nodeInfo="ng">
-                              <link role="varRef" roleId="f2ff.4087517305354402375" targetNodeId="224223098168460182" resolveInfo="READS_FILE" />
+                            <node role="components" roleId="f2ff.1012285663620335803" type="6pk0.VariableReaderGStringComponent" typeId="6pk0.2328891098886457362" id="2759019212564978088" nodeInfo="ng">
+                              <link role="envVariable" roleId="6pk0.2328891098886457363" targetNodeId="224223098165466068" resolveInfo="READS_FILE" />
                             </node>
                           </node>
                         </node>
@@ -1196,8 +1178,8 @@
                             <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="224223098171718448" nodeInfo="ng">
                               <property name="value" nameId="f2ff.1012285663620336023" value=" " />
                             </node>
-                            <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringVarReference" typeId="f2ff.1012285663620336025" id="224223098171737592" nodeInfo="ng">
-                              <link role="varRef" roleId="f2ff.4087517305354402375" targetNodeId="224223098168460182" resolveInfo="READS_FILE" />
+                            <node role="components" roleId="f2ff.1012285663620335803" type="6pk0.VariableReaderGStringComponent" typeId="6pk0.2328891098886457362" id="2759019212564978111" nodeInfo="ng">
+                              <link role="envVariable" roleId="6pk0.2328891098886457363" targetNodeId="224223098165466068" resolveInfo="READS_FILE" />
                             </node>
                             <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="224223098171737629" nodeInfo="ng">
                               <property name="value" nameId="f2ff.1012285663620336023" value=" -r " />
