@@ -164,5 +164,17 @@
       <link role="target" roleId="tpce.1071599976176" targetNodeId="f2ff.1012285663620319605" resolveInfo="GString" />
     </node>
   </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2328891098886457362" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="VariableReaderGStringComponent" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="read an environment variable" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="${" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="f2ff.1012285663620335805" resolveInfo="GStringComponent" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="2328891098886457363" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
+      <property name="role" nameId="tpce.1071599776563" value="envVariable" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="5955265417291138207" resolveInfo="EnvVariableDeclaration" />
+    </node>
+  </root>
 </model>
 

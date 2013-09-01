@@ -208,7 +208,7 @@
                 </node>
                 <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="7842477063126041891" nodeInfo="nr">
                   <property name="value" nameId="6pk0.5469406079154538151" value="unix2003" />
-                  <property name="name" nameId="tpck.1169194664001" value="COMMAND_MODE" />
+                  <property name="name" nameId="tpck.1169194664001" value="MMAND_MODE" />
                   <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
                 </node>
                 <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="7842477063126041892" nodeInfo="nr">

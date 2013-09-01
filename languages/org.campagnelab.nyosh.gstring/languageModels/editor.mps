@@ -108,5 +108,19 @@
       </node>
     </node>
   </root>
+  <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="2759019212557612011" nodeInfo="ng">
+    <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="f2ff.2759019212557593074" resolveInfo="ListOfStringExpressions" />
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="2759019212557644469" nodeInfo="nn">
+      <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="2759019212557644470" nodeInfo="nn" />
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2759019212557644473" nodeInfo="nn">
+        <property name="text" nameId="tpc2.1073389577007" value="expressions: " />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNodeList" typeId="tpc2.1073390211982" id="2759019212557644478" nodeInfo="ng">
+        <property name="separatorText" nameId="tpc2.1140524450557" value=", " />
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="f2ff.2759019212557593075" />
+        <node role="cellLayout" roleId="tpc2.1140524464360" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="2759019212557644479" nodeInfo="nn" />
+      </node>
+    </node>
+  </root>
 </model>
 
