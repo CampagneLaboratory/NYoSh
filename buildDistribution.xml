@@ -9,6 +9,7 @@
   <property name="artifacts.NYoShWorkbench" location="${build.dir}/artifacts/NYoShWorkbench" />
   <property name="artifacts.mpsExecutionPlugin" location="${mps_home}/plugins/" />
   <property name="artifacts.mpsDebuggerPlugin" location="${mps_home}/plugins/" />
+  <property name="artifacts.mpsBuild" location="${mps_home}/plugins/" />
   <property file="${artifacts.NYoShWorkbench}/build.properties" prefix="import.NYoShWorkbench" />
   <property name="NYoShWorkbench.date" value="${import.NYoShWorkbench.NYoShWorkbench.date}" />
   <property name="NYoShWorkbench.build.number" value="${import.NYoShWorkbench.NYoShWorkbench.build.number}" />
