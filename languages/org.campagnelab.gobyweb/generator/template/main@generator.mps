@@ -599,7 +599,7 @@
       <property name="text" nameId="p6sl.5493669862519718600" value="NYOSH_SUPPORT_LIBS=&quot;$RESOURCES_ARTIFACTS_MPS_SUPPORT_LIBS/*&quot;" />
     </node>
     <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="7105388934540725781" nodeInfo="ng">
-      <property name="text" nameId="p6sl.5493669862519718600" value="CLASSPATH=${MPS_LIBS}${NYOSH_SUPPORT_LIBS}:${JOB_DIR}" />
+      <property name="text" nameId="p6sl.5493669862519718600" value="CLASSPATH=${MPS_LIBS}${NYOSH_SUPPORT_LIBS}:${JOB_DIR}/plugin.jar:${JOB_DIR}" />
     </node>
     <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="1072453283801109644" nodeInfo="ng">
       <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="3173353997354279985" nodeInfo="ng">
