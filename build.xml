@@ -6,7 +6,7 @@
   <tstamp>
     <format property="date" pattern="yyyyMMdd" />
   </tstamp>
-  <property name="build.number" value="NYoShWorkbench-129.1" />
+  <property name="build.number" value="NYoShWorkbench-129.2" />
   <property name="mps_home" location="${basedir}/../../MPS 3.0" />
   <property name="org.campagnelab.goby.workbench.home" location="${basedir}" />
   <property name="artifacts.mpsStandalone" location="${mps_home}" />
