@@ -1,0 +1,33 @@
+1.0 EAP1 Sept 2 2013
+
+
+- Extend environment language to provide a GStringComponent. This makes it possible to access environment variables directly within Gstrings without having to create a local variable.
+- Move GobyWeb environment source to the GobyWeb language. When invoked at design time, with a plugin ID (from a GobyWeb intention on the PluginScript concept), this source will use the GobyWeb SDK to obtain the list of variables actually available when the plugin would be executed. This is possible in the gobyweb language because PluginScript offers all the info needed to invoke plugins-view-job-env (see http://campagnelab.org/software/gobyweb/plugins-sdk/tutorial/developing-a-new-plugin/). Design time should of course use the SDK api to get the variable names.
+- Create a new resource plugin for downloading artifacts from a Maven Repository.
+- Update MPS resource in the plugins-SDK branch (BitBucket) to MPS 3.0 RC3. Add all the runtime dependencies as artifacts.
+- Move all the external dependencies (JARs) to Lib language.
+- Error management concepts. Create an ErrorManagement root concept in a model to define how errors should be handled when they occur. Define handlers and add them to the ErrorManagement instance. Each handler is executed in the order it appears under ErrorManagement. Steps and Execute use the new error  management mechanism. Attach error management to a script (see inspected in the script).
+- Add a wrapper command concept to execute script statements with BASH. The wrapper will create a bash script, include the string into the body of the script and execute it with currently exported variables. The wrapper might consume env variables that must be exported in NYoSh with the export command before to instantiate the “wrapper” concept.
+- Implement BASH execute backquote (put output in string variable)
+- Redirect execute output to file
+- Statically add known variables to JVMParser.parseAtDesignTime (i.e. variables that we know will be available in constants.sh, such as JOB_DIR, TMPDIR, FILESET_COMMAND, etc.). Consider implementing as another kind of source: static source at design time, delegates to environment source at runtime. 
+- Integrate Environment Language into GobyWeb language. Reading the environment sources has to be done outside the script’s endpoints.
+- Simplified presentation of entry points.
+- Add steps logging to NYoSh scripts. NYoSh scripts now use stepslogger to produce a pb log file with record of script steps. A global hidden step is added by the GobyWeb language for each plugin entry point. This makes it possible to retrieve the status of the execution by retrieving the log pb file 
+- Merge no-refactoring branch into master. Continue development on master.
+- Define the Environment language for loading env variables from different sources.
+- Deployment of plugins in the Plugin Tree.
+- Add exclusions to Pathpatterns language.
+- Make facet to copy compiled classes to configurable GobyWeb plugin directory. A special annotation can be added to root Script models to indicate where to copy the compiled classes. You enter rootDir, pluginKind (task/analyses/aligner), and pluginId.
+- Script arguments, Script interface (accepts arguments, implements methods). Configurable prototype.
+- Entry point definition in scripts
+- Ability to match file patterns. See new language org.campagnelab.nyosh.pathpatterns
+- Current directory management (e.g., change directory). Current support works within execute statements. 
+- Process output to Java
+- Command list operators (; && ||)
+- Pipes (| and |&)
+- Build script for MPS plugin
+- Execute command
+- Intention: Convert literal to varRef 
+- GString (groovy-like strings in MPS)
+
