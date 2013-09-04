@@ -23,7 +23,7 @@
       <property name="name" nameId="tpck.1169194664001" value="BWAGobyArtifactScript" />
       <link role="errorManagement" roleId="4tvk.8594065538799394764" targetNodeId="4780568564618943710" resolveInfo="GobyWebDefaultErrorManagement" />
       <node role="entryPoints" roleId="4tvk.4370546365667651420" type="935h.AlignerAlignEntryPoint" typeId="935h.3173353997329486142" id="4164691987241669622" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="aligner entry point" />
+        <property name="name" nameId="tpck.1169194664001" value="plugin_align" />
         <link role="script" roleId="4tvk.1185348143925735982" targetNodeId="4164691987241669621" resolveInfo="BWAGobyArtifactScript" />
         <node role="statements" roleId="tpee.1082485599096" type="tpee.StatementList" typeId="tpee.1068580123136" id="4164691987241669634" nodeInfo="sn" />
         <node role="implementation" roleId="4tvk.2829258213786621720" type="4tvk.StaticEntryPointMethod" typeId="4tvk.3834344539462083799" id="4164691987241669635" nodeInfo="ig">
@@ -559,7 +559,7 @@
                       <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="9111004363163395761" nodeInfo="nn">
                         <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~String%dsplit(java%dlang%dString)%cjava%dlang%dString[]" resolveInfo="split" />
                         <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="9111004363163395762" nodeInfo="nn">
-                          <property name="value" nameId="tpee.1070475926801" value="." />
+                          <property name="value" nameId="tpee.1070475926801" value="\\." />
                         </node>
                       </node>
                     </node>
