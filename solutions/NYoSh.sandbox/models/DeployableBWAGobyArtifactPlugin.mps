@@ -704,19 +704,19 @@
                     <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="9111004363162665744" nodeInfo="in" />
                     <node role="initializer" roleId="tpee.1068431790190" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="9111004363162667077" nodeInfo="ng">
                       <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="9111004363162667096" nodeInfo="ng">
-                        <property name="value" nameId="f2ff.1012285663620336023" value="@RG\tID:1\tSM:" />
+                        <property name="value" nameId="f2ff.1012285663620336023" value="@RG\\tID:1\\tSM:" />
                       </node>
                       <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringVarReference" typeId="f2ff.1012285663620336025" id="9111004363162669631" nodeInfo="ng">
                         <link role="varRef" roleId="f2ff.4087517305354402375" targetNodeId="9111004363162620207" resolveInfo="SAMPLE_NAME" />
                       </node>
                       <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="9111004363162669668" nodeInfo="ng">
-                        <property name="value" nameId="f2ff.1012285663620336023" value="\tPL:" />
+                        <property name="value" nameId="f2ff.1012285663620336023" value="\\tPL:" />
                       </node>
                       <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringVarReference" typeId="f2ff.1012285663620336025" id="9111004363162669729" nodeInfo="ng">
                         <link role="varRef" roleId="f2ff.4087517305354402375" targetNodeId="757177886544178946" resolveInfo="PLATFORM_NAME" />
                       </node>
                       <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="9111004363162669750" nodeInfo="ng">
-                        <property name="value" nameId="f2ff.1012285663620336023" value="\tPU:1" />
+                        <property name="value" nameId="f2ff.1012285663620336023" value="\\tPU:1" />
                       </node>
                     </node>
                   </node>
