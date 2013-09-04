@@ -86,22 +86,6 @@
       <link role="executionNode" roleId="bs99.6449713081311510412" targetNodeId="6449713081311057712" resolveInfo="spanky" />
     </node>
   </root>
-  <root type="bs99.Job" typeId="bs99.2051553890368756070" id="5949986731305577229" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="someJob" />
-    <link role="executionEnvironment" roleId="bs99.2051553890368806506" targetNodeId="6449713081311327914" resolveInfo="RunOnSpanky" />
-    <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="7507736014938151365" />
-    <node role="options" roleId="bs99.2051553890368761092" type="bs99.StringOption" typeId="bs99.6449713081312088553" id="6449713081312314598" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="param-value" />
-      <property name="value" nameId="bs99.6449713081312198894" value="0.3" />
-    </node>
-    <node role="options" roleId="bs99.2051553890368761092" type="bs99.BooleanOption" typeId="bs99.6449713081312314600" id="6449713081312644293" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="verbose" />
-      <property name="value" nameId="bs99.6449713081312314601" value="true" />
-    </node>
-    <node role="options" roleId="bs99.2051553890368761092" type="bs99.BooleanOption" typeId="bs99.6449713081312314600" id="6449713081312864854" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="anotherFlag" />
-    </node>
-  </root>
   <root type="bs99.PluginSDKInstallation" typeId="bs99.2735543333319077191" id="2735543333321027802" nodeInfo="ng">
     <property name="installationPath" nameId="bs99.2735543333319514314" value="/home/campagne" />
     <property name="distributionUrl" nameId="bs99.2735543333319647607" value="http://campagnelab.org/?wpdmact=process&amp;did=MS5ob3RsaW5r" />
