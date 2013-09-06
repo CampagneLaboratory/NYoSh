@@ -288,7 +288,18 @@
             <node role="compositePart" roleId="3ior.7321017245477039051" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="6730757766000190293" nodeInfo="nn">
               <property name="head" nameId="3ior.8618885170173601779" value="lib" />
               <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="6730757766000198337" nodeInfo="nn">
-                <property name="head" nameId="3ior.8618885170173601779" value="nyosh-runtime-support-1.0.3-SNAPSHOT.jar" />
+                <property name="head" nameId="3ior.8618885170173601779" value="nyosh-runtime-support-1.0.3.jar" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="children" roleId="3ior.7389400916848037006" type="3ior.BuildLayout_File" typeId="3ior.9126048691955220717" id="5618985851735288592" nodeInfo="ng">
+          <node role="path" roleId="3ior.9126048691955220762" type="3ior.BuildSourceMacroRelativePath" typeId="3ior.7389400916848153117" id="5618985851735288593" nodeInfo="ng">
+            <link role="macro" roleId="3ior.7389400916848153130" targetNodeId="7394847478653113480" resolveInfo="org.campagnelab.goby.workbench.home" />
+            <node role="compositePart" roleId="3ior.7321017245477039051" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="5618985851735288594" nodeInfo="nn">
+              <property name="head" nameId="3ior.8618885170173601779" value="lib" />
+              <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="5618985851735288595" nodeInfo="nn">
+                <property name="head" nameId="3ior.8618885170173601779" value="serverside-dependencies-1.0.6-full.jar" />
               </node>
             </node>
           </node>
@@ -299,7 +310,7 @@
             <node role="compositePart" roleId="3ior.7321017245477039051" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="2060680358160475662" nodeInfo="nn">
               <property name="head" nameId="3ior.8618885170173601779" value="lib" />
               <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="2060680358160475664" nodeInfo="nn">
-                <property name="head" nameId="3ior.8618885170173601779" value="org.campagnelab.stepslogger-1.1-SNAPSHOT.jar" />
+                <property name="head" nameId="3ior.8618885170173601779" value="org.campagnelab.stepslogger-1.1.0.jar" />
               </node>
             </node>
           </node>
@@ -332,7 +343,7 @@
             <node role="compositePart" roleId="3ior.7321017245477039051" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="9213669739147878652" nodeInfo="nn">
               <property name="head" nameId="3ior.8618885170173601779" value="lib" />
               <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="9213669739147878653" nodeInfo="nn">
-                <property name="head" nameId="3ior.8618885170173601779" value="plugins-2.3-SNAPSHOT.jar" />
+                <property name="head" nameId="3ior.8618885170173601779" value="plugins-2.3.0.jar" />
               </node>
             </node>
           </node>
@@ -365,7 +376,7 @@
             <node role="compositePart" roleId="3ior.7321017245477039051" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="100617263779385081" nodeInfo="nn">
               <property name="head" nameId="3ior.8618885170173601779" value="lib" />
               <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="100617263779385082" nodeInfo="nn">
-                <property name="head" nameId="3ior.8618885170173601779" value="artifacts-2.3.0-SNAPSHOT.jar" />
+                <property name="head" nameId="3ior.8618885170173601779" value="artifacts-2.2.4.jar" />
               </node>
             </node>
           </node>
@@ -1059,19 +1070,6 @@
           <property name="uuid" nameId="kdzh.322010710375892619" value="eee4aaaa-c2c2-4aba-8c23-b077e2fcd505" />
           <property name="doNotCompile" nameId="kdzh.1500819558096356884" value="false" />
         </node>
-        <node role="dependencies" roleId="kdzh.5253498789149547704" type="kdzh.BuildMps_ExtractedModuleDependency" typeId="kdzh.7259033139236285166" id="8902365438461111360" nodeInfo="nn">
-          <node role="dependency" roleId="kdzh.7259033139236285167" type="kdzh.BuildMps_ModuleDependencyJar" typeId="kdzh.4278635856200826393" id="8902365438461111361" nodeInfo="ng">
-            <node role="path" roleId="kdzh.4278635856200826394" type="3ior.BuildSourceMacroRelativePath" typeId="3ior.7389400916848153117" id="8902365438461111354" nodeInfo="ng">
-              <link role="macro" roleId="3ior.7389400916848153130" targetNodeId="7394847478653113480" resolveInfo="org.campagnelab.goby.workbench.home" />
-              <node role="compositePart" roleId="3ior.7321017245477039051" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="8902365438461111355" nodeInfo="nn">
-                <property name="head" nameId="3ior.8618885170173601779" value="lib" />
-                <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="8902365438461111356" nodeInfo="nn">
-                  <property name="head" nameId="3ior.8618885170173601779" value="org.campagnelab.stepslogger-1.1-SNAPSHOT.jar" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node role="dependencies" roleId="kdzh.5253498789149547704" type="kdzh.BuildMps_ExtractedModuleDependency" typeId="kdzh.7259033139236285166" id="8902365438463253251" nodeInfo="nn">
           <node role="dependency" roleId="kdzh.7259033139236285167" type="kdzh.BuildMps_ModuleDependencyJar" typeId="kdzh.4278635856200826393" id="8902365438463253252" nodeInfo="ng">
             <node role="path" roleId="kdzh.4278635856200826394" type="3ior.BuildSourceMacroRelativePath" typeId="3ior.7389400916848153117" id="8902365438463253245" nodeInfo="ng">
@@ -1099,19 +1097,6 @@
                 <property name="head" nameId="3ior.8618885170173601779" value="lib" />
                 <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="100617263778970610" nodeInfo="nn">
                   <property name="head" nameId="3ior.8618885170173601779" value="filesets-1.1.jar" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node role="dependencies" roleId="kdzh.5253498789149547704" type="kdzh.BuildMps_ExtractedModuleDependency" typeId="kdzh.7259033139236285166" id="100617263779380519" nodeInfo="nn">
-          <node role="dependency" roleId="kdzh.7259033139236285167" type="kdzh.BuildMps_ModuleDependencyJar" typeId="kdzh.4278635856200826393" id="100617263779380520" nodeInfo="ng">
-            <node role="path" roleId="kdzh.4278635856200826394" type="3ior.BuildSourceMacroRelativePath" typeId="3ior.7389400916848153117" id="100617263779380513" nodeInfo="ng">
-              <link role="macro" roleId="3ior.7389400916848153130" targetNodeId="7394847478653113480" resolveInfo="org.campagnelab.goby.workbench.home" />
-              <node role="compositePart" roleId="3ior.7321017245477039051" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="100617263779380514" nodeInfo="nn">
-                <property name="head" nameId="3ior.8618885170173601779" value="lib" />
-                <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="100617263779380515" nodeInfo="nn">
-                  <property name="head" nameId="3ior.8618885170173601779" value="plugins-2.3-SNAPSHOT.jar" />
                 </node>
               </node>
             </node>
@@ -1169,32 +1154,6 @@
             </node>
           </node>
         </node>
-        <node role="dependencies" roleId="kdzh.5253498789149547704" type="kdzh.BuildMps_ExtractedModuleDependency" typeId="kdzh.7259033139236285166" id="2167252717304507518" nodeInfo="nn">
-          <node role="dependency" roleId="kdzh.7259033139236285167" type="kdzh.BuildMps_ModuleDependencyJar" typeId="kdzh.4278635856200826393" id="2167252717304507519" nodeInfo="ng">
-            <node role="path" roleId="kdzh.4278635856200826394" type="3ior.BuildSourceMacroRelativePath" typeId="3ior.7389400916848153117" id="2167252717304507512" nodeInfo="ng">
-              <link role="macro" roleId="3ior.7389400916848153130" targetNodeId="7394847478653113480" resolveInfo="org.campagnelab.goby.workbench.home" />
-              <node role="compositePart" roleId="3ior.7321017245477039051" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="2167252717304507513" nodeInfo="nn">
-                <property name="head" nameId="3ior.8618885170173601779" value="lib" />
-                <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="2167252717304507514" nodeInfo="nn">
-                  <property name="head" nameId="3ior.8618885170173601779" value="nyosh-runtime-support-1.0.3-SNAPSHOT.jar" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node role="dependencies" roleId="kdzh.5253498789149547704" type="kdzh.BuildMps_ExtractedModuleDependency" typeId="kdzh.7259033139236285166" id="1897253928585595290" nodeInfo="nn">
-          <node role="dependency" roleId="kdzh.7259033139236285167" type="kdzh.BuildMps_ModuleDependencyJar" typeId="kdzh.4278635856200826393" id="1897253928585595291" nodeInfo="ng">
-            <node role="path" roleId="kdzh.4278635856200826394" type="3ior.BuildSourceMacroRelativePath" typeId="3ior.7389400916848153117" id="1897253928585595284" nodeInfo="ng">
-              <link role="macro" roleId="3ior.7389400916848153130" targetNodeId="7394847478653113480" resolveInfo="org.campagnelab.goby.workbench.home" />
-              <node role="compositePart" roleId="3ior.7321017245477039051" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="1897253928585595285" nodeInfo="nn">
-                <property name="head" nameId="3ior.8618885170173601779" value="lib" />
-                <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="1897253928585595286" nodeInfo="nn">
-                  <property name="head" nameId="3ior.8618885170173601779" value="artifacts-2.3.0-SNAPSHOT.jar" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node role="dependencies" roleId="kdzh.5253498789149547704" type="kdzh.BuildMps_ExtractedModuleDependency" typeId="kdzh.7259033139236285166" id="757177886543548810" nodeInfo="nn">
           <node role="dependency" roleId="kdzh.7259033139236285167" type="kdzh.BuildMps_ModuleDependencyJar" typeId="kdzh.4278635856200826393" id="757177886543548811" nodeInfo="ng">
             <node role="path" roleId="kdzh.4278635856200826394" type="3ior.BuildSourceMacroRelativePath" typeId="3ior.7389400916848153117" id="757177886543548804" nodeInfo="ng">
@@ -1203,6 +1162,71 @@
                 <property name="head" nameId="3ior.8618885170173601779" value="lib" />
                 <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="757177886543548806" nodeInfo="nn">
                   <property name="head" nameId="3ior.8618885170173601779" value="dsiutils-2.0.7.jar" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="dependencies" roleId="kdzh.5253498789149547704" type="kdzh.BuildMps_ExtractedModuleDependency" typeId="kdzh.7259033139236285166" id="5618985851735290355" nodeInfo="nn">
+          <node role="dependency" roleId="kdzh.7259033139236285167" type="kdzh.BuildMps_ModuleDependencyJar" typeId="kdzh.4278635856200826393" id="5618985851735290356" nodeInfo="ng">
+            <node role="path" roleId="kdzh.4278635856200826394" type="3ior.BuildSourceMacroRelativePath" typeId="3ior.7389400916848153117" id="5618985851735290349" nodeInfo="ng">
+              <link role="macro" roleId="3ior.7389400916848153130" targetNodeId="7394847478653113480" resolveInfo="org.campagnelab.goby.workbench.home" />
+              <node role="compositePart" roleId="3ior.7321017245477039051" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="5618985851735290350" nodeInfo="nn">
+                <property name="head" nameId="3ior.8618885170173601779" value="lib" />
+                <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="5618985851735290351" nodeInfo="nn">
+                  <property name="head" nameId="3ior.8618885170173601779" value="artifacts-2.2.4.jar" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="dependencies" roleId="kdzh.5253498789149547704" type="kdzh.BuildMps_ExtractedModuleDependency" typeId="kdzh.7259033139236285166" id="5618985851735290363" nodeInfo="nn">
+          <node role="dependency" roleId="kdzh.7259033139236285167" type="kdzh.BuildMps_ModuleDependencyJar" typeId="kdzh.4278635856200826393" id="5618985851735290364" nodeInfo="ng">
+            <node role="path" roleId="kdzh.4278635856200826394" type="3ior.BuildSourceMacroRelativePath" typeId="3ior.7389400916848153117" id="5618985851735290357" nodeInfo="ng">
+              <link role="macro" roleId="3ior.7389400916848153130" targetNodeId="7394847478653113480" resolveInfo="org.campagnelab.goby.workbench.home" />
+              <node role="compositePart" roleId="3ior.7321017245477039051" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="5618985851735290358" nodeInfo="nn">
+                <property name="head" nameId="3ior.8618885170173601779" value="lib" />
+                <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="5618985851735290359" nodeInfo="nn">
+                  <property name="head" nameId="3ior.8618885170173601779" value="plugins-2.3.0.jar" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="dependencies" roleId="kdzh.5253498789149547704" type="kdzh.BuildMps_ExtractedModuleDependency" typeId="kdzh.7259033139236285166" id="5618985851735290371" nodeInfo="nn">
+          <node role="dependency" roleId="kdzh.7259033139236285167" type="kdzh.BuildMps_ModuleDependencyJar" typeId="kdzh.4278635856200826393" id="5618985851735290372" nodeInfo="ng">
+            <node role="path" roleId="kdzh.4278635856200826394" type="3ior.BuildSourceMacroRelativePath" typeId="3ior.7389400916848153117" id="5618985851735290365" nodeInfo="ng">
+              <link role="macro" roleId="3ior.7389400916848153130" targetNodeId="7394847478653113480" resolveInfo="org.campagnelab.goby.workbench.home" />
+              <node role="compositePart" roleId="3ior.7321017245477039051" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="5618985851735290366" nodeInfo="nn">
+                <property name="head" nameId="3ior.8618885170173601779" value="lib" />
+                <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="5618985851735290367" nodeInfo="nn">
+                  <property name="head" nameId="3ior.8618885170173601779" value="nyosh-runtime-support-1.0.3.jar" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="dependencies" roleId="kdzh.5253498789149547704" type="kdzh.BuildMps_ExtractedModuleDependency" typeId="kdzh.7259033139236285166" id="5618985851735290379" nodeInfo="nn">
+          <node role="dependency" roleId="kdzh.7259033139236285167" type="kdzh.BuildMps_ModuleDependencyJar" typeId="kdzh.4278635856200826393" id="5618985851735290380" nodeInfo="ng">
+            <node role="path" roleId="kdzh.4278635856200826394" type="3ior.BuildSourceMacroRelativePath" typeId="3ior.7389400916848153117" id="5618985851735290373" nodeInfo="ng">
+              <link role="macro" roleId="3ior.7389400916848153130" targetNodeId="7394847478653113480" resolveInfo="org.campagnelab.goby.workbench.home" />
+              <node role="compositePart" roleId="3ior.7321017245477039051" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="5618985851735290374" nodeInfo="nn">
+                <property name="head" nameId="3ior.8618885170173601779" value="lib" />
+                <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="5618985851735290375" nodeInfo="nn">
+                  <property name="head" nameId="3ior.8618885170173601779" value="org.campagnelab.stepslogger-1.1.0.jar" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="dependencies" roleId="kdzh.5253498789149547704" type="kdzh.BuildMps_ExtractedModuleDependency" typeId="kdzh.7259033139236285166" id="5618985851735290387" nodeInfo="nn">
+          <node role="dependency" roleId="kdzh.7259033139236285167" type="kdzh.BuildMps_ModuleDependencyJar" typeId="kdzh.4278635856200826393" id="5618985851735290388" nodeInfo="ng">
+            <node role="path" roleId="kdzh.4278635856200826394" type="3ior.BuildSourceMacroRelativePath" typeId="3ior.7389400916848153117" id="5618985851735290381" nodeInfo="ng">
+              <link role="macro" roleId="3ior.7389400916848153130" targetNodeId="7394847478653113480" resolveInfo="org.campagnelab.goby.workbench.home" />
+              <node role="compositePart" roleId="3ior.7321017245477039051" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="5618985851735290382" nodeInfo="nn">
+                <property name="head" nameId="3ior.8618885170173601779" value="lib" />
+                <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="5618985851735290383" nodeInfo="nn">
+                  <property name="head" nameId="3ior.8618885170173601779" value="serverside-dependencies-1.0.6-full.jar" />
                 </node>
               </node>
             </node>
