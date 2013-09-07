@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="NYoSh.MPS" uuid="086cf764-2ec9-4e27-b215-e145d3a54580" compileInMPS="true">
+<solution name="StandaloneWorkbench" uuid="086cf764-2ec9-4e27-b215-e145d3a54580" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
