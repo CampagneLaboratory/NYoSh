@@ -6,7 +6,7 @@
     </modelRoot>
     <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/wildcard-1.03.jar" type="java_classes" />
     <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1.0.jar" type="java_classes" />
-    <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/commons-io-2.4.jar" type="java_classes" />
+    <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/filesets-1.1.1.jar" type="java_classes" />
     <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/filesets-1.1.jar" type="java_classes" />
     <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/groovy-all-1.8.6.jar" type="java_classes" />
     <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/fastutil-6.4.4.jar" type="java_classes" />
@@ -41,7 +41,6 @@
   <stubModelEntries>
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/wildcard-1.03.jar" />
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/commons-io-2.4.jar" />
-    <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/filesets-1.1.jar" />
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/groovy-all-1.8.6.jar" />
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/fastutil-6.4.4.jar" />
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/option-validation-language-2.1.0.jar" />
@@ -52,6 +51,7 @@
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.0.3.jar" />
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/serverside-dependencies-1.0.6-full.jar" />
+    <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/filesets-1.1.1.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
