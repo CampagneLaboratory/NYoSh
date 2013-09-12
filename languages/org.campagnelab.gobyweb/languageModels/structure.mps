@@ -185,5 +185,24 @@
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="load the basic GobyWeb environment" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="6pk0.3173353997360795105" resolveInfo="Loader" />
   </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6989919346770999332" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="TaskScript" />
+    <property name="rootable" nameId="tpce.1096454100552" value="true" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="tasks" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="1090105717920801947" resolveInfo="PluginScript" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6989919346771010830" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="tasks" />
+    <property name="name" nameId="tpck.1169194664001" value="TaskEntryPoint" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="385706599064973507" resolveInfo="GobyWebEntryPoint" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6989919346771038892" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="tasks" />
+    <property name="name" nameId="tpck.1169194664001" value="TaskEntryPointPrototype" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="4tvk.2829258213785539345" resolveInfo="EntryPointPrototype" />
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6989919346771039166" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="4tvk.2829258213784965274" resolveInfo="IEntryPointPrototype" />
+    </node>
+  </root>
 </model>
 
