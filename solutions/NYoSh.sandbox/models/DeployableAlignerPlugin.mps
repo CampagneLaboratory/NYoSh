@@ -151,6 +151,9 @@
                       <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="2328891098885238503" nodeInfo="ng">
                         <property name="value" nameId="f2ff.1012285663620336023" value="A" />
                       </node>
+                      <node role="components" roleId="f2ff.1012285663620335803" type="6pk0.VariableReaderGStringComponent" typeId="6pk0.2328891098886457362" id="6718448266385928937" nodeInfo="ng">
+                        <link role="envVariable" roleId="6pk0.2328891098886457363" targetNodeId="2759019212558223353" resolveInfo="PATH" />
+                      </node>
                       <node role="components" roleId="f2ff.1012285663620335803" type="6pk0.VariableReaderGStringComponent" typeId="6pk0.2328891098886457362" id="2759019212558208707" nodeInfo="ng">
                         <link role="envVariable" roleId="6pk0.2328891098886457363" targetNodeId="2759019212558223350" resolveInfo="HOME" />
                       </node>

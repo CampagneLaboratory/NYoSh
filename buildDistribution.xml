@@ -4,12 +4,21 @@
   <property name="build.tmp" location="${build.dir}/tmp/NYoShWorkbenchDistribution" />
   <property name="build.layout" location="${build.dir}/artifacts/NYoShWorkbenchDistribution" />
   <property name="mps_home" location="${basedir}/../../MPS 3.0" />
+  <property name="idea_home" location="${basedir}/../../../../Applications/IntelliJ IDEA 12.app" />
   <property name="version" value="1.0" />
   <property name="org.campagnelab.goby.workbench.home" location="${basedir}" />
   <property name="artifacts.NYoShWorkbench" location="${build.dir}/artifacts/NYoShWorkbench" />
   <property name="artifacts.mpsExecutionPlugin" location="${mps_home}/plugins/" />
   <property name="artifacts.mpsDebuggerPlugin" location="${mps_home}/plugins/" />
   <property name="artifacts.mpsBuild" location="${mps_home}/plugins/" />
+  <property name="artifacts.mpsStandalone" location="${mps_home}" />
+  <property name="artifacts.mpsMakePlugin" location="${mps_home}/plugins" />
+  <property name="artifacts.mpsTesting" location="${mps_home}/plugins" />
+  <property name="artifacts.mpsBuild" location="${mps_home}/plugins" />
+  <property name="artifacts.mpsBuildUI" location="${mps_home}/plugins" />
+  <property name="artifacts.mpsExecutionPlugin" location="${mps_home}/plugins" />
+  <property name="artifacts.mpsDebuggerPlugin" location="${mps_home}/plugins" />
+  <property name="artifacts.mpsJava" location="${mps_home}/plugins" />
   <property file="${artifacts.NYoShWorkbench}/build.properties" prefix="import.NYoShWorkbench" />
   <property name="NYoShWorkbench.date" value="${import.NYoShWorkbench.NYoShWorkbench.date}" />
   <property name="NYoShWorkbench.build.number" value="${import.NYoShWorkbench.NYoShWorkbench.build.number}" />
@@ -41,9 +50,9 @@
       </tarfileset>
       <tarfileset file="${mps_home}/bin/linux/fsnotifier" prefix="NYoSh Workbench ${version}/bin" filemode="755" />
       <tarfileset file="${mps_home}/bin/linux/fsnotifier64" prefix="NYoSh Workbench ${version}/bin" filemode="755" />
-      <tarfileset dir="${artifacts.mpsDebuggerPlugin}/mps-debugger-java" prefix="NYoSh Workbench ${version}/plugins/mps-debugger-java" />
-      <tarfileset dir="${artifacts.mpsDebuggerPlugin}/mps-debugger-api" prefix="NYoSh Workbench ${version}/plugins/mps-debugger-api" />
-      <tarfileset dir="${artifacts.mpsExecutionPlugin}/mps-execution-languages" prefix="NYoSh Workbench ${version}/plugins/mps-execution-languages" />
+      <tarfileset dir="${artifacts.NYoShWorkbench}/mps-debugger-java" prefix="NYoSh Workbench ${version}/plugins/mps-debugger-java" />
+      <tarfileset dir="${artifacts.NYoShWorkbench}/mps-debugger-api" prefix="NYoSh Workbench ${version}/plugins/mps-debugger-api" />
+      <tarfileset dir="${artifacts.NYoShWorkbench}/mps-execution-languages" prefix="NYoSh Workbench ${version}/plugins/mps-execution-languages" />
       <tarfileset dir="${build.tmp}/default/_dl__lbrace_build.number_rbrace_-linux.tar.gz_f755" filemode="755" prefix="NYoSh Workbench ${version}" />
       <tarfileset dir="${build.tmp}/default/_dl__lbrace_build.number_rbrace_-linux.tar.gz" />
     </tar>

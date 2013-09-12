@@ -44,9 +44,6 @@
               <node role="statements" roleId="tpee.1082485599096" type="tpee.StatementList" typeId="tpee.1068580123136" id="4164691987241669671" nodeInfo="sn">
                 <node role="statement" roleId="tpee.1068581517665" type="6pk0.EnvironmentSourceList" typeId="6pk0.3173353997360946752" id="297820032011815672" nodeInfo="nr">
                   <node role="sources" roleId="6pk0.3173353997360946804" type="6pk0.JVMSource" typeId="6pk0.5955265417291063247" id="297820032011815809" nodeInfo="nr">
-                    <node role="loader" roleId="6pk0.3173353997360796899" type="6pk0.JVMLoader" typeId="6pk0.5955265417291063310" id="297820032011815812" nodeInfo="nr">
-                      <link role="source" roleId="6pk0.3173353997362497485" targetNodeId="297820032011815809" />
-                    </node>
                     <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="4031821062526839918" nodeInfo="nr">
                       <property name="value" nameId="6pk0.5469406079154538151" value="/tmp/launch-dAGvyy/Render" />
                       <property name="name" nameId="tpck.1169194664001" value="Apple_PubSub_Socket_Render" />
@@ -117,11 +114,11 @@
                       <property name="name" nameId="tpck.1169194664001" value="com.apple.java.jvmTask" />
                       <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
                     </node>
+                    <node role="loader" roleId="6pk0.3173353997360796899" type="6pk0.JVMLoader" typeId="6pk0.5955265417291063310" id="297820032011815812" nodeInfo="nr">
+                      <link role="source" roleId="6pk0.3173353997362497485" targetNodeId="297820032011815809" />
+                    </node>
                   </node>
                   <node role="sources" roleId="6pk0.3173353997360946804" type="935h.GobyWebSource" typeId="935h.7423498045461870545" id="297820032011815801" nodeInfo="nr">
-                    <node role="loader" roleId="6pk0.3173353997360796899" type="935h.GobyWebLoader" typeId="935h.7423498045461888424" id="297820032011815804" nodeInfo="ng">
-                      <link role="source" roleId="6pk0.3173353997362497485" targetNodeId="297820032011815801" />
-                    </node>
                     <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="4031821062526839932" nodeInfo="nr">
                       <property name="name" nameId="tpck.1169194664001" value="ALIGNER" />
                       <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
@@ -533,6 +530,9 @@
                       <property name="value" nameId="6pk0.5469406079154538151" value="/Users/mas2182/plugins-SDK-cache" />
                       <property name="name" nameId="tpck.1169194664001" value="TMPDIR" />
                       <property name="kind" nameId="6pk0.5463028992315853055" value="DIRECTORY" />
+                    </node>
+                    <node role="loader" roleId="6pk0.3173353997360796899" type="935h.GobyWebLoader" typeId="935h.7423498045461888424" id="297820032011815804" nodeInfo="ng">
+                      <link role="source" roleId="6pk0.3173353997362497485" targetNodeId="297820032011815801" />
                     </node>
                   </node>
                 </node>
@@ -1265,7 +1265,7 @@
       </node>
     </node>
     <node role="pluginSystem" roleId="935h.1090105717920801999" type="935h.PluginSystemRootDirectory" typeId="935h.6874736155930792596" id="4164691987241673938" nodeInfo="ng">
-      <property name="path" nameId="935h.6874736155930792624" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/" />
+      <property name="path" nameId="935h.6874736155930792624" value="/Users/campagne/IdeaProjects/git/gobyweb2-plugins" />
     </node>
   </root>
   <root type="4tvk.StepsLoggingSuccessHandler" typeId="4tvk.4780568564617168379" id="4780568564618943711" nodeInfo="ng">
