@@ -11,7 +11,7 @@
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="1090105717921231521" nodeInfo="nn">
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="1090105717921231522" nodeInfo="nn" />
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="1090105717921231525" nodeInfo="nn">
-        <property name="text" nameId="tpc2.1073389577007" value="plugin systems:" />
+        <property name="text" nameId="tpc2.1073389577007" value="plugin system:" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="6874736155930801633" nodeInfo="nn">
         <property name="text" nameId="tpc2.1073389577007" value=" " />
