@@ -50,9 +50,9 @@
       </tarfileset>
       <tarfileset file="${mps_home}/bin/linux/fsnotifier" prefix="NYoSh Workbench ${version}/bin" filemode="755" />
       <tarfileset file="${mps_home}/bin/linux/fsnotifier64" prefix="NYoSh Workbench ${version}/bin" filemode="755" />
-      <tarfileset dir="${artifacts.NYoShWorkbench}/mps-debugger-java" prefix="NYoSh Workbench ${version}/plugins/mps-debugger-java" />
-      <tarfileset dir="${artifacts.NYoShWorkbench}/mps-debugger-api" prefix="NYoSh Workbench ${version}/plugins/mps-debugger-api" />
-      <tarfileset dir="${artifacts.NYoShWorkbench}/mps-execution-languages" prefix="NYoSh Workbench ${version}/plugins/mps-execution-languages" />
+      <tarfileset dir="${artifacts.NYoShWorkbench}/plugins/mps-debugger-java" prefix="NYoSh Workbench ${version}/plugins/mps-debugger-java" />
+      <tarfileset dir="${artifacts.NYoShWorkbench}/plugins/mps-debugger-api" prefix="NYoSh Workbench ${version}/plugins/mps-debugger-api" />
+      <tarfileset dir="${artifacts.NYoShWorkbench}/plugins/mps-execution-languages" prefix="NYoSh Workbench ${version}/plugins/mps-execution-languages" />
       <tarfileset dir="${build.tmp}/default/_dl__lbrace_build.number_rbrace_-linux.tar.gz_f755" filemode="755" prefix="NYoSh Workbench ${version}" />
       <tarfileset dir="${build.tmp}/default/_dl__lbrace_build.number_rbrace_-linux.tar.gz" />
     </tar>
