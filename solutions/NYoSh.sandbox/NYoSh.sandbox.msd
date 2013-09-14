@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="A.sandbox" uuid="788de0e4-8ca2-4e82-8db6-de999c3adab7" compileInMPS="true">
+<solution name="Samples" uuid="788de0e4-8ca2-4e82-8db6-de999c3adab7" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
