@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:46f94a4e-295f-438d-ad47-f3b8b320d869(DeployableResourcePlugins)">
+<model modelUID="r:46f94a4e-295f-438d-ad47-f3b8b320d869(ResourcePlugin)">
   <persistence version="8" />
   <language namespace="adfd00cb-58d7-4094-bca8-f941a491e04f(org.campagnelab.gobyweb)" />
   <language namespace="0202ed86-955d-4227-9c20-377dd6b1f9ff(org.campagnelab.nyosh.lib)" />

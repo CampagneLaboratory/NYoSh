@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:0dfb0139-3076-4c73-b219-a6a0843291c7(DeployableBWAGobyArtifactPlugin)">
+<model modelUID="r:0dfb0139-3076-4c73-b219-a6a0843291c7(BWAGobyArtifactPlugin)">
   <persistence version="8" />
   <language namespace="adfd00cb-58d7-4094-bca8-f941a491e04f(org.campagnelab.gobyweb)" />
   <language namespace="0f071fdb-3faa-4b8c-9f5e-1da0a01466d5(org.campagnelab.nyosh.environment)" />
