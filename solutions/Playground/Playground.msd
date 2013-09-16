@@ -7,8 +7,8 @@
   </models>
   <sourcePath />
   <dependencies>
-    <dependency reexport="false">788de0e4-8ca2-4e82-8db6-de999c3adab7(Samples)</dependency>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
+    <dependency reexport="false">788de0e4-8ca2-4e82-8db6-de999c3adab7(org.campagnelab.gobyweb.samples)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>a21a7294-c126-4f63-8335-8fecd8c28c7e(NYoSh)</usedLanguage>
