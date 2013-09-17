@@ -103,5 +103,39 @@
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="935h.1090105717920801947" resolveInfo="PluginScript" />
     </node>
   </root>
+  <root type="tpd4.NonTypesystemRule" typeId="tpd4.1195214364922" id="78530767378357319" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="ValidatePluginSystem" />
+    <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="78530767378357320" nodeInfo="sn">
+      <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="5131770576693713520" nodeInfo="nn">
+        <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="5131770576693713523" nodeInfo="sn">
+          <node role="statement" roleId="tpee.1068581517665" type="tpd4.ReportErrorStatement" typeId="tpd4.1175517767210" id="5131770576692320887" nodeInfo="nn">
+            <node role="nodeToReport" roleId="tpd4.1227096802790" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="5131770576692321256" nodeInfo="nn">
+              <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="78530767378357389" resolveInfo="plugins" />
+            </node>
+            <node role="errorString" roleId="tpd4.1175517851849" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5131770576692321134" nodeInfo="nn">
+              <node role="operand" roleId="tpee.1197027771414" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="5131770576692321135" nodeInfo="nn">
+                <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="78530767378357389" resolveInfo="plugins" />
+              </node>
+              <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="5131770576692321136" nodeInfo="nn">
+                <link role="property" roleId="tp25.1138056395725" targetNodeId="935h.78530767374283936" resolveInfo="lastValidationMessage" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="condition" roleId="tpee.1068580123160" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5131770576693713957" nodeInfo="nn">
+          <node role="operand" roleId="tpee.1197027771414" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="5131770576693713547" nodeInfo="nn">
+            <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="78530767378357389" resolveInfo="plugins" />
+          </node>
+          <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="5131770576693718870" nodeInfo="nn">
+            <link role="property" roleId="tp25.1138056395725" targetNodeId="935h.5131770576692241878" resolveInfo="hasError" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="78530767378357389" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="plugins" />
+      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="935h.6874736155930792596" resolveInfo="PluginSystemRootDirectory" />
+    </node>
+  </root>
 </model>
 
