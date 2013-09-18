@@ -95,7 +95,7 @@
       <fileset file="${org.campagnelab.goby.workbench.home}/lib/wildcard-1.03.jar" />
     </copy>
     <copy todir="${build.layout}/lib">
-      <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.3.0.jar" />
+      <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.3.1-SNAPSHOT.jar" />
     </copy>
     <copy todir="${build.layout}/lib">
       <fileset file="${org.campagnelab.goby.workbench.home}/lib/filesets-1.1.1.jar" />
@@ -456,11 +456,11 @@
         <library jar="../../../../lib/scala-library-2.9.2.jar" />
         <library jar="../../../../lib/dsiutils-2.0.7.jar" />
         <library jar="../../../../lib/artifacts-2.2.4.jar" />
-        <library jar="../../../../lib/plugins-2.3.0.jar" />
         <library jar="../../../../lib/org.campagnelab.stepslogger-1.1.0.jar" />
         <library jar="../../../../lib/serverside-dependencies-1.0.6-full.jar" />
         <library jar="../../../../lib/filesets-1.1.1.jar" />
         <library jar="../../../../lib/nyosh-runtime-support-1.0.4-SNAPSHOT.jar" />
+        <library jar="../../../../lib/plugins-2.3.1-SNAPSHOT.jar" />
         <sources jar="org.campagnelab.nyosh.lib-src.jar" descriptor="org.campagnelab.nyosh.lib.mpl" />
       </module>
     </echoxml>
@@ -708,11 +708,11 @@
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/scala-library-2.9.2.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/dsiutils-2.0.7.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.2.4.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.3.0.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/serverside-dependencies-1.0.6-full.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/filesets-1.1.1.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.0.4-SNAPSHOT.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.3.1-SNAPSHOT.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/log4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/jdom.jar" />
@@ -768,11 +768,11 @@
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/scala-library-2.9.2.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/dsiutils-2.0.7.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.2.4.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.3.0.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/serverside-dependencies-1.0.6-full.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/filesets-1.1.1.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.0.4-SNAPSHOT.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.3.1-SNAPSHOT.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/log4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/jdom.jar" />
@@ -827,11 +827,11 @@
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/scala-library-2.9.2.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/dsiutils-2.0.7.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.2.4.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.3.0.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/serverside-dependencies-1.0.6-full.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/filesets-1.1.1.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.0.4-SNAPSHOT.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.3.1-SNAPSHOT.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/log4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/jdom.jar" />
@@ -883,11 +883,11 @@
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/scala-library-2.9.2.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/dsiutils-2.0.7.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.2.4.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.3.0.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/serverside-dependencies-1.0.6-full.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/filesets-1.1.1.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.0.4-SNAPSHOT.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.3.1-SNAPSHOT.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/log4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/jdom.jar" />
@@ -941,11 +941,11 @@
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/scala-library-2.9.2.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/dsiutils-2.0.7.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.2.4.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.3.0.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/serverside-dependencies-1.0.6-full.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/filesets-1.1.1.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.0.4-SNAPSHOT.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.3.1-SNAPSHOT.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/log4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/jdom.jar" />
@@ -1007,11 +1007,11 @@
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/scala-library-2.9.2.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/dsiutils-2.0.7.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.2.4.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.3.0.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/serverside-dependencies-1.0.6-full.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/filesets-1.1.1.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.0.4-SNAPSHOT.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.3.1-SNAPSHOT.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/log4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/jdom.jar" />
@@ -1068,11 +1068,11 @@
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/scala-library-2.9.2.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/dsiutils-2.0.7.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.2.4.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.3.0.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/serverside-dependencies-1.0.6-full.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/filesets-1.1.1.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.0.4-SNAPSHOT.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.3.1-SNAPSHOT.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/log4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/jdom.jar" />
@@ -1130,11 +1130,11 @@
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/scala-library-2.9.2.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/dsiutils-2.0.7.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.2.4.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.3.0.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/serverside-dependencies-1.0.6-full.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/filesets-1.1.1.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.0.4-SNAPSHOT.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.3.1-SNAPSHOT.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/log4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/jdom.jar" />
@@ -1190,11 +1190,11 @@
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/scala-library-2.9.2.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/dsiutils-2.0.7.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.2.4.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.3.0.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/serverside-dependencies-1.0.6-full.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/filesets-1.1.1.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.0.4-SNAPSHOT.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.3.1-SNAPSHOT.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/log4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/jdom.jar" />
@@ -1370,11 +1370,11 @@
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/scala-library-2.9.2.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/dsiutils-2.0.7.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.2.4.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.3.0.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/serverside-dependencies-1.0.6-full.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/filesets-1.1.1.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.0.4-SNAPSHOT.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.3.1-SNAPSHOT.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/log4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/jdom.jar" />
@@ -1424,11 +1424,11 @@
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/scala-library-2.9.2.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/dsiutils-2.0.7.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.2.4.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.3.0.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/serverside-dependencies-1.0.6-full.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/filesets-1.1.1.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.0.4-SNAPSHOT.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.3.1-SNAPSHOT.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/log4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/jdom.jar" />
@@ -1482,11 +1482,11 @@
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/scala-library-2.9.2.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/dsiutils-2.0.7.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.2.4.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.3.0.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/serverside-dependencies-1.0.6-full.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/filesets-1.1.1.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.0.4-SNAPSHOT.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.3.1-SNAPSHOT.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/log4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/jdom.jar" />
