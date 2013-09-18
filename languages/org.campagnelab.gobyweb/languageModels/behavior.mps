@@ -1011,7 +1011,7 @@
                 <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="5469406079154608079" resolveInfo="parser" />
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="5131770576692303084" nodeInfo="nn">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="evra.~GobyWebParser%dhasErrorsToReport()%cboolean" resolveInfo="hasErrorsToReport" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="evra.~Message%dhasErrorsToReport()%cboolean" resolveInfo="hasErrorsToReport" />
               </node>
             </node>
             <node role="lValue" roleId="tpee.1068498886295" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5131770576692286498" nodeInfo="nn">
