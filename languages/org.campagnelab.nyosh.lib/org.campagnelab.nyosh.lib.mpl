@@ -6,18 +6,21 @@
     </modelRoot>
     <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/wildcard-1.03.jar" type="java_classes" />
     <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1.0.jar" type="java_classes" />
-    <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/commons-io-2.4.jar" type="java_classes" />
+    <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/filesets-1.1.1.jar" type="java_classes" />
     <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/filesets-1.1.jar" type="java_classes" />
     <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/groovy-all-1.8.6.jar" type="java_classes" />
     <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/fastutil-6.4.4.jar" type="java_classes" />
     <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/option-validation-language-2.1.0.jar" type="java_classes" />
-    <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/scala-library-2.9.2.jar" type="java_classes" />
-    <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.0.3.jar" type="java_classes" />
     <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.2.4.jar" type="java_classes" />
-    <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/plugins-2.3.0.jar" type="java_classes" />
     <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/dsiutils-2.0.7.jar" type="java_classes" />
     <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/serverside-dependencies-1.0.6-full.jar" type="java_classes" />
+    <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.0.4-SNAPSHOT.jar" type="java_classes" />
+    <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/plugins-2.3.1-SNAPSHOT.jar" type="java_classes" />
   </models>
+  <facets>
+    <facet type="tests" />
+    <facet type="java" />
+  </facets>
   <accessoryModels />
   <generators>
     <generator name="externalDependencies" generatorUID="org.campagnelab.nyosh.lib#196851695325922999" uuid="eee4aaaa-c2c2-4aba-8c23-b077e2fcd505">
@@ -41,17 +44,17 @@
   <stubModelEntries>
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/wildcard-1.03.jar" />
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/commons-io-2.4.jar" />
-    <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/filesets-1.1.jar" />
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/groovy-all-1.8.6.jar" />
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/fastutil-6.4.4.jar" />
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/option-validation-language-2.1.0.jar" />
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/scala-library-2.9.2.jar" />
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/dsiutils-2.0.7.jar" />
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.2.4.jar" />
-    <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/plugins-2.3.0.jar" />
-    <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.0.3.jar" />
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/serverside-dependencies-1.0.6-full.jar" />
+    <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/filesets-1.1.1.jar" />
+    <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.0.4-SNAPSHOT.jar" />
+    <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/plugins-2.3.1-SNAPSHOT.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

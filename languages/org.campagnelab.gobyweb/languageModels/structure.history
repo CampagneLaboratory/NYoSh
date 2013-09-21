@@ -60,5 +60,59 @@
     </dependencies>
     <rename id="935h.1072453283800374842" type="CONCEPT" from="PluginExecuteScript" to="ExecutablePluginScript" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="5" />
+    </dependencies>
+    <rename id="935h.78530767374283936" type="PROPERTY" from="validationResults" to="lastValidationMessage" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="6" />
+    </dependencies>
+    <rename id="935h.5463469075894936636" type="CONCEPT" from="plugin_alignment_analysis_split" to="AlignmentAnalysisSplit" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="7" />
+    </dependencies>
+    <rename id="935h.5463469075895646188" type="CONCEPT" from="AlignmentAnalysis" to="AlignmentAnalysisNumParts" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="8" />
+    </dependencies>
+    <rename id="935h.5463469075895646188" type="CONCEPT" from="AlignmentAnalysisNumParts" to="AlignmentAnalysisNumPartsEntryPoint" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="9" />
+    </dependencies>
+    <rename id="935h.5463469075895830776" type="CONCEPT" from="AlignmentAnalysisProcess" to="AlignmentAnalysisProcessEntryPoint" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="10" />
+    </dependencies>
+    <rename id="935h.5463469075894936636" type="CONCEPT" from="AlignmentAnalysisSplit" to="AlignmentAnalysisSplitEntryPoint" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="11" />
+    </dependencies>
+    <rename id="935h.5463469075896410932" type="CONCEPT" from="AlignmentAnalysisNumParts" to="AlignmentAnalysisNumPartsPrototype" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="12" />
+    </dependencies>
+    <rename id="935h.5463469075896654842" type="CONCEPT" from="AlignmentAnalysisSplit" to="AlignmentAnalysisSplitPrototype" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="13" />
+    </dependencies>
+    <rename id="935h.5463469075896843087" type="CONCEPT" from="AlignmentAnalysisProcess" to="AlignmentAnalysisProcessPrototype" />
+  </StructureModification>
 </history>
 

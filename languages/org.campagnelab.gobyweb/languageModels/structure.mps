@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="5">
+<model modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="14">
   <persistence version="8" />
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
@@ -7,7 +7,7 @@
   <import index="6pk0" modelUID="r:48f4e449-1a18-435e-ae88-4830aa794dc7(org.campagnelab.nyosh.environment.structure)" version="15" />
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="5" implicit="yes" />
+  <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="14" implicit="yes" />
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1090105717920801947" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="PluginScript" />
     <property name="abstract" nameId="tpce.4628067390765956802" value="true" />
@@ -76,6 +76,14 @@
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="6874736155930792624" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="path" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="78530767374283936" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="lastValidationMessage" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="5131770576692241878" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="hasError" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657063" resolveInfo="boolean" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1072453283800374546" nodeInfo="ig">
@@ -184,6 +192,83 @@
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="GobyWeb Environment loader" />
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="load the basic GobyWeb environment" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="6pk0.3173353997360795105" resolveInfo="Loader" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6989919346770999332" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="TaskScript" />
+    <property name="rootable" nameId="tpce.1096454100552" value="true" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="tasks" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="1090105717920801947" resolveInfo="PluginScript" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6989919346771010830" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="tasks" />
+    <property name="name" nameId="tpck.1169194664001" value="TaskEntryPoint" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="385706599064973507" resolveInfo="GobyWebEntryPoint" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6989919346771038892" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="tasks" />
+    <property name="name" nameId="tpck.1169194664001" value="TaskEntryPointPrototype" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="4tvk.2829258213785539345" resolveInfo="EntryPointPrototype" />
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6989919346771039166" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="4tvk.2829258213784965274" resolveInfo="IEntryPointPrototype" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5463469075894873060" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="AlignmentAnalysisScript" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="analyses" />
+    <property name="rootable" nameId="tpce.1096454100552" value="true" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="1090105717920801947" resolveInfo="PluginScript" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5463469075894936636" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="analyses" />
+    <property name="name" nameId="tpck.1169194664001" value="AlignmentAnalysisSplitEntryPoint" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="385706599064973507" resolveInfo="GobyWebEntryPoint" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5463469075895646188" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="analyses" />
+    <property name="name" nameId="tpck.1169194664001" value="AlignmentAnalysisNumPartsEntryPoint" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="385706599064973507" resolveInfo="GobyWebEntryPoint" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5463469075895830776" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="analyses" />
+    <property name="name" nameId="tpck.1169194664001" value="AlignmentAnalysisProcessEntryPoint" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="385706599064973507" resolveInfo="GobyWebEntryPoint" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5463469075896382676" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="analyses" />
+    <property name="name" nameId="tpck.1169194664001" value="AlignmentAnalysisCombineEntryPoint" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="385706599064973507" resolveInfo="GobyWebEntryPoint" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5463469075896410788" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="analyses" />
+    <property name="name" nameId="tpck.1169194664001" value="AlignmentAnalysisCombinePrototype" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="4tvk.2829258213785539345" resolveInfo="EntryPointPrototype" />
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="5463469075896410878" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="4tvk.2829258213784965274" resolveInfo="IEntryPointPrototype" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5463469075896410932" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="analyses" />
+    <property name="name" nameId="tpck.1169194664001" value="AlignmentAnalysisNumPartsPrototype" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="4tvk.2829258213785539345" resolveInfo="EntryPointPrototype" />
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="5463469075896596489" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="4tvk.2829258213784965274" resolveInfo="IEntryPointPrototype" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5463469075896654842" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="analyses" />
+    <property name="name" nameId="tpck.1169194664001" value="AlignmentAnalysisSplitPrototype" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="4tvk.2829258213785539345" resolveInfo="EntryPointPrototype" />
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="5463469075896842279" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="4tvk.2829258213784965274" resolveInfo="IEntryPointPrototype" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5463469075896843087" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="analyses" />
+    <property name="name" nameId="tpck.1169194664001" value="AlignmentAnalysisProcessPrototype" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="4tvk.2829258213785539345" resolveInfo="EntryPointPrototype" />
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="5463469075897032342" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="4tvk.2829258213784965274" resolveInfo="IEntryPointPrototype" />
+    </node>
   </root>
 </model>
 
