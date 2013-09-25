@@ -26,10 +26,12 @@
         <generator generatorUID="b0ebc3f2-c15d-4fad-bdc5-56b3ea4437a2(NYoSh#8197864363320338521)" />
       </external-templates>
       <dependencies>
+        <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
         <dependency reexport="false">a21a7294-c126-4f63-8335-8fecd8c28c7e(NYoSh)</dependency>
         <dependency reexport="false">f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</dependency>
         <dependency reexport="false">adfd00cb-58d7-4094-bca8-f941a491e04f(org.campagnelab.gobyweb)</dependency>
         <dependency reexport="false">0f071fdb-3faa-4b8c-9f5e-1da0a01466d5(org.campagnelab.nyosh.environment)</dependency>
+        <dependency reexport="false">ca3c497c-ccac-4f23-9e37-111977da1ae3(org.campagnelab.nyosh.environment#3173353997360794809)</dependency>
         <dependency reexport="false">0202ed86-955d-4227-9c20-377dd6b1f9ff(org.campagnelab.nyosh.lib)</dependency>
       </dependencies>
       <usedLanguages>
