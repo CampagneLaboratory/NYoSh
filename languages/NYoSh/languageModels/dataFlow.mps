@@ -65,5 +65,20 @@
       </node>
     </node>
   </root>
+  <root type="tp41.DataFlowBuilderDeclaration" typeId="tp41.1206442055221" id="3941135000202308938" nodeInfo="ng">
+    <link role="conceptDeclaration" roleId="tp41.1206442096288" targetNodeId="4tvk.3941135000200355332" resolveInfo="Echo" />
+    <node role="builderBlock" roleId="tp41.1206442812839" type="tp41.BuilderBlock" typeId="tp41.1206442659665" id="3941135000202308939" nodeInfo="nn">
+      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="3941135000202308940" nodeInfo="sn">
+        <node role="statement" roleId="tpee.1068581517665" type="tp41.EmitReadStatement" typeId="tp41.1206443823146" id="3941135000202309021" nodeInfo="nn">
+          <node role="variable" roleId="tp41.1206444629799" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3941135000202309603" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tp41.NodeParameter" typeId="tp41.1206442747519" id="3941135000202309039" nodeInfo="nn" />
+            <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="3941135000202315405" nodeInfo="nn">
+              <link role="link" roleId="tp25.1138056516764" targetNodeId="4tvk.3941135000200355541" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </root>
 </model>
 

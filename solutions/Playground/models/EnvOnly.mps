@@ -7,6 +7,7 @@
   <language namespace="0f071fdb-3faa-4b8c-9f5e-1da0a01466d5(org.campagnelab.nyosh.environment)" />
   <language namespace="c6567f13-87ab-4686-8f6f-42e8228c0e27(org.campagnelab.nyosh.gstring)" />
   <language namespace="7e7f12dd-4eb6-4f35-9b4d-d37f5140fd33(org.campagnelab.nyosh.pathpatterns)" />
+  <language namespace="83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" />
   <import index="fxg7" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" version="-1" />
   <import index="1tqo" modelUID="r:4a1d7415-a3f6-4913-9c57-72e23147d234(Working)" version="-1" />
@@ -15,7 +16,7 @@
   <import index="6pk0" modelUID="r:48f4e449-1a18-435e-ae88-4830aa794dc7(org.campagnelab.nyosh.environment.structure)" version="15" implicit="yes" />
   <import index="f2ff" modelUID="r:48d5f7d2-24be-4d82-ac12-8f4a2d414b11(org.campagnelab.nyosh.gstring.structure)" version="-1" implicit="yes" />
   <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="23" implicit="yes" />
-  <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="6" implicit="yes" />
+  <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="14" implicit="yes" />
   <import index="8w0" modelUID="r:eb1d368a-5e85-4af8-8740-90a6516e7dd4(org.campagnelab.nyosh.pathpatterns.structure)" version="0" implicit="yes" />
   <root type="935h.AlignerScript" typeId="935h.3173353997329126934" id="2149979023199548858" nodeInfo="ng">
     <property name="pluginKind" nameId="935h.6874736155930792593" value="aligners" />
@@ -452,158 +453,181 @@
               <node role="loader" roleId="6pk0.3173353997360796899" type="6pk0.JVMLoader" typeId="6pk0.5955265417291063310" id="2149979023199549013" nodeInfo="nr">
                 <link role="source" roleId="6pk0.3173353997362497485" targetNodeId="2149979023199549012" />
               </node>
-              <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="2149979023199549014" nodeInfo="nr">
-                <property name="value" nameId="6pk0.5469406079154538151" value="/tmp/launch-9iv71a/Render" />
+              <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="3941135000200351169" nodeInfo="nr">
+                <property name="value" nameId="6pk0.5469406079154538151" value="/tmp/launch-BtY2ug/Render" />
                 <property name="name" nameId="tpck.1169194664001" value="Apple_PubSub_Socket_Render" />
                 <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
               </node>
-              <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="2149979023199549015" nodeInfo="nr">
-                <property name="value" nameId="6pk0.5469406079154538151" value="/tmp/launch-flsNtS/Apple_Ubiquity_Message" />
+              <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="3941135000200351170" nodeInfo="nr">
+                <property name="value" nameId="6pk0.5469406079154538151" value="/tmp/launch-YID4UQ/Apple_Ubiquity_Message" />
                 <property name="name" nameId="tpck.1169194664001" value="Apple_Ubiquity_Message" />
                 <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
               </node>
-              <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="2149979023199549016" nodeInfo="nr">
+              <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="3941135000200351171" nodeInfo="nr">
                 <property name="value" nameId="6pk0.5469406079154538151" value="unix2003" />
                 <property name="name" nameId="tpck.1169194664001" value="COMMAND_MODE" />
                 <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
               </node>
-              <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="2149979023199549017" nodeInfo="nr">
-                <property name="value" nameId="6pk0.5469406079154538151" value="/Users/mas2182" />
+              <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="3941135000200351172" nodeInfo="nr">
+                <property name="value" nameId="6pk0.5469406079154538151" value="/tmp/launch-QuYw0I/org.x:0" />
+                <property name="name" nameId="tpck.1169194664001" value="DISPLAY" />
+                <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
+              </node>
+              <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="3941135000200351173" nodeInfo="nr">
+                <property name="value" nameId="6pk0.5469406079154538151" value="/Users/fac2003" />
                 <property name="name" nameId="tpck.1169194664001" value="HOME" />
                 <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
               </node>
-              <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="2149979023199549018" nodeInfo="nr">
-                <property name="value" nameId="6pk0.5469406079154538151" value="/Applications/Work/MPS 3.0.app/Contents/Resources/Java:/System/Library/PrivateFrameworks/JavaApplicationLauncher.framework/Resources" />
+              <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="3941135000200351174" nodeInfo="nr">
+                <property name="value" nameId="6pk0.5469406079154538151" value="/Applications/MPS 3.0.app/Contents/Resources/Java:/System/Library/PrivateFrameworks/JavaApplicationLauncher.framework/Resources" />
                 <property name="name" nameId="tpck.1169194664001" value="JAVA_LIBRARY_PATH" />
                 <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
               </node>
-              <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="2149979023199549019" nodeInfo="nr">
-                <property name="value" nameId="6pk0.5469406079154538151" value="mas2182" />
+              <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="3941135000200351175" nodeInfo="nr">
+                <property name="value" nameId="6pk0.5469406079154538151" value="fac2003" />
                 <property name="name" nameId="tpck.1169194664001" value="LOGNAME" />
                 <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
               </node>
-              <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="2149979023199549020" nodeInfo="nr">
+              <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="3941135000200351176" nodeInfo="nr">
                 <property name="value" nameId="6pk0.5469406079154538151" value="/usr/bin:/bin:/usr/sbin:/sbin" />
                 <property name="name" nameId="tpck.1169194664001" value="PATH" />
                 <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
               </node>
-              <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="2149979023199549021" nodeInfo="nr">
+              <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="3941135000200351177" nodeInfo="nr">
                 <property name="value" nameId="6pk0.5469406079154538151" value="/bin/bash" />
                 <property name="name" nameId="tpck.1169194664001" value="SHELL" />
                 <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
               </node>
-              <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="2149979023199549022" nodeInfo="nr">
-                <property name="value" nameId="6pk0.5469406079154538151" value="/tmp/launch-ASOZvi/Listeners" />
+              <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="3941135000200351178" nodeInfo="nr">
+                <property name="value" nameId="6pk0.5469406079154538151" value="/tmp/launch-xpExI0/Listeners" />
                 <property name="name" nameId="tpck.1169194664001" value="SSH_AUTH_SOCK" />
                 <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
               </node>
-              <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="2149979023199549023" nodeInfo="nr">
-                <property name="value" nameId="6pk0.5469406079154538151" value="/var/folders/_b/yxqf80914033gdcjr2jz91_h0000gq/T/" />
+              <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="3941135000200351179" nodeInfo="nr">
+                <property name="value" nameId="6pk0.5469406079154538151" value="/var/folders/9j/f_4_0b0d5zb7pbvdktfcpnz80000gp/T/" />
                 <property name="name" nameId="tpck.1169194664001" value="TMPDIR" />
                 <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
               </node>
-              <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="2149979023199549024" nodeInfo="nr">
-                <property name="value" nameId="6pk0.5469406079154538151" value="mas2182" />
+              <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="3941135000200351180" nodeInfo="nr">
+                <property name="value" nameId="6pk0.5469406079154538151" value="fac2003" />
                 <property name="name" nameId="tpck.1169194664001" value="USER" />
                 <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
               </node>
-              <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="2149979023199549025" nodeInfo="nr">
-                <property name="value" nameId="6pk0.5469406079154538151" value="0x1F7:0:0" />
+              <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="3941135000200351181" nodeInfo="nr">
+                <property name="value" nameId="6pk0.5469406079154538151" value="0x1F6:0:0" />
                 <property name="name" nameId="tpck.1169194664001" value="__CF_USER_TEXT_ENCODING" />
                 <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
               </node>
-              <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="2149979023199549026" nodeInfo="nr">
+              <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="3941135000200351182" nodeInfo="nr">
                 <property name="value" nameId="6pk0.5469406079154538151" value="client" />
                 <property name="name" nameId="tpck.1169194664001" value="com.apple.java.jvmMode" />
                 <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
               </node>
-              <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="2149979023199549027" nodeInfo="nr">
+              <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="3941135000200351183" nodeInfo="nr">
                 <property name="value" nameId="6pk0.5469406079154538151" value="BundledApp" />
                 <property name="name" nameId="tpck.1169194664001" value="com.apple.java.jvmTask" />
                 <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
               </node>
             </node>
-            <node role="sources" roleId="6pk0.3173353997360946804" type="935h.GobyWebSource" typeId="935h.7423498045461870545" id="2149979023199549028" nodeInfo="nr">
-              <node role="loader" roleId="6pk0.3173353997360796899" type="935h.GobyWebLoader" typeId="935h.7423498045461888424" id="2149979023199549029" nodeInfo="ng">
-                <link role="source" roleId="6pk0.3173353997362497485" targetNodeId="2149979023199549028" />
+            <node role="sources" roleId="6pk0.3173353997360946804" type="6pk0.MapFileSource" typeId="6pk0.3173353997360878302" id="3941135000199849281" nodeInfo="nr">
+              <node role="loader" roleId="6pk0.3173353997360796899" type="6pk0.MapFileLoader" typeId="6pk0.3173353997360795160" id="3941135000199849284" nodeInfo="nr">
+                <link role="source" roleId="6pk0.3173353997362497485" targetNodeId="3941135000199849281" />
+              </node>
+              <node role="source" roleId="6pk0.1455940728763205902" type="6pk0.SourcePath" typeId="6pk0.1455940728763133433" id="3941135000199849285" nodeInfo="ng">
+                <property name="filename" nameId="6pk0.1455940728763133434" value="java.properties" />
+                <link role="path" roleId="6pk0.3741291048046407953" targetNodeId="3941135000200351173" resolveInfo="HOME" />
               </node>
             </node>
           </node>
-          <node role="statement" roleId="tpee.1068581517665" type="6pk0.EnvironmentSourceList" typeId="6pk0.3173353997360946752" id="2149979023199549030" nodeInfo="nr">
-            <node role="sources" roleId="6pk0.3173353997360946804" type="6pk0.JVMSource" typeId="6pk0.5955265417291063247" id="2149979023199549031" nodeInfo="nr">
-              <node role="loader" roleId="6pk0.3173353997360796899" type="6pk0.JVMLoader" typeId="6pk0.5955265417291063310" id="2149979023199549032" nodeInfo="nr">
-                <link role="source" roleId="6pk0.3173353997362497485" targetNodeId="2149979023199549031" />
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="3941135000200351023" nodeInfo="nn" />
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="3941135000200336771" nodeInfo="nn">
+            <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="3941135000200336774" nodeInfo="nr">
+              <property name="name" nameId="tpck.1169194664001" value="xmlFileList" />
+              <node role="type" roleId="tpee.5680397130376446158" type="tpee.ArrayType" typeId="tpee.1070534760951" id="3941135000202005141" nodeInfo="in">
+                <node role="componentType" roleId="tpee.1070534760952" type="tpee.StringType" typeId="tpee.1225271177708" id="3941135000202001014" nodeInfo="in" />
               </node>
-              <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="2149979023199549033" nodeInfo="nr">
-                <property name="value" nameId="6pk0.5469406079154538151" value="/tmp/launch-9iv71a/Render" />
-                <property name="name" nameId="tpck.1169194664001" value="Apple_PubSub_Socket_Render" />
-                <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
+              <node role="initializer" roleId="tpee.1068431790190" type="8w0.PathAsList" typeId="8w0.1326095133187313992" id="3941135000200335098" nodeInfo="ng">
+                <node role="value" roleId="8w0.4153369314447955958" type="8w0.IncludePattern" typeId="8w0.1326095133172717614" id="3941135000200335656" nodeInfo="ng">
+                  <node role="value" roleId="8w0.1326095133174481588" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="3941135000200335657" nodeInfo="ng">
+                    <node role="components" roleId="f2ff.1012285663620335803" type="6pk0.VariableReaderGStringComponent" typeId="6pk0.2328891098886457362" id="3941135000200335665" nodeInfo="ng">
+                      <link role="envVariable" roleId="6pk0.2328891098886457363" targetNodeId="3941135000200351173" resolveInfo="HOME" />
+                    </node>
+                    <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="3941135000200351203" nodeInfo="ng">
+                      <property name="value" nameId="f2ff.1012285663620336023" value="/*.xml" />
+                    </node>
+                  </node>
+                </node>
               </node>
-              <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="2149979023199549034" nodeInfo="nr">
-                <property name="value" nameId="6pk0.5469406079154538151" value="/tmp/launch-flsNtS/Apple_Ubiquity_Message" />
-                <property name="name" nameId="tpck.1169194664001" value="Apple_Ubiquity_Message" />
-                <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
+            </node>
+          </node>
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="3941135000200351772" nodeInfo="nn" />
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.ForeachStatement" typeId="tpee.1144226303539" id="3941135000200325153" nodeInfo="nn">
+            <node role="body" roleId="tpee.1154032183016" type="tpee.StatementList" typeId="tpee.1068580123136" id="3941135000200325156" nodeInfo="sn">
+              <node role="statement" roleId="tpee.1068581517665" type="4tvk.ExecuteCommand" typeId="4tvk.8197864363320353692" id="3941135000199849371" nodeInfo="ng">
+                <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.GStringCommand" typeId="4tvk.8155370969619067580" id="3941135000199849396" nodeInfo="ng">
+                  <node role="command" roleId="4tvk.8155370969619067612" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="3941135000199849398" nodeInfo="ng">
+                    <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="3941135000200351004" nodeInfo="ng">
+                      <property name="value" nameId="f2ff.1012285663620336023" value="rm " />
+                    </node>
+                    <node role="components" roleId="f2ff.1012285663620335803" type="6pk0.VariableReaderGStringComponent" typeId="6pk0.2328891098886457362" id="3941135000200325012" nodeInfo="ng">
+                      <link role="envVariable" roleId="6pk0.2328891098886457363" targetNodeId="3941135000200351179" resolveInfo="TMPDIR" />
+                    </node>
+                    <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="3941135000200337842" nodeInfo="ng">
+                      <property name="value" nameId="f2ff.1012285663620336023" value="/" />
+                    </node>
+                    <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringVarReference" typeId="f2ff.1012285663620336025" id="3941135000199849705" nodeInfo="ng">
+                      <link role="varRef" roleId="f2ff.4087517305354402375" targetNodeId="3941135000200325159" resolveInfo="filename" />
+                    </node>
+                  </node>
+                </node>
               </node>
-              <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="2149979023199549035" nodeInfo="nr">
-                <property name="value" nameId="6pk0.5469406079154538151" value="unix2003" />
-                <property name="name" nameId="tpck.1169194664001" value="COMMAND_MODE" />
-                <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
+            </node>
+            <node role="variable" roleId="tpee.1144230900587" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="3941135000200325159" nodeInfo="nr">
+              <property name="name" nameId="tpck.1169194664001" value="filename" />
+              <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="3941135000200346160" nodeInfo="in" />
+            </node>
+            <node role="iterable" roleId="tpee.1144226360166" type="tpee.VariableReference" typeId="tpee.1068498886296" id="3941135000200348151" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3941135000200336774" resolveInfo="xmlFileList" />
+            </node>
+          </node>
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="3941135000200351918" nodeInfo="nn">
+            <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="3941135000200352065" nodeInfo="nn">
+              <property name="text" nameId="tpee.6329021646629104958" value="let's make a pipeline ( numLines=`ls -1 ${HOME}|wc -l` )" />
+            </node>
+          </node>
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="3941135000200353250" nodeInfo="nn">
+            <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="3941135000200353253" nodeInfo="nr">
+              <property name="name" nameId="tpck.1169194664001" value="numLines" />
+              <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="3941135000200353483" nodeInfo="in" />
+              <node role="initializer" roleId="tpee.1068431790190" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="1168378901329297263" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="" />
               </node>
-              <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="2149979023199549036" nodeInfo="nr">
-                <property name="value" nameId="6pk0.5469406079154538151" value="/Users/mas2182" />
-                <property name="name" nameId="tpck.1169194664001" value="HOME" />
-                <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
+            </node>
+          </node>
+          <node role="statement" roleId="tpee.1068581517665" type="4tvk.ExecuteCommand" typeId="4tvk.8197864363320353692" id="3941135000200352115" nodeInfo="ng">
+            <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.GStringCommand" typeId="4tvk.8155370969619067580" id="3941135000200352264" nodeInfo="ng">
+              <node role="command" roleId="4tvk.8155370969619067612" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="3941135000200352265" nodeInfo="ng">
+                <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="3941135000200352270" nodeInfo="ng">
+                  <property name="value" nameId="f2ff.1012285663620336023" value="ls -1 " />
+                </node>
+                <node role="components" roleId="f2ff.1012285663620335803" type="6pk0.VariableReaderGStringComponent" typeId="6pk0.2328891098886457362" id="3941135000200352930" nodeInfo="ng">
+                  <link role="envVariable" roleId="6pk0.2328891098886457363" targetNodeId="3941135000200351173" resolveInfo="HOME" />
+                </node>
+                <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="3941135000200352276" nodeInfo="ng">
+                  <property name="value" nameId="f2ff.1012285663620336023" value="/ | wc -l" />
+                </node>
               </node>
-              <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="2149979023199549037" nodeInfo="nr">
-                <property name="value" nameId="6pk0.5469406079154538151" value="/Applications/Work/MPS 3.0.app/Contents/Resources/Java:/System/Library/PrivateFrameworks/JavaApplicationLauncher.framework/Resources" />
-                <property name="name" nameId="tpck.1169194664001" value="JAVA_LIBRARY_PATH" />
-                <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
-              </node>
-              <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="2149979023199549038" nodeInfo="nr">
-                <property name="value" nameId="6pk0.5469406079154538151" value="mas2182" />
-                <property name="name" nameId="tpck.1169194664001" value="LOGNAME" />
-                <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
-              </node>
-              <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="2149979023199549039" nodeInfo="nr">
-                <property name="value" nameId="6pk0.5469406079154538151" value="/usr/bin:/bin:/usr/sbin:/sbin" />
-                <property name="name" nameId="tpck.1169194664001" value="PATH" />
-                <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
-              </node>
-              <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="2149979023199549040" nodeInfo="nr">
-                <property name="value" nameId="6pk0.5469406079154538151" value="/bin/bash" />
-                <property name="name" nameId="tpck.1169194664001" value="SHELL" />
-                <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
-              </node>
-              <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="2149979023199549041" nodeInfo="nr">
-                <property name="value" nameId="6pk0.5469406079154538151" value="/tmp/launch-ASOZvi/Listeners" />
-                <property name="name" nameId="tpck.1169194664001" value="SSH_AUTH_SOCK" />
-                <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
-              </node>
-              <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="2149979023199549042" nodeInfo="nr">
-                <property name="value" nameId="6pk0.5469406079154538151" value="/var/folders/_b/yxqf80914033gdcjr2jz91_h0000gq/T/" />
-                <property name="name" nameId="tpck.1169194664001" value="TMPDIR" />
-                <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
-              </node>
-              <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="2149979023199549043" nodeInfo="nr">
-                <property name="value" nameId="6pk0.5469406079154538151" value="mas2182" />
-                <property name="name" nameId="tpck.1169194664001" value="USER" />
-                <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
-              </node>
-              <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="2149979023199549044" nodeInfo="nr">
-                <property name="value" nameId="6pk0.5469406079154538151" value="0x1F7:0:0" />
-                <property name="name" nameId="tpck.1169194664001" value="__CF_USER_TEXT_ENCODING" />
-                <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
-              </node>
-              <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="2149979023199549045" nodeInfo="nr">
-                <property name="value" nameId="6pk0.5469406079154538151" value="client" />
-                <property name="name" nameId="tpck.1169194664001" value="com.apple.java.jvmMode" />
-                <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
-              </node>
-              <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="2149979023199549046" nodeInfo="nr">
-                <property name="value" nameId="6pk0.5469406079154538151" value="BundledApp" />
-                <property name="name" nameId="tpck.1169194664001" value="com.apple.java.jvmTask" />
-                <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
-              </node>
+            </node>
+            <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.PutResultInVariable" typeId="4tvk.3834344539479651098" id="3941135000200353475" nodeInfo="ng">
+              <property name="consumeStandardOutput" nameId="4tvk.6839116863305307657" value="true" />
+              <property name="consumeStandardError" nameId="4tvk.6839116863305307659" value="false" />
+              <link role="variable" roleId="4tvk.3834344539479651523" targetNodeId="3941135000200353253" resolveInfo="numLines" />
+            </node>
+          </node>
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="3941135000202308849" nodeInfo="nn" />
+          <node role="statement" roleId="tpee.1068581517665" type="4tvk.Echo" typeId="4tvk.3941135000200355332" id="3941135000202030751" nodeInfo="ng">
+            <node role="expression" roleId="4tvk.3941135000200355541" type="tpee.VariableReference" typeId="tpee.1068498886296" id="3941135000202308843" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3941135000200353253" resolveInfo="numLines" />
             </node>
           </node>
         </node>
