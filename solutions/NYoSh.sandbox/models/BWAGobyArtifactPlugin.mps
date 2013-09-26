@@ -887,6 +887,33 @@
                   <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="8432452818701951208" nodeInfo="nn">
                     <property name="text" nameId="tpee.6329021646629104958" value="we need to load the following file to allow BWA to access to the shared libraries built by PROTOPBU" />
                   </node>
+                  <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="8432452818703838343" nodeInfo="nn">
+                    <property name="text" nameId="tpee.6329021646629104958" value="  " />
+                  </node>
+                </node>
+                <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="8432452818703914622" nodeInfo="nn">
+                  <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8432452818703940125" nodeInfo="nn">
+                    <node role="operand" roleId="tpee.1197027771414" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="8432452818703914621" nodeInfo="nn">
+                      <link role="classifier" roleId="tpee.1144433057691" targetNodeId="e2lb.~System" resolveInfo="System" />
+                      <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="e2lb.~System%dout" resolveInfo="out" />
+                    </node>
+                    <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="8432452818703973589" nodeInfo="nn">
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fxg7.~PrintStream%dprintln(java%dlang%dString)%cvoid" resolveInfo="println" />
+                      <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="8432452818703976086" nodeInfo="nn">
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~String%dformat(java%dlang%dString,java%dlang%dObject%d%d%d)%cjava%dlang%dString" resolveInfo="format" />
+                        <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="e2lb.~String" resolveInfo="String" />
+                        <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="8432452818703977714" nodeInfo="nn">
+                          <property name="value" nameId="tpee.1070475926801" value="Loading environment from %s/%s" />
+                        </node>
+                        <node role="actualArgument" roleId="tpee.1068499141038" type="6pk0.VariableReader" typeId="6pk0.3173353997363191763" id="8432452818703982423" nodeInfo="ng">
+                          <link role="envVariable" roleId="6pk0.5955265417291138249" targetNodeId="3000070812382684636" resolveInfo="RESOURCES_ARTIFACTS_GOBY_CPP_API_LIBRARIES" />
+                        </node>
+                        <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="8432452818703990019" nodeInfo="nn">
+                          <property name="value" nameId="tpee.1070475926801" value="setup.sh" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
                 </node>
                 <node role="statement" roleId="tpee.1068581517665" type="6pk0.EnvironmentSourceList" typeId="6pk0.3173353997360946752" id="8432452818701847367" nodeInfo="nr">
                   <node role="sources" roleId="6pk0.3173353997360946804" type="6pk0.MapFileSource" typeId="6pk0.3173353997360878302" id="8432452818701870634" nodeInfo="nr">
@@ -904,6 +931,23 @@
                     </node>
                   </node>
                 </node>
+                <node role="statement" roleId="tpee.1068581517665" type="6pk0.EnvironmentSourceList" typeId="6pk0.3173353997360946752" id="8432452818704064536" nodeInfo="nr">
+                  <node role="sources" roleId="6pk0.3173353997360946804" type="6pk0.MapFileSource" typeId="6pk0.3173353997360878302" id="8432452818704064537" nodeInfo="nr">
+                    <property name="exposeToCommands" nameId="6pk0.1909878773473739823" value="true" />
+                    <node role="loader" roleId="6pk0.3173353997360796899" type="6pk0.MapFileLoader" typeId="6pk0.3173353997360795160" id="8432452818704064538" nodeInfo="nr">
+                      <link role="source" roleId="6pk0.3173353997362497485" targetNodeId="8432452818704064537" />
+                    </node>
+                    <node role="source" roleId="6pk0.1455940728763205902" type="6pk0.SourcePath" typeId="6pk0.1455940728763133433" id="8432452818704064539" nodeInfo="ng">
+                      <property name="filename" nameId="6pk0.1455940728763133434" value="setup.sh" />
+                      <node role="path" roleId="6pk0.7659979195879673619" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="8432452818704064540" nodeInfo="ng">
+                        <node role="components" roleId="f2ff.1012285663620335803" type="6pk0.VariableReaderGStringComponent" typeId="6pk0.2328891098886457362" id="8432452818704064541" nodeInfo="ng">
+                          <link role="envVariable" roleId="6pk0.2328891098886457363" targetNodeId="3000070812382684636" resolveInfo="RESOURCES_ARTIFACTS_GOBY_CPP_API_LIBRARIES" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="8432452818704039220" nodeInfo="nn" />
                 <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="9111004363162635595" nodeInfo="nn">
                   <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="9111004363162635598" nodeInfo="sn">
                     <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="9111004363162753333" nodeInfo="nn">
