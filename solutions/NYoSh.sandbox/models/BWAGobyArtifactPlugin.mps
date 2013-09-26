@@ -538,15 +538,6 @@
                       <property name="kind" nameId="6pk0.5463028992315853055" value="DIRECTORY" />
                     </node>
                   </node>
-                  <node role="sources" roleId="6pk0.3173353997360946804" type="6pk0.MapFileSource" typeId="6pk0.3173353997360878302" id="8432452818698063068" nodeInfo="nr">
-                    <node role="loader" roleId="6pk0.3173353997360796899" type="6pk0.MapFileLoader" typeId="6pk0.3173353997360795160" id="8432452818698063071" nodeInfo="nr">
-                      <link role="source" roleId="6pk0.3173353997362497485" targetNodeId="8432452818698063068" />
-                    </node>
-                    <node role="source" roleId="6pk0.1455940728763205902" type="6pk0.SourcePath" typeId="6pk0.1455940728763133433" id="8432452818698063072" nodeInfo="ng">
-                      <property name="filename" nameId="6pk0.1455940728763133434" value="setup.sh" />
-                      <link role="path" roleId="6pk0.3741291048046407953" targetNodeId="3000070812382684636" resolveInfo="RESOURCES_ARTIFACTS_GOBY_CPP_API_LIBRARIES" />
-                    </node>
-                  </node>
                 </node>
                 <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="4164691987241988390" nodeInfo="nn">
                   <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="4164691987241988393" nodeInfo="nr">
@@ -887,6 +878,26 @@
                           <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringVarReference" typeId="f2ff.1012285663620336025" id="224223098170895423" nodeInfo="ng">
                             <link role="varRef" roleId="f2ff.4087517305354402375" targetNodeId="224223098169244615" resolveInfo="INDEX_DIR_KEY" />
                           </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="8432452818701927937" nodeInfo="nn">
+                  <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="8432452818701951208" nodeInfo="nn">
+                    <property name="text" nameId="tpee.6329021646629104958" value="we need to load the following file to allow BWA to access to the shared libraries built by PROTOPBU" />
+                  </node>
+                </node>
+                <node role="statement" roleId="tpee.1068581517665" type="6pk0.EnvironmentSourceList" typeId="6pk0.3173353997360946752" id="8432452818701847367" nodeInfo="nr">
+                  <node role="sources" roleId="6pk0.3173353997360946804" type="6pk0.MapFileSource" typeId="6pk0.3173353997360878302" id="8432452818701870634" nodeInfo="nr">
+                    <node role="loader" roleId="6pk0.3173353997360796899" type="6pk0.MapFileLoader" typeId="6pk0.3173353997360795160" id="8432452818701870637" nodeInfo="nr">
+                      <link role="source" roleId="6pk0.3173353997362497485" targetNodeId="8432452818701870634" />
+                    </node>
+                    <node role="source" roleId="6pk0.1455940728763205902" type="6pk0.SourcePath" typeId="6pk0.1455940728763133433" id="8432452818701870638" nodeInfo="ng">
+                      <property name="filename" nameId="6pk0.1455940728763133434" value="setup.sh" />
+                      <node role="path" roleId="6pk0.7659979195879673619" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="8432452818701882706" nodeInfo="ng">
+                        <node role="components" roleId="f2ff.1012285663620335803" type="6pk0.VariableReaderGStringComponent" typeId="6pk0.2328891098886457362" id="8432452818701882710" nodeInfo="ng">
+                          <link role="envVariable" roleId="6pk0.2328891098886457363" targetNodeId="3000070812382684640" resolveInfo="RESOURCES_ARTIFACTS_PROTOBUF_CPP_LIBRARIES" />
                         </node>
                       </node>
                     </node>
