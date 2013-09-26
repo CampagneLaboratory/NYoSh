@@ -890,6 +890,7 @@
                 </node>
                 <node role="statement" roleId="tpee.1068581517665" type="6pk0.EnvironmentSourceList" typeId="6pk0.3173353997360946752" id="8432452818701847367" nodeInfo="nr">
                   <node role="sources" roleId="6pk0.3173353997360946804" type="6pk0.MapFileSource" typeId="6pk0.3173353997360878302" id="8432452818701870634" nodeInfo="nr">
+                    <property name="exposeToCommands" nameId="6pk0.1909878773473739823" value="true" />
                     <node role="loader" roleId="6pk0.3173353997360796899" type="6pk0.MapFileLoader" typeId="6pk0.3173353997360795160" id="8432452818701870637" nodeInfo="nr">
                       <link role="source" roleId="6pk0.3173353997362497485" targetNodeId="8432452818701870634" />
                     </node>
