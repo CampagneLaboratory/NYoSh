@@ -135,10 +135,10 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1455940728763133433" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="SourcePath" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="3741291048046407953" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="7659979195879673619" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="path" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="5955265417291138207" resolveInfo="EnvVariableDeclaration" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="f2ff.1012285663620319605" resolveInfo="GString" />
     </node>
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="1455940728763133434" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="filename" />
