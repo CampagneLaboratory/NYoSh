@@ -700,7 +700,7 @@
       <property name="text" nameId="p6sl.5493669862519718600" value="CLASSNAME=${MODEL}.${NYOSH_SCRIPTNAME}" />
     </node>
     <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="1072453283801109649" nodeInfo="ng">
-      <property name="text" nameId="p6sl.5493669862519718600" value="java -classpath ${CLASSPATH} ${CLASSNAME} &quot;$@&quot;" />
+      <property name="text" nameId="p6sl.5493669862519718600" value="java ${PLUGIN_NEED_DEFAULT_JVM_OPTIONS} -classpath ${CLASSPATH} ${CLASSNAME} &quot;$@&quot;" />
     </node>
     <node role="lines" roleId="p6sl.5493669862519699347" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="1072453283801109636" nodeInfo="ng">
       <property name="text" nameId="p6sl.5493669862519718600" value="" />
