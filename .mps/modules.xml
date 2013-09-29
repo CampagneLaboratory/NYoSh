@@ -3,6 +3,7 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/NYoSh/NYoSh.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.filters/org.campagnelab.filters.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.gobyweb.interactive/org.campagnelab.gobyweb.interactive.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.gobyweb/org.campagnelab.gobyweb.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.nyosh.environment/org.campagnelab.nyosh.environment.mpl" folder="" />
