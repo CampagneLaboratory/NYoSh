@@ -96,5 +96,17 @@
     </dependencies>
     <rename id="6pk0.224223098170262008" type="CONCEPT" from="RuntimeOnlyVariableReader" to="RuntimeVariableReader" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="6pk0" modelUID="r:48f4e449-1a18-435e-ae88-4830aa794dc7(org.campagnelab.nyosh.environment.structure)" version="15" />
+    </dependencies>
+    <rename id="6pk0.1909878773473011813" type="CHILD" from="source" to="sources" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="6pk0" modelUID="r:48f4e449-1a18-435e-ae88-4830aa794dc7(org.campagnelab.nyosh.environment.structure)" version="16" />
+    </dependencies>
+    <rename id="6pk0.1909878773473739823" type="PROPERTY" from="exportToCommands" to="exposeToCommands" />
+  </StructureModification>
 </history>
 
