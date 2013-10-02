@@ -4,8 +4,8 @@
     <dependencies>
       <model index="36xx" modelUID="r:31af932a-3b06-429d-8d4c-b0b4ebe2bde6(NYoSh.editor)" version="4" />
       <model index="uk16" modelUID="r:63193f4d-76a2-48d4-b116-0f4aaae07639(org.campagnelab.gobyweb.editor)" version="-1" />
-      <model index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="-1" />
       <model index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="10" />
+      <model index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="-1" />
     </dependencies>
     <move id="4tvk.3645074773125579819" to="935h.1090105717921353608" />
     <move id="4tvk.3645074773125579816" to="935h.1090105717921353607" />
@@ -113,6 +113,36 @@
       <model index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="13" />
     </dependencies>
     <rename id="935h.5463469075896843087" type="CONCEPT" from="AlignmentAnalysisProcess" to="AlignmentAnalysisProcessPrototype" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="14" />
+    </dependencies>
+    <rename id="935h.6108592213960522782" type="CONCEPT" from="FileSetCommand" to="FileSetCheckCommand" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="15" />
+    </dependencies>
+    <rename id="935h.6108592213960804638" type="PROPERTY" from="instanceOf" to="instanceOfPluginID" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="16" />
+    </dependencies>
+    <rename id="935h.6108592213961039119" type="PROPERTY" from="pluginId" to="pluginID" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="17" />
+    </dependencies>
+    <rename id="935h.6108592213961276749" type="CHILD" from="reference" to="instanceOf" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="18" />
+    </dependencies>
+    <rename id="935h.6108592213963052325" type="CHILD" from="pathpatterns" to="pathpattern" />
   </StructureModification>
 </history>
 
