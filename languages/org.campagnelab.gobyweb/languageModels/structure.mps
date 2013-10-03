@@ -24,10 +24,6 @@
       <property name="name" nameId="tpck.1169194664001" value="pluginKind" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="1090105717922383024" resolveInfo="PluginKind" />
     </node>
-    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="8463050739469948116" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="slotsLoaded" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657063" resolveInfo="boolean" />
-    </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1090105717921230261" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="script" />
