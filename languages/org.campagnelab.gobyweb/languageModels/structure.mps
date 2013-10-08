@@ -295,7 +295,7 @@
     <property name="virtualPackage" nameId="tpck.1193676396447" value="io" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="is slot available" />
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="check if there are filesets associated to the slot " />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="4384389959134085310" resolveInfo="FileSetExpression" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="6108592213960804636" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
       <property name="role" nameId="tpce.1071599776563" value="input" />
@@ -400,7 +400,7 @@
     <property name="name" nameId="tpck.1169194664001" value="FileSetFetchExpression" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="fetch files" />
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="fetch files from the permanent storage area" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="4384389959134085310" resolveInfo="FileSetExpression" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="6108592213964542506" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
       <property name="role" nameId="tpce.1071599776563" value="input" />
@@ -413,7 +413,7 @@
     <property name="name" nameId="tpck.1169194664001" value="FilesetPushExpression" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="push files" />
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="push files into the permanent storage area" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="4384389959134085310" resolveInfo="FileSetExpression" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="6108592213965308232" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
       <property name="role" nameId="tpce.1071599776563" value="output" />
@@ -430,6 +430,19 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6108592213966356756" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="PluginRegistry" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4384389959134085310" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="io" />
+    <property name="name" nameId="tpck.1169194664001" value="FileSetExpression" />
+    <property name="abstract" nameId="tpce.4628067390765956802" value="true" />
+    <property name="final" nameId="tpce.4628067390765956807" value="false" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="4384389959134085574" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="command" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="6pk0.2328891098886457362" resolveInfo="VariableReaderGStringComponent" />
+    </node>
   </root>
 </model>
 
