@@ -13,7 +13,8 @@
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" implicit="yes" />
   <import index="6pk0" modelUID="r:48f4e449-1a18-435e-ae88-4830aa794dc7(org.campagnelab.nyosh.environment.structure)" version="17" implicit="yes" />
   <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="23" implicit="yes" />
-  <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="24" implicit="yes" />
+  <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="25" implicit="yes" />
+  <import index="f2ff" modelUID="r:48d5f7d2-24be-4d82-ac12-8f4a2d414b11(org.campagnelab.nyosh.gstring.structure)" version="-1" implicit="yes" />
   <root type="4tvk.StepsLoggingSuccessHandler" typeId="4tvk.4780568564617168379" id="8463050739475717800" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="StepsLoggingSuccessHandler" />
     <node role="handlerFunction" roleId="4tvk.7507736014957922704" type="4tvk.ConceptFunction_ProcessSuccessBlock" typeId="4tvk.7507736014957922788" id="8463050739475717801" nodeInfo="ng">
@@ -179,6 +180,7 @@
                     </node>
                   </node>
                   <node role="sources" roleId="6pk0.3173353997360946804" type="935h.GobyWebSource" typeId="935h.7423498045461870545" id="4384389959123860110" nodeInfo="nr">
+                    <property name="exposeToCommands" nameId="6pk0.1909878773473739823" value="true" />
                     <node role="loader" roleId="6pk0.3173353997360796899" type="935h.GobyWebLoader" typeId="935h.7423498045461888424" id="4384389959123860111" nodeInfo="ng">
                       <link role="source" roleId="6pk0.3173353997362497485" targetNodeId="4384389959123860110" />
                     </node>
@@ -366,6 +368,12 @@
                     </node>
                   </node>
                 </node>
+                <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="4384389959132680011" nodeInfo="nn">
+                  <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="4384389959132680014" nodeInfo="nr">
+                    <property name="name" nameId="tpck.1169194664001" value="images" />
+                    <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="4384389959132680009" nodeInfo="in" />
+                  </node>
+                </node>
                 <node role="statement" roleId="tpee.1068581517665" type="4tvk.ExecuteCommand" typeId="4tvk.8197864363320353692" id="4384389959129829318" nodeInfo="ng">
                   <node role="commands" roleId="4tvk.851869296734402315" type="935h.FileSetFetchCommand" typeId="935h.6108592213963051819" id="4384389959129829377" nodeInfo="ng">
                     <property name="status" nameId="935h.4384389959127856764" value="Ep name plugin_task" />
@@ -373,6 +381,36 @@
                     <node role="command" roleId="935h.4384389959120306004" type="6pk0.VariableReaderGStringComponent" typeId="6pk0.2328891098886457362" id="4384389959129829378" nodeInfo="ng">
                       <link role="envVariable" roleId="6pk0.2328891098886457363" targetNodeId="4384389959123860503" resolveInfo="FILESET_COMMAND" />
                     </node>
+                  </node>
+                  <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.PutResultInVariable" typeId="4tvk.3834344539479651098" id="4384389959132680174" nodeInfo="ng">
+                    <property name="consumeStandardOutput" nameId="4tvk.6839116863305307657" value="true" />
+                    <property name="consumeStandardError" nameId="4tvk.6839116863305307659" value="false" />
+                    <link role="variable" roleId="4tvk.3834344539479651523" targetNodeId="4384389959132680014" resolveInfo="images" />
+                  </node>
+                </node>
+                <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="4384389959134083688" nodeInfo="nn" />
+                <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="4384389959132680295" nodeInfo="nn">
+                  <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="4384389959132680298" nodeInfo="nr">
+                    <property name="name" nameId="tpck.1169194664001" value="registeredTags" />
+                    <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="4384389959132680293" nodeInfo="in" />
+                  </node>
+                </node>
+                <node role="statement" roleId="tpee.1068581517665" type="4tvk.ExecuteCommand" typeId="4tvk.8197864363320353692" id="4384389959132680627" nodeInfo="ng">
+                  <node role="commands" roleId="4tvk.851869296734402315" type="935h.FileSetPushCommand" typeId="935h.6108592213963051945" id="4384389959133364189" nodeInfo="ng">
+                    <link role="output" roleId="935h.6108592213963052019" targetNodeId="4384389959123860546" resolveInfo="STATS" />
+                    <node role="command" roleId="935h.4384389959120306004" type="6pk0.VariableReaderGStringComponent" typeId="6pk0.2328891098886457362" id="4384389959133364190" nodeInfo="ng">
+                      <link role="envVariable" roleId="6pk0.2328891098886457363" targetNodeId="4384389959123860503" resolveInfo="FILESET_COMMAND" />
+                    </node>
+                    <node role="pathpattern" roleId="935h.6108592213963052325" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="4384389959133364191" nodeInfo="ng">
+                      <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="4384389959133364197" nodeInfo="ng">
+                        <property name="value" nameId="f2ff.1012285663620336023" value="my_results_folder/*.tsv" />
+                      </node>
+                    </node>
+                  </node>
+                  <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.PutResultInVariable" typeId="4tvk.3834344539479651098" id="4384389959133364479" nodeInfo="ng">
+                    <property name="consumeStandardOutput" nameId="4tvk.6839116863305307657" value="true" />
+                    <property name="consumeStandardError" nameId="4tvk.6839116863305307659" value="false" />
+                    <link role="variable" roleId="4tvk.3834344539479651523" targetNodeId="4384389959132680298" resolveInfo="registeredTags" />
                   </node>
                 </node>
               </node>
