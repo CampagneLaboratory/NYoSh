@@ -46,13 +46,11 @@
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="inputSlots" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
-      <property name="unordered" nameId="tpce.2395585628928459314" value="true" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="6108592213960793556" resolveInfo="PluginInputSlot" />
     </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8463050739468865642" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="outputSlots" />
-      <property name="unordered" nameId="tpce.2395585628928459314" value="true" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="6108592213960793619" resolveInfo="PluginOutputSlot" />
     </node>
@@ -362,6 +360,16 @@
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="fetch files from the permanent storage area" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="fetch files" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="4tvk.8155370969619067689" resolveInfo="AbstractCommand" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="4384389959127856764" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="status" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="4384389959120306004" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="command" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="6pk0.2328891098886457362" resolveInfo="VariableReaderGStringComponent" />
+    </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="6108592213963051820" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
       <property name="role" nameId="tpce.1071599776563" value="input" />
