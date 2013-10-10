@@ -11,7 +11,7 @@
   <import index="6pk0" modelUID="r:48f4e449-1a18-435e-ae88-4830aa794dc7(org.campagnelab.nyosh.environment.structure)" version="17" implicit="yes" />
   <import index="f2ff" modelUID="r:48d5f7d2-24be-4d82-ac12-8f4a2d414b11(org.campagnelab.nyosh.gstring.structure)" version="-1" implicit="yes" />
   <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="26" implicit="yes" />
-  <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="26" implicit="yes" />
+  <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="27" implicit="yes" />
   <root type="935h.TaskScript" typeId="935h.6989919346770999332" id="6046624752574763575" nodeInfo="ng">
     <property name="pluginKind" nameId="935h.6874736155930792593" value="tasks" />
     <property name="pluginId" nameId="935h.6874736155930792589" value="SAMPLE_TASK_NYOSH" />
