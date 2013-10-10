@@ -12,7 +12,7 @@
   <language-engaged-on-generation namespace="760a0a8c-eabb-4521-8bfd-65db761a9ba3(jetbrains.mps.baseLanguage.logging)" />
   <language-engaged-on-generation namespace="0202ed86-955d-4227-9c20-377dd6b1f9ff(org.campagnelab.nyosh.lib)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="24" />
+  <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="26" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" />
   <import index="tpek" modelUID="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" version="-1" />
@@ -4540,9 +4540,9 @@
   <root type="tpf8.MappingConfiguration" typeId="tpf8.1095416546421" id="4236149660851357596" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="step1_Roots" />
     <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="6046624752566780079" nodeInfo="ng">
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="4tvk.6046624752559244474" resolveInfo="StaticMethod" />
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="4tvk.6046624752559244474" resolveInfo="LocalFunction" />
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="6046624752566780080" nodeInfo="nn">
-        <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="6046624752566780077" resolveInfo="reduce_StaticMethod" />
+        <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="6046624752566780077" resolveInfo="reduce_LocalFunction" />
       </node>
     </node>
     <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="385706599060954554" nodeInfo="ng">
@@ -4612,8 +4612,8 @@
       <link role="targetConcept" roleId="tpf8.1200913004646" targetNodeId="tpee.1081236700938" resolveInfo="StaticMethodDeclaration" />
     </node>
     <node role="mappingLabel" roleId="tpf8.1200911492601" type="tpf8.MappingLabelDeclaration" typeId="tpf8.1200911316486" id="6046624752566793008" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="method_static_implementation" />
-      <link role="sourceConcept" roleId="tpf8.1200911342686" targetNodeId="4tvk.6046624752559244474" resolveInfo="StaticMethod" />
+      <property name="name" nameId="tpck.1169194664001" value="method_local_function" />
+      <link role="sourceConcept" roleId="tpf8.1200911342686" targetNodeId="4tvk.6046624752559244474" resolveInfo="LocalFunction" />
       <link role="targetConcept" roleId="tpf8.1200913004646" targetNodeId="tpee.1070462154015" resolveInfo="StaticFieldDeclaration" />
     </node>
     <node role="mappingLabel" roleId="tpf8.1200911492601" type="tpf8.MappingLabelDeclaration" typeId="tpf8.1200911316486" id="7275222926023871041" nodeInfo="ng">
@@ -5472,8 +5472,8 @@
     </node>
   </root>
   <root type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="6046624752566780077" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="reduce_StaticMethod" />
-    <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="4tvk.6046624752559244474" resolveInfo="StaticMethod" />
+    <property name="name" nameId="tpck.1169194664001" value="reduce_LocalFunction" />
+    <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="4tvk.6046624752559244474" resolveInfo="LocalFunction" />
     <node role="contentNode" roleId="tpf8.1092060348987" type="tpee.StaticMethodDeclaration" typeId="tpee.1081236700938" id="6046624752566805439" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="method" />
       <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="6046624752566805440" nodeInfo="in">
@@ -5492,7 +5492,7 @@
           </node>
         </node>
       </node>
-      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="6046624752566805441" nodeInfo="nn" />
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="6046624752576506920" nodeInfo="nn" />
       <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="6046624752566805442" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="6046624752566805443" nodeInfo="nn">
           <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6046624752566805444" nodeInfo="nn">
@@ -5547,7 +5547,7 @@
         </node>
       </node>
       <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.TemplateFragment" typeId="tpf8.1095672379244" id="6046624752566805466" nodeInfo="ng">
-        <link role="labelDeclaration" roleId="tpf8.1200916687663" targetNodeId="6046624752566793008" resolveInfo="method_static_implementation" />
+        <link role="labelDeclaration" roleId="tpf8.1200916687663" targetNodeId="6046624752566793008" resolveInfo="method_local_function" />
       </node>
       <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.PropertyMacro" typeId="tpf8.1087833241328" id="6046624752566805467" nodeInfo="nn">
         <property name="propertyName" nameId="tpck.1757699476691236117" value="name" />

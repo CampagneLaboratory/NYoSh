@@ -11,8 +11,8 @@
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" implicit="yes" />
   <import index="6pk0" modelUID="r:48f4e449-1a18-435e-ae88-4830aa794dc7(org.campagnelab.nyosh.environment.structure)" version="17" implicit="yes" />
-  <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="23" implicit="yes" />
-  <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="24" implicit="yes" />
+  <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="26" implicit="yes" />
+  <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="26" implicit="yes" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" implicit="yes" />
   <root type="935h.ResourceWithArtifactScript" typeId="935h.7901651670846553392" id="2646044797614416516" nodeInfo="ng">
     <property name="pluginKind" nameId="935h.6874736155930792593" value="resources" />
@@ -131,7 +131,7 @@
                   <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
                 </node>
               </node>
-              <node role="sources" roleId="6pk0.3173353997360946804" type="935h.GobyWebSource" typeId="935h.7423498045461870545" id="2397243584921474611" nodeInfo="nr">
+              <node role="sources" roleId="6pk0.3173353997360946804" type="935h.GobyWebSource" typeId="935h.7423498045461870545" id="2397243584921474611" nodeInfo="ng">
                 <node role="loader" roleId="6pk0.3173353997360796899" type="935h.GobyWebLoader" typeId="935h.7423498045461888424" id="2397243584921474614" nodeInfo="ng">
                   <link role="source" roleId="6pk0.3173353997362497485" targetNodeId="2397243584921474611" />
                 </node>
@@ -590,7 +590,7 @@
                   <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
                 </node>
               </node>
-              <node role="sources" roleId="6pk0.3173353997360946804" type="935h.GobyWebSource" typeId="935h.7423498045461870545" id="2397243584921487893" nodeInfo="nr">
+              <node role="sources" roleId="6pk0.3173353997360946804" type="935h.GobyWebSource" typeId="935h.7423498045461870545" id="2397243584921487893" nodeInfo="ng">
                 <node role="loader" roleId="6pk0.3173353997360796899" type="935h.GobyWebLoader" typeId="935h.7423498045461888424" id="2397243584921487894" nodeInfo="ng">
                   <link role="source" roleId="6pk0.3173353997362497485" targetNodeId="2397243584921487893" />
                 </node>

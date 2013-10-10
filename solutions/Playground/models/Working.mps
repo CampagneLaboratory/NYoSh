@@ -13,8 +13,8 @@
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" implicit="yes" />
   <import index="6pk0" modelUID="r:48f4e449-1a18-435e-ae88-4830aa794dc7(org.campagnelab.nyosh.environment.structure)" version="17" implicit="yes" />
   <import index="f2ff" modelUID="r:48d5f7d2-24be-4d82-ac12-8f4a2d414b11(org.campagnelab.nyosh.gstring.structure)" version="-1" implicit="yes" />
-  <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="24" implicit="yes" />
-  <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="23" implicit="yes" />
+  <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="26" implicit="yes" />
+  <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="26" implicit="yes" />
   <import index="8w0" modelUID="r:eb1d368a-5e85-4af8-8740-90a6516e7dd4(org.campagnelab.nyosh.pathpatterns.structure)" version="0" implicit="yes" />
   <root type="4tvk.ErrorManagement" typeId="4tvk.8594065538792360516" id="2149979023199564061" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="CatchErrors" />
@@ -25,7 +25,7 @@
   <root type="4tvk.Script" typeId="4tvk.8197864363320245969" id="2149979023199564063" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="CommandTest" />
     <link role="errorManagement" roleId="4tvk.8594065538799394764" targetNodeId="2149979023199564061" resolveInfo="CatchErrors" />
-    <node role="entryPoints" roleId="4tvk.4370546365667651420" type="4tvk.EntryPoint" typeId="4tvk.4370546365667651425" id="2149979023199564064" nodeInfo="nr">
+    <node role="localFunctions" roleId="4tvk.6046624752560256611" type="4tvk.EntryPoint" typeId="4tvk.4370546365667651425" id="2149979023199564064" nodeInfo="nr">
       <property name="name" nameId="tpck.1169194664001" value="main" />
       <link role="script" roleId="4tvk.1185348143925735982" targetNodeId="2149979023199564063" resolveInfo="CommandTest" />
       <node role="prototype" roleId="4tvk.2829258213785974077" type="4tvk.DefaultArgumentPrototype" typeId="4tvk.2829258213784965402" id="2149979023199564065" nodeInfo="ng">
@@ -55,7 +55,7 @@
             <property name="description" nameId="4tvk.435930706556016197" value="doing something now" />
             <node role="statements" roleId="tpee.1082485599096" type="tpee.StatementList" typeId="tpee.1068580123136" id="2149979023199564077" nodeInfo="sn">
               <node role="statement" roleId="tpee.1068581517665" type="6pk0.EnvironmentSourceList" typeId="6pk0.3173353997360946752" id="2149979023199564078" nodeInfo="nr">
-                <node role="sources" roleId="6pk0.3173353997360946804" type="935h.GobyWebSource" typeId="935h.7423498045461870545" id="2149979023199564079" nodeInfo="nr">
+                <node role="sources" roleId="6pk0.3173353997360946804" type="935h.GobyWebSource" typeId="935h.7423498045461870545" id="2149979023199564079" nodeInfo="ng">
                   <node role="loader" roleId="6pk0.3173353997360796899" type="935h.GobyWebLoader" typeId="935h.7423498045461888424" id="2149979023199564080" nodeInfo="ng">
                     <link role="source" roleId="6pk0.3173353997362497485" targetNodeId="2149979023199564079" />
                   </node>
@@ -296,7 +296,7 @@
   </root>
   <root type="4tvk.Script" typeId="4tvk.8197864363320245969" id="2149979023199564163" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="EnvironmentTest" />
-    <node role="entryPoints" roleId="4tvk.4370546365667651420" type="4tvk.EntryPoint" typeId="4tvk.4370546365667651425" id="2149979023199564164" nodeInfo="nr">
+    <node role="localFunctions" roleId="4tvk.6046624752560256611" type="4tvk.EntryPoint" typeId="4tvk.4370546365667651425" id="2149979023199564164" nodeInfo="nr">
       <property name="name" nameId="tpck.1169194664001" value="main" />
       <link role="script" roleId="4tvk.1185348143925735982" targetNodeId="2149979023199564163" resolveInfo="EnvironmentTest" />
       <node role="prototype" roleId="4tvk.2829258213785974077" type="4tvk.DefaultArgumentPrototype" typeId="4tvk.2829258213784965402" id="2149979023199564165" nodeInfo="ng">
@@ -398,7 +398,7 @@
                 <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
               </node>
             </node>
-            <node role="sources" roleId="6pk0.3173353997360946804" type="935h.GobyWebSource" typeId="935h.7423498045461870545" id="2149979023199564193" nodeInfo="nr">
+            <node role="sources" roleId="6pk0.3173353997360946804" type="935h.GobyWebSource" typeId="935h.7423498045461870545" id="2149979023199564193" nodeInfo="ng">
               <node role="loader" roleId="6pk0.3173353997360796899" type="935h.GobyWebLoader" typeId="935h.7423498045461888424" id="2149979023199564194" nodeInfo="ng">
                 <link role="source" roleId="6pk0.3173353997362497485" targetNodeId="2149979023199564193" />
               </node>
@@ -449,7 +449,7 @@
   </root>
   <root type="4tvk.Script" typeId="4tvk.8197864363320245969" id="2149979023199564212" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="PatternMatcher" />
-    <node role="entryPoints" roleId="4tvk.4370546365667651420" type="4tvk.EntryPoint" typeId="4tvk.4370546365667651425" id="2149979023199564213" nodeInfo="nr">
+    <node role="localFunctions" roleId="4tvk.6046624752560256611" type="4tvk.EntryPoint" typeId="4tvk.4370546365667651425" id="2149979023199564213" nodeInfo="nr">
       <property name="name" nameId="tpck.1169194664001" value="main" />
       <link role="script" roleId="4tvk.1185348143925735982" targetNodeId="2149979023199564212" resolveInfo="PatternMatcher" />
       <node role="prototype" roleId="4tvk.2829258213785974077" type="4tvk.DefaultArgumentPrototype" typeId="4tvk.2829258213784965402" id="2149979023199564214" nodeInfo="ng">
@@ -602,7 +602,7 @@
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="2149979023199564280" nodeInfo="nn" />
       <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="2149979023199564281" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="6pk0.EnvironmentSourceList" typeId="6pk0.3173353997360946752" id="2149979023199564282" nodeInfo="nr">
-          <node role="sources" roleId="6pk0.3173353997360946804" type="935h.GobyWebSource" typeId="935h.7423498045461870545" id="2149979023199564283" nodeInfo="nr">
+          <node role="sources" roleId="6pk0.3173353997360946804" type="935h.GobyWebSource" typeId="935h.7423498045461870545" id="2149979023199564283" nodeInfo="ng">
             <node role="loader" roleId="6pk0.3173353997360796899" type="935h.GobyWebLoader" typeId="935h.7423498045461888424" id="2149979023199564284" nodeInfo="ng">
               <link role="source" roleId="6pk0.3173353997362497485" targetNodeId="2149979023199564283" />
             </node>

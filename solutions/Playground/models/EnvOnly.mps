@@ -16,8 +16,8 @@
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" implicit="yes" />
   <import index="6pk0" modelUID="r:48f4e449-1a18-435e-ae88-4830aa794dc7(org.campagnelab.nyosh.environment.structure)" version="17" implicit="yes" />
   <import index="f2ff" modelUID="r:48d5f7d2-24be-4d82-ac12-8f4a2d414b11(org.campagnelab.nyosh.gstring.structure)" version="-1" implicit="yes" />
-  <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="23" implicit="yes" />
-  <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="24" implicit="yes" />
+  <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="26" implicit="yes" />
+  <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="26" implicit="yes" />
   <import index="8w0" modelUID="r:eb1d368a-5e85-4af8-8740-90a6516e7dd4(org.campagnelab.nyosh.pathpatterns.structure)" version="0" implicit="yes" />
   <import index="e2lc" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" implicit="yes" />
   <import index="fxg8" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" version="-1" implicit="yes" />
@@ -28,7 +28,7 @@
     <node role="script" roleId="935h.1090105717921230261" type="4tvk.Script" typeId="4tvk.8197864363320245969" id="2149979023199548859" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="MyScript" />
       <link role="errorManagement" roleId="4tvk.8594065538799394764" targetNodeId="2149979023199548993" resolveInfo="CatchErrors" />
-      <node role="entryPoints" roleId="4tvk.4370546365667651420" type="935h.AlignerAlignEntryPoint" typeId="935h.3173353997329486142" id="2149979023199548860" nodeInfo="ng">
+      <node role="localFunctions" roleId="4tvk.6046624752560256611" type="935h.AlignerAlignEntryPoint" typeId="935h.3173353997329486142" id="2149979023199548860" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="aligner entry point" />
         <property name="header" nameId="4tvk.3834344539446559282" value="some header" />
         <link role="script" roleId="4tvk.1185348143925735982" targetNodeId="2149979023199548859" resolveInfo="MyScript" />
@@ -121,7 +121,7 @@
                   <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
                 </node>
               </node>
-              <node role="sources" roleId="6pk0.3173353997360946804" type="935h.GobyWebSource" typeId="935h.7423498045461870545" id="2149979023199548886" nodeInfo="nr">
+              <node role="sources" roleId="6pk0.3173353997360946804" type="935h.GobyWebSource" typeId="935h.7423498045461870545" id="2149979023199548886" nodeInfo="ng">
                 <node role="loader" roleId="6pk0.3173353997360796899" type="935h.GobyWebLoader" typeId="935h.7423498045461888424" id="2149979023199548887" nodeInfo="ng">
                   <link role="source" roleId="6pk0.3173353997362497485" targetNodeId="2149979023199548886" />
                 </node>
@@ -295,7 +295,7 @@
     <property name="pluginId" nameId="935h.6874736155930792589" value="ALIGNER_SCRIPT" />
     <node role="script" roleId="935h.1090105717921230261" type="4tvk.Script" typeId="4tvk.8197864363320245969" id="2149979023199548956" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="MyScript2" />
-      <node role="entryPoints" roleId="4tvk.4370546365667651420" type="935h.AlignerAlignEntryPoint" typeId="935h.3173353997329486142" id="2149979023199548957" nodeInfo="ng">
+      <node role="localFunctions" roleId="4tvk.6046624752560256611" type="935h.AlignerAlignEntryPoint" typeId="935h.3173353997329486142" id="2149979023199548957" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="aligner entry point" />
         <link role="script" roleId="4tvk.1185348143925735982" targetNodeId="2149979023199548956" resolveInfo="MyScript2" />
         <node role="statements" roleId="tpee.1082485599096" type="tpee.StatementList" typeId="tpee.1068580123136" id="2149979023199548958" nodeInfo="sn" />
@@ -374,7 +374,7 @@
                   <property name="value" nameId="6pk0.5469406079154538151" value="/tmp/launch-ASOZvi/Listeners" />
                 </node>
               </node>
-              <node role="sources" roleId="6pk0.3173353997360946804" type="935h.GobyWebSource" typeId="935h.7423498045461870545" id="2149979023199548984" nodeInfo="nr">
+              <node role="sources" roleId="6pk0.3173353997360946804" type="935h.GobyWebSource" typeId="935h.7423498045461870545" id="2149979023199548984" nodeInfo="ng">
                 <node role="loader" roleId="6pk0.3173353997360796899" type="935h.GobyWebLoader" typeId="935h.7423498045461888424" id="2149979023199548985" nodeInfo="ng">
                   <link role="source" roleId="6pk0.3173353997362497485" targetNodeId="2149979023199548984" />
                 </node>
@@ -426,7 +426,7 @@
   </root>
   <root type="4tvk.Script" typeId="4tvk.8197864363320245969" id="2149979023199548998" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="MyScriptEnv" />
-    <node role="entryPoints" roleId="4tvk.4370546365667651420" type="4tvk.EntryPoint" typeId="4tvk.4370546365667651425" id="2149979023199548999" nodeInfo="nr">
+    <node role="localFunctions" roleId="4tvk.6046624752560256611" type="4tvk.EntryPoint" typeId="4tvk.4370546365667651425" id="2149979023199548999" nodeInfo="nr">
       <property name="name" nameId="tpck.1169194664001" value="main" />
       <link role="script" roleId="4tvk.1185348143925735982" targetNodeId="2149979023199548998" resolveInfo="MyScriptEnv" />
       <node role="prototype" roleId="4tvk.2829258213785974077" type="4tvk.DefaultArgumentPrototype" typeId="4tvk.2829258213784965402" id="2149979023199549000" nodeInfo="ng">
@@ -730,7 +730,7 @@
   <root type="4tvk.Script" typeId="4tvk.8197864363320245969" id="2149979023199549076" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="TestExportOnly" />
     <link role="errorManagement" roleId="4tvk.8594065538799394764" targetNodeId="2149979023199548993" resolveInfo="CatchErrors" />
-    <node role="entryPoints" roleId="4tvk.4370546365667651420" type="4tvk.EntryPoint" typeId="4tvk.4370546365667651425" id="2149979023199549077" nodeInfo="nr">
+    <node role="localFunctions" roleId="4tvk.6046624752560256611" type="4tvk.EntryPoint" typeId="4tvk.4370546365667651425" id="2149979023199549077" nodeInfo="nr">
       <property name="name" nameId="tpck.1169194664001" value="main" />
       <property name="header" nameId="4tvk.3834344539446559282" value="main" />
       <link role="script" roleId="4tvk.1185348143925735982" targetNodeId="2149979023199549076" resolveInfo="TestExportOnly" />
@@ -819,7 +819,7 @@
                 <property name="value" nameId="6pk0.5469406079154538151" value="/tmp/launch-bq6AEW/Listeners" />
               </node>
             </node>
-            <node role="sources" roleId="6pk0.3173353997360946804" type="935h.GobyWebSource" typeId="935h.7423498045461870545" id="2149979023199549106" nodeInfo="nr">
+            <node role="sources" roleId="6pk0.3173353997360946804" type="935h.GobyWebSource" typeId="935h.7423498045461870545" id="2149979023199549106" nodeInfo="ng">
               <node role="loader" roleId="6pk0.3173353997360796899" type="935h.GobyWebLoader" typeId="935h.7423498045461888424" id="2149979023199549107" nodeInfo="ng">
                 <link role="source" roleId="6pk0.3173353997362497485" targetNodeId="2149979023199549106" />
               </node>

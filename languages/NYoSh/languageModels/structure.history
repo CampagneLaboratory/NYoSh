@@ -284,5 +284,17 @@
     </dependencies>
     <rename id="4tvk.6046624752560256611" type="CHILD" from="entryPoints" to="staticMethods" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="24" />
+    </dependencies>
+    <rename id="4tvk.6046624752559244474" type="CONCEPT" from="StaticMethod" to="LocalFunction" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="25" />
+    </dependencies>
+    <rename id="4tvk.6046624752560256611" type="CHILD" from="staticMethods" to="localFunctions" />
+  </StructureModification>
 </history>
 

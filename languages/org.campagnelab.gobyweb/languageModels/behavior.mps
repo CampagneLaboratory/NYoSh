@@ -10,7 +10,7 @@
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
-  <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="24" />
+  <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="26" />
   <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="26" />
   <import index="4ezj" modelUID="r:2a3903cf-99a2-4e4b-9216-412f36303d74(NYoSh.behavior)" version="3" />
   <import index="6pk0" modelUID="r:48f4e449-1a18-435e-ae88-4830aa794dc7(org.campagnelab.nyosh.environment.structure)" version="17" />
@@ -589,7 +589,7 @@
                             <property name="value" nameId="6pk0.5469406079154538151" value="/tmp/launch-ASOZvi/Listeners" />
                           </node>
                         </node>
-                        <node role="sources" roleId="6pk0.3173353997360946804" type="935h.GobyWebSource" typeId="935h.7423498045461870545" id="5354049477817027061" nodeInfo="nr">
+                        <node role="sources" roleId="6pk0.3173353997360946804" type="935h.GobyWebSource" typeId="935h.7423498045461870545" id="5354049477817027061" nodeInfo="ng">
                           <node role="loader" roleId="6pk0.3173353997360796899" type="935h.GobyWebLoader" typeId="935h.7423498045461888424" id="5354049477817027064" nodeInfo="ng">
                             <link role="source" roleId="6pk0.3173353997362497485" targetNodeId="5354049477817027061" />
                           </node>
@@ -2643,12 +2643,12 @@
       <property name="name" nameId="tpck.1169194664001" value="getFetchImplementation" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="6046624752572485431" nodeInfo="nn" />
       <node role="returnType" roleId="tpee.1068580123133" type="tp25.SNodeType" typeId="tp25.1138055754698" id="6046624752573926725" nodeInfo="in">
-        <link role="concept" roleId="tp25.1138405853777" targetNodeId="4tvk.6046624752559244474" resolveInfo="StaticMethod" />
+        <link role="concept" roleId="tp25.1138405853777" targetNodeId="4tvk.6046624752559244474" resolveInfo="LocalFunction" />
       </node>
       <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="6046624752572485433" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="6046624752573927799" nodeInfo="nn">
           <node role="expression" roleId="tpee.1068581517676" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="6046624752573928534" nodeInfo="nn">
-            <node role="quotedNode" roleId="tp3r.1196350785114" type="4tvk.StaticMethod" typeId="4tvk.6046624752559244474" id="6046624752573929022" nodeInfo="ig">
+            <node role="quotedNode" roleId="tp3r.1196350785114" type="4tvk.LocalFunction" typeId="4tvk.6046624752559244474" id="6046624752573929022" nodeInfo="ig">
               <property name="name" nameId="tpck.1169194664001" value="fetch" />
               <node role="returnType" roleId="tpee.1068580123133" type="tpee.StringType" typeId="tpee.1225271177708" id="6046624752573929023" nodeInfo="in" />
               <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="6046624752573929024" nodeInfo="nn" />

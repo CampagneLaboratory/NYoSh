@@ -14,15 +14,15 @@
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" implicit="yes" />
   <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="5" implicit="yes" />
   <import index="f2ff" modelUID="r:48d5f7d2-24be-4d82-ac12-8f4a2d414b11(org.campagnelab.nyosh.gstring.structure)" version="-1" implicit="yes" />
-  <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="23" implicit="yes" />
-  <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="24" implicit="yes" />
+  <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="26" implicit="yes" />
+  <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="26" implicit="yes" />
   <import index="8w0" modelUID="r:eb1d368a-5e85-4af8-8740-90a6516e7dd4(org.campagnelab.nyosh.pathpatterns.structure)" version="0" implicit="yes" />
   <root type="935h.AlignerScript" typeId="935h.3173353997329126934" id="2149979023199567734" nodeInfo="ng">
     <property name="pluginKind" nameId="935h.6874736155930792593" value="aligners" />
     <property name="pluginId" nameId="935h.6874736155930792589" value="HOME_ALIGNER" />
     <node role="script" roleId="935h.1090105717921230261" type="4tvk.Script" typeId="4tvk.8197864363320245969" id="2149979023199567735" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="MyScript2" />
-      <node role="entryPoints" roleId="4tvk.4370546365667651420" type="935h.AlignerAlignEntryPoint" typeId="935h.3173353997329486142" id="2149979023199567736" nodeInfo="ng">
+      <node role="localFunctions" roleId="4tvk.6046624752560256611" type="935h.AlignerAlignEntryPoint" typeId="935h.3173353997329486142" id="2149979023199567736" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="aligner entry point" />
         <link role="script" roleId="4tvk.1185348143925735982" targetNodeId="2149979023199567735" resolveInfo="MyScript2" />
         <node role="statements" roleId="tpee.1082485599096" type="tpee.StatementList" typeId="tpee.1068580123136" id="2149979023199567737" nodeInfo="sn" />
@@ -320,7 +320,7 @@
   </root>
   <root type="4tvk.Script" typeId="4tvk.8197864363320245969" id="2149979023199567854" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="StepsLoggerTest" />
-    <node role="entryPoints" roleId="4tvk.4370546365667651420" type="4tvk.EntryPoint" typeId="4tvk.4370546365667651425" id="2149979023199567855" nodeInfo="nr">
+    <node role="localFunctions" roleId="4tvk.6046624752560256611" type="4tvk.EntryPoint" typeId="4tvk.4370546365667651425" id="2149979023199567855" nodeInfo="nr">
       <property name="name" nameId="tpck.1169194664001" value="main" />
       <link role="script" roleId="4tvk.1185348143925735982" targetNodeId="2149979023199567854" resolveInfo="StepsLoggerTest" />
       <node role="prototype" roleId="4tvk.2829258213785974077" type="4tvk.DefaultArgumentPrototype" typeId="4tvk.2829258213784965402" id="2149979023199567856" nodeInfo="ng">
