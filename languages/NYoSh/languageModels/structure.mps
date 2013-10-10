@@ -753,5 +753,12 @@
     <property name="name" nameId="tpck.1169194664001" value="LocalFunction" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1081236700938" resolveInfo="StaticMethodDeclaration" />
   </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1428468132943184" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="commandOperators" />
+    <property name="name" nameId="tpck.1169194664001" value="CheckExitCode" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="$?" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="check the exit status code of the last execute command" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
+  </root>
 </model>
 
