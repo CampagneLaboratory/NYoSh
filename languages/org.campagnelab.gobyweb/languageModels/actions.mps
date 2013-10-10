@@ -459,7 +459,7 @@
                 <node role="argument" roleId="tp2q.1160612519549" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6046624752574101887" nodeInfo="nn">
                   <node role="operand" roleId="tpee.1197027771414" type="tpdg.NodeSetupFunction_NewNode" typeId="tpdg.5584396657084912703" id="6046624752574100991" nodeInfo="nn" />
                   <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="6046624752574106316" nodeInfo="nn">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="pyqc.6046624752572485430" resolveInfo="getFetchImplementation" />
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="pyqc.1428468121221743" resolveInfo="getFetchImplementation" />
                   </node>
                 </node>
               </node>
