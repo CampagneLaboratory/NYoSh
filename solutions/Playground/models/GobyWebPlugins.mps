@@ -9,7 +9,7 @@
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" implicit="yes" />
   <import index="f2ff" modelUID="r:48d5f7d2-24be-4d82-ac12-8f4a2d414b11(org.campagnelab.nyosh.gstring.structure)" version="-1" implicit="yes" />
-  <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="23" implicit="yes" />
+  <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="28" implicit="yes" />
   <root type="4tvk.ErrorManagement" typeId="4tvk.8594065538792360516" id="2149979023199570254" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="CatchThese" />
   </root>
@@ -43,15 +43,15 @@
                 <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="2149979023199570269" nodeInfo="in" />
               </node>
             </node>
-            <node role="statement" roleId="tpee.1068581517665" type="4tvk.ExecuteCommand" typeId="4tvk.8197864363320353692" id="2149979023199570270" nodeInfo="ng">
-              <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.GStringCommand" typeId="4tvk.8155370969619067580" id="2149979023199570271" nodeInfo="ng">
+            <node role="statement" roleId="tpee.1068581517665" type=".NYoSh.structure.IExecuteCommand" id="2149979023199570270" nodeInfo="ng">
+              <node role="commands" type="4tvk.GStringCommand" typeId="4tvk.8155370969619067580" id="2149979023199570271" nodeInfo="ng">
                 <node role="command" roleId="4tvk.8155370969619067612" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="2149979023199570272" nodeInfo="ng">
                   <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="2149979023199570273" nodeInfo="ng">
                     <property name="value" nameId="f2ff.1012285663620336023" value="ls" />
                   </node>
                 </node>
               </node>
-              <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.PutResultInVariable" typeId="4tvk.3834344539479651098" id="2149979023199570274" nodeInfo="ng">
+              <node role="commands" type="4tvk.PutResultInVariable" typeId="4tvk.3834344539479651098" id="2149979023199570274" nodeInfo="ng">
                 <property name="consumeStandardOutput" nameId="4tvk.6839116863305307657" value="true" />
                 <property name="consumeStandardError" nameId="4tvk.6839116863305307659" value="false" />
                 <link role="variable" roleId="4tvk.3834344539479651523" targetNodeId="2149979023199570268" resolveInfo="a" />

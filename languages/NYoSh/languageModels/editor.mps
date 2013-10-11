@@ -4,7 +4,7 @@
   <language namespace="18bc6592-03a6-4e29-a83a-7ff23bde13ba(jetbrains.mps.lang.editor)" />
   <language namespace="13744753-c81f-424a-9c1b-cf8943bf4e86(jetbrains.mps.lang.sharedConcepts)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="26" />
+  <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="28" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" />
   <import index="tpen" modelUID="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" version="-1" />
@@ -1810,6 +1810,13 @@
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="4tvk.1428468132943184" resolveInfo="CheckExitCode" />
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="1428468132944490" nodeInfo="nn">
       <property name="text" nameId="tpc2.1073389577007" value="$?" />
+    </node>
+  </root>
+  <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="1428468157185574" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="commandOperators" />
+    <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="4tvk.1428468153770112" resolveInfo="IRequireExecuteCommandEnvironment" />
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="1428468157185654" nodeInfo="nn">
+      <property name="text" nameId="tpc2.1073389577007" value="IRequireExecuteCommandEnvironment" />
     </node>
   </root>
 </model>

@@ -10,7 +10,7 @@
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
-  <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="26" />
+  <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="28" />
   <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="27" />
   <import index="4ezj" modelUID="r:2a3903cf-99a2-4e4b-9216-412f36303d74(NYoSh.behavior)" version="3" />
   <import index="6pk0" modelUID="r:48f4e449-1a18-435e-ae88-4830aa794dc7(org.campagnelab.nyosh.environment.structure)" version="17" />
@@ -2658,8 +2658,8 @@
                     <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="1428468121221755" nodeInfo="in" />
                   </node>
                 </node>
-                <node role="statement" roleId="tpee.1068581517665" type="4tvk.ExecuteCommand" typeId="4tvk.8197864363320353692" id="1428468121221756" nodeInfo="ng">
-                  <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.BashFragment" typeId="4tvk.3834344539479154904" id="1428468121221757" nodeInfo="ng">
+                <node role="statement" roleId="tpee.1068581517665" type=".NYoSh.structure.IExecuteCommand" id="1428468121221756" nodeInfo="ng">
+                  <node role="commands" type="4tvk.BashFragment" typeId="4tvk.3834344539479154904" id="1428468121221757" nodeInfo="ng">
                     <node role="fragment" roleId="4tvk.3834344539479155079" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="1428468121221758" nodeInfo="ng">
                       <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringVarReference" typeId="f2ff.1012285663620336025" id="1428468121221759" nodeInfo="ng">
                         <link role="varRef" roleId="f2ff.4087517305354402375" targetNodeId="1428468121221765" resolveInfo="command" />
@@ -2672,7 +2672,7 @@
                       </node>
                     </node>
                   </node>
-                  <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.PutResultInVariable" typeId="4tvk.3834344539479651098" id="1428468121221762" nodeInfo="ng">
+                  <node role="commands" type="4tvk.PutResultInVariable" typeId="4tvk.3834344539479651098" id="1428468121221762" nodeInfo="ng">
                     <property name="consumeStandardOutput" nameId="4tvk.6839116863305307657" value="true" />
                     <property name="consumeStandardError" nameId="4tvk.6839116863305307659" value="false" />
                     <link role="variable" roleId="4tvk.3834344539479651523" targetNodeId="1428468121221754" resolveInfo="files" />
@@ -2717,8 +2717,8 @@
                     <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="1428468123077947" nodeInfo="in" />
                   </node>
                 </node>
-                <node role="statement" roleId="tpee.1068581517665" type="4tvk.ExecuteCommand" typeId="4tvk.8197864363320353692" id="1428468123077948" nodeInfo="ng">
-                  <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.BashFragment" typeId="4tvk.3834344539479154904" id="1428468123077949" nodeInfo="ng">
+                <node role="statement" roleId="tpee.1068581517665" type=".NYoSh.structure.IExecuteCommand" id="1428468123077948" nodeInfo="ng">
+                  <node role="commands" type="4tvk.BashFragment" typeId="4tvk.3834344539479154904" id="1428468123077949" nodeInfo="ng">
                     <node role="fragment" roleId="4tvk.3834344539479155079" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="1428468123077950" nodeInfo="ng">
                       <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringVarReference" typeId="f2ff.1012285663620336025" id="1428468123077951" nodeInfo="ng">
                         <link role="varRef" roleId="f2ff.4087517305354402375" targetNodeId="1428468123077957" resolveInfo="command" />
@@ -2737,7 +2737,7 @@
                       </node>
                     </node>
                   </node>
-                  <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.PutResultInVariable" typeId="4tvk.3834344539479651098" id="1428468123077954" nodeInfo="ng">
+                  <node role="commands" type="4tvk.PutResultInVariable" typeId="4tvk.3834344539479651098" id="1428468123077954" nodeInfo="ng">
                     <property name="consumeStandardOutput" nameId="4tvk.6839116863305307657" value="true" />
                     <property name="consumeStandardError" nameId="4tvk.6839116863305307659" value="false" />
                     <link role="variable" roleId="4tvk.3834344539479651523" targetNodeId="1428468123077946" resolveInfo="tags" />
@@ -2780,8 +2780,8 @@
               <node role="returnType" roleId="tpee.1068580123133" type="tpee.BooleanType" typeId="tpee.1070534644030" id="1428468131140736" nodeInfo="in" />
               <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="1428468131140230" nodeInfo="nn" />
               <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="1428468131140231" nodeInfo="sn">
-                <node role="statement" roleId="tpee.1068581517665" type="4tvk.ExecuteCommand" typeId="4tvk.8197864363320353692" id="1428468131140235" nodeInfo="ng">
-                  <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.BashFragment" typeId="4tvk.3834344539479154904" id="1428468131140236" nodeInfo="ng">
+                <node role="statement" roleId="tpee.1068581517665" type=".NYoSh.structure.IExecuteCommand" id="1428468131140235" nodeInfo="ng">
+                  <node role="commands" type="4tvk.BashFragment" typeId="4tvk.3834344539479154904" id="1428468131140236" nodeInfo="ng">
                     <node role="fragment" roleId="4tvk.3834344539479155079" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="1428468131140237" nodeInfo="ng">
                       <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringVarReference" typeId="f2ff.1012285663620336025" id="1428468131140238" nodeInfo="ng">
                         <link role="varRef" roleId="f2ff.4087517305354402375" targetNodeId="1428468131140246" resolveInfo="command" />

@@ -16,8 +16,8 @@
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" implicit="yes" />
   <import index="6pk0" modelUID="r:48f4e449-1a18-435e-ae88-4830aa794dc7(org.campagnelab.nyosh.environment.structure)" version="17" implicit="yes" />
   <import index="f2ff" modelUID="r:48d5f7d2-24be-4d82-ac12-8f4a2d414b11(org.campagnelab.nyosh.gstring.structure)" version="-1" implicit="yes" />
-  <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="26" implicit="yes" />
-  <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="26" implicit="yes" />
+  <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="28" implicit="yes" />
+  <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="27" implicit="yes" />
   <import index="8w0" modelUID="r:eb1d368a-5e85-4af8-8740-90a6516e7dd4(org.campagnelab.nyosh.pathpatterns.structure)" version="0" implicit="yes" />
   <import index="e2lc" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" implicit="yes" />
   <import index="fxg8" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" version="-1" implicit="yes" />
@@ -121,7 +121,7 @@
                   <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
                 </node>
               </node>
-              <node role="sources" roleId="6pk0.3173353997360946804" type="935h.GobyWebSource" typeId="935h.7423498045461870545" id="2149979023199548886" nodeInfo="ng">
+              <node role="sources" roleId="6pk0.3173353997360946804" type="935h.GobyWebSource" typeId="935h.7423498045461870545" id="2149979023199548886" nodeInfo="nr">
                 <node role="loader" roleId="6pk0.3173353997360796899" type="935h.GobyWebLoader" typeId="935h.7423498045461888424" id="2149979023199548887" nodeInfo="ng">
                   <link role="source" roleId="6pk0.3173353997362497485" targetNodeId="2149979023199548886" />
                 </node>
@@ -207,24 +207,24 @@
                 </node>
               </node>
             </node>
-            <node role="statement" roleId="tpee.1068581517665" type="4tvk.ExecuteCommand" typeId="4tvk.8197864363320353692" id="2149979023199548920" nodeInfo="ng">
-              <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.GStringCommand" typeId="4tvk.8155370969619067580" id="2149979023199548921" nodeInfo="ng">
+            <node role="statement" roleId="tpee.1068581517665" type=".NYoSh.structure.IExecuteCommand" id="2149979023199548920" nodeInfo="ng">
+              <node role="commands" type="4tvk.GStringCommand" typeId="4tvk.8155370969619067580" id="2149979023199548921" nodeInfo="ng">
                 <node role="command" roleId="4tvk.8155370969619067612" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="2149979023199548922" nodeInfo="ng">
                   <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="2149979023199548923" nodeInfo="ng">
                     <property name="value" nameId="f2ff.1012285663620336023" value="ls" />
                   </node>
                 </node>
               </node>
-              <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.SemiColonCommandOperator" typeId="4tvk.4903231125777493118" id="2149979023199548924" nodeInfo="ng" />
-              <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.ChangeDirectory" typeId="4tvk.6839116863302727356" id="2149979023199548925" nodeInfo="ng">
+              <node role="commands" type="4tvk.SemiColonCommandOperator" typeId="4tvk.4903231125777493118" id="2149979023199548924" nodeInfo="ng" />
+              <node role="commands" type="4tvk.ChangeDirectory" typeId="4tvk.6839116863302727356" id="2149979023199548925" nodeInfo="ng">
                 <node role="path" roleId="4tvk.6839116863302880700" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="2149979023199548926" nodeInfo="ng">
                   <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="2149979023199548927" nodeInfo="ng">
                     <property name="value" nameId="f2ff.1012285663620336023" value="someDir" />
                   </node>
                 </node>
               </node>
-              <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.SemiColonCommandOperator" typeId="4tvk.4903231125777493118" id="2149979023199548928" nodeInfo="ng" />
-              <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.GStringCommand" typeId="4tvk.8155370969619067580" id="2149979023199548929" nodeInfo="ng">
+              <node role="commands" type="4tvk.SemiColonCommandOperator" typeId="4tvk.4903231125777493118" id="2149979023199548928" nodeInfo="ng" />
+              <node role="commands" type="4tvk.GStringCommand" typeId="4tvk.8155370969619067580" id="2149979023199548929" nodeInfo="ng">
                 <node role="command" roleId="4tvk.8155370969619067612" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="2149979023199548930" nodeInfo="ng">
                   <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="2149979023199548931" nodeInfo="ng">
                     <property name="value" nameId="f2ff.1012285663620336023" value="pwd" />
@@ -374,7 +374,7 @@
                   <property name="value" nameId="6pk0.5469406079154538151" value="/tmp/launch-ASOZvi/Listeners" />
                 </node>
               </node>
-              <node role="sources" roleId="6pk0.3173353997360946804" type="935h.GobyWebSource" typeId="935h.7423498045461870545" id="2149979023199548984" nodeInfo="ng">
+              <node role="sources" roleId="6pk0.3173353997360946804" type="935h.GobyWebSource" typeId="935h.7423498045461870545" id="2149979023199548984" nodeInfo="nr">
                 <node role="loader" roleId="6pk0.3173353997360796899" type="935h.GobyWebLoader" typeId="935h.7423498045461888424" id="2149979023199548985" nodeInfo="ng">
                   <link role="source" roleId="6pk0.3173353997362497485" targetNodeId="2149979023199548984" />
                 </node>
@@ -584,8 +584,8 @@
                   </node>
                 </node>
               </node>
-              <node role="statement" roleId="tpee.1068581517665" type="4tvk.ExecuteCommand" typeId="4tvk.8197864363320353692" id="3941135000199849371" nodeInfo="ng">
-                <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.GStringCommand" typeId="4tvk.8155370969619067580" id="3941135000199849396" nodeInfo="ng">
+              <node role="statement" roleId="tpee.1068581517665" type=".NYoSh.structure.IExecuteCommand" id="3941135000199849371" nodeInfo="ng">
+                <node role="commands" type="4tvk.GStringCommand" typeId="4tvk.8155370969619067580" id="3941135000199849396" nodeInfo="ng">
                   <node role="command" roleId="4tvk.8155370969619067612" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="3941135000199849398" nodeInfo="ng">
                     <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="3941135000200351004" nodeInfo="ng">
                       <property name="value" nameId="f2ff.1012285663620336023" value="rm " />
@@ -625,8 +625,8 @@
               </node>
             </node>
           </node>
-          <node role="statement" roleId="tpee.1068581517665" type="4tvk.ExecuteCommand" typeId="4tvk.8197864363320353692" id="3941135000200352115" nodeInfo="ng">
-            <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.GStringCommand" typeId="4tvk.8155370969619067580" id="3941135000200352264" nodeInfo="ng">
+          <node role="statement" roleId="tpee.1068581517665" type=".NYoSh.structure.IExecuteCommand" id="3941135000200352115" nodeInfo="ng">
+            <node role="commands" type="4tvk.GStringCommand" typeId="4tvk.8155370969619067580" id="3941135000200352264" nodeInfo="ng">
               <node role="command" roleId="4tvk.8155370969619067612" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="3941135000200352265" nodeInfo="ng">
                 <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="3941135000200352270" nodeInfo="ng">
                   <property name="value" nameId="f2ff.1012285663620336023" value="ls -1 " />
@@ -639,7 +639,7 @@
                 </node>
               </node>
             </node>
-            <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.PutResultInVariable" typeId="4tvk.3834344539479651098" id="3941135000200353475" nodeInfo="ng">
+            <node role="commands" type="4tvk.PutResultInVariable" typeId="4tvk.3834344539479651098" id="3941135000200353475" nodeInfo="ng">
               <property name="consumeStandardOutput" nameId="4tvk.6839116863305307657" value="true" />
               <property name="consumeStandardError" nameId="4tvk.6839116863305307659" value="false" />
               <link role="variable" roleId="4tvk.3834344539479651523" targetNodeId="3941135000200353253" resolveInfo="numLines" />
@@ -819,7 +819,7 @@
                 <property name="value" nameId="6pk0.5469406079154538151" value="/tmp/launch-bq6AEW/Listeners" />
               </node>
             </node>
-            <node role="sources" roleId="6pk0.3173353997360946804" type="935h.GobyWebSource" typeId="935h.7423498045461870545" id="2149979023199549106" nodeInfo="ng">
+            <node role="sources" roleId="6pk0.3173353997360946804" type="935h.GobyWebSource" typeId="935h.7423498045461870545" id="2149979023199549106" nodeInfo="nr">
               <node role="loader" roleId="6pk0.3173353997360796899" type="935h.GobyWebLoader" typeId="935h.7423498045461888424" id="2149979023199549107" nodeInfo="ng">
                 <link role="source" roleId="6pk0.3173353997362497485" targetNodeId="2149979023199549106" />
               </node>

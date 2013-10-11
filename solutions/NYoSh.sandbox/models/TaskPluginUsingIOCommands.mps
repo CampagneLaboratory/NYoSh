@@ -12,7 +12,7 @@
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" implicit="yes" />
   <import index="6pk0" modelUID="r:48f4e449-1a18-435e-ae88-4830aa794dc7(org.campagnelab.nyosh.environment.structure)" version="17" implicit="yes" />
-  <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="26" implicit="yes" />
+  <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="28" implicit="yes" />
   <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="27" implicit="yes" />
   <import index="f2ff" modelUID="r:48d5f7d2-24be-4d82-ac12-8f4a2d414b11(org.campagnelab.nyosh.gstring.structure)" version="-1" implicit="yes" />
   <root type="4tvk.StepsLoggingSuccessHandler" typeId="4tvk.4780568564617168379" id="8463050739475717800" nodeInfo="ng">
@@ -374,15 +374,15 @@
                     <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="4384389959132680009" nodeInfo="in" />
                   </node>
                 </node>
-                <node role="statement" roleId="tpee.1068581517665" type="4tvk.ExecuteCommand" typeId="4tvk.8197864363320353692" id="4384389959129829318" nodeInfo="ng">
-                  <node role="commands" roleId="4tvk.851869296734402315" type="935h.FileSetFetchCommand" typeId="935h.6108592213963051819" id="4384389959129829377" nodeInfo="ng">
+                <node role="statement" roleId="tpee.1068581517665" type=".NYoSh.structure.IExecuteCommand" id="4384389959129829318" nodeInfo="ng">
+                  <node role="commands" type="935h.FileSetFetchCommand" typeId="935h.6108592213963051819" id="4384389959129829377" nodeInfo="ng">
                     <property name="status" nameId="935h.4384389959127856764" value="Ep name plugin_task" />
                     <link role="input" roleId="935h.6108592213963051820" targetNodeId="4384389959123860544" resolveInfo="IMAGE" />
                     <node role="command" roleId="935h.4384389959120306004" type="6pk0.VariableReaderGStringComponent" typeId="6pk0.2328891098886457362" id="4384389959129829378" nodeInfo="ng">
                       <link role="envVariable" roleId="6pk0.2328891098886457363" targetNodeId="4384389959123860503" resolveInfo="FILESET_COMMAND" />
                     </node>
                   </node>
-                  <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.PutResultInVariable" typeId="4tvk.3834344539479651098" id="4384389959132680174" nodeInfo="ng">
+                  <node role="commands" type="4tvk.PutResultInVariable" typeId="4tvk.3834344539479651098" id="4384389959132680174" nodeInfo="ng">
                     <property name="consumeStandardOutput" nameId="4tvk.6839116863305307657" value="true" />
                     <property name="consumeStandardError" nameId="4tvk.6839116863305307659" value="false" />
                     <link role="variable" roleId="4tvk.3834344539479651523" targetNodeId="4384389959132680014" resolveInfo="images" />
@@ -395,8 +395,8 @@
                     <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="4384389959132680293" nodeInfo="in" />
                   </node>
                 </node>
-                <node role="statement" roleId="tpee.1068581517665" type="4tvk.ExecuteCommand" typeId="4tvk.8197864363320353692" id="4384389959132680627" nodeInfo="ng">
-                  <node role="commands" roleId="4tvk.851869296734402315" type="935h.FileSetPushCommand" typeId="935h.6108592213963051945" id="4384389959133364189" nodeInfo="ng">
+                <node role="statement" roleId="tpee.1068581517665" type=".NYoSh.structure.IExecuteCommand" id="4384389959132680627" nodeInfo="ng">
+                  <node role="commands" type="935h.FileSetPushCommand" typeId="935h.6108592213963051945" id="4384389959133364189" nodeInfo="ng">
                     <link role="output" roleId="935h.6108592213963052019" targetNodeId="4384389959123860546" resolveInfo="STATS" />
                     <node role="command" roleId="935h.4384389959120306004" type="6pk0.VariableReaderGStringComponent" typeId="6pk0.2328891098886457362" id="4384389959133364190" nodeInfo="ng">
                       <link role="envVariable" roleId="6pk0.2328891098886457363" targetNodeId="4384389959123860503" resolveInfo="FILESET_COMMAND" />
@@ -407,7 +407,7 @@
                       </node>
                     </node>
                   </node>
-                  <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.PutResultInVariable" typeId="4tvk.3834344539479651098" id="4384389959133364479" nodeInfo="ng">
+                  <node role="commands" type="4tvk.PutResultInVariable" typeId="4tvk.3834344539479651098" id="4384389959133364479" nodeInfo="ng">
                     <property name="consumeStandardOutput" nameId="4tvk.6839116863305307657" value="true" />
                     <property name="consumeStandardError" nameId="4tvk.6839116863305307659" value="false" />
                     <link role="variable" roleId="4tvk.3834344539479651523" targetNodeId="4384389959132680298" resolveInfo="registeredTags" />
