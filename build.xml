@@ -607,6 +607,7 @@
       <library file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
       <library file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
       <library file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.tuples.jar" />
+      <library file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguageInternal-generator.jar" />
       <library file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguageInternal.jar" />
       <library file="${artifacts.mpsStandalone}/languages/devkits/jetbrains.mps.devkit.bootstrap-languages.devkit" />
       <library file="${artifacts.mpsStandalone}/languages/devkits/jetbrains.mps.devkit.general-purpose.devkit" />
@@ -979,7 +980,7 @@
     </javac>
   </target>
   
-  <target name="java.compile.org.campagnelab.gobyweb#1090105717920801462" depends="java.compile.NYoSh, java.compile.org.campagnelab.gobyweb, java.compile.org.campagnelab.nyosh.environment, java.compile.org.campagnelab.nyosh.environment#3173353997360794809, java.compile.org.campagnelab.nyosh.gstring, java.compile.org.campagnelab.nyosh.lib, java.compile.org.campagnelab.textoutput, fetchDependencies">
+  <target name="java.compile.org.campagnelab.gobyweb#1090105717920801462" depends="java.compile.NYoSh, java.compile.org.campagnelab.gobyweb, java.compile.org.campagnelab.nyosh.environment, java.compile.org.campagnelab.nyosh.gstring, java.compile.org.campagnelab.nyosh.lib, java.compile.org.campagnelab.textoutput, fetchDependencies">
     <mkdir dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.gobyweb#1090105717920801462" />
     <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb#1090105717920801462" fork="true" includeantruntime="false">
@@ -1000,7 +1001,6 @@
         <pathelement path="${build.tmp}/java/out/NYoSh" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.environment" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.environment#3173353997360794809" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.gstring" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.lib" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.textoutput" />
@@ -1156,6 +1156,7 @@
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.jdk7.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
+        <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguageInternal-generator.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/util/jetbrains.mps.execution.util.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/languageDesign/jetbrains.mps.lang.constraints.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
