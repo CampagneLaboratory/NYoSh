@@ -148,7 +148,7 @@
       <node role="initialValue" roleId="3ior.2755237150521975432" type="3ior.BuildVariableMacroInitWithString" typeId="3ior.2755237150521975431" id="8318417660238159964" nodeInfo="ng">
         <node role="value" roleId="3ior.2755237150521975437" type="3ior.BuildString" typeId="3ior.4380385936562003279" id="8318417660238159965" nodeInfo="ng">
           <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="4151139432633687869" nodeInfo="ng">
-            <property name="text" nameId="3ior.4903714810883755350" value="NYoShWorkbench-129.8" />
+            <property name="text" nameId="3ior.4903714810883755350" value="NYoShWorkbench-129.9" />
           </node>
         </node>
       </node>
@@ -297,7 +297,6 @@
       <node role="children" roleId="3ior.7389400916848037006" type="3ior.BuildLayout_Import" typeId="3ior.841011766565753074" id="7445436769452525599" nodeInfo="ng">
         <link role="target" roleId="3ior.841011766565753076" targetNodeId="ffeo.1890976590445582747" resolveInfo="MPSSamples" />
       </node>
-      <node role="children" roleId="3ior.7389400916848037006" type="3ior.BuildLayout_Node" typeId="3ior.7389400916848036997" id="6858221144182035605" nodeInfo="ng" />
       <node role="children" roleId="3ior.7389400916848037006" type="3ior.BuildLayout_Folder" typeId="3ior.7389400916848036984" id="8318417660238160067" nodeInfo="ng">
         <node role="containerName" roleId="3ior.4380385936562148502" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="8318417660238160068" nodeInfo="ng">
           <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="8318417660238160069" nodeInfo="ng">
