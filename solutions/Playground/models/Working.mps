@@ -182,37 +182,5 @@
     </node>
     <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="2149979023199564316" nodeInfo="nn" />
   </root>
-  <root type="4tvk.Script" typeId="4tvk.8197864363320245969" id="2477885976703247704" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="PatternMatcher" />
-    <node role="entryPoints" roleId="4tvk.4370546365667651420" type="4tvk.EntryPoint" typeId="4tvk.4370546365667651425" id="2477885976703247961" nodeInfo="nr">
-      <property name="name" nameId="tpck.1169194664001" value="main" />
-      <link role="script" roleId="4tvk.1185348143925735982" targetNodeId="2477885976703247704" resolveInfo="PatternMatcher" />
-      <node role="prototype" roleId="4tvk.2829258213785974077" type="4tvk.DefaultArgumentPrototype" typeId="4tvk.2829258213784965402" id="2477885976703247962" nodeInfo="ng">
-        <property name="header" nameId="4tvk.3834344539452020032" value="entry point" />
-        <property name="name" nameId="tpck.1169194664001" value="prototype" />
-        <property name="implementationMethodName" nameId="4tvk.7518874264105615641" value="implementation" />
-        <node role="statements" roleId="tpee.1082485599096" type="tpee.StatementList" typeId="tpee.1068580123136" id="2477885976703247963" nodeInfo="sn">
-          <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="2477885976703247964" nodeInfo="nn">
-            <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="2477885976703247965" nodeInfo="nn">
-              <property name="text" nameId="tpee.6329021646629104958" value="empty for now, will be replaced at generation" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node role="implementation" roleId="4tvk.2829258213786621720" type="4tvk.StaticEntryPointMethod" typeId="4tvk.3834344539462083799" id="2477885976703247966" nodeInfo="ig">
-        <property name="name" nameId="tpck.1169194664001" value="implementation" />
-        <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="2477885976703247967" nodeInfo="ir">
-          <property name="name" nameId="tpck.1169194664001" value="arguments" />
-          <node role="type" roleId="tpee.5680397130376446158" type="tpee.ArrayType" typeId="tpee.1070534760951" id="2477885976703247968" nodeInfo="in">
-            <node role="componentType" roleId="tpee.1070534760952" type="tpee.StringType" typeId="tpee.1225271177708" id="2477885976703247969" nodeInfo="in" />
-          </node>
-        </node>
-        <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="2477885976703247970" nodeInfo="in" />
-        <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="2477885976703247971" nodeInfo="nn" />
-        <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="2477885976703247972" nodeInfo="sn" />
-      </node>
-      <node role="statements" roleId="tpee.1082485599096" type="tpee.StatementList" typeId="tpee.1068580123136" id="2477885976703247973" nodeInfo="sn" />
-    </node>
-  </root>
 </model>
 
