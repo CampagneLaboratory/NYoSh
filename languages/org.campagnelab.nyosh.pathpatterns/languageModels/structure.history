@@ -12,5 +12,11 @@
     </dependencies>
     <rename id="8w0.1326095133187313992" type="CONCEPT" from="PathAsList" to="PathList" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="8w0" modelUID="r:eb1d368a-5e85-4af8-8740-90a6516e7dd4(org.campagnelab.nyosh.pathpatterns.structure)" version="1" />
+    </dependencies>
+    <rename id="8w0.1326095133187313992" type="CONCEPT" from="PathList" to="PathArray" />
+  </StructureModification>
 </history>
 
