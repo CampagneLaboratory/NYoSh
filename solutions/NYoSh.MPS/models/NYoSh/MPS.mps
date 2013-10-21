@@ -136,6 +136,23 @@
           </node>
         </node>
       </node>
+      <node role="updateWebsite" roleId="kdzh.6108265972537335245" type="kdzh.BuildMps_BrandingUpdateSite" typeId="kdzh.7753544965996489991" id="8241654540845603316" nodeInfo="ng">
+        <node role="checkUrl" roleId="kdzh.6108265972537335224" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="8241654540845603317" nodeInfo="ng">
+          <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="8241654540845607797" nodeInfo="ng">
+            <property name="text" nameId="3ior.4903714810883755350" value="http://campagnelab.org/files/nyosh-update.txt" />
+          </node>
+        </node>
+        <node role="updateUrl" roleId="kdzh.6108265972537335225" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="8241654540845603318" nodeInfo="ng">
+          <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="8241654540845614970" nodeInfo="ng">
+            <property name="text" nameId="3ior.4903714810883755350" value="http://campagnelab.org/software/nyosh/early-access-preview-download/" />
+          </node>
+        </node>
+        <node role="updateChannel" roleId="kdzh.8795525031433091059" type="3ior.BuildString" typeId="3ior.4380385936562003279" id="8241654540845613728" nodeInfo="ng">
+          <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="8241654540845613727" nodeInfo="ng">
+            <property name="text" nameId="3ior.4903714810883755350" value="NYoShWorkbenchEAP" />
+          </node>
+        </node>
+      </node>
     </node>
     <node role="macros" roleId="3ior.5617550519002745378" type="3ior.BuildVariableMacro" typeId="3ior.3767587139141066978" id="8318417660238159961" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="date" />
