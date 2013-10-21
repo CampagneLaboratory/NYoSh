@@ -6,8 +6,8 @@
       <model index="q17a" modelUID="r:3fd8f008-20f7-41de-ac4a-40f2d89b8fb2(NYoSh.intentions)" version="-1" />
       <model index="q8mp" modelUID="r:e81db3c8-c3eb-4adc-83ad-930c89141029(NYoSh.actions)" version="-1" />
       <model index="aet2" modelUID="r:ab86e397-1503-48ca-8931-8dc598446fee(NYoSh.generator.template.main@generator)" version="-1" />
-      <model index="idop" modelUID="r:d274dffc-d0bf-4ec5-bbf4-c1d30ee1f423(NYoSh.typesystem)" version="-1" />
       <model index="866" modelUID="r:b5bf8283-80d1-4ef0-93cb-73126a01373f(NYoSh.plugin)" version="-1" />
+      <model index="idop" modelUID="r:d274dffc-d0bf-4ec5-bbf4-c1d30ee1f423(NYoSh.typesystem)" version="-1" />
       <model index="4ezj" modelUID="r:2a3903cf-99a2-4e4b-9216-412f36303d74(NYoSh.behavior)" version="-1" />
       <model index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="10" />
       <model index="f6d6" modelUID="r:bbce89e8-2bb0-4c95-b1b7-870a649b438d(NYoSh.constraints)" version="-1" />
@@ -28,8 +28,8 @@
       <model index="q17a" modelUID="r:3fd8f008-20f7-41de-ac4a-40f2d89b8fb2(org.campagnelab.nyosh.intentions)" version="0" />
       <model index="q8mp" modelUID="r:e81db3c8-c3eb-4adc-83ad-930c89141029(org.campagnelab.nyosh.actions)" version="0" />
       <model index="aet2" modelUID="r:ab86e397-1503-48ca-8931-8dc598446fee(org.campagnelab.nyosh.generator.template.main@generator)" version="0" />
-      <model index="idop" modelUID="r:d274dffc-d0bf-4ec5-bbf4-c1d30ee1f423(org.campagnelab.nyosh.typesystem)" version="0" />
       <model index="866" modelUID="r:b5bf8283-80d1-4ef0-93cb-73126a01373f(org.campagnelab.nyosh.plugin)" version="0" />
+      <model index="idop" modelUID="r:d274dffc-d0bf-4ec5-bbf4-c1d30ee1f423(org.campagnelab.nyosh.typesystem)" version="0" />
       <model index="4ezj" modelUID="r:2a3903cf-99a2-4e4b-9216-412f36303d74(org.campagnelab.nyosh.behavior)" version="0" />
       <model index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(org.campagnelab.nyosh.structure)" version="11" />
       <model index="f6d6" modelUID="r:bbce89e8-2bb0-4c95-b1b7-870a649b438d(org.campagnelab.nyosh.constraints)" version="0" />
@@ -49,8 +49,8 @@
       <model index="36xx" modelUID="r:31af932a-3b06-429d-8d4c-b0b4ebe2bde6(org.campagnelab.NYoSh.editor)" version="1" />
       <model index="4ezj" modelUID="r:2a3903cf-99a2-4e4b-9216-412f36303d74(org.campagnelab.NYoSh.behavior)" version="1" />
       <model index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(org.campagnelab.NYoSh.structure)" version="12" />
-      <model index="2do4" modelUID="r:37480788-d5bb-44f1-9b59-9a1a08c5e7d7(org.campagnelab.gobyweb.behavior)" version="-1" />
       <model index="aolm" modelUID="r:25b034d9-9d15-40d6-b320-353339f9d236(org.campagnelab.gobyweb.editor)" version="-1" />
+      <model index="2do4" modelUID="r:37480788-d5bb-44f1-9b59-9a1a08c5e7d7(org.campagnelab.gobyweb.behavior)" version="-1" />
       <model index="3x59" modelUID="r:d679b7ff-0589-488d-88f2-70a6a8ce9f59(org.campagnelab.gobyweb.structure)" version="-1" />
     </dependencies>
     <move id="4tvk.3645074773131327936" to="3x59.1645071448550969710" />
@@ -109,8 +109,8 @@
       <model index="36xx" modelUID="r:31af932a-3b06-429d-8d4c-b0b4ebe2bde6(org.campagnelab.NYoSh.editor)" version="2" />
       <model index="4ezj" modelUID="r:2a3903cf-99a2-4e4b-9216-412f36303d74(org.campagnelab.NYoSh.behavior)" version="2" />
       <model index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(org.campagnelab.NYoSh.structure)" version="14" />
-      <model index="2do4" modelUID="r:37480788-d5bb-44f1-9b59-9a1a08c5e7d7(org.campagnelab.gobyweb.behavior)" version="0" />
       <model index="aolm" modelUID="r:25b034d9-9d15-40d6-b320-353339f9d236(org.campagnelab.gobyweb.editor)" version="0" />
+      <model index="2do4" modelUID="r:37480788-d5bb-44f1-9b59-9a1a08c5e7d7(org.campagnelab.gobyweb.behavior)" version="0" />
       <model index="3x59" modelUID="r:d679b7ff-0589-488d-88f2-70a6a8ce9f59(org.campagnelab.gobyweb.structure)" version="1" />
     </dependencies>
     <move id="4tvk.2829258213793694771" to="3x59.1645071448550974758" />
@@ -148,6 +148,34 @@
     <move id="4ezj.2829258213794031959" to="2do4.1645071448550974763" />
     <move id="4ezj.2829258213794032171" to="2do4.1645071448550974766" />
     <move id="4ezj.2829258213794032174" to="2do4.1645071448550974768" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="36xx" modelUID="r:31af932a-3b06-429d-8d4c-b0b4ebe2bde6(NYoSh.editor)" version="6" />
+      <model index="dph6" modelUID="r:5ea5cfa7-405a-4cc9-8472-d124bf4a8970(NYoSh.generator.template.HelperCode)" version="-1" />
+      <model index="q17a" modelUID="r:3fd8f008-20f7-41de-ac4a-40f2d89b8fb2(NYoSh.intentions)" version="1" />
+      <model index="en36" modelUID="r:551ab8cf-6845-4ac9-88f8-60375ccdd853(NYoSh.textGen)" version="0" />
+      <model index="j967" modelUID="r:91802275-7ecf-4bf0-a74a-bd8b2bc1cd21(NYoSh.scripts)" version="-1" />
+      <model index="q8mp" modelUID="r:e81db3c8-c3eb-4adc-83ad-930c89141029(NYoSh.actions)" version="2" />
+      <model index="aet2" modelUID="r:ab86e397-1503-48ca-8931-8dc598446fee(NYoSh.generator.template.main@generator)" version="1" />
+      <model index="wyc7" modelUID="r:44ac686c-848f-4e26-a474-0f122990548f(NYoSh.dataFlow)" version="-1" />
+      <model index="idop" modelUID="r:d274dffc-d0bf-4ec5-bbf4-c1d30ee1f423(NYoSh.typesystem)" version="1" />
+      <model index="4ezj" modelUID="r:2a3903cf-99a2-4e4b-9216-412f36303d74(NYoSh.behavior)" version="3" />
+      <model index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="28" />
+      <model index="f6d6" modelUID="r:bbce89e8-2bb0-4c95-b1b7-870a649b438d(NYoSh.constraints)" version="1" />
+    </dependencies>
+    <RenameModel oldModel="r:31af932a-3b06-429d-8d4c-b0b4ebe2bde6(NYoSh.editor)" newModel="r:31af932a-3b06-429d-8d4c-b0b4ebe2bde6(org.campagnelab.NYoSh.editor)" />
+    <RenameModel oldModel="r:e81db3c8-c3eb-4adc-83ad-930c89141029(NYoSh.actions)" newModel="r:e81db3c8-c3eb-4adc-83ad-930c89141029(org.campagnelab.NYoSh.actions)" />
+    <RenameModel oldModel="r:91802275-7ecf-4bf0-a74a-bd8b2bc1cd21(NYoSh.scripts)" newModel="r:91802275-7ecf-4bf0-a74a-bd8b2bc1cd21(org.campagnelab.NYoSh.scripts)" />
+    <RenameModel oldModel="r:551ab8cf-6845-4ac9-88f8-60375ccdd853(NYoSh.textGen)" newModel="r:551ab8cf-6845-4ac9-88f8-60375ccdd853(org.campagnelab.NYoSh.textGen)" />
+    <RenameModel oldModel="r:2a3903cf-99a2-4e4b-9216-412f36303d74(NYoSh.behavior)" newModel="r:2a3903cf-99a2-4e4b-9216-412f36303d74(org.campagnelab.NYoSh.behavior)" />
+    <RenameModel oldModel="r:44ac686c-848f-4e26-a474-0f122990548f(NYoSh.dataFlow)" newModel="r:44ac686c-848f-4e26-a474-0f122990548f(org.campagnelab.NYoSh.dataFlow)" />
+    <RenameModel oldModel="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" newModel="r:70e37d76-af49-4a32-9523-a01860ff8f1c(org.campagnelab.NYoSh.structure)" />
+    <RenameModel oldModel="r:3fd8f008-20f7-41de-ac4a-40f2d89b8fb2(NYoSh.intentions)" newModel="r:3fd8f008-20f7-41de-ac4a-40f2d89b8fb2(org.campagnelab.NYoSh.intentions)" />
+    <RenameModel oldModel="r:d274dffc-d0bf-4ec5-bbf4-c1d30ee1f423(NYoSh.typesystem)" newModel="r:d274dffc-d0bf-4ec5-bbf4-c1d30ee1f423(org.campagnelab.NYoSh.typesystem)" />
+    <RenameModel oldModel="r:bbce89e8-2bb0-4c95-b1b7-870a649b438d(NYoSh.constraints)" newModel="r:bbce89e8-2bb0-4c95-b1b7-870a649b438d(org.campagnelab.NYoSh.constraints)" />
+    <RenameModel oldModel="r:5ea5cfa7-405a-4cc9-8472-d124bf4a8970(NYoSh.generator.template.HelperCode)" newModel="r:5ea5cfa7-405a-4cc9-8472-d124bf4a8970(org.campagnelab.NYoSh.generator.template.HelperCode)" />
+    <RenameModel oldModel="r:ab86e397-1503-48ca-8931-8dc598446fee(NYoSh.generator.template.main@generator)" newModel="r:ab86e397-1503-48ca-8931-8dc598446fee(org.campagnelab.NYoSh.generator.template.main@generator)" />
   </StructureModification>
 </history>
 
