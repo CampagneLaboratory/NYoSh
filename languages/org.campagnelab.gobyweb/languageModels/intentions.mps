@@ -14,7 +14,6 @@
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
   <root type="tp3j.IntentionDeclaration" typeId="tp3j.1192794744107" id="6225477831026116064" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="AddEnvironmentSupport" />
-    <property name="isAvailableInChildNodes" nameId="tp3j.2522969319638091386" value="true" />
     <link role="forConcept" roleId="tp3j.2522969319638198290" targetNodeId="935h.385706599064973507" resolveInfo="GobyWebEntryPoint" />
     <node role="descriptionFunction" roleId="tp3j.2522969319638093993" type="tp3j.DescriptionBlock" typeId="tp3j.1192794782375" id="6225477831026116065" nodeInfo="nn">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="6225477831026116066" nodeInfo="sn">
@@ -46,7 +45,6 @@
   </root>
   <root type="tp3j.IntentionDeclaration" typeId="tp3j.1192794744107" id="7518874264105071085" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="AddEmptyStatements" />
-    <property name="isAvailableInChildNodes" nameId="tp3j.2522969319638091386" value="true" />
     <link role="forConcept" roleId="tp3j.2522969319638198290" targetNodeId="4tvk.4370546365667651425" resolveInfo="EntryPoint" />
     <node role="descriptionFunction" roleId="tp3j.2522969319638093993" type="tp3j.DescriptionBlock" typeId="tp3j.1192794782375" id="7518874264105071086" nodeInfo="nn">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="7518874264105071087" nodeInfo="sn">
@@ -92,7 +90,6 @@
   </root>
   <root type="tp3j.IntentionDeclaration" typeId="tp3j.1192794744107" id="4780568564618431556" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="AddDefaultErrorManagement" />
-    <property name="isAvailableInChildNodes" nameId="tp3j.2522969319638091386" value="true" />
     <link role="forConcept" roleId="tp3j.2522969319638198290" targetNodeId="4tvk.8197864363320245969" resolveInfo="Script" />
     <node role="descriptionFunction" roleId="tp3j.2522969319638093993" type="tp3j.DescriptionBlock" typeId="tp3j.1192794782375" id="4780568564618431557" nodeInfo="nn">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="4780568564618431558" nodeInfo="sn">
