@@ -3160,7 +3160,7 @@
                     <node role="cls" roleId="tpee.1182160096073" type="tpee.AnonymousClass" typeId="tpee.1170345865475" id="4907898740900748865" nodeInfo="ig">
                       <property name="nonStatic" nameId="tpee.521412098689998745" value="true" />
                       <link role="classifier" roleId="tpee.1170346070688" targetNodeId="r9z8.~OutputConsumer" resolveInfo="OutputConsumer" />
-                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~Object%d&lt;init&gt;()" resolveInfo="Object" />
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="r9z8.~OutputConsumer%d&lt;init&gt;()" resolveInfo="OutputConsumer" />
                       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="4907898740900748866" nodeInfo="nn" />
                       <node role="member" roleId="tpee.5375687026011219971" type="tpee.InstanceMethodDeclaration" typeId="tpee.1068580123165" id="4907898740900748867" nodeInfo="igu">
                         <property name="isAbstract" nameId="tpee.1178608670077" value="false" />
@@ -4953,7 +4953,7 @@
         <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.TemplateFragment" typeId="tpf8.1095672379244" id="435930706556389260" nodeInfo="ng" />
         <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.MapSrcNodeMacro" typeId="tpf8.1131073187192" id="435930706556389261" nodeInfo="nn" />
       </node>
-      <node role="member" roleId="tpee.5375687026011219971" type="4tvk.StepsLoggerDeclared" typeId="4tvk.435930706556016201" id="435930706556389262" nodeInfo="ngu">
+      <node role="member" roleId="tpee.5375687026011219971" type="4tvk.StepsLoggerDeclared" typeId="4tvk.435930706556016201" id="435930706556389262" nodeInfo="igu">
         <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.TemplateFragment" typeId="tpf8.1095672379244" id="435930706556389263" nodeInfo="ng" />
       </node>
       <node role="member" roleId="tpee.5375687026011219971" type="tpee.StaticMethodDeclaration" typeId="tpee.1081236700938" id="435930706556389264" nodeInfo="igu">
