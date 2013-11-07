@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(org.campagnelab.NYoSh.structure)" version="29">
+<model modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(org.campagnelab.NYoSh.structure)" version="30">
   <persistence version="8" />
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
@@ -8,7 +8,7 @@
   <import index="f2ff" modelUID="r:48d5f7d2-24be-4d82-ac12-8f4a2d414b11(org.campagnelab.nyosh.gstring.structure)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
-  <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(org.campagnelab.NYoSh.structure)" version="29" implicit="yes" />
+  <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(org.campagnelab.NYoSh.structure)" version="30" implicit="yes" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" implicit="yes" />
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8197864363320245969" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Script" />
@@ -492,10 +492,10 @@
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3834344539479651098" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="PutResultInVariable" />
+    <property name="name" nameId="tpck.1169194664001" value="OutputFirstLineInVariable" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="consumeOutput" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="put result in variable" />
-    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="put result in variable" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="output first line in" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="output first line in variable" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="6839116863305307535" resolveInfo="ConsumeOutput" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="3834344539479651523" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />

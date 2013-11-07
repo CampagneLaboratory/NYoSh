@@ -12,7 +12,7 @@
   <language-engaged-on-generation namespace="760a0a8c-eabb-4521-8bfd-65db761a9ba3(jetbrains.mps.baseLanguage.logging)" />
   <language-engaged-on-generation namespace="0202ed86-955d-4227-9c20-377dd6b1f9ff(org.campagnelab.nyosh.lib)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(org.campagnelab.NYoSh.structure)" version="29" />
+  <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(org.campagnelab.NYoSh.structure)" version="30" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" />
   <import index="tpek" modelUID="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" version="-1" />
@@ -1433,7 +1433,7 @@
                           <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7414196263098273973" nodeInfo="nn">
                             <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_IsInstanceOfOperation" typeId="tp25.1139621453865" id="7414196263098273974" nodeInfo="nn">
                               <node role="conceptArgument" roleId="tp25.1177027386292" type="tp25.RefConcept_Reference" typeId="tp25.1177026924588" id="7414196263098273975" nodeInfo="nn">
-                                <link role="conceptDeclaration" roleId="tp25.1177026940964" targetNodeId="4tvk.3834344539479651098" resolveInfo="PutResultInVariable" />
+                                <link role="conceptDeclaration" roleId="tp25.1177026940964" targetNodeId="4tvk.3834344539479651098" resolveInfo="OutputFirstLineInVariable" />
                               </node>
                             </node>
                             <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="7414196263098273976" nodeInfo="nn">
@@ -1445,7 +1445,7 @@
                               <link role="property" roleId="tp25.1138056395725" targetNodeId="4tvk.6839116863305307657" resolveInfo="consumeStandardOutput" />
                             </node>
                             <node role="operand" roleId="tpee.1197027771414" type="tp25.SNodeTypeCastExpression" typeId="tp25.1140137987495" id="7414196263098273979" nodeInfo="nn">
-                              <link role="concept" roleId="tp25.1140138128738" targetNodeId="4tvk.3834344539479651098" resolveInfo="PutResultInVariable" />
+                              <link role="concept" roleId="tp25.1140138128738" targetNodeId="4tvk.3834344539479651098" resolveInfo="OutputFirstLineInVariable" />
                               <node role="leftExpression" roleId="tp25.1140138123956" type="tpee.VariableReference" typeId="tpee.1068498886296" id="7414196263098273980" nodeInfo="nn">
                                 <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="7414196263098273964" resolveInfo="lastCommand" />
                               </node>
@@ -1755,7 +1755,7 @@
                                     <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3999230645370870056" nodeInfo="nn">
                                       <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7414196263097497299" nodeInfo="nn">
                                         <node role="operand" roleId="tpee.1197027771414" type="tp25.SNodeTypeCastExpression" typeId="tp25.1140137987495" id="7414196263097495324" nodeInfo="nn">
-                                          <link role="concept" roleId="tp25.1140138128738" targetNodeId="4tvk.3834344539479651098" resolveInfo="PutResultInVariable" />
+                                          <link role="concept" roleId="tp25.1140138128738" targetNodeId="4tvk.3834344539479651098" resolveInfo="OutputFirstLineInVariable" />
                                           <node role="leftExpression" roleId="tp25.1140138123956" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7414196263097590748" nodeInfo="nn">
                                             <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7414196263097544162" nodeInfo="nn">
                                               <node role="operand" roleId="tpee.1197027771414" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="7414196263097493762" nodeInfo="nn" />
@@ -1805,7 +1805,7 @@
                               <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="9138295635397089407" nodeInfo="nn">
                                 <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_IsInstanceOfOperation" typeId="tp25.1139621453865" id="9138295635397089408" nodeInfo="nn">
                                   <node role="conceptArgument" roleId="tp25.1177027386292" type="tp25.RefConcept_Reference" typeId="tp25.1177026924588" id="9138295635397093781" nodeInfo="nn">
-                                    <link role="conceptDeclaration" roleId="tp25.1177026940964" targetNodeId="4tvk.3834344539479651098" resolveInfo="PutResultInVariable" />
+                                    <link role="conceptDeclaration" roleId="tp25.1177026940964" targetNodeId="4tvk.3834344539479651098" resolveInfo="OutputFirstLineInVariable" />
                                   </node>
                                 </node>
                                 <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="9138295635397089410" nodeInfo="nn">
@@ -1817,7 +1817,7 @@
                                   <link role="property" roleId="tp25.1138056395725" targetNodeId="4tvk.6839116863305307657" resolveInfo="consumeStandardOutput" />
                                 </node>
                                 <node role="operand" roleId="tpee.1197027771414" type="tp25.SNodeTypeCastExpression" typeId="tp25.1140137987495" id="9138295635397089413" nodeInfo="nn">
-                                  <link role="concept" roleId="tp25.1140138128738" targetNodeId="4tvk.3834344539479651098" resolveInfo="PutResultInVariable" />
+                                  <link role="concept" roleId="tp25.1140138128738" targetNodeId="4tvk.3834344539479651098" resolveInfo="OutputFirstLineInVariable" />
                                   <node role="leftExpression" roleId="tp25.1140138123956" type="tpee.VariableReference" typeId="tpee.1068498886296" id="9138295635397089414" nodeInfo="nn">
                                     <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="9138295635397089398" resolveInfo="lastCommand" />
                                   </node>
@@ -3088,7 +3088,7 @@
       </node>
     </node>
     <node role="reductionMappingRule" roleId="tpf8.1167340453568" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="4907898740901126699" nodeInfo="ng">
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="4tvk.3834344539479651098" resolveInfo="PutResultInVariable" />
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="4tvk.3834344539479651098" resolveInfo="OutputFirstLineInVariable" />
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="4907898740901130393" nodeInfo="nn">
         <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="4907898740901130391" resolveInfo="case_PutResultInVariable" />
       </node>
@@ -3713,7 +3713,7 @@
   <root type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="4907898740901130391" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="case_PutResultInVariable" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="commandOperators" />
-    <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="4tvk.3834344539479651098" resolveInfo="PutResultInVariable" />
+    <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="4tvk.3834344539479651098" resolveInfo="OutputFirstLineInVariable" />
     <node role="contentNode" roleId="tpf8.1092060348987" type="tpee.ClassConcept" typeId="tpee.1068390468198" id="4907898740901132722" nodeInfo="ig">
       <property name="nonStatic" nameId="tpee.521412098689998745" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="dummy" />
