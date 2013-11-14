@@ -997,10 +997,10 @@
                       </node>
                     </node>
                     <node role="statement" roleId="tpee.1068581517665" type="4tvk.ExecuteCommand" typeId="4tvk.8197864363320353692" id="2477885976698808322" nodeInfo="ng">
-                      <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.BashFragment" typeId="4tvk.3834344539479154904" id="2477885976698819237" nodeInfo="ng">
-                        <node role="fragment" roleId="4tvk.3834344539479155079" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="2477885976698819238" nodeInfo="ng">
+                      <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.GStringCommand" typeId="4tvk.8155370969619067580" id="7847113445730063770" nodeInfo="ng">
+                        <node role="command" roleId="4tvk.8155370969619067612" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="7847113445730063772" nodeInfo="ng">
                           <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="2477885976698819405" nodeInfo="ng">
-                            <property name="value" nameId="f2ff.1012285663620336023" value=" nice " />
+                            <property name="value" nameId="f2ff.1012285663620336023" value="nice " />
                           </node>
                           <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringVarReference" typeId="f2ff.1012285663620336025" id="2477885976698819406" nodeInfo="ng">
                             <link role="varRef" roleId="f2ff.4087517305354402375" targetNodeId="9111004363162727433" resolveInfo="BWA_GOBY_EXEC_PATH" />
@@ -1062,10 +1062,9 @@
                         </node>
                       </node>
                     </node>
-                    <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="224223098171733104" nodeInfo="nn" />
                     <node role="statement" roleId="tpee.1068581517665" type="4tvk.ExecuteCommand" typeId="4tvk.8197864363320353692" id="2477885976698825215" nodeInfo="ng">
-                      <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.BashFragment" typeId="4tvk.3834344539479154904" id="2477885976698857835" nodeInfo="ng">
-                        <node role="fragment" roleId="4tvk.3834344539479155079" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="2477885976698857837" nodeInfo="ng">
+                      <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.GStringCommand" typeId="4tvk.8155370969619067580" id="7847113445730066984" nodeInfo="ng">
+                        <node role="command" roleId="4tvk.8155370969619067612" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="7847113445730066986" nodeInfo="ng">
                           <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="2477885976698858144" nodeInfo="ng">
                             <property name="value" nameId="f2ff.1012285663620336023" value="nice " />
                           </node>
@@ -1129,10 +1128,9 @@
                         </node>
                       </node>
                     </node>
-                    <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="2477885976700804812" nodeInfo="nn" />
                     <node role="statement" roleId="tpee.1068581517665" type="4tvk.ExecuteCommand" typeId="4tvk.8197864363320353692" id="2477885976698876628" nodeInfo="ng">
-                      <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.BashFragment" typeId="4tvk.3834344539479154904" id="2477885976698880257" nodeInfo="ng">
-                        <node role="fragment" roleId="4tvk.3834344539479155079" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="2477885976698880259" nodeInfo="ng">
+                      <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.GStringCommand" typeId="4tvk.8155370969619067580" id="7847113445730085404" nodeInfo="ng">
+                        <node role="command" roleId="4tvk.8155370969619067612" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="7847113445730085406" nodeInfo="ng">
                           <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="2477885976698880450" nodeInfo="ng">
                             <property name="value" nameId="f2ff.1012285663620336023" value="nice " />
                           </node>
@@ -1239,10 +1237,9 @@
                           </node>
                         </node>
                       </node>
-                      <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="224223098171741838" nodeInfo="nn" />
                       <node role="statement" roleId="tpee.1068581517665" type="4tvk.ExecuteCommand" typeId="4tvk.8197864363320353692" id="2477885976698885940" nodeInfo="ng">
-                        <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.BashFragment" typeId="4tvk.3834344539479154904" id="2477885976698887765" nodeInfo="ng">
-                          <node role="fragment" roleId="4tvk.3834344539479155079" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="2477885976698887767" nodeInfo="ng">
+                        <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.GStringCommand" typeId="4tvk.8155370969619067580" id="7847113445730092572" nodeInfo="ng">
+                          <node role="command" roleId="4tvk.8155370969619067612" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="7847113445730092574" nodeInfo="ng">
                             <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="2477885976698887853" nodeInfo="ng">
                               <property name="value" nameId="f2ff.1012285663620336023" value="nice " />
                             </node>
@@ -1308,8 +1305,8 @@
                       </node>
                       <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="224223098171739968" nodeInfo="nn" />
                       <node role="statement" roleId="tpee.1068581517665" type="4tvk.ExecuteCommand" typeId="4tvk.8197864363320353692" id="2477885976698891538" nodeInfo="ng">
-                        <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.BashFragment" typeId="4tvk.3834344539479154904" id="2477885976698893362" nodeInfo="ng">
-                          <node role="fragment" roleId="4tvk.3834344539479155079" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="2477885976698893363" nodeInfo="ng">
+                        <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.GStringCommand" typeId="4tvk.8155370969619067580" id="7847113445730100291" nodeInfo="ng">
+                          <node role="command" roleId="4tvk.8155370969619067612" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="7847113445730100293" nodeInfo="ng">
                             <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="2477885976698893448" nodeInfo="ng">
                               <property name="value" nameId="f2ff.1012285663620336023" value="nice " />
                             </node>
