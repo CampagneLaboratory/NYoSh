@@ -1347,7 +1347,7 @@
             <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.GStringCommand" typeId="4tvk.8155370969619067580" id="1483547789562275748" nodeInfo="ng">
               <node role="command" roleId="4tvk.8155370969619067612" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="1483547789562275750" nodeInfo="ng">
                 <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="1483547789562481155" nodeInfo="ng">
-                  <property name="value" nameId="f2ff.1012285663620336023" value="wget www.google.com" />
+                  <property name="value" nameId="f2ff.1012285663620336023" value="curl www.google.com" />
                 </node>
               </node>
             </node>
