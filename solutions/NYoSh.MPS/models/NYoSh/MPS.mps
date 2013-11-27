@@ -16,7 +16,6 @@
       <property name="minor" nameId="kdzh.3497141547781541445" value="0" />
       <property name="name" nameId="tpck.1169194664001" value="MPS" />
       <property name="major" nameId="kdzh.3497141547781541444" value="1" />
-      <property name="eap" nameId="kdzh.3497141547781541446" value="true" />
       <node role="welcomeLogo" roleId="kdzh.772379520210716142" type="3ior.BuildSourceProjectRelativePath" typeId="3ior.5481553824944787378" id="8318417660238159973" nodeInfo="ng">
         <node role="compositePart" roleId="3ior.7321017245477039051" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="8318417660238159974" nodeInfo="nn">
           <property name="head" nameId="3ior.8618885170173601779" value="icons" />
