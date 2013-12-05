@@ -1058,15 +1058,6 @@
                           <node role="components" roleId="f2ff.1012285663620335803" type="6pk0.VariableReaderGStringComponent" typeId="6pk0.2328891098886457362" id="2477885976698819424" nodeInfo="ng">
                             <link role="envVariable" roleId="6pk0.2328891098886457363" targetNodeId="3000070812382684620" resolveInfo="READS_FILE" />
                           </node>
-                          <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="427214471685597077" nodeInfo="ng">
-                            <property name="value" nameId="f2ff.1012285663620336023" value=" &amp;&gt;" />
-                          </node>
-                          <node role="components" roleId="f2ff.1012285663620335803" type="6pk0.VariableReaderGStringComponent" typeId="6pk0.2328891098886457362" id="427214471685597123" nodeInfo="ng">
-                            <link role="envVariable" roleId="6pk0.2328891098886457363" targetNodeId="3000070812382684600" resolveInfo="JOB_DIR" />
-                          </node>
-                          <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="427214471685597171" nodeInfo="ng">
-                            <property name="value" nameId="f2ff.1012285663620336023" value="/execute.1.out" />
-                          </node>
                         </node>
                       </node>
                     </node>
@@ -1129,15 +1120,6 @@
                           </node>
                           <node role="components" roleId="f2ff.1012285663620335803" type="6pk0.VariableReaderGStringComponent" typeId="6pk0.2328891098886457362" id="2477885976698858163" nodeInfo="ng">
                             <link role="envVariable" roleId="6pk0.2328891098886457363" targetNodeId="3000070812382684620" resolveInfo="READS_FILE" />
-                          </node>
-                          <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="427214471685597230" nodeInfo="ng">
-                            <property name="value" nameId="f2ff.1012285663620336023" value=" &amp;&gt;" />
-                          </node>
-                          <node role="components" roleId="f2ff.1012285663620335803" type="6pk0.VariableReaderGStringComponent" typeId="6pk0.2328891098886457362" id="427214471685597231" nodeInfo="ng">
-                            <link role="envVariable" roleId="6pk0.2328891098886457363" targetNodeId="3000070812382684600" resolveInfo="JOB_DIR" />
-                          </node>
-                          <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="427214471685597232" nodeInfo="ng">
-                            <property name="value" nameId="f2ff.1012285663620336023" value="/execute.1.out" />
                           </node>
                         </node>
                       </node>
@@ -1248,8 +1230,6 @@
                           </node>
                         </node>
                       </node>
-                      <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="427214471686176025" nodeInfo="nn" />
-                      <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="427214471686185614" nodeInfo="nn" />
                       <node role="statement" roleId="tpee.1068581517665" type="4tvk.ExecuteCommand" typeId="4tvk.8197864363320353692" id="427214471686179231" nodeInfo="ng">
                         <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.GStringCommand" typeId="4tvk.8155370969619067580" id="427214471686180781" nodeInfo="ng">
                           <node role="command" roleId="4tvk.8155370969619067612" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="427214471686180783" nodeInfo="ng">
@@ -1313,8 +1293,6 @@
                           </node>
                         </node>
                       </node>
-                      <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="427214471686177684" nodeInfo="nn" />
-                      <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="427214471686192069" nodeInfo="nn" />
                       <node role="statement" roleId="tpee.1068581517665" type="4tvk.ExecuteCommand" typeId="4tvk.8197864363320353692" id="427214471686190370" nodeInfo="ng">
                         <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.GStringCommand" typeId="4tvk.8155370969619067580" id="427214471686191942" nodeInfo="ng">
                           <node role="command" roleId="4tvk.8155370969619067612" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="427214471686191943" nodeInfo="ng">
