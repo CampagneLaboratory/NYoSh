@@ -14,7 +14,7 @@
     <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/dsiutils-2.0.7.jar" type="java_classes" />
     <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/serverside-dependencies-1.0.6-full.jar" type="java_classes" />
     <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/plugins-2.3.1.jar" type="java_classes" />
-    <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.1.1.jar" type="java_classes" />
+    <modelRoot path="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" type="java_classes" />
   </models>
   <facets>
     <facet type="tests" />
@@ -53,7 +53,7 @@
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/serverside-dependencies-1.0.6-full.jar" />
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/filesets-1.1.1.jar" />
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/plugins-2.3.1.jar" />
-    <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.1.1.jar" />
+    <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
