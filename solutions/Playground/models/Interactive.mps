@@ -22,7 +22,7 @@
     </node>
   </root>
   <root type="bs99.Logger" typeId="bs99.1997533223712647372" id="1997533223714891801" nodeInfo="ng">
-    <property name="message" nameId="bs99.1997533223712647439" value="WAPISPO" />
+    <property name="message" nameId="bs99.1997533223712647439" value="MQYCMLK" />
   </root>
 </model>
 

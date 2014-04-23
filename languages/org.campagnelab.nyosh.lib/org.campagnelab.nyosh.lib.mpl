@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language namespace="org.campagnelab.nyosh.lib" uuid="0202ed86-955d-4227-9c20-377dd6b1f9ff">
   <models>
-    <modelRoot contentPath="${module}" type="default">
-      <sourceRoot location="languageModels" />
+    <modelRoot contentPath="${org.campagnelab.goby.workbench.home}/lib" type="default">
+      <sourceRoot location="." />
     </modelRoot>
     <modelRoot contentPath="${org.campagnelab.goby.workbench.home}/lib" type="java_classes">
       <sourceRoot location="artifacts-2.3.0.jar" />
@@ -64,6 +64,7 @@
     <dependency reexport="false">a1250a4d-c090-42c3-ad7c-d298a3357dd4(jetbrains.mps.make.runtime)</dependency>
   </dependencies>
   <usedDevKits>
+    <usedDevKit>fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)</usedDevKit>
     <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>
   </usedDevKits>
   <extendedLanguages />
