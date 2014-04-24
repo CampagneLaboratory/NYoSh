@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies version="2" modelHash="-28oa2fs3nr2v46vme3gd95xynzvqk18">
+  <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+  <dep model="r:00000000-0000-4000-0000-011c895902bc(jetbrains.mps.lang.sharedConcepts.structure)" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+  <dep model="r:00000000-0000-4000-0000-011c895902cc(jetbrains.mps.baseLanguage.generator.java.conceptFunctionDefaults@generator)" />
+  <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" />
+  <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
+  <dep model="r:00000000-0000-4000-0000-011c895902f3(jetbrains.mps.lang.generator.generationContext.structure)" />
+  <dep model="r:00000000-0000-4000-0000-011c895902f4(jetbrains.mps.lang.generator.generationContext.generator.baseLanguage.template.main@generator)" />
+  <dep model="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
+  <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" />
+  <dep model="r:48f4e449-1a18-435e-ae88-4830aa794dc7(org.campagnelab.nyosh.environment.structure)" hash="454k8xdtku3gnz5nwncmnvpt2akws46" />
+  <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" />
+  <dep model="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" hash="-2qg7ofxythjn860r6absehfvvtsvnp6" />
+  <common hash="-50mvkjnk2x7mixca6nsft1jek0eg310">
+    <dep root="1072453283801174526" />
+    <dep root="1072453283801260403" />
+    <dep root="1090105717920801463" />
+    <dep root="1428468125935603" />
+    <dep root="1428468129696142" />
+    <dep root="1767971924586620287" />
+    <dep root="3214133226090663312" />
+    <dep root="4384389959132328913" />
+    <dep root="4384389959136385045" />
+    <dep root="5493669862521842190" />
+    <dep root="8245000766498880586" />
+    <dep root="8245000766499343517" />
+    <dep root="8245000766499724145" />
+    <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902bc(jetbrains.mps.lang.sharedConcepts.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cc(jetbrains.mps.baseLanguage.generator.java.conceptFunctionDefaults@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902f3(jetbrains.mps.lang.generator.generationContext.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902f4(jetbrains.mps.lang.generator.generationContext.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:48f4e449-1a18-435e-ae88-4830aa794dc7(org.campagnelab.nyosh.environment.structure)" />
+    <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" />
+    <dep model="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" />
+    <file name="QueriesGenerated.java" />
+  </common>
+  <source id="1090105717920801463" name="generator_GobyWeb" hash="-5p2s24r6l9oj1rc8kl24nifo7kri8av" />
+  <source id="5493669862521842190" name="alignment_analysis" hash="avq0s4jw4mygnnqcqch0silqiov0z95" />
+  <source id="8245000766498880586" name="aligner" hash="5sr076bnyjsnkzfidxv611lsp99yosd" />
+  <source id="8245000766499343517" name="task" hash="6pkye1fo82016vnoktzle61nbga1m61" />
+  <source id="8245000766499724145" name="run_model" hash="4d2lqmb7d312wbnmwiigrnd6ulkgfeu" />
+  <source id="1072453283801174526" name="RunMpsScript" hash="1hsou8s845vfkmt2a0u68zmv2adlgf1" />
+  <source id="1072453283801260403" name="map_PluginScript" hash="-2tbq6i3m4sfw0fx7xmjp7cwu8ias73i" />
+  <source id="2829258213785063553" name="ArtifactGetAttributesPrototypeTemplate" hash="ej4la6cux5syrl8gnasjl87rvnjmqre" />
+  <source id="7901651670846582747" name="install" hash="-7cln8ujftgi87gfg4k01mme4njy5gc7" />
+  <source id="3173353997342968528" name="ArtifactInstallPrototypeTemplate" hash="-8i3u2z7a52yc2fqbxno0pme0v0rjt7r" />
+  <source id="3173353997343005655" name="AlignerArgumentPrototypeTemplate" hash="2dwi2wqqill6ryehcl660yn71fwv0j6" />
+  <source id="1767971924586620287" name="SourceTemplate" hash="-6kichs7l9pq5fjab6v47pegb07u36kw" />
+  <source id="832023732046864316" name="generator_GobyWebSource" hash="bbtnbhoe0vgxuh2exbbi88myqo898jk" />
+  <source id="6989919346844804983" name="TaskArgumentPrototypeTemplate" hash="-dnuqi71g8k0ivn2ho4lxcd0201k56zy" />
+  <source id="5463469075898931811" name="AlignmentAnalysisSplitPrototypeTemplate" hash="-70l7xvdn2dw3mthjh9e5c6yecffzv2k" />
+  <source id="5463469075899813767" name="AlignmentAnalysisNumPartsPrototypeTemplate" hash="-478s2le0hb932l3lebfowbskj0812qj" />
+  <source id="5463469075899872160" name="AlignmentAnalysisProcessPrototypeTemplate" hash="-abq46mdw5pgy551nx9mstycxhvootl7" />
+  <source id="5463469075899902739" name="AlignmentAnalysisCombinePrototypeTemplate" hash="-dv48p9bjzwlftxq7260gvzin1g9jp59" />
+  <source id="3214133226090663312" name="FileSetFetchCommandTemplate" hash="7nhwzgkhlw3laphmnv98hog9ajgxi9v" />
+  <source id="7760969746131466569" name="generator_IO" hash="2uwzu4gzb9x3o1atlta5dzomufzddo9" />
+  <source id="4384389959132328913" name="FileSetPushCommandTemplate" hash="a7nvee79mkj0x4y8ig5ybrlnxqrfbwh" />
+  <source id="4384389959136385045" name="FileSetFetchExpressionTemplate" hash="-ens8rbwxue809nlaw2xefxe1gz51k1w" />
+  <source id="1428468125935603" name="FileSetPushExpressionTemplate" hash="crj6thr7mla0tsq7r3ni4o2094hh4k5" />
+  <source id="1428468129696142" name="FileSetCheckExpressionTemplate" hash="-4b02l417ehs7fxtgv8cu29qd5wrc70" />
+  <source id="6691774586631253447" name="generator_PluginDistribution" hash="-elnihzmwujk9cigfr7wk9x40dwz26ti" />
+</dependencies>
+

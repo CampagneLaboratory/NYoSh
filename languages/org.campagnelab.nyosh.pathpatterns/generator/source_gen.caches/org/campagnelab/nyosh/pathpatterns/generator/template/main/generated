@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies version="2" modelHash="-6q2sn6a7x796hjlmjkajxsogt5cvjus">
+  <dep model="r:00000000-0000-4000-0000-011c895902bc(jetbrains.mps.lang.sharedConcepts.structure)" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+  <dep model="r:00000000-0000-4000-0000-011c895902cc(jetbrains.mps.baseLanguage.generator.java.conceptFunctionDefaults@generator)" />
+  <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" />
+  <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
+  <dep model="r:00000000-0000-4000-0000-011c895902f3(jetbrains.mps.lang.generator.generationContext.structure)" />
+  <dep model="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
+  <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" />
+  <dep model="r:eb1d368a-5e85-4af8-8740-90a6516e7dd4(org.campagnelab.nyosh.pathpatterns.structure)" hash="a2uzmq27uvlytlxvqicgakftcl780mn" />
+  <common hash="-ax9301anytwfnnmef0r949xkjsevmti">
+    <dep root="1081263916558044418" />
+    <dep root="1326095133188126341" />
+    <dep root="250886629053896964" />
+    <dep model="r:00000000-0000-4000-0000-011c895902bc(jetbrains.mps.lang.sharedConcepts.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cc(jetbrains.mps.baseLanguage.generator.java.conceptFunctionDefaults@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902f3(jetbrains.mps.lang.generator.generationContext.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:eb1d368a-5e85-4af8-8740-90a6516e7dd4(org.campagnelab.nyosh.pathpatterns.structure)" />
+    <file name="QueriesGenerated.java" />
+  </common>
+  <source id="1081263916558044418" name="main" hash="8ipzba9scxhg1fw1yft3riybx3rgax" />
+  <source id="250886629053896964" name="PathTemplate" hash="943q3fwse6inggtpisxoivhba2zf3t3" />
+  <source id="250886629053944666" name="PathPatternMatcher" hash="-vjnxbv62b13ra035kfugo6w84wtzg7" />
+  <source id="1326095133188126341" name="PathAsListTemplate" hash="-e7mkqhqfdam5cu2jyb8zmajjnxwe8qp" />
+</dependencies>
+

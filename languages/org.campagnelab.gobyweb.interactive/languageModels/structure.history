@@ -36,5 +36,23 @@
     </dependencies>
     <rename id="bs99.2051553890369292719" type="CONCEPT" from="JobRe" to="JobResult" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="5" />
+    </dependencies>
+    <rename id="bs99.1997533223701250183" type="REFERENCE" from="F" to="files" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="6" />
+    </dependencies>
+    <rename id="bs99.1997533223701250183" type="REFERENCE" from="files" to="file" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="7" />
+    </dependencies>
+    <rename id="bs99.1997533223701435693" type="REFERENCE" from="pluginsRepository" to="pluginRepository" />
+  </StructureModification>
 </history>
 
