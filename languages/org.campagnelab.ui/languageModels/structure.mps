@@ -70,5 +70,25 @@
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="editorContext" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
   </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1879241968983569921" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="Button" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpc2.1073389214265" resolveInfo="EditorCellModel" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1879241968983811680" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="handler" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="1879241968983569938" resolveInfo="ButtonHandler" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="1879241968983569933" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="label" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1879241968983569938" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="ButtonHandler" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="handler" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Callback handler for buttons" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
+  </root>
 </model>
 
