@@ -72,6 +72,7 @@
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1879241968983569921" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Button" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="button" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpc2.1073389214265" resolveInfo="EditorCellModel" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1879241968983811680" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />

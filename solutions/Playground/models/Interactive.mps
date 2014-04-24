@@ -25,18 +25,15 @@
     <property name="message" nameId="bs99.1997533223712647439" value="MQYCMLK" />
   </root>
   <root type="bs99.RegisterFileTool" typeId="bs99.2954990197977709385" id="1308883746410441058" nodeInfo="ng">
-    <property name="messages" nameId="bs99.1879241968980829296" value="RegisterFileTool /Applications/Calendar.app/Contents/Info.plistRegisterFileTool /Applications/Calendar.app/Contents/PkgInfoRegisterFileTool /Applications/Calendar.app/Contents/version.plistRegisterFileTool /Applications/Calendar.app/Contents/version.plistRegisterFileTool /Applications/MPS 3.0.app/bin/idea.propertiesRegisterFileTool /Applications/MPS 3.0.app/bin/libbreakgen.dylibRegisterFileTool /Applications/MPS 3.0.app/bin/libbreakgen.jnilibRegisterFileTool /Applications/MPS 3.0.app/bin/libbreakgen64.dylibRegisterFileTool /Applications/MPS 3.0.app/bin/idea.propertiesRegisterFileTool /Applications/MPS 3.0.app/bin/libbreakgen.dylibRegisterFileTool /Applications/MPS 3.0.app/bin/libbreakgen.jnilibRegisterFileTool /Applications/MPS 3.0.app/bin/libbreakgen64.dylib" />
-    <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="1879241968984648559" nodeInfo="ng">
-      <property name="pathname" nameId="bs99.1997533223701240110" value="/Applications/MPS 3.0.app/bin/idea.properties" />
+    <property name="messages" nameId="bs99.1879241968980829296" value="RegisterFileTool /Applications/Calendar.app/Contents/Info.plistRegisterFileTool /Applications/Calendar.app/Contents/PkgInfoRegisterFileTool /Applications/Calendar.app/Contents/version.plistRegisterFileTool /Applications/Calendar.app/Contents/version.plistRegisterFileTool /Applications/MPS 3.0.app/bin/idea.propertiesRegisterFileTool /Applications/MPS 3.0.app/bin/libbreakgen.dylibRegisterFileTool /Applications/MPS 3.0.app/bin/libbreakgen.jnilibRegisterFileTool /Applications/MPS 3.0.app/bin/libbreakgen64.dylibRegisterFileTool /Applications/MPS 3.0.app/bin/idea.propertiesRegisterFileTool /Applications/MPS 3.0.app/bin/libbreakgen.dylibRegisterFileTool /Applications/MPS 3.0.app/bin/libbreakgen.jnilibRegisterFileTool /Applications/MPS 3.0.app/bin/libbreakgen64.dylibRegisterFileTool /Applications/MPS 3.0.app/about.txtRegisterFileTool /Applications/MPS 3.0.app/build.numberRegisterFileTool /Applications/MPS 3.0.app/build.propertiesRegisterFileTool /Applications/MPS 3.0.app/mps.shRegisterFileTool /Applications/MPS 3.0.app/readme.txt" />
+    <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="5704832314554932541" nodeInfo="ng">
+      <property name="pathname" nameId="bs99.1997533223701240110" value="/Applications/MPS 3.0.app/build.properties" />
     </node>
-    <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="1879241968984648560" nodeInfo="ng">
-      <property name="pathname" nameId="bs99.1997533223701240110" value="/Applications/MPS 3.0.app/bin/libbreakgen.dylib" />
+    <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="5704832314554932542" nodeInfo="ng">
+      <property name="pathname" nameId="bs99.1997533223701240110" value="/Applications/MPS 3.0.app/mps.sh" />
     </node>
-    <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="1879241968984648561" nodeInfo="ng">
-      <property name="pathname" nameId="bs99.1997533223701240110" value="/Applications/MPS 3.0.app/bin/libbreakgen.jnilib" />
-    </node>
-    <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="1879241968984648562" nodeInfo="ng">
-      <property name="pathname" nameId="bs99.1997533223701240110" value="/Applications/MPS 3.0.app/bin/libbreakgen64.dylib" />
+    <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="5704832314554932543" nodeInfo="ng">
+      <property name="pathname" nameId="bs99.1997533223701240110" value="/Applications/MPS 3.0.app/readme.txt" />
     </node>
   </root>
 </model>
