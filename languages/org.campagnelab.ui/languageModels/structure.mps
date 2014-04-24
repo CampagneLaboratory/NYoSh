@@ -94,5 +94,23 @@
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Callback handler for buttons" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
   </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5704832314575181087" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="SingleFileSelection" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="single file" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Open a dialog to select a single file" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpc2.1073389214265" resolveInfo="EditorCellModel" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="5704832314577455573" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
+      <property name="role" nameId="tpce.1071599776563" value="property" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="tpce.1071489288299" resolveInfo="PropertyDeclaration" />
+    </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="5704832314575223446" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="button" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="2954990197977599794" resolveInfo="FileSelectionButton" />
+    </node>
+  </root>
 </model>
 

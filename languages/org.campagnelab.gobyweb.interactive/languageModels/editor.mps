@@ -354,6 +354,19 @@
         <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="6449713081311715025" nodeInfo="ng">
           <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="bs99.6449713081311703917" resolveInfo="path" />
         </node>
+        <node role="childCellModel" roleId="tpc2.1073389446424" type="hut6.SingleFileSelection" typeId="hut6.5704832314575181087" id="5704832314582233076" nodeInfo="ng">
+          <link role="property" roleId="hut6.5704832314577455573" targetNodeId="bs99.6449713081311703917" resolveInfo="path" />
+          <node role="button" roleId="hut6.5704832314575223446" type="hut6.FileSelectionButton" typeId="hut6.2954990197977599794" id="5704832314582233077" nodeInfo="ng">
+            <property name="acceptFiles" nameId="hut6.5693159665555023471" value="true" />
+            <property name="acceptMultipleSelections" nameId="hut6.5693159665557586134" value="false" />
+            <node role="defaultPath" roleId="hut6.2020659516091712533" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="5704832314582233078" nodeInfo="nn">
+              <property name="value" nameId="tpee.1070475926801" value="./" />
+            </node>
+            <node role="handler" roleId="hut6.2020659516093754639" type="hut6.ProcessPathHandler" typeId="hut6.2020659516093694820" id="5704832314582233080" nodeInfo="ng">
+              <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="5704832314582233081" nodeInfo="sn" />
+            </node>
+          </node>
+        </node>
         <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="6449713081311715074" nodeInfo="nn">
           <property name="text" nameId="tpc2.1073389577007" value="" />
           <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutNewLineStyleClassItem" typeId="tpc2.1237308012275" id="6449713081311715100" nodeInfo="nn">
