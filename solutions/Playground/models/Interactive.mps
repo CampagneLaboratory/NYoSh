@@ -15,6 +15,7 @@
     <property name="owner" nameId="bs99.2051553890368778877" value="manuele" />
     <node role="pluginRepository" roleId="bs99.1997533223701807309" type="bs99.PluginRepository" typeId="bs99.1997533223701191426" id="1997533223706665909" nodeInfo="ng">
       <property name="directory" nameId="bs99.1997533223701200855" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins" />
+      <property name="loadMessages" nameId="bs99.5704832314559617189" value="No valid schema file is available for validating plugin configuration" />
     </node>
     <node role="filesetArea" roleId="bs99.2051553890368785072" type="bs99.FileSetArea" typeId="bs99.2051553890368756473" id="1997533223706665910" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="FirstFileSetArea" />
@@ -34,6 +35,19 @@
     </node>
     <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="5704832314554932543" nodeInfo="ng">
       <property name="pathname" nameId="bs99.1997533223701240110" value="/Applications/MPS 3.0.app/readme.txt" />
+    </node>
+  </root>
+  <root type="bs99.ExecutionEnvironment" typeId="bs99.2051553890368778876" id="5704832314560950104" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="mac158665_FC_Environment" />
+    <property name="owner" nameId="bs99.2051553890368778877" value="fac2003" />
+    <node role="pluginRepository" roleId="bs99.1997533223701807309" type="bs99.PluginRepository" typeId="bs99.1997533223701191426" id="5704832314560950105" nodeInfo="ng">
+      <property name="directory" nameId="bs99.1997533223701200855" value="/Users/fac2003/IdeaProjects/git/gobyweb2-plugins/" />
+      <property name="loaded" nameId="bs99.5704832314560662319" value="true" />
+      <property name="numPluginsLoaded" nameId="bs99.5704832314560344592" value="141" />
+    </node>
+    <node role="filesetArea" roleId="bs99.2051553890368785072" type="bs99.FileSetArea" typeId="bs99.2051553890368756473" id="5704832314560950106" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="FirstFileSetArea" />
+      <property name="path" nameId="bs99.6449713081311703917" value="/Users/fac2003/FileSetArea" />
     </node>
   </root>
 </model>
