@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:2b3ce235-653e-4507-849e-e62b0f7e1023(org.campagnelab.ui.structure)" version="1">
+<model modelUID="r:2b3ce235-653e-4507-849e-e62b0f7e1023(org.campagnelab.ui.structure)" version="2">
   <persistence version="8" />
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
   <language namespace="18bc6592-03a6-4e29-a83a-7ff23bde13ba(jetbrains.mps.lang.editor)" />
@@ -15,7 +15,7 @@
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" />
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="hut6" modelUID="r:2b3ce235-653e-4507-849e-e62b0f7e1023(org.campagnelab.ui.structure)" version="1" implicit="yes" />
+  <import index="hut6" modelUID="r:2b3ce235-653e-4507-849e-e62b0f7e1023(org.campagnelab.ui.structure)" version="2" implicit="yes" />
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2954990197977599794" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="FileSelectionButton" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="file selection button" />
@@ -42,11 +42,11 @@
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="handler" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="2020659516093694820" resolveInfo="ProcessPath" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="2020659516093694820" resolveInfo="ProcessPathHandler" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2020659516093694820" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="ProcessPath" />
+    <property name="name" nameId="tpck.1169194664001" value="ProcessPathHandler" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="processPaths" />
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Handler function to process a set of paths" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
@@ -55,6 +55,7 @@
     <property name="name" nameId="tpck.1169194664001" value="PathParameter" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="path" />
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="full path to process (as string)" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="parameters" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="2020659516093746567" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1835621062190663819" resolveInfo="IDontSubstituteByDefault" />
@@ -63,11 +64,13 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2020659516094589948" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="NodeParameter" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="node" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="parameters" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1879241968972006591" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="EditorContextParameter" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="editorContext" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="parameters" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1879241968983569921" nodeInfo="ig">
