@@ -2,16 +2,15 @@
 <language namespace="org.campagnelab.nyosh.environment" uuid="0f071fdb-3faa-4b8c-9f5e-1da0a01466d5">
   <models>
     <modelRoot contentPath="${module}" type="default">
-      <sourceRoot location="." />
+      <sourceRoot location="languageModels" />
+      <sourceRoot location="languageAccessories" />
     </modelRoot>
   </models>
   <facets>
     <facet type="java" />
     <facet type="tests" />
   </facets>
-  <accessoryModels>
-    <model modelUID="r:5ae2295f-2adb-4658-a618-4b3c9859644f(org.campagnelab.nyosh.environment.code)" />
-  </accessoryModels>
+  <accessoryModels />
   <generators>
     <generator name="" generatorUID="org.campagnelab.nyosh.environment#3173353997360794809" uuid="ca3c497c-ccac-4f23-9e37-111977da1ae3">
       <models>
@@ -31,8 +30,6 @@
         <dependency reexport="false">f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</dependency>
         <dependency reexport="true">83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)</dependency>
         <dependency reexport="false">ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</dependency>
-        <dependency reexport="false">a21a7294-c126-4f63-8335-8fecd8c28c7e(org.campagnelab.NYoSh)</dependency>
-        <dependency reexport="false">b0ebc3f2-c15d-4fad-bdc5-56b3ea4437a2(org.campagnelab.NYoSh#8197864363320338521)</dependency>
         <dependency reexport="false">0f071fdb-3faa-4b8c-9f5e-1da0a01466d5(org.campagnelab.nyosh.environment)</dependency>
         <dependency reexport="false">c6567f13-87ab-4686-8f6f-42e8228c0e27(org.campagnelab.nyosh.gstring)</dependency>
         <dependency reexport="false">0202ed86-955d-4227-9c20-377dd6b1f9ff(org.campagnelab.nyosh.lib)</dependency>
@@ -42,7 +39,6 @@
         <usedLanguage>af65afd8-f0dd-4942-87d9-63a55f2a9db1(jetbrains.mps.lang.behavior)</usedLanguage>
         <usedLanguage>b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)</usedLanguage>
         <usedLanguage>d7706f63-9be2-479c-a3da-ae92af1e64d5(jetbrains.mps.lang.generator.generationContext)</usedLanguage>
-        <usedLanguage>a21a7294-c126-4f63-8335-8fecd8c28c7e(org.campagnelab.NYoSh)</usedLanguage>
         <usedLanguage>0202ed86-955d-4227-9c20-377dd6b1f9ff(org.campagnelab.nyosh.lib)</usedLanguage>
       </usedLanguages>
       <usedDevKits>
