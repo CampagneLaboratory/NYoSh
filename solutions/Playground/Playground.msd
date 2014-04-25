@@ -17,6 +17,7 @@
     <usedLanguage>b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)</usedLanguage>
     <usedLanguage>7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)</usedLanguage>
     <usedLanguage>a21a7294-c126-4f63-8335-8fecd8c28c7e(org.campagnelab.NYoSh)</usedLanguage>
+    <usedLanguage>7620dd3f-7541-48a3-b1e6-01cced81a7a5(org.campagnelab.clusterConfig)</usedLanguage>
     <usedLanguage>4661f6e3-bd92-4cca-9e33-7f5eed9b34ac(org.campagnelab.filters)</usedLanguage>
     <usedLanguage>adfd00cb-58d7-4094-bca8-f941a491e04f(org.campagnelab.gobyweb)</usedLanguage>
     <usedLanguage>a8fb88b0-7e9f-478c-aab4-a1b076131192(org.campagnelab.gobyweb.interactive)</usedLanguage>
