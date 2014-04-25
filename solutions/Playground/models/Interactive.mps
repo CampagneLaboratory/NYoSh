@@ -15,7 +15,9 @@
     <property name="owner" nameId="bs99.2051553890368778877" value="manuele" />
     <node role="pluginRepository" roleId="bs99.1997533223701807309" type="bs99.PluginRepository" typeId="bs99.1997533223701191426" id="1997533223706665909" nodeInfo="ng">
       <property name="directory" nameId="bs99.1997533223701200855" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins" />
-      <property name="loadMessages" nameId="bs99.5704832314559617189" value="No valid schema file is available for validating plugin configuration" />
+      <property name="name" nameId="tpck.1169194664001" value="ManueleRepo" />
+      <property name="numPluginsLoaded" nameId="bs99.5704832314560344592" value="141" />
+      <property name="loaded" nameId="bs99.5704832314560662319" value="true" />
     </node>
     <node role="filesetArea" roleId="bs99.2051553890368785072" type="bs99.FileSetArea" typeId="bs99.2051553890368756473" id="1997533223706665910" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="FirstFileSetArea" />
@@ -41,10 +43,10 @@
   </root>
   <root type="bs99.RegisterFileTool" typeId="bs99.2954990197977709385" id="5704832314570698715" nodeInfo="ng">
     <property name="hasPreview" nameId="bs99.5704832314568883481" value="true" />
-    <property name="messages" nameId="bs99.1879241968980829296" value=" org.campagnelab.gobyweb.clustergateway.registration.StatefulFileSetManager@14767f04org.campagnelab.gobyweb.filesets.preview.RegistrationPreviewDetails@6330c06eorg.campagnelab.gobyweb.clustergateway.registration.StatefulFileSetManager@ab37db0org.campagnelab.gobyweb.filesets.preview.RegistrationPreviewDetails@b7dc385RegisterFileTool /Applications/MPS 3.0.app/build.propertiesRegisterFileTool /Applications/MPS 3.0.app/mps.shRegisterFileTool /Applications/MPS 3.0.app/readme.txtorg.campagnelab.gobyweb.clustergateway.registration.StatefulFileSetManager@4faaf470org.campagnelab.gobyweb.filesets.preview.RegistrationPreviewDetails@60960decRegisterFileTool /Applications/MPS 3.0.app/build.propertiesRegisterFileTool /Applications/MPS 3.0.app/mps.shRegisterFileTool /Applications/MPS 3.0.app/mps.shRegisterFileTool /Applications/MPS 3.0.app/readme.txtRegisterFileTool /Applications/MPS 3.0.app/lib/automaton.jarRegisterFileTool /Applications/MPS 3.0.app/lib/beansbinding-1.2.1.jarRegisterFileTool /Applications/MPS 3.0.app/lib/automaton.jarRegisterFileTool /Applications/MPS 3.0.app/lib/beansbinding-1.2.1.jar" />
     <property name="filesInError" nameId="bs99.5704832314568278031" value="0" />
     <property name="willCreateFilesets" nameId="bs99.5704832314568277954" value="0" />
     <property name="filesMandatoryAndMissing" nameId="bs99.5704832314568278035" value="0" />
+    <property name="messages" nameId="bs99.1879241968980829296" value=" org.campagnelab.gobyweb.clustergateway.registration.StatefulFileSetManager@14767f04org.campagnelab.gobyweb.filesets.preview.RegistrationPreviewDetails@6330c06eorg.campagnelab.gobyweb.clustergateway.registration.StatefulFileSetManager@ab37db0org.campagnelab.gobyweb.filesets.preview.RegistrationPreviewDetails@b7dc385RegisterFileTool /Applications/MPS 3.0.app/build.propertiesRegisterFileTool /Applications/MPS 3.0.app/mps.shRegisterFileTool /Applications/MPS 3.0.app/readme.txtorg.campagnelab.gobyweb.clustergateway.registration.StatefulFileSetManager@4faaf470org.campagnelab.gobyweb.filesets.preview.RegistrationPreviewDetails@60960decRegisterFileTool /Applications/MPS 3.0.app/build.propertiesRegisterFileTool /Applications/MPS 3.0.app/mps.shRegisterFileTool /Applications/MPS 3.0.app/mps.shRegisterFileTool /Applications/MPS 3.0.app/readme.txtRegisterFileTool /Applications/MPS 3.0.app/lib/automaton.jarRegisterFileTool /Applications/MPS 3.0.app/lib/beansbinding-1.2.1.jarRegisterFileTool /Applications/MPS 3.0.app/lib/automaton.jarRegisterFileTool /Applications/MPS 3.0.app/lib/beansbinding-1.2.1.jar" />
     <link role="filesetArea" roleId="bs99.5704832314561646700" targetNodeId="5704832314560950106" resolveInfo="FCs_area" />
     <link role="pluginRepository" roleId="bs99.5260963271976323117" targetNodeId="5704832314560950105" resolveInfo="Myrepo" />
     <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="5260963271977116520" nodeInfo="ng">
