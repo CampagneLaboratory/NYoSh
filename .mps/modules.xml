@@ -3,6 +3,7 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/NYoSh/org.campagnelab.NYoSh.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.clusterConfig/org.campagnelab.clusterConfig.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.filters/org.campagnelab.filters.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.gobyweb.interactive/org.campagnelab.gobyweb.interactive.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.gobyweb/org.campagnelab.gobyweb.mpl" folder="" />
