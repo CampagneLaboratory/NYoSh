@@ -9,12 +9,10 @@
       <sourceRoot location="commons-io-2.4.jar" />
       <sourceRoot location="dsiutils-2.0.7.jar" />
       <sourceRoot location="fastutil-6.4.4.jar" />
-      <sourceRoot location="filesets-1.2.0.jar" />
       <sourceRoot location="groovy-all-1.8.6.jar" />
       <sourceRoot location="nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
       <sourceRoot location="option-validation-language-2.1.0.jar" />
       <sourceRoot location="org.campagnelab.stepslogger-1.1.0.jar" />
-      <sourceRoot location="plugins-2.4.0.jar" />
       <sourceRoot location="scala-library-2.9.2.jar" />
       <sourceRoot location="serverside-dependencies-1.0.7-full.jar" />
       <sourceRoot location="wildcard-1.03.jar" />
