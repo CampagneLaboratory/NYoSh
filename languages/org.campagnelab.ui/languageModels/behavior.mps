@@ -191,7 +191,7 @@
             </node>
             <node role="operation" roleId="tpee.1197027833540" type="tp2q.AddElementOperation" typeId="tp2q.1160612413312" id="1879241968983571061" nodeInfo="nn">
               <node role="argument" roleId="tp2q.1160612519549" type="tp25.ConceptRefExpression" typeId="tp25.1172424058054" id="1879241968983571062" nodeInfo="nn">
-                <link role="conceptDeclaration" roleId="tp25.1172424100906" targetNodeId="hut6.2020659516094589948" resolveInfo="NodeParameter" />
+                <link role="conceptDeclaration" roleId="tp25.1172424100906" targetNodeId="hut6.1135156181802355102" resolveInfo="ButtonNodeParameter" />
               </node>
             </node>
           </node>

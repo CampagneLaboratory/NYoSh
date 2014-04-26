@@ -120,5 +120,11 @@
       <link role="target" roleId="tpce.1071599976176" targetNodeId="2954990197977599794" resolveInfo="FileSelectionButton" />
     </node>
   </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1135156181802355102" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="ButtonNodeParameter" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="node" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="parameters" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
+  </root>
 </model>
 
