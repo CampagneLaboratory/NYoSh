@@ -45,739 +45,1684 @@
     <property name="username" nameId="bs99.2051553890368785078" value="fac2003" />
   </root>
   <root type="bs99.Logger" typeId="bs99.1997533223712647372" id="7039650749314407366" nodeInfo="ng">
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451707844836" nodeInfo="ng">
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968360" nodeInfo="ng">
       <property name="message" nameId="bs99.7039650749312735043" value="found tag null" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451707844837" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="fileIds was empty, adding null." />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968361" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found 2 files with same tag" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451707844838" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found fileId: null" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968362" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning file: ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entries" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451707844839" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968363" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning file: ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.header" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451707844843" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/bug2/YKQSIJB-RRBS-Normal-06_Feb_2014-RS-167-Normal_PB-M-40.compact-reads" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968364" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Found 0 fileIdsForTag" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451707844844" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968365" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="fileIds was empty, adding !null!." />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451707844876" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found tag null" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968366" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found fileId: !null!" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451707844877" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="fileIds was empty, adding null." />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968367" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= XCYDCVG" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451707844878" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found fileId: null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451707844879" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451707844883" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/gobyweb/webapp-files/GOBYWEB_UPLOADS/NNCONJA-READS.compact-reads" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451707844884" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451707844885" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451707844889" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/gobyweb/webapp-files/GOBYWEB_UPLOADS/FMFGEMK-READS2.compact-reads" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451707844890" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451707844891" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451707844895" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/gobyweb/webapp-files/GOBYWEB_UPLOADS/MPKRHFD-READS.compact-reads" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451707844896" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451707844897" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found tag null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451707844898" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="fileIds was empty, adding null." />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451707844899" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found fileId: null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451707844900" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451707844904" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/gobyweb/webapp-files/GOBYWEB_UPLOADS/NNCONJA-READS.compact-reads" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451707844905" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451707844906" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451707844910" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/gobyweb/webapp-files/GOBYWEB_UPLOADS/FMFGEMK-READS2.compact-reads" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451707844911" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451707844912" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451707844916" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/gobyweb/webapp-files/GOBYWEB_UPLOADS/MPKRHFD-READS.compact-reads" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451707844917" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451707844918" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found tag null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451707844919" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="fileIds was empty, adding null." />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451707844920" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found fileId: null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451707844921" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451707844925" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/gobyweb/webapp-files/GOBYWEB_UPLOADS/NNCONJA-READS.compact-reads" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451707844926" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451707844927" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451707844931" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/gobyweb/webapp-files/GOBYWEB_UPLOADS/FMFGEMK-READS2.compact-reads" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451707844932" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451707844933" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451707844937" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/gobyweb/webapp-files/GOBYWEB_UPLOADS/MPKRHFD-READS.compact-reads" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451707844938" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451708709930" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found tag null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451708709931" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="fileIds was empty, adding null." />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451708709932" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found fileId: null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451708709933" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451708709937" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/gobyweb/webapp-files/GOBYWEB_UPLOADS/NGPXWEC-READS.fa" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451708709938" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451708709939" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451708709943" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/gobyweb/webapp-files/GOBYWEB_UPLOADS/NLHIZKA-READS2.compact-reads" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451708709944" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451708709945" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451708709949" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/gobyweb/webapp-files/GOBYWEB_UPLOADS/NLZCWNN-details.tsv" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451708709950" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451708709951" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451708709955" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/gobyweb/webapp-files/GOBYWEB_UPLOADS/NNCONJA-READS.compact-reads" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451708709956" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451708710026" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found tag null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451708710027" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="fileIds was empty, adding null." />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451708710028" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found fileId: null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451708710029" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451708710033" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/gobyweb/webapp-files/GOBYWEB_UPLOADS/NGPXWEC-READS.fa" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451708710034" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451708710035" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451708710039" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/gobyweb/webapp-files/GOBYWEB_UPLOADS/NLHIZKA-READS2.compact-reads" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451708710040" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451708710041" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451708710045" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/gobyweb/webapp-files/GOBYWEB_UPLOADS/NLZCWNN-details.tsv" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451708710046" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451708710047" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451708710051" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/gobyweb/webapp-files/GOBYWEB_UPLOADS/NNCONJA-READS.compact-reads" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451708710052" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451708712628" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found tag null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451708712629" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="fileIds was empty, adding null." />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451708712630" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found fileId: null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451708712631" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451708712635" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/gobyweb/webapp-files/GOBYWEB_UPLOADS/NGPXWEC-READS.fa" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451708712636" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451708712637" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451708712641" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/gobyweb/webapp-files/GOBYWEB_UPLOADS/NLHIZKA-READS2.compact-reads" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451708712642" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451708712643" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451708712647" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/gobyweb/webapp-files/GOBYWEB_UPLOADS/NLZCWNN-details.tsv" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451708712648" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451708712649" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451708712653" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/gobyweb/webapp-files/GOBYWEB_UPLOADS/NNCONJA-READS.compact-reads" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451708712654" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451711140769" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found tag null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451711140770" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="fileIds was empty, adding null." />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451711140771" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found fileId: null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451711140772" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451711140776" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/gobyweb/webapp-files/GOBYWEB_UPLOADS/NGPXWEC-READS.fa" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451711140777" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451711140778" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451711140782" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/gobyweb/webapp-files/GOBYWEB_UPLOADS/NLHIZKA-READS2.compact-reads" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451711140783" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451711140784" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451711140788" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/gobyweb/webapp-files/GOBYWEB_UPLOADS/NLZCWNN-details.tsv" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451711140789" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451711140790" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451711140794" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/gobyweb/webapp-files/GOBYWEB_UPLOADS/NNCONJA-READS.compact-reads" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451711140795" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451711994114" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found tag null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451711994115" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="fileIds was empty, adding null." />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451711994116" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found fileId: null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451711994117" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451711994121" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/gobyweb/webapp-files/GOBYWEB_UPLOADS/NGPXWEC-READS.fa" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451711994122" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451711994123" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451711994127" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/gobyweb/webapp-files/GOBYWEB_UPLOADS/NLHIZKA-READS2.compact-reads" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451711994128" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451711994129" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451711994133" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/gobyweb/webapp-files/GOBYWEB_UPLOADS/NLZCWNN-details.tsv" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451711994134" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451711994135" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451711994139" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/gobyweb/webapp-files/GOBYWEB_UPLOADS/NNCONJA-READS.compact-reads" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451711994140" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451711994277" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found tag null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451711994278" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="fileIds was empty, adding null." />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451711994279" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found fileId: null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451711994280" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451711994284" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/gobyweb/webapp-files/GOBYWEB_UPLOADS/ONLYLMH-READS2.compact-reads" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451711994285" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451711994553" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Area initialization failed" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451712083600" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found tag null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451712083601" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="fileIds was empty, adding null." />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451712083602" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found fileId: null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451712083603" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451712083607" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/gobyweb/webapp-files/GOBYWEB_UPLOADS/ONLYLMH-READS2.compact-reads" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451712083608" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451712523267" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found tag null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451712523268" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="fileIds was empty, adding null." />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451712523269" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found fileId: null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451712523270" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451712523274" nodeInfo="ng">
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968371" nodeInfo="ng">
       <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entries" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451712523275" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968372" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451712523422" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found tag null" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968374" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entries" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451712523423" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="fileIds was empty, adding null." />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451712523424" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found fileId: null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451712523425" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451712523429" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entries" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451712523430" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451712523433" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entries" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451712523434" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451712523435" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451712523439" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entries" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451712523440" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451712523443" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entries" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451712523444" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451712523445" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451712523449" nodeInfo="ng">
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968377" nodeInfo="ng">
       <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.header" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451712523450" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968378" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451712523451" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968380" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.header" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451712523455" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.index" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451712523456" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451712523634" nodeInfo="ng">
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968410" nodeInfo="ng">
       <property name="message" nameId="bs99.7039650749312735043" value="found tag null" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451712523635" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="fileIds was empty, adding null." />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968411" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found 3 files with same tag" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451712523636" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found fileId: null" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968412" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning file: ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entries" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451712523637" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968413" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning file: ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.header" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451712523641" nodeInfo="ng">
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968414" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning file: ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.index" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968415" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Found 0 fileIdsForTag" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968416" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="fileIds was empty, adding !null!." />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968417" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found fileId: !null!" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968418" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= OAQACYM" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968422" nodeInfo="ng">
       <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entries" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451712523642" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968423" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451712523643" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968425" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entries" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451712523647" nodeInfo="ng">
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968428" nodeInfo="ng">
       <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.header" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451712523648" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968429" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451712523649" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968431" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.header" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451712523653" nodeInfo="ng">
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968434" nodeInfo="ng">
       <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.index" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451712523654" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968435" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206215870" nodeInfo="ng" />
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206216228" nodeInfo="ng">
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968437" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.index" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968486" nodeInfo="ng">
       <property name="message" nameId="bs99.7039650749312735043" value="found tag null" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206216229" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="fileIds was empty, adding null." />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968487" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found 3 files with same tag" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206216230" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found fileId: null" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968488" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning file: CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206216231" nodeInfo="ng">
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968489" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning file: CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968490" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning file: CFS034-426-D2PRE_S2_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968491" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Found 0 fileIdsForTag" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968492" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="fileIds was empty, adding !null!." />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968493" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found fileId: !null!" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968494" nodeInfo="ng">
       <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206216235" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entries" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968498" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206216236" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968499" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:3" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206216237" nodeInfo="ng">
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968501" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968503" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968505" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968506" nodeInfo="ng">
       <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206216241" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.header" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968510" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206216242" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968511" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:3" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206216243" nodeInfo="ng">
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968513" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968515" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968517" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968518" nodeInfo="ng">
       <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206216247" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.index" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968522" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I2_001.fastq.gz" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206216248" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968523" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:3" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206220209" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Number of plugin definitions loaded: 143" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968525" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I2_001.fastq.gz" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206220391" nodeInfo="ng">
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968527" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968529" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968615" nodeInfo="ng">
       <property name="message" nameId="bs99.7039650749312735043" value="found tag null" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206220392" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="fileIds was empty, adding null." />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968616" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found 3 files with same tag" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206220393" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found fileId: null" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968617" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning file: CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206220394" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968618" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning type: FileSetTypeId" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206220398" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entries" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968619" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning file: CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206220399" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968620" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning type: FileSetTypeId" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206220400" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968621" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning file: CFS034-426-D2PRE_S2_L001_I2_001.fastq.gz" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206220404" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.header" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968622" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning type: FileSetTypeId" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206220405" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968623" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Found 3 fileIdsForTag" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206220406" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968624" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="fileIds are ambigious for tag=null" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206220410" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.index" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968625" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found fileId: FASTQ" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206220411" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968626" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= SNCGNWM" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206486208" nodeInfo="ng">
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968630" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968631" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968633" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968634" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= IDICMFF" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968638" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968639" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968641" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968642" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= WIIFZGI" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968646" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968647" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968649" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968650" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found fileId: FASTQ" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968651" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= PHVLMYJ" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968655" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968656" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968658" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968659" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= PWBMJTP" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968663" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968664" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968666" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968667" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= OSLPNQU" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968671" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968672" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968674" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968675" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found fileId: FASTQ" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968676" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= DXZEZAO" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968680" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968681" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968683" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968684" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= PZYJILY" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968688" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968689" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968691" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968692" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= IYUTMZX" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968696" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968697" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223968699" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973517" nodeInfo="ng">
       <property name="message" nameId="bs99.7039650749312735043" value="found tag null" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206486209" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="fileIds was empty, adding null." />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973518" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found 3 files with same tag" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206486210" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found fileId: null" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973519" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning file: CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206486211" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973520" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning type: FileSetTypeId" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206486215" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entries" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973521" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning file: CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206486216" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973522" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning type: FileSetTypeId" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206486217" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973523" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning file: CFS034-426-D2PRE_S2_L001_I2_001.fastq.gz" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206486221" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.header" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973524" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning type: FileSetTypeId" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206486222" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973525" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Found 3 fileIdsForTag" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206486223" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973526" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="fileIds are ambigious for tag=null" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206486227" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.index" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973527" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found fileId: FASTQ" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206486228" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973528" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= OMSPYTR" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092208578869" nodeInfo="ng">
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973532" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973533" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973535" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973536" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= VFHTTFB" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973540" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973541" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973543" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973544" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= FZYNFBV" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973548" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973549" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973551" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973552" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found fileId: FASTQ" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973553" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= MNZIHBU" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973557" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973558" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973560" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973561" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= SCNGOHZ" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973565" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973566" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973568" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973569" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= CXGGGLR" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973573" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973574" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973576" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973577" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found fileId: FASTQ" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973578" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= JBYIRXH" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973582" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973583" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973585" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973586" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= FOJOHXG" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973590" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973591" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973593" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973594" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= JUYWLZH" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973598" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973599" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973601" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973788" nodeInfo="ng">
       <property name="message" nameId="bs99.7039650749312735043" value="found tag null" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092208578870" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="fileIds was empty, adding null." />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973789" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found 3 files with same tag" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092208578871" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found fileId: null" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973790" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning file: CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092208578872" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973791" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning type: FileSetTypeId" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092208578876" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entries" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973792" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning file: CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092208578877" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973793" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning type: FileSetTypeId" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092208578878" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973794" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning file: CFS034-426-D2PRE_S2_L001_I2_001.fastq.gz" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092208578882" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.header" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973795" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning type: FileSetTypeId" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092208578883" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973796" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Found 3 fileIdsForTag" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092208578884" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973797" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="fileIds are ambigious for tag=null" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092208578888" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.index" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973798" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found fileId: FASTQ" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092208578889" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973799" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= DENKYGL" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092208579116" nodeInfo="ng">
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973803" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973804" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973806" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973807" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= NOBSSXX" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973811" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973812" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973814" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973815" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= HELACTK" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973819" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973820" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973822" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973823" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found fileId: FASTQ" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973824" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= RUAJOMB" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973828" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973829" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973831" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973832" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= WOLECLD" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973836" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973837" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973839" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973840" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= TNMHJDR" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973844" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973845" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973847" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973848" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found fileId: FASTQ" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973849" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= OAJGLXC" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973853" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973854" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973856" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973857" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= FWLHYWP" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973861" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973862" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973864" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973865" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= QFEHSGB" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973869" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973870" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092223973872" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092224714292" nodeInfo="ng">
       <property name="message" nameId="bs99.7039650749312735043" value="found tag null" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092208579117" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="fileIds was empty, adding null." />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092224714293" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found 3 files with same tag" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092208579118" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found fileId: null" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092224714294" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning file: CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092208579119" nodeInfo="ng">
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092224714295" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning type: FileSetTypeId" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092224714296" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning file: CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092224714297" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning type: FileSetTypeId" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092224714298" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning file: CFS034-426-D2PRE_S2_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092224714299" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning type: FileSetTypeId" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092224714300" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Found 1 fileIdsForTag" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092224714301" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found fileId: FASTQ" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092224714302" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= FRGRBCJ" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092224714306" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092224714307" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092224714309" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092224714310" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= FTYEATG" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092224714314" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092224714315" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092224714317" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092224714318" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= PFGFVCU" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092224714322" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092224714323" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092224714325" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225002242" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found tag null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225002243" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found 3 files with same tag" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225002244" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning file: CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225002245" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning type: FileSetTypeId" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225002246" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning file: CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225002247" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning type: FileSetTypeId" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225002248" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning file: CFS034-426-D2PRE_S2_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225002249" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning type: FileSetTypeId" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225002250" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Found 1 fileIdsForTag" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225002251" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found fileId: FASTQ" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225002252" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= CLOMLFK" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225002256" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225002257" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225002259" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225002260" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= HUEEVJE" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225002264" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225002265" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225002267" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225002268" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= CZSGBZN" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225002272" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225002273" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225002275" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225701292" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found tag null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225701293" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found 2 files with same tag" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225701294" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning file: CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225701295" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning file: CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225701296" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Found 0 fileIdsForTag" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225701297" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="fileIds was empty, adding !null!." />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225701298" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found fileId: !null!" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225701299" nodeInfo="ng">
       <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092208579123" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entries" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225701303" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092208579124" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225701304" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:3" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092208579125" nodeInfo="ng">
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225701306" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225701308" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225701310" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225701311" nodeInfo="ng">
       <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092208579129" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.header" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225701315" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092208579130" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225701316" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:3" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092208579131" nodeInfo="ng">
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225701318" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225701320" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225701322" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225701609" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found tag null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225701610" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found 2 files with same tag" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225701611" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning file: CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225701612" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning type: FileSetTypeId" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225701613" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning file: CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225701614" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning type: FileSetTypeId" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225701615" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Found 1 fileIdsForTag" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225701616" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found fileId: FASTQ" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225701617" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= LZCMBZB" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225701621" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225701622" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225701624" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225701625" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= XGMBRZT" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225701629" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225701630" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092225701632" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092226857239" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found tag null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092226857240" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found 2 files with same tag" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092226857241" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning file: CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092226857242" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning type: FileSetTypeId" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092226857243" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning file: CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092226857244" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning type: FileSetTypeId" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092226857245" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Found 1 fileIdsForTag" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092226857246" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found fileId: FASTQ" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092226857247" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= DPAYYQS" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092226857251" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092226857252" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092226857254" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092226857255" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= OVRSHID" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092226857259" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092226857260" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092226857262" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092226857571" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Too many matching fileset configurations. The input entry /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz matched more than one fileset configuration. Impossible to manage it." />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092226857572" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Compatible configurations:" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092226857573" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="&#9;FASTQ" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092226857574" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="&#9;FASTQ" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092226857575" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="&#9;GZ" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092226857576" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="&#9;SUPPORTED_INPUT_READS" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092226857577" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="The registration cannot be completed. Resubmit the registration by specifying the fileset configuration id" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092226857578" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Too many matching fileset configurations. The input entry /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz matched more than one fileset configuration. Impossible to manage it." />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092226857579" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Compatible configurations:" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092226857580" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="&#9;FASTQ" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092226857581" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="&#9;FASTQ" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092226857582" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="&#9;GZ" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092226857583" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="&#9;SUPPORTED_INPUT_READS" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092226857584" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="The registration cannot be completed. Resubmit the registration by specifying the fileset configuration id" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228966247" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found tag null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228966248" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found 2 files with same tag" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228966249" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning file: CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228966250" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning type: FileSetTypeId" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228966251" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning file: CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228966252" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning type: FileSetTypeId" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228966253" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Found 1 fileIdsForTag" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228966254" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found fileId: FASTQ" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228966255" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= OXIKCEH" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228966259" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228966260" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228966262" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228966263" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= BBPNHZC" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228966267" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228966268" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228966270" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228966615" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found tag null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228966616" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found 3 files with same tag" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228966617" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning file: CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228966618" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning type: FileSetTypeId" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228966619" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning file: CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228966620" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning type: FileSetTypeId" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228966621" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning file: CFS035-428-D1PRE_S3_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228966622" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Found 1 fileIdsForTag" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228966623" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found fileId: FASTQ" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228966624" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= CGTKPPU" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228966628" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228966629" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228966631" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228966632" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= WJQTCET" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228966636" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228966637" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228966639" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228966640" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= IQSEKIT" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228966644" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS035-428-D1PRE_S3_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228966645" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228966647" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS035-428-D1PRE_S3_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228967019" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found tag null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228967020" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found 4 files with same tag" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228967021" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning file: CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228967022" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning type: FileSetTypeId" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228967023" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning file: CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228967024" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning type: FileSetTypeId" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228967025" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning file: CFS035-428-D1PRE_S3_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228967026" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning type: FileSetTypeId" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228967027" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Scanning file: CFS037-453-D1PRE_S7_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228967028" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Found 1 fileIdsForTag" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228967029" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found fileId: FASTQ" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228967030" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= WTFZVFD" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228967034" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228967035" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228967037" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228967038" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= PYCCJGT" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228967042" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228967043" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228967045" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228967046" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= TGPXSBS" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228967050" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS035-428-D1PRE_S3_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228967051" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228967053" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS035-428-D1PRE_S3_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228967054" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= UBMHERO" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228967058" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-453-D1PRE_S7_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228967059" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092228967061" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-453-D1PRE_S7_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231083378" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found tag null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231083379" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found 4 files with same tag" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231083380" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found fileId: FASTQ" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231083381" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= UHMCOKT" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231083385" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231083386" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231083388" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231083389" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= ODAFBMQ" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231083393" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231083394" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231083396" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231083397" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= AYAPVGQ" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231083401" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS035-428-D1PRE_S3_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231083402" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231083404" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS035-428-D1PRE_S3_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231083405" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= NVYOYQE" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231083409" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-453-D1PRE_S7_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231083410" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231083412" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-453-D1PRE_S7_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231083832" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found tag null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231083833" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found 3 files with same tag" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231083834" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="fileIds was empty, adding !null!." />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231083835" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found fileId: !null!" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231083836" nodeInfo="ng">
       <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092208579135" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.index" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231083840" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-453-D1PRE_S7_L001_I2_001.fastq.gz" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092208579136" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231083841" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:3" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231083843" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-453-D1PRE_S7_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231083845" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-453-D1PRE_S7_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231083847" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-453-D1PRE_S7_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231083848" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231083852" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231083853" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:3" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231083855" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231083857" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231083859" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231083860" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231083864" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231083865" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:3" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231083867" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231083869" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231083871" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231084311" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found tag null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231084312" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found 3 files with same tag" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231084313" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="fileIds are ambigious for tag=null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231084314" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="fileIds was empty, adding !null!." />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231084315" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found fileId: !null!" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231084316" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231084320" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-453-D1PRE_S7_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231084321" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:3" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231084323" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-453-D1PRE_S7_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231084325" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-453-D1PRE_S7_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231084327" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-453-D1PRE_S7_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231084328" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231084332" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231084333" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:3" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231084335" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231084337" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231084339" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231084340" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231084344" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231084345" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:3" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231084347" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231084349" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231084351" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231084815" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found tag null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231084816" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found 3 files with same tag" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231084817" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="fileIds are ambigious for tag=null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231084818" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="fileIds was empty, adding !null!." />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231084819" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found fileId: !null!" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231084820" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231084824" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-453-D1PRE_S7_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231084825" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:3" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231084827" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-453-D1PRE_S7_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231084829" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-453-D1PRE_S7_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231084831" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-453-D1PRE_S7_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231084832" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231084836" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231084837" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:3" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231084839" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231084841" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231084843" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231084844" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231084848" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231084849" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:3" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231084851" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231084853" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231084855" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231085348" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found tag null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231085349" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found 3 files with same tag" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231085350" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found fileId: FASTQ" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231085351" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= RHSKJJH" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231085355" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-453-D1PRE_S7_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231085356" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231085358" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-453-D1PRE_S7_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231085359" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= YNMXZXQ" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231085363" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231085364" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231085366" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231085367" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= ODELUPU" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231085371" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231085372" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231085374" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231085870" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found tag null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231085871" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found 3 files with same tag" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231085872" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="fileIds are ambigious for tag=null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231085873" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="fileIds was empty, adding !null!." />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231085874" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found fileId: !null!" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231085875" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231085879" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-453-D1PRE_S7_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231085880" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:3" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231085882" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-453-D1PRE_S7_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231085884" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-453-D1PRE_S7_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231085886" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-453-D1PRE_S7_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231085887" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231085891" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231085892" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:3" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231085894" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231085896" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231085898" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231085899" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231085903" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231085904" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:3" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231085906" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231085908" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231085910" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231579859" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found tag null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231579860" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found 3 files with same tag" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231579861" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="fileIds are ambigious for tag=null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231579862" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="fileIds was empty, adding !null!." />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231579863" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231579867" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-453-D1PRE_S7_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231579868" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:3" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231579870" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-453-D1PRE_S7_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231579872" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-453-D1PRE_S7_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231579874" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-453-D1PRE_S7_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231579875" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231579879" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231579880" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:3" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231579882" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231579884" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231579886" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231579887" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231579891" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231579892" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:3" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231579894" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231579896" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231579898" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231580452" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found tag null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231580453" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found 3 files with same tag" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231580454" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= YXCSLUD" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231580458" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-453-D1PRE_S7_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231580459" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231580461" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-453-D1PRE_S7_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231580462" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= NEGRHCM" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231580466" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231580467" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231580469" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I1_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231580470" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= AVLNXHM" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231580474" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I2_001.fastq.gz" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231580475" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092231580477" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I2_001.fastq.gz" />
     </node>
   </root>
-  <root type="bs99.RegisterFileTool" typeId="bs99.2954990197977709385" id="6498979092207822685" nodeInfo="ng">
-    <property name="messages" nameId="bs99.1879241968980829296" value="mac158665_FC_Environment /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entriesmac158665_FC_Environment /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.headermac158665_FC_Environment /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.index" />
-    <property name="filesInError" nameId="bs99.5704832314568278031" value="3" />
-    <property name="willCreateFilesets" nameId="bs99.5704832314568277954" value="0" />
+  <root type="bs99.RegisterFileTool" typeId="bs99.2954990197977709385" id="6498979092225701287" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="RegisterTool" />
+    <property name="messages" nameId="bs99.1879241968980829296" value="RegisterTool /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-424-D1PRE_S1_L001_I2_001.fastq.gzRegisterTool /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I1_001.fastq.gzToo many matching fileset configurations. The input entry /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-424-D1PRE_S1_L001_I2_001.fastq.gz matched more than one fileset configuration. Impossible to manage it. Compatible configurations: &#9;FASTQ &#9;FASTQ &#9;GZ &#9;SUPPORTED_INPUT_READS The registration cannot be completed. Resubmit the registration by specifying the fileset configuration id Too many matching fileset configurations. The input entry /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS034-426-D2PRE_S2_L001_I1_001.fastq.gz matched more than one fileset configuration. Impossible to manage it. Compatible configurations: &#9;FASTQ &#9;FASTQ &#9;GZ &#9;SUPPORTED_INPUT_READS The registration cannot be completed. Resubmit the registration by specifying the fileset configuration idRegisterTool /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS035-428-D1PRE_S3_L001_I1_001.fastq.gzRegisterTool /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-453-D1PRE_S7_L001_I2_001.fastq.gzRegisterTool /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-453-D1PRE_S7_L001_I2_001.fastq.gzRegisterTool /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I1_001.fastq.gzRegisterTool /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I2_001.fastq.gz" />
+    <property name="filesInError" nameId="bs99.5704832314568278031" value="0" />
+    <property name="willCreateFilesets" nameId="bs99.5704832314568277954" value="3" />
     <property name="filesMandatoryAndMissing" nameId="bs99.5704832314568278035" value="0" />
     <property name="hasPreview" nameId="bs99.5704832314568883481" value="true" />
     <link role="executionEnvironment" roleId="bs99.6498979092206486997" targetNodeId="5704832314560950104" resolveInfo="mac158665_FC_Environment" />
-    <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="6498979092208578863" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entries" />
-      <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entries" />
+    <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="6498979092231083826" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="CFS037-453-D1PRE_S7_L001_I2_001.fastq.gz" />
+      <property name="pathname" nameId="bs99.1997533223701240110" value="/data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-453-D1PRE_S7_L001_I2_001.fastq.gz" />
+      <node role="types" roleId="bs99.5704832314562469901" type="bs99.FileSetTypeId" typeId="bs99.5704832314562469955" id="6498979092231580460" nodeInfo="ng">
+        <property name="id" nameId="bs99.5704832314562469956" value="FASTQ" />
+      </node>
     </node>
-    <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="6498979092208578864" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.header" />
-      <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.header" />
+    <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="6498979092231083827" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="CFS037-457-D2PRE_S8_L001_I1_001.fastq.gz" />
+      <property name="pathname" nameId="bs99.1997533223701240110" value="/data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I1_001.fastq.gz" />
+      <node role="types" roleId="bs99.5704832314562469901" type="bs99.FileSetTypeId" typeId="bs99.5704832314562469955" id="6498979092231580468" nodeInfo="ng">
+        <property name="id" nameId="bs99.5704832314562469956" value="FASTQ" />
+      </node>
     </node>
-    <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="6498979092208578865" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.index" />
-      <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.index" />
+    <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="6498979092231083828" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="CFS037-457-D2PRE_S8_L001_I2_001.fastq.gz" />
+      <property name="pathname" nameId="bs99.1997533223701240110" value="/data/CFS_FOCUSED/A7V4W_Giloteaux/CFS037-457-D2PRE_S8_L001_I2_001.fastq.gz" />
+      <node role="types" roleId="bs99.5704832314562469901" type="bs99.FileSetTypeId" typeId="bs99.5704832314562469955" id="6498979092231580476" nodeInfo="ng">
+        <property name="id" nameId="bs99.5704832314562469956" value="FASTQ" />
+      </node>
     </node>
-    <node role="filesetInstances" roleId="bs99.5260963271977218318" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="6498979092208579120" nodeInfo="ng">
+    <node role="filesetInstances" roleId="bs99.5260963271977218318" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="6498979092231580455" nodeInfo="ng">
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="false" />
+      <property name="tag" nameId="bs99.2051553890368778934" value="YXCSLUD" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="5704832314560950106" resolveInfo="FCs_area" />
-      <node role="files" roleId="bs99.5260963271977142496" type="bs99.FileRef" typeId="bs99.5260963271977142493" id="6498979092208579121" nodeInfo="ng">
-        <link role="file" roleId="bs99.5260963271977142494" targetNodeId="6498979092208578863" resolveInfo="ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entries" />
+      <node role="files" roleId="bs99.5260963271977142496" type="bs99.FileRef" typeId="bs99.5260963271977142493" id="6498979092231580456" nodeInfo="ng">
+        <link role="file" roleId="bs99.5260963271977142494" targetNodeId="6498979092231083826" resolveInfo="CFS037-453-D1PRE_S7_L001_I2_001.fastq.gz" />
       </node>
-      <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="6498979092208579122" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entries" />
+      <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="6498979092231580457" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="CFS037-453-D1PRE_S7_L001_I2_001.fastq.gz" />
       </node>
     </node>
-    <node role="filesetInstances" roleId="bs99.5260963271977218318" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="6498979092208579126" nodeInfo="ng">
+    <node role="filesetInstances" roleId="bs99.5260963271977218318" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="6498979092231580463" nodeInfo="ng">
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="false" />
+      <property name="tag" nameId="bs99.2051553890368778934" value="NEGRHCM" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="5704832314560950106" resolveInfo="FCs_area" />
-      <node role="files" roleId="bs99.5260963271977142496" type="bs99.FileRef" typeId="bs99.5260963271977142493" id="6498979092208579127" nodeInfo="ng">
-        <link role="file" roleId="bs99.5260963271977142494" targetNodeId="6498979092208578864" resolveInfo="ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.header" />
+      <node role="files" roleId="bs99.5260963271977142496" type="bs99.FileRef" typeId="bs99.5260963271977142493" id="6498979092231580464" nodeInfo="ng">
+        <link role="file" roleId="bs99.5260963271977142494" targetNodeId="6498979092231083827" resolveInfo="CFS037-457-D2PRE_S8_L001_I1_001.fastq.gz" />
       </node>
-      <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="6498979092208579128" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.header" />
+      <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="6498979092231580465" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="CFS037-457-D2PRE_S8_L001_I1_001.fastq.gz" />
       </node>
     </node>
-    <node role="filesetInstances" roleId="bs99.5260963271977218318" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="6498979092208579132" nodeInfo="ng">
+    <node role="filesetInstances" roleId="bs99.5260963271977218318" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="6498979092231580471" nodeInfo="ng">
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="false" />
+      <property name="tag" nameId="bs99.2051553890368778934" value="AVLNXHM" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="5704832314560950106" resolveInfo="FCs_area" />
-      <node role="files" roleId="bs99.5260963271977142496" type="bs99.FileRef" typeId="bs99.5260963271977142493" id="6498979092208579133" nodeInfo="ng">
-        <link role="file" roleId="bs99.5260963271977142494" targetNodeId="6498979092208578865" resolveInfo="ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.index" />
+      <node role="files" roleId="bs99.5260963271977142496" type="bs99.FileRef" typeId="bs99.5260963271977142493" id="6498979092231580472" nodeInfo="ng">
+        <link role="file" roleId="bs99.5260963271977142494" targetNodeId="6498979092231083828" resolveInfo="CFS037-457-D2PRE_S8_L001_I2_001.fastq.gz" />
       </node>
-      <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="6498979092208579134" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.index" />
+      <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="6498979092231580473" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="CFS037-457-D2PRE_S8_L001_I2_001.fastq.gz" />
       </node>
     </node>
   </root>
