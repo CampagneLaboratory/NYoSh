@@ -8,7 +8,6 @@
       <sourceRoot location="artifacts-2.3.0.jar" />
       <sourceRoot location="commons-io-2.4.jar" />
       <sourceRoot location="dsiutils-2.0.7.jar" />
-      <sourceRoot location="fastutil-6.4.4.jar" />
       <sourceRoot location="groovy-all-1.8.6.jar" />
       <sourceRoot location="nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
       <sourceRoot location="option-validation-language-2.1.0.jar" />
@@ -18,7 +17,7 @@
       <sourceRoot location="wildcard-1.03.jar" />
       <sourceRoot location="filesets-1.3.0-SNAPSHOT.jar" />
       <sourceRoot location="plugins-2.4.1-SNAPSHOT.jar" />
-      <excluded location="org" />
+      <sourceRoot location="fastutil-6.4.4.jar" />
     </modelRoot>
   </models>
   <facets>

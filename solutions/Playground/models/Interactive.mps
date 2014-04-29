@@ -30,7 +30,7 @@
     <node role="pluginRepository" roleId="bs99.1997533223701807309" type="bs99.PluginRepository" typeId="bs99.1997533223701191426" id="5704832314560950105" nodeInfo="ng">
       <property name="directory" nameId="bs99.1997533223701200855" value="/Users/fac2003/IdeaProjects/git/gobyweb2-plugins/" />
       <property name="loaded" nameId="bs99.5704832314560662319" value="true" />
-      <property name="numPluginsLoaded" nameId="bs99.5704832314560344592" value="142" />
+      <property name="numPluginsLoaded" nameId="bs99.5704832314560344592" value="143" />
       <property name="name" nameId="tpck.1169194664001" value="Myrepo" />
     </node>
     <node role="filesetArea" roleId="bs99.2051553890368785072" type="bs99.FileSetArea" typeId="bs99.2051553890368756473" id="5704832314560950106" nodeInfo="ng">
@@ -546,54 +546,237 @@
     <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7479742451712523654" nodeInfo="ng">
       <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
     </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206215870" nodeInfo="ng" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206216228" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found tag null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206216229" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="fileIds was empty, adding null." />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206216230" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found fileId: null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206216231" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206216235" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entries" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206216236" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206216237" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206216241" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.header" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206216242" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206216243" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206216247" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.index" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206216248" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206220209" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Number of plugin definitions loaded: 143" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206220391" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found tag null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206220392" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="fileIds was empty, adding null." />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206220393" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found fileId: null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206220394" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206220398" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entries" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206220399" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206220400" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206220404" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.header" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206220405" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206220406" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206220410" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.index" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206220411" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206486208" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found tag null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206486209" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="fileIds was empty, adding null." />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206486210" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found fileId: null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206486211" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206486215" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entries" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206486216" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206486217" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206486221" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.header" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206486222" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206486223" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206486227" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.index" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092206486228" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092208578869" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found tag null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092208578870" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="fileIds was empty, adding null." />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092208578871" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found fileId: null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092208578872" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092208578876" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entries" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092208578877" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092208578878" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092208578882" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.header" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092208578883" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092208578884" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092208578888" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.index" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092208578889" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092208579116" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found tag null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092208579117" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="fileIds was empty, adding null." />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092208579118" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found fileId: null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092208579119" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092208579123" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entries" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092208579124" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092208579125" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092208579129" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.header" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092208579130" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092208579131" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= null" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092208579135" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.index" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="6498979092208579136" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:0" />
+    </node>
   </root>
-  <root type="bs99.RegisterFileTool" typeId="bs99.2954990197977709385" id="7479742451707844869" nodeInfo="ng">
-    <property name="messages" nameId="bs99.1879241968980829296" value="RegisterFileTool /Users/gobyweb/webapp-files/GOBYWEB_UPLOADS/NNCONJA-READS.compact-readsRegisterFileTool /Users/gobyweb/webapp-files/GOBYWEB_UPLOADS/FMFGEMK-READS2.compact-readsRegisterFileTool /Users/gobyweb/webapp-files/GOBYWEB_UPLOADS/MPKRHFD-READS.compact-readsRegisterFileTool /Users/gobyweb/webapp-files/GOBYWEB_UPLOADS/NGPXWEC-READS.faRegisterFileTool /Users/gobyweb/webapp-files/GOBYWEB_UPLOADS/NLHIZKA-READS2.compact-readsRegisterFileTool /Users/gobyweb/webapp-files/GOBYWEB_UPLOADS/NLZCWNN-details.tsvRegisterFileTool /Users/gobyweb/webapp-files/GOBYWEB_UPLOADS/NNCONJA-READS.compact-readsToo many matching fileset configurations. The input entry /Users/gobyweb/webapp-files/GOBYWEB_UPLOADS/NLHIZKA-READS2.compact-reads matched more than one fileset configuration. Impossible to manage it. Compatible configurations: &#9;COMPACT_READS &#9;SUPPORTED_INPUT_READS The registration cannot be completed. Resubmit the registration by specifying the fileset configuration id Too many matching fileset configurations. The input entry /Users/gobyweb/webapp-files/GOBYWEB_UPLOADS/NLZCWNN-details.tsv matched more than one fileset configuration. Impossible to manage it. Compatible configurations: &#9;GOBYWEB_MERGE_PLAN_FILE &#9;READ_QUALITY_STATS &#9;TSV The registration cannot be completed. Resubmit the registration by specifying the fileset configuration id Too many matching fileset configurations. The input entry /Users/gobyweb/webapp-files/GOBYWEB_UPLOADS/NNCONJA-READS.compact-reads matched more than one fileset configuration. Impossible to manage it. Compatible configurations: &#9;COMPACT_READS &#9;SUPPORTED_INPUT_READS The registration cannot be completed. Resubmit the registration by specifying the fileset configuration idRegisterFileTool /Users/gobyweb/webapp-files/GOBYWEB_UPLOADS/NGPXWEC-READS.faRegisterFileTool /Users/gobyweb/webapp-files/GOBYWEB_UPLOADS/ONLYLMH-READS2.compact-readsRegisterFileTool /Users/gobyweb/webapp-files/GOBYWEB_UPLOADS/ONLYLMH-READS2.compact-readsRegisterFileTool /Users/gobyweb/webapp-files/GOBYWEB_UPLOADS/ONLYLMH-READS2.compact-readsRegisterFileTool /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entriesRegisterFileTool /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entriesRegisterFileTool /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.headerRegisterFileTool /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.indexRegisterFileTool /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entriesRegisterFileTool /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.headerRegisterFileTool /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.index" />
+  <root type="bs99.RegisterFileTool" typeId="bs99.2954990197977709385" id="6498979092207822685" nodeInfo="ng">
+    <property name="messages" nameId="bs99.1879241968980829296" value="mac158665_FC_Environment /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entriesmac158665_FC_Environment /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.headermac158665_FC_Environment /Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.index" />
     <property name="filesInError" nameId="bs99.5704832314568278031" value="3" />
     <property name="willCreateFilesets" nameId="bs99.5704832314568277954" value="0" />
     <property name="filesMandatoryAndMissing" nameId="bs99.5704832314568278035" value="0" />
     <property name="hasPreview" nameId="bs99.5704832314568883481" value="true" />
-    <link role="filesetArea" roleId="bs99.5704832314561646700" targetNodeId="5704832314560950106" resolveInfo="FCs_area" />
-    <link role="pluginRepository" roleId="bs99.5260963271976323117" targetNodeId="5704832314560950105" resolveInfo="Myrepo" />
-    <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="7479742451712523628" nodeInfo="ng">
+    <link role="executionEnvironment" roleId="bs99.6498979092206486997" targetNodeId="5704832314560950104" resolveInfo="mac158665_FC_Environment" />
+    <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="6498979092208578863" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entries" />
       <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entries" />
     </node>
-    <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="7479742451712523629" nodeInfo="ng">
+    <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="6498979092208578864" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.header" />
       <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.header" />
     </node>
-    <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="7479742451712523630" nodeInfo="ng">
+    <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="6498979092208578865" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.index" />
       <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/fac2003/FileSetArea/fac2003/B/BZRBULS/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.index" />
     </node>
-    <node role="filesetInstances" roleId="bs99.5260963271977218318" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="7479742451712523638" nodeInfo="ng">
+    <node role="filesetInstances" roleId="bs99.5260963271977218318" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="6498979092208579120" nodeInfo="ng">
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="false" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="5704832314560950106" resolveInfo="FCs_area" />
-      <node role="files" roleId="bs99.5260963271977142496" type="bs99.FileRef" typeId="bs99.5260963271977142493" id="7479742451712523639" nodeInfo="ng">
-        <link role="file" roleId="bs99.5260963271977142494" targetNodeId="7479742451712523628" resolveInfo="ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entries" />
+      <node role="files" roleId="bs99.5260963271977142496" type="bs99.FileRef" typeId="bs99.5260963271977142493" id="6498979092208579121" nodeInfo="ng">
+        <link role="file" roleId="bs99.5260963271977142494" targetNodeId="6498979092208578863" resolveInfo="ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entries" />
       </node>
-      <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="7479742451712523640" nodeInfo="ng">
+      <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="6498979092208579122" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entries" />
       </node>
     </node>
-    <node role="filesetInstances" roleId="bs99.5260963271977218318" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="7479742451712523644" nodeInfo="ng">
+    <node role="filesetInstances" roleId="bs99.5260963271977218318" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="6498979092208579126" nodeInfo="ng">
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="false" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="5704832314560950106" resolveInfo="FCs_area" />
-      <node role="files" roleId="bs99.5260963271977142496" type="bs99.FileRef" typeId="bs99.5260963271977142493" id="7479742451712523645" nodeInfo="ng">
-        <link role="file" roleId="bs99.5260963271977142494" targetNodeId="7479742451712523629" resolveInfo="ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.header" />
+      <node role="files" roleId="bs99.5260963271977142496" type="bs99.FileRef" typeId="bs99.5260963271977142493" id="6498979092208579127" nodeInfo="ng">
+        <link role="file" roleId="bs99.5260963271977142494" targetNodeId="6498979092208578864" resolveInfo="ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.header" />
       </node>
-      <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="7479742451712523646" nodeInfo="ng">
+      <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="6498979092208579128" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.header" />
       </node>
     </node>
-    <node role="filesetInstances" roleId="bs99.5260963271977218318" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="7479742451712523650" nodeInfo="ng">
+    <node role="filesetInstances" roleId="bs99.5260963271977218318" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="6498979092208579132" nodeInfo="ng">
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="false" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="5704832314560950106" resolveInfo="FCs_area" />
-      <node role="files" roleId="bs99.5260963271977142496" type="bs99.FileRef" typeId="bs99.5260963271977142493" id="7479742451712523651" nodeInfo="ng">
-        <link role="file" roleId="bs99.5260963271977142494" targetNodeId="7479742451712523630" resolveInfo="ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.index" />
+      <node role="files" roleId="bs99.5260963271977142496" type="bs99.FileRef" typeId="bs99.5260963271977142493" id="6498979092208579133" nodeInfo="ng">
+        <link role="file" roleId="bs99.5260963271977142494" targetNodeId="6498979092208578865" resolveInfo="ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.index" />
       </node>
-      <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="7479742451712523652" nodeInfo="ng">
+      <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="6498979092208579134" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.index" />
       </node>
     </node>
