@@ -3,8 +3,10 @@
   <persistence version="8" />
   <language namespace="a8fb88b0-7e9f-478c-aab4-a1b076131192(org.campagnelab.gobyweb.interactive)" />
   <language namespace="760a0a8c-eabb-4521-8bfd-65db761a9ba3(jetbrains.mps.baseLanguage.logging)" />
+  <language namespace="7620dd3f-7541-48a3-b1e6-01cced81a7a5(org.campagnelab.clusterConfig)" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="10" implicit="yes" />
+  <import index="9k5" modelUID="r:df9645c2-d2fa-41cb-a718-044a287b0626(org.campagnelab.clusterConfig.structure)" version="0" implicit="yes" />
   <root type="bs99.File" typeId="bs99.1997533223701240107" id="1997533223703281720" nodeInfo="ng">
     <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_long_3_SRR094799.fastq.gz" />
     <property name="name" nameId="tpck.1169194664001" value="File-SRR094799.fastq.gz" />
@@ -37,7 +39,7 @@
     <node role="filesetArea" roleId="bs99.2051553890368785072" type="bs99.FileSetArea" typeId="bs99.2051553890368756473" id="5704832314560950106" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="FCs_area" />
       <property name="path" nameId="bs99.6449713081311703917" value="/Users/fac2003/FileSetArea" />
-      <link role="executionNode" roleId="bs99.6449713081311510412" targetNodeId="2281162501138971203" resolveInfo="localhost" />
+      <link role="executionNode" roleId="bs99.6449713081311510412" targetNodeId="2243041462222181624" resolveInfo="localhost" />
       <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="6498979092234066305" nodeInfo="ng">
         <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
         <property name="tag" nameId="bs99.2051553890368778934" value="KMUQGAN" />
@@ -99,11 +101,6 @@
         </node>
       </node>
     </node>
-  </root>
-  <root type="bs99.ExecutionNode" typeId="bs99.2051553890368785075" id="2281162501138971203" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="localhost" />
-    <property name="server" nameId="bs99.2051553890368785076" value="localhost" />
-    <property name="username" nameId="bs99.2051553890368785078" value="fac2003" />
   </root>
   <root type="bs99.Logger" typeId="bs99.1997533223712647372" id="7039650749314407366" nodeInfo="ng">
     <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="1944465843375556885" nodeInfo="ng">
@@ -270,7 +267,7 @@
       <property name="path" nameId="bs99.6449713081311703917" value="/zenodotus/campagnelab/store/data/gobyweb/dev/FILESET_AREA" />
       <property name="name" nameId="tpck.1169194664001" value="FileSetAreaOnSpanky" />
       <property name="serverPort" nameId="bs99.597619556448147380" value="8849" />
-      <link role="executionNode" roleId="bs99.6449713081311510412" targetNodeId="597619556448147222" resolveInfo="SpankyNode" />
+      <link role="executionNode" roleId="bs99.6449713081311510412" targetNodeId="2243041462222181573" resolveInfo="SpankyNode" />
       <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="597619556449055714" nodeInfo="ng">
         <property name="tag" nameId="bs99.2051553890368778934" value="ZIYKIVJ" />
         <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
@@ -345,10 +342,19 @@
       </node>
     </node>
   </root>
-  <root type="bs99.ExecutionNode" typeId="bs99.2051553890368785075" id="597619556448147222" nodeInfo="ng">
+  <root type="9k5.ExecutionNode" typeId="9k5.3050176288337501843" id="2243041462222181573" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="SpankyNode" />
-    <property name="server" nameId="bs99.2051553890368785076" value="spanky.med.cornell.edu" />
-    <property name="username" nameId="bs99.2051553890368785078" value="gobyweb" />
+    <property name="server" nameId="9k5.3050176288337501845" value="spanky.med.cornell.edu" />
+    <property name="username" nameId="9k5.3050176288337501846" value="campagne" />
+    <property name="numCores" nameId="9k5.3050176288341320771" value="8" />
+    <property name="isReachable" nameId="9k5.2243041462218990633" value="true" />
+  </root>
+  <root type="9k5.ExecutionNode" typeId="9k5.3050176288337501843" id="2243041462222181624" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="localhost" />
+    <property name="server" nameId="9k5.3050176288337501845" value="localhost" />
+    <property name="username" nameId="9k5.3050176288337501846" value="fac2003" />
+    <property name="numCores" nameId="9k5.3050176288341320771" value="6" />
+    <property name="isReachable" nameId="9k5.2243041462218990633" value="true" />
   </root>
 </model>
 

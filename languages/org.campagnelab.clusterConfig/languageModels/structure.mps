@@ -25,6 +25,10 @@
       <property name="name" nameId="tpck.1169194664001" value="numCores" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
     </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="2243041462218990633" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="isReachable" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657063" resolveInfo="boolean" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3050176288341314704" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Cluster" />
