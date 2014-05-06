@@ -344,10 +344,10 @@
   </root>
   <root type="9k5.ExecutionNode" typeId="9k5.3050176288337501843" id="2243041462222181573" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="SpankyNode" />
-    <property name="server" nameId="9k5.3050176288337501845" value="spanky.med.cornell.edu" />
+    <property name="server" nameId="9k5.3050176288337501845" value="spanky2.med.cornell.edu" />
     <property name="username" nameId="9k5.3050176288337501846" value="campagne" />
     <property name="numCores" nameId="9k5.3050176288341320771" value="8" />
-    <property name="isReachable" nameId="9k5.2243041462218990633" value="true" />
+    <property name="isReachable" nameId="9k5.2243041462218990633" value="false" />
   </root>
   <root type="9k5.ExecutionNode" typeId="9k5.3050176288337501843" id="2243041462222181624" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="localhost" />
