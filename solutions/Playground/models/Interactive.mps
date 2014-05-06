@@ -103,125 +103,29 @@
     </node>
   </root>
   <root type="bs99.Logger" typeId="bs99.1997533223712647372" id="7039650749314407366" nodeInfo="ng">
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="1944465843375556885" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found tag null" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="2148529369554421373" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Importing tag ZIYKIVJ" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="1944465843375556886" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found 3 files with same tag" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="2148529369554421381" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Tag ZIYKIVJ successfully imported" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="1944465843375556887" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= RPGJENF" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="2148529369554421382" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Importing tag QPLIJXZ" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="1944465843375556891" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/fac2003/FileSetArea/fac2003/Q/QQEWEQK/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entries" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="2148529369554421387" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Tag QPLIJXZ successfully imported" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="1944465843375556892" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="2148529369554421388" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Importing tag QABTKOL" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="1944465843375556894" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /Users/fac2003/FileSetArea/fac2003/Q/QQEWEQK/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entries" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="2148529369554421392" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Tag QABTKOL successfully imported" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="1944465843375556897" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/fac2003/FileSetArea/fac2003/Q/QQEWEQK/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.header" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="2148529369554421393" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Importing tag QWNQKYC" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="1944465843375556898" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="1944465843375556900" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /Users/fac2003/FileSetArea/fac2003/Q/QQEWEQK/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.header" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="1944465843375556903" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/fac2003/FileSetArea/fac2003/Q/QQEWEQK/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.index" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="1944465843375556904" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="1944465843375556906" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /Users/fac2003/FileSetArea/fac2003/Q/QQEWEQK/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.index" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="1944465843375556929" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Cannot register ambiguous or empty fileset instances for RPGJENF" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="1944465843375787125" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Cannot register ambiguous or empty fileset instances for RPGJENF size: 3" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="1944465843376137429" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found tag null" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="1944465843376137430" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found 3 files with same tag" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="1944465843376137431" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Processing preview with tag= FDXCMYR" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="1944465843376137435" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/fac2003/FileSetArea/fac2003/Q/QQEWEQK/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entries" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="1944465843376137436" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="1944465843376137438" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /Users/fac2003/FileSetArea/fac2003/Q/QQEWEQK/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entries" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="1944465843376137441" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/fac2003/FileSetArea/fac2003/Q/QQEWEQK/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.header" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="1944465843376137442" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="1944465843376137444" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /Users/fac2003/FileSetArea/fac2003/Q/QQEWEQK/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.header" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="1944465843376137447" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding file /Users/fac2003/FileSetArea/fac2003/Q/QQEWEQK/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.index" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="1944465843376137448" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="found #ids:1" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="1944465843376137450" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Adding type FileSetTypeIdto file /Users/fac2003/FileSetArea/fac2003/Q/QQEWEQK/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.index" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="597619556448147287" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Number of plugin definitions loaded: 145" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="8258261499118774358" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Found entry INDEX" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="8258261499118774359" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Found entry HEADER" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="8258261499118774360" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Found entry ENTRIES" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="8258261499118774361" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Found entry TMH" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="8258261499118781399" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Found entry INDEX" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="8258261499118781400" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Found entry HEADER" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="8258261499118781401" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Found entry ENTRIES" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="8258261499118781402" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Found entry TMH" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="8258261499124723899" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Found entry INDEX" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="8258261499124723900" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Found entry HEADER" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="8258261499124723901" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Found entry ENTRIES" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="8258261499124723902" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Found entry TMH" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="8258261499125687500" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Found entry READS_FILE" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="2148529369554421401" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Tag QWNQKYC successfully imported" />
     </node>
   </root>
   <root type="bs99.RegisterFileTool" typeId="bs99.2954990197977709385" id="6498979092225701287" nodeInfo="ng">
@@ -344,10 +248,10 @@
   </root>
   <root type="9k5.ExecutionNode" typeId="9k5.3050176288337501843" id="2243041462222181573" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="SpankyNode" />
-    <property name="server" nameId="9k5.3050176288337501845" value="spanky2.med.cornell.edu" />
-    <property name="username" nameId="9k5.3050176288337501846" value="campagne" />
+    <property name="server" nameId="9k5.3050176288337501845" value="spanky.med.cornell.edu" />
+    <property name="username" nameId="9k5.3050176288337501846" value="gobyweb" />
     <property name="numCores" nameId="9k5.3050176288341320771" value="8" />
-    <property name="isReachable" nameId="9k5.2243041462218990633" value="false" />
+    <property name="isReachable" nameId="9k5.2243041462218990633" value="true" />
   </root>
   <root type="9k5.ExecutionNode" typeId="9k5.3050176288337501843" id="2243041462222181624" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="localhost" />
@@ -355,6 +259,11 @@
     <property name="username" nameId="9k5.3050176288337501846" value="fac2003" />
     <property name="numCores" nameId="9k5.3050176288341320771" value="6" />
     <property name="isReachable" nameId="9k5.2243041462218990633" value="true" />
+  </root>
+  <root type="bs99.ImportTool" typeId="bs99.8258261499132276459" id="8258261499133783199" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="ImportTool" />
+    <property name="tagsToImport" nameId="bs99.8258261499132300449" value="ZIYKIVJ,QPLIJXZ,QABTKOL,QWNQKYC" />
+    <link role="executionEnvironment" roleId="bs99.8258261499132300351" targetNodeId="597619556448147011" resolveInfo="Spanky_Environment" />
   </root>
 </model>
 
