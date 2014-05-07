@@ -1553,8 +1553,13 @@
           <property name="flag" nameId="tpc2.1186414551515" value="true" />
         </node>
       </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2148529369557031432" nodeInfo="nn">
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutNewLineStyleClassItem" typeId="tpc2.1237308012275" id="2148529369557032430" nodeInfo="nn">
+          <property name="flag" nameId="tpc2.1186414551515" value="true" />
+        </node>
+      </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="8258261499132333716" nodeInfo="nn">
-        <property name="text" nameId="tpc2.1073389577007" value="Specify the tags of the instances to import" />
+        <property name="text" nameId="tpc2.1073389577007" value="Specify the tags of the instances to import, separated by commas or spaces" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="8258261499132339908" nodeInfo="nn">
         <property name="text" nameId="tpc2.1073389577007" value=":" />
@@ -1588,7 +1593,7 @@
                   <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8258261499132342659" nodeInfo="nn">
                     <node role="operand" roleId="tpee.1197027771414" type="hut6.ButtonNodeParameter" typeId="hut6.1135156181802355102" id="8258261499132342660" nodeInfo="ng" />
                     <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="8258261499132362286" nodeInfo="nn">
-                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="lcm8.8258261499132356088" resolveInfo="load" />
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="lcm8.8258261499132356088" resolveInfo="fetchMetadata" />
                     </node>
                   </node>
                 </node>
@@ -1622,6 +1627,22 @@
         </node>
       </node>
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="8258261499132303559" nodeInfo="nn" />
+    </node>
+  </root>
+  <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="2148529369554421591" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="fileset" />
+    <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="bs99.8258261499122039745" resolveInfo="Attribute" />
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="2148529369554430538" nodeInfo="nn">
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="2148529369554430545" nodeInfo="ng">
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1169194664001" resolveInfo="name" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2148529369554430554" nodeInfo="nn">
+        <property name="text" nameId="tpc2.1073389577007" value="=" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="2148529369554430562" nodeInfo="ng">
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="bs99.8258261499122039841" resolveInfo="value" />
+      </node>
+      <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="2148529369554430541" nodeInfo="nn" />
     </node>
   </root>
 </model>
