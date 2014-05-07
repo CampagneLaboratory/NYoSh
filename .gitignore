@@ -6,3 +6,4 @@ build.xml
 trace.info
 dependencies
 generated
+QueriesGenerated.java
