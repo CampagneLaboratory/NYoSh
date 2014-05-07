@@ -4,3 +4,5 @@ build.xml
 */*/source_gen.caches/**/*
 */*/classes_gen/**/*
 trace.info
+dependencies
+generated
