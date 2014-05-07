@@ -102,32 +102,7 @@
       </node>
     </node>
   </root>
-  <root type="bs99.Logger" typeId="bs99.1997533223712647372" id="7039650749314407366" nodeInfo="ng">
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="2148529369554421373" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Importing tag ZIYKIVJ" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="2148529369554421381" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Tag ZIYKIVJ successfully imported" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="2148529369554421382" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Importing tag QPLIJXZ" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="2148529369554421387" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Tag QPLIJXZ successfully imported" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="2148529369554421388" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Importing tag QABTKOL" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="2148529369554421392" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Tag QABTKOL successfully imported" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="2148529369554421393" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Importing tag QWNQKYC" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="2148529369554421401" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Tag QWNQKYC successfully imported" />
-    </node>
-  </root>
+  <root type="bs99.Logger" typeId="bs99.1997533223712647372" id="7039650749314407366" nodeInfo="ng" />
   <root type="bs99.RegisterFileTool" typeId="bs99.2954990197977709385" id="6498979092225701287" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="RegisterTool" />
     <property name="filesInError" nameId="bs99.5704832314568278031" value="0" />
