@@ -7,7 +7,8 @@
   <language namespace="857bd616-7b17-4127-8074-519f20641bdb(org.campagnelab.ssh)" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="13" implicit="yes" />
-  <import index="9k5" modelUID="r:df9645c2-d2fa-41cb-a718-044a287b0626(org.campagnelab.clusterConfig.structure)" version="2" implicit="yes" />
+  <import index="9k5" modelUID="r:df9645c2-d2fa-41cb-a718-044a287b0626(org.campagnelab.clusterConfig.structure)" version="3" implicit="yes" />
+  <import index="eith" modelUID="r:1ed73e49-326d-4559-947b-13dfd134d00a(org.campagnelab.ssh.structure)" version="-1" implicit="yes" />
   <root type="bs99.File" typeId="bs99.1997533223701240107" id="1997533223703281720" nodeInfo="ng">
     <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_long_3_SRR094799.fastq.gz" />
     <property name="name" nameId="tpck.1169194664001" value="File-SRR094799.fastq.gz" />
@@ -313,6 +314,11 @@
     <property name="username" nameId="9k5.3050176288337501846" value="gobyweb" />
     <property name="numCores" nameId="9k5.3050176288341320771" value="8" />
     <property name="isReachable" nameId="9k5.2243041462218990633" value="true" />
+    <node role="ports" roleId="9k5.664989078351252753" type="9k5.ConnectionPort" typeId="9k5.664989078347184634" id="664989078352128434" nodeInfo="ng">
+      <property name="number" nameId="9k5.664989078347184651" value="8849" />
+      <property name="name" nameId="tpck.1169194664001" value="Port8849OnSpanky" />
+      <link role="targetNode" roleId="9k5.664989078347742108" targetNodeId="2243041462222181573" resolveInfo="SpankyNode" />
+    </node>
   </root>
   <root type="9k5.ExecutionNode" typeId="9k5.3050176288337501843" id="2243041462222181624" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="localhost" />
@@ -326,17 +332,12 @@
     <property name="tagsToImport" nameId="bs99.8258261499132300449" value="ZIYKIVJ,QPLIJXZ,QABTKOL,QWNQKYC" />
     <link role="executionEnvironment" roleId="bs99.8258261499132300351" targetNodeId="597619556448147011" resolveInfo="Spanky_Environment" />
   </root>
-  <root type=".org.campagnelab.ssh.structure.SshPortForwarding" id="2967045841110381069" nodeInfo="ng">
-    <property name="username" value="gobyweb" />
-    <property name="host" value="spanky.med.cornell.edu" />
-    <property name="port" value="8849" />
-    <property name="connected" value="false" />
-    <property name="usePrivateKey" value="true" />
-  </root>
-  <root type="9k5.ConnectionPort" typeId="9k5.664989078347184634" id="664989078348499928" nodeInfo="ng">
-    <property name="port" nameId="9k5.664989078347184651" value="8849" />
-    <property name="name" nameId="tpck.1169194664001" value="8849OnSpanky" />
-    <link role="targetNode" roleId="9k5.664989078347742108" targetNodeId="2243041462222181573" resolveInfo="SpankyNode" />
+  <root type="eith.SshPortForwarding" typeId="eith.2967045841109794120" id="2967045841110381069" nodeInfo="ng">
+    <property name="username" nameId="eith.2967045841109813398" value="gobyweb" />
+    <property name="host" nameId="eith.2967045841109813400" value="spanky.med.cornell.edu" />
+    <property name="port" nameId="eith.2967045841109813403" value="8849" />
+    <property name="connected" nameId="eith.2967045841109813407" value="false" />
+    <property name="usePrivateKey" nameId="eith.2096113691307818463" value="true" />
   </root>
 </model>
 
