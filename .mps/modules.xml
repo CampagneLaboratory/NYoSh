@@ -11,6 +11,7 @@
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.nyosh.gstring/org.campagnelab.nyosh.gstring.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.nyosh.lib/org.campagnelab.nyosh.lib.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.nyosh.pathpatterns/org.campagnelab.nyosh.pathpatterns.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.ssh/org.campagnelab.ssh.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.textoutput/org.campagnelab.textoutput.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.ui/org.campagnelab.ui.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/NYoSh.MPS/NYoSh.MPS.msd" folder="" />
