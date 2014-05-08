@@ -5,8 +5,8 @@
   <language namespace="760a0a8c-eabb-4521-8bfd-65db761a9ba3(jetbrains.mps.baseLanguage.logging)" />
   <language namespace="7620dd3f-7541-48a3-b1e6-01cced81a7a5(org.campagnelab.clusterConfig)" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="10" implicit="yes" />
-  <import index="9k5" modelUID="r:df9645c2-d2fa-41cb-a718-044a287b0626(org.campagnelab.clusterConfig.structure)" version="0" implicit="yes" />
+  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="13" implicit="yes" />
+  <import index="9k5" modelUID="r:df9645c2-d2fa-41cb-a718-044a287b0626(org.campagnelab.clusterConfig.structure)" version="2" implicit="yes" />
   <root type="bs99.File" typeId="bs99.1997533223701240107" id="1997533223703281720" nodeInfo="ng">
     <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_long_3_SRR094799.fastq.gz" />
     <property name="name" nameId="tpck.1169194664001" value="File-SRR094799.fastq.gz" />
@@ -368,6 +368,11 @@
     <property name="name" nameId="tpck.1169194664001" value="ImportTool" />
     <property name="tagsToImport" nameId="bs99.8258261499132300449" value="ZIYKIVJ,QPLIJXZ,QABTKOL,QWNQKYC" />
     <link role="executionEnvironment" roleId="bs99.8258261499132300351" targetNodeId="597619556448147011" resolveInfo="Spanky_Environment" />
+  </root>
+  <root type="9k5.ConnectionPort" typeId="9k5.664989078347184634" id="664989078348499928" nodeInfo="ng">
+    <property name="port" nameId="9k5.664989078347184651" value="8849" />
+    <property name="name" nameId="tpck.1169194664001" value="8849OnSpanky" />
+    <link role="targetNode" roleId="9k5.664989078347742108" targetNodeId="2243041462222181573" resolveInfo="SpankyNode" />
   </root>
 </model>
 

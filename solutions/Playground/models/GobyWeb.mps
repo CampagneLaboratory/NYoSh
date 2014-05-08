@@ -11,7 +11,7 @@
   <import index="fxg7" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" implicit="yes" />
-  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="10" implicit="yes" />
+  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="13" implicit="yes" />
   <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(org.campagnelab.NYoSh.structure)" version="30" implicit="yes" />
   <import index="6pk0" modelUID="r:48f4e449-1a18-435e-ae88-4830aa794dc7(org.campagnelab.nyosh.environment.structure)" version="17" implicit="yes" />
   <import index="f2ff" modelUID="r:48d5f7d2-24be-4d82-ac12-8f4a2d414b11(org.campagnelab.nyosh.gstring.structure)" version="-1" implicit="yes" />
@@ -19,10 +19,10 @@
   <root type="bs99.PluginSDKInstallation" typeId="bs99.2735543333319077191" id="2149979023199567832" nodeInfo="ng">
     <property name="installationPath" nameId="bs99.2735543333319514314" value="/home/campagne" />
     <property name="distributionUrl" nameId="bs99.2735543333319647607" value="http://campagnelab.org/?wpdmact=process&amp;did=MS5ob3RsaW5r" />
-    <node role="nodeInstalledOn" roleId="bs99.2735543333319111874" type="bs99.ExecutionNode" typeId="bs99.2051553890368785075" id="2149979023199567833" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="spanky.med.cornel.edu" />
-      <property name="server" nameId="bs99.2051553890368785076" value="spanky.med.cornel.edu" />
-      <property name="username" nameId="bs99.2051553890368785078" value="campagne" />
+    <node role="nodeInstalledOn" roleId="bs99.2735543333319111874" type=".org.campagnelab.gobyweb.interactive.structure.ExecutionNode" id="2149979023199567833" nodeInfo="ng">
+      <property name="name" value="spanky.med.cornel.edu" />
+      <property name="server" value="spanky.med.cornel.edu" />
+      <property name="username" value="campagne" />
     </node>
   </root>
   <root type="bs99.ExecutionEnvironment" typeId="bs99.2051553890368778876" id="2149979023199567851" nodeInfo="ng">
@@ -41,10 +41,10 @@
       <link role="executionNode" roleId="bs99.6449713081311510412" targetNodeId="2149979023199567870" resolveInfo="spanky" />
     </node>
   </root>
-  <root type="bs99.ExecutionNode" typeId="bs99.2051553890368785075" id="2149979023199567870" nodeInfo="ng">
-    <property name="username" nameId="bs99.2051553890368785078" value="campagne" />
-    <property name="server" nameId="bs99.2051553890368785076" value="spanky.med.cornell.edu" />
-    <property name="name" nameId="tpck.1169194664001" value="spanky" />
+  <root type=".org.campagnelab.gobyweb.interactive.structure.ExecutionNode" id="2149979023199567870" nodeInfo="ng">
+    <property name="username" value="campagne" />
+    <property name="server" value="spanky.med.cornell.edu" />
+    <property name="name" value="spanky" />
   </root>
   <root type="4tvk.Script" typeId="4tvk.8197864363320245969" id="2477885976703222483" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="StepsLoggerText" />
