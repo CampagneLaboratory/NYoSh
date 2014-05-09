@@ -84,5 +84,17 @@
     </dependencies>
     <rename id="bs99.664989078345324995" type="CONCEPT" from="FileSetRPCManager" to="FileSetRemoteManager" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="13" />
+    </dependencies>
+    <rename id="bs99.664989078345324995" type="CONCEPT" from="FileSetRemoteManager" to="FileSetAreaRemoteManager" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="14" />
+    </dependencies>
+    <rename id="bs99.664989078354555460" type="CONCEPT" from="IFileSetArea" to="IFileSetAreaManager" />
+  </StructureModification>
 </history>
 

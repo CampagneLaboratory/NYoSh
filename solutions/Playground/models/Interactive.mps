@@ -6,29 +6,9 @@
   <language namespace="7620dd3f-7541-48a3-b1e6-01cced81a7a5(org.campagnelab.clusterConfig)" />
   <language namespace="857bd616-7b17-4127-8074-519f20641bdb(org.campagnelab.ssh)" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="13" implicit="yes" />
+  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="15" implicit="yes" />
   <import index="9k5" modelUID="r:df9645c2-d2fa-41cb-a718-044a287b0626(org.campagnelab.clusterConfig.structure)" version="3" implicit="yes" />
   <import index="eith" modelUID="r:1ed73e49-326d-4559-947b-13dfd134d00a(org.campagnelab.ssh.structure)" version="-1" implicit="yes" />
-  <root type="bs99.File" typeId="bs99.1997533223701240107" id="1997533223703281720" nodeInfo="ng">
-    <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_long_3_SRR094799.fastq.gz" />
-    <property name="name" nameId="tpck.1169194664001" value="File-SRR094799.fastq.gz" />
-    <property name="type" value="SUPPORTED_INPUT_READS" />
-  </root>
-  <root type="bs99.ExecutionEnvironment" typeId="bs99.2051553890368778876" id="1997533223706665908" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="mac150355_MS_Environment" />
-    <property name="owner" nameId="bs99.2051553890368778877" value="manuele" />
-    <node role="pluginRepository" roleId="bs99.1997533223701807309" type="bs99.PluginRepository" typeId="bs99.1997533223701191426" id="1997533223706665909" nodeInfo="ng">
-      <property name="directory" nameId="bs99.1997533223701200855" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins" />
-      <property name="name" nameId="tpck.1169194664001" value="ManueleRepo" />
-      <property name="numPluginsLoaded" nameId="bs99.5704832314560344592" value="141" />
-      <property name="loaded" nameId="bs99.5704832314560662319" value="true" />
-    </node>
-    <node role="filesetArea" roleId="bs99.2051553890368785072" type="bs99.FileSetArea" typeId="bs99.2051553890368756473" id="1997533223706665910" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="FirstFileSetArea" />
-      <property name="path" nameId="bs99.6449713081311703917" value="/Users/mas2182/temp/FileSetArea" />
-      <property name="serverPort" nameId="bs99.597619556448147380" value="0" />
-    </node>
-  </root>
   <root type="bs99.ExecutionEnvironment" typeId="bs99.2051553890368778876" id="5704832314560950104" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="mac158665_FC_Environment" />
     <property name="owner" nameId="bs99.2051553890368778877" value="fac2003" />
@@ -41,7 +21,7 @@
     <node role="filesetArea" roleId="bs99.2051553890368785072" type="bs99.FileSetArea" typeId="bs99.2051553890368756473" id="5704832314560950106" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="FCs_area" />
       <property name="path" nameId="bs99.6449713081311703917" value="/zenodotus/campagnelab/store/data/gobyweb/dev/FILESET_AREA" />
-      <property name="serverPort" nameId="bs99.597619556448147380" value="8849" />
+      <property name="serverPort" value="8849" />
       <link role="executionNode" roleId="bs99.6449713081311510412" targetNodeId="2243041462222181573" resolveInfo="SpankyNode" />
       <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="6498979092234066305" nodeInfo="ng">
         <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
@@ -106,43 +86,172 @@
     </node>
   </root>
   <root type="bs99.Logger" typeId="bs99.1997533223712647372" id="7039650749314407366" nodeInfo="ng">
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="400464516576915363" nodeInfo="ng">
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7170488887949090523" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Importing tag CBQRMIV" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7170488887949090525" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Failed to import CBQRMIV" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7170488887949090526" nodeInfo="ng" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7876809155939330064" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Failed to connect StatefulFileSetRPCManager" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7876809155939330065" nodeInfo="ng" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7876809155939482965" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value=" StatefulFileSetRPCManager connected" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7876809155939510131" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Manager already connected" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7876809155939512324" nodeInfo="ng">
       <property name="message" nameId="bs99.7039650749312735043" value="Importing tag ZIYKIVJ" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="400464516576915365" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Failed to import ZIYKIVJ" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7876809155939512326" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Manager already connected" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="400464516576915366" nodeInfo="ng" />
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="400464516576915367" nodeInfo="ng">
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7876809155939512333" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Tag ZIYKIVJ successfully imported" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7876809155939512334" nodeInfo="ng">
       <property name="message" nameId="bs99.7039650749312735043" value="Importing tag QPLIJXZ" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="400464516576915369" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Failed to import QPLIJXZ" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7876809155939512336" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Manager already connected" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="400464516576915370" nodeInfo="ng" />
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="400464516576915371" nodeInfo="ng">
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7876809155939512340" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Tag QPLIJXZ successfully imported" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7876809155939512341" nodeInfo="ng">
       <property name="message" nameId="bs99.7039650749312735043" value="Importing tag QABTKOL" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="400464516576915373" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Failed to import QABTKOL" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7876809155939512343" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Manager already connected" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="400464516576915374" nodeInfo="ng" />
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="400464516576915375" nodeInfo="ng">
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7876809155939512346" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Tag QABTKOL successfully imported" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7876809155939512347" nodeInfo="ng">
       <property name="message" nameId="bs99.7039650749312735043" value="Importing tag QWNQKYC" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="400464516576915377" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Failed to import QWNQKYC" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7876809155939512349" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Manager already connected" />
     </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="400464516576915378" nodeInfo="ng" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7876809155939512356" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Tag QWNQKYC successfully imported" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7876809155939512397" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Importing tag CBQRMIV" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7876809155939512399" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Failed to import CBQRMIV" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7876809155939512400" nodeInfo="ng" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7876809155939512423" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Importing tag CBQRMIV" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="7876809155939512427" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Tag CBQRMIV successfully imported" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="4344503499501519328" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Failed to connect StatefulFileSetRPCManager" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="4344503499501519329" nodeInfo="ng" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="4344503499501521563" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value=" StatefulFileSetRPCManager connected" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="4344503499501521700" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Importing tag ZIYKIVJ" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="4344503499501521702" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Manager already connected" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="4344503499501521709" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Tag ZIYKIVJ successfully imported" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="4344503499501521710" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Importing tag QPLIJXZ" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="4344503499501521712" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Manager already connected" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="4344503499501521716" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Tag QPLIJXZ successfully imported" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="4344503499501521717" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Importing tag QABTKOL" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="4344503499501521719" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Manager already connected" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="4344503499501521722" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Tag QABTKOL successfully imported" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="4344503499501521723" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Importing tag QWNQKYC" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="4344503499501521725" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Manager already connected" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="4344503499501521732" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Tag QWNQKYC successfully imported" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="4344503499502053681" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Manager already connected" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="4344503499502355473" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Manager already connected" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="4344503499502355515" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Importing tag ZIYKIVJ" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="4344503499502355517" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Manager already connected" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="4344503499502355524" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Tag ZIYKIVJ successfully imported" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="4344503499502355525" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Importing tag QPLIJXZ" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="4344503499502355527" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Manager already connected" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="4344503499502355531" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Tag QPLIJXZ successfully imported" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="4344503499502355532" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Importing tag QABTKOL" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="4344503499502355534" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Manager already connected" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="4344503499502355537" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Tag QABTKOL successfully imported" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="4344503499502355538" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Importing tag QWNQKYC" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="4344503499502355540" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Manager already connected" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="4344503499502355547" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Tag QWNQKYC successfully imported" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="4344503499502355642" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Importing tag CBQRMIV" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="4344503499502355646" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Tag CBQRMIV successfully imported" />
+    </node>
   </root>
   <root type="bs99.RegisterFileTool" typeId="bs99.2954990197977709385" id="6498979092225701287" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="RegisterTool" />
     <property name="filesInError" nameId="bs99.5704832314568278031" value="0" />
     <property name="willCreateFilesets" nameId="bs99.5704832314568277954" value="1" />
     <property name="filesMandatoryAndMissing" nameId="bs99.5704832314568278035" value="0" />
-    <property name="hasPreview" nameId="bs99.5704832314568883481" value="true" />
-    <property name="messages" nameId="bs99.1879241968980829296" value="RegisterTool /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS035-430-D2PRE_S4_L001_I1_001.fastq.gzRegisterTool /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS035-430-D2PRE_S4_L001_I2_001.fastq.gzRegisterTool /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS036-444-D1PRE_S5_L001_I1_001.fastq.gzRegisterTool /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS036-444-D1PRE_S5_L001_I2_001.fastq.gzRegisterTool /data/CFS_FOCUSED/A7V4W_Giloteaux/CFS036-446-D2PRE_S6_L001_I1_001.fastq.gzRegisterTool /Users/fac2003/FileSetArea/fac2003/Q/QQEWEQK/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entriesRegisterTool /Users/fac2003/FileSetArea/fac2003/Q/QQEWEQK/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.headerRegisterTool /Users/fac2003/FileSetArea/fac2003/Q/QQEWEQK/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.indexRegisterTool /Users/fac2003/FileSetArea/fac2003/Q/QQEWEQK/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entriesRegisterTool /Users/fac2003/FileSetArea/fac2003/Q/QQEWEQK/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.headerRegisterTool /Users/fac2003/FileSetArea/fac2003/Q/QQEWEQK/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.index" />
-    <link role="executionEnvironment" roleId="bs99.6498979092206486997" targetNodeId="5704832314560950104" resolveInfo="mac158665_FC_Environment" />
+    <property name="hasPreview" nameId="bs99.5704832314568883481" value="false" />
+    <property name="messages" nameId="bs99.1879241968980829296" value="Invalid entry: GOBY_ALIGNMENT:ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entries does not have any file associated " />
+    <link role="executionEnvironment" roleId="bs99.6498979092206486997" targetNodeId="7170488887939211556" resolveInfo="SpankyEnvironmentRemoteConnection" />
     <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="1944465843375482929" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entries" />
       <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/fac2003/FileSetArea/fac2003/Q/QQEWEQK/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entries" />
@@ -177,7 +286,7 @@
     <node role="filesetArea" roleId="bs99.2051553890368785072" type="bs99.FileSetArea" typeId="bs99.2051553890368756473" id="597619556448147013" nodeInfo="ng">
       <property name="path" nameId="bs99.6449713081311703917" value="/zenodotus/campagnelab/store/data/gobyweb/dev/FILESET_AREA" />
       <property name="name" nameId="tpck.1169194664001" value="FileSetAreaOnSpanky" />
-      <property name="serverPort" nameId="bs99.597619556448147380" value="8849" />
+      <property name="serverPort" value="8849" />
       <link role="executionNode" roleId="bs99.6449713081311510412" targetNodeId="2243041462222181624" resolveInfo="localhost" />
       <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="8258261499125687221" nodeInfo="ng">
         <property name="tag" nameId="bs99.2051553890368778934" value="ZXPWLAD" />
@@ -314,9 +423,14 @@
     <property name="username" nameId="9k5.3050176288337501846" value="gobyweb" />
     <property name="numCores" nameId="9k5.3050176288341320771" value="8" />
     <property name="isReachable" nameId="9k5.2243041462218990633" value="true" />
-    <node role="ports" roleId="9k5.664989078351252753" type="9k5.ConnectionPort" typeId="9k5.664989078347184634" id="664989078352128434" nodeInfo="ng">
+    <node role="ports" roleId="9k5.664989078351252753" type="9k5.ConnectionPort" typeId="9k5.664989078347184634" id="7170488887945420198" nodeInfo="ng">
       <property name="number" nameId="9k5.664989078347184651" value="8849" />
-      <property name="name" nameId="tpck.1169194664001" value="Port8849OnSpanky" />
+      <property name="name" nameId="tpck.1169194664001" value="FileSetServerOnSpanky" />
+      <link role="targetNode" roleId="9k5.664989078347742108" targetNodeId="2243041462222181573" resolveInfo="SpankyNode" />
+    </node>
+    <node role="ports" roleId="9k5.664989078351252753" type="9k5.ConnectionPort" typeId="9k5.664989078347184634" id="4344503499502355470" nodeInfo="ng">
+      <property name="number" nameId="9k5.664989078347184651" value="8080" />
+      <property name="name" nameId="tpck.1169194664001" value="8080" />
       <link role="targetNode" roleId="9k5.664989078347742108" targetNodeId="2243041462222181573" resolveInfo="SpankyNode" />
     </node>
   </root>
@@ -326,11 +440,16 @@
     <property name="username" nameId="9k5.3050176288337501846" value="fac2003" />
     <property name="numCores" nameId="9k5.3050176288341320771" value="6" />
     <property name="isReachable" nameId="9k5.2243041462218990633" value="true" />
+    <node role="ports" roleId="9k5.664989078351252753" type="9k5.ConnectionPort" typeId="9k5.664989078347184634" id="4344503499502355468" nodeInfo="ng">
+      <property name="number" nameId="9k5.664989078347184651" value="80" />
+      <property name="name" nameId="tpck.1169194664001" value="LocalHostPortOn80" />
+      <link role="targetNode" roleId="9k5.664989078347742108" targetNodeId="2243041462222181624" resolveInfo="localhost" />
+    </node>
   </root>
   <root type="bs99.ImportTool" typeId="bs99.8258261499132276459" id="8258261499133783199" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="ImportTool" />
     <property name="tagsToImport" nameId="bs99.8258261499132300449" value="ZIYKIVJ,QPLIJXZ,QABTKOL,QWNQKYC" />
-    <link role="executionEnvironment" roleId="bs99.8258261499132300351" targetNodeId="597619556448147011" resolveInfo="Spanky_Environment" />
+    <link role="executionEnvironment" roleId="bs99.8258261499132300351" targetNodeId="7170488887939211556" resolveInfo="SpankyEnvironmentRemoteConnection" />
   </root>
   <root type="eith.SshPortForwarding" typeId="eith.2967045841109794120" id="2967045841110381069" nodeInfo="ng">
     <property name="username" nameId="eith.2967045841109813398" value="gobyweb" />
@@ -338,6 +457,133 @@
     <property name="port" nameId="eith.2967045841109813403" value="8849" />
     <property name="connected" nameId="eith.2967045841109813407" value="false" />
     <property name="usePrivateKey" nameId="eith.2096113691307818463" value="true" />
+  </root>
+  <root type="bs99.ExecutionEnvironment" typeId="bs99.2051553890368778876" id="7170488887939211556" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="SpankyEnvironmentRemoteConnection" />
+    <property name="owner" nameId="bs99.2051553890368778877" value="lmesd" />
+    <node role="pluginRepository" roleId="bs99.1997533223701807309" type="bs99.PluginRepository" typeId="bs99.1997533223701191426" id="7170488887939211557" nodeInfo="ng">
+      <property name="directory" nameId="bs99.1997533223701200855" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins" />
+      <property name="name" nameId="tpck.1169194664001" value="manuele" />
+      <property name="numPluginsLoaded" nameId="bs99.5704832314560344592" value="146" />
+      <property name="loaded" nameId="bs99.5704832314560662319" value="true" />
+    </node>
+    <node role="filesetArea" roleId="bs99.2051553890368785072" type="bs99.FileSetArea" typeId="bs99.2051553890368756473" id="7170488887948384268" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="SpankyArea" />
+      <property name="path" nameId="bs99.6449713081311703917" value="/zenodotus/campagnelab/store/data/gobyweb/dev/FILESET_AREA" />
+      <link role="executionNode" roleId="bs99.6449713081311510412" targetNodeId="2243041462222181573" resolveInfo="SpankyNode" />
+      <node role="manager" roleId="bs99.664989078355375332" type="bs99.FileSetAreaRPCManager" typeId="bs99.664989078345324995" id="7170488887948384270" nodeInfo="ng">
+        <link role="fileSetArea" roleId="bs99.664989078345325375" targetNodeId="7170488887948384268" resolveInfo="SpankyArea" />
+        <link role="connectionPort" roleId="bs99.664989078348064771" targetNodeId="7170488887945420198" resolveInfo="FileSetServerOnSpanky" />
+      </node>
+      <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="4344503499502355516" nodeInfo="ng">
+        <property name="tag" nameId="bs99.2051553890368778934" value="ZIYKIVJ" />
+        <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+        <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="7170488887948384268" resolveInfo="SpankyArea" />
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="4344503499502355518" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
+          <property name="value" nameId="bs99.8258261499122039841" value="1000GENOMES.37" />
+        </node>
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="4344503499502355519" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+          <property name="value" nameId="bs99.8258261499122039841" value="homo_sapiens" />
+        </node>
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="4344503499502355520" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="SOURCE_READS_ID" />
+          <property name="value" nameId="bs99.8258261499122039841" value="GKBDBCE" />
+        </node>
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="4344503499502355521" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
+          <property name="value" nameId="bs99.8258261499122039841" value="YFKWSOF-T2-Decoy-LM23-80-M-control-blood-father" />
+        </node>
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="4344503499502355522" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
+          <property name="value" nameId="bs99.8258261499122039841" value="YFKWSOF" />
+        </node>
+        <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="4344503499502355523" nodeInfo="ng" />
+      </node>
+      <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="4344503499502355526" nodeInfo="ng">
+        <property name="tag" nameId="bs99.2051553890368778934" value="QPLIJXZ" />
+        <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+        <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="7170488887948384268" resolveInfo="SpankyArea" />
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="4344503499502355528" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
+          <property name="value" nameId="bs99.8258261499122039841" value="ERLDNAX-LMFRNGS-1-29-M-FSGSR-blood-patient-SP-all" />
+        </node>
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="4344503499502355529" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="SOURCE_ALIGNMENT_ID" />
+          <property name="value" nameId="bs99.8258261499122039841" value="SVTJYIA" />
+        </node>
+        <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="4344503499502355530" nodeInfo="ng" />
+      </node>
+      <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="4344503499502355533" nodeInfo="ng">
+        <property name="tag" nameId="bs99.2051553890368778934" value="QABTKOL" />
+        <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+        <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="7170488887948384268" resolveInfo="SpankyArea" />
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="4344503499502355535" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
+          <property name="value" nameId="bs99.8258261499122039841" value="AQXXYXT" />
+        </node>
+        <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="4344503499502355536" nodeInfo="ng" />
+      </node>
+      <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="4344503499502355539" nodeInfo="ng">
+        <property name="tag" nameId="bs99.2051553890368778934" value="QWNQKYC" />
+        <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+        <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="7170488887948384268" resolveInfo="SpankyArea" />
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="4344503499502355541" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
+          <property name="value" nameId="bs99.8258261499122039841" value="NCBI37.55" />
+        </node>
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="4344503499502355542" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+          <property name="value" nameId="bs99.8258261499122039841" value="mus_musculus" />
+        </node>
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="4344503499502355543" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="ALIGNER_ID" />
+          <property name="value" nameId="bs99.8258261499122039841" value="BWA_GOBY_ARTIFACT" />
+        </node>
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="4344503499502355544" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="SOURCE_READS_ID" />
+          <property name="value" nameId="bs99.8258261499122039841" value="QPOQAOR" />
+        </node>
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="4344503499502355545" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
+          <property name="value" nameId="bs99.8258261499122039841" value="FXWEJLA-LPJ-Mouse" />
+        </node>
+        <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="4344503499502355546" nodeInfo="ng" />
+      </node>
+    </node>
+  </root>
+  <root type="bs99.ExecutionEnvironment" typeId="bs99.2051553890368778876" id="7170488887949089862" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="mac150355_MS_Environment" />
+    <property name="owner" nameId="bs99.2051553890368778877" value="manuele" />
+    <node role="pluginRepository" roleId="bs99.1997533223701807309" type="bs99.PluginRepository" typeId="bs99.1997533223701191426" id="7170488887949089863" nodeInfo="ng">
+      <property name="directory" nameId="bs99.1997533223701200855" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins" />
+      <property name="name" nameId="tpck.1169194664001" value="ManueleRepo" />
+      <property name="numPluginsLoaded" nameId="bs99.5704832314560344592" value="146" />
+      <property name="loaded" nameId="bs99.5704832314560662319" value="true" />
+    </node>
+    <node role="filesetArea" roleId="bs99.2051553890368785072" type="bs99.FileSetArea" typeId="bs99.2051553890368756473" id="7170488887949090025" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="ManueleArea" />
+      <property name="path" nameId="bs99.6449713081311703917" value="/Users/mas2182/temp/FileSetArea" />
+      <node role="manager" roleId="bs99.664989078355375332" type="bs99.FileSetAreaLocalManager" typeId="bs99.7170488887937312966" id="7170488887949090027" nodeInfo="ng">
+        <link role="fileSetArea" roleId="bs99.664989078345325375" targetNodeId="7170488887949090025" resolveInfo="ManueleArea" />
+      </node>
+      <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="4344503499502355643" nodeInfo="ng">
+        <property name="tag" nameId="bs99.2051553890368778934" value="CBQRMIV" />
+        <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+        <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="7170488887949090025" resolveInfo="ManueleArea" />
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="4344503499502355644" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
+          <property name="value" nameId="bs99.8258261499122039841" value="mouse_colon_control_long_2_SRR094794" />
+        </node>
+        <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="4344503499502355645" nodeInfo="ng" />
+      </node>
+    </node>
+  </root>
+  <root type="bs99.ImportTool" typeId="bs99.8258261499132276459" id="7170488887949090315" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="ImportTool" />
+    <property name="tagsToImport" nameId="bs99.8258261499132300449" value="CBQRMIV" />
+    <link role="executionEnvironment" roleId="bs99.8258261499132300351" targetNodeId="7170488887949089862" resolveInfo="mac150355_MS_Environment" />
   </root>
 </model>
 
