@@ -89,6 +89,12 @@
     <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="4344503499510990527" nodeInfo="ng">
       <property name="message" nameId="bs99.7039650749312735043" value=" StatefulFileSetRPCManager connected" />
     </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="4344503499516599884" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Failed to connect StatefulFileSetRPCManager" />
+    </node>
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="4344503499516599885" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="DuplexTcpServer CONNECT_RESPONSE indicated error ALREADY_CONNECTED" />
+    </node>
   </root>
   <root type="bs99.RegisterFileTool" typeId="bs99.2954990197977709385" id="6498979092225701287" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="RegisterTool" />
@@ -393,8 +399,8 @@
         </node>
         <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="4344503499502355546" nodeInfo="ng" />
       </node>
-      <node role="manager" roleId="bs99.664989078355375332" type="bs99.FileSetAreaRPCManager" typeId="bs99.664989078345324995" id="4344503499510990302" nodeInfo="ng">
-        <property name="connected" nameId="bs99.4344503499510198037" value="true" />
+      <node role="manager" roleId="bs99.664989078355375332" type="bs99.FileSetAreaRPCManager" typeId="bs99.664989078345324995" id="4344503499516599880" nodeInfo="ng">
+        <property name="connected" nameId="bs99.4344503499510198037" value="false" />
         <link role="fileSetArea" roleId="bs99.664989078345325375" targetNodeId="7170488887948384268" resolveInfo="SpankyArea" />
         <link role="connectionPort" roleId="bs99.664989078348064771" targetNodeId="7170488887945420198" resolveInfo="FileSetServerOnSpanky" />
       </node>
