@@ -14,7 +14,7 @@
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(org.campagnelab.NYoSh.structure)" version="30" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
-  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" />
+  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" />
   <import index="tpek" modelUID="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" version="-1" />
   <import index="fxg7" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" version="-1" />
   <import index="k7g3" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" version="-1" />
@@ -747,7 +747,7 @@
   <root type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="2829258213785063553" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="DefaultArgumentPrototypeTemplate" />
     <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="4tvk.2829258213784965402" resolveInfo="DefaultArgumentPrototype" />
-    <node role="parameter" roleId="tpf8.1805153994415891175" type="tpf8.TemplateParameterDeclaration" typeId="tpf8.1805153994415891174" id="7518874264100948455" nodeInfo="ng">
+    <node role="parameter" roleId="tpf8.982871510064032342" type="tpf8.TemplateParameterDeclaration" typeId="tpf8.1805153994415891174" id="7518874264100948455" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="implementationMethodName" />
       <node role="type" roleId="tpf8.1805153994415893199" type="tpee.StringType" typeId="tpee.1225271177708" id="7518874264100959570" nodeInfo="in" />
     </node>
@@ -4959,7 +4959,7 @@
         <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.TemplateFragment" typeId="tpf8.1095672379244" id="435930706556389260" nodeInfo="ng" />
         <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.MapSrcNodeMacro" typeId="tpf8.1131073187192" id="435930706556389261" nodeInfo="nn" />
       </node>
-      <node role="member" roleId="tpee.5375687026011219971" type="4tvk.StepsLoggerDeclared" typeId="4tvk.435930706556016201" id="435930706556389262" nodeInfo="igu">
+      <node role="member" roleId="tpee.5375687026011219971" type="4tvk.StepsLoggerDeclared" typeId="4tvk.435930706556016201" id="435930706556389262" nodeInfo="ngu">
         <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.TemplateFragment" typeId="tpf8.1095672379244" id="435930706556389263" nodeInfo="ng" />
       </node>
       <node role="member" roleId="tpee.5375687026011219971" type="tpee.StaticMethodDeclaration" typeId="tpee.1081236700938" id="435930706556389264" nodeInfo="igu">
@@ -5823,7 +5823,7 @@
     <property name="virtualPackage" nameId="tpck.1193676396447" value="commandOperators" />
     <property name="name" nameId="tpck.1169194664001" value="weave_ExecuteCommandDeclarations" />
     <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tpee.1068390468198" resolveInfo="ClassConcept" />
-    <node role="parameter" roleId="tpf8.1805153994415891175" type="tpf8.TemplateParameterDeclaration" typeId="tpf8.1805153994415891174" id="2477885976695752269" nodeInfo="ng">
+    <node role="parameter" roleId="tpf8.982871510064032342" type="tpf8.TemplateParameterDeclaration" typeId="tpf8.1805153994415891174" id="2477885976695752269" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="innerClass" />
       <node role="type" roleId="tpf8.1805153994415893199" type="tpee.BooleanType" typeId="tpee.1070534644030" id="2477885976695801043" nodeInfo="in" />
     </node>
