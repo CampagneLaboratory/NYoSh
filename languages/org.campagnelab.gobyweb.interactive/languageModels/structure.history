@@ -102,5 +102,23 @@
     </dependencies>
     <rename id="bs99.4344503499509027237" type="PROPERTY" from="connecte" to="connected" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="16" />
+    </dependencies>
+    <rename id="bs99.6449713081311510412" type="REFERENCE" from="executionNode" to="sshService" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="17" />
+    </dependencies>
+    <rename id="bs99.664989078348064771" type="REFERENCE" from="connectionPort" to="fileSetConnectionPort" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="18" />
+    </dependencies>
+    <rename id="bs99.664989078348064771" type="REFERENCE" from="fileSetConnectionPort" to="fileSetServerConnectionPort" />
+  </StructureModification>
 </history>
 
