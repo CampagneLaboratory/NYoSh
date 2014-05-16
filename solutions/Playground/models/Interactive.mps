@@ -5,10 +5,14 @@
   <language namespace="760a0a8c-eabb-4521-8bfd-65db761a9ba3(jetbrains.mps.baseLanguage.logging)" />
   <language namespace="7620dd3f-7541-48a3-b1e6-01cced81a7a5(org.campagnelab.clusterConfig)" />
   <language namespace="857bd616-7b17-4127-8074-519f20641bdb(org.campagnelab.ssh)" />
+  <language namespace="0b7d8bbd-896e-495e-be60-01a0d738a649(org.campagnelab.gobyweb.plugins)" />
+  <language namespace="adfd00cb-58d7-4094-bca8-f941a491e04f(org.campagnelab.gobyweb)" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="16" implicit="yes" />
+  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="19" implicit="yes" />
   <import index="9k5" modelUID="r:df9645c2-d2fa-41cb-a718-044a287b0626(org.campagnelab.clusterConfig.structure)" version="3" implicit="yes" />
   <import index="eith" modelUID="r:1ed73e49-326d-4559-947b-13dfd134d00a(org.campagnelab.ssh.structure)" version="-1" implicit="yes" />
+  <import index="dzk5" modelUID="r:2bfcc546-5c51-4762-9df2-c43920be4458(org.campagnelab.gobyweb.plugins.structure)" version="0" implicit="yes" />
+  <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="28" implicit="yes" />
   <root type="bs99.ExecutionEnvironment" typeId="bs99.2051553890368778876" id="5704832314560950104" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="mac158665_FC_Environment" />
     <property name="owner" nameId="bs99.2051553890368778877" value="fac2003" />
@@ -21,109 +25,32 @@
     <node role="filesetArea" roleId="bs99.2051553890368785072" type="bs99.FileSetArea" typeId="bs99.2051553890368756473" id="5704832314560950106" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="FCs_area" />
       <property name="path" nameId="bs99.6449713081311703917" value="/zenodotus/campagnelab/store/data/gobyweb/dev/FILESET_AREA" />
-      <property name="serverPort" value="8849" />
-      <link role="executionNode" roleId="bs99.6449713081311510412" targetNodeId="2243041462222181573" resolveInfo="SpankyNode" />
-      <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="6498979092234066305" nodeInfo="ng">
-        <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
-        <property name="tag" nameId="bs99.2051553890368778934" value="KMUQGAN" />
-        <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="5704832314560950106" resolveInfo="FCs_area" />
-        <node role="files" roleId="bs99.5260963271977142496" type="bs99.FileRef" typeId="bs99.5260963271977142493" id="6498979092234066306" nodeInfo="ng">
-          <link role="file" roleId="bs99.5260963271977142494" targetNodeId="1944465843375482929" resolveInfo="ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entries" />
-        </node>
-        <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="6498979092234066307" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entries" />
-        </node>
-        <node role="files" roleId="bs99.5260963271977142496" type="bs99.FileRef" typeId="bs99.5260963271977142493" id="6498979092234066312" nodeInfo="ng">
-          <link role="file" roleId="bs99.5260963271977142494" targetNodeId="1944465843375482930" resolveInfo="ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.header" />
-        </node>
-        <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="6498979092234066313" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.header" />
-        </node>
-        <node role="files" roleId="bs99.5260963271977142496" type="bs99.FileRef" typeId="bs99.5260963271977142493" id="6498979092234066318" nodeInfo="ng">
-          <link role="file" roleId="bs99.5260963271977142494" targetNodeId="1944465843375483116" resolveInfo="ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.index" />
-        </node>
-        <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="6498979092234066319" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.index" />
-        </node>
-      </node>
-      <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="6498979092234770021" nodeInfo="ng">
-        <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
-        <property name="tag" nameId="bs99.2051553890368778934" value="QQEWEQK" />
-        <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="5704832314560950106" resolveInfo="FCs_area" />
-        <node role="files" roleId="bs99.5260963271977142496" type="bs99.FileRef" typeId="bs99.5260963271977142493" id="6498979092234770022" nodeInfo="ng">
-          <link role="file" roleId="bs99.5260963271977142494" targetNodeId="1944465843375482929" resolveInfo="ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entries" />
-        </node>
-        <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="6498979092234770023" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entries" />
-        </node>
-        <node role="files" roleId="bs99.5260963271977142496" type="bs99.FileRef" typeId="bs99.5260963271977142493" id="6498979092234770028" nodeInfo="ng">
-          <link role="file" roleId="bs99.5260963271977142494" targetNodeId="1944465843375482930" resolveInfo="ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.header" />
-        </node>
-        <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="6498979092234770029" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.header" />
-        </node>
-        <node role="files" roleId="bs99.5260963271977142496" type="bs99.FileRef" typeId="bs99.5260963271977142493" id="6498979092234770034" nodeInfo="ng">
-          <link role="file" roleId="bs99.5260963271977142494" targetNodeId="1944465843375483116" resolveInfo="ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.index" />
-        </node>
-        <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="6498979092234770035" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.index" />
-        </node>
-      </node>
-      <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="1944465843376137432" nodeInfo="ng">
-        <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
-        <property name="tag" nameId="bs99.2051553890368778934" value="FDXCMYR" />
-        <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="5704832314560950106" resolveInfo="FCs_area" />
-        <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="1944465843376137434" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entries" />
-        </node>
-        <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="1944465843376137440" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.header" />
-        </node>
-        <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="1944465843376137446" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.index" />
-        </node>
-      </node>
+      <link role="sshService" roleId="bs99.6449713081311510412" targetNodeId="2243041462222181573" resolveInfo="SpankyNode" />
     </node>
   </root>
   <root type="bs99.Logger" typeId="bs99.1997533223712647372" id="7039650749314407366" nodeInfo="ng">
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="4344503499510990527" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value=" StatefulFileSetRPCManager connected" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="4344503499516599884" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Failed to connect StatefulFileSetRPCManager" />
-    </node>
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="4344503499516599885" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="DuplexTcpServer CONNECT_RESPONSE indicated error ALREADY_CONNECTED" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="4277119496933916156" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Number of plugin definitions loaded: 149" />
     </node>
   </root>
   <root type="bs99.RegisterFileTool" typeId="bs99.2954990197977709385" id="6498979092225701287" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="RegisterTool" />
     <property name="filesInError" nameId="bs99.5704832314568278031" value="0" />
-    <property name="willCreateFilesets" nameId="bs99.5704832314568277954" value="1" />
+    <property name="willCreateFilesets" nameId="bs99.5704832314568277954" value="0" />
     <property name="filesMandatoryAndMissing" nameId="bs99.5704832314568278035" value="0" />
     <property name="hasPreview" nameId="bs99.5704832314568883481" value="false" />
-    <property name="messages" nameId="bs99.1879241968980829296" value="Invalid entry: GOBY_ALIGNMENT:ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entries does not have any file associated " />
     <link role="executionEnvironment" roleId="bs99.6498979092206486997" targetNodeId="7170488887939211556" resolveInfo="SpankyEnvironmentRemoteConnection" />
-    <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="1944465843375482929" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entries" />
-      <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/fac2003/FileSetArea/fac2003/Q/QQEWEQK/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.entries" />
-      <node role="types" roleId="bs99.5704832314562469901" type="bs99.FileSetTypeId" typeId="bs99.5704832314562469955" id="1944465843376137437" nodeInfo="ng">
-        <property name="id" nameId="bs99.5704832314562469956" value="GOBY_ALIGNMENT" />
-      </node>
+    <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="7738431792307171105" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="SOWIURH-indel-small-5-concatonly.entries" />
+      <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/fac2003/Dropbox/simulations/indels/SOWIURH-indel-small-5-concatonly.entries" />
     </node>
-    <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="1944465843375482930" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.header" />
-      <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/fac2003/FileSetArea/fac2003/Q/QQEWEQK/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.header" />
-      <node role="types" roleId="bs99.5704832314562469901" type="bs99.FileSetTypeId" typeId="bs99.5704832314562469955" id="1944465843376137443" nodeInfo="ng">
-        <property name="id" nameId="bs99.5704832314562469956" value="GOBY_ALIGNMENT" />
-      </node>
+    <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="7738431792307171106" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="SOWIURH-indel-small-5-concatonly.header" />
+      <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/fac2003/Dropbox/simulations/indels/SOWIURH-indel-small-5-concatonly.header" />
     </node>
-    <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="1944465843375483116" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.index" />
-      <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/fac2003/FileSetArea/fac2003/Q/QQEWEQK/ZHVBNNI-RRBS-Normal-06_Feb_2014-RS-PB-715-Normal_PB-M-54.index" />
-      <node role="types" roleId="bs99.5704832314562469901" type="bs99.FileSetTypeId" typeId="bs99.5704832314562469955" id="1944465843376137449" nodeInfo="ng">
-        <property name="id" nameId="bs99.5704832314562469956" value="GOBY_ALIGNMENT" />
-      </node>
+    <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="7738431792307171107" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="SOWIURH-indel-small-5-concatonly.index" />
+      <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/fac2003/Dropbox/simulations/indels/SOWIURH-indel-small-5-concatonly.index" />
     </node>
   </root>
   <root type="bs99.ExecutionEnvironment" typeId="bs99.2051553890368778876" id="597619556448147011" nodeInfo="ng">
@@ -139,7 +66,7 @@
       <property name="path" nameId="bs99.6449713081311703917" value="/zenodotus/campagnelab/store/data/gobyweb/dev/FILESET_AREA" />
       <property name="name" nameId="tpck.1169194664001" value="FileSetAreaOnSpanky" />
       <property name="serverPort" value="8849" />
-      <link role="executionNode" roleId="bs99.6449713081311510412" targetNodeId="2243041462222181624" resolveInfo="localhost" />
+      <link role="sshService" roleId="bs99.6449713081311510412" targetNodeId="2243041462222181624" resolveInfo="localhost" />
       <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="8258261499125687221" nodeInfo="ng">
         <property name="tag" nameId="bs99.2051553890368778934" value="ZXPWLAD" />
         <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
@@ -280,11 +207,6 @@
       <property name="name" nameId="tpck.1169194664001" value="FileSetServerOnSpanky" />
       <link role="targetNode" roleId="9k5.664989078347742108" targetNodeId="2243041462222181573" resolveInfo="SpankyNode" />
     </node>
-    <node role="ports" roleId="9k5.664989078351252753" type="9k5.ConnectionPort" typeId="9k5.664989078347184634" id="4344503499502355470" nodeInfo="ng">
-      <property name="number" nameId="9k5.664989078347184651" value="8080" />
-      <property name="name" nameId="tpck.1169194664001" value="8080" />
-      <link role="targetNode" roleId="9k5.664989078347742108" targetNodeId="2243041462222181573" resolveInfo="SpankyNode" />
-    </node>
   </root>
   <root type="9k5.ExecutionNode" typeId="9k5.3050176288337501843" id="2243041462222181624" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="localhost" />
@@ -292,10 +214,23 @@
     <property name="username" nameId="9k5.3050176288337501846" value="fac2003" />
     <property name="numCores" nameId="9k5.3050176288341320771" value="6" />
     <property name="isReachable" nameId="9k5.2243041462218990633" value="true" />
-    <node role="ports" roleId="9k5.664989078351252753" type="9k5.ConnectionPort" typeId="9k5.664989078347184634" id="4344503499502355468" nodeInfo="ng">
-      <property name="number" nameId="9k5.664989078347184651" value="80" />
-      <property name="name" nameId="tpck.1169194664001" value="LocalHostPortOn80" />
+    <node role="ports" roleId="9k5.664989078351252753" type="9k5.ConnectionPort" typeId="9k5.664989078347184634" id="4277119496925952097" nodeInfo="ng">
+      <property name="number" nameId="9k5.664989078347184651" value="8849" />
+      <property name="name" nameId="tpck.1169194664001" value="FileSetService" />
       <link role="targetNode" roleId="9k5.664989078347742108" targetNodeId="2243041462222181624" resolveInfo="localhost" />
+    </node>
+    <node role="ports" roleId="9k5.664989078351252753" type="9k5.TunneledConnectionPort" typeId="9k5.1460397808273936077" id="4277119496927243658" nodeInfo="ng">
+      <property name="number" nameId="9k5.664989078347184651" value="8849" />
+      <property name="name" nameId="tpck.1169194664001" value="fileSetService" />
+      <link role="remotePort" roleId="9k5.1460397808273936078" targetNodeId="7170488887945420198" resolveInfo="FileSetServerOnSpanky" />
+      <link role="targetNode" roleId="9k5.664989078347742108" targetNodeId="2243041462222181624" resolveInfo="localhost" />
+      <node role="tunnel" roleId="9k5.1460397808273941271" type="eith.SshPortForwarding" typeId="eith.2967045841109794120" id="4277119496927243659" nodeInfo="ng">
+        <property name="username" nameId="eith.2967045841109813398" value="gobyweb" />
+        <property name="host" nameId="eith.2967045841109813400" value="spanky.med.cornell.edu" />
+        <property name="port" nameId="eith.2967045841109813403" value="8849" />
+        <property name="usePrivateKey" nameId="eith.2096113691307818463" value="true" />
+        <property name="connected" nameId="eith.2967045841109813407" value="false" />
+      </node>
     </node>
   </root>
   <root type="bs99.ImportTool" typeId="bs99.8258261499132276459" id="8258261499133783199" nodeInfo="ng">
@@ -316,61 +251,30 @@
     <node role="pluginRepository" roleId="bs99.1997533223701807309" type="bs99.PluginRepository" typeId="bs99.1997533223701191426" id="7170488887939211557" nodeInfo="ng">
       <property name="directory" nameId="bs99.1997533223701200855" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins" />
       <property name="name" nameId="tpck.1169194664001" value="manuele" />
-      <property name="numPluginsLoaded" nameId="bs99.5704832314560344592" value="146" />
+      <property name="numPluginsLoaded" nameId="bs99.5704832314560344592" value="149" />
       <property name="loaded" nameId="bs99.5704832314560662319" value="true" />
+      <property name="loadMessages" nameId="bs99.5704832314559617189" value="No valid schema file is available for validating plugin configuration" />
     </node>
     <node role="filesetArea" roleId="bs99.2051553890368785072" type="bs99.FileSetArea" typeId="bs99.2051553890368756473" id="7170488887948384268" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="SpankyArea" />
       <property name="path" nameId="bs99.6449713081311703917" value="/zenodotus/campagnelab/store/data/gobyweb/dev/FILESET_AREA" />
-      <link role="executionNode" roleId="bs99.6449713081311510412" targetNodeId="2243041462222181573" resolveInfo="SpankyNode" />
+      <link role="sshService" roleId="bs99.6449713081311510412" targetNodeId="2243041462222181573" resolveInfo="SpankyNode" />
       <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="4344503499502355516" nodeInfo="ng">
         <property name="tag" nameId="bs99.2051553890368778934" value="ZIYKIVJ" />
-        <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+        <property name="isRegistered" nameId="bs99.5260963271977142244" value="false" />
         <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="7170488887948384268" resolveInfo="SpankyArea" />
-        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="4344503499502355518" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
-          <property name="value" nameId="bs99.8258261499122039841" value="1000GENOMES.37" />
-        </node>
-        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="4344503499502355519" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
-          <property name="value" nameId="bs99.8258261499122039841" value="homo_sapiens" />
-        </node>
-        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="4344503499502355520" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="SOURCE_READS_ID" />
-          <property name="value" nameId="bs99.8258261499122039841" value="GKBDBCE" />
-        </node>
-        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="4344503499502355521" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
-          <property name="value" nameId="bs99.8258261499122039841" value="YFKWSOF-T2-Decoy-LM23-80-M-control-blood-father" />
-        </node>
-        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="4344503499502355522" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
-          <property name="value" nameId="bs99.8258261499122039841" value="YFKWSOF" />
-        </node>
         <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="4344503499502355523" nodeInfo="ng" />
       </node>
       <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="4344503499502355526" nodeInfo="ng">
         <property name="tag" nameId="bs99.2051553890368778934" value="QPLIJXZ" />
-        <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+        <property name="isRegistered" nameId="bs99.5260963271977142244" value="false" />
         <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="7170488887948384268" resolveInfo="SpankyArea" />
-        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="4344503499502355528" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
-          <property name="value" nameId="bs99.8258261499122039841" value="ERLDNAX-LMFRNGS-1-29-M-FSGSR-blood-patient-SP-all" />
-        </node>
-        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="4344503499502355529" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="SOURCE_ALIGNMENT_ID" />
-          <property name="value" nameId="bs99.8258261499122039841" value="SVTJYIA" />
-        </node>
         <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="4344503499502355530" nodeInfo="ng" />
       </node>
       <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="4344503499502355533" nodeInfo="ng">
         <property name="tag" nameId="bs99.2051553890368778934" value="QABTKOL" />
-        <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+        <property name="isRegistered" nameId="bs99.5260963271977142244" value="false" />
         <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="7170488887948384268" resolveInfo="SpankyArea" />
-        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="4344503499502355535" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
-          <property name="value" nameId="bs99.8258261499122039841" value="AQXXYXT" />
-        </node>
         <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="4344503499502355536" nodeInfo="ng" />
       </node>
       <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="4344503499502355539" nodeInfo="ng">
@@ -399,10 +303,47 @@
         </node>
         <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="4344503499502355546" nodeInfo="ng" />
       </node>
-      <node role="manager" roleId="bs99.664989078355375332" type="bs99.FileSetAreaRPCManager" typeId="bs99.664989078345324995" id="4344503499516599880" nodeInfo="ng">
+      <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="8216001536758184730" nodeInfo="ng">
+        <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+        <property name="tag" nameId="bs99.2051553890368778934" value="FMYJSRX" />
+        <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="7170488887948384268" resolveInfo="SpankyArea" />
+        <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="8216001536758184732" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="test.entries" />
+        </node>
+        <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="8216001536758184738" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="test.header" />
+        </node>
+        <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="8216001536758184744" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="test.index" />
+        </node>
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="8216001536758184975" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
+          <property name="value" nameId="bs99.8258261499122039841" value="test" />
+        </node>
+      </node>
+      <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="8216001536758185156" nodeInfo="ng">
+        <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+        <property name="tag" nameId="bs99.2051553890368778934" value="ZESCKPW" />
+        <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="7170488887948384268" resolveInfo="SpankyArea" />
+        <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="8216001536758185158" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="test.entries" />
+        </node>
+        <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="8216001536758185164" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="test.header" />
+        </node>
+        <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="8216001536758185170" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="test.index" />
+        </node>
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="8216001536758185306" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
+          <property name="value" nameId="bs99.8258261499122039841" value="test" />
+        </node>
+      </node>
+      <node role="manager" roleId="bs99.664989078355375332" type="bs99.FileSetAreaRPCManager" typeId="bs99.664989078345324995" id="7799893106583383942" nodeInfo="ng">
+        <property name="unreacheable" nameId="bs99.1460397808271971603" value="true" />
         <property name="connected" nameId="bs99.4344503499510198037" value="false" />
         <link role="fileSetArea" roleId="bs99.664989078345325375" targetNodeId="7170488887948384268" resolveInfo="SpankyArea" />
-        <link role="connectionPort" roleId="bs99.664989078348064771" targetNodeId="7170488887945420198" resolveInfo="FileSetServerOnSpanky" />
+        <link role="fileSetServerConnectionPort" roleId="bs99.664989078348064771" targetNodeId="7170488887945420198" resolveInfo="FileSetServerOnSpanky" />
       </node>
     </node>
   </root>
@@ -428,8 +369,8 @@
         </node>
         <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="4344503499502355645" nodeInfo="ng" />
       </node>
-      <node role="manager" roleId="bs99.664989078355375332" type="bs99.FileSetAreaLocalManager" typeId="bs99.7170488887937312966" id="4344503499511886182" nodeInfo="ng">
-        <property name="connected" nameId="bs99.4344503499503568233" value="true" />
+      <node role="manager" roleId="bs99.664989078355375332" type="bs99.FileSetAreaLocalManager" typeId="bs99.7170488887937312966" id="430593262180130242" nodeInfo="ng">
+        <property name="connected" nameId="bs99.4344503499503568233" value="false" />
         <link role="fileSetArea" roleId="bs99.664989078345325375" targetNodeId="7170488887949090025" resolveInfo="ManueleArea" />
       </node>
     </node>
@@ -438,6 +379,487 @@
     <property name="name" nameId="tpck.1169194664001" value="ImportTool" />
     <property name="tagsToImport" nameId="bs99.8258261499132300449" value="CBQRMIV" />
     <link role="executionEnvironment" roleId="bs99.8258261499132300351" targetNodeId="7170488887949089862" resolveInfo="mac150355_MS_Environment" />
+  </root>
+  <root type="bs99.ExecutionEnvironment" typeId="bs99.2051553890368778876" id="3593943491379233463" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="SpankyEnvironmentRemoteConnection_FC" />
+    <property name="owner" nameId="bs99.2051553890368778877" value="lmesd" />
+    <node role="pluginRepository" roleId="bs99.1997533223701807309" type="bs99.PluginRepository" typeId="bs99.1997533223701191426" id="3593943491379233464" nodeInfo="ng">
+      <property name="directory" nameId="bs99.1997533223701200855" value="/Users/fac2003/IdeaProjects/git/gobyweb2-plugins/" />
+      <property name="name" nameId="tpck.1169194664001" value="fac2003" />
+      <property name="numPluginsLoaded" nameId="bs99.5704832314560344592" value="149" />
+      <property name="loaded" nameId="bs99.5704832314560662319" value="true" />
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="4277119496933916045" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_ALL_FILES" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="4277119496933916046" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*-all-files.zip" />
+          <property name="name" nameId="tpck.1169194664001" value="ARCHIVE" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="4277119496933916047" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_BED" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="4277119496933916048" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*-all.bed.gz" />
+          <property name="name" nameId="tpck.1169194664001" value="BED" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="4277119496933916049" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="4277119496933916050" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.sequence-variation-stats.tsv" />
+          <property name="name" nameId="tpck.1169194664001" value="STATS" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="4277119496933916051" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_STATS" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="4277119496933916052" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.alignment-stats.txt" />
+          <property name="name" nameId="tpck.1169194664001" value="STATS" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="4277119496933916053" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_WIG" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="4277119496933916054" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*-all.wig.gz" />
+          <property name="name" nameId="tpck.1169194664001" value="BED" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="4277119496933916055" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="BAM_ALIGNMENT" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="4277119496933916056" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.bam" />
+          <property name="name" nameId="tpck.1169194664001" value="BAM" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="4277119496933916057" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.bam.bai" />
+          <property name="name" nameId="tpck.1169194664001" value="INDEX" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="4277119496933916058" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="COMPACT_READS" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="4277119496933916059" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.compact-reads" />
+          <property name="name" nameId="tpck.1169194664001" value="READS_FILE" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="4277119496933916060" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="COUNTS" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="4277119496933916061" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.counts" />
+          <property name="name" nameId="tpck.1169194664001" value="COUNTS" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="4277119496933916062" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="FASTQ" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="4277119496933916063" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.fastq" />
+          <property name="name" nameId="tpck.1169194664001" value="FASTQ" />
+        </node>
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="4277119496933916064" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.fq" />
+          <property name="name" nameId="tpck.1169194664001" value="FQ" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="4277119496933916065" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="FASTQ_GZ" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="4277119496933916066" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.fastq.gz" />
+          <property name="name" nameId="tpck.1169194664001" value="FASTQ_GZ" />
+        </node>
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="4277119496933916067" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.fq.gz" />
+          <property name="name" nameId="tpck.1169194664001" value="FQ_GZ" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="4277119496933916068" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="GOBY_ALIGNMENT" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="4277119496933916069" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.index" />
+          <property name="name" nameId="tpck.1169194664001" value="INDEX" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="4277119496933916070" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.header" />
+          <property name="name" nameId="tpck.1169194664001" value="HEADER" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="4277119496933916071" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.entries" />
+          <property name="name" nameId="tpck.1169194664001" value="ENTRIES" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="4277119496933916072" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.tmh" />
+          <property name="name" nameId="tpck.1169194664001" value="TMH" />
+        </node>
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="4277119496933916073" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.perm" />
+          <property name="name" nameId="tpck.1169194664001" value="PERM" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="4277119496933916074" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="GOBYWEB_MERGE_PLAN_FILE" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="4277119496933916075" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*details.tsv" />
+          <property name="name" nameId="tpck.1169194664001" value="MERGE_PLAN" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="4277119496933916076" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="GZ" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="4277119496933916077" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.gz" />
+          <property name="name" nameId="tpck.1169194664001" value="GZ" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="4277119496933916078" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="IGV" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="4277119496933916079" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.igv" />
+          <property name="name" nameId="tpck.1169194664001" value="IGV" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="4277119496933916080" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="4277119496933916081" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.log" />
+          <property name="name" nameId="tpck.1169194664001" value="LOG_HISTORY" />
+        </node>
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="4277119496933916082" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.properties" />
+          <property name="name" nameId="tpck.1169194664001" value="JOB_STATISTICS" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="4277119496933916083" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="LUCENE_INDEX" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="4277119496933916084" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.lucene.index" />
+          <property name="name" nameId="tpck.1169194664001" value="INDEX_DIR" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="4277119496933916085" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="PNG" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="4277119496933916086" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.png" />
+          <property name="name" nameId="tpck.1169194664001" value="PNG" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="4277119496933916087" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="R_SCRIPT" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="4277119496933916088" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.R" />
+          <property name="name" nameId="tpck.1169194664001" value="SCRIPT" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="4277119496933916089" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="READ_QUALITY_STATS" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="4277119496933916090" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.tsv" />
+          <property name="name" nameId="tpck.1169194664001" value="READ_QUALITY_STATS" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="4277119496933916091" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="READS_STATS_PROPERTIES_FILE" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="4277119496933916092" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.properties" />
+          <property name="name" nameId="tpck.1169194664001" value="STATS" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="4277119496933916093" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="STATS" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="4277119496933916094" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.stats" />
+          <property name="name" nameId="tpck.1169194664001" value="STATS" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="4277119496933916095" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="SUPPORTED_INPUT_READS" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="4277119496933916096" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.compact-reads" />
+          <property name="name" nameId="tpck.1169194664001" value="COMPACT_READ_FILES" />
+        </node>
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="4277119496933916097" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.fq.gz" />
+          <property name="name" nameId="tpck.1169194664001" value="FQ_GZ_FILES" />
+        </node>
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="4277119496933916098" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.fastq" />
+          <property name="name" nameId="tpck.1169194664001" value="FASTQ_FILES" />
+        </node>
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="4277119496933916099" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.fastq.gz" />
+          <property name="name" nameId="tpck.1169194664001" value="FASTQ_GZ_FILES" />
+        </node>
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="4277119496933916100" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.fq" />
+          <property name="name" nameId="tpck.1169194664001" value="FQ_FILES" />
+        </node>
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="4277119496933916101" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.fa" />
+          <property name="name" nameId="tpck.1169194664001" value="FA_FILES" />
+        </node>
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="4277119496933916102" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.fasta.gz" />
+          <property name="name" nameId="tpck.1169194664001" value="FASTA_GZ_FILES" />
+        </node>
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="4277119496933916103" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.fasta" />
+          <property name="name" nameId="tpck.1169194664001" value="FASTA_FILES" />
+        </node>
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="4277119496933916104" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.fa.gz" />
+          <property name="name" nameId="tpck.1169194664001" value="FA_GZ_FILES" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="4277119496933916105" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="TAR_GZ" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="4277119496933916106" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.tar.gz" />
+          <property name="name" nameId="tpck.1169194664001" value="TAR GZ" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="4277119496933916107" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="TSV" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="4277119496933916108" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.tsv" />
+          <property name="name" nameId="tpck.1169194664001" value="TSV" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="4277119496933916109" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="TXT" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="4277119496933916110" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.txt" />
+          <property name="name" nameId="tpck.1169194664001" value="TXT" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="4277119496933916111" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="VCF" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="4277119496933916112" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.vcf" />
+          <property name="name" nameId="tpck.1169194664001" value="VCF" />
+        </node>
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="4277119496933916113" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.vcf.gz" />
+          <property name="name" nameId="tpck.1169194664001" value="VCF_GZ" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="4277119496933916114" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="VCF_INDEX" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="4277119496933916115" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.vcf.tbi" />
+          <property name="name" nameId="tpck.1169194664001" value="VCF_INDEX" />
+        </node>
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="4277119496933916116" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.vcf.gz.tbi" />
+          <property name="name" nameId="tpck.1169194664001" value="VCF_INDEX_GZ" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="4277119496933916117" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="WEIGHT_FILES" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="4277119496933916118" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.gc-weights" />
+          <property name="name" nameId="tpck.1169194664001" value="GC_WEIGHTS" />
+        </node>
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="4277119496933916119" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.heptamers-weights" />
+          <property name="name" nameId="tpck.1169194664001" value="HEPTAMER_WEIGHTS" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="4277119496933916120" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="X_SQLITE3" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="4277119496933916121" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.db" />
+          <property name="name" nameId="tpck.1169194664001" value="TABLE" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.TaskConfig" typeId="dzk5.4277119496927940543" id="4277119496933916122" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="ANNOTATE_WITH_VEP" />
+        <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="4277119496933916123" nodeInfo="ng">
+          <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="4277119496933916124" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="INPUT_VCF" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6108592213961039118" id="4277119496933916125" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6108592213961039119" value="VCF" />
+              <property name="pluginDescription" nameId="935h.6108592213961276675" value="Variant Calling Format." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="4277119496933916126" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="EXECUTION_LOG" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6108592213961039118" id="4277119496933916127" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6108592213961039119" value="TXT" />
+              <property name="pluginDescription" nameId="935h.6108592213961276675" value="Plain text files." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="4277119496933916128" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ANNOTATED_VCF" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6108592213961039118" id="4277119496933916129" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6108592213961039119" value="VCF" />
+              <property name="pluginDescription" nameId="935h.6108592213961276675" value="Variant Calling Format." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="4277119496933916130" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6108592213961039118" id="4277119496933916131" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6108592213961039119" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6108592213961276675" value="Metadata associated to a job executed on the cluster." />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.TaskConfig" typeId="dzk5.4277119496927940543" id="4277119496933916132" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="PROCESS_READS_TASK" />
+        <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="4277119496933916133" nodeInfo="ng">
+          <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="4277119496933916134" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="UPLOADS_FILES" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6108592213961039118" id="4277119496933916135" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6108592213961039119" value="SUPPORTED_INPUT_READS" />
+              <property name="pluginDescription" nameId="935h.6108592213961276675" value="All supported input read file formats." />
+            </node>
+          </node>
+          <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="4277119496933916136" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="UPLOAD_MERGE_PLAN" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6108592213961039118" id="4277119496933916137" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6108592213961039119" value="GOBYWEB_MERGE_PLAN_FILE" />
+              <property name="pluginDescription" nameId="935h.6108592213961276675" value="The read merge plan file. Used to be called the details.tsv file." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="4277119496933916138" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="COMPACT_READ_FILES" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6108592213961039118" id="4277119496933916139" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6108592213961039119" value="COMPACT_READS" />
+              <property name="pluginDescription" nameId="935h.6108592213961276675" value="compact reads format" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="4277119496933916140" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="READ_QUALITY_STATS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6108592213961039118" id="4277119496933916141" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6108592213961039119" value="READ_QUALITY_STATS" />
+              <property name="pluginDescription" nameId="935h.6108592213961276675" value="TSV file with read quality score statistics. Generated with the Goby reads-stats mode." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="4277119496933916142" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="WEIGHT_FILES" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6108592213961039118" id="4277119496933916143" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6108592213961039119" value="WEIGHT_FILES" />
+              <property name="pluginDescription" nameId="935h.6108592213961276675" value="Goby Weight file format" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="4277119496933916144" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="OUTPUT_STATS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6108592213961039118" id="4277119496933916145" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6108592213961039119" value="READS_STATS_PROPERTIES_FILE" />
+              <property name="pluginDescription" nameId="935h.6108592213961276675" value="Statistics about a reads file, in Java properties format. Contains file size information and other meta-data. " />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="4277119496933916146" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6108592213961039118" id="4277119496933916147" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6108592213961039119" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6108592213961276675" value="Metadata associated to a job executed on the cluster." />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.TaskConfig" typeId="dzk5.4277119496927940543" id="4277119496933916148" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="TEST_GOBY_JAVA_R_INTERFACE" />
+        <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="4277119496933916149" nodeInfo="ng">
+          <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="4277119496933916150" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="DUMMY" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6108592213961039118" id="4277119496933916151" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6108592213961039119" value="SUPPORTED_INPUT_READS" />
+              <property name="pluginDescription" nameId="935h.6108592213961276675" value="All supported input read file formats." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="4277119496933916152" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="EXECUTION_LOG" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6108592213961039118" id="4277119496933916153" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6108592213961039119" value="TXT" />
+              <property name="pluginDescription" nameId="935h.6108592213961276675" value="Plain text files." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="4277119496933916154" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6108592213961039118" id="4277119496933916155" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6108592213961039119" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6108592213961276675" value="Metadata associated to a job executed on the cluster." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="filesetArea" roleId="bs99.2051553890368785072" type="bs99.FileSetArea" typeId="bs99.2051553890368756473" id="4277119496925872826" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="SpankyArea" />
+      <property name="path" nameId="bs99.6449713081311703917" value="/zenodotus/campagnelab/store/data/gobyweb/dev/FILESET_AREA" />
+      <link role="sshService" roleId="bs99.6449713081311510412" targetNodeId="2243041462222181573" resolveInfo="SpankyNode" />
+      <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="4277119496927243603" nodeInfo="ng">
+        <property name="tag" nameId="bs99.2051553890368778934" value="ASAS" />
+        <property name="isRegistered" nameId="bs99.5260963271977142244" value="false" />
+        <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="4277119496925872826" resolveInfo="SpankyArea" />
+        <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="4277119496927243604" nodeInfo="ng" />
+      </node>
+      <node role="manager" roleId="bs99.664989078355375332" type="bs99.FileSetAreaRPCManager" typeId="bs99.664989078345324995" id="4277119496926027165" nodeInfo="ng">
+        <property name="unreacheable" nameId="bs99.1460397808271971603" value="true" />
+        <property name="connected" nameId="bs99.4344503499510198037" value="false" />
+        <link role="fileSetArea" roleId="bs99.664989078345325375" targetNodeId="4277119496925872826" resolveInfo="SpankyArea" />
+        <link role="sshServerInfo" roleId="bs99.1460397808274864667" targetNodeId="2243041462222181573" resolveInfo="SpankyNode" />
+        <link role="fileSetServerConnectionPort" roleId="bs99.664989078348064771" targetNodeId="4277119496925952097" resolveInfo="FileSetService" />
+      </node>
+    </node>
+  </root>
+  <root type="bs99.ExecutionEnvironment" typeId="bs99.2051553890368778876" id="2300979037628900195" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="Testin" />
+    <node role="pluginRepository" roleId="bs99.1997533223701807309" type="bs99.PluginRepository" typeId="bs99.1997533223701191426" id="2300979037628900196" nodeInfo="ng" />
   </root>
 </model>
 

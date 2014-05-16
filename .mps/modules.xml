@@ -6,6 +6,7 @@
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.clusterConfig/org.campagnelab.clusterConfig.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.filters/org.campagnelab.filters.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.gobyweb.interactive/org.campagnelab.gobyweb.interactive.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.gobyweb.plugins/org.campagnelab.gobyweb.plugins.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.gobyweb/org.campagnelab.gobyweb.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.nyosh.environment/org.campagnelab.nyosh.environment.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.nyosh.gstring/org.campagnelab.nyosh.gstring.mpl" folder="" />
