@@ -11,7 +11,7 @@
   <import index="4i4s" modelUID="f:java_stub#0202ed86-955d-4227-9c20-377dd6b1f9ff#org.campagnelab.nyosh.logging(org.campagnelab.nyosh.lib/org.campagnelab.nyosh.logging@java_stub)" version="-1" />
   <import index="fxg7" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" implicit="yes" />
+  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
   <import index="6pk0" modelUID="r:48f4e449-1a18-435e-ae88-4830aa794dc7(org.campagnelab.nyosh.environment.structure)" version="17" implicit="yes" />
   <import index="f2ff" modelUID="r:48d5f7d2-24be-4d82-ac12-8f4a2d414b11(org.campagnelab.nyosh.gstring.structure)" version="-1" implicit="yes" />
   <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(org.campagnelab.NYoSh.structure)" version="30" implicit="yes" />
@@ -730,7 +730,7 @@
         </node>
       </node>
     </node>
-    <node role="pluginRegistry" roleId="935h.8463050739472729035" type="935h.PluginRegistry" typeId="935h.6108592213966356756" id="2477885976700857086" nodeInfo="ng" />
+    <node role="pluginRegistry" roleId="935h.8463050739472729035" type=".org.campagnelab.gobyweb.structure.PluginRegistry" id="2477885976700857086" nodeInfo="ng" />
     <node role="pluginSystem" roleId="935h.1090105717920801999" type="935h.PluginSystemRootDirectory" typeId="935h.6874736155930792596" id="2477885976700859096" nodeInfo="ng">
       <property name="path" nameId="935h.6874736155930792624" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins" />
       <property name="lastValidationMessage" nameId="935h.78530767374283936" value="GobyWeb runtime environment successfully loaded" />
@@ -738,44 +738,44 @@
     </node>
     <node role="inputSlots" roleId="935h.8463050739468865638" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="8947616726745990804" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="INPUT_READS" />
-      <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6108592213961039118" id="8947616726745990805" nodeInfo="ng">
-        <property name="pluginID" nameId="935h.6108592213961039119" value="COMPACT_READS" />
-        <property name="pluginDescription" nameId="935h.6108592213961276675" value="compact reads format" />
+      <node role="instanceOf" roleId="dzk5.4277119496930270549" type=".org.campagnelab.gobyweb.structure.PluginReference" id="8947616726745990805" nodeInfo="ng">
+        <property name="pluginID" value="COMPACT_READS" />
+        <property name="pluginDescription" value="compact reads format" />
       </node>
     </node>
     <node role="inputSlots" roleId="935h.8463050739468865638" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="8947616726745990806" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="TEXT" />
-      <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6108592213961039118" id="8947616726745990807" nodeInfo="ng">
-        <property name="pluginID" nameId="935h.6108592213961039119" value="PLAIN_TEXT" />
-        <property name="pluginDescription" nameId="935h.6108592213961276675" value="File in plain text format." />
+      <node role="instanceOf" roleId="dzk5.4277119496930270549" type=".org.campagnelab.gobyweb.structure.PluginReference" id="8947616726745990807" nodeInfo="ng">
+        <property name="pluginID" value="PLAIN_TEXT" />
+        <property name="pluginDescription" value="File in plain text format." />
       </node>
     </node>
     <node role="inputSlots" roleId="935h.8463050739468865638" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="8947616726745990808" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="IMAGE" />
-      <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6108592213961039118" id="8947616726745990809" nodeInfo="ng">
-        <property name="pluginID" nameId="935h.6108592213961039119" value="PNG" />
-        <property name="pluginDescription" nameId="935h.6108592213961276675" value="Portable Network Graphics" />
+      <node role="instanceOf" roleId="dzk5.4277119496930270549" type=".org.campagnelab.gobyweb.structure.PluginReference" id="8947616726745990809" nodeInfo="ng">
+        <property name="pluginID" value="PNG" />
+        <property name="pluginDescription" value="Portable Network Graphics" />
       </node>
     </node>
     <node role="outputSlots" roleId="935h.8463050739468865642" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8947616726745990810" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="STATS" />
-      <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6108592213961039118" id="8947616726745990811" nodeInfo="ng">
-        <property name="pluginID" nameId="935h.6108592213961039119" value="TSV" />
-        <property name="pluginDescription" nameId="935h.6108592213961276675" value="A tab-separated values file is a simple text format for a database table.&#10;        Each record in the table is one line of the text file. Each field value of a record is separated from the next by a tab stop character." />
+      <node role="instanceOf" roleId="dzk5.4277119496930270549" type=".org.campagnelab.gobyweb.structure.PluginReference" id="8947616726745990811" nodeInfo="ng">
+        <property name="pluginID" value="TSV" />
+        <property name="pluginDescription" value="A tab-separated values file is a simple text format for a database table.&#10;        Each record in the table is one line of the text file. Each field value of a record is separated from the next by a tab stop character." />
       </node>
     </node>
     <node role="outputSlots" roleId="935h.8463050739468865642" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8947616726745990812" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="FOO" />
-      <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6108592213961039118" id="8947616726745990813" nodeInfo="ng">
-        <property name="pluginID" nameId="935h.6108592213961039119" value="PNG" />
-        <property name="pluginDescription" nameId="935h.6108592213961276675" value="Portable Network Graphics" />
+      <node role="instanceOf" roleId="dzk5.4277119496930270549" type=".org.campagnelab.gobyweb.structure.PluginReference" id="8947616726745990813" nodeInfo="ng">
+        <property name="pluginID" value="PNG" />
+        <property name="pluginDescription" value="Portable Network Graphics" />
       </node>
     </node>
     <node role="outputSlots" roleId="935h.8463050739468865642" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8947616726745990814" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="VCF" />
-      <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6108592213961039118" id="8947616726745990815" nodeInfo="ng">
-        <property name="pluginID" nameId="935h.6108592213961039119" value="VCF" />
-        <property name="pluginDescription" nameId="935h.6108592213961276675" value="Variant Calling Format." />
+      <node role="instanceOf" roleId="dzk5.4277119496930270549" type=".org.campagnelab.gobyweb.structure.PluginReference" id="8947616726745990815" nodeInfo="ng">
+        <property name="pluginID" value="VCF" />
+        <property name="pluginDescription" value="Variant Calling Format." />
       </node>
     </node>
   </root>

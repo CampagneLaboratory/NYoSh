@@ -4959,7 +4959,7 @@
         <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.TemplateFragment" typeId="tpf8.1095672379244" id="435930706556389260" nodeInfo="ng" />
         <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.MapSrcNodeMacro" typeId="tpf8.1131073187192" id="435930706556389261" nodeInfo="nn" />
       </node>
-      <node role="member" roleId="tpee.5375687026011219971" type="4tvk.StepsLoggerDeclared" typeId="4tvk.435930706556016201" id="435930706556389262" nodeInfo="ngu">
+      <node role="member" roleId="tpee.5375687026011219971" type="4tvk.StepsLoggerDeclared" typeId="4tvk.435930706556016201" id="435930706556389262" nodeInfo="igu">
         <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.TemplateFragment" typeId="tpf8.1095672379244" id="435930706556389263" nodeInfo="ng" />
       </node>
       <node role="member" roleId="tpee.5375687026011219971" type="tpee.StaticMethodDeclaration" typeId="tpee.1081236700938" id="435930706556389264" nodeInfo="igu">

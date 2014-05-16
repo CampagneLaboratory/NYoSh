@@ -10,7 +10,7 @@
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" />
   <import index="fxg7" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" implicit="yes" />
+  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
   <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="19" implicit="yes" />
   <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(org.campagnelab.NYoSh.structure)" version="30" implicit="yes" />
   <import index="6pk0" modelUID="r:48f4e449-1a18-435e-ae88-4830aa794dc7(org.campagnelab.nyosh.environment.structure)" version="17" implicit="yes" />
@@ -304,7 +304,7 @@
         </node>
       </node>
     </node>
-    <node role="pluginRegistry" roleId="935h.8463050739472729035" type="935h.PluginRegistry" typeId="935h.6108592213966356756" id="4220326230008251875" nodeInfo="ng" />
+    <node role="pluginRegistry" roleId="935h.8463050739472729035" type=".org.campagnelab.gobyweb.structure.PluginRegistry" id="4220326230008251875" nodeInfo="ng" />
   </root>
   <root type="4tvk.ErrorManagement" typeId="4tvk.8594065538792360516" id="4220326230008252204" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="MyErrorManagement" />
@@ -623,7 +623,7 @@
         </node>
       </node>
     </node>
-    <node role="pluginRegistry" roleId="935h.8463050739472729035" type="935h.PluginRegistry" typeId="935h.6108592213966356756" id="3050176288335137199" nodeInfo="ng" />
+    <node role="pluginRegistry" roleId="935h.8463050739472729035" type=".org.campagnelab.gobyweb.structure.PluginRegistry" id="3050176288335137199" nodeInfo="ng" />
   </root>
 </model>
 
