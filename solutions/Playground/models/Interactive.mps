@@ -12,7 +12,6 @@
   <import index="9k5" modelUID="r:df9645c2-d2fa-41cb-a718-044a287b0626(org.campagnelab.clusterConfig.structure)" version="3" implicit="yes" />
   <import index="eith" modelUID="r:1ed73e49-326d-4559-947b-13dfd134d00a(org.campagnelab.ssh.structure)" version="-1" implicit="yes" />
   <import index="dzk5" modelUID="r:2bfcc546-5c51-4762-9df2-c43920be4458(org.campagnelab.gobyweb.plugins.structure)" version="0" implicit="yes" />
-  <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="28" implicit="yes" />
   <root type="bs99.ExecutionEnvironment" typeId="bs99.2051553890368778876" id="5704832314560950104" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="mac158665_FC_Environment" />
     <property name="owner" nameId="bs99.2051553890368778877" value="fac2003" />
@@ -29,8 +28,9 @@
     </node>
   </root>
   <root type="bs99.Logger" typeId="bs99.1997533223712647372" id="7039650749314407366" nodeInfo="ng">
-    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="4277119496933916156" nodeInfo="ng">
-      <property name="message" nameId="bs99.7039650749312735043" value="Number of plugin definitions loaded: 149" />
+    <node role="messages" roleId="bs99.7039650749312735045" type="bs99.Message" typeId="bs99.7039650749312734952" id="2105345521166845994" nodeInfo="ng">
+      <property name="message" nameId="bs99.7039650749312735043" value="Ping logger with source" />
+      <link role="source" roleId="bs99.3568673897465980090" targetNodeId="4277119496926027165" />
     </node>
   </root>
   <root type="bs99.RegisterFileTool" typeId="bs99.2954990197977709385" id="6498979092225701287" nodeInfo="ng">
@@ -219,17 +219,17 @@
       <property name="name" nameId="tpck.1169194664001" value="FileSetService" />
       <link role="targetNode" roleId="9k5.664989078347742108" targetNodeId="2243041462222181624" resolveInfo="localhost" />
     </node>
-    <node role="ports" roleId="9k5.664989078351252753" type="9k5.TunneledConnectionPort" typeId="9k5.1460397808273936077" id="4277119496927243658" nodeInfo="ng">
+    <node role="ports" roleId="9k5.664989078351252753" type="9k5.TunneledConnectionPort" typeId="9k5.1460397808273936077" id="2105345521166845995" nodeInfo="ng">
       <property name="number" nameId="9k5.664989078347184651" value="8849" />
       <property name="name" nameId="tpck.1169194664001" value="fileSetService" />
       <link role="remotePort" roleId="9k5.1460397808273936078" targetNodeId="7170488887945420198" resolveInfo="FileSetServerOnSpanky" />
       <link role="targetNode" roleId="9k5.664989078347742108" targetNodeId="2243041462222181624" resolveInfo="localhost" />
-      <node role="tunnel" roleId="9k5.1460397808273941271" type="eith.SshPortForwarding" typeId="eith.2967045841109794120" id="4277119496927243659" nodeInfo="ng">
+      <node role="tunnel" roleId="9k5.1460397808273941271" type="eith.SshPortForwarding" typeId="eith.2967045841109794120" id="2105345521166845996" nodeInfo="ng">
         <property name="username" nameId="eith.2967045841109813398" value="gobyweb" />
         <property name="host" nameId="eith.2967045841109813400" value="spanky.med.cornell.edu" />
         <property name="port" nameId="eith.2967045841109813403" value="8849" />
         <property name="usePrivateKey" nameId="eith.2096113691307818463" value="true" />
-        <property name="connected" nameId="eith.2967045841109813407" value="false" />
+        <property name="connected" nameId="eith.2967045841109813407" value="true" />
       </node>
     </node>
   </root>
@@ -727,30 +727,30 @@
         <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="4277119496933916123" nodeInfo="ng">
           <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="4277119496933916124" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="INPUT_VCF" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6108592213961039118" id="4277119496933916125" nodeInfo="ng">
-              <property name="pluginID" nameId="935h.6108592213961039119" value="VCF" />
-              <property name="pluginDescription" nameId="935h.6108592213961276675" value="Variant Calling Format." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type=".org.campagnelab.gobyweb.structure.PluginReference" id="4277119496933916125" nodeInfo="ng">
+              <property name="pluginID" value="VCF" />
+              <property name="pluginDescription" value="Variant Calling Format." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="4277119496933916126" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="EXECUTION_LOG" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6108592213961039118" id="4277119496933916127" nodeInfo="ng">
-              <property name="pluginID" nameId="935h.6108592213961039119" value="TXT" />
-              <property name="pluginDescription" nameId="935h.6108592213961276675" value="Plain text files." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type=".org.campagnelab.gobyweb.structure.PluginReference" id="4277119496933916127" nodeInfo="ng">
+              <property name="pluginID" value="TXT" />
+              <property name="pluginDescription" value="Plain text files." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="4277119496933916128" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ANNOTATED_VCF" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6108592213961039118" id="4277119496933916129" nodeInfo="ng">
-              <property name="pluginID" nameId="935h.6108592213961039119" value="VCF" />
-              <property name="pluginDescription" nameId="935h.6108592213961276675" value="Variant Calling Format." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type=".org.campagnelab.gobyweb.structure.PluginReference" id="4277119496933916129" nodeInfo="ng">
+              <property name="pluginID" value="VCF" />
+              <property name="pluginDescription" value="Variant Calling Format." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="4277119496933916130" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6108592213961039118" id="4277119496933916131" nodeInfo="ng">
-              <property name="pluginID" nameId="935h.6108592213961039119" value="JOB_METADATA" />
-              <property name="pluginDescription" nameId="935h.6108592213961276675" value="Metadata associated to a job executed on the cluster." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type=".org.campagnelab.gobyweb.structure.PluginReference" id="4277119496933916131" nodeInfo="ng">
+              <property name="pluginID" value="JOB_METADATA" />
+              <property name="pluginDescription" value="Metadata associated to a job executed on the cluster." />
             </node>
           </node>
         </node>
@@ -761,51 +761,51 @@
         <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="4277119496933916133" nodeInfo="ng">
           <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="4277119496933916134" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="UPLOADS_FILES" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6108592213961039118" id="4277119496933916135" nodeInfo="ng">
-              <property name="pluginID" nameId="935h.6108592213961039119" value="SUPPORTED_INPUT_READS" />
-              <property name="pluginDescription" nameId="935h.6108592213961276675" value="All supported input read file formats." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type=".org.campagnelab.gobyweb.structure.PluginReference" id="4277119496933916135" nodeInfo="ng">
+              <property name="pluginID" value="SUPPORTED_INPUT_READS" />
+              <property name="pluginDescription" value="All supported input read file formats." />
             </node>
           </node>
           <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="4277119496933916136" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="UPLOAD_MERGE_PLAN" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6108592213961039118" id="4277119496933916137" nodeInfo="ng">
-              <property name="pluginID" nameId="935h.6108592213961039119" value="GOBYWEB_MERGE_PLAN_FILE" />
-              <property name="pluginDescription" nameId="935h.6108592213961276675" value="The read merge plan file. Used to be called the details.tsv file." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type=".org.campagnelab.gobyweb.structure.PluginReference" id="4277119496933916137" nodeInfo="ng">
+              <property name="pluginID" value="GOBYWEB_MERGE_PLAN_FILE" />
+              <property name="pluginDescription" value="The read merge plan file. Used to be called the details.tsv file." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="4277119496933916138" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="COMPACT_READ_FILES" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6108592213961039118" id="4277119496933916139" nodeInfo="ng">
-              <property name="pluginID" nameId="935h.6108592213961039119" value="COMPACT_READS" />
-              <property name="pluginDescription" nameId="935h.6108592213961276675" value="compact reads format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type=".org.campagnelab.gobyweb.structure.PluginReference" id="4277119496933916139" nodeInfo="ng">
+              <property name="pluginID" value="COMPACT_READS" />
+              <property name="pluginDescription" value="compact reads format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="4277119496933916140" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="READ_QUALITY_STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6108592213961039118" id="4277119496933916141" nodeInfo="ng">
-              <property name="pluginID" nameId="935h.6108592213961039119" value="READ_QUALITY_STATS" />
-              <property name="pluginDescription" nameId="935h.6108592213961276675" value="TSV file with read quality score statistics. Generated with the Goby reads-stats mode." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type=".org.campagnelab.gobyweb.structure.PluginReference" id="4277119496933916141" nodeInfo="ng">
+              <property name="pluginID" value="READ_QUALITY_STATS" />
+              <property name="pluginDescription" value="TSV file with read quality score statistics. Generated with the Goby reads-stats mode." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="4277119496933916142" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="WEIGHT_FILES" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6108592213961039118" id="4277119496933916143" nodeInfo="ng">
-              <property name="pluginID" nameId="935h.6108592213961039119" value="WEIGHT_FILES" />
-              <property name="pluginDescription" nameId="935h.6108592213961276675" value="Goby Weight file format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type=".org.campagnelab.gobyweb.structure.PluginReference" id="4277119496933916143" nodeInfo="ng">
+              <property name="pluginID" value="WEIGHT_FILES" />
+              <property name="pluginDescription" value="Goby Weight file format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="4277119496933916144" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="OUTPUT_STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6108592213961039118" id="4277119496933916145" nodeInfo="ng">
-              <property name="pluginID" nameId="935h.6108592213961039119" value="READS_STATS_PROPERTIES_FILE" />
-              <property name="pluginDescription" nameId="935h.6108592213961276675" value="Statistics about a reads file, in Java properties format. Contains file size information and other meta-data. " />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type=".org.campagnelab.gobyweb.structure.PluginReference" id="4277119496933916145" nodeInfo="ng">
+              <property name="pluginID" value="READS_STATS_PROPERTIES_FILE" />
+              <property name="pluginDescription" value="Statistics about a reads file, in Java properties format. Contains file size information and other meta-data. " />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="4277119496933916146" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6108592213961039118" id="4277119496933916147" nodeInfo="ng">
-              <property name="pluginID" nameId="935h.6108592213961039119" value="JOB_METADATA" />
-              <property name="pluginDescription" nameId="935h.6108592213961276675" value="Metadata associated to a job executed on the cluster." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type=".org.campagnelab.gobyweb.structure.PluginReference" id="4277119496933916147" nodeInfo="ng">
+              <property name="pluginID" value="JOB_METADATA" />
+              <property name="pluginDescription" value="Metadata associated to a job executed on the cluster." />
             </node>
           </node>
         </node>
@@ -816,23 +816,23 @@
         <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="4277119496933916149" nodeInfo="ng">
           <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="4277119496933916150" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="DUMMY" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6108592213961039118" id="4277119496933916151" nodeInfo="ng">
-              <property name="pluginID" nameId="935h.6108592213961039119" value="SUPPORTED_INPUT_READS" />
-              <property name="pluginDescription" nameId="935h.6108592213961276675" value="All supported input read file formats." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type=".org.campagnelab.gobyweb.structure.PluginReference" id="4277119496933916151" nodeInfo="ng">
+              <property name="pluginID" value="SUPPORTED_INPUT_READS" />
+              <property name="pluginDescription" value="All supported input read file formats." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="4277119496933916152" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="EXECUTION_LOG" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6108592213961039118" id="4277119496933916153" nodeInfo="ng">
-              <property name="pluginID" nameId="935h.6108592213961039119" value="TXT" />
-              <property name="pluginDescription" nameId="935h.6108592213961276675" value="Plain text files." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type=".org.campagnelab.gobyweb.structure.PluginReference" id="4277119496933916153" nodeInfo="ng">
+              <property name="pluginID" value="TXT" />
+              <property name="pluginDescription" value="Plain text files." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="4277119496933916154" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6108592213961039118" id="4277119496933916155" nodeInfo="ng">
-              <property name="pluginID" nameId="935h.6108592213961039119" value="JOB_METADATA" />
-              <property name="pluginDescription" nameId="935h.6108592213961276675" value="Metadata associated to a job executed on the cluster." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type=".org.campagnelab.gobyweb.structure.PluginReference" id="4277119496933916155" nodeInfo="ng">
+              <property name="pluginID" value="JOB_METADATA" />
+              <property name="pluginDescription" value="Metadata associated to a job executed on the cluster." />
             </node>
           </node>
         </node>
@@ -852,8 +852,8 @@
         <property name="unreacheable" nameId="bs99.1460397808271971603" value="true" />
         <property name="connected" nameId="bs99.4344503499510198037" value="false" />
         <link role="fileSetArea" roleId="bs99.664989078345325375" targetNodeId="4277119496925872826" resolveInfo="SpankyArea" />
+        <link role="fileSetServerConnectionPort" roleId="bs99.664989078348064771" targetNodeId="2105345521166845995" resolveInfo="fileSetService" />
         <link role="sshServerInfo" roleId="bs99.1460397808274864667" targetNodeId="2243041462222181573" resolveInfo="SpankyNode" />
-        <link role="fileSetServerConnectionPort" roleId="bs99.664989078348064771" targetNodeId="4277119496925952097" resolveInfo="FileSetService" />
       </node>
     </node>
   </root>
