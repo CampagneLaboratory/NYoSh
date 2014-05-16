@@ -177,6 +177,9 @@
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="4277119496930217564" resolveInfo="IOSchema" />
     </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="5752449153162568833" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="2105345521169941063" resolveInfo="ResourceConsumer" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2105345521168953464" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="AlignerConfig" />
@@ -209,7 +212,7 @@
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="requires" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="2105345521169244661" resolveInfo="ResourceConfig" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="2105345521169244678" resolveInfo="ResourceRef" />
     </node>
   </root>
 </model>
