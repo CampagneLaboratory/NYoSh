@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:2bfcc546-5c51-4762-9df2-c43920be4458(org.campagnelab.gobyweb.plugins.structure)" version="0">
+<model modelUID="r:2bfcc546-5c51-4762-9df2-c43920be4458(org.campagnelab.gobyweb.plugins.structure)" version="1">
   <persistence version="8" />
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
   <language namespace="ed6d7656-532c-4bc2-81d1-af945aeb8280(jetbrains.mps.baseLanguage.blTypes)" />
@@ -18,7 +18,7 @@
   <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="28" />
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="dzk5" modelUID="r:2bfcc546-5c51-4762-9df2-c43920be4458(org.campagnelab.gobyweb.plugins.structure)" version="0" implicit="yes" />
+  <import index="dzk5" modelUID="r:2bfcc546-5c51-4762-9df2-c43920be4458(org.campagnelab.gobyweb.plugins.structure)" version="1" implicit="yes" />
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4277119496927940478" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="PluginConfig" />
     <property name="rootable" nameId="tpce.1096454100552" value="true" />
@@ -34,13 +34,7 @@
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4277119496927940543" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="TaskConfig" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="4277119496927940478" resolveInfo="PluginConfig" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="4277119496930247909" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="ioSchema" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="4277119496930217564" resolveInfo="IOSchema" />
-    </node>
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="2105345521168932836" resolveInfo="ExecutableConfig" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4277119496930217564" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="IOSchema" />
@@ -172,6 +166,50 @@
       <property name="role" nameId="tpce.1071599776563" value="plugins" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="4277119496927940478" resolveInfo="PluginConfig" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2105345521168932836" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="ExecutableConfig" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="4277119496927940478" resolveInfo="PluginConfig" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="4277119496930247909" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="ioSchema" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="4277119496930217564" resolveInfo="IOSchema" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2105345521168953464" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="AlignerConfig" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="2105345521168932836" resolveInfo="ExecutableConfig" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2105345521169223215" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="AlignmentAnalysisConfig" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="2105345521168932836" resolveInfo="ExecutableConfig" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2105345521169244661" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="ResourceConfig" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="4277119496927940478" resolveInfo="PluginConfig" />
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="2105345521169941065" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="2105345521169941063" resolveInfo="ResourceConsumer" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2105345521169244678" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="ResourceRef" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="2105345521169244679" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
+      <property name="role" nameId="tpce.1071599776563" value="resource" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="2105345521169244661" resolveInfo="ResourceConfig" />
+    </node>
+  </root>
+  <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="2105345521169941063" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="ResourceConsumer" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="2105345521169244662" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="requires" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="2105345521169244661" resolveInfo="ResourceConfig" />
     </node>
   </root>
 </model>
