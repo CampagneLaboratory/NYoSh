@@ -2,36 +2,6 @@
 <history>
   <StructureModification>
     <dependencies>
-      <model index="36xx" modelUID="r:31af932a-3b06-429d-8d4c-b0b4ebe2bde6(NYoSh.editor)" version="4" />
-      <model index="uk16" modelUID="r:63193f4d-76a2-48d4-b116-0f4aaae07639(org.campagnelab.gobyweb.editor)" version="-1" />
-      <model index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="10" />
-      <model index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="-1" />
-    </dependencies>
-    <move id="4tvk.3645074773125579819" to="935h.1090105717921353608" />
-    <move id="4tvk.3645074773125579816" to="935h.1090105717921353607" />
-    <move id="4tvk.3645074773125579814" to="935h.1090105717921353606" />
-    <move id="4tvk.3645074773131328305" to="935h.1090105717921353605" />
-    <move id="36xx.3645074773131892986" to="uk16.1090105717921353613" />
-    <move id="36xx.3645074773131892981" to="uk16.1090105717921353620" />
-    <move id="36xx.3645074773131892995" to="uk16.1090105717921353626" />
-    <move id="36xx.3645074773131892994" to="uk16.1090105717921353625" />
-    <move id="36xx.3645074773132124507" to="uk16.1090105717921353611" />
-    <move id="36xx.3645074773131892979" to="uk16.1090105717921353617" />
-    <move id="36xx.3645074773131892980" to="uk16.1090105717921353618" />
-    <move id="36xx.3645074773132124506" to="uk16.1090105717921353610" />
-    <move id="36xx.3645074773131892989" to="uk16.1090105717921353616" />
-    <move id="36xx.3645074773131893068" to="uk16.1090105717921353623" />
-    <move id="36xx.3645074773131892988" to="uk16.1090105717921353615" />
-    <move id="36xx.3645074773132124753" to="uk16.1090105717921353621" />
-    <move id="36xx.3645074773131892976" to="uk16.1090105717921353609" />
-    <move id="36xx.3645074773131892992" to="uk16.1090105717921353622" />
-    <move id="36xx.3645074773131892987" to="uk16.1090105717921353614" />
-    <move id="36xx.3645074773132513562" to="uk16.1090105717921353619" />
-    <move id="36xx.3645074773131892978" to="uk16.1090105717921353612" />
-    <move id="36xx.3645074773131892993" to="uk16.1090105717921353624" />
-  </StructureModification>
-  <StructureModification>
-    <dependencies>
       <model index="uk16" modelUID="r:63193f4d-76a2-48d4-b116-0f4aaae07639(org.campagnelab.gobyweb.editor)" version="0" />
       <model index="tz7f" modelUID="r:0daf8a5d-1b34-4935-9c8e-e84fc9bdf15c(org.campagnelab.gobyweb.plugins.editor)" version="-1" />
       <model index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="27" />
