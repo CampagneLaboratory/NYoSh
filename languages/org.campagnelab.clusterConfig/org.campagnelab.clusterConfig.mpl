@@ -6,9 +6,7 @@
       <sourceRoot location="languageAccessories" />
     </modelRoot>
   </models>
-  <accessoryModels>
-    <model modelUID="r:d84b3d01-65da-4311-8c64-2164fc19b6d9(org.campagnelab.clusterConfig.wellknownhosts)" />
-  </accessoryModels>
+  <accessoryModels />
   <generators>
     <generator generatorUID="org.campagnelab.clusterConfig#3050176288337496437" uuid="424c0944-2c4e-4f8b-b132-b35f906151f9">
       <models>
@@ -31,12 +29,9 @@
   <sourcePath />
   <dependencies>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
-    <dependency reexport="false">a8fb88b0-7e9f-478c-aab4-a1b076131192(org.campagnelab.gobyweb.interactive)</dependency>
+    <dependency reexport="true">739d80d1-3140-4725-8403-2cf19f3a52ed(org.campagnelab.clusterconfig.accessory)</dependency>
     <dependency reexport="false">857bd616-7b17-4127-8074-519f20641bdb(org.campagnelab.ssh)</dependency>
   </dependencies>
-  <usedLanguages>
-    <usedLanguage>857bd616-7b17-4127-8074-519f20641bdb(org.campagnelab.ssh)</usedLanguage>
-  </usedLanguages>
   <usedDevKits>
     <usedDevKit>fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)</usedDevKit>
     <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>

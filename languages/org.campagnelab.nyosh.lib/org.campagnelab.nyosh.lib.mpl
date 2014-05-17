@@ -26,17 +26,16 @@
   </facets>
   <accessoryModels />
   <generators>
-    <generator name="externalDependencies" generatorUID="org.campagnelab.nyosh.lib#196851695325922999" uuid="eee4aaaa-c2c2-4aba-8c23-b077e2fcd505">
+    <generator name="main" generatorUID="org.campagnelab.nyosh.lib#2108047589035521983" uuid="71502830-66bc-4ce0-bdbf-2d7ea7b83989">
       <models>
-        <modelRoot contentPath="${module}" type="default">
-          <sourceRoot location="generator/template" />
+        <modelRoot contentPath="${module}/generator/template" type="default">
+          <sourceRoot location="." />
         </modelRoot>
       </models>
       <external-templates />
       <usedLanguages>
         <usedLanguage>b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)</usedLanguage>
         <usedLanguage>d7706f63-9be2-479c-a3da-ae92af1e64d5(jetbrains.mps.lang.generator.generationContext)</usedLanguage>
-        <usedLanguage>0202ed86-955d-4227-9c20-377dd6b1f9ff(org.campagnelab.nyosh.lib)</usedLanguage>
       </usedLanguages>
       <usedDevKits>
         <usedDevKit>fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)</usedDevKit>
@@ -60,9 +59,6 @@
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/serverside-dependencies-1.0.8-full.jar" />
   </stubModelEntries>
   <sourcePath />
-  <dependencies>
-    <dependency reexport="false">a1250a4d-c090-42c3-ad7c-d298a3357dd4(jetbrains.mps.make.runtime)</dependency>
-  </dependencies>
   <usedDevKits>
     <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>
   </usedDevKits>

@@ -20,6 +20,7 @@
     <usedLanguage>7620dd3f-7541-48a3-b1e6-01cced81a7a5(org.campagnelab.clusterConfig)</usedLanguage>
     <usedLanguage>4661f6e3-bd92-4cca-9e33-7f5eed9b34ac(org.campagnelab.filters)</usedLanguage>
     <usedLanguage>adfd00cb-58d7-4094-bca8-f941a491e04f(org.campagnelab.gobyweb)</usedLanguage>
+    <usedLanguage>27f97fd8-caeb-43a0-a73f-f8ac957f3a17(org.campagnelab.gobyweb.environment)</usedLanguage>
     <usedLanguage>a8fb88b0-7e9f-478c-aab4-a1b076131192(org.campagnelab.gobyweb.interactive)</usedLanguage>
     <usedLanguage>0b7d8bbd-896e-495e-be60-01a0d738a649(org.campagnelab.gobyweb.plugins)</usedLanguage>
     <usedLanguage>0f071fdb-3faa-4b8c-9f5e-1da0a01466d5(org.campagnelab.nyosh.environment)</usedLanguage>
