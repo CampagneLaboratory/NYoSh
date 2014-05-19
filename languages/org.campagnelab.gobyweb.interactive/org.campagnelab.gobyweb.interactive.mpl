@@ -53,6 +53,7 @@
   </usedDevKits>
   <extendedLanguages>
     <extendedLanguage>de1ad86d-6e50-4a02-b306-d4d17f64c375(jetbrains.mps.console.base)</extendedLanguage>
+    <extendedLanguage>c1ba4037-e4db-47d8-8b61-b3c805b648f2(org.campagnelab.ui)</extendedLanguage>
   </extendedLanguages>
 </language>
 
