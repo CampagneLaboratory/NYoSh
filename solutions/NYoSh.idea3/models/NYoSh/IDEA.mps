@@ -340,12 +340,6 @@
             </node>
           </node>
         </node>
-        <node role="dependencies" roleId="kdzh.5253498789149547704" type="kdzh.BuildMps_ExtractedModuleDependency" typeId="kdzh.7259033139236285166" id="6507942648216999281" nodeInfo="nn">
-          <node role="dependency" roleId="kdzh.7259033139236285167" type="kdzh.BuildMps_ModuleDependencyOnModule" typeId="kdzh.5253498789149585690" id="6507942648216999282" nodeInfo="ng">
-            <property name="reexport" nameId="kdzh.5253498789149547713" value="false" />
-            <link role="module" roleId="kdzh.5253498789149547705" targetNodeId="ffeo.8939513996048536635" resolveInfo="jetbrains.mps.make.runtime" />
-          </node>
-        </node>
         <node role="dependencies" roleId="kdzh.5253498789149547704" type="kdzh.BuildMps_ExtractedModuleDependency" typeId="kdzh.7259033139236285166" id="100617263779380533" nodeInfo="nn">
           <node role="dependency" roleId="kdzh.7259033139236285167" type="kdzh.BuildMps_ModuleDependencyJar" typeId="kdzh.4278635856200826393" id="100617263779380534" nodeInfo="ng">
             <node role="path" roleId="kdzh.4278635856200826394" type="3ior.BuildSourceMacroRelativePath" typeId="3ior.7389400916848153117" id="100617263779380527" nodeInfo="ng">
@@ -577,12 +571,6 @@
             <node role="dependency" roleId="kdzh.7259033139236285167" type="kdzh.BuildMps_ModuleDependencyOnModule" typeId="kdzh.5253498789149585690" id="3904503094447739411" nodeInfo="ng">
               <property name="reexport" nameId="kdzh.5253498789149547713" value="false" />
               <link role="module" roleId="kdzh.5253498789149547705" targetNodeId="196851695325933375" resolveInfo="org.campagnelab.nyosh.lib" />
-            </node>
-          </node>
-          <node role="dependencies" roleId="kdzh.5253498789149547704" type="kdzh.BuildMps_ExtractedModuleDependency" typeId="kdzh.7259033139236285166" id="2477885976705776954" nodeInfo="nn">
-            <node role="dependency" roleId="kdzh.7259033139236285167" type="kdzh.BuildMps_ModuleDependencyOnModule" typeId="kdzh.5253498789149585690" id="2477885976705776955" nodeInfo="ng">
-              <property name="reexport" nameId="kdzh.5253498789149547713" value="false" />
-              <link role="module" roleId="kdzh.5253498789149547705" targetNodeId="ffeo.9200313594506379914" resolveInfo="jetbrains.mps.baseLanguageInternal#1238251529692" />
             </node>
           </node>
         </node>
@@ -894,7 +882,7 @@
         </node>
         <node role="dependencies" roleId="kdzh.5253498789149547704" type="kdzh.BuildMps_ExtractedModuleDependency" typeId="kdzh.7259033139236285166" id="4124982751128033108" nodeInfo="nn">
           <node role="dependency" roleId="kdzh.7259033139236285167" type="kdzh.BuildMps_ModuleDependencyOnModule" typeId="kdzh.5253498789149585690" id="4124982751128033109" nodeInfo="ng">
-            <property name="reexport" nameId="kdzh.5253498789149547713" value="false" />
+            <property name="reexport" nameId="kdzh.5253498789149547713" value="true" />
             <link role="module" roleId="kdzh.5253498789149547705" targetNodeId="4124982751128030816" resolveInfo="org.campagnelab.gobyweb.environment" />
           </node>
         </node>
