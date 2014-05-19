@@ -8,6 +8,7 @@
   <language namespace="a8fb88b0-7e9f-478c-aab4-a1b076131192(org.campagnelab.gobyweb.interactive)" />
   <language namespace="0f071fdb-3faa-4b8c-9f5e-1da0a01466d5(org.campagnelab.nyosh.environment)" />
   <language namespace="27f97fd8-caeb-43a0-a73f-f8ac957f3a17(org.campagnelab.gobyweb.environment)" />
+  <language namespace="7620dd3f-7541-48a3-b1e6-01cced81a7a5(org.campagnelab.clusterConfig)" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" />
   <import index="fxg7" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
@@ -18,6 +19,7 @@
   <import index="f2ff" modelUID="r:48d5f7d2-24be-4d82-ac12-8f4a2d414b11(org.campagnelab.nyosh.gstring.structure)" version="-1" implicit="yes" />
   <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="29" implicit="yes" />
   <import index="w72s" modelUID="r:98591435-10ae-4084-8086-ed16ddd5fa73(org.campagnelab.gobyweb.environment.structure)" version="0" implicit="yes" />
+  <import index="9k5" modelUID="r:df9645c2-d2fa-41cb-a718-044a287b0626(org.campagnelab.clusterConfig.structure)" version="3" implicit="yes" />
   <root type="bs99.PluginSDKInstallation" typeId="bs99.2735543333319077191" id="2149979023199567832" nodeInfo="ng">
     <property name="installationPath" nameId="bs99.2735543333319514314" value="/home/campagne" />
     <property name="distributionUrl" nameId="bs99.2735543333319647607" value="http://campagnelab.org/?wpdmact=process&amp;did=MS5ob3RsaW5r" />
@@ -42,11 +44,6 @@
       <property name="path" nameId="bs99.6449713081311703917" value="/zenodotus/dat01/campagne_lab_scratch/campagne/FILESET-AREA" />
       <link role="sshService" roleId="bs99.6449713081311510412" targetNodeId="2149979023199567870" resolveInfo="spanky" />
     </node>
-  </root>
-  <root type=".org.campagnelab.gobyweb.interactive.structure.ExecutionNode" id="2149979023199567870" nodeInfo="ng">
-    <property name="username" value="campagne" />
-    <property name="server" value="spanky.med.cornell.edu" />
-    <property name="name" value="spanky" />
   </root>
   <root type="4tvk.Script" typeId="4tvk.8197864363320245969" id="2477885976703222483" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="StepsLoggerText" />
@@ -460,7 +457,7 @@
                       <property name="value" nameId="6pk0.5469406079154538151" value="/tmp/launch-ASOZvi/Listeners" />
                     </node>
                   </node>
-                  <node role="sources" roleId="6pk0.3173353997360946804" type="w72s.GobyWebSource" typeId="w72s.731554740237430543" id="3050176288335137193" nodeInfo="ng">
+                  <node role="sources" roleId="6pk0.3173353997360946804" type="w72s.GobyWebSource" typeId="w72s.731554740237430543" id="3050176288335137193" nodeInfo="nr">
                     <node role="loader" roleId="6pk0.3173353997360796899" type="w72s.GobyWebLoader" typeId="w72s.731554740237430542" id="3050176288335137194" nodeInfo="ng">
                       <link role="source" roleId="6pk0.3173353997362497485" targetNodeId="3050176288335137193" />
                     </node>
@@ -626,6 +623,13 @@
       </node>
     </node>
     <node role="pluginRegistry" roleId="935h.8463050739472729035" type=".org.campagnelab.gobyweb.structure.PluginRegistry" id="3050176288335137199" nodeInfo="ng" />
+  </root>
+  <root type="9k5.ExecutionNode" typeId="9k5.3050176288337501843" id="8316819429937465348" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="spanky" />
+    <property name="server" nameId="9k5.3050176288337501845" value="spanky.med.cornell.edu" />
+    <property name="username" nameId="9k5.3050176288337501846" value="campagne" />
+    <property name="numCores" nameId="9k5.3050176288341320771" value="8" />
+    <property name="isReachable" nameId="9k5.2243041462218990633" value="true" />
   </root>
 </model>
 
