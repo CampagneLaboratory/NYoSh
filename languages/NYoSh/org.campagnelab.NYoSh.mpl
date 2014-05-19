@@ -18,9 +18,7 @@
           <sourceRoot location="generator" />
         </modelRoot>
       </models>
-      <external-templates>
-        <generator generatorUID="ae984eb0-b5d6-4751-be51-025e23c91f0a(org.campagnelab.gobyweb#1090105717920801462)" />
-      </external-templates>
+      <external-templates />
       <dependencies>
         <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
         <dependency reexport="false">f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</dependency>
