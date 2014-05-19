@@ -175,21 +175,9 @@
                       <property name="value" nameId="6pk0.5469406079154538151" value="/tmp/launch-ASOZvi/Listeners" />
                     </node>
                   </node>
-                  <node role="sources" roleId="6pk0.3173353997360946804" type="w72s.GobyWebSource" typeId="w72s.731554740237430543" id="2477885976703025500" nodeInfo="ng">
-                    <node role="loader" roleId="6pk0.3173353997360796899" type="w72s.GobyWebLoader" typeId="w72s.731554740237430542" id="2477885976703025501" nodeInfo="ng">
-                      <link role="source" roleId="6pk0.3173353997362497485" targetNodeId="2477885976703025500" />
-                    </node>
-                    <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="2477885976703025502" nodeInfo="nr">
-                      <property name="name" nameId="tpck.1169194664001" value="JOB_DIR" />
-                      <property name="value" nameId="6pk0.5469406079154538151" value="/Users/mas2182/temp" />
-                    </node>
-                    <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="2477885976703025503" nodeInfo="nr">
-                      <property name="name" nameId="tpck.1169194664001" value="TMPDIR" />
-                      <property name="value" nameId="6pk0.5469406079154538151" value="/Users/mas2182/temp" />
-                    </node>
-                    <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="2477885976703025504" nodeInfo="nr">
-                      <property name="name" nameId="tpck.1169194664001" value="SGE_O_WORKDIR" />
-                      <property name="value" nameId="6pk0.5469406079154538151" value="/Users/mas2182/temp" />
+                  <node role="sources" roleId="6pk0.3173353997360946804" type="w72s.GobyWebSource" typeId="w72s.731554740237430543" id="8316819429937461564" nodeInfo="nr">
+                    <node role="loader" roleId="6pk0.3173353997360796899" type="w72s.GobyWebLoader" typeId="w72s.731554740237430542" id="8316819429937461570" nodeInfo="ng">
+                      <link role="source" roleId="6pk0.3173353997362497485" targetNodeId="8316819429937461564" />
                     </node>
                   </node>
                 </node>
