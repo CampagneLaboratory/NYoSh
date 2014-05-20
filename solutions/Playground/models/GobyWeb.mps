@@ -37,12 +37,12 @@
     <node role="jobArea" roleId="bs99.2051553890368785070" type="bs99.JobArea" typeId="bs99.2051553890368761083" id="2149979023199567852" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="ZenodotusJobs" />
       <property name="workingDirectory" nameId="bs99.6449713081311226572" value="/zenodotus/dat01/campagne_lab_scratch/campagne/" />
-      <link role="executionNode" roleId="bs99.6449713081311050445" targetNodeId="2149979023199567870" resolveInfo="spanky" />
+      <link role="executionNode" roleId="bs99.6449713081311050445" targetNodeId="8316819429937465348" resolveInfo="spanky" />
     </node>
     <node role="filesetArea" roleId="bs99.2051553890368785072" type="bs99.FileSetArea" typeId="bs99.2051553890368756473" id="2149979023199567853" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="ZenodotusFileSetArea" />
       <property name="path" nameId="bs99.6449713081311703917" value="/zenodotus/dat01/campagne_lab_scratch/campagne/FILESET-AREA" />
-      <link role="sshService" roleId="bs99.6449713081311510412" targetNodeId="2149979023199567870" resolveInfo="spanky" />
+      <link role="sshService" roleId="bs99.6449713081311510412" targetNodeId="8316819429937465348" resolveInfo="spanky" />
     </node>
   </root>
   <root type="4tvk.Script" typeId="4tvk.8197864363320245969" id="2477885976703222483" nodeInfo="ig">
@@ -78,9 +78,9 @@
     </node>
   </root>
   <root type="935h.AlignerScript" typeId="935h.3173353997329126934" id="4220326230008251822" nodeInfo="ng">
-    <property name="pluginKind" nameId="935h.6874736155930792593" value="aligners" />
-    <property name="pluginId" nameId="935h.6874736155930792589" value="test" />
-    <node role="script" roleId="935h.1090105717921230261" type="4tvk.Script" typeId="4tvk.8197864363320245969" id="4220326230008251823" nodeInfo="ig">
+    <property name="pluginKind" value="aligners" />
+    <property name="pluginId" value="test" />
+    <node role="script" type="4tvk.Script" typeId="4tvk.8197864363320245969" id="4220326230008251823" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="MyScript" />
       <link role="errorManagement" roleId="4tvk.8594065538799394764" targetNodeId="4220326230008252204" resolveInfo="MyErrorManagement" />
       <node role="entryPoints" roleId="4tvk.4370546365667651420" type="935h.AlignerAlignEntryPoint" typeId="935h.3173353997329486142" id="4220326230008251824" nodeInfo="ng">
@@ -303,7 +303,7 @@
         </node>
       </node>
     </node>
-    <node role="pluginRegistry" roleId="935h.8463050739472729035" type=".org.campagnelab.gobyweb.structure.PluginRegistry" id="4220326230008251875" nodeInfo="ng" />
+    <node role="pluginRegistry" type=".org.campagnelab.gobyweb.structure.PluginRegistry" id="4220326230008251875" nodeInfo="ng" />
   </root>
   <root type="4tvk.ErrorManagement" typeId="4tvk.8594065538792360516" id="4220326230008252204" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="MyErrorManagement" />
@@ -367,8 +367,8 @@
     </node>
   </root>
   <root type="935h.TaskScript" typeId="935h.6989919346770999332" id="3050176288335137150" nodeInfo="ng">
-    <property name="pluginKind" nameId="935h.6874736155930792593" value="tasks" />
-    <node role="script" roleId="935h.1090105717921230261" type="4tvk.Script" typeId="4tvk.8197864363320245969" id="3050176288335137151" nodeInfo="ig">
+    <property name="pluginKind" value="tasks" />
+    <node role="script" type="4tvk.Script" typeId="4tvk.8197864363320245969" id="3050176288335137151" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="MyScript" />
       <node role="entryPoints" roleId="4tvk.4370546365667651420" type="935h.TaskEntryPoint" typeId="935h.6989919346771010830" id="3050176288335137152" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="plugin_task" />
@@ -622,7 +622,7 @@
         </node>
       </node>
     </node>
-    <node role="pluginRegistry" roleId="935h.8463050739472729035" type=".org.campagnelab.gobyweb.structure.PluginRegistry" id="3050176288335137199" nodeInfo="ng" />
+    <node role="pluginRegistry" type=".org.campagnelab.gobyweb.structure.PluginRegistry" id="3050176288335137199" nodeInfo="ng" />
   </root>
   <root type="9k5.ExecutionNode" typeId="9k5.3050176288337501843" id="8316819429937465348" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="spanky" />
