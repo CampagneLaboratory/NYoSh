@@ -19,7 +19,7 @@
   <import index="6pk0" modelUID="r:48f4e449-1a18-435e-ae88-4830aa794dc7(org.campagnelab.nyosh.environment.structure)" version="17" implicit="yes" />
   <import index="f2ff" modelUID="r:48d5f7d2-24be-4d82-ac12-8f4a2d414b11(org.campagnelab.nyosh.gstring.structure)" version="-1" implicit="yes" />
   <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(org.campagnelab.NYoSh.structure)" version="30" implicit="yes" />
-  <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="29" implicit="yes" />
+  <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="30" implicit="yes" />
   <import index="w72s" modelUID="r:98591435-10ae-4084-8086-ed16ddd5fa73(org.campagnelab.gobyweb.environment.structure)" version="0" implicit="yes" />
   <root type="4tvk.SuccessHandler" typeId="4tvk.7507736014957922703" id="2149979023199549048" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="PrintToConsole" />
@@ -340,7 +340,7 @@
         </node>
       </node>
     </node>
-    <node role="pluginRegistry" roleId="935h.8463050739472729035" type=".org.campagnelab.gobyweb.structure.PluginRegistry" id="2477885976703025506" nodeInfo="ng" />
+    <node role="pluginRegistry" roleId="935h.8463050739472729035" type="935h.PluginRegistry" typeId="935h.6519147379572947970" id="2477885976703025506" nodeInfo="ng" />
   </root>
   <root type="4tvk.StepsLoggingSuccessHandler" typeId="4tvk.4780568564617168379" id="2477885976703026485" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="StepsLoggingSuccessHandler" />

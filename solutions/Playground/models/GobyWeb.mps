@@ -17,7 +17,7 @@
   <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(org.campagnelab.NYoSh.structure)" version="30" implicit="yes" />
   <import index="6pk0" modelUID="r:48f4e449-1a18-435e-ae88-4830aa794dc7(org.campagnelab.nyosh.environment.structure)" version="17" implicit="yes" />
   <import index="f2ff" modelUID="r:48d5f7d2-24be-4d82-ac12-8f4a2d414b11(org.campagnelab.nyosh.gstring.structure)" version="-1" implicit="yes" />
-  <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="29" implicit="yes" />
+  <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="30" implicit="yes" />
   <import index="w72s" modelUID="r:98591435-10ae-4084-8086-ed16ddd5fa73(org.campagnelab.gobyweb.environment.structure)" version="0" implicit="yes" />
   <import index="9k5" modelUID="r:df9645c2-d2fa-41cb-a718-044a287b0626(org.campagnelab.clusterConfig.structure)" version="3" implicit="yes" />
   <root type="bs99.PluginSDKInstallation" typeId="bs99.2735543333319077191" id="2149979023199567832" nodeInfo="ng">
@@ -78,9 +78,9 @@
     </node>
   </root>
   <root type="935h.AlignerScript" typeId="935h.3173353997329126934" id="4220326230008251822" nodeInfo="ng">
-    <property name="pluginKind" value="aligners" />
-    <property name="pluginId" value="test" />
-    <node role="script" type="4tvk.Script" typeId="4tvk.8197864363320245969" id="4220326230008251823" nodeInfo="ig">
+    <property name="pluginKind" nameId="935h.6874736155930792593" value="aligners" />
+    <property name="pluginId" nameId="935h.6874736155930792589" value="test" />
+    <node role="script" roleId="935h.1090105717921230261" type="4tvk.Script" typeId="4tvk.8197864363320245969" id="4220326230008251823" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="MyScript" />
       <link role="errorManagement" roleId="4tvk.8594065538799394764" targetNodeId="4220326230008252204" resolveInfo="MyErrorManagement" />
       <node role="entryPoints" roleId="4tvk.4370546365667651420" type="935h.AlignerAlignEntryPoint" typeId="935h.3173353997329486142" id="4220326230008251824" nodeInfo="ng">
@@ -303,7 +303,7 @@
         </node>
       </node>
     </node>
-    <node role="pluginRegistry" type=".org.campagnelab.gobyweb.structure.PluginRegistry" id="4220326230008251875" nodeInfo="ng" />
+    <node role="pluginRegistry" roleId="935h.8463050739472729035" type="935h.PluginRegistry" typeId="935h.6519147379572947970" id="4220326230008251875" nodeInfo="ng" />
   </root>
   <root type="4tvk.ErrorManagement" typeId="4tvk.8594065538792360516" id="4220326230008252204" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="MyErrorManagement" />
@@ -367,8 +367,8 @@
     </node>
   </root>
   <root type="935h.TaskScript" typeId="935h.6989919346770999332" id="3050176288335137150" nodeInfo="ng">
-    <property name="pluginKind" value="tasks" />
-    <node role="script" type="4tvk.Script" typeId="4tvk.8197864363320245969" id="3050176288335137151" nodeInfo="ig">
+    <property name="pluginKind" nameId="935h.6874736155930792593" value="tasks" />
+    <node role="script" roleId="935h.1090105717921230261" type="4tvk.Script" typeId="4tvk.8197864363320245969" id="3050176288335137151" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="MyScript" />
       <node role="entryPoints" roleId="4tvk.4370546365667651420" type="935h.TaskEntryPoint" typeId="935h.6989919346771010830" id="3050176288335137152" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="plugin_task" />
@@ -622,7 +622,7 @@
         </node>
       </node>
     </node>
-    <node role="pluginRegistry" type=".org.campagnelab.gobyweb.structure.PluginRegistry" id="3050176288335137199" nodeInfo="ng" />
+    <node role="pluginRegistry" roleId="935h.8463050739472729035" type="935h.PluginRegistry" typeId="935h.6519147379572947970" id="3050176288335137199" nodeInfo="ng" />
   </root>
   <root type="9k5.ExecutionNode" typeId="9k5.3050176288337501843" id="8316819429937465348" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="spanky" />
