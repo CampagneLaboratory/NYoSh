@@ -26,7 +26,7 @@
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
   <import index="6pk0" modelUID="r:48f4e449-1a18-435e-ae88-4830aa794dc7(org.campagnelab.nyosh.environment.structure)" version="17" implicit="yes" />
   <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(org.campagnelab.NYoSh.structure)" version="30" implicit="yes" />
-  <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="29" implicit="yes" />
+  <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="30" implicit="yes" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" implicit="yes" />
   <import index="w72s" modelUID="r:98591435-10ae-4084-8086-ed16ddd5fa73(org.campagnelab.gobyweb.environment.structure)" version="0" implicit="yes" />
   <root type="935h.AlignmentAnalysisScript" typeId="935h.5463469075894873060" id="5463469075900711336" nodeInfo="ng">
@@ -138,7 +138,7 @@
                       <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
                     </node>
                   </node>
-                  <node role="sources" roleId="6pk0.3173353997360946804" type="w72s.GobyWebSource" typeId="w72s.731554740237430543" id="5463469075900711386" nodeInfo="ng">
+                  <node role="sources" roleId="6pk0.3173353997360946804" type="w72s.GobyWebSource" typeId="w72s.731554740237430543" id="5463469075900711386" nodeInfo="nr">
                     <node role="loader" roleId="6pk0.3173353997360796899" type="w72s.GobyWebLoader" typeId="w72s.731554740237430542" id="5463469075900711387" nodeInfo="ng">
                       <link role="source" roleId="6pk0.3173353997362497485" targetNodeId="5463469075900711386" />
                     </node>
@@ -769,7 +769,7 @@
                       <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
                     </node>
                   </node>
-                  <node role="sources" roleId="6pk0.3173353997360946804" type="w72s.GobyWebSource" typeId="w72s.731554740237430543" id="5463469075900711435" nodeInfo="ng">
+                  <node role="sources" roleId="6pk0.3173353997360946804" type="w72s.GobyWebSource" typeId="w72s.731554740237430543" id="5463469075900711435" nodeInfo="nr">
                     <node role="loader" roleId="6pk0.3173353997360796899" type="w72s.GobyWebLoader" typeId="w72s.731554740237430542" id="5463469075900711436" nodeInfo="ng">
                       <link role="source" roleId="6pk0.3173353997362497485" targetNodeId="5463469075900711435" />
                     </node>
@@ -1357,7 +1357,7 @@
                       <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
                     </node>
                   </node>
-                  <node role="sources" roleId="6pk0.3173353997360946804" type="w72s.GobyWebSource" typeId="w72s.731554740237430543" id="5463469075900711486" nodeInfo="ng">
+                  <node role="sources" roleId="6pk0.3173353997360946804" type="w72s.GobyWebSource" typeId="w72s.731554740237430543" id="5463469075900711486" nodeInfo="nr">
                     <node role="loader" roleId="6pk0.3173353997360796899" type="w72s.GobyWebLoader" typeId="w72s.731554740237430542" id="5463469075900711487" nodeInfo="ng">
                       <link role="source" roleId="6pk0.3173353997362497485" targetNodeId="5463469075900711486" />
                     </node>
@@ -1968,7 +1968,7 @@
                       <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
                     </node>
                   </node>
-                  <node role="sources" roleId="6pk0.3173353997360946804" type="w72s.GobyWebSource" typeId="w72s.731554740237430543" id="5463469075900711538" nodeInfo="ng">
+                  <node role="sources" roleId="6pk0.3173353997360946804" type="w72s.GobyWebSource" typeId="w72s.731554740237430543" id="5463469075900711538" nodeInfo="nr">
                     <node role="loader" roleId="6pk0.3173353997360796899" type="w72s.GobyWebLoader" typeId="w72s.731554740237430542" id="5463469075900711539" nodeInfo="ng">
                       <link role="source" roleId="6pk0.3173353997362497485" targetNodeId="5463469075900711538" />
                     </node>

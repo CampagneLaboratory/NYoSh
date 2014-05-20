@@ -11,7 +11,8 @@
   <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="20" implicit="yes" />
   <import index="9k5" modelUID="r:df9645c2-d2fa-41cb-a718-044a287b0626(org.campagnelab.clusterConfig.structure)" version="3" implicit="yes" />
   <import index="eith" modelUID="r:1ed73e49-326d-4559-947b-13dfd134d00a(org.campagnelab.ssh.structure)" version="-1" implicit="yes" />
-  <import index="dzk5" modelUID="r:2bfcc546-5c51-4762-9df2-c43920be4458(org.campagnelab.gobyweb.plugins.structure)" version="1" implicit="yes" />
+  <import index="dzk5" modelUID="r:2bfcc546-5c51-4762-9df2-c43920be4458(org.campagnelab.gobyweb.plugins.structure)" version="2" implicit="yes" />
+  <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="30" implicit="yes" />
   <root type="bs99.ExecutionEnvironment" typeId="bs99.2051553890368778876" id="5704832314560950104" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="mac158665_FC_Environment" />
     <property name="owner" nameId="bs99.2051553890368778877" value="fac2003" />
@@ -806,72 +807,72 @@
         <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="8316819429937448407" nodeInfo="ng">
           <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="8316819429937448408" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="INPUT_READS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448409" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="COMPACT_READS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="compact reads format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448409" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COMPACT_READS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="compact reads format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448410" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448411" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="JOB_METADATA" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Metadata associated to a job executed on the cluster." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448411" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448412" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="GOBY_ALIGNMENT" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448413" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="GOBY_ALIGNMENT" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Goby alignment format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448413" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448414" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="COUNTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448415" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="COUNTS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Counts converted from a compact alignment." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448415" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COUNTS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Counts converted from a compact alignment." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448416" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_ALL_FILES" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448417" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_ALL_FILES" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with all the files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448417" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_ALL_FILES" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with all the files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448418" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_BED" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448419" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_BED" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with bed files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448419" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_BED" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with bed files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448420" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_WIG" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448421" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_WIG" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with wig files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448421" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_WIG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with wig files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448422" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448423" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Alignment textual statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448423" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Alignment textual statistics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448424" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448425" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Statistics about files in one of the compact Goby formats" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448425" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Statistics about files in one of the compact Goby formats" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448426" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448427" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Sequence Variation Statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448427" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
             </node>
           </node>
         </node>
@@ -900,72 +901,72 @@
         <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="8316819429937448435" nodeInfo="ng">
           <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="8316819429937448436" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="INPUT_READS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448437" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="COMPACT_READS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="compact reads format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448437" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COMPACT_READS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="compact reads format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448438" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448439" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="JOB_METADATA" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Metadata associated to a job executed on the cluster." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448439" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448440" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="GOBY_ALIGNMENT" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448441" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="GOBY_ALIGNMENT" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Goby alignment format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448441" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448442" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="COUNTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448443" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="COUNTS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Counts converted from a compact alignment." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448443" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COUNTS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Counts converted from a compact alignment." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448444" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_ALL_FILES" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448445" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_ALL_FILES" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with all the files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448445" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_ALL_FILES" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with all the files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448446" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_BED" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448447" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_BED" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with bed files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448447" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_BED" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with bed files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448448" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_WIG" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448449" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_WIG" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with wig files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448449" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_WIG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with wig files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448450" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448451" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Alignment textual statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448451" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Alignment textual statistics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448452" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448453" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Statistics about files in one of the compact Goby formats" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448453" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Statistics about files in one of the compact Goby formats" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448454" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448455" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Sequence Variation Statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448455" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
             </node>
           </node>
         </node>
@@ -985,72 +986,72 @@
         <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="8316819429937448460" nodeInfo="ng">
           <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="8316819429937448461" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="INPUT_READS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448462" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="COMPACT_READS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="compact reads format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448462" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COMPACT_READS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="compact reads format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448463" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448464" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="JOB_METADATA" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Metadata associated to a job executed on the cluster." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448464" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448465" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="BAM_ALIGNMENT" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448466" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="BAM_ALIGNMENT" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="BAM alignment format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448466" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="BAM_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="BAM alignment format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448467" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="COUNTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448468" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="COUNTS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Counts converted from a compact alignment." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448468" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COUNTS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Counts converted from a compact alignment." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448469" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_ALL_FILES" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448470" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_ALL_FILES" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with all the files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448470" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_ALL_FILES" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with all the files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448471" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_BED" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448472" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_BED" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with bed files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448472" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_BED" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with bed files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448473" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_WIG" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448474" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_WIG" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with wig files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448474" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_WIG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with wig files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448475" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448476" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Alignment textual statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448476" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Alignment textual statistics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448477" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448478" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Statistics about files in one of the compact Goby formats" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448478" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Statistics about files in one of the compact Goby formats" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448479" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448480" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Sequence Variation Statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448480" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
             </node>
           </node>
         </node>
@@ -1070,72 +1071,72 @@
         <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="8316819429937448485" nodeInfo="ng">
           <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="8316819429937448486" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="INPUT_READS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448487" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="COMPACT_READS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="compact reads format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448487" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COMPACT_READS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="compact reads format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448488" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448489" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="JOB_METADATA" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Metadata associated to a job executed on the cluster." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448489" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448490" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="BAM_ALIGNMENT" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448491" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="BAM_ALIGNMENT" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="BAM alignment format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448491" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="BAM_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="BAM alignment format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448492" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="COUNTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448493" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="COUNTS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Counts converted from a compact alignment." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448493" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COUNTS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Counts converted from a compact alignment." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448494" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_ALL_FILES" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448495" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_ALL_FILES" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with all the files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448495" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_ALL_FILES" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with all the files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448496" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_BED" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448497" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_BED" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with bed files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448497" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_BED" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with bed files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448498" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_WIG" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448499" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_WIG" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with wig files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448499" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_WIG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with wig files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448500" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448501" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Alignment textual statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448501" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Alignment textual statistics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448502" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448503" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Statistics about files in one of the compact Goby formats" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448503" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Statistics about files in one of the compact Goby formats" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448504" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448505" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Sequence Variation Statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448505" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
             </node>
           </node>
         </node>
@@ -1152,72 +1153,72 @@
         <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="8316819429937448509" nodeInfo="ng">
           <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="8316819429937448510" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="INPUT_READS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448511" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="COMPACT_READS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="compact reads format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448511" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COMPACT_READS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="compact reads format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448512" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448513" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="JOB_METADATA" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Metadata associated to a job executed on the cluster." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448513" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448514" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="GOBY_ALIGNMENT" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448515" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="GOBY_ALIGNMENT" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Goby alignment format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448515" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448516" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="COUNTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448517" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="COUNTS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Counts converted from a compact alignment." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448517" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COUNTS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Counts converted from a compact alignment." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448518" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_ALL_FILES" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448519" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_ALL_FILES" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with all the files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448519" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_ALL_FILES" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with all the files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448520" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_BED" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448521" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_BED" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with bed files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448521" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_BED" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with bed files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448522" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_WIG" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448523" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_WIG" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with wig files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448523" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_WIG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with wig files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448524" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448525" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Alignment textual statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448525" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Alignment textual statistics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448526" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448527" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Statistics about files in one of the compact Goby formats" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448527" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Statistics about files in one of the compact Goby formats" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448528" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448529" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Sequence Variation Statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448529" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
             </node>
           </node>
         </node>
@@ -1234,72 +1235,72 @@
         <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="8316819429937448533" nodeInfo="ng">
           <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="8316819429937448534" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="INPUT_READS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448535" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="COMPACT_READS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="compact reads format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448535" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COMPACT_READS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="compact reads format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448536" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448537" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="JOB_METADATA" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Metadata associated to a job executed on the cluster." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448537" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448538" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="GOBY_ALIGNMENT" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448539" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="GOBY_ALIGNMENT" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Goby alignment format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448539" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448540" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="COUNTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448541" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="COUNTS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Counts converted from a compact alignment." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448541" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COUNTS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Counts converted from a compact alignment." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448542" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_ALL_FILES" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448543" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_ALL_FILES" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with all the files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448543" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_ALL_FILES" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with all the files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448544" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_BED" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448545" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_BED" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with bed files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448545" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_BED" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with bed files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448546" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_WIG" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448547" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_WIG" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with wig files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448547" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_WIG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with wig files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448548" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448549" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Alignment textual statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448549" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Alignment textual statistics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448550" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448551" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Statistics about files in one of the compact Goby formats" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448551" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Statistics about files in one of the compact Goby formats" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448552" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448553" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Sequence Variation Statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448553" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
             </node>
           </node>
         </node>
@@ -1316,72 +1317,72 @@
         <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="8316819429937448557" nodeInfo="ng">
           <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="8316819429937448558" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="INPUT_READS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448559" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="COMPACT_READS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="compact reads format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448559" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COMPACT_READS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="compact reads format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448560" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448561" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="JOB_METADATA" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Metadata associated to a job executed on the cluster." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448561" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448562" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="GOBY_ALIGNMENT" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448563" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="GOBY_ALIGNMENT" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Goby alignment format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448563" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448564" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="COUNTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448565" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="COUNTS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Counts converted from a compact alignment." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448565" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COUNTS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Counts converted from a compact alignment." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448566" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_ALL_FILES" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448567" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_ALL_FILES" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with all the files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448567" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_ALL_FILES" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with all the files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448568" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_BED" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448569" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_BED" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with bed files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448569" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_BED" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with bed files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448570" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_WIG" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448571" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_WIG" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with wig files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448571" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_WIG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with wig files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448572" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448573" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Alignment textual statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448573" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Alignment textual statistics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448574" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448575" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Statistics about files in one of the compact Goby formats" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448575" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Statistics about files in one of the compact Goby formats" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448576" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448577" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Sequence Variation Statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448577" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
             </node>
           </node>
         </node>
@@ -1395,72 +1396,72 @@
         <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="8316819429937448580" nodeInfo="ng">
           <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="8316819429937448581" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="INPUT_READS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448582" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="COMPACT_READS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="compact reads format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448582" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COMPACT_READS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="compact reads format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448583" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448584" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="JOB_METADATA" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Metadata associated to a job executed on the cluster." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448584" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448585" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="GOBY_ALIGNMENT" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448586" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="GOBY_ALIGNMENT" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Goby alignment format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448586" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448587" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="COUNTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448588" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="COUNTS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Counts converted from a compact alignment." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448588" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COUNTS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Counts converted from a compact alignment." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448589" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_ALL_FILES" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448590" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_ALL_FILES" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with all the files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448590" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_ALL_FILES" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with all the files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448591" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_BED" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448592" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_BED" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with bed files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448592" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_BED" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with bed files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448593" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_WIG" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448594" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_WIG" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with wig files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448594" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_WIG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with wig files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448595" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448596" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Alignment textual statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448596" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Alignment textual statistics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448597" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448598" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Statistics about files in one of the compact Goby formats" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448598" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Statistics about files in one of the compact Goby formats" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448599" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448600" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Sequence Variation Statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448600" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
             </node>
           </node>
         </node>
@@ -1480,72 +1481,72 @@
         <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="8316819429937448605" nodeInfo="ng">
           <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="8316819429937448606" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="INPUT_READS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448607" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="COMPACT_READS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="compact reads format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448607" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COMPACT_READS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="compact reads format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448608" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448609" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="JOB_METADATA" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Metadata associated to a job executed on the cluster." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448609" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448610" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="BAM_ALIGNMENT" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448611" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="BAM_ALIGNMENT" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="BAM alignment format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448611" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="BAM_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="BAM alignment format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448612" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="COUNTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448613" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="COUNTS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Counts converted from a compact alignment." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448613" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COUNTS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Counts converted from a compact alignment." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448614" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_ALL_FILES" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448615" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_ALL_FILES" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with all the files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448615" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_ALL_FILES" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with all the files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448616" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_BED" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448617" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_BED" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with bed files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448617" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_BED" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with bed files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448618" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_WIG" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448619" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_WIG" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with wig files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448619" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_WIG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with wig files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448620" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448621" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Alignment textual statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448621" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Alignment textual statistics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448622" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448623" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Statistics about files in one of the compact Goby formats" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448623" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Statistics about files in one of the compact Goby formats" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448624" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448625" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Sequence Variation Statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448625" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
             </node>
           </node>
         </node>
@@ -1568,72 +1569,72 @@
         <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="8316819429937448631" nodeInfo="ng">
           <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="8316819429937448632" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="INPUT_READS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448633" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="COMPACT_READS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="compact reads format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448633" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COMPACT_READS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="compact reads format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448634" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448635" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="JOB_METADATA" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Metadata associated to a job executed on the cluster." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448635" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448636" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="GOBY_ALIGNMENT" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448637" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="GOBY_ALIGNMENT" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Goby alignment format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448637" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448638" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="COUNTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448639" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="COUNTS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Counts converted from a compact alignment." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448639" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COUNTS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Counts converted from a compact alignment." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448640" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_ALL_FILES" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448641" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_ALL_FILES" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with all the files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448641" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_ALL_FILES" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with all the files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448642" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_BED" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448643" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_BED" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with bed files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448643" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_BED" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with bed files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448644" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_WIG" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448645" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_WIG" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with wig files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448645" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_WIG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with wig files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448646" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448647" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Alignment textual statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448647" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Alignment textual statistics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448648" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448649" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Statistics about files in one of the compact Goby formats" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448649" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Statistics about files in one of the compact Goby formats" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448650" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448651" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Sequence Variation Statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448651" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
             </node>
           </node>
         </node>
@@ -1653,72 +1654,72 @@
         <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="8316819429937448656" nodeInfo="ng">
           <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="8316819429937448657" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="INPUT_READS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448658" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="COMPACT_READS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="compact reads format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448658" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COMPACT_READS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="compact reads format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448659" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448660" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="JOB_METADATA" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Metadata associated to a job executed on the cluster." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448660" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448661" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="GOBY_ALIGNMENT" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448662" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="GOBY_ALIGNMENT" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Goby alignment format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448662" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448663" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="COUNTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448664" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="COUNTS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Counts converted from a compact alignment." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448664" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COUNTS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Counts converted from a compact alignment." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448665" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_ALL_FILES" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448666" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_ALL_FILES" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with all the files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448666" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_ALL_FILES" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with all the files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448667" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_BED" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448668" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_BED" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with bed files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448668" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_BED" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with bed files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448669" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_WIG" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448670" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_WIG" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with wig files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448670" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_WIG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with wig files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448671" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448672" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Alignment textual statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448672" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Alignment textual statistics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448673" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448674" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Statistics about files in one of the compact Goby formats" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448674" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Statistics about files in one of the compact Goby formats" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448675" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448676" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Sequence Variation Statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448676" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
             </node>
           </node>
         </node>
@@ -1741,72 +1742,72 @@
         <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="8316819429937448682" nodeInfo="ng">
           <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="8316819429937448683" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="INPUT_READS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448684" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="COMPACT_READS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="compact reads format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448684" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COMPACT_READS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="compact reads format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448685" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448686" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="JOB_METADATA" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Metadata associated to a job executed on the cluster." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448686" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448687" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="GOBY_ALIGNMENT" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448688" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="GOBY_ALIGNMENT" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Goby alignment format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448688" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448689" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="COUNTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448690" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="COUNTS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Counts converted from a compact alignment." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448690" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COUNTS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Counts converted from a compact alignment." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448691" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_ALL_FILES" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448692" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_ALL_FILES" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with all the files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448692" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_ALL_FILES" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with all the files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448693" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_BED" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448694" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_BED" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with bed files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448694" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_BED" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with bed files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448695" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_WIG" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448696" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_WIG" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with wig files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448696" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_WIG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with wig files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448697" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448698" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Alignment textual statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448698" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Alignment textual statistics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448699" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448700" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Statistics about files in one of the compact Goby formats" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448700" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Statistics about files in one of the compact Goby formats" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448701" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448702" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Sequence Variation Statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448702" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
             </node>
           </node>
         </node>
@@ -1829,72 +1830,72 @@
         <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="8316819429937448708" nodeInfo="ng">
           <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="8316819429937448709" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="INPUT_READS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448710" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="COMPACT_READS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="compact reads format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448710" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COMPACT_READS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="compact reads format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448711" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448712" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="JOB_METADATA" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Metadata associated to a job executed on the cluster." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448712" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448713" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="GOBY_ALIGNMENT" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448714" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="GOBY_ALIGNMENT" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Goby alignment format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448714" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448715" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="COUNTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448716" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="COUNTS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Counts converted from a compact alignment." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448716" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COUNTS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Counts converted from a compact alignment." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448717" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_ALL_FILES" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448718" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_ALL_FILES" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with all the files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448718" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_ALL_FILES" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with all the files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448719" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_BED" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448720" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_BED" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with bed files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448720" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_BED" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with bed files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448721" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_WIG" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448722" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_WIG" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with wig files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448722" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_WIG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with wig files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448723" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448724" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Alignment textual statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448724" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Alignment textual statistics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448725" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448726" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Statistics about files in one of the compact Goby formats" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448726" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Statistics about files in one of the compact Goby formats" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448727" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448728" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Sequence Variation Statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448728" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
             </node>
           </node>
         </node>
@@ -1917,72 +1918,72 @@
         <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="8316819429937448734" nodeInfo="ng">
           <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="8316819429937448735" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="INPUT_READS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448736" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="COMPACT_READS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="compact reads format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448736" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COMPACT_READS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="compact reads format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448737" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448738" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="JOB_METADATA" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Metadata associated to a job executed on the cluster." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448738" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448739" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="GOBY_ALIGNMENT" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448740" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="GOBY_ALIGNMENT" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Goby alignment format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448740" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448741" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="COUNTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448742" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="COUNTS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Counts converted from a compact alignment." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448742" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COUNTS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Counts converted from a compact alignment." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448743" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_ALL_FILES" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448744" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_ALL_FILES" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with all the files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448744" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_ALL_FILES" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with all the files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448745" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_BED" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448746" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_BED" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with bed files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448746" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_BED" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with bed files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448747" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_WIG" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448748" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_WIG" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with wig files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448748" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_WIG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with wig files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448749" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448750" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Alignment textual statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448750" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Alignment textual statistics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448751" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448752" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Statistics about files in one of the compact Goby formats" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448752" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Statistics about files in one of the compact Goby formats" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448753" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448754" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Sequence Variation Statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448754" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
             </node>
           </node>
         </node>
@@ -2008,72 +2009,72 @@
         <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="8316819429937448761" nodeInfo="ng">
           <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="8316819429937448762" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="INPUT_READS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448763" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="COMPACT_READS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="compact reads format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448763" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COMPACT_READS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="compact reads format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448764" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448765" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="JOB_METADATA" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Metadata associated to a job executed on the cluster." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448765" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448766" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="GOBY_ALIGNMENT" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448767" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="GOBY_ALIGNMENT" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Goby alignment format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448767" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448768" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="COUNTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448769" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="COUNTS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Counts converted from a compact alignment." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448769" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COUNTS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Counts converted from a compact alignment." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448770" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_ALL_FILES" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448771" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_ALL_FILES" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with all the files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448771" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_ALL_FILES" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with all the files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448772" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_BED" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448773" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_BED" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with bed files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448773" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_BED" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with bed files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448774" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_WIG" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448775" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_WIG" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with wig files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448775" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_WIG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with wig files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448776" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448777" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Alignment textual statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448777" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Alignment textual statistics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448778" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448779" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Statistics about files in one of the compact Goby formats" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448779" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Statistics about files in one of the compact Goby formats" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448780" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448781" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Sequence Variation Statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448781" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
             </node>
           </node>
         </node>
@@ -2093,72 +2094,72 @@
         <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="8316819429937448786" nodeInfo="ng">
           <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="8316819429937448787" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="INPUT_READS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448788" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="COMPACT_READS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="compact reads format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448788" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COMPACT_READS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="compact reads format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448789" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448790" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="JOB_METADATA" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Metadata associated to a job executed on the cluster." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448790" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448791" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="GOBY_ALIGNMENT" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448792" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="GOBY_ALIGNMENT" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Goby alignment format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448792" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448793" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="COUNTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448794" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="COUNTS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Counts converted from a compact alignment." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448794" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COUNTS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Counts converted from a compact alignment." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448795" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_ALL_FILES" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448796" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_ALL_FILES" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with all the files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448796" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_ALL_FILES" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with all the files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448797" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_BED" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448798" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_BED" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with bed files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448798" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_BED" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with bed files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448799" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_WIG" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448800" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_WIG" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with wig files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448800" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_WIG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with wig files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448801" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448802" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Alignment textual statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448802" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Alignment textual statistics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448803" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448804" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Statistics about files in one of the compact Goby formats" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448804" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Statistics about files in one of the compact Goby formats" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448805" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448806" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Sequence Variation Statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448806" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
             </node>
           </node>
         </node>
@@ -2175,72 +2176,72 @@
         <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="8316819429937448810" nodeInfo="ng">
           <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="8316819429937448811" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="INPUT_READS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448812" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="COMPACT_READS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="compact reads format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448812" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COMPACT_READS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="compact reads format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448813" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448814" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="JOB_METADATA" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Metadata associated to a job executed on the cluster." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448814" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448815" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="GOBY_ALIGNMENT" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448816" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="GOBY_ALIGNMENT" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Goby alignment format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448816" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448817" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="COUNTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448818" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="COUNTS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Counts converted from a compact alignment." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448818" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COUNTS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Counts converted from a compact alignment." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448819" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_ALL_FILES" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448820" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_ALL_FILES" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with all the files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448820" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_ALL_FILES" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with all the files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448821" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_BED" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448822" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_BED" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with bed files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448822" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_BED" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with bed files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448823" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_WIG" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448824" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_WIG" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with wig files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448824" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_WIG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with wig files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448825" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448826" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Alignment textual statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448826" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Alignment textual statistics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448827" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448828" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Statistics about files in one of the compact Goby formats" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448828" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Statistics about files in one of the compact Goby formats" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448829" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448830" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Sequence Variation Statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448830" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
             </node>
           </node>
         </node>
@@ -2266,72 +2267,72 @@
         <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="8316819429937448837" nodeInfo="ng">
           <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="8316819429937448838" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="INPUT_READS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448839" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="COMPACT_READS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="compact reads format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448839" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COMPACT_READS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="compact reads format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448840" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448841" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="JOB_METADATA" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Metadata associated to a job executed on the cluster." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448841" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448842" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="GOBY_ALIGNMENT" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448843" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="GOBY_ALIGNMENT" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Goby alignment format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448843" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448844" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="COUNTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448845" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="COUNTS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Counts converted from a compact alignment." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448845" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COUNTS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Counts converted from a compact alignment." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448846" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_ALL_FILES" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448847" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_ALL_FILES" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with all the files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448847" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_ALL_FILES" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with all the files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448848" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_BED" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448849" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_BED" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with bed files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448849" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_BED" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with bed files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448850" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_WIG" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448851" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_WIG" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with wig files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448851" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_WIG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with wig files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448852" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448853" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Alignment textual statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448853" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Alignment textual statistics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448854" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448855" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Statistics about files in one of the compact Goby formats" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448855" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Statistics about files in one of the compact Goby formats" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448856" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448857" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Sequence Variation Statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448857" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
             </node>
           </node>
         </node>
@@ -2348,72 +2349,72 @@
         <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="8316819429937448861" nodeInfo="ng">
           <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="8316819429937448862" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="INPUT_READS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448863" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="COMPACT_READS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="compact reads format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448863" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COMPACT_READS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="compact reads format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448864" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448865" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="JOB_METADATA" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Metadata associated to a job executed on the cluster." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448865" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448866" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="BAM_ALIGNMENT" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448867" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="BAM_ALIGNMENT" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="BAM alignment format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448867" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="BAM_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="BAM alignment format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448868" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="COUNTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448869" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="COUNTS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Counts converted from a compact alignment." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448869" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COUNTS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Counts converted from a compact alignment." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448870" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_ALL_FILES" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448871" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_ALL_FILES" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with all the files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448871" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_ALL_FILES" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with all the files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448872" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_BED" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448873" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_BED" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with bed files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448873" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_BED" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with bed files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448874" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_WIG" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448875" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_WIG" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with wig files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448875" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_WIG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with wig files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448876" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448877" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Alignment textual statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448877" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Alignment textual statistics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448878" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448879" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Statistics about files in one of the compact Goby formats" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448879" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Statistics about files in one of the compact Goby formats" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448880" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448881" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Sequence Variation Statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448881" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
             </node>
           </node>
         </node>
@@ -2436,72 +2437,72 @@
         <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="8316819429937448887" nodeInfo="ng">
           <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="8316819429937448888" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="INPUT_READS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448889" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="COMPACT_READS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="compact reads format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448889" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COMPACT_READS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="compact reads format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448890" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448891" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="JOB_METADATA" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Metadata associated to a job executed on the cluster." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448891" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448892" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="GOBY_ALIGNMENT" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448893" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="GOBY_ALIGNMENT" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Goby alignment format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448893" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448894" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="COUNTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448895" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="COUNTS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Counts converted from a compact alignment." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448895" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COUNTS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Counts converted from a compact alignment." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448896" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_ALL_FILES" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448897" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_ALL_FILES" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with all the files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448897" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_ALL_FILES" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with all the files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448898" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_BED" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448899" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_BED" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with bed files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448899" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_BED" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with bed files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448900" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_WIG" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448901" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_WIG" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with wig files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448901" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_WIG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with wig files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448902" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448903" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Alignment textual statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448903" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Alignment textual statistics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448904" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448905" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Statistics about files in one of the compact Goby formats" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448905" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Statistics about files in one of the compact Goby formats" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448906" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448907" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Sequence Variation Statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448907" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
             </node>
           </node>
         </node>
@@ -2530,72 +2531,72 @@
         <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="8316819429937448915" nodeInfo="ng">
           <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="8316819429937448916" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="INPUT_READS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448917" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="COMPACT_READS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="compact reads format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448917" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COMPACT_READS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="compact reads format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448918" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448919" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="JOB_METADATA" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Metadata associated to a job executed on the cluster." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448919" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448920" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="GOBY_ALIGNMENT" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448921" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="GOBY_ALIGNMENT" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Goby alignment format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448921" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448922" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="COUNTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448923" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="COUNTS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Counts converted from a compact alignment." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448923" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COUNTS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Counts converted from a compact alignment." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448924" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_ALL_FILES" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448925" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_ALL_FILES" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with all the files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448925" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_ALL_FILES" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with all the files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448926" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_BED" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448927" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_BED" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with bed files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448927" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_BED" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with bed files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448928" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_WIG" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448929" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_WIG" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Zip archive with wig files produced by an aligner" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448929" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_WIG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with wig files produced by an aligner" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448930" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448931" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Alignment textual statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448931" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Alignment textual statistics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448932" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448933" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Statistics about files in one of the compact Goby formats" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448933" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Statistics about files in one of the compact Goby formats" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448934" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448935" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Sequence Variation Statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448935" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
             </node>
           </node>
         </node>
@@ -2624,37 +2625,37 @@
         <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="8316819429937448943" nodeInfo="ng">
           <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="8316819429937448944" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="INPUT_ALIGNMENTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448945" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="GOBY_ALIGNMENT" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Goby alignment format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448945" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448946" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448947" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="JOB_METADATA" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Metadata associated to a job executed on the cluster." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448947" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448948" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="METHYLATION_RESULTS_DB" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448949" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="X_SQLITE3" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="X_SQLITE3 table." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448949" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="X_SQLITE3" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="X_SQLITE3 table." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448950" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="METHYLATION_RESULTS_LUCENE_INDEX" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448951" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="LUCENE_INDEX" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="A directory containing a Lucene Index." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448951" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="LUCENE_INDEX" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="A directory containing a Lucene Index." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448952" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="METHYLATION_RESULTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448953" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Sequence Variation Statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448953" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
             </node>
           </node>
         </node>
@@ -2692,93 +2693,93 @@
         <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="8316819429937448964" nodeInfo="ng">
           <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="8316819429937448965" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_SOURCE_READS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448966" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="COMPACT_READS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="compact reads format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448966" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COMPACT_READS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="compact reads format" />
             </node>
           </node>
           <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="8316819429937448967" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="INPUT_ALIGNMENTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448968" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="GOBY_ALIGNMENT" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Goby alignment format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448968" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448969" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448970" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="JOB_METADATA" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Metadata associated to a job executed on the cluster." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448970" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448971" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="CONTAMINANT_RESULTS_DB" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448972" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="X_SQLITE3" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="X_SQLITE3 table." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448972" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="X_SQLITE3" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="X_SQLITE3 table." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448973" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="CONTAMINANT_RESULTS_LUCENE_INDEX" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448974" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="LUCENE_INDEX" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="A directory containing a Lucene Index." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448974" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="LUCENE_INDEX" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="A directory containing a Lucene Index." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448975" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="CONTAMINANT_RESULTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448976" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Sequence Variation Statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448976" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448977" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="CONTAMINANT_SUMMARY_DB" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448978" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="X_SQLITE3" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="X_SQLITE3 table." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448978" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="X_SQLITE3" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="X_SQLITE3 table." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448979" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="CONTAMINANT_SUMMARY_LUCENE_INDEX" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448980" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="LUCENE_INDEX" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="A directory containing a Lucene Index." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448980" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="LUCENE_INDEX" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="A directory containing a Lucene Index." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448981" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="CONTAMINANT_SUMMARY" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448982" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Sequence Variation Statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448982" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448983" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="REALIGNED_UNMAPPED_DB" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448984" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="X_SQLITE3" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="X_SQLITE3 table." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448984" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="X_SQLITE3" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="X_SQLITE3 table." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448985" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="REALIGNED_UNMAPPED_LUCENE_INDEX" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448986" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="LUCENE_INDEX" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="A directory containing a Lucene Index." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448986" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="LUCENE_INDEX" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="A directory containing a Lucene Index." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448987" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="REALIGNED_UNMAPPED" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448988" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Sequence Variation Statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448988" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448989" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ASSEMBLED_READS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448990" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="TAR_GZ" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="TAR GZ Compressed Archive" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448990" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="TAR_GZ" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="TAR GZ Compressed Archive" />
             </node>
           </node>
         </node>
@@ -2801,58 +2802,58 @@
         <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="8316819429937448996" nodeInfo="ng">
           <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="8316819429937448997" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="INPUT_ALIGNMENTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937448998" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="GOBY_ALIGNMENT" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Goby alignment format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937448998" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937448999" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449000" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="JOB_METADATA" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Metadata associated to a job executed on the cluster." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449000" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449001" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS_DB" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449002" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="X_SQLITE3" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="X_SQLITE3 table." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449002" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="X_SQLITE3" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="X_SQLITE3 table." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449003" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS_LUCENE_INDEX" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449004" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="LUCENE_INDEX" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="A directory containing a Lucene Index." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449004" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="LUCENE_INDEX" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="A directory containing a Lucene Index." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449005" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449006" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Sequence Variation Statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449006" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449007" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="GENE_SCATTER_PLOT" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449008" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="PNG" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Portable Network Graphics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449008" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="PNG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Portable Network Graphics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449009" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="EXON_SCATTER_PLOT" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449010" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="PNG" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Portable Network Graphics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449010" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="PNG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Portable Network Graphics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449011" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="OTHER_SCATTER_PLOT" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449012" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="PNG" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Portable Network Graphics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449012" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="PNG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Portable Network Graphics" />
             </node>
           </node>
         </node>
@@ -2878,58 +2879,58 @@
         <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="8316819429937449019" nodeInfo="ng">
           <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="8316819429937449020" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="INPUT_ALIGNMENTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449021" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="GOBY_ALIGNMENT" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Goby alignment format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449021" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449022" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449023" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="JOB_METADATA" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Metadata associated to a job executed on the cluster." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449023" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449024" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS_DB" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449025" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="X_SQLITE3" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="X_SQLITE3 table." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449025" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="X_SQLITE3" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="X_SQLITE3 table." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449026" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS_LUCENE_INDEX" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449027" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="LUCENE_INDEX" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="A directory containing a Lucene Index." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449027" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="LUCENE_INDEX" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="A directory containing a Lucene Index." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449028" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449029" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Sequence Variation Statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449029" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449030" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="GENE_SCATTER_PLOT" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449031" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="PNG" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Portable Network Graphics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449031" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="PNG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Portable Network Graphics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449032" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="EXON_SCATTER_PLOT" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449033" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="PNG" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Portable Network Graphics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449033" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="PNG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Portable Network Graphics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449034" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="OTHER_SCATTER_PLOT" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449035" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="PNG" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Portable Network Graphics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449035" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="PNG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Portable Network Graphics" />
             </node>
           </node>
         </node>
@@ -2955,51 +2956,51 @@
         <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="8316819429937449042" nodeInfo="ng">
           <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="8316819429937449043" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="INPUT_ALIGNMENTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449044" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="GOBY_ALIGNMENT" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Goby alignment format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449044" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449045" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449046" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="JOB_METADATA" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Metadata associated to a job executed on the cluster." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449046" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449047" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS_DB" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449048" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="X_SQLITE3" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="X_SQLITE3 table." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449048" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="X_SQLITE3" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="X_SQLITE3 table." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449049" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS_LUCENE_INDEX" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449050" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="LUCENE_INDEX" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="A directory containing a Lucene Index." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449050" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="LUCENE_INDEX" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="A directory containing a Lucene Index." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449051" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449052" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Sequence Variation Statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449052" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449053" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="SAMPLE_MDS_PLOT" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449054" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="PNG" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Portable Network Graphics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449054" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="PNG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Portable Network Graphics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449055" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ANALYSIS_SMEAR_PLOT" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449056" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="PNG" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Portable Network Graphics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449056" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="PNG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Portable Network Graphics" />
             </node>
           </node>
         </node>
@@ -3028,65 +3029,65 @@
         <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="8316819429937449064" nodeInfo="ng">
           <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="8316819429937449065" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="INPUT_ALIGNMENTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449066" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="GOBY_ALIGNMENT" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Goby alignment format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449066" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449067" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449068" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="JOB_METADATA" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Metadata associated to a job executed on the cluster." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449068" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449069" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS_DB" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449070" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="X_SQLITE3" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="X_SQLITE3 table." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449070" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="X_SQLITE3" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="X_SQLITE3 table." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449071" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS_LUCENE_INDEX" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449072" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="LUCENE_INDEX" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="A directory containing a Lucene Index." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449072" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="LUCENE_INDEX" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="A directory containing a Lucene Index." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449073" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449074" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Sequence Variation Statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449074" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449075" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="SAMPLE_MDS_PLOT" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449076" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="PNG" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Portable Network Graphics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449076" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="PNG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Portable Network Graphics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449077" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ANALYSIS_SMEAR_PLOT" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449078" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="PNG" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Portable Network Graphics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449078" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="PNG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Portable Network Graphics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449079" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="COUNTS_TABLE" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449080" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Sequence Variation Statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449080" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449081" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="EDGE_R_SCRIPT" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449082" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Alignment textual statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449082" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Alignment textual statistics" />
             </node>
           </node>
         </node>
@@ -3103,65 +3104,65 @@
         <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="8316819429937449086" nodeInfo="ng">
           <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="8316819429937449087" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="INPUT_ALIGNMENTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449088" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="GOBY_ALIGNMENT" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Goby alignment format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449088" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449089" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449090" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="JOB_METADATA" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Metadata associated to a job executed on the cluster." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449090" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449091" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS_DB" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449092" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="X_SQLITE3" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="X_SQLITE3 table." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449092" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="X_SQLITE3" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="X_SQLITE3 table." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449093" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS_LUCENE_INDEX" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449094" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="LUCENE_INDEX" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="A directory containing a Lucene Index." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449094" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="LUCENE_INDEX" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="A directory containing a Lucene Index." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449095" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449096" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Sequence Variation Statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449096" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449097" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="GENE_SCATTER_PLOT" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449098" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="PNG" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Portable Network Graphics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449098" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="PNG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Portable Network Graphics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449099" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="EXON_SCATTER_PLOT" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449100" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="PNG" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Portable Network Graphics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449100" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="PNG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Portable Network Graphics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449101" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="OTHER_SCATTER_PLOT" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449102" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="PNG" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Portable Network Graphics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449102" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="PNG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Portable Network Graphics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449103" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="TRANSCRIPT_SCATTER_PLOT" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449104" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="PNG" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Portable Network Graphics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449104" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="PNG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Portable Network Graphics" />
             </node>
           </node>
         </node>
@@ -3181,65 +3182,65 @@
         <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="8316819429937449109" nodeInfo="ng">
           <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="8316819429937449110" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="INPUT_ALIGNMENTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449111" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="GOBY_ALIGNMENT" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Goby alignment format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449111" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449112" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449113" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="JOB_METADATA" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Metadata associated to a job executed on the cluster." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449113" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449114" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS_DB" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449115" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="X_SQLITE3" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="X_SQLITE3 table." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449115" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="X_SQLITE3" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="X_SQLITE3 table." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449116" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS_LUCENE_INDEX" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449117" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="LUCENE_INDEX" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="A directory containing a Lucene Index." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449117" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="LUCENE_INDEX" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="A directory containing a Lucene Index." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449118" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449119" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Sequence Variation Statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449119" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449120" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="GENE_SCATTER_PLOT" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449121" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="PNG" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Portable Network Graphics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449121" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="PNG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Portable Network Graphics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449122" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="EXON_SCATTER_PLOT" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449123" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="PNG" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Portable Network Graphics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449123" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="PNG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Portable Network Graphics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449124" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="OTHER_SCATTER_PLOT" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449125" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="PNG" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Portable Network Graphics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449125" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="PNG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Portable Network Graphics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449126" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="TRANSCRIPT_SCATTER_PLOT" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449127" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="PNG" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Portable Network Graphics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449127" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="PNG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Portable Network Graphics" />
             </node>
           </node>
         </node>
@@ -3256,37 +3257,37 @@
         <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="8316819429937449131" nodeInfo="ng">
           <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="8316819429937449132" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="INPUT_ALIGNMENTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449133" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="GOBY_ALIGNMENT" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Goby alignment format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449133" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449134" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449135" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="JOB_METADATA" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Metadata associated to a job executed on the cluster." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449135" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449136" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS_DB" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449137" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="X_SQLITE3" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="X_SQLITE3 table." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449137" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="X_SQLITE3" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="X_SQLITE3 table." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449138" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS_LUCENE_INDEX" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449139" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="LUCENE_INDEX" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="A directory containing a Lucene Index." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449139" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="LUCENE_INDEX" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="A directory containing a Lucene Index." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449140" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449141" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Sequence Variation Statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449141" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
             </node>
           </node>
         </node>
@@ -3318,30 +3319,30 @@
         <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="8316819429937449150" nodeInfo="ng">
           <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="8316819429937449151" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="INPUT_ALIGNMENTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449152" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="GOBY_ALIGNMENT" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Goby alignment format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449152" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449153" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449154" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="JOB_METADATA" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Metadata associated to a job executed on the cluster." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449154" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449155" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="RESULTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449156" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Sequence Variation Statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449156" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449157" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="RESULTS_LUCENE_INDEX" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449158" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="LUCENE_INDEX" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="A directory containing a Lucene Index." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449158" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="LUCENE_INDEX" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="A directory containing a Lucene Index." />
             </node>
           </node>
         </node>
@@ -3373,44 +3374,44 @@
         <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="8316819429937449167" nodeInfo="ng">
           <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="8316819429937449168" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="INPUT_ALIGNMENTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449169" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="GOBY_ALIGNMENT" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Goby alignment format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449169" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449170" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449171" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="JOB_METADATA" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Metadata associated to a job executed on the cluster." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449171" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449172" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS_DB" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449173" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="X_SQLITE3" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="X_SQLITE3 table." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449173" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="X_SQLITE3" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="X_SQLITE3 table." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449174" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS_LUCENE_INDEX" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449175" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="LUCENE_INDEX" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="A directory containing a Lucene Index." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449175" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="LUCENE_INDEX" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="A directory containing a Lucene Index." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449176" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449177" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="VCF" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Variant Calling Format." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449177" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="VCF" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Variant Calling Format." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449178" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS_INDEX" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449179" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="VCF_INDEX" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Variant Calling Format Index (produced with tabix)." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449179" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="VCF_INDEX" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Variant Calling Format Index (produced with tabix)." />
             </node>
           </node>
         </node>
@@ -3433,121 +3434,121 @@
         <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="8316819429937449185" nodeInfo="ng">
           <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="8316819429937449186" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="INPUT_ALIGNMENTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449187" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="GOBY_ALIGNMENT" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Goby alignment format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449187" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449188" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449189" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="JOB_METADATA" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Metadata associated to a job executed on the cluster." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449189" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449190" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS_DB" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449191" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="X_SQLITE3" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="X_SQLITE3 table." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449191" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="X_SQLITE3" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="X_SQLITE3 table." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449192" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS_LUCENE_INDEX" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449193" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="LUCENE_INDEX" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="A directory containing a Lucene Index." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449193" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="LUCENE_INDEX" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="A directory containing a Lucene Index." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449194" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449195" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="VCF" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Variant Calling Format." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449195" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="VCF" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Variant Calling Format." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449196" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS_INDEX" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449197" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="VCF_INDEX" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Variant Calling Format Index (produced with tabix)." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449197" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="VCF_INDEX" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Variant Calling Format Index (produced with tabix)." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449198" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="DEPTH_RESULTS_DB" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449199" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="X_SQLITE3" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="X_SQLITE3 table." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449199" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="X_SQLITE3" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="X_SQLITE3 table." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449200" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="DEPTH_RESULTS_LUCENE_INDEX" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449201" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="LUCENE_INDEX" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="A directory containing a Lucene Index." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449201" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="LUCENE_INDEX" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="A directory containing a Lucene Index." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449202" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="CONVERSION_RATES_RESULTS_DB" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449203" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="X_SQLITE3" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="X_SQLITE3 table." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449203" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="X_SQLITE3" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="X_SQLITE3 table." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449204" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="CONVERSION_RATES_RESULTS_LUCENE_INDEX" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449205" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="LUCENE_INDEX" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="A directory containing a Lucene Index." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449205" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="LUCENE_INDEX" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="A directory containing a Lucene Index." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449206" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="NON_CONVERSION_RESULTS_DB" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449207" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="X_SQLITE3" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="X_SQLITE3 table." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449207" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="X_SQLITE3" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="X_SQLITE3 table." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449208" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="NON_CONVERSION_RESULTS_LUCENE_INDEX" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449209" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="LUCENE_INDEX" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="A directory containing a Lucene Index." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449209" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="LUCENE_INDEX" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="A directory containing a Lucene Index." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449210" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="DEPTH_RESULTS_TSV" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449211" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Sequence Variation Statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449211" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449212" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="CONVERSION_RATES_RESULTS_TSV" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449213" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Sequence Variation Statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449213" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449214" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="NON_CONVERSION_RESULTS_TSV" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449215" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Sequence Variation Statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449215" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449216" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="SAMPLE_COVERAGE_PLOT" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449217" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="PNG" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Portable Network Graphics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449217" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="PNG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Portable Network Graphics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449218" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="BISULFITE_CONVERSION_PLOT" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449219" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="PNG" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Portable Network Graphics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449219" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="PNG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Portable Network Graphics" />
             </node>
           </node>
         </node>
@@ -3570,44 +3571,44 @@
         <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="8316819429937449225" nodeInfo="ng">
           <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="8316819429937449226" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="INPUT_ALIGNMENTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449227" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="GOBY_ALIGNMENT" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Goby alignment format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449227" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449228" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449229" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="JOB_METADATA" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Metadata associated to a job executed on the cluster." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449229" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449230" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS_DB" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449231" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="X_SQLITE3" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="X_SQLITE3 table." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449231" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="X_SQLITE3" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="X_SQLITE3 table." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449232" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS_LUCENE_INDEX" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449233" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="LUCENE_INDEX" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="A directory containing a Lucene Index." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449233" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="LUCENE_INDEX" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="A directory containing a Lucene Index." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449234" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449235" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Sequence Variation Statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449235" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449236" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="IGV_OUTPUT" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449237" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Sequence Variation Statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449237" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
             </node>
           </node>
         </node>
@@ -3636,44 +3637,44 @@
         <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="8316819429937449245" nodeInfo="ng">
           <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="8316819429937449246" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="INPUT_ALIGNMENTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449247" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="GOBY_ALIGNMENT" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Goby alignment format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449247" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449248" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449249" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="JOB_METADATA" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Metadata associated to a job executed on the cluster." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449249" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449250" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS_DB" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449251" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="X_SQLITE3" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="X_SQLITE3 table." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449251" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="X_SQLITE3" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="X_SQLITE3 table." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449252" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS_LUCENE_INDEX" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449253" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="LUCENE_INDEX" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="A directory containing a Lucene Index." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449253" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="LUCENE_INDEX" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="A directory containing a Lucene Index." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449254" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449255" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Sequence Variation Statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449255" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449256" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="IGV_OUTPUT" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449257" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Sequence Variation Statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449257" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
             </node>
           </node>
         </node>
@@ -3693,16 +3694,16 @@
         <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="8316819429937449262" nodeInfo="ng">
           <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="8316819429937449263" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="INPUT_ALIGNMENTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449264" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="BAM_ALIGNMENT" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="BAM alignment format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449264" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="BAM_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="BAM alignment format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449265" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449266" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="JOB_METADATA" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Metadata associated to a job executed on the cluster." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449266" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
             </node>
           </node>
         </node>
@@ -3731,51 +3732,51 @@
         <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="8316819429937449274" nodeInfo="ng">
           <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="8316819429937449275" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="INPUT_ALIGNMENTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449276" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="GOBY_ALIGNMENT" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Goby alignment format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449276" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449277" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449278" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="JOB_METADATA" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Metadata associated to a job executed on the cluster." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449278" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449279" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS_DB" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449280" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="X_SQLITE3" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="X_SQLITE3 table." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449280" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="X_SQLITE3" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="X_SQLITE3 table." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449281" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS_LUCENE_INDEX" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449282" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="LUCENE_INDEX" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="A directory containing a Lucene Index." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449282" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="LUCENE_INDEX" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="A directory containing a Lucene Index." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449283" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449284" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Sequence Variation Statistics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449284" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449285" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="SAMPLE_MDS_PLOT" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449286" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="PNG" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Portable Network Graphics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449286" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="PNG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Portable Network Graphics" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449287" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ANALYSIS_SMEAR_PLOT" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449288" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="PNG" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Portable Network Graphics" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449288" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="PNG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Portable Network Graphics" />
             </node>
           </node>
         </node>
@@ -4125,30 +4126,30 @@
         <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="8316819429937449369" nodeInfo="ng">
           <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="8316819429937449370" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="INPUT_VCF" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449371" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="VCF" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Variant Calling Format." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449371" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="VCF" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Variant Calling Format." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449372" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="EXECUTION_LOG" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449373" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="TXT" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Plain text files." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449373" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="TXT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Plain text files." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449374" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="ANNOTATED_VCF" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449375" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="VCF" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Variant Calling Format." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449375" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="VCF" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Variant Calling Format." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449376" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449377" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="JOB_METADATA" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Metadata associated to a job executed on the cluster." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449377" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
             </node>
           </node>
         </node>
@@ -4168,51 +4169,51 @@
         <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="8316819429937449382" nodeInfo="ng">
           <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="8316819429937449383" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="UPLOADS_FILES" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449384" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="SUPPORTED_INPUT_READS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="All supported input read file formats." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449384" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="SUPPORTED_INPUT_READS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="All supported input read file formats." />
             </node>
           </node>
           <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="8316819429937449385" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="UPLOAD_MERGE_PLAN" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449386" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="GOBYWEB_MERGE_PLAN_FILE" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="The read merge plan file. Used to be called the details.tsv file." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449386" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBYWEB_MERGE_PLAN_FILE" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="The read merge plan file. Used to be called the details.tsv file." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449387" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="COMPACT_READ_FILES" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449388" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="COMPACT_READS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="compact reads format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449388" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COMPACT_READS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="compact reads format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449389" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="READ_QUALITY_STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449390" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="READ_QUALITY_STATS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="TSV file with read quality score statistics. Generated with the Goby reads-stats mode." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449390" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="READ_QUALITY_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="TSV file with read quality score statistics. Generated with the Goby reads-stats mode." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449391" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="WEIGHT_FILES" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449392" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="WEIGHT_FILES" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Goby Weight file format" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449392" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="WEIGHT_FILES" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby Weight file format" />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449393" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="OUTPUT_STATS" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449394" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="READS_STATS_PROPERTIES_FILE" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Statistics about a reads file, in Java properties format. Contains file size information and other meta-data. " />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449394" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="READS_STATS_PROPERTIES_FILE" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Statistics about a reads file, in Java properties format. Contains file size information and other meta-data. " />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449395" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449396" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="JOB_METADATA" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Metadata associated to a job executed on the cluster." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449396" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
             </node>
           </node>
         </node>
@@ -4232,23 +4233,23 @@
         <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="8316819429937449401" nodeInfo="ng">
           <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="8316819429937449402" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="DUMMY" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449403" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="SUPPORTED_INPUT_READS" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="All supported input read file formats." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449403" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="SUPPORTED_INPUT_READS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="All supported input read file formats." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449404" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="EXECUTION_LOG" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449405" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="TXT" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Plain text files." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449405" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="TXT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Plain text files." />
             </node>
           </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="8316819429937449406" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
-            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="dzk5.PluginReference" typeId="dzk5.7799893106583502588" id="8316819429937449407" nodeInfo="ng">
-              <property name="pluginID" nameId="dzk5.7799893106583502589" value="JOB_METADATA" />
-              <property name="pluginDescription" nameId="dzk5.7799893106583502591" value="Metadata associated to a job executed on the cluster." />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="8316819429937449407" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
             </node>
           </node>
         </node>
