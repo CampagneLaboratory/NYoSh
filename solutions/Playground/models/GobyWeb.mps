@@ -304,6 +304,9 @@
       </node>
     </node>
     <node role="pluginRegistry" roleId="935h.8463050739472729035" type="935h.PluginRegistry" typeId="935h.6519147379572947970" id="4220326230008251875" nodeInfo="ng" />
+    <node role="pluginSystem" roleId="935h.1090105717920801999" type="935h.PluginSystemRootDirectory" typeId="935h.6874736155930792596" id="6519147379583729156" nodeInfo="ng">
+      <property name="path" nameId="935h.6874736155930792624" value="sdfklsdfkl" />
+    </node>
   </root>
   <root type="4tvk.ErrorManagement" typeId="4tvk.8594065538792360516" id="4220326230008252204" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="MyErrorManagement" />

@@ -12,6 +12,10 @@
     <property name="rootable" nameId="tpce.1096454100552" value="true" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="PluginConfig" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="6519147379583750382" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="repoDirectory" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="4277119496927940532" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="version" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
