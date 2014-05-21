@@ -16,8 +16,8 @@
       <sourceRoot location="org.campagnelab.stepslogger-1.1.0.jar" />
       <sourceRoot location="plugins-2.4.1-SNAPSHOT.jar" />
       <sourceRoot location="scala-library-2.9.2.jar" />
-      <sourceRoot location="serverside-dependencies-1.0.8-full.jar" />
       <sourceRoot location="wildcard-1.03.jar" />
+      <sourceRoot location="serverside-dependencies-1.0.10-full.jar" />
     </modelRoot>
   </models>
   <facets>
@@ -56,7 +56,7 @@
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.3.0.jar" />
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/filesets-1.3.0-SNAPSHOT.jar" />
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/plugins-2.4.1-SNAPSHOT.jar" />
-    <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/serverside-dependencies-1.0.8-full.jar" />
+    <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/serverside-dependencies-1.0.10-full.jar" />
   </stubModelEntries>
   <sourcePath />
   <usedDevKits>
