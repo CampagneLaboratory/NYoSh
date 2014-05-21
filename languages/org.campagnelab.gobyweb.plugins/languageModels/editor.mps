@@ -226,5 +226,15 @@
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="6519147379582403577" nodeInfo="nn" />
     </node>
   </root>
+  <root type="tpc2.EditorComponentDeclaration" typeId="tpc2.1078938745671" id="2465489689644438738" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="PluginInputSlot_input" />
+    <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="dzk5.2105345521168932836" resolveInfo="ExecutableConfig" />
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="2465489689644440011" nodeInfo="nn">
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="2465489689644440018" nodeInfo="ng">
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="dzk5.4277119496930247909" />
+      </node>
+      <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="2465489689644440014" nodeInfo="nn" />
+    </node>
+  </root>
 </model>
 
