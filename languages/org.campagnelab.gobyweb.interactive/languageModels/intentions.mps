@@ -8,17 +8,21 @@
   <language namespace="13744753-c81f-424a-9c1b-cf8943bf4e86(jetbrains.mps.lang.sharedConcepts)" />
   <language-engaged-on-generation namespace="a21a7294-c126-4f63-8335-8fecd8c28c7e(org.campagnelab.NYoSh)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="20" />
+  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="22" />
   <import index="22fg" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.net(JDK/java.net@java_stub)" version="-1" />
   <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="30" />
   <import index="r4ou" modelUID="f:java_stub#0202ed86-955d-4227-9c20-377dd6b1f9ff#org.campagnelab.gobyweb.filesets.preview(org.campagnelab.nyosh.lib/org.campagnelab.gobyweb.filesets.preview@java_stub)" version="-1" />
   <import index="k7g3" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" version="-1" />
   <import index="jlk6" modelUID="f:java_stub#0202ed86-955d-4227-9c20-377dd6b1f9ff#org.campagnelab.gobyweb.clustergateway.registration(org.campagnelab.nyosh.lib/org.campagnelab.gobyweb.clustergateway.registration@java_stub)" version="-1" />
   <import index="srng" modelUID="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.openapi.editor(MPS.Editor/jetbrains.mps.openapi.editor@java_stub)" version="-1" />
-  <import index="lcm8" modelUID="r:19e666fd-ce33-4549-bbc2-aa106ce25584(org.campagnelab.gobyweb.interactive.behavior)" version="-1" />
+  <import index="lcm8" modelUID="r:19e666fd-ce33-4549-bbc2-aa106ce25584(org.campagnelab.gobyweb.interactive.behavior)" version="0" />
   <import index="9k5" modelUID="r:df9645c2-d2fa-41cb-a718-044a287b0626(org.campagnelab.clusterConfig.structure)" version="3" />
   <import index="46mz" modelUID="r:bf68e0f8-5137-4e77-a465-6eead8ac55fe(org.campagnelab.clusterConfig.behavior)" version="-1" />
   <import index="pcsz" modelUID="r:4d33d067-c01f-41ec-95b2-89ce0161e856(org.campagnelab.ssh.behavior)" version="-1" />
+  <import index="whle" modelUID="r:8e4fd1b7-1955-43a4-ace6-aaf9d13814f8(org.campagnelab.logger.structure)" version="1" />
+  <import index="mak5" modelUID="r:977bf260-4884-422e-9656-9f0bb268fcb0(org.campagnelab.logger.behavior)" version="0" />
+  <import index="dzk5" modelUID="r:2bfcc546-5c51-4762-9df2-c43920be4458(org.campagnelab.gobyweb.plugins.structure)" version="2" />
+  <import index="r45n" modelUID="r:f03be5c7-7ff3-4aa5-9c70-277740663ade(org.campagnelab.gobyweb.plugins.behavior)" version="0" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
   <import index="tp3j" modelUID="r:00000000-0000-4000-0000-011c89590353(jetbrains.mps.lang.intentions.structure)" version="8" implicit="yes" />
@@ -30,8 +34,6 @@
   <import index="tpcw" modelUID="r:00000000-0000-4000-0000-011c895902bc(jetbrains.mps.lang.sharedConcepts.structure)" version="0" implicit="yes" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" implicit="yes" />
   <import index="tp2c" modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" implicit="yes" />
-  <import index="dzk5" modelUID="r:2bfcc546-5c51-4762-9df2-c43920be4458(org.campagnelab.gobyweb.plugins.structure)" version="2" implicit="yes" />
-  <import index="r45n" modelUID="r:f03be5c7-7ff3-4aa5-9c70-277740663ade(org.campagnelab.gobyweb.plugins.behavior)" version="0" implicit="yes" />
   <root type="tp3j.IntentionDeclaration" typeId="tp3j.1192794744107" id="5949986731305766019" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="ExecuteJob" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="job" />
@@ -633,7 +635,7 @@
           <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="1997533223712883093" nodeInfo="nr">
             <property name="name" nameId="tpck.1169194664001" value="logger" />
             <node role="type" roleId="tpee.5680397130376446158" type="tp25.SNodeType" typeId="tp25.1138055754698" id="1997533223712883088" nodeInfo="in">
-              <link role="concept" roleId="tp25.1138405853777" targetNodeId="bs99.1997533223712647372" resolveInfo="Logger" />
+              <link role="concept" roleId="tp25.1138405853777" targetNodeId="whle.1925991773566712428" resolveInfo="Logger" />
             </node>
             <node role="initializer" roleId="tpee.1068431790190" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1997533223712891515" nodeInfo="nn">
               <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1997533223712886376" nodeInfo="nn">
@@ -642,7 +644,7 @@
                   <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_GetModelOperation" typeId="tp25.1143234257716" id="1997533223712885574" nodeInfo="nn" />
                 </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tp25.Model_NodesOperation" typeId="tp25.1171323947159" id="1997533223712887273" nodeInfo="nn">
-                  <link role="concept" roleId="tp25.1171323947160" targetNodeId="bs99.1997533223712647372" resolveInfo="Logger" />
+                  <link role="concept" roleId="tp25.1171323947160" targetNodeId="whle.1925991773566712428" resolveInfo="Logger" />
                 </node>
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tp2q.GetFirstOperation" typeId="tp2q.1165525191778" id="1997533223712905720" nodeInfo="nn" />
@@ -987,7 +989,7 @@
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1997533223712883093" resolveInfo="logger" />
                 </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="7039650749313923835" nodeInfo="nn">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="lcm8.7039650749312821643" resolveInfo="add" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mak5.1925991773566712454" resolveInfo="add" />
                   <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="7039650749313958134" nodeInfo="nn">
                     <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.VariableReference" typeId="tpee.1068498886296" id="7039650749313958178" nodeInfo="nn">
                       <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1997533223701911106" resolveInfo="tag" />
@@ -1014,7 +1016,7 @@
                     <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1997533223712883093" resolveInfo="logger" />
                   </node>
                   <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="7039650749314001973" nodeInfo="nn">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="lcm8.7039650749313224913" resolveInfo="error" />
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mak5.1925991773566712431" resolveInfo="error" />
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7039650749314013901" nodeInfo="nn">
                       <property name="value" nameId="tpee.1070475926801" value="Failed to register, encountered exception: " />
                     </node>
@@ -1115,7 +1117,7 @@
           <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="9060959798051978676" nodeInfo="nr">
             <property name="name" nameId="tpck.1169194664001" value="logger" />
             <node role="type" roleId="tpee.5680397130376446158" type="tp25.SNodeType" typeId="tp25.1138055754698" id="9060959798051978677" nodeInfo="in">
-              <link role="concept" roleId="tp25.1138405853777" targetNodeId="bs99.1997533223712647372" resolveInfo="Logger" />
+              <link role="concept" roleId="tp25.1138405853777" targetNodeId="whle.1925991773566712428" resolveInfo="Logger" />
             </node>
             <node role="initializer" roleId="tpee.1068431790190" type="tpee.DotExpression" typeId="tpee.1197027756228" id="9060959798051978678" nodeInfo="nn">
               <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="9060959798051978679" nodeInfo="nn">
@@ -1124,7 +1126,7 @@
                   <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_GetModelOperation" typeId="tp25.1143234257716" id="9060959798051978682" nodeInfo="nn" />
                 </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tp25.Model_NodesOperation" typeId="tp25.1171323947159" id="9060959798051978683" nodeInfo="nn">
-                  <link role="concept" roleId="tp25.1171323947160" targetNodeId="bs99.1997533223712647372" resolveInfo="Logger" />
+                  <link role="concept" roleId="tp25.1171323947160" targetNodeId="whle.1925991773566712428" resolveInfo="Logger" />
                 </node>
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tp2q.GetFirstOperation" typeId="tp2q.1165525191778" id="9060959798051978684" nodeInfo="nn" />
@@ -1273,7 +1275,7 @@
                     <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="9060959798051978676" resolveInfo="logger" />
                   </node>
                   <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="7039650749313824375" nodeInfo="nn">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="lcm8.7039650749313224913" resolveInfo="error" />
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mak5.1925991773566712431" resolveInfo="error" />
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7039650749313831268" nodeInfo="nn">
                       <property name="value" nameId="tpee.1070475926801" value="Unable to execute Preview Registration intention" />
                     </node>
@@ -1355,7 +1357,7 @@
           <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="5089320302162873768" nodeInfo="nr">
             <property name="name" nameId="tpck.1169194664001" value="logger" />
             <node role="type" roleId="tpee.5680397130376446158" type="tp25.SNodeType" typeId="tp25.1138055754698" id="5089320302162873769" nodeInfo="in">
-              <link role="concept" roleId="tp25.1138405853777" targetNodeId="bs99.1997533223712647372" resolveInfo="Logger" />
+              <link role="concept" roleId="tp25.1138405853777" targetNodeId="whle.1925991773566712428" resolveInfo="Logger" />
             </node>
             <node role="initializer" roleId="tpee.1068431790190" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5089320302162873770" nodeInfo="nn">
               <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5089320302162873771" nodeInfo="nn">
@@ -1364,7 +1366,7 @@
                   <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_GetModelOperation" typeId="tp25.1143234257716" id="5089320302162873774" nodeInfo="nn" />
                 </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tp25.Model_NodesOperation" typeId="tp25.1171323947159" id="5089320302162873775" nodeInfo="nn">
-                  <link role="concept" roleId="tp25.1171323947160" targetNodeId="bs99.1997533223712647372" resolveInfo="Logger" />
+                  <link role="concept" roleId="tp25.1171323947160" targetNodeId="whle.1925991773566712428" resolveInfo="Logger" />
                 </node>
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tp2q.GetFirstOperation" typeId="tp2q.1165525191778" id="5089320302162873776" nodeInfo="nn" />
@@ -1387,7 +1389,7 @@
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="5089320302162873768" resolveInfo="logger" />
                 </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="7039650749313200846" nodeInfo="nn">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="lcm8.7039650749312821643" resolveInfo="add" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mak5.1925991773566712454" resolveInfo="add" />
                   <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="5089320302162888888" nodeInfo="nn">
                     <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5089320302163506521" nodeInfo="nn">
                       <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5089320302163503198" nodeInfo="nn">
@@ -1423,7 +1425,7 @@
                     <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="5089320302162873768" resolveInfo="logger" />
                   </node>
                   <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="7039650749313212400" nodeInfo="nn">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="lcm8.7039650749313224913" resolveInfo="error" />
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mak5.1925991773566712431" resolveInfo="error" />
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="5704832314558938093" nodeInfo="nn">
                       <property name="value" nameId="tpee.1070475926801" value="Unable to load plugins" />
                     </node>
@@ -1895,7 +1897,7 @@
           <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="5070499378253961804" nodeInfo="nr">
             <property name="name" nameId="tpck.1169194664001" value="logger" />
             <node role="type" roleId="tpee.5680397130376446158" type="tp25.SNodeType" typeId="tp25.1138055754698" id="5070499378253961805" nodeInfo="in">
-              <link role="concept" roleId="tp25.1138405853777" targetNodeId="bs99.1997533223712647372" resolveInfo="Logger" />
+              <link role="concept" roleId="tp25.1138405853777" targetNodeId="whle.1925991773566712428" resolveInfo="Logger" />
             </node>
             <node role="initializer" roleId="tpee.1068431790190" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5070499378253961806" nodeInfo="nn">
               <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5070499378253961807" nodeInfo="nn">
@@ -1904,7 +1906,7 @@
                   <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_GetModelOperation" typeId="tp25.1143234257716" id="5070499378253961810" nodeInfo="nn" />
                 </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tp25.Model_NodesOperation" typeId="tp25.1171323947159" id="5070499378253961811" nodeInfo="nn">
-                  <link role="concept" roleId="tp25.1171323947160" targetNodeId="bs99.1997533223712647372" resolveInfo="Logger" />
+                  <link role="concept" roleId="tp25.1171323947160" targetNodeId="whle.1925991773566712428" resolveInfo="Logger" />
                 </node>
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tp2q.GetFirstOperation" typeId="tp2q.1165525191778" id="5070499378253961812" nodeInfo="nn" />
@@ -1989,7 +1991,7 @@
                         <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="5070499378253961804" resolveInfo="logger" />
                       </node>
                       <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="5070499378253978328" nodeInfo="nn">
-                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="lcm8.7039650749312821643" resolveInfo="add" />
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mak5.1925991773566712454" resolveInfo="add" />
                         <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="5070499378253983693" nodeInfo="nn">
                           <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.VariableReference" typeId="tpee.1068498886296" id="5070499378253984056" nodeInfo="nn">
                             <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="5070499378253976634" resolveInfo="it" />
@@ -2390,7 +2392,7 @@
           <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="3568673897466907350" nodeInfo="nr">
             <property name="name" nameId="tpck.1169194664001" value="logger" />
             <node role="type" roleId="tpee.5680397130376446158" type="tp25.SNodeType" typeId="tp25.1138055754698" id="3568673897466907351" nodeInfo="in">
-              <link role="concept" roleId="tp25.1138405853777" targetNodeId="bs99.1997533223712647372" resolveInfo="Logger" />
+              <link role="concept" roleId="tp25.1138405853777" targetNodeId="whle.1925991773566712428" resolveInfo="Logger" />
             </node>
             <node role="initializer" roleId="tpee.1068431790190" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3568673897466907352" nodeInfo="nn">
               <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3568673897466907353" nodeInfo="nn">
@@ -2399,7 +2401,7 @@
                   <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_GetModelOperation" typeId="tp25.1143234257716" id="3568673897466907355" nodeInfo="nn" />
                 </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tp25.Model_NodesOperation" typeId="tp25.1171323947159" id="3568673897466907356" nodeInfo="nn">
-                  <link role="concept" roleId="tp25.1171323947160" targetNodeId="bs99.1997533223712647372" resolveInfo="Logger" />
+                  <link role="concept" roleId="tp25.1171323947160" targetNodeId="whle.1925991773566712428" resolveInfo="Logger" />
                 </node>
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tp2q.GetFirstOperation" typeId="tp2q.1165525191778" id="3568673897466907357" nodeInfo="nn" />
@@ -2412,7 +2414,7 @@
               <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3568673897466907350" resolveInfo="logger" />
             </node>
             <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="3568673897466924226" nodeInfo="nn">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="lcm8.3568673897466600032" resolveInfo="add" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mak5.1925991773566712523" resolveInfo="add" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tp3j.ConceptFunctionParameter_node" typeId="tp3j.1192796902958" id="3568673897466933252" nodeInfo="nn" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3568673897466938660" nodeInfo="nn">
                 <property name="value" nameId="tpee.1070475926801" value="Ping logger with source" />
