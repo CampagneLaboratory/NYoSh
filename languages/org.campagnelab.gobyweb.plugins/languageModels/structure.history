@@ -61,12 +61,12 @@
   </StructureModification>
   <StructureModification>
     <dependencies>
-      <model index="pyqc" modelUID="r:72745bf9-459c-4b98-8342-8e5385473026(org.campagnelab.gobyweb.behavior)" version="0" />
       <model index="uk16" modelUID="r:63193f4d-76a2-48d4-b116-0f4aaae07639(org.campagnelab.gobyweb.editor)" version="2" />
+      <model index="pyqc" modelUID="r:72745bf9-459c-4b98-8342-8e5385473026(org.campagnelab.gobyweb.behavior)" version="0" />
       <model index="tz7f" modelUID="r:0daf8a5d-1b34-4935-9c8e-e84fc9bdf15c(org.campagnelab.gobyweb.plugins.editor)" version="0" />
       <model index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="29" />
-      <model index="r45n" modelUID="r:f03be5c7-7ff3-4aa5-9c70-277740663ade(org.campagnelab.gobyweb.plugins.behavior)" version="-1" />
       <model index="dzk5" modelUID="r:2bfcc546-5c51-4762-9df2-c43920be4458(org.campagnelab.gobyweb.plugins.structure)" version="1" />
+      <model index="r45n" modelUID="r:f03be5c7-7ff3-4aa5-9c70-277740663ade(org.campagnelab.gobyweb.plugins.behavior)" version="-1" />
     </dependencies>
     <move id="dzk5.7799893106583502591" to="935h.6519147379572947969" />
     <move id="dzk5.7799893106583502592" to="935h.6519147379572947970" />
@@ -308,6 +308,20 @@
     <move id="r45n.731554740237778531" to="pyqc.6519147379572948062" />
     <move id="r45n.731554740237778482" to="pyqc.6519147379572948013" />
     <move id="r45n.731554740237778471" to="pyqc.6519147379572948002" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="22" />
+      <model index="dzk5" modelUID="r:2bfcc546-5c51-4762-9df2-c43920be4458(org.campagnelab.gobyweb.plugins.structure)" version="2" />
+    </dependencies>
+    <move id="bs99.2123376856174022625" to="dzk5.2123376856174024706" />
+    <move id="bs99.2123376856173971350" to="dzk5.2123376856174024705" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="dzk5" modelUID="r:2bfcc546-5c51-4762-9df2-c43920be4458(org.campagnelab.gobyweb.plugins.structure)" version="3" />
+    </dependencies>
+    <rename id="dzk5.2123376856174024705" type="CONCEPT" from="Option" to="OptionDefinition" />
   </StructureModification>
 </history>
 
