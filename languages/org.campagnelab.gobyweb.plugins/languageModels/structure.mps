@@ -65,6 +65,14 @@
     <property name="name" nameId="tpck.1169194664001" value="PluginInputSlot" />
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Input slot for a plugin" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="4277119496930270548" resolveInfo="PluginSlot" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="1670346574285355658" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="minCardinality" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="1670346574285355720" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="maxCardinality" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4277119496930270547" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="io" />
