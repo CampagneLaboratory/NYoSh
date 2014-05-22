@@ -34,7 +34,7 @@
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <property name="role" nameId="tpce.1071599776563" value="executionPlugin" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="935h.1090105717920801947" resolveInfo="PluginScript" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="dzk5.2105345521168932836" resolveInfo="ExecutableConfig" />
     </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="2051553890368806506" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
