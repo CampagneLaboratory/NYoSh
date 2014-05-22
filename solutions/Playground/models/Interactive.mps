@@ -9,7 +9,7 @@
   <language namespace="adfd00cb-58d7-4094-bca8-f941a491e04f(org.campagnelab.gobyweb)" />
   <language namespace="82ffebe3-3685-4fd9-b560-0c1d348d295c(org.campagnelab.logger)" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="23" implicit="yes" />
+  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="24" implicit="yes" />
   <import index="9k5" modelUID="r:df9645c2-d2fa-41cb-a718-044a287b0626(org.campagnelab.clusterConfig.structure)" version="3" implicit="yes" />
   <import index="eith" modelUID="r:1ed73e49-326d-4559-947b-13dfd134d00a(org.campagnelab.ssh.structure)" version="-1" implicit="yes" />
   <import index="dzk5" modelUID="r:2bfcc546-5c51-4762-9df2-c43920be4458(org.campagnelab.gobyweb.plugins.structure)" version="4" implicit="yes" />
@@ -7350,6 +7350,55 @@
           </node>
         </node>
       </node>
+      <node role="jobs" roleId="bs99.3472136550992836012" type="bs99.Job" typeId="bs99.2051553890368756070" id="606449909789338877" nodeInfo="ng">
+        <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="606449909786936987" resolveInfo="PROCESS_READS_TASK" />
+        <link role="executionEnvironment" roleId="bs99.2051553890368806506" targetNodeId="7170488887939211556" resolveInfo="SpankyEnvironmentRemoteConnection_MS" />
+        <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="606449909789338878" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="UPLOADS_FILES" />
+          <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="606449909789338879" nodeInfo="ng">
+            <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="606449909786494180" resolveInfo="CVIQCHV-CFS005-466-D1PRE_S11_L001_I2_001" />
+          </node>
+        </node>
+        <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="606449909789338880" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="UPLOAD_MERGE_PLAN" />
+          <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="606449909789338881" nodeInfo="ng">
+            <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="606449909786494187" resolveInfo="XZURYGM-details" />
+          </node>
+        </node>
+      </node>
+      <node role="jobs" roleId="bs99.3472136550992836012" type="bs99.Job" typeId="bs99.2051553890368756070" id="606449909789626889" nodeInfo="ng">
+        <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="606449909786936987" resolveInfo="PROCESS_READS_TASK" />
+        <link role="executionEnvironment" roleId="bs99.2051553890368806506" targetNodeId="7170488887939211556" resolveInfo="SpankyEnvironmentRemoteConnection_MS" />
+        <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="606449909789626890" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="UPLOADS_FILES" />
+          <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="606449909789626891" nodeInfo="ng">
+            <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="606449909786494180" resolveInfo="CVIQCHV-CFS005-466-D1PRE_S11_L001_I2_001" />
+          </node>
+        </node>
+        <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="606449909789626892" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="UPLOAD_MERGE_PLAN" />
+          <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="606449909789626893" nodeInfo="ng">
+            <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="606449909786494187" resolveInfo="XZURYGM-details" />
+          </node>
+        </node>
+      </node>
+      <node role="jobs" roleId="bs99.3472136550992836012" type="bs99.Job" typeId="bs99.2051553890368756070" id="606449909789636471" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="First job" />
+        <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="606449909786936987" resolveInfo="PROCESS_READS_TASK" />
+        <link role="executionEnvironment" roleId="bs99.2051553890368806506" targetNodeId="7170488887939211556" resolveInfo="SpankyEnvironmentRemoteConnection_MS" />
+        <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="606449909789636472" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="UPLOADS_FILES" />
+          <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="606449909789636473" nodeInfo="ng">
+            <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="606449909786494180" resolveInfo="CVIQCHV-CFS005-466-D1PRE_S11_L001_I2_001" />
+          </node>
+        </node>
+        <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="606449909789636474" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="UPLOAD_MERGE_PLAN" />
+          <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="606449909789636475" nodeInfo="ng">
+            <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="606449909786494187" resolveInfo="XZURYGM-details" />
+          </node>
+        </node>
+      </node>
     </node>
   </root>
   <root type="bs99.ExecutionEnvironment" typeId="bs99.2051553890368778876" id="7170488887949089862" nodeInfo="ng">
@@ -13697,6 +13746,7 @@
   </root>
   <root type="bs99.ExecutionTool" typeId="bs99.2465489689642685978" id="2465489689643890045" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="ExecutionTool" />
+    <property name="jobName" nameId="bs99.606449909789338951" value="First job" />
     <link role="executionEnvironment" roleId="bs99.2465489689642686100" targetNodeId="7170488887939211556" resolveInfo="SpankyEnvironmentRemoteConnection_MS" />
     <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="606449909786936987" resolveInfo="PROCESS_READS_TASK" />
     <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="606449909786515888" nodeInfo="ng">
