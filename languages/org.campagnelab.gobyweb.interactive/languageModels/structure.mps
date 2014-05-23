@@ -362,6 +362,7 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2954990197977709385" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="RegisterFileTool" />
     <property name="rootable" nameId="tpce.1096454100552" value="true" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="tools" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="5704832314568277954" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="willCreateFilesets" />
@@ -455,6 +456,7 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8258261499132276459" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="ImportTool" />
     <property name="rootable" nameId="tpce.1096454100552" value="true" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="tools" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="8258261499132300449" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="tagsToImport" />
@@ -553,6 +555,7 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2465489689642685978" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="ExecutionTool" />
     <property name="rootable" nameId="tpce.1096454100552" value="true" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="tools" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="606449909789338951" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="jobName" />
