@@ -349,5 +349,23 @@
     </dependencies>
     <rename id="bs99.606449909788800957" type="CHILD" from="sta" to="results" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="24" />
+    </dependencies>
+    <rename id="bs99.606449909792985411" type="PROPERTY" from="id" to="categoryId" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="25" />
+    </dependencies>
+    <rename id="bs99.2051553890368761097" type="CONCEPT" from="Option" to="OptionValue" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="26" />
+    </dependencies>
+    <rename id="bs99.606449909792831682" type="CONCEPT" from="OptionValue" to="InputOptionValue" />
+  </StructureModification>
 </history>
 
