@@ -128,6 +128,7 @@
   </root>
   <root type="tpd4.NonTypesystemRule" typeId="tpd4.1195214364922" id="1670346574285328939" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="MandatorySlotValuesPresent" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="tools" />
     <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="1670346574285329291" nodeInfo="sn">
       <node role="statement" roleId="tpee.1068581517665" type="tp2q.ForEachStatement" typeId="tp2q.1153943597977" id="1670346574285342629" nodeInfo="nn">
         <node role="variable" roleId="tp2q.1153944400369" type="tp2q.ForEachVariable" typeId="tp2q.1153944193378" id="1670346574285342631" nodeInfo="nr">

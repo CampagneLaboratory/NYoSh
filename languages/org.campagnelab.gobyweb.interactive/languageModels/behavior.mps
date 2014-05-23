@@ -543,6 +543,7 @@
     </node>
   </root>
   <root type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="5693159665555429245" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="tools" />
     <link role="concept" roleId="1i04.1225194240799" targetNodeId="bs99.2954990197977709385" resolveInfo="RegisterFileTool" />
     <node role="method" roleId="1i04.1225194240805" type="1i04.ConceptMethodDeclaration" typeId="1i04.1225194472830" id="5693159665555429343" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="addFile" />
@@ -5780,6 +5781,7 @@
     </node>
   </root>
   <root type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="8258261499132354658" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="tools" />
     <link role="concept" roleId="1i04.1225194240799" targetNodeId="bs99.8258261499132276459" resolveInfo="ImportTool" />
     <node role="method" roleId="1i04.1225194240805" type="1i04.ConceptMethodDeclaration" typeId="1i04.1225194472830" id="8258261499132356088" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="fetchMetadata" />
@@ -7529,6 +7531,7 @@
     </node>
   </root>
   <root type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="2465489689642691007" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="tools" />
     <link role="concept" roleId="1i04.1225194240799" targetNodeId="bs99.2465489689642685978" resolveInfo="ExecutionTool" />
     <node role="constructor" roleId="1i04.1225194240801" type="1i04.ConceptConstructorDeclaration" typeId="1i04.1225194413805" id="2465489689642691008" nodeInfo="nn">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="2465489689642691009" nodeInfo="sn">
