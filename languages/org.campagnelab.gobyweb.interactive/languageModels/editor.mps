@@ -2639,7 +2639,7 @@
         <property name="text" nameId="tpc2.1073389577007" value=":" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="606449909795200900" nodeInfo="ng">
-        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="bs99.606449909792920797" resolveInfo="value" />
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="bs99.606449909792985411" resolveInfo="categoryId" />
       </node>
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Horizontal" typeId="tpc2.1106270549637" id="606449909795200901" nodeInfo="nn" />
     </node>

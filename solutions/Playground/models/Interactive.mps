@@ -9259,6 +9259,9 @@
           <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="606449909795188131" resolveInfo="PROCESS_READS" />
         </node>
         <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="606449909795189622" nodeInfo="ng">
+          <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="606449909796362495" nodeInfo="ng">
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="606449909796362496" nodeInfo="ng" />
+          </node>
           <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="606449909795189625" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="COMPACT_READ_FILES" />
             <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="606449909795189626" nodeInfo="ng">
@@ -15895,6 +15898,17 @@
     <property name="jobName" nameId="bs99.606449909789338951" value="First job" />
     <link role="executionEnvironment" roleId="bs99.2465489689642686100" targetNodeId="7170488887939211556" resolveInfo="SpankyEnvironmentRemoteConnection_MS" />
     <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="606449909795189618" resolveInfo="PROCESS_READS_TASK" />
+    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.IntegerOptionValue" typeId="bs99.606449909792930896" id="606449909795942665" nodeInfo="ng">
+      <property name="value" nameId="bs99.606449909792930897" value="1" />
+      <link role="optionDefinition" roleId="bs99.606449909792930899" targetNodeId="606449909795188234" resolveInfo="Ambiguity threshold" />
+    </node>
+    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.CategoricalOptionValue" typeId="bs99.606449909792985260" id="606449909795942670" nodeInfo="ng">
+      <property name="categoryId" nameId="bs99.606449909792985411" value="TMM" />
+      <link role="optionDefinition" roleId="bs99.606449909792985261" targetNodeId="606449909795188993" resolveInfo="normalization factors method" />
+    </node>
+    <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="606449909796362499" nodeInfo="ng">
+      <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="606449909796362495" />
+    </node>
   </root>
 </model>
 
