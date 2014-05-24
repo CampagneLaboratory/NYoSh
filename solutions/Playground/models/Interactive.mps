@@ -28457,15 +28457,10 @@
     <property name="jobName" nameId="bs99.606449909789338951" value="First job" />
     <link role="executionEnvironment" roleId="bs99.2465489689642686100" targetNodeId="7170488887939211556" resolveInfo="SpankyEnvironmentRemoteConnection_MS" />
     <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="7862569995356985125" resolveInfo="PROCESS_READS_TASK" />
-    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.CategoricalOptionValue" typeId="bs99.606449909792985260" id="7862569995356992082" nodeInfo="ng">
-      <property name="categoryId" nameId="bs99.606449909792985411" value="d" />
-      <link role="optionDefinition" roleId="bs99.606449909792985261" targetNodeId="7862569995356984637" resolveInfo="weight adjustment" />
-    </node>
-    <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="7862569995356992076" nodeInfo="ng">
+    <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="7862569995358846227" nodeInfo="ng">
       <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="7862569995356985130" resolveInfo="UPLOADS_FILES" />
-      <link role="value" roleId="bs99.2465489689644454141" targetNodeId="606449909786494180" resolveInfo="CVIQCHV-CFS005-466-D1PRE_S11_L001_I2_0˚01" />
     </node>
-    <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="7862569995356992077" nodeInfo="ng">
+    <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="7862569995358846228" nodeInfo="ng">
       <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="7862569995356985132" resolveInfo="UPLOAD_MERGE_PLAN" />
     </node>
   </root>
