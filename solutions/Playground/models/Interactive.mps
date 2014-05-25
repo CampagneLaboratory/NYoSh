@@ -28453,19 +28453,23 @@
     <node role="pluginRepository" roleId="bs99.1997533223701807309" type="bs99.PluginRepository" typeId="bs99.1997533223701191426" id="2300979037628900196" nodeInfo="ng" />
   </root>
   <root type="bs99.ExecutionTool" typeId="bs99.2465489689642685978" id="2465489689643890045" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="ExecutionTool_MS" />
+    <property name="name" nameId="tpck.1169194664001" value="SplitExecutionTool_MS" />
     <property name="jobName" nameId="bs99.606449909789338951" value="First job" />
     <link role="executionEnvironment" roleId="bs99.2465489689642686100" targetNodeId="7170488887939211556" resolveInfo="SpankyEnvironmentRemoteConnection_MS" />
     <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="7862569995356985125" resolveInfo="PROCESS_READS_TASK" />
-    <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="6506431596942345553" nodeInfo="ng">
+    <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="3659415948325467887" nodeInfo="ng">
       <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="7862569995356985130" resolveInfo="UPLOADS_FILES" />
     </node>
-    <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="6506431596942345554" nodeInfo="ng">
+    <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="3659415948325467888" nodeInfo="ng">
       <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="7862569995356985132" resolveInfo="UPLOAD_MERGE_PLAN" />
     </node>
-    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.StringOptionValue" typeId="bs99.606449909792929476" id="6506431596942345555" nodeInfo="ng">
-      <property name="value" nameId="bs99.606449909792929477" value="ffsdfs" />
+    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="3659415948325467889" nodeInfo="ng">
       <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="7862569995356985145" resolveInfo="Tag for the new sample." />
+      <node role="value" roleId="bs99.6506431596944968310" type="bs99.StringOptionValue" typeId="bs99.606449909792929476" id="3659415948325467891" nodeInfo="ng" />
+    </node>
+    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="3659415948325467896" nodeInfo="ng">
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="7862569995356985146" resolveInfo="Color-space." />
+      <node role="value" roleId="bs99.6506431596944968310" type="bs99.BooleanOptionValue" typeId="bs99.606449909792920794" id="3659415948325467902" nodeInfo="ng" />
     </node>
   </root>
 </model>
