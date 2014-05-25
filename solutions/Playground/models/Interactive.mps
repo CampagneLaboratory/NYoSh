@@ -28457,16 +28457,16 @@
     <property name="jobName" nameId="bs99.606449909789338951" value="First job" />
     <link role="executionEnvironment" roleId="bs99.2465489689642686100" targetNodeId="7170488887939211556" resolveInfo="SpankyEnvironmentRemoteConnection_MS" />
     <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="7862569995356985125" resolveInfo="PROCESS_READS_TASK" />
-    <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="6506431596940826398" nodeInfo="ng">
+    <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="6506431596942345553" nodeInfo="ng">
       <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="7862569995356985130" resolveInfo="UPLOADS_FILES" />
     </node>
-    <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="6506431596940826399" nodeInfo="ng">
+    <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="6506431596942345554" nodeInfo="ng">
       <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="7862569995356985132" resolveInfo="UPLOAD_MERGE_PLAN" />
     </node>
-    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOptionValue" typeId="bs99.606449909792831682" id="6506431596940826400" nodeInfo="ng">
+    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.StringOptionValue" typeId="bs99.606449909792929476" id="6506431596942345555" nodeInfo="ng">
+      <property name="value" nameId="bs99.606449909792929477" value="ffsdfs" />
       <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="7862569995356985145" resolveInfo="Tag for the new sample." />
     </node>
-    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOptionValue" typeId="bs99.606449909792831682" id="6506431596941563192" nodeInfo="ng" />
   </root>
 </model>
 
