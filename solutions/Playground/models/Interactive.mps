@@ -9,7 +9,7 @@
   <language namespace="adfd00cb-58d7-4094-bca8-f941a491e04f(org.campagnelab.gobyweb)" />
   <language namespace="82ffebe3-3685-4fd9-b560-0c1d348d295c(org.campagnelab.logger)" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="28" implicit="yes" />
+  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="29" implicit="yes" />
   <import index="9k5" modelUID="r:df9645c2-d2fa-41cb-a718-044a287b0626(org.campagnelab.clusterConfig.structure)" version="3" implicit="yes" />
   <import index="eith" modelUID="r:1ed73e49-326d-4559-947b-13dfd134d00a(org.campagnelab.ssh.structure)" version="-1" implicit="yes" />
   <import index="dzk5" modelUID="r:2bfcc546-5c51-4762-9df2-c43920be4458(org.campagnelab.gobyweb.plugins.structure)" version="4" implicit="yes" />
@@ -28456,20 +28456,29 @@
     <property name="name" nameId="tpck.1169194664001" value="SplitExecutionTool_MS" />
     <property name="jobName" nameId="bs99.606449909789338951" value="First job" />
     <link role="executionEnvironment" roleId="bs99.2465489689642686100" targetNodeId="7170488887939211556" resolveInfo="SpankyEnvironmentRemoteConnection_MS" />
-    <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="7862569995356985125" resolveInfo="PROCESS_READS_TASK" />
-    <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="3659415948325467887" nodeInfo="ng">
-      <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="7862569995356985130" resolveInfo="UPLOADS_FILES" />
+    <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="7862569995356983794" resolveInfo="BWA_GOBY_ARTIFACT" />
+    <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="3659415948326392266" nodeInfo="ng">
+      <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="7862569995356983798" resolveInfo="INPUT_READS" />
     </node>
-    <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="3659415948325467888" nodeInfo="ng">
-      <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="7862569995356985132" resolveInfo="UPLOAD_MERGE_PLAN" />
+    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="3659415948326392267" nodeInfo="ng">
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="7862569995356983820" resolveInfo="Ambiguity threshold" />
+      <node role="value" roleId="bs99.6506431596944968310" type="bs99.IntegerOptionValue" typeId="bs99.606449909792930896" id="3659415948326392269" nodeInfo="ng">
+        <property name="value" nameId="bs99.606449909792930897" value="5" />
+        <link role="referenceOption" roleId="bs99.3659415948325597616" targetNodeId="3659415948326392267" />
+      </node>
     </node>
-    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="3659415948325467889" nodeInfo="ng">
-      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="7862569995356985145" resolveInfo="Tag for the new sample." />
-      <node role="value" roleId="bs99.6506431596944968310" type="bs99.StringOptionValue" typeId="bs99.606449909792929476" id="3659415948325467891" nodeInfo="ng" />
+    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="3659415948326392270" nodeInfo="ng">
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="7862569995356983821" resolveInfo="Max Number Gap Opens" />
+      <node role="value" roleId="bs99.6506431596944968310" type="bs99.IntegerOptionValue" typeId="bs99.606449909792930896" id="3659415948326392272" nodeInfo="ng">
+        <property name="value" nameId="bs99.606449909792930897" value="1" />
+        <link role="referenceOption" roleId="bs99.3659415948325597616" targetNodeId="3659415948326392270" />
+      </node>
     </node>
-    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="3659415948325467896" nodeInfo="ng">
-      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="7862569995356985146" resolveInfo="Color-space." />
-      <node role="value" roleId="bs99.6506431596944968310" type="bs99.BooleanOptionValue" typeId="bs99.606449909792920794" id="3659415948325467902" nodeInfo="ng" />
+    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="3659415948326392273" nodeInfo="ng">
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="7862569995356983822" resolveInfo="Max Number Gap Extensions" />
+      <node role="value" roleId="bs99.6506431596944968310" type="bs99.IntegerOptionValue" typeId="bs99.606449909792930896" id="3659415948326392275" nodeInfo="ng">
+        <link role="referenceOption" roleId="bs99.3659415948325597616" targetNodeId="3659415948326392273" />
+      </node>
     </node>
   </root>
 </model>
