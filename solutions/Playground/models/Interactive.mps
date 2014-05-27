@@ -13889,11 +13889,10 @@
         <property name="value" nameId="bs99.606449909792929477" value="FROMMP2" />
       </node>
     </node>
-    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="2408108650474752549" nodeInfo="ng">
+    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="2408108650478497060" nodeInfo="ng">
       <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="2408108650473939157" resolveInfo="Sequencing Platform." />
-      <node role="value" roleId="bs99.6506431596944968310" type="bs99.CategoricalOptionValue" typeId="bs99.606449909792985260" id="2408108650474752555" nodeInfo="ng">
-        <property name="allowedCategories" nameId="bs99.3659415948326730563" value="Gene/Exon/Other, Helicos, Roche 454, Solid, " />
-        <property name="category" nameId="bs99.606449909792985411" value="Solid" />
+      <node role="value" roleId="bs99.6506431596944968310" type="bs99.CategoricalOptionValue" typeId="bs99.606449909792985260" id="2408108650478497066" nodeInfo="ng">
+        <property name="allowedCategories" nameId="bs99.3659415948326730563" value="Gene/Exon/Other, Helicos, Roche 454, Solid" />
       </node>
     </node>
   </root>
