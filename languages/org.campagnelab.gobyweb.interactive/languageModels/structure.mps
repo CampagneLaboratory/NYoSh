@@ -542,6 +542,7 @@
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2465489689644454140" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="InputSlotValue" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="tools.execution" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="2465489689644454141" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
@@ -596,6 +597,7 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="606449909792831682" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="InputOption" />
     <property name="abstract" nameId="tpce.4628067390765956802" value="false" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="tools.execution" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="6506431596944968310" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
@@ -612,6 +614,7 @@
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="606449909792920794" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="BooleanOptionValue" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="tools.execution" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="6506431596944968499" resolveInfo="InputOptionValue" />
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="606449909792920797" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="value" />
@@ -620,6 +623,7 @@
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="606449909792929476" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="StringOptionValue" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="tools.execution" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="6506431596944968499" resolveInfo="InputOptionValue" />
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="606449909792929477" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="value" />
@@ -628,6 +632,7 @@
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="606449909792930896" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="IntegerOptionValue" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="tools.execution" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="6506431596944968499" resolveInfo="InputOptionValue" />
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="606449909792930897" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="value" />
@@ -636,6 +641,7 @@
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="606449909792936179" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="DoubleOptionValue" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="tools.execution" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="6506431596944968499" resolveInfo="InputOptionValue" />
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="606449909792936180" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="value" />
@@ -644,6 +650,7 @@
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="606449909792985260" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="CategoricalOptionValue" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="tools.execution" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="6506431596944968499" resolveInfo="InputOptionValue" />
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="606449909792985411" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="category" />
@@ -658,6 +665,7 @@
     <property name="name" nameId="tpck.1169194664001" value="InputOptionValue" />
     <property name="abstract" nameId="tpce.4628067390765956802" value="true" />
     <property name="final" nameId="tpce.4628067390765956807" value="false" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="tools.execution" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
   </root>
 </model>
