@@ -645,7 +645,7 @@
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="6506431596944968499" resolveInfo="InputOptionValue" />
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="606449909792936180" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="value" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="3927327347524889201" resolveInfo="DoubleValue" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="606449909792985260" nodeInfo="ig">
@@ -678,6 +678,11 @@
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="2051553890368778931" resolveInfo="FileSetInstance" />
     </node>
+  </root>
+  <root type="tpce.ConstrainedDataTypeDeclaration" typeId="tpce.1082978499127" id="3927327347524889201" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="tools.execution" />
+    <property name="name" nameId="tpck.1169194664001" value="DoubleValue" />
+    <property name="constraint" nameId="tpce.1083066089218" value="-?[0-9]*\\.?[0-9]*" />
   </root>
 </model>
 

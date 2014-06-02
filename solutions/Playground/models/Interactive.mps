@@ -30,7 +30,112 @@
       <link role="sshService" roleId="bs99.6449713081311510412" targetNodeId="2243041462222181573" resolveInfo="SpankyNode" />
     </node>
   </root>
-  <root type="whle.Logger" typeId="whle.1925991773566712428" id="7039650749314407366" nodeInfo="ng" />
+  <root type="whle.Logger" typeId="whle.1925991773566712428" id="7039650749314407366" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347522856996" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value 10000" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347522857000" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value 1.0" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347523219686" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value 10000" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347523219690" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value 1.0" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347523219694" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value null" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347523219698" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value null" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347523391384" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value 10000" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347523391388" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value 1.0" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347523391392" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value null" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347523391396" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value null" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347523710026" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value 10000" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347523710030" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value 1.0" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347523710034" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value null" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347523710038" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value null" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347524374693" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value 10000" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347524374697" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value 1.0" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347524374701" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value null" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347524374705" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value null" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347524885543" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value 10000" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347524885547" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value 1.0" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347524885551" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value null" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347524885555" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value null" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347525874541" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value 10000" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347525874545" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value 1.0" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347525874549" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value null" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347525874553" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value null" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+  </root>
   <root type="bs99.RegisterFileTool" typeId="bs99.2954990197977709385" id="6498979092225701287" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="RegisterTool" />
     <property name="filesInError" nameId="bs99.5704832314568278031" value="0" />
@@ -14381,6 +14486,33 @@
     <property name="name" nameId="tpck.1169194664001" value="ExecutionTool_MS" />
     <property name="jobName" nameId="bs99.606449909789338951" value="First job" />
     <link role="executionEnvironment" roleId="bs99.2465489689642686100" targetNodeId="7170488887939211556" resolveInfo="SpankyEnvironmentRemoteConnection_MS" />
+    <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="3927327347520801912" resolveInfo="DIFF_EXP_DESEQ" />
+    <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="3927327347525874537" nodeInfo="ng">
+      <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="3927327347520801918" resolveInfo="INPUT_ALIGNMENTS" />
+      <node role="values" roleId="bs99.2995632242847956813" type="bs99.InputSlotValueRef" typeId="bs99.2995632242847956675" id="3927327347525874589" nodeInfo="ng">
+        <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="3846096072690271864" resolveInfo="KPUBOXV" />
+      </node>
+    </node>
+    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="3927327347525874538" nodeInfo="ng">
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="3927327347520801936" resolveInfo="Number of top hits" />
+      <node role="value" roleId="bs99.6506431596944968310" type="bs99.IntegerOptionValue" typeId="bs99.606449909792930896" id="3927327347525874540" nodeInfo="ng">
+        <property name="value" nameId="bs99.606449909792930897" value="10000" />
+      </node>
+    </node>
+    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="3927327347525874542" nodeInfo="ng">
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="3927327347520801938" resolveInfo="q-value threshold" />
+      <node role="value" roleId="bs99.6506431596944968310" type="bs99.DoubleOptionValue" typeId="bs99.606449909792936179" id="3927327347525874544" nodeInfo="ng">
+        <property name="value" nameId="bs99.606449909792936180" value="1.04353453" />
+      </node>
+    </node>
+    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="3927327347525874546" nodeInfo="ng">
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="3927327347520801962" resolveInfo="GROUP_DEFINITION" />
+      <node role="value" roleId="bs99.6506431596944968310" type="bs99.StringOptionValue" typeId="bs99.606449909792929476" id="3927327347525874548" nodeInfo="ng" />
+    </node>
+    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="3927327347525874550" nodeInfo="ng">
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="3927327347520801964" resolveInfo="COMPARISON_PAIR" />
+      <node role="value" roleId="bs99.6506431596944968310" type="bs99.StringOptionValue" typeId="bs99.606449909792929476" id="3927327347525874552" nodeInfo="ng" />
+    </node>
   </root>
 </model>
 
