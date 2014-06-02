@@ -18728,28 +18728,35 @@
     <property name="name" nameId="tpck.1169194664001" value="ExecutionTool_MS" />
     <property name="jobName" nameId="bs99.606449909789338951" value="First job" />
     <link role="executionEnvironment" roleId="bs99.2465489689642686100" targetNodeId="7170488887939211556" resolveInfo="SpankyEnvironmentRemoteConnection_MS" />
-    <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="3927327347517879713" resolveInfo="BWA_BAM_ARTIFACT" />
-    <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="3927327347518655976" nodeInfo="ng">
-      <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="3927327347517879718" resolveInfo="INPUT_READS" />
-      <node role="values" roleId="bs99.2995632242847956813" type="bs99.InputSlotValueRef" typeId="bs99.2995632242847956675" id="3927327347518655998" nodeInfo="ng">
+    <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="3927327347517879680" resolveInfo="BWA_BAM" />
+    <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="3927327347519476572" nodeInfo="ng">
+      <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="3927327347517879685" resolveInfo="INPUT_READS" />
+      <node role="values" roleId="bs99.2995632242847956813" type="bs99.InputSlotValueRef" typeId="bs99.2995632242847956675" id="3927327347519476607" nodeInfo="ng">
         <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="3846096072690271864" resolveInfo="KPUBOXV" />
       </node>
-    </node>
-    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="3927327347518655977" nodeInfo="ng">
-      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="3927327347517879741" resolveInfo="GENOME_REFERENCE_ID" />
-      <node role="value" roleId="bs99.6506431596944968310" type="bs99.StringOptionValue" typeId="bs99.606449909792929476" id="3927327347518655979" nodeInfo="ng" />
-    </node>
-    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="3927327347518655980" nodeInfo="ng">
-      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="3927327347517879743" resolveInfo="CHUNK_SIZE" />
-      <node role="value" roleId="bs99.6506431596944968310" type="bs99.IntegerOptionValue" typeId="bs99.606449909792930896" id="3927327347518655982" nodeInfo="ng">
-        <property name="value" nameId="bs99.606449909792930897" value="12" />
+      <node role="values" roleId="bs99.2995632242847956813" type="bs99.InputSlotValueRef" typeId="bs99.2995632242847956675" id="3927327347519828365" nodeInfo="ng">
+        <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="3846096072690271864" resolveInfo="KPUBOXV" />
       </node>
-    </node>
-    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="3927327347518655988" nodeInfo="ng">
-      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="3927327347517879739" resolveInfo="Other aligner options (aln phase)" />
-      <node role="value" roleId="bs99.6506431596944968310" type="bs99.StringOptionValue" typeId="bs99.606449909792929476" id="3927327347518655996" nodeInfo="ng">
-        <property name="value" nameId="bs99.606449909792929477" value="fddsfsd" />
+      <node role="values" roleId="bs99.2995632242847956813" type="bs99.InputSlotValueRef" typeId="bs99.2995632242847956675" id="3927327347519828406" nodeInfo="ng">
+        <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="3846096072690271895" resolveInfo="KPUBOXV-mds" />
       </node>
+      <node role="values" roleId="bs99.2995632242847956813" type="bs99.InputSlotValueRef" typeId="bs99.2995632242847956675" id="3927327347519828410" nodeInfo="ng" />
+    </node>
+    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="3927327347519476573" nodeInfo="ng">
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="3927327347517879708" resolveInfo="Ambiguity threshold" />
+      <node role="value" roleId="bs99.6506431596944968310" type="bs99.IntegerOptionValue" typeId="bs99.606449909792930896" id="3927327347519476575" nodeInfo="ng" />
+    </node>
+    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="3927327347519476576" nodeInfo="ng">
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="3927327347517879710" resolveInfo="GENOME_REFERENCE_ID" />
+      <node role="value" roleId="bs99.6506431596944968310" type="bs99.StringOptionValue" typeId="bs99.606449909792929476" id="3927327347519476578" nodeInfo="ng" />
+    </node>
+    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="3927327347519476579" nodeInfo="ng">
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="3927327347517879712" resolveInfo="CHUNK_SIZE" />
+      <node role="value" roleId="bs99.6506431596944968310" type="bs99.IntegerOptionValue" typeId="bs99.606449909792930896" id="3927327347519476581" nodeInfo="ng" />
+    </node>
+    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="3927327347519476589" nodeInfo="ng">
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="3927327347517879706" resolveInfo="Other aligner options (aln phase)" />
+      <node role="value" roleId="bs99.6506431596944968310" type="bs99.StringOptionValue" typeId="bs99.606449909792929476" id="3927327347519476599" nodeInfo="ng" />
     </node>
   </root>
 </model>
