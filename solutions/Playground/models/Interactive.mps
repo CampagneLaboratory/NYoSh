@@ -9,7 +9,7 @@
   <language namespace="adfd00cb-58d7-4094-bca8-f941a491e04f(org.campagnelab.gobyweb)" />
   <language namespace="82ffebe3-3685-4fd9-b560-0c1d348d295c(org.campagnelab.logger)" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="30" implicit="yes" />
+  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="31" implicit="yes" />
   <import index="9k5" modelUID="r:df9645c2-d2fa-41cb-a718-044a287b0626(org.campagnelab.clusterConfig.structure)" version="3" implicit="yes" />
   <import index="eith" modelUID="r:1ed73e49-326d-4559-947b-13dfd134d00a(org.campagnelab.ssh.structure)" version="-1" implicit="yes" />
   <import index="dzk5" modelUID="r:2bfcc546-5c51-4762-9df2-c43920be4458(org.campagnelab.gobyweb.plugins.structure)" version="4" implicit="yes" />
@@ -2098,6 +2098,7 @@
       <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="3846096072690271864" nodeInfo="ng">
         <property name="tag" nameId="bs99.2051553890368778934" value="KPUBOXV" />
         <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+        <property name="name" nameId="tpck.1169194664001" value="KPUBOXV" />
         <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="3846096072689436997" resolveInfo="JOB_METADATA" />
         <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="7170488887948384268" resolveInfo="SpankyArea" />
         <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="3846096072690271867" nodeInfo="ng">
@@ -2109,6 +2110,7 @@
       <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="3846096072690271873" nodeInfo="ng">
         <property name="tag" nameId="bs99.2051553890368778934" value="EQQPYBM" />
         <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+        <property name="name" nameId="tpck.1169194664001" value="KPUBOXV-stats" />
         <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="3846096072689437026" resolveInfo="TSV" />
         <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="7170488887948384268" resolveInfo="SpankyArea" />
         <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="3846096072690271876" nodeInfo="ng">
@@ -2132,6 +2134,7 @@
       <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="3846096072690271895" nodeInfo="ng">
         <property name="tag" nameId="bs99.2051553890368778934" value="RGTSKGJ" />
         <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+        <property name="name" nameId="tpck.1169194664001" value="KPUBOXV-mds" />
         <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="3846096072689437004" resolveInfo="PNG" />
         <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="7170488887948384268" resolveInfo="SpankyArea" />
         <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="3846096072690271898" nodeInfo="ng">
@@ -2155,6 +2158,7 @@
       <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="3846096072690271905" nodeInfo="ng">
         <property name="tag" nameId="bs99.2051553890368778934" value="EHFAISX" />
         <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+        <property name="name" nameId="tpck.1169194664001" value="KPUBOXV-smear" />
         <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="3846096072689437004" resolveInfo="PNG" />
         <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="7170488887948384268" resolveInfo="SpankyArea" />
         <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="3846096072690271908" nodeInfo="ng">
@@ -2178,6 +2182,7 @@
       <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="3846096072690271915" nodeInfo="ng">
         <property name="tag" nameId="bs99.2051553890368778934" value="EOXPFFR" />
         <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+        <property name="name" nameId="tpck.1169194664001" value="KPUBOXV-stats" />
         <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="3846096072689437000" resolveInfo="LUCENE_INDEX" />
         <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="7170488887948384268" resolveInfo="SpankyArea" />
         <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="3846096072690271918" nodeInfo="ng">
@@ -15713,26 +15718,39 @@
     <property name="name" nameId="tpck.1169194664001" value="ExecutionTool_MS" />
     <property name="jobName" nameId="bs99.606449909789338951" value="First job" />
     <link role="executionEnvironment" roleId="bs99.2465489689642686100" targetNodeId="7170488887939211556" resolveInfo="SpankyEnvironmentRemoteConnection_MS" />
-    <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="2408108650473939135" resolveInfo="PROCESS_READS_TASK" />
-    <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="2408108650473946515" nodeInfo="ng">
-      <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="2408108650473939140" resolveInfo="UPLOADS_FILES" />
-      <link role="value" roleId="bs99.2465489689644454141" targetNodeId="606449909786494180" resolveInfo="CVIQCHV-CFS005-466-D1PRE_S11_L001_I2_001" />
+    <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="3846096072689437113" resolveInfo="PROCESS_READS_TASK" />
+    <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="2995632242850115999" nodeInfo="ng">
+      <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="3846096072689437118" resolveInfo="UPLOADS_FILES" />
+      <node role="values" roleId="bs99.2995632242847956813" type="bs99.InputSlotValueRef" typeId="bs99.2995632242847956675" id="2995632242850116008" nodeInfo="ng">
+        <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="3846096072690271895" resolveInfo="KPUBOXV-mds" />
+      </node>
+      <node role="values" roleId="bs99.2995632242847956813" type="bs99.InputSlotValueRef" typeId="bs99.2995632242847956675" id="2995632242850116013" nodeInfo="ng">
+        <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="3846096072690271905" resolveInfo="KPUBOXV-smear" />
+      </node>
+      <node role="values" roleId="bs99.2995632242847956813" type="bs99.InputSlotValueRef" typeId="bs99.2995632242847956675" id="2995632242850514920" nodeInfo="ng">
+        <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="3846096072690271905" resolveInfo="KPUBOXV-smear" />
+      </node>
+      <node role="values" roleId="bs99.2995632242847956813" type="bs99.InputSlotValueRef" typeId="bs99.2995632242847956675" id="2995632242850859517" nodeInfo="ng" />
     </node>
-    <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="2408108650473946516" nodeInfo="ng">
-      <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="2408108650473939142" resolveInfo="UPLOAD_MERGE_PLAN" />
-      <link role="value" roleId="bs99.2465489689644454141" targetNodeId="606449909786494187" resolveInfo="XZURYGM-details" />
+    <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="2995632242850514924" nodeInfo="ng">
+      <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="3846096072689437120" resolveInfo="UPLOAD_MERGE_PLAN" />
+      <node role="values" roleId="bs99.2995632242847956813" type="bs99.InputSlotValueRef" typeId="bs99.2995632242847956675" id="2995632242850855624" nodeInfo="ng">
+        <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="3846096072690271895" resolveInfo="KPUBOXV-mds" />
+      </node>
+      <node role="values" roleId="bs99.2995632242847956813" type="bs99.InputSlotValueRef" typeId="bs99.2995632242847956675" id="2995632242850859522" nodeInfo="ng" />
+      <node role="values" roleId="bs99.2995632242847956813" type="bs99.InputSlotValueRef" typeId="bs99.2995632242847956675" id="2995632242850859525" nodeInfo="ng" />
+      <node role="values" roleId="bs99.2995632242847956813" type="bs99.InputSlotValueRef" typeId="bs99.2995632242847956675" id="2995632242850859529" nodeInfo="ng" />
+      <node role="values" roleId="bs99.2995632242847956813" type="bs99.InputSlotValueRef" typeId="bs99.2995632242847956675" id="2995632242850859534" nodeInfo="ng" />
     </node>
-    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="2408108650473946517" nodeInfo="ng">
-      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="2408108650473939155" resolveInfo="Tag for the new sample." />
-      <node role="value" roleId="bs99.6506431596944968310" type="bs99.StringOptionValue" typeId="bs99.606449909792929476" id="2408108650473946519" nodeInfo="ng">
-        <property name="value" nameId="bs99.606449909792929477" value="FROMMP2" />
+    <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="2995632242850855688" nodeInfo="ng">
+      <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="3846096072689437120" resolveInfo="UPLOAD_MERGE_PLAN" />
+      <node role="values" roleId="bs99.2995632242847956813" type="bs99.InputSlotValueRef" typeId="bs99.2995632242847956675" id="2995632242850855718" nodeInfo="ng">
+        <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="3846096072690271895" resolveInfo="KPUBOXV-mds" />
       </node>
     </node>
-    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="2408108650478497060" nodeInfo="ng">
-      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="2408108650473939157" resolveInfo="Sequencing Platform." />
-      <node role="value" roleId="bs99.6506431596944968310" type="bs99.CategoricalOptionValue" typeId="bs99.606449909792985260" id="2408108650478497066" nodeInfo="ng">
-        <property name="allowedCategories" nameId="bs99.3659415948326730563" value="Gene/Exon/Other, Helicos, Roche 454, Solid" />
-      </node>
+    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="2995632242850116001" nodeInfo="ng">
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="3846096072689437133" resolveInfo="Tag for the new sample." />
+      <node role="value" roleId="bs99.6506431596944968310" type="bs99.StringOptionValue" typeId="bs99.606449909792929476" id="2995632242850116003" nodeInfo="ng" />
     </node>
   </root>
 </model>
