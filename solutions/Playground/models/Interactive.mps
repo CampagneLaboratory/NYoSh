@@ -624,6 +624,124 @@
       <property name="message" nameId="whle.1925991773568778812" value="Job folder: gobyweb@spanky.med.cornell.edu:/home/gobyweb/GOBYWEB_SGE_JOBS-dev//lmesd/A/AQTSKHV" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
     </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347527005853" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Submit pressed" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347527005866" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Preparing the job parameters" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347527005867" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Submitting the job to the cluster with parameters{--plugins-dir,/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins,--job,DIFF_EXP_GOBY_ARTIFACT,--job-tag,NLBLVYN,--owner,lmesd,--queue,rascals.q,--job-area,gobyweb@spanky.med.cornell.edu:/home/gobyweb/GOBYWEB_SGE_JOBS-dev/,--fileset-area,/zenodotus/campagnelab/store/data/gobyweb/dev/FILESET_AREA,--repository,/scratchLocal/gobyweb/ARTIFACT_REPOSITORY-dev,--artifact-server,mas2182@mac150355.med.cornell.edu,--NORMALIZATION_METHOD,aligned-count,--NUM_TOP_HITS,10000,--Q_VALUE_THRESHOLD,1.0,--ESTIMATE_COUNTS_EXON,false,--ESTIMATE_COUNTS_OTHER,false,--GROUP_DEFINITION,GROUP1=GCJNQCN,--GROUP_DEFINITION,GROUP2=AEFPLSL,--COMPARISON_PAIR,GROUP1/GROUP2,INPUT_ALIGNMENTS:,GCJNQCN,AEFPLSL}" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347527005868" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Job successfully submitted with tag NLBLVYN" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347527005869" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Job folder: gobyweb@spanky.med.cornell.edu:/home/gobyweb/GOBYWEB_SGE_JOBS-dev//lmesd/N/NLBLVYN" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347527481185" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value ALIGNED_COUNT" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347527481189" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value 10000" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347527481193" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value 1.0" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347527481197" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value null" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347527481201" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value null" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347527481521" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Submit pressed" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347527481534" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Preparing the job parameters" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347527481535" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Submitting the job to the cluster with parameters{--plugins-dir,/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins,--job,DIFF_EXP_GOBY_ARTIFACT,--job-tag,RPFHFSH,--owner,lmesd,--queue,rascals.q,--job-area,gobyweb@spanky.med.cornell.edu:/home/gobyweb/GOBYWEB_SGE_JOBS-dev/,--fileset-area,/zenodotus/campagnelab/store/data/gobyweb/dev/FILESET_AREA,--repository,/scratchLocal/gobyweb/ARTIFACT_REPOSITORY-dev,--artifact-server,mas2182@mac150355.med.cornell.edu,--NORMALIZATION_METHOD,aligned-count,--NUM_TOP_HITS,10000,--Q_VALUE_THRESHOLD,1.0,--ESTIMATE_COUNTS_EXON,false,--ESTIMATE_COUNTS_OTHER,false,--GROUP_DEFINITION,GROUP1=GCJNQCN,--GROUP_DEFINITION,GROUP2=AEFPLSL,--COMPARISON_PAIR,GROUP1/GROUP2,INPUT_ALIGNMENTS:,GCJNQCN,AEFPLSL}" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347527481536" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Job successfully submitted with tag RPFHFSH" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347527481537" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Job folder: gobyweb@spanky.med.cornell.edu:/home/gobyweb/GOBYWEB_SGE_JOBS-dev//lmesd/R/RPFHFSH" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347528291956" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value ALIGNED_COUNT" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347528291960" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value 10000" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347528291964" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value 1.0" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347528291968" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value null" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347528291972" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value null" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347529023488" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value ALIGNED_COUNT" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347529023492" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value 10000" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347529023496" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value 1.0" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347529023500" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value null" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347529023504" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value null" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347529583728" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value ALIGNED_COUNT" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347529583732" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value 10000" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347529583736" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value 1.0" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347529583740" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value null" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3927327347529583744" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value null" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
   </root>
   <root type="bs99.RegisterFileTool" typeId="bs99.2954990197977709385" id="6498979092225701287" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="RegisterTool" />
@@ -6501,10 +6619,6 @@
           <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Normalization method(s)." />
           <property name="required" nameId="dzk5.2123376856176473273" value="true" />
           <property name="defaultValue" nameId="dzk5.2123376856179854962" value="ALIGNED_COUNT" />
-          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="3927327347520802232" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="aligned-count" />
-            <property name="id" nameId="dzk5.2123376856175593991" value="ALIGNED_COUNT" />
-          </node>
           <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="3927327347520802233" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="bullard-upper-quartile" />
             <property name="id" nameId="dzk5.2123376856175593991" value="BULLARD_UPPER_QUARTILE" />
@@ -9386,6 +9500,100 @@
           <property name="value" nameId="bs99.606449909793678507" value="GROUP2=AEFPLSL" />
         </node>
         <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="3927327347526997890" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="COMPARISON_PAIR" />
+          <property name="value" nameId="bs99.606449909793678507" value="GROUP1/GROUP2" />
+        </node>
+      </node>
+      <node role="jobs" roleId="bs99.3472136550992836012" type="bs99.Job" typeId="bs99.2051553890368756070" id="3927327347527005854" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="First job" />
+        <property name="assignedTag" nameId="bs99.2408108650474877836" value="NLBLVYN" />
+        <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="3927327347520802207" resolveInfo="DIFF_EXP_GOBY_ARTIFACT" />
+        <link role="executionEnvironment" roleId="bs99.2051553890368806506" targetNodeId="7170488887939211556" resolveInfo="SpankyEnvironmentRemoteConnection_MS" />
+        <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="3927327347527005855" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="INPUT_ALIGNMENTS" />
+          <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="3927327347527005856" nodeInfo="ng">
+            <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="3927327347526240636" resolveInfo="GOBY_ALIGNMENT/DWGTLMM-Qtt1-LM1-29-F-HPN-blood-patient" />
+          </node>
+          <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="3927327347527005857" nodeInfo="ng">
+            <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="3927327347526236903" resolveInfo="GOBY_ALIGNMENT/UGFSZGG-Q4c-LM8-58-F-control-blood-mother" />
+          </node>
+        </node>
+        <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="3927327347527005858" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="NORMALIZATION_METHOD" />
+          <property name="value" nameId="bs99.606449909793678507" value="aligned-count" />
+        </node>
+        <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="3927327347527005859" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="NUM_TOP_HITS" />
+          <property name="value" nameId="bs99.606449909793678507" value="10000" />
+        </node>
+        <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="3927327347527005860" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Q_VALUE_THRESHOLD" />
+          <property name="value" nameId="bs99.606449909793678507" value="1.0" />
+        </node>
+        <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="3927327347527005861" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="ESTIMATE_COUNTS_EXON" />
+          <property name="value" nameId="bs99.606449909793678507" value="false" />
+        </node>
+        <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="3927327347527005862" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="ESTIMATE_COUNTS_OTHER" />
+          <property name="value" nameId="bs99.606449909793678507" value="false" />
+        </node>
+        <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="3927327347527005863" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GROUP_DEFINITION" />
+          <property name="value" nameId="bs99.606449909793678507" value="GROUP1=GCJNQCN" />
+        </node>
+        <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="3927327347527005864" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GROUP_DEFINITION" />
+          <property name="value" nameId="bs99.606449909793678507" value="GROUP2=AEFPLSL" />
+        </node>
+        <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="3927327347527005865" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="COMPARISON_PAIR" />
+          <property name="value" nameId="bs99.606449909793678507" value="GROUP1/GROUP2" />
+        </node>
+      </node>
+      <node role="jobs" roleId="bs99.3472136550992836012" type="bs99.Job" typeId="bs99.2051553890368756070" id="3927327347527481522" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="Second job" />
+        <property name="assignedTag" nameId="bs99.2408108650474877836" value="RPFHFSH" />
+        <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="3927327347520802207" resolveInfo="DIFF_EXP_GOBY_ARTIFACT" />
+        <link role="executionEnvironment" roleId="bs99.2051553890368806506" targetNodeId="7170488887939211556" resolveInfo="SpankyEnvironmentRemoteConnection_MS" />
+        <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="3927327347527481523" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="INPUT_ALIGNMENTS" />
+          <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="3927327347527481524" nodeInfo="ng">
+            <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="3927327347526240636" resolveInfo="GOBY_ALIGNMENT/DWGTLMM-Qtt1-LM1-29-F-HPN-blood-patient" />
+          </node>
+          <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="3927327347527481525" nodeInfo="ng">
+            <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="3927327347526236903" resolveInfo="GOBY_ALIGNMENT/UGFSZGG-Q4c-LM8-58-F-control-blood-mother" />
+          </node>
+        </node>
+        <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="3927327347527481526" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="NORMALIZATION_METHOD" />
+          <property name="value" nameId="bs99.606449909793678507" value="aligned-count" />
+        </node>
+        <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="3927327347527481527" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="NUM_TOP_HITS" />
+          <property name="value" nameId="bs99.606449909793678507" value="10000" />
+        </node>
+        <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="3927327347527481528" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Q_VALUE_THRESHOLD" />
+          <property name="value" nameId="bs99.606449909793678507" value="1.0" />
+        </node>
+        <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="3927327347527481529" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="ESTIMATE_COUNTS_EXON" />
+          <property name="value" nameId="bs99.606449909793678507" value="false" />
+        </node>
+        <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="3927327347527481530" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="ESTIMATE_COUNTS_OTHER" />
+          <property name="value" nameId="bs99.606449909793678507" value="false" />
+        </node>
+        <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="3927327347527481531" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GROUP_DEFINITION" />
+          <property name="value" nameId="bs99.606449909793678507" value="GROUP1=GCJNQCN" />
+        </node>
+        <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="3927327347527481532" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GROUP_DEFINITION" />
+          <property name="value" nameId="bs99.606449909793678507" value="GROUP2=AEFPLSL" />
+        </node>
+        <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="3927327347527481533" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="COMPARISON_PAIR" />
           <property name="value" nameId="bs99.606449909793678507" value="GROUP1/GROUP2" />
         </node>
@@ -15753,7 +15961,7 @@
       <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="3927327347520802231" resolveInfo="Normalization" />
       <node role="value" roleId="bs99.6506431596944968310" type="bs99.CategoricalOptionValue" typeId="bs99.606449909792985260" id="3927327347526986288" nodeInfo="ng">
         <property name="allowedCategories" nameId="bs99.3659415948326730563" value="aligned-count, bullard-upper-quartile" />
-        <property name="category" nameId="bs99.606449909792985411" value="ALIGNED_COUNT" />
+        <property name="category" value="aligned-count" />
       </node>
     </node>
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="3927327347526986290" nodeInfo="ng">
@@ -15793,6 +16001,41 @@
       <node role="value" roleId="bs99.6506431596944968310" type="bs99.StringOptionValue" typeId="bs99.606449909792929476" id="3927327347526986304" nodeInfo="ng">
         <property name="value" nameId="bs99.606449909792929477" value="GROUP1/GROUP2" />
       </node>
+    </node>
+  </root>
+  <root type="bs99.ExecutionTool" typeId="bs99.2465489689642685978" id="3927327347527481180" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="SecondExecutionTool_MS" />
+    <property name="jobName" nameId="bs99.606449909789338951" value="Second job" />
+    <link role="executionEnvironment" roleId="bs99.2465489689642686100" targetNodeId="7170488887939211556" resolveInfo="SpankyEnvironmentRemoteConnection_MS" />
+    <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="3927327347520802207" resolveInfo="DIFF_EXP_GOBY_ARTIFACT" />
+    <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="3927327347529583724" nodeInfo="ng">
+      <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="3927327347520802212" resolveInfo="INPUT_ALIGNMENTS" />
+    </node>
+    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="3927327347529583725" nodeInfo="ng">
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="3927327347520802231" resolveInfo="Normalization" />
+      <node role="value" roleId="bs99.6506431596944968310" type="bs99.CategoricalOptionValue" typeId="bs99.606449909792985260" id="3927327347529583951" nodeInfo="ng">
+        <node role="category" roleId="bs99.3927327347527485517" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="3927327347529583953" nodeInfo="ng" />
+      </node>
+    </node>
+    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="3927327347529583729" nodeInfo="ng">
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="3927327347520802236" resolveInfo="Number of top hits" />
+      <node role="value" roleId="bs99.6506431596944968310" type="bs99.IntegerOptionValue" typeId="bs99.606449909792930896" id="3927327347529583731" nodeInfo="ng">
+        <property name="value" nameId="bs99.606449909792930897" value="10000" />
+      </node>
+    </node>
+    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="3927327347529583733" nodeInfo="ng">
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="3927327347520802238" resolveInfo="q-value threshold" />
+      <node role="value" roleId="bs99.6506431596944968310" type="bs99.DoubleOptionValue" typeId="bs99.606449909792936179" id="3927327347529583735" nodeInfo="ng">
+        <property name="value" nameId="bs99.606449909792936180" value="1.0" />
+      </node>
+    </node>
+    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="3927327347529583737" nodeInfo="ng">
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="3927327347520802262" resolveInfo="GROUP_DEFINITION" />
+      <node role="value" roleId="bs99.6506431596944968310" type="bs99.StringOptionValue" typeId="bs99.606449909792929476" id="3927327347529583739" nodeInfo="ng" />
+    </node>
+    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="3927327347529583741" nodeInfo="ng">
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="3927327347520802264" resolveInfo="COMPARISON_PAIR" />
+      <node role="value" roleId="bs99.6506431596944968310" type="bs99.StringOptionValue" typeId="bs99.606449909792929476" id="3927327347529583743" nodeInfo="ng" />
     </node>
   </root>
 </model>
