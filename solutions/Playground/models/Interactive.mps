@@ -15088,6 +15088,172 @@
       <property name="message" nameId="whle.1925991773568778812" value="Input default value null" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
     </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6348392937649967233" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value ALIGNED_COUNT" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6348392937649967237" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value 10000" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6348392937649967241" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value 1.0" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6348392937649967245" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value null" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6348392937649967249" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value null" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6348392937649981075" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Importing tag UGFSZGG" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6348392937649981077" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6348392937649981078" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager already connected" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6348392937649981081" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Tag UGFSZGG successfully imported" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6348392937649981082" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6348392937649981083" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager already connected" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6348392937649981084" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Importing tag AEFPLSL" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6348392937649981086" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6348392937649981087" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager already connected" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6348392937649981093" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Tag AEFPLSL successfully imported" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6348392937649981094" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Importing tag ZQCIIWV" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6348392937649981096" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6348392937649981097" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager already connected" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6348392937649981103" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Tag ZQCIIWV successfully imported" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6348392937649981104" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Importing tag XKQVZDS" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6348392937649981106" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6348392937649981107" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager already connected" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6348392937649981113" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Tag XKQVZDS successfully imported" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6348392937649981114" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Importing tag XQWEMRQ" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6348392937649981116" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6348392937649981117" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager already connected" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6348392937649981123" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Tag XQWEMRQ successfully imported" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6348392937649981124" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Importing tag XPTDLEY" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6348392937649981126" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6348392937649981127" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager already connected" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6348392937649981133" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Tag XPTDLEY successfully imported" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6348392937649981134" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Importing tag DDZJIGB" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6348392937649981136" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6348392937649981137" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager already connected" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6348392937649981143" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Tag DDZJIGB successfully imported" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6348392937649981144" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Importing tag MFPBBWE" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6348392937649981146" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6348392937649981147" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager already connected" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6348392937649981153" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Tag MFPBBWE successfully imported" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6348392937649981154" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Importing tag LYEMCZR" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6348392937649981156" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6348392937649981157" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager already connected" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6348392937649981163" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Tag LYEMCZR successfully imported" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6348392937649985673" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Submit pressed" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6348392937649985684" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Preparing the job parameters" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6348392937649985685" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Submitting the job to the cluster with parameters{--plugins-dir,/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins,--job,DIFF_EXP_GOBY_ARTIFACT,--job-tag,LIJSCHS,--owner,lmesd,--queue,rascals.q,--job-area,gobyweb@spanky.med.cornell.edu:/home/gobyweb/GOBYWEB_SGE_JOBS-dev/,--fileset-area,/zenodotus/campagnelab/store/data/gobyweb/dev/FILESET_AREA,--repository,/scratchLocal/gobyweb/ARTIFACT_REPOSITORY-dev,--artifact-server,mas2182@mac150355.med.cornell.edu,--Normalization,aligned-count,--Number of top hits,10000,--q-value threshold,1.0,--GROUP_DEFINITION,group1=GCJNQCN,GCJNQCN,GCJNQCN,--GROUP_DEFINITION,group2=AEFPLSL,--COMPARISON_PAIR,group1/group2,INPUT_ALIGNMENTS:,GCJNQCN,AEFPLSL}" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6348392937649985686" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Job submission failed Failed to parse the input arguments. Errors returned: Unknown flag 'Normalization'.&#10;Unknown flag 'Number of top hits'.&#10;Unknown flag 'q-value threshold'." />
+    </node>
   </root>
   <root type="bs99.RegisterFileTool" typeId="bs99.2954990197977709385" id="6498979092225701287" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="RegisterTool" />
@@ -15303,7 +15469,7 @@
   </root>
   <root type="bs99.ImportTool" typeId="bs99.8258261499132276459" id="8258261499133783199" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="ImportTool" />
-    <property name="tagsToImport" nameId="bs99.8258261499132300449" value="DWGTLMM" />
+    <property name="tagsToImport" nameId="bs99.8258261499132300449" value="UGFSZGG" />
     <link role="executionEnvironment" roleId="bs99.8258261499132300351" targetNodeId="7170488887939211556" resolveInfo="SpankyEnvironmentRemoteConnection_MS" />
   </root>
   <root type="eith.SshPortForwarding" typeId="eith.2967045841109794120" id="2967045841110381069" nodeInfo="ng">
@@ -15556,6 +15722,237 @@
         <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="6348392937648169813" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
           <property name="value" nameId="bs99.8258261499122039841" value="DWGTLMM" />
+        </node>
+      </node>
+      <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="6348392937649981076" nodeInfo="ng">
+        <property name="tag" nameId="bs99.2051553890368778934" value="UGFSZGG" />
+        <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+        <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA/UGFSZGG" />
+        <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="6348392937648138188" resolveInfo="JOB_METADATA" />
+        <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="7170488887948384268" resolveInfo="SpankyArea" />
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="6348392937649981079" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
+          <property name="value" nameId="bs99.8258261499122039841" value="UGFSZGG" />
+        </node>
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="6348392937649981080" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
+          <property name="value" nameId="bs99.8258261499122039841" value="UGFSZGG" />
+        </node>
+      </node>
+      <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="6348392937649981085" nodeInfo="ng">
+        <property name="tag" nameId="bs99.2051553890368778934" value="AEFPLSL" />
+        <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+        <property name="name" nameId="tpck.1169194664001" value="GOBY_ALIGNMENT/UGFSZGG-Q4c-LM8-58-F-control-blood-mother" />
+        <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="6348392937648138171" resolveInfo="GOBY_ALIGNMENT" />
+        <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="7170488887948384268" resolveInfo="SpankyArea" />
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="6348392937649981088" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
+          <property name="value" nameId="bs99.8258261499122039841" value="1000GENOMES.37" />
+        </node>
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="6348392937649981089" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+          <property name="value" nameId="bs99.8258261499122039841" value="homo_sapiens" />
+        </node>
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="6348392937649981090" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="SOURCE_READS_ID" />
+          <property name="value" nameId="bs99.8258261499122039841" value="UWAJVDR" />
+        </node>
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="6348392937649981091" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
+          <property name="value" nameId="bs99.8258261499122039841" value="UGFSZGG-Q4c-LM8-58-F-control-blood-mother" />
+        </node>
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="6348392937649981092" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
+          <property name="value" nameId="bs99.8258261499122039841" value="UGFSZGG" />
+        </node>
+      </node>
+      <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="6348392937649981095" nodeInfo="ng">
+        <property name="tag" nameId="bs99.2051553890368778934" value="ZQCIIWV" />
+        <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+        <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_BED/UGFSZGG-Q4c-LM8-58-F-control-blood-mother-all" />
+        <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="6348392937648138139" resolveInfo="ALIGNMENT_BED" />
+        <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="7170488887948384268" resolveInfo="SpankyArea" />
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="6348392937649981098" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
+          <property name="value" nameId="bs99.8258261499122039841" value="1000GENOMES.37" />
+        </node>
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="6348392937649981099" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+          <property name="value" nameId="bs99.8258261499122039841" value="homo_sapiens" />
+        </node>
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="6348392937649981100" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="SOURCE_READS_ID" />
+          <property name="value" nameId="bs99.8258261499122039841" value="UWAJVDR" />
+        </node>
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="6348392937649981101" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
+          <property name="value" nameId="bs99.8258261499122039841" value="UGFSZGG-Q4c-LM8-58-F-control-blood-mother-all" />
+        </node>
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="6348392937649981102" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
+          <property name="value" nameId="bs99.8258261499122039841" value="UGFSZGG" />
+        </node>
+      </node>
+      <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="6348392937649981105" nodeInfo="ng">
+        <property name="tag" nameId="bs99.2051553890368778934" value="XKQVZDS" />
+        <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+        <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_WIG/UGFSZGG-Q4c-LM8-58-F-control-blood-mother-all" />
+        <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="6348392937648138145" resolveInfo="ALIGNMENT_WIG" />
+        <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="7170488887948384268" resolveInfo="SpankyArea" />
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="6348392937649981108" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
+          <property name="value" nameId="bs99.8258261499122039841" value="1000GENOMES.37" />
+        </node>
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="6348392937649981109" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+          <property name="value" nameId="bs99.8258261499122039841" value="homo_sapiens" />
+        </node>
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="6348392937649981110" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="SOURCE_READS_ID" />
+          <property name="value" nameId="bs99.8258261499122039841" value="UWAJVDR" />
+        </node>
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="6348392937649981111" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
+          <property name="value" nameId="bs99.8258261499122039841" value="UGFSZGG-Q4c-LM8-58-F-control-blood-mother-all" />
+        </node>
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="6348392937649981112" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
+          <property name="value" nameId="bs99.8258261499122039841" value="UGFSZGG" />
+        </node>
+      </node>
+      <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="6348392937649981115" nodeInfo="ng">
+        <property name="tag" nameId="bs99.2051553890368778934" value="XQWEMRQ" />
+        <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+        <property name="name" nameId="tpck.1169194664001" value="COUNTS/UGFSZGG-Q4c-LM8-58-F-control-blood-mother" />
+        <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="6348392937648138161" resolveInfo="COUNTS" />
+        <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="7170488887948384268" resolveInfo="SpankyArea" />
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="6348392937649981118" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
+          <property name="value" nameId="bs99.8258261499122039841" value="1000GENOMES.37" />
+        </node>
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="6348392937649981119" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+          <property name="value" nameId="bs99.8258261499122039841" value="homo_sapiens" />
+        </node>
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="6348392937649981120" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="SOURCE_READS_ID" />
+          <property name="value" nameId="bs99.8258261499122039841" value="UWAJVDR" />
+        </node>
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="6348392937649981121" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
+          <property name="value" nameId="bs99.8258261499122039841" value="UGFSZGG-Q4c-LM8-58-F-control-blood-mother" />
+        </node>
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="6348392937649981122" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
+          <property name="value" nameId="bs99.8258261499122039841" value="UGFSZGG" />
+        </node>
+      </node>
+      <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="6348392937649981125" nodeInfo="ng">
+        <property name="tag" nameId="bs99.2051553890368778934" value="XPTDLEY" />
+        <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+        <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_ALL_FILES/UGFSZGG-Q4c-LM8-58-F-control-blood-mother-all-files" />
+        <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="6348392937648138137" resolveInfo="ALIGNMENT_ALL_FILES" />
+        <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="7170488887948384268" resolveInfo="SpankyArea" />
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="6348392937649981128" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
+          <property name="value" nameId="bs99.8258261499122039841" value="1000GENOMES.37" />
+        </node>
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="6348392937649981129" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+          <property name="value" nameId="bs99.8258261499122039841" value="homo_sapiens" />
+        </node>
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="6348392937649981130" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="SOURCE_READS_ID" />
+          <property name="value" nameId="bs99.8258261499122039841" value="UWAJVDR" />
+        </node>
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="6348392937649981131" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
+          <property name="value" nameId="bs99.8258261499122039841" value="UGFSZGG-Q4c-LM8-58-F-control-blood-mother-all-files" />
+        </node>
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="6348392937649981132" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
+          <property name="value" nameId="bs99.8258261499122039841" value="UGFSZGG" />
+        </node>
+      </node>
+      <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="6348392937649981135" nodeInfo="ng">
+        <property name="tag" nameId="bs99.2051553890368778934" value="DDZJIGB" />
+        <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+        <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_SEQUENCE_VARIATION_STATS/UGFSZGG-Q4c-LM8-58-F-control-blood-mother" />
+        <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="6348392937648138141" resolveInfo="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+        <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="7170488887948384268" resolveInfo="SpankyArea" />
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="6348392937649981138" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
+          <property name="value" nameId="bs99.8258261499122039841" value="1000GENOMES.37" />
+        </node>
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="6348392937649981139" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+          <property name="value" nameId="bs99.8258261499122039841" value="homo_sapiens" />
+        </node>
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="6348392937649981140" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="SOURCE_READS_ID" />
+          <property name="value" nameId="bs99.8258261499122039841" value="UWAJVDR" />
+        </node>
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="6348392937649981141" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
+          <property name="value" nameId="bs99.8258261499122039841" value="UGFSZGG-Q4c-LM8-58-F-control-blood-mother" />
+        </node>
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="6348392937649981142" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
+          <property name="value" nameId="bs99.8258261499122039841" value="UGFSZGG" />
+        </node>
+      </node>
+      <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="6348392937649981145" nodeInfo="ng">
+        <property name="tag" nameId="bs99.2051553890368778934" value="MFPBBWE" />
+        <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+        <property name="name" nameId="tpck.1169194664001" value="STATS/UGFSZGG-Q4c-LM8-58-F-control-blood-mother" />
+        <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="6348392937648138203" resolveInfo="STATS" />
+        <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="7170488887948384268" resolveInfo="SpankyArea" />
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="6348392937649981148" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
+          <property name="value" nameId="bs99.8258261499122039841" value="1000GENOMES.37" />
+        </node>
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="6348392937649981149" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+          <property name="value" nameId="bs99.8258261499122039841" value="homo_sapiens" />
+        </node>
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="6348392937649981150" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="SOURCE_READS_ID" />
+          <property name="value" nameId="bs99.8258261499122039841" value="UWAJVDR" />
+        </node>
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="6348392937649981151" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
+          <property name="value" nameId="bs99.8258261499122039841" value="UGFSZGG-Q4c-LM8-58-F-control-blood-mother" />
+        </node>
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="6348392937649981152" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
+          <property name="value" nameId="bs99.8258261499122039841" value="UGFSZGG" />
+        </node>
+      </node>
+      <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="6348392937649981155" nodeInfo="ng">
+        <property name="tag" nameId="bs99.2051553890368778934" value="LYEMCZR" />
+        <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+        <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_STATS/UGFSZGG-Q4c-LM8-58-F-control-blood-mother" />
+        <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="6348392937648138143" resolveInfo="ALIGNMENT_STATS" />
+        <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="7170488887948384268" resolveInfo="SpankyArea" />
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="6348392937649981158" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
+          <property name="value" nameId="bs99.8258261499122039841" value="1000GENOMES.37" />
+        </node>
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="6348392937649981159" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+          <property name="value" nameId="bs99.8258261499122039841" value="homo_sapiens" />
+        </node>
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="6348392937649981160" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="SOURCE_READS_ID" />
+          <property name="value" nameId="bs99.8258261499122039841" value="UWAJVDR" />
+        </node>
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="6348392937649981161" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
+          <property name="value" nameId="bs99.8258261499122039841" value="UGFSZGG-Q4c-LM8-58-F-control-blood-mother" />
+        </node>
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="6348392937649981162" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
+          <property name="value" nameId="bs99.8258261499122039841" value="UGFSZGG" />
         </node>
       </node>
     </node>
@@ -23209,6 +23606,45 @@
       <property name="workingDirectory" nameId="bs99.6449713081311226572" value="/home/gobyweb/GOBYWEB_SGE_JOBS-dev/" />
       <property name="artifactRepoPath" nameId="bs99.1997533223704022892" value="/scratchLocal/gobyweb/ARTIFACT_REPOSITORY-dev" />
       <link role="executionNode" roleId="bs99.6449713081311050445" targetNodeId="2243041462222181573" resolveInfo="SpankyNode" />
+      <node role="jobs" roleId="bs99.3472136550992836012" type="bs99.Job" typeId="bs99.2051553890368756070" id="6348392937649985674" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="Second job" />
+        <property name="assignedTag" nameId="bs99.2408108650474877836" value="LIJSCHS" />
+        <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="6348392937648137668" resolveInfo="DIFF_EXP_GOBY_ARTIFACT" />
+        <link role="executionEnvironment" roleId="bs99.2051553890368806506" targetNodeId="7170488887939211556" resolveInfo="SpankyEnvironmentRemoteConnection_MS" />
+        <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="6348392937649985675" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="INPUT_ALIGNMENTS" />
+          <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="6348392937649985676" nodeInfo="ng">
+            <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="6348392937648169736" resolveInfo="GOBY_ALIGNMENT/DWGTLMM-Qtt1-LM1-29-F-HPN-blood-patient" />
+          </node>
+          <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="6348392937649985677" nodeInfo="ng">
+            <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="6348392937649981085" resolveInfo="GOBY_ALIGNMENT/UGFSZGG-Q4c-LM8-58-F-control-blood-mother" />
+          </node>
+        </node>
+        <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="6348392937649985678" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Normalization" />
+          <property name="value" nameId="bs99.606449909793678507" value="aligned-count" />
+        </node>
+        <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="6348392937649985679" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Number of top hits" />
+          <property name="value" nameId="bs99.606449909793678507" value="10000" />
+        </node>
+        <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="6348392937649985680" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="q-value threshold" />
+          <property name="value" nameId="bs99.606449909793678507" value="1.0" />
+        </node>
+        <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="6348392937649985681" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GROUP_DEFINITION" />
+          <property name="value" nameId="bs99.606449909793678507" value="group1=GCJNQCN,GCJNQCN,GCJNQCN" />
+        </node>
+        <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="6348392937649985682" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GROUP_DEFINITION" />
+          <property name="value" nameId="bs99.606449909793678507" value="group2=AEFPLSL" />
+        </node>
+        <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="6348392937649985683" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="COMPARISON_PAIR" />
+          <property name="value" nameId="bs99.606449909793678507" value="group1/group2" />
+        </node>
+      </node>
     </node>
   </root>
   <root type="bs99.ExecutionEnvironment" typeId="bs99.2051553890368778876" id="7170488887949089862" nodeInfo="ng">
@@ -37264,39 +37700,65 @@
   <root type="bs99.ExecutionTool" typeId="bs99.2465489689642685978" id="3927327347527481180" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="SecondExecutionTool_MS" />
     <property name="jobName" nameId="bs99.606449909789338951" value="Second job" />
+    <property name="message" nameId="bs99.3927327347527013400" value="Failed to submit the job." />
     <link role="executionEnvironment" roleId="bs99.2465489689642686100" targetNodeId="7170488887939211556" resolveInfo="SpankyEnvironmentRemoteConnection_MS" />
     <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="6348392937648137668" resolveInfo="DIFF_EXP_GOBY_ARTIFACT" />
-    <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="6348392937648175255" nodeInfo="ng">
+    <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="6348392937649967229" nodeInfo="ng">
       <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="6348392937648137673" resolveInfo="INPUT_ALIGNMENTS" />
-      <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="6348392937648856296" nodeInfo="ng">
+      <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="6348392937649971614" nodeInfo="ng">
         <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="6348392937648169736" resolveInfo="GOBY_ALIGNMENT/DWGTLMM-Qtt1-LM1-29-F-HPN-blood-patient" />
       </node>
+      <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="6348392937649985668" nodeInfo="ng">
+        <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="6348392937649981085" resolveInfo="GOBY_ALIGNMENT/UGFSZGG-Q4c-LM8-58-F-control-blood-mother" />
+      </node>
     </node>
-    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="6348392937648175256" nodeInfo="ng">
+    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="6348392937649967230" nodeInfo="ng">
       <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="6348392937648137692" resolveInfo="Normalization" />
-      <node role="value" roleId="bs99.6506431596944968310" type="bs99.CategoricalOptionValue" typeId="bs99.606449909792985260" id="6348392937648175258" nodeInfo="ng">
+      <node role="value" roleId="bs99.6506431596944968310" type="bs99.CategoricalOptionValue" typeId="bs99.606449909792985260" id="6348392937649967232" nodeInfo="ng">
         <link role="category" roleId="bs99.3927327347530218892" targetNodeId="6348392937648137693" resolveInfo="aligned-count" />
       </node>
     </node>
-    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="6348392937648175260" nodeInfo="ng">
+    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="6348392937649967234" nodeInfo="ng">
       <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="6348392937648137697" resolveInfo="Number of top hits" />
-      <node role="value" roleId="bs99.6506431596944968310" type="bs99.IntegerOptionValue" typeId="bs99.606449909792930896" id="6348392937648175262" nodeInfo="ng">
+      <node role="value" roleId="bs99.6506431596944968310" type="bs99.IntegerOptionValue" typeId="bs99.606449909792930896" id="6348392937649967236" nodeInfo="ng">
         <property name="value" nameId="bs99.606449909792930897" value="10000" />
       </node>
     </node>
-    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="6348392937648175264" nodeInfo="ng">
+    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="6348392937649967238" nodeInfo="ng">
       <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="6348392937648137699" resolveInfo="q-value threshold" />
-      <node role="value" roleId="bs99.6506431596944968310" type="bs99.DoubleOptionValue" typeId="bs99.606449909792936179" id="6348392937648175266" nodeInfo="ng">
+      <node role="value" roleId="bs99.6506431596944968310" type="bs99.DoubleOptionValue" typeId="bs99.606449909792936179" id="6348392937649967240" nodeInfo="ng">
         <property name="value" nameId="bs99.606449909792936180" value="1.0" />
       </node>
     </node>
-    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="6348392937648175268" nodeInfo="ng">
+    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="6348392937649967242" nodeInfo="ng">
       <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="6348392937648137723" resolveInfo="GROUP_DEFINITION" />
-      <node role="value" roleId="bs99.6506431596944968310" type="bs99.StringOptionValue" typeId="bs99.606449909792929476" id="6348392937648175270" nodeInfo="ng" />
+      <node role="value" roleId="bs99.6506431596944968310" type="bs99.GroupDefinitionOptionValue" typeId="bs99.3927327347537774497" id="6348392937649971640" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="group1" />
+        <node role="values" roleId="bs99.3927327347537774650" type="bs99.GroupFileSetInstanceRef" typeId="bs99.6348392937649628548" id="6348392937649971650" nodeInfo="ng">
+          <link role="ref" roleId="bs99.6348392937649628553" targetNodeId="6348392937648169736" resolveInfo="GOBY_ALIGNMENT/DWGTLMM-Qtt1-LM1-29-F-HPN-blood-patient" />
+        </node>
+        <node role="values" roleId="bs99.3927327347537774650" type="bs99.GroupFileSetInstanceRef" typeId="bs99.6348392937649628548" id="6348392937649971661" nodeInfo="ng">
+          <link role="ref" roleId="bs99.6348392937649628553" targetNodeId="6348392937648169736" resolveInfo="GOBY_ALIGNMENT/DWGTLMM-Qtt1-LM1-29-F-HPN-blood-patient" />
+        </node>
+        <node role="values" roleId="bs99.3927327347537774650" type="bs99.GroupFileSetInstanceRef" typeId="bs99.6348392937649628548" id="6348392937649971668" nodeInfo="ng">
+          <link role="ref" roleId="bs99.6348392937649628553" targetNodeId="6348392937648169736" resolveInfo="GOBY_ALIGNMENT/DWGTLMM-Qtt1-LM1-29-F-HPN-blood-patient" />
+        </node>
+      </node>
     </node>
-    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="6348392937648175272" nodeInfo="ng">
+    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="6348392937649971672" nodeInfo="ng">
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="6348392937648137723" resolveInfo="GROUP_DEFINITION" />
+      <node role="value" roleId="bs99.6506431596944968310" type="bs99.GroupDefinitionOptionValue" typeId="bs99.3927327347537774497" id="6348392937649971691" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="group2" />
+        <node role="values" roleId="bs99.3927327347537774650" type="bs99.GroupFileSetInstanceRef" typeId="bs99.6348392937649628548" id="6348392937649985671" nodeInfo="ng">
+          <link role="ref" roleId="bs99.6348392937649628553" targetNodeId="6348392937649981085" resolveInfo="GOBY_ALIGNMENT/UGFSZGG-Q4c-LM8-58-F-control-blood-mother" />
+        </node>
+      </node>
+    </node>
+    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="6348392937649967246" nodeInfo="ng">
       <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="6348392937648137725" resolveInfo="COMPARISON_PAIR" />
-      <node role="value" roleId="bs99.6506431596944968310" type="bs99.StringOptionValue" typeId="bs99.606449909792929476" id="6348392937648175274" nodeInfo="ng" />
+      <node role="value" roleId="bs99.6506431596944968310" type="bs99.StringOptionValue" typeId="bs99.606449909792929476" id="6348392937649967248" nodeInfo="ng">
+        <property name="value" nameId="bs99.606449909792929477" value="group1/group2" />
+      </node>
     </node>
   </root>
 </model>
