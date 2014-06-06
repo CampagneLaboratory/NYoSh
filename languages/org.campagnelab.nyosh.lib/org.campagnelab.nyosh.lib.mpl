@@ -3,6 +3,7 @@
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="languageModels" />
+      <sourceRoot location="." />
     </modelRoot>
     <modelRoot contentPath="${org.campagnelab.goby.workbench.home}/lib" type="java_classes">
       <sourceRoot location="artifacts-2.3.0.jar" />
@@ -14,10 +15,10 @@
       <sourceRoot location="nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
       <sourceRoot location="option-validation-language-2.1.0.jar" />
       <sourceRoot location="org.campagnelab.stepslogger-1.1.0.jar" />
-      <sourceRoot location="plugins-2.4.1-SNAPSHOT.jar" />
       <sourceRoot location="scala-library-2.9.2.jar" />
       <sourceRoot location="wildcard-1.03.jar" />
       <sourceRoot location="serverside-dependencies-1.0.10-full.jar" />
+      <sourceRoot location="plugins-2.5.0-SNAPSHOT.jar" />
     </modelRoot>
   </models>
   <facets>
@@ -55,8 +56,8 @@
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.3.0.jar" />
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/filesets-1.3.0-SNAPSHOT.jar" />
-    <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/plugins-2.4.1-SNAPSHOT.jar" />
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/serverside-dependencies-1.0.10-full.jar" />
+    <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/plugins-2.5.0-SNAPSHOT.jar" />
   </stubModelEntries>
   <sourcePath />
   <usedDevKits>
