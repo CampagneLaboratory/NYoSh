@@ -35,6 +35,7 @@
   <import index="cx9y" modelUID="r:309aeee7-bee8-445c-b31d-35928d1da75f(jetbrains.mps.baseLanguage.tuples.structure)" version="2" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
+  <import index="pyqc" modelUID="r:72745bf9-459c-4b98-8342-8e5385473026(org.campagnelab.gobyweb.behavior)" version="1" implicit="yes" />
   <root type="cx9y.NamedTupleDeclaration" typeId="cx9y.1239360506533" id="1090105717921668629" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="SomeTuple" />
     <node role="component" roleId="cx9y.1239529553065" type="cx9y.NamedTupleComponentDeclaration" typeId="cx9y.1239462176079" id="1090105717921668630" nodeInfo="ng">
@@ -692,8 +693,8 @@
                                                     <link role="link" roleId="tp25.1138056516764" targetNodeId="935h.1090105717920801999" />
                                                   </node>
                                                 </node>
-                                                <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="4164691987238879446" nodeInfo="nn">
-                                                  <link role="property" roleId="tp25.1138056395725" targetNodeId="935h.6874736155930792624" resolveInfo="path" />
+                                                <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="8272164243038642519" nodeInfo="nn">
+                                                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="pyqc.8272164243038473394" resolveInfo="getPath" />
                                                 </node>
                                               </node>
                                               <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4164691987238917853" nodeInfo="nn">
@@ -745,7 +746,7 @@
                                           <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1090105717921668915" resolveInfo="rootNode" />
                                         </node>
                                         <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4164691987239170717" nodeInfo="nn">
-                                          <property name="value" nameId="tpee.1070475926801" value="Cannot copy, destination not specidied for " />
+                                          <property name="value" nameId="tpee.1070475926801" value="Cannot copy, destination not specified for " />
                                         </node>
                                       </node>
                                     </node>
