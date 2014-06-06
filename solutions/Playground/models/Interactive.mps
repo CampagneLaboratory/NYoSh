@@ -37884,9 +37884,9 @@
         </node>
       </node>
     </node>
-    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="4411332981269894445" nodeInfo="ng">
+    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="4411332981269945704" nodeInfo="ng">
       <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="6348392937648137725" resolveInfo="COMPARISON_PAIR" />
-      <node role="value" roleId="bs99.6506431596944968310" type="bs99.ComparisonPairValue" typeId="bs99.6348392937650129823" id="4411332981269894460" nodeInfo="ng">
+      <node role="value" roleId="bs99.6506431596944968310" type="bs99.ComparisonPairValue" typeId="bs99.6348392937650129823" id="4411332981269945722" nodeInfo="ng">
         <link role="group1" roleId="bs99.6348392937650130305" targetNodeId="4411332981269863596" resolveInfo="group1" />
         <link role="group2" roleId="bs99.6348392937650130323" targetNodeId="4411332981269894484" resolveInfo="group2" />
       </node>
@@ -37966,7 +37966,7 @@
       <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="6348392937648137725" resolveInfo="COMPARISON_PAIR" />
       <node role="value" roleId="bs99.6506431596944968310" type="bs99.ComparisonPairValue" typeId="bs99.6348392937650129823" id="6348392937651434435" nodeInfo="ng">
         <link role="group1" roleId="bs99.6348392937650130305" targetNodeId="6348392937649971640" resolveInfo="group1" />
-        <link role="group2" roleId="bs99.6348392937650130323" targetNodeId="6348392937650979577" />
+        <link role="group2" roleId="bs99.6348392937650130323" targetNodeId="6348392937649971640" resolveInfo="group1" />
       </node>
     </node>
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="6348392937650099381" nodeInfo="ng">
