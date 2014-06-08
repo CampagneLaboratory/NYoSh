@@ -331,6 +331,12 @@
                   </node>
                 </node>
                 <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="2477885976700858112" nodeInfo="nn">
+                  <node role="condition" roleId="tpee.1068580123160" type="935h.FileSetCheckExpression" typeId="935h.6108592213960522782" id="2477885976700858122" nodeInfo="ng">
+                    <link role="input" roleId="935h.6108592213960804636" targetNodeId="8947616726745990806" resolveInfo="TEXT" />
+                    <node role="command" roleId="935h.4384389959134085574" type="6pk0.VariableReaderGStringComponent" typeId="6pk0.2328891098886457362" id="2477885976700858123" nodeInfo="ng">
+                      <link role="envVariable" roleId="6pk0.2328891098886457363" targetNodeId="8947616726745990764" resolveInfo="FILESET_COMMAND" />
+                    </node>
+                  </node>
                   <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="2477885976700858113" nodeInfo="sn">
                     <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="2477885976700858114" nodeInfo="nn">
                       <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="2477885976700858115" nodeInfo="nr">
@@ -372,12 +378,6 @@
                       <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="8947616726744027443" nodeInfo="nn">
                         <property name="text" nameId="tpee.6329021646629104958" value="    " />
                       </node>
-                    </node>
-                  </node>
-                  <node role="condition" roleId="tpee.1068580123160" type="935h.FileSetCheckExpression" typeId="935h.6108592213960522782" id="2477885976700858122" nodeInfo="ng">
-                    <link role="input" roleId="935h.6108592213960804636" targetNodeId="8947616726745990806" resolveInfo="TEXT" />
-                    <node role="command" roleId="935h.4384389959134085574" type="6pk0.VariableReaderGStringComponent" typeId="6pk0.2328891098886457362" id="2477885976700858123" nodeInfo="ng">
-                      <link role="envVariable" roleId="6pk0.2328891098886457363" targetNodeId="8947616726745990764" resolveInfo="FILESET_COMMAND" />
                     </node>
                   </node>
                   <node role="ifFalseStatement" roleId="tpee.1082485599094" type="tpee.BlockStatement" typeId="tpee.1082485599095" id="8947616726744042555" nodeInfo="nn">
