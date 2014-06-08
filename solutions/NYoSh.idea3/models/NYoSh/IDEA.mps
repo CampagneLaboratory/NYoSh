@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:7e16ca6a-58d0-4607-95b2-b9dfea46b4bc(NYoSh.IDEA)">
+<model modelUID="r:7e16ca6a-58d0-4607-95b2-b9dfea46b4bc(NYoSh.IDEA)" doNotGenerate="true">
   <persistence version="8" />
   <language namespace="798100da-4f0a-421a-b991-71f8c50ce5d2(jetbrains.mps.build)" />
   <language namespace="0cf935df-4699-4e9c-a132-fa109541cba3(jetbrains.mps.build.mps)" />
