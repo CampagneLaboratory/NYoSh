@@ -19,6 +19,9 @@
       <sourceRoot location="wildcard-1.03.jar" />
       <sourceRoot location="serverside-dependencies-1.0.10-full.jar" />
       <sourceRoot location="plugins-2.5.0-SNAPSHOT.jar" />
+      <sourceRoot location="geronimo-jms_1.1_spec-1.1.1.jar" />
+      <sourceRoot location="activemq-client-5.9.1.jar" />
+      <sourceRoot location="mercury-api-1.0-SNAPSHOT.jar" />
     </modelRoot>
   </models>
   <facets>
@@ -58,6 +61,9 @@
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/filesets-1.3.0-SNAPSHOT.jar" />
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/serverside-dependencies-1.0.10-full.jar" />
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/plugins-2.5.0-SNAPSHOT.jar" />
+    <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/activemq-client-5.9.1.jar" />
+    <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/geronimo-jms_1.1_spec-1.1.1.jar" />
+    <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/mercury-api-1.0-SNAPSHOT.jar" />
   </stubModelEntries>
   <sourcePath />
   <usedDevKits>
