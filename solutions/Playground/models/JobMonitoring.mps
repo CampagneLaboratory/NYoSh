@@ -22,7 +22,12 @@
     <link role="broker" roleId="bbh2.2017323193335950083" targetNodeId="2017323193335959201" resolveInfo="Toulouse" />
     <node role="listener" roleId="bbh2.2017323193335730758" type="bbh2.MessageListener" typeId="bbh2.2017323193335730757" id="2017323193335959208" nodeInfo="ng" />
     <node role="viewer" roleId="bbh2.2017323193335764208" type="bbh2.MessageViewer" typeId="bbh2.2017323193335763037" id="2017323193335959209" nodeInfo="ng">
-      <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="2017323193335959210" nodeInfo="ng" />
+      <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="2017323193335959210" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="Test" />
+      </node>
+      <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="2017323193336995165" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="sds" />
+      </node>
     </node>
   </root>
 </model>
