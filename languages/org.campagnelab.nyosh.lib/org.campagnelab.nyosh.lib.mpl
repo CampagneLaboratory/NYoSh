@@ -64,6 +64,9 @@
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/activemq-client-5.9.1.jar" />
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/geronimo-jms_1.1_spec-1.1.1.jar" />
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/mercury-api-1.0-SNAPSHOT.jar" />
+    <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
+    <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/hawtbuf-1.9.jar" />
+    <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/slf4j-api-1.7.5.jar" />
   </stubModelEntries>
   <sourcePath />
   <usedDevKits>
