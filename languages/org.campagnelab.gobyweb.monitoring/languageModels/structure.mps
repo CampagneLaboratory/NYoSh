@@ -105,6 +105,14 @@
     <property name="name" nameId="tpck.1169194664001" value="MessageViewer" />
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="display messages received from a job" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="8711817271669511123" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="jobStatus" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="8711817271669613111" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="messageCounter" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
+    </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="2017323193335763038" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="phases" />
