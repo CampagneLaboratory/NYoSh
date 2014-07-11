@@ -132,8 +132,8 @@
       <model index="whle" modelUID="r:8e4fd1b7-1955-43a4-ace6-aaf9d13814f8(org.campagnelab.logger.structure)" version="-1" />
       <model index="msli" modelUID="r:9912c4ec-942e-4359-b280-156019ff8b93(org.campagnelab.logger.editor)" version="-1" />
       <model index="lcm8" modelUID="r:19e666fd-ce33-4549-bbc2-aa106ce25584(org.campagnelab.gobyweb.interactive.behavior)" version="-1" />
-      <model index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="20" />
       <model index="jcxn" modelUID="r:7cee66f0-ffc9-4bcb-8565-fb3385c1ba33(org.campagnelab.gobyweb.interactive.editor)" version="-1" />
+      <model index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="20" />
       <model index="mak5" modelUID="r:977bf260-4884-422e-9656-9f0bb268fcb0(org.campagnelab.logger.behavior)" version="-1" />
     </dependencies>
     <move id="bs99.7039650749312735045" to="whle.1925991773566712429" />
@@ -286,8 +286,8 @@
     <dependencies>
       <model index="whle" modelUID="r:8e4fd1b7-1955-43a4-ace6-aaf9d13814f8(org.campagnelab.logger.structure)" version="0" />
       <model index="msli" modelUID="r:9912c4ec-942e-4359-b280-156019ff8b93(org.campagnelab.logger.editor)" version="0" />
-      <model index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="21" />
       <model index="jcxn" modelUID="r:7cee66f0-ffc9-4bcb-8565-fb3385c1ba33(org.campagnelab.gobyweb.interactive.editor)" version="0" />
+      <model index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="21" />
     </dependencies>
     <move id="bs99.3568673897465980090" to="whle.1925991773568778811" />
     <move id="bs99.7039650749312735043" to="whle.1925991773568778812" />
@@ -402,6 +402,12 @@
       <model index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="32" />
     </dependencies>
     <rename id="bs99.6348392937650130323" type="REFERENCE" from="group1" to="group2" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="33" />
+    </dependencies>
+    <rename id="bs99.8711817271670719187" type="REFERENCE" from="executionNode" to="brokerNode" />
   </StructureModification>
 </history>
 

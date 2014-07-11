@@ -9,7 +9,7 @@
   <language namespace="adfd00cb-58d7-4094-bca8-f941a491e04f(org.campagnelab.gobyweb)" />
   <language namespace="82ffebe3-3685-4fd9-b560-0c1d348d295c(org.campagnelab.logger)" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="33" implicit="yes" />
+  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="34" implicit="yes" />
   <import index="9k5" modelUID="r:df9645c2-d2fa-41cb-a718-044a287b0626(org.campagnelab.clusterConfig.structure)" version="3" implicit="yes" />
   <import index="eith" modelUID="r:1ed73e49-326d-4559-947b-13dfd134d00a(org.campagnelab.ssh.structure)" version="-1" implicit="yes" />
   <import index="dzk5" modelUID="r:2bfcc546-5c51-4762-9df2-c43920be4458(org.campagnelab.gobyweb.plugins.structure)" version="4" implicit="yes" />
@@ -8381,7 +8381,7 @@
       <property name="queueName" nameId="bs99.1997533223704022889" value="rascals.q" />
       <property name="workingDirectory" nameId="bs99.6449713081311226572" value="/home/gobyweb/GOBYWEB_SGE_JOBS-dev/" />
       <property name="artifactRepoPath" nameId="bs99.1997533223704022892" value="/scratchLocal/gobyweb/ARTIFACT_REPOSITORY-dev" />
-      <link role="executionNode" roleId="bs99.6449713081311050445" targetNodeId="2243041462222181573" resolveInfo="SpankyNode" />
+      <link role="brokerNode" roleId="bs99.8711817271670719187" targetNodeId="2243041462222181573" resolveInfo="SpankyNode" />
       <node role="jobs" roleId="bs99.3472136550992836012" type="bs99.Job" typeId="bs99.2051553890368756070" id="6348392937649985674" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="Second job" />
         <property name="assignedTag" nameId="bs99.2408108650474877836" value="LIJSCHS" />
@@ -16212,6 +16212,9 @@
         <link role="fileSetArea" roleId="bs99.664989078345325375" targetNodeId="7170488887949090025" resolveInfo="ManueleArea" />
       </node>
     </node>
+    <node role="jobArea" roleId="bs99.2051553890368785070" type="bs99.JobArea" typeId="bs99.2051553890368761083" id="8711817271675659159" nodeInfo="ng">
+      <link role="brokerNode" roleId="bs99.8711817271670719187" targetNodeId="8711817271675662831" resolveInfo="toulouse.qib.Node" />
+    </node>
   </root>
   <root type="bs99.ImportTool" typeId="bs99.8258261499132276459" id="7170488887949090315" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="ImportTool_MS_manuele" />
@@ -16365,6 +16368,17 @@
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="6348392937650106316" nodeInfo="ng">
       <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="6348392937648137721" resolveInfo="Other counts" />
       <node role="value" roleId="bs99.6506431596944968310" type="bs99.BooleanOptionValue" typeId="bs99.606449909792920794" id="6348392937650106338" nodeInfo="ng" />
+    </node>
+  </root>
+  <root type="9k5.ExecutionNode" typeId="9k5.3050176288337501843" id="8711817271675662831" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="toulouse.qib.Node" />
+    <property name="server" nameId="9k5.3050176288337501845" value="toulouse.qib.pbtech" />
+    <property name="numCores" nameId="9k5.3050176288341320771" value="4" />
+    <property name="isReachable" nameId="9k5.2243041462218990633" value="false" />
+    <node role="ports" roleId="9k5.664989078351252753" type="9k5.ConnectionPort" typeId="9k5.664989078347184634" id="8711817271675662832" nodeInfo="ng">
+      <property name="number" nameId="9k5.664989078347184651" value="5672" />
+      <property name="name" nameId="tpck.1169194664001" value="broker" />
+      <link role="targetNode" roleId="9k5.664989078347742108" targetNodeId="8711817271675662831" resolveInfo="toulouse.qib.Node" />
     </node>
   </root>
 </model>
