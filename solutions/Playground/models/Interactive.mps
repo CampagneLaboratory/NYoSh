@@ -30,7 +30,20 @@
       <link role="sshService" roleId="bs99.6449713081311510412" targetNodeId="2243041462222181573" resolveInfo="SpankyNode" />
     </node>
   </root>
-  <root type="whle.Logger" typeId="whle.1925991773566712428" id="7039650749314407366" nodeInfo="ng" />
+  <root type="whle.Logger" typeId="whle.1925991773566712428" id="7039650749314407366" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8711817271678528032" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager is null" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8711817271678528033" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Failed to connect StatefulFileSetRPCManager null" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8711817271678528036" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager is null" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8711817271678528037" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Failed to connect StatefulFileSetRPCManager null" />
+    </node>
+  </root>
   <root type="bs99.RegisterFileTool" typeId="bs99.2954990197977709385" id="6498979092225701287" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="RegisterTool" />
     <property name="filesInError" nameId="bs99.5704832314568278031" value="0" />
@@ -8381,7 +8394,7 @@
       <property name="queueName" nameId="bs99.1997533223704022889" value="rascals.q" />
       <property name="workingDirectory" nameId="bs99.6449713081311226572" value="/home/gobyweb/GOBYWEB_SGE_JOBS-dev/" />
       <property name="artifactRepoPath" nameId="bs99.1997533223704022892" value="/scratchLocal/gobyweb/ARTIFACT_REPOSITORY-dev" />
-      <link role="brokerNode" roleId="bs99.8711817271670719187" targetNodeId="2243041462222181573" resolveInfo="SpankyNode" />
+      <link role="brokerNode" targetNodeId="2243041462222181573" resolveInfo="SpankyNode" />
       <node role="jobs" roleId="bs99.3472136550992836012" type="bs99.Job" typeId="bs99.2051553890368756070" id="6348392937649985674" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="Second job" />
         <property name="assignedTag" nameId="bs99.2408108650474877836" value="LIJSCHS" />
@@ -16213,7 +16226,8 @@
       </node>
     </node>
     <node role="jobArea" roleId="bs99.2051553890368785070" type="bs99.JobArea" typeId="bs99.2051553890368761083" id="8711817271675659159" nodeInfo="ng">
-      <link role="brokerNode" roleId="bs99.8711817271670719187" targetNodeId="8711817271675662831" resolveInfo="toulouse.qib.Node" />
+      <link role="brokerNode" targetNodeId="8711817271675662831" resolveInfo="toulouse.qib.Node" />
+      <link role="brokerPort" roleId="bs99.8711817271672787814" targetNodeId="8711817271675662832" resolveInfo="broker" />
     </node>
   </root>
   <root type="bs99.ImportTool" typeId="bs99.8258261499132276459" id="7170488887949090315" nodeInfo="ng">
@@ -16379,6 +16393,12 @@
       <property name="number" nameId="9k5.664989078347184651" value="5672" />
       <property name="name" nameId="tpck.1169194664001" value="broker" />
       <link role="targetNode" roleId="9k5.664989078347742108" targetNodeId="8711817271675662831" resolveInfo="toulouse.qib.Node" />
+    </node>
+  </root>
+  <root type="bs99.ExecutionEnvironment" typeId="bs99.2051553890368778876" id="8711817271676623123" nodeInfo="ng">
+    <node role="pluginRepository" roleId="bs99.1997533223701807309" type="bs99.PluginRepository" typeId="bs99.1997533223701191426" id="8711817271676623124" nodeInfo="ng" />
+    <node role="jobArea" roleId="bs99.2051553890368785070" type="bs99.JobArea" typeId="bs99.2051553890368761083" id="8711817271676630482" nodeInfo="ng">
+      <link role="brokerPort" roleId="bs99.8711817271672787814" targetNodeId="8711817271675662832" resolveInfo="broker" />
     </node>
   </root>
 </model>
