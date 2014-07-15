@@ -269,6 +269,25 @@
       <property name="message" nameId="whle.1925991773568778812" value="Job folder: gobyweb@spanky.med.cornell.edu:/home/gobyweb/GOBYWEB_SGE_JOBS-dev//manuele.simi/X/XIZBOKD" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
     </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161617584373" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Submit pressed" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161617584380" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Preparing the job parameters" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161617584381" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Submitting the job to the cluster with parameters{--plugins-dir,/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins,--job,STAR22_GOBY,--job-tag,FGJPPFS,--owner,manuele.simi,--queue,rascals.q,--job-area,gobyweb@spanky.med.cornell.edu:/home/gobyweb/GOBYWEB_SGE_JOBS-dev/,--fileset-area,/zenodotus/campagnelab/store/data/gobyweb/dev/FILESET_AREA,--repository,/scratchLocal/gobyweb/ARTIFACT_REPOSITORY-dev,--artifact-server,mas2182@mac150355.med.cornell.edu,--broker-hostname,toulouse.qib.pbtech,--broker-port,5672,--AMBIGUITY_THRESHOLD,10,--GENOME_REFERENCE_ID,1000GENOMES.37,--CHUNK_SIZE,50000000,INPUT_READS:,VAXHWUF}" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161617584382" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Job successfully submitted with tag FGJPPFS" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161617584383" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Job folder: gobyweb@spanky.med.cornell.edu:/home/gobyweb/GOBYWEB_SGE_JOBS-dev//manuele.simi/F/FGJPPFS" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
   </root>
   <root type="bs99.RegisterFileTool" typeId="bs99.2954990197977709385" id="6498979092225701287" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="RegisterTool" />
@@ -6181,6 +6200,30 @@
           <property name="value" nameId="bs99.606449909793678507" value="50000000" />
         </node>
       </node>
+      <node role="jobs" roleId="bs99.3472136550992836012" type="bs99.Job" typeId="bs99.2051553890368756070" id="1212232161617584374" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="First job" />
+        <property name="assignedTag" nameId="bs99.2408108650474877836" value="FGJPPFS" />
+        <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="1212232161612024003" resolveInfo="STAR22_GOBY" />
+        <link role="executionEnvironment" roleId="bs99.2051553890368806506" targetNodeId="7170488887949089862" resolveInfo="mac150355_MS_Environment" />
+        <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="1212232161617584375" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="INPUT_READS" />
+          <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="1212232161617584376" nodeInfo="ng">
+            <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="1212232161612032280" resolveInfo="COMPACT_READS/test" />
+          </node>
+        </node>
+        <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="1212232161617584377" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="AMBIGUITY_THRESHOLD" />
+          <property name="value" nameId="bs99.606449909793678507" value="10" />
+        </node>
+        <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="1212232161617584378" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
+          <property name="value" nameId="bs99.606449909793678507" value="1000GENOMES.37" />
+        </node>
+        <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="1212232161617584379" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="CHUNK_SIZE" />
+          <property name="value" nameId="bs99.606449909793678507" value="50000000" />
+        </node>
+      </node>
     </node>
   </root>
   <root type="bs99.ImportTool" typeId="bs99.8258261499132276459" id="7170488887949090315" nodeInfo="ng">
@@ -6191,7 +6234,7 @@
   <root type="bs99.ExecutionTool" typeId="bs99.2465489689642685978" id="2465489689643890045" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="ExecutionTool_MS" />
     <property name="jobName" nameId="bs99.606449909789338951" value="First job" />
-    <property name="message" nameId="bs99.3927327347527013400" value="Job successfully submitted. Assigned tag: XIZBOKD" />
+    <property name="message" nameId="bs99.3927327347527013400" value="Job successfully submitted. Assigned tag: FGJPPFS" />
     <link role="executionEnvironment" roleId="bs99.2465489689642686100" targetNodeId="7170488887949089862" resolveInfo="mac150355_MS_Environment" />
     <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="1212232161612024003" resolveInfo="STAR22_GOBY" />
     <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="1212232161612050874" nodeInfo="ng">
