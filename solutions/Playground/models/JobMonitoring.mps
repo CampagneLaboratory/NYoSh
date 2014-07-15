@@ -534,6 +534,10 @@
       <property name="message" nameId="whle.1925991773568778812" value="reader is null" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
     </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161625384919" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Subscribing the listener to" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.subscribe" />
+    </node>
   </root>
   <root type="bbh2.JobMonitorInterface" typeId="bbh2.1212232161612230177" id="1212232161617588723" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="FGJPPFS" />
@@ -6258,26 +6262,6 @@
             <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 15 12:28:33 EDT 2014" />
           </node>
         </node>
-      </node>
-    </node>
-  </root>
-  <root type="bbh2.JobMonitorInterface" typeId="bbh2.1212232161612230177" id="1212232161623284711" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="FGJPPFS" />
-    <property name="jobtag" nameId="bbh2.1212232161613055501" value="FGJPPFS" />
-    <link role="broker" roleId="bbh2.1212232161613055507" targetNodeId="2017323193335959203" resolveInfo="broker" />
-    <node role="monitor" roleId="bbh2.1212232161612236910" type="bbh2.JobMonitor" typeId="bbh2.2017323193335723531" id="1212232161623284712" nodeInfo="ng">
-      <property name="jobtag" nameId="bbh2.2017323193335729124" value="FGJPPFS" />
-      <link role="broker" roleId="bbh2.2017323193335950083" targetNodeId="2017323193335959203" resolveInfo="broker" />
-      <node role="listener" roleId="bbh2.2017323193335730758" type="bbh2.MessageListener" typeId="bbh2.2017323193335730757" id="1212232161623284713" nodeInfo="ng">
-        <property name="subscribed" nameId="bbh2.2017323193335803495" value="true" />
-        <property name="name" nameId="tpck.1169194664001" value="NYoSh-1405446105761" />
-        <property name="jobTag" nameId="bbh2.2017323193335763033" value="FGJPPFS" />
-        <link role="broker" roleId="bbh2.2017323193335803042" targetNodeId="2017323193335959203" resolveInfo="broker" />
-      </node>
-      <node role="viewer" roleId="bbh2.2017323193335764208" type="bbh2.MessageViewer" typeId="bbh2.2017323193335763037" id="1212232161623284714" nodeInfo="ng">
-        <property name="jobStatus" nameId="bbh2.8711817271669511123" value="not available" />
-        <property name="messageCounter" nameId="bbh2.8711817271669613111" value="0" />
-        <link role="listener" roleId="bbh2.1526708538680794525" targetNodeId="1212232161623284713" resolveInfo="NYoSh-1405446105761" />
       </node>
     </node>
   </root>
