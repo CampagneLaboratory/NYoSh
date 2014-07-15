@@ -8,13 +8,15 @@
   <language namespace="0b7d8bbd-896e-495e-be60-01a0d738a649(org.campagnelab.gobyweb.plugins)" />
   <language namespace="adfd00cb-58d7-4094-bca8-f941a491e04f(org.campagnelab.gobyweb)" />
   <language namespace="82ffebe3-3685-4fd9-b560-0c1d348d295c(org.campagnelab.logger)" />
+  <language namespace="f05c05d7-dafb-4c87-b842-b836f305120f(org.campagnelab.gobyweb.monitoring)" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="34" implicit="yes" />
+  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="36" implicit="yes" />
   <import index="9k5" modelUID="r:df9645c2-d2fa-41cb-a718-044a287b0626(org.campagnelab.clusterConfig.structure)" version="3" implicit="yes" />
   <import index="eith" modelUID="r:1ed73e49-326d-4559-947b-13dfd134d00a(org.campagnelab.ssh.structure)" version="-1" implicit="yes" />
   <import index="dzk5" modelUID="r:2bfcc546-5c51-4762-9df2-c43920be4458(org.campagnelab.gobyweb.plugins.structure)" version="4" implicit="yes" />
   <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="30" implicit="yes" />
   <import index="whle" modelUID="r:8e4fd1b7-1955-43a4-ace6-aaf9d13814f8(org.campagnelab.logger.structure)" version="1" implicit="yes" />
+  <import index="bbh2" modelUID="r:220d24dc-c962-4ed8-b674-7bde9fb2980c(org.campagnelab.gobyweb.monitoring.structure)" version="-1" implicit="yes" />
   <root type="bs99.ExecutionEnvironment" typeId="bs99.2051553890368778876" id="5704832314560950104" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="mac158665_FC_Environment" />
     <property name="owner" nameId="bs99.2051553890368778877" value="fac2003" />
@@ -31,118 +33,6 @@
     </node>
   </root>
   <root type="whle.Logger" typeId="whle.1925991773566712428" id="7039650749314407366" nodeInfo="ng">
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161612026598" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Importing tag ZGWYFYJ" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161612026600" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Manager is null" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161612026601" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Manager with the same name already connected. The connection was refused by the server. A client with the same name (manuelemac150355.med.cornell.edu) is already connected." />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161612026602" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Failed to import ZGWYFYJ" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161612026603" nodeInfo="ng">
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161612026609" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Importing tag ZGWYFYJ" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161612026611" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161612026612" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Manager with the same name already connected. The connection was refused by the server. A client with the same name (manuelemac150355.med.cornell.edu) is already connected." />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161612026613" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Failed to import ZGWYFYJ" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161612026614" nodeInfo="ng">
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161612027948" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161612027949" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Manager with the same name already connected. The connection was refused by the server. A client with the same name (manuelemac150355.med.cornell.edu) is already connected." />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161612027962" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161612027963" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Manager with the same name already connected. The connection was refused by the server. A client with the same name (manuelemac150355.med.cornell.edu) is already connected." />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161612027978" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161612027979" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Manager with the same name already connected. The connection was refused by the server. A client with the same name (manuelemac150355.med.cornell.edu) is already connected." />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161612027996" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161612027997" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Manager with the same name already connected. The connection was refused by the server. A client with the same name (manuelemac150355.med.cornell.edu) is already connected." />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161612028016" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161612028017" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Manager with the same name already connected. The connection was refused by the server. A client with the same name (manuelemac150355.med.cornell.edu) is already connected." />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161612028044" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161612028045" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Manager with the same name already connected. The connection was refused by the server. A client with the same name (manuelemac150355.med.cornell.edu) is already connected." />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161612028068" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Disconnected" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161612028092" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Disconnected" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161612028117" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="null manager" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161612028143" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="null manager" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161612029509" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Manager is null" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161612029510" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="StatefulFileSetRPCManager connected" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161612030880" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Importing tag ZGWYFYJ" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161612030882" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161612030883" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Manager already connected" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161612030886" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Tag ZGWYFYJ successfully imported" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161612030887" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161612030888" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Manager already connected" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161612030889" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="failed to fetch JOB STATISTICS from ZGWYFYJ" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.getRelatedInstances" />
-    </node>
     <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161612032279" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Importing tag VAXHWUF" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
@@ -306,6 +196,257 @@
     <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161618173721" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Job folder: gobyweb@spanky.med.cornell.edu:/home/gobyweb/GOBYWEB_SGE_JOBS-dev//manuele.simi/P/PABPBVO" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161621137454" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Submit pressed" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161621137461" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Preparing the job parameters" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161621137462" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Submitting the job to the cluster with parameters{--plugins-dir,/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins,--job,STAR22_GOBY,--job-tag,MIJIHOB,--owner,manuele.simi,--queue,rascals.q,--job-area,gobyweb@spanky.med.cornell.edu:/home/gobyweb/GOBYWEB_SGE_JOBS-dev/,--fileset-area,/zenodotus/campagnelab/store/data/gobyweb/dev/FILESET_AREA,--repository,/scratchLocal/gobyweb/ARTIFACT_REPOSITORY-dev,--artifact-server,mas2182@mac150355.med.cornell.edu,--broker-hostname,toulouse.med.cornell.edu,--broker-port,5672,--AMBIGUITY_THRESHOLD,10,--GENOME_REFERENCE_ID,1000GENOMES.37,--CHUNK_SIZE,50000000,INPUT_READS:,VAXHWUF}" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161621137463" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Job successfully submitted with tag MIJIHOB" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161621137464" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Job folder: gobyweb@spanky.med.cornell.edu:/home/gobyweb/GOBYWEB_SGE_JOBS-dev//manuele.simi/M/MIJIHOB" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161622079522" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Submit pressed" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161622079529" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Preparing the job parameters" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161622079530" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Submitting the job to the cluster with parameters{--plugins-dir,/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins,--job,STAR22_GOBY,--job-tag,CHKJQNM,--owner,manuele.simi,--queue,rascals.q,--job-area,gobyweb@spanky.med.cornell.edu:/home/gobyweb/GOBYWEB_SGE_JOBS-dev/,--fileset-area,/zenodotus/campagnelab/store/data/gobyweb/dev/FILESET_AREA,--repository,/scratchLocal/gobyweb/ARTIFACT_REPOSITORY-dev,--artifact-server,mas2182@mac150355.med.cornell.edu,--broker-hostname,toulouse.med.cornell.edu,--broker-port,5672,--AMBIGUITY_THRESHOLD,10,--GENOME_REFERENCE_ID,1000GENOMES.37,--CHUNK_SIZE,50000000,INPUT_READS:,VAXHWUF}" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161622079531" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Job successfully submitted with tag CHKJQNM" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161622079532" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Job folder: gobyweb@spanky.med.cornell.edu:/home/gobyweb/GOBYWEB_SGE_JOBS-dev//manuele.simi/C/CHKJQNM" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161622079536" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Subscribing the listener to" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.subscribe" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161622079537" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Listener successfully subscribed for notifications about job CHKJQNM" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.subscribe" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161622098911" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Submit pressed" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161622098918" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Preparing the job parameters" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161622098919" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Submitting the job to the cluster with parameters{--plugins-dir,/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins,--job,STAR22_GOBY,--job-tag,TIYGLJB,--owner,manuele.simi,--queue,rascals.q,--job-area,gobyweb@spanky.med.cornell.edu:/home/gobyweb/GOBYWEB_SGE_JOBS-dev/,--fileset-area,/zenodotus/campagnelab/store/data/gobyweb/dev/FILESET_AREA,--repository,/scratchLocal/gobyweb/ARTIFACT_REPOSITORY-dev,--artifact-server,mas2182@mac150355.med.cornell.edu,--broker-hostname,toulouse.med.cornell.edu,--broker-port,5672,--AMBIGUITY_THRESHOLD,10,--GENOME_REFERENCE_ID,1000GENOMES.37,--CHUNK_SIZE,50000000,INPUT_READS:,VAXHWUF}" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161622098920" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Job successfully submitted with tag TIYGLJB" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161622098921" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Job folder: gobyweb@spanky.med.cornell.edu:/home/gobyweb/GOBYWEB_SGE_JOBS-dev//manuele.simi/T/TIYGLJB" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161622098925" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Subscribing the listener to" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.subscribe" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161622098926" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Listener successfully subscribed for notifications about job TIYGLJB" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.subscribe" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161623497577" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="refresh invoked" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161623517102" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Submit pressed" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161623517109" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Preparing the job parameters" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161623517110" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Submitting the job to the cluster with parameters{--plugins-dir,/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins,--job,STAR22_GOBY,--job-tag,GQVZFUY,--owner,manuele.simi,--queue,rascals.q,--job-area,gobyweb@spanky.med.cornell.edu:/home/gobyweb/GOBYWEB_SGE_JOBS-dev/,--fileset-area,/zenodotus/campagnelab/store/data/gobyweb/dev/FILESET_AREA,--repository,/scratchLocal/gobyweb/ARTIFACT_REPOSITORY-dev,--artifact-server,mas2182@mac150355.med.cornell.edu,--broker-hostname,toulouse.med.cornell.edu,--broker-port,5672,--AMBIGUITY_THRESHOLD,10,--GENOME_REFERENCE_ID,1000GENOMES.37,--CHUNK_SIZE,50000000,INPUT_READS:,VAXHWUF}" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161623517111" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Job successfully submitted with tag GQVZFUY" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161623517112" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Job folder: gobyweb@spanky.med.cornell.edu:/home/gobyweb/GOBYWEB_SGE_JOBS-dev//manuele.simi/G/GQVZFUY" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161623517116" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Subscribing the listener to" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.subscribe" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161623517117" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Listener successfully subscribed for notifications about job GQVZFUY" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.subscribe" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161623517275" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="This listener is already subscribed for notifications" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.subscribe" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161623517383" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="refresh invoked" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161623517511" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="refresh invoked" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161623517512" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="reader is null" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161623517623" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="refresh invoked" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161623517624" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="reader is null" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161623517737" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="refresh invoked" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161623517738" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="reader is null" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161623517853" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="refresh invoked" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161623517854" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="reader is null" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161624428412" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="refresh invoked" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161624428530" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="refresh invoked" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161624428649" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="refresh invoked" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161624428769" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="refresh invoked" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161624430401" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="refresh invoked" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161624432035" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="refresh invoked" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161624432158" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="refresh invoked" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161624432282" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Subscribing the listener to" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.subscribe" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161624432407" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Subscribing the listener to" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.subscribe" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161624432533" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="refresh invoked" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161624434177" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Subscribing the listener to" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.subscribe" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161624434305" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Subscribing the listener to" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.subscribe" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161624435953" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Subscribing the listener to" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.subscribe" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161624436083" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Subscribing the listener to" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.subscribe" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161624437735" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="refresh invoked" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161624437867" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Subscribing the listener to" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.subscribe" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161624438000" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="refresh invoked" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161624439658" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Subscribing the listener to" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.subscribe" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161625378760" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Submit pressed" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161625378767" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Preparing the job parameters" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161625378768" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Submitting the job to the cluster with parameters{--plugins-dir,/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins,--job,STAR22_GOBY,--job-tag,IBQOUQT,--owner,manuele.simi,--queue,rascals.q,--job-area,gobyweb@spanky.med.cornell.edu:/home/gobyweb/GOBYWEB_SGE_JOBS-dev/,--fileset-area,/zenodotus/campagnelab/store/data/gobyweb/dev/FILESET_AREA,--repository,/scratchLocal/gobyweb/ARTIFACT_REPOSITORY-dev,--artifact-server,mas2182@mac150355.med.cornell.edu,--broker-hostname,toulouse.med.cornell.edu,--broker-port,5672,--AMBIGUITY_THRESHOLD,10,--GENOME_REFERENCE_ID,1000GENOMES.37,--CHUNK_SIZE,50000000,INPUT_READS:,VAXHWUF}" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161625378769" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Job successfully submitted with tag IBQOUQT" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161625378770" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Job folder: gobyweb@spanky.med.cornell.edu:/home/gobyweb/GOBYWEB_SGE_JOBS-dev//manuele.simi/I/IBQOUQT" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161625378774" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Subscribing the listener to" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.subscribe" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161625378775" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Listener successfully subscribed for notifications about job IBQOUQT" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.subscribe" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161625378939" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="refresh invoked" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1212232161625379172" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="refresh invoked" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
     </node>
   </root>
   <root type="bs99.RegisterFileTool" typeId="bs99.2954990197977709385" id="6498979092225701287" nodeInfo="ng">
@@ -6170,7 +6311,8 @@
       <property name="workingDirectory" nameId="bs99.6449713081311226572" value="/home/gobyweb/GOBYWEB_SGE_JOBS-dev/" />
       <property name="artifactRepoPath" nameId="bs99.1997533223704022892" value="/scratchLocal/gobyweb/ARTIFACT_REPOSITORY-dev" />
       <link role="executionNode" roleId="bs99.6449713081311050445" targetNodeId="2243041462222181573" resolveInfo="SpankyNode" />
-      <link role="brokerPort" roleId="bs99.8711817271672787814" targetNodeId="8711817271675662832" resolveInfo="broker" />
+      <link role="brokerPortForJobs" roleId="bs99.1212232161618212231" targetNodeId="8711817271675662832" resolveInfo="brokerForJobs" />
+      <link role="brokerPortForMonitor" roleId="bs99.8711817271672787814" targetNodeId="1212232161621136016" resolveInfo="brokerForMonitor" />
       <node role="jobs" roleId="bs99.3472136550992836012" type="bs99.Job" typeId="bs99.2051553890368756070" id="1212232161612052346" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="First job" />
         <property name="assignedTag" nameId="bs99.2408108650474877836" value="LDQUKIG" />
@@ -6267,6 +6409,126 @@
           <property name="value" nameId="bs99.606449909793678507" value="50000000" />
         </node>
       </node>
+      <node role="jobs" roleId="bs99.3472136550992836012" type="bs99.Job" typeId="bs99.2051553890368756070" id="1212232161621137455" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="First job" />
+        <property name="assignedTag" nameId="bs99.2408108650474877836" value="MIJIHOB" />
+        <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="1212232161612024003" resolveInfo="STAR22_GOBY" />
+        <link role="executionEnvironment" roleId="bs99.2051553890368806506" targetNodeId="7170488887949089862" resolveInfo="mac150355_MS_Environment" />
+        <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="1212232161621137456" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="INPUT_READS" />
+          <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="1212232161621137457" nodeInfo="ng">
+            <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="1212232161612032280" resolveInfo="COMPACT_READS/test" />
+          </node>
+        </node>
+        <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="1212232161621137458" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="AMBIGUITY_THRESHOLD" />
+          <property name="value" nameId="bs99.606449909793678507" value="10" />
+        </node>
+        <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="1212232161621137459" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
+          <property name="value" nameId="bs99.606449909793678507" value="1000GENOMES.37" />
+        </node>
+        <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="1212232161621137460" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="CHUNK_SIZE" />
+          <property name="value" nameId="bs99.606449909793678507" value="50000000" />
+        </node>
+      </node>
+      <node role="jobs" roleId="bs99.3472136550992836012" type="bs99.Job" typeId="bs99.2051553890368756070" id="1212232161622079523" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="First job" />
+        <property name="assignedTag" nameId="bs99.2408108650474877836" value="CHKJQNM" />
+        <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="1212232161612024003" resolveInfo="STAR22_GOBY" />
+        <link role="executionEnvironment" roleId="bs99.2051553890368806506" targetNodeId="7170488887949089862" resolveInfo="mac150355_MS_Environment" />
+        <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="1212232161622079524" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="INPUT_READS" />
+          <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="1212232161622079525" nodeInfo="ng">
+            <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="1212232161612032280" resolveInfo="COMPACT_READS/test" />
+          </node>
+        </node>
+        <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="1212232161622079526" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="AMBIGUITY_THRESHOLD" />
+          <property name="value" nameId="bs99.606449909793678507" value="10" />
+        </node>
+        <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="1212232161622079527" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
+          <property name="value" nameId="bs99.606449909793678507" value="1000GENOMES.37" />
+        </node>
+        <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="1212232161622079528" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="CHUNK_SIZE" />
+          <property name="value" nameId="bs99.606449909793678507" value="50000000" />
+        </node>
+      </node>
+      <node role="jobs" roleId="bs99.3472136550992836012" type="bs99.Job" typeId="bs99.2051553890368756070" id="1212232161622098912" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="First job" />
+        <property name="assignedTag" nameId="bs99.2408108650474877836" value="TIYGLJB" />
+        <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="1212232161612024003" resolveInfo="STAR22_GOBY" />
+        <link role="executionEnvironment" roleId="bs99.2051553890368806506" targetNodeId="7170488887949089862" resolveInfo="mac150355_MS_Environment" />
+        <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="1212232161622098913" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="INPUT_READS" />
+          <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="1212232161622098914" nodeInfo="ng">
+            <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="1212232161612032280" resolveInfo="COMPACT_READS/test" />
+          </node>
+        </node>
+        <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="1212232161622098915" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="AMBIGUITY_THRESHOLD" />
+          <property name="value" nameId="bs99.606449909793678507" value="10" />
+        </node>
+        <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="1212232161622098916" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
+          <property name="value" nameId="bs99.606449909793678507" value="1000GENOMES.37" />
+        </node>
+        <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="1212232161622098917" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="CHUNK_SIZE" />
+          <property name="value" nameId="bs99.606449909793678507" value="50000000" />
+        </node>
+      </node>
+      <node role="jobs" roleId="bs99.3472136550992836012" type="bs99.Job" typeId="bs99.2051553890368756070" id="1212232161623517103" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="First job" />
+        <property name="assignedTag" nameId="bs99.2408108650474877836" value="GQVZFUY" />
+        <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="1212232161612024003" resolveInfo="STAR22_GOBY" />
+        <link role="executionEnvironment" roleId="bs99.2051553890368806506" targetNodeId="7170488887949089862" resolveInfo="mac150355_MS_Environment" />
+        <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="1212232161623517104" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="INPUT_READS" />
+          <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="1212232161623517105" nodeInfo="ng">
+            <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="1212232161612032280" resolveInfo="COMPACT_READS/test" />
+          </node>
+        </node>
+        <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="1212232161623517106" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="AMBIGUITY_THRESHOLD" />
+          <property name="value" nameId="bs99.606449909793678507" value="10" />
+        </node>
+        <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="1212232161623517107" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
+          <property name="value" nameId="bs99.606449909793678507" value="1000GENOMES.37" />
+        </node>
+        <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="1212232161623517108" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="CHUNK_SIZE" />
+          <property name="value" nameId="bs99.606449909793678507" value="50000000" />
+        </node>
+      </node>
+      <node role="jobs" roleId="bs99.3472136550992836012" type="bs99.Job" typeId="bs99.2051553890368756070" id="1212232161625378761" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="First job" />
+        <property name="assignedTag" nameId="bs99.2408108650474877836" value="IBQOUQT" />
+        <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="1212232161612024003" resolveInfo="STAR22_GOBY" />
+        <link role="executionEnvironment" roleId="bs99.2051553890368806506" targetNodeId="7170488887949089862" resolveInfo="mac150355_MS_Environment" />
+        <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="1212232161625378762" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="INPUT_READS" />
+          <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="1212232161625378763" nodeInfo="ng">
+            <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="1212232161612032280" resolveInfo="COMPACT_READS/test" />
+          </node>
+        </node>
+        <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="1212232161625378764" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="AMBIGUITY_THRESHOLD" />
+          <property name="value" nameId="bs99.606449909793678507" value="10" />
+        </node>
+        <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="1212232161625378765" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
+          <property name="value" nameId="bs99.606449909793678507" value="1000GENOMES.37" />
+        </node>
+        <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="1212232161625378766" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="CHUNK_SIZE" />
+          <property name="value" nameId="bs99.606449909793678507" value="50000000" />
+        </node>
+      </node>
     </node>
   </root>
   <root type="bs99.ImportTool" typeId="bs99.8258261499132276459" id="7170488887949090315" nodeInfo="ng">
@@ -6277,7 +6539,7 @@
   <root type="bs99.ExecutionTool" typeId="bs99.2465489689642685978" id="2465489689643890045" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="ExecutionTool_MS" />
     <property name="jobName" nameId="bs99.606449909789338951" value="First job" />
-    <property name="message" nameId="bs99.3927327347527013400" value="Job successfully submitted. Assigned tag: PABPBVO" />
+    <property name="message" nameId="bs99.3927327347527013400" value="Job successfully submitted. Assigned tag: IBQOUQT" />
     <link role="executionEnvironment" roleId="bs99.2465489689642686100" targetNodeId="7170488887949089862" resolveInfo="mac150355_MS_Environment" />
     <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="1212232161612024003" resolveInfo="STAR22_GOBY" />
     <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="1212232161612050874" nodeInfo="ng">
@@ -6302,6 +6564,270 @@
       <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="1212232161612024037" resolveInfo="CHUNK_SIZE" />
       <node role="value" roleId="bs99.6506431596944968310" type="bs99.IntegerOptionValue" typeId="bs99.606449909792930896" id="1212232161612050885" nodeInfo="ng">
         <property name="value" nameId="bs99.606449909792930897" value="50000000" />
+      </node>
+    </node>
+    <node role="jobMonitor" roleId="bs99.1212232161612106271" type="bbh2.JobMonitor" typeId="bbh2.2017323193335723531" id="1212232161625378771" nodeInfo="ng">
+      <property name="jobtag" nameId="bbh2.2017323193335729124" value="IBQOUQT" />
+      <link role="broker" roleId="bbh2.2017323193335950083" targetNodeId="1212232161621136016" resolveInfo="brokerForMonitor" />
+      <node role="viewer" roleId="bbh2.2017323193335764208" type="bbh2.MessageViewer" typeId="bbh2.2017323193335763037" id="1212232161625378772" nodeInfo="ng">
+        <property name="jobStatus" nameId="bbh2.8711817271669511123" value="complete" />
+        <property name="messageCounter" nameId="bbh2.8711817271669613111" value="35" />
+        <link role="listener" roleId="bbh2.1526708538680794525" targetNodeId="1212232161625378773" resolveInfo="NYoSh-1405449146959" />
+        <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="1212232161625378941" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="pre_align" />
+          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1212232161625378940" nodeInfo="ng">
+            <property name="description" nameId="bbh2.2017323193335763083" value="Submitting job to the cluster" />
+            <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
+            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
+            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 15 14:32:23 EDT 2014" />
+          </node>
+          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1212232161625378942" nodeInfo="ng">
+            <property name="description" nameId="bbh2.2017323193335763083" value="Job successfully submitted" />
+            <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
+            <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
+            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 15 14:32:25 EDT 2014" />
+          </node>
+          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1212232161625378943" nodeInfo="ng">
+            <property name="description" nameId="bbh2.2017323193335763083" value="Output from submission command: 328162" />
+            <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
+            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
+            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 15 14:32:26 EDT 2014" />
+          </node>
+        </node>
+        <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="1212232161625378945" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="unclassified" />
+          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1212232161625378944" nodeInfo="ng">
+            <property name="description" nameId="bbh2.2017323193335763083" value="Installing plugin mandatory resources" />
+            <property name="hostname" nameId="bbh2.2017323193335763100" value="buckwheat.med.cornell.edu" />
+            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
+            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 15 14:32:42 EDT 2014" />
+          </node>
+          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1212232161625378946" nodeInfo="ng">
+            <property name="description" nameId="bbh2.2017323193335763083" value="Expose environment variables for artifacts.." />
+            <property name="hostname" nameId="bbh2.2017323193335763100" value="buckwheat.med.cornell.edu" />
+            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
+            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 15 14:32:45 EDT 2014" />
+          </node>
+          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1212232161625378947" nodeInfo="ng">
+            <property name="description" nameId="bbh2.2017323193335763083" value="Installing plugin mandatory resources" />
+            <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
+            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
+            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 15 14:33:14 EDT 2014" />
+          </node>
+          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1212232161625378948" nodeInfo="ng">
+            <property name="description" nameId="bbh2.2017323193335763083" value="Expose environment variables for artifacts.." />
+            <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
+            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
+            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 15 14:33:19 EDT 2014" />
+          </node>
+          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1212232161625378949" nodeInfo="ng">
+            <property name="description" nameId="bbh2.2017323193335763083" value="Installing plugin resources" />
+            <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
+            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
+            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 15 14:33:24 EDT 2014" />
+          </node>
+          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1212232161625378950" nodeInfo="ng">
+            <property name="description" nameId="bbh2.2017323193335763083" value="Expose environment variables for artifacts.." />
+            <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
+            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
+            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 15 14:33:31 EDT 2014" />
+          </node>
+          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1212232161625378957" nodeInfo="ng">
+            <property name="description" nameId="bbh2.2017323193335763083" value="Installing plugin mandatory resources" />
+            <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
+            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
+            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 15 14:35:11 EDT 2014" />
+          </node>
+          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1212232161625378958" nodeInfo="ng">
+            <property name="description" nameId="bbh2.2017323193335763083" value="Expose environment variables for artifacts.." />
+            <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
+            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
+            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 15 14:35:14 EDT 2014" />
+          </node>
+          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1212232161625378977" nodeInfo="ng">
+            <property name="description" nameId="bbh2.2017323193335763083" value="The following ALIGNMENT_WIG instance has been successfully registered: LLFIEHD" />
+            <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
+            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
+            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 15 14:35:48 EDT 2014" />
+          </node>
+        </node>
+        <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="1212232161625378952" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="align" />
+          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1212232161625378951" nodeInfo="ng">
+            <property name="description" nameId="bbh2.2017323193335763083" value="Align, sub-task 1 of 2, starting" />
+            <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
+            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
+            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 15 14:33:36 EDT 2014" />
+          </node>
+        </node>
+        <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="1212232161625378954" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="sort" />
+          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1212232161625378953" nodeInfo="ng">
+            <property name="description" nameId="bbh2.2017323193335763083" value="Post-align sort, sub-task 1 of 2, starting" />
+            <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
+            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
+            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 15 14:34:50 EDT 2014" />
+          </node>
+        </node>
+        <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="1212232161625378956" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="completed" />
+          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1212232161625378955" nodeInfo="ng">
+            <property name="description" nameId="bbh2.2017323193335763083" value="Sub-task 1 of 2, completed" />
+            <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
+            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
+            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 15 14:34:54 EDT 2014" />
+          </node>
+          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1212232161625378961" nodeInfo="ng">
+            <property name="description" nameId="bbh2.2017323193335763083" value="Concat, sub-task 1 of 2 completed" />
+            <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
+            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
+            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 15 14:35:18 EDT 2014" />
+          </node>
+          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1212232161625379173" nodeInfo="ng">
+            <property name="description" nameId="bbh2.2017323193335763083" value="-" />
+            <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
+            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
+            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 15 14:36:04 EDT 2014" />
+          </node>
+          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1212232161625379174" nodeInfo="ng">
+            <property name="description" nameId="bbh2.2017323193335763083" value="Job completed" />
+            <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
+            <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
+            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 15 14:36:05 EDT 2014" />
+          </node>
+        </node>
+        <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="1212232161625378960" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="concat" />
+          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1212232161625378959" nodeInfo="ng">
+            <property name="description" nameId="bbh2.2017323193335763083" value="Concat, sub-task 1 of 2, starting" />
+            <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
+            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
+            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 15 14:35:17 EDT 2014" />
+          </node>
+        </node>
+        <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="1212232161625378963" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="counts" />
+          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1212232161625378962" nodeInfo="ng">
+            <property name="description" nameId="bbh2.2017323193335763083" value="Counts, sub-task 2 of 2, starting" />
+            <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
+            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
+            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 15 14:35:18 EDT 2014" />
+          </node>
+        </node>
+        <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="1212232161625378965" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="alignment_stats" />
+          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1212232161625378964" nodeInfo="ng">
+            <property name="description" nameId="bbh2.2017323193335763083" value="Alignment Stats, sub-task 2 of 2, starting" />
+            <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
+            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
+            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 15 14:35:21 EDT 2014" />
+          </node>
+        </node>
+        <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="1212232161625378967" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="alignment_seq_variation_stats" />
+          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1212232161625378966" nodeInfo="ng">
+            <property name="description" nameId="bbh2.2017323193335763083" value="Alignment Sequence Variation Stats, sub-task 2 of 2, starting" />
+            <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
+            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
+            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 15 14:35:34 EDT 2014" />
+          </node>
+        </node>
+        <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="1212232161625378969" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="wiggles" />
+          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1212232161625378968" nodeInfo="ng">
+            <property name="description" nameId="bbh2.2017323193335763083" value="Wiggles, sub-task 2 of 2, starting" />
+            <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
+            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
+            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 15 14:35:36 EDT 2014" />
+          </node>
+          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1212232161625378970" nodeInfo="ng">
+            <property name="description" nameId="bbh2.2017323193335763083" value="Bedgraph, sub-task 2 of 2, starting" />
+            <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
+            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
+            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 15 14:35:38 EDT 2014" />
+          </node>
+        </node>
+        <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="1212232161625378972" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="compress" />
+          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1212232161625378971" nodeInfo="ng">
+            <property name="description" nameId="bbh2.2017323193335763083" value="Compressing files" />
+            <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
+            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
+            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 15 14:35:41 EDT 2014" />
+          </node>
+        </node>
+        <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="1212232161625378974" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="transfer" />
+          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1212232161625378973" nodeInfo="ng">
+            <property name="description" nameId="bbh2.2017323193335763083" value="Pushing results in the fileset area" />
+            <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
+            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
+            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 15 14:35:42 EDT 2014" />
+          </node>
+          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1212232161625378975" nodeInfo="ng">
+            <property name="description" nameId="bbh2.2017323193335763083" value="The following GOBY_ALIGNMENT instance has been successfully registered: UHSTHXG" />
+            <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
+            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
+            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 15 14:35:44 EDT 2014" />
+          </node>
+          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1212232161625378976" nodeInfo="ng">
+            <property name="description" nameId="bbh2.2017323193335763083" value="The following ALIGNMENT_BED instance has been successfully registered: RNLBKGW" />
+            <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
+            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
+            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 15 14:35:46 EDT 2014" />
+          </node>
+          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1212232161625378978" nodeInfo="ng">
+            <property name="description" nameId="bbh2.2017323193335763083" value="The following COUNTS instance has been successfully registered: ZVSFPGK" />
+            <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
+            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
+            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 15 14:35:51 EDT 2014" />
+          </node>
+          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1212232161625378979" nodeInfo="ng">
+            <property name="description" nameId="bbh2.2017323193335763083" value="The following ALIGNMENT_ALL_FILES instance has been successfully registered: BNUDXLI" />
+            <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
+            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
+            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 15 14:35:53 EDT 2014" />
+          </node>
+          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1212232161625378980" nodeInfo="ng">
+            <property name="description" nameId="bbh2.2017323193335763083" value="The following ALIGNMENT_SEQUENCE_VARIATION_STATS instance has been successfully registered: KMOTOWW" />
+            <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
+            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
+            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 15 14:35:55 EDT 2014" />
+          </node>
+          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1212232161625378981" nodeInfo="ng">
+            <property name="description" nameId="bbh2.2017323193335763083" value="The following STATS instance has been successfully registered: UNHPNTG" />
+            <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
+            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
+            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 15 14:35:57 EDT 2014" />
+          </node>
+          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1212232161625378982" nodeInfo="ng">
+            <property name="description" nameId="bbh2.2017323193335763083" value="The following ALIGNMENT_STATS instance has been successfully registered: TXWTAFG" />
+            <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
+            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
+            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 15 14:36:00 EDT 2014" />
+          </node>
+        </node>
+        <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="1212232161625378984" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="registered_filesets" />
+          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1212232161625378983" nodeInfo="ng">
+            <property name="description" nameId="bbh2.2017323193335763083" value=" GOBY_ALIGNMENT:[UHSTHXG] ALIGNMENT_BED:[RNLBKGW] COUNTS:[ZVSFPGK] ALIGNMENT_ALL_FILES:[BNUDXLI] ALIGNMENT_SEQUENCE_VARIATION_STATS:[KMOTOWW] STATS:[UNHPNTG] ALIGNMENT_STATS:[TXWTAFG]" />
+            <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
+            <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
+            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 15 14:36:01 EDT 2014" />
+          </node>
+          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1212232161625378985" nodeInfo="ng">
+            <property name="description" nameId="bbh2.2017323193335763083" value="JOB_METADATA: IBQOUQT" />
+            <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
+            <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
+            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 15 14:36:03 EDT 2014" />
+          </node>
+        </node>
+      </node>
+      <node role="listener" roleId="bbh2.2017323193335730758" type="bbh2.MessageListener" typeId="bbh2.2017323193335730757" id="1212232161625378773" nodeInfo="ng">
+        <property name="subscribed" nameId="bbh2.2017323193335803495" value="true" />
+        <property name="name" nameId="tpck.1169194664001" value="NYoSh-1405449146959" />
+        <property name="jobTag" nameId="bbh2.2017323193335763033" value="IBQOUQT" />
+        <link role="broker" roleId="bbh2.2017323193335803042" targetNodeId="1212232161621136016" resolveInfo="brokerForMonitor" />
       </node>
     </node>
   </root>
@@ -6386,14 +6912,25 @@
     </node>
   </root>
   <root type="9k5.ExecutionNode" typeId="9k5.3050176288337501843" id="8711817271675662831" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="toulouse.qib.Node" />
+    <property name="name" nameId="tpck.1169194664001" value="BrokerNodeForJobs" />
     <property name="server" nameId="9k5.3050176288337501845" value="toulouse.qib.pbtech" />
     <property name="numCores" nameId="9k5.3050176288341320771" value="4" />
     <property name="isReachable" nameId="9k5.2243041462218990633" value="false" />
     <node role="ports" roleId="9k5.664989078351252753" type="9k5.ConnectionPort" typeId="9k5.664989078347184634" id="8711817271675662832" nodeInfo="ng">
       <property name="number" nameId="9k5.664989078347184651" value="5672" />
-      <property name="name" nameId="tpck.1169194664001" value="broker" />
-      <link role="targetNode" roleId="9k5.664989078347742108" targetNodeId="8711817271675662831" resolveInfo="toulouse.qib.Node" />
+      <property name="name" nameId="tpck.1169194664001" value="brokerForJobs" />
+      <link role="targetNode" roleId="9k5.664989078347742108" targetNodeId="8711817271675662831" resolveInfo="BrokerNodeForJobs" />
+    </node>
+  </root>
+  <root type="9k5.ExecutionNode" typeId="9k5.3050176288337501843" id="1212232161621136015" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="BrokerNodeForMonitor" />
+    <property name="server" nameId="9k5.3050176288337501845" value="toulouse.med.cornell.edu" />
+    <property name="numCores" nameId="9k5.3050176288341320771" value="4" />
+    <property name="isReachable" nameId="9k5.2243041462218990633" value="true" />
+    <node role="ports" roleId="9k5.664989078351252753" type="9k5.ConnectionPort" typeId="9k5.664989078347184634" id="1212232161621136016" nodeInfo="ng">
+      <property name="number" nameId="9k5.664989078347184651" value="5672" />
+      <property name="name" nameId="tpck.1169194664001" value="brokerForMonitor" />
+      <link role="targetNode" roleId="9k5.664989078347742108" targetNodeId="1212232161621136015" resolveInfo="BrokerNodeForMonitor" />
     </node>
   </root>
 </model>

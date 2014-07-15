@@ -9,7 +9,7 @@
   <language namespace="7620dd3f-7541-48a3-b1e6-01cced81a7a5(org.campagnelab.clusterConfig)" />
   <import index="th2c" modelUID="r:eadbbfa3-7690-4909-a537-361e1df92710(Interactive)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="34" implicit="yes" />
+  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="36" implicit="yes" />
   <import index="whle" modelUID="r:8e4fd1b7-1955-43a4-ace6-aaf9d13814f8(org.campagnelab.logger.structure)" version="1" implicit="yes" />
   <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="30" implicit="yes" />
   <import index="dzk5" modelUID="r:2bfcc546-5c51-4762-9df2-c43920be4458(org.campagnelab.gobyweb.plugins.structure)" version="4" implicit="yes" />
@@ -5834,7 +5834,7 @@
       <property name="queueName" nameId="bs99.1997533223704022889" value="rascals.q" />
       <property name="workingDirectory" nameId="bs99.6449713081311226572" value="/home/gobyweb/GOBYWEB_SGE_JOBS-dev/" />
       <property name="artifactRepoPath" nameId="bs99.1997533223704022892" value="/scratchLocal/gobyweb/ARTIFACT_REPOSITORY-dev" />
-      <link role="brokerNode" roleId="bs99.8711817271670719187" targetNodeId="th2c.2243041462222181573" resolveInfo="SpankyNode" />
+      <link role="brokerNode" targetNodeId="th2c.2243041462222181573" resolveInfo="SpankyNode" />
       <node role="jobs" roleId="bs99.3472136550992836012" type="bs99.Job" typeId="bs99.2051553890368756070" id="95736746495080013" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="Run Allogenomics analysis" />
         <property name="assignedTag" nameId="bs99.2408108650474877836" value="QPSNDMX" />
