@@ -127,15 +127,15 @@
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="2017323193335745722" resolveInfo="Phase" />
     </node>
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1212232161625839027" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="eventListener" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="1212232161625613149" resolveInfo="JobEventListener" />
-    </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1526708538680794525" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
       <property name="role" nameId="tpce.1071599776563" value="listener" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="2017323193335730757" resolveInfo="MessageListener" />
+    </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1212232161626043352" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
+      <property name="role" nameId="tpce.1071599776563" value="eventListener" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="1212232161625613149" resolveInfo="JobEventListener" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1212232161612230177" nodeInfo="ig">
