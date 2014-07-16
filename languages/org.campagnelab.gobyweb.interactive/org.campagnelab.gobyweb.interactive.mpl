@@ -60,6 +60,7 @@
   <extendedLanguages>
     <extendedLanguage>de1ad86d-6e50-4a02-b306-d4d17f64c375(jetbrains.mps.console.base)</extendedLanguage>
     <extendedLanguage>c1ba4037-e4db-47d8-8b61-b3c805b648f2(org.campagnelab.ui)</extendedLanguage>
+    <extendedLanguage>f05c05d7-dafb-4c87-b842-b836f305120f(org.campagnelab.gobyweb.monitoring)</extendedLanguage>
   </extendedLanguages>
 </language>
 

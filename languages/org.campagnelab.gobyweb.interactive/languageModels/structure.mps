@@ -252,6 +252,12 @@
     <property name="name" nameId="tpck.1169194664001" value="JobResult" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="job" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1212232161627158989" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="filesets" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="1212232161627158981" resolveInfo="PublishedFileSetInstance" />
+    </node>
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="2051553890369299989" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="output" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="2051553890369884769" resolveInfo="JobStatusType" />
@@ -745,6 +751,46 @@
       <property name="role" nameId="tpce.1071599776563" value="group2" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="3927327347537774497" resolveInfo="GroupDefinitionOptionValue" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1212232161626260983" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="tools.execution" />
+    <property name="name" nameId="tpck.1169194664001" value="RegisterJobInJobArea" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1212232161626279661" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
+      <property name="role" nameId="tpce.1071599776563" value="jobArea" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="2051553890368761083" resolveInfo="JobArea" />
+    </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1212232161627127088" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
+      <property name="role" nameId="tpce.1071599776563" value="job" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="2051553890368756070" resolveInfo="Job" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1212232161626261435" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="bbh2.1212232161625613149" resolveInfo="JobEventListener" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1212232161627158981" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="job" />
+    <property name="name" nameId="tpck.1169194664001" value="PublishedFileSetInstance" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="a fileset instance published by a Job" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1212232161627158987" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
+      <property name="role" nameId="tpce.1071599776563" value="publisher" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="2051553890368756070" resolveInfo="Job" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="1212232161627158982" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="tag" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="1212232161627158984" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="type" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
     </node>
   </root>
 </model>
