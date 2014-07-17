@@ -10557,7 +10557,7 @@
         <node role="statement" roleId="tpee.1068581517665" type="whle.LogStatement" typeId="whle.6793035292239247242" id="1212232161632772842" nodeInfo="ng">
           <link role="node" roleId="whle.6793035292239265366" targetNodeId="1212232161626262127" resolveInfo="onJobCompleted" />
           <node role="message" roleId="whle.1925991773565590769" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="1212232161632772843" nodeInfo="nn">
-            <property name="value" nameId="tpee.1070475926801" value="FAILED message received" />
+            <property name="value" nameId="tpee.1070475926801" value="Job failed message received" />
           </node>
         </node>
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="1212232161627302904" nodeInfo="nn">
@@ -10708,6 +10708,13 @@
       <link role="overriddenMethod" roleId="1i04.1225194472831" targetNodeId="qjgr.1212232161627160250" resolveInfo="onFileSetRegistered" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="1212232161627302602" nodeInfo="nn" />
       <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="1212232161627302609" nodeInfo="sn">
+        <node role="statement" roleId="tpee.1068581517665" type="whle.LogInit" typeId="whle.6793035292239444755" id="6481326468075660165" nodeInfo="ng" />
+        <node role="statement" roleId="tpee.1068581517665" type="whle.LogStatement" typeId="whle.6793035292239247242" id="6481326468075660166" nodeInfo="ng">
+          <link role="node" roleId="whle.6793035292239265366" targetNodeId="1212232161626262127" resolveInfo="onJobCompleted" />
+          <node role="message" roleId="whle.1925991773565590769" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="6481326468075660167" nodeInfo="nn">
+            <property name="value" nameId="tpee.1070475926801" value="Registered fileset message received" />
+          </node>
+        </node>
         <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="1212232161627422246" nodeInfo="nn">
           <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="1212232161627422249" nodeInfo="nr">
             <property name="name" nameId="tpck.1169194664001" value="instance" />
