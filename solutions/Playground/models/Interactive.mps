@@ -9332,6 +9332,9 @@
       <node role="locations" roleId="bs99.202400229140351977" type="bs99.DownloadLocation" typeId="bs99.202400229140474293" id="202400229142566844" nodeInfo="ng">
         <property name="path" nameId="bs99.202400229140474294" value="/Users/mas2182/Downloads" />
       </node>
+      <node role="locations" roleId="bs99.202400229140351977" type="bs99.DownloadLocation" typeId="bs99.202400229140474293" id="202400229148845312" nodeInfo="ng">
+        <property name="path" nameId="bs99.202400229140474294" value="/Users/mas2182/Documents" />
+      </node>
     </node>
   </root>
   <root type="bs99.ExecutionTool" typeId="bs99.2465489689642685978" id="6481326468075570830" nodeInfo="ng">
