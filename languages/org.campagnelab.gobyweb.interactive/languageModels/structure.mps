@@ -296,20 +296,6 @@
       <property name="externalValue" nameId="tpce.1083923523172" value="SUCCESSFUL" />
     </node>
   </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5949986731304917290" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="ExecuteJob" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="execute job" />
-    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Execute a job in the console" />
-    <property name="rootable" nameId="tpce.1096454100552" value="true" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="job" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="eynw.1769790395579407461" resolveInfo="InterpretedCommand" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="5949986731304917342" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
-      <property name="role" nameId="tpce.1071599776563" value="job" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="2051553890368756070" resolveInfo="Job" />
-    </node>
-  </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2735543333319077191" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="PluginSDKInstallation" />
     <property name="rootable" nameId="tpce.1096454100552" value="true" />
