@@ -5,34 +5,11 @@
       <sourceRoot location="languageModels" />
     </modelRoot>
   </models>
-  <accessoryModels>
-    <model modelUID="f:java_stub#0202ed86-955d-4227-9c20-377dd6b1f9ff#org.apache.activemq.jndi(org.campagnelab.nyosh.lib/org.apache.activemq.jndi@java_stub)" />
-  </accessoryModels>
-  <generators>
-    <generator name="" generatorUID="org.campagnelab.gobyweb.monitoring#2017323193335723397" uuid="db7866f3-acd0-46ca-89bc-c7530785d327">
-      <models>
-        <modelRoot contentPath="${module}" type="default">
-          <sourceRoot location="generator/template" />
-        </modelRoot>
-      </models>
-      <external-templates />
-      <usedLanguages>
-        <usedLanguage>b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)</usedLanguage>
-        <usedLanguage>d7706f63-9be2-479c-a3da-ae92af1e64d5(jetbrains.mps.lang.generator.generationContext)</usedLanguage>
-      </usedLanguages>
-      <usedDevKits>
-        <usedDevKit>fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)</usedDevKit>
-      </usedDevKits>
-      <mapping-priorities />
-    </generator>
-  </generators>
-  <stubModelEntries>
-    <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/activemq-client-5.9.1.jar" />
-  </stubModelEntries>
+  <accessoryModels />
+  <generators />
   <sourcePath />
   <dependencies>
     <dependency reexport="false">3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)</dependency>
-    <dependency reexport="true">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
     <dependency reexport="false">6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)</dependency>
     <dependency reexport="false">8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)</dependency>
     <dependency reexport="false">742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)</dependency>
@@ -53,9 +30,6 @@
     <usedDevKit>fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)</usedDevKit>
     <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>
   </usedDevKits>
-  <runtime>
-    <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
-  </runtime>
   <extendedLanguages />
 </language>
 
