@@ -18,134 +18,170 @@
   <import index="whle" modelUID="r:8e4fd1b7-1955-43a4-ace6-aaf9d13814f8(org.campagnelab.logger.structure)" version="1" implicit="yes" />
   <import index="bbh2" modelUID="r:220d24dc-c962-4ed8-b674-7bde9fb2980c(org.campagnelab.gobyweb.monitoring.structure)" version="1" implicit="yes" />
   <root type="whle.Logger" typeId="whle.1925991773566712428" id="7039650749314407366" nodeInfo="ng">
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787618826" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787725748" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787618827" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="StatefulFileSetRPCManager connected" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787618828" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found tag null" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787618829" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found 3 files with same tag" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787618830" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Processing preview with tag= IEIECRS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787618834" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding file /Users/mas2182/Lab/Projects/GobyWeb/data/test.entries" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787618835" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found #ids:1" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787618837" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding type FileSetTypeIdto file /Users/mas2182/Lab/Projects/GobyWeb/data/test.entries" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787618840" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding file /Users/mas2182/Lab/Projects/GobyWeb/data/test.header" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787618841" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found #ids:1" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787618843" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding type FileSetTypeIdto file /Users/mas2182/Lab/Projects/GobyWeb/data/test.header" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787618846" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding file /Users/mas2182/Lab/Projects/GobyWeb/data/test.index" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787618847" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found #ids:1" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787618849" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding type FileSetTypeIdto file /Users/mas2182/Lab/Projects/GobyWeb/data/test.index" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787622435" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787622436" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787725749" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Manager already connected" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787622437" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found tag null" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787725750" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Cannot register ambiguous or empty fileset instances for FSFCKNU size: 0" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787622438" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found 3 files with same tag" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787622439" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Processing preview with tag= XCOZLLT" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787622443" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding file /Users/mas2182/Lab/Projects/GobyWeb/data/test.entries" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787622444" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found #ids:1" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787622446" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding type FileSetTypeIdto file /Users/mas2182/Lab/Projects/GobyWeb/data/test.entries" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787622449" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding file /Users/mas2182/Lab/Projects/GobyWeb/data/test.header" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787622450" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found #ids:1" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787622452" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding type FileSetTypeIdto file /Users/mas2182/Lab/Projects/GobyWeb/data/test.header" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787622455" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding file /Users/mas2182/Lab/Projects/GobyWeb/data/test.index" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787622456" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found #ids:1" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787622458" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding type FileSetTypeIdto file /Users/mas2182/Lab/Projects/GobyWeb/data/test.index" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787624313" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787729178" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787624314" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787729179" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Manager already connected" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787624315" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787729180" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="found tag null" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787624316" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found 3 files with same tag" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787729181" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found 4 files with same tag" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787624317" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787729182" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="fileIds was empty, adding !null!." />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787624318" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Processing preview with tag= FSFCKNU" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787729183" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Processing preview with tag= GMXNETF" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787624322" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding file /Users/mas2182/Lab/Projects/GobyWeb/data/test.entries" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787729187" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Adding file /Users/mas2182/Documents/WENSREU-T4-runbwa.entries" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787624323" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787729188" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="found #ids:1" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787624325" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding type FileSetTypeIdto file /Users/mas2182/Lab/Projects/GobyWeb/data/test.entries" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787729190" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Adding type FileSetTypeIdto file /Users/mas2182/Documents/WENSREU-T4-runbwa.entries" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787624328" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding file /Users/mas2182/Lab/Projects/GobyWeb/data/test.header" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787729193" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Adding file /Users/mas2182/Documents/WENSREU-T4-runbwa.header" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787624329" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787729194" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="found #ids:1" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787624331" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding type FileSetTypeIdto file /Users/mas2182/Lab/Projects/GobyWeb/data/test.header" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787729196" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Adding type FileSetTypeIdto file /Users/mas2182/Documents/WENSREU-T4-runbwa.header" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787624334" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding file /Users/mas2182/Lab/Projects/GobyWeb/data/test.index" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787729199" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Adding file /Users/mas2182/Documents/WENSREU-T4-runbwa.index" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787624335" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787729200" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="found #ids:1" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787624337" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding type FileSetTypeIdto file /Users/mas2182/Lab/Projects/GobyWeb/data/test.index" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787729202" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Adding type FileSetTypeIdto file /Users/mas2182/Documents/WENSREU-T4-runbwa.index" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787729205" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Adding file /Users/mas2182/Documents/WENSREU-T4-runbwa.tmh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787729206" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787729208" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Adding type FileSetTypeIdto file /Users/mas2182/Documents/WENSREU-T4-runbwa.tmh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787729243" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787729244" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager already connected" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787729245" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Cannot register ambiguous or empty fileset instances for GMXNETF size: 0" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787909364" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787909365" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager already connected" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428787909366" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Cannot register ambiguous or empty fileset instances for GMXNETF size: 0" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428788170429" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428788170430" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager already connected" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428788170431" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Cannot register ambiguous or empty fileset instances for GMXNETF size: 0" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428788528883" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428788528884" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager already connected" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428788528885" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found tag null" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428788528886" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found 4 files with same tag" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428788528887" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="fileIds was empty, adding !null!." />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428788528888" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Processing preview with tag= IXKKIEP" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428788528890" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Adding file /Users/mas2182/Documents/WENSREU-T4-runbwa.entries" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428788528891" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428788528893" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Adding type FileSetTypeIdto file /Users/mas2182/Documents/WENSREU-T4-runbwa.entries" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428788528897" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Adding file /Users/mas2182/Documents/WENSREU-T4-runbwa.header" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428788528898" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428788528900" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Adding type FileSetTypeIdto file /Users/mas2182/Documents/WENSREU-T4-runbwa.header" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428788528904" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Adding file /Users/mas2182/Documents/WENSREU-T4-runbwa.index" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428788528905" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428788528907" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Adding type FileSetTypeIdto file /Users/mas2182/Documents/WENSREU-T4-runbwa.index" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428788528911" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Adding file /Users/mas2182/Documents/WENSREU-T4-runbwa.tmh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428788528912" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428788528914" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Adding type FileSetTypeIdto file /Users/mas2182/Documents/WENSREU-T4-runbwa.tmh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428788528983" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428788528984" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager already connected" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428788530477" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428788530478" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager already connected" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428788530565" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428788530566" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager already connected" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="45104428788535328" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Disconnected" />
     </node>
   </root>
   <root type="bs99.RegisterFileTool" typeId="bs99.2954990197977709385" id="6498979092225701287" nodeInfo="ng">
@@ -154,57 +190,38 @@
     <property name="willCreateFilesets" nameId="bs99.5704832314568277954" value="1" />
     <property name="filesMandatoryAndMissing" nameId="bs99.5704832314568278035" value="0" />
     <property name="hasPreview" nameId="bs99.5704832314568883481" value="true" />
-    <property name="messages" nameId="bs99.1879241968980829296" value="RegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/test.entriesRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/test.headerRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/test.index" />
+    <property name="messages" nameId="bs99.1879241968980829296" value="RegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/test.entriesRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/test.headerRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/test.indexRegisterTool /Users/mas2182/Documents/WENSREU-T4-runbwa.entriesRegisterTool /Users/mas2182/Documents/WENSREU-T4-runbwa.headerRegisterTool /Users/mas2182/Documents/WENSREU-T4-runbwa.indexRegisterTool /Users/mas2182/Documents/WENSREU-T4-runbwa.tmhRegisterTool /Users/mas2182/Documents/WENSREU-T4-runbwa.entriesRegisterTool /Users/mas2182/Documents/WENSREU-T4-runbwa.headerRegisterTool /Users/mas2182/Documents/WENSREU-T4-runbwa.indexRegisterTool /Users/mas2182/Documents/WENSREU-T4-runbwa.tmh" />
     <link role="executionEnvironment" roleId="bs99.6498979092206486997" targetNodeId="2419654323731434878" resolveInfo="MSEnvironment" />
-    <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="45104428787624307" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="test.entries" />
-      <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/mas2182/Lab/Projects/GobyWeb/data/test.entries" />
-      <node role="types" roleId="bs99.5704832314562469901" type="bs99.FileSetTypeId" typeId="bs99.5704832314562469955" id="45104428787624324" nodeInfo="ng">
+    <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="45104428788528875" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="WENSREU-T4-runbwa.entries" />
+      <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/mas2182/Documents/WENSREU-T4-runbwa.entries" />
+      <node role="types" roleId="bs99.5704832314562469901" type="bs99.FileSetTypeId" typeId="bs99.5704832314562469955" id="45104428788528892" nodeInfo="ng">
         <property name="id" nameId="bs99.5704832314562469956" value="GOBY_ALIGNMENT" />
         <property name="version" nameId="bs99.2465489689645111090" value="1.0" />
       </node>
     </node>
-    <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="45104428787624308" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="test.header" />
-      <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/mas2182/Lab/Projects/GobyWeb/data/test.header" />
-      <node role="types" roleId="bs99.5704832314562469901" type="bs99.FileSetTypeId" typeId="bs99.5704832314562469955" id="45104428787624330" nodeInfo="ng">
+    <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="45104428788528876" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="WENSREU-T4-runbwa.header" />
+      <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/mas2182/Documents/WENSREU-T4-runbwa.header" />
+      <node role="types" roleId="bs99.5704832314562469901" type="bs99.FileSetTypeId" typeId="bs99.5704832314562469955" id="45104428788528899" nodeInfo="ng">
         <property name="id" nameId="bs99.5704832314562469956" value="GOBY_ALIGNMENT" />
         <property name="version" nameId="bs99.2465489689645111090" value="1.0" />
       </node>
     </node>
-    <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="45104428787624309" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="test.index" />
-      <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/mas2182/Lab/Projects/GobyWeb/data/test.index" />
-      <node role="types" roleId="bs99.5704832314562469901" type="bs99.FileSetTypeId" typeId="bs99.5704832314562469955" id="45104428787624336" nodeInfo="ng">
+    <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="45104428788528877" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="WENSREU-T4-runbwa.index" />
+      <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/mas2182/Documents/WENSREU-T4-runbwa.index" />
+      <node role="types" roleId="bs99.5704832314562469901" type="bs99.FileSetTypeId" typeId="bs99.5704832314562469955" id="45104428788528906" nodeInfo="ng">
         <property name="id" nameId="bs99.5704832314562469956" value="GOBY_ALIGNMENT" />
         <property name="version" nameId="bs99.2465489689645111090" value="1.0" />
       </node>
     </node>
-    <node role="filesetInstances" roleId="bs99.5260963271977218318" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="45104428787624319" nodeInfo="ng">
-      <property name="size" nameId="bs99.2740821845424982900" value="0" />
-      <property name="isRegistered" nameId="bs99.5260963271977142244" value="false" />
-      <property name="tag" nameId="bs99.2051553890368778934" value="FSFCKNU" />
-      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="8168148695867450084" />
-      <node role="files" roleId="bs99.5260963271977142496" type="bs99.File" typeId="bs99.1997533223701240107" id="45104428787624320" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="test.entries" />
-        <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/mas2182/Lab/Projects/GobyWeb/data/test.entries" />
-      </node>
-      <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="45104428787624321" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="test.entries" />
-      </node>
-      <node role="files" roleId="bs99.5260963271977142496" type="bs99.File" typeId="bs99.1997533223701240107" id="45104428787624326" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="test.header" />
-        <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/mas2182/Lab/Projects/GobyWeb/data/test.header" />
-      </node>
-      <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="45104428787624327" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="test.header" />
-      </node>
-      <node role="files" roleId="bs99.5260963271977142496" type="bs99.File" typeId="bs99.1997533223701240107" id="45104428787624332" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="test.index" />
-        <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/mas2182/Lab/Projects/GobyWeb/data/test.index" />
-      </node>
-      <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="45104428787624333" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="test.index" />
+    <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="45104428788528878" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="WENSREU-T4-runbwa.tmh" />
+      <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/mas2182/Documents/WENSREU-T4-runbwa.tmh" />
+      <node role="types" roleId="bs99.5704832314562469901" type="bs99.FileSetTypeId" typeId="bs99.5704832314562469955" id="45104428788528913" nodeInfo="ng">
+        <property name="id" nameId="bs99.5704832314562469956" value="GOBY_ALIGNMENT" />
+        <property name="version" nameId="bs99.2465489689645111090" value="1.0" />
       </node>
     </node>
   </root>
@@ -324,8 +341,8 @@
       <property name="path" nameId="bs99.6449713081311703917" value="/zenodotus/campagnelab/store/data/gobyweb/dev/FILESET_AREA" />
       <link role="sshService" roleId="bs99.6449713081311510412" targetNodeId="2243041462222181573" resolveInfo="SpankyNode" />
       <node role="manager" roleId="bs99.664989078355375332" type="bs99.FileSetAreaRPCManager" typeId="bs99.664989078345324995" id="8168148695867450086" nodeInfo="ng">
-        <property name="unreacheable" nameId="bs99.1460397808271971603" value="false" />
-        <property name="status" nameId="bs99.4344503499510198037" value="connected" />
+        <property name="unreacheable" nameId="bs99.1460397808271971603" value="true" />
+        <property name="status" nameId="bs99.4344503499510198037" value="not connected" />
         <link role="fileSetArea" roleId="bs99.664989078345325375" targetNodeId="8168148695867450084" />
         <link role="fileSetServerConnectionPort" roleId="bs99.664989078348064771" targetNodeId="7170488887945420198" resolveInfo="FileSetServerOnSpanky" />
       </node>
@@ -627,6 +644,46 @@
           <property name="name" nameId="tpck.1169194664001" value="STATS" />
           <property name="path" nameId="bs99.2740821845422344869" value="WENSREU-T4-runbwa.alignment-stats.txt" />
           <property name="size" nameId="bs99.2740821845424881124" value="1 KB" />
+        </node>
+      </node>
+      <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="45104428788528889" nodeInfo="ng">
+        <property name="size" nameId="bs99.2740821845424982900" value="0" />
+        <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+        <property name="tag" nameId="bs99.2051553890368778934" value="IXKKIEP" />
+        <property name="name" nameId="tpck.1169194664001" value="RegisteredWithTools" />
+        <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="8168148695867450084" />
+        <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="45104428784828631" resolveInfo="GOBY_ALIGNMENT" />
+        <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="45104428788528896" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="WENSREU-T4-runbwa.entries" />
+        </node>
+        <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="45104428788528903" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="WENSREU-T4-runbwa.header" />
+        </node>
+        <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="45104428788528910" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="WENSREU-T4-runbwa.index" />
+        </node>
+        <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="45104428788528917" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="WENSREU-T4-runbwa.tmh" />
+        </node>
+      </node>
+      <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="45104428788530479" nodeInfo="ng">
+        <property name="size" nameId="bs99.2740821845424982900" value="0" />
+        <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+        <property name="tag" nameId="bs99.2051553890368778934" value="FCZWXSB" />
+        <property name="name" nameId="tpck.1169194664001" value="Registered" />
+        <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="8168148695867450084" />
+        <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="45104428784828631" resolveInfo="GOBY_ALIGNMENT" />
+        <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="45104428788530483" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="WENSREU-T4-runbwa.entries" />
+        </node>
+        <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="45104428788530487" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="WENSREU-T4-runbwa.header" />
+        </node>
+        <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="45104428788530491" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="WENSREU-T4-runbwa.index" />
+        </node>
+        <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="45104428788530495" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="WENSREU-T4-runbwa.tmh" />
         </node>
       </node>
     </node>
