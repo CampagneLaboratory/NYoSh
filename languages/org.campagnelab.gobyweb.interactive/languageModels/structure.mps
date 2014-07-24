@@ -121,9 +121,6 @@
       <property name="role" nameId="tpce.1071599776563" value="brokerPortForJobs" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="9k5.664989078347184634" resolveInfo="ConnectionPort" />
     </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="2051553890368799195" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
-    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2051553890368761097" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="OptionValue" />

@@ -6196,15 +6196,6 @@
         </node>
       </node>
     </node>
-    <node role="jobArea" roleId="bs99.2051553890368785070" type="bs99.JobArea" typeId="bs99.2051553890368761083" id="2419654323731450373" nodeInfo="ng">
-      <property name="artifactRepoPath" nameId="bs99.1997533223704022892" value="/scratchLocal/gobyweb/ARTIFACT_REPOSITORY-dev" />
-      <property name="name" nameId="tpck.1169194664001" value="MSJobArea" />
-      <property name="queueName" nameId="bs99.1997533223704022889" value="rascals.q" />
-      <property name="workingDirectory" nameId="bs99.6449713081311226572" value="/home/gobyweb/GOBYWEB_SGE_JOBS-dev/" />
-      <link role="executionNode" roleId="bs99.6449713081311050445" targetNodeId="2243041462222181573" resolveInfo="SpankyNode" />
-      <link role="brokerPortForMonitor" roleId="bs99.8711817271672787814" targetNodeId="1212232161621136016" resolveInfo="brokerForMonitor" />
-      <link role="brokerPortForJobs" roleId="bs99.1212232161618212231" targetNodeId="8711817271675662832" resolveInfo="brokerForJobs" />
-    </node>
     <node role="filesetArea" roleId="bs99.2051553890368785072" type="bs99.FileSetArea" typeId="bs99.2051553890368756473" id="8168148695864313290" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="fdf" />
       <property name="path" nameId="bs99.6449713081311703917" value="/zenodotus/campagnelab/store/data/gobyweb/dev/FILESET_AREA" />
@@ -6555,6 +6546,14 @@
       <node role="locations" roleId="bs99.202400229140351977" type="bs99.DownloadLocation" typeId="bs99.202400229140474293" id="202400229148845312" nodeInfo="ng">
         <property name="path" nameId="bs99.202400229140474294" value="/Users/mas2182/Documents" />
       </node>
+    </node>
+    <node role="jobArea" roleId="bs99.2051553890368785070" type="bs99.JobArea" typeId="bs99.2051553890368761083" id="8168148695866587336" nodeInfo="ng">
+      <property name="queueName" nameId="bs99.1997533223704022889" value="rascals.q" />
+      <property name="artifactRepoPath" nameId="bs99.1997533223704022892" value="/scratchLocal/gobyweb/ARTIFACT_REPOSITORY-trial/" />
+      <property name="workingDirectory" nameId="bs99.6449713081311226572" value="/home/gobyweb/GOBYWEB_SGE_JOBS-trial/" />
+      <link role="executionNode" roleId="bs99.6449713081311050445" targetNodeId="2243041462222181573" resolveInfo="SpankyNode" />
+      <link role="brokerPortForMonitor" roleId="bs99.8711817271672787814" targetNodeId="1212232161621136016" resolveInfo="brokerForMonitor" />
+      <link role="brokerPortForJobs" roleId="bs99.1212232161618212231" targetNodeId="8711817271675662832" resolveInfo="brokerForJobs" />
     </node>
   </root>
   <root type="bs99.ExecutionTool" typeId="bs99.2465489689642685978" id="6481326468075570830" nodeInfo="ng">
