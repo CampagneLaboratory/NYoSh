@@ -1,0 +1,18 @@
+#!/bin/sh
+
+WORKING_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+if [[ $OSTYPE == "cygwin" ]]; then
+    WORKING_DIR=`cygpath -m "${WORKING_DIR}"`
+fi
+PARENT_DIR=`dirname ${WORKING_DIR}`
+CONFIG_DIR="${PARENT_DIR}/config"
+LIB_JARS="${PARENT_DIR}/lib/*"
+CLASSES_DIR="${PARENT_DIR}/target/classes"
+TARGET_DIR="${PARENT_DIR}/target"
+SNAPSHOT_JARS="${TARGET_DIR}/*"
+JAVA_OPTIONS="-Xms2g -Xmx2g"
+
+java $JAVA_OPTIONS -Dlog4j.configuration=file:${CONFIG_DIR}/log4j.properties -cp ${CLASSES_DIR}:${LIB_JARS}:${SNAPSHOT_JARS} \
+org.campagnelab.gobyweb.filesets.rpc.FileSetServer "$@" >/dev/null 2>&1 </dev/null & 	
+
+
