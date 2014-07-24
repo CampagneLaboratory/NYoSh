@@ -1520,17 +1520,6 @@
           <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="bs99.1997533223701200855" resolveInfo="directory" />
         </node>
         <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="1997533223701239437" nodeInfo="nn" />
-        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="5260963271976399944" nodeInfo="nn">
-          <property name="text" nameId="tpc2.1073389577007" value="(" />
-          <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.FontStyleStyleClassItem" typeId="tpc2.1186403751766" id="5260963271976401632" nodeInfo="nn" />
-        </node>
-        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="5260963271976399148" nodeInfo="ng">
-          <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1169194664001" resolveInfo="name" />
-        </node>
-        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="5260963271976400743" nodeInfo="nn">
-          <property name="text" nameId="tpc2.1073389577007" value=")" />
-          <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.FontStyleStyleClassItem" typeId="tpc2.1186403751766" id="5260963271976401639" nodeInfo="nn" />
-        </node>
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Alternation" typeId="tpc2.1088612959204" id="5704832314559776331" nodeInfo="ng">
         <property name="vertical" nameId="tpc2.1088613081987" value="true" />
