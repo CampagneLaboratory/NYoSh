@@ -33,20 +33,6 @@
     </node>
   </root>
   <root type="whle.Logger" typeId="whle.1925991773566712428" id="7039650749314407366" nodeInfo="ng">
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014263730" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Tag WENSREU successfully imported" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014263731" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014263732" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Manager already connected" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014263733" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Importing tag AWMOISQ" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
-    </node>
     <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014263735" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
     </node>
@@ -389,6 +375,18 @@
     </node>
     <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938031547447" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Disconnected" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938032576983" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938032576984" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Failed to connect StatefulFileSetRPCManager Failed to connect to spanky.med.cornell.edu/157.139.217.73:8849" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938032582873" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager is null" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938032582874" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="StatefulFileSetRPCManager connected" />
     </node>
   </root>
   <root type="bs99.RegisterFileTool" typeId="bs99.2954990197977709385" id="6498979092225701287" nodeInfo="ng">
@@ -6203,8 +6201,8 @@
       <property name="path" nameId="bs99.6449713081311703917" value="/zenodotus/campagnelab/store/data/gobyweb/dev/FILESET_AREA" />
       <link role="sshService" roleId="bs99.6449713081311510412" targetNodeId="2243041462222181573" resolveInfo="SpankyNode" />
       <node role="manager" roleId="bs99.664989078355375332" type="bs99.FileSetAreaRPCManager" typeId="bs99.664989078345324995" id="1685722938014261768" nodeInfo="ng">
-        <property name="unreacheable" nameId="bs99.1460397808271971603" value="true" />
-        <property name="connected" nameId="bs99.4344503499510198037" value="false" />
+        <property name="unreacheable" nameId="bs99.1460397808271971603" value="false" />
+        <property name="connected" nameId="bs99.4344503499510198037" value="true" />
         <link role="fileSetArea" roleId="bs99.664989078345325375" targetNodeId="1685722938014261766" resolveInfo="fdsfs" />
         <link role="fileSetServerConnectionPort" roleId="bs99.664989078348064771" targetNodeId="7170488887945420198" resolveInfo="FileSetServerOnSpanky" />
       </node>
