@@ -6205,15 +6205,6 @@
       <link role="brokerPortForMonitor" roleId="bs99.8711817271672787814" targetNodeId="1212232161621136016" resolveInfo="brokerForMonitor" />
       <link role="brokerPortForJobs" roleId="bs99.1212232161618212231" targetNodeId="8711817271675662832" resolveInfo="brokerForJobs" />
     </node>
-    <node role="downloadArea" roleId="bs99.202400229141572367" type="bs99.DownloadArea" typeId="bs99.202400229140351294" id="202400229142566842" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="MSDownloadArea" />
-      <node role="locations" roleId="bs99.202400229140351977" type="bs99.DownloadLocation" typeId="bs99.202400229140474293" id="202400229142566844" nodeInfo="ng">
-        <property name="path" nameId="bs99.202400229140474294" value="/Users/mas2182/Downloads" />
-      </node>
-      <node role="locations" roleId="bs99.202400229140351977" type="bs99.DownloadLocation" typeId="bs99.202400229140474293" id="202400229148845312" nodeInfo="ng">
-        <property name="path" nameId="bs99.202400229140474294" value="/Users/mas2182/Documents" />
-      </node>
-    </node>
     <node role="filesetArea" roleId="bs99.2051553890368785072" type="bs99.FileSetArea" typeId="bs99.2051553890368756473" id="8168148695864313290" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="fdf" />
       <property name="path" nameId="bs99.6449713081311703917" value="/zenodotus/campagnelab/store/data/gobyweb/dev/FILESET_AREA" />
@@ -6555,6 +6546,14 @@
           <property name="path" nameId="bs99.2740821845422344869" value="WENSREU-T4-runbwa.alignment-stats.txt" />
           <property name="size" nameId="bs99.2740821845424881124" value="1 KB" />
         </node>
+      </node>
+    </node>
+    <node role="downloadArea" roleId="bs99.202400229141572367" type="bs99.DownloadArea" typeId="bs99.202400229140351294" id="8168148695865726891" nodeInfo="ng">
+      <node role="locations" roleId="bs99.202400229140351977" type="bs99.DownloadLocation" typeId="bs99.202400229140474293" id="202400229142566844" nodeInfo="ng">
+        <property name="path" nameId="bs99.202400229140474294" value="/Users/mas2182/Downloads" />
+      </node>
+      <node role="locations" roleId="bs99.202400229140351977" type="bs99.DownloadLocation" typeId="bs99.202400229140474293" id="202400229148845312" nodeInfo="ng">
+        <property name="path" nameId="bs99.202400229140474294" value="/Users/mas2182/Documents" />
       </node>
     </node>
   </root>
