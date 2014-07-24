@@ -367,6 +367,11 @@
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="File resource that needs to be imported" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="file" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1685722938038307905" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
+      <property name="role" nameId="tpce.1071599776563" value="entry" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="2740821845422344706" resolveInfo="Entry" />
+    </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="5704832314562469901" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="types" />

@@ -33,353 +33,381 @@
     </node>
   </root>
   <root type="whle.Logger" typeId="whle.1925991773566712428" id="7039650749314407366" nodeInfo="ng">
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014263780" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038253295" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Importing tag OKPBKGV" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038253297" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038253298" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager already connected" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038253305" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Tag OKPBKGV successfully imported" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038253306" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Importing tag DWOHYVA" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038253308" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038253309" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager already connected" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038253316" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Tag DWOHYVA successfully imported" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038253317" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Importing tag QHDKBIV" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038253319" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038253320" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager already connected" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038253327" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Tag QHDKBIV successfully imported" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038253328" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Importing tag DYTVIAU" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014263782" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038253330" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014263783" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038253331" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Manager already connected" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014263790" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038253338" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Tag DYTVIAU successfully imported" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014263791" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038253339" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Importing tag UMNSCXE" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014263793" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038253341" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014263794" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038253342" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Manager already connected" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014263801" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038253349" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Tag UMNSCXE successfully imported" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014263802" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038253350" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Importing tag RCQHWWB" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014263804" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038253352" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014263805" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038253353" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Manager already connected" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014263812" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038253360" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Tag RCQHWWB successfully imported" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014263813" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038253361" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Importing tag VDJJPPX" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014263815" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038253363" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014263816" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038253364" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Manager already connected" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014263823" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038253371" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Tag VDJJPPX successfully imported" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014263989" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038253537" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014263990" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038253538" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Manager already connected" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014263991" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038253539" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Starting download..." />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014263992" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Checking download downloaded entry JOB_STATISTICS=[/Users/mas2182/.gobyweb/filesets/tmp/W/WENSREU/WENSREU.properties]" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014263993" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found file /Users/mas2182/.gobyweb/filesets/tmp/W/WENSREU/WENSREU.properties" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014263995" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="/Users/mas2182/Documents/WENSREU.properties" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014264105" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014264106" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Manager already connected" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014264107" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Starting download..." />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014264108" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Checking download downloaded entry INDEX=[/Users/mas2182/.gobyweb/filesets/tmp/A/AWMOISQ/WENSREU-T4-runbwa.index]" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014264109" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found file /Users/mas2182/.gobyweb/filesets/tmp/A/AWMOISQ/WENSREU-T4-runbwa.index" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014264111" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="/Users/mas2182/Documents/WENSREU-T4-runbwa.index" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014264114" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Checking download downloaded entry ENTRIES=[/Users/mas2182/.gobyweb/filesets/tmp/A/AWMOISQ/WENSREU-T4-runbwa.entries]" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014264115" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found file /Users/mas2182/.gobyweb/filesets/tmp/A/AWMOISQ/WENSREU-T4-runbwa.entries" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014264117" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="/Users/mas2182/Documents/WENSREU-T4-runbwa.entries" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014264120" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Checking download downloaded entry TMH=[/Users/mas2182/.gobyweb/filesets/tmp/A/AWMOISQ/WENSREU-T4-runbwa.tmh]" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014264121" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found file /Users/mas2182/.gobyweb/filesets/tmp/A/AWMOISQ/WENSREU-T4-runbwa.tmh" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014264123" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="/Users/mas2182/Documents/WENSREU-T4-runbwa.tmh" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014264126" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Checking download downloaded entry HEADER=[/Users/mas2182/.gobyweb/filesets/tmp/A/AWMOISQ/WENSREU-T4-runbwa.header]" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014264127" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found file /Users/mas2182/.gobyweb/filesets/tmp/A/AWMOISQ/WENSREU-T4-runbwa.header" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014264129" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="/Users/mas2182/Documents/WENSREU-T4-runbwa.header" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014264254" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014264255" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Manager already connected" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014264256" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Starting download..." />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014264257" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038253540" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Checking download downloaded entry BED=[/Users/mas2182/.gobyweb/filesets/tmp/O/OKPBKGV/WENSREU-T4-runbwa-all.bed.gz]" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014264258" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038253541" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="found file /Users/mas2182/.gobyweb/filesets/tmp/O/OKPBKGV/WENSREU-T4-runbwa-all.bed.gz" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014264260" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038253543" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="/Users/mas2182/Documents/WENSREU-T4-runbwa-all.bed.gz" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014266297" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038255570" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014266298" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038255571" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Manager already connected" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014266299" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038255572" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Starting download..." />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014266300" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Checking download downloaded entry COUNTS=[/Users/mas2182/.gobyweb/filesets/tmp/Q/QHDKBIV/WENSREU-T4-runbwa.counts]" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038255573" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Checking download downloaded entry INDEX=[/Users/mas2182/.gobyweb/filesets/tmp/A/AWMOISQ/WENSREU-T4-runbwa.index]" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014266301" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found file /Users/mas2182/.gobyweb/filesets/tmp/Q/QHDKBIV/WENSREU-T4-runbwa.counts" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038255574" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found file /Users/mas2182/.gobyweb/filesets/tmp/A/AWMOISQ/WENSREU-T4-runbwa.index" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014266303" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="/Users/mas2182/Documents/WENSREU-T4-runbwa.counts" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038255576" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="/Users/mas2182/Documents/WENSREU-T4-runbwa.index" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014268342" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038255579" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Checking download downloaded entry ENTRIES=[/Users/mas2182/.gobyweb/filesets/tmp/A/AWMOISQ/WENSREU-T4-runbwa.entries]" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038255580" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found file /Users/mas2182/.gobyweb/filesets/tmp/A/AWMOISQ/WENSREU-T4-runbwa.entries" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038255582" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="/Users/mas2182/Documents/WENSREU-T4-runbwa.entries" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038255585" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Checking download downloaded entry TMH=[/Users/mas2182/.gobyweb/filesets/tmp/A/AWMOISQ/WENSREU-T4-runbwa.tmh]" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038255586" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found file /Users/mas2182/.gobyweb/filesets/tmp/A/AWMOISQ/WENSREU-T4-runbwa.tmh" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038255588" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="/Users/mas2182/Documents/WENSREU-T4-runbwa.tmh" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038255591" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Checking download downloaded entry HEADER=[/Users/mas2182/.gobyweb/filesets/tmp/A/AWMOISQ/WENSREU-T4-runbwa.header]" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038255592" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found file /Users/mas2182/.gobyweb/filesets/tmp/A/AWMOISQ/WENSREU-T4-runbwa.header" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038255594" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="/Users/mas2182/Documents/WENSREU-T4-runbwa.header" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038257653" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014268343" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038257654" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Manager already connected" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014268344" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038257655" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Starting download..." />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014268345" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038257656" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Checking download downloaded entry STATS=[/Users/mas2182/.gobyweb/filesets/tmp/U/UMNSCXE/WENSREU-T4-runbwa.sequence-variation-stats.tsv]" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014268346" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038257657" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="found file /Users/mas2182/.gobyweb/filesets/tmp/U/UMNSCXE/WENSREU-T4-runbwa.sequence-variation-stats.tsv" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014268348" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938038257659" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="/Users/mas2182/Documents/WENSREU-T4-runbwa.sequence-variation-stats.tsv" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014270389" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Disconnected" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938039403257" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Importing tag WENSREU" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014270491" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938039403259" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014270492" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="StatefulFileSetRPCManager connected" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014270594" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014270595" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938039403260" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Manager already connected" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014270596" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938039403264" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Tag WENSREU successfully imported" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938039403265" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938039403266" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager already connected" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938039403267" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Importing tag AWMOISQ" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938039403269" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938039403270" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager already connected" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938039403280" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Tag AWMOISQ successfully imported" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938039403281" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Importing tag OKPBKGV" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938039403283" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938039403284" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager already connected" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938039403291" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Tag OKPBKGV successfully imported" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938039403292" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Importing tag DWOHYVA" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938039403294" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938039403295" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager already connected" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938039403302" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Tag DWOHYVA successfully imported" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938039403303" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Importing tag QHDKBIV" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938039403305" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938039403306" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager already connected" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938039403313" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Tag QHDKBIV successfully imported" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938039403314" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Importing tag DYTVIAU" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938039403316" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938039403317" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager already connected" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938039403324" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Tag DYTVIAU successfully imported" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938039403325" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Importing tag UMNSCXE" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938039403327" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938039403328" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager already connected" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938039403335" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Tag UMNSCXE successfully imported" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938039403336" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Importing tag RCQHWWB" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938039403338" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938039403339" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager already connected" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938039403346" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Tag RCQHWWB successfully imported" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938039403347" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Importing tag VDJJPPX" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938039403349" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938039403350" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager already connected" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938039403357" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Tag VDJJPPX successfully imported" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938039403523" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938039403524" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Manager already connected" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938039403525" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Starting download..." />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014270597" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938039403526" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Checking download downloaded entry JOB_STATISTICS=[/Users/mas2182/.gobyweb/filesets/tmp/W/WENSREU/WENSREU.properties]" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014270598" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938039403527" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="found file /Users/mas2182/.gobyweb/filesets/tmp/W/WENSREU/WENSREU.properties" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014270600" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938039403529" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="/Users/mas2182/Documents/WENSREU.properties" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014270710" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938040499801" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014270711" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938040499802" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Manager already connected" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014270712" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938040499803" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Starting download..." />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014270713" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Checking download downloaded entry STATS=[/Users/mas2182/.gobyweb/filesets/tmp/V/VDJJPPX/WENSREU-T4-runbwa.alignment-stats.txt]" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938040499804" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Checking download downloaded entry COUNTS=[/Users/mas2182/.gobyweb/filesets/tmp/Q/QHDKBIV/WENSREU-T4-runbwa.counts]" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014270714" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found file /Users/mas2182/.gobyweb/filesets/tmp/V/VDJJPPX/WENSREU-T4-runbwa.alignment-stats.txt" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938040499805" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found file /Users/mas2182/.gobyweb/filesets/tmp/Q/QHDKBIV/WENSREU-T4-runbwa.counts" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938014270716" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="/Users/mas2182/Documents/WENSREU-T4-runbwa.alignment-stats.txt" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938040499807" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="/Users/mas2182/Documents/WENSREU-T4-runbwa.counts" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938015357841" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Disconnected" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938015359872" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938015359873" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="StatefulFileSetRPCManager connected" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938015359975" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Disconnected" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938029381022" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938029381023" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="StatefulFileSetRPCManager connected" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938029381125" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Disconnected" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938031545312" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938031545313" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Failed to connect StatefulFileSetRPCManager Failed to connect to spanky.med.cornell.edu/157.139.217.73:8849" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938031547344" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Manager is null" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938031547345" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="StatefulFileSetRPCManager connected" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938031547447" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Disconnected" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938032576983" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938032576984" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Failed to connect StatefulFileSetRPCManager Failed to connect to spanky.med.cornell.edu/157.139.217.73:8849" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938032582873" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Manager is null" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938032582874" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="StatefulFileSetRPCManager connected" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938032584905" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Disconnected" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938034711068" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938034711069" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="StatefulFileSetRPCManager connected" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938035716778" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Disconnected" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938035716880" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Manager is null" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938035716881" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="StatefulFileSetRPCManager connected" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938035718912" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Disconnected" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938035719014" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938035719015" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Failed to connect StatefulFileSetRPCManager Failed to connect to spanky.med.cornell.edu/157.139.217.73:8849" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938035721046" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Manager is null" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938035721047" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="StatefulFileSetRPCManager connected" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938035725007" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Manager is null" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938035725008" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="StatefulFileSetRPCManager connected" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938035725110" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Disconnected" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1685722938035725212" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Disconnected" />
     </node>
   </root>
   <root type="bs99.RegisterFileTool" typeId="bs99.2954990197977709385" id="6498979092225701287" nodeInfo="ng">
@@ -6194,372 +6222,324 @@
       <property name="path" nameId="bs99.6449713081311703917" value="/zenodotus/campagnelab/store/data/gobyweb/dev/FILESET_AREA" />
       <link role="sshService" roleId="bs99.6449713081311510412" targetNodeId="2243041462222181573" resolveInfo="SpankyNode" />
       <node role="manager" roleId="bs99.664989078355375332" type="bs99.FileSetAreaRPCManager" typeId="bs99.664989078345324995" id="1685722938014261768" nodeInfo="ng">
-        <property name="unreacheable" nameId="bs99.1460397808271971603" value="true" />
-        <property name="connected" nameId="bs99.4344503499510198037" value="false" />
+        <property name="unreacheable" nameId="bs99.1460397808271971603" value="false" />
+        <property name="connected" nameId="bs99.4344503499510198037" value="true" />
         <link role="fileSetArea" roleId="bs99.664989078345325375" targetNodeId="1685722938014261766" resolveInfo="fdsfs" />
         <link role="fileSetServerConnectionPort" roleId="bs99.664989078348064771" targetNodeId="7170488887945420198" resolveInfo="FileSetServerOnSpanky" />
       </node>
-      <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="1685722938014263724" nodeInfo="ng">
+      <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="1685722938039403258" nodeInfo="ng">
         <property name="size" nameId="bs99.2740821845424982900" value="290 bytes" />
         <property name="tag" nameId="bs99.2051553890368778934" value="WENSREU" />
         <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
         <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA/WENSREU" />
         <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="1685722938014250549" resolveInfo="JOB_METADATA" />
         <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="1685722938014261766" resolveInfo="fdsfs" />
-        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938014263727" nodeInfo="ng">
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938039403261" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
           <property name="value" nameId="bs99.8258261499122039841" value="WENSREU" />
         </node>
-        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938014263728" nodeInfo="ng">
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938039403262" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
           <property name="value" nameId="bs99.8258261499122039841" value="WENSREU" />
         </node>
-        <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="1685722938014263729" nodeInfo="ng">
+        <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="1685722938039403263" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="JOB_STATISTICS" />
           <property name="path" nameId="bs99.2740821845422344869" value="WENSREU.properties" />
           <property name="size" nameId="bs99.2740821845424881124" value="290 bytes" />
         </node>
-        <node role="files" roleId="bs99.5260963271977142496" type="bs99.File" typeId="bs99.1997533223701240107" id="1685722938014270601" nodeInfo="ng">
+        <node role="files" roleId="bs99.5260963271977142496" type="bs99.File" typeId="bs99.1997533223701240107" id="1685722938039403530" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="WENSREU.properties" />
           <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/mas2182/Documents/WENSREU.properties" />
         </node>
-        <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="1685722938014270602" nodeInfo="ng">
+        <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="1685722938039403531" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="WENSREU.properties" />
         </node>
       </node>
-      <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="1685722938014263734" nodeInfo="ng">
+      <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="1685722938039403268" nodeInfo="ng">
         <property name="size" nameId="bs99.2740821845424982900" value="446 MB" />
         <property name="tag" nameId="bs99.2051553890368778934" value="AWMOISQ" />
         <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
         <property name="name" nameId="tpck.1169194664001" value="GOBY_ALIGNMENT/WENSREU-T4-runbwa" />
         <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="1685722938014250532" resolveInfo="GOBY_ALIGNMENT" />
         <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="1685722938014261766" resolveInfo="fdsfs" />
-        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938014263737" nodeInfo="ng">
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938039403271" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
           <property name="value" nameId="bs99.8258261499122039841" value="1000GENOMES.37" />
         </node>
-        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938014263738" nodeInfo="ng">
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938039403272" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
           <property name="value" nameId="bs99.8258261499122039841" value="homo_sapiens" />
         </node>
-        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938014263739" nodeInfo="ng">
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938039403273" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="SOURCE_READS_ID" />
           <property name="value" nameId="bs99.8258261499122039841" value="KGZSVTK" />
         </node>
-        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938014263740" nodeInfo="ng">
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938039403274" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
           <property name="value" nameId="bs99.8258261499122039841" value="WENSREU-T4-runbwa" />
         </node>
-        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938014263741" nodeInfo="ng">
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938039403275" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
           <property name="value" nameId="bs99.8258261499122039841" value="WENSREU" />
         </node>
-        <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="1685722938014263742" nodeInfo="ng">
+        <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="1685722938039403276" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="INDEX" />
           <property name="path" nameId="bs99.2740821845422344869" value="WENSREU-T4-runbwa.index" />
           <property name="size" nameId="bs99.2740821845424881124" value="51 KB" />
         </node>
-        <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="1685722938014263743" nodeInfo="ng">
+        <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="1685722938039403277" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="HEADER" />
           <property name="path" nameId="bs99.2740821845422344869" value="WENSREU-T4-runbwa.header" />
           <property name="size" nameId="bs99.2740821845424881124" value="851 bytes" />
         </node>
-        <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="1685722938014263744" nodeInfo="ng">
+        <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="1685722938039403278" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="ENTRIES" />
           <property name="path" nameId="bs99.2740821845422344869" value="WENSREU-T4-runbwa.entries" />
           <property name="size" nameId="bs99.2740821845424881124" value="445 MB" />
         </node>
-        <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="1685722938014263745" nodeInfo="ng">
+        <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="1685722938039403279" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="TMH" />
           <property name="path" nameId="bs99.2740821845422344869" value="WENSREU-T4-runbwa.tmh" />
           <property name="size" nameId="bs99.2740821845424881124" value="22 bytes" />
         </node>
-        <node role="files" roleId="bs99.5260963271977142496" type="bs99.File" typeId="bs99.1997533223701240107" id="1685722938014264112" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="WENSREU-T4-runbwa.index" />
-          <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/mas2182/Documents/WENSREU-T4-runbwa.index" />
-        </node>
-        <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="1685722938014264113" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="WENSREU-T4-runbwa.index" />
-        </node>
-        <node role="files" roleId="bs99.5260963271977142496" type="bs99.File" typeId="bs99.1997533223701240107" id="1685722938014264118" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="WENSREU-T4-runbwa.entries" />
-          <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/mas2182/Documents/WENSREU-T4-runbwa.entries" />
-        </node>
-        <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="1685722938014264119" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="WENSREU-T4-runbwa.entries" />
-        </node>
-        <node role="files" roleId="bs99.5260963271977142496" type="bs99.File" typeId="bs99.1997533223701240107" id="1685722938014264124" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="WENSREU-T4-runbwa.tmh" />
-          <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/mas2182/Documents/WENSREU-T4-runbwa.tmh" />
-        </node>
-        <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="1685722938014264125" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="WENSREU-T4-runbwa.tmh" />
-        </node>
-        <node role="files" roleId="bs99.5260963271977142496" type="bs99.File" typeId="bs99.1997533223701240107" id="1685722938014264130" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="WENSREU-T4-runbwa.header" />
-          <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/mas2182/Documents/WENSREU-T4-runbwa.header" />
-        </node>
-        <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="1685722938014264131" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="WENSREU-T4-runbwa.header" />
-        </node>
       </node>
-      <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="1685722938014263748" nodeInfo="ng">
+      <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="1685722938039403282" nodeInfo="ng">
         <property name="size" nameId="bs99.2740821845424982900" value="67 MB" />
         <property name="tag" nameId="bs99.2051553890368778934" value="OKPBKGV" />
         <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
         <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_BED/WENSREU-T4-runbwa-all" />
         <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="1685722938014250498" resolveInfo="ALIGNMENT_BED" />
         <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="1685722938014261766" resolveInfo="fdsfs" />
-        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938014263751" nodeInfo="ng">
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938039403285" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
           <property name="value" nameId="bs99.8258261499122039841" value="1000GENOMES.37" />
         </node>
-        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938014263752" nodeInfo="ng">
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938039403286" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
           <property name="value" nameId="bs99.8258261499122039841" value="homo_sapiens" />
         </node>
-        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938014263753" nodeInfo="ng">
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938039403287" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="SOURCE_READS_ID" />
           <property name="value" nameId="bs99.8258261499122039841" value="KGZSVTK" />
         </node>
-        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938014263754" nodeInfo="ng">
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938039403288" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
           <property name="value" nameId="bs99.8258261499122039841" value="WENSREU-T4-runbwa-all" />
         </node>
-        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938014263755" nodeInfo="ng">
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938039403289" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
           <property name="value" nameId="bs99.8258261499122039841" value="WENSREU" />
         </node>
-        <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="1685722938014263756" nodeInfo="ng">
+        <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="1685722938039403290" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="BED" />
           <property name="path" nameId="bs99.2740821845422344869" value="WENSREU-T4-runbwa-all.bed.gz" />
           <property name="size" nameId="bs99.2740821845424881124" value="67 MB" />
         </node>
-        <node role="files" roleId="bs99.5260963271977142496" type="bs99.File" typeId="bs99.1997533223701240107" id="1685722938014264261" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="WENSREU-T4-runbwa-all.bed.gz" />
-          <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/mas2182/Documents/WENSREU-T4-runbwa-all.bed.gz" />
-        </node>
-        <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="1685722938014264262" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="WENSREU-T4-runbwa-all.bed.gz" />
-        </node>
       </node>
-      <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="1685722938014263759" nodeInfo="ng">
+      <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="1685722938039403293" nodeInfo="ng">
         <property name="size" nameId="bs99.2740821845424982900" value="23 MB" />
         <property name="tag" nameId="bs99.2051553890368778934" value="DWOHYVA" />
         <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
         <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_WIG/WENSREU-T4-runbwa-all" />
         <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="1685722938014250504" resolveInfo="ALIGNMENT_WIG" />
         <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="1685722938014261766" resolveInfo="fdsfs" />
-        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938014263762" nodeInfo="ng">
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938039403296" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
           <property name="value" nameId="bs99.8258261499122039841" value="1000GENOMES.37" />
         </node>
-        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938014263763" nodeInfo="ng">
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938039403297" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
           <property name="value" nameId="bs99.8258261499122039841" value="homo_sapiens" />
         </node>
-        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938014263764" nodeInfo="ng">
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938039403298" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="SOURCE_READS_ID" />
           <property name="value" nameId="bs99.8258261499122039841" value="KGZSVTK" />
         </node>
-        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938014263765" nodeInfo="ng">
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938039403299" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
           <property name="value" nameId="bs99.8258261499122039841" value="WENSREU-T4-runbwa-all" />
         </node>
-        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938014263766" nodeInfo="ng">
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938039403300" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
           <property name="value" nameId="bs99.8258261499122039841" value="WENSREU" />
         </node>
-        <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="1685722938014263767" nodeInfo="ng">
+        <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="1685722938039403301" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="BED" />
           <property name="path" nameId="bs99.2740821845422344869" value="WENSREU-T4-runbwa-all.wig.gz" />
           <property name="size" nameId="bs99.2740821845424881124" value="23 MB" />
         </node>
       </node>
-      <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="1685722938014263770" nodeInfo="ng">
+      <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="1685722938039403304" nodeInfo="ng">
         <property name="size" nameId="bs99.2740821845424982900" value="18 MB" />
         <property name="tag" nameId="bs99.2051553890368778934" value="QHDKBIV" />
         <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
         <property name="name" nameId="tpck.1169194664001" value="COUNTS/WENSREU-T4-runbwa" />
         <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="1685722938014250522" resolveInfo="COUNTS" />
         <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="1685722938014261766" resolveInfo="fdsfs" />
-        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938014263773" nodeInfo="ng">
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938039403307" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
           <property name="value" nameId="bs99.8258261499122039841" value="1000GENOMES.37" />
         </node>
-        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938014263774" nodeInfo="ng">
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938039403308" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
           <property name="value" nameId="bs99.8258261499122039841" value="homo_sapiens" />
         </node>
-        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938014263775" nodeInfo="ng">
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938039403309" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="SOURCE_READS_ID" />
           <property name="value" nameId="bs99.8258261499122039841" value="KGZSVTK" />
         </node>
-        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938014263776" nodeInfo="ng">
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938039403310" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
           <property name="value" nameId="bs99.8258261499122039841" value="WENSREU-T4-runbwa" />
         </node>
-        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938014263777" nodeInfo="ng">
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938039403311" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
           <property name="value" nameId="bs99.8258261499122039841" value="WENSREU" />
         </node>
-        <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="1685722938014263778" nodeInfo="ng">
+        <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="1685722938039403312" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="COUNTS" />
           <property name="path" nameId="bs99.2740821845422344869" value="WENSREU-T4-runbwa.counts" />
           <property name="size" nameId="bs99.2740821845424881124" value="18 MB" />
         </node>
-        <node role="files" roleId="bs99.5260963271977142496" type="bs99.File" typeId="bs99.1997533223701240107" id="1685722938014266304" nodeInfo="ng">
+        <node role="files" roleId="bs99.5260963271977142496" type="bs99.File" typeId="bs99.1997533223701240107" id="1685722938040499808" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="WENSREU-T4-runbwa.counts" />
           <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/mas2182/Documents/WENSREU-T4-runbwa.counts" />
+          <link role="entry" roleId="bs99.1685722938038307905" targetNodeId="1685722938039403312" resolveInfo="COUNTS" />
         </node>
-        <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="1685722938014266305" nodeInfo="ng">
+        <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="1685722938040499809" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="WENSREU-T4-runbwa.counts" />
         </node>
       </node>
-      <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="1685722938014263781" nodeInfo="ng">
+      <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="1685722938039403315" nodeInfo="ng">
         <property name="size" nameId="bs99.2740821845424982900" value="548 MB" />
         <property name="tag" nameId="bs99.2051553890368778934" value="DYTVIAU" />
         <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
         <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_ALL_FILES/WENSREU-T4-runbwa-all-files" />
         <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="1685722938014250496" resolveInfo="ALIGNMENT_ALL_FILES" />
         <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="1685722938014261766" resolveInfo="fdsfs" />
-        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938014263784" nodeInfo="ng">
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938039403318" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
           <property name="value" nameId="bs99.8258261499122039841" value="1000GENOMES.37" />
         </node>
-        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938014263785" nodeInfo="ng">
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938039403319" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
           <property name="value" nameId="bs99.8258261499122039841" value="homo_sapiens" />
         </node>
-        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938014263786" nodeInfo="ng">
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938039403320" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="SOURCE_READS_ID" />
           <property name="value" nameId="bs99.8258261499122039841" value="KGZSVTK" />
         </node>
-        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938014263787" nodeInfo="ng">
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938039403321" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
           <property name="value" nameId="bs99.8258261499122039841" value="WENSREU-T4-runbwa-all-files" />
         </node>
-        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938014263788" nodeInfo="ng">
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938039403322" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
           <property name="value" nameId="bs99.8258261499122039841" value="WENSREU" />
         </node>
-        <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="1685722938014263789" nodeInfo="ng">
+        <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="1685722938039403323" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="ARCHIVE" />
           <property name="path" nameId="bs99.2740821845422344869" value="WENSREU-T4-runbwa-all-files.zip" />
           <property name="size" nameId="bs99.2740821845424881124" value="548 MB" />
         </node>
       </node>
-      <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="1685722938014263792" nodeInfo="ng">
+      <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="1685722938039403326" nodeInfo="ng">
         <property name="size" nameId="bs99.2740821845424982900" value="7 KB" />
         <property name="tag" nameId="bs99.2051553890368778934" value="UMNSCXE" />
         <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
         <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_SEQUENCE_VARIATION_STATS/WENSREU-T4-runbwa" />
         <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="1685722938014250500" resolveInfo="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
         <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="1685722938014261766" resolveInfo="fdsfs" />
-        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938014263795" nodeInfo="ng">
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938039403329" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
           <property name="value" nameId="bs99.8258261499122039841" value="1000GENOMES.37" />
         </node>
-        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938014263796" nodeInfo="ng">
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938039403330" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
           <property name="value" nameId="bs99.8258261499122039841" value="homo_sapiens" />
         </node>
-        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938014263797" nodeInfo="ng">
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938039403331" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="SOURCE_READS_ID" />
           <property name="value" nameId="bs99.8258261499122039841" value="KGZSVTK" />
         </node>
-        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938014263798" nodeInfo="ng">
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938039403332" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
           <property name="value" nameId="bs99.8258261499122039841" value="WENSREU-T4-runbwa" />
         </node>
-        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938014263799" nodeInfo="ng">
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938039403333" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
           <property name="value" nameId="bs99.8258261499122039841" value="WENSREU" />
         </node>
-        <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="1685722938014263800" nodeInfo="ng">
+        <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="1685722938039403334" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="STATS" />
           <property name="path" nameId="bs99.2740821845422344869" value="WENSREU-T4-runbwa.sequence-variation-stats.tsv" />
           <property name="size" nameId="bs99.2740821845424881124" value="7 KB" />
         </node>
-        <node role="files" roleId="bs99.5260963271977142496" type="bs99.File" typeId="bs99.1997533223701240107" id="1685722938014268349" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="WENSREU-T4-runbwa.sequence-variation-stats.tsv" />
-          <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/mas2182/Documents/WENSREU-T4-runbwa.sequence-variation-stats.tsv" />
-        </node>
-        <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="1685722938014268350" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="WENSREU-T4-runbwa.sequence-variation-stats.tsv" />
-        </node>
       </node>
-      <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="1685722938014263803" nodeInfo="ng">
+      <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="1685722938039403337" nodeInfo="ng">
         <property name="size" nameId="bs99.2740821845424982900" value="81 KB" />
         <property name="tag" nameId="bs99.2051553890368778934" value="RCQHWWB" />
         <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
         <property name="name" nameId="tpck.1169194664001" value="STATS/WENSREU-T4-runbwa" />
         <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="1685722938014250564" resolveInfo="STATS" />
         <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="1685722938014261766" resolveInfo="fdsfs" />
-        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938014263806" nodeInfo="ng">
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938039403340" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
           <property name="value" nameId="bs99.8258261499122039841" value="1000GENOMES.37" />
         </node>
-        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938014263807" nodeInfo="ng">
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938039403341" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
           <property name="value" nameId="bs99.8258261499122039841" value="homo_sapiens" />
         </node>
-        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938014263808" nodeInfo="ng">
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938039403342" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="SOURCE_READS_ID" />
           <property name="value" nameId="bs99.8258261499122039841" value="KGZSVTK" />
         </node>
-        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938014263809" nodeInfo="ng">
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938039403343" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
           <property name="value" nameId="bs99.8258261499122039841" value="WENSREU-T4-runbwa" />
         </node>
-        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938014263810" nodeInfo="ng">
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938039403344" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
           <property name="value" nameId="bs99.8258261499122039841" value="WENSREU" />
         </node>
-        <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="1685722938014263811" nodeInfo="ng">
+        <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="1685722938039403345" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="STATS" />
           <property name="path" nameId="bs99.2740821845422344869" value="WENSREU-T4-runbwa.stats" />
           <property name="size" nameId="bs99.2740821845424881124" value="81 KB" />
         </node>
       </node>
-      <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="1685722938014263814" nodeInfo="ng">
+      <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="1685722938039403348" nodeInfo="ng">
         <property name="size" nameId="bs99.2740821845424982900" value="1 KB" />
         <property name="tag" nameId="bs99.2051553890368778934" value="VDJJPPX" />
         <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
         <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_STATS/WENSREU-T4-runbwa" />
         <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="1685722938014250502" resolveInfo="ALIGNMENT_STATS" />
         <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="1685722938014261766" resolveInfo="fdsfs" />
-        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938014263817" nodeInfo="ng">
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938039403351" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
           <property name="value" nameId="bs99.8258261499122039841" value="1000GENOMES.37" />
         </node>
-        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938014263818" nodeInfo="ng">
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938039403352" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
           <property name="value" nameId="bs99.8258261499122039841" value="homo_sapiens" />
         </node>
-        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938014263819" nodeInfo="ng">
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938039403353" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="SOURCE_READS_ID" />
           <property name="value" nameId="bs99.8258261499122039841" value="KGZSVTK" />
         </node>
-        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938014263820" nodeInfo="ng">
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938039403354" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
           <property name="value" nameId="bs99.8258261499122039841" value="WENSREU-T4-runbwa" />
         </node>
-        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938014263821" nodeInfo="ng">
+        <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="1685722938039403355" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
           <property name="value" nameId="bs99.8258261499122039841" value="WENSREU" />
         </node>
-        <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="1685722938014263822" nodeInfo="ng">
+        <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="1685722938039403356" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="STATS" />
           <property name="path" nameId="bs99.2740821845422344869" value="WENSREU-T4-runbwa.alignment-stats.txt" />
           <property name="size" nameId="bs99.2740821845424881124" value="1 KB" />
-        </node>
-        <node role="files" roleId="bs99.5260963271977142496" type="bs99.File" typeId="bs99.1997533223701240107" id="1685722938014270717" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="WENSREU-T4-runbwa.alignment-stats.txt" />
-          <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/mas2182/Documents/WENSREU-T4-runbwa.alignment-stats.txt" />
-        </node>
-        <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="1685722938014270718" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="WENSREU-T4-runbwa.alignment-stats.txt" />
         </node>
       </node>
     </node>
