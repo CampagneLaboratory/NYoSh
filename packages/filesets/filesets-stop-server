@@ -1,0 +1,10 @@
+#!/bin/sh
+
+PID=`ps -fwww -u $LOGNAME | grep "org.campagnelab.gobyweb.filesets.rpc.FileSetServer" | grep "$@" | grep -v grep | grep -v $$ |  awk '{print $2}'`
+if [ "$PID" = "" ]; then
+        echo "No FileSetServer is running."
+        exit 1;
+fi
+echo "Detected pid: ${PID}"
+kill -9 ${PID} 1>/dev/null 2>&1
+echo "FileSetServer stopped."
