@@ -231,6 +231,12 @@
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="2740821845422344706" resolveInfo="Entry" />
     </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="649332775228712349" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="compatibleViewers" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="649332775228712529" resolveInfo="FileSetInstanceViewerReference" />
+    </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="2051553890368778936" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
       <property name="role" nameId="tpce.1071599776563" value="filesetArea" />
@@ -854,6 +860,17 @@
     <property name="virtualPackage" nameId="tpck.1193676396447" value="filesetviewers" />
     <property name="name" nameId="tpck.1169194664001" value="SequenceVariationsViewer" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="649332775225752885" resolveInfo="FileSetInstanceViewer" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="649332775228712529" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="FileSetInstanceViewerReference" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="filesetviewers" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="649332775228712530" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <property name="role" nameId="tpce.1071599776563" value="fileSetInstanceViewer" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="649332775225752885" resolveInfo="FileSetInstanceViewer" />
+    </node>
   </root>
 </model>
 
