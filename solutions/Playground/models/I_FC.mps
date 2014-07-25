@@ -9,7 +9,7 @@
   <language namespace="7620dd3f-7541-48a3-b1e6-01cced81a7a5(org.campagnelab.clusterConfig)" />
   <import index="th2c" modelUID="r:eadbbfa3-7690-4909-a537-361e1df92710(Interactive)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="41" implicit="yes" />
+  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="42" implicit="yes" />
   <import index="whle" modelUID="r:8e4fd1b7-1955-43a4-ace6-aaf9d13814f8(org.campagnelab.logger.structure)" version="1" implicit="yes" />
   <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="30" implicit="yes" />
   <import index="dzk5" modelUID="r:2bfcc546-5c51-4762-9df2-c43920be4458(org.campagnelab.gobyweb.plugins.structure)" version="4" implicit="yes" />
@@ -106,7 +106,7 @@
     <property name="name" nameId="tpck.1169194664001" value="SpankyEnvironmentRemoteConnection_FC" />
     <property name="owner" nameId="bs99.2051553890368778877" value="fac2003" />
     <node role="filesetArea" roleId="bs99.2051553890368785072" type="bs99.FileSetArea" typeId="bs99.2051553890368756473" id="4277119496925872826" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="SpankyArea" />
+      <property name="name" value="SpankyArea" />
       <property name="path" nameId="bs99.6449713081311703917" value="/zenodotus/campagnelab/store/data/gobyweb/dev/FILESET_AREA" />
       <link role="sshService" roleId="bs99.6449713081311510412" targetNodeId="th2c.2243041462222181573" resolveInfo="SpankyNode" />
       <node role="manager" roleId="bs99.664989078355375332" type="bs99.FileSetAreaRPCManager" typeId="bs99.664989078345324995" id="4277119496926027165" nodeInfo="ng">
@@ -356,7 +356,7 @@
     </node>
     <node role="pluginRepository" roleId="bs99.1997533223701807309" type="bs99.PluginRepository" typeId="bs99.1997533223701191426" id="3593943491379233464" nodeInfo="ng">
       <property name="directory" nameId="bs99.1997533223701200855" value="${org.campagnelab.gobyweb.pluginRepo}/" />
-      <property name="name" nameId="tpck.1169194664001" value="fac2003" />
+      <property name="name" value="fac2003" />
       <property name="numPluginsLoaded" nameId="bs99.5704832314560344592" value="171" />
       <property name="loaded" nameId="bs99.5704832314560662319" value="true" />
       <property name="query" nameId="bs99.6519147379582592022" value="ALLO" />
@@ -5830,7 +5830,7 @@
       </node>
     </node>
     <node role="jobArea" roleId="bs99.2051553890368785070" type="bs99.JobArea" typeId="bs99.2051553890368761083" id="606449909788773566" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="SpankyArea" />
+      <property name="name" value="SpankyArea" />
       <property name="queueName" nameId="bs99.1997533223704022889" value="rascals.q" />
       <property name="workingDirectory" nameId="bs99.6449713081311226572" value="/home/gobyweb/GOBYWEB_SGE_JOBS-dev/" />
       <property name="artifactRepoPath" nameId="bs99.1997533223704022892" value="/scratchLocal/gobyweb/ARTIFACT_REPOSITORY-dev" />
@@ -5906,13 +5906,13 @@
     <property name="owner" nameId="bs99.2051553890368778877" value="lmesd" />
     <node role="pluginRepository" roleId="bs99.1997533223701807309" type="bs99.PluginRepository" typeId="bs99.1997533223701191426" id="597619556448147012" nodeInfo="ng">
       <property name="directory" nameId="bs99.1997533223701200855" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins" />
-      <property name="name" nameId="tpck.1169194664001" value="ManueleRepo" />
+      <property name="name" value="ManueleRepo" />
       <property name="numPluginsLoaded" nameId="bs99.5704832314560344592" value="145" />
       <property name="loaded" nameId="bs99.5704832314560662319" value="true" />
     </node>
     <node role="filesetArea" roleId="bs99.2051553890368785072" type="bs99.FileSetArea" typeId="bs99.2051553890368756473" id="597619556448147013" nodeInfo="ng">
       <property name="path" nameId="bs99.6449713081311703917" value="/zenodotus/campagnelab/store/data/gobyweb/dev/FILESET_AREA" />
-      <property name="name" nameId="tpck.1169194664001" value="FileSetAreaOnSpanky" />
+      <property name="name" value="FileSetAreaOnSpanky" />
       <property name="serverPort" value="8849" />
       <link role="sshService" roleId="bs99.6449713081311510412" targetNodeId="th2c.2243041462222181624" resolveInfo="localhost" />
       <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="8258261499125687221" nodeInfo="ng">
