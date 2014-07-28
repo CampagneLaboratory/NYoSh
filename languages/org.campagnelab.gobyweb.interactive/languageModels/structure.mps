@@ -859,6 +859,7 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="649332775226633578" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="filesetviewers" />
     <property name="name" nameId="tpck.1169194664001" value="SequenceVariationsViewer" />
+    <property name="rootable" nameId="tpce.1096454100552" value="true" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="649332775225752885" resolveInfo="FileSetInstanceViewer" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="649332775228712529" nodeInfo="ig">
