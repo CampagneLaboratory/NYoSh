@@ -207,6 +207,14 @@
       <property name="message" nameId="whle.1925991773568778812" value="Binding SequenceVariationsViewer" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.refreshViewers" />
     </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="7185808143798324288" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Refresh Viewers" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.refreshViewers" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="7185808143798325993" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Binding SequenceVariationsViewer" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.refreshViewers" />
+    </node>
   </root>
   <root type="bs99.ExecutionEnvironment" typeId="bs99.2051553890368778876" id="3593943491379233463" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="SpankyEnvironmentRemoteConnection_FC" />
@@ -11777,7 +11785,7 @@
         <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="649332775230683688" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="NWGZWBH-test-sharing-with-SDK.sequence-variation-stats.tsv" />
         </node>
-        <node role="compatibleViewers" roleId="bs99.649332775228712349" type="bs99.FileSetInstanceViewerReference" typeId="bs99.649332775228712529" id="649332775242530322" nodeInfo="ng">
+        <node role="compatibleViewers" roleId="bs99.649332775228712349" type="bs99.FileSetInstanceViewerReference" typeId="bs99.649332775228712529" id="7185808143798325994" nodeInfo="ng">
           <link role="fileSetInstanceViewer" roleId="bs99.649332775228712530" targetNodeId="649332775239909641" />
         </node>
       </node>
