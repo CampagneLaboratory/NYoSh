@@ -79,6 +79,14 @@
       <property name="name" nameId="tpck.1169194664001" value="label" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
     </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="7185808143798391092" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="icon" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="7185808143798904100" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="withIcon" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657063" resolveInfo="boolean" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1879241968983569938" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="ButtonHandler" />

@@ -3056,7 +3056,9 @@
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="bs99.649332775228712529" resolveInfo="FileSetInstanceViewerReference" />
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="649332775242534291" nodeInfo="nn">
       <node role="childCellModel" roleId="tpc2.1073389446424" type="hut6.Button" typeId="hut6.1879241968983569921" id="649332775242534301" nodeInfo="ng">
-        <property name="label" nameId="hut6.1879241968983569933" value="View" />
+        <property name="label" nameId="hut6.1879241968983569933" value="view" />
+        <property name="icon" nameId="hut6.7185808143798391092" value="resources/icons/ChartSeqVarIcon.png" />
+        <property name="withIcon" nameId="hut6.7185808143798904100" value="false" />
         <node role="handler" roleId="hut6.1879241968983811680" type="hut6.ButtonHandler" typeId="hut6.1879241968983569938" id="649332775242534302" nodeInfo="ng">
           <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="649332775242534318" nodeInfo="sn">
             <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="649332775242534325" nodeInfo="nn">
