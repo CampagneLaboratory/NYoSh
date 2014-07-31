@@ -123,6 +123,11 @@
       <property name="role" nameId="tpce.1071599776563" value="brokerPortForJobs" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="9k5.664989078347184634" resolveInfo="ConnectionPort" />
     </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="6642819616986882683" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
+      <property name="role" nameId="tpce.1071599776563" value="container" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="6642819616986824926" resolveInfo="JobContainer" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2051553890368761097" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="OptionValue" />
@@ -903,6 +908,27 @@
       <link role="target" roleId="tpce.1071599976176" targetNodeId="2051553890368778931" resolveInfo="FileSetInstance" />
     </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6642819616984108857" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.3734116213129792499" resolveInfo="ScopeProvider" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6642819616986824926" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="job" />
+    <property name="name" nameId="tpck.1169194664001" value="JobContainer" />
+    <property name="rootable" nameId="tpce.1096454100552" value="true" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Job Container" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="6642819616986825109" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
+      <property name="role" nameId="tpce.1071599776563" value="environment" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="2051553890368778876" resolveInfo="ExecutionEnvironment" />
+    </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="6642819616986825107" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="jobs" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="2051553890368756070" resolveInfo="Job" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6642819616987743145" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.3734116213129792499" resolveInfo="ScopeProvider" />
     </node>
   </root>
