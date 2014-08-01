@@ -11,6 +11,8 @@
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.gobyweb.plugins/org.campagnelab.gobyweb.plugins.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.gobyweb/org.campagnelab.gobyweb.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.logger/org.campagnelab.logger.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.lucene.tableviewer/org.campagnelab.lucene.tableviewer.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.lucene.tableviewer/runtime/org.campagnelab.lucene.tableviewer.runtime.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.nyosh.environment/org.campagnelab.nyosh.environment.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.nyosh.gstring/org.campagnelab.nyosh.gstring.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.nyosh.lib/org.campagnelab.nyosh.lib.mpl" folder="" />
