@@ -12,7 +12,7 @@
   <stubModelEntries>
     <stubModelEntry path="${module}/lucene-core-3.6.1.jar" />
     <stubModelEntry path="${module}/lucene-1.0-SNAPSHOT.jar" />
-    <stubModelEntry path="/Users/fac2003/MPSProjects/git/NYoSh/lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
+    <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
