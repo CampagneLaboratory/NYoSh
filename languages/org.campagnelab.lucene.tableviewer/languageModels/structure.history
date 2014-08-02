@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="7c6v" modelUID="r:5ff8ae95-054c-4cda-b392-b0e2d796b9da(org.campagnelab.lucene.tableviewer.structure)" version="-1" />
+    </dependencies>
+    <rename id="7c6v.8794265050549986310" type="PROPERTY" from="selected" to="visible" />
+  </StructureModification>
+</history>
+
