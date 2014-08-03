@@ -6,5 +6,17 @@
     </dependencies>
     <rename id="7c6v.8794265050549986310" type="PROPERTY" from="selected" to="visible" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="7c6v" modelUID="r:5ff8ae95-054c-4cda-b392-b0e2d796b9da(org.campagnelab.lucene.tableviewer.structure)" version="0" />
+    </dependencies>
+    <rename id="7c6v.2718488839587704871" type="PROPERTY" from="int" to="index" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="7c6v" modelUID="r:5ff8ae95-054c-4cda-b392-b0e2d796b9da(org.campagnelab.lucene.tableviewer.structure)" version="1" />
+    </dependencies>
+    <rename id="7c6v.1382465545654648585" type="PROPERTY" from="rowsPerPage" to="pageSize" />
+  </StructureModification>
 </history>
 
