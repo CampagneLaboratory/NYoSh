@@ -4,7 +4,7 @@
   <language namespace="d7a92d38-f7db-40d0-8431-763b0c3c9f20(jetbrains.mps.lang.intentions)" />
   <language namespace="13744753-c81f-424a-9c1b-cf8943bf4e86(jetbrains.mps.lang.sharedConcepts)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <import index="7c6v" modelUID="r:5ff8ae95-054c-4cda-b392-b0e2d796b9da(org.campagnelab.lucene.tableviewer.structure)" version="2" />
+  <import index="7c6v" modelUID="r:5ff8ae95-054c-4cda-b392-b0e2d796b9da(org.campagnelab.lucene.tableviewer.structure)" version="5" />
   <import index="srng" modelUID="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.openapi.editor(MPS.Editor/jetbrains.mps.openapi.editor@java_stub)" version="-1" />
   <import index="junt" modelUID="r:fe34b0d7-d443-4c83-b4a4-3e88ac9c1525(org.campagnelab.lucene.tableviewer.behavior)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
@@ -55,6 +55,7 @@
   </root>
   <root type="tp3j.ParameterizedIntentionDeclaration" typeId="tp3j.1240395258925" id="1654369691499678918" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="RemoveColumnsWithKeyword" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="columns" />
     <link role="forConcept" roleId="tp3j.2522969319638198290" targetNodeId="7c6v.1382465545655829246" resolveInfo="ColumnReference" />
     <node role="descriptionFunction" roleId="tp3j.2522969319638093993" type="tp3j.ParameterizedDescriptionBlock" typeId="tp3j.1812109616120608865" id="1654369691499678976" nodeInfo="nn">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="1654369691499678977" nodeInfo="sn">
@@ -97,8 +98,8 @@
                           <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="1654369691500197594" nodeInfo="nn">
                             <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1654369691500192505" resolveInfo="it" />
                           </node>
-                          <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="1654369691500207041" nodeInfo="nn">
-                            <link role="link" roleId="tp25.1138056516764" targetNodeId="7c6v.1382465545655829247" />
+                          <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="4256505894998477431" nodeInfo="nn">
+                            <link role="link" roleId="tp25.1138056516764" targetNodeId="7c6v.2447038862120075868" />
                           </node>
                         </node>
                         <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="1654369691500217060" nodeInfo="nn">
@@ -147,8 +148,8 @@
             <node role="initializer" roleId="tpee.1068431790190" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1654369691501167159" nodeInfo="nn">
               <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1654369691501141020" nodeInfo="nn">
                 <node role="operand" roleId="tpee.1197027771414" type="tp3j.ConceptFunctionParameter_node" typeId="tp3j.1192796902958" id="1654369691501135371" nodeInfo="nn" />
-                <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="1654369691501154487" nodeInfo="nn">
-                  <link role="link" roleId="tp25.1138056516764" targetNodeId="7c6v.1382465545655829247" />
+                <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="4256505894998405906" nodeInfo="nn">
+                  <link role="link" roleId="tp25.1138056516764" targetNodeId="7c6v.2447038862120075868" />
                 </node>
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="1654369691501180331" nodeInfo="nn">
@@ -205,8 +206,8 @@
                     <link role="link" roleId="tp25.1138056546658" targetNodeId="7c6v.2718488839587659342" />
                   </node>
                 </node>
-                <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkImplicitSelect" typeId="tp25.3562215692195599741" id="1654369691499710589" nodeInfo="nn">
-                  <link role="link" roleId="tp25.3562215692195600259" targetNodeId="7c6v.1382465545655829247" />
+                <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkImplicitSelect" typeId="tp25.3562215692195599741" id="4256505894998423525" nodeInfo="nn">
+                  <link role="link" roleId="tp25.3562215692195600259" targetNodeId="7c6v.2447038862120075868" />
                 </node>
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tp2q.WhereOperation" typeId="tp2q.1202120902084" id="1654369691501966336" nodeInfo="nn">

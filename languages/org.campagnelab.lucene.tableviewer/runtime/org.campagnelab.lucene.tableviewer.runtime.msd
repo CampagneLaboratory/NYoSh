@@ -7,6 +7,7 @@
     <modelRoot contentPath="${module}" type="java_classes">
       <sourceRoot location="lucene-1.0-SNAPSHOT.jar" />
       <sourceRoot location="icb-groovy-support-2.0.jar" />
+      <sourceRoot location="lucene-core-3.6.1.jar" />
     </modelRoot>
   </models>
   <stubModelEntries>
