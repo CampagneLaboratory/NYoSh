@@ -42,5 +42,11 @@
     </dependencies>
     <move id="7c6v.3688269350665009040" to="7c6v.4461009712883249667" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="7c6v" modelUID="r:5ff8ae95-054c-4cda-b392-b0e2d796b9da(org.campagnelab.lucene.tableviewer.structure)" version="6" />
+    </dependencies>
+    <rename id="7c6v.3688269350663788845" type="CONCEPT" from="RangeSearch" to="TermRangeSearch" />
+  </StructureModification>
 </history>
 

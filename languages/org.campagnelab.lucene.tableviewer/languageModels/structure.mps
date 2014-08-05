@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:5ff8ae95-054c-4cda-b392-b0e2d796b9da(org.campagnelab.lucene.tableviewer.structure)" version="6">
+<model modelUID="r:5ff8ae95-054c-4cda-b392-b0e2d796b9da(org.campagnelab.lucene.tableviewer.structure)" version="7">
   <persistence version="8" />
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="7c6v" modelUID="r:5ff8ae95-054c-4cda-b392-b0e2d796b9da(org.campagnelab.lucene.tableviewer.structure)" version="6" implicit="yes" />
+  <import index="7c6v" modelUID="r:5ff8ae95-054c-4cda-b392-b0e2d796b9da(org.campagnelab.lucene.tableviewer.structure)" version="7" implicit="yes" />
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6642819616993943793" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="LuceneTableViewer" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="LuceneTableViewer" />
@@ -178,7 +178,7 @@
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3688269350663788845" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="RangeSearch" />
+    <property name="name" nameId="tpck.1169194664001" value="TermRangeSearch" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="queries" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="[" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="3688269350663653571" resolveInfo="LuceneQueryExpression" />
@@ -186,9 +186,17 @@
       <property name="name" nameId="tpck.1169194664001" value="from" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
     </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="3000071662887704900" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="fromInclusive" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657063" resolveInfo="boolean" />
+    </node>
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="3688269350663788850" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="to" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="3000071662887704912" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="toInclusive" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657063" resolveInfo="boolean" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3688269350663788908" nodeInfo="ig">
