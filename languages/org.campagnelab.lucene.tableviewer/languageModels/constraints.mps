@@ -221,6 +221,138 @@
                               </node>
                             </node>
                           </node>
+                          <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="3000071662888839664" nodeInfo="nn" />
+                          <node role="statement" roleId="tpee.1068581517665" type="tpee.SwitchStatement" typeId="tpee.1163670490218" id="3000071662888742363" nodeInfo="nn">
+                            <node role="case" roleId="tpee.1163670772911" type="tpee.SwitchCase" typeId="tpee.1163670641947" id="3000071662888795182" nodeInfo="ng">
+                              <node role="expression" roleId="tpee.1163670677455" type="tpee.EnumConstantReference" typeId="tpee.1083260308424" id="3000071662888891157" nodeInfo="nn">
+                                <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="2er2.~ColumnModel$ColumnType%dDouble" resolveInfo="Double" />
+                                <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="2er2.~ColumnModel$ColumnType" resolveInfo="ColumnModel.ColumnType" />
+                              </node>
+                              <node role="body" roleId="tpee.1163670683720" type="tpee.StatementList" typeId="tpee.1068580123136" id="3000071662888795184" nodeInfo="sn">
+                                <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3000071662888824365" nodeInfo="nn">
+                                  <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="3000071662888827930" nodeInfo="nn">
+                                    <node role="rValue" roleId="tpee.1068498886297" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3000071662888833421" nodeInfo="nn">
+                                      <node role="operand" roleId="tpee.1197027771414" type="tp25.SEnumOperationInvocation" typeId="tp25.1240930118027" id="3000071662888828542" nodeInfo="nn">
+                                        <link role="enumDeclaration" roleId="tp25.1240930118028" targetNodeId="7c6v.3000071662888680139" resolveInfo="ColumnType" />
+                                        <node role="operation" roleId="tp25.1240930317927" type="tp25.SEnum_MemberOperation" typeId="tp25.1240930444945" id="3000071662888831685" nodeInfo="ng">
+                                          <link role="member" roleId="tp25.1240930444946" targetNodeId="7c6v.3000071662888680141" />
+                                        </node>
+                                      </node>
+                                      <node role="operation" roleId="tpee.1197027833540" type="tp25.EnumMember_ValueOperation" typeId="tp25.1240171359678" id="3000071662888858473" nodeInfo="nn" />
+                                    </node>
+                                    <node role="lValue" roleId="tpee.1068498886295" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3000071662888824462" nodeInfo="nn">
+                                      <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="3000071662888824364" nodeInfo="nn">
+                                        <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2718488839588101807" resolveInfo="col" />
+                                      </node>
+                                      <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="3000071662888825508" nodeInfo="nn">
+                                        <link role="property" roleId="tp25.1138056395725" targetNodeId="7c6v.3000071662888680057" resolveInfo="type" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                                <node role="statement" roleId="tpee.1068581517665" type="tpee.BreakStatement" typeId="tpee.1081855346303" id="3000071662888905386" nodeInfo="nn" />
+                              </node>
+                            </node>
+                            <node role="case" roleId="tpee.1163670772911" type="tpee.SwitchCase" typeId="tpee.1163670641947" id="5333042492765503388" nodeInfo="ng">
+                              <node role="expression" roleId="tpee.1163670677455" type="tpee.EnumConstantReference" typeId="tpee.1083260308424" id="5333042492765506493" nodeInfo="nn">
+                                <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="2er2.~ColumnModel$ColumnType%dFloat" resolveInfo="Float" />
+                                <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="2er2.~ColumnModel$ColumnType" resolveInfo="ColumnModel.ColumnType" />
+                              </node>
+                              <node role="body" roleId="tpee.1163670683720" type="tpee.StatementList" typeId="tpee.1068580123136" id="5333042492765503390" nodeInfo="sn">
+                                <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5333042492765503391" nodeInfo="nn">
+                                  <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="5333042492765503392" nodeInfo="nn">
+                                    <node role="rValue" roleId="tpee.1068498886297" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5333042492765503393" nodeInfo="nn">
+                                      <node role="operand" roleId="tpee.1197027771414" type="tp25.SEnumOperationInvocation" typeId="tp25.1240930118027" id="5333042492765503394" nodeInfo="nn">
+                                        <link role="enumDeclaration" roleId="tp25.1240930118028" targetNodeId="7c6v.3000071662888680139" resolveInfo="ColumnType" />
+                                        <node role="operation" roleId="tp25.1240930317927" type="tp25.SEnum_MemberOperation" typeId="tp25.1240930444945" id="5333042492765503395" nodeInfo="ng">
+                                          <link role="member" roleId="tp25.1240930444946" targetNodeId="7c6v.3000071662888680144" />
+                                        </node>
+                                      </node>
+                                      <node role="operation" roleId="tpee.1197027833540" type="tp25.EnumMember_ValueOperation" typeId="tp25.1240171359678" id="5333042492765503396" nodeInfo="nn" />
+                                    </node>
+                                    <node role="lValue" roleId="tpee.1068498886295" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5333042492765503397" nodeInfo="nn">
+                                      <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="5333042492765503398" nodeInfo="nn">
+                                        <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2718488839588101807" resolveInfo="col" />
+                                      </node>
+                                      <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="5333042492765503399" nodeInfo="nn">
+                                        <link role="property" roleId="tp25.1138056395725" targetNodeId="7c6v.3000071662888680057" resolveInfo="type" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                                <node role="statement" roleId="tpee.1068581517665" type="tpee.BreakStatement" typeId="tpee.1081855346303" id="5333042492765503400" nodeInfo="nn" />
+                              </node>
+                            </node>
+                            <node role="case" roleId="tpee.1163670772911" type="tpee.SwitchCase" typeId="tpee.1163670641947" id="3000071662888876647" nodeInfo="ng">
+                              <node role="expression" roleId="tpee.1163670677455" type="tpee.EnumConstantReference" typeId="tpee.1083260308424" id="3000071662888883739" nodeInfo="nn">
+                                <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="2er2.~ColumnModel$ColumnType%dString" resolveInfo="String" />
+                                <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="2er2.~ColumnModel$ColumnType" resolveInfo="ColumnModel.ColumnType" />
+                              </node>
+                              <node role="body" roleId="tpee.1163670683720" type="tpee.StatementList" typeId="tpee.1068580123136" id="3000071662888876649" nodeInfo="sn">
+                                <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3000071662888876650" nodeInfo="nn">
+                                  <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="3000071662888876651" nodeInfo="nn">
+                                    <node role="rValue" roleId="tpee.1068498886297" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3000071662888876652" nodeInfo="nn">
+                                      <node role="operand" roleId="tpee.1197027771414" type="tp25.SEnumOperationInvocation" typeId="tp25.1240930118027" id="3000071662888876653" nodeInfo="nn">
+                                        <link role="enumDeclaration" roleId="tp25.1240930118028" targetNodeId="7c6v.3000071662888680139" resolveInfo="ColumnType" />
+                                        <node role="operation" roleId="tp25.1240930317927" type="tp25.SEnum_MemberOperation" typeId="tp25.1240930444945" id="3000071662888876654" nodeInfo="ng">
+                                          <link role="member" roleId="tp25.1240930444946" targetNodeId="7c6v.3000071662888680148" />
+                                        </node>
+                                      </node>
+                                      <node role="operation" roleId="tpee.1197027833540" type="tp25.EnumMember_ValueOperation" typeId="tp25.1240171359678" id="3000071662888876655" nodeInfo="nn" />
+                                    </node>
+                                    <node role="lValue" roleId="tpee.1068498886295" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3000071662888876656" nodeInfo="nn">
+                                      <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="3000071662888876657" nodeInfo="nn">
+                                        <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2718488839588101807" resolveInfo="col" />
+                                      </node>
+                                      <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="3000071662888876658" nodeInfo="nn">
+                                        <link role="property" roleId="tp25.1138056395725" targetNodeId="7c6v.3000071662888680057" resolveInfo="type" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                                <node role="statement" roleId="tpee.1068581517665" type="tpee.BreakStatement" typeId="tpee.1081855346303" id="3000071662888907261" nodeInfo="nn" />
+                              </node>
+                            </node>
+                            <node role="case" roleId="tpee.1163670772911" type="tpee.SwitchCase" typeId="tpee.1163670641947" id="3000071662888880165" nodeInfo="ng">
+                              <node role="expression" roleId="tpee.1163670677455" type="tpee.EnumConstantReference" typeId="tpee.1083260308424" id="3000071662888880166" nodeInfo="nn">
+                                <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="2er2.~ColumnModel$ColumnType%dInteger" resolveInfo="Integer" />
+                                <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="2er2.~ColumnModel$ColumnType" resolveInfo="ColumnModel.ColumnType" />
+                              </node>
+                              <node role="body" roleId="tpee.1163670683720" type="tpee.StatementList" typeId="tpee.1068580123136" id="3000071662888880167" nodeInfo="sn">
+                                <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3000071662888880168" nodeInfo="nn">
+                                  <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="3000071662888880169" nodeInfo="nn">
+                                    <node role="rValue" roleId="tpee.1068498886297" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3000071662888880170" nodeInfo="nn">
+                                      <node role="operand" roleId="tpee.1197027771414" type="tp25.SEnumOperationInvocation" typeId="tp25.1240930118027" id="3000071662888880171" nodeInfo="nn">
+                                        <link role="enumDeclaration" roleId="tp25.1240930118028" targetNodeId="7c6v.3000071662888680139" resolveInfo="ColumnType" />
+                                        <node role="operation" roleId="tp25.1240930317927" type="tp25.SEnum_MemberOperation" typeId="tp25.1240930444945" id="3000071662888880172" nodeInfo="ng">
+                                          <link role="member" roleId="tp25.1240930444946" targetNodeId="7c6v.3000071662888680140" />
+                                        </node>
+                                      </node>
+                                      <node role="operation" roleId="tpee.1197027833540" type="tp25.EnumMember_ValueOperation" typeId="tp25.1240171359678" id="3000071662888880173" nodeInfo="nn" />
+                                    </node>
+                                    <node role="lValue" roleId="tpee.1068498886295" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3000071662888880174" nodeInfo="nn">
+                                      <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="3000071662888880175" nodeInfo="nn">
+                                        <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2718488839588101807" resolveInfo="col" />
+                                      </node>
+                                      <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="3000071662888880176" nodeInfo="nn">
+                                        <link role="property" roleId="tp25.1138056395725" targetNodeId="7c6v.3000071662888680057" resolveInfo="type" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                                <node role="statement" roleId="tpee.1068581517665" type="tpee.BreakStatement" typeId="tpee.1081855346303" id="3000071662888920892" nodeInfo="nn" />
+                              </node>
+                            </node>
+                            <node role="expression" roleId="tpee.1163670766145" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3000071662888743184" nodeInfo="nn">
+                              <node role="operand" roleId="tpee.1197027771414" type="tp2q.ForEachVariableReference" typeId="tp2q.1153944233411" id="3000071662888743147" nodeInfo="nn">
+                                <link role="variable" roleId="tp2q.1153944258490" targetNodeId="2718488839588101203" resolveInfo="c" />
+                              </node>
+                              <node role="operation" roleId="tpee.1197027833540" type="tpee.FieldReferenceOperation" typeId="tpee.1197029447546" id="3000071662888747416" nodeInfo="nn">
+                                <link role="fieldDeclaration" roleId="tpee.1197029500499" targetNodeId="2er2.~ColumnDescriptor%dtype" resolveInfo="type" />
+                              </node>
+                            </node>
+                            <node role="defaultBlock" roleId="tpee.1163670592366" type="tpee.StatementList" typeId="tpee.1068580123136" id="3000071662888742367" nodeInfo="sn" />
+                          </node>
                           <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="2718488839588112037" nodeInfo="nn">
                             <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2718488839588115679" nodeInfo="nn">
                               <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2718488839588112113" nodeInfo="nn">

@@ -789,8 +789,17 @@
             <property name="flag" nameId="tpc2.1186414551515" value="true" />
           </node>
         </node>
+        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="5333042492764263623" nodeInfo="nn">
+          <property name="text" nameId="tpc2.1073389577007" value="type:" />
+        </node>
+        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="5333042492764263679" nodeInfo="ng">
+          <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="7c6v.3000071662888680057" resolveInfo="type" />
+        </node>
         <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="4042788916790109420" nodeInfo="nn">
           <property name="text" nameId="tpc2.1073389577007" value="associated sort column name" />
+          <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutOnNewLineStyleClassItem" typeId="tpc2.1237385578942" id="5333042492764263707" nodeInfo="nn">
+            <property name="flag" nameId="tpc2.1186414551515" value="true" />
+          </node>
         </node>
         <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="4042788916790109421" nodeInfo="nn">
           <property name="text" nameId="tpc2.1073389577007" value=":" />
@@ -1221,6 +1230,7 @@
         <property name="text" nameId="tpc2.1073389577007" value="any {" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNodeList" typeId="tpc2.1073390211982" id="3688269350664798942" nodeInfo="ng">
+        <property name="separatorText" nameId="tpc2.1140524450557" value=", " />
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="7c6v.3688269350664637094" />
         <node role="cellLayout" roleId="tpc2.1140524464360" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="3688269350664798943" nodeInfo="nn" />
       </node>

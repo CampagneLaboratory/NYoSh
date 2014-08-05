@@ -90,6 +90,10 @@
       <property name="name" nameId="tpck.1169194664001" value="associatedSortColumnName" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
     </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="3000071662888680057" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="type" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="3000071662888680139" resolveInfo="ColumnType" />
+    </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8794265050549986308" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
     </node>
@@ -289,6 +293,27 @@
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="field" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="3688269350663783371" resolveInfo="IndexedField" />
+    </node>
+  </root>
+  <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="3000071662888680139" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="columns" />
+    <property name="name" nameId="tpck.1169194664001" value="ColumnType" />
+    <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="3000071662888680140" nodeInfo="ig">
+      <property name="internalValue" nameId="tpce.1083923523171" value="0" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="INTEGER" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="3000071662888680144" nodeInfo="ig">
+      <property name="internalValue" nameId="tpce.1083923523171" value="1" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="FLOAT" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="3000071662888680141" nodeInfo="ig">
+      <property name="internalValue" nameId="tpce.1083923523171" value="2" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="DOUBLE" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="3000071662888680148" nodeInfo="ig">
+      <property name="externalValue" nameId="tpce.1083923523172" value="STRING" />
+      <property name="internalValue" nameId="tpce.1083923523171" value="3" />
     </node>
   </root>
 </model>
