@@ -1152,7 +1152,7 @@
                     <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="e2lb.~String" resolveInfo="String" />
                     <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~String%dformat(java%dlang%dString,java%dlang%dObject%d%d%d)%cjava%dlang%dString" resolveInfo="format" />
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3471567415187947035" nodeInfo="nn">
-                      <property name="value" nameId="tpee.1070475926801" value="Viewing page %d of %d. Query returned %d rows of %d total table lines. pageSize=%d rowOffset=%d" />
+                      <property name="value" nameId="tpee.1070475926801" value="Viewing page %d of %d. Query returned %d rows of %d total table lines. pageSize=%d rowOffset=%d. Query=%s" />
                     </node>
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.LocalMethodCall" typeId="tpee.7812454656619025412" id="3471567415188482284" nodeInfo="nn">
                       <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1654369691502908766" resolveInfo="getCurrentPageNumber" />
@@ -1176,6 +1176,14 @@
                     </node>
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.LocalMethodCall" typeId="tpee.7812454656619025412" id="4461009712879204620" nodeInfo="nn">
                       <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="4461009712878622528" resolveInfo="getRowOffset" />
+                    </node>
+                    <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3000071662887355510" nodeInfo="nn">
+                      <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="3000071662887353330" nodeInfo="nn">
+                        <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="5733595147292739772" resolveInfo="query" />
+                      </node>
+                      <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="3000071662887359634" nodeInfo="nn">
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="2fgh.~Query%dtoString()%cjava%dlang%dString" resolveInfo="toString" />
+                      </node>
                     </node>
                   </node>
                 </node>

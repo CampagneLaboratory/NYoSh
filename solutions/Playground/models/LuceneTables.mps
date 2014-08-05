@@ -13,10 +13,11 @@
       <property name="height" nameId="7c6v.1382465545654824559" value="200" />
       <property name="indexBaseName" nameId="7c6v.6642819616994075174" value="/Users/fac2003/IdeaProjects/git/Lucene/test-data/tsv-to-db/lucene/UBCIPVC-stats.lucene.index" />
       <node role="query" roleId="7c6v.3688269350664121203" type="7c6v.Query" typeId="7c6v.3688269350664395158" id="3000071662887295552" nodeInfo="ng">
-        <node role="expression" roleId="7c6v.3688269350664395159" type="7c6v.FieldQuery" typeId="7c6v.3688269350663783363" id="3000071662887298240" nodeInfo="ng">
-          <link role="field" roleId="7c6v.3688269350663783368" targetNodeId="3000071662887298238" resolveInfo="element-type" />
-          <node role="expression" roleId="7c6v.3688269350663783364" type="7c6v.Term" typeId="7c6v.3688269350663666225" id="3000071662887298244" nodeInfo="ng">
-            <property name="term" nameId="7c6v.3688269350663674949" value="GENE" />
+        <node role="expression" roleId="7c6v.3688269350664395159" type="7c6v.FieldQuery" typeId="7c6v.3688269350663783363" id="3000071662887460885" nodeInfo="ng">
+          <link role="field" roleId="7c6v.3688269350663783368" targetNodeId="3000071662887460179" resolveInfo="NA19207" />
+          <node role="expression" roleId="7c6v.3688269350663783364" type="7c6v.RangeSearch" typeId="7c6v.3688269350663788845" id="3000071662887460894" nodeInfo="ng">
+            <property name="from" nameId="7c6v.3688269350663788848" value="1" />
+            <property name="to" nameId="7c6v.3688269350663788850" value="80" />
           </node>
         </node>
       </node>
@@ -2125,6 +2126,9 @@
       </node>
       <node role="visibleColumns" roleId="7c6v.2718488839587659342" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="3000071662887294863" nodeInfo="ng">
         <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="3000071662887293941" resolveInfo="RPKM sample EXNJJGP-paper-combined-NA19207(AC)" />
+        <node role="field" roleId="7c6v.4461009712883249667" type="7c6v.IndexedField" typeId="7c6v.3688269350663783371" id="3000071662887460179" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="NA19207" />
+        </node>
       </node>
       <node role="visibleColumns" roleId="7c6v.2718488839587659342" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="3000071662887294864" nodeInfo="ng">
         <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="3000071662887293943" resolveInfo="RPKM sample DQZBNPV-paper-combined-NA19098(AC)" />
