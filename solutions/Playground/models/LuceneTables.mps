@@ -18,8 +18,8 @@
           <node role="expression" roleId="7c6v.3688269350663783364" type="7c6v.TermRangeSearch" typeId="7c6v.3688269350663788845" id="5333042492765483025" nodeInfo="ng">
             <property name="fromInclusive" nameId="7c6v.3000071662887704900" value="true" />
             <property name="toInclusive" nameId="7c6v.3000071662887704912" value="true" />
-            <property name="from" nameId="7c6v.3688269350663788848" value="80" />
-            <property name="to" nameId="7c6v.3688269350663788850" value="100" />
+            <property name="from" nameId="7c6v.3688269350663788848" value="810.0" />
+            <property name="to" nameId="7c6v.3688269350663788850" value="100.0" />
           </node>
         </node>
       </node>
