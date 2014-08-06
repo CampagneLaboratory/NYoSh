@@ -429,7 +429,7 @@
           </node>
           <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNodeList" typeId="tpc2.1073390211982" id="2718488839587642784" nodeInfo="ng">
             <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="7c6v.1382465545655829234" />
-            <link role="actionMap" roleId="tpc2.1139959269582" targetNodeId="4461009712884154120" resolveInfo="ColumnKeyMap" />
+            <link role="actionMap" roleId="tpc2.1139959269582" targetNodeId="4461009712884154120" resolveInfo="ColumnActionMap" />
             <link role="keyMap" roleId="tpc2.1081339532145" targetNodeId="4461009712883244101" resolveInfo="HasColumnReferenceKeyMap" />
             <node role="cellLayout" roleId="tpc2.1140524464360" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="2718488839587642785" nodeInfo="nn" />
           </node>
@@ -552,18 +552,18 @@
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="7c6v.1382465545655829246" resolveInfo="ColumnReference" />
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="2718488839589616701" nodeInfo="nn">
       <link role="keyMap" roleId="tpc2.1081339532145" targetNodeId="1382465545657242171" resolveInfo="VisibleColumnKeyMap" />
-      <link role="actionMap" roleId="tpc2.1139959269582" targetNodeId="4461009712884154120" resolveInfo="ColumnKeyMap" />
+      <link role="actionMap" roleId="tpc2.1139959269582" targetNodeId="4461009712884154120" resolveInfo="ColumnActionMap" />
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="2718488839589616702" nodeInfo="nn" />
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefCell" typeId="tpc2.1088013125922" id="2718488839587659348" nodeInfo="ng">
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="7c6v.2447038862120075868" />
         <link role="keyMap" roleId="tpc2.1081339532145" targetNodeId="4461009712883244101" resolveInfo="HasColumnReferenceKeyMap" />
-        <link role="actionMap" roleId="tpc2.1139959269582" targetNodeId="4461009712884154120" resolveInfo="ColumnKeyMap" />
+        <link role="actionMap" roleId="tpc2.1139959269582" targetNodeId="4461009712884154120" resolveInfo="ColumnActionMap" />
         <node role="editorComponent" roleId="tpc2.1088186146602" type="tpc2.InlineEditorComponent" typeId="tpc2.1088185857835" id="2718488839587659349" nodeInfo="ng">
           <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="2718488839587659350" nodeInfo="ng">
             <property name="readOnly" nameId="tpc2.1140017977771" value="true" />
             <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1169194664001" resolveInfo="name" />
             <link role="keyMap" roleId="tpc2.1081339532145" targetNodeId="1382465545657242171" resolveInfo="VisibleColumnKeyMap" />
-            <link role="actionMap" roleId="tpc2.1139959269582" targetNodeId="4461009712884154120" resolveInfo="ColumnKeyMap" />
+            <link role="actionMap" roleId="tpc2.1139959269582" targetNodeId="4461009712884154120" resolveInfo="ColumnActionMap" />
           </node>
         </node>
         <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.EditableStyleClassItem" typeId="tpc2.1186414860679" id="8690856916415747795" nodeInfo="nn">
@@ -572,7 +572,7 @@
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="3688269350665016552" nodeInfo="ng">
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="7c6v.4461009712883249667" />
-        <link role="actionMap" roleId="tpc2.1139959269582" targetNodeId="4461009712884154120" resolveInfo="ColumnKeyMap" />
+        <link role="actionMap" roleId="tpc2.1139959269582" targetNodeId="4461009712884154120" resolveInfo="ColumnActionMap" />
         <node role="renderingCondition" roleId="tpc2.1142887637401" type="tpc2.QueryFunction_NodeCondition" typeId="tpc2.1142886221719" id="3688269350665016558" nodeInfo="nn">
           <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="3688269350665016559" nodeInfo="sn">
             <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3688269350665017209" nodeInfo="nn">
@@ -928,6 +928,9 @@
             <property name="readOnly" nameId="tpc2.1140017977771" value="true" />
             <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1169194664001" resolveInfo="name" />
             <link role="parentStyleClass" roleId="tpc2.1381004262292426837" targetNodeId="tpen.1215090010725" resolveInfo="VariableName" />
+            <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.EditableStyleClassItem" typeId="tpc2.1186414860679" id="1425300619936456741" nodeInfo="nn">
+              <property name="flag" nameId="tpc2.1186414551515" value="false" />
+            </node>
           </node>
         </node>
       </node>
@@ -1279,8 +1282,22 @@
     </node>
   </root>
   <root type="tpc2.CellActionMapDeclaration" typeId="tpc2.1139535219966" id="4461009712884154120" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="ColumnKeyMap" />
+    <property name="name" nameId="tpck.1169194664001" value="ColumnActionMap" />
     <link role="applicableConcept" roleId="tpc2.1139535219968" targetNodeId="7c6v.1382465545655829246" resolveInfo="ColumnReference" />
+    <node role="item" roleId="tpc2.1139535219969" type="tpc2.CellActionMapItem" typeId="tpc2.1139535280617" id="1425300619936591430" nodeInfo="ng">
+      <property name="actionId" nameId="tpc2.1139535298778" value="insert_action_id" />
+      <property name="description" nameId="tpc2.1139537298254" value="Prevent insertion of new column" />
+      <node role="executeFunction" roleId="tpc2.1139535280620" type="tpc2.CellActionMap_ExecuteFunction" typeId="tpc2.1139535439104" id="1425300619936591431" nodeInfo="nn">
+        <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="1425300619936591432" nodeInfo="sn" />
+      </node>
+    </node>
+    <node role="item" roleId="tpc2.1139535219969" type="tpc2.CellActionMapItem" typeId="tpc2.1139535280617" id="1425300619936591555" nodeInfo="ng">
+      <property name="actionId" nameId="tpc2.1139535298778" value="insert_before_action_id" />
+      <property name="description" nameId="tpc2.1139537298254" value="Prevent insertion of new column" />
+      <node role="executeFunction" roleId="tpc2.1139535280620" type="tpc2.CellActionMap_ExecuteFunction" typeId="tpc2.1139535439104" id="1425300619936591556" nodeInfo="nn">
+        <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="1425300619936591557" nodeInfo="sn" />
+      </node>
+    </node>
     <node role="item" roleId="tpc2.1139535219969" type="tpc2.CellActionMapItem" typeId="tpc2.1139535280617" id="4461009712884155590" nodeInfo="ng">
       <property name="actionId" nameId="tpc2.1139535298778" value="delete_action_id" />
       <property name="description" nameId="tpc2.1139537298254" value="Delete Visible Column" />
@@ -1450,6 +1467,9 @@
           <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="214549661775841667" nodeInfo="ng">
             <property name="readOnly" nameId="tpc2.1140017977771" value="true" />
             <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1169194664001" resolveInfo="name" />
+            <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.EditableStyleClassItem" typeId="tpc2.1186414860679" id="1425300619936323860" nodeInfo="nn">
+              <property name="flag" nameId="tpc2.1186414551515" value="false" />
+            </node>
           </node>
         </node>
       </node>
