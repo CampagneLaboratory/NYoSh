@@ -4683,10 +4683,10 @@
       <node role="visibleColumns" roleId="7c6v.2718488839587659342" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="3842069646171916160" nodeInfo="ng">
         <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="3842069646171916159" resolveInfo="RPKM sample MUCKEEC-paper-combined-NA18501(AC)" />
       </node>
-      <node role="sortOrder" roleId="7c6v.214549661775847102" type="7c6v.SortOrder" typeId="7c6v.214549661775816073" id="3842069646171919400" nodeInfo="ng">
-        <node role="columns" roleId="7c6v.214549661775829237" type="7c6v.ColumnSort" typeId="7c6v.214549661775817568" id="3842069646171919401" nodeInfo="ng">
-          <property name="ascending" nameId="7c6v.214549661775817569" value="false" />
-          <link role="field" roleId="7c6v.214549661775840875" targetNodeId="3842069646171919399" resolveInfo="RPKM sample ISIZXCX-paper-combined-NA19210(AC)" />
+      <node role="sortOrder" roleId="7c6v.214549661775847102" type="7c6v.SortOrder" typeId="7c6v.214549661775816073" id="3842069646171958479" nodeInfo="ng">
+        <node role="columns" roleId="7c6v.214549661775829237" type="7c6v.ColumnSort" typeId="7c6v.214549661775817568" id="3842069646171958480" nodeInfo="ng">
+          <property name="ascending" nameId="7c6v.214549661775817569" value="true" />
+          <link role="field" roleId="7c6v.214549661775840875" targetNodeId="3842069646171916595" resolveInfo="element-id" />
         </node>
       </node>
     </node>

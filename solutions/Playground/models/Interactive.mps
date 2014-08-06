@@ -10,7 +10,7 @@
   <language namespace="82ffebe3-3685-4fd9-b560-0c1d348d295c(org.campagnelab.logger)" />
   <language namespace="f05c05d7-dafb-4c87-b842-b836f305120f(org.campagnelab.gobyweb.monitoring)" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="42" implicit="yes" />
+  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="45" implicit="yes" />
   <import index="9k5" modelUID="r:df9645c2-d2fa-41cb-a718-044a287b0626(org.campagnelab.clusterConfig.structure)" version="3" implicit="yes" />
   <import index="eith" modelUID="r:1ed73e49-326d-4559-947b-13dfd134d00a(org.campagnelab.ssh.structure)" version="-1" implicit="yes" />
   <import index="whle" modelUID="r:8e4fd1b7-1955-43a4-ace6-aaf9d13814f8(org.campagnelab.logger.structure)" version="1" implicit="yes" />
@@ -5957,51 +5957,51 @@
     <property name="jobName" nameId="bs99.606449909789338951" value="test" />
     <property name="message" nameId="bs99.3927327347527013400" value="Job successfully submitted. Assigned tag: GDKEBCL" />
     <link role="executionEnvironment" roleId="bs99.2465489689642686100" targetNodeId="2419654323731434878" resolveInfo="TutoriaEnvironment" />
-    <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="3552713013252484089" resolveInfo="SEQ_VAR_GOBY_METHYLATION" />
+    <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="6393277187649712496" resolveInfo="SEQ_VAR_GOBY_METHYLATION" />
     <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="406260948649236746" nodeInfo="ng">
-      <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="3552713013252484096" resolveInfo="INPUT_ALIGNMENTS" />
+      <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="6393277187649712502" resolveInfo="INPUT_ALIGNMENTS" />
       <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="3552713013252571663" nodeInfo="ng">
         <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="1685722938011675371" resolveInfo="GOBY_ALIGNMENT/WENSREU-T4-runbwa" />
       </node>
     </node>
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="406260948649236747" nodeInfo="ng">
-      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="3552713013252484131" resolveInfo="Type of analysis and output format" />
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="6393277187649712537" resolveInfo="Type of analysis and output format" />
       <node role="value" roleId="bs99.6506431596944968310" type="bs99.CategoricalOptionValue" typeId="bs99.606449909792985260" id="406260948649236749" nodeInfo="ng">
-        <link role="category" roleId="bs99.3927327347530218892" targetNodeId="3552713013252484132" resolveInfo="methylation" />
+        <link role="category" roleId="bs99.3927327347530218892" targetNodeId="6393277187649712538" resolveInfo="methylation" />
       </node>
     </node>
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="406260948649236751" nodeInfo="ng">
-      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="3552713013252484134" resolveInfo="q-value threshold" />
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="6393277187649712540" resolveInfo="q-value threshold" />
       <node role="value" roleId="bs99.6506431596944968310" type="bs99.DoubleOptionValue" typeId="bs99.606449909792936179" id="406260948649236753" nodeInfo="ng">
         <property name="value" nameId="bs99.606449909792936180" value="0.05" />
       </node>
     </node>
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="406260948649236755" nodeInfo="ng">
-      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="3552713013252484136" resolveInfo="Number of top hits" />
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="6393277187649712542" resolveInfo="Number of top hits" />
       <node role="value" roleId="bs99.6506431596944968310" type="bs99.IntegerOptionValue" typeId="bs99.606449909792930896" id="406260948649236757" nodeInfo="ng">
         <property name="value" nameId="bs99.606449909792930897" value="10000" />
       </node>
     </node>
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="406260948649236759" nodeInfo="ng">
-      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="3552713013252484138" resolveInfo="Minimum variation support" />
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="6393277187649712544" resolveInfo="Minimum variation support" />
       <node role="value" roleId="bs99.6506431596944968310" type="bs99.IntegerOptionValue" typeId="bs99.606449909792930896" id="406260948649236761" nodeInfo="ng">
         <property name="value" nameId="bs99.606449909792930897" value="35" />
       </node>
     </node>
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="406260948649236763" nodeInfo="ng">
-      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="3552713013252484140" resolveInfo="Minimum number of distinct read indices" />
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="6393277187649712546" resolveInfo="Minimum number of distinct read indices" />
       <node role="value" roleId="bs99.6506431596944968310" type="bs99.IntegerOptionValue" typeId="bs99.606449909792930896" id="406260948649236765" nodeInfo="ng">
         <property name="value" nameId="bs99.606449909792930897" value="1" />
       </node>
     </node>
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="406260948649236767" nodeInfo="ng">
-      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="3552713013252484144" resolveInfo="Call indels" />
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="6393277187649712550" resolveInfo="Call indels" />
       <node role="value" roleId="bs99.6506431596944968310" type="bs99.BooleanOptionValue" typeId="bs99.606449909792920794" id="406260948649236769" nodeInfo="ng">
         <property name="value" nameId="bs99.606449909792920797" value="false" />
       </node>
     </node>
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="406260948649236771" nodeInfo="ng">
-      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="3552713013252484161" resolveInfo="GROUP_DEFINITION" />
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="6393277187649712567" resolveInfo="GROUP_DEFINITION" />
       <node role="value" roleId="bs99.6506431596944968310" type="bs99.GroupDefinitionOptionValue" typeId="bs99.3927327347537774497" id="406260948649242048" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="A" />
         <node role="values" roleId="bs99.3927327347537774650" type="bs99.GroupFileSetInstanceRef" typeId="bs99.6348392937649628548" id="406260948649242054" nodeInfo="ng">
@@ -6010,7 +6010,7 @@
       </node>
     </node>
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="406260948649242060" nodeInfo="ng">
-      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="3552713013252484161" resolveInfo="GROUP_DEFINITION" />
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="6393277187649712567" resolveInfo="GROUP_DEFINITION" />
       <node role="value" roleId="bs99.6506431596944968310" type="bs99.GroupDefinitionOptionValue" typeId="bs99.3927327347537774497" id="406260948649242083" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="B" />
         <node role="values" roleId="bs99.3927327347537774650" type="bs99.GroupFileSetInstanceRef" typeId="bs99.6348392937649628548" id="406260948649242089" nodeInfo="ng">
@@ -6019,7 +6019,7 @@
       </node>
     </node>
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="406260948649242550" nodeInfo="ng">
-      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="3552713013252484163" resolveInfo="COMPARISON_PAIR" />
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="6393277187649712569" resolveInfo="COMPARISON_PAIR" />
       <node role="value" roleId="bs99.6506431596944968310" type="bs99.ComparisonPairValue" typeId="bs99.6348392937650129823" id="406260948649242618" nodeInfo="ng">
         <link role="group1" roleId="bs99.6348392937650130305" targetNodeId="406260948649242048" resolveInfo="A" />
         <link role="group2" roleId="bs99.6348392937650130323" targetNodeId="406260948649242083" resolveInfo="B" />
@@ -7718,27 +7718,27 @@
     <property name="jobName" nameId="bs99.606449909789338951" value="FirstAligner" />
     <property name="message" nameId="bs99.3927327347527013400" value="Job successfully submitted. Assigned tag: ASEJEMU" />
     <link role="executionEnvironment" roleId="bs99.2465489689642686100" targetNodeId="2419654323731434878" resolveInfo="TutoriaEnvironment" />
-    <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="3552713013252483701" resolveInfo="STAR22_GOBY" />
+    <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="6393277187649712116" resolveInfo="STAR22_GOBY" />
     <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="1011954325398503122" nodeInfo="ng">
-      <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="3552713013252483708" resolveInfo="INPUT_READS" />
+      <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="6393277187649712122" resolveInfo="INPUT_READS" />
       <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="3552713013252571665" nodeInfo="ng">
         <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="1685722938011675207" resolveInfo="COMPACT_READS/test" />
       </node>
     </node>
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="1011954325398503123" nodeInfo="ng">
-      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="3552713013252483729" resolveInfo="Ambiguity threshold" />
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="6393277187649712143" resolveInfo="Ambiguity threshold" />
       <node role="value" roleId="bs99.6506431596944968310" type="bs99.IntegerOptionValue" typeId="bs99.606449909792930896" id="1011954325398503125" nodeInfo="ng">
         <property name="value" nameId="bs99.606449909792930897" value="10" />
       </node>
     </node>
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="1011954325398503131" nodeInfo="ng">
-      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="3552713013252483735" resolveInfo="CHUNK_SIZE" />
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="6393277187649712149" resolveInfo="CHUNK_SIZE" />
       <node role="value" roleId="bs99.6506431596944968310" type="bs99.IntegerOptionValue" typeId="bs99.606449909792930896" id="1011954325398503133" nodeInfo="ng">
         <property name="value" nameId="bs99.606449909792930897" value="50000000" />
       </node>
     </node>
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="1011954325398503215" nodeInfo="ng">
-      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="3552713013252483733" resolveInfo="GENOME_REFERENCE_ID" />
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="6393277187649712147" resolveInfo="GENOME_REFERENCE_ID" />
       <node role="value" roleId="bs99.6506431596944968310" type="bs99.StringOptionValue" typeId="bs99.606449909792929476" id="1011954325398503229" nodeInfo="ng">
         <property name="value" nameId="bs99.606449909792929477" value="1000GENOMES.37" />
       </node>
