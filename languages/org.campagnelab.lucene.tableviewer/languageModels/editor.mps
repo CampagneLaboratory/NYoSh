@@ -65,6 +65,59 @@
         </node>
         <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="1425300619934888267" nodeInfo="nn" />
       </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="3842069646169674723" nodeInfo="nn">
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.SelectableStyleSheetItem" typeId="tpc2.1186414928363" id="3842069646169674725" nodeInfo="nn">
+          <property name="flag" nameId="tpc2.1186414551515" value="false" />
+        </node>
+        <node role="childCellModel" roleId="tpc2.1073389446424" type="hut6.Button" typeId="hut6.1879241968983569921" id="3842069646169678637" nodeInfo="ng">
+          <property name="label" nameId="hut6.1879241968983569933" value="export" />
+          <node role="handler" roleId="hut6.1879241968983811680" type="hut6.ButtonHandler" typeId="hut6.1879241968983569938" id="3842069646169678638" nodeInfo="ng">
+            <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="3842069646169678639" nodeInfo="sn">
+              <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3842069646169683372" nodeInfo="nn">
+                <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3842069646169684596" nodeInfo="nn">
+                  <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3842069646169683444" nodeInfo="nn">
+                    <node role="operand" roleId="tpee.1197027771414" type="hut6.ButtonNodeParameter" typeId="hut6.1135156181802355102" id="3842069646169683371" nodeInfo="ng" />
+                    <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="3842069646169684496" nodeInfo="nn">
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="junt.2718488839590292601" resolveInfo="getTableModel" />
+                    </node>
+                  </node>
+                  <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="3842069646170108268" nodeInfo="nn">
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="s50m.3842069646169725688" resolveInfo="export" />
+                    <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3842069646170108529" nodeInfo="nn">
+                      <node role="operand" roleId="tpee.1197027771414" type="hut6.ButtonNodeParameter" typeId="hut6.1135156181802355102" id="3842069646170108378" nodeInfo="ng" />
+                      <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="3842069646170109685" nodeInfo="nn">
+                        <link role="property" roleId="tp25.1138056395725" targetNodeId="7c6v.3842069646169678730" resolveInfo="exportFilename" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="3842069646169674728" nodeInfo="nn" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="3842069646171096821" nodeInfo="nn">
+        <property name="text" nameId="tpc2.1073389577007" value="to" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="3842069646171112615" nodeInfo="ng">
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="7c6v.3842069646169678730" resolveInfo="exportFilename" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="hut6.SingleFileSelection" typeId="hut6.5704832314575181087" id="3842069646169678651" nodeInfo="ng">
+        <property name="acceptFiles" nameId="hut6.9057833467352772432" value="true" />
+        <property name="defaultPath" nameId="hut6.9057833467352772434" value="./" />
+        <link role="property" roleId="hut6.5704832314577455573" targetNodeId="7c6v.3842069646169678730" resolveInfo="exportFilename" />
+        <node role="button" roleId="hut6.5704832314575223446" type="hut6.FileSelectionButton" typeId="hut6.2954990197977599794" id="3842069646169678652" nodeInfo="ng">
+          <property name="acceptFiles" nameId="hut6.5693159665555023471" value="true" />
+          <property name="acceptMultipleSelections" nameId="hut6.5693159665557586134" value="false" />
+          <node role="defaultPath" roleId="hut6.2020659516091712533" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3842069646169678653" nodeInfo="nn">
+            <property name="value" nameId="tpee.1070475926801" value="./" />
+          </node>
+          <node role="handler" roleId="hut6.2020659516093754639" type="hut6.ProcessPathHandler" typeId="hut6.2020659516093694820" id="3842069646169678655" nodeInfo="ng">
+            <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="3842069646169678656" nodeInfo="sn" />
+          </node>
+        </node>
+      </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="251853584004065575" nodeInfo="nn">
         <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Vertical" typeId="tpc2.1106270571710" id="251853584004065576" nodeInfo="nn" />
         <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Alternation" typeId="tpc2.1088612959204" id="251853584004042064" nodeInfo="ng">
