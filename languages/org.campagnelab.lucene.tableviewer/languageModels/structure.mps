@@ -35,6 +35,12 @@
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="3688269350664395158" resolveInfo="Query" />
     </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="214549661775847102" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="sortOrder" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="214549661775816073" resolveInfo="SortOrder" />
+    </node>
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="6642819616994075174" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="indexBaseName" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
@@ -315,6 +321,39 @@
       <property name="externalValue" nameId="tpce.1083923523172" value="STRING" />
       <property name="internalValue" nameId="tpce.1083923523171" value="3" />
     </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="214549661775816073" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="SortOrder" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="sorting" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="214549661775829237" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="columns" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1..n" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="214549661775817568" resolveInfo="ColumnSort" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="214549661775837199" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="214549661775837172" resolveInfo="HasBuildSort" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="214549661775817568" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="ColumnSort" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="sorting" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="214549661775840875" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
+      <property name="role" nameId="tpce.1071599776563" value="field" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="3688269350663783371" resolveInfo="IndexedField" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="214549661775817569" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="ascending" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657063" resolveInfo="boolean" />
+    </node>
+  </root>
+  <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="214549661775837172" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="sorting" />
+    <property name="name" nameId="tpck.1169194664001" value="HasBuildSort" />
   </root>
 </model>
 
