@@ -13,8 +13,14 @@
       <property name="height" nameId="7c6v.1382465545654824559" value="300" />
       <property name="pageSize" nameId="7c6v.1382465545654648585" value="50" />
       <property name="indexBaseName" nameId="7c6v.6642819616994075174" value="/Users/fac2003/IdeaProjects/git/Lucene/test-data/tsv-to-db/lucene/UBCIPVC-stats.lucene.index" />
+      <property name="columnQuery" nameId="7c6v.1382465545655830138" value="" />
       <node role="query" roleId="7c6v.3688269350664121203" type="7c6v.Query" typeId="7c6v.3688269350664395158" id="6442676317073799486" nodeInfo="ng" />
-      <node role="sortOrder" roleId="7c6v.214549661775847102" type="7c6v.SortOrder" typeId="7c6v.214549661775816073" id="6442676317073799487" nodeInfo="ng" />
+      <node role="sortOrder" roleId="7c6v.214549661775847102" type="7c6v.SortOrder" typeId="7c6v.214549661775816073" id="6442676317073799487" nodeInfo="ng">
+        <node role="columns" roleId="7c6v.214549661775829237" type="7c6v.ColumnSort" typeId="7c6v.214549661775817568" id="6442676317075330277" nodeInfo="ng">
+          <property name="ascending" nameId="7c6v.214549661775817569" value="true" />
+          <link role="field" roleId="7c6v.214549661775840875" targetNodeId="6442676317075330275" resolveInfo="NA18870" />
+        </node>
+      </node>
       <node role="columns" roleId="7c6v.2718488839587641498" type="7c6v.Column" typeId="7c6v.8794265050549986216" id="6442676317073799488" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="element-id" />
         <property name="internalName" nameId="7c6v.6295276321619058362" value="col_0" />
@@ -1635,6 +1641,9 @@
       </node>
       <node role="columnSelection" roleId="7c6v.1382465545655829234" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="6442676317073799947" nodeInfo="ng">
         <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="6442676317073799946" resolveInfo="fisher-exact-R Group_1/Group_2(AC)" />
+        <node role="field" roleId="7c6v.4461009712883249667" type="7c6v.IndexedField" typeId="7c6v.3688269350663783371" id="6442676317075182344" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="fisherexact-R Group_1/Group_2(AC)" />
+        </node>
       </node>
       <node role="columns" roleId="7c6v.2718488839587641498" type="7c6v.Column" typeId="7c6v.8794265050549986216" id="6442676317073799948" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="t-test(AC)-BH-FDR-q-value" />
@@ -1671,14 +1680,11 @@
       <node role="visibleColumns" roleId="7c6v.2718488839587659342" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="6442676317073799521" nodeInfo="ng">
         <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="6442676317073799520" resolveInfo="RPKM sample HOERLYZ-paper-combined-NA18505(AC)" />
       </node>
-      <node role="visibleColumns" roleId="7c6v.2718488839587659342" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="6442676317073799523" nodeInfo="ng">
-        <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="6442676317073799522" resolveInfo="RPKM sample VPSBPMK-paper-combined-NA18871(AC)" />
-      </node>
-      <node role="visibleColumns" roleId="7c6v.2718488839587659342" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="6442676317073799525" nodeInfo="ng">
-        <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="6442676317073799524" resolveInfo="RPKM sample JWEFMTT-paper-combined-NA19171(AC)" />
-      </node>
       <node role="visibleColumns" roleId="7c6v.2718488839587659342" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="6442676317073799527" nodeInfo="ng">
         <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="6442676317073799526" resolveInfo="RPKM sample LWMXCLV-paper-combined-NA18852(AC)" />
+        <node role="field" roleId="7c6v.4461009712883249667" type="7c6v.IndexedField" typeId="7c6v.3688269350663783371" id="6442676317075182806" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="RPKM sample LWMXCLV-paper-combined-NA18852(AC)" />
+        </node>
       </node>
       <node role="visibleColumns" roleId="7c6v.2718488839587659342" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="6442676317073799529" nodeInfo="ng">
         <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="6442676317073799528" resolveInfo="RPKM sample LRFHHCO-paper-combined-NA18519(AC)" />
@@ -1688,6 +1694,9 @@
       </node>
       <node role="visibleColumns" roleId="7c6v.2718488839587659342" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="6442676317073799533" nodeInfo="ng">
         <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="6442676317073799532" resolveInfo="RPKM sample OEGAOQN-paper-combined-NA18870(AC)" />
+        <node role="field" roleId="7c6v.4461009712883249667" type="7c6v.IndexedField" typeId="7c6v.3688269350663783371" id="6442676317075330275" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="NA18870" />
+        </node>
       </node>
       <node role="visibleColumns" roleId="7c6v.2718488839587659342" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="6442676317073799535" nodeInfo="ng">
         <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="6442676317073799534" resolveInfo="RPKM sample UFQHPXP-paper-combined-NA19193(AC)" />
@@ -1697,6 +1706,9 @@
       </node>
       <node role="visibleColumns" roleId="7c6v.2718488839587659342" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="6442676317073799539" nodeInfo="ng">
         <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="6442676317073799538" resolveInfo="RPKM sample IZAHVGL-paper-combined-NA19131(AC)" />
+        <node role="field" roleId="7c6v.4461009712883249667" type="7c6v.IndexedField" typeId="7c6v.3688269350663783371" id="6442676317075330273" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="RPKM sample IZAHVGL-paper-combined-NA19131(AC)" />
+        </node>
       </node>
       <node role="visibleColumns" roleId="7c6v.2718488839587659342" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="6442676317073799541" nodeInfo="ng">
         <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="6442676317073799540" resolveInfo="RPKM sample XXZKEFT-paper-combined-NA19138(AC)" />
@@ -2297,6 +2309,18 @@
       </node>
       <node role="visibleColumns" roleId="7c6v.2718488839587659342" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="6442676317073799949" nodeInfo="ng">
         <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="6442676317073799948" resolveInfo="t-test(AC)-BH-FDR-q-value" />
+      </node>
+      <node role="columnSelection" roleId="7c6v.1382465545655829234" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="6442676317073799525" nodeInfo="ng">
+        <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="6442676317073799524" resolveInfo="RPKM sample JWEFMTT-paper-combined-NA19171(AC)" />
+        <node role="field" roleId="7c6v.4461009712883249667" type="7c6v.IndexedField" typeId="7c6v.3688269350663783371" id="6442676317075182346" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="RPKM sample JWEFMTT-paper-combined-NA19171(AC)" />
+        </node>
+      </node>
+      <node role="columnSelection" roleId="7c6v.1382465545655829234" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="6442676317073799523" nodeInfo="ng">
+        <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="6442676317073799522" resolveInfo="RPKM sample VPSBPMK-paper-combined-NA18871(AC)" />
+        <node role="field" roleId="7c6v.4461009712883249667" type="7c6v.IndexedField" typeId="7c6v.3688269350663783371" id="6442676317075182804" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="RPKM sample VPSBPMK-paper-combined-NA18871(AC)" />
+        </node>
       </node>
     </node>
   </root>
