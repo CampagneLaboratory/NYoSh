@@ -4781,8 +4781,20 @@
       <property name="height" nameId="7c6v.1382465545654824559" value="300" />
       <property name="pageSize" nameId="7c6v.1382465545654648585" value="50" />
       <property name="indexBaseName" nameId="7c6v.6642819616994075174" value="/Users/fac2003/IdeaProjects/git/Lucene/test-data/tsv-to-db/lucene/UBCIPVC-stats.lucene.index" />
-      <node role="query" roleId="7c6v.3688269350664121203" type="7c6v.Query" typeId="7c6v.3688269350664395158" id="2959524855543714272" nodeInfo="ng" />
-      <node role="sortOrder" roleId="7c6v.214549661775847102" type="7c6v.SortOrder" typeId="7c6v.214549661775816073" id="2959524855543714273" nodeInfo="ng" />
+      <node role="query" roleId="7c6v.3688269350664121203" type="7c6v.Query" typeId="7c6v.3688269350664395158" id="2959524855543801253" nodeInfo="ng">
+        <node role="expression" roleId="7c6v.3688269350664395159" type="7c6v.FieldQuery" typeId="7c6v.3688269350663783363" id="2959524855543801258" nodeInfo="ng">
+          <link role="field" roleId="7c6v.3688269350663783368" targetNodeId="2959524855543801249" resolveInfo="element-id" />
+          <node role="expression" roleId="7c6v.3688269350663783364" type="7c6v.Term" typeId="7c6v.3688269350663666225" id="2959524855543805641" nodeInfo="ng">
+            <property name="term" nameId="7c6v.3688269350663674949" value="ENSG000002?13*" />
+          </node>
+        </node>
+      </node>
+      <node role="sortOrder" roleId="7c6v.214549661775847102" type="7c6v.SortOrder" typeId="7c6v.214549661775816073" id="2959524855543714273" nodeInfo="ng">
+        <node role="columns" roleId="7c6v.214549661775829237" type="7c6v.ColumnSort" typeId="7c6v.214549661775817568" id="2959524855543801251" nodeInfo="ng">
+          <property name="ascending" nameId="7c6v.214549661775817569" value="false" />
+          <link role="field" roleId="7c6v.214549661775840875" targetNodeId="2959524855543801249" resolveInfo="element-id" />
+        </node>
+      </node>
       <node role="columns" roleId="7c6v.2718488839587641498" type="7c6v.Column" typeId="7c6v.8794265050549986216" id="2959524855543714325" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="element-id" />
         <property name="internalName" nameId="7c6v.6295276321619058362" value="col_0" />
@@ -4971,9 +4983,6 @@
         <property name="index" nameId="7c6v.2718488839587704871" value="21" />
         <property name="isSearchable" nameId="7c6v.4461009712884923163" value="true" />
         <property name="type" nameId="7c6v.3000071662888680057" value="1" />
-      </node>
-      <node role="columnSelection" roleId="7c6v.1382465545655829234" type="7c6v.ColumnSelectionReference" typeId="7c6v.2718488839587659345" id="2959524855543714362" nodeInfo="ng">
-        <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="2959524855543714361" resolveInfo="RPKM sample JWEFMTT-paper-combined-NA19171(AC)" />
       </node>
       <node role="columns" roleId="7c6v.2718488839587641498" type="7c6v.Column" typeId="7c6v.8794265050549986216" id="2959524855543714363" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="RPKM sample LWMXCLV-paper-combined-NA18852(AC)" />
@@ -7107,6 +7116,9 @@
       </node>
       <node role="visibleColumns" roleId="7c6v.2718488839587659342" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="2959524855543714789" nodeInfo="ng">
         <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="2959524855543714325" resolveInfo="element-id" />
+        <node role="field" roleId="7c6v.4461009712883249667" type="7c6v.IndexedField" typeId="7c6v.3688269350663783371" id="2959524855543801249" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="element-id" />
+        </node>
       </node>
       <node role="visibleColumns" roleId="7c6v.2718488839587659342" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="2959524855543714790" nodeInfo="ng">
         <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="2959524855543714327" resolveInfo="element-type" />
