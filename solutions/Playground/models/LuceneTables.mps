@@ -13,7 +13,17 @@
       <property name="height" nameId="7c6v.1382465545654824559" value="300" />
       <property name="pageSize" nameId="7c6v.1382465545654648585" value="50" />
       <property name="indexBaseName" nameId="7c6v.6642819616994075174" value="/Users/fac2003/IdeaProjects/git/Lucene/test-data/tsv-to-db/lucene/UBCIPVC-stats.lucene.index" />
-      <node role="query" roleId="7c6v.3688269350664121203" type="7c6v.Query" typeId="7c6v.3688269350664395158" id="3842069646169225787" nodeInfo="ng" />
+      <node role="query" roleId="7c6v.3688269350664121203" type="7c6v.Query" typeId="7c6v.3688269350664395158" id="3842069646169225787" nodeInfo="ng">
+        <node role="expression" roleId="7c6v.3688269350664395159" type="7c6v.FieldQuery" typeId="7c6v.3688269350663783363" id="3842069646169625119" nodeInfo="ng">
+          <link role="field" roleId="7c6v.3688269350663783368" targetNodeId="3842069646169226728" resolveInfo="19238" />
+          <node role="expression" roleId="7c6v.3688269350663783364" type="7c6v.TermRangeSearch" typeId="7c6v.3688269350663788845" id="3842069646169625123" nodeInfo="ng">
+            <property name="fromInclusive" nameId="7c6v.3000071662887704900" value="true" />
+            <property name="toInclusive" nameId="7c6v.3000071662887704912" value="true" />
+            <property name="from" nameId="7c6v.3688269350663788848" value="10" />
+            <property name="to" nameId="7c6v.3688269350663788850" value="20" />
+          </node>
+        </node>
+      </node>
       <node role="columns" roleId="7c6v.2718488839587641498" type="7c6v.Column" typeId="7c6v.8794265050549986216" id="3842069646169225792" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="element-id" />
         <property name="internalName" nameId="7c6v.6295276321619058362" value="col_0" />
@@ -2303,7 +2313,7 @@
       <node role="visibleColumns" roleId="7c6v.2718488839587659342" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="3842069646169225797" nodeInfo="ng">
         <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="3842069646169225796" resolveInfo="RPKM sample YJZLISA-paper-combined-NA19238(AC)" />
         <node role="field" roleId="7c6v.4461009712883249667" type="7c6v.IndexedField" typeId="7c6v.3688269350663783371" id="3842069646169226728" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="RPKM sample YJZLISA-paper-combined-NA19238(AC)" />
+          <property name="name" nameId="tpck.1169194664001" value="19238" />
         </node>
       </node>
       <node role="visibleColumns" roleId="7c6v.2718488839587659342" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="3842069646169225799" nodeInfo="ng">
@@ -2312,43 +2322,10 @@
           <property name="name" nameId="tpck.1169194664001" value="RPKM sample JINCCGR-paper-combined-NA18520(AC)" />
         </node>
       </node>
-      <node role="visibleColumns" roleId="7c6v.2718488839587659342" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="3842069646169225801" nodeInfo="ng">
-        <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="3842069646169225800" resolveInfo="RPKM sample ISIZXCX-paper-combined-NA19210(AC)" />
-      </node>
-      <node role="visibleColumns" roleId="7c6v.2718488839587659342" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="3842069646169225803" nodeInfo="ng">
-        <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="3842069646169225802" resolveInfo="RPKM sample FLUKIGX-paper-combined-NA19204(AC)" />
-      </node>
-      <node role="visibleColumns" roleId="7c6v.2718488839587659342" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="3842069646169225805" nodeInfo="ng">
-        <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="3842069646169225804" resolveInfo="RPKM sample EXNJJGP-paper-combined-NA19207(AC)" />
-      </node>
-      <node role="visibleColumns" roleId="7c6v.2718488839587659342" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="3842069646169225807" nodeInfo="ng">
-        <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="3842069646169225806" resolveInfo="RPKM sample DQZBNPV-paper-combined-NA19098(AC)" />
-      </node>
-      <node role="visibleColumns" roleId="7c6v.2718488839587659342" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="3842069646169225809" nodeInfo="ng">
-        <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="3842069646169225808" resolveInfo="RPKM sample BGNVJRE-paper-combined-NA18502(AC)" />
-      </node>
-      <node role="visibleColumns" roleId="7c6v.2718488839587659342" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="3842069646169225811" nodeInfo="ng">
-        <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="3842069646169225810" resolveInfo="RPKM sample MZBKGSL-paper-combined-NA18855(AC)" />
-      </node>
-      <node role="visibleColumns" roleId="7c6v.2718488839587659342" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="3842069646169225813" nodeInfo="ng">
-        <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="3842069646169225812" resolveInfo="RPKM sample EKOSQCS-paper-combined-NA18522(AC)" />
-      </node>
-      <node role="visibleColumns" roleId="7c6v.2718488839587659342" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="3842069646169225815" nodeInfo="ng">
-        <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="3842069646169225814" resolveInfo="RPKM sample CGZTLNA-paper-combined-NA18913(AC)" />
-      </node>
-      <node role="visibleColumns" roleId="7c6v.2718488839587659342" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="3842069646169225817" nodeInfo="ng">
-        <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="3842069646169225816" resolveInfo="RPKM sample PYTZIAB-paper-combined-NA18862(AC)" />
-      </node>
-      <node role="visibleColumns" roleId="7c6v.2718488839587659342" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="3842069646169225819" nodeInfo="ng">
-        <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="3842069646169225818" resolveInfo="RPKM sample BTQBFVX-paper-combined-NA19190(AC)" />
-      </node>
-      <node role="visibleColumns" roleId="7c6v.2718488839587659342" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="3842069646169225821" nodeInfo="ng">
-        <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="3842069646169225820" resolveInfo="RPKM sample MUCKEEC-paper-combined-NA18501(AC)" />
-      </node>
       <node role="sortOrder" roleId="7c6v.214549661775847102" type="7c6v.SortOrder" typeId="7c6v.214549661775816073" id="3842069646169594170" nodeInfo="ng">
         <node role="columns" roleId="7c6v.214549661775829237" type="7c6v.ColumnSort" typeId="7c6v.214549661775817568" id="3842069646169594171" nodeInfo="ng">
           <property name="ascending" nameId="7c6v.214549661775817569" value="false" />
-          <link role="field" roleId="7c6v.214549661775840875" targetNodeId="3842069646169226728" resolveInfo="RPKM sample YJZLISA-paper-combined-NA19238(AC)" />
+          <link role="field" roleId="7c6v.214549661775840875" targetNodeId="3842069646169226728" resolveInfo="19238" />
         </node>
       </node>
     </node>
