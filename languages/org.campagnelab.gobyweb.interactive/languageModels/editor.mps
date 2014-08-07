@@ -3144,6 +3144,7 @@
                 </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="649332775242538593" nodeInfo="nn">
                   <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="lcm8.649332775226633004" resolveInfo="view" />
+                  <node role="actualArgument" roleId="tpee.1068499141038" type="hut6.EditorContextParameter" typeId="hut6.1879241968972006591" id="6275780264304577696" nodeInfo="ng" />
                   <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="649332775242538791" nodeInfo="nn">
                     <node role="operand" roleId="tpee.1197027771414" type="hut6.ButtonNodeParameter" typeId="hut6.1135156181802355102" id="649332775242538665" nodeInfo="ng" />
                     <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_GetAncestorOperation" typeId="tp25.1171407110247" id="649332775242542456" nodeInfo="nn">
