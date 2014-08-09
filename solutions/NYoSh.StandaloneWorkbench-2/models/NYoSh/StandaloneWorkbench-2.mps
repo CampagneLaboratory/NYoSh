@@ -543,6 +543,9 @@
             <property name="text" nameId="3ior.4903714810883755350" value="lib" />
           </node>
         </node>
+        <node role="children" roleId="3ior.7389400916848037006" type="3ior.BuildLayout_ImportContent" typeId="3ior.5610619299013057363" id="7354545406086584683" nodeInfo="ng">
+          <link role="target" roleId="3ior.5610619299013057365" targetNodeId="9b59.9178698721097113057" resolveInfo="lib" />
+        </node>
         <node role="children" roleId="3ior.7389400916848037006" type="3ior.BuildLayout_ImportContent" typeId="3ior.5610619299013057363" id="8967365873951532723" nodeInfo="ng">
           <link role="target" roleId="3ior.5610619299013057365" targetNodeId="ffeo.1392391688313033167" />
           <node role="selectors" roleId="3ior.6789562173791401562" type="3ior.BuildFileExcludeSelector" typeId="3ior.5248329904288051111" id="8967365873951532724" nodeInfo="ng">
@@ -578,12 +581,6 @@
         </node>
         <node role="children" roleId="3ior.7389400916848037006" type="kdzh.BuildMpsLayout_Plugin" typeId="kdzh.6592112598314498926" id="8967365873951532735" nodeInfo="ng">
           <link role="plugin" roleId="kdzh.6592112598314801433" targetNodeId="8967365873951532690" resolveInfo="NYoSh" />
-        </node>
-        <node role="children" roleId="3ior.7389400916848037006" type="3ior.BuildLayout_Comment" typeId="3ior.9126048691954557131" id="8967365873951532736" nodeInfo="ng">
-          <property name="text" nameId="3ior.9126048691954700811" value="optional plugins" />
-        </node>
-        <node role="children" roleId="3ior.7389400916848037006" type="3ior.BuildLayout_Import" typeId="3ior.841011766565753074" id="8967365873951532737" nodeInfo="ng">
-          <link role="target" roleId="3ior.841011766565753076" targetNodeId="ffeo.7688489240247950220" />
         </node>
         <node role="children" roleId="3ior.7389400916848037006" type="3ior.BuildLayout_Comment" typeId="3ior.9126048691954557131" id="8318417660238160094" nodeInfo="ng">
           <property name="text" nameId="3ior.9126048691954700811" value="optional plugins" />
@@ -673,12 +670,6 @@
       </node>
       <node role="content" roleId="kdzh.6592112598314499050" type="kdzh.BuildMps_IdeaPluginGroup" typeId="kdzh.6592112598314586625" id="8967365873951532695" nodeInfo="ng">
         <link role="group" roleId="kdzh.6592112598314586626" targetNodeId="8967365873951532689" resolveInfo="NYoSh" />
-      </node>
-      <node role="content" roleId="kdzh.6592112598314499050" type="kdzh.BuildMps_IdeaPluginGroup" typeId="kdzh.6592112598314586625" id="7354545406086465855" nodeInfo="ng">
-        <link role="group" roleId="kdzh.6592112598314586626" targetNodeId="9b59.9178698721097033458" resolveInfo="XChart" />
-      </node>
-      <node role="content" roleId="kdzh.6592112598314499050" type="kdzh.BuildMps_IdeaPluginModule" typeId="kdzh.6592112598314499036" id="7354545406086467827" nodeInfo="ng">
-        <link role="target" roleId="kdzh.6592112598314499037" targetNodeId="ffeo.2569834391839970945" resolveInfo="MPS.Workbench" />
       </node>
       <node role="dependencies" roleId="kdzh.6592112598314499028" type="kdzh.BuildMps_IdeaPluginDependency" typeId="kdzh.6592112598314499027" id="8967365873951532696" nodeInfo="ng">
         <link role="target" roleId="kdzh.6592112598314499066" targetNodeId="ffeo.4973949960459588488" />
