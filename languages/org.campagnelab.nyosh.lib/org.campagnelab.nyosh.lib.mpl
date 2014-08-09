@@ -23,16 +23,12 @@
       <sourceRoot location="mercury-api-1.0-SNAPSHOT.jar" />
     </modelRoot>
   </models>
-  <facets>
-    <facet type="tests" />
-    <facet type="java" />
-  </facets>
   <accessoryModels />
   <generators>
     <generator name="main" generatorUID="org.campagnelab.nyosh.lib#2108047589035521983" uuid="71502830-66bc-4ce0-bdbf-2d7ea7b83989">
       <models>
         <modelRoot contentPath="${module}" type="default">
-          <sourceRoot location="org.campagnelab.nyosh.lib.mpl" />
+          <sourceRoot location="generator" />
         </modelRoot>
       </models>
       <external-templates />
