@@ -21,6 +21,7 @@
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.textoutput/org.campagnelab.textoutput.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.ui/org.campagnelab.ui.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/NYoSh.MPS/NYoSh.MPS.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/NYoSh.StandaloneWorkbench-2/NYoSh.StandaloneWorkbench-2.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/NYoSh.build-plugins/NYoSh.build-plugins.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/NYoSh.idea3/NYoSh.IDEA.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/NYoSh.sandbox/NYoSh.sandbox.msd" folder="" />
