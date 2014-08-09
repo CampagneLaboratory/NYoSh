@@ -10,7 +10,7 @@
   </models>
   <accessoryModels />
   <generators>
-    <generator generatorUID="org.campagnelab.ssh#2967045841109792428" uuid="68cf30e6-6300-457f-b130-c14d555ad80a">
+    <generator name="" generatorUID="org.campagnelab.ssh#2967045841109792428" uuid="68cf30e6-6300-457f-b130-c14d555ad80a">
       <models>
         <modelRoot contentPath="${module}" type="default">
           <sourceRoot location="generator/template" />
