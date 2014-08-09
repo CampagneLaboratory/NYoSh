@@ -10,7 +10,7 @@
     <generator name="" generatorUID="org.campagnelab.gobyweb.interactive#2051553890368756015" uuid="97e24173-dc35-4e94-9e1c-ebaed6060641">
       <models>
         <modelRoot contentPath="${module}" type="default">
-          <sourceRoot location="generator/template" />
+          <sourceRoot location="generator" />
         </modelRoot>
       </models>
       <external-templates />
