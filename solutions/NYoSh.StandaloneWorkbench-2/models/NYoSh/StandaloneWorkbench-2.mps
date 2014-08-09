@@ -3165,10 +3165,10 @@
     </node>
     <node role="macros" roleId="3ior.5617550519002745378" type="3ior.BuildVariableMacro" typeId="3ior.3767587139141066978" id="8967365873951532948" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="version" />
-      <node role="initialValue" roleId="3ior.2755237150521975432" type="3ior.BuildVariableMacroInitWithString" typeId="3ior.2755237150521975431" id="8967365873951532949" nodeInfo="ng">
-        <node role="value" roleId="3ior.2755237150521975437" type="3ior.BuildString" typeId="3ior.4380385936562003279" id="8967365873951532950" nodeInfo="ng">
-          <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="8967365873951532951" nodeInfo="ng">
-            <property name="text" nameId="3ior.4903714810883755350" value="2.5" />
+      <node role="initialValue" roleId="3ior.2755237150521975432" type="3ior.BuildVariableMacroInitWithString" typeId="3ior.2755237150521975431" id="3528049990578343575" nodeInfo="ng">
+        <node role="value" roleId="3ior.2755237150521975437" type="3ior.BuildString" typeId="3ior.4380385936562003279" id="3528049990578343574" nodeInfo="ng">
+          <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="3528049990578343573" nodeInfo="ng">
+            <property name="text" nameId="3ior.4903714810883755350" value="2.0_EAP" />
           </node>
         </node>
       </node>
