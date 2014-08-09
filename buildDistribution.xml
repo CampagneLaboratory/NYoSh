@@ -3,7 +3,7 @@
   <property name="build.dir" location="build" />
   <property name="build.tmp" location="${build.dir}/tmp/NYoShDistribution" />
   <property name="build.layout" location="${build.dir}/artifacts/NYoShDistribution" />
-  <property name="mps_home" location="" />
+  <property name="mps_home" location="${basedir}/../../../../../Applications/MPS 3.1" />
   <property name="version" value="2.5" />
   <property name="artifacts.NYoSh" location="${build.dir}/artifacts/NYoSh" />
   <property file="${artifacts.NYoSh}/build.properties" prefix="import.NYoSh" />
