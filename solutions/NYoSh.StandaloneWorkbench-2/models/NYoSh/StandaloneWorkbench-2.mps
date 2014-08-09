@@ -674,6 +674,12 @@
       <node role="content" roleId="kdzh.6592112598314499050" type="kdzh.BuildMps_IdeaPluginGroup" typeId="kdzh.6592112598314586625" id="8967365873951532695" nodeInfo="ng">
         <link role="group" roleId="kdzh.6592112598314586626" targetNodeId="8967365873951532689" resolveInfo="NYoSh" />
       </node>
+      <node role="content" roleId="kdzh.6592112598314499050" type="kdzh.BuildMps_IdeaPluginGroup" typeId="kdzh.6592112598314586625" id="7354545406086465855" nodeInfo="ng">
+        <link role="group" roleId="kdzh.6592112598314586626" targetNodeId="9b59.9178698721097033458" resolveInfo="XChart" />
+      </node>
+      <node role="content" roleId="kdzh.6592112598314499050" type="kdzh.BuildMps_IdeaPluginModule" typeId="kdzh.6592112598314499036" id="7354545406086467827" nodeInfo="ng">
+        <link role="target" roleId="kdzh.6592112598314499037" targetNodeId="ffeo.2569834391839970945" resolveInfo="MPS.Workbench" />
+      </node>
       <node role="dependencies" roleId="kdzh.6592112598314499028" type="kdzh.BuildMps_IdeaPluginDependency" typeId="kdzh.6592112598314499027" id="8967365873951532696" nodeInfo="ng">
         <link role="target" roleId="kdzh.6592112598314499066" targetNodeId="ffeo.4973949960459588488" />
       </node>
@@ -1270,7 +1276,7 @@
         </node>
       </node>
       <node role="modules" roleId="kdzh.1500819558095907806" type="kdzh.BuildMps_Language" typeId="kdzh.3189788309731840248" id="8967365873951532598" nodeInfo="ng">
-        <property name="compact" nameId="kdzh.8369506495128725901" value="true" />
+        <property name="compact" nameId="kdzh.8369506495128725901" value="false" />
         <property name="name" nameId="tpck.1169194664001" value="org.campagnelab.nyosh.lib" />
         <property name="uuid" nameId="kdzh.322010710375892619" value="0202ed86-955d-4227-9c20-377dd6b1f9ff" />
         <property name="doNotCompile" nameId="kdzh.1500819558096356884" value="false" />
