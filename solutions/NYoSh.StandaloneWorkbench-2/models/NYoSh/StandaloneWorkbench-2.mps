@@ -47,12 +47,12 @@
       </node>
       <node role="shortName" roleId="kdzh.6108265972537372847" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="8967365873951532524" nodeInfo="ng">
         <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="8967365873951532525" nodeInfo="ng">
-          <property name="text" nameId="3ior.4903714810883755350" value="NYoSh" />
+          <property name="text" nameId="3ior.4903714810883755350" value="NYoSh Workbench" />
         </node>
       </node>
       <node role="fullName" roleId="kdzh.6108265972537372848" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="8967365873951532526" nodeInfo="ng">
         <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="8967365873951532527" nodeInfo="ng">
-          <property name="text" nameId="3ior.4903714810883755350" value="NYoSh" />
+          <property name="text" nameId="3ior.4903714810883755350" value="NYoSh Workbench" />
         </node>
       </node>
       <node role="codename" roleId="kdzh.3497141547781549827" type="3ior.BuildString" typeId="3ior.4380385936562003279" id="8967365873951532528" nodeInfo="ng">
@@ -123,6 +123,40 @@
           <property name="head" nameId="3ior.8618885170173601779" value="icons" />
           <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="8967365873951532554" nodeInfo="nn">
             <property name="head" nameId="3ior.8618885170173601779" value="dialogImage.png" />
+          </node>
+        </node>
+      </node>
+      <node role="updateWebsite" roleId="kdzh.6108265972537335245" type="kdzh.BuildMps_BrandingUpdateSite" typeId="kdzh.7753544965996489991" id="8241654540845603316" nodeInfo="ng">
+        <node role="checkUrl" roleId="kdzh.6108265972537335224" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="8241654540845603317" nodeInfo="ng">
+          <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="8241654540845607797" nodeInfo="ng">
+            <property name="text" nameId="3ior.4903714810883755350" value="http://campagnelab.org/files/nyosh-update.txt" />
+          </node>
+        </node>
+        <node role="updateUrl" roleId="kdzh.6108265972537335225" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="8241654540845603318" nodeInfo="ng">
+          <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="8241654540845614970" nodeInfo="ng">
+            <property name="text" nameId="3ior.4903714810883755350" value="http://campagnelab.org/software/nyosh/early-access-preview-download/" />
+          </node>
+        </node>
+        <node role="updateChannel" roleId="kdzh.8795525031433091059" type="3ior.BuildString" typeId="3ior.4380385936562003279" id="8241654540845613728" nodeInfo="ng">
+          <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="8241654540845613727" nodeInfo="ng">
+            <property name="text" nameId="3ior.4903714810883755350" value="NYoShWorkbenchEAP" />
+          </node>
+        </node>
+      </node>
+      <node role="help" roleId="kdzh.437343344536486297" type="kdzh.BuildMps_BrandingHelp" typeId="kdzh.7753544965996489992" id="3327308458745332418" nodeInfo="ng">
+        <node role="url" roleId="kdzh.437343344536486294" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="3327308458745332419" nodeInfo="ng">
+          <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="3327308458745332900" nodeInfo="ng">
+            <property name="text" nameId="3ior.4903714810883755350" value="http://nyosh.campagnelab.org" />
+          </node>
+        </node>
+        <node role="file" roleId="kdzh.437343344536486296" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="3327308458745332421" nodeInfo="ng">
+          <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="3528049990578216538" nodeInfo="ng">
+            <property name="text" nameId="3ior.4903714810883755350" value="help" />
+          </node>
+        </node>
+        <node role="root" roleId="kdzh.437343344536486295" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="3327308458745338217" nodeInfo="ng">
+          <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildVarRefStringPart" typeId="3ior.4903714810883702017" id="3327308458745338455" nodeInfo="ng">
+            <link role="macro" roleId="3ior.4903714810883702018" targetNodeId="8967365873951532506" resolveInfo="build.number" />
           </node>
         </node>
       </node>
@@ -666,7 +700,7 @@
       <property name="id" nameId="kdzh.6592112598314498927" value="NYoSh" />
       <node role="name" roleId="kdzh.6592112598314499021" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="8967365873951532691" nodeInfo="ng">
         <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="8967365873951532692" nodeInfo="ng">
-          <property name="text" nameId="3ior.4903714810883755350" value="NYoSh" />
+          <property name="text" nameId="3ior.4903714810883755350" value="NYoSh Workbench" />
         </node>
       </node>
       <node role="version" roleId="kdzh.6592112598314498931" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="8967365873951532693" nodeInfo="ng">
@@ -683,6 +717,23 @@
       <node role="containerName" roleId="kdzh.6592112598314855574" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="8967365873951532697" nodeInfo="ng">
         <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="8967365873951532698" nodeInfo="ng">
           <property name="text" nameId="3ior.4903714810883755350" value="NYoSh" />
+        </node>
+      </node>
+      <node role="description" roleId="kdzh.2172791612906637490" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="3528049990578218011" nodeInfo="ng">
+        <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="3528049990578218014" nodeInfo="ng">
+          <property name="text" nameId="3ior.4903714810883755350" value="Workbench for NYoSh (Not Your Ordinary Shell)" />
+        </node>
+      </node>
+      <node role="vendor" roleId="kdzh.7832771629084912518" type="kdzh.BuildMps_IdeaPluginVendor" typeId="kdzh.7832771629084799699" id="3327308458745340325" nodeInfo="ng">
+        <property name="name" nameId="kdzh.7832771629084799702" value="Campagne Laboratory" />
+        <property name="url" nameId="kdzh.7832771629084799701" value="http://nyosh.campagnelab.org" />
+        <node role="icon16" roleId="kdzh.7832771629084799700" type="3ior.BuildSourceProjectRelativePath" typeId="3ior.5481553824944787378" id="3528049990578219983" nodeInfo="ng">
+          <node role="compositePart" roleId="3ior.7321017245477039051" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="3528049990578219989" nodeInfo="nn">
+            <property name="head" nameId="3ior.8618885170173601779" value="icons" />
+            <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="3528049990578219995" nodeInfo="nn">
+              <property name="head" nameId="3ior.8618885170173601779" value="MPS16.png" />
+            </node>
+          </node>
         </node>
       </node>
     </node>
@@ -740,7 +791,7 @@
         </node>
       </node>
       <node role="modules" roleId="kdzh.1500819558095907806" type="kdzh.BuildMps_Language" typeId="kdzh.3189788309731840248" id="8967365873951532567" nodeInfo="ng">
-        <property name="compact" nameId="kdzh.8369506495128725901" value="false" />
+        <property name="compact" nameId="kdzh.8369506495128725901" value="true" />
         <property name="name" nameId="tpck.1169194664001" value="org.campagnelab.ssh" />
         <property name="uuid" nameId="kdzh.322010710375892619" value="857bd616-7b17-4127-8074-519f20641bdb" />
         <property name="doNotCompile" nameId="kdzh.1500819558096356884" value="false" />
@@ -901,7 +952,7 @@
         </node>
       </node>
       <node role="modules" roleId="kdzh.1500819558095907806" type="kdzh.BuildMps_Solution" typeId="kdzh.3189788309731840247" id="8967365873951532580" nodeInfo="ng">
-        <property name="compact" nameId="kdzh.8369506495128725901" value="false" />
+        <property name="compact" nameId="kdzh.8369506495128725901" value="true" />
         <property name="name" nameId="tpck.1169194664001" value="org.campagnelab.lucene.tableviewer.runtime" />
         <property name="uuid" nameId="kdzh.322010710375892619" value="9fdb2df2-db25-4874-9a5f-47e348e5bce7" />
         <property name="doNotCompile" nameId="kdzh.1500819558096356884" value="false" />
@@ -1273,7 +1324,7 @@
         </node>
       </node>
       <node role="modules" roleId="kdzh.1500819558095907806" type="kdzh.BuildMps_Language" typeId="kdzh.3189788309731840248" id="8967365873951532598" nodeInfo="ng">
-        <property name="compact" nameId="kdzh.8369506495128725901" value="false" />
+        <property name="compact" nameId="kdzh.8369506495128725901" value="true" />
         <property name="name" nameId="tpck.1169194664001" value="org.campagnelab.nyosh.lib" />
         <property name="uuid" nameId="kdzh.322010710375892619" value="0202ed86-955d-4227-9c20-377dd6b1f9ff" />
         <property name="doNotCompile" nameId="kdzh.1500819558096356884" value="false" />
@@ -1615,7 +1666,7 @@
         </node>
       </node>
       <node role="modules" roleId="kdzh.1500819558095907806" type="kdzh.BuildMps_Solution" typeId="kdzh.3189788309731840247" id="8967365873951532610" nodeInfo="ng">
-        <property name="compact" nameId="kdzh.8369506495128725901" value="false" />
+        <property name="compact" nameId="kdzh.8369506495128725901" value="true" />
         <property name="name" nameId="tpck.1169194664001" value="org.campagnelab.gobyweb.charts" />
         <property name="uuid" nameId="kdzh.322010710375892619" value="d9ae8a9f-744c-4fb7-8582-794c75c78cf4" />
         <property name="doNotCompile" nameId="kdzh.1500819558096356884" value="false" />
@@ -1794,7 +1845,7 @@
         </node>
       </node>
       <node role="modules" roleId="kdzh.1500819558095907806" type="kdzh.BuildMps_Solution" typeId="kdzh.3189788309731840247" id="8967365873951532634" nodeInfo="ng">
-        <property name="compact" nameId="kdzh.8369506495128725901" value="false" />
+        <property name="compact" nameId="kdzh.8369506495128725901" value="true" />
         <property name="name" nameId="tpck.1169194664001" value="org.campagnelab.gobyweb.interactive.viewers" />
         <property name="uuid" nameId="kdzh.322010710375892619" value="876624ad-a590-49cc-af36-d31b84c885cd" />
         <property name="doNotCompile" nameId="kdzh.1500819558096356884" value="false" />
@@ -3084,6 +3135,7 @@
           </node>
         </node>
       </node>
+      <node role="children" roleId="3ior.7389400916848037006" type="3ior.BuildLayout_Node" typeId="3ior.7389400916848036997" id="3528049990578200919" nodeInfo="ng" />
     </node>
     <node role="macros" roleId="3ior.5617550519002745378" type="3ior.BuildFolderMacro" typeId="3ior.7389400916848136194" id="7354545406087047137" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="mps_home" />
