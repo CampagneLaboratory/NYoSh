@@ -17,6 +17,9 @@
   <root type="3ior.BuildProject" typeId="3ior.5617550519002745363" id="8967365873951532501" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="NYoSh" />
     <property name="internalBaseDirectory" nameId="3ior.5204048710541015587" value="../../" />
+    <node role="aspects" roleId="3ior.3542413272732620719" type="kdzh.BuildMpsAspect" typeId="kdzh.6503355885715333289" id="5304979170837131514" nodeInfo="ng">
+      <property name="bootstrap" nameId="kdzh.6503355885715353788" value="true" />
+    </node>
     <node role="plugins" roleId="3ior.6647099934206700656" type="3ior.BuildJavaPlugin" typeId="3ior.6647099934206700647" id="8967365873951532502" nodeInfo="ng" />
     <node role="plugins" roleId="3ior.6647099934206700656" type="kdzh.BuildMPSPlugin" typeId="kdzh.868032131020265945" id="8967365873951532503" nodeInfo="ng" />
     <node role="parts" roleId="3ior.7389400916848080626" type="kdzh.BuildMps_Branding" typeId="kdzh.7753544965996377997" id="8967365873951532515" nodeInfo="ng">
