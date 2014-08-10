@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <unitInfo fileName="TypesystemDescriptor.java" startLine="8" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.gobyweb.environment.typesystem.TypesystemDescriptor" />
+  <root nodeRef="r:e37c2751-4299-4dc3-95ab-e93e92980d61(org.campagnelab.gobyweb.environment.typesystem)/731554740237430752">
+    <nodeInfo nodeId="731554740237430754" fileName="CheckGobyWebSourceInput_NonTypesystemRule.java" startLine="22" startPosition="126" endLine="23" endPosition="126" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="731554740237430764" fileName="CheckGobyWebSourceInput_NonTypesystemRule.java" startLine="25" startPosition="7" endLine="26" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="731554740237430764" fileName="CheckGobyWebSourceInput_NonTypesystemRule.java" startLine="26" startPosition="60" endLine="27" endPosition="326" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="731554740237430774" fileName="CheckGobyWebSourceInput_NonTypesystemRule.java" startLine="31" startPosition="7" endLine="32" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="731554740237430774" fileName="CheckGobyWebSourceInput_NonTypesystemRule.java" startLine="32" startPosition="60" endLine="33" endPosition="282" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="731554740237430794" fileName="CheckGobyWebSourceInput_NonTypesystemRule.java" startLine="37" startPosition="7" endLine="38" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="731554740237430794" fileName="CheckGobyWebSourceInput_NonTypesystemRule.java" startLine="38" startPosition="60" endLine="39" endPosition="284" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="731554740237430752" fileName="CheckGobyWebSourceInput_NonTypesystemRule.java" startLine="44" startPosition="46" endLine="45" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="731554740237430752" fileName="CheckGobyWebSourceInput_NonTypesystemRule.java" startLine="49" startPosition="5" endLine="50" endPosition="130" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="731554740237430752" fileName="CheckGobyWebSourceInput_NonTypesystemRule.java" startLine="50" startPosition="130" endLine="51" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="731554740237430752" fileName="CheckGobyWebSourceInput_NonTypesystemRule.java" startLine="55" startPosition="30" endLine="56" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="731554740237430791" fileName="CheckGobyWebSourceInput_NonTypesystemRule.java" startLine="59" startPosition="52" endLine="60" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="731554740237430752" fileName="CheckGobyWebSourceInput_NonTypesystemRule.java" startLine="19" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="CheckGobyWebSourceInput_NonTypesystemRule#()V" />
+    <nodeInfo nodeId="731554740237430752" fileName="CheckGobyWebSourceInput_NonTypesystemRule.java" startLine="44" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getApplicableConceptFQName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="731554740237430752" fileName="CheckGobyWebSourceInput_NonTypesystemRule.java" startLine="55" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="overrides#()Z" />
+    <nodeInfo nodeId="731554740237430791" fileName="CheckGobyWebSourceInput_NonTypesystemRule.java" startLine="59" startPosition="0" endLine="62" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="isEmptyString#(Ljava/lang/String;)Z" />
+    <nodeInfo nodeId="731554740237430764" fileName="CheckGobyWebSourceInput_NonTypesystemRule.java" startLine="24" startPosition="76" endLine="28" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="731554740237430774" fileName="CheckGobyWebSourceInput_NonTypesystemRule.java" startLine="30" startPosition="149" endLine="34" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="731554740237430794" fileName="CheckGobyWebSourceInput_NonTypesystemRule.java" startLine="36" startPosition="185" endLine="40" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="731554740237430752" fileName="CheckGobyWebSourceInput_NonTypesystemRule.java" startLine="48" startPosition="68" endLine="52" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="731554740237430762" fileName="CheckGobyWebSourceInput_NonTypesystemRule.java" startLine="23" startPosition="126" endLine="29" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="731554740237430772" fileName="CheckGobyWebSourceInput_NonTypesystemRule.java" startLine="29" startPosition="5" endLine="35" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="731554740237430792" fileName="CheckGobyWebSourceInput_NonTypesystemRule.java" startLine="35" startPosition="5" endLine="41" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="731554740237430752" fileName="CheckGobyWebSourceInput_NonTypesystemRule.java" startLine="48" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+    <nodeInfo nodeId="731554740237430752" fileName="CheckGobyWebSourceInput_NonTypesystemRule.java" startLine="22" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+    <scopeInfo nodeId="731554740237430752" fileName="CheckGobyWebSourceInput_NonTypesystemRule.java" startLine="19" startPosition="54" endLine="19" endPosition="54" />
+    <scopeInfo nodeId="731554740237430752" fileName="CheckGobyWebSourceInput_NonTypesystemRule.java" startLine="44" startPosition="46" endLine="45" endPosition="73" />
+    <scopeInfo nodeId="731554740237430752" fileName="CheckGobyWebSourceInput_NonTypesystemRule.java" startLine="55" startPosition="30" endLine="56" endPosition="17" />
+    <scopeInfo nodeId="731554740237430791" fileName="CheckGobyWebSourceInput_NonTypesystemRule.java" startLine="59" startPosition="52" endLine="60" endPosition="44" />
+    <scopeInfo nodeId="731554740237430752" fileName="CheckGobyWebSourceInput_NonTypesystemRule.java" startLine="19" startPosition="0" endLine="21" endPosition="0" />
+    <scopeInfo nodeId="731554740237430764" fileName="CheckGobyWebSourceInput_NonTypesystemRule.java" startLine="25" startPosition="7" endLine="27" endPosition="326">
+      <varInfo nodeId="731554740237430764" varName="_reporter_2309309498" />
+      <varInfo nodeId="731554740237430764" varName="errorTarget" />
+    </scopeInfo>
+    <scopeInfo nodeId="731554740237430774" fileName="CheckGobyWebSourceInput_NonTypesystemRule.java" startLine="31" startPosition="7" endLine="33" endPosition="282">
+      <varInfo nodeId="731554740237430774" varName="_reporter_2309309498" />
+      <varInfo nodeId="731554740237430774" varName="errorTarget" />
+    </scopeInfo>
+    <scopeInfo nodeId="731554740237430794" fileName="CheckGobyWebSourceInput_NonTypesystemRule.java" startLine="37" startPosition="7" endLine="39" endPosition="284">
+      <varInfo nodeId="731554740237430794" varName="_reporter_2309309498" />
+      <varInfo nodeId="731554740237430794" varName="errorTarget" />
+    </scopeInfo>
+    <scopeInfo nodeId="731554740237430752" fileName="CheckGobyWebSourceInput_NonTypesystemRule.java" startLine="49" startPosition="5" endLine="51" endPosition="45">
+      <varInfo nodeId="731554740237430752" varName="b" />
+    </scopeInfo>
+    <scopeInfo nodeId="731554740237430752" fileName="CheckGobyWebSourceInput_NonTypesystemRule.java" startLine="44" startPosition="0" endLine="47" endPosition="0" />
+    <scopeInfo nodeId="731554740237430752" fileName="CheckGobyWebSourceInput_NonTypesystemRule.java" startLine="55" startPosition="0" endLine="58" endPosition="0" />
+    <scopeInfo nodeId="731554740237430791" fileName="CheckGobyWebSourceInput_NonTypesystemRule.java" startLine="59" startPosition="0" endLine="62" endPosition="0">
+      <varInfo nodeId="731554740237430791" varName="str" />
+    </scopeInfo>
+    <scopeInfo nodeId="731554740237430763" fileName="CheckGobyWebSourceInput_NonTypesystemRule.java" startLine="24" startPosition="76" endLine="28" endPosition="7" />
+    <scopeInfo nodeId="731554740237430773" fileName="CheckGobyWebSourceInput_NonTypesystemRule.java" startLine="30" startPosition="149" endLine="34" endPosition="7" />
+    <scopeInfo nodeId="731554740237430793" fileName="CheckGobyWebSourceInput_NonTypesystemRule.java" startLine="36" startPosition="185" endLine="40" endPosition="7" />
+    <scopeInfo nodeId="731554740237430752" fileName="CheckGobyWebSourceInput_NonTypesystemRule.java" startLine="48" startPosition="68" endLine="52" endPosition="5" />
+    <scopeInfo nodeId="731554740237430752" fileName="CheckGobyWebSourceInput_NonTypesystemRule.java" startLine="48" startPosition="0" endLine="54" endPosition="0">
+      <varInfo nodeId="731554740237430752" varName="argument" />
+    </scopeInfo>
+    <scopeInfo nodeId="731554740237430753" fileName="CheckGobyWebSourceInput_NonTypesystemRule.java" startLine="22" startPosition="126" endLine="41" endPosition="5">
+      <varInfo nodeId="731554740237430755" varName="script" />
+    </scopeInfo>
+    <scopeInfo nodeId="731554740237430752" fileName="CheckGobyWebSourceInput_NonTypesystemRule.java" startLine="22" startPosition="0" endLine="43" endPosition="0">
+      <varInfo nodeId="731554740237430752" varName="gobyWebSource" />
+      <varInfo nodeId="731554740237430752" varName="status" />
+      <varInfo nodeId="731554740237430752" varName="typeCheckingContext" />
+    </scopeInfo>
+    <unitInfo nodeId="731554740237430752" fileName="CheckGobyWebSourceInput_NonTypesystemRule.java" startLine="18" startPosition="0" endLine="63" endPosition="0" unitName="org.campagnelab.gobyweb.environment.typesystem.CheckGobyWebSourceInput_NonTypesystemRule" />
+  </root>
+</debugInfo>
+

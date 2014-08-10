@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <root nodeRef="r:a0366b8f-5b1a-498b-9f47-b7dbade2c94e(org.campagnelab.textoutput.textGen)/6874736155931251408">
+    <nodeInfo nodeId="5493669862519986988" fileName="TextOutput_TextGen.java" startLine="13" startPosition="95" endLine="14" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1072453283799619905" fileName="TextOutput_TextGen.java" startLine="15" startPosition="101" endLine="16" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5493669862519990356" fileName="TextOutput_TextGen.java" startLine="17" startPosition="7" endLine="18" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4279449414579870427" fileName="TextOutput_TextGen.java" startLine="22" startPosition="42" endLine="23" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1072453283799572274" fileName="TextOutput_TextGen.java" startLine="14" startPosition="75" endLine="17" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="6874736155931251408" fileName="TextOutput_TextGen.java" startLine="22" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getExtension#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+    <nodeInfo nodeId="5493669862519943841" fileName="TextOutput_TextGen.java" startLine="12" startPosition="42" endLine="19" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="6874736155931251408" fileName="TextOutput_TextGen.java" startLine="12" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doGenerateText#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <scopeInfo nodeId="1072453283799572280" fileName="TextOutput_TextGen.java" startLine="15" startPosition="101" endLine="16" endPosition="79" />
+    <scopeInfo nodeId="6874736155931251408" fileName="TextOutput_TextGen.java" startLine="22" startPosition="42" endLine="23" endPosition="60" />
+    <scopeInfo nodeId="1072453283799572274" fileName="TextOutput_TextGen.java" startLine="14" startPosition="75" endLine="17" endPosition="7">
+      <varInfo nodeId="1072453283799572276" varName="phrase" />
+    </scopeInfo>
+    <scopeInfo nodeId="6874736155931251408" fileName="TextOutput_TextGen.java" startLine="22" startPosition="0" endLine="25" endPosition="0">
+      <varInfo nodeId="6874736155931251408" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="5493669862519943847" fileName="TextOutput_TextGen.java" startLine="13" startPosition="95" endLine="18" endPosition="36" />
+    <scopeInfo nodeId="5493669862519943841" fileName="TextOutput_TextGen.java" startLine="12" startPosition="42" endLine="19" endPosition="5">
+      <varInfo nodeId="5493669862519943843" varName="line" />
+    </scopeInfo>
+    <scopeInfo nodeId="6874736155931251408" fileName="TextOutput_TextGen.java" startLine="12" startPosition="42" endLine="19" endPosition="5" />
+    <scopeInfo nodeId="6874736155931251408" fileName="TextOutput_TextGen.java" startLine="12" startPosition="0" endLine="21" endPosition="0">
+      <varInfo nodeId="6874736155931251408" varName="node" />
+    </scopeInfo>
+    <unitInfo nodeId="6874736155931251408" fileName="TextOutput_TextGen.java" startLine="11" startPosition="0" endLine="26" endPosition="0" unitName="org.campagnelab.textoutput.textGen.TextOutput_TextGen" />
+  </root>
+</debugInfo>
+

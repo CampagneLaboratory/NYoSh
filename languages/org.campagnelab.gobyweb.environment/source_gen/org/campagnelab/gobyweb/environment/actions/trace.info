@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <unitInfo fileName="QueriesGenerated.java" startLine="10" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.gobyweb.environment.actions.QueriesGenerated" />
+  <root nodeRef="r:2774c99f-bf23-4605-9c09-521835502fba(org.campagnelab.gobyweb.environment.actions)/731554740237430813">
+    <nodeInfo nodeId="731554740237430817" fileName="QueriesGenerated.java" startLine="11" startPosition="152" endLine="12" endPosition="172" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="731554740237430825" fileName="QueriesGenerated.java" startLine="12" startPosition="172" endLine="13" endPosition="136" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="731554740237430815" fileName="QueriesGenerated.java" startLine="11" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="nodeFactory_NodeSetup_GobyWebSource_731554740237430815#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/action/NodeSetupContext;)V" />
+    <scopeInfo nodeId="731554740237430816" fileName="QueriesGenerated.java" startLine="11" startPosition="152" endLine="13" endPosition="136" />
+    <scopeInfo nodeId="731554740237430815" fileName="QueriesGenerated.java" startLine="11" startPosition="0" endLine="15" endPosition="0">
+      <varInfo nodeId="731554740237430815" varName="_context" />
+      <varInfo nodeId="731554740237430815" varName="operationContext" />
+    </scopeInfo>
+  </root>
+</debugInfo>
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <unitInfo fileName="QueriesGenerated.java" startLine="13" startPosition="0" endLine="29" endPosition="0" unitName="org.campagnelab.textoutput.actions.QueriesGenerated" />
+  <root nodeRef="r:3de17468-1ab7-4380-a3fb-42c2b2e96e30(org.campagnelab.textoutput.actions)/5493669862520042650">
+    <nodeInfo nodeId="5493669862520043138" fileName="QueriesGenerated.java" startLine="14" startPosition="150" endLine="15" endPosition="116" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1680136183140358479" fileName="QueriesGenerated.java" startLine="18" startPosition="144" endLine="19" endPosition="120" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4279449414583544514" fileName="QueriesGenerated.java" startLine="22" startPosition="146" endLine="23" endPosition="104" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4279449414583544884" fileName="QueriesGenerated.java" startLine="23" startPosition="104" endLine="24" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4279449414583624219" fileName="QueriesGenerated.java" startLine="24" startPosition="56" endLine="25" endPosition="163" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4279449414583695292" fileName="QueriesGenerated.java" startLine="25" startPosition="163" endLine="26" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5493669862520043132" fileName="QueriesGenerated.java" startLine="14" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="nodeFactory_NodeSetup_TextOutput_5493669862520043132#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/action/NodeSetupContext;)V" />
+    <nodeInfo nodeId="1680136183140358394" fileName="QueriesGenerated.java" startLine="18" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="nodeFactory_NodeSetup_Line_1680136183140358394#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/action/NodeSetupContext;)V" />
+    <nodeInfo nodeId="4279449414583385965" fileName="QueriesGenerated.java" startLine="22" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="nodeFactory_NodeSetup_Phrase_4279449414583385965#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/action/NodeSetupContext;)V" />
+    <scopeInfo nodeId="5493669862520043133" fileName="QueriesGenerated.java" startLine="14" startPosition="150" endLine="15" endPosition="116" />
+    <scopeInfo nodeId="1680136183140358395" fileName="QueriesGenerated.java" startLine="18" startPosition="144" endLine="19" endPosition="120" />
+    <scopeInfo nodeId="5493669862520043132" fileName="QueriesGenerated.java" startLine="14" startPosition="0" endLine="17" endPosition="0">
+      <varInfo nodeId="5493669862520043132" varName="_context" />
+      <varInfo nodeId="5493669862520043132" varName="operationContext" />
+    </scopeInfo>
+    <scopeInfo nodeId="1680136183140358394" fileName="QueriesGenerated.java" startLine="18" startPosition="0" endLine="21" endPosition="0">
+      <varInfo nodeId="1680136183140358394" varName="_context" />
+      <varInfo nodeId="1680136183140358394" varName="operationContext" />
+    </scopeInfo>
+    <scopeInfo nodeId="4279449414583385966" fileName="QueriesGenerated.java" startLine="22" startPosition="146" endLine="26" endPosition="54">
+      <varInfo nodeId="4279449414583544517" varName="newLine" />
+    </scopeInfo>
+    <scopeInfo nodeId="4279449414583385965" fileName="QueriesGenerated.java" startLine="22" startPosition="0" endLine="28" endPosition="0">
+      <varInfo nodeId="4279449414583385965" varName="_context" />
+      <varInfo nodeId="4279449414583385965" varName="operationContext" />
+    </scopeInfo>
+  </root>
+</debugInfo>
+
