@@ -2478,7 +2478,7 @@
     </javac>
   </target>
   
-  <target name="java.compile.org.campagnelab.NYoSh.samples" depends="java.compile.org.campagnelab.NYoSh, java.compile.org.campagnelab.nyosh.environment, java.compile.org.campagnelab.nyosh.gstring, java.compile.org.campagnelab.nyosh.lib, fetchDependencies">
+  <target name="java.compile.org.campagnelab.NYoSh.samples" depends="java.compile.org.campagnelab.nyosh.lib, fetchDependencies">
     <mkdir dir="${org.campagnelab.goby.workbench.home}/solutions/org.campagnelab.NYoSh.samples/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.NYoSh.samples" />
     <javac destdir="${build.tmp}/java/out/org.campagnelab.NYoSh.samples" fork="true" includeantruntime="false">
@@ -2496,9 +2496,6 @@
         <fileset file="${artifacts.mpsStandalone}/lib/mps-editor-runtime.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/mps-editor.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/mps-platform.jar" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.NYoSh" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.environment" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.gstring" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.lib" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/wildcard-1.03.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/commons-io-2.4.jar" />
@@ -2532,15 +2529,9 @@
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.closures.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.collections.jar" />
-        <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
-        <fileset file="${artifacts.mpsStandalone}/languages/util/jetbrains.mps.execution.util.jar" />
-        <fileset file="${artifacts.mpsStandalone}/languages/languageDesign/jetbrains.mps.lang.constraints.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
-        <fileset file="${artifacts.mpsStandalone}/languages/languageDesign/jetbrains.mps.lang.dataFlow.jar" />
-        <fileset file="${artifacts.mpsStandalone}/languages/languageDesign/jetbrains.mps.lang.scopes.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/languageDesign/jetbrains.mps.lang.scopes.runtime.jar" />
-        <fileset file="${artifacts.mpsStandalone}/languages/languageDesign/jetbrains.mps.lang.smodel.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       </classpath>
