@@ -3179,6 +3179,16 @@
         </node>
       </node>
     </node>
+    <node role="macros" roleId="3ior.5617550519002745378" type="3ior.BuildVariableMacro" typeId="3ior.3767587139141066978" id="360708803486252729" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="build.number" />
+      <node role="initialValue" roleId="3ior.2755237150521975432" type="3ior.BuildVariableMacroInitWithString" typeId="3ior.2755237150521975431" id="360708803486252747" nodeInfo="ng">
+        <node role="value" roleId="3ior.2755237150521975437" type="3ior.BuildString" typeId="3ior.4380385936562003279" id="360708803486252746" nodeInfo="ng">
+          <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildVarRefStringPart" typeId="3ior.4903714810883702017" id="360708803486252745" nodeInfo="ng">
+            <link role="macro" roleId="3ior.4903714810883702018" targetNodeId="8967365873951532506" resolveInfo="build.number" />
+          </node>
+        </node>
+      </node>
+    </node>
   </root>
 </model>
 
