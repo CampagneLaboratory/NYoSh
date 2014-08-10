@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <unitInfo fileName="FacetAspectDescriptor.java" startLine="17" startPosition="15" endLine="21" endPosition="5" unitName="org.campagnelab.gobyweb.plugin.FacetAspectDescriptor$1" />
+  <unitInfo fileName="FacetAspectDescriptor.java" startLine="9" startPosition="0" endLine="24" endPosition="0" unitName="org.campagnelab.gobyweb.plugin.FacetAspectDescriptor" />
+  <unitInfo fileName="FacetManifest.java" startLine="24" startPosition="55" endLine="28" endPosition="5" unitName="org.campagnelab.gobyweb.plugin.FacetManifest$1" />
+  <unitInfo fileName="FacetManifest.java" startLine="12" startPosition="0" endLine="31" endPosition="0" unitName="org.campagnelab.gobyweb.plugin.FacetManifest" />
+  <root nodeRef="r:325805a6-322b-4ae7-b776-c6ca84a1a365(org.campagnelab.gobyweb.plugin)/1090105717921668629">
+    <nodeInfo nodeId="1090105717921668629" fileName="SomeTuple.java" startLine="13" startPosition="22" endLine="14" endPosition="12" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="1090105717921668629" fileName="SomeTuple.java" startLine="17" startPosition="60" endLine="18" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="1090105717921668629" fileName="SomeTuple.java" startLine="21" startPosition="40" endLine="22" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1090105717921668629" fileName="SomeTuple.java" startLine="25" startPosition="47" endLine="26" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1090105717921668629" fileName="SomeTuple.java" startLine="29" startPosition="27" endLine="30" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1090105717921668629" fileName="SomeTuple.java" startLine="33" startPosition="35" endLine="34" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1090105717921668629" fileName="SomeTuple.java" startLine="38" startPosition="64" endLine="39" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1090105717921668638" fileName="SomeTuple.java" startLine="42" startPosition="28" endLine="43" endPosition="89" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1090105717921668629" fileName="SomeTuple.java" startLine="13" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="SomeTuple#()V" />
+    <nodeInfo nodeId="1090105717921668629" fileName="SomeTuple.java" startLine="17" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="SomeTuple#(Lorg/jetbrains/mps/openapi/module/SModule;Lorg/jetbrains/mps/openapi/model/SModel;)V" />
+    <nodeInfo nodeId="1090105717921668629" fileName="SomeTuple.java" startLine="21" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="module#(Lorg/jetbrains/mps/openapi/module/SModule;)Lorg/jetbrains/mps/openapi/module/SModule;" />
+    <nodeInfo nodeId="1090105717921668629" fileName="SomeTuple.java" startLine="25" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="modelDescriptor#(Lorg/jetbrains/mps/openapi/model/SModel;)Lorg/jetbrains/mps/openapi/model/SModel;" />
+    <nodeInfo nodeId="1090105717921668629" fileName="SomeTuple.java" startLine="29" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="module#()Lorg/jetbrains/mps/openapi/module/SModule;" />
+    <nodeInfo nodeId="1090105717921668629" fileName="SomeTuple.java" startLine="33" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="modelDescriptor#()Lorg/jetbrains/mps/openapi/model/SModel;" />
+    <nodeInfo nodeId="1090105717921668634" fileName="SomeTuple.java" startLine="42" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="describe#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1090105717921668629" fileName="SomeTuple.java" startLine="37" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="assignFrom#(Ljetbrains/mps/baseLanguage/tuples/runtime/Tuples/_2;)Lorg/campagnelab/gobyweb/plugin/SomeTuple;" />
+    <scopeInfo nodeId="1090105717921668629" fileName="SomeTuple.java" startLine="13" startPosition="22" endLine="14" endPosition="12" />
+    <scopeInfo nodeId="1090105717921668629" fileName="SomeTuple.java" startLine="17" startPosition="60" endLine="18" endPosition="35" />
+    <scopeInfo nodeId="1090105717921668629" fileName="SomeTuple.java" startLine="21" startPosition="40" endLine="22" endPosition="27" />
+    <scopeInfo nodeId="1090105717921668629" fileName="SomeTuple.java" startLine="25" startPosition="47" endLine="26" endPosition="27" />
+    <scopeInfo nodeId="1090105717921668629" fileName="SomeTuple.java" startLine="29" startPosition="27" endLine="30" endPosition="22" />
+    <scopeInfo nodeId="1090105717921668629" fileName="SomeTuple.java" startLine="33" startPosition="35" endLine="34" endPosition="22" />
+    <scopeInfo nodeId="1090105717921668629" fileName="SomeTuple.java" startLine="38" startPosition="64" endLine="39" endPosition="42" />
+    <scopeInfo nodeId="1090105717921668637" fileName="SomeTuple.java" startLine="42" startPosition="28" endLine="43" endPosition="89" />
+    <scopeInfo nodeId="1090105717921668629" fileName="SomeTuple.java" startLine="13" startPosition="0" endLine="16" endPosition="0" />
+    <scopeInfo nodeId="1090105717921668629" fileName="SomeTuple.java" startLine="17" startPosition="0" endLine="20" endPosition="0">
+      <varInfo nodeId="1090105717921668629" varName="modelDescriptor" />
+      <varInfo nodeId="1090105717921668629" varName="module" />
+    </scopeInfo>
+    <scopeInfo nodeId="1090105717921668629" fileName="SomeTuple.java" startLine="21" startPosition="0" endLine="24" endPosition="0">
+      <varInfo nodeId="1090105717921668629" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1090105717921668629" fileName="SomeTuple.java" startLine="25" startPosition="0" endLine="28" endPosition="0">
+      <varInfo nodeId="1090105717921668629" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1090105717921668629" fileName="SomeTuple.java" startLine="29" startPosition="0" endLine="32" endPosition="0" />
+    <scopeInfo nodeId="1090105717921668629" fileName="SomeTuple.java" startLine="33" startPosition="0" endLine="36" endPosition="0" />
+    <scopeInfo nodeId="1090105717921668634" fileName="SomeTuple.java" startLine="42" startPosition="0" endLine="45" endPosition="0" />
+    <scopeInfo nodeId="1090105717921668629" fileName="SomeTuple.java" startLine="37" startPosition="0" endLine="41" endPosition="0">
+      <varInfo nodeId="1090105717921668629" varName="from" />
+    </scopeInfo>
+    <unitInfo nodeId="1090105717921668629" fileName="SomeTuple.java" startLine="12" startPosition="0" endLine="46" endPosition="0" unitName="org.campagnelab.gobyweb.plugin.SomeTuple" />
+  </root>
+  <root nodeRef="r:325805a6-322b-4ae7-b776-c6ca84a1a365(org.campagnelab.gobyweb.plugin)/1090105717921668649">
+    <nodeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="54" startPosition="0" endLine="55" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="targets" />
+    <nodeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="55" startPosition="0" endLine="56" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="name" />
+    <nodeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="57" startPosition="38" endLine="58" endPosition="106" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="61" startPosition="38" endLine="62" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="65" startPosition="43" endLine="66" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="69" startPosition="43" endLine="70" endPosition="273" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="73" startPosition="43" endLine="74" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="77" startPosition="32" endLine="78" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="81" startPosition="57" endLine="82" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="86" startPosition="0" endLine="87" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="name" />
+    <nodeInfo nodeId="1090105717921668658" fileName="CopyClassesToPlugin_Facet.java" startLine="94" startPosition="173" endLine="95" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1090105717921668658" fileName="CopyClassesToPlugin_Facet.java" startLine="95" startPosition="56" endLine="96" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1090105717921668660" fileName="CopyClassesToPlugin_Facet.java" startLine="98" startPosition="19" endLine="99" endPosition="165" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1090105717921668683" fileName="CopyClassesToPlugin_Facet.java" startLine="101" startPosition="53" endLine="102" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1090105717921668692" fileName="CopyClassesToPlugin_Facet.java" startLine="105" startPosition="51" endLine="106" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1090105717921668708" fileName="CopyClassesToPlugin_Facet.java" startLine="111" startPosition="44" endLine="112" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1090105717921668718" fileName="CopyClassesToPlugin_Facet.java" startLine="115" startPosition="42" endLine="116" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1090105717921668726" fileName="CopyClassesToPlugin_Facet.java" startLine="118" startPosition="15" endLine="119" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1090105717921668732" fileName="CopyClassesToPlugin_Facet.java" startLine="119" startPosition="60" endLine="120" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1090105717921668739" fileName="CopyClassesToPlugin_Facet.java" startLine="120" startPosition="69" endLine="121" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="1090105717921668740" fileName="CopyClassesToPlugin_Facet.java" startLine="121" startPosition="0" endLine="122" endPosition="89" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1090105717921668747" fileName="CopyClassesToPlugin_Facet.java" startLine="122" startPosition="89" endLine="123" endPosition="123" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1090105717921668758" fileName="CopyClassesToPlugin_Facet.java" startLine="123" startPosition="123" endLine="124" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="1090105717921668763" fileName="CopyClassesToPlugin_Facet.java" startLine="126" startPosition="42" endLine="127" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1090105717921668769" fileName="CopyClassesToPlugin_Facet.java" startLine="129" startPosition="42" endLine="130" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1090105717921668782" fileName="CopyClassesToPlugin_Facet.java" startLine="132" startPosition="70" endLine="133" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1090105717921668793" fileName="CopyClassesToPlugin_Facet.java" startLine="134" startPosition="17" endLine="135" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1090105717921668807" fileName="CopyClassesToPlugin_Facet.java" startLine="136" startPosition="36" endLine="137" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="1090105717921668809" fileName="CopyClassesToPlugin_Facet.java" startLine="137" startPosition="37" endLine="138" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="1090105717921668811" fileName="CopyClassesToPlugin_Facet.java" startLine="139" startPosition="44" endLine="140" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1090105717921668813" fileName="CopyClassesToPlugin_Facet.java" startLine="141" startPosition="19" endLine="142" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ContinueStatement" />
+    <nodeInfo nodeId="1090105717921668820" fileName="CopyClassesToPlugin_Facet.java" startLine="144" startPosition="48" endLine="145" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="1090105717921668822" fileName="CopyClassesToPlugin_Facet.java" startLine="146" startPosition="44" endLine="147" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1090105717921668824" fileName="CopyClassesToPlugin_Facet.java" startLine="148" startPosition="19" endLine="149" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ContinueStatement" />
+    <nodeInfo nodeId="1090105717921668825" fileName="CopyClassesToPlugin_Facet.java" startLine="150" startPosition="17" endLine="151" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="3173353997355749815" fileName="CopyClassesToPlugin_Facet.java" startLine="151" startPosition="0" endLine="152" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1090105717921668826" fileName="CopyClassesToPlugin_Facet.java" startLine="152" startPosition="72" endLine="153" endPosition="163" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1090105717921668844" fileName="CopyClassesToPlugin_Facet.java" startLine="154" startPosition="55" endLine="155" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="1090105717921668851" fileName="CopyClassesToPlugin_Facet.java" startLine="156" startPosition="44" endLine="157" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4164691987238764005" fileName="CopyClassesToPlugin_Facet.java" startLine="159" startPosition="17" endLine="160" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1090105717921668866" fileName="CopyClassesToPlugin_Facet.java" startLine="160" startPosition="86" endLine="161" endPosition="106" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="7250703404906824652" fileName="CopyClassesToPlugin_Facet.java" startLine="165" startPosition="48" endLine="166" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3173353997347039585" fileName="CopyClassesToPlugin_Facet.java" startLine="168" startPosition="23" endLine="169" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1072453283809237241" fileName="CopyClassesToPlugin_Facet.java" startLine="170" startPosition="167" endLine="171" endPosition="178" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4164691987238776946" fileName="CopyClassesToPlugin_Facet.java" startLine="172" startPosition="151" endLine="173" endPosition="337" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4164691987239170714" fileName="CopyClassesToPlugin_Facet.java" startLine="175" startPosition="54" endLine="176" endPosition="97" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4164691987239393972" fileName="CopyClassesToPlugin_Facet.java" startLine="184" startPosition="62" endLine="185" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4164691987239393984" fileName="CopyClassesToPlugin_Facet.java" startLine="187" startPosition="56" endLine="188" endPosition="137" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4164691987239393988" fileName="CopyClassesToPlugin_Facet.java" startLine="191" startPosition="44" endLine="192" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4164691987239393992" fileName="CopyClassesToPlugin_Facet.java" startLine="193" startPosition="19" endLine="194" endPosition="76" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4248297622993864694" fileName="CopyClassesToPlugin_Facet.java" startLine="194" startPosition="76" endLine="195" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="4164691987239394017" fileName="CopyClassesToPlugin_Facet.java" startLine="196" startPosition="44" endLine="197" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4248297622993844762" fileName="CopyClassesToPlugin_Facet.java" startLine="198" startPosition="19" endLine="199" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="4164691987239394029" fileName="CopyClassesToPlugin_Facet.java" startLine="200" startPosition="44" endLine="201" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2608982068110365347" fileName="CopyClassesToPlugin_Facet.java" startLine="204" startPosition="57" endLine="205" endPosition="147" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4248297622986500440" fileName="CopyClassesToPlugin_Facet.java" startLine="205" startPosition="147" endLine="206" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4248297622984811388" fileName="CopyClassesToPlugin_Facet.java" startLine="209" startPosition="23" endLine="210" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2608982068111714014" fileName="CopyClassesToPlugin_Facet.java" startLine="210" startPosition="86" endLine="211" endPosition="176" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4248297622984836062" fileName="CopyClassesToPlugin_Facet.java" startLine="211" startPosition="176" endLine="212" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4248297622995618346" fileName="CopyClassesToPlugin_Facet.java" startLine="213" startPosition="45" endLine="214" endPosition="142" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4248297622985592061" fileName="CopyClassesToPlugin_Facet.java" startLine="215" startPosition="56" endLine="216" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1090105717921668995" fileName="CopyClassesToPlugin_Facet.java" startLine="219" startPosition="17" endLine="220" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="1090105717921668996" fileName="CopyClassesToPlugin_Facet.java" startLine="220" startPosition="0" endLine="221" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1090105717921669037" fileName="CopyClassesToPlugin_Facet.java" startLine="222" startPosition="15" endLine="223" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="1090105717921669044" fileName="CopyClassesToPlugin_Facet.java" startLine="223" startPosition="0" endLine="224" endPosition="140" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1090105717921669046" fileName="CopyClassesToPlugin_Facet.java" startLine="224" startPosition="140" endLine="225" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1090105717921669047" fileName="CopyClassesToPlugin_Facet.java" startLine="225" startPosition="61" endLine="226" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="1090105717921668658" fileName="CopyClassesToPlugin_Facet.java" startLine="227" startPosition="20" endLine="228" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="234" startPosition="35" endLine="235" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="238" startPosition="46" endLine="239" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="242" startPosition="43" endLine="243" endPosition="119" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="246" startPosition="47" endLine="247" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="250" startPosition="44" endLine="251" endPosition="114" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="254" startPosition="35" endLine="255" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="258" startPosition="33" endLine="259" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="262" startPosition="36" endLine="263" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="266" startPosition="37" endLine="267" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="270" startPosition="65" endLine="271" endPosition="111" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="271" startPosition="111" endLine="272" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="272" startPosition="60" endLine="273" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="276" startPosition="66" endLine="277" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="280" startPosition="49" endLine="281" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="284" startPosition="61" endLine="285" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="286" startPosition="22" endLine="287" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="288" startPosition="7" endLine="289" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="292" startPosition="31" endLine="293" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="296" startPosition="111" endLine="297" endPosition="107" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1090105717921669050" fileName="CopyClassesToPlugin_Facet.java" startLine="301" startPosition="27" endLine="302" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="1090105717921669050" fileName="CopyClassesToPlugin_Facet.java" startLine="305" startPosition="50" endLine="306" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="1090105717921669050" fileName="CopyClassesToPlugin_Facet.java" startLine="309" startPosition="51" endLine="310" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1090105717921669050" fileName="CopyClassesToPlugin_Facet.java" startLine="313" startPosition="40" endLine="314" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1090105717921669050" fileName="CopyClassesToPlugin_Facet.java" startLine="318" startPosition="112" endLine="319" endPosition="100" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4164691987238739393" fileName="CopyClassesToPlugin_Facet.java" startLine="323" startPosition="57" endLine="324" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="333" startPosition="7" endLine="334" endPosition="112" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="335" startPosition="45" endLine="336" endPosition="181" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="336" startPosition="181" endLine="337" endPosition="132" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="344" startPosition="9" endLine="345" endPosition="114" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="345" startPosition="114" endLine="346" endPosition="181" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="347" startPosition="140" endLine="348" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="356" startPosition="0" endLine="357" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="LOG" />
+    <nodeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="88" startPosition="0" endLine="90" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="Target_CopyClassesToPlugin#()V" />
+    <nodeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="329" startPosition="0" endLine="331" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="TargetProperties#()V" />
+    <nodeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="57" startPosition="0" endLine="60" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="CopyClassesToPlugin_Facet#()V" />
+    <nodeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="61" startPosition="0" endLine="64" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="targets#()Ljava/lang/Iterable;" />
+    <nodeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="65" startPosition="0" endLine="68" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="optional#()Ljava/lang/Iterable;" />
+    <nodeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="69" startPosition="0" endLine="72" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="required#()Ljava/lang/Iterable;" />
+    <nodeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="73" startPosition="0" endLine="76" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="extended#()Ljava/lang/Iterable;" />
+    <nodeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="77" startPosition="0" endLine="80" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getName#()Ljetbrains/mps/make/facet/IFacet/Name;" />
+    <nodeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="81" startPosition="0" endLine="84" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="propertiesPersistence#()Ljetbrains/mps/make/resources/IPropertiesPersistence;" />
+    <nodeInfo nodeId="1090105717921668681" fileName="CopyClassesToPlugin_Facet.java" startLine="101" startPosition="0" endLine="104" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Ljetbrains/mps/smodel/resources/TResource;)Lorg/jetbrains/mps/openapi/module/SModule;" />
+    <nodeInfo nodeId="1090105717921668690" fileName="CopyClassesToPlugin_Facet.java" startLine="105" startPosition="0" endLine="108" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Lorg/jetbrains/mps/openapi/module/SModule;)Z" />
+    <nodeInfo nodeId="1090105717921668708" fileName="CopyClassesToPlugin_Facet.java" startLine="110" startPosition="57" endLine="113" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1090105717921668708" fileName="CopyClassesToPlugin_Facet.java" startLine="110" startPosition="57" endLine="113" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1090105717921668718" fileName="CopyClassesToPlugin_Facet.java" startLine="114" startPosition="17" endLine="117" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1090105717921668718" fileName="CopyClassesToPlugin_Facet.java" startLine="114" startPosition="17" endLine="117" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1090105717921668763" fileName="CopyClassesToPlugin_Facet.java" startLine="125" startPosition="73" endLine="128" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1090105717921668763" fileName="CopyClassesToPlugin_Facet.java" startLine="125" startPosition="73" endLine="128" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1090105717921668769" fileName="CopyClassesToPlugin_Facet.java" startLine="128" startPosition="17" endLine="131" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1090105717921668769" fileName="CopyClassesToPlugin_Facet.java" startLine="128" startPosition="17" endLine="131" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1090105717921668775" fileName="CopyClassesToPlugin_Facet.java" startLine="131" startPosition="17" endLine="134" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="1090105717921668811" fileName="CopyClassesToPlugin_Facet.java" startLine="138" startPosition="42" endLine="141" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1090105717921668811" fileName="CopyClassesToPlugin_Facet.java" startLine="138" startPosition="42" endLine="141" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1090105717921668822" fileName="CopyClassesToPlugin_Facet.java" startLine="145" startPosition="50" endLine="148" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1090105717921668822" fileName="CopyClassesToPlugin_Facet.java" startLine="145" startPosition="50" endLine="148" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1090105717921668851" fileName="CopyClassesToPlugin_Facet.java" startLine="155" startPosition="28" endLine="158" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1090105717921668851" fileName="CopyClassesToPlugin_Facet.java" startLine="155" startPosition="28" endLine="158" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="7250703404906824652" fileName="CopyClassesToPlugin_Facet.java" startLine="164" startPosition="82" endLine="167" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="7250703404906824652" fileName="CopyClassesToPlugin_Facet.java" startLine="164" startPosition="82" endLine="167" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4164691987239170714" fileName="CopyClassesToPlugin_Facet.java" startLine="174" startPosition="34" endLine="177" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4164691987239170714" fileName="CopyClassesToPlugin_Facet.java" startLine="174" startPosition="34" endLine="177" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4164691987239393984" fileName="CopyClassesToPlugin_Facet.java" startLine="186" startPosition="50" endLine="189" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4164691987239393984" fileName="CopyClassesToPlugin_Facet.java" startLine="186" startPosition="50" endLine="189" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4164691987239393988" fileName="CopyClassesToPlugin_Facet.java" startLine="190" startPosition="19" endLine="193" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4164691987239393988" fileName="CopyClassesToPlugin_Facet.java" startLine="190" startPosition="19" endLine="193" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4164691987239394017" fileName="CopyClassesToPlugin_Facet.java" startLine="195" startPosition="28" endLine="198" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4164691987239394017" fileName="CopyClassesToPlugin_Facet.java" startLine="195" startPosition="28" endLine="198" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4164691987239394029" fileName="CopyClassesToPlugin_Facet.java" startLine="199" startPosition="28" endLine="202" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4164691987239394029" fileName="CopyClassesToPlugin_Facet.java" startLine="199" startPosition="28" endLine="202" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4248297622985592061" fileName="CopyClassesToPlugin_Facet.java" startLine="214" startPosition="142" endLine="217" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4248297622985592061" fileName="CopyClassesToPlugin_Facet.java" startLine="214" startPosition="142" endLine="217" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="234" startPosition="0" endLine="237" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConfig#()Ljetbrains/mps/make/script/IConfig;" />
+    <nodeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="238" startPosition="0" endLine="241" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="notAfter#()Ljava/lang/Iterable;" />
+    <nodeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="242" startPosition="0" endLine="245" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="after#()Ljava/lang/Iterable;" />
+    <nodeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="246" startPosition="0" endLine="249" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="notBefore#()Ljava/lang/Iterable;" />
+    <nodeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="250" startPosition="0" endLine="253" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="before#()Ljava/lang/Iterable;" />
+    <nodeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="254" startPosition="0" endLine="257" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getName#()Ljetbrains/mps/make/facet/ITarget/Name;" />
+    <nodeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="258" startPosition="0" endLine="261" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isOptional#()Z" />
+    <nodeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="262" startPosition="0" endLine="265" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="requiresInput#()Z" />
+    <nodeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="266" startPosition="0" endLine="269" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="producesOutput#()Z" />
+    <nodeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="276" startPosition="0" endLine="279" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="expectedOutput#()Ljava/lang/Iterable;" />
+    <nodeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="280" startPosition="0" endLine="283" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createParameters#(Ljava/lang/Class;)null" />
+    <nodeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="285" startPosition="34" endLine="288" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="292" startPosition="0" endLine="295" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="workEstimate#()I" />
+    <nodeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="296" startPosition="0" endLine="299" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="vars#(Ljetbrains/mps/make/script/IPropertiesPool;)Lorg/campagnelab/gobyweb/plugin/CopyClassesToPlugin_Facet/Target_CopyClassesToPlugin/Parameters;" />
+    <nodeInfo nodeId="1090105717921669050" fileName="CopyClassesToPlugin_Facet.java" startLine="301" startPosition="0" endLine="304" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="Parameters#()V" />
+    <nodeInfo nodeId="1090105717921669050" fileName="CopyClassesToPlugin_Facet.java" startLine="305" startPosition="0" endLine="308" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="Parameters#(Ljetbrains/mps/vfs/IFile;)V" />
+    <nodeInfo nodeId="1090105717921669050" fileName="CopyClassesToPlugin_Facet.java" startLine="309" startPosition="0" endLine="312" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="gobywebPluginRoot#(Ljetbrains/mps/vfs/IFile;)Ljetbrains/mps/vfs/IFile;" />
+    <nodeInfo nodeId="1090105717921669050" fileName="CopyClassesToPlugin_Facet.java" startLine="313" startPosition="0" endLine="316" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="gobywebPluginRoot#()Ljetbrains/mps/vfs/IFile;" />
+    <nodeInfo nodeId="4164691987238739393" fileName="CopyClassesToPlugin_Facet.java" startLine="323" startPosition="0" endLine="326" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="isNotEmptyString#(Ljava/lang/String;)Z" />
+    <nodeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="346" startPosition="181" endLine="349" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4164691987239155883" fileName="CopyClassesToPlugin_Facet.java" startLine="174" startPosition="32" endLine="178" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4248297622986438516" fileName="CopyClassesToPlugin_Facet.java" startLine="203" startPosition="59" endLine="207" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1090105717921669050" fileName="CopyClassesToPlugin_Facet.java" startLine="317" startPosition="0" endLine="321" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="assignFrom#(Ljetbrains/mps/baseLanguage/tuples/runtime/Tuples/_1;)Lorg/campagnelab/gobyweb/plugin/CopyClassesToPlugin_Facet/Target_CopyClassesToPlugin/Parameters;" />
+    <nodeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="334" startPosition="112" endLine="338" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1090105717921668703" fileName="CopyClassesToPlugin_Facet.java" startLine="109" startPosition="47" endLine="114" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="4164691987239393978" fileName="CopyClassesToPlugin_Facet.java" startLine="185" startPosition="71" endLine="190" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="270" startPosition="0" endLine="275" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="expectedInput#()Ljava/lang/Iterable;" />
+    <nodeInfo nodeId="1090105717921668842" fileName="CopyClassesToPlugin_Facet.java" startLine="153" startPosition="163" endLine="159" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4164691987239394035" fileName="CopyClassesToPlugin_Facet.java" startLine="202" startPosition="19" endLine="208" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="1090105717921668814" fileName="CopyClassesToPlugin_Facet.java" startLine="143" startPosition="17" endLine="150" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4164691987238598787" fileName="CopyClassesToPlugin_Facet.java" startLine="171" startPosition="178" endLine="178" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="284" startPosition="0" endLine="291" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createParameters#(Ljava/lang/Class;null)null" />
+    <nodeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="332" startPosition="84" endLine="339" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="343" startPosition="11" endLine="350" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1090105717921668802" fileName="CopyClassesToPlugin_Facet.java" startLine="135" startPosition="86" endLine="143" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1090105717921668671" fileName="CopyClassesToPlugin_Facet.java" startLine="99" startPosition="165" endLine="108" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="332" startPosition="0" endLine="341" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="storeValues#(Ljava/util/Map;Ljetbrains/mps/make/script/IPropertiesPool;)V" />
+    <nodeInfo nodeId="1090105717921668700" fileName="CopyClassesToPlugin_Facet.java" startLine="108" startPosition="29" endLine="118" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="3173353997347039585" fileName="CopyClassesToPlugin_Facet.java" startLine="169" startPosition="48" endLine="179" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4248297622985558847" fileName="CopyClassesToPlugin_Facet.java" startLine="208" startPosition="19" endLine="218" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
+    <nodeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="342" startPosition="83" endLine="352" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
+    <nodeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="342" startPosition="0" endLine="354" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="loadValues#(Ljava/util/Map;Ljetbrains/mps/make/script/IPropertiesPool;)V" />
+    <nodeInfo nodeId="3173353997347039585" fileName="CopyClassesToPlugin_Facet.java" startLine="167" startPosition="23" endLine="180" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1090105717921668871" fileName="CopyClassesToPlugin_Facet.java" startLine="163" startPosition="37" endLine="181" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="1090105717921668869" fileName="CopyClassesToPlugin_Facet.java" startLine="163" startPosition="0" endLine="183" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="run#()V" />
+    <nodeInfo nodeId="1090105717921668868" fileName="CopyClassesToPlugin_Facet.java" startLine="161" startPosition="106" endLine="183" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4164691987239360415" fileName="CopyClassesToPlugin_Facet.java" startLine="183" startPosition="19" endLine="219" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1090105717921668759" fileName="CopyClassesToPlugin_Facet.java" startLine="124" startPosition="0" endLine="222" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="1090105717921668658" fileName="CopyClassesToPlugin_Facet.java" startLine="96" startPosition="86" endLine="229" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.SwitchStatement" />
+    <nodeInfo nodeId="1090105717921668658" fileName="CopyClassesToPlugin_Facet.java" startLine="93" startPosition="0" endLine="231" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljava/lang/Iterable;Ljetbrains/mps/make/script/IJobMonitor;Ljetbrains/mps/make/resources/IPropertiesAccessor;Lorg/jetbrains/mps/openapi/util/ProgressMonitor;)Ljetbrains/mps/make/script/IResult;" />
+    <nodeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="91" startPosition="29" endLine="231" endPosition="8" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="91" startPosition="0" endLine="233" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createJob#()Ljetbrains/mps/make/script/IJob;" />
+    <scopeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="88" startPosition="41" endLine="88" endPosition="41" />
+    <scopeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="329" startPosition="31" endLine="329" endPosition="31" />
+    <scopeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="351" startPosition="0" endLine="351" endPosition="37">
+      <varInfo nodeId="1090105717921668649" varName="re" />
+    </scopeInfo>
+    <scopeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="351" startPosition="37" endLine="351" endPosition="37" />
+    <scopeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="57" startPosition="38" endLine="58" endPosition="106" />
+    <scopeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="61" startPosition="38" endLine="62" endPosition="19" />
+    <scopeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="65" startPosition="43" endLine="66" endPosition="16" />
+    <scopeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="69" startPosition="43" endLine="70" endPosition="273" />
+    <scopeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="73" startPosition="43" endLine="74" endPosition="16" />
+    <scopeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="77" startPosition="32" endLine="78" endPosition="21" />
+    <scopeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="81" startPosition="57" endLine="82" endPosition="60" />
+    <scopeInfo nodeId="1090105717921668682" fileName="CopyClassesToPlugin_Facet.java" startLine="101" startPosition="53" endLine="102" endPosition="37" />
+    <scopeInfo nodeId="1090105717921668691" fileName="CopyClassesToPlugin_Facet.java" startLine="105" startPosition="51" endLine="106" endPosition="62" />
+    <scopeInfo nodeId="1090105717921668708" fileName="CopyClassesToPlugin_Facet.java" startLine="111" startPosition="44" endLine="112" endPosition="73" />
+    <scopeInfo nodeId="1090105717921668718" fileName="CopyClassesToPlugin_Facet.java" startLine="115" startPosition="42" endLine="116" endPosition="59" />
+    <scopeInfo nodeId="1090105717921668763" fileName="CopyClassesToPlugin_Facet.java" startLine="126" startPosition="42" endLine="127" endPosition="59" />
+    <scopeInfo nodeId="1090105717921668769" fileName="CopyClassesToPlugin_Facet.java" startLine="129" startPosition="42" endLine="130" endPosition="77" />
+    <scopeInfo nodeId="1090105717921668781" fileName="CopyClassesToPlugin_Facet.java" startLine="132" startPosition="70" endLine="133" endPosition="66" />
+    <scopeInfo nodeId="1090105717921668811" fileName="CopyClassesToPlugin_Facet.java" startLine="139" startPosition="44" endLine="140" endPosition="48" />
+    <scopeInfo nodeId="1090105717921668822" fileName="CopyClassesToPlugin_Facet.java" startLine="146" startPosition="44" endLine="147" endPosition="51" />
+    <scopeInfo nodeId="1090105717921668851" fileName="CopyClassesToPlugin_Facet.java" startLine="156" startPosition="44" endLine="157" endPosition="78" />
+    <scopeInfo nodeId="7250703404906824652" fileName="CopyClassesToPlugin_Facet.java" startLine="165" startPosition="48" endLine="166" endPosition="84" />
+    <scopeInfo nodeId="4164691987238598790" fileName="CopyClassesToPlugin_Facet.java" startLine="172" startPosition="151" endLine="173" endPosition="337" />
+    <scopeInfo nodeId="4164691987239170714" fileName="CopyClassesToPlugin_Facet.java" startLine="175" startPosition="54" endLine="176" endPosition="97" />
+    <scopeInfo nodeId="4164691987239393984" fileName="CopyClassesToPlugin_Facet.java" startLine="187" startPosition="56" endLine="188" endPosition="137" />
+    <scopeInfo nodeId="4164691987239393988" fileName="CopyClassesToPlugin_Facet.java" startLine="191" startPosition="44" endLine="192" endPosition="70" />
+    <scopeInfo nodeId="4164691987239394017" fileName="CopyClassesToPlugin_Facet.java" startLine="196" startPosition="44" endLine="197" endPosition="75" />
+    <scopeInfo nodeId="4164691987239394029" fileName="CopyClassesToPlugin_Facet.java" startLine="200" startPosition="44" endLine="201" endPosition="52" />
+    <scopeInfo nodeId="4248297622985592061" fileName="CopyClassesToPlugin_Facet.java" startLine="215" startPosition="56" endLine="216" endPosition="82" />
+    <scopeInfo nodeId="1090105717921668658" fileName="CopyClassesToPlugin_Facet.java" startLine="227" startPosition="20" endLine="228" endPosition="61" />
+    <scopeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="234" startPosition="35" endLine="235" endPosition="18" />
+    <scopeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="238" startPosition="46" endLine="239" endPosition="18" />
+    <scopeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="242" startPosition="43" endLine="243" endPosition="119" />
+    <scopeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="246" startPosition="47" endLine="247" endPosition="18" />
+    <scopeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="250" startPosition="44" endLine="251" endPosition="114" />
+    <scopeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="254" startPosition="35" endLine="255" endPosition="18" />
+    <scopeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="258" startPosition="33" endLine="259" endPosition="19" />
+    <scopeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="262" startPosition="36" endLine="263" endPosition="18" />
+    <scopeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="266" startPosition="37" endLine="267" endPosition="19" />
+    <scopeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="276" startPosition="66" endLine="277" endPosition="18" />
+    <scopeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="280" startPosition="49" endLine="281" endPosition="40" />
+    <scopeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="286" startPosition="22" endLine="287" endPosition="53" />
+    <scopeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="292" startPosition="31" endLine="293" endPosition="17" />
+    <scopeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="296" startPosition="111" endLine="297" endPosition="107" />
+    <scopeInfo nodeId="1090105717921669050" fileName="CopyClassesToPlugin_Facet.java" startLine="301" startPosition="27" endLine="302" endPosition="16" />
+    <scopeInfo nodeId="1090105717921669050" fileName="CopyClassesToPlugin_Facet.java" startLine="305" startPosition="50" endLine="306" endPosition="33" />
+    <scopeInfo nodeId="1090105717921669050" fileName="CopyClassesToPlugin_Facet.java" startLine="309" startPosition="51" endLine="310" endPosition="31" />
+    <scopeInfo nodeId="1090105717921669050" fileName="CopyClassesToPlugin_Facet.java" startLine="313" startPosition="40" endLine="314" endPosition="26" />
+    <scopeInfo nodeId="1090105717921669050" fileName="CopyClassesToPlugin_Facet.java" startLine="318" startPosition="112" endLine="319" endPosition="100" />
+    <scopeInfo nodeId="4164691987238739393" fileName="CopyClassesToPlugin_Facet.java" startLine="323" startPosition="57" endLine="324" endPosition="45" />
+    <scopeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="347" startPosition="140" endLine="348" endPosition="42" />
+    <scopeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="88" startPosition="0" endLine="90" endPosition="0" />
+    <scopeInfo nodeId="4248297622986438519" fileName="CopyClassesToPlugin_Facet.java" startLine="204" startPosition="57" endLine="206" endPosition="61" />
+    <scopeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="329" startPosition="0" endLine="331" endPosition="0" />
+    <scopeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="335" startPosition="45" endLine="337" endPosition="132">
+      <varInfo nodeId="1090105717921668649" varName="props" />
+    </scopeInfo>
+    <scopeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="57" startPosition="0" endLine="60" endPosition="0" />
+    <scopeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="61" startPosition="0" endLine="64" endPosition="0" />
+    <scopeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="65" startPosition="0" endLine="68" endPosition="0" />
+    <scopeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="69" startPosition="0" endLine="72" endPosition="0" />
+    <scopeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="73" startPosition="0" endLine="76" endPosition="0" />
+    <scopeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="77" startPosition="0" endLine="80" endPosition="0" />
+    <scopeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="81" startPosition="0" endLine="84" endPosition="0" />
+    <scopeInfo nodeId="1090105717921668681" fileName="CopyClassesToPlugin_Facet.java" startLine="101" startPosition="0" endLine="104" endPosition="0">
+      <varInfo nodeId="1090105717921668681" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="1090105717921668690" fileName="CopyClassesToPlugin_Facet.java" startLine="105" startPosition="0" endLine="108" endPosition="0">
+      <varInfo nodeId="1090105717921668690" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="1090105717921668707" fileName="CopyClassesToPlugin_Facet.java" startLine="110" startPosition="57" endLine="113" endPosition="19" />
+    <scopeInfo nodeId="1090105717921668708" fileName="CopyClassesToPlugin_Facet.java" startLine="110" startPosition="57" endLine="113" endPosition="19" />
+    <scopeInfo nodeId="1090105717921668718" fileName="CopyClassesToPlugin_Facet.java" startLine="114" startPosition="17" endLine="117" endPosition="17" />
+    <scopeInfo nodeId="1090105717921668763" fileName="CopyClassesToPlugin_Facet.java" startLine="125" startPosition="73" endLine="128" endPosition="17" />
+    <scopeInfo nodeId="1090105717921668769" fileName="CopyClassesToPlugin_Facet.java" startLine="128" startPosition="17" endLine="131" endPosition="17" />
+    <scopeInfo nodeId="1090105717921668775" fileName="CopyClassesToPlugin_Facet.java" startLine="131" startPosition="17" endLine="134" endPosition="17">
+      <varInfo nodeId="1090105717921668791" varName="facet" />
+    </scopeInfo>
+    <scopeInfo nodeId="1090105717921668811" fileName="CopyClassesToPlugin_Facet.java" startLine="138" startPosition="42" endLine="141" endPosition="19" />
+    <scopeInfo nodeId="1090105717921668822" fileName="CopyClassesToPlugin_Facet.java" startLine="145" startPosition="50" endLine="148" endPosition="19" />
+    <scopeInfo nodeId="1090105717921668851" fileName="CopyClassesToPlugin_Facet.java" startLine="155" startPosition="28" endLine="158" endPosition="19" />
+    <scopeInfo nodeId="7250703404906824652" fileName="CopyClassesToPlugin_Facet.java" startLine="164" startPosition="82" endLine="167" endPosition="23" />
+    <scopeInfo nodeId="4164691987239155884" fileName="CopyClassesToPlugin_Facet.java" startLine="174" startPosition="34" endLine="177" endPosition="29" />
+    <scopeInfo nodeId="4164691987239170714" fileName="CopyClassesToPlugin_Facet.java" startLine="174" startPosition="34" endLine="177" endPosition="29" />
+    <scopeInfo nodeId="4164691987239393983" fileName="CopyClassesToPlugin_Facet.java" startLine="186" startPosition="50" endLine="189" endPosition="21" />
+    <scopeInfo nodeId="4164691987239393984" fileName="CopyClassesToPlugin_Facet.java" startLine="186" startPosition="50" endLine="189" endPosition="21" />
+    <scopeInfo nodeId="4164691987239393988" fileName="CopyClassesToPlugin_Facet.java" startLine="190" startPosition="19" endLine="193" endPosition="19" />
+    <scopeInfo nodeId="4164691987239394017" fileName="CopyClassesToPlugin_Facet.java" startLine="195" startPosition="28" endLine="198" endPosition="19" />
+    <scopeInfo nodeId="4164691987239394029" fileName="CopyClassesToPlugin_Facet.java" startLine="199" startPosition="28" endLine="202" endPosition="19" />
+    <scopeInfo nodeId="4248297622985558849" fileName="CopyClassesToPlugin_Facet.java" startLine="209" startPosition="23" endLine="212" endPosition="95">
+      <varInfo nodeId="4248297622984811391" varName="pluginJar" />
+    </scopeInfo>
+    <scopeInfo nodeId="4248297622985592061" fileName="CopyClassesToPlugin_Facet.java" startLine="214" startPosition="142" endLine="217" endPosition="21" />
+    <scopeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="234" startPosition="0" endLine="237" endPosition="0" />
+    <scopeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="238" startPosition="0" endLine="241" endPosition="0" />
+    <scopeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="242" startPosition="0" endLine="245" endPosition="0" />
+    <scopeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="246" startPosition="0" endLine="249" endPosition="0" />
+    <scopeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="250" startPosition="0" endLine="253" endPosition="0" />
+    <scopeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="254" startPosition="0" endLine="257" endPosition="0" />
+    <scopeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="258" startPosition="0" endLine="261" endPosition="0" />
+    <scopeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="262" startPosition="0" endLine="265" endPosition="0" />
+    <scopeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="266" startPosition="0" endLine="269" endPosition="0" />
+    <scopeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="270" startPosition="65" endLine="273" endPosition="16">
+      <varInfo nodeId="1090105717921668654" varName="rv" />
+    </scopeInfo>
+    <scopeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="276" startPosition="0" endLine="279" endPosition="0" />
+    <scopeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="280" startPosition="0" endLine="283" endPosition="0">
+      <varInfo nodeId="1090105717921668654" varName="cls" />
+    </scopeInfo>
+    <scopeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="292" startPosition="0" endLine="295" endPosition="0" />
+    <scopeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="296" startPosition="0" endLine="299" endPosition="0">
+      <varInfo nodeId="1090105717921668654" varName="ppool" />
+    </scopeInfo>
+    <scopeInfo nodeId="1090105717921669050" fileName="CopyClassesToPlugin_Facet.java" startLine="301" startPosition="0" endLine="304" endPosition="0" />
+    <scopeInfo nodeId="1090105717921669050" fileName="CopyClassesToPlugin_Facet.java" startLine="305" startPosition="0" endLine="308" endPosition="0">
+      <varInfo nodeId="1090105717921669050" varName="gobywebPluginRoot" />
+    </scopeInfo>
+    <scopeInfo nodeId="1090105717921669050" fileName="CopyClassesToPlugin_Facet.java" startLine="309" startPosition="0" endLine="312" endPosition="0">
+      <varInfo nodeId="1090105717921669050" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1090105717921669050" fileName="CopyClassesToPlugin_Facet.java" startLine="313" startPosition="0" endLine="316" endPosition="0" />
+    <scopeInfo nodeId="4164691987238739393" fileName="CopyClassesToPlugin_Facet.java" startLine="323" startPosition="0" endLine="326" endPosition="0">
+      <varInfo nodeId="4164691987238739393" varName="str" />
+    </scopeInfo>
+    <scopeInfo nodeId="1090105717921668843" fileName="CopyClassesToPlugin_Facet.java" startLine="154" startPosition="55" endLine="158" endPosition="19" />
+    <scopeInfo nodeId="4164691987239394036" fileName="CopyClassesToPlugin_Facet.java" startLine="203" startPosition="59" endLine="207" endPosition="21" />
+    <scopeInfo nodeId="4248297622985558850" fileName="CopyClassesToPlugin_Facet.java" startLine="213" startPosition="0" endLine="217" endPosition="21">
+      <varInfo nodeId="4248297622985558852" varName="ioe" />
+    </scopeInfo>
+    <scopeInfo nodeId="4248297622985558856" fileName="CopyClassesToPlugin_Facet.java" startLine="213" startPosition="45" endLine="217" endPosition="21" />
+    <scopeInfo nodeId="1090105717921669050" fileName="CopyClassesToPlugin_Facet.java" startLine="317" startPosition="0" endLine="321" endPosition="0">
+      <varInfo nodeId="1090105717921669050" varName="from" />
+    </scopeInfo>
+    <scopeInfo nodeId="1090105717921668703" fileName="CopyClassesToPlugin_Facet.java" startLine="109" startPosition="47" endLine="114" endPosition="17">
+      <varInfo nodeId="1090105717921668716" varName="model" />
+    </scopeInfo>
+    <scopeInfo nodeId="1090105717921668819" fileName="CopyClassesToPlugin_Facet.java" startLine="144" startPosition="48" endLine="149" endPosition="27" />
+    <scopeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="270" startPosition="0" endLine="275" endPosition="0" />
+    <scopeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="284" startPosition="61" endLine="289" endPosition="15">
+      <varInfo nodeId="1090105717921668654" varName="t" />
+    </scopeInfo>
+    <scopeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="333" startPosition="7" endLine="338" endPosition="9">
+      <varInfo nodeId="1090105717921668649" varName="name" />
+    </scopeInfo>
+    <scopeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="344" startPosition="9" endLine="349" endPosition="11">
+      <varInfo nodeId="1090105717921668649" varName="name" />
+      <varInfo nodeId="1090105717921668649" varName="props" />
+    </scopeInfo>
+    <scopeInfo nodeId="1090105717921668806" fileName="CopyClassesToPlugin_Facet.java" startLine="136" startPosition="36" endLine="142" endPosition="27" />
+    <scopeInfo nodeId="4164691987239394035" fileName="CopyClassesToPlugin_Facet.java" startLine="202" startPosition="19" endLine="208" endPosition="19">
+      <varInfo nodeId="4164691987239394110" varName="file" />
+    </scopeInfo>
+    <scopeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="284" startPosition="0" endLine="291" endPosition="0">
+      <varInfo nodeId="1090105717921668654" varName="cls" />
+      <varInfo nodeId="1090105717921668654" varName="copyFrom" />
+    </scopeInfo>
+    <scopeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="332" startPosition="84" endLine="339" endPosition="7" />
+    <scopeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="343" startPosition="11" endLine="350" endPosition="9" />
+    <scopeInfo nodeId="1090105717921668702" fileName="CopyClassesToPlugin_Facet.java" startLine="109" startPosition="47" endLine="117" endPosition="17" />
+    <scopeInfo nodeId="3173353997347039589" fileName="CopyClassesToPlugin_Facet.java" startLine="170" startPosition="167" endLine="178" endPosition="27">
+      <varInfo nodeId="1072453283809237244" varName="pluginScript" />
+    </scopeInfo>
+    <scopeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="332" startPosition="0" endLine="341" endPosition="0">
+      <varInfo nodeId="1090105717921668649" varName="properties" />
+      <varInfo nodeId="1090105717921668649" varName="store" />
+    </scopeInfo>
+    <scopeInfo nodeId="1090105717921668700" fileName="CopyClassesToPlugin_Facet.java" startLine="108" startPosition="29" endLine="118" endPosition="15">
+      <varInfo nodeId="1090105717921668724" varName="module" />
+    </scopeInfo>
+    <scopeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="342" startPosition="83" endLine="352" endPosition="7" />
+    <scopeInfo nodeId="3173353997347039585" fileName="CopyClassesToPlugin_Facet.java" startLine="168" startPosition="23" endLine="179" endPosition="25">
+      <varInfo nodeId="3173353997347039585" varName="script" />
+    </scopeInfo>
+    <scopeInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="342" startPosition="0" endLine="354" endPosition="0">
+      <varInfo nodeId="1090105717921668649" varName="properties" />
+      <varInfo nodeId="1090105717921668649" varName="store" />
+    </scopeInfo>
+    <scopeInfo nodeId="1090105717921668877" fileName="CopyClassesToPlugin_Facet.java" startLine="164" startPosition="82" endLine="180" endPosition="23" />
+    <scopeInfo nodeId="1090105717921668870" fileName="CopyClassesToPlugin_Facet.java" startLine="163" startPosition="37" endLine="181" endPosition="21" />
+    <scopeInfo nodeId="1090105717921668871" fileName="CopyClassesToPlugin_Facet.java" startLine="163" startPosition="37" endLine="181" endPosition="21">
+      <varInfo nodeId="1090105717921668915" varName="rootNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="1090105717921668869" fileName="CopyClassesToPlugin_Facet.java" startLine="163" startPosition="0" endLine="183" endPosition="0" />
+    <scopeInfo nodeId="4164691987239360418" fileName="CopyClassesToPlugin_Facet.java" startLine="184" startPosition="62" endLine="218" endPosition="19">
+      <varInfo nodeId="4164691987239393973" varName="pluginRootDir" />
+      <varInfo nodeId="4164691987239393993" varName="sourceDir" />
+    </scopeInfo>
+    <scopeInfo nodeId="1090105717921668762" fileName="CopyClassesToPlugin_Facet.java" startLine="125" startPosition="73" endLine="221" endPosition="146">
+      <varInfo nodeId="3173353997355749813" varName="classesGenDirectory" />
+      <varInfo nodeId="4164691987238764008" varName="destinationPath" />
+      <varInfo nodeId="1090105717921668827" varName="directoryWithClasses" />
+      <varInfo nodeId="1090105717921668794" varName="facet" />
+    </scopeInfo>
+    <scopeInfo nodeId="1090105717921668759" fileName="CopyClassesToPlugin_Facet.java" startLine="124" startPosition="0" endLine="222" endPosition="15">
+      <varInfo nodeId="1090105717921668761" varName="tres" />
+    </scopeInfo>
+    <scopeInfo nodeId="1090105717921668658" fileName="CopyClassesToPlugin_Facet.java" startLine="98" startPosition="19" endLine="226" endPosition="0">
+      <varInfo nodeId="1090105717921668672" varName="compiled" />
+      <varInfo nodeId="1090105717921668748" varName="toCopy" />
+      <varInfo nodeId="1090105717921668741" varName="toCreate" />
+    </scopeInfo>
+    <scopeInfo nodeId="1090105717921668658" fileName="CopyClassesToPlugin_Facet.java" startLine="94" startPosition="173" endLine="229" endPosition="11">
+      <varInfo nodeId="1090105717921668658" varName="_output_1puym7_a0a" />
+      <varInfo nodeId="1090105717921668658" varName="input" />
+    </scopeInfo>
+    <scopeInfo nodeId="1090105717921668658" fileName="CopyClassesToPlugin_Facet.java" startLine="93" startPosition="0" endLine="231" endPosition="0">
+      <varInfo nodeId="1090105717921668658" varName="monitor" />
+      <varInfo nodeId="1090105717921668658" varName="pa" />
+      <varInfo nodeId="1090105717921668658" varName="progressMonitor" />
+      <varInfo nodeId="1090105717921668658" varName="rawInput" />
+    </scopeInfo>
+    <scopeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="91" startPosition="29" endLine="231" endPosition="8" />
+    <scopeInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="91" startPosition="0" endLine="233" endPosition="0" />
+    <unitInfo nodeId="1090105717921668681" fileName="CopyClassesToPlugin_Facet.java" startLine="100" startPosition="132" endLine="104" endPosition="15" unitName="org.campagnelab.gobyweb.plugin.CopyClassesToPlugin_Facet$2" />
+    <unitInfo nodeId="1090105717921668690" fileName="CopyClassesToPlugin_Facet.java" startLine="104" startPosition="27" endLine="108" endPosition="15" unitName="org.campagnelab.gobyweb.plugin.CopyClassesToPlugin_Facet$2" />
+    <unitInfo nodeId="1090105717921668869" fileName="CopyClassesToPlugin_Facet.java" startLine="162" startPosition="57" endLine="183" endPosition="17" unitName="org.campagnelab.gobyweb.plugin.CopyClassesToPlugin_Facet$2" />
+    <unitInfo nodeId="1090105717921669050" fileName="CopyClassesToPlugin_Facet.java" startLine="300" startPosition="0" endLine="322" endPosition="0" unitName="org.campagnelab.gobyweb.plugin.CopyClassesToPlugin_Facet$Target_CopyClassesToPlugin$Parameters" />
+    <unitInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="328" startPosition="0" endLine="355" endPosition="0" unitName="org.campagnelab.gobyweb.plugin.CopyClassesToPlugin_Facet$TargetProperties" />
+    <unitInfo nodeId="1090105717921668658" fileName="CopyClassesToPlugin_Facet.java" startLine="92" startPosition="17" endLine="231" endPosition="7" unitName="org.campagnelab.gobyweb.plugin.CopyClassesToPlugin_Facet$1" />
+    <unitInfo nodeId="1090105717921668654" fileName="CopyClassesToPlugin_Facet.java" startLine="85" startPosition="0" endLine="327" endPosition="0" unitName="org.campagnelab.gobyweb.plugin.CopyClassesToPlugin_Facet$Target_CopyClassesToPlugin" />
+    <unitInfo nodeId="1090105717921668649" fileName="CopyClassesToPlugin_Facet.java" startLine="53" startPosition="0" endLine="358" endPosition="0" unitName="org.campagnelab.gobyweb.plugin.CopyClassesToPlugin_Facet" />
+  </root>
+  <root nodeRef="r:325805a6-322b-4ae7-b776-c6ca84a1a365(org.campagnelab.gobyweb.plugin)/4248297622980511099">
+    <nodeInfo nodeId="4248297622984574716" fileName="PluginUtils.java" startLine="15" startPosition="86" endLine="16" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4248297622994280516" fileName="PluginUtils.java" startLine="16" startPosition="74" endLine="17" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4248297622987587608" fileName="PluginUtils.java" startLine="18" startPosition="50" endLine="19" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4248297622984629677" fileName="PluginUtils.java" startLine="20" startPosition="12" endLine="21" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4248297622984360049" fileName="PluginUtils.java" startLine="22" startPosition="5" endLine="23" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4248297622984418964" fileName="PluginUtils.java" startLine="23" startPosition="53" endLine="24" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="250886629053692543" fileName="PluginUtils.java" startLine="24" startPosition="75" endLine="25" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4248297622991766840" fileName="PluginUtils.java" startLine="26" startPosition="100" endLine="27" endPosition="98" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4248297622984236664" fileName="PluginUtils.java" startLine="29" startPosition="9" endLine="30" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4248297622991130088" fileName="PluginUtils.java" startLine="30" startPosition="53" endLine="31" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2608982068111040223" fileName="PluginUtils.java" startLine="31" startPosition="45" endLine="32" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2608982068111063408" fileName="PluginUtils.java" startLine="32" startPosition="31" endLine="33" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2608982068111274977" fileName="PluginUtils.java" startLine="34" startPosition="39" endLine="35" endPosition="89" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
+    <nodeInfo nodeId="4248297622984868953" fileName="PluginUtils.java" startLine="36" startPosition="5" endLine="37" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4248297622984152485" fileName="PluginUtils.java" startLine="20" startPosition="10" endLine="22" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4248297622991587257" fileName="PluginUtils.java" startLine="25" startPosition="30" endLine="28" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="4248297622983884073" fileName="PluginUtils.java" startLine="17" startPosition="73" endLine="22" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="2608982068110765710" fileName="PluginUtils.java" startLine="28" startPosition="5" endLine="36" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
+    <nodeInfo nodeId="4248297622982906055" fileName="PluginUtils.java" startLine="15" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="createDistributionPackage#(Ljava/io/File;)Ljava/io/File;" />
+    <scopeInfo nodeId="4248297622983884076" fileName="PluginUtils.java" startLine="18" startPosition="50" endLine="19" endPosition="88" />
+    <scopeInfo nodeId="4248297622984152486" fileName="PluginUtils.java" startLine="20" startPosition="12" endLine="21" endPosition="55" />
+    <scopeInfo nodeId="4248297622991587260" fileName="PluginUtils.java" startLine="26" startPosition="100" endLine="27" endPosition="98" />
+    <scopeInfo nodeId="2608982068110765713" fileName="PluginUtils.java" startLine="34" startPosition="0" endLine="35" endPosition="89">
+      <varInfo nodeId="2608982068110765715" varName="ie" />
+    </scopeInfo>
+    <scopeInfo nodeId="2608982068110765719" fileName="PluginUtils.java" startLine="34" startPosition="39" endLine="35" endPosition="89" />
+    <scopeInfo nodeId="4248297622991587257" fileName="PluginUtils.java" startLine="25" startPosition="30" endLine="28" endPosition="5">
+      <varInfo nodeId="4248297622991587263" varName="classFile" />
+    </scopeInfo>
+    <scopeInfo nodeId="2608982068110765712" fileName="PluginUtils.java" startLine="29" startPosition="9" endLine="33" endPosition="21">
+      <varInfo nodeId="4248297622984236665" varName="p" />
+      <varInfo nodeId="2608982068111040224" varName="proc" />
+    </scopeInfo>
+    <scopeInfo nodeId="4248297622982906058" fileName="PluginUtils.java" startLine="15" startPosition="86" endLine="37" endPosition="21">
+      <varInfo nodeId="4248297622984574717" varName="command" />
+      <varInfo nodeId="250886629053692544" varName="paths" />
+      <varInfo nodeId="4248297622994280517" varName="pluginJar" />
+    </scopeInfo>
+    <scopeInfo nodeId="4248297622982906055" fileName="PluginUtils.java" startLine="15" startPosition="0" endLine="39" endPosition="0">
+      <varInfo nodeId="4248297622983079466" varName="sourceDir" />
+    </scopeInfo>
+    <unitInfo nodeId="4248297622980511099" fileName="PluginUtils.java" startLine="12" startPosition="0" endLine="40" endPosition="0" unitName="org.campagnelab.gobyweb.plugin.PluginUtils" />
+  </root>
+</debugInfo>
+

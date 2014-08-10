@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="NYoSh.StandaloneWorkbench-2.NYoSh" file="NYoSh.xml" />
+  <dependency className="NYoSh.StandaloneWorkbench-2.NYoShDistribution" file="NYoShDistribution.xml" />
+</dependenciesRoot>
+

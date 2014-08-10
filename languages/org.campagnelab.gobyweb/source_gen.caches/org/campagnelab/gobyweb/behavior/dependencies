@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="org.campagnelab.gobyweb.behavior.AlignerAlignEntryPointPrototype_Behavior" file="AlignerAlignEntryPointPrototype_Behavior.java">
+    <classNode dependClassName="java.util.ArrayList" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNodeAccessUtil" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.persistence.PersistenceFacade" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.AlignerAlignEntryPointPrototype_BehaviorDescriptor" file="AlignerAlignEntryPointPrototype_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="org.campagnelab.NYoSh.behavior.EntryPointPrototype_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.NYoSh.behavior.IEntryPointPrototype_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.AlignerAlignEntryPointPrototype_Behavior" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.AlignerAlignEntryPoint_Behavior" file="AlignerAlignEntryPoint_Behavior.java">
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.GobyWebEntryPoint_Behavior" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNodeAccessUtil" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.persistence.PersistenceFacade" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.AlignerAlignEntryPoint_BehaviorDescriptor" file="AlignerAlignEntryPoint_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.GobyWebEntryPoint_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.AlignerScript_BehaviorDescriptor" file="AlignerScript_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.PluginScript_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.AlignmentAnalysisCombineEntryPoint_Behavior" file="AlignmentAnalysisCombineEntryPoint_Behavior.java">
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.GobyWebEntryPoint_Behavior" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNodeAccessUtil" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.persistence.PersistenceFacade" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.AlignmentAnalysisCombineEntryPoint_BehaviorDescriptor" file="AlignmentAnalysisCombineEntryPoint_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.GobyWebEntryPoint_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.AlignmentAnalysisCombinePrototype_Behavior" file="AlignmentAnalysisCombinePrototype_Behavior.java">
+    <classNode dependClassName="java.util.ArrayList" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNodeAccessUtil" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.persistence.PersistenceFacade" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.AlignmentAnalysisCombinePrototype_BehaviorDescriptor" file="AlignmentAnalysisCombinePrototype_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="org.campagnelab.NYoSh.behavior.EntryPointPrototype_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.NYoSh.behavior.IEntryPointPrototype_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.AlignmentAnalysisCombinePrototype_Behavior" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.AlignmentAnalysisNumPartsEntryPoint_Behavior" file="AlignmentAnalysisNumPartsEntryPoint_Behavior.java">
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.GobyWebEntryPoint_Behavior" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNodeAccessUtil" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.persistence.PersistenceFacade" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.AlignmentAnalysisNumPartsEntryPoint_BehaviorDescriptor" file="AlignmentAnalysisNumPartsEntryPoint_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.GobyWebEntryPoint_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.AlignmentAnalysisNumPartsPrototype_Behavior" file="AlignmentAnalysisNumPartsPrototype_Behavior.java">
+    <classNode dependClassName="java.util.ArrayList" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNodeAccessUtil" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.persistence.PersistenceFacade" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.AlignmentAnalysisNumPartsPrototype_BehaviorDescriptor" file="AlignmentAnalysisNumPartsPrototype_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="org.campagnelab.NYoSh.behavior.EntryPointPrototype_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.NYoSh.behavior.IEntryPointPrototype_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.AlignmentAnalysisNumPartsPrototype_Behavior" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.AlignmentAnalysisProcessEntryPoint_Behavior" file="AlignmentAnalysisProcessEntryPoint_Behavior.java">
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.GobyWebEntryPoint_Behavior" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNodeAccessUtil" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.persistence.PersistenceFacade" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.AlignmentAnalysisProcessEntryPoint_BehaviorDescriptor" file="AlignmentAnalysisProcessEntryPoint_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.GobyWebEntryPoint_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.AlignmentAnalysisProcessPrototype_Behavior" file="AlignmentAnalysisProcessPrototype_Behavior.java">
+    <classNode dependClassName="java.util.ArrayList" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNodeAccessUtil" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.persistence.PersistenceFacade" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.AlignmentAnalysisProcessPrototype_BehaviorDescriptor" file="AlignmentAnalysisProcessPrototype_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="org.campagnelab.NYoSh.behavior.EntryPointPrototype_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.NYoSh.behavior.IEntryPointPrototype_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.AlignmentAnalysisProcessPrototype_Behavior" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.AlignmentAnalysisScript_BehaviorDescriptor" file="AlignmentAnalysisScript_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.PluginScript_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.AlignmentAnalysisSplitEntryPoint_Behavior" file="AlignmentAnalysisSplitEntryPoint_Behavior.java">
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.GobyWebEntryPoint_Behavior" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNodeAccessUtil" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.persistence.PersistenceFacade" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.AlignmentAnalysisSplitEntryPoint_BehaviorDescriptor" file="AlignmentAnalysisSplitEntryPoint_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.GobyWebEntryPoint_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.AlignmentAnalysisSplitPrototype_Behavior" file="AlignmentAnalysisSplitPrototype_Behavior.java">
+    <classNode dependClassName="java.util.ArrayList" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNodeAccessUtil" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.persistence.PersistenceFacade" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.AlignmentAnalysisSplitPrototype_BehaviorDescriptor" file="AlignmentAnalysisSplitPrototype_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="org.campagnelab.NYoSh.behavior.EntryPointPrototype_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.NYoSh.behavior.IEntryPointPrototype_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.AlignmentAnalysisSplitPrototype_Behavior" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.ArtifactAttributeValuesEntryPointPrototype_Behavior" file="ArtifactAttributeValuesEntryPointPrototype_Behavior.java">
+    <classNode dependClassName="java.lang.Iterable" />
+    <classNode dependClassName="java.util.Collections" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.Sequence" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.ArtifactAttributeValuesEntryPointPrototype_BehaviorDescriptor" file="ArtifactAttributeValuesEntryPointPrototype_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="org.campagnelab.NYoSh.behavior.EntryPointPrototype_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.NYoSh.behavior.IEntryPointPrototype_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.ArtifactAttributeValuesEntryPointPrototype_Behavior" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.ArtifactAttributeValuesEntryPoint_Behavior" file="ArtifactAttributeValuesEntryPoint_Behavior.java">
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.GobyWebEntryPoint_Behavior" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNodeAccessUtil" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.persistence.PersistenceFacade" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.ArtifactAttributeValuesEntryPoint_BehaviorDescriptor" file="ArtifactAttributeValuesEntryPoint_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.GobyWebEntryPoint_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.ArtifactInstallEntryPointPrototype_Behavior" file="ArtifactInstallEntryPointPrototype_Behavior.java">
+    <classNode dependClassName="java.util.ArrayList" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNodeAccessUtil" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.persistence.PersistenceFacade" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.ArtifactInstallEntryPointPrototype_BehaviorDescriptor" file="ArtifactInstallEntryPointPrototype_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="org.campagnelab.NYoSh.behavior.EntryPointPrototype_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.NYoSh.behavior.IEntryPointPrototype_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.ArtifactInstallEntryPointPrototype_Behavior" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.ArtifactInstallEntryPoint_Behavior" file="ArtifactInstallEntryPoint_Behavior.java">
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.GobyWebEntryPoint_Behavior" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNodeAccessUtil" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.persistence.PersistenceFacade" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.ArtifactInstallEntryPoint_BehaviorDescriptor" file="ArtifactInstallEntryPoint_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.GobyWebEntryPoint_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.BehaviorAspectDescriptor" file="BehaviorAspectDescriptor.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Arrays" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.interpreted.BehaviorAspectInterpreted" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.AlignerAlignEntryPointPrototype_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.AlignerAlignEntryPoint_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.AlignerScript_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.AlignmentAnalysisCombineEntryPoint_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.AlignmentAnalysisCombinePrototype_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.AlignmentAnalysisNumPartsEntryPoint_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.AlignmentAnalysisNumPartsPrototype_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.AlignmentAnalysisProcessEntryPoint_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.AlignmentAnalysisProcessPrototype_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.AlignmentAnalysisScript_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.AlignmentAnalysisSplitEntryPoint_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.AlignmentAnalysisSplitPrototype_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.ArtifactAttributeValuesEntryPointPrototype_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.ArtifactAttributeValuesEntryPoint_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.ArtifactInstallEntryPointPrototype_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.ArtifactInstallEntryPoint_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.ExecutablePluginScript_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.FileSetCheckExpression_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.FileSetFetchCommand_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.FileSetFetchExpression_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.FileSetPushCommand_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.FileSetPushExpression_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.GobyWebEntryPoint_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.PluginReference_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.PluginRegistry_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.PluginSystemRootDirectory_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.PluginTree_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.ResourceWithArtifactScript_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.RunMpsScript_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.TaskEntryPointPrototype_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.TaskEntryPoint_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.TaskScript_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.ErrorManagementImplementation" file="ErrorManagementImplementation.java">
+    <classNode dependClassName="java.lang.Exception" />
+    <classNode dependClassName="java.lang.String" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.ExecutablePluginScript_BehaviorDescriptor" file="ExecutablePluginScript_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.FileSetCheckExpression_BehaviorDescriptor" file="FileSetCheckExpression_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.FileSetExpression_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.FileSetCommand_BehaviorDescriptor" file="FileSetCommand_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="org.campagnelab.NYoSh.behavior.AbstractCommand_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.FileSetExpression_BehaviorDescriptor" file="FileSetExpression_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.Expression_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.FileSetFetchCommand_BehaviorDescriptor" file="FileSetFetchCommand_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.FileSetCommand_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.FileSetFetchExpression_BehaviorDescriptor" file="FileSetFetchExpression_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.FileSetExpression_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.FileSetPushCommand_BehaviorDescriptor" file="FileSetPushCommand_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.FileSetCommand_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.FileSetPushExpression_BehaviorDescriptor" file="FileSetPushExpression_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.FileSetExpression_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.GobyWebEntryPoint_Behavior" file="GobyWebEntryPoint_Behavior.java">
+    <classNode dependClassName="java.lang.Iterable" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.ArrayList" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ITranslator2" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.persistence.PersistenceFacade" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.GobyWebEntryPoint_BehaviorDescriptor" file="GobyWebEntryPoint_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.ScopeProvider_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.NYoSh.behavior.EntryPoint_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.PluginReference_BehaviorDescriptor" file="PluginReference_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.PluginRegistry_Behavior" file="PluginRegistry_Behavior.java">
+    <classNode dependClassName="java.lang.Exception" />
+    <classNode dependClassName="java.util.ArrayList" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="org.apache.log4j.Level" />
+    <classNode dependClassName="org.apache.log4j.LogManager" />
+    <classNode dependClassName="org.apache.log4j.Logger" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.PluginSystemRootDirectory_Behavior" />
+    <classNode dependClassName="org.campagnelab.gobyweb.plugins.PluginRegistry" />
+    <classNode dependClassName="org.campagnelab.gobyweb.plugins.xml.executables.ExecutableConfig" />
+    <classNode dependClassName="org.campagnelab.gobyweb.plugins.xml.executables.Slot" />
+    <classNode dependClassName="org.campagnelab.gobyweb.plugins.xml.filesets.FileSetConfig" />
+    <classNode dependClassName="org.campagnelab.nyosh.environment.NYoShConfigurationEnvironment" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.PluginRegistry_BehaviorDescriptor" file="PluginRegistry_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.PluginScript_Behavior" file="PluginScript_Behavior.java">
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNodeAccessUtil" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.persistence.PersistenceFacade" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.PluginScript_BehaviorDescriptor" file="PluginScript_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.PluginSystemRootDirectory_Behavior" file="PluginSystemRootDirectory_Behavior.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.util.MacrosFactory" />
+    <classNode dependClassName="org.apache.log4j.Level" />
+    <classNode dependClassName="org.apache.log4j.LogManager" />
+    <classNode dependClassName="org.apache.log4j.Logger" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.PluginSystemRootDirectory_BehaviorDescriptor" file="PluginSystemRootDirectory_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.PluginTree_BehaviorDescriptor" file="PluginTree_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.ResourceWithArtifactScript_BehaviorDescriptor" file="ResourceWithArtifactScript_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.PluginScript_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.RunMpsScript_BehaviorDescriptor" file="RunMpsScript_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.TaskEntryPointPrototype_Behavior" file="TaskEntryPointPrototype_Behavior.java">
+    <classNode dependClassName="java.util.ArrayList" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.TaskEntryPointPrototype_BehaviorDescriptor" file="TaskEntryPointPrototype_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="org.campagnelab.NYoSh.behavior.EntryPointPrototype_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.NYoSh.behavior.IEntryPointPrototype_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.TaskEntryPointPrototype_Behavior" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.TaskEntryPoint_Behavior" file="TaskEntryPoint_Behavior.java">
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.GobyWebEntryPoint_Behavior" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNodeAccessUtil" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.persistence.PersistenceFacade" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.TaskEntryPoint_BehaviorDescriptor" file="TaskEntryPoint_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.GobyWebEntryPoint_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.gobyweb.behavior.TaskScript_BehaviorDescriptor" file="TaskScript_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="org.campagnelab.gobyweb.behavior.PluginScript_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+</dependenciesRoot>
+
