@@ -861,19 +861,6 @@
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
     </node>
   </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="649332775225752885" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="FileSetInstanceViewer" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="filesetviewers" />
-    <property name="abstract" nameId="tpce.4628067390765956802" value="true" />
-    <property name="final" nameId="tpce.4628067390765956807" value="false" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="649332775226633578" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="filesetviewers" />
-    <property name="name" nameId="tpck.1169194664001" value="SequenceVariationsViewer" />
-    <property name="rootable" nameId="tpce.1096454100552" value="true" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="649332775225752885" resolveInfo="FileSetInstanceViewer" />
-  </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="649332775228712529" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="FileSetInstanceViewerReference" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="filesetviewers" />
@@ -884,12 +871,6 @@
       <property name="role" nameId="tpce.1071599776563" value="fileSetInstanceViewer" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="649332775225752885" resolveInfo="FileSetInstanceViewer" />
     </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2514225579998194289" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="filesetviewers" />
-    <property name="name" nameId="tpck.1169194664001" value="ReadQualityScoreViewer" />
-    <property name="rootable" nameId="tpce.1096454100552" value="true" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="649332775225752885" resolveInfo="FileSetInstanceViewer" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6642819616982286338" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="fileset" />
@@ -939,6 +920,25 @@
     <property name="name" nameId="tpck.1169194664001" value="FileSetInstanceLuceneTableViewer" />
     <property name="rootable" nameId="tpce.1096454100552" value="true" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="649332775225752885" resolveInfo="FileSetInstanceViewer" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="649332775226633578" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="filesetviewers" />
+    <property name="name" nameId="tpck.1169194664001" value="SequenceVariationsViewer" />
+    <property name="rootable" nameId="tpce.1096454100552" value="true" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="649332775225752885" resolveInfo="FileSetInstanceViewer" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2514225579998194289" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="filesetviewers" />
+    <property name="name" nameId="tpck.1169194664001" value="ReadQualityScoreViewer" />
+    <property name="rootable" nameId="tpce.1096454100552" value="true" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="649332775225752885" resolveInfo="FileSetInstanceViewer" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="649332775225752885" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="FileSetInstanceViewer" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="filesetviewers" />
+    <property name="abstract" nameId="tpce.4628067390765956802" value="true" />
+    <property name="final" nameId="tpce.4628067390765956807" value="false" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
   </root>
 </model>
 
