@@ -568,10 +568,106 @@
           <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="6583653477738501972" resolveInfo="jobArea" />
         </node>
       </node>
+      <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="6583653477743996666" nodeInfo="nn">
+        <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="6583653477743996669" nodeInfo="sn">
+          <node role="statement" roleId="tpee.1068581517665" type="tpd4.InfoStatement" typeId="tpd4.1224760201579" id="6583653477744002660" nodeInfo="nn">
+            <node role="infoText" roleId="tpd4.1224760230762" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="6583653477744002690" nodeInfo="nn">
+              <property name="value" nameId="tpee.1070475926801" value="The artifact repository path is the location where artifacts will be installed in the specified execution node." />
+            </node>
+            <node role="nodeToReport" roleId="tpd4.1227096802790" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="6583653477744003274" nodeInfo="nn">
+              <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="6583653477738501972" resolveInfo="jobArea" />
+            </node>
+            <node role="messageTarget" roleId="tpd4.1227096836496" type="tpd4.PropertyMessageTarget" typeId="tpd4.1227096498176" id="6583653477744003352" nodeInfo="ng">
+              <link role="propertyDeclaration" roleId="tpd4.1227096521710" targetNodeId="bs99.1997533223704022892" resolveInfo="artifactRepoPath" />
+            </node>
+          </node>
+        </node>
+        <node role="condition" roleId="tpee.1068580123160" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6583653477743999171" nodeInfo="nn">
+          <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6583653477743996830" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="6583653477743996713" nodeInfo="nn">
+              <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="6583653477738501972" resolveInfo="jobArea" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="6583653477743997934" nodeInfo="nn">
+              <link role="property" roleId="tp25.1138056395725" targetNodeId="bs99.1997533223704022892" resolveInfo="artifactRepoPath" />
+            </node>
+          </node>
+          <node role="operation" roleId="tpee.1197027833540" type="tpee.IsEmptyOperation" typeId="tpee.1225271369338" id="6583653477744002635" nodeInfo="nn" />
+        </node>
+      </node>
+      <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="6583653477744003760" nodeInfo="nn">
+        <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="6583653477744003761" nodeInfo="sn">
+          <node role="statement" roleId="tpee.1068581517665" type="tpd4.InfoStatement" typeId="tpd4.1224760201579" id="6583653477744003762" nodeInfo="nn">
+            <node role="infoText" roleId="tpd4.1224760230762" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="6583653477744003763" nodeInfo="nn">
+              <property name="value" nameId="tpee.1070475926801" value="The working directory is the location where job folders will be created (path must exist on the specified execution node)." />
+            </node>
+            <node role="nodeToReport" roleId="tpd4.1227096802790" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="6583653477744003764" nodeInfo="nn">
+              <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="6583653477738501972" resolveInfo="jobArea" />
+            </node>
+            <node role="messageTarget" roleId="tpd4.1227096836496" type="tpd4.PropertyMessageTarget" typeId="tpd4.1227096498176" id="6583653477744003765" nodeInfo="ng">
+              <link role="propertyDeclaration" roleId="tpd4.1227096521710" targetNodeId="bs99.6449713081311226572" resolveInfo="workingDirectory" />
+            </node>
+          </node>
+        </node>
+        <node role="condition" roleId="tpee.1068580123160" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6583653477744003766" nodeInfo="nn">
+          <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6583653477744003767" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="6583653477744003768" nodeInfo="nn">
+              <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="6583653477738501972" resolveInfo="jobArea" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="6583653477744004503" nodeInfo="nn">
+              <link role="property" roleId="tp25.1138056395725" targetNodeId="bs99.6449713081311226572" resolveInfo="workingDirectory" />
+            </node>
+          </node>
+          <node role="operation" roleId="tpee.1197027833540" type="tpee.IsEmptyOperation" typeId="tpee.1225271369338" id="6583653477744003770" nodeInfo="nn" />
+        </node>
+      </node>
     </node>
     <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="6583653477738501972" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="jobArea" />
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="bs99.2051553890368761083" resolveInfo="JobArea" />
+    </node>
+  </root>
+  <root type="tpd4.NonTypesystemRule" typeId="tpd4.1195214364922" id="6583653477745769752" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="FileSetAreaInfo" />
+    <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="6583653477745769753" nodeInfo="sn">
+      <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="6583653477745769900" nodeInfo="nn">
+        <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="6583653477745769901" nodeInfo="sn">
+          <node role="statement" roleId="tpee.1068581517665" type="tpd4.InfoStatement" typeId="tpd4.1224760201579" id="6583653477745775656" nodeInfo="nn">
+            <node role="infoText" roleId="tpd4.1224760230762" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="6583653477745775686" nodeInfo="nn">
+              <property name="value" nameId="tpee.1070475926801" value="The FileSetArea describes where files will be stored." />
+            </node>
+            <node role="nodeToReport" roleId="tpd4.1227096802790" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="6583653477745776799" nodeInfo="nn">
+              <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="6583653477745769833" resolveInfo="fileSetArea" />
+            </node>
+          </node>
+          <node role="statement" roleId="tpee.1068581517665" type="tpd4.InfoStatement" typeId="tpd4.1224760201579" id="6583653477745776976" nodeInfo="nn">
+            <node role="infoText" roleId="tpd4.1224760230762" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="6583653477745777012" nodeInfo="nn">
+              <property name="value" nameId="tpee.1070475926801" value="Indicate the directory where files will be stored. The directory must be local when the sshNode is not specified, or remote on the node when the attribute is specified." />
+            </node>
+            <node role="nodeToReport" roleId="tpd4.1227096802790" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="6583653477745777074" nodeInfo="nn">
+              <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="6583653477745769833" resolveInfo="fileSetArea" />
+            </node>
+            <node role="messageTarget" roleId="tpd4.1227096836496" type="tpd4.PropertyMessageTarget" typeId="tpd4.1227096498176" id="6583653477745777144" nodeInfo="ng">
+              <link role="propertyDeclaration" roleId="tpd4.1227096521710" targetNodeId="bs99.6449713081311703917" resolveInfo="path" />
+            </node>
+          </node>
+        </node>
+        <node role="condition" roleId="tpee.1068580123160" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6583653477745772246" nodeInfo="nn">
+          <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6583653477745770035" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="6583653477745769918" nodeInfo="nn">
+              <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="6583653477745769833" resolveInfo="fileSetArea" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="6583653477745771005" nodeInfo="nn">
+              <link role="property" roleId="tp25.1138056395725" targetNodeId="bs99.6449713081311703917" resolveInfo="path" />
+            </node>
+          </node>
+          <node role="operation" roleId="tpee.1197027833540" type="tpee.IsEmptyOperation" typeId="tpee.1225271369338" id="6583653477745775631" nodeInfo="nn" />
+        </node>
+      </node>
+      <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="6583653477745776833" nodeInfo="nn" />
+    </node>
+    <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="6583653477745769833" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="fileSetArea" />
+      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="bs99.2051553890368756473" resolveInfo="FileSetArea" />
     </node>
   </root>
 </model>
