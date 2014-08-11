@@ -74,29 +74,6 @@
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="bs99.2051553890368756473" resolveInfo="FileSetArea" />
     </node>
   </root>
-  <root type="tpd4.TypesystemQuickFix" typeId="tpd4.1216383170661" id="4344503499502369980" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="DisconnectManager" />
-    <node role="quickFixArgument" roleId="tpd4.1216383476350" type="tpd4.QuickFixArgument" typeId="tpd4.1216383482742" id="4344503499502370275" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="manager" />
-      <node role="argumentType" roleId="tpd4.1216383511839" type="tp25.SNodeType" typeId="tp25.1138055754698" id="4344503499502370283" nodeInfo="in">
-        <link role="concept" roleId="tp25.1138405853777" targetNodeId="bs99.664989078354555460" resolveInfo="IFileSetAreaManager" />
-      </node>
-    </node>
-    <node role="executeBlock" roleId="tpd4.1216383424566" type="tpd4.QuickFixExecuteBlock" typeId="tpd4.1216383287005" id="4344503499502369981" nodeInfo="nn">
-      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="4344503499502369982" nodeInfo="sn">
-        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="4344503499502372375" nodeInfo="nn">
-          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4344503499502372447" nodeInfo="nn">
-            <node role="operand" roleId="tpee.1197027771414" type="tpd4.QuickFixArgumentReference" typeId="tpd4.1216390348809" id="4344503499502372374" nodeInfo="nn">
-              <link role="quickFixArgument" roleId="tpd4.1216390348810" targetNodeId="4344503499502370275" resolveInfo="manager" />
-            </node>
-            <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="4344503499502381924" nodeInfo="nn">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="lcm8.4344503499502380968" resolveInfo="disconnect" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </root>
   <root type="tpd4.NonTypesystemRule" typeId="tpd4.1195214364922" id="1460397808272727846" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="CheckUnreachablePort" />
     <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="1460397808272727847" nodeInfo="sn">
@@ -291,6 +268,38 @@
     <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="1431610103272781752" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="fileSetInstance" />
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="bs99.2051553890368778931" resolveInfo="FileSetInstance" />
+    </node>
+  </root>
+  <root type="tpd4.TypesystemQuickFix" typeId="tpd4.1216383170661" id="4344503499502369980" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="DisconnectManager" />
+    <node role="quickFixArgument" roleId="tpd4.1216383476350" type="tpd4.QuickFixArgument" typeId="tpd4.1216383482742" id="4344503499502370275" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="manager" />
+      <node role="argumentType" roleId="tpd4.1216383511839" type="tp25.SNodeType" typeId="tp25.1138055754698" id="4344503499502370283" nodeInfo="in">
+        <link role="concept" roleId="tp25.1138405853777" targetNodeId="bs99.664989078354555460" resolveInfo="IFileSetAreaManager" />
+      </node>
+    </node>
+    <node role="executeBlock" roleId="tpd4.1216383424566" type="tpd4.QuickFixExecuteBlock" typeId="tpd4.1216383287005" id="4344503499502369981" nodeInfo="nn">
+      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="4344503499502369982" nodeInfo="sn">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="4344503499502372375" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4344503499502372447" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpd4.QuickFixArgumentReference" typeId="tpd4.1216390348809" id="4344503499502372374" nodeInfo="nn">
+              <link role="quickFixArgument" roleId="tpd4.1216390348810" targetNodeId="4344503499502370275" resolveInfo="manager" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="4344503499502381924" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="lcm8.4344503499502380968" resolveInfo="disconnect" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="descriptionBlock" roleId="tpd4.1216391046856" type="tpd4.QuickFixDescriptionBlock" typeId="tpd4.1216390987552" id="7353664474053035644" nodeInfo="nn">
+      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="7353664474053035645" nodeInfo="sn">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="7353664474053035985" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7353664474053035984" nodeInfo="nn">
+            <property name="value" nameId="tpee.1070475926801" value="Disconnect Manager" />
+          </node>
+        </node>
+      </node>
     </node>
   </root>
 </model>

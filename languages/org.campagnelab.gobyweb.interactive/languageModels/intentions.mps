@@ -2276,6 +2276,7 @@
     <property name="virtualPackage" nameId="tpck.1193676396447" value="config" />
     <property name="name" nameId="tpck.1169194664001" value="ConnectRPCManager" />
     <property name="isAvailableInChildNodes" nameId="tp3j.2522969319638091386" value="true" />
+    <property name="isErrorIntention" nameId="tp3j.2522969319638091385" value="true" />
     <link role="forConcept" roleId="tp3j.2522969319638198290" targetNodeId="bs99.664989078345324995" resolveInfo="FileSetAreaRPCManager" />
     <node role="descriptionFunction" roleId="tp3j.2522969319638093993" type="tp3j.DescriptionBlock" typeId="tp3j.1192794782375" id="7170488887942216645" nodeInfo="nn">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="7170488887942216646" nodeInfo="sn">
