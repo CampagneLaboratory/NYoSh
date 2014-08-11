@@ -13,7 +13,7 @@
   <import index="fxg7" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
-  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="36" implicit="yes" />
+  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="46" implicit="yes" />
   <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(org.campagnelab.NYoSh.structure)" version="30" implicit="yes" />
   <import index="6pk0" modelUID="r:48f4e449-1a18-435e-ae88-4830aa794dc7(org.campagnelab.nyosh.environment.structure)" version="17" implicit="yes" />
   <import index="f2ff" modelUID="r:48d5f7d2-24be-4d82-ac12-8f4a2d414b11(org.campagnelab.nyosh.gstring.structure)" version="-1" implicit="yes" />
@@ -35,14 +35,14 @@
     <property name="queueName" value="rascals.q" />
     <property name="artifactRepoPath" value="/scratchLocal/gobyweb/ARTIFACT_REPOSITORY-PLUGINS-SDK" />
     <node role="jobArea" roleId="bs99.2051553890368785070" type="bs99.JobArea" typeId="bs99.2051553890368761083" id="2149979023199567852" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="ZenodotusJobs" />
+      <property name="name" value="ZenodotusJobs" />
       <property name="workingDirectory" nameId="bs99.6449713081311226572" value="/zenodotus/dat01/campagne_lab_scratch/campagne/" />
       <link role="brokerNode" targetNodeId="8316819429937465348" resolveInfo="spanky" />
     </node>
     <node role="filesetArea" roleId="bs99.2051553890368785072" type="bs99.FileSetArea" typeId="bs99.2051553890368756473" id="2149979023199567853" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="ZenodotusFileSetArea" />
+      <property name="name" value="ZenodotusFileSetArea" />
       <property name="path" nameId="bs99.6449713081311703917" value="/zenodotus/dat01/campagne_lab_scratch/campagne/FILESET-AREA" />
-      <link role="sshService" roleId="bs99.6449713081311510412" targetNodeId="8316819429937465348" resolveInfo="spanky" />
+      <link role="sshNode" roleId="bs99.6449713081311510412" targetNodeId="8316819429937465348" resolveInfo="spanky" />
     </node>
   </root>
   <root type="4tvk.Script" typeId="4tvk.8197864363320245969" id="2477885976703222483" nodeInfo="ig">

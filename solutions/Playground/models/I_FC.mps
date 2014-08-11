@@ -11,7 +11,7 @@
   <import index="th2c" modelUID="r:eadbbfa3-7690-4909-a537-361e1df92710(Interactive)" version="-1" />
   <import index="dce0" modelUID="r:fcd9d2df-00c2-4ee8-9039-db770fd162b8(org.campagnelab.gobyweb.interactive.viewers.models)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="45" implicit="yes" />
+  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="46" implicit="yes" />
   <import index="whle" modelUID="r:8e4fd1b7-1955-43a4-ace6-aaf9d13814f8(org.campagnelab.logger.structure)" version="1" implicit="yes" />
   <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="30" implicit="yes" />
   <import index="dzk5" modelUID="r:2bfcc546-5c51-4762-9df2-c43920be4458(org.campagnelab.gobyweb.plugins.structure)" version="4" implicit="yes" />
@@ -478,7 +478,7 @@
     <property name="owner" nameId="bs99.2051553890368778877" value="fac2003" />
     <node role="filesetArea" roleId="bs99.2051553890368785072" type="bs99.FileSetArea" typeId="bs99.2051553890368756473" id="4277119496925872826" nodeInfo="ng">
       <property name="path" nameId="bs99.6449713081311703917" value="/zenodotus/campagnelab/scratch/data/gobyweb/trial/GOBYWEB_SGE_JOBS/" />
-      <link role="sshService" roleId="bs99.6449713081311510412" targetNodeId="th2c.2243041462222181573" resolveInfo="SpankyNode" />
+      <link role="sshNode" roleId="bs99.6449713081311510412" targetNodeId="th2c.2243041462222181573" resolveInfo="SpankyNode" />
       <link role="fsiContainer" roleId="bs99.6642819616984840610" targetNodeId="6642819616982660731" />
       <node role="manager" roleId="bs99.664989078355375332" type="bs99.FileSetAreaRPCManager" typeId="bs99.664989078345324995" id="4277119496926027165" nodeInfo="ng">
         <property name="unreacheable" nameId="bs99.1460397808271971603" value="true" />
@@ -6073,7 +6073,7 @@
       <property name="path" nameId="bs99.6449713081311703917" value="/zenodotus/campagnelab/store/data/gobyweb/dev/FILESET_AREA" />
       <property name="name" value="FileSetAreaOnSpanky" />
       <property name="serverPort" value="8849" />
-      <link role="sshService" roleId="bs99.6449713081311510412" targetNodeId="th2c.2243041462222181624" resolveInfo="localhost" />
+      <link role="sshNode" roleId="bs99.6449713081311510412" targetNodeId="th2c.2243041462222181624" resolveInfo="localhost" />
       <node role="instances" roleId="bs99.2051553890368785058" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="8258261499125687221" nodeInfo="ng">
         <property name="tag" nameId="bs99.2051553890368778934" value="ZXPWLAD" />
         <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
@@ -11782,7 +11782,7 @@
     </node>
     <node role="filesetArea" roleId="bs99.2051553890368785072" type="bs99.FileSetArea" typeId="bs99.2051553890368756473" id="649332775225431795" nodeInfo="ng">
       <property name="path" nameId="bs99.6449713081311703917" value="/zenodotus/campagnelab/store/data/gobyweb/trial/FILESET_AREA" />
-      <link role="sshService" roleId="bs99.6449713081311510412" targetNodeId="2243041462222181573" resolveInfo="SpankyNode" />
+      <link role="sshNode" roleId="bs99.6449713081311510412" targetNodeId="2243041462222181573" resolveInfo="SpankyNode" />
       <link role="fsiContainer" roleId="bs99.6642819616984840610" targetNodeId="6642819616982660731" />
       <node role="manager" roleId="bs99.664989078355375332" type="bs99.FileSetAreaRPCManager" typeId="bs99.664989078345324995" id="649332775225432005" nodeInfo="ng">
         <property name="status" nameId="bs99.4344503499510198037" value="connected" />
