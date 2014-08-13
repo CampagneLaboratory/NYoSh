@@ -30,8 +30,8 @@
       <node role="welcomeLogo" roleId="kdzh.772379520210716142" type="3ior.BuildSourceProjectRelativePath" typeId="3ior.5481553824944787378" id="8967365873951532516" nodeInfo="ng">
         <node role="compositePart" roleId="3ior.7321017245477039051" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="8967365873951532517" nodeInfo="nn">
           <property name="head" nameId="3ior.8618885170173601779" value="icons" />
-          <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="8967365873951532518" nodeInfo="nn">
-            <property name="head" nameId="3ior.8618885170173601779" value="logo.png" />
+          <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="7353664474055037231" nodeInfo="nn">
+            <property name="head" nameId="3ior.8618885170173601779" value="MPS32.png" />
           </node>
         </node>
       </node>
@@ -262,7 +262,7 @@
         <link role="macro" roleId="3ior.7389400916848153130" targetNodeId="8967365873951532510" resolveInfo="mps_home" />
       </node>
     </node>
-    <node role="dependencies" roleId="3ior.5617550519002745381" type="3ior.BuildProjectDependency" typeId="3ior.4993211115183325728" id="6598110864313271927" nodeInfo="ng">
+    <node role="dependencies" roleId="3ior.5617550519002745381" type="3ior.BuildProjectDependency" typeId="3ior.4993211115183325728" id="9182949410601921815" nodeInfo="ng">
       <link role="script" roleId="3ior.5617550519002745380" targetNodeId="9b59.9178698721097033425" resolveInfo="XChart" />
     </node>
     <node role="layout" roleId="3ior.5617550519002745372" type="3ior.BuildLayout" typeId="3ior.5617550519002745364" id="8967365873951532699" nodeInfo="ng">
@@ -742,6 +742,72 @@
     </node>
     <node role="parts" roleId="3ior.7389400916848080626" type="kdzh.BuildMps_Group" typeId="kdzh.1500819558095907805" id="8967365873951532689" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="NYoSh" />
+      <node role="modules" roleId="kdzh.1500819558095907806" type="kdzh.BuildMps_DevKit" typeId="kdzh.322010710375794190" id="7353664474042652560" nodeInfo="ng">
+        <property name="compact" nameId="kdzh.8369506495128725901" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="org.campagnelab.devkit.gobyweb.interactive" />
+        <property name="uuid" nameId="kdzh.322010710375892619" value="db81b829-e557-4467-b78e-cc1d44965622" />
+        <node role="path" roleId="kdzh.322010710375956261" type="3ior.BuildSourceProjectRelativePath" typeId="3ior.5481553824944787378" id="7353664474042652563" nodeInfo="ng">
+          <node role="compositePart" roleId="3ior.7321017245477039051" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="7353664474042656211" nodeInfo="nn">
+            <property name="head" nameId="3ior.8618885170173601779" value="devkits" />
+            <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="7353664474042656219" nodeInfo="nn">
+              <property name="head" nameId="3ior.8618885170173601779" value="org.campagnelab.devkit.gobyweb.interactive.devkit" />
+            </node>
+          </node>
+        </node>
+        <node role="exports" roleId="kdzh.322010710375832962" type="kdzh.BuildMps_DevKitExportLanguage" typeId="kdzh.322010710375832938" id="7353664474042656227" nodeInfo="ng">
+          <link role="language" roleId="kdzh.322010710375832947" targetNodeId="8967365873951532592" resolveInfo="org.campagnelab.gobyweb" />
+        </node>
+        <node role="exports" roleId="kdzh.322010710375832962" type="kdzh.BuildMps_DevKitExportLanguage" typeId="kdzh.322010710375832938" id="7353664474042656228" nodeInfo="ng">
+          <link role="language" roleId="kdzh.322010710375832947" targetNodeId="8967365873951532567" resolveInfo="org.campagnelab.ssh" />
+        </node>
+        <node role="exports" roleId="kdzh.322010710375832962" type="kdzh.BuildMps_DevKitExportLanguage" typeId="kdzh.322010710375832938" id="7353664474042656229" nodeInfo="ng">
+          <link role="language" roleId="kdzh.322010710375832947" targetNodeId="8967365873951532670" resolveInfo="org.campagnelab.gobyweb.plugins" />
+        </node>
+        <node role="exports" roleId="kdzh.322010710375832962" type="kdzh.BuildMps_DevKitExportLanguage" typeId="kdzh.322010710375832938" id="7353664474042656230" nodeInfo="ng">
+          <link role="language" roleId="kdzh.322010710375832947" targetNodeId="8967365873951532664" resolveInfo="org.campagnelab.lucene.tableviewer" />
+        </node>
+        <node role="exports" roleId="kdzh.322010710375832962" type="kdzh.BuildMps_DevKitExportLanguage" typeId="kdzh.322010710375832938" id="7353664474042656231" nodeInfo="ng">
+          <link role="language" roleId="kdzh.322010710375832947" targetNodeId="8967365873951532598" resolveInfo="org.campagnelab.nyosh.lib" />
+        </node>
+        <node role="exports" roleId="kdzh.322010710375832962" type="kdzh.BuildMps_DevKitExportLanguage" typeId="kdzh.322010710375832938" id="7353664474042656232" nodeInfo="ng">
+          <link role="language" roleId="kdzh.322010710375832947" targetNodeId="8967365873951532586" resolveInfo="org.campagnelab.gobyweb.interactive" />
+        </node>
+        <node role="exports" roleId="kdzh.322010710375832962" type="kdzh.BuildMps_DevKitExportLanguage" typeId="kdzh.322010710375832938" id="7353664474042656233" nodeInfo="ng">
+          <link role="language" roleId="kdzh.322010710375832947" targetNodeId="8967365873951532616" resolveInfo="org.campagnelab.ui" />
+        </node>
+        <node role="exports" roleId="kdzh.322010710375832962" type="kdzh.BuildMps_DevKitExportLanguage" typeId="kdzh.322010710375832938" id="7353664474042656234" nodeInfo="ng">
+          <link role="language" roleId="kdzh.322010710375832947" targetNodeId="8967365873951532646" resolveInfo="org.campagnelab.clusterConfig" />
+        </node>
+        <node role="exports" roleId="kdzh.322010710375832962" type="kdzh.BuildMps_DevKitExportSolution" typeId="kdzh.322010710375832954" id="7353664474042656235" nodeInfo="ng">
+          <link role="solution" roleId="kdzh.322010710375832955" targetNodeId="8967365873951532628" resolveInfo="org.campagnelab.ui.code" />
+        </node>
+        <node role="exports" roleId="kdzh.322010710375832962" type="kdzh.BuildMps_DevKitExportSolution" typeId="kdzh.322010710375832954" id="7353664474042656236" nodeInfo="ng">
+          <link role="solution" roleId="kdzh.322010710375832955" targetNodeId="8967365873951532580" resolveInfo="org.campagnelab.lucene.tableviewer.runtime" />
+        </node>
+        <node role="exports" roleId="kdzh.322010710375832962" type="kdzh.BuildMps_DevKitExportSolution" typeId="kdzh.322010710375832954" id="7353664474042656237" nodeInfo="ng">
+          <link role="solution" roleId="kdzh.322010710375832955" targetNodeId="8967365873951532610" resolveInfo="org.campagnelab.gobyweb.charts" />
+        </node>
+        <node role="exports" roleId="kdzh.322010710375832962" type="kdzh.BuildMps_DevKitExportSolution" typeId="kdzh.322010710375832954" id="7353664474042656238" nodeInfo="ng">
+          <link role="solution" roleId="kdzh.322010710375832955" targetNodeId="8967365873951532634" resolveInfo="org.campagnelab.gobyweb.interactive.viewers" />
+        </node>
+      </node>
+      <node role="modules" roleId="kdzh.1500819558095907806" type="kdzh.BuildMps_Solution" typeId="kdzh.3189788309731840247" id="7353664474042659968" nodeInfo="ng">
+        <property name="compact" nameId="kdzh.8369506495128725901" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="StartHere" />
+        <property name="uuid" nameId="kdzh.322010710375892619" value="e22cda4d-4955-4a8f-9956-1234e89159b5" />
+        <property name="doNotCompile" nameId="kdzh.1500819558096356884" value="false" />
+        <node role="path" roleId="kdzh.322010710375956261" type="3ior.BuildSourceProjectRelativePath" typeId="3ior.5481553824944787378" id="7353664474042659971" nodeInfo="ng">
+          <node role="compositePart" roleId="3ior.7321017245477039051" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="7353664474042663667" nodeInfo="nn">
+            <property name="head" nameId="3ior.8618885170173601779" value="solutions" />
+            <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="7353664474042664655" nodeInfo="nn">
+              <property name="head" nameId="3ior.8618885170173601779" value="StartHere" />
+              <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="7353664474042666623" nodeInfo="nn">
+                <property name="head" nameId="3ior.8618885170173601779" value="StartHere.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node role="modules" roleId="kdzh.1500819558095907806" type="kdzh.BuildMps_Language" typeId="kdzh.3189788309731840248" id="8967365873951532561" nodeInfo="ng">
         <property name="compact" nameId="kdzh.8369506495128725901" value="true" />
         <property name="name" nameId="tpck.1169194664001" value="org.campagnelab.nyosh.gstring" />
