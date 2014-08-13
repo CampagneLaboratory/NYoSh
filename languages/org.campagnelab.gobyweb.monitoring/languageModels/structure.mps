@@ -173,5 +173,11 @@
   <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="1212232161625613149" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="JobEventListener" />
   </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2835705609405440664" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="OrderedMessages" />
+    <property name="abstract" nameId="tpce.4628067390765956802" value="true" />
+    <property name="final" nameId="tpce.4628067390765956807" value="false" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+  </root>
 </model>
 
