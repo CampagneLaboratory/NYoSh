@@ -14,15 +14,17 @@
   <property name="artifacts.mpsStandalone" location="${mps_home}" />
   <property name="artifacts.mps" location="${mps_home}" />
   <property name="artifacts.mpsWorkbench" location="${mps_home}" />
-  <property name="artifacts.XChart" location="../../XChart/build/artifacts/XChart" />
+  <property name="artifacts.XChart" location="../XChart/build/artifacts/XChart" />
   <property file="${artifacts.mpsStandalone}/build.properties" prefix="import.mpsStandalone" />
   <property file="${artifacts.mps}/build.properties" prefix="import.mps" />
+  <property file="${artifacts.XChart}/build.properties" prefix="import.XChart" />
   <property name="mpsBootstrapCore.version" value="${import.mpsStandalone.mpsBootstrapCore.version}" />
   <property name="mps.build.number" value="${import.mps.mps.build.number}" />
   <property name="mps.date" value="${import.mps.mps.date}" />
   <property name="mps.build.vcs.number" value="${import.mps.mps.build.vcs.number}" />
   <property name="mps.teamcity.buildConfName" value="${import.mps.mps.teamcity.buildConfName}" />
   <property name="mps.idea.platform.build.number" value="${import.mps.mps.idea.platform.build.number}" />
+  <property name="XChart.XChart_version" value="${import.XChart.XChart.XChart_version}" />
   
   <path id="path.mps.ant.path">
     <pathelement location="${artifacts.mpsStandalone}/lib/ant/lib/ant-mps.jar" />
@@ -53,6 +55,10 @@
           <replaceregex pattern="\.MPS(\w+)" replace="\.${build.number}" flags="g" />
         </tokenfilter>
       </filterchain>
+    </copy>
+    <mkdir dir="${build.layout}/packages" />
+    <copy todir="${build.layout}/packages">
+      <fileset dir="${org.campagnelab.goby.workbench.home}/packages" />
     </copy>
     <mkdir dir="${build.layout}/lib" />
     <copy todir="${build.layout}/lib">
@@ -122,7 +128,7 @@
       <fileset file="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.ssh/jsch-0.1.51.jar" />
     </copy>
     <copy todir="${build.layout}/lib">
-      <fileset dir="${build.tmp}/deps/XChart/XChart.zip/XChart/lib" />
+      <fileset dir="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/lib" />
     </copy>
     <copy todir="${build.layout}/lib">
       <fileset dir="${artifacts.mpsStandalone}/lib">
@@ -143,7 +149,7 @@
         <package code="code" />
         <names product="NYoSh Workbench" fullname="NYoSh Workbench" />
         <update-urls check="http://campagnelab.org/files/nyosh-update.txt" update="http://campagnelab.org/software/nyosh/early-access-preview-download/" />
-        <welcome-screen caption-url="/caption.png" slogan-url="/slogan.png" logo-url="/logo.png" />
+        <welcome-screen caption-url="/caption.png" slogan-url="/slogan.png" logo-url="/MPS32.png" />
         <help file="help" root="${build.number}" webhelp-url="http://nyosh.campagnelab.org" />
       </component>
     </echoxml>
@@ -152,7 +158,7 @@
       <fileset file="${basedir}/icons/MPS32.png" />
       <fileset file="${basedir}/icons/caption.png" />
       <fileset file="${basedir}/icons/slogan.png" />
-      <fileset file="${basedir}/icons/logo.png" />
+      <fileset file="${basedir}/icons/MPS32.png" />
       <fileset file="${basedir}/icons/splash.png" />
       <fileset file="${basedir}/icons/about.png" />
       <fileset file="${basedir}/icons/dialogImage.png" />
@@ -232,8 +238,12 @@
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.nyosh.gstring/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/plugins/NYoSh/languages/NYoSh/org.campagnelab.nyosh.gstring-src.jar">
-      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.nyosh.gstring/generator/source_gen" />
-      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.nyosh.gstring/source_gen" />
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.nyosh.gstring/generator/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.nyosh.gstring/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
       <zipfileset file="${basedir}/languages/org.campagnelab.nyosh.gstring/org.campagnelab.nyosh.gstring.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.nyosh.gstring-generator-template" prefix="module/generator/template" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.nyosh.gstring-languageModels" prefix="module/languageModels" />
@@ -274,8 +284,12 @@
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.ssh/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/plugins/NYoSh/languages/NYoSh/org.campagnelab.ssh-src.jar">
-      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.ssh/generator/source_gen" />
-      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.ssh/source_gen" />
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.ssh/generator/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.ssh/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
       <zipfileset file="${basedir}/languages/org.campagnelab.ssh/org.campagnelab.ssh.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.ssh-generator-template" prefix="module/generator/template" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.ssh-languageModels" prefix="module/languageModels" />
@@ -318,8 +332,12 @@
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.nyosh.environment/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/plugins/NYoSh/languages/NYoSh/org.campagnelab.nyosh.environment-src.jar">
-      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.nyosh.environment/generator/source_gen" />
-      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.nyosh.environment/source_gen" />
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.nyosh.environment/generator/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.nyosh.environment/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
       <zipfileset file="${basedir}/languages/org.campagnelab.nyosh.environment/org.campagnelab.nyosh.environment.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.nyosh.environment-generator-template" prefix="module/generator/template" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.nyosh.environment-languageAccessories" prefix="module/languageAccessories" />
@@ -345,7 +363,9 @@
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.lucene.tableviewer/runtime/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/plugins/NYoSh/languages/NYoSh/org.campagnelab.lucene.tableviewer.runtime-src.jar">
-      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.lucene.tableviewer/runtime/source_gen" />
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.lucene.tableviewer/runtime/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
       <zipfileset file="${basedir}/languages/org.campagnelab.lucene.tableviewer/runtime/org.campagnelab.lucene.tableviewer.runtime.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.lucene.tableviewer-runtime-models" prefix="module/models" />
     </jar>
@@ -385,8 +405,12 @@
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/plugins/NYoSh/languages/NYoSh/org.campagnelab.gobyweb.interactive-src.jar">
-      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive/generator/source_gen" />
-      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive/source_gen" />
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive/generator/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
       <zipfileset file="${basedir}/languages/org.campagnelab.gobyweb.interactive/org.campagnelab.gobyweb.interactive.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb.interactive-generator" prefix="module/generator" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb.interactive-languageModels" prefix="module/languageModels" />
@@ -428,8 +452,12 @@
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/plugins/NYoSh/languages/NYoSh/org.campagnelab.gobyweb-src.jar">
-      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb/generator/source_gen" />
-      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb/source_gen" />
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb/generator/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
       <zipfileset file="${basedir}/languages/org.campagnelab.gobyweb/org.campagnelab.gobyweb.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb-generator" prefix="module/generator" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb-languageModels" prefix="module/languageModels" />
@@ -488,8 +516,12 @@
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.nyosh.lib/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/plugins/NYoSh/languages/NYoSh/org.campagnelab.nyosh.lib-src.jar">
-      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.nyosh.lib/generator/source_gen" />
-      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.nyosh.lib/source_gen" />
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.nyosh.lib/generator/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.nyosh.lib/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
       <zipfileset file="${basedir}/languages/org.campagnelab.nyosh.lib/org.campagnelab.nyosh.lib.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.nyosh.lib-generator" prefix="module/generator" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.nyosh.lib-languageModels" prefix="module/languageModels" />
@@ -530,8 +562,12 @@
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.logger/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/plugins/NYoSh/languages/NYoSh/org.campagnelab.logger-src.jar">
-      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.logger/generator/source_gen" />
-      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.logger/source_gen" />
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.logger/generator/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.logger/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
       <zipfileset file="${basedir}/languages/org.campagnelab.logger/org.campagnelab.logger.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.logger-generator-template" prefix="module/generator/template" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.logger-languageModels" prefix="module/languageModels" />
@@ -555,7 +591,9 @@
       <fileset dir="${org.campagnelab.goby.workbench.home}/solutions/org.campagnelab.gobyweb.charts/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/plugins/NYoSh/languages/NYoSh/org.campagnelab.gobyweb.charts-src.jar">
-      <fileset dir="${org.campagnelab.goby.workbench.home}/solutions/org.campagnelab.gobyweb.charts/source_gen" />
+      <fileset dir="${org.campagnelab.goby.workbench.home}/solutions/org.campagnelab.gobyweb.charts/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
       <zipfileset file="${basedir}/solutions/org.campagnelab.gobyweb.charts/org.campagnelab.gobyweb.charts.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-org.campagnelab.gobyweb.charts-models" prefix="module/models" />
     </jar>
@@ -594,8 +632,12 @@
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.ui/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/plugins/NYoSh/languages/NYoSh/org.campagnelab.ui-src.jar">
-      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.ui/generator/source_gen" />
-      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.ui/source_gen" />
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.ui/generator/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.ui/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
       <zipfileset file="${basedir}/languages/org.campagnelab.ui/org.campagnelab.ui.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.ui-generator-template" prefix="module/generator/template" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.ui-languageModels" prefix="module/languageModels" />
@@ -635,8 +677,12 @@
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.textoutput/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/plugins/NYoSh/languages/NYoSh/org.campagnelab.textoutput-src.jar">
-      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.textoutput/generator/source_gen" />
-      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.textoutput/source_gen" />
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.textoutput/generator/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.textoutput/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
       <zipfileset file="${basedir}/languages/org.campagnelab.textoutput/org.campagnelab.textoutput.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.textoutput-generator-template" prefix="module/generator/template" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.textoutput-languageModels" prefix="module/languageModels" />
@@ -664,7 +710,9 @@
       <fileset dir="${org.campagnelab.goby.workbench.home}/solutions/org.campagnelab.ui.code/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/plugins/NYoSh/languages/NYoSh/org.campagnelab.ui.code-src.jar">
-      <fileset dir="${org.campagnelab.goby.workbench.home}/solutions/org.campagnelab.ui.code/source_gen" />
+      <fileset dir="${org.campagnelab.goby.workbench.home}/solutions/org.campagnelab.ui.code/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
       <zipfileset file="${basedir}/solutions/org.campagnelab.ui.code/org.campagnelab.ui.code.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-org.campagnelab.ui.code-models" prefix="module/models" />
     </jar>
@@ -693,7 +741,9 @@
       <fileset dir="${org.campagnelab.goby.workbench.home}/solutions/org.campagnelab.gobyweb.interactive.viewers/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/plugins/NYoSh/languages/NYoSh/org.campagnelab.gobyweb.interactive.viewers-src.jar">
-      <fileset dir="${org.campagnelab.goby.workbench.home}/solutions/org.campagnelab.gobyweb.interactive.viewers/source_gen" />
+      <fileset dir="${org.campagnelab.goby.workbench.home}/solutions/org.campagnelab.gobyweb.interactive.viewers/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
       <zipfileset file="${basedir}/solutions/org.campagnelab.gobyweb.interactive.viewers/org.campagnelab.gobyweb.interactive.viewers.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-org.campagnelab.gobyweb.interactive.viewers-models" prefix="module/models" />
     </jar>
@@ -724,7 +774,9 @@
       <fileset dir="${org.campagnelab.goby.workbench.home}/solutions/org.campagnelab.NYoSh.samples/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/plugins/NYoSh/languages/NYoSh/org.campagnelab.NYoSh.samples-src.jar">
-      <fileset dir="${org.campagnelab.goby.workbench.home}/solutions/org.campagnelab.NYoSh.samples/source_gen" />
+      <fileset dir="${org.campagnelab.goby.workbench.home}/solutions/org.campagnelab.NYoSh.samples/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
       <zipfileset file="${basedir}/solutions/org.campagnelab.NYoSh.samples/org.campagnelab.NYoSh.samples.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-org.campagnelab.NYoSh.samples-models" prefix="module/models" />
     </jar>
@@ -763,8 +815,12 @@
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.clusterConfig/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/plugins/NYoSh/languages/NYoSh/org.campagnelab.clusterConfig-src.jar">
-      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.clusterConfig/generator/source_gen" />
-      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.clusterConfig/source_gen" />
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.clusterConfig/generator/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.clusterConfig/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
       <zipfileset file="${basedir}/languages/org.campagnelab.clusterConfig/org.campagnelab.clusterConfig.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.clusterConfig-generator" prefix="module/generator" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.clusterConfig-languageModels" prefix="module/languageModels" />
@@ -804,8 +860,12 @@
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.environment/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/plugins/NYoSh/languages/NYoSh/org.campagnelab.gobyweb.environment-src.jar">
-      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.environment/generator/source_gen" />
-      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.environment/source_gen" />
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.environment/generator/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.environment/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
       <zipfileset file="${basedir}/languages/org.campagnelab.gobyweb.environment/org.campagnelab.gobyweb.environment.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb.environment-generator-template" prefix="module/generator/template" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb.environment-languageModels" prefix="module/languageModels" />
@@ -845,8 +905,12 @@
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.nyosh.pathpatterns/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/plugins/NYoSh/languages/NYoSh/org.campagnelab.nyosh.pathpatterns-src.jar">
-      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.nyosh.pathpatterns/generator/source_gen" />
-      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.nyosh.pathpatterns/source_gen" />
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.nyosh.pathpatterns/generator/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.nyosh.pathpatterns/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
       <zipfileset file="${basedir}/languages/org.campagnelab.nyosh.pathpatterns/org.campagnelab.nyosh.pathpatterns.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.nyosh.pathpatterns-generator-template" prefix="module/generator/template" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.nyosh.pathpatterns-languageModels" prefix="module/languageModels" />
@@ -889,8 +953,12 @@
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.lucene.tableviewer/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/plugins/NYoSh/languages/NYoSh/org.campagnelab.lucene.tableviewer-src.jar">
-      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.lucene.tableviewer/generator/source_gen" />
-      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.lucene.tableviewer/source_gen" />
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.lucene.tableviewer/generator/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.lucene.tableviewer/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
       <zipfileset file="${basedir}/languages/org.campagnelab.lucene.tableviewer/org.campagnelab.lucene.tableviewer.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.lucene.tableviewer-generator-template" prefix="module/generator/template" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.lucene.tableviewer-languageAccessories" prefix="module/languageAccessories" />
@@ -931,8 +999,12 @@
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.plugins/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/plugins/NYoSh/languages/NYoSh/org.campagnelab.gobyweb.plugins-src.jar">
-      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.plugins/generator/source_gen" />
-      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.plugins/source_gen" />
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.plugins/generator/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.plugins/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
       <zipfileset file="${basedir}/languages/org.campagnelab.gobyweb.plugins/org.campagnelab.gobyweb.plugins.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb.plugins-generator-template" prefix="module/generator/template" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb.plugins-languageModels" prefix="module/languageModels" />
@@ -976,8 +1048,12 @@
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/NYoSh/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/plugins/NYoSh/languages/NYoSh/org.campagnelab.NYoSh-src.jar">
-      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/NYoSh/generator/source_gen" />
-      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/NYoSh/source_gen" />
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/NYoSh/generator/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/NYoSh/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
       <zipfileset file="${basedir}/languages/NYoSh/org.campagnelab.NYoSh.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-NYoSh-generator" prefix="module/generator" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-NYoSh-languageAccessories" prefix="module/languageAccessories" />
@@ -1010,7 +1086,9 @@
       <fileset dir="${org.campagnelab.goby.workbench.home}/solutions/NYoSh.sandbox/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/plugins/NYoSh/languages/NYoSh/org.campagnelab.gobyweb.samples-src.jar">
-      <fileset dir="${org.campagnelab.goby.workbench.home}/solutions/NYoSh.sandbox/source_gen" />
+      <fileset dir="${org.campagnelab.goby.workbench.home}/solutions/NYoSh.sandbox/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
       <zipfileset file="${basedir}/solutions/NYoSh.sandbox/NYoSh.sandbox.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-NYoSh.sandbox-models" prefix="module/models" />
     </jar>
@@ -1043,10 +1121,15 @@
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.monitoring/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/plugins/NYoSh/languages/NYoSh/org.campagnelab.gobyweb.monitoring-src.jar">
-      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.monitoring/source_gen" />
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.monitoring/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
       <zipfileset file="${basedir}/languages/org.campagnelab.gobyweb.monitoring/org.campagnelab.gobyweb.monitoring.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb.monitoring-languageModels" prefix="module/languageModels" />
     </jar>
+    <copy todir="${build.layout}/plugins/NYoSh/languages/NYoSh">
+      <fileset file="${basedir}/devkits/org.campagnelab.devkit.gobyweb.interactive.devkit" />
+    </copy>
     <mkdir dir="${build.layout}/plugins/NYoSh/lib" />
     <jar destfile="${build.layout}/plugins/NYoSh/lib/icons.jar">
       <fileset file="${basedir}/icons/MPS16.png" />
@@ -1100,16 +1183,16 @@
       <fileset dir="${artifacts.mps}/plugins/mps-console" />
     </copy>
     <echo file="${build.layout}/build.number">build.number=${build.number}${line.separator}date=${date}${line.separator}version=1.0</echo>
-    <echo file="${build.layout}/build.properties">NYoSh.date=${date}${line.separator}NYoSh.build.number=${build.number}${line.separator}NYoSh.version=${version}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}${line.separator}mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}</echo>
+    <echo file="${build.layout}/build.properties">NYoSh.date=${date}${line.separator}NYoSh.build.number=${build.number}${line.separator}NYoSh.version=${version}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}${line.separator}mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}XChart.XChart_version=${XChart.XChart_version}</echo>
   </target>
   
   <target name="buildDependents">
-    <ant antfile="../../XChart/build.xml" inheritAll="false" useNativeBasedir="true" />
+    <ant antfile="../XChart/build.xml" inheritAll="false" useNativeBasedir="true" />
   </target>
   
   <target name="fetchDependencies">
-    <mkdir dir="${build.tmp}/deps/XChart/XChart.zip" />
-    <unzip src="${artifacts.XChart}/XChart.zip" dest="${build.tmp}/deps/XChart/XChart.zip" />
+    <mkdir dir="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip" />
+    <unzip src="${artifacts.XChart}/XChart_${XChart.XChart_version}.zip" dest="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip" />
   </target>
   
   <target name="build" depends="assemble" />
@@ -1191,7 +1274,7 @@
       <library file="${artifacts.mpsStandalone}/lib/mps-platform.jar" />
       <library file="${artifacts.mpsStandalone}/lib/mps-tuples.jar" />
       <library file="${artifacts.mpsStandalone}/lib/mps-workbench.jar" />
-      <library file="${build.tmp}/deps/XChart/XChart.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.jar" />
+      <library file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.jar" />
       <chunk>
         <module file="${basedir}/solutions/org.campagnelab.gobyweb.charts/org.campagnelab.gobyweb.charts.msd" />
         <module file="${basedir}/languages/org.campagnelab.logger/org.campagnelab.logger.mpl" />
@@ -1219,6 +1302,7 @@
         <module file="${basedir}/languages/org.campagnelab.gobyweb.plugins/org.campagnelab.gobyweb.plugins.mpl" />
       </chunk>
       <chunk>
+        <module file="${basedir}/devkits/org.campagnelab.devkit.gobyweb.interactive.devkit" />
         <module file="${basedir}/solutions/org.campagnelab.gobyweb.interactive.viewers/org.campagnelab.gobyweb.interactive.viewers.msd" />
         <module file="${basedir}/solutions/NYoSh.sandbox/NYoSh.sandbox.msd" />
       </chunk>
@@ -1236,7 +1320,7 @@
   </target>
   
   <target name="makeDependents">
-    <ant antfile="../../XChart/build.xml" inheritAll="false" useNativeBasedir="true">
+    <ant antfile="../XChart/build.xml" inheritAll="false" useNativeBasedir="true">
       <target name="generate" />
       <target name="assemble" />
     </ant>
@@ -1287,6 +1371,7 @@
         <fileset file="${artifacts.mpsStandalone}/lib/trove4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/asm4-all.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/asm-all.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mpsStandalone}/lib" includes="*.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -1327,6 +1412,7 @@
         <fileset file="${artifacts.mpsStandalone}/lib/trove4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/asm4-all.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/asm-all.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mpsStandalone}/lib" includes="*.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -1367,6 +1453,7 @@
         <fileset file="${artifacts.mpsStandalone}/lib/trove4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/asm4-all.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/asm-all.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mpsStandalone}/lib" includes="*.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -1408,6 +1495,7 @@
         <fileset file="${artifacts.mpsStandalone}/lib/trove4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/asm4-all.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/asm-all.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mpsStandalone}/lib" includes="*.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -1468,6 +1556,7 @@
         <fileset file="${artifacts.mpsStandalone}/lib/trove4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/asm4-all.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/asm-all.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mpsStandalone}/lib" includes="*.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -1532,6 +1621,7 @@
         <fileset file="${artifacts.mpsStandalone}/lib/trove4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/asm4-all.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/asm-all.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mpsStandalone}/lib" includes="*.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -1596,6 +1686,7 @@
         <fileset file="${artifacts.mpsStandalone}/lib/trove4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/asm4-all.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/asm-all.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mpsStandalone}/lib" includes="*.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -1675,6 +1766,7 @@
         <fileset file="${artifacts.mpsStandalone}/lib/trove4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/asm4-all.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/asm-all.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mpsStandalone}/lib" includes="*.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -1733,6 +1825,7 @@
         <fileset file="${artifacts.mpsStandalone}/lib/trove4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/asm4-all.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/asm-all.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mpsStandalone}/lib" includes="*.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -1798,6 +1891,7 @@
         <fileset file="${artifacts.mpsStandalone}/lib/trove4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/asm4-all.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/asm-all.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mpsStandalone}/lib" includes="*.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -1873,6 +1967,7 @@
         <fileset file="${artifacts.mpsStandalone}/lib/trove4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/asm4-all.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/asm-all.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mpsStandalone}/lib" includes="*.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -1947,6 +2042,7 @@
         <fileset file="${artifacts.mpsStandalone}/lib/trove4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/asm4-all.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/asm-all.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mpsStandalone}/lib" includes="*.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -2012,6 +2108,7 @@
         <fileset file="${artifacts.mpsStandalone}/lib/trove4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/asm4-all.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/asm-all.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mpsStandalone}/lib" includes="*.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -2071,6 +2168,7 @@
         <fileset file="${artifacts.mpsStandalone}/lib/trove4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/asm4-all.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/asm-all.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mpsStandalone}/lib" includes="*.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -2112,6 +2210,7 @@
         <fileset file="${artifacts.mpsStandalone}/lib/trove4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/asm4-all.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/asm-all.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mpsStandalone}/lib" includes="*.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -2160,6 +2259,7 @@
         <fileset file="${artifacts.mpsStandalone}/lib/trove4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/asm4-all.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/asm-all.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mpsStandalone}/lib" includes="*.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -2191,7 +2291,7 @@
         <fileset file="${artifacts.mpsStandalone}/lib/mps-collections.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/mps-core.jar" />
-        <fileset file="${build.tmp}/deps/XChart/XChart.zip/XChart/lib/xchart-2.4.1-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/lib/xchart-2.4.1-SNAPSHOT.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/jdom.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/log4j.jar" />
@@ -2199,6 +2299,7 @@
         <fileset file="${artifacts.mpsStandalone}/lib/trove4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/asm4-all.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/asm-all.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/diffutils-1.2.1.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
@@ -2209,7 +2310,7 @@
         <fileset file="${artifacts.mpsStandalone}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
-        <fileset file="${build.tmp}/deps/XChart/XChart.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.jar" />
+        <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.jar" />
       </classpath>
     </javac>
   </target>
@@ -2240,6 +2341,7 @@
         <fileset file="${artifacts.mpsStandalone}/lib/trove4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/asm4-all.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/asm-all.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mpsStandalone}/lib" includes="*.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -2287,6 +2389,7 @@
         <fileset file="${artifacts.mpsStandalone}/lib/trove4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/asm4-all.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/asm-all.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mpsStandalone}/lib" includes="*.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -2332,6 +2435,7 @@
         <fileset file="${artifacts.mpsStandalone}/lib/trove4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/asm4-all.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/asm-all.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mpsStandalone}/lib" includes="*.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -2372,6 +2476,7 @@
         <fileset file="${artifacts.mpsStandalone}/lib/trove4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/asm4-all.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/asm-all.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mpsStandalone}/lib" includes="*.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -2411,6 +2516,7 @@
         <fileset file="${artifacts.mpsStandalone}/lib/trove4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/asm4-all.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/asm-all.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mpsStandalone}/lib" includes="*.jar" />
       </classpath>
@@ -2462,6 +2568,7 @@
         <fileset file="${artifacts.mpsStandalone}/lib/trove4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/asm4-all.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/asm-all.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mpsStandalone}/lib" includes="*.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -2521,6 +2628,7 @@
         <fileset file="${artifacts.mpsStandalone}/lib/trove4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/asm4-all.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/asm-all.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mpsStandalone}/lib" includes="*.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -2563,6 +2671,7 @@
         <fileset file="${artifacts.mpsStandalone}/lib/trove4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/asm4-all.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/asm-all.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mpsStandalone}/lib" includes="*.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -2603,6 +2712,7 @@
         <fileset file="${artifacts.mpsStandalone}/lib/trove4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/asm4-all.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/asm-all.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mpsStandalone}/lib" includes="*.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -2666,6 +2776,7 @@
         <fileset file="${artifacts.mpsStandalone}/lib/trove4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/asm4-all.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/asm-all.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mpsStandalone}/lib" includes="*.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -2716,6 +2827,7 @@
         <fileset file="${artifacts.mpsStandalone}/lib/trove4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/asm4-all.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/asm-all.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mpsStandalone}/lib" includes="*.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -2779,6 +2891,7 @@
         <fileset file="${artifacts.mpsStandalone}/lib/trove4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/asm4-all.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/asm-all.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mpsStandalone}/lib" includes="*.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -2840,6 +2953,7 @@
         <fileset file="${artifacts.mpsStandalone}/lib/trove4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/asm4-all.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/asm-all.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mpsStandalone}/lib" includes="*.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -2903,6 +3017,7 @@
         <fileset file="${artifacts.mpsStandalone}/lib/trove4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/asm4-all.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/asm-all.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mpsStandalone}/lib" includes="*.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -2966,6 +3081,7 @@
         <fileset file="${artifacts.mpsStandalone}/lib/trove4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/asm4-all.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/asm-all.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mpsStandalone}/lib" includes="*.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -3029,6 +3145,7 @@
         <fileset file="${artifacts.mpsStandalone}/lib/trove4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/asm4-all.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/asm-all.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mpsStandalone}/lib" includes="*.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -3077,6 +3194,7 @@
         <fileset file="${artifacts.mpsStandalone}/lib/trove4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/asm4-all.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/asm-all.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mpsStandalone}/lib" includes="*.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -3137,6 +3255,7 @@
         <fileset file="${artifacts.mpsStandalone}/lib/trove4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/asm4-all.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/asm-all.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mpsStandalone}/lib" includes="*.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -3205,6 +3324,7 @@
         <fileset file="${artifacts.mpsStandalone}/lib/trove4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/asm4-all.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/asm-all.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mpsStandalone}/lib" includes="*.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -3275,6 +3395,7 @@
         <fileset file="${artifacts.mpsStandalone}/lib/trove4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/asm4-all.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/asm-all.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mpsStandalone}/lib" includes="*.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -3345,6 +3466,7 @@
         <fileset file="${artifacts.mpsStandalone}/lib/trove4j.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/asm4-all.jar" />
+        <fileset file="${artifacts.mpsStandalone}/lib/asm-all.jar" />
         <fileset file="${artifacts.mpsStandalone}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mpsStandalone}/lib" includes="*.jar" />
         <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
