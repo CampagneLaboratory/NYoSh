@@ -311,6 +311,21 @@
           </node>
         </node>
       </node>
+      <node role="children" roleId="3ior.7389400916848037006" type="3ior.BuildLayout_Folder" typeId="3ior.7389400916848036984" id="9152286193583155553" nodeInfo="ng">
+        <node role="containerName" roleId="3ior.4380385936562148502" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="9152286193583155555" nodeInfo="ng">
+          <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="9152286193583156819" nodeInfo="ng">
+            <property name="text" nameId="3ior.4903714810883755350" value="packages" />
+          </node>
+        </node>
+        <node role="children" roleId="3ior.7389400916848037006" type="3ior.BuildLayout_Files" typeId="3ior.2750015747481074431" id="9152286193583165395" nodeInfo="ng">
+          <node role="path" roleId="3ior.2750015747481074432" type="3ior.BuildSourceMacroRelativePath" typeId="3ior.7389400916848153117" id="9152286193583169352" nodeInfo="ng">
+            <link role="macro" roleId="3ior.7389400916848153130" targetNodeId="8967365873951532555" resolveInfo="org.campagnelab.goby.workbench.home" />
+            <node role="compositePart" roleId="3ior.7321017245477039051" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="9152286193583170336" nodeInfo="nn">
+              <property name="head" nameId="3ior.8618885170173601779" value="packages" />
+            </node>
+          </node>
+        </node>
+      </node>
       <node role="children" roleId="3ior.7389400916848037006" type="3ior.BuildLayout_Folder" typeId="3ior.7389400916848036984" id="8967365873951532720" nodeInfo="ng">
         <node role="children" roleId="3ior.7389400916848037006" type="3ior.BuildLayout_File" typeId="3ior.9126048691955220717" id="6730757766000189830" nodeInfo="ng">
           <node role="path" roleId="3ior.9126048691955220762" type="3ior.BuildSourceMacroRelativePath" typeId="3ior.7389400916848153117" id="6730757766000190071" nodeInfo="ng">
