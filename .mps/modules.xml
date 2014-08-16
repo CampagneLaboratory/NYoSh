@@ -4,6 +4,7 @@
     <projectModules>
       <modulePath path="$PROJECT_DIR$/devkits/org.campagnelab.devkit.gobyweb.interactive.devkit" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/NYoSh/org.campagnelab.NYoSh.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.background/org.campagnelab.background.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.clusterConfig/org.campagnelab.clusterConfig.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.filters/org.campagnelab.filters.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.gobyweb.environment/org.campagnelab.gobyweb.environment.mpl" folder="" />
@@ -32,6 +33,7 @@
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.gobyweb.charts/org.campagnelab.gobyweb.charts.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.gobyweb.interactive.viewers/org.campagnelab.gobyweb.interactive.viewers.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.ui.code/org.campagnelab.ui.code.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/tests/solutions/background2/background2.msd" folder="tests" />
     </projectModules>
   </component>
   <component name="ProjectModuleManager">

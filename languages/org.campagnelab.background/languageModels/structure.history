@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="t7r0" modelUID="r:0183dfe7-c89b-489d-9eb7-d9e9cc58aaef(org.campagnelab.background.structure)" version="-1" />
+    </dependencies>
+    <rename id="t7r0.2434551981678816405" type="CHILD" from="taskBody" to="task" />
+  </StructureModification>
+</history>
+
