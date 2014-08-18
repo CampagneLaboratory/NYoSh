@@ -35,6 +35,7 @@
     <dependency reexport="false">742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)</dependency>
     <dependency reexport="false">86441d7a-e194-42da-81a5-2161ec62a379(MPS.Workbench)</dependency>
     <dependency reexport="false">2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)</dependency>
+    <dependency reexport="false">20d83b64-d10f-48d1-990d-513b574c4956(org.campagnelab.background)</dependency>
     <dependency reexport="true">7620dd3f-7541-48a3-b1e6-01cced81a7a5(org.campagnelab.clusterConfig)</dependency>
     <dependency reexport="false">adfd00cb-58d7-4094-bca8-f941a491e04f(org.campagnelab.gobyweb)</dependency>
     <dependency reexport="false">d9ae8a9f-744c-4fb7-8582-794c75c78cf4(org.campagnelab.gobyweb.charts)</dependency>
@@ -53,6 +54,7 @@
     <usedLanguage>0eddeefa-c2d6-4437-bc2c-de50fd4ce470(jetbrains.mps.lang.script)</usedLanguage>
     <usedLanguage>13744753-c81f-424a-9c1b-cf8943bf4e86(jetbrains.mps.lang.sharedConcepts)</usedLanguage>
     <usedLanguage>9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)</usedLanguage>
+    <usedLanguage>20d83b64-d10f-48d1-990d-513b574c4956(org.campagnelab.background)</usedLanguage>
     <usedLanguage>82ffebe3-3685-4fd9-b560-0c1d348d295c(org.campagnelab.logger)</usedLanguage>
     <usedLanguage>a5ff6f1b-885e-4f1e-be7d-09432bfbf851(org.campagnelab.lucene.tableviewer)</usedLanguage>
     <usedLanguage>5ec1cd3d-0a50-4049-a8fa-ae768d7baa25(org.campagnelab.mps.XChart)</usedLanguage>

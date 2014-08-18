@@ -4,6 +4,7 @@
     <projectModules>
       <modulePath path="$PROJECT_DIR$/devkits/org.campagnelab.devkit.gobyweb.interactive.devkit" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/NYoSh/org.campagnelab.NYoSh.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.background/org.campagnelab.background.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.clusterConfig/org.campagnelab.clusterConfig.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.filters/org.campagnelab.filters.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.gobyweb.environment/org.campagnelab.gobyweb.environment.mpl" folder="" />
@@ -16,6 +17,7 @@
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.lucene.tableviewer/runtime/org.campagnelab.lucene.tableviewer.runtime.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.nyosh.environment/org.campagnelab.nyosh.environment.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.nyosh.gstring/org.campagnelab.nyosh.gstring.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.nyosh.interactive/org.campagnelab.nyosh.interactive.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.nyosh.lib/org.campagnelab.nyosh.lib.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.nyosh.pathpatterns/org.campagnelab.nyosh.pathpatterns.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.ssh/org.campagnelab.ssh.mpl" folder="" />
