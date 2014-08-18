@@ -45,7 +45,7 @@
       <node role="initialValue" roleId="3ior.2755237150521975432" type="3ior.BuildVariableMacroInitWithString" typeId="3ior.2755237150521975431" id="6442676317064999674" nodeInfo="ng">
         <node role="value" roleId="3ior.2755237150521975437" type="3ior.BuildString" typeId="3ior.4380385936562003279" id="6442676317064999673" nodeInfo="ng">
           <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="6442676317064999672" nodeInfo="ng">
-            <property name="text" nameId="3ior.4903714810883755350" value="1.0.1" />
+            <property name="text" nameId="3ior.4903714810883755350" value="1.0.2" />
           </node>
         </node>
       </node>
@@ -77,6 +77,9 @@
         </node>
         <node role="children" roleId="3ior.7389400916848037006" type="kdzh.BuildMpsLayout_Plugin" typeId="kdzh.6592112598314498926" id="6642819616994328611" nodeInfo="ng">
           <link role="plugin" roleId="kdzh.6592112598314801433" targetNodeId="6642819616994328598" />
+          <node role="children" roleId="3ior.7389400916848037006" type="kdzh.BuildMpsLayout_PluginDescriptor" typeId="kdzh.6592112598314795900" id="4058240102191863134" nodeInfo="ng">
+            <link role="plugin" roleId="kdzh.6592112598314795901" targetNodeId="6642819616994328598" resolveInfo="org.campagnelab.mps.UI" />
+          </node>
         </node>
       </node>
     </node>
@@ -84,7 +87,7 @@
       <property name="id" nameId="kdzh.6592112598314498927" value="org.campagnelab.mps.UI" />
       <node role="name" roleId="kdzh.6592112598314499021" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="6642819616994328599" nodeInfo="ng">
         <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="6642819616994328600" nodeInfo="ng">
-          <property name="text" nameId="3ior.4903714810883755350" value="org.campagnelab.mps.ui" />
+          <property name="text" nameId="3ior.4903714810883755350" value="org.campagnelab.mps.UI" />
         </node>
       </node>
       <node role="version" roleId="kdzh.6592112598314498931" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="6642819616994328601" nodeInfo="ng">
@@ -106,7 +109,7 @@
       </node>
       <node role="containerName" roleId="kdzh.6592112598314855574" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="6642819616994328605" nodeInfo="ng">
         <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="6642819616994328606" nodeInfo="ng">
-          <property name="text" nameId="3ior.4903714810883755350" value="org.campagnelab.mps.UI" />
+          <property name="text" nameId="3ior.4903714810883755350" value="UI" />
         </node>
       </node>
       <node role="vendor" roleId="kdzh.7832771629084912518" type="kdzh.BuildMps_IdeaPluginVendor" typeId="kdzh.7832771629084799699" id="6642819616994346899" nodeInfo="ng">
