@@ -7221,10 +7221,6 @@
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
     </node>
   </root>
-  <root type="bs99.ExecutionTool" typeId="bs99.2465489689642685978" id="4058240102194298149" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="ExecutionTool" />
-    <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="6275780264294215879" resolveInfo="MyEnv" />
-  </root>
   <root type="bs99.JobContainer" typeId="bs99.6642819616986824926" id="8668161730107159594" nodeInfo="ng">
     <link role="environment" roleId="bs99.6642819616986825109" targetNodeId="6275780264294215879" resolveInfo="MyEnv" />
     <node role="jobs" roleId="bs99.6642819616986825107" type="bs99.Job" typeId="bs99.2051553890368756070" id="8668161730107159590" nodeInfo="ng">

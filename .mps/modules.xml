@@ -18,6 +18,7 @@
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.lucene.tableviewer/runtime/org.campagnelab.lucene.tableviewer.runtime.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.nyosh.environment/org.campagnelab.nyosh.environment.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.nyosh.gstring/org.campagnelab.nyosh.gstring.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.nyosh.interactive/org.campagnelab.nyosh.interactive.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.nyosh.lib/org.campagnelab.nyosh.lib.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.nyosh.pathpatterns/org.campagnelab.nyosh.pathpatterns.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.ssh/org.campagnelab.ssh.mpl" folder="" />
