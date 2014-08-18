@@ -4,7 +4,7 @@
   <property name="build.tmp" location="${build.dir}/tmp/org.campagnelab.mps.UI" />
   <property name="build.layout" location="${build.dir}/artifacts/org.campagnelab.mps.UI" />
   <property name="mps_home" location="${basedir}/../../../../../Applications/MPS 3.1" />
-  <property name="ui.version" value="1.0.1" />
+  <property name="ui.version" value="1.0.2" />
   <property name="artifacts.mpsCore" location="${mps_home}" />
   <property name="artifacts.mps" location="${mps_home}" />
   <property file="${artifacts.mpsCore}/build.properties" prefix="import.mpsCore" />
@@ -25,9 +25,9 @@
   <target name="assemble" depends="classes, declare-mps-tasks">
     <mkdir dir="${build.layout}" />
     <mkdir dir="${build.tmp}/default/UI__dl__lbrace_ui.version_rbrace_.zip" />
-    <mkdir dir="${build.tmp}/default/UI__dl__lbrace_ui.version_rbrace_.zip/org.campagnelab.mps.UI" />
-    <mkdir dir="${build.tmp}/default/UI__dl__lbrace_ui.version_rbrace_.zip/org.campagnelab.mps.UI/META-INF" />
-    <echoxml file="${build.tmp}/default/UI__dl__lbrace_ui.version_rbrace_.zip/org.campagnelab.mps.UI/META-INF/plugin.xml">
+    <mkdir dir="${build.tmp}/default/UI__dl__lbrace_ui.version_rbrace_.zip/UI" />
+    <mkdir dir="${build.tmp}/default/UI__dl__lbrace_ui.version_rbrace_.zip/UI/META-INF" />
+    <echoxml file="${build.tmp}/default/UI__dl__lbrace_ui.version_rbrace_.zip/UI/META-INF/plugin.xml">
       <idea-plugin version="2" xmlns:xi="http://www.w3.org/2001/XInclude">
         <id>org.campagnelab.mps.UI</id>
         <name>org.campagnelab.mps.ui</name>
@@ -43,7 +43,7 @@
         </extensions>
       </idea-plugin>
     </echoxml>
-    <mkdir dir="${build.tmp}/default/UI__dl__lbrace_ui.version_rbrace_.zip/org.campagnelab.mps.UI/languages" />
+    <mkdir dir="${build.tmp}/default/UI__dl__lbrace_ui.version_rbrace_.zip/UI/languages" />
     <mkdir dir="${build.tmp}/default/org.campagnelab.ui.jar" />
     <mkdir dir="${build.tmp}/default/org.campagnelab.ui.jar/META-INF" />
     <echoxml file="${build.tmp}/default/org.campagnelab.ui.jar/META-INF/module.xml">
@@ -64,12 +64,12 @@
         <sources jar="org.campagnelab.ui-src.jar" descriptor="org.campagnelab.ui.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/UI__dl__lbrace_ui.version_rbrace_.zip/org.campagnelab.mps.UI/languages/org.campagnelab.ui.jar">
+    <jar destfile="${build.tmp}/default/UI__dl__lbrace_ui.version_rbrace_.zip/UI/languages/org.campagnelab.ui.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.ui" />
       <fileset dir="${basedir}/languages/org.campagnelab.ui" includes="icons/**, resources/**" />
       <fileset dir="${build.tmp}/default/org.campagnelab.ui.jar" />
     </jar>
-    <jar destfile="${build.tmp}/default/UI__dl__lbrace_ui.version_rbrace_.zip/org.campagnelab.mps.UI/languages/org.campagnelab.ui-generator.jar">
+    <jar destfile="${build.tmp}/default/UI__dl__lbrace_ui.version_rbrace_.zip/UI/languages/org.campagnelab.ui-generator.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.ui#2954990197977593747" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.ui-generator-template">
@@ -78,7 +78,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.ui-languageModels">
       <fileset dir="${basedir}/languages/org.campagnelab.ui/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/UI__dl__lbrace_ui.version_rbrace_.zip/org.campagnelab.mps.UI/languages/org.campagnelab.ui-src.jar">
+    <jar destfile="${build.tmp}/default/UI__dl__lbrace_ui.version_rbrace_.zip/UI/languages/org.campagnelab.ui-src.jar">
       <fileset dir="${basedir}/languages/org.campagnelab.ui/generator/source_gen">
         <exclude name="**/trace.info" />
       </fileset>
@@ -89,7 +89,7 @@
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.ui-generator-template" prefix="module/generator/template" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.ui-languageModels" prefix="module/languageModels" />
     </jar>
-    <mkdir dir="${build.tmp}/default/UI__dl__lbrace_ui.version_rbrace_.zip/org.campagnelab.mps.UI/languages" />
+    <mkdir dir="${build.tmp}/default/UI__dl__lbrace_ui.version_rbrace_.zip/UI/languages" />
     <mkdir dir="${build.tmp}/default/org.campagnelab.ui.code.jar" />
     <mkdir dir="${build.tmp}/default/org.campagnelab.ui.code.jar/META-INF" />
     <echoxml file="${build.tmp}/default/org.campagnelab.ui.code.jar/META-INF/module.xml">
@@ -104,7 +104,7 @@
         <sources jar="org.campagnelab.ui.code-src.jar" descriptor="org.campagnelab.ui.code.msd" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/UI__dl__lbrace_ui.version_rbrace_.zip/org.campagnelab.mps.UI/languages/org.campagnelab.ui.code.jar">
+    <jar destfile="${build.tmp}/default/UI__dl__lbrace_ui.version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.ui.code" />
       <fileset dir="${basedir}/solutions/org.campagnelab.ui.code" includes="icons/**, resources/**" />
       <fileset dir="${build.tmp}/default/org.campagnelab.ui.code.jar" />
@@ -112,13 +112,29 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-org.campagnelab.ui.code-models">
       <fileset dir="${basedir}/solutions/org.campagnelab.ui.code/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/UI__dl__lbrace_ui.version_rbrace_.zip/org.campagnelab.mps.UI/languages/org.campagnelab.ui.code-src.jar">
+    <jar destfile="${build.tmp}/default/UI__dl__lbrace_ui.version_rbrace_.zip/UI/languages/org.campagnelab.ui.code-src.jar">
       <fileset dir="${basedir}/solutions/org.campagnelab.ui.code/source_gen">
         <exclude name="**/trace.info" />
       </fileset>
       <zipfileset file="${basedir}/solutions/org.campagnelab.ui.code/org.campagnelab.ui.code.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-org.campagnelab.ui.code-models" prefix="module/models" />
     </jar>
+    <echoxml file="${build.tmp}/default/UI__dl__lbrace_ui.version_rbrace_.zip/UI/plugin.xml">
+      <idea-plugin version="2" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <id>org.campagnelab.mps.UI</id>
+        <name>org.campagnelab.mps.ui</name>
+        <description>User Interface language to create buttons and file selection button in an MPS editor.</description>
+        <version>${ui.version}</version>
+        <vendor url="http://books.campagnelab.org">Campagne Laboratory</vendor>
+        <depends>jetbrains.mps.core</depends>
+        <depends>jetbrains.mps.build</depends>
+        <idea-version until-build="136.1" since-build="135.1" />
+        
+        <extensions defaultExtensionNs="com.intellij">
+          <mps.LanguageLibrary dir="/languages" />
+        </extensions>
+      </idea-plugin>
+    </echoxml>
     <zip destfile="${build.layout}/UI_${ui.version}.zip">
       <fileset dir="${build.tmp}/default/UI__dl__lbrace_ui.version_rbrace_.zip" />
     </zip>
