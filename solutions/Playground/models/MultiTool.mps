@@ -7346,10 +7346,8 @@
     <property name="name" nameId="tpck.1169194664001" value="MyMutli" />
     <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="6275780264294215879" resolveInfo="MyEnv" />
     <node role="instances" roleId="bs99.5235131979802911251" type="bs99.FileSetInstanceRefSet" typeId="bs99.2835705609407426008" id="8668161730109648607" nodeInfo="ng" />
-    <node role="tool" roleId="bs99.5235131979802911249" type="bs99.RegisterFileTool" typeId="bs99.2954990197977709385" id="8668161730110616321" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="RegisterTool" />
-      <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="6275780264294215879" resolveInfo="MyEnv" />
-      <node role="registered" roleId="bs99.4459289555262004257" type="bs99.FileSetInstanceRefSet" typeId="bs99.2835705609407426008" id="8668161730110616322" nodeInfo="ng" />
+    <node role="tool" roleId="bs99.5235131979802911249" type="bs99.ExecutionTool" typeId="bs99.2465489689642685978" id="8668161730111112716" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="ExecutionTool" />
     </node>
   </root>
 </model>
