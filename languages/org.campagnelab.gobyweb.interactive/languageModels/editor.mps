@@ -1861,6 +1861,9 @@
           </node>
         </node>
       </node>
+      <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutIndentStyleClassItem" typeId="tpc2.1237307900041" id="8668161730110635327" nodeInfo="nn">
+        <property name="flag" nameId="tpc2.1186414551515" value="true" />
+      </node>
     </node>
     <node role="inspectedCellModel" roleId="tpc2.1078153129734" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="1879241968980827770" nodeInfo="nn">
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="1879241968980832234" nodeInfo="ng">
@@ -2479,6 +2482,9 @@
         </node>
       </node>
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="8258261499132303559" nodeInfo="nn" />
+      <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutIndentStyleClassItem" typeId="tpc2.1237307900041" id="8668161730110637706" nodeInfo="nn">
+        <property name="flag" nameId="tpc2.1186414551515" value="true" />
+      </node>
     </node>
   </root>
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="2148529369554421591" nodeInfo="ng">
@@ -3670,6 +3676,9 @@
             <link role="cellMenuComponent" roleId="tpc2.1166059677893" targetNodeId="8668161730108645261" resolveInfo="ToolSelection_for_MultiTool" />
           </node>
         </node>
+      </node>
+      <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutIndentStyleClassItem" typeId="tpc2.1237307900041" id="8668161730110631241" nodeInfo="nn">
+        <property name="flag" nameId="tpc2.1186414551515" value="true" />
       </node>
     </node>
   </root>
