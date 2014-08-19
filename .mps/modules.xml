@@ -8,6 +8,7 @@
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.background/org.campagnelab.background.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.bio.species/org.campagnelab.bio.species.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.clusterConfig/org.campagnelab.clusterConfig.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.feedback/org.campagnelab.feedback.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.filters/org.campagnelab.filters.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.gobyweb.environment/org.campagnelab.gobyweb.environment.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.gobyweb.interactive/org.campagnelab.gobyweb.interactive.mpl" folder="" />
