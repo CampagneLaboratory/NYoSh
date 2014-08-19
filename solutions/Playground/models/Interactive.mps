@@ -10,7 +10,7 @@
   <language namespace="82ffebe3-3685-4fd9-b560-0c1d348d295c(org.campagnelab.logger)" />
   <language namespace="f05c05d7-dafb-4c87-b842-b836f305120f(org.campagnelab.gobyweb.monitoring)" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="46" implicit="yes" />
+  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="51" implicit="yes" />
   <import index="9k5" modelUID="r:df9645c2-d2fa-41cb-a718-044a287b0626(org.campagnelab.clusterConfig.structure)" version="3" implicit="yes" />
   <import index="eith" modelUID="r:1ed73e49-326d-4559-947b-13dfd134d00a(org.campagnelab.ssh.structure)" version="-1" implicit="yes" />
   <import index="whle" modelUID="r:8e4fd1b7-1955-43a4-ace6-aaf9d13814f8(org.campagnelab.logger.structure)" version="1" implicit="yes" />
@@ -429,7 +429,7 @@
     <property name="filesMandatoryAndMissing" nameId="bs99.5704832314568278035" value="0" />
     <property name="hasPreview" nameId="bs99.5704832314568883481" value="true" />
     <property name="messages" nameId="bs99.1879241968980829296" value="RegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/test.entriesRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/test.headerRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/test.indexRegisterTool /Users/mas2182/Documents/WENSREU-T4-runbwa.entriesRegisterTool /Users/mas2182/Documents/WENSREU-T4-runbwa.headerRegisterTool /Users/mas2182/Documents/WENSREU-T4-runbwa.indexRegisterTool /Users/mas2182/Documents/WENSREU-T4-runbwa.tmhRegisterTool /Users/mas2182/Documents/WENSREU-T4-runbwa.entriesRegisterTool /Users/mas2182/Documents/WENSREU-T4-runbwa.headerRegisterTool /Users/mas2182/Documents/WENSREU-T4-runbwa.indexRegisterTool /Users/mas2182/Documents/WENSREU-T4-runbwa.tmh" />
-    <link role="executionEnvironment" roleId="bs99.6498979092206486997" targetNodeId="2419654323731434878" resolveInfo="TutoriaEnvironment" />
+    <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="2419654323731434878" resolveInfo="TutoriaEnvironment" />
     <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="45104428788528875" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="WENSREU-T4-runbwa.entries" />
       <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/mas2182/Documents/WENSREU-T4-runbwa.entries" />
@@ -503,7 +503,7 @@
   <root type="bs99.ImportTool" typeId="bs99.8258261499132276459" id="8258261499133783199" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="ImportTool_MS" />
     <property name="tagsToImport" nameId="bs99.8258261499132300449" value="THVRQJL" />
-    <link role="executionEnvironment" roleId="bs99.8258261499132300351" targetNodeId="2419654323731434878" resolveInfo="TutoriaEnvironment" />
+    <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="2419654323731434878" resolveInfo="TutoriaEnvironment" />
   </root>
   <root type="eith.SshPortForwarding" typeId="eith.2967045841109794120" id="2967045841110381069" nodeInfo="ng">
     <property name="username" nameId="eith.2967045841109813398" value="gobyweb" />
@@ -515,7 +515,7 @@
   <root type="bs99.ExecutionTool" typeId="bs99.2465489689642685978" id="2465489689643890045" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="ExecutionTool_MS" />
     <property name="jobName" nameId="bs99.606449909789338951" value="Third Analysis" />
-    <link role="executionEnvironment" roleId="bs99.2465489689642686100" targetNodeId="2419654323731434878" resolveInfo="TutoriaEnvironment" />
+    <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="2419654323731434878" resolveInfo="TutoriaEnvironment" />
     <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="45104428784828562" resolveInfo="SPLICING_DIFF_EXP" />
     <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="45104428787616682" nodeInfo="ng">
       <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="45104428784828571" resolveInfo="INPUT_ALIGNMENTS" />
@@ -554,7 +554,7 @@
   <root type="bs99.ImportTool" typeId="bs99.8258261499132276459" id="1212232161625394716" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="ImportTool" />
     <property name="tagsToImport" nameId="bs99.8258261499132300449" value="WENSREU" />
-    <link role="executionEnvironment" roleId="bs99.8258261499132300351" targetNodeId="2419654323731434878" resolveInfo="TutoriaEnvironment" />
+    <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="2419654323731434878" resolveInfo="TutoriaEnvironment" />
   </root>
   <root type="bs99.ExecutionEnvironment" typeId="bs99.2051553890368778876" id="2419654323731434878" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="TutoriaEnvironment" />
@@ -5956,7 +5956,7 @@
     <property name="name" nameId="tpck.1169194664001" value="AnalysisSubmission" />
     <property name="jobName" nameId="bs99.606449909789338951" value="test" />
     <property name="message" nameId="bs99.3927327347527013400" value="Job successfully submitted. Assigned tag: GDKEBCL" />
-    <link role="executionEnvironment" roleId="bs99.2465489689642686100" targetNodeId="2419654323731434878" resolveInfo="TutoriaEnvironment" />
+    <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="2419654323731434878" resolveInfo="TutoriaEnvironment" />
     <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="6393277187649712496" resolveInfo="SEQ_VAR_GOBY_METHYLATION" />
     <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="406260948649236746" nodeInfo="ng">
       <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="6393277187649712502" resolveInfo="INPUT_ALIGNMENTS" />
@@ -7717,7 +7717,7 @@
     <property name="name" nameId="tpck.1169194664001" value="AlignerSubmission" />
     <property name="jobName" nameId="bs99.606449909789338951" value="FirstAligner" />
     <property name="message" nameId="bs99.3927327347527013400" value="Job successfully submitted. Assigned tag: ASEJEMU" />
-    <link role="executionEnvironment" roleId="bs99.2465489689642686100" targetNodeId="2419654323731434878" resolveInfo="TutoriaEnvironment" />
+    <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="2419654323731434878" resolveInfo="TutoriaEnvironment" />
     <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="6393277187649712116" resolveInfo="STAR22_GOBY" />
     <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="1011954325398503122" nodeInfo="ng">
       <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="6393277187649712122" resolveInfo="INPUT_READS" />
@@ -7768,7 +7768,7 @@
   <root type="bs99.ExecutionTool" typeId="bs99.2465489689642685978" id="6041342965312382881" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="ExecutionTool" />
     <property name="jobName" nameId="bs99.606449909789338951" value="dfsfs" />
-    <link role="executionEnvironment" roleId="bs99.2465489689642686100" targetNodeId="2419654323731434878" resolveInfo="TutoriaEnvironment" />
+    <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="2419654323731434878" resolveInfo="TutoriaEnvironment" />
   </root>
   <root type="bbh2.JobMonitorInterface" typeId="bbh2.1212232161612230177" id="717853706876663853" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="JLSKNZT" />

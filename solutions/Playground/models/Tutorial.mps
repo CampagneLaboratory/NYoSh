@@ -27,7 +27,7 @@
   <import index="bbh2" modelUID="r:220d24dc-c962-4ed8-b674-7bde9fb2980c(org.campagnelab.gobyweb.monitoring.structure)" version="1" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="9k5" modelUID="r:df9645c2-d2fa-41cb-a718-044a287b0626(org.campagnelab.clusterConfig.structure)" version="3" implicit="yes" />
-  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="46" implicit="yes" />
+  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="51" implicit="yes" />
   <import index="whle" modelUID="r:8e4fd1b7-1955-43a4-ace6-aaf9d13814f8(org.campagnelab.logger.structure)" version="1" implicit="yes" />
   <import index="eith" modelUID="r:1ed73e49-326d-4559-947b-13dfd134d00a(org.campagnelab.ssh.structure)" version="-1" implicit="yes" />
   <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="30" implicit="yes" />
@@ -37,7 +37,7 @@
     <property name="name" nameId="tpck.1169194664001" value="AlignJobSubmission" />
     <property name="jobName" nameId="bs99.606449909789338951" value="TestAlignerJob" />
     <property name="message" nameId="bs99.3927327347527013400" value="Job successfully submitted. Assigned tag: VDPZWIX" />
-    <link role="executionEnvironment" roleId="bs99.2465489689642686100" targetNodeId="45104428785272231" resolveInfo="TutorialEnvironment" />
+    <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="45104428785272231" resolveInfo="TutorialEnvironment" />
     <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="649332775225604310" resolveInfo="STAR22_GOBY" />
     <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="45104428787557510" nodeInfo="ng">
       <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="649332775225604317" resolveInfo="INPUT_READS" />
@@ -337,7 +337,7 @@
   <root type="bs99.ImportTool" typeId="bs99.8258261499132276459" id="1212232161625394716" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="ImportTool" />
     <property name="tagsToImport" nameId="bs99.8258261499132300449" value="JXZHSWC" />
-    <link role="executionEnvironment" roleId="bs99.8258261499132300351" targetNodeId="45104428785272231" resolveInfo="TutorialEnvironment" />
+    <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="45104428785272231" resolveInfo="TutorialEnvironment" />
     <node role="messages" roleId="bs99.6393277187635897304" type="bs99.Message" typeId="bs99.6393277187635893626" id="649332775225605737" nodeInfo="ng">
       <property name="error" nameId="bs99.6393277187635893627" value="true" />
       <property name="description" nameId="bs99.6393277187635893629" value="Failed to import JXZHSWC" />
@@ -425,7 +425,7 @@
     <property name="name" nameId="tpck.1169194664001" value="AnalysisSubmission" />
     <property name="jobName" nameId="bs99.606449909789338951" value="test" />
     <property name="message" nameId="bs99.3927327347527013400" value="Job successfully submitted. Assigned tag: LBMKPSU" />
-    <link role="executionEnvironment" roleId="bs99.2465489689642686100" targetNodeId="45104428785272231" resolveInfo="TutorialEnvironment" />
+    <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="45104428785272231" resolveInfo="TutorialEnvironment" />
     <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="649332775225604645" resolveInfo="SEQ_VAR_GOBY" />
     <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="45104428787546905" nodeInfo="ng">
       <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="649332775225604655" resolveInfo="INPUT_ALIGNMENTS" />
@@ -6288,7 +6288,7 @@
     <property name="willCreateFilesets" nameId="bs99.5704832314568277954" value="2" />
     <property name="filesMandatoryAndMissing" nameId="bs99.5704832314568278035" value="0" />
     <property name="hasPreview" nameId="bs99.5704832314568883481" value="true" />
-    <link role="executionEnvironment" roleId="bs99.6498979092206486997" targetNodeId="45104428785272231" resolveInfo="TutorialEnvironment" />
+    <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="45104428785272231" resolveInfo="TutorialEnvironment" />
     <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="45104428788530694" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="WENSREU-T4-runbwa.entries" />
       <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/mas2182/Documents/WENSREU-T4-runbwa.entries" />
@@ -7118,7 +7118,7 @@
   <root type="bs99.ImportTool" typeId="bs99.8258261499132276459" id="6393277187636925355" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="ImportTool" />
     <property name="tagsToImport" nameId="bs99.8258261499132300449" value="JXZHSWewewC" />
-    <link role="executionEnvironment" roleId="bs99.8258261499132300351" targetNodeId="45104428785272231" resolveInfo="TutorialEnvironment" />
+    <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="45104428785272231" resolveInfo="TutorialEnvironment" />
     <node role="messages" roleId="bs99.6393277187635897304" type="bs99.Message" typeId="bs99.6393277187635893626" id="6393277187636925364" nodeInfo="ng">
       <property name="error" nameId="bs99.6393277187635893627" value="false" />
       <property name="description" nameId="bs99.6393277187635893629" value="Tag JXZHSWC successfully imported" />
