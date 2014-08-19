@@ -10584,7 +10584,7 @@
                   <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="4459289555272372878" nodeInfo="nn">
                     <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ec5l.~SNode%dgetUserObject(java%dlang%dObject)%cjava%dlang%dObject" resolveInfo="getUserObject" />
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4459289555272372879" nodeInfo="nn">
-                      <property name="value" nameId="tpee.1070475926801" value="StatefulFileSetRPCManager" />
+                      <property name="value" nameId="tpee.1070475926801" value="StatefulFileSetLocalManager" />
                     </node>
                   </node>
                 </node>
@@ -10732,17 +10732,10 @@
             <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="7170488887947617585" nodeInfo="in">
               <link role="classifier" roleId="tpee.1107535924139" targetNodeId="jlk6.~StatefulFileSetLocalManager" resolveInfo="StatefulFileSetLocalManager" />
             </node>
-            <node role="initializer" roleId="tpee.1068431790190" type="tpee.ParenthesizedExpression" typeId="tpee.1079359253375" id="7170488887947617586" nodeInfo="nn">
-              <node role="expression" roleId="tpee.1079359253376" type="tpee.CastExpression" typeId="tpee.1070534934090" id="7170488887947617587" nodeInfo="nn">
-                <node role="expression" roleId="tpee.1070534934092" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4459289555272379648" nodeInfo="nn">
-                  <node role="operand" roleId="tpee.1197027771414" type="1i04.ThisNodeExpression" typeId="1i04.1225194691553" id="7170488887947617591" nodeInfo="nn" />
-                  <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="4459289555272380978" nodeInfo="nn">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="4459289555272372866" resolveInfo="getManagerInternal" />
-                  </node>
-                </node>
-                <node role="type" roleId="tpee.1070534934091" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="7170488887947617588" nodeInfo="in">
-                  <link role="classifier" roleId="tpee.1107535924139" targetNodeId="jlk6.~StatefulFileSetLocalManager" resolveInfo="StatefulFileSetLocalManager" />
-                </node>
+            <node role="initializer" roleId="tpee.1068431790190" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4459289555272379648" nodeInfo="nn">
+              <node role="operand" roleId="tpee.1197027771414" type="1i04.ThisNodeExpression" typeId="1i04.1225194691553" id="7170488887947617591" nodeInfo="nn" />
+              <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="4459289555272380978" nodeInfo="nn">
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="4459289555272372866" resolveInfo="getManagerInternal" />
               </node>
             </node>
           </node>
