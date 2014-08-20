@@ -570,6 +570,15 @@
     <property name="name" nameId="tpck.1169194664001" value="check_JobArea" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="config" />
     <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="6583653477738501970" nodeInfo="sn">
+      <node role="statement" roleId="tpee.1068581517665" type="tpd4.InfoStatement" typeId="tpd4.1224760201579" id="6583653477738502255" nodeInfo="nn">
+        <node role="infoText" roleId="tpd4.1224760230762" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="6583653477738502285" nodeInfo="nn">
+          <property name="value" nameId="tpee.1070475926801" value="The JobArea provides configuration needed to run jobs." />
+        </node>
+        <node role="nodeToReport" roleId="tpd4.1227096802790" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="6583653477738502563" nodeInfo="nn">
+          <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="6583653477738501972" resolveInfo="jobArea" />
+        </node>
+      </node>
+      <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="5540992037642583655" nodeInfo="nn" />
       <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="6583653477738520960" nodeInfo="nn">
         <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="6583653477738520963" nodeInfo="sn">
           <node role="statement" roleId="tpee.1068581517665" type="tpd4.InfoStatement" typeId="tpd4.1224760201579" id="6583653477738526886" nodeInfo="nn">
@@ -600,7 +609,7 @@
         <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="6583653477738527662" nodeInfo="sn">
           <node role="statement" roleId="tpee.1068581517665" type="tpd4.InfoStatement" typeId="tpd4.1224760201579" id="6583653477738527663" nodeInfo="nn">
             <node role="infoText" roleId="tpd4.1224760230762" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="6583653477738527664" nodeInfo="nn">
-              <property name="value" nameId="tpee.1070475926801" value="Enter a reference to a node where SGE jobs can be submitted.\n This node must have the qsub command installed." />
+              <property name="value" nameId="tpee.1070475926801" value="Enter a reference to a local or remote node where jobs can be submitted." />
             </node>
             <node role="nodeToReport" roleId="tpd4.1227096802790" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="6583653477738527665" nodeInfo="nn">
               <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="6583653477738501972" resolveInfo="jobArea" />
@@ -620,14 +629,6 @@
             </node>
           </node>
           <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_IsNullOperation" typeId="tp25.1171999116870" id="6583653477738529414" nodeInfo="nn" />
-        </node>
-      </node>
-      <node role="statement" roleId="tpee.1068581517665" type="tpd4.InfoStatement" typeId="tpd4.1224760201579" id="6583653477738502255" nodeInfo="nn">
-        <node role="infoText" roleId="tpd4.1224760230762" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="6583653477738502285" nodeInfo="nn">
-          <property name="value" nameId="tpee.1070475926801" value="The JobArea provides configuration needed to run jobs." />
-        </node>
-        <node role="nodeToReport" roleId="tpd4.1227096802790" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="6583653477738502563" nodeInfo="nn">
-          <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="6583653477738501972" resolveInfo="jobArea" />
         </node>
       </node>
       <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="6583653477743996666" nodeInfo="nn">
@@ -682,6 +683,33 @@
           <node role="operation" roleId="tpee.1197027833540" type="tpee.IsEmptyOperation" typeId="tpee.1225271369338" id="6583653477744003770" nodeInfo="nn" />
         </node>
       </node>
+      <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="2458685554175180540" nodeInfo="nn">
+        <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="2458685554175180541" nodeInfo="sn">
+          <node role="statement" roleId="tpee.1068581517665" type="tpd4.InfoStatement" typeId="tpd4.1224760201579" id="2458685554175180542" nodeInfo="nn">
+            <node role="infoText" roleId="tpd4.1224760230762" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2458685554175180543" nodeInfo="nn">
+              <property name="value" nameId="tpee.1070475926801" value="Only jobs that do not require a Sun Grid Engine cluster can be submitted in the JobArea.\n This area does not have the qsub command installed." />
+            </node>
+            <node role="nodeToReport" roleId="tpd4.1227096802790" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="2458685554175180544" nodeInfo="nn">
+              <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="6583653477738501972" resolveInfo="jobArea" />
+            </node>
+            <node role="messageTarget" roleId="tpd4.1227096836496" type="tpd4.ReferenceMessageTarget" typeId="tpd4.1227096620180" id="2458685554175180545" nodeInfo="ng">
+              <link role="linkDeclaration" roleId="tpd4.1227096645744" targetNodeId="bs99.6449713081311050445" />
+            </node>
+          </node>
+        </node>
+        <node role="condition" roleId="tpee.1068580123160" type="tpee.NotExpression" typeId="tpee.1081516740877" id="2458685554175292049" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1081516765348" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2458685554175292051" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="2458685554175292052" nodeInfo="nn">
+              <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="6583653477738501972" resolveInfo="jobArea" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="2458685554175292053" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="lcm8.2458685554175199837" resolveInfo="acceptSGEJobs" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="5540992037645040165" nodeInfo="nn" />
+      <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="2458685554175180123" nodeInfo="nn" />
     </node>
     <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="6583653477738501972" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="jobArea" />
