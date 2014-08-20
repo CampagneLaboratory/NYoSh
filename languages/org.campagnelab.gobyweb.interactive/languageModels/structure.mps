@@ -309,6 +309,14 @@
       <property name="internalValue" nameId="tpce.1083923523171" value="SUCCESSFUL" />
       <property name="externalValue" nameId="tpce.1083923523172" value="SUCCESSFUL" />
     </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="6910057661396784589" nodeInfo="ig">
+      <property name="internalValue" nameId="tpce.1083923523171" value="PENDING" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="PENDING" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="6910057661396784805" nodeInfo="ig">
+      <property name="externalValue" nameId="tpce.1083923523172" value="SUBMISSION_FAILED" />
+      <property name="internalValue" nameId="tpce.1083923523171" value="SUBMISSSION_FAILED" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2735543333319077191" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="PluginSDKInstallation" />
