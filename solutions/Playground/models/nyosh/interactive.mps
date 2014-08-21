@@ -1602,26 +1602,34 @@
               <link role="optionValue" roleId="440p.3832291027724626265" targetNodeId="7382336670157425116" />
             </node>
           </node>
-          <node role="options" roleId="440p.1799723199634317823" type="440p.OptionValue" typeId="440p.1799723199634315593" id="7382336670157444101" nodeInfo="ng">
-            <link role="optionDefinition" roleId="440p.1799723199634315670" targetNodeId="7382336670157444103" />
-            <node role="value" roleId="440p.960208585063640454" type="440p.AStringValue" typeId="440p.960208585063641526" id="7382336670157444102" nodeInfo="ng">
-              <property name="value" nameId="440p.960208585063643119" value="" />
-            </node>
-            <node role="selfDefinition" roleId="440p.6452284053554870713" type="440p.UnspecifiedOption" typeId="440p.6319426721283191109" id="7382336670157444103" nodeInfo="ng" />
-          </node>
           <node role="options" roleId="440p.1799723199634317823" type="440p.OptionValue" typeId="440p.1799723199634315593" id="7382336670157405297" nodeInfo="ng">
             <link role="optionDefinition" roleId="440p.1799723199634315670" targetNodeId="1983714652192259309" resolveInfo="file" />
             <node role="selfDefinition" roleId="440p.6452284053554870713" type="440p.UnspecifiedOption" typeId="440p.6319426721283191109" id="7382336670157405299" nodeInfo="ng" />
             <node role="value" roleId="440p.960208585063640454" type="440p.APathValue" typeId="440p.960208585063641919" id="7382336670157576025" nodeInfo="ng">
               <node role="path" roleId="440p.960208585063642352" type="440p.InteractivePath" typeId="440p.8663900622043507972" id="7382336670157576026" nodeInfo="ng">
-                <node role="path" roleId="440p.8663900622043508056" type="440p.PathPart" typeId="440p.8663900622043508058" id="7382336670157576027" nodeInfo="ng">
-                  <property name="part" nameId="440p.8663900622043508062" value="" />
+                <node role="path" roleId="440p.8663900622043508056" type="440p.PathPart" typeId="440p.8663900622043508058" id="7382336670158690629" nodeInfo="ng">
+                  <property name="part" nameId="440p.8663900622043508062" value="." />
                   <property name="isDirectory" nameId="440p.8663900622046639162" value="true" />
                   <property name="isRoot" nameId="440p.8663900622047510234" value="false" />
                 </node>
-                <node role="path" roleId="440p.8663900622043508056" type="440p.PathPart" typeId="440p.8663900622043508058" id="7382336670157576043" nodeInfo="ng">
-                  <property name="part" nameId="440p.8663900622043508062" value="Applications" />
+                <node role="path" roleId="440p.8663900622043508056" type="440p.PathPart" typeId="440p.8663900622043508058" id="7382336670158990787" nodeInfo="ng">
+                  <property name="part" nameId="440p.8663900622043508062" value=".." />
                   <property name="isDirectory" nameId="440p.8663900622046639162" value="true" />
+                  <property name="isRoot" nameId="440p.8663900622047510234" value="false" />
+                </node>
+                <node role="path" roleId="440p.8663900622043508056" type="440p.PathPart" typeId="440p.8663900622043508058" id="7382336670158990794" nodeInfo="ng">
+                  <property name="part" nameId="440p.8663900622043508062" value="Contents" />
+                  <property name="isDirectory" nameId="440p.8663900622046639162" value="true" />
+                  <property name="isRoot" nameId="440p.8663900622047510234" value="false" />
+                </node>
+                <node role="path" roleId="440p.8663900622043508056" type="440p.PathPart" typeId="440p.8663900622043508058" id="7382336670159511961" nodeInfo="ng">
+                  <property name="part" nameId="440p.8663900622043508062" value="MacOS" />
+                  <property name="isDirectory" nameId="440p.8663900622046639162" value="true" />
+                  <property name="isRoot" nameId="440p.8663900622047510234" value="false" />
+                </node>
+                <node role="path" roleId="440p.8663900622043508056" type="440p.PathPart" typeId="440p.8663900622043508058" id="7382336670159511966" nodeInfo="ng">
+                  <property name="part" nameId="440p.8663900622043508062" value="" />
+                  <property name="isDirectory" nameId="440p.8663900622046639162" value="false" />
                   <property name="isRoot" nameId="440p.8663900622047510234" value="false" />
                 </node>
               </node>
