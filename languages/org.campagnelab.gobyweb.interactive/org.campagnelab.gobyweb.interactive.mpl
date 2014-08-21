@@ -39,7 +39,6 @@
     <dependency reexport="false">2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)</dependency>
     <dependency reexport="false">9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)</dependency>
     <dependency reexport="false">20d83b64-d10f-48d1-990d-513b574c4956(org.campagnelab.background)</dependency>
-    <dependency reexport="false">b3fbb0a9-d1eb-4569-b506-1ced4fe8b64f(org.campagnelab.background#2434551981678683241)</dependency>
     <dependency reexport="true">7620dd3f-7541-48a3-b1e6-01cced81a7a5(org.campagnelab.clusterConfig)</dependency>
     <dependency reexport="false">d8e610a4-07e8-4a28-a3f6-a82fb9690d70(org.campagnelab.feedback)</dependency>
     <dependency reexport="false">adfd00cb-58d7-4094-bca8-f941a491e04f(org.campagnelab.gobyweb)</dependency>
