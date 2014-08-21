@@ -5,7 +5,9 @@
       <sourceRoot location="languageModels" />
     </modelRoot>
   </models>
-  <accessoryModels />
+  <accessoryModels>
+    <model modelUID="r:aa9c91aa-8100-4e98-88e5-b9737f1d54b8(model.organisms)" />
+  </accessoryModels>
   <generators>
     <generator name="" generatorUID="org.campagnelab.gobyweb.interactive#2051553890368756015" uuid="97e24173-dc35-4e94-9e1c-ebaed6060641">
       <models>
@@ -70,6 +72,7 @@
   </usedDevKits>
   <runtime>
     <dependency reexport="false">876624ad-a590-49cc-af36-d31b84c885cd(org.campagnelab.gobyweb.interactive.viewers)</dependency>
+    <dependency reexport="false">d0df1055-918a-4cf9-96f9-effded676ae2(org.campagnelab.bio.species.morgs)</dependency>
   </runtime>
   <extendedLanguages>
     <extendedLanguage>f05c05d7-dafb-4c87-b842-b836f305120f(org.campagnelab.gobyweb.monitoring)</extendedLanguage>
