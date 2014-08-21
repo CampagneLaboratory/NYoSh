@@ -113,7 +113,6 @@
   </target>
   
   <target name="buildDependents">
-    <ant antfile="../XChart/build.xml" inheritAll="false" useNativeBasedir="true" />
     <ant antfile="build.xml" inheritAll="false" useNativeBasedir="true" />
   </target>
   

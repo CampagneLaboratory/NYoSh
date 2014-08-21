@@ -12,5 +12,11 @@
     </dependencies>
     <rename id="bbh2.1212232161625735277" type="REFERENCE" from="e" to="eventListeners" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="bbh2" modelUID="r:220d24dc-c962-4ed8-b674-7bde9fb2980c(org.campagnelab.gobyweb.monitoring.structure)" version="1" />
+    </dependencies>
+    <rename id="bbh2.5540992037655099356" type="PROPERTY" from="line" to="text" />
+  </StructureModification>
 </history>
 
