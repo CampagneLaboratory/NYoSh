@@ -17,10 +17,6 @@
       <property name="name" nameId="tpck.1169194664001" value="type" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="6726552014277555178" resolveInfo="ATTRIBUTE_TYPE" />
     </node>
-    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="6726552014277555062" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="mandatory" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657063" resolveInfo="boolean" />
-    </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6726552014277555060" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
     </node>
@@ -59,6 +55,10 @@
     <property name="name" nameId="tpck.1169194664001" value="AttributeDefinitionRef" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="filesets" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="723438572043149397" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="mandatory" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657063" resolveInfo="boolean" />
+    </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="6726552014277534410" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
       <property name="role" nameId="tpce.1071599776563" value="attribute" />
