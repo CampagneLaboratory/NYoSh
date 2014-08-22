@@ -7196,323 +7196,6 @@
     </node>
   </root>
   <root type="whle.Logger" typeId="whle.1925991773566712428" id="1405392831549335114" nodeInfo="ng">
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014276099814" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Attaching attributes from FileSetTypeId" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014276099815" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found definition for ORGANISM" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014276099817" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found definition for READS_PLATFORM" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014276099819" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found definition for PAIRED_END_DIRECTIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014276099821" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found definition for COLOR_SPACE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014276099823" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found definition for LIB_PROTOCOL_PRESERVE_STRAND" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014276099825" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found definition for BISULFITE_SAMPLE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014276099827" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Processing preview with tag= null" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014276099829" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding file /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_short_1_SRR094793.fastq.gz" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014276099830" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found #ids:3" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014276099832" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding type GZ to file /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_short_1_SRR094793.fastq.gz" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014276099834" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding type FASTQ_GZ to file /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_short_1_SRR094793.fastq.gz" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014276099836" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding type SUPPORTED_INPUT_READS to file /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_short_1_SRR094793.fastq.gz" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014276099842" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Attaching attributes from FileSetTypeId" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014276099843" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Attaching attributes from FileSetTypeId" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014276099844" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Attaching attributes from FileSetTypeId" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014276099845" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found definition for ORGANISM" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014276099847" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found definition for READS_PLATFORM" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014276099849" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found definition for PAIRED_END_DIRECTIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014276099851" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found definition for COLOR_SPACE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014276099853" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found definition for LIB_PROTOCOL_PRESERVE_STRAND" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014276099855" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found definition for BISULFITE_SAMPLE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511024" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found tag null" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511025" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found 2 files with same tag" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511026" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="fileIds was empty, adding !null!." />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511027" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Processing preview with tag= null" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511029" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding file /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_long_2_SRR094794.fastq.gz" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511030" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found #ids:3" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511032" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding type GZ to file /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_long_2_SRR094794.fastq.gz" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511034" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding type FASTQ_GZ to file /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_long_2_SRR094794.fastq.gz" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511036" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding type SUPPORTED_INPUT_READS to file /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_long_2_SRR094794.fastq.gz" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511042" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Attaching attributes from FileSetTypeId" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511043" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Attaching attributes from FileSetTypeId" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511044" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Attaching attributes from FileSetTypeId" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511045" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found definition for ORGANISM" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511047" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found definition for READS_PLATFORM" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511049" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found definition for PAIRED_END_DIRECTIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511051" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found definition for COLOR_SPACE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511053" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found definition for LIB_PROTOCOL_PRESERVE_STRAND" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511055" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found definition for BISULFITE_SAMPLE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511057" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Processing preview with tag= null" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511059" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding file /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_long_3_SRR094799.fastq.gz" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511060" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found #ids:3" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511062" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding type GZ to file /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_long_3_SRR094799.fastq.gz" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511064" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding type FASTQ_GZ to file /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_long_3_SRR094799.fastq.gz" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511066" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding type SUPPORTED_INPUT_READS to file /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_long_3_SRR094799.fastq.gz" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511072" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Attaching attributes from FileSetTypeId" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511073" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Attaching attributes from FileSetTypeId" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511074" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Attaching attributes from FileSetTypeId" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511075" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found definition for ORGANISM" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511076" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found definition for READS_PLATFORM" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511077" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found definition for PAIRED_END_DIRECTIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511078" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found definition for COLOR_SPACE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511079" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found definition for LIB_PROTOCOL_PRESERVE_STRAND" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511080" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found definition for BISULFITE_SAMPLE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511221" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found tag null" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511222" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found 2 files with same tag" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511223" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Processing preview with tag= XSMCCZG" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511225" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding file /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_long_2_SRR094794.fastq.gz" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511226" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found #ids:1" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511228" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding type SUPPORTED_INPUT_READS to file /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_long_2_SRR094794.fastq.gz" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511232" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Attaching attributes from FileSetTypeId" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511233" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found definition for ORGANISM" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511235" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found definition for READS_PLATFORM" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511237" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found definition for PAIRED_END_DIRECTIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511239" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found definition for COLOR_SPACE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511241" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found definition for LIB_PROTOCOL_PRESERVE_STRAND" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511243" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found definition for BISULFITE_SAMPLE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511245" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Processing preview with tag= VXMAQGU" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511247" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding file /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_long_3_SRR094799.fastq.gz" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511248" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found #ids:1" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511250" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding type SUPPORTED_INPUT_READS to file /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_long_3_SRR094799.fastq.gz" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511254" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Attaching attributes from FileSetTypeId" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511255" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found definition for ORGANISM" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511256" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found definition for READS_PLATFORM" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511257" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found definition for PAIRED_END_DIRECTIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511258" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found definition for COLOR_SPACE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511259" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found definition for LIB_PROTOCOL_PRESERVE_STRAND" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511260" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found definition for BISULFITE_SAMPLE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511385" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Found distinct tags=null" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.register" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511386" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Found 1 distinctFileSetTypeIds" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.register" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511387" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Obtained assignedTags=" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.register" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511389" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Found 1 distinctFileSetTypeIds" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.register" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277511390" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Obtained assignedTags=" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.register" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277513479" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found tag null" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277513480" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found 2 files with same tag" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277513481" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Processing preview with tag= GAUBYWP" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277513483" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding file /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_long_2_SRR094794.fastq.gz" />
-    </node>
     <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277513484" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="found #ids:1" />
     </node>
@@ -7585,6 +7268,288 @@
     </node>
     <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277513518" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="found definition for BISULFITE_SAMPLE" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277517399" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found tag null" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277517400" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found 1 files with same tag" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277517401" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="fileIds was empty, adding !null!." />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277517402" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Processing preview with tag= null" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277517404" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Adding file /Users/mas2182/Lab/Projects/GobyWeb/data/DataUpload.tsv" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277517405" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found #ids:2" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277517407" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Adding type TSV to file /Users/mas2182/Lab/Projects/GobyWeb/data/DataUpload.tsv" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277517409" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Adding type READ_QUALITY_STATS to file /Users/mas2182/Lab/Projects/GobyWeb/data/DataUpload.tsv" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277517414" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Attaching attributes from FileSetTypeId" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277517415" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found definition for first TSV attr" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277517417" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found definition for second TSV attr" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277517419" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found definition for third TSV attr" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277517421" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Attaching attributes from FileSetTypeId" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277517540" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found tag null" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277517541" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found 1 files with same tag" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277517542" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="fileIds was empty, adding !null!." />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277517543" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Processing preview with tag= null" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277517545" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Adding file /Users/mas2182/Lab/Projects/GobyWeb/data/DataUpload.tsv" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277517546" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found #ids:2" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277517548" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Adding type TSV to file /Users/mas2182/Lab/Projects/GobyWeb/data/DataUpload.tsv" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277517550" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Adding type READ_QUALITY_STATS to file /Users/mas2182/Lab/Projects/GobyWeb/data/DataUpload.tsv" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277517555" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Attaching attributes from FileSetTypeId" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277517556" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found definition for first TSV attr" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277517558" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found definition for second TSV attr" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277517560" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found definition for third TSV attr" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277517562" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Attaching attributes from FileSetTypeId" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277517705" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found tag null" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277517706" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found 1 files with same tag" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277517707" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="fileIds was empty, adding !null!." />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277517708" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Processing preview with tag= null" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277517710" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Adding file /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_short_1_SRR094793.fastq.gz" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277517711" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found #ids:3" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277517713" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Adding type GZ to file /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_short_1_SRR094793.fastq.gz" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277517715" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Adding type FASTQ_GZ to file /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_short_1_SRR094793.fastq.gz" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277517717" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Adding type SUPPORTED_INPUT_READS to file /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_short_1_SRR094793.fastq.gz" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277517723" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Attaching attributes from FileSetTypeId" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277517724" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Attaching attributes from FileSetTypeId" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277517725" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Attaching attributes from FileSetTypeId" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277517726" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found definition for ORGANISM" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277517728" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found definition for READS_PLATFORM" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277517730" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found definition for PAIRED_END_DIRECTIONS" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277517732" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found definition for COLOR_SPACE" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277517734" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found definition for LIB_PROTOCOL_PRESERVE_STRAND" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277517736" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found definition for BISULFITE_SAMPLE" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277518132" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found tag null" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277518133" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found 1 files with same tag" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277518134" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Processing preview with tag= YMOXQOU" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277518136" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Adding file /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_short_1_SRR094793.fastq.gz" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277518137" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277518139" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Adding type SUPPORTED_INPUT_READS to file /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_short_1_SRR094793.fastq.gz" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277518143" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Attaching attributes from FileSetTypeId" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277518144" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found definition for ORGANISM" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277518146" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found definition for READS_PLATFORM" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277518148" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found definition for PAIRED_END_DIRECTIONS" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277518150" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found definition for COLOR_SPACE" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277518152" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found definition for LIB_PROTOCOL_PRESERVE_STRAND" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277518154" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found definition for BISULFITE_SAMPLE" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277518277" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found tag null" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277518278" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found 1 files with same tag" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277518279" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="fileIds was empty, adding !null!." />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277518280" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Processing preview with tag= null" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277518282" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Adding file /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_short_1_SRR094793.fastq.gz" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277518283" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found #ids:3" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277518285" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Adding type GZ to file /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_short_1_SRR094793.fastq.gz" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277518287" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Adding type FASTQ_GZ to file /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_short_1_SRR094793.fastq.gz" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277518289" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Adding type SUPPORTED_INPUT_READS to file /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_short_1_SRR094793.fastq.gz" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277518295" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Attaching attributes from FileSetTypeId" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277518296" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Attaching attributes from FileSetTypeId" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277518297" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Attaching attributes from FileSetTypeId" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277518298" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found definition for ORGANISM" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277518300" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found definition for READS_PLATFORM" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277518302" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found definition for PAIRED_END_DIRECTIONS" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277518304" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found definition for COLOR_SPACE" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277518306" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found definition for LIB_PROTOCOL_PRESERVE_STRAND" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277518308" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found definition for BISULFITE_SAMPLE" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277518438" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found tag null" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277518439" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found 1 files with same tag" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277518440" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Processing preview with tag= HUMEQJY" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277518442" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Adding file /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_short_1_SRR094793.fastq.gz" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277518443" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277518445" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Adding type FASTQ_GZ to file /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_short_1_SRR094793.fastq.gz" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="6726552014277518449" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Attaching attributes from FileSetTypeId" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
     </node>
   </root>
@@ -7982,96 +7947,38 @@
   </root>
   <root type="bs99.RegisterFileTool" typeId="bs99.2954990197977709385" id="1405392831552429588" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="RegisterTool" />
-    <property name="messages" nameId="bs99.1879241968980829296" value="RegisterTool /Users/mas2182/tests/LocalEnvironment/WENSREU-T4-runbwa.sequence-variation-stats.tsvRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_long_1_SRR094804.fastq.gzRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_long_1_SRR094804.fastq.gzRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_long_1_SRR094804.fastq.gzRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_long_1_SRR094804.fastq.gzRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_long_1_SRR094804.fastq.gzRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_long_1_SRR094804.fastq.gzRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/DataUpload.tsvRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/DataUpload.tsvRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/DataUpload2.tsvRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/DataUpload2.tsvRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_long_1_SRR094804.fastq.gzRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_short_2_SRR094797.fastq.gzRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/DataUpload.tsvRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/DataUpload.tsvRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/DataUpload.tsvRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_long_2_SRR094794.fastq.gzRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_long_2_SRR094794.fastq.gzRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_long_2_SRR094794.fastq.gzRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_long_3_SRR094799.fastq.gzRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_short_1_SRR094793.fastq.gzRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_long_2_SRR094794.fastq.gzRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_long_3_SRR094799.fastq.gz" />
+    <property name="messages" nameId="bs99.1879241968980829296" value="RegisterTool /Users/mas2182/tests/LocalEnvironment/WENSREU-T4-runbwa.sequence-variation-stats.tsvRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_long_1_SRR094804.fastq.gzRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_long_1_SRR094804.fastq.gzRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_long_1_SRR094804.fastq.gzRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_long_1_SRR094804.fastq.gzRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_long_1_SRR094804.fastq.gzRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_long_1_SRR094804.fastq.gzRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/DataUpload.tsvRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/DataUpload.tsvRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/DataUpload2.tsvRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/DataUpload2.tsvRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_long_1_SRR094804.fastq.gzRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_short_2_SRR094797.fastq.gzRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/DataUpload.tsvRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/DataUpload.tsvRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/DataUpload.tsvRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_long_2_SRR094794.fastq.gzRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_long_2_SRR094794.fastq.gzRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_long_2_SRR094794.fastq.gzRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_long_3_SRR094799.fastq.gzRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_short_1_SRR094793.fastq.gzRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_long_2_SRR094794.fastq.gzRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_long_3_SRR094799.fastq.gzRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/DataUpload.tsvRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/DataUpload.tsvRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_short_1_SRR094793.fastq.gzRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_short_1_SRR094793.fastq.gz" />
     <property name="filesInError" nameId="bs99.5704832314568278031" value="0" />
-    <property name="willCreateFilesets" nameId="bs99.5704832314568277954" value="2" />
+    <property name="willCreateFilesets" nameId="bs99.5704832314568277954" value="1" />
     <property name="filesMandatoryAndMissing" nameId="bs99.5704832314568278035" value="0" />
     <property name="hasPreview" nameId="bs99.5704832314568883481" value="true" />
     <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="8475644845778505760" resolveInfo="LocalEnvironment" />
-    <node role="registered" roleId="bs99.4459289555262004257" type="bs99.FileSetInstanceRefSet" typeId="bs99.2835705609407426008" id="1405392831552429589" nodeInfo="ng">
-      <node role="refs" roleId="bs99.2835705609407426009" type="bs99.FileSetInstanceReference" typeId="bs99.2835705609407425062" id="6726552014277511388" nodeInfo="ng">
-        <link role="fileSetInstance" roleId="bs99.2835705609407425063" targetNodeId="6726552014277511224" resolveInfo="mouse_colon_control_long_2_SRR094794.fastq" />
-      </node>
-      <node role="refs" roleId="bs99.2835705609407426009" type="bs99.FileSetInstanceReference" typeId="bs99.2835705609407425062" id="6726552014277511391" nodeInfo="ng">
-        <link role="fileSetInstance" roleId="bs99.2835705609407425063" targetNodeId="6726552014277511246" resolveInfo="mouse_colon_control_long_3_SRR094799.fastq" />
-      </node>
-    </node>
-    <node role="feedbackView" roleId="bs99.6620797826825978079" type="dhle.FeedbackView" typeId="dhle.6620797826825978917" id="1405392831552429590" nodeInfo="ng">
-      <node role="messages" roleId="dhle.6620797826825978918" type="dhle.Message" typeId="dhle.6620797826827480125" id="6726552014277511513" nodeInfo="ng">
-        <property name="text" nameId="dhle.6620797826827481341" value="Registered FileSetInstance mouse_colon_control_long_3_SRR094799.fastq" />
-      </node>
-      <node role="messages" roleId="dhle.6620797826825978918" type="dhle.Message" typeId="dhle.6620797826827480125" id="6726552014277511537" nodeInfo="ng">
-        <property name="text" nameId="dhle.6620797826827481341" value="Registered FileSetInstance mouse_colon_control_long_2_SRR094794.fastq" />
-      </node>
-    </node>
-    <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="6726552014277511020" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="mouse_colon_control_long_2_SRR094794.fastq.gz" />
-      <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_long_2_SRR094794.fastq.gz" />
-      <node role="types" roleId="bs99.5704832314562469901" type="bs99.FileSetTypeId" typeId="bs99.5704832314562469955" id="6726552014277513485" nodeInfo="ng">
-        <property name="id" nameId="bs99.5704832314562469956" value="SUPPORTED_INPUT_READS" />
+    <node role="registered" roleId="bs99.4459289555262004257" type="bs99.FileSetInstanceRefSet" typeId="bs99.2835705609407426008" id="1405392831552429589" nodeInfo="ng" />
+    <node role="feedbackView" roleId="bs99.6620797826825978079" type="dhle.FeedbackView" typeId="dhle.6620797826825978917" id="1405392831552429590" nodeInfo="ng" />
+    <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="6726552014277518275" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="mouse_colon_control_short_1_SRR094793.fastq.gz" />
+      <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_short_1_SRR094793.fastq.gz" />
+      <node role="types" roleId="bs99.5704832314562469901" type="bs99.FileSetTypeId" typeId="bs99.5704832314562469955" id="6726552014277518444" nodeInfo="ng">
+        <property name="id" nameId="bs99.5704832314562469956" value="FASTQ_GZ" />
         <property name="version" nameId="bs99.2465489689645111090" value="1.0" />
       </node>
     </node>
-    <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="6726552014277511021" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="mouse_colon_control_long_3_SRR094799.fastq.gz" />
-      <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_long_3_SRR094799.fastq.gz" />
-      <node role="types" roleId="bs99.5704832314562469901" type="bs99.FileSetTypeId" typeId="bs99.5704832314562469955" id="6726552014277513507" nodeInfo="ng">
-        <property name="id" nameId="bs99.5704832314562469956" value="SUPPORTED_INPUT_READS" />
-        <property name="version" nameId="bs99.2465489689645111090" value="1.0" />
-      </node>
-    </node>
-    <node role="filesetInstances" roleId="bs99.5260963271977218318" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="6726552014277513482" nodeInfo="ng">
+    <node role="filesetInstances" roleId="bs99.5260963271977218318" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="6726552014277518441" nodeInfo="ng">
       <property name="size" nameId="bs99.2740821845424982900" value="0" />
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="false" />
-      <property name="tag" nameId="bs99.2051553890368778934" value="GAUBYWP" />
-      <property name="name" nameId="tpck.1169194664001" value="mouse_colon_control_long_2_SRR094794.fastq" />
+      <property name="tag" nameId="bs99.2051553890368778934" value="HUMEQJY" />
+      <property name="name" nameId="tpck.1169194664001" value="mouse_colon_control_short_1_SRR094793.fastq" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="8475644845778516036" />
-      <node role="files" roleId="bs99.5260963271977142496" type="bs99.File" typeId="bs99.1997533223701240107" id="6726552014277513487" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="mouse_colon_control_long_2_SRR094794.fastq.gz" />
-        <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_long_2_SRR094794.fastq.gz" />
-        <node role="types" roleId="bs99.5704832314562469901" type="bs99.FileSetTypeId" typeId="bs99.5704832314562469955" id="6726552014277513488" nodeInfo="ng">
-          <property name="id" nameId="bs99.5704832314562469956" value="SUPPORTED_INPUT_READS" />
+      <node role="files" roleId="bs99.5260963271977142496" type="bs99.File" typeId="bs99.1997533223701240107" id="6726552014277518446" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="mouse_colon_control_short_1_SRR094793.fastq.gz" />
+        <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_short_1_SRR094793.fastq.gz" />
+        <node role="types" roleId="bs99.5704832314562469901" type="bs99.FileSetTypeId" typeId="bs99.5704832314562469955" id="6726552014277518447" nodeInfo="ng">
+          <property name="id" nameId="bs99.5704832314562469956" value="FASTQ_GZ" />
           <property name="version" nameId="bs99.2465489689645111090" value="1.0" />
         </node>
       </node>
-      <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="6726552014277513489" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="mouse_colon_control_long_2_SRR094794.fastq.gz" />
-      </node>
-    </node>
-    <node role="attributes" roleId="bs99.1405392831552303915" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="6726552014277513492" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
-    </node>
-    <node role="attributes" roleId="bs99.1405392831552303915" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="6726552014277513494" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="READS_PLATFORM" />
-    </node>
-    <node role="attributes" roleId="bs99.1405392831552303915" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="6726552014277513496" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_DIRECTIONS" />
-    </node>
-    <node role="attributes" roleId="bs99.1405392831552303915" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="6726552014277513498" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="COLOR_SPACE" />
-    </node>
-    <node role="attributes" roleId="bs99.1405392831552303915" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="6726552014277513500" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="LIB_PROTOCOL_PRESERVE_STRAND" />
-    </node>
-    <node role="attributes" roleId="bs99.1405392831552303915" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="6726552014277513502" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="BISULFITE_SAMPLE" />
-    </node>
-    <node role="filesetInstances" roleId="bs99.5260963271977218318" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="6726552014277513504" nodeInfo="ng">
-      <property name="size" nameId="bs99.2740821845424982900" value="0" />
-      <property name="isRegistered" nameId="bs99.5260963271977142244" value="false" />
-      <property name="tag" nameId="bs99.2051553890368778934" value="TPLMICA" />
-      <property name="name" nameId="tpck.1169194664001" value="mouse_colon_control_long_3_SRR094799.fastq" />
-      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="8475644845778516036" />
-      <node role="files" roleId="bs99.5260963271977142496" type="bs99.File" typeId="bs99.1997533223701240107" id="6726552014277513509" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="mouse_colon_control_long_3_SRR094799.fastq.gz" />
-        <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/mas2182/Lab/Projects/GobyWeb/data/mouse_colon_control_long_3_SRR094799.fastq.gz" />
-        <node role="types" roleId="bs99.5704832314562469901" type="bs99.FileSetTypeId" typeId="bs99.5704832314562469955" id="6726552014277513510" nodeInfo="ng">
-          <property name="id" nameId="bs99.5704832314562469956" value="SUPPORTED_INPUT_READS" />
-          <property name="version" nameId="bs99.2465489689645111090" value="1.0" />
-        </node>
-      </node>
-      <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="6726552014277513511" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="mouse_colon_control_long_3_SRR094799.fastq.gz" />
+      <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="6726552014277518448" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="mouse_colon_control_short_1_SRR094793.fastq.gz" />
       </node>
     </node>
   </root>

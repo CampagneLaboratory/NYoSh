@@ -11,6 +11,7 @@
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.feedback/org.campagnelab.feedback.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.filters/org.campagnelab.filters.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.gobyweb.environment/org.campagnelab.gobyweb.environment.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.gobyweb.interactive.mappings/org.campagnelab.gobyweb.interactive.mappings.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.gobyweb.interactive/org.campagnelab.gobyweb.interactive.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.gobyweb.monitoring/org.campagnelab.gobyweb.monitoring.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.gobyweb.plugins/org.campagnelab.gobyweb.plugins.mpl" folder="" />
@@ -35,6 +36,7 @@
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.NYoSh.samples/org.campagnelab.NYoSh.samples.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.bio.species.morgs/org.campagnelab.bio.species.morgs.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.gobyweb.charts/org.campagnelab.gobyweb.charts.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.gobyweb.interactive.filesets.mappings/org.campagnelab.gobyweb.interactive.filesets.mappings.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.gobyweb.interactive.viewers/org.campagnelab.gobyweb.interactive.viewers.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.ui.code/org.campagnelab.ui.code.msd" folder="" />
     </projectModules>
