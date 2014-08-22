@@ -3,7 +3,7 @@
   <persistence version="8" />
   <devkit namespace="db81b829-e557-4467-b78e-cc1d44965622(org.campagnelab.devkit.gobyweb.interactive)" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="53" implicit="yes" />
+  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="55" implicit="yes" />
   <import index="9k5" modelUID="r:df9645c2-d2fa-41cb-a718-044a287b0626(org.campagnelab.clusterConfig.structure)" version="3" implicit="yes" />
   <import index="whle" modelUID="r:8e4fd1b7-1955-43a4-ace6-aaf9d13814f8(org.campagnelab.logger.structure)" version="1" implicit="yes" />
   <import index="bbh2" modelUID="r:220d24dc-c962-4ed8-b674-7bde9fb2980c(org.campagnelab.gobyweb.monitoring.structure)" version="2" implicit="yes" />
@@ -8626,11 +8626,11 @@
       <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5540992037657012326" resolveInfo="JOB_METADATA" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="5109993752555483659" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
-        <property name="value" nameId="bs99.8258261499122039841" value="JXZHSWC" />
+        <property name="value" value="JXZHSWC" />
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="5109993752555483660" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
-        <property name="value" nameId="bs99.8258261499122039841" value="JXZHSWC" />
+        <property name="value" value="JXZHSWC" />
       </node>
       <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="5109993752555483661" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="JOB_STATISTICS" />
@@ -8647,11 +8647,11 @@
       <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5540992037657012339" resolveInfo="READS_STATS_PROPERTIES_FILE" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="5109993752555483668" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
-        <property name="value" nameId="bs99.8258261499122039841" value="output-stats" />
+        <property name="value" value="output-stats" />
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="5109993752555483669" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
-        <property name="value" nameId="bs99.8258261499122039841" value="JXZHSWC" />
+        <property name="value" value="JXZHSWC" />
       </node>
       <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="5109993752555483670" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="STATS" />
@@ -8668,11 +8668,11 @@
       <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5540992037657012337" resolveInfo="READ_QUALITY_STATS" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="5109993752555483676" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
-        <property name="value" nameId="bs99.8258261499122039841" value="JXZHSWC" />
+        <property name="value" value="JXZHSWC" />
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="5109993752555483677" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
-        <property name="value" nameId="bs99.8258261499122039841" value="JXZHSWC" />
+        <property name="value" value="JXZHSWC" />
       </node>
       <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="5109993752555483678" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="READ_QUALITY_STATS" />
@@ -8689,11 +8689,11 @@
       <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5540992037657012365" resolveInfo="WEIGHT_FILES" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="5109993752555483684" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
-        <property name="value" nameId="bs99.8258261499122039841" value="JXZHSWC-testCFS038-459-D2PRE_S10_L001_R1_001" />
+        <property name="value" value="JXZHSWC-testCFS038-459-D2PRE_S10_L001_R1_001" />
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="5109993752555483685" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
-        <property name="value" nameId="bs99.8258261499122039841" value="JXZHSWC" />
+        <property name="value" value="JXZHSWC" />
       </node>
       <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="5109993752555483686" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="GC_WEIGHTS" />
@@ -8710,59 +8710,59 @@
       <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5540992037657012297" resolveInfo="COMPACT_READS" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="5109993752555483692" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_ALIGNMENT" />
-        <property name="value" nameId="bs99.8258261499122039841" value="false" />
+        <property name="value" value="false" />
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="5109993752555483693" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="COLOR_SPACE" />
-        <property name="value" nameId="bs99.8258261499122039841" value="false" />
+        <property name="value" value="false" />
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="5109993752555483694" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
-        <property name="value" nameId="bs99.8258261499122039841" value="homo_sapiens" />
+        <property name="value" value="homo_sapiens" />
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="5109993752555483695" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="STATS_TAGS" />
-        <property name="value" nameId="bs99.8258261499122039841" value="FOEOMFQ" />
+        <property name="value" value="FOEOMFQ" />
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="5109993752555483696" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="QUALITY_TAGS" />
-        <property name="value" nameId="bs99.8258261499122039841" value="XJCVTMC" />
+        <property name="value" value="XJCVTMC" />
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="5109993752555483697" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
-        <property name="value" nameId="bs99.8258261499122039841" value="testCFS038-459-D2PRE_S10_L001_R1_001" />
+        <property name="value" value="testCFS038-459-D2PRE_S10_L001_R1_001" />
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="5109993752555483698" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="READS_PLATFORM" />
-        <property name="value" nameId="bs99.8258261499122039841" value="Illumina" />
+        <property name="value" value="Illumina" />
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="5109993752555483699" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="BISULFITE_SAMPLE" />
-        <property name="value" nameId="bs99.8258261499122039841" value="false" />
+        <property name="value" value="false" />
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="5109993752555483700" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="LIB_PROTOCOL_PRESERVE_STRAND" />
-        <property name="value" nameId="bs99.8258261499122039841" value="true" />
+        <property name="value" value="true" />
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="5109993752555483701" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
-        <property name="value" nameId="bs99.8258261499122039841" value="JXZHSWC" />
+        <property name="value" value="JXZHSWC" />
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="5109993752555483702" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="READS_LABEL" />
-        <property name="value" nameId="bs99.8258261499122039841" value="testCFS038-459-D2PRE_S10_L001_R1_001" />
+        <property name="value" value="testCFS038-459-D2PRE_S10_L001_R1_001" />
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="5109993752555483703" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="WEIGHT_TAGS" />
-        <property name="value" nameId="bs99.8258261499122039841" value="FESNLJQ" />
+        <property name="value" value="FESNLJQ" />
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="5109993752555483704" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="INPUT_READ_LENGTH" />
-        <property name="value" nameId="bs99.8258261499122039841" value="51" />
+        <property name="value" value="51" />
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="5109993752555483705" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_DIRECTIONS" />
-        <property name="value" nameId="bs99.8258261499122039841" value="FF" />
+        <property name="value" value="FF" />
       </node>
       <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="5109993752555483706" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="READS_FILE" />
@@ -8782,7 +8782,7 @@
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="2410008246417695980" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
-        <property name="value" nameId="bs99.8258261499122039841" value="WENSREU-T4-runbwa" />
+        <property name="value" value="WENSREU-T4-runbwa" />
       </node>
       <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="2410008246417695981" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="TSV" />
