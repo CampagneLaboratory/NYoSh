@@ -640,6 +640,28 @@
                 <property name="text" nameId="tpee.6329021646629104958" value="show up to the first 15 columns of this table:" />
               </node>
             </node>
+            <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="3638690242609962264" nodeInfo="nn">
+              <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="3638690242609962267" nodeInfo="nr">
+                <property name="name" nameId="tpck.1169194664001" value="minSize" />
+                <node role="type" roleId="tpee.5680397130376446158" type="tpee.IntegerType" typeId="tpee.1070534370425" id="3638690242609962262" nodeInfo="in" />
+                <node role="initializer" roleId="tpee.1068431790190" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="3638690242609969737" nodeInfo="nn">
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~Math%dmax(int,int)%cint" resolveInfo="max" />
+                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="e2lb.~Math" resolveInfo="Math" />
+                  <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="3638690242609970291" nodeInfo="nn">
+                    <property name="value" nameId="tpee.1068580320021" value="15" />
+                  </node>
+                  <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3638690242609978297" nodeInfo="nn">
+                    <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3638690242609971697" nodeInfo="nn">
+                      <node role="operand" roleId="tpee.1197027771414" type="1i04.ThisNodeExpression" typeId="1i04.1225194691553" id="3638690242609971560" nodeInfo="nn" />
+                      <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkListAccess" typeId="tp25.1138056282393" id="3638690242609974197" nodeInfo="nn">
+                        <link role="link" roleId="tp25.1138056546658" targetNodeId="7c6v.1382465545655829234" />
+                      </node>
+                    </node>
+                    <node role="operation" roleId="tpee.1197027833540" type="tp2q.GetSizeOperation" typeId="tp2q.1162935959151" id="3638690242609990073" nodeInfo="nn" />
+                  </node>
+                </node>
+              </node>
+            </node>
             <node role="statement" roleId="tpee.1068581517665" type="tp2q.ForEachStatement" typeId="tp2q.1153943597977" id="251853584003268210" nodeInfo="nn">
               <node role="variable" roleId="tp2q.1153944400369" type="tp2q.ForEachVariable" typeId="tp2q.1153944193378" id="251853584003268212" nodeInfo="nr">
                 <property name="name" nameId="tpck.1169194664001" value="column" />
@@ -652,8 +674,8 @@
                   </node>
                 </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tp2q.HeadListOperation" typeId="tp2q.5232196642625574978" id="251853584003294643" nodeInfo="nn">
-                  <node role="upToIndex" roleId="tp2q.5232196642625574980" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="251853584003295471" nodeInfo="nn">
-                    <property name="value" nameId="tpee.1068580320021" value="15" />
+                  <node role="upToIndex" roleId="tp2q.5232196642625574980" type="tpee.VariableReference" typeId="tpee.1068498886296" id="3638690242609991055" nodeInfo="nn">
+                    <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3638690242609962267" resolveInfo="minSize" />
                   </node>
                 </node>
               </node>
