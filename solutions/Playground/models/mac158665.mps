@@ -5,7 +5,7 @@
   <devkit namespace="db81b829-e557-4467-b78e-cc1d44965622(org.campagnelab.devkit.gobyweb.interactive)" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="9k5" modelUID="r:df9645c2-d2fa-41cb-a718-044a287b0626(org.campagnelab.clusterConfig.structure)" version="3" implicit="yes" />
-  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="51" implicit="yes" />
+  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="55" implicit="yes" />
   <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="30" implicit="yes" />
   <import index="dzk5" modelUID="r:2bfcc546-5c51-4762-9df2-c43920be4458(org.campagnelab.gobyweb.plugins.structure)" version="4" implicit="yes" />
   <import index="whle" modelUID="r:8e4fd1b7-1955-43a4-ace6-aaf9d13814f8(org.campagnelab.logger.structure)" version="1" implicit="yes" />
@@ -5668,7 +5668,7 @@
         <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="6620797826834167393" resolveInfo="TSV/IMXZEWW-cFos-chip-seq" />
       </node>
     </node>
-    <node role="jobMonitor" roleId="bs99.1212232161612106271" type="bbh2.JobMonitor" typeId="bbh2.2017323193335723531" id="6910057661396765066" nodeInfo="ng">
+    <node role="jobMonitor" type="bbh2.JobMonitor" typeId="bbh2.2017323193335723531" id="6910057661396765066" nodeInfo="ng">
       <property name="jobtag" nameId="bbh2.2017323193335729124" value="DFINDSB" />
       <link role="broker" roleId="bbh2.2017323193335950083" targetNodeId="2017323193335959203" resolveInfo="broker" />
       <node role="viewer" roleId="bbh2.2017323193335764208" type="bbh2.MessageViewer" typeId="bbh2.2017323193335763037" id="6910057661396765067" nodeInfo="ng">
@@ -6322,7 +6322,7 @@
       <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="6620797826834163948" resolveInfo="TSV" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="6620797826834167628" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
-        <property name="value" nameId="bs99.8258261499122039841" value="IMXZEWW-cFos-chip-seq" />
+        <property name="value" value="IMXZEWW-cFos-chip-seq" />
       </node>
       <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="6620797826834167629" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="TSV" />
@@ -6759,7 +6759,7 @@
           <link role="ref" roleId="bs99.4058240102192370452" targetNodeId="6620797826824008505" resolveInfo="IMXZEWW-cFos-chip-seq.sequence-variation-stats" />
         </node>
       </node>
-      <node role="jobMonitor" roleId="bs99.1212232161612106271" type="bbh2.JobMonitor" typeId="bbh2.2017323193335723531" id="6910057661396014906" nodeInfo="ng">
+      <node role="jobMonitor" type="bbh2.JobMonitor" typeId="bbh2.2017323193335723531" id="6910057661396014906" nodeInfo="ng">
         <property name="jobtag" nameId="bbh2.2017323193335729124" value="ODXPUNK" />
         <link role="broker" roleId="bbh2.2017323193335950083" targetNodeId="2017323193335959203" resolveInfo="broker" />
         <node role="viewer" roleId="bbh2.2017323193335764208" type="bbh2.MessageViewer" typeId="bbh2.2017323193335763037" id="6910057661396014907" nodeInfo="ng">
