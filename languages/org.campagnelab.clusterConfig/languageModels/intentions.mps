@@ -61,7 +61,7 @@
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="2243041462218756791" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="2243041462218774045" nodeInfo="nn">
           <node role="expression" roleId="tpee.1068580123156" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2243041462218774044" nodeInfo="nn">
-            <property name="value" nameId="tpee.1070475926801" value="Determine If Node Is Reachable" />
+            <property name="value" nameId="tpee.1070475926801" value="Determine If Node Is Reachable (Ping)" />
           </node>
         </node>
       </node>
@@ -510,7 +510,7 @@
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="8730366339363382449" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="8730366339363384641" nodeInfo="nn">
           <node role="expression" roleId="tpee.1068580123156" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="8730366339363384640" nodeInfo="nn">
-            <property name="value" nameId="tpee.1070475926801" value="Determine If Connection Is Possible" />
+            <property name="value" nameId="tpee.1070475926801" value="Determine If Connection Is Possible on This Port" />
           </node>
         </node>
       </node>
