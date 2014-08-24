@@ -418,6 +418,7 @@
     <property name="name" nameId="tpck.1169194664001" value="RegisterFileTool" />
     <property name="rootable" nameId="tpce.1096454100552" value="true" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="tools" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="Register File Tool" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="5235131979806107948" resolveInfo="ATool" />
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="5704832314568277954" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="willCreateFilesets" />
@@ -525,6 +526,7 @@
     <property name="name" nameId="tpck.1169194664001" value="ImportTool" />
     <property name="rootable" nameId="tpce.1096454100552" value="true" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="tools" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="Import Tool" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="5235131979806107948" resolveInfo="ATool" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="6393277187635897304" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
@@ -638,6 +640,7 @@
     <property name="name" nameId="tpck.1169194664001" value="ExecutionTool" />
     <property name="rootable" nameId="tpce.1096454100552" value="true" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="tools" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="Execution Tool" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="5235131979806107948" resolveInfo="ATool" />
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="606449909789338951" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="jobName" />
@@ -1013,6 +1016,7 @@
     <property name="name" nameId="tpck.1169194664001" value="MultiTool" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="tools" />
     <property name="rootable" nameId="tpce.1096454100552" value="true" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="Multi Tool" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="5235131979802911251" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
