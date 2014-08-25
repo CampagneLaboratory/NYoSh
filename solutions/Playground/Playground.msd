@@ -10,6 +10,7 @@
     <dependency reexport="true">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
     <dependency reexport="false">04b376d5-fc16-403b-a344-c68b30193c6a(jetbrains.mps.execution.library)</dependency>
     <dependency reexport="false">a21a7294-c126-4f63-8335-8fecd8c28c7e(org.campagnelab.NYoSh)</dependency>
+    <dependency reexport="false">d0df1055-918a-4cf9-96f9-effded676ae2(org.campagnelab.bio.species.morgs)</dependency>
     <dependency reexport="false">7620dd3f-7541-48a3-b1e6-01cced81a7a5(org.campagnelab.clusterConfig)</dependency>
     <dependency reexport="false">876624ad-a590-49cc-af36-d31b84c885cd(org.campagnelab.gobyweb.interactive.viewers)</dependency>
     <dependency reexport="false">f05c05d7-dafb-4c87-b842-b836f305120f(org.campagnelab.gobyweb.monitoring)</dependency>
@@ -36,6 +37,7 @@
     <usedLanguage>c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)</usedLanguage>
     <usedLanguage>9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)</usedLanguage>
     <usedLanguage>a21a7294-c126-4f63-8335-8fecd8c28c7e(org.campagnelab.NYoSh)</usedLanguage>
+    <usedLanguage>166cc73c-4d0f-4757-a007-8527cb58de2e(org.campagnelab.bio.species)</usedLanguage>
     <usedLanguage>7620dd3f-7541-48a3-b1e6-01cced81a7a5(org.campagnelab.clusterConfig)</usedLanguage>
     <usedLanguage>4661f6e3-bd92-4cca-9e33-7f5eed9b34ac(org.campagnelab.filters)</usedLanguage>
     <usedLanguage>adfd00cb-58d7-4094-bca8-f941a491e04f(org.campagnelab.gobyweb)</usedLanguage>
