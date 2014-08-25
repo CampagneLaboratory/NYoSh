@@ -26,15 +26,6 @@
     </generator>
   </generators>
   <sourcePath />
-  <dependencies>
-    <dependency reexport="false">166cc73c-4d0f-4757-a007-8527cb58de2e(org.campagnelab.bio.species)</dependency>
-    <dependency reexport="false">a8fb88b0-7e9f-478c-aab4-a1b076131192(org.campagnelab.gobyweb.interactive)</dependency>
-    <dependency reexport="false">0b7d8bbd-896e-495e-be60-01a0d738a649(org.campagnelab.gobyweb.plugins)</dependency>
-  </dependencies>
-  <usedLanguages>
-    <usedLanguage>a8fb88b0-7e9f-478c-aab4-a1b076131192(org.campagnelab.gobyweb.interactive)</usedLanguage>
-    <usedLanguage>0b7d8bbd-896e-495e-be60-01a0d738a649(org.campagnelab.gobyweb.plugins)</usedLanguage>
-  </usedLanguages>
   <usedDevKits>
     <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>
   </usedDevKits>
