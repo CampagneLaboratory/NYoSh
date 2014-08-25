@@ -2,7 +2,6 @@
 <model modelUID="r:f5082aca-b99f-4e47-b1ce-daa58a317faa(org.campagnelab.gobyweb.interactive.filesets.mappings.definitions)">
   <persistence version="8" />
   <language namespace="853d29f2-dbd7-4a64-a6cd-27608b08e948(org.campagnelab.gobyweb.interactive.mappings)" />
-  <language namespace="a8fb88b0-7e9f-478c-aab4-a1b076131192(org.campagnelab.gobyweb.interactive)" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="6tiq" modelUID="r:fa23f21f-0a09-4a28-9828-16b45648a671(org.campagnelab.gobyweb.interactive.mappings.structure)" version="1" implicit="yes" />
   <root type="6tiq.AttributeDefinitionList" typeId="6tiq.6726552014277529868" id="6726552014277552549" nodeInfo="ng">
@@ -33,12 +32,16 @@
     </node>
   </root>
   <root type="6tiq.FileSetAttributeMappings" typeId="6tiq.6726552014277534379" id="6726552014277622941" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="FASTQ" />
-    <node role="attributes" roleId="6tiq.6726552014277534396" type="6tiq.AttributeDefinitionRef" typeId="6tiq.6726552014277534409" id="723438572043222807" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="FASTQ_GZ" />
+    <node role="attributes" roleId="6tiq.6726552014277534396" type="6tiq.AttributeDefinitionRef" typeId="6tiq.6726552014277534409" id="6726552014280364020" nodeInfo="ng">
       <link role="attribute" roleId="6tiq.6726552014277534410" targetNodeId="6726552014277578493" resolveInfo="ORGANISM" />
     </node>
     <node role="attributes" roleId="6tiq.6726552014277534396" type="6tiq.AttributeDefinitionRef" typeId="6tiq.6726552014277534409" id="6726552014277661484" nodeInfo="ng">
       <link role="attribute" roleId="6tiq.6726552014277534410" targetNodeId="6726552014277620364" resolveInfo="BISULFITE_SAMPLE" />
+    </node>
+    <node role="attributes" roleId="6tiq.6726552014277534396" type="6tiq.AttributeDefinitionRef" typeId="6tiq.6726552014277534409" id="6726552014282582702" nodeInfo="ng">
+      <property name="mandatory" nameId="6tiq.723438572043149397" value="true" />
+      <link role="attribute" roleId="6tiq.6726552014277534410" targetNodeId="6726552014277614857" resolveInfo="COLOR_SPACE" />
     </node>
     <node role="attributes" roleId="6tiq.6726552014277534396" type="6tiq.AttributeDefinitionRef" typeId="6tiq.6726552014277534409" id="723438572043149339" nodeInfo="ng">
       <property name="mandatory" nameId="6tiq.723438572043149397" value="true" />

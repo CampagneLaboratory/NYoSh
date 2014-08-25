@@ -68,6 +68,7 @@
   </root>
   <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="6726552014277555178" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="ATTRIBUTE_TYPE" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="filesets" />
     <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983041843" resolveInfo="string" />
     <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="6726552014277555179" nodeInfo="ig">
       <property name="externalValue" nameId="tpce.1083923523172" value="STRING" />
