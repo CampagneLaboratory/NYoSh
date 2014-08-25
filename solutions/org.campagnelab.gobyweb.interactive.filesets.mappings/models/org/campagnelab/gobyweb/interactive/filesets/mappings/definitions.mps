@@ -34,7 +34,7 @@
   </root>
   <root type="6tiq.FileSetAttributeMappings" typeId="6tiq.6726552014277534379" id="6726552014277622941" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="FASTQ" />
-    <node role="attributes" roleId="6tiq.6726552014277534396" type="6tiq.AttributeDefinitionRef" typeId="6tiq.6726552014277534409" id="723438572043222807" nodeInfo="ng">
+    <node role="attributes" roleId="6tiq.6726552014277534396" type="6tiq.AttributeDefinitionRef" typeId="6tiq.6726552014277534409" id="6726552014280364020" nodeInfo="ng">
       <link role="attribute" roleId="6tiq.6726552014277534410" targetNodeId="6726552014277578493" resolveInfo="ORGANISM" />
     </node>
     <node role="attributes" roleId="6tiq.6726552014277534396" type="6tiq.AttributeDefinitionRef" typeId="6tiq.6726552014277534409" id="6726552014277661484" nodeInfo="ng">
