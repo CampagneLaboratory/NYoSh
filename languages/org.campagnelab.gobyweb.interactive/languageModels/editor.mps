@@ -3230,8 +3230,17 @@
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="606449909795199474" nodeInfo="ng">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="tools.execution" />
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="bs99.606449909792930896" resolveInfo="IntegerOptionValue" />
-    <node role="inspectedCellModel" roleId="tpc2.1078153129734" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="606449909795199646" nodeInfo="nn">
-      <property name="text" nameId="tpc2.1073389577007" value="Type: Integer" />
+    <node role="inspectedCellModel" roleId="tpc2.1078153129734" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="83657536367991358" nodeInfo="nn">
+      <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="83657536367991359" nodeInfo="nn" />
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="606449909795199646" nodeInfo="nn">
+        <property name="text" nameId="tpc2.1073389577007" value="Type: Integer" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="83657536367991375" nodeInfo="nn">
+        <property name="text" nameId="tpc2.1073389577007" value="isSet=" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="83657536367991367" nodeInfo="ng">
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="bs99.83657536365996638" resolveInfo="isSet" />
+      </node>
     </node>
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="3659415948325949999" nodeInfo="ng">
       <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="bs99.606449909792930897" resolveInfo="value" />
