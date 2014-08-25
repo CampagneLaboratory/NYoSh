@@ -7806,13 +7806,6 @@
         <property name="value" nameId="bs99.606449909792930897" value="50000000" />
       </node>
     </node>
-    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="83657536367978799" nodeInfo="ng">
-      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="83657536355281212" resolveInfo="Ambiguity threshold" />
-      <node role="value" roleId="bs99.6506431596944968310" type="bs99.IntegerOptionValue" typeId="bs99.606449909792930896" id="83657536367978813" nodeInfo="ng">
-        <property name="value" nameId="bs99.606449909792930897" value="2" />
-        <property name="isSet" nameId="bs99.83657536365996638" value="true" />
-      </node>
-    </node>
   </root>
 </model>
 
