@@ -17,6 +17,7 @@
     <exported-solution>9fdb2df2-db25-4874-9a5f-47e348e5bce7(org.campagnelab.lucene.tableviewer.runtime)</exported-solution>
     <exported-solution>592d8eb7-1a36-488a-93f9-794b47361c97(org.campagnelab.gobyweb.interactive.filesets.mappings)</exported-solution>
     <exported-solution>d9ae8a9f-744c-4fb7-8582-794c75c78cf4(org.campagnelab.gobyweb.charts)</exported-solution>
+    <exported-solution>d0df1055-918a-4cf9-96f9-effded676ae2(org.campagnelab.bio.species.morgs)</exported-solution>
     <exported-solution>876624ad-a590-49cc-af36-d31b84c885cd(org.campagnelab.gobyweb.interactive.viewers)</exported-solution>
   </exported-solutions>
 </dev-kit>
