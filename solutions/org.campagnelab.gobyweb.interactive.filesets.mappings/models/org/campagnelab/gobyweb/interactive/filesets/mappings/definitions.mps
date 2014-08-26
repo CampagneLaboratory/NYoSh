@@ -84,5 +84,30 @@
       <link role="attribute" roleId="6tiq.6726552014277534410" targetNodeId="6726552014277617381" resolveInfo="LIB_PROTOCOL_PRESERVE_STRAND" />
     </node>
   </root>
+  <root type="6tiq.FileSetAttributeMappings" typeId="6tiq.6726552014277534379" id="4010805091595508381" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="SUPPORTED_INPUT_READS" />
+    <node role="attributes" roleId="6tiq.6726552014277534396" type="6tiq.AttributeDefinitionRef" typeId="6tiq.6726552014277534409" id="4010805091595508406" nodeInfo="ng">
+      <property name="mandatory" nameId="6tiq.723438572043149397" value="true" />
+      <link role="attribute" roleId="6tiq.6726552014277534410" targetNodeId="6726552014277578493" resolveInfo="ORGANISM" />
+    </node>
+    <node role="attributes" roleId="6tiq.6726552014277534396" type="6tiq.AttributeDefinitionRef" typeId="6tiq.6726552014277534409" id="4010805091595533776" nodeInfo="ng">
+      <property name="mandatory" nameId="6tiq.723438572043149397" value="true" />
+      <link role="attribute" roleId="6tiq.6726552014277534410" targetNodeId="6726552014277608891" resolveInfo="READS_PLATFORM" />
+    </node>
+    <node role="attributes" roleId="6tiq.6726552014277534396" type="6tiq.AttributeDefinitionRef" typeId="6tiq.6726552014277534409" id="4010805091595533810" nodeInfo="ng">
+      <property name="mandatory" nameId="6tiq.723438572043149397" value="true" />
+      <link role="attribute" roleId="6tiq.6726552014277534410" targetNodeId="6726552014277578495" resolveInfo="PAIRED_END_DIRECTIONS" />
+    </node>
+    <node role="attributes" roleId="6tiq.6726552014277534396" type="6tiq.AttributeDefinitionRef" typeId="6tiq.6726552014277534409" id="4010805091595533887" nodeInfo="ng">
+      <link role="attribute" roleId="6tiq.6726552014277534410" targetNodeId="6726552014277614857" resolveInfo="COLOR_SPACE" />
+    </node>
+    <node role="attributes" roleId="6tiq.6726552014277534396" type="6tiq.AttributeDefinitionRef" typeId="6tiq.6726552014277534409" id="4010805091595533929" nodeInfo="ng">
+      <property name="mandatory" nameId="6tiq.723438572043149397" value="true" />
+      <link role="attribute" roleId="6tiq.6726552014277534410" targetNodeId="4010805091592571589" resolveInfo="BISULFITE_SAMPLE" />
+    </node>
+    <node role="attributes" roleId="6tiq.6726552014277534396" type="6tiq.AttributeDefinitionRef" typeId="6tiq.6726552014277534409" id="4010805091595533847" nodeInfo="ng">
+      <link role="attribute" roleId="6tiq.6726552014277534410" targetNodeId="6726552014277617381" resolveInfo="LIB_PROTOCOL_PRESERVE_STRAND" />
+    </node>
+  </root>
 </model>
 
