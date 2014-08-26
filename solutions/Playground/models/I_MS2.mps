@@ -4,8 +4,8 @@
   <devkit namespace="db81b829-e557-4467-b78e-cc1d44965622(org.campagnelab.devkit.gobyweb.interactive)" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="9k5" modelUID="r:df9645c2-d2fa-41cb-a718-044a287b0626(org.campagnelab.clusterConfig.structure)" version="3" implicit="yes" />
-  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="55" implicit="yes" />
-  <import index="bbh2" modelUID="r:220d24dc-c962-4ed8-b674-7bde9fb2980c(org.campagnelab.gobyweb.monitoring.structure)" version="2" implicit="yes" />
+  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="56" implicit="yes" />
+  <import index="bbh2" modelUID="r:220d24dc-c962-4ed8-b674-7bde9fb2980c(org.campagnelab.gobyweb.monitoring.structure)" version="3" implicit="yes" />
   <import index="whle" modelUID="r:8e4fd1b7-1955-43a4-ace6-aaf9d13814f8(org.campagnelab.logger.structure)" version="1" implicit="yes" />
   <import index="dhle" modelUID="r:22d2d7af-29e7-4a54-9633-f2175440f8be(org.campagnelab.feedback.structure)" version="0" implicit="yes" />
   <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="30" implicit="yes" />
@@ -5855,7 +5855,7 @@
           <property name="jobTag" nameId="bbh2.2017323193335763033" value="CQOZPRX" />
           <link role="broker" roleId="bbh2.2017323193335803042" targetNodeId="1212232161621136016" resolveInfo="brokerForMonitor" />
         </node>
-        <node role="eventListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobInJobArea" typeId="bs99.1212232161626260983" id="8475644845778517346" nodeInfo="ng">
+        <node role="eventListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobListener" typeId="bs99.1212232161626260983" id="8475644845778517346" nodeInfo="ng">
           <link role="jobArea" roleId="bs99.1212232161626279661" targetNodeId="8475644845778508306" />
           <link role="job" roleId="bs99.1212232161627127088" targetNodeId="8475644845778517338" resolveInfo="FirstJob" />
         </node>
@@ -6005,7 +6005,7 @@
           <property name="jobTag" nameId="bbh2.2017323193335763033" value="LFOWVPI" />
           <link role="broker" roleId="bbh2.2017323193335803042" targetNodeId="1212232161621136016" resolveInfo="brokerForMonitor" />
         </node>
-        <node role="eventListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobInJobArea" typeId="bs99.1212232161626260983" id="2324106903702241696" nodeInfo="ng">
+        <node role="eventListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobListener" typeId="bs99.1212232161626260983" id="2324106903702241696" nodeInfo="ng">
           <link role="jobArea" roleId="bs99.1212232161626279661" targetNodeId="8475644845778508306" />
           <link role="job" roleId="bs99.1212232161627127088" targetNodeId="2324106903702241689" resolveInfo="FirstJob2" />
         </node>
@@ -6109,7 +6109,7 @@
           <property name="jobTag" nameId="bbh2.2017323193335763033" value="IGTTKUX" />
           <link role="broker" roleId="bbh2.2017323193335803042" targetNodeId="1212232161621136016" resolveInfo="brokerForMonitor" />
         </node>
-        <node role="eventListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobInJobArea" typeId="bs99.1212232161626260983" id="1405392831544070520" nodeInfo="ng">
+        <node role="eventListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobListener" typeId="bs99.1212232161626260983" id="1405392831544070520" nodeInfo="ng">
           <link role="jobArea" roleId="bs99.1212232161626279661" targetNodeId="8475644845778508306" />
           <link role="job" roleId="bs99.1212232161627127088" targetNodeId="1405392831544070513" resolveInfo="FirstJob3" />
         </node>
@@ -6259,7 +6259,7 @@
           <property name="jobTag" nameId="bbh2.2017323193335763033" value="QGFJCLF" />
           <link role="broker" roleId="bbh2.2017323193335803042" targetNodeId="1212232161621136016" resolveInfo="brokerForMonitor" />
         </node>
-        <node role="eventListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobInJobArea" typeId="bs99.1212232161626260983" id="1405392831544841548" nodeInfo="ng">
+        <node role="eventListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobListener" typeId="bs99.1212232161626260983" id="1405392831544841548" nodeInfo="ng">
           <link role="jobArea" roleId="bs99.1212232161626279661" targetNodeId="8475644845778508306" />
           <link role="job" roleId="bs99.1212232161627127088" targetNodeId="1405392831544841541" resolveInfo="FirstJob4" />
         </node>
@@ -6409,7 +6409,7 @@
           <property name="jobTag" nameId="bbh2.2017323193335763033" value="ANPZNYR" />
           <link role="broker" roleId="bbh2.2017323193335803042" targetNodeId="1212232161621136016" resolveInfo="brokerForMonitor" />
         </node>
-        <node role="eventListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobInJobArea" typeId="bs99.1212232161626260983" id="1405392831549069866" nodeInfo="ng">
+        <node role="eventListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobListener" typeId="bs99.1212232161626260983" id="1405392831549069866" nodeInfo="ng">
           <link role="jobArea" roleId="bs99.1212232161626279661" targetNodeId="8475644845778508306" />
           <link role="job" roleId="bs99.1212232161627127088" targetNodeId="1405392831549069859" resolveInfo="FirstJob4" />
         </node>
@@ -6524,7 +6524,7 @@
           <property name="jobTag" nameId="bbh2.2017323193335763033" value="RSOYRMQ" />
           <link role="broker" roleId="bbh2.2017323193335803042" targetNodeId="1212232161621136016" resolveInfo="brokerForMonitor" />
         </node>
-        <node role="eventListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobInJobArea" typeId="bs99.1212232161626260983" id="1405392831549088460" nodeInfo="ng">
+        <node role="eventListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobListener" typeId="bs99.1212232161626260983" id="1405392831549088460" nodeInfo="ng">
           <link role="jobArea" roleId="bs99.1212232161626279661" targetNodeId="8475644845778508306" />
           <link role="job" roleId="bs99.1212232161627127088" targetNodeId="1405392831549088453" resolveInfo="FirstJob5" />
         </node>
@@ -6640,7 +6640,7 @@
           <property name="jobTag" nameId="bbh2.2017323193335763033" value="GNPSYIB" />
           <link role="broker" roleId="bbh2.2017323193335803042" targetNodeId="1212232161621136016" resolveInfo="brokerForMonitor" />
         </node>
-        <node role="eventListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobInJobArea" typeId="bs99.1212232161626260983" id="1405392831549333380" nodeInfo="ng">
+        <node role="eventListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobListener" typeId="bs99.1212232161626260983" id="1405392831549333380" nodeInfo="ng">
           <link role="jobArea" roleId="bs99.1212232161626279661" targetNodeId="8475644845778508306" />
           <link role="job" roleId="bs99.1212232161627127088" targetNodeId="1405392831549333373" resolveInfo="FirstJob5" />
         </node>
@@ -6756,7 +6756,7 @@
           <property name="jobTag" nameId="bbh2.2017323193335763033" value="QGSGBFD" />
           <link role="broker" roleId="bbh2.2017323193335803042" targetNodeId="1212232161621136016" resolveInfo="brokerForMonitor" />
         </node>
-        <node role="eventListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobInJobArea" typeId="bs99.1212232161626260983" id="1405392831549335188" nodeInfo="ng">
+        <node role="eventListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobListener" typeId="bs99.1212232161626260983" id="1405392831549335188" nodeInfo="ng">
           <link role="jobArea" roleId="bs99.1212232161626279661" targetNodeId="8475644845778508306" />
           <link role="job" roleId="bs99.1212232161627127088" targetNodeId="1405392831549335178" resolveInfo="FirstJob6" />
         </node>
@@ -6793,7 +6793,7 @@
           <property name="jobTag" nameId="bbh2.2017323193335763033" value="ALDEHLS" />
           <link role="broker" roleId="bbh2.2017323193335803042" targetNodeId="1212232161621136016" resolveInfo="brokerForMonitor" />
         </node>
-        <node role="eventListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobInJobArea" typeId="bs99.1212232161626260983" id="1405392831549470894" nodeInfo="ng">
+        <node role="eventListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobListener" typeId="bs99.1212232161626260983" id="1405392831549470894" nodeInfo="ng">
           <link role="jobArea" roleId="bs99.1212232161626279661" targetNodeId="8475644845778508306" />
           <link role="job" roleId="bs99.1212232161627127088" targetNodeId="1405392831549470884" resolveInfo="FirstJob7" />
         </node>
@@ -6909,7 +6909,7 @@
           <property name="jobTag" nameId="bbh2.2017323193335763033" value="YPKKKMD" />
           <link role="broker" roleId="bbh2.2017323193335803042" targetNodeId="1212232161621136016" resolveInfo="brokerForMonitor" />
         </node>
-        <node role="eventListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobInJobArea" typeId="bs99.1212232161626260983" id="1405392831549547135" nodeInfo="ng">
+        <node role="eventListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobListener" typeId="bs99.1212232161626260983" id="1405392831549547135" nodeInfo="ng">
           <link role="jobArea" roleId="bs99.1212232161626279661" targetNodeId="8475644845778508306" />
           <link role="job" roleId="bs99.1212232161627127088" targetNodeId="1405392831549547125" resolveInfo="FirstJob7" />
         </node>
@@ -6946,7 +6946,7 @@
           <property name="jobTag" nameId="bbh2.2017323193335763033" value="NXKPEQD" />
           <link role="broker" roleId="bbh2.2017323193335803042" targetNodeId="1212232161621136016" resolveInfo="brokerForMonitor" />
         </node>
-        <node role="eventListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobInJobArea" typeId="bs99.1212232161626260983" id="1405392831549713596" nodeInfo="ng">
+        <node role="eventListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobListener" typeId="bs99.1212232161626260983" id="1405392831549713596" nodeInfo="ng">
           <link role="jobArea" roleId="bs99.1212232161626279661" targetNodeId="8475644845778508306" />
           <link role="job" roleId="bs99.1212232161627127088" targetNodeId="1405392831549713586" resolveInfo="FirstJob7" />
         </node>
@@ -6983,7 +6983,7 @@
           <property name="jobTag" nameId="bbh2.2017323193335763033" value="OEJJPNR" />
           <link role="broker" roleId="bbh2.2017323193335803042" targetNodeId="1212232161621136016" resolveInfo="brokerForMonitor" />
         </node>
-        <node role="eventListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobInJobArea" typeId="bs99.1212232161626260983" id="1405392831549849790" nodeInfo="ng">
+        <node role="eventListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobListener" typeId="bs99.1212232161626260983" id="1405392831549849790" nodeInfo="ng">
           <link role="jobArea" roleId="bs99.1212232161626279661" targetNodeId="8475644845778508306" />
           <link role="job" roleId="bs99.1212232161627127088" targetNodeId="1405392831549849780" resolveInfo="FirstJob7" />
         </node>
@@ -7020,7 +7020,7 @@
           <property name="jobTag" nameId="bbh2.2017323193335763033" value="FEIDZMO" />
           <link role="broker" roleId="bbh2.2017323193335803042" targetNodeId="1212232161621136016" resolveInfo="brokerForMonitor" />
         </node>
-        <node role="eventListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobInJobArea" typeId="bs99.1212232161626260983" id="1405392831549896472" nodeInfo="ng">
+        <node role="eventListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobListener" typeId="bs99.1212232161626260983" id="1405392831549896472" nodeInfo="ng">
           <link role="jobArea" roleId="bs99.1212232161626279661" targetNodeId="8475644845778508306" />
           <link role="job" roleId="bs99.1212232161627127088" targetNodeId="1405392831549896462" resolveInfo="FirstJob7" />
         </node>
@@ -7114,7 +7114,7 @@
           <property name="jobTag" nameId="bbh2.2017323193335763033" value="YIEDNXK" />
           <link role="broker" roleId="bbh2.2017323193335803042" targetNodeId="1212232161621136016" resolveInfo="brokerForMonitor" />
         </node>
-        <node role="eventListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobInJobArea" typeId="bs99.1212232161626260983" id="1405392831550205747" nodeInfo="ng">
+        <node role="eventListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobListener" typeId="bs99.1212232161626260983" id="1405392831550205747" nodeInfo="ng">
           <link role="jobArea" roleId="bs99.1212232161626279661" targetNodeId="8475644845778508306" />
           <link role="job" roleId="bs99.1212232161627127088" targetNodeId="1405392831550205737" resolveInfo="FirstJob0" />
         </node>
@@ -7151,7 +7151,7 @@
           <property name="jobTag" nameId="bbh2.2017323193335763033" value="EOFIUWS" />
           <link role="broker" roleId="bbh2.2017323193335803042" targetNodeId="1212232161621136016" resolveInfo="brokerForMonitor" />
         </node>
-        <node role="eventListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobInJobArea" typeId="bs99.1212232161626260983" id="1405392831550253000" nodeInfo="ng">
+        <node role="eventListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobListener" typeId="bs99.1212232161626260983" id="1405392831550253000" nodeInfo="ng">
           <link role="jobArea" roleId="bs99.1212232161626279661" targetNodeId="8475644845778508306" />
           <link role="job" roleId="bs99.1212232161627127088" targetNodeId="1405392831550252990" resolveInfo="FirstJob0" />
         </node>
@@ -7188,7 +7188,7 @@
           <property name="jobTag" nameId="bbh2.2017323193335763033" value="AEKCJCK" />
           <link role="broker" roleId="bbh2.2017323193335803042" targetNodeId="1212232161621136016" resolveInfo="brokerForMonitor" />
         </node>
-        <node role="eventListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobInJobArea" typeId="bs99.1212232161626260983" id="1405392831550306800" nodeInfo="ng">
+        <node role="eventListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobListener" typeId="bs99.1212232161626260983" id="1405392831550306800" nodeInfo="ng">
           <link role="jobArea" roleId="bs99.1212232161626279661" targetNodeId="8475644845778508306" />
           <link role="job" roleId="bs99.1212232161627127088" targetNodeId="1405392831550306790" resolveInfo="FirstJob0" />
         </node>
