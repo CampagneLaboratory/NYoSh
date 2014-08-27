@@ -838,6 +838,9 @@
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1212232161626261435" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="bbh2.1212232161625613149" resolveInfo="JobEventListener" />
     </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6587162469557036718" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="bbh2.6587162469552023660" resolveInfo="FileSetInstanceListener" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1212232161627158981" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="job" />
