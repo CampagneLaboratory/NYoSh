@@ -24,5 +24,11 @@
     </dependencies>
     <rename id="bbh2.7926097513313212588" type="PROPERTY" from="order" to="rank" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="bbh2" modelUID="r:220d24dc-c962-4ed8-b674-7bde9fb2980c(org.campagnelab.gobyweb.monitoring.structure)" version="3" />
+    </dependencies>
+    <rename id="bbh2.1212232161625727018" type="CHILD" from="eventListeners" to="jobStatusListeners" />
+  </StructureModification>
 </history>
 
