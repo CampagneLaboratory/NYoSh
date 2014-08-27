@@ -32,6 +32,11 @@
       <property name="role" nameId="tpce.1071599776563" value="properties" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="bs99.2051553890368778931" resolveInfo="FileSetInstance" />
     </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="314766823431618392" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
+      <property name="role" nameId="tpce.1071599776563" value="weights" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="bs99.2051553890368778931" resolveInfo="FileSetInstance" />
+    </node>
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="7926097513313697603" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="tag" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
@@ -39,6 +44,14 @@
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="7926097513313663892" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="numberOfReads" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="4767454762908097042" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="isPaired" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657063" resolveInfo="boolean" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="4767454762908112384" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="isReadyToAlign" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657063" resolveInfo="boolean" />
     </node>
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="7926097513313663894" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="minLength" />
@@ -54,6 +67,10 @@
     </node>
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="7926097513313663906" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="platform" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="314766823432480904" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="statsTsvFilename" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
     </node>
   </root>
