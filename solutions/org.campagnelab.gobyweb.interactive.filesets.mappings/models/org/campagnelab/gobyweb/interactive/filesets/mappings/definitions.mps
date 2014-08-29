@@ -63,8 +63,9 @@
       <property name="mandatory" nameId="6tiq.723438572043149397" value="true" />
       <link role="attribute" roleId="6tiq.6726552014277534410" targetNodeId="6726552014277578493" resolveInfo="ORGANISM" />
     </node>
-    <node role="attributes" roleId="6tiq.6726552014277534396" type="6tiq.AttributeDefinitionRef" typeId="6tiq.6726552014277534409" id="4010805091600820659" nodeInfo="ng">
-      <link role="attribute" roleId="6tiq.6726552014277534410" targetNodeId="4010805091592571589" resolveInfo="BISULFITE_SAMPLE" />
+    <node role="attributes" roleId="6tiq.6726552014277534396" type="6tiq.AttributeDefinitionRef" typeId="6tiq.6726552014277534409" id="723438572043149284" nodeInfo="ng">
+      <property name="mandatory" nameId="6tiq.723438572043149397" value="true" />
+      <link role="attribute" roleId="6tiq.6726552014277534410" targetNodeId="6726552014277620364" resolveInfo="BISULFITE_SAMPLE" />
     </node>
     <node role="attributes" roleId="6tiq.6726552014277534396" type="6tiq.AttributeDefinitionRef" typeId="6tiq.6726552014277534409" id="723438572043149289" nodeInfo="ng">
       <property name="mandatory" nameId="6tiq.723438572043149397" value="true" />
