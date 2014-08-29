@@ -202,9 +202,6 @@
                   <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="7926097513314200703" nodeInfo="nn">
                     <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="7926097513314200706" nodeInfo="nr">
                       <property name="name" nameId="tpck.1169194664001" value="sample" />
-                      <node role="type" roleId="tpee.5680397130376446158" type="tp25.SNodeType" typeId="tp25.1138055754698" id="7926097513314200701" nodeInfo="in">
-                        <link role="concept" roleId="tp25.1138405853777" targetNodeId="7aad.7926097513313663840" resolveInfo="GobyWebReadSample" />
-                      </node>
                       <node role="initializer" roleId="tpee.1068431790190" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7744544840732278296" nodeInfo="nn">
                         <node role="operand" roleId="tpee.1197027771414" type="tp25.ConceptRefExpression" typeId="tp25.1172424058054" id="7744544840732276213" nodeInfo="nn">
                           <link role="conceptDeclaration" roleId="tp25.1172424100906" targetNodeId="7aad.7926097513313663840" resolveInfo="GobyWebReadSample" />
@@ -219,6 +216,9 @@
                             <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="4834682855107231922" resolveInfo="jobTag" />
                           </node>
                         </node>
+                      </node>
+                      <node role="type" roleId="tpee.5680397130376446158" type="tp25.SNodeType" typeId="tp25.1138055754698" id="7926097513314200701" nodeInfo="in">
+                        <link role="concept" roleId="tp25.1138405853777" targetNodeId="7aad.7926097513313663840" resolveInfo="GobyWebReadSample" />
                       </node>
                     </node>
                   </node>
@@ -2101,9 +2101,6 @@
                   <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="6587162469555584730" nodeInfo="nn">
                     <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="6587162469555584731" nodeInfo="nr">
                       <property name="name" nameId="tpck.1169194664001" value="sample" />
-                      <node role="type" roleId="tpee.5680397130376446158" type="tp25.SNodeType" typeId="tp25.1138055754698" id="6587162469555584732" nodeInfo="in">
-                        <link role="concept" roleId="tp25.1138405853777" targetNodeId="7aad.6587162469555371663" resolveInfo="GobyWebAlignment" />
-                      </node>
                       <node role="initializer" roleId="tpee.1068431790190" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7744544840732201004" nodeInfo="nn">
                         <node role="operand" roleId="tpee.1197027771414" type="tp25.ConceptRefExpression" typeId="tp25.1172424058054" id="7744544840732199172" nodeInfo="nn">
                           <link role="conceptDeclaration" roleId="tp25.1172424100906" targetNodeId="7aad.6587162469555371663" resolveInfo="GobyWebAlignment" />
@@ -2118,6 +2115,9 @@
                             <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="6587162469555584703" resolveInfo="jobTag" />
                           </node>
                         </node>
+                      </node>
+                      <node role="type" roleId="tpee.5680397130376446158" type="tp25.SNodeType" typeId="tp25.1138055754698" id="6587162469555584732" nodeInfo="in">
+                        <link role="concept" roleId="tp25.1138405853777" targetNodeId="7aad.6587162469555371663" resolveInfo="GobyWebAlignment" />
                       </node>
                     </node>
                   </node>
@@ -2900,9 +2900,6 @@
         </node>
       </node>
     </node>
-    <node role="constructor" roleId="1i04.1225194240801" type="1i04.ConceptConstructorDeclaration" typeId="1i04.1225194413805" id="8524130661366355030" nodeInfo="nn">
-      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="8524130661366355031" nodeInfo="sn" />
-    </node>
     <node role="method" roleId="1i04.1225194240805" type="1i04.ConceptMethodDeclaration" typeId="1i04.1225194472830" id="7744544840732299602" nodeInfo="ng">
       <property name="isAbstract" nameId="1i04.1225194472834" value="false" />
       <property name="isVirtual" nameId="1i04.1225194472832" value="false" />
@@ -2959,8 +2956,8 @@
                     </node>
                   </node>
                   <node role="operation" roleId="tpee.1197027833540" type="tp25.OfConceptOperation" typeId="tp25.4693937538533521280" id="7744544840734116815" nodeInfo="ng">
-                    <node role="requestedConcept" roleId="tp25.4693937538533538124" type="tp25.RefConcept_Reference" typeId="tp25.1177026924588" id="7744544840734117207" nodeInfo="nn">
-                      <link role="conceptDeclaration" roleId="tp25.1177026940964" targetNodeId="bs99.6348392937650129823" resolveInfo="ComparisonPairValue" />
+                    <node role="requestedConcept" roleId="tp25.4693937538533538124" type="tp25.RefConcept_Reference" typeId="tp25.1177026924588" id="7783347726452621041" nodeInfo="nn">
+                      <link role="conceptDeclaration" roleId="tp25.1177026940964" targetNodeId="bs99.4301187679980279268" resolveInfo="PairComparisonsOptionValue" />
                     </node>
                   </node>
                 </node>
@@ -2997,8 +2994,8 @@
                     </node>
                   </node>
                   <node role="operation" roleId="tpee.1197027833540" type="tp25.OfConceptOperation" typeId="tp25.4693937538533521280" id="7744544840734126510" nodeInfo="ng">
-                    <node role="requestedConcept" roleId="tp25.4693937538533538124" type="tp25.RefConcept_Reference" typeId="tp25.1177026924588" id="7744544840734131400" nodeInfo="nn">
-                      <link role="conceptDeclaration" roleId="tp25.1177026940964" targetNodeId="bs99.3927327347537774497" resolveInfo="GroupDefinitionOptionValue" />
+                    <node role="requestedConcept" roleId="tp25.4693937538533538124" type="tp25.RefConcept_Reference" typeId="tp25.1177026924588" id="7783347726452623448" nodeInfo="nn">
+                      <link role="conceptDeclaration" roleId="tp25.1177026940964" targetNodeId="bs99.4301187679980279014" resolveInfo="GroupDefinitionsOptionValue" />
                     </node>
                   </node>
                 </node>
@@ -3040,6 +3037,9 @@
         </node>
       </node>
       <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="7744544840732299615" nodeInfo="in" />
+    </node>
+    <node role="constructor" roleId="1i04.1225194240801" type="1i04.ConceptConstructorDeclaration" typeId="1i04.1225194413805" id="8524130661366355030" nodeInfo="nn">
+      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="8524130661366355031" nodeInfo="sn" />
     </node>
   </root>
   <root type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="8524130661366378007" nodeInfo="ng">
@@ -3245,9 +3245,6 @@
                   <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="8524130661366382059" nodeInfo="nn">
                     <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="8524130661366382060" nodeInfo="nr">
                       <property name="name" nameId="tpck.1169194664001" value="analysis" />
-                      <node role="type" roleId="tpee.5680397130376446158" type="tp25.SNodeType" typeId="tp25.1138055754698" id="8524130661366382061" nodeInfo="in">
-                        <link role="concept" roleId="tp25.1138405853777" targetNodeId="7aad.8524130661366174336" resolveInfo="GobyWebAlignmentAnalysis" />
-                      </node>
                       <node role="initializer" roleId="tpee.1068431790190" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7744544840732121948" nodeInfo="nn">
                         <node role="operand" roleId="tpee.1197027771414" type="tp25.ConceptRefExpression" typeId="tp25.1172424058054" id="7744544840732119865" nodeInfo="nn">
                           <link role="conceptDeclaration" roleId="tp25.1172424100906" targetNodeId="7aad.8524130661366174336" resolveInfo="GobyWebAlignmentAnalysis" />
@@ -3262,6 +3259,9 @@
                             <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="8524130661366382032" resolveInfo="jobTag" />
                           </node>
                         </node>
+                      </node>
+                      <node role="type" roleId="tpee.5680397130376446158" type="tp25.SNodeType" typeId="tp25.1138055754698" id="8524130661366382061" nodeInfo="in">
+                        <link role="concept" roleId="tp25.1138405853777" targetNodeId="7aad.8524130661366174336" resolveInfo="GobyWebAlignmentAnalysis" />
                       </node>
                     </node>
                   </node>
@@ -3318,6 +3318,12 @@
         </node>
       </node>
       <node role="returnType" roleId="tpee.1068580123133" type="tpee.BooleanType" typeId="tpee.1070534644030" id="7744544840720940241" nodeInfo="in" />
+    </node>
+  </root>
+  <root type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="7744544840732157876" nodeInfo="ng">
+    <link role="concept" roleId="1i04.1225194240799" targetNodeId="7aad.7744544840732157875" resolveInfo="HigherLevelObject" />
+    <node role="constructor" roleId="1i04.1225194240801" type="1i04.ConceptConstructorDeclaration" typeId="1i04.1225194413805" id="7744544840732157877" nodeInfo="nn">
+      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="7744544840732157878" nodeInfo="sn" />
     </node>
   </root>
   <root type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="7744544840731999396" nodeInfo="ng">
@@ -3460,12 +3466,6 @@
     </node>
     <node role="constructor" roleId="1i04.1225194240801" type="1i04.ConceptConstructorDeclaration" typeId="1i04.1225194413805" id="7744544840731999397" nodeInfo="nn">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="7744544840731999398" nodeInfo="sn" />
-    </node>
-  </root>
-  <root type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="7744544840732157876" nodeInfo="ng">
-    <link role="concept" roleId="1i04.1225194240799" targetNodeId="7aad.7744544840732157875" resolveInfo="HigherLevelObject" />
-    <node role="constructor" roleId="1i04.1225194240801" type="1i04.ConceptConstructorDeclaration" typeId="1i04.1225194413805" id="7744544840732157877" nodeInfo="nn">
-      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="7744544840732157878" nodeInfo="sn" />
     </node>
   </root>
 </model>
