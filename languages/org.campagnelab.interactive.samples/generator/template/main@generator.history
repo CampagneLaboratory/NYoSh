@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="tgp0" modelUID="r:e707ab8d-f636-483d-a28a-1cb9ed2d56cd(org.campagnelab.interactive.samples.structure)" version="-1" />
+      <model index="qzwz" modelUID="r:4b90da7b-5641-428b-8fce-3a5f852cddfc(org.campagnelab.interactive.samples.generator.template.main@generator)" version="-1" />
+      <model index="jn3u" modelUID="r:a3263756-04f7-41e1-8385-0d61a59b956c(org.campagnelab.interactive.samples.behavior)" version="-1" />
+      <model index="v0cm" modelUID="r:1e35ffdb-7d85-4b70-ac02-3f76b035275b(org.campagnelab.interactive.samples.editor)" version="-1" />
+      <model index="w81v" modelUID="r:b8f093af-844a-47a5-b711-28accba43365(org.campagnelab.interactive.samples.typesystem)" version="-1" />
+      <model index="i31a" modelUID="r:69436cd4-ea22-4899-8ab1-95653b1e0bf6(org.campagnelab.interactive.samples.constraints)" version="-1" />
+    </dependencies>
+    <RenameModel oldModel="r:e707ab8d-f636-483d-a28a-1cb9ed2d56cd(org.campagnelab.interactive.samples.structure)" newModel="r:e707ab8d-f636-483d-a28a-1cb9ed2d56cd(org.campagnelab.gobyweb.interactive.samples.structure)" />
+    <RenameModel oldModel="r:1e35ffdb-7d85-4b70-ac02-3f76b035275b(org.campagnelab.interactive.samples.editor)" newModel="r:1e35ffdb-7d85-4b70-ac02-3f76b035275b(org.campagnelab.gobyweb.interactive.samples.editor)" />
+    <RenameModel oldModel="r:69436cd4-ea22-4899-8ab1-95653b1e0bf6(org.campagnelab.interactive.samples.constraints)" newModel="r:69436cd4-ea22-4899-8ab1-95653b1e0bf6(org.campagnelab.gobyweb.interactive.samples.constraints)" />
+    <RenameModel oldModel="r:a3263756-04f7-41e1-8385-0d61a59b956c(org.campagnelab.interactive.samples.behavior)" newModel="r:a3263756-04f7-41e1-8385-0d61a59b956c(org.campagnelab.gobyweb.interactive.samples.behavior)" />
+    <RenameModel oldModel="r:b8f093af-844a-47a5-b711-28accba43365(org.campagnelab.interactive.samples.typesystem)" newModel="r:b8f093af-844a-47a5-b711-28accba43365(org.campagnelab.gobyweb.interactive.samples.typesystem)" />
+    <RenameModel oldModel="r:4b90da7b-5641-428b-8fce-3a5f852cddfc(org.campagnelab.interactive.samples.generator.template.main@generator)" newModel="r:4b90da7b-5641-428b-8fce-3a5f852cddfc(org.campagnelab.gobyweb.interactive.samples.generator.template.main@generator)" />
+  </StructureModification>
+</history>
+
