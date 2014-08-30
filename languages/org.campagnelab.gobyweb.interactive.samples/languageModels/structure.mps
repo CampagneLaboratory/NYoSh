@@ -186,13 +186,13 @@
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="pairComparisons" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="bs99.6348392937650129823" resolveInfo="ComparisonPairValue" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="bs99.4301187679980279268" resolveInfo="PairComparisonsOptionValue" />
     </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="7744544840734122562" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="groupDefinitions" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="bs99.3927327347537774497" resolveInfo="GroupDefinitionOptionValue" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="bs99.4301187679980279014" resolveInfo="GroupDefinitionsOptionValue" />
     </node>
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="8524130661366179057" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="tag" />
