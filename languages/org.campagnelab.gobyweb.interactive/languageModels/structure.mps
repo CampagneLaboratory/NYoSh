@@ -772,6 +772,11 @@
     <property name="virtualPackage" nameId="tpck.1193676396447" value="tools.execution" />
     <property name="name" nameId="tpck.1169194664001" value="GroupDefinitionOptionValue" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="606449909792929476" resolveInfo="StringOptionValue" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="4301187679985156411" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="groupName" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="4301187679985156649" nodeInfo="ig" />
+    </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="3927327347537774650" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="values" />
@@ -797,6 +802,16 @@
     <property name="virtualPackage" nameId="tpck.1193676396447" value="tools.execution" />
     <property name="name" nameId="tpck.1169194664001" value="ComparisonPairValue" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="606449909792929476" resolveInfo="StringOptionValue" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="4301187679985173511" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="group1Name" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="4301187679985173516" nodeInfo="ig" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="4301187679985173513" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="group2Name" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="4301187679985173518" nodeInfo="ig" />
+    </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="6348392937650130305" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
       <property name="role" nameId="tpce.1071599776563" value="group1" />
