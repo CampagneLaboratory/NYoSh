@@ -426,84 +426,90 @@
     <property name="jobName" nameId="bs99.606449909789338951" value="test" />
     <property name="message" nameId="bs99.3927327347527013400" value="Job successfully submitted. Assigned tag: LBMKPSU" />
     <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="45104428785272231" resolveInfo="TutorialEnvironment" />
-    <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="649332775225604645" resolveInfo="SEQ_VAR_GOBY" />
-    <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="45104428787546905" nodeInfo="ng">
-      <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="649332775225604655" resolveInfo="INPUT_ALIGNMENTS" />
-      <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="45104428788595963" nodeInfo="ng">
-        <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="45104428788594288" resolveInfo="GOBY_ALIGNMENT/NWGZWBH-test-sharing-with-SDK" />
-      </node>
-    </node>
+    <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="7484384143784822581" resolveInfo="SEQ_VAR_GOBY" />
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="45104428787546906" nodeInfo="ng">
-      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="649332775225604668" resolveInfo="Type of analysis and output format" />
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="7484384143784822604" resolveInfo="Type of analysis and output format" />
       <node role="value" roleId="bs99.6506431596944968310" type="bs99.CategoricalOptionValue" typeId="bs99.606449909792985260" id="45104428787546908" nodeInfo="ng">
-        <link role="category" roleId="bs99.3927327347530218892" targetNodeId="649332775225604669" resolveInfo="genotypes" />
+        <link role="category" roleId="bs99.3927327347530218892" targetNodeId="7484384143784822605" resolveInfo="genotypes" />
       </node>
     </node>
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="45104428787546909" nodeInfo="ng">
-      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="649332775225604674" resolveInfo="Realign reads near indels" />
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="7484384143784822610" resolveInfo="Realign reads near indels" />
       <node role="value" roleId="bs99.6506431596944968310" type="bs99.BooleanOptionValue" typeId="bs99.606449909792920794" id="45104428787546911" nodeInfo="ng">
         <property name="value" nameId="bs99.606449909792920797" value="false" />
       </node>
     </node>
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="45104428787546912" nodeInfo="ng">
-      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="649332775225604680" resolveInfo="Annotate variations" />
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="7484384143784822616" resolveInfo="Annotate variations" />
       <node role="value" roleId="bs99.6506431596944968310" type="bs99.BooleanOptionValue" typeId="bs99.606449909792920794" id="45104428787546914" nodeInfo="ng">
         <property name="value" nameId="bs99.606449909792920797" value="true" />
       </node>
     </node>
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="45104428787546915" nodeInfo="ng">
-      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="649332775225604682" resolveInfo="q-value threshold" />
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="7484384143784822618" resolveInfo="q-value threshold" />
       <node role="value" roleId="bs99.6506431596944968310" type="bs99.DoubleOptionValue" typeId="bs99.606449909792936179" id="45104428787546917" nodeInfo="ng">
         <property name="value" nameId="bs99.606449909792936180" value="1.0" />
       </node>
     </node>
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="45104428787546918" nodeInfo="ng">
-      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="649332775225604684" resolveInfo="Number of top hits" />
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="7484384143784822620" resolveInfo="Number of top hits" />
       <node role="value" roleId="bs99.6506431596944968310" type="bs99.IntegerOptionValue" typeId="bs99.606449909792930896" id="45104428787546920" nodeInfo="ng">
         <property name="value" nameId="bs99.606449909792930897" value="10000" />
       </node>
     </node>
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="45104428787546921" nodeInfo="ng">
-      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="649332775225604686" resolveInfo="Minimum variation support" />
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="7484384143784822622" resolveInfo="Minimum variation support" />
       <node role="value" roleId="bs99.6506431596944968310" type="bs99.IntegerOptionValue" typeId="bs99.606449909792930896" id="45104428787546923" nodeInfo="ng">
         <property name="value" nameId="bs99.606449909792930897" value="1" />
       </node>
     </node>
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="45104428787546924" nodeInfo="ng">
-      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="649332775225604688" resolveInfo="Minimum number of distinct read indices" />
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="7484384143784822624" resolveInfo="Minimum number of distinct read indices" />
       <node role="value" roleId="bs99.6506431596944968310" type="bs99.IntegerOptionValue" typeId="bs99.606449909792930896" id="45104428787546926" nodeInfo="ng">
         <property name="value" nameId="bs99.606449909792930897" value="1" />
       </node>
     </node>
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="45104428787546927" nodeInfo="ng">
-      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="649332775225604693" resolveInfo="Covariate info URL" />
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="7484384143784822629" resolveInfo="Covariate info URL" />
       <node role="value" roleId="bs99.6506431596944968310" type="bs99.StringOptionValue" typeId="bs99.606449909792929476" id="45104428787546929" nodeInfo="ng">
         <property name="value" nameId="bs99.606449909792929477" value="NONE" />
       </node>
     </node>
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="45104428787546930" nodeInfo="ng">
-      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="649332775225604695" resolveInfo="GROUP_DEFINITION" />
-      <node role="value" roleId="bs99.6506431596944968310" type="bs99.GroupDefinitionOptionValue" typeId="bs99.3927327347537774497" id="45104428788554939" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="A" />
-        <node role="values" roleId="bs99.3927327347537774650" type="bs99.GroupFileSetInstanceRef" typeId="bs99.6348392937649628548" id="45104428788595965" nodeInfo="ng">
-          <link role="ref" roleId="bs99.6348392937649628553" targetNodeId="45104428788594288" resolveInfo="GOBY_ALIGNMENT/NWGZWBH-test-sharing-with-SDK" />
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="7484384143784822631" resolveInfo="GROUP_DEFINITION" />
+      <node role="value" roleId="bs99.6506431596944968310" type="bs99.GroupDefinitionsOptionValue" typeId="bs99.4301187679980279014" id="4301187679985376552" nodeInfo="ng">
+        <node role="groups" roleId="bs99.4301187679980279261" type="bs99.SingleGroupDefinition" typeId="bs99.4301187679980279263" id="4301187679985376553" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="A" />
+          <node role="includedFileSets" roleId="bs99.4301187679980279266" type="bs99.GroupFileSetInstanceRef" typeId="bs99.6348392937649628548" id="45104428788595965" nodeInfo="ng">
+            <link role="ref" roleId="bs99.6348392937649628553" targetNodeId="45104428788594288" resolveInfo="GOBY_ALIGNMENT/NWGZWBH-test-sharing-with-SDK" />
+          </node>
         </node>
       </node>
     </node>
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="45104428788554957" nodeInfo="ng">
-      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="649332775225604695" resolveInfo="GROUP_DEFINITION" />
-      <node role="value" roleId="bs99.6506431596944968310" type="bs99.GroupDefinitionOptionValue" typeId="bs99.3927327347537774497" id="45104428788554984" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="B" />
-        <node role="values" roleId="bs99.3927327347537774650" type="bs99.GroupFileSetInstanceRef" typeId="bs99.6348392937649628548" id="45104428788595967" nodeInfo="ng">
-          <link role="ref" roleId="bs99.6348392937649628553" targetNodeId="45104428788594288" resolveInfo="GOBY_ALIGNMENT/NWGZWBH-test-sharing-with-SDK" />
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="7484384143784822631" resolveInfo="GROUP_DEFINITION" />
+      <node role="value" roleId="bs99.6506431596944968310" type="bs99.GroupDefinitionsOptionValue" typeId="bs99.4301187679980279014" id="4301187679985376557" nodeInfo="ng">
+        <node role="groups" roleId="bs99.4301187679980279261" type="bs99.SingleGroupDefinition" typeId="bs99.4301187679980279263" id="4301187679985376558" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="B" />
+          <node role="includedFileSets" roleId="bs99.4301187679980279266" type="bs99.GroupFileSetInstanceRef" typeId="bs99.6348392937649628548" id="45104428788595967" nodeInfo="ng">
+            <link role="ref" roleId="bs99.6348392937649628553" targetNodeId="45104428788594288" resolveInfo="GOBY_ALIGNMENT/NWGZWBH-test-sharing-with-SDK" />
+          </node>
         </node>
       </node>
     </node>
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="45104428787546933" nodeInfo="ng">
-      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="649332775225604697" resolveInfo="COMPARISON_PAIR" />
-      <node role="value" roleId="bs99.6506431596944968310" type="bs99.ComparisonPairValue" typeId="bs99.6348392937650129823" id="45104428788554950" nodeInfo="ng">
-        <link role="group1" roleId="bs99.6348392937650130305" targetNodeId="45104428788554939" resolveInfo="A" />
-        <link role="group2" roleId="bs99.6348392937650130323" targetNodeId="45104428788554984" resolveInfo="B" />
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="7484384143784822633" resolveInfo="COMPARISON_PAIR" />
+      <node role="value" roleId="bs99.6506431596944968310" type="bs99.PairComparisonsOptionValue" typeId="bs99.4301187679980279268" id="4301187679985376562" nodeInfo="ng">
+        <node role="pairDefinitions" roleId="bs99.4301187679980279269" type="bs99.PairDefinition" typeId="bs99.4301187679980279271" id="4301187679985376563" nodeInfo="ng">
+          <link role="group1" roleId="bs99.4301187679980279274" targetNodeId="4301187679985376553" resolveInfo="A" />
+          <link role="group2" roleId="bs99.4301187679980279280" targetNodeId="4301187679985376558" resolveInfo="B" />
+        </node>
+      </node>
+    </node>
+    <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="45104428787546905" nodeInfo="ng">
+      <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="7484384143784822591" resolveInfo="INPUT_ALIGNMENTS" />
+      <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="4301187679985244817" nodeInfo="ng">
+        <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="45104428788594288" resolveInfo="GOBY_ALIGNMENT/NWGZWBH-test-sharing-with-SDK" />
       </node>
     </node>
     <node role="jobMonitor" type="bbh2.JobMonitor" typeId="bbh2.2017323193335723531" id="45104428788595985" nodeInfo="ng">

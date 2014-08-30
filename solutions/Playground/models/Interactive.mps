@@ -10,11 +10,11 @@
   <language namespace="82ffebe3-3685-4fd9-b560-0c1d348d295c(org.campagnelab.logger)" />
   <language namespace="f05c05d7-dafb-4c87-b842-b836f305120f(org.campagnelab.gobyweb.monitoring)" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="51" implicit="yes" />
+  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="55" implicit="yes" />
   <import index="9k5" modelUID="r:df9645c2-d2fa-41cb-a718-044a287b0626(org.campagnelab.clusterConfig.structure)" version="3" implicit="yes" />
   <import index="eith" modelUID="r:1ed73e49-326d-4559-947b-13dfd134d00a(org.campagnelab.ssh.structure)" version="-1" implicit="yes" />
   <import index="whle" modelUID="r:8e4fd1b7-1955-43a4-ace6-aaf9d13814f8(org.campagnelab.logger.structure)" version="1" implicit="yes" />
-  <import index="bbh2" modelUID="r:220d24dc-c962-4ed8-b674-7bde9fb2980c(org.campagnelab.gobyweb.monitoring.structure)" version="1" implicit="yes" />
+  <import index="bbh2" modelUID="r:220d24dc-c962-4ed8-b674-7bde9fb2980c(org.campagnelab.gobyweb.monitoring.structure)" version="2" implicit="yes" />
   <import index="dzk5" modelUID="r:2bfcc546-5c51-4762-9df2-c43920be4458(org.campagnelab.gobyweb.plugins.structure)" version="4" implicit="yes" />
   <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="30" implicit="yes" />
   <root type="whle.Logger" typeId="whle.1925991773566712428" id="7039650749314407366" nodeInfo="ng">
@@ -578,6 +578,7 @@
     <node role="filesetArea" roleId="bs99.2051553890368785072" type="bs99.FileSetArea" typeId="bs99.2051553890368756473" id="2918930509286557185" nodeInfo="ng">
       <property name="path" nameId="bs99.6449713081311703917" value="/zenodotus/campagnelab/store/data/gobyweb/trial/FILESET_AREA/" />
       <link role="sshNode" roleId="bs99.6449713081311510412" targetNodeId="2243041462222181573" resolveInfo="SpankyNode" />
+      <link role="fsiContainer" roleId="bs99.6642819616984840610" targetNodeId="4301187679985379100" />
       <node role="manager" roleId="bs99.664989078355375332" type="bs99.FileSetAreaRPCManager" typeId="bs99.664989078345324995" id="6393277187634884350" nodeInfo="ng">
         <property name="status" nameId="bs99.4344503499510198037" value="not connected" />
         <property name="unreacheable" nameId="bs99.1460397808271971603" value="true" />
@@ -6002,30 +6003,36 @@
     </node>
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="406260948649236771" nodeInfo="ng">
       <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="6393277187649712567" resolveInfo="GROUP_DEFINITION" />
-      <node role="value" roleId="bs99.6506431596944968310" type="bs99.GroupDefinitionOptionValue" typeId="bs99.3927327347537774497" id="406260948649242048" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="A" />
-        <node role="values" roleId="bs99.3927327347537774650" type="bs99.GroupFileSetInstanceRef" typeId="bs99.6348392937649628548" id="406260948649242054" nodeInfo="ng">
-          <link role="ref" roleId="bs99.6348392937649628553" targetNodeId="1685722938011675371" resolveInfo="GOBY_ALIGNMENT/WENSREU-T4-runbwa" />
+      <node role="value" roleId="bs99.6506431596944968310" type="bs99.GroupDefinitionsOptionValue" typeId="bs99.4301187679980279014" id="4301187679985380787" nodeInfo="ng">
+        <node role="groups" roleId="bs99.4301187679980279261" type="bs99.SingleGroupDefinition" typeId="bs99.4301187679980279263" id="4301187679985380788" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="A" />
+          <node role="includedFileSets" roleId="bs99.4301187679980279266" type="bs99.GroupFileSetInstanceRef" typeId="bs99.6348392937649628548" id="406260948649242054" nodeInfo="ng">
+            <link role="ref" roleId="bs99.6348392937649628553" targetNodeId="1685722938011675371" resolveInfo="GOBY_ALIGNMENT/WENSREU-T4-runbwa" />
+          </node>
         </node>
       </node>
     </node>
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="406260948649242060" nodeInfo="ng">
       <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="6393277187649712567" resolveInfo="GROUP_DEFINITION" />
-      <node role="value" roleId="bs99.6506431596944968310" type="bs99.GroupDefinitionOptionValue" typeId="bs99.3927327347537774497" id="406260948649242083" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="B" />
-        <node role="values" roleId="bs99.3927327347537774650" type="bs99.GroupFileSetInstanceRef" typeId="bs99.6348392937649628548" id="406260948649242089" nodeInfo="ng">
-          <link role="ref" roleId="bs99.6348392937649628553" targetNodeId="1685722938011675371" resolveInfo="GOBY_ALIGNMENT/WENSREU-T4-runbwa" />
+      <node role="value" roleId="bs99.6506431596944968310" type="bs99.GroupDefinitionsOptionValue" typeId="bs99.4301187679980279014" id="4301187679985380792" nodeInfo="ng">
+        <node role="groups" roleId="bs99.4301187679980279261" type="bs99.SingleGroupDefinition" typeId="bs99.4301187679980279263" id="4301187679985380793" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="B" />
+          <node role="includedFileSets" roleId="bs99.4301187679980279266" type="bs99.GroupFileSetInstanceRef" typeId="bs99.6348392937649628548" id="406260948649242089" nodeInfo="ng">
+            <link role="ref" roleId="bs99.6348392937649628553" targetNodeId="1685722938011675371" resolveInfo="GOBY_ALIGNMENT/WENSREU-T4-runbwa" />
+          </node>
         </node>
       </node>
     </node>
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="406260948649242550" nodeInfo="ng">
       <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="6393277187649712569" resolveInfo="COMPARISON_PAIR" />
-      <node role="value" roleId="bs99.6506431596944968310" type="bs99.ComparisonPairValue" typeId="bs99.6348392937650129823" id="406260948649242618" nodeInfo="ng">
-        <link role="group1" roleId="bs99.6348392937650130305" targetNodeId="406260948649242048" resolveInfo="A" />
-        <link role="group2" roleId="bs99.6348392937650130323" targetNodeId="406260948649242083" resolveInfo="B" />
+      <node role="value" roleId="bs99.6506431596944968310" type="bs99.PairComparisonsOptionValue" typeId="bs99.4301187679980279268" id="4301187679985380797" nodeInfo="ng">
+        <node role="pairDefinitions" roleId="bs99.4301187679980279269" type="bs99.PairDefinition" typeId="bs99.4301187679980279271" id="4301187679985380798" nodeInfo="ng">
+          <link role="group1" roleId="bs99.4301187679980279274" targetNodeId="4301187679985380788" resolveInfo="A" />
+          <link role="group2" roleId="bs99.4301187679980279280" targetNodeId="4301187679985380793" resolveInfo="B" />
+        </node>
       </node>
     </node>
-    <node role="jobMonitor" roleId="bs99.1212232161612106271" type="bbh2.JobMonitor" typeId="bbh2.2017323193335723531" id="406260948649242635" nodeInfo="ng">
+    <node role="jobMonitor" type="bbh2.JobMonitor" typeId="bbh2.2017323193335723531" id="406260948649242635" nodeInfo="ng">
       <property name="jobtag" nameId="bbh2.2017323193335729124" value="GDKEBCL" />
       <link role="broker" roleId="bbh2.2017323193335950083" targetNodeId="1212232161621136016" resolveInfo="brokerForMonitor" />
       <node role="viewer" roleId="bbh2.2017323193335764208" type="bbh2.MessageViewer" typeId="bbh2.2017323193335763037" id="406260948649242636" nodeInfo="ng">
@@ -7743,7 +7750,7 @@
         <property name="value" nameId="bs99.606449909792929477" value="1000GENOMES.37" />
       </node>
     </node>
-    <node role="jobMonitor" roleId="bs99.1212232161612106271" type="bbh2.JobMonitor" typeId="bbh2.2017323193335723531" id="6041342965309990315" nodeInfo="ng">
+    <node role="jobMonitor" type="bbh2.JobMonitor" typeId="bbh2.2017323193335723531" id="6041342965309990315" nodeInfo="ng">
       <property name="jobtag" nameId="bbh2.2017323193335729124" value="ASEJEMU" />
       <link role="broker" roleId="bbh2.2017323193335950083" targetNodeId="1212232161621136016" resolveInfo="brokerForMonitor" />
       <node role="viewer" roleId="bbh2.2017323193335764208" type="bbh2.MessageViewer" typeId="bbh2.2017323193335763037" id="6041342965309990316" nodeInfo="ng">
@@ -8042,6 +8049,9 @@
         </node>
       </node>
     </node>
+  </root>
+  <root type="bs99.FSIContainer" typeId="bs99.6642819616982286338" id="4301187679985379100" nodeInfo="ng">
+    <link role="environment" roleId="bs99.6642819616982682504" targetNodeId="2419654323731434878" resolveInfo="TutoriaEnvironment" />
   </root>
 </model>
 
