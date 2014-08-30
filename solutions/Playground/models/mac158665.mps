@@ -5,7 +5,7 @@
   <devkit namespace="db81b829-e557-4467-b78e-cc1d44965622(org.campagnelab.devkit.gobyweb.interactive)" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="9k5" modelUID="r:df9645c2-d2fa-41cb-a718-044a287b0626(org.campagnelab.clusterConfig.structure)" version="3" implicit="yes" />
-  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="51" implicit="yes" />
+  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="55" implicit="yes" />
   <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="30" implicit="yes" />
   <import index="dzk5" modelUID="r:2bfcc546-5c51-4762-9df2-c43920be4458(org.campagnelab.gobyweb.plugins.structure)" version="4" implicit="yes" />
   <import index="whle" modelUID="r:8e4fd1b7-1955-43a4-ace6-aaf9d13814f8(org.campagnelab.logger.structure)" version="1" implicit="yes" />
@@ -5642,10 +5642,11 @@
     <node role="jobArea" roleId="bs99.2051553890368785070" type="bs99.JobArea" typeId="bs99.2051553890368761083" id="6620797826812349975" nodeInfo="ng">
       <property name="artifactRepoPath" nameId="bs99.1997533223704022892" value="/Users/fac2003/ARTIFACT_REPO" />
       <property name="workingDirectory" nameId="bs99.6449713081311226572" value="/Users/fac2003/JOB_AREA" />
-      <link role="executionNode" roleId="bs99.6449713081311050445" targetNodeId="6620797826812351370" resolveInfo="localhost" />
+      <property name="queueName" nameId="bs99.1997533223704022889" value="rascals.q" />
       <link role="brokerPortForMonitor" roleId="bs99.8711817271672787814" targetNodeId="2017323193335959203" resolveInfo="broker" />
       <link role="brokerPortForJobs" roleId="bs99.1212232161618212231" targetNodeId="2017323193335959203" resolveInfo="broker" />
       <link role="container" roleId="bs99.6642819616986882683" targetNodeId="6620797826823359400" />
+      <link role="executionNode" roleId="bs99.6449713081311050445" targetNodeId="4301187679980296325" resolveInfo="spanky" />
     </node>
     <node role="filesetArea" roleId="bs99.2051553890368785072" type="bs99.FileSetArea" typeId="bs99.2051553890368756473" id="6620797826812352979" nodeInfo="ng">
       <property name="path" nameId="bs99.6449713081311703917" value="/Users/fac2003/FileSetArea" />
@@ -5679,20 +5680,8 @@
     <property name="jobName" nameId="bs99.606449909789338951" value="Trimming reads" />
     <property name="message" nameId="bs99.3927327347527013400" value="Job successfully submitted. Assigned tag: PXCFUSK" />
     <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="6620797826812345374" resolveInfo="mac158665" />
-    <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="656234068846518697" resolveInfo="TRIM_HALOPLEX_READS" />
-    <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="6910057661408077030" nodeInfo="ng">
-      <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="656234068846518703" resolveInfo="Input Reads" />
-      <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="6910057661408078749" nodeInfo="ng">
-        <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="6910057661401925517" resolveInfo="1-P1-Re-1_R2" />
-      </node>
-      <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="6910057661408078754" nodeInfo="ng">
-        <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="6910057661401925499" resolveInfo="1-P1-Re-1_R2" />
-      </node>
-      <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="6910057661408078762" nodeInfo="ng">
-        <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="6910057661401925508" resolveInfo="1-P1-Re-1_R2" />
-      </node>
-    </node>
-    <node role="jobMonitor" roleId="bs99.1212232161612106271" type="bbh2.JobMonitor" typeId="bbh2.2017323193335723531" id="656234068846526510" nodeInfo="ng">
+    <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="656234068846517950" resolveInfo="DIFF_EXP_GOBY_ARTIFACT" />
+    <node role="jobMonitor" type="bbh2.JobMonitor" typeId="bbh2.2017323193335723531" id="656234068846526510" nodeInfo="ng">
       <property name="jobtag" nameId="bbh2.2017323193335729124" value="PXCFUSK" />
       <link role="broker" roleId="bbh2.2017323193335950083" targetNodeId="2017323193335959203" resolveInfo="broker" />
       <node role="viewer" roleId="bbh2.2017323193335764208" type="bbh2.MessageViewer" typeId="bbh2.2017323193335763037" id="656234068846526511" nodeInfo="ng">
@@ -5711,6 +5700,53 @@
       <node role="eventListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobInJobArea" typeId="bs99.1212232161626260983" id="656234068846526513" nodeInfo="ng">
         <link role="jobArea" roleId="bs99.1212232161626279661" targetNodeId="6620797826812349975" />
         <link role="job" roleId="bs99.1212232161627127088" targetNodeId="656234068846526501" resolveInfo="Trimming reads" />
+      </node>
+    </node>
+    <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="4301187679980296340" nodeInfo="ng">
+      <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="656234068846517956" resolveInfo="INPUT_ALIGNMENTS" />
+    </node>
+    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="4301187679980296341" nodeInfo="ng">
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="656234068846517975" resolveInfo="Normalization" />
+      <node role="value" roleId="bs99.6506431596944968310" type="bs99.CategoricalOptionValue" typeId="bs99.606449909792985260" id="4301187679980296343" nodeInfo="ng">
+        <link role="category" roleId="bs99.3927327347530218892" targetNodeId="656234068846517976" resolveInfo="aligned-count" />
+      </node>
+    </node>
+    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="4301187679980296345" nodeInfo="ng">
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="656234068846517980" resolveInfo="Number of top hits" />
+      <node role="value" roleId="bs99.6506431596944968310" type="bs99.IntegerOptionValue" typeId="bs99.606449909792930896" id="4301187679980296347" nodeInfo="ng">
+        <property name="value" nameId="bs99.606449909792930897" value="10000" />
+      </node>
+    </node>
+    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="4301187679980296349" nodeInfo="ng">
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="656234068846517982" resolveInfo="q-value threshold" />
+      <node role="value" roleId="bs99.6506431596944968310" type="bs99.DoubleOptionValue" typeId="bs99.606449909792936179" id="4301187679980296351" nodeInfo="ng">
+        <property name="value" nameId="bs99.606449909792936180" value="1.0" />
+      </node>
+    </node>
+    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="4301187679980296353" nodeInfo="ng">
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="656234068846518006" resolveInfo="GROUP_DEFINITION" />
+      <node role="value" roleId="bs99.6506431596944968310" type="bs99.GroupDefinitionsOptionValue" typeId="bs99.4301187679980279014" id="4301187679980296560" nodeInfo="ng">
+        <node role="groups" roleId="bs99.4301187679980279261" type="bs99.SingleGroupDefinition" typeId="bs99.4301187679980279263" id="4301187679980296564" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="A" />
+          <node role="includedFileSets" roleId="bs99.4301187679980279266" type="bs99.GroupFileSetInstanceRef" typeId="bs99.6348392937649628548" id="4301187679980296568" nodeInfo="ng" />
+        </node>
+        <node role="groups" roleId="bs99.4301187679980279261" type="bs99.SingleGroupDefinition" typeId="bs99.4301187679980279263" id="4301187679980490738" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="B" />
+          <node role="includedFileSets" roleId="bs99.4301187679980279266" type="bs99.GroupFileSetInstanceRef" typeId="bs99.6348392937649628548" id="4301187679980490739" nodeInfo="ng" />
+        </node>
+      </node>
+    </node>
+    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="4301187679980296357" nodeInfo="ng">
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="656234068846518008" resolveInfo="COMPARISON_PAIR" />
+      <node role="value" roleId="bs99.6506431596944968310" type="bs99.PairComparisonsOptionValue" typeId="bs99.4301187679980279268" id="4301187679980670365" nodeInfo="ng">
+        <node role="pairDefinitions" roleId="bs99.4301187679980279269" type="bs99.PairDefinition" typeId="bs99.4301187679980279271" id="4301187679982513860" nodeInfo="ng">
+          <link role="group1" roleId="bs99.4301187679980279274" targetNodeId="4301187679980296564" resolveInfo="A" />
+          <link role="group2" roleId="bs99.4301187679980279280" targetNodeId="4301187679980490738" resolveInfo="B" />
+        </node>
+        <node role="pairDefinitions" roleId="bs99.4301187679980279269" type="bs99.PairDefinition" typeId="bs99.4301187679980279271" id="4301187679982513862" nodeInfo="ng">
+          <link role="group1" roleId="bs99.4301187679980279274" targetNodeId="4301187679980490738" resolveInfo="B" />
+          <link role="group2" roleId="bs99.4301187679980279280" targetNodeId="4301187679980296564" resolveInfo="A" />
+        </node>
       </node>
     </node>
   </root>
@@ -6134,6 +6170,26 @@
       <property name="message" nameId="whle.1925991773568778812" value="Listener successfully subscribed for notifications about job PXCFUSK" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.subscribe" />
     </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="4301187679980296344" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value ALIGNED_COUNT" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="4301187679980296348" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value 10000" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="4301187679980296352" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value 1.0" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="4301187679980296356" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value null" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="4301187679980296360" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value null" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
   </root>
   <root type="bs99.FSIContainer" typeId="bs99.6642819616982286338" id="6620797826822332879" nodeInfo="ng">
     <link role="environment" roleId="bs99.6642819616982682504" targetNodeId="6620797826812345374" resolveInfo="mac158665" />
@@ -6179,7 +6235,7 @@
       <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="656234068846518511" resolveInfo="TSV" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="6620797826834167628" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
-        <property name="value" nameId="bs99.8258261499122039841" value="IMXZEWW-cFos-chip-seq" />
+        <property name="value" value="IMXZEWW-cFos-chip-seq" />
       </node>
       <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="6620797826834167629" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="TSV" />
@@ -6240,7 +6296,7 @@
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="6910057661406926371" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="SAMPLE" />
-        <property name="value" nameId="bs99.8258261499122039841" value="1-P1-Re-1" />
+        <property name="value" value="1-P1-Re-1" />
       </node>
     </node>
     <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="6910057661406926221" nodeInfo="ng">
@@ -6255,7 +6311,7 @@
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="6910057661406926369" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="SAMPLE" />
-        <property name="value" nameId="bs99.8258261499122039841" value="1-P1-Re-1" />
+        <property name="value" value="1-P1-Re-1" />
       </node>
     </node>
     <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="6910057661406926230" nodeInfo="ng">
@@ -6270,7 +6326,7 @@
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="6910057661406926370" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="SAMPLE" />
-        <property name="value" nameId="bs99.8258261499122039841" value="1-P1-Re-1" />
+        <property name="value" value="1-P1-Re-1" />
       </node>
     </node>
     <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="6910057661406926212" nodeInfo="ng">
@@ -6285,7 +6341,7 @@
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.Attribute" typeId="bs99.8258261499122039745" id="6910057661406926368" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="SAMPLE" />
-        <property name="value" nameId="bs99.8258261499122039841" value="1-P1-Re-1" />
+        <property name="value" value="1-P1-Re-1" />
       </node>
     </node>
   </root>
@@ -7164,7 +7220,7 @@
           <link role="ref" roleId="bs99.4058240102192370452" targetNodeId="6620797826824008505" resolveInfo="IMXZEWW-cFos-chip-seq.sequence-variation-stats" />
         </node>
       </node>
-      <node role="jobMonitor" roleId="bs99.1212232161612106271" type="bbh2.JobMonitor" typeId="bbh2.2017323193335723531" id="6910057661396014906" nodeInfo="ng">
+      <node role="jobMonitor" type="bbh2.JobMonitor" typeId="bbh2.2017323193335723531" id="6910057661396014906" nodeInfo="ng">
         <property name="jobtag" nameId="bbh2.2017323193335729124" value="ODXPUNK" />
         <link role="broker" roleId="bbh2.2017323193335950083" targetNodeId="2017323193335959203" resolveInfo="broker" />
         <node role="viewer" roleId="bbh2.2017323193335764208" type="bbh2.MessageViewer" typeId="bbh2.2017323193335763037" id="6910057661396014907" nodeInfo="ng">
@@ -7225,6 +7281,12 @@
         </node>
       </node>
     </node>
+  </root>
+  <root type="9k5.ExecutionNode" typeId="9k5.3050176288337501843" id="4301187679980296325" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="spanky" />
+    <property name="server" nameId="9k5.3050176288337501845" value="spanky.med.cornell.edu" />
+    <property name="username" nameId="9k5.3050176288337501846" value="gobyweb" />
+    <property name="numCores" nameId="9k5.3050176288341320771" value="8" />
   </root>
 </model>
 
