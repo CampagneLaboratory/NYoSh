@@ -5679,6 +5679,12 @@
       <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="8273662917778405746" nodeInfo="ng">
         <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="8273662917777788940" resolveInfo="sample2_1_R2" />
       </node>
+      <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="8273662917778537120" nodeInfo="ng">
+        <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="8273662917777788901" resolveInfo="sample1_2_R1" />
+      </node>
+      <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="8273662917778537134" nodeInfo="ng">
+        <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="8273662917777788914" resolveInfo="sample1_2_R2" />
+      </node>
     </node>
     <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="8273662917777785623" nodeInfo="ng">
       <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="8273662917776796616" resolveInfo="UPLOAD_MERGE_PLAN" />
@@ -5687,18 +5693,19 @@
           <property name="pairIndicator1" nameId="jlq1.8273662917776534256" value="_R1" />
           <property name="pairIndicator2" nameId="jlq1.8273662917776534258" value="_R2" />
         </node>
-        <node role="samples" roleId="jlq1.8273662917775893306" type="jlq1.MergedSample" typeId="jlq1.8273662917775872092" id="8273662917778530511" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="sample2_1" />
-          <node role="instances" roleId="jlq1.8273662917775893119" type="jlq1.FSInstancesPair" typeId="jlq1.8273662917775893121" id="8273662917778530512" nodeInfo="ng">
+        <node role="samples" roleId="jlq1.8273662917775893306" type="jlq1.MergedSample" typeId="jlq1.8273662917775872092" id="8273662917778754061" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="sample1" />
+          <node role="instances" roleId="jlq1.8273662917775893119" type="jlq1.FSInstancesPair" typeId="jlq1.8273662917775893121" id="8273662917778754062" nodeInfo="ng">
+            <link role="read" roleId="jlq1.8273662917775893124" targetNodeId="8273662917777788869" resolveInfo="sample1_1_R1" />
+            <link role="pair" roleId="jlq1.8273662917775893296" targetNodeId="8273662917777788888" resolveInfo="sample1_1_R2" />
+          </node>
+          <node role="instances" roleId="jlq1.8273662917775893119" type="jlq1.FSInstancesPair" typeId="jlq1.8273662917775893121" id="8273662917778754060" nodeInfo="ng">
             <link role="read" roleId="jlq1.8273662917775893124" targetNodeId="8273662917777788927" resolveInfo="sample2_1_R1" />
             <link role="pair" roleId="jlq1.8273662917775893296" targetNodeId="8273662917777788940" resolveInfo="sample2_1_R2" />
           </node>
-        </node>
-        <node role="samples" roleId="jlq1.8273662917775893306" type="jlq1.MergedSample" typeId="jlq1.8273662917775872092" id="8273662917778530513" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="sample1_1" />
-          <node role="instances" roleId="jlq1.8273662917775893119" type="jlq1.FSInstancesPair" typeId="jlq1.8273662917775893121" id="8273662917778530514" nodeInfo="ng">
-            <link role="read" roleId="jlq1.8273662917775893124" targetNodeId="8273662917777788869" resolveInfo="sample1_1_R1" />
-            <link role="pair" roleId="jlq1.8273662917775893296" targetNodeId="8273662917777788888" resolveInfo="sample1_1_R2" />
+          <node role="instances" roleId="jlq1.8273662917775893119" type="jlq1.FSInstancesPair" typeId="jlq1.8273662917775893121" id="8273662917778754064" nodeInfo="ng">
+            <link role="read" roleId="jlq1.8273662917775893124" targetNodeId="8273662917777788901" resolveInfo="sample1_2_R1" />
+            <link role="pair" roleId="jlq1.8273662917775893296" targetNodeId="8273662917777788914" resolveInfo="sample1_2_R2" />
           </node>
         </node>
       </node>
