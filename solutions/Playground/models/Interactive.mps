@@ -14,7 +14,7 @@
   <import index="9k5" modelUID="r:df9645c2-d2fa-41cb-a718-044a287b0626(org.campagnelab.clusterConfig.structure)" version="3" implicit="yes" />
   <import index="eith" modelUID="r:1ed73e49-326d-4559-947b-13dfd134d00a(org.campagnelab.ssh.structure)" version="-1" implicit="yes" />
   <import index="whle" modelUID="r:8e4fd1b7-1955-43a4-ace6-aaf9d13814f8(org.campagnelab.logger.structure)" version="1" implicit="yes" />
-  <import index="bbh2" modelUID="r:220d24dc-c962-4ed8-b674-7bde9fb2980c(org.campagnelab.gobyweb.monitoring.structure)" version="3" implicit="yes" />
+  <import index="bbh2" modelUID="r:220d24dc-c962-4ed8-b674-7bde9fb2980c(org.campagnelab.gobyweb.monitoring.structure)" version="4" implicit="yes" />
   <import index="dzk5" modelUID="r:2bfcc546-5c51-4762-9df2-c43920be4458(org.campagnelab.gobyweb.plugins.structure)" version="4" implicit="yes" />
   <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="30" implicit="yes" />
   <root type="whle.Logger" typeId="whle.1925991773566712428" id="7039650749314407366" nodeInfo="ng">
@@ -525,9 +525,6 @@
     <property name="jobName" nameId="bs99.606449909789338951" value="Third Analysis" />
     <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="2419654323731434878" resolveInfo="TutoriaEnvironment" />
     <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="6393277187649712773" resolveInfo="SPLICING_DIFF_EXP" />
-    <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="83657536354575623" nodeInfo="ng">
-      <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="6393277187649712781" resolveInfo="INPUT_ALIGNMENTS" />
-    </node>
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="83657536354575624" nodeInfo="ng">
       <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="6393277187649712802" resolveInfo="GROUP_DEFINITION" />
       <node role="value" roleId="bs99.6506431596944968310" type="bs99.StringOptionValue" typeId="bs99.606449909792929476" id="83657536354575626" nodeInfo="ng" />
@@ -535,6 +532,9 @@
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="83657536354575628" nodeInfo="ng">
       <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="6393277187649712804" resolveInfo="COMPARISON_PAIR" />
       <node role="value" roleId="bs99.6506431596944968310" type="bs99.StringOptionValue" typeId="bs99.606449909792929476" id="83657536354575630" nodeInfo="ng" />
+    </node>
+    <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="83657536354575623" nodeInfo="ng">
+      <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="6393277187649712781" resolveInfo="INPUT_ALIGNMENTS" />
     </node>
   </root>
   <root type="9k5.ExecutionNode" typeId="9k5.3050176288337501843" id="8711817271675662831" nodeInfo="ng">
@@ -6011,27 +6011,33 @@
     </node>
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="406260948649236771" nodeInfo="ng">
       <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="6393277187649712567" resolveInfo="GROUP_DEFINITION" />
-      <node role="value" roleId="bs99.6506431596944968310" type="bs99.GroupDefinitionOptionValue" typeId="bs99.3927327347537774497" id="406260948649242048" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="A" />
-        <node role="values" roleId="bs99.3927327347537774650" type="bs99.GroupFileSetInstanceRef" typeId="bs99.6348392937649628548" id="406260948649242054" nodeInfo="ng">
-          <link role="ref" roleId="bs99.6348392937649628553" targetNodeId="1685722938011675371" resolveInfo="GOBY_ALIGNMENT/WENSREU-T4-runbwa" />
+      <node role="value" roleId="bs99.6506431596944968310" type=".org.campagnelab.gobyweb.interactive.structure.GroupDefinitionsOptionValue" id="4301187679985380787" nodeInfo="ng">
+        <node role="groups" type=".org.campagnelab.gobyweb.interactive.structure.SingleGroupDefinition" id="4301187679985380788" nodeInfo="ng">
+          <property name="name" value="A" />
+          <node role="includedFileSets" type="bs99.GroupFileSetInstanceRef" typeId="bs99.6348392937649628548" id="406260948649242054" nodeInfo="ng">
+            <link role="ref" roleId="bs99.6348392937649628553" targetNodeId="1685722938011675371" resolveInfo="GOBY_ALIGNMENT/WENSREU-T4-runbwa" />
+          </node>
         </node>
       </node>
     </node>
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="406260948649242060" nodeInfo="ng">
       <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="6393277187649712567" resolveInfo="GROUP_DEFINITION" />
-      <node role="value" roleId="bs99.6506431596944968310" type="bs99.GroupDefinitionOptionValue" typeId="bs99.3927327347537774497" id="406260948649242083" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="B" />
-        <node role="values" roleId="bs99.3927327347537774650" type="bs99.GroupFileSetInstanceRef" typeId="bs99.6348392937649628548" id="406260948649242089" nodeInfo="ng">
-          <link role="ref" roleId="bs99.6348392937649628553" targetNodeId="1685722938011675371" resolveInfo="GOBY_ALIGNMENT/WENSREU-T4-runbwa" />
+      <node role="value" roleId="bs99.6506431596944968310" type=".org.campagnelab.gobyweb.interactive.structure.GroupDefinitionsOptionValue" id="4301187679985380792" nodeInfo="ng">
+        <node role="groups" type=".org.campagnelab.gobyweb.interactive.structure.SingleGroupDefinition" id="4301187679985380793" nodeInfo="ng">
+          <property name="name" value="B" />
+          <node role="includedFileSets" type="bs99.GroupFileSetInstanceRef" typeId="bs99.6348392937649628548" id="406260948649242089" nodeInfo="ng">
+            <link role="ref" roleId="bs99.6348392937649628553" targetNodeId="1685722938011675371" resolveInfo="GOBY_ALIGNMENT/WENSREU-T4-runbwa" />
+          </node>
         </node>
       </node>
     </node>
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="406260948649242550" nodeInfo="ng">
       <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="6393277187649712569" resolveInfo="COMPARISON_PAIR" />
-      <node role="value" roleId="bs99.6506431596944968310" type="bs99.ComparisonPairValue" typeId="bs99.6348392937650129823" id="406260948649242618" nodeInfo="ng">
-        <link role="group1" roleId="bs99.6348392937650130305" targetNodeId="406260948649242048" resolveInfo="A" />
-        <link role="group2" roleId="bs99.6348392937650130323" targetNodeId="406260948649242083" resolveInfo="B" />
+      <node role="value" roleId="bs99.6506431596944968310" type=".org.campagnelab.gobyweb.interactive.structure.PairComparisonsOptionValue" id="4301187679985380797" nodeInfo="ng">
+        <node role="pairDefinitions" type=".org.campagnelab.gobyweb.interactive.structure.PairDefinition" id="4301187679985380798" nodeInfo="ng">
+          <link role="group1" targetNodeId="4301187679985380788" resolveInfo="A" />
+          <link role="group2" targetNodeId="4301187679985380793" resolveInfo="B" />
+        </node>
       </node>
     </node>
     <node role="jobMonitor" type="bbh2.JobMonitor" typeId="bbh2.2017323193335723531" id="406260948649242635" nodeInfo="ng">
@@ -7716,8 +7722,8 @@
         <property name="jobTag" nameId="bbh2.2017323193335763033" value="GDKEBCL" />
         <link role="broker" roleId="bbh2.2017323193335803042" targetNodeId="1212232161621136016" resolveInfo="brokerForMonitor" />
       </node>
-      <node role="eventListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobListener" typeId="bs99.1212232161626260983" id="406260948649242638" nodeInfo="ng">
-        <link role="jobArea" roleId="bs99.1212232161626279661" targetNodeId="2419654323731450373" resolveInfo="MSJobArea" />
+      <node role="jobStatusListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobListener" typeId="bs99.1212232161626260983" id="406260948649242638" nodeInfo="ng">
+        <link role="jobArea" targetNodeId="2419654323731450373" resolveInfo="MSJobArea" />
         <link role="job" roleId="bs99.1212232161627127088" targetNodeId="406260948649242622" resolveInfo="test" />
       </node>
     </node>
@@ -7768,8 +7774,8 @@
         <property name="jobTag" nameId="bbh2.2017323193335763033" value="ASEJEMU" />
         <link role="broker" roleId="bbh2.2017323193335803042" targetNodeId="1212232161621136016" resolveInfo="brokerForMonitor" />
       </node>
-      <node role="eventListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobListener" typeId="bs99.1212232161626260983" id="6041342965309990318" nodeInfo="ng">
-        <link role="jobArea" roleId="bs99.1212232161626279661" targetNodeId="2419654323731450373" resolveInfo="MSJobArea" />
+      <node role="jobStatusListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobListener" typeId="bs99.1212232161626260983" id="6041342965309990318" nodeInfo="ng">
+        <link role="jobArea" targetNodeId="2419654323731450373" resolveInfo="MSJobArea" />
         <link role="job" roleId="bs99.1212232161627127088" targetNodeId="6041342965309990308" resolveInfo="FirstAligner" />
       </node>
     </node>
