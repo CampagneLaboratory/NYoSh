@@ -9,6 +9,7 @@
   <import index="dzk5" modelUID="r:2bfcc546-5c51-4762-9df2-c43920be4458(org.campagnelab.gobyweb.plugins.structure)" version="4" implicit="yes" />
   <import index="dhle" modelUID="r:22d2d7af-29e7-4a54-9633-f2175440f8be(org.campagnelab.feedback.structure)" version="0" implicit="yes" />
   <import index="bbh2" modelUID="r:220d24dc-c962-4ed8-b674-7bde9fb2980c(org.campagnelab.gobyweb.monitoring.structure)" version="4" implicit="yes" />
+  <import index="whle" modelUID="r:8e4fd1b7-1955-43a4-ace6-aaf9d13814f8(org.campagnelab.logger.structure)" version="1" implicit="yes" />
   <root type="9k5.ExecutionNode" typeId="9k5.3050176288337501843" id="7915051628305670571" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="localhost" />
     <property name="server" nameId="9k5.3050176288337501845" value="localhost" />
@@ -5743,10 +5744,10 @@
   <root type="bs99.ExecutionTool" typeId="bs99.2465489689642685978" id="3403061721251564942" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="ExecutionTool" />
     <property name="jobName" nameId="bs99.606449909789338951" value="FirstJob" />
-    <property name="message" nameId="bs99.3927327347527013400" value="Job successfully submitted. Assigned tag: BMLVDZY" />
+    <property name="message" nameId="bs99.3927327347527013400" value="Job successfully submitted. Assigned tag: OJYARWP" />
     <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="7915051628305677536" resolveInfo="MSNotebook" />
     <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="3403061721251611034" resolveInfo="PROCESS_READS_TASK" />
-    <link role="currentJob" roleId="bs99.5540992037659823465" targetNodeId="3403061721251619724" resolveInfo="FirstJob" />
+    <link role="currentJob" roleId="bs99.5540992037659823465" targetNodeId="3403061721252933730" resolveInfo="FirstJob" />
     <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="3403061721251615541" nodeInfo="ng">
       <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="3403061721251611041" resolveInfo="UPLOADS_FILES" />
       <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="3403061721251619721" nodeInfo="ng">
@@ -5768,340 +5769,6 @@
   </root>
   <root type="bs99.JobContainer" typeId="bs99.6642819616986824926" id="3403061721251604623" nodeInfo="ng">
     <link role="environment" roleId="bs99.6642819616986825109" targetNodeId="7915051628305677536" resolveInfo="MSNotebook" />
-    <node role="jobs" roleId="bs99.6642819616986825107" type="bs99.Job" typeId="bs99.2051553890368756070" id="3403061721251604617" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="FirstJob" />
-      <property name="assignedTag" nameId="bs99.2408108650474877836" value="DXOORFE" />
-      <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="3403061721251561863" resolveInfo="PROCESS_READS_TASK" />
-      <link role="executionEnvironment" roleId="bs99.2051553890368806506" targetNodeId="7915051628305677536" resolveInfo="MSNotebook" />
-      <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="3403061721251604618" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="UPLOADS_FILES" />
-        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="3403061721251604619" nodeInfo="ng">
-          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="3403061721251563169" resolveInfo="R1" />
-        </node>
-      </node>
-      <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="3403061721251604620" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="UPLOAD_MERGE_PLAN" />
-        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="3403061721251604621" nodeInfo="ng">
-          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="3403061721251564920" resolveInfo="WFIWOOJ-details" />
-        </node>
-      </node>
-      <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="3403061721251604622" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="TAG" />
-        <property name="value" nameId="bs99.606449909793678507" value="FAKETAG" />
-      </node>
-      <node role="results" roleId="bs99.606449909788800957" type="bs99.JobResult" typeId="bs99.2051553890369292719" id="3403061721251604624" nodeInfo="ng">
-        <property name="output" nameId="bs99.2051553890369299989" value="SUBMITTED" />
-      </node>
-      <node role="monitor" roleId="bs99.5540992037659759954" type="bbh2.JobMonitor" typeId="bbh2.2017323193335723531" id="3403061721251604625" nodeInfo="ng">
-        <property name="jobtag" nameId="bbh2.2017323193335729124" value="DXOORFE" />
-        <link role="broker" roleId="bbh2.2017323193335950083" targetNodeId="7915051628305677532" resolveInfo="broker" />
-        <node role="viewer" roleId="bbh2.2017323193335764208" type="bbh2.MessageViewer" typeId="bbh2.2017323193335763037" id="3403061721251604626" nodeInfo="ng">
-          <property name="jobStatus" nameId="bbh2.8711817271669511123" value="running" />
-          <property name="messageCounter" nameId="bbh2.8711817271669613111" value="3" />
-          <property name="message" nameId="bbh2.6041342965312064113" value="refresh invoked" />
-          <property name="autoRefresh" nameId="bbh2.1011954325398115419" value="true" />
-          <link role="listener" roleId="bbh2.1526708538680794525" targetNodeId="3403061721251604627" resolveInfo="NYoSh-1409429987854" />
-          <link role="eventListener" roleId="bbh2.1212232161626043352" targetNodeId="3403061721251604625" />
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721251605918" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="submitted" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721251605916" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sat Aug 30 16:20:17 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721251605917" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Task submitted: " />
-              </node>
-            </node>
-          </node>
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721251605921" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="resources" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721251605919" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sat Aug 30 16:20:21 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721251605920" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Installing plugin mandatory resources" />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721251605922" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="ERROR" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sat Aug 30 16:20:24 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721251605923" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Unable to install artifacts. Aborting" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node role="listener" roleId="bbh2.2017323193335730758" type="bbh2.MessageListener" typeId="bbh2.2017323193335730757" id="3403061721251604627" nodeInfo="ng">
-          <property name="subscribed" nameId="bbh2.2017323193335803495" value="true" />
-          <property name="name" nameId="tpck.1169194664001" value="NYoSh-1409429987854" />
-          <property name="jobTag" nameId="bbh2.2017323193335763033" value="DXOORFE" />
-          <link role="broker" roleId="bbh2.2017323193335803042" targetNodeId="7915051628305677532" resolveInfo="broker" />
-        </node>
-        <node role="jobStatusListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobListener" typeId="bs99.1212232161626260983" id="3403061721251604628" nodeInfo="ng">
-          <property name="rank" nameId="bbh2.6587162469552164420" value="0" />
-          <link role="job" roleId="bs99.1212232161627127088" targetNodeId="3403061721251604617" resolveInfo="FirstJob" />
-        </node>
-      </node>
-    </node>
-    <node role="jobs" roleId="bs99.6642819616986825107" type="bs99.Job" typeId="bs99.2051553890368756070" id="3403061721251605938" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="FirstJob" />
-      <property name="assignedTag" nameId="bs99.2408108650474877836" value="HRNSIQB" />
-      <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="3403061721251561863" resolveInfo="PROCESS_READS_TASK" />
-      <link role="executionEnvironment" roleId="bs99.2051553890368806506" targetNodeId="7915051628305677536" resolveInfo="MSNotebook" />
-      <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="3403061721251605939" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="UPLOADS_FILES" />
-        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="3403061721251605940" nodeInfo="ng">
-          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="3403061721251563169" resolveInfo="R1" />
-        </node>
-      </node>
-      <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="3403061721251605941" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="UPLOAD_MERGE_PLAN" />
-        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="3403061721251605942" nodeInfo="ng">
-          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="3403061721251564920" resolveInfo="WFIWOOJ-details" />
-        </node>
-      </node>
-      <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="3403061721251605943" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="TAG" />
-        <property name="value" nameId="bs99.606449909793678507" value="FAKETAG" />
-      </node>
-      <node role="results" roleId="bs99.606449909788800957" type="bs99.JobResult" typeId="bs99.2051553890369292719" id="3403061721251605944" nodeInfo="ng">
-        <property name="output" nameId="bs99.2051553890369299989" value="SUBMITTED" />
-      </node>
-      <node role="monitor" roleId="bs99.5540992037659759954" type="bbh2.JobMonitor" typeId="bbh2.2017323193335723531" id="3403061721251605945" nodeInfo="ng">
-        <property name="jobtag" nameId="bbh2.2017323193335729124" value="HRNSIQB" />
-        <link role="broker" roleId="bbh2.2017323193335950083" targetNodeId="7915051628305677532" resolveInfo="broker" />
-        <node role="viewer" roleId="bbh2.2017323193335764208" type="bbh2.MessageViewer" typeId="bbh2.2017323193335763037" id="3403061721251605946" nodeInfo="ng">
-          <property name="jobStatus" nameId="bbh2.8711817271669511123" value="running" />
-          <property name="messageCounter" nameId="bbh2.8711817271669613111" value="3" />
-          <property name="message" nameId="bbh2.6041342965312064113" value="refresh invoked" />
-          <property name="autoRefresh" nameId="bbh2.1011954325398115419" value="true" />
-          <link role="listener" roleId="bbh2.1526708538680794525" targetNodeId="3403061721251605947" resolveInfo="NYoSh-1409430086368" />
-          <link role="eventListener" roleId="bbh2.1212232161626043352" targetNodeId="3403061721251605945" />
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721251608566" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="submitted" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721251608564" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sat Aug 30 16:21:53 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721251608565" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Task submitted: " />
-              </node>
-            </node>
-          </node>
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721251608569" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="resources" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721251608567" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sat Aug 30 16:21:57 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721251608568" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Installing plugin mandatory resources" />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721251608570" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="ERROR" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sat Aug 30 16:22:02 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721251608571" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Unable to install artifacts. Aborting" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node role="listener" roleId="bbh2.2017323193335730758" type="bbh2.MessageListener" typeId="bbh2.2017323193335730757" id="3403061721251605947" nodeInfo="ng">
-          <property name="subscribed" nameId="bbh2.2017323193335803495" value="true" />
-          <property name="name" nameId="tpck.1169194664001" value="NYoSh-1409430086368" />
-          <property name="jobTag" nameId="bbh2.2017323193335763033" value="HRNSIQB" />
-          <link role="broker" roleId="bbh2.2017323193335803042" targetNodeId="7915051628305677532" resolveInfo="broker" />
-        </node>
-        <node role="jobStatusListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobListener" typeId="bs99.1212232161626260983" id="3403061721251605948" nodeInfo="ng">
-          <property name="rank" nameId="bbh2.6587162469552164420" value="0" />
-          <link role="job" roleId="bs99.1212232161627127088" targetNodeId="3403061721251605938" resolveInfo="FirstJob" />
-        </node>
-      </node>
-    </node>
-    <node role="jobs" roleId="bs99.6642819616986825107" type="bs99.Job" typeId="bs99.2051553890368756070" id="3403061721251616850" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="FirstJob" />
-      <property name="assignedTag" nameId="bs99.2408108650474877836" value="QFBXGMZ" />
-      <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="3403061721251611034" resolveInfo="PROCESS_READS_TASK" />
-      <link role="executionEnvironment" roleId="bs99.2051553890368806506" targetNodeId="7915051628305677536" resolveInfo="MSNotebook" />
-      <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="3403061721251616851" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="UPLOADS_FILES" />
-        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="3403061721251616852" nodeInfo="ng">
-          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="3403061721251563169" resolveInfo="R1" />
-        </node>
-      </node>
-      <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="3403061721251616853" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="UPLOAD_MERGE_PLAN" />
-        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="3403061721251616854" nodeInfo="ng">
-          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="3403061721251564920" resolveInfo="WFIWOOJ-details" />
-        </node>
-      </node>
-      <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="3403061721251616855" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="TAG" />
-        <property name="value" nameId="bs99.606449909793678507" value="FAKETAG" />
-      </node>
-      <node role="results" roleId="bs99.606449909788800957" type="bs99.JobResult" typeId="bs99.2051553890369292719" id="3403061721251616856" nodeInfo="ng">
-        <property name="output" nameId="bs99.2051553890369299989" value="SUCCESSFUL" />
-      </node>
-      <node role="monitor" roleId="bs99.5540992037659759954" type="bbh2.JobMonitor" typeId="bbh2.2017323193335723531" id="3403061721251616857" nodeInfo="ng">
-        <property name="jobtag" nameId="bbh2.2017323193335729124" value="QFBXGMZ" />
-        <link role="broker" roleId="bbh2.2017323193335950083" targetNodeId="7915051628305677532" resolveInfo="broker" />
-        <node role="viewer" roleId="bbh2.2017323193335764208" type="bbh2.MessageViewer" typeId="bbh2.2017323193335763037" id="3403061721251616858" nodeInfo="ng">
-          <property name="jobStatus" nameId="bbh2.8711817271669511123" value="failed" />
-          <property name="messageCounter" nameId="bbh2.8711817271669613111" value="11" />
-          <property name="message" nameId="bbh2.6041342965312064113" value="refresh invoked" />
-          <property name="autoRefresh" nameId="bbh2.1011954325398115419" value="true" />
-          <link role="listener" roleId="bbh2.1526708538680794525" targetNodeId="3403061721251616859" resolveInfo="NYoSh-1409449519514" />
-          <link role="eventListener" roleId="bbh2.1212232161626043352" targetNodeId="3403061721251616857" />
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721251618226" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="submitted" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721251618224" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sat Aug 30 21:46:00 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721251618225" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Task submitted: " />
-              </node>
-            </node>
-          </node>
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721251618229" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="resources" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721251618227" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sat Aug 30 21:46:03 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721251618228" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Installing plugin mandatory resources" />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721251618230" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sat Aug 30 21:46:58 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721251618231" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Expose environment variables for artifacts.." />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721251618232" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sat Aug 30 21:47:03 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721251618233" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Installing plugin resources" />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721251618234" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sat Aug 30 21:47:08 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721251618235" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Expose environment variables for artifacts.." />
-              </node>
-            </node>
-          </node>
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721251618238" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="unclassified" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721251618236" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sat Aug 30 21:47:12 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721251618237" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Required resources installed." />
-              </node>
-            </node>
-          </node>
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721251618241" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="registered_filesets" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721251618239" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sat Aug 30 21:48:52 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721251618240" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="READS_STATS_PROPERTIES_FILE:[MZTMMDI]" />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721251618242" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sat Aug 30 21:48:54 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721251618243" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="READ_QUALITY_STATS:[UCBKRYE]" />
-              </node>
-            </node>
-          </node>
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721251618246" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="done" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721251618244" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="FATAL" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sat Aug 30 21:48:57 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721251618245" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Job failed. Error description: Failed to push back the weight files." />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721251618247" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sat Aug 30 21:49:09 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721251618248" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Job completed" />
-              </node>
-            </node>
-          </node>
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721251618260" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="post_process" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721251618249" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="ERROR" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sat Aug 30 21:49:13 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721251618250" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="+ export GROOVY_HOME=/Users/manuelesimi/CampagneLab/tests/Artifacts/artifacts/GROOVY/DISTRIBUTION/2.0.6" />
-              </node>
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721251618251" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="+ GROOVY_HOME=/Users/manuelesimi/CampagneLab/tests/Artifacts/artifacts/GROOVY/DISTRIBUTION/2.0.6" />
-              </node>
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721251618252" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="+ /Users/manuelesimi/CampagneLab/tests/Artifacts/artifacts/GROOVY/DISTRIBUTION/2.0.6/bin/groovy /Users/manuelesimi/CampagneLab/tests/JobArea/manuele/Q/QFBXGMZ/QueueWriter.groovy --handler-service PluginsSDK --queue-message-dir /Users/manuelesimi/.clustergateway/queue-message-dir --tag FAKETAG --status start --description '&quot;Creating GC weights file&quot;' --index 0 --job-type job-part" />
-              </node>
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721251618253" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="EXEC[LMZVQRQ]: completed" />
-              </node>
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721251618254" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="EXEC[PYZIGWS] java -Xms8g -Xmx8g -jar /Users/manuelesimi/CampagneLab/tests/JobArea/manuele/Q/QFBXGMZ/goby/goby.jar -m reads-to-weights FAKETAG-testUpload.compact-reads --color-space --method gc " />
-              </node>
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721251618255" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="java.lang.UnsupportedOperationException: GC content is not implemented for color-space reads" />
-              </node>
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721251618256" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="&#9;at edu.cornell.med.icb.goby.algorithmic.algorithm.GCProportionWeight.&lt;init&gt;(GCProportionWeight.java:33)" />
-              </node>
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721251618257" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="&#9;at edu.cornell.med.icb.goby.modes.ReadsToWeightsMode.execute(ReadsToWeightsMode.java:231)" />
-              </node>
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721251618258" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="&#9;at edu.cornell.med.icb.goby.modes.GenericToolsDriver.execute(GenericToolsDriver.java:219)" />
-              </node>
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721251618259" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="&#9;at edu.cornell.med.icb.goby.modes.GobyDriver.main(GobyDriver.java:55)" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node role="listener" roleId="bbh2.2017323193335730758" type="bbh2.MessageListener" typeId="bbh2.2017323193335730757" id="3403061721251616859" nodeInfo="ng">
-          <property name="subscribed" nameId="bbh2.2017323193335803495" value="true" />
-          <property name="name" nameId="tpck.1169194664001" value="NYoSh-1409449519514" />
-          <property name="jobTag" nameId="bbh2.2017323193335763033" value="QFBXGMZ" />
-          <link role="broker" roleId="bbh2.2017323193335803042" targetNodeId="7915051628305677532" resolveInfo="broker" />
-        </node>
-        <node role="jobStatusListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobListener" typeId="bs99.1212232161626260983" id="3403061721251616860" nodeInfo="ng">
-          <property name="rank" nameId="bbh2.6587162469552164420" value="0" />
-          <link role="job" roleId="bs99.1212232161627127088" targetNodeId="3403061721251616850" resolveInfo="FirstJob" />
-        </node>
-      </node>
-    </node>
     <node role="jobs" roleId="bs99.6642819616986825107" type="bs99.Job" typeId="bs99.2051553890368756070" id="3403061721251619724" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="FirstJob" />
       <property name="assignedTag" nameId="bs99.2408108650474877836" value="BMLVDZY" />
@@ -6259,6 +5926,94 @@
           <link role="job" roleId="bs99.1212232161627127088" targetNodeId="3403061721251619724" resolveInfo="FirstJob" />
         </node>
       </node>
+    </node>
+    <node role="jobs" roleId="bs99.6642819616986825107" type="bs99.Job" typeId="bs99.2051553890368756070" id="3403061721252933730" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="FirstJob" />
+      <property name="assignedTag" nameId="bs99.2408108650474877836" value="OJYARWP" />
+      <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="3403061721251611034" resolveInfo="PROCESS_READS_TASK" />
+      <link role="executionEnvironment" roleId="bs99.2051553890368806506" targetNodeId="7915051628305677536" resolveInfo="MSNotebook" />
+      <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="3403061721252933731" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="UPLOADS_FILES" />
+        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="3403061721252933732" nodeInfo="ng">
+          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="3403061721251619679" resolveInfo="R1" />
+        </node>
+      </node>
+      <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="3403061721252933733" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="UPLOAD_MERGE_PLAN" />
+        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="3403061721252933734" nodeInfo="ng">
+          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="3403061721251564920" resolveInfo="WFIWOOJ-details" />
+        </node>
+      </node>
+      <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="3403061721252933735" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="TAG" />
+        <property name="value" nameId="bs99.606449909793678507" value="FAKETAG" />
+      </node>
+      <node role="results" roleId="bs99.606449909788800957" type="bs99.JobResult" typeId="bs99.2051553890369292719" id="3403061721252933739" nodeInfo="ng">
+        <property name="output" nameId="bs99.2051553890369299989" value="SUBMITTED" />
+      </node>
+      <node role="monitor" roleId="bs99.5540992037659759954" type="bbh2.JobMonitor" typeId="bbh2.2017323193335723531" id="3403061721252933740" nodeInfo="ng">
+        <property name="jobtag" nameId="bbh2.2017323193335729124" value="OJYARWP" />
+        <link role="broker" roleId="bbh2.2017323193335950083" targetNodeId="7915051628305677532" resolveInfo="broker" />
+        <node role="viewer" roleId="bbh2.2017323193335764208" type="bbh2.MessageViewer" typeId="bbh2.2017323193335763037" id="3403061721252933741" nodeInfo="ng">
+          <property name="jobStatus" nameId="bbh2.8711817271669511123" value="not available" />
+          <property name="messageCounter" nameId="bbh2.8711817271669613111" value="0" />
+          <property name="message" nameId="bbh2.6041342965312064113" value="no message" />
+          <property name="autoRefresh" nameId="bbh2.1011954325398115419" value="true" />
+          <link role="listener" roleId="bbh2.1526708538680794525" targetNodeId="3403061721252933742" resolveInfo="NYoSh-1409487597136" />
+          <link role="eventListener" roleId="bbh2.1212232161626043352" targetNodeId="3403061721252933740" />
+        </node>
+        <node role="listener" roleId="bbh2.2017323193335730758" type="bbh2.MessageListener" typeId="bbh2.2017323193335730757" id="3403061721252933742" nodeInfo="ng">
+          <property name="subscribed" nameId="bbh2.2017323193335803495" value="true" />
+          <property name="name" nameId="tpck.1169194664001" value="NYoSh-1409487597136" />
+          <property name="jobTag" nameId="bbh2.2017323193335763033" value="OJYARWP" />
+          <link role="broker" roleId="bbh2.2017323193335803042" targetNodeId="7915051628305677532" resolveInfo="broker" />
+        </node>
+        <node role="jobStatusListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobListener" typeId="bs99.1212232161626260983" id="3403061721252933743" nodeInfo="ng">
+          <property name="rank" nameId="bbh2.6587162469552164420" value="0" />
+          <link role="job" roleId="bs99.1212232161627127088" targetNodeId="3403061721252933730" resolveInfo="FirstJob" />
+        </node>
+      </node>
+    </node>
+  </root>
+  <root type="whle.Logger" typeId="whle.1925991773566712428" id="3403061721252933685" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721252933729" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Submit pressed" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721252933736" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Preparing the job parameters" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721252933737" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="FileSetArea.path=/Users/manuelesimi/CampagneLab/tests/FileSetArea" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721252933738" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Submitting the job to the cluster with parameters{--plugins-dir,/Users/manuelesimi/CampagneLab/Projects/gobyweb2-plugins-bitbucket,--job,PROCESS_READS_TASK,--job-tag,OJYARWP,--owner,manuele,--queue,&lt;null&gt;,--job-area,/Users/manuelesimi/CampagneLab/tests/JobArea,--fileset-area,/Users/manuelesimi/CampagneLab/tests/FileSetArea,--repository,/Users/manuelesimi/CampagneLab/tests/Artifacts,--artifact-server,manuelesimi@Manuele-Simis-MacBook-Pro.local,--broker-hostname,localhost,--broker-port,5672,--TAG,FAKETAG,UPLOADS_FILES:,EGQGZKH,UPLOAD_MERGE_PLAN:,MLUJSMM}" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721252933744" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Subscribing the listener to" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.subscribe" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721252933745" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Listener successfully subscribed for notifications about job OJYARWP" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.subscribe" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721252933746" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Enabling auto refresh" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.enableAutoRefresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721252933747" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Updater successfully started" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.enableAutoRefresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721252936530" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Job successfully submitted with tag OJYARWP" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721252936531" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Job folder: /Users/manuelesimi/CampagneLab/tests/JobArea/manuele/O/OJYARWP" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
     </node>
   </root>
 </model>
