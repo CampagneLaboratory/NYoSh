@@ -103,6 +103,7 @@
                   </node>
                   <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="1745780986246370039" nodeInfo="nn">
                     <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="qjgr.6587162469552151256" resolveInfo="getAllVisibleListeners" />
+                    <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="3403061721254599977" nodeInfo="nn" />
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpcw.ConceptFunctionParameter_model" typeId="tpcw.1161622665029" id="1745780986246399669" nodeInfo="nn" />
                   </node>
                 </node>
