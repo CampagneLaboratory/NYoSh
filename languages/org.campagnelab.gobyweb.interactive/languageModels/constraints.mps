@@ -2636,5 +2636,37 @@
       </node>
     </node>
   </root>
+  <root type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="7783347726462191527" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="tools" />
+    <link role="concept" roleId="tp1t.1213093996982" targetNodeId="bs99.5235131979802911248" resolveInfo="MultiTool" />
+  </root>
+  <root type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="7783347726462201612" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="tools.execution" />
+    <link role="concept" roleId="tp1t.1213093996982" targetNodeId="bs99.5235131979812125015" resolveInfo="MultiToolFileSetInstanceRef" />
+    <node role="canBeChild" roleId="tp1t.1213106463729" type="tp1t.ConstraintFunction_CanBeAChild" typeId="tp1t.1202989531578" id="7783347726462201613" nodeInfo="nn">
+      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="7783347726462201614" nodeInfo="sn">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="7783347726462200058" nodeInfo="nn">
+          <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="7783347726462200849" nodeInfo="nn">
+            <property name="text" nameId="tpee.6329021646629104958" value="The multi-tool fileset ref should not be offered if there is no Multi-tool among the ancestors." />
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="7783347726462193391" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7783347726462197373" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7783347726462193709" nodeInfo="nn">
+              <node role="operand" roleId="tpee.1197027771414" type="tp1t.ConstraintsFunctionParameter_node" typeId="tp1t.1147468365020" id="7783347726462193390" nodeInfo="nn" />
+              <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_GetAncestorOperation" typeId="tp25.1171407110247" id="7783347726462195715" nodeInfo="nn">
+                <node role="parameter" roleId="tp25.1144104376918" type="tp25.OperationParm_Concept" typeId="tp25.1144101972840" id="7783347726462195717" nodeInfo="ng">
+                  <node role="conceptArgument" roleId="tp25.1207343664468" type="tp25.RefConcept_Reference" typeId="tp25.1177026924588" id="7783347726462196441" nodeInfo="nn">
+                    <link role="conceptDeclaration" roleId="tp25.1177026940964" targetNodeId="bs99.5235131979802911248" resolveInfo="MultiTool" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_IsNotNullOperation" typeId="tp25.1172008320231" id="7783347726462198478" nodeInfo="nn" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </root>
 </model>
 
