@@ -5740,14 +5740,120 @@
         <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
       </node>
     </node>
+    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="3403061721257177491" nodeInfo="ng">
+      <property name="size" nameId="bs99.2740821845424982900" value="694 bytes" />
+      <property name="tag" nameId="bs99.2051553890368778934" value="RXSBBWZ" />
+      <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+      <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA/RXSBBWZ" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="3403061721251610901" resolveInfo="JOB_METADATA" />
+      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="7915051628305689874" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257177492" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
+        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257177493" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="RXSBBWZ" />
+        <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257177494" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="TASK" />
+        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_TYPE" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257177495" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="RXSBBWZ" />
+        <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
+      </node>
+      <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="3403061721257177496" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="JOB_STATISTICS" />
+        <property name="path" nameId="bs99.2740821845422344869" value="RXSBBWZ.properties" />
+        <property name="size" nameId="bs99.2740821845424881124" value="694 bytes" />
+      </node>
+    </node>
+    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="3403061721257179193" nodeInfo="ng">
+      <property name="size" nameId="bs99.2740821845424982900" value="68 bytes" />
+      <property name="tag" nameId="bs99.2051553890368778934" value="MMXRKCW" />
+      <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+      <property name="name" nameId="tpck.1169194664001" value="COMPACT_READS/R1" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="3403061721251610872" resolveInfo="COMPACT_READS" />
+      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="7915051628305689874" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257179194" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_ALIGNMENT" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257179195" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="COLOR_SPACE" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257179196" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="mus_musculus" />
+        <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257179197" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="INFO  MQTopicConnection    - Opening a new Topic connection with localhost:5672&#10;INFO  JobInterface         - Message published with success.&#10;JUJPRLX" />
+        <property name="name" nameId="tpck.1169194664001" value="STATS_TAGS" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257179198" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="INFO  MQTopicConnection    - Opening a new Topic connection with localhost:5672&#10;INFO  JobInterface         - Message published with success.&#10;SQINSZE" />
+        <property name="name" nameId="tpck.1169194664001" value="QUALITY_TAGS" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257179199" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="mus_musculus" />
+        <property name="name" nameId="tpck.1169194664001" value="READS_PLATFORM" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257179200" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="R1" />
+        <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257179201" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="true" />
+        <property name="name" nameId="tpck.1169194664001" value="BISULFITE_SAMPLE" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257179202" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="RXSBBWZ" />
+        <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257179203" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="true" />
+        <property name="name" nameId="tpck.1169194664001" value="LIB_PROTOCOL_PRESERVE_STRAND" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257179204" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="R1" />
+        <property name="name" nameId="tpck.1169194664001" value="READS_LABEL" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257179205" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="4" />
+        <property name="name" nameId="tpck.1169194664001" value="INPUT_READ_LENGTH" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257179206" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="INFO  MQTopicConnection    - Opening a new Topic connection with localhost:5672&#10;INFO  JobInterface         - Message published with success.&#10;XTLNXGB" />
+        <property name="name" nameId="tpck.1169194664001" value="WEIGHT_TAGS" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257179207" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
+        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257179208" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="mus_musculus" />
+        <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_DIRECTIONS" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257179209" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="TASK" />
+        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_TYPE" />
+      </node>
+      <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="3403061721257179210" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="READS_FILE" />
+        <property name="path" nameId="bs99.2740821845422344869" value="FAK1TAG-testUpload.compact-reads" />
+        <property name="size" nameId="bs99.2740821845424881124" value="68 bytes" />
+      </node>
+    </node>
   </root>
   <root type="bs99.ExecutionTool" typeId="bs99.2465489689642685978" id="3403061721251564942" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="ExecutionTool" />
     <property name="jobName" nameId="bs99.606449909789338951" value="second_job" />
-    <property name="message" nameId="bs99.3927327347527013400" value="Job successfully submitted. Assigned tag: RXSBBWZ" />
+    <property name="message" nameId="bs99.3927327347527013400" value="Job successfully submitted. Assigned tag: ACPIAOL" />
     <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="7915051628305677536" resolveInfo="MSNotebook" />
     <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="3403061721251611034" resolveInfo="PROCESS_READS_TASK" />
-    <link role="currentJob" roleId="bs99.5540992037659823465" targetNodeId="3403061721257168557" resolveInfo="second_job" />
+    <link role="currentJob" roleId="bs99.5540992037659823465" targetNodeId="3403061721257182632" resolveInfo="second_job" />
     <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="3403061721251615541" nodeInfo="ng">
       <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="3403061721251611041" resolveInfo="UPLOADS_FILES" />
       <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="3403061721251619721" nodeInfo="ng">
@@ -6993,27 +7099,58 @@
         </node>
       </node>
     </node>
+    <node role="jobs" roleId="bs99.6642819616986825107" type="bs99.Job" typeId="bs99.2051553890368756070" id="3403061721257182632" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="second_job" />
+      <property name="assignedTag" nameId="bs99.2408108650474877836" value="ACPIAOL" />
+      <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="3403061721251611034" resolveInfo="PROCESS_READS_TASK" />
+      <link role="executionEnvironment" roleId="bs99.2051553890368806506" targetNodeId="7915051628305677536" resolveInfo="MSNotebook" />
+      <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="3403061721257182633" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="UPLOADS_FILES" />
+        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="3403061721257182634" nodeInfo="ng">
+          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="3403061721251619679" resolveInfo="R1" />
+        </node>
+      </node>
+      <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="3403061721257182635" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="UPLOAD_MERGE_PLAN" />
+        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="3403061721257182636" nodeInfo="ng">
+          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="3403061721251564920" resolveInfo="WFIWOOJ-details" />
+        </node>
+      </node>
+      <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="3403061721257182637" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="TAG" />
+        <property name="value" nameId="bs99.606449909793678507" value="FAK1TAG" />
+      </node>
+      <node role="results" roleId="bs99.606449909788800957" type="bs99.JobResult" typeId="bs99.2051553890369292719" id="3403061721257182641" nodeInfo="ng">
+        <property name="output" nameId="bs99.2051553890369299989" value="SUBMITTED" />
+      </node>
+      <node role="monitor" roleId="bs99.5540992037659759954" type="bbh2.JobMonitor" typeId="bbh2.2017323193335723531" id="3403061721257182642" nodeInfo="ng">
+        <property name="jobtag" nameId="bbh2.2017323193335729124" value="ACPIAOL" />
+        <link role="broker" roleId="bbh2.2017323193335950083" targetNodeId="7915051628305677532" resolveInfo="broker" />
+        <node role="viewer" roleId="bbh2.2017323193335764208" type="bbh2.MessageViewer" typeId="bbh2.2017323193335763037" id="3403061721257182643" nodeInfo="ng">
+          <property name="jobStatus" nameId="bbh2.8711817271669511123" value="not available" />
+          <property name="messageCounter" nameId="bbh2.8711817271669613111" value="0" />
+          <property name="message" nameId="bbh2.6041342965312064113" value="no message" />
+          <property name="autoRefresh" nameId="bbh2.1011954325398115419" value="true" />
+          <link role="listener" roleId="bbh2.1526708538680794525" targetNodeId="3403061721257182644" resolveInfo="NYoSh-1409537390654" />
+          <link role="eventListener" roleId="bbh2.1212232161626043352" targetNodeId="3403061721257182642" />
+        </node>
+        <node role="listener" roleId="bbh2.2017323193335730758" type="bbh2.MessageListener" typeId="bbh2.2017323193335730757" id="3403061721257182644" nodeInfo="ng">
+          <property name="subscribed" nameId="bbh2.2017323193335803495" value="true" />
+          <property name="name" nameId="tpck.1169194664001" value="NYoSh-1409537390654" />
+          <property name="jobTag" nameId="bbh2.2017323193335763033" value="ACPIAOL" />
+          <link role="broker" roleId="bbh2.2017323193335803042" targetNodeId="7915051628305677532" resolveInfo="broker" />
+        </node>
+        <node role="jobStatusListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobListener" typeId="bs99.1212232161626260983" id="3403061721257182645" nodeInfo="ng">
+          <property name="rank" nameId="bbh2.7926097513313212588" value="0" />
+          <link role="job" roleId="bs99.1212232161627127088" targetNodeId="3403061721257182632" resolveInfo="second_job" />
+        </node>
+        <node role="fileSetStatusListeners" roleId="bbh2.6587162469552453227" type="bs99.RegisterFileSetListener" typeId="bs99.3403061721254603833" id="3403061721257182646" nodeInfo="ng">
+          <link role="job" roleId="bs99.3403061721254603840" targetNodeId="3403061721257182632" resolveInfo="second_job" />
+        </node>
+      </node>
+    </node>
   </root>
   <root type="whle.Logger" typeId="whle.1925991773566712428" id="3403061721252933685" nodeInfo="ng">
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721256079048" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Submit pressed" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721256079055" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Preparing the job parameters" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721256079056" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="FileSetArea.path=/Users/manuelesimi/CampagneLab/tests/FileSetArea" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721256079057" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Submitting the job to the cluster with parameters{--plugins-dir,/Users/manuelesimi/CampagneLab/Projects/gobyweb2-plugins-bitbucket,--job,PROCESS_READS_TASK,--job-tag,RBIFQKE,--owner,manuele,--queue,&lt;null&gt;,--job-area,/Users/manuelesimi/CampagneLab/tests/JobArea,--fileset-area,/Users/manuelesimi/CampagneLab/tests/FileSetArea,--repository,/Users/manuelesimi/CampagneLab/tests/Artifacts,--artifact-server,manuelesimi@Manuele-Simis-MacBook-Pro.local,--broker-hostname,localhost,--broker-port,5672,--TAG,FAK1TAG,UPLOADS_FILES:,EGQGZKH,UPLOAD_MERGE_PLAN:,MLUJSMM}" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721256079064" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Subscribing the listener to" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.subscribe" />
-    </node>
     <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721256079065" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Listener successfully subscribed for notifications about job RBIFQKE" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.subscribe" />
@@ -7404,6 +7541,45 @@
     <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257174017" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Job completed message received" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.onJobCompleted" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257182631" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Submit pressed" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257182638" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Preparing the job parameters" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257182639" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="FileSetArea.path=/Users/manuelesimi/CampagneLab/tests/FileSetArea" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257182640" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Submitting the job to the cluster with parameters{--plugins-dir,/Users/manuelesimi/CampagneLab/Projects/gobyweb2-plugins-bitbucket,--job,PROCESS_READS_TASK,--job-tag,ACPIAOL,--owner,manuele,--queue,&lt;null&gt;,--job-area,/Users/manuelesimi/CampagneLab/tests/JobArea,--fileset-area,/Users/manuelesimi/CampagneLab/tests/FileSetArea,--repository,/Users/manuelesimi/CampagneLab/tests/Artifacts,--artifact-server,manuelesimi@Manuele-Simis-MacBook-Pro.local,--broker-hostname,localhost,--broker-port,5672,--TAG,FAK1TAG,UPLOADS_FILES:,EGQGZKH,UPLOAD_MERGE_PLAN:,MLUJSMM}" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257182647" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Subscribing the listener to" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.subscribe" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257182648" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Listener successfully subscribed for notifications about job ACPIAOL" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.subscribe" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257182649" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Enabling auto refresh" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.enableAutoRefresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257182650" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Updater successfully started" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.enableAutoRefresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257184808" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Job successfully submitted with tag ACPIAOL" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257184809" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Job folder: /Users/manuelesimi/CampagneLab/tests/JobArea/manuele/A/ACPIAOL" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
     </node>
   </root>
 </model>
