@@ -2751,7 +2751,7 @@
         <property name="text" nameId="tpc2.1073389577007" value="local manager" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="7170488887944286052" nodeInfo="nn">
-        <property name="text" nameId="tpc2.1073389577007" value="stMakeatus:" />
+        <property name="text" nameId="tpc2.1073389577007" value="status:" />
         <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.EditableStyleClassItem" typeId="tpc2.1186414860679" id="3403061721252968913" nodeInfo="nn">
           <property name="flag" nameId="tpc2.1186414551515" value="false" />
         </node>

@@ -26,6 +26,11 @@
       <property name="role" nameId="tpce.1071599776563" value="pairInfo" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="8273662917776534284" resolveInfo="WithPairInfo" />
     </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="7783347726466044946" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="instance" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="bs99.2051553890368778931" resolveInfo="FileSetInstance" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8273662917775872092" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="MergedSample" />
