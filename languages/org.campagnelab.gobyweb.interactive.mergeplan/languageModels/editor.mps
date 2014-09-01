@@ -100,7 +100,10 @@
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="jlq1.8273662917775851475" resolveInfo="MergePlanEditor" />
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="8273662917775955820" nodeInfo="nn">
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="8273662917775955830" nodeInfo="nn">
-        <property name="text" nameId="tpc2.1073389577007" value="Use this merge plan editor to construct a merge plan. Press Register when done" />
+        <property name="text" nameId="tpc2.1073389577007" value="Use this merge plan editor to construct a merge plan." />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="8273662917781662434" nodeInfo="nn">
+        <property name="text" nameId="tpc2.1073389577007" value="Setup, Review and adjust merge plan, then press Register" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="8273662917776552517" nodeInfo="ng">
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="jlq1.8273662917776534287" />
