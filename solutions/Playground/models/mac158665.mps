@@ -5668,6 +5668,7 @@
     </node>
     <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="8273662917777785622" nodeInfo="ng">
       <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="8273662917781121133" resolveInfo="UPLOADS_FILES" />
+      <node role="values" roleId="bs99.2995632242847956813" type="bs99.AbstractFileSetInstanceRef" typeId="bs99.5235131979812143155" id="7783347726462128556" nodeInfo="ng" />
       <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="8273662917777790136" nodeInfo="ng">
         <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="8273662917777788869" resolveInfo="sample1_1_R1" />
       </node>
@@ -5724,6 +5725,10 @@
         <property name="value" nameId="bs99.606449909792929477" value="FAKETAG" />
       </node>
     </node>
+    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="7783347726462298720" nodeInfo="ng">
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="8273662917781121148" resolveInfo="Sample Name." />
+      <node role="value" roleId="bs99.6506431596944968310" type="bs99.GenomeReferenceId" typeId="bs99.83657536354463308" id="7783347726462298728" nodeInfo="ng" />
+    </node>
   </root>
   <root type="whle.Logger" typeId="whle.1925991773566712428" id="6620797826817671033" nodeInfo="ng">
     <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8273662917781421345" nodeInfo="ng">
@@ -5757,6 +5762,34 @@
     <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8273662917781607761" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Obtained assignedTags=" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.register" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="7783347726462315191" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value false" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="7783347726462315215" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value FAKETAG" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="7783347726462315244" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value 1" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="7783347726462315248" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value 1" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="7783347726462315252" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value -1" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="7783347726462315256" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value null" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="7783347726462315260" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value 50000000" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
     </node>
   </root>
   <root type="bs99.FSIContainer" typeId="bs99.6642819616982286338" id="6620797826822332879" nodeInfo="ng">
@@ -7780,19 +7813,19 @@
           <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="6910057661396019317" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="resource" />
             <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="6910057661396019271" nodeInfo="ng">
-              <property name="description" nameId="bbh2.2017323193335763083" value="Installing plugin mandatory resources" />
+              <property name="description" value="Installing plugin mandatory resources" />
               <property name="hostname" nameId="bbh2.2017323193335763100" value="mac158665.med.cornell.edu" />
               <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
               <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Aug 20 13:11:09 EDT 2014" />
             </node>
             <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="6910057661396019341" nodeInfo="ng">
-              <property name="description" nameId="bbh2.2017323193335763083" value="Expose environment variables for artifacts.." />
+              <property name="description" value="Expose environment variables for artifacts.." />
               <property name="hostname" nameId="bbh2.2017323193335763100" value="mac158665.med.cornell.edu" />
               <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
               <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Aug 2013:11:11 EDT 2014" />
             </node>
             <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="6910057661396019350" nodeInfo="ng">
-              <property name="description" nameId="bbh2.2017323193335763083" value="Installing plugin resources" />
+              <property name="description" value="Installing plugin resources" />
               <property name="hostname" nameId="bbh2.2017323193335763100" value="mac158665.med.cornell.edu" />
               <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
               <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Aug 20 13:11:12 EDT 2014" />
@@ -7801,7 +7834,7 @@
           <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="6910057661396019684" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="registered_filesets" />
             <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="6910057661396019683" nodeInfo="ng">
-              <property name="description" nameId="bbh2.2017323193335763083" value="LUCENE_TABLE:[IHXGPFT]" />
+              <property name="description" value="LUCENE_TABLE:[IHXGPFT]" />
               <property name="hostname" nameId="bbh2.2017323193335763100" value="mac158665.med.cornell.edu" />
               <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
               <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Aug 20 13:11:26 EDT 2014" />
@@ -7810,7 +7843,7 @@
           <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="6910057661396020017" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="done" />
             <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="6910057661396020016" nodeInfo="ng">
-              <property name="description" nameId="bbh2.2017323193335763083" value="Job completed" />
+              <property name="description" value="Job completed" />
               <property name="hostname" nameId="bbh2.2017323193335763100" value="mac158665.med.cornell.edu" />
               <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
               <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Aug 20 13:11:37 EDT 2014" />
@@ -7934,7 +7967,7 @@
       </node>
     </node>
     <node role="listeners" roleId="bs99.5018096994518146100" type="bs99.RegisterJobListener" typeId="bs99.1212232161626260983" id="8677206713417817556" nodeInfo="ng">
-      <property name="rank" nameId="bbh2.6587162469552164420" value="0" />
+      <property name="rank" nameId="bbh2.7926097513313212588" value="0" />
     </node>
     <node role="listeners" roleId="bs99.5018096994518146100" type="7aad.ListenForSampleFileSets" typeId="7aad.7926097513313207836" id="8677206713417817555" nodeInfo="ng">
       <property name="rank" nameId="bbh2.6587162469552164420" value="100" />
@@ -8097,7 +8130,7 @@
     <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="7926097513310341064" resolveInfo="gobyweb-trial" />
     <node role="imported" roleId="bs99.2835705609407430119" type="bs99.FileSetInstanceRefSet" typeId="bs99.2835705609407426008" id="8677206713418817574" nodeInfo="ng" />
     <node role="listeners" roleId="bs99.5018096994518146100" type="bs99.RegisterJobListener" typeId="bs99.1212232161626260983" id="8677206713418817576" nodeInfo="ng">
-      <property name="rank" nameId="bbh2.6587162469552164420" value="0" />
+      <property name="rank" nameId="bbh2.7926097513313212588" value="0" />
     </node>
     <node role="listeners" roleId="bs99.5018096994518146100" type="7aad.ListenForSampleFileSets" typeId="7aad.7926097513313207836" id="8677206713418817575" nodeInfo="ng">
       <property name="rank" nameId="bbh2.6587162469552164420" value="100" />
@@ -13810,18 +13843,44 @@
     <property name="message" nameId="bs99.3927327347527013400" value="Job successfully submitted. Assigned tag: KMTZGFM" />
     <link role="currentJob" roleId="bs99.5540992037659823465" targetNodeId="7926097513301797303" resolveInfo="Run a job" />
     <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="6620797826812345374" resolveInfo="mac158665" />
-    <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="8273662917776796608" resolveInfo="PROCESS_READS_TASK" />
-    <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="1745780986243978669" nodeInfo="ng">
-      <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="8273662917776796614" resolveInfo="UPLOADS_FILES" />
+    <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="8273662917781119986" resolveInfo="BWA_GOBY_ARTIFACT_NYOSH" />
+    <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="7783347726462315240" nodeInfo="ng">
+      <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="8273662917781119993" resolveInfo="INPUT_READS" />
     </node>
-    <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="1745780986243978670" nodeInfo="ng">
-      <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="8273662917776796616" resolveInfo="UPLOAD_MERGE_PLAN" />
-      <node role="values" roleId="bs99.2995632242847956813" type="bs99.MultiToolFileSetInstanceRef" typeId="bs99.5235131979812125015" id="1745780986244017310" nodeInfo="ng" />
+    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="7783347726462315241" nodeInfo="ng">
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="8273662917781120016" resolveInfo="Ambiguity threshold" />
+      <node role="value" roleId="bs99.6506431596944968310" type="bs99.IntegerOptionValue" typeId="bs99.606449909792930896" id="7783347726462315243" nodeInfo="ng">
+        <property name="value" nameId="bs99.606449909792930897" value="1" />
+        <property name="isSet" nameId="bs99.83657536365996638" value="true" />
+      </node>
     </node>
-    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="1745780986243978671" nodeInfo="ng">
-      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="8273662917776796631" resolveInfo="Tag for the new sample." />
-      <node role="value" roleId="bs99.6506431596944968310" type="bs99.StringOptionValue" typeId="bs99.606449909792929476" id="1745780986243978673" nodeInfo="ng">
-        <property name="value" nameId="bs99.606449909792929477" value="FAKETAG" />
+    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="7783347726462315245" nodeInfo="ng">
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="8273662917781120018" resolveInfo="Max Number Gap Opens" />
+      <node role="value" roleId="bs99.6506431596944968310" type="bs99.IntegerOptionValue" typeId="bs99.606449909792930896" id="7783347726462315247" nodeInfo="ng">
+        <property name="value" nameId="bs99.606449909792930897" value="1" />
+        <property name="isSet" nameId="bs99.83657536365996638" value="true" />
+      </node>
+    </node>
+    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="7783347726462315249" nodeInfo="ng">
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="8273662917781120020" resolveInfo="Max Number Gap Extensions" />
+      <node role="value" roleId="bs99.6506431596944968310" type="bs99.IntegerOptionValue" typeId="bs99.606449909792930896" id="7783347726462315251" nodeInfo="ng">
+        <property name="value" nameId="bs99.606449909792930897" value="-1" />
+        <property name="isSet" nameId="bs99.83657536365996638" value="true" />
+      </node>
+    </node>
+    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="7783347726462892816" nodeInfo="ng">
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="8273662917781120014" resolveInfo="Options for samse/sampe phase" />
+      <node role="value" roleId="bs99.6506431596944968310" type="bs99.GenomeReferenceId" typeId="bs99.83657536354463308" id="7783347726462892832" nodeInfo="ng" />
+    </node>
+    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="7783347726462315253" nodeInfo="ng">
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="8273662917781120022" resolveInfo="GENOME_REFERENCE_ID" />
+      <node role="value" roleId="bs99.6506431596944968310" type="bs99.GenomeReferenceId" typeId="bs99.83657536354463308" id="7783347726462633461" nodeInfo="ng" />
+    </node>
+    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="7783347726462315257" nodeInfo="ng">
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="8273662917781120024" resolveInfo="CHUNK_SIZE" />
+      <node role="value" roleId="bs99.6506431596944968310" type="bs99.IntegerOptionValue" typeId="bs99.606449909792930896" id="7783347726462315259" nodeInfo="ng">
+        <property name="value" nameId="bs99.606449909792930897" value="50000000" />
+        <property name="isSet" nameId="bs99.83657536365996638" value="true" />
       </node>
     </node>
   </root>
