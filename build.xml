@@ -4,7 +4,7 @@
   <property name="build.tmp" location="${build.dir}/tmp/org.campagnelab.mps.UI" />
   <property name="build.layout" location="${build.dir}/artifacts/org.campagnelab.mps.UI" />
   <property name="mps_home" location="${basedir}/../../../../../Applications/MPS 3.1" />
-  <property name="ui.version" value="1.0.2" />
+  <property name="ui.version" value="1.0.3" />
   <property name="artifacts.mpsCore" location="${mps_home}" />
   <property name="artifacts.mps" location="${mps_home}" />
   <property file="${artifacts.mpsCore}/build.properties" prefix="import.mpsCore" />
@@ -119,22 +119,6 @@
       <zipfileset file="${basedir}/solutions/org.campagnelab.ui.code/org.campagnelab.ui.code.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-org.campagnelab.ui.code-models" prefix="module/models" />
     </jar>
-    <echoxml file="${build.tmp}/default/UI__dl__lbrace_ui.version_rbrace_.zip/UI/plugin.xml">
-      <idea-plugin version="2" xmlns:xi="http://www.w3.org/2001/XInclude">
-        <id>org.campagnelab.mps.UI</id>
-        <name>org.campagnelab.mps.UI</name>
-        <description>User Interface language to create buttons and file selection button in an MPS editor.</description>
-        <version>${ui.version}</version>
-        <vendor url="http://books.campagnelab.org">Campagne Laboratory</vendor>
-        <depends>jetbrains.mps.core</depends>
-        <depends>jetbrains.mps.build</depends>
-        <idea-version until-build="136.1" since-build="135.1" />
-        
-        <extensions defaultExtensionNs="com.intellij">
-          <mps.LanguageLibrary dir="/languages" />
-        </extensions>
-      </idea-plugin>
-    </echoxml>
     <zip destfile="${build.layout}/UI_${ui.version}.zip">
       <fileset dir="${build.tmp}/default/UI__dl__lbrace_ui.version_rbrace_.zip" />
     </zip>

@@ -90,6 +90,9 @@
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1745780986249405211" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
     </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="7783347726451709888" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="7744544840732157875" resolveInfo="HigherLevelObject" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6587162469555371663" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="GobyWebAlignment" />
@@ -158,6 +161,9 @@
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6587162469555371680" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
     </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="7783347726451709716" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="7744544840732157875" resolveInfo="HigherLevelObject" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6587162469555572132" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="ListenForAlignmentFileSets" />
@@ -176,6 +182,18 @@
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="8524130661367034398" resolveInfo="AnalysisOutput" />
     </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="7744544840734059621" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="pairComparisons" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="bs99.4301187679980279268" resolveInfo="PairComparisonsOptionValue" />
+    </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="7744544840734122562" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="groupDefinitions" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="bs99.4301187679980279014" resolveInfo="GroupDefinitionsOptionValue" />
+    </node>
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="8524130661366179057" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="tag" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
@@ -186,6 +204,9 @@
     </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8524130661366408717" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="7783347726451709829" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="7744544840732157875" resolveInfo="HigherLevelObject" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8524130661366375999" nodeInfo="ig">
@@ -228,6 +249,19 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7744544840718591788" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="ImageOutput" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="8524130661367034398" resolveInfo="AnalysisOutput" />
+  </root>
+  <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="7744544840732157875" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="HigherLevelObject" />
+  </root>
+  <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="7744544840734373481" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="JobSubmission" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7744544840731999292" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="ObjectCreationHelper" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="7783347726461578635" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="bs99.7783347726459890127" resolveInfo="ExecutionToolListener" />
+    </node>
   </root>
 </model>
 
