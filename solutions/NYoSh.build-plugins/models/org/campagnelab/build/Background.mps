@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:1a177308-0ac9-425d-9159-4ab0b3746b3b(Background)">
+<model modelUID="r:1a177308-0ac9-425d-9159-4ab0b3746b3b(org.campagnelab.build.Background)">
   <persistence version="8" />
   <language namespace="798100da-4f0a-421a-b991-71f8c50ce5d2(jetbrains.mps.build)" />
   <language namespace="0cf935df-4699-4e9c-a132-fa109541cba3(jetbrains.mps.build.mps)" />
   <language namespace="479c7a8c-02f9-43b5-9139-d910cb22f298(jetbrains.mps.core.xml)" />
   <import index="ffeo" modelUID="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" version="-1" />
-  <import index="ael0" modelUID="r:cc7a346d-c5cf-4c03-b1fd-d5006736ae3a(NYoSh.build-plugins.UI)" version="-1" />
+  <import index="ael0" modelUID="r:cc7a346d-c5cf-4c03-b1fd-d5006736ae3a(org.campagnelab.build.UI)" version="-1" />
   <import index="3ior" modelUID="r:e9081cad-d8c3-45f2-b4ad-1dabd5ff82af(jetbrains.mps.build.structure)" version="2" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="kdzh" modelUID="r:0353b795-df17-4050-9687-ee47eeb7094f(jetbrains.mps.build.mps.structure)" version="3" implicit="yes" />
   <import index="iuxj" modelUID="r:64db3a92-5968-4a73-b456-34504a2d97a6(jetbrains.mps.core.xml.structure)" version="2" implicit="yes" />
   <root type="3ior.BuildProject" typeId="3ior.5617550519002745363" id="9211726679685548256" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="Background" />
+    <property name="name" nameId="tpck.1169194664001" value="org.campagnelab.Background" />
     <property name="internalBaseDirectory" nameId="3ior.5204048710541015587" value="../../" />
+    <property name="fileName" nameId="3ior.4915877860348071612" value="background.xml" />
     <node role="plugins" roleId="3ior.6647099934206700656" type="3ior.BuildJavaPlugin" typeId="3ior.6647099934206700647" id="9211726679685548257" nodeInfo="ng" />
     <node role="plugins" roleId="3ior.6647099934206700656" type="kdzh.BuildMPSPlugin" typeId="kdzh.868032131020265945" id="9211726679685548258" nodeInfo="ng" />
     <node role="macros" roleId="3ior.5617550519002745378" type="3ior.BuildFolderMacro" typeId="3ior.7389400916848136194" id="6642819616994328579" nodeInfo="ng">

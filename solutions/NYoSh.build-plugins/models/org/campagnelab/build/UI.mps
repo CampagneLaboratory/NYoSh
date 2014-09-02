@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:cc7a346d-c5cf-4c03-b1fd-d5006736ae3a(NYoSh.build-plugins.UI)">
+<model modelUID="r:cc7a346d-c5cf-4c03-b1fd-d5006736ae3a(org.campagnelab.build.UI)">
   <persistence version="8" />
   <language namespace="798100da-4f0a-421a-b991-71f8c50ce5d2(jetbrains.mps.build)" />
   <language namespace="0cf935df-4699-4e9c-a132-fa109541cba3(jetbrains.mps.build.mps)" />
@@ -12,6 +12,7 @@
   <root type="3ior.BuildProject" typeId="3ior.5617550519002745363" id="6642819616994328576" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="org.campagnelab.mps.UI" />
     <property name="internalBaseDirectory" nameId="3ior.5204048710541015587" value="../../" />
+    <property name="fileName" nameId="3ior.4915877860348071612" value="ui.xml" />
     <node role="plugins" roleId="3ior.6647099934206700656" type="3ior.BuildJavaPlugin" typeId="3ior.6647099934206700647" id="6642819616994328577" nodeInfo="ng" />
     <node role="plugins" roleId="3ior.6647099934206700656" type="kdzh.BuildMPSPlugin" typeId="kdzh.868032131020265945" id="6642819616994328578" nodeInfo="ng" />
     <node role="macros" roleId="3ior.5617550519002745378" type="3ior.BuildFolderMacro" typeId="3ior.7389400916848136194" id="6642819616994328579" nodeInfo="ng">
