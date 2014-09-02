@@ -1,0 +1,16 @@
+<products>
+  <product name="NYoShWorkbench">
+    <code>NYoShWorkbench</code>
+    <channel id="NYoShWorkbenchEAP" name="NYoSh 2.0" status="eap" url="http://campagnelab.org/software/workbench-2" feedback="" majorVersion="2" minorVersion="0">
+      <build number="NYoShWorkbench-135.2" version="2.0.2">
+        <message>NYoSh Workbench 2.0 build 2 is available.</message>
+      </build>
+    </channel>
+
+    <channel id="NYoShWorkbench" name="NYoSh 2.0" status="release" url="http://campagnelab.org/software/workbench-2" feedback="" majorVersion="2" minorVersion="0">
+      <build number="NYoShWorkbench-135.2" version="2.0.2">
+        <message>NYoSh Workbench 2.0 build 2 is available.</message>
+      </build>
+    </channel>
+  </product>
+</products>
