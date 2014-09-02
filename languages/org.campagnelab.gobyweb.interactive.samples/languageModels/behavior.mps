@@ -3449,7 +3449,7 @@
               </node>
               <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7744544840732411530" nodeInfo="nn">
                 <node role="operand" roleId="tpee.1197027771414" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7744544840732405604" nodeInfo="nn">
-                  <property name="value" nameId="tpee.1070475926801" value="PROCESS_READS" />
+                  <property name="value" nameId="tpee.1070475926801" value="PROCESS_READS_TASK" />
                 </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="7744544840732415035" nodeInfo="nn">
                   <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~String%dequals(java%dlang%dObject)%cboolean" resolveInfo="equals" />
