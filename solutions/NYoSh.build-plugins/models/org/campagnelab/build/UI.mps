@@ -136,7 +136,7 @@
       </node>
     </node>
     <node role="parts" roleId="3ior.7389400916848080626" type="kdzh.BuildMps_Group" typeId="kdzh.1500819558095907805" id="6642819616994328597" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="NYoSh" />
+      <property name="name" nameId="tpck.1169194664001" value="UI" />
       <node role="modules" roleId="kdzh.1500819558095907806" type="kdzh.BuildMps_Language" typeId="kdzh.3189788309731840248" id="6642819616994328590" nodeInfo="ng">
         <property name="compact" nameId="kdzh.8369506495128725901" value="false" />
         <property name="name" nameId="tpck.1169194664001" value="org.campagnelab.ui" />

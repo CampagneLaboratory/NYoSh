@@ -23,7 +23,7 @@
       <property name="name" nameId="tpck.1169194664001" value="org.campagnelab.goby.workbench.home" />
     </node>
     <node role="macros" roleId="3ior.5617550519002745378" type="3ior.BuildVariableMacro" typeId="3ior.3767587139141066978" id="2714333670778864894" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="build_number" />
+      <property name="name" nameId="tpck.1169194664001" value="nyosh_build_number" />
       <node role="initialValue" roleId="3ior.2755237150521975432" type="3ior.BuildVariableMacroInitWithString" typeId="3ior.2755237150521975431" id="2714333670778865421" nodeInfo="ng">
         <node role="value" roleId="3ior.2755237150521975437" type="3ior.BuildString" typeId="3ior.4380385936562003279" id="2714333670778865420" nodeInfo="ng">
           <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="2714333670778865419" nodeInfo="ng">
@@ -70,7 +70,13 @@
       <node role="children" roleId="3ior.7389400916848037006" type="3ior.BuildLayout_Zip" typeId="3ior.7389400916848050071" id="2714333670778640027" nodeInfo="ng">
         <node role="containerName" roleId="3ior.4380385936562148502" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="2714333670778640028" nodeInfo="ng">
           <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="2714333670778640029" nodeInfo="ng">
-            <property name="text" nameId="3ior.4903714810883755350" value="NYoSh.zip" />
+            <property name="text" nameId="3ior.4903714810883755350" value="NYoSh-2.0." />
+          </node>
+          <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildVarRefStringPart" typeId="3ior.4903714810883702017" id="2714333670779412334" nodeInfo="ng">
+            <link role="macro" roleId="3ior.4903714810883702018" targetNodeId="2714333670778864894" resolveInfo="nyosh_build_number" />
+          </node>
+          <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="2714333670779412333" nodeInfo="ng">
+            <property name="text" nameId="3ior.4903714810883755350" value=".zip" />
           </node>
         </node>
         <node role="children" roleId="3ior.7389400916848037006" type="kdzh.BuildMpsLayout_Plugin" typeId="kdzh.6592112598314498926" id="2714333670778640030" nodeInfo="ng">
@@ -336,10 +342,10 @@
       </node>
     </node>
     <node role="parts" roleId="3ior.7389400916848080626" type="kdzh.BuildMps_IdeaPlugin" typeId="kdzh.6592112598314498932" id="2714333670778640017" nodeInfo="ng">
-      <property name="id" nameId="kdzh.6592112598314498927" value="NYoSh" />
+      <property name="id" nameId="kdzh.6592112598314498927" value="org.campagnelab.NYoSh" />
       <node role="name" roleId="kdzh.6592112598314499021" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="2714333670778640018" nodeInfo="ng">
         <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="2714333670778640019" nodeInfo="ng">
-          <property name="text" nameId="3ior.4903714810883755350" value="NYoSh" />
+          <property name="text" nameId="3ior.4903714810883755350" value="org.campagnelab.NYoSh" />
         </node>
       </node>
       <node role="version" roleId="kdzh.6592112598314498931" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="2714333670778640020" nodeInfo="ng">
@@ -347,7 +353,7 @@
           <property name="text" nameId="3ior.4903714810883755350" value="2.0." />
         </node>
         <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildVarRefStringPart" typeId="3ior.4903714810883702017" id="2714333670778865685" nodeInfo="ng">
-          <link role="macro" roleId="3ior.4903714810883702018" targetNodeId="2714333670778864894" resolveInfo="build_number" />
+          <link role="macro" roleId="3ior.4903714810883702018" targetNodeId="2714333670778864894" resolveInfo="nyosh_build_number" />
         </node>
       </node>
       <node role="content" roleId="kdzh.6592112598314499050" type="kdzh.BuildMps_IdeaPluginGroup" typeId="kdzh.6592112598314586625" id="2714333670778640022" nodeInfo="ng">

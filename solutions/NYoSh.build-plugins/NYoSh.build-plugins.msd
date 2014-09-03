@@ -8,6 +8,7 @@
   <sourcePath />
   <dependencies>
     <dependency reexport="false">c0d2441c-f691-42ab-bace-9be04018a027(NYoSh.StandaloneWorkbench-2)</dependency>
+    <dependency reexport="false">f4badde6-d2fb-4344-91d3-caedb26a938e(XChart.build)</dependency>
     <dependency reexport="false">422c2909-59d6-41a9-b318-40e6256b250f(jetbrains.mps.ide.build)</dependency>
   </dependencies>
   <usedLanguages>
