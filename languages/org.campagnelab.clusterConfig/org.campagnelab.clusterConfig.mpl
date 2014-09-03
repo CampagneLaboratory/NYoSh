@@ -28,7 +28,6 @@
   <dependencies>
     <dependency reexport="false">86441d7a-e194-42da-81a5-2161ec62a379(MPS.Workbench)</dependency>
     <dependency reexport="false">2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)</dependency>
-    <dependency reexport="false">66f96b90-b2af-4ce4-92ca-dc0e9d7e2b43(org.campagnelab.nyosh.interactive)</dependency>
     <dependency reexport="false">857bd616-7b17-4127-8074-519f20641bdb(org.campagnelab.ssh)</dependency>
   </dependencies>
   <usedLanguages>
