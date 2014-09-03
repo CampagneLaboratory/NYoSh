@@ -6,7 +6,7 @@
   <tstamp>
     <format property="date" pattern="yyyyMMdd" />
   </tstamp>
-  <property name="build.number" value="NYoSh-135.SNAPSHOT" />
+  <property name="build.number" value="NYoSh-135.2" />
   <property name="version" value="2.0" />
   <property name="mps_home" location="${basedir}/../../../../../Applications/MPS 3.1" />
   <property name="org.campagnelab.goby.workbench.home" location="${basedir}" />
@@ -148,7 +148,7 @@
         <dialogs-image url="/dialogImage.png" />
         <package code="code" />
         <names product="NYoSh Workbench" fullname="NYoSh Workbench" />
-        <update-urls check="http://campagnelab.org/files/nyosh-update.txt" update="http://campagnelab.org/software/nyosh/early-access-preview-download/" />
+        <update-urls check="http://campagnelab.org/files/workbench-update.txt" update="http://campagnelab.org/software/workbench-2/" />
         <welcome-screen caption-url="/caption.png" slogan-url="/slogan.png" logo-url="/MPS32.png" />
         <help file="help" root="${build.number}" webhelp-url="http://nyosh.campagnelab.org" />
       </component>

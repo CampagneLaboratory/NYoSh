@@ -11,7 +11,7 @@
   <import index="kdzh" modelUID="r:0353b795-df17-4050-9687-ee47eeb7094f(jetbrains.mps.build.mps.structure)" version="3" implicit="yes" />
   <import index="iuxj" modelUID="r:64db3a92-5968-4a73-b456-34504a2d97a6(jetbrains.mps.core.xml.structure)" version="2" implicit="yes" />
   <root type="3ior.BuildProject" typeId="3ior.5617550519002745363" id="9211726679685791568" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="Logger" />
+    <property name="name" nameId="tpck.1169194664001" value="org.campagnelab.Logger" />
     <property name="internalBaseDirectory" nameId="3ior.5204048710541015587" value="../../" />
     <property name="fileName" nameId="3ior.4915877860348071612" value="logger.xml" />
     <node role="plugins" roleId="3ior.6647099934206700656" type="3ior.BuildJavaPlugin" typeId="3ior.6647099934206700647" id="9211726679685791569" nodeInfo="ng" />
@@ -122,6 +122,9 @@
       </node>
       <node role="dependencies" roleId="kdzh.6592112598314499028" type="kdzh.BuildMps_IdeaPluginDependency" typeId="kdzh.6592112598314499027" id="9211726679685791600" nodeInfo="ng">
         <link role="target" roleId="kdzh.6592112598314499066" targetNodeId="ffeo.6592112598314738250" />
+      </node>
+      <node role="dependencies" roleId="kdzh.6592112598314499028" type="kdzh.BuildMps_IdeaPluginDependency" typeId="kdzh.6592112598314499027" id="2714333670778684057" nodeInfo="ng">
+        <link role="target" roleId="kdzh.6592112598314499066" targetNodeId="ael0.6642819616994328598" />
       </node>
       <node role="containerName" roleId="kdzh.6592112598314855574" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="9211726679685791601" nodeInfo="ng">
         <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="9211726679685791602" nodeInfo="ng">
