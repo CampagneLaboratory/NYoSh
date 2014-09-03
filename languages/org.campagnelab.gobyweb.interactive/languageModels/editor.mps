@@ -2320,7 +2320,7 @@
                 <node role="cellLayout" roleId="tpc2.1140524464360" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="4459289555264841372" nodeInfo="nn" />
               </node>
               <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="4459289555265299938" nodeInfo="nn">
-                <property name="text" nameId="tpc2.1073389577007" value=":)" />
+                <property name="text" nameId="tpc2.1073389577007" value=")" />
               </node>
               <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="5704832314565617933" nodeInfo="nn" />
               <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.SelectableStyleSheetItem" typeId="tpc2.1186414928363" id="5704832314565617934" nodeInfo="nn">
