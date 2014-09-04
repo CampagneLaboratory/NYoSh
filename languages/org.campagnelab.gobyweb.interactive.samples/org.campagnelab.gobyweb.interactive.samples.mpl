@@ -46,6 +46,7 @@
   </usedDevKits>
   <extendedLanguages>
     <extendedLanguage>f05c05d7-dafb-4c87-b842-b836f305120f(org.campagnelab.gobyweb.monitoring)</extendedLanguage>
+    <extendedLanguage>a8fb88b0-7e9f-478c-aab4-a1b076131192(org.campagnelab.gobyweb.interactive)</extendedLanguage>
   </extendedLanguages>
 </language>
 
