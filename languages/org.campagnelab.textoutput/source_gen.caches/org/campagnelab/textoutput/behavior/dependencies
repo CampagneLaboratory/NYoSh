@@ -6,6 +6,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.interpreted.BehaviorAspectInterpreted" />
     <classNode dependClassName="org.campagnelab.textoutput.behavior.Line_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.textoutput.behavior.Lines_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.textoutput.behavior.Phrase_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.textoutput.behavior.TextOutput_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor" />
@@ -18,6 +19,12 @@
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.textoutput.behavior.Lines_BehaviorDescriptor" file="Lines_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="org.campagnelab.textoutput.behavior.Line_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="org.campagnelab.textoutput.behavior.Phrase_Behavior" file="Phrase_Behavior.java">

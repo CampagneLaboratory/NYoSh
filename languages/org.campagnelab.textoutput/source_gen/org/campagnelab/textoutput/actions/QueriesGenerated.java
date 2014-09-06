@@ -5,14 +5,18 @@ package org.campagnelab.textoutput.actions;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.smodel.action.NodeSetupContext;
 import jetbrains.mps.smodel.action.SNodeFactoryOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class QueriesGenerated {
   public static void nodeFactory_NodeSetup_TextOutput_5493669862520043132(final IOperationContext operationContext, final NodeSetupContext _context) {
-    SNodeFactoryOperations.addNewChild(_context.getNewNode(), "lines", "org.campagnelab.textoutput.structure.Line");
+    SNodeFactoryOperations.addNewChild(_context.getNewNode(), "lineContainer", "org.campagnelab.textoutput.structure.Lines");
+  }
+
+  public static void nodeFactory_NodeSetup_Lines_5039633819242645705(final IOperationContext operationContext, final NodeSetupContext _context) {
+    SPropertyOperations.set(_context.getNewNode(), "text", "");
   }
 
   public static void nodeFactory_NodeSetup_Line_1680136183140358394(final IOperationContext operationContext, final NodeSetupContext _context) {

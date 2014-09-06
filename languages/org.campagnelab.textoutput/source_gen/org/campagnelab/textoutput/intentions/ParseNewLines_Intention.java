@@ -13,6 +13,8 @@ import jetbrains.mps.smodel.SNodePointer;
 import java.util.Collections;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.intentions.IntentionDescriptor;
 
@@ -77,13 +79,14 @@ public class ParseNewLines_Intention implements IntentionFactory {
       String text = SPropertyOperations.getString(node, "text");
       if (text.contains("\\n")) {
         String[] subLines = text.split("\\\\n");
-
+        SNode lines = SConceptOperations.createNewNode("org.campagnelab.textoutput.structure.Lines", null);
         for (String subline : subLines) {
           SNode newLine = SConceptOperations.createNewNode("org.campagnelab.textoutput.structure.Line", null);
           SPropertyOperations.set(newLine, "text", subline);
-          SNodeOperations.insertPrevSiblingChild(node, newLine);
+          ListSequence.fromList(SLinkOperations.getTargets(lines, "lines", true)).addElement(newLine);
         }
         SPropertyOperations.set(node, "text", "");
+        SNodeOperations.insertPrevSiblingChild(node, lines);
       }
     }
 

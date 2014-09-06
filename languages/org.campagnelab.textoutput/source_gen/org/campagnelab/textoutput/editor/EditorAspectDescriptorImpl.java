@@ -18,8 +18,10 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
       case 0:
         return Collections.<ConceptEditor>singletonList(new Line_Editor());
       case 1:
-        return Collections.<ConceptEditor>singletonList(new Phrase_Editor());
+        return Collections.<ConceptEditor>singletonList(new Lines_Editor());
       case 2:
+        return Collections.<ConceptEditor>singletonList(new Phrase_Editor());
+      case 3:
         return Collections.<ConceptEditor>singletonList(new TextOutput_Editor());
       default:
     }
@@ -32,5 +34,5 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
 
 
 
-  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"org.campagnelab.textoutput.structure.Line", "org.campagnelab.textoutput.structure.Phrase", "org.campagnelab.textoutput.structure.TextOutput"};
+  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"org.campagnelab.textoutput.structure.Line", "org.campagnelab.textoutput.structure.Lines", "org.campagnelab.textoutput.structure.Phrase", "org.campagnelab.textoutput.structure.TextOutput"};
 }

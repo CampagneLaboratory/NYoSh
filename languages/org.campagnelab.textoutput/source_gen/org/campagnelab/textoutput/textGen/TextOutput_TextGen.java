@@ -4,19 +4,11 @@ package org.campagnelab.textoutput.textGen;
 
 import jetbrains.mps.textGen.SNodeTextGen;
 import org.jetbrains.mps.openapi.model.SNode;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class TextOutput_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
-    for (SNode line : ListSequence.fromList(SLinkOperations.getTargets(node, "lines", true))) {
-      this.getBuffer().append(SPropertyOperations.getString(line, "text"));
-      for (SNode phrase : ListSequence.fromList(SLinkOperations.getTargets(line, "phrases", true))) {
-        this.getBuffer().append(SPropertyOperations.getString(phrase, "text"));
-      }
-      this.getBuffer().append("\n");
-    }
+    OutputToText.textOutput(node, this);
   }
 
   public String getExtension(SNode node) {
