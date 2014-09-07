@@ -5,6 +5,18 @@
   <language namespace="166cc73c-4d0f-4757-a007-8527cb58de2e(org.campagnelab.bio.species)" />
   <language namespace="e2d79ce9-bdd0-4275-a250-1037dd79ddc3(org.campagnelab.gobyweb.interactive.samples)" />
   <language namespace="3f8906ee-821c-4fd1-ae5d-26a10b3b747c(org.campagnelab.gobyweb.interactive.mergeplan)" />
+  <language namespace="18bc6592-03a6-4e29-a83a-7ff23bde13ba(jetbrains.mps.lang.editor)" />
+  <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
+  <language namespace="ed6d7656-532c-4bc2-81d1-af945aeb8280(jetbrains.mps.baseLanguage.blTypes)" />
+  <language namespace="7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)" />
+  <language namespace="443f4c36-fcf5-4eb6-9500-8d06ed259e3e(jetbrains.mps.baseLanguage.classifiers)" />
+  <language namespace="aee9cad2-acd4-4608-aef2-0004f6a1cdbd(jetbrains.mps.lang.actions)" />
+  <language namespace="13744753-c81f-424a-9c1b-cf8943bf4e86(jetbrains.mps.lang.sharedConcepts)" />
+  <language namespace="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" />
+  <language namespace="b146d23e-816e-4cc9-bf33-a10638bedd21(org.campagnelab.gobyweb.interactive.fsiselector)" />
+  <language namespace="fd392034-7849-419d-9071-12563d152375(jetbrains.mps.baseLanguage.closures)" />
+  <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
+  <language namespace="83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)" />
   <devkit namespace="db81b829-e557-4467-b78e-cc1d44965622(org.campagnelab.devkit.gobyweb.interactive)" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="9k5" modelUID="r:df9645c2-d2fa-41cb-a718-044a287b0626(org.campagnelab.clusterConfig.structure)" version="3" implicit="yes" />
@@ -5676,6 +5688,42 @@
       </node>
       <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="7783347726466031233" nodeInfo="ng">
         <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="8273662917777788914" resolveInfo="sample1_2_R2" />
+      </node>
+      <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="6870112335029400757" nodeInfo="ng">
+        <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="8273662917777788869" resolveInfo="SUPPORTED_INPUT_READS/sample1_1_R1" />
+      </node>
+      <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="6870112335029400758" nodeInfo="ng">
+        <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="8273662917777788940" resolveInfo="SUPPORTED_INPUT_READS/sample2_1_R2" />
+      </node>
+      <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="6870112335029400759" nodeInfo="ng">
+        <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="8273662917777788966" resolveInfo="sample2_2_R2" />
+      </node>
+      <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="6870112335029400760" nodeInfo="ng">
+        <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="8273662917777788953" resolveInfo="sample2_2_R1" />
+      </node>
+      <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="6870112335029400761" nodeInfo="ng">
+        <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="8273662917777788927" resolveInfo="sample2_1_R1" />
+      </node>
+      <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="6870112335029400762" nodeInfo="ng">
+        <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="8273662917777788914" resolveInfo="sample1_2_R2" />
+      </node>
+      <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="6870112335029400763" nodeInfo="ng">
+        <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="8273662917777788901" resolveInfo="sample1_2_R1" />
+      </node>
+      <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="6870112335029400764" nodeInfo="ng">
+        <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="8273662917777788888" resolveInfo="sample1_1_R2" />
+      </node>
+      <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="6870112335031028829" nodeInfo="ng">
+        <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="8273662917777788869" resolveInfo="SUPPORTED_INPUT_READS/sample1_1_R1" />
+      </node>
+      <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="6870112335031028830" nodeInfo="ng">
+        <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="8273662917777788953" resolveInfo="sample2_2_R1" />
+      </node>
+      <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="6870112335031028831" nodeInfo="ng">
+        <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="8273662917777788927" resolveInfo="sample2_1_R1" />
+      </node>
+      <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="6870112335031028832" nodeInfo="ng">
+        <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="8273662917777788901" resolveInfo="sample1_2_R1" />
       </node>
     </node>
     <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="7783347726466030480" nodeInfo="ng">
