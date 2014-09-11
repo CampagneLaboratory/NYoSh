@@ -28,6 +28,10 @@
   <sourcePath />
   <dependencies>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
+    <dependency reexport="false">6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)</dependency>
+    <dependency reexport="false">498d89d2-c2e9-11e2-ad49-6cf049e62fe5(MPS.IDEA)</dependency>
+    <dependency reexport="false">8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)</dependency>
+    <dependency reexport="false">742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)</dependency>
     <dependency reexport="false">d9ae8a9f-744c-4fb7-8582-794c75c78cf4(org.campagnelab.gobyweb.charts)</dependency>
     <dependency reexport="false">a8fb88b0-7e9f-478c-aab4-a1b076131192(org.campagnelab.gobyweb.interactive)</dependency>
     <dependency reexport="false">f05c05d7-dafb-4c87-b842-b836f305120f(org.campagnelab.gobyweb.monitoring)</dependency>
@@ -36,6 +40,7 @@
   </dependencies>
   <usedLanguages>
     <usedLanguage>96ee7a94-411d-4cf8-9b94-96cad7e52411(jetbrains.mps.baseLanguage.jdk7)</usedLanguage>
+    <usedLanguage>d7a92d38-f7db-40d0-8431-763b0c3c9f20(jetbrains.mps.lang.intentions)</usedLanguage>
     <usedLanguage>a8fb88b0-7e9f-478c-aab4-a1b076131192(org.campagnelab.gobyweb.interactive)</usedLanguage>
     <usedLanguage>f05c05d7-dafb-4c87-b842-b836f305120f(org.campagnelab.gobyweb.monitoring)</usedLanguage>
     <usedLanguage>0b7d8bbd-896e-495e-be60-01a0d738a649(org.campagnelab.gobyweb.plugins)</usedLanguage>
