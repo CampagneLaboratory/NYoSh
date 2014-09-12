@@ -13,6 +13,7 @@
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
   <import index="hut6" modelUID="r:2b3ce235-653e-4507-849e-e62b0f7e1023(org.campagnelab.ui.structure)" version="2" implicit="yes" />
+  <import index="3e41" modelUID="r:7f0752c2-4565-49a3-9d69-ecc8b65fc098(org.campagnelab.gobyweb.interactive.samples.behavior)" version="-1" implicit="yes" />
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="1745780986249404882" nodeInfo="ng">
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="7aad.7926097513313663840" resolveInfo="GobyWebReadSample" />
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="1745780986249450046" nodeInfo="nn">
@@ -196,8 +197,8 @@
                   <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="y6qt.2514225579997367288" resolveInfo="ChartViewer_QualityStatsScatterPlot" />
                   <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6587162469555268512" nodeInfo="nn">
                     <node role="operand" roleId="tpee.1197027771414" type="tpc2.ConceptFunctionParameter_node" typeId="tpc2.1142886811589" id="6587162469555268513" nodeInfo="nn" />
-                    <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="6587162469555268514" nodeInfo="nn">
-                      <link role="property" roleId="tp25.1138056395725" targetNodeId="7aad.314766823432480904" resolveInfo="statsTsvFilename" />
+                    <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="2955357339216485180" nodeInfo="nn">
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="3e41.2955357339216445702" resolveInfo="getStatsTsvFilenme" />
                     </node>
                   </node>
                 </node>
@@ -301,8 +302,8 @@
                   <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="y6qt.649332775227044512" resolveInfo="ChartViewer_SequenceVariations" />
                   <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2227164441925464372" nodeInfo="nn">
                     <node role="operand" roleId="tpee.1197027771414" type="tpc2.ConceptFunctionParameter_node" typeId="tpc2.1142886811589" id="2227164441925463831" nodeInfo="nn" />
-                    <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="2227164441925466882" nodeInfo="nn">
-                      <link role="property" roleId="tp25.1138056395725" targetNodeId="7aad.6587162469555547645" resolveInfo="sequenceVarStatsFilename" />
+                    <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="2955357339216568712" nodeInfo="nn">
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="3e41.2955357339216552977" resolveInfo="getSequenceVarStatsFilenme" />
                     </node>
                   </node>
                 </node>
