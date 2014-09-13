@@ -5,7 +5,7 @@
   <property name="build.layout" location="${build.dir}/artifacts/org.campagnelab.TextOutput" />
   <property name="mps_home" location="" />
   <property name="org.campagnelab.goby.workbench.home" location="" />
-  <property name="version" value="1.0.0" />
+  <property name="textoutput_version" value="1.0.0" />
   <property name="artifacts.mps" location="${mps_home}" />
   <property file="${artifacts.mps}/build.properties" prefix="import.mps" />
   <property name="mps.build.number" value="${import.mps.mps.build.number}" />
@@ -23,10 +23,10 @@
   
   <target name="assemble" depends="classes, declare-mps-tasks">
     <mkdir dir="${build.layout}" />
-    <mkdir dir="${build.tmp}/default/org.campagnelab.TextOutput-_dl__lbrace_version_rbrace_.zip" />
-    <mkdir dir="${build.tmp}/default/org.campagnelab.TextOutput-_dl__lbrace_version_rbrace_.zip/TextOutput" />
-    <mkdir dir="${build.tmp}/default/org.campagnelab.TextOutput-_dl__lbrace_version_rbrace_.zip/TextOutput/META-INF" />
-    <echoxml file="${build.tmp}/default/org.campagnelab.TextOutput-_dl__lbrace_version_rbrace_.zip/TextOutput/META-INF/plugin.xml">
+    <mkdir dir="${build.tmp}/default/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip" />
+    <mkdir dir="${build.tmp}/default/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip/TextOutput" />
+    <mkdir dir="${build.tmp}/default/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip/TextOutput/META-INF" />
+    <echoxml file="${build.tmp}/default/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip/TextOutput/META-INF/plugin.xml">
       <idea-plugin version="2" xmlns:xi="http://www.w3.org/2001/XInclude">
         <id>org.campagnelab.TextOutput</id>
         <name>org.campagnelab.TextOutput</name>
@@ -40,8 +40,8 @@
         </extensions>
       </idea-plugin>
     </echoxml>
-    <mkdir dir="${build.tmp}/default/org.campagnelab.TextOutput-_dl__lbrace_version_rbrace_.zip/TextOutput/languages" />
-    <mkdir dir="${build.tmp}/default/org.campagnelab.TextOutput-_dl__lbrace_version_rbrace_.zip/TextOutput/languages/TextOutput" />
+    <mkdir dir="${build.tmp}/default/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip/TextOutput/languages" />
+    <mkdir dir="${build.tmp}/default/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip/TextOutput/languages/TextOutput" />
     <mkdir dir="${build.tmp}/default/org.campagnelab.textoutput.jar" />
     <mkdir dir="${build.tmp}/default/org.campagnelab.textoutput.jar/META-INF" />
     <echoxml file="${build.tmp}/default/org.campagnelab.textoutput.jar/META-INF/module.xml">
@@ -62,12 +62,12 @@
         <sources jar="org.campagnelab.textoutput-src.jar" descriptor="org.campagnelab.textoutput.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/org.campagnelab.TextOutput-_dl__lbrace_version_rbrace_.zip/TextOutput/languages/TextOutput/org.campagnelab.textoutput.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip/TextOutput/languages/TextOutput/org.campagnelab.textoutput.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.textoutput" />
       <fileset dir="${basedir}/languages/org.campagnelab.textoutput" includes="icons/**, resources/**" />
       <fileset dir="${build.tmp}/default/org.campagnelab.textoutput.jar" />
     </jar>
-    <jar destfile="${build.tmp}/default/org.campagnelab.TextOutput-_dl__lbrace_version_rbrace_.zip/TextOutput/languages/TextOutput/org.campagnelab.textoutput-generator.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip/TextOutput/languages/TextOutput/org.campagnelab.textoutput-generator.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.textoutput#6874736155931251038" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.textoutput-generator-template">
@@ -76,7 +76,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.textoutput-languageModels">
       <fileset dir="${basedir}/languages/org.campagnelab.textoutput/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/org.campagnelab.TextOutput-_dl__lbrace_version_rbrace_.zip/TextOutput/languages/TextOutput/org.campagnelab.textoutput-src.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip/TextOutput/languages/TextOutput/org.campagnelab.textoutput-src.jar">
       <fileset dir="${basedir}/languages/org.campagnelab.textoutput/generator/source_gen">
         <exclude name="**/trace.info" />
       </fileset>
@@ -87,10 +87,10 @@
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.textoutput-generator-template" prefix="module/generator/template" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.textoutput-languageModels" prefix="module/languageModels" />
     </jar>
-    <zip destfile="${build.layout}/org.campagnelab.TextOutput-${mpsBootstrapCore.version}.zip">
-      <fileset dir="${build.tmp}/default/org.campagnelab.TextOutput-_dl__lbrace_version_rbrace_.zip" />
+    <zip destfile="${build.layout}/org.campagnelab.TextOutput-${textoutput_version}.zip">
+      <fileset dir="${build.tmp}/default/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip" />
     </zip>
-    <echo file="${build.layout}/build.properties">org.campagnelab.TextOutput.version=${version}${line.separator}mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}</echo>
+    <echo file="${build.layout}/build.properties">org.campagnelab.TextOutput.textoutput_version=${textoutput_version}${line.separator}mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}</echo>
   </target>
   
   <target name="buildDependents" />

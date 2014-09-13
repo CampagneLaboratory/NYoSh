@@ -48,7 +48,7 @@
             <property name="text" nameId="3ior.4903714810883755350" value="ClusterConfig-" />
           </node>
           <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildVarRefStringPart" typeId="3ior.4903714810883702017" id="2714333670779471838" nodeInfo="ng">
-            <link role="macro" roleId="3ior.4903714810883702018" targetNodeId="ffeo.6592112598314709133" resolveInfo="version" />
+            <link role="macro" roleId="3ior.4903714810883702018" targetNodeId="2714333670779472016" resolveInfo="clusterConfig_version" />
           </node>
           <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="2714333670779471837" nodeInfo="ng">
             <property name="text" nameId="3ior.4903714810883755350" value=".zip" />
