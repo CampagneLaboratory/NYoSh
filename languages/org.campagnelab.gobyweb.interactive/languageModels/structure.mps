@@ -1259,9 +1259,11 @@
     <property name="name" nameId="tpck.1169194664001" value="DualPluginRepository" />
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="A dual repository with both remote and local folders" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="1997533223701191426" resolveInfo="PluginRepository" />
-    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="6985991452101336328" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="remoteServer" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="7519594704404268446" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
+      <property name="role" nameId="tpce.1071599776563" value="remoteServer" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="9k5.3050176288337501843" resolveInfo="ExecutionNode" />
     </node>
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="6985991452101336330" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="remotePath" />
