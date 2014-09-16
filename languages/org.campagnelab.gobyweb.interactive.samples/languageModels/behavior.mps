@@ -2952,15 +2952,9 @@
           </node>
           <node role="case" roleId="tpee.1163670772911" type="tpee.SwitchCase" typeId="tpee.1163670641947" id="7744544840718590450" nodeInfo="ng">
             <node role="expression" roleId="tpee.1163670677455" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7744544840718590617" nodeInfo="nn">
-              <property name="value" nameId="tpee.1070475926801" value="JPG" />
+              <property name="value" nameId="tpee.1070475926801" value="IMAGE" />
             </node>
-            <node role="body" roleId="tpee.1163670683720" type="tpee.StatementList" typeId="tpee.1068580123136" id="7744544840718590452" nodeInfo="sn" />
-          </node>
-          <node role="case" roleId="tpee.1163670772911" type="tpee.SwitchCase" typeId="tpee.1163670641947" id="7744544840718590963" nodeInfo="ng">
-            <node role="expression" roleId="tpee.1163670677455" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7744544840718591147" nodeInfo="nn">
-              <property name="value" nameId="tpee.1070475926801" value="PNG" />
-            </node>
-            <node role="body" roleId="tpee.1163670683720" type="tpee.StatementList" typeId="tpee.1068580123136" id="7744544840718590965" nodeInfo="sn">
+            <node role="body" roleId="tpee.1163670683720" type="tpee.StatementList" typeId="tpee.1068580123136" id="7744544840718590452" nodeInfo="sn">
               <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="7744544840718591513" nodeInfo="nn">
                 <node role="expression" roleId="tpee.1068581517676" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="7744544840718591675" nodeInfo="nn">
                   <node role="creator" roleId="tpee.1145553007750" type="tp25.SNodeCreator" typeId="tp25.1180636770613" id="7744544840718591673" nodeInfo="nn">
