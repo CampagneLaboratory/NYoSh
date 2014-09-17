@@ -31,7 +31,7 @@
         <id>org.campagnelab.TextOutput</id>
         <name>org.campagnelab.TextOutput</name>
         <description>A language to model text filea and generate such files with the MPS generator aspect.</description>
-        <version>1.0.0</version>
+        <version>${textoutput_version}</version>
         <vendor url="http://books.campagnelab.org">Campagne Laboratory</vendor>
         <depends>jetbrains.mps.core</depends>
         
