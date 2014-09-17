@@ -267,6 +267,10 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7744544840718591788" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="ImageOutput" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="8524130661367034398" resolveInfo="AnalysisOutput" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="3552379526113358354" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="filename" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
   </root>
   <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="7744544840732157875" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="HigherLevelObject" />
