@@ -39114,15 +39114,15 @@
       <link role="fileset" roleId="7aad.8524130661367034452" targetNodeId="3648805790695136952" resolveInfo="QIHQDHX-smear" />
     </node>
   </root>
-  <root type="7c6v.LuceneTableViewer" typeId="7c6v.6642819616993943793" id="3648805790695195761" nodeInfo="ng">
+  <root type="7c6v.LuceneTableViewer" typeId="7c6v.6642819616993943793" id="1880992068292642306" nodeInfo="ng">
     <property name="width" nameId="7c6v.1382465545654824555" value="800" />
     <property name="height" nameId="7c6v.1382465545654824559" value="300" />
     <property name="pageSize" nameId="7c6v.1382465545654648585" value="50" />
     <property name="exportFilename" nameId="7c6v.3842069646169678730" value="data.tsv" />
-    <property name="indexBaseName" nameId="7c6v.6642819616994075174" value="/Users/mas2182/Lab/Projects/MPS/nyosh/solutions/Playground/files.caches/I_MS2/MGPXBEZ-QIHQDHX-stats.lucene.index" />
+    <property name="indexBaseName" nameId="7c6v.6642819616994075174" value="/Users/fac2003/MPSProjects/git/NYoSh/solutions/Playground/files.caches/I_MS2/MGPXBEZ-QIHQDHX-stats.lucene.index" />
     <property name="name" nameId="tpck.1169194664001" value="Table MGPXBEZ-QIHQDHX-stats" />
-    <node role="query" roleId="7c6v.3688269350664121203" type="7c6v.Query" typeId="7c6v.3688269350664395158" id="3648805790695195762" nodeInfo="ng" />
-    <node role="columns" roleId="7c6v.2718488839587641498" type="7c6v.Column" typeId="7c6v.8794265050549986216" id="3648805790695195789" nodeInfo="ng">
+    <node role="query" roleId="7c6v.3688269350664121203" type="7c6v.Query" typeId="7c6v.3688269350664395158" id="1880992068292642307" nodeInfo="ng" />
+    <node role="columns" roleId="7c6v.2718488839587641498" type="7c6v.Column" typeId="7c6v.8794265050549986216" id="1880992068292642334" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="Feature ID" />
       <property name="internalName" nameId="7c6v.6295276321619058362" value="col_0" />
       <property name="index" nameId="7c6v.2718488839587704871" value="1" />
@@ -39130,116 +39130,116 @@
       <property name="associatedSortColumnName" nameId="7c6v.4042788916789562353" value="col_0_s" />
       <property name="type" nameId="7c6v.3000071662888680057" value="3" />
     </node>
-    <node role="columns" roleId="7c6v.2718488839587641498" type="7c6v.Column" typeId="7c6v.8794265050549986216" id="3648805790695195791" nodeInfo="ng">
+    <node role="columns" roleId="7c6v.2718488839587641498" type="7c6v.Column" typeId="7c6v.8794265050549986216" id="1880992068292642336" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="832-AMPK_KO" />
       <property name="internalName" nameId="7c6v.6295276321619058362" value="col_1" />
       <property name="index" nameId="7c6v.2718488839587704871" value="3" />
       <property name="isSearchable" nameId="7c6v.4461009712884923163" value="true" />
       <property name="type" nameId="7c6v.3000071662888680057" value="1" />
     </node>
-    <node role="columns" roleId="7c6v.2718488839587641498" type="7c6v.Column" typeId="7c6v.8794265050549986216" id="3648805790695195793" nodeInfo="ng">
+    <node role="columns" roleId="7c6v.2718488839587641498" type="7c6v.Column" typeId="7c6v.8794265050549986216" id="1880992068292642338" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="849-WT" />
       <property name="internalName" nameId="7c6v.6295276321619058362" value="col_2" />
       <property name="index" nameId="7c6v.2718488839587704871" value="4" />
       <property name="isSearchable" nameId="7c6v.4461009712884923163" value="true" />
       <property name="type" nameId="7c6v.3000071662888680057" value="1" />
     </node>
-    <node role="columns" roleId="7c6v.2718488839587641498" type="7c6v.Column" typeId="7c6v.8794265050549986216" id="3648805790695195795" nodeInfo="ng">
+    <node role="columns" roleId="7c6v.2718488839587641498" type="7c6v.Column" typeId="7c6v.8794265050549986216" id="1880992068292642340" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="833-AMPK_KO" />
       <property name="internalName" nameId="7c6v.6295276321619058362" value="col_3" />
       <property name="index" nameId="7c6v.2718488839587704871" value="5" />
       <property name="isSearchable" nameId="7c6v.4461009712884923163" value="true" />
       <property name="type" nameId="7c6v.3000071662888680057" value="1" />
     </node>
-    <node role="columns" roleId="7c6v.2718488839587641498" type="7c6v.Column" typeId="7c6v.8794265050549986216" id="3648805790695195797" nodeInfo="ng">
+    <node role="columns" roleId="7c6v.2718488839587641498" type="7c6v.Column" typeId="7c6v.8794265050549986216" id="1880992068292642342" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="847-WT" />
       <property name="internalName" nameId="7c6v.6295276321619058362" value="col_4" />
       <property name="index" nameId="7c6v.2718488839587704871" value="6" />
       <property name="isSearchable" nameId="7c6v.4461009712884923163" value="true" />
       <property name="type" nameId="7c6v.3000071662888680057" value="1" />
     </node>
-    <node role="columns" roleId="7c6v.2718488839587641498" type="7c6v.Column" typeId="7c6v.8794265050549986216" id="3648805790695195799" nodeInfo="ng">
+    <node role="columns" roleId="7c6v.2718488839587641498" type="7c6v.Column" typeId="7c6v.8794265050549986216" id="1880992068292642344" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="KO" />
       <property name="internalName" nameId="7c6v.6295276321619058362" value="col_5" />
       <property name="index" nameId="7c6v.2718488839587704871" value="7" />
       <property name="isSearchable" nameId="7c6v.4461009712884923163" value="true" />
       <property name="type" nameId="7c6v.3000071662888680057" value="1" />
     </node>
-    <node role="columns" roleId="7c6v.2718488839587641498" type="7c6v.Column" typeId="7c6v.8794265050549986216" id="3648805790695195801" nodeInfo="ng">
+    <node role="columns" roleId="7c6v.2718488839587641498" type="7c6v.Column" typeId="7c6v.8794265050549986216" id="1880992068292642346" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="WT" />
       <property name="internalName" nameId="7c6v.6295276321619058362" value="col_6" />
       <property name="index" nameId="7c6v.2718488839587704871" value="8" />
       <property name="isSearchable" nameId="7c6v.4461009712884923163" value="true" />
       <property name="type" nameId="7c6v.3000071662888680057" value="1" />
     </node>
-    <node role="columns" roleId="7c6v.2718488839587641498" type="7c6v.Column" typeId="7c6v.8794265050549986216" id="3648805790695195803" nodeInfo="ng">
+    <node role="columns" roleId="7c6v.2718488839587641498" type="7c6v.Column" typeId="7c6v.8794265050549986216" id="1880992068292642348" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="logFC" />
       <property name="internalName" nameId="7c6v.6295276321619058362" value="col_7" />
       <property name="index" nameId="7c6v.2718488839587704871" value="9" />
       <property name="isSearchable" nameId="7c6v.4461009712884923163" value="true" />
       <property name="type" nameId="7c6v.3000071662888680057" value="1" />
     </node>
-    <node role="columns" roleId="7c6v.2718488839587641498" type="7c6v.Column" typeId="7c6v.8794265050549986216" id="3648805790695195805" nodeInfo="ng">
+    <node role="columns" roleId="7c6v.2718488839587641498" type="7c6v.Column" typeId="7c6v.8794265050549986216" id="1880992068292642350" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="logCPM" />
       <property name="internalName" nameId="7c6v.6295276321619058362" value="col_8" />
       <property name="index" nameId="7c6v.2718488839587704871" value="10" />
       <property name="isSearchable" nameId="7c6v.4461009712884923163" value="true" />
       <property name="type" nameId="7c6v.3000071662888680057" value="1" />
     </node>
-    <node role="columns" roleId="7c6v.2718488839587641498" type="7c6v.Column" typeId="7c6v.8794265050549986216" id="3648805790695195807" nodeInfo="ng">
+    <node role="columns" roleId="7c6v.2718488839587641498" type="7c6v.Column" typeId="7c6v.8794265050549986216" id="1880992068292642352" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="PValue" />
       <property name="internalName" nameId="7c6v.6295276321619058362" value="col_9" />
       <property name="index" nameId="7c6v.2718488839587704871" value="11" />
       <property name="isSearchable" nameId="7c6v.4461009712884923163" value="true" />
       <property name="type" nameId="7c6v.3000071662888680057" value="1" />
     </node>
-    <node role="columns" roleId="7c6v.2718488839587641498" type="7c6v.Column" typeId="7c6v.8794265050549986216" id="3648805790695195809" nodeInfo="ng">
+    <node role="columns" roleId="7c6v.2718488839587641498" type="7c6v.Column" typeId="7c6v.8794265050549986216" id="1880992068292642354" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="FDR" />
       <property name="internalName" nameId="7c6v.6295276321619058362" value="col_10" />
       <property name="index" nameId="7c6v.2718488839587704871" value="12" />
       <property name="isSearchable" nameId="7c6v.4461009712884923163" value="true" />
       <property name="type" nameId="7c6v.3000071662888680057" value="1" />
     </node>
-    <node role="visibleColumns" roleId="7c6v.2718488839587659342" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="3648805790695195790" nodeInfo="ng">
-      <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="3648805790695195789" resolveInfo="Feature ID" />
-      <node role="field" roleId="7c6v.4461009712883249667" type="7c6v.IndexedField" typeId="7c6v.3688269350663783371" id="3648805790695195811" nodeInfo="ng">
+    <node role="visibleColumns" roleId="7c6v.2718488839587659342" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="1880992068292642335" nodeInfo="ng">
+      <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="1880992068292642334" resolveInfo="Feature ID" />
+      <node role="field" roleId="7c6v.4461009712883249667" type="7c6v.IndexedField" typeId="7c6v.3688269350663783371" id="1880992068292642356" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="Feature ID" />
       </node>
     </node>
-    <node role="visibleColumns" roleId="7c6v.2718488839587659342" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="3648805790695195792" nodeInfo="ng">
-      <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="3648805790695195791" resolveInfo="832-AMPK_KO" />
+    <node role="visibleColumns" roleId="7c6v.2718488839587659342" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="1880992068292642337" nodeInfo="ng">
+      <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="1880992068292642336" resolveInfo="832-AMPK_KO" />
     </node>
-    <node role="visibleColumns" roleId="7c6v.2718488839587659342" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="3648805790695195794" nodeInfo="ng">
-      <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="3648805790695195793" resolveInfo="849-WT" />
+    <node role="visibleColumns" roleId="7c6v.2718488839587659342" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="1880992068292642339" nodeInfo="ng">
+      <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="1880992068292642338" resolveInfo="849-WT" />
     </node>
-    <node role="visibleColumns" roleId="7c6v.2718488839587659342" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="3648805790695195796" nodeInfo="ng">
-      <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="3648805790695195795" resolveInfo="833-AMPK_KO" />
+    <node role="visibleColumns" roleId="7c6v.2718488839587659342" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="1880992068292642341" nodeInfo="ng">
+      <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="1880992068292642340" resolveInfo="833-AMPK_KO" />
     </node>
-    <node role="visibleColumns" roleId="7c6v.2718488839587659342" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="3648805790695195798" nodeInfo="ng">
-      <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="3648805790695195797" resolveInfo="847-WT" />
+    <node role="visibleColumns" roleId="7c6v.2718488839587659342" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="1880992068292642343" nodeInfo="ng">
+      <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="1880992068292642342" resolveInfo="847-WT" />
     </node>
-    <node role="visibleColumns" roleId="7c6v.2718488839587659342" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="3648805790695195800" nodeInfo="ng">
-      <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="3648805790695195799" resolveInfo="KO" />
+    <node role="visibleColumns" roleId="7c6v.2718488839587659342" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="1880992068292642345" nodeInfo="ng">
+      <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="1880992068292642344" resolveInfo="KO" />
     </node>
-    <node role="visibleColumns" roleId="7c6v.2718488839587659342" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="3648805790695195802" nodeInfo="ng">
-      <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="3648805790695195801" resolveInfo="WT" />
+    <node role="visibleColumns" roleId="7c6v.2718488839587659342" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="1880992068292642347" nodeInfo="ng">
+      <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="1880992068292642346" resolveInfo="WT" />
     </node>
-    <node role="visibleColumns" roleId="7c6v.2718488839587659342" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="3648805790695195804" nodeInfo="ng">
-      <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="3648805790695195803" resolveInfo="logFC" />
+    <node role="visibleColumns" roleId="7c6v.2718488839587659342" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="1880992068292642349" nodeInfo="ng">
+      <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="1880992068292642348" resolveInfo="logFC" />
     </node>
-    <node role="visibleColumns" roleId="7c6v.2718488839587659342" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="3648805790695195806" nodeInfo="ng">
-      <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="3648805790695195805" resolveInfo="logCPM" />
+    <node role="visibleColumns" roleId="7c6v.2718488839587659342" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="1880992068292642351" nodeInfo="ng">
+      <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="1880992068292642350" resolveInfo="logCPM" />
     </node>
-    <node role="visibleColumns" roleId="7c6v.2718488839587659342" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="3648805790695195808" nodeInfo="ng">
-      <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="3648805790695195807" resolveInfo="PValue" />
+    <node role="visibleColumns" roleId="7c6v.2718488839587659342" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="1880992068292642353" nodeInfo="ng">
+      <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="1880992068292642352" resolveInfo="PValue" />
     </node>
-    <node role="visibleColumns" roleId="7c6v.2718488839587659342" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="3648805790695195810" nodeInfo="ng">
-      <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="3648805790695195809" resolveInfo="FDR" />
+    <node role="visibleColumns" roleId="7c6v.2718488839587659342" type="7c6v.ColumnReference" typeId="7c6v.1382465545655829246" id="1880992068292642355" nodeInfo="ng">
+      <link role="column" roleId="7c6v.2447038862120075868" targetNodeId="1880992068292642354" resolveInfo="FDR" />
     </node>
-    <node role="sortOrder" roleId="7c6v.214549661775847102" type="7c6v.SortOrder" typeId="7c6v.214549661775816073" id="3648805790695195812" nodeInfo="ng">
-      <node role="columns" roleId="7c6v.214549661775829237" type="7c6v.ColumnSort" typeId="7c6v.214549661775817568" id="3648805790695195813" nodeInfo="ng">
+    <node role="sortOrder" roleId="7c6v.214549661775847102" type="7c6v.SortOrder" typeId="7c6v.214549661775816073" id="1880992068292642357" nodeInfo="ng">
+      <node role="columns" roleId="7c6v.214549661775829237" type="7c6v.ColumnSort" typeId="7c6v.214549661775817568" id="1880992068292642358" nodeInfo="ng">
         <property name="ascending" nameId="7c6v.214549661775817569" value="true" />
-        <link role="field" roleId="7c6v.214549661775840875" targetNodeId="3648805790695195811" resolveInfo="Feature ID" />
+        <link role="field" roleId="7c6v.214549661775840875" targetNodeId="1880992068292642356" resolveInfo="Feature ID" />
       </node>
     </node>
   </root>
