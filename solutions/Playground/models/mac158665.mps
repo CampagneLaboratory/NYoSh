@@ -20,14 +20,14 @@
   <devkit namespace="db81b829-e557-4467-b78e-cc1d44965622(org.campagnelab.devkit.gobyweb.interactive)" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="9k5" modelUID="r:df9645c2-d2fa-41cb-a718-044a287b0626(org.campagnelab.clusterConfig.structure)" version="3" implicit="yes" />
-  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="56" implicit="yes" />
+  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="63" implicit="yes" />
   <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="30" implicit="yes" />
   <import index="dzk5" modelUID="r:2bfcc546-5c51-4762-9df2-c43920be4458(org.campagnelab.gobyweb.plugins.structure)" version="4" implicit="yes" />
   <import index="whle" modelUID="r:8e4fd1b7-1955-43a4-ace6-aaf9d13814f8(org.campagnelab.logger.structure)" version="1" implicit="yes" />
   <import index="bbh2" modelUID="r:220d24dc-c962-4ed8-b674-7bde9fb2980c(org.campagnelab.gobyweb.monitoring.structure)" version="4" implicit="yes" />
   <import index="dhle" modelUID="r:22d2d7af-29e7-4a54-9633-f2175440f8be(org.campagnelab.feedback.structure)" version="0" implicit="yes" />
   <import index="eith" modelUID="r:1ed73e49-326d-4559-947b-13dfd134d00a(org.campagnelab.ssh.structure)" version="-1" implicit="yes" />
-  <import index="7aad" modelUID="r:37fbe713-b4ed-4c3f-becb-5bf827fba401(org.campagnelab.gobyweb.interactive.samples.structure)" version="0" implicit="yes" />
+  <import index="7aad" modelUID="r:37fbe713-b4ed-4c3f-becb-5bf827fba401(org.campagnelab.gobyweb.interactive.samples.structure)" version="1" implicit="yes" />
   <import index="jlq1" modelUID="r:0f28fa4d-9625-4db3-91b7-0ff856663fbf(org.campagnelab.gobyweb.interactive.mergeplan.structure)" version="-1" implicit="yes" />
   <root type="bs99.ExecutionEnvironment" typeId="bs99.2051553890368778876" id="6620797826812345374" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="mac158665" />
@@ -36,7 +36,7 @@
       <property name="numPluginsLoaded" nameId="bs99.5704832314560344592" value="157" />
       <property name="directory" nameId="bs99.1997533223701200855" value="${org.campagnelab.gobyweb.pluginRepo}" />
       <property name="remotePath" nameId="bs99.6985991452101336330" value="/home/gobyweb/PLUGIN_REPO" />
-      <property name="remoteServer" nameId="bs99.6985991452101336328" value="toulouse.med.cornell.edu" />
+      <property name="remoteServer" value="toulouse.med.cornell.edu" />
       <property name="loaded" nameId="bs99.5704832314560662319" value="true" />
       <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="6985991452102162953" nodeInfo="ng">
         <property name="version" nameId="dzk5.4277119496927940532" value="1.2" />
@@ -11372,6 +11372,14 @@
       <property name="message" nameId="whle.1925991773568778812" value="Executed success method" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.reload" />
     </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="570070230394809514" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value FAKETAG" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="570070230394810935" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Cannot register: filesetArea manager is null" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.register" />
+    </node>
   </root>
   <root type="bs99.FSIContainer" typeId="bs99.6642819616982286338" id="6620797826822332879" nodeInfo="ng">
     <link role="environment" roleId="bs99.6642819616982682504" targetNodeId="6620797826812345374" resolveInfo="mac158665" />
@@ -13401,9 +13409,9 @@
       <property name="jobName" nameId="bs99.606449909789338951" value="MyJob" />
       <property name="message" nameId="bs99.3927327347527013400" value="Job successfully submitted. Assigned tag: ODXPUNK" />
       <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="6620797826812345374" resolveInfo="mac158665" />
-      <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="6620797826834164005" resolveInfo="CONVERT_TABLE" />
+      <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="6985991452102164241" resolveInfo="CONVERT_TABLE" />
       <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="6620797826834818263" nodeInfo="ng">
-        <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="6620797826834164011" resolveInfo="INPUT_TSV" />
+        <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="6985991452102164247" resolveInfo="INPUT_TSV" />
         <node role="values" roleId="bs99.2995632242847956813" type="bs99.MultiToolFileSetInstanceRef" typeId="bs99.5235131979812125015" id="6620797826834818267" nodeInfo="ng">
           <link role="tool" roleId="bs99.5235131979812125016" targetNodeId="6620797826834816334" resolveInfo="MultiTool" />
           <link role="ref" roleId="bs99.4058240102192370452" targetNodeId="6620797826824008505" resolveInfo="IMXZEWW-cFos-chip-seq.sequence-variation-stats" />
@@ -19466,6 +19474,47 @@
     <node role="messages" roleId="bs99.6393277187635897304" type="bs99.Message" typeId="bs99.6393277187635893626" id="8273662917776800564" nodeInfo="ng">
       <property name="error" nameId="bs99.6393277187635893627" value="false" />
       <property name="description" nameId="bs99.6393277187635893629" value="Tag GTNHLUE successfully imported" />
+    </node>
+  </root>
+  <root type="bs99.MultiTool" typeId="bs99.5235131979802911248" id="570070230394809499" nodeInfo="ng">
+    <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="6620797826812345374" resolveInfo="mac158665" />
+    <node role="feedbackView" roleId="bs99.6620797826834437670" type="dhle.FeedbackView" typeId="dhle.6620797826825978917" id="570070230394809500" nodeInfo="ng" />
+    <node role="instances" roleId="bs99.5235131979802911251" type="bs99.FileSetInstanceRefSet" typeId="bs99.2835705609407426008" id="570070230394809501" nodeInfo="ng">
+      <node role="refs" roleId="bs99.2835705609407426009" type="bs99.FileSetInstanceReference" typeId="bs99.2835705609407425062" id="570070230394809503" nodeInfo="ng" />
+    </node>
+    <node role="tool" roleId="bs99.5235131979802911249" type="bs99.ExecutionTool" typeId="bs99.2465489689642685978" id="570070230394809505" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="ExecutionTool" />
+      <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="6620797826812345374" resolveInfo="mac158665" />
+      <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="6985991452102164289" resolveInfo="PROCESS_READS_TASK" />
+      <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="570070230394809507" nodeInfo="ng">
+        <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="6985991452102164295" resolveInfo="UPLOADS_FILES" />
+      </node>
+      <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="570070230394809508" nodeInfo="ng">
+        <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="6985991452102164297" resolveInfo="UPLOAD_MERGE_PLAN" />
+        <node role="values" roleId="bs99.2995632242847956813" type="jlq1.MergePlanEditor" typeId="jlq1.8273662917775851475" id="570070230394810929" nodeInfo="ng">
+          <link role="registeredMergePlanFSInstance" roleId="jlq1.8273662917776369954" targetNodeId="570070230394810931" resolveInfo="merge-plan" />
+          <node role="instance" roleId="jlq1.7783347726466044946" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="570070230394810931" nodeInfo="ng">
+            <property name="size" nameId="bs99.2740821845424982900" value="0" />
+            <property name="tag" nameId="bs99.2051553890368778934" value="AEUCYSJ" />
+            <property name="name" nameId="tpck.1169194664001" value="merge-plan" />
+            <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="6620797826812352979" />
+            <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="6985991452102164149" resolveInfo="GOBYWEB_MERGE_PLAN_FILE" />
+            <node role="files" roleId="bs99.5260963271977142496" type="bs99.File" typeId="bs99.1997533223701240107" id="570070230394810932" nodeInfo="ng">
+              <property name="pathname" nameId="bs99.1997533223701240110" value="/var/folders/_b/yxqf80914033gdcjr2jz91_h0000gq/T/merge-plan1803538144691028478_details.tsv" />
+              <node role="types" roleId="bs99.5704832314562469901" type="bs99.FileSetTypeId" typeId="bs99.5704832314562469955" id="570070230394810933" nodeInfo="ng">
+                <property name="id" nameId="bs99.5704832314562469956" value="GOBYWEB_MERGE_PLAN_FILE" />
+                <property name="version" nameId="bs99.2465489689645111090" value="1.0" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="570070230394809509" nodeInfo="ng">
+        <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="6985991452102164312" resolveInfo="Tag for the new sample." />
+        <node role="value" roleId="bs99.6506431596944968310" type="bs99.StringOptionValue" typeId="bs99.606449909792929476" id="570070230394809513" nodeInfo="ng">
+          <property name="value" nameId="bs99.606449909792929477" value="FAKETAG" />
+        </node>
+      </node>
     </node>
   </root>
 </model>
