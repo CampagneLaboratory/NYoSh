@@ -4,7 +4,7 @@
   <devkit namespace="db81b829-e557-4467-b78e-cc1d44965622(org.campagnelab.devkit.gobyweb.interactive)" />
   <import index="9k5" modelUID="r:df9645c2-d2fa-41cb-a718-044a287b0626(org.campagnelab.clusterConfig.structure)" version="3" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="56" implicit="yes" />
+  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="63" implicit="yes" />
   <import index="dhle" modelUID="r:22d2d7af-29e7-4a54-9633-f2175440f8be(org.campagnelab.feedback.structure)" version="0" implicit="yes" />
   <import index="bbh2" modelUID="r:220d24dc-c962-4ed8-b674-7bde9fb2980c(org.campagnelab.gobyweb.monitoring.structure)" version="4" implicit="yes" />
   <import index="whle" modelUID="r:8e4fd1b7-1955-43a4-ace6-aaf9d13814f8(org.campagnelab.logger.structure)" version="1" implicit="yes" />
@@ -6106,8 +6106,8 @@
     <property name="jobName" nameId="bs99.606449909789338951" value="second_job" />
     <property name="message" nameId="bs99.3927327347527013400" value="Job successfully submitted. Assigned tag: JKVQKQB" />
     <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="7915051628305677536" resolveInfo="MSNotebook" />
-    <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="3403061721251611034" resolveInfo="PROCESS_READS_TASK" />
     <link role="currentJob" roleId="bs99.5540992037659823465" targetNodeId="3403061721257205012" resolveInfo="second_job" />
+    <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="3155417396017882225" resolveInfo="PROCESS_READS_TASK" />
     <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="3403061721251615541" nodeInfo="ng">
       <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="3403061721251611041" resolveInfo="UPLOADS_FILES" />
       <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="3403061721257205008" nodeInfo="ng">
