@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="czzw" modelUID="r:2151664b-13bc-4072-a76b-815bb37c415e(org.campagnelab.gobyweb.interactive.users.structure)" version="-1" />
+    </dependencies>
+    <rename id="czzw.5865189911928298169" type="CONCEPT" from="NYoShUSers" to="NYoShUsers" />
+  </StructureModification>
+</history>
+

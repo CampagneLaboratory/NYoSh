@@ -13,6 +13,8 @@ public class IntentionsDescriptor extends BaseIntentionsDescriptor {
   }
 
   public void init() {
+    IntentionsManager.getInstance().registerIntentionFactory(new InsertPhraseToTheLeft_Intention());
+    IntentionsManager.getInstance().registerIntentionFactory(new InsertPhraseToTheRight_Intention());
     IntentionsManager.getInstance().registerIntentionFactory(new ParseNewLineForLineContainer_Intention());
     IntentionsManager.getInstance().registerIntentionFactory(new ParseNewLines_Intention());
     IntentionsManager.getInstance().registerIntentionFactory(new SplitLine_Intention());
