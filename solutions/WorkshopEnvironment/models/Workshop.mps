@@ -6,7 +6,6 @@
   <import index="9k5" modelUID="r:df9645c2-d2fa-41cb-a718-044a287b0626(org.campagnelab.clusterConfig.structure)" version="3" implicit="yes" />
   <import index="whle" modelUID="r:8e4fd1b7-1955-43a4-ace6-aaf9d13814f8(org.campagnelab.logger.structure)" version="1" implicit="yes" />
   <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="63" implicit="yes" />
-  <import index="eith" modelUID="r:1ed73e49-326d-4559-947b-13dfd134d00a(org.campagnelab.ssh.structure)" version="-1" implicit="yes" />
   <root type="9k5.ExecutionNode" typeId="9k5.3050176288337501843" id="3648805790695518925" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="SubmissionNode" />
     <property name="server" nameId="9k5.3050176288337501845" value="petey.med.cornell.edu" />
@@ -28,11 +27,12 @@
     <property name="username" nameId="9k5.3050176288337501846" value="nyosh_shared" />
     <property name="numCores" nameId="9k5.3050176288341320771" value="4" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="nodes" />
+    <property name="isReachable" nameId="9k5.2243041462218990633" value="true" />
     <node role="ports" roleId="9k5.664989078351252753" type="9k5.ConnectionPort" typeId="9k5.664989078347184634" id="570070230390460801" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="fileSetService" />
       <property name="number" nameId="9k5.664989078347184651" value="8849" />
-      <property name="reachable" nameId="9k5.8730366339363382117" value="false" />
-      <property name="connectionChecked" nameId="9k5.8730366339363530155" value="false" />
+      <property name="reachable" nameId="9k5.8730366339363382117" value="true" />
+      <property name="connectionChecked" nameId="9k5.8730366339363530155" value="true" />
       <link role="targetNode" roleId="9k5.664989078347742108" targetNodeId="3648805790695514086" resolveInfo="SharedNode" />
     </node>
   </root>
@@ -105,23 +105,6 @@
     <property name="isReachable" nameId="9k5.2243041462218990633" value="true" />
     <property name="numCores" nameId="9k5.3050176288341320771" value="24" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="nodes" />
-    <node role="ports" roleId="9k5.664989078351252753" type="9k5.TunneledConnectionPort" typeId="9k5.1460397808273936077" id="570070230390464561" nodeInfo="ng">
-      <property name="number" nameId="9k5.664989078347184651" value="8849" />
-      <property name="reachable" nameId="9k5.8730366339363382117" value="false" />
-      <property name="connectionChecked" nameId="9k5.8730366339363530155" value="false" />
-      <property name="name" nameId="tpck.1169194664001" value="fileSetService" />
-      <link role="targetNode" roleId="9k5.664989078347742108" targetNodeId="3648805790695523758" resolveInfo="localhost" />
-      <link role="remotePort" roleId="9k5.1460397808273936078" targetNodeId="570070230390464561" resolveInfo="fileSetService" />
-      <node role="tunnel" roleId="9k5.1460397808273941271" type="eith.SshPortForwarding" typeId="eith.2967045841109794120" id="570070230390464562" nodeInfo="ng">
-        <property name="username" nameId="eith.2967045841109813398" value="nyosh_shared" />
-        <property name="host" nameId="eith.2967045841109813400" value="petey.med.cornell.edu" />
-        <property name="port" nameId="eith.2967045841109813403" value="8849" />
-        <property name="usePrivateKey" nameId="eith.2096113691307818463" value="true" />
-        <property name="connected" nameId="eith.2967045841109813407" value="false" />
-        <property name="viaHostname" nameId="eith.6995961045902627388" value="petey.med.cornell.edu" />
-        <property name="viaUserName" nameId="eith.6995961045902627381" value="nyosh_shared" />
-      </node>
-    </node>
   </root>
 </model>
 
