@@ -24,6 +24,12 @@
       <property name="version" nameId="6llb.8668161730115478924" value="54" />
       <link role="species" roleId="6llb.8668161730115478915" targetNodeId="2532384616186984776" resolveInfo="human" />
     </node>
+    <node role="builds" roleId="6llb.2532384616186995597" type="6llb.EnsemblBuild" typeId="6llb.8668161730115478921" id="3882067466249291147" nodeInfo="ng">
+      <property name="id" nameId="6llb.8668161730115478922" value="1000GENOMES" />
+      <property name="name" nameId="tpck.1169194664001" value="1000GENOMES.37" />
+      <property name="version" nameId="6llb.8668161730115478924" value="37" />
+      <link role="species" roleId="6llb.8668161730115478915" targetNodeId="2532384616186984776" resolveInfo="human" />
+    </node>
     <node role="builds" roleId="6llb.2532384616186995597" type="6llb.EnsemblBuild" typeId="6llb.8668161730115478921" id="2532384616187213674" nodeInfo="ng">
       <property name="id" nameId="6llb.8668161730115478922" value="NCBI37" />
       <property name="name" nameId="tpck.1169194664001" value="NCBI37.55" />
