@@ -3,6 +3,7 @@
   <persistence version="8" />
   <language namespace="3f8906ee-821c-4fd1-ae5d-26a10b3b747c(org.campagnelab.gobyweb.interactive.mergeplan)" />
   <language namespace="e2d79ce9-bdd0-4275-a250-1037dd79ddc3(org.campagnelab.gobyweb.interactive.samples)" />
+  <language namespace="d9858376-ef55-45a1-81ea-9c3bbce200d9(org.campagnelab.gobyweb.interactive.sharing)" />
   <devkit namespace="db81b829-e557-4467-b78e-cc1d44965622(org.campagnelab.devkit.gobyweb.interactive)" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="9k5" modelUID="r:df9645c2-d2fa-41cb-a718-044a287b0626(org.campagnelab.clusterConfig.structure)" version="3" implicit="yes" />
@@ -17,6 +18,7 @@
   <import index="dzk5" modelUID="r:2bfcc546-5c51-4762-9df2-c43920be4458(org.campagnelab.gobyweb.plugins.structure)" version="4" implicit="yes" />
   <import index="7c6v" modelUID="r:5ff8ae95-054c-4cda-b392-b0e2d796b9da(org.campagnelab.lucene.tableviewer.structure)" version="7" implicit="yes" />
   <import index="czzw" modelUID="r:2151664b-13bc-4072-a76b-815bb37c415e(org.campagnelab.gobyweb.interactive.users.structure)" version="0" implicit="yes" />
+  <import index="u5kh" modelUID="r:da6c53ea-9b36-4ecc-8d36-50c82663565f(org.campagnelab.gobyweb.interactive.sharing.structure)" version="-1" implicit="yes" />
   <root type="9k5.ExecutionNode" typeId="9k5.3050176288337501843" id="8711817271675662831" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="BrokerNodeForJobs" />
     <property name="server" nameId="9k5.3050176288337501845" value="toulouse.qib.pbtech" />
@@ -39249,6 +39251,27 @@
     <node role="users" roleId="czzw.5865189911928367305" type="bs99.NYoShUser" typeId="bs99.5865189911929158310" id="8982654668860888823" nodeInfo="ng">
       <property name="id" nameId="czzw.5865189911928341274" value="fac2003" />
       <property name="name" nameId="tpck.1169194664001" value="Fabien Campagne" />
+    </node>
+    <node role="users" roleId="czzw.5865189911928367305" type="bs99.NYoShUser" typeId="bs99.5865189911929158310" id="8982654668861219024" nodeInfo="ng">
+      <property name="id" nameId="czzw.5865189911928341274" value="fdfs fdsfs " />
+    </node>
+  </root>
+  <root type="u5kh.SharingTool" typeId="u5kh.8982654668860900090" id="8982654668861165278" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="SharingTool" />
+    <node role="instances" roleId="u5kh.8982654668860900776" type="bs99.FileSetInstanceReference" typeId="bs99.2835705609407425062" id="8982654668861165332" nodeInfo="ng">
+      <link role="fileSetInstance" roleId="bs99.2835705609407425063" targetNodeId="3648805790692856148" resolveInfo="834-AMPK_KO-all" />
+    </node>
+    <node role="instances" roleId="u5kh.8982654668860900776" type="bs99.FileSetInstanceReference" typeId="bs99.2835705609407425062" id="8982654668861219007" nodeInfo="ng">
+      <link role="fileSetInstance" roleId="bs99.2835705609407425063" targetNodeId="3648805790692600927" resolveInfo="832-AMPK_KO" />
+    </node>
+    <node role="users" roleId="u5kh.8982654668860915046" type="czzw.UserRef" typeId="czzw.8982654668860914855" id="8982654668861191447" nodeInfo="ng">
+      <link role="user" roleId="czzw.8982654668860914861" targetNodeId="8982654668860888823" resolveInfo="Fabien Campagne" />
+    </node>
+    <node role="users" roleId="u5kh.8982654668860915046" type="czzw.UserRef" typeId="czzw.8982654668860914855" id="8982654668861191453" nodeInfo="ng">
+      <link role="user" roleId="czzw.8982654668860914861" targetNodeId="8982654668860009913" resolveInfo="Manuele Simi" />
+    </node>
+    <node role="users" roleId="u5kh.8982654668860915046" type="czzw.UserRef" typeId="czzw.8982654668860914855" id="8982654668861219015" nodeInfo="ng">
+      <link role="user" roleId="czzw.8982654668860914861" targetNodeId="8982654668860888823" resolveInfo="Fabien Campagne" />
     </node>
   </root>
 </model>
