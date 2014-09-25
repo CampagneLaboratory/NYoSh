@@ -16,6 +16,7 @@
   <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="30" implicit="yes" />
   <import index="dzk5" modelUID="r:2bfcc546-5c51-4762-9df2-c43920be4458(org.campagnelab.gobyweb.plugins.structure)" version="4" implicit="yes" />
   <import index="7c6v" modelUID="r:5ff8ae95-054c-4cda-b392-b0e2d796b9da(org.campagnelab.lucene.tableviewer.structure)" version="7" implicit="yes" />
+  <import index="czzw" modelUID="r:2151664b-13bc-4072-a76b-815bb37c415e(org.campagnelab.gobyweb.interactive.users.structure)" version="0" implicit="yes" />
   <root type="9k5.ExecutionNode" typeId="9k5.3050176288337501843" id="8711817271675662831" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="BrokerNodeForJobs" />
     <property name="server" nameId="9k5.3050176288337501845" value="toulouse.qib.pbtech" />
@@ -12558,7 +12559,8 @@
   </root>
   <root type="bs99.ExecutionEnvironment" typeId="bs99.2051553890368778876" id="4010805091594109919" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="RemoteEnvironment" />
-    <property name="owner" nameId="bs99.2051553890368778877" value="manuele.simi" />
+    <property name="owner" value="manuele.simi" />
+    <link role="owner" roleId="bs99.5865189911929158304" targetNodeId="8982654668860009913" resolveInfo="Manuele Simi" />
     <node role="pluginRepository" roleId="bs99.1997533223701807309" type="bs99.PluginRepository" typeId="bs99.1997533223701191426" id="4010805091594109920" nodeInfo="ng">
       <property name="numPluginsLoaded" nameId="bs99.5704832314560344592" value="161" />
       <property name="directory" nameId="bs99.1997533223701200855" value="${org.campagnelab.gobyweb.pluginRepo}" />
@@ -18017,13 +18019,6 @@
       <property name="path" nameId="bs99.6449713081311703917" value="/zenodotus/campagnelab/store/data/gobyweb/trial/FILESET_AREA" />
       <link role="sshNode" roleId="bs99.6449713081311510412" targetNodeId="2243041462222181573" resolveInfo="SpankyNode" />
       <link role="fsiContainer" roleId="bs99.6642819616984840610" targetNodeId="8475644845778516086" />
-      <node role="manager" roleId="bs99.664989078355375332" type="bs99.FileSetAreaRPCManager" typeId="bs99.664989078345324995" id="2230469015308539286" nodeInfo="ng">
-        <property name="status" nameId="bs99.4344503499510198037" value="connected" />
-        <property name="unreacheable" nameId="bs99.1460397808271971603" value="false" />
-        <link role="fileSetArea" roleId="bs99.664989078345325375" targetNodeId="4010805091594113768" />
-        <link role="sshServerInfo" roleId="bs99.1460397808274864667" targetNodeId="2243041462222181573" resolveInfo="SpankyNode" />
-        <link role="fileSetServerConnectionPort" roleId="bs99.664989078348064771" targetNodeId="1507870905444761715" resolveInfo="fileSetService" />
-      </node>
     </node>
     <node role="downloadArea" roleId="bs99.202400229141572367" type="bs99.DownloadArea" typeId="bs99.202400229140351294" id="4010805091594130680" nodeInfo="ng">
       <node role="locations" roleId="bs99.202400229140351977" type="bs99.DownloadLocation" typeId="bs99.202400229140474293" id="4010805091594130682" nodeInfo="ng">
@@ -30484,6 +30479,9 @@
         <property name="value" nameId="bs99.606449909792929477" value="FAKETAG" />
       </node>
     </node>
+    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="8982654668860019370" nodeInfo="ng">
+      <node role="value" roleId="bs99.6506431596944968310" type="bs99.InputOptionValue" typeId="bs99.6506431596944968499" id="8982654668860019371" nodeInfo="ng" />
+    </node>
     <node role="listeners" roleId="bs99.7744544840734386662" type="7aad.ObjectCreationHelper" typeId="7aad.7744544840731999292" id="3648805790692588774" nodeInfo="ng" />
   </root>
   <root type="bbh2.JobMonitorInterface" typeId="bbh2.1212232161612230177" id="4029852567791277660" nodeInfo="ng">
@@ -39241,6 +39239,16 @@
         <property name="ascending" nameId="7c6v.214549661775817569" value="true" />
         <link role="field" roleId="7c6v.214549661775840875" targetNodeId="1880992068292642356" resolveInfo="Feature ID" />
       </node>
+    </node>
+  </root>
+  <root type="czzw.NYoShUsers" typeId="czzw.5865189911928298169" id="5865189911939921332" nodeInfo="ng">
+    <node role="users" roleId="czzw.5865189911928367305" type="bs99.NYoShUser" typeId="bs99.5865189911929158310" id="8982654668860009913" nodeInfo="ng">
+      <property name="id" nameId="czzw.5865189911928341274" value="manuele" />
+      <property name="name" nameId="tpck.1169194664001" value="Manuele Simi" />
+    </node>
+    <node role="users" roleId="czzw.5865189911928367305" type="bs99.NYoShUser" typeId="bs99.5865189911929158310" id="8982654668860888823" nodeInfo="ng">
+      <property name="id" nameId="czzw.5865189911928341274" value="fac2003" />
+      <property name="name" nameId="tpck.1169194664001" value="Fabien Campagne" />
     </node>
   </root>
 </model>

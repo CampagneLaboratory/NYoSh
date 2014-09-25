@@ -25,7 +25,7 @@
   </root>
   <root type="bs99.ExecutionEnvironment" typeId="bs99.2051553890368778876" id="7915051628305677536" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="MSNotebook" />
-    <property name="owner" nameId="bs99.2051553890368778877" value="manuele" />
+    <property name="owner" value="manuele" />
     <node role="pluginRepository" roleId="bs99.1997533223701807309" type="bs99.PluginRepository" typeId="bs99.1997533223701191426" id="7915051628305677537" nodeInfo="ng">
       <property name="numPluginsLoaded" nameId="bs99.5704832314560344592" value="162" />
       <property name="directory" nameId="bs99.1997533223701200855" value="${org.campagnelab.gobyweb.pluginRepo}" />
@@ -7582,8 +7582,8 @@
     <node role="jobs" roleId="bs99.6642819616986825107" type="bs99.Job" typeId="bs99.2051553890368756070" id="3403061721257205012" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="second_job" />
       <property name="assignedTag" nameId="bs99.2408108650474877836" value="JKVQKQB" />
-      <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="3403061721251611034" resolveInfo="PROCESS_READS_TASK" />
       <link role="executionEnvironment" roleId="bs99.2051553890368806506" targetNodeId="7915051628305677536" resolveInfo="MSNotebook" />
+      <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="3155417396017882225" resolveInfo="PROCESS_READS_TASK" />
       <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="3403061721257205013" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="UPLOADS_FILES" />
         <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="3403061721257205014" nodeInfo="ng">
