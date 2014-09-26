@@ -13210,22 +13210,15 @@
   </root>
   <root type="u5kh.SharingTool" typeId="u5kh.8982654668860900090" id="3882067466250428962" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="SharingTool" />
-    <node role="instances" roleId="u5kh.8982654668860900776" type="bs99.FileSetInstanceReference" typeId="bs99.2835705609407425062" id="3882067466250686178" nodeInfo="ng">
-      <link role="fileSetInstance" roleId="bs99.2835705609407425063" targetNodeId="3882067466248854942" resolveInfo="AHSSOOT-pickrell-NA19203_argonne" />
+    <node role="instances" roleId="u5kh.8982654668860900776" type="bs99.FileSetInstanceReference" typeId="bs99.2835705609407425062" id="3423755852522040549" nodeInfo="ng">
+      <link role="fileSetInstance" roleId="bs99.2835705609407425063" targetNodeId="3882067466250407628" resolveInfo="AXNKJBI-pickrell-NA19222_argonne-all" />
     </node>
-    <node role="messages" roleId="u5kh.3423755852520738540" type="u5kh.Message" typeId="u5kh.6393277187635893626" id="3423755852522012115" nodeInfo="ng">
+    <node role="users" roleId="u5kh.8982654668860915046" type="czzw.UserRef" typeId="czzw.8982654668860914855" id="3423755852522040551" nodeInfo="ng">
+      <link role="user" roleId="czzw.8982654668860914861" targetNodeId="3882067466250375886" resolveInfo="NYoSh 02" />
+    </node>
+    <node role="messages" roleId="u5kh.3423755852520738540" type="u5kh.Message" typeId="u5kh.6393277187635893626" id="3423755852522043666" nodeInfo="ng">
       <property name="error" nameId="u5kh.6393277187635893627" value="false" />
-      <property name="description" nameId="u5kh.6393277187635893629" value="Instance AHSSOOT-pickrell-NA19203_argonne successfully shared" />
-    </node>
-    <node role="users" roleId="u5kh.8982654668860915046" type="czzw.UserRef" typeId="czzw.8982654668860914855" id="3423755852522015427" nodeInfo="ng">
-      <link role="user" roleId="czzw.8982654668860914861" targetNodeId="3423755852522015408" resolveInfo="NYoSh 04" />
-    </node>
-    <node role="users" roleId="u5kh.8982654668860915046" type="czzw.UserRef" typeId="czzw.8982654668860914855" id="3423755852522015432" nodeInfo="ng">
-      <link role="user" roleId="czzw.8982654668860914861" targetNodeId="3423755852522015420" resolveInfo="NYoSh 05" />
-    </node>
-    <node role="messages" roleId="u5kh.3423755852520738540" type="u5kh.Message" typeId="u5kh.6393277187635893626" id="3423755852522015436" nodeInfo="ng">
-      <property name="error" nameId="u5kh.6393277187635893627" value="false" />
-      <property name="description" nameId="u5kh.6393277187635893629" value="Instance AHSSOOT-pickrell-NA19203_argonne successfully shared" />
+      <property name="description" nameId="u5kh.6393277187635893629" value="Instance AXNKJBI-pickrell-NA19222_argonne-all successfully shared" />
     </node>
   </root>
   <root type="7aad.GobyWebAlignmentAnalysis" typeId="7aad.8524130661366174336" id="3423755852519137892" nodeInfo="ng">
