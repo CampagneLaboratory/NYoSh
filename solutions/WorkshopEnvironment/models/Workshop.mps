@@ -6,6 +6,7 @@
   <import index="9k5" modelUID="r:df9645c2-d2fa-41cb-a718-044a287b0626(org.campagnelab.clusterConfig.structure)" version="3" implicit="yes" />
   <import index="whle" modelUID="r:8e4fd1b7-1955-43a4-ace6-aaf9d13814f8(org.campagnelab.logger.structure)" version="1" implicit="yes" />
   <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="63" implicit="yes" />
+  <import index="czzw" modelUID="r:2151664b-13bc-4072-a76b-815bb37c415e(org.campagnelab.gobyweb.interactive.users.structure)" version="0" implicit="yes" />
   <root type="9k5.ExecutionNode" typeId="9k5.3050176288337501843" id="3648805790695518925" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="SubmissionNode" />
     <property name="server" nameId="9k5.3050176288337501845" value="petey.med.cornell.edu" />
@@ -65,7 +66,7 @@
   </root>
   <root type="bs99.ExecutionEnvironment" typeId="bs99.2051553890368778876" id="3648805790695509200" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="ClusterEnvironment" />
-    <property name="owner" nameId="bs99.2051553890368778877" value="nyosh01" />
+    <property name="owner" value="nyosh01" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="" />
     <node role="pluginRepository" roleId="bs99.1997533223701807309" type="bs99.DualPluginRepository" typeId="bs99.6985991452101319714" id="3648805790695511696" nodeInfo="ng">
       <property name="numPluginsLoaded" nameId="bs99.5704832314560344592" value="0" />
@@ -105,6 +106,52 @@
     <property name="isReachable" nameId="9k5.2243041462218990633" value="true" />
     <property name="numCores" nameId="9k5.3050176288341320771" value="24" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="nodes" />
+  </root>
+  <root type="czzw.NYoShUsers" typeId="czzw.5865189911928298169" id="3882067466250372849" nodeInfo="ng">
+    <node role="users" roleId="czzw.5865189911928367305" type="bs99.NYoShUser" typeId="bs99.5865189911929158310" id="3423755852522076305" nodeInfo="ng">
+      <property name="id" nameId="czzw.5865189911928341274" value="instructor" />
+      <property name="name" nameId="tpck.1169194664001" value="instructor" />
+    </node>
+    <node role="users" roleId="czzw.5865189911928367305" type="bs99.NYoShUser" typeId="bs99.5865189911929158310" id="3882067466250375880" nodeInfo="ng">
+      <property name="id" nameId="czzw.5865189911928341274" value="nyosh01" />
+      <property name="name" nameId="tpck.1169194664001" value="NYoSh 01" />
+    </node>
+    <node role="users" roleId="czzw.5865189911928367305" type="bs99.NYoShUser" typeId="bs99.5865189911929158310" id="3882067466250375886" nodeInfo="ng">
+      <property name="id" nameId="czzw.5865189911928341274" value="nyosh02" />
+      <property name="name" nameId="tpck.1169194664001" value="NYoSh 02" />
+    </node>
+    <node role="users" roleId="czzw.5865189911928367305" type="bs99.NYoShUser" typeId="bs99.5865189911929158310" id="3882067466250375920" nodeInfo="ng">
+      <property name="id" nameId="czzw.5865189911928341274" value="nyosh03" />
+      <property name="name" nameId="tpck.1169194664001" value="NYoSh 03" />
+    </node>
+    <node role="users" roleId="czzw.5865189911928367305" type="bs99.NYoShUser" typeId="bs99.5865189911929158310" id="3423755852522015408" nodeInfo="ng">
+      <property name="id" nameId="czzw.5865189911928341274" value="nyosh04" />
+      <property name="name" nameId="tpck.1169194664001" value="NYoSh 04" />
+    </node>
+    <node role="users" roleId="czzw.5865189911928367305" type="bs99.NYoShUser" typeId="bs99.5865189911929158310" id="3423755852522015420" nodeInfo="ng">
+      <property name="id" nameId="czzw.5865189911928341274" value="nyosh05" />
+      <property name="name" nameId="tpck.1169194664001" value="NYoSh 05" />
+    </node>
+    <node role="users" roleId="czzw.5865189911928367305" type="bs99.NYoShUser" typeId="bs99.5865189911929158310" id="3423755852522076148" nodeInfo="ng">
+      <property name="id" nameId="czzw.5865189911928341274" value="nyosh06" />
+      <property name="name" nameId="tpck.1169194664001" value="NYoSh 06" />
+    </node>
+    <node role="users" roleId="czzw.5865189911928367305" type="bs99.NYoShUser" typeId="bs99.5865189911929158310" id="3423755852522076166" nodeInfo="ng">
+      <property name="id" nameId="czzw.5865189911928341274" value="nyosh07" />
+      <property name="name" nameId="tpck.1169194664001" value="NYoSh 07" />
+    </node>
+    <node role="users" roleId="czzw.5865189911928367305" type="bs99.NYoShUser" typeId="bs99.5865189911929158310" id="3423755852522076186" nodeInfo="ng">
+      <property name="id" nameId="czzw.5865189911928341274" value="nyosh08" />
+      <property name="name" nameId="tpck.1169194664001" value="NYoSh 08" />
+    </node>
+    <node role="users" roleId="czzw.5865189911928367305" type="bs99.NYoShUser" typeId="bs99.5865189911929158310" id="3423755852522076208" nodeInfo="ng">
+      <property name="id" nameId="czzw.5865189911928341274" value="nyosh09" />
+      <property name="name" nameId="tpck.1169194664001" value="NYoSh 09" />
+    </node>
+    <node role="users" roleId="czzw.5865189911928367305" type="bs99.NYoShUser" typeId="bs99.5865189911929158310" id="3423755852522076232" nodeInfo="ng">
+      <property name="id" nameId="czzw.5865189911928341274" value="nyosh010" />
+      <property name="name" nameId="tpck.1169194664001" value="NYoSh 10" />
+    </node>
   </root>
 </model>
 
