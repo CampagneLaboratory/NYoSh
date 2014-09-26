@@ -15,7 +15,6 @@
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
   <import index="ibt4" modelUID="r:654fda9f-1cd1-438a-a6dc-fb95aab984c8(org.campagnelab.gobyweb.interactive.sharing.behavior)" version="-1" implicit="yes" />
-  <import index="lcm8" modelUID="r:19e666fd-ce33-4549-bbc2-aa106ce25584(org.campagnelab.gobyweb.interactive.behavior)" version="0" implicit="yes" />
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="8982654668860900786" nodeInfo="ng">
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="u5kh.8982654668860900090" resolveInfo="SharingTool" />
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="8982654668860903097" nodeInfo="nn">
@@ -124,7 +123,7 @@
                   <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3882067466250665710" nodeInfo="nn">
                     <node role="operand" roleId="tpee.1197027771414" type="hut6.ButtonNodeParameter" typeId="hut6.1135156181802355102" id="3882067466250665593" nodeInfo="ng" />
                     <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="3882067466250667214" nodeInfo="nn">
-                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="lcm8.5235131979802438774" resolveInfo="execute" />
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ibt4.3882067466250613884" resolveInfo="execute" />
                     </node>
                   </node>
                 </node>
@@ -185,7 +184,7 @@
     </node>
   </root>
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="3423755852520738387" nodeInfo="ng">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="tools" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="" />
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="u5kh.6393277187635893626" resolveInfo="Message" />
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="3423755852520738530" nodeInfo="nn">
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="3423755852520738537" nodeInfo="ng">

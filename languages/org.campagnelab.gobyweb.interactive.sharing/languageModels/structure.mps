@@ -32,15 +32,12 @@
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="6393277187635893626" resolveInfo="Message" />
     </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="3882067466250613407" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="bs99.5235131979802368422" resolveInfo="ExecutableTool" />
-    </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8982654668860900407" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6393277187635893626" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="tools" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="" />
     <property name="name" nameId="tpck.1169194664001" value="Message" />
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="an error message produced by a tool" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />

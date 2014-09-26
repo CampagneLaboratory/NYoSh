@@ -37,6 +37,8 @@
   <usedDevKits>
     <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>
   </usedDevKits>
-  <extendedLanguages />
+  <extendedLanguages>
+    <extendedLanguage>a8fb88b0-7e9f-478c-aab4-a1b076131192(org.campagnelab.gobyweb.interactive)</extendedLanguage>
+  </extendedLanguages>
 </language>
 
