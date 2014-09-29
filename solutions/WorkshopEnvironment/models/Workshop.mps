@@ -11,6 +11,8 @@
   <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="30" implicit="yes" />
   <import index="dzk5" modelUID="r:2bfcc546-5c51-4762-9df2-c43920be4458(org.campagnelab.gobyweb.plugins.structure)" version="4" implicit="yes" />
   <import index="u5kh" modelUID="r:da6c53ea-9b36-4ecc-8d36-50c82663565f(org.campagnelab.gobyweb.interactive.sharing.structure)" version="-1" implicit="yes" />
+  <import index="bbh2" modelUID="r:220d24dc-c962-4ed8-b674-7bde9fb2980c(org.campagnelab.gobyweb.monitoring.structure)" version="4" implicit="yes" />
+  <import index="7aad" modelUID="r:37fbe713-b4ed-4c3f-becb-5bf827fba401(org.campagnelab.gobyweb.interactive.samples.structure)" version="1" implicit="yes" />
   <import index="jlq1" modelUID="r:0f28fa4d-9625-4db3-91b7-0ff856663fbf(org.campagnelab.gobyweb.interactive.mergeplan.structure)" version="-1" implicit="yes" />
   <root type="9k5.ExecutionNode" typeId="9k5.3050176288337501843" id="3648805790695518925" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="SubmissionNode" />
@@ -37,380 +39,156 @@
   </root>
   <root type="whle.Logger" typeId="whle.1925991773566712428" id="570070230394844591" nodeInfo="ng">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="" />
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716538211" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716756515" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value FAKETAG" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716538212" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@3446647c" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716538213" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716538214" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@17524bb4" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716538215" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716538216" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@3eea4b81" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716538217" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716538218" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@4815ace7" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716538219" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MPS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716538220" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716538221" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@e0bf9bf" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716538222" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716538223" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@26192a4d" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716538224" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716538225" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716538226" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@5a06d701" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716538227" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716538228" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@3dfe3c73" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716538229" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716538230" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@622b2402" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716538231" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716538232" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@7a5e16f1" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716538233" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=RJAVA" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716538234" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Executed success method" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.reload" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716540175" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Manager is null" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.connect" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716540176" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="StatefulFileSetRPCManager connected" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.connect" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716541092" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716756533" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Found 1 distinctFileSetTypeIds" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.register" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716541093" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716756534" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Obtained assignedTags=" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.register" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716541930" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="fetching metadata..." />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716756666" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Submit pressed" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716541931" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="metadata fetched" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716756674" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Preparing the job parameters" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716541934" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Found entry MERGE_PLAN" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716756675" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="FileSetArea.path=/pbtech_mounts/fclab_ctsc_store002/nyosh_shared/FILESET_AREA/" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716678859" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Disconnected" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716756676" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Submitting the job to the cluster with parameters{--plugins-dir,/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins,--job,PROCESS_READS_TASK,--job-tag,TKKMWJU,--owner,instructor,--queue,campagne_ctsc.q,--job-area,nyosh_shared@petey.med.cornell.edu:/home/nyosh_shared/SGE_JOBS,--fileset-area,/pbtech_mounts/fclab_ctsc_store002/nyosh_shared/FILESET_AREA/,--repository,/scratchLocal/nyosh_shared/,--artifact-server,nyosh_shared@petey.med.cornell.edu:/home/nyosh_shared/gobyweb2-plugins,--broker-hostname,toulouse.qib.pbtech,--broker-port,5672,--TAG,pickrell-NA19203_argonne,UPLOADS_FILES:,DKCNADT,UPLOAD_MERGE_PLAN:,GBWGJDF}" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716678961" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.connect" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716756687" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Subscribing the listener to" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.subscribe" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716678962" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="StatefulFileSetRPCManager connected" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.connect" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716756688" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Listener successfully subscribed for notifications about job TKKMWJU" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.subscribe" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716679066" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Invoking manager to share instance PXSHIVS with nyosh01,nyosh02,nyosh03,nyosh04,nyosh05,nyosh06,nyosh07,nyosh08,nyosh09,nyosh010" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716756689" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Enabling auto refresh" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.enableAutoRefresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716756690" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Updater successfully started" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.enableAutoRefresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716758142" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Job successfully submitted with tag TKKMWJU" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716758143" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Job folder: nyosh_shared@petey.med.cornell.edu:/home/nyosh_shared/SGE_JOBS/instructor/T/TKKMWJU" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716758157" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="refresh invoked" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378717716229" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Invoking manager to share instance null with nyosh01,nyosh02,nyosh03,nyosh04,nyosh05,nyosh06,nyosh07,nyosh08,nyosh09,nyosh010" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.share" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716679067" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Instance successfully shared PXSHIVS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.share" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716679069" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Invoking manager to share instance AQLAHQX with nyosh01,nyosh02,nyosh03,nyosh04,nyosh05,nyosh06,nyosh07,nyosh08,nyosh09,nyosh010" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.share" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716679070" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Instance successfully shared AQLAHQX" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.share" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716679072" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Invoking manager to share instance OQDJMMC with nyosh01,nyosh02,nyosh03,nyosh04,nyosh05,nyosh06,nyosh07,nyosh08,nyosh09,nyosh010" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.share" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716679073" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Instance successfully shared OQDJMMC" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.share" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716679075" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Invoking manager to share instance PNCHFVE with nyosh01,nyosh02,nyosh03,nyosh04,nyosh05,nyosh06,nyosh07,nyosh08,nyosh09,nyosh010" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.share" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716679076" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Instance successfully shared PNCHFVE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.share" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716679078" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Invoking manager to share instance OIVPNEY with nyosh01,nyosh02,nyosh03,nyosh04,nyosh05,nyosh06,nyosh07,nyosh08,nyosh09,nyosh010" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.share" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716679079" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Instance successfully shared OIVPNEY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.share" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716679203" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="fetching metadata..." />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716679204" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="metadata fetched" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716679223" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Found entry COMPACT_READ_FILES" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716679343" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="fetching metadata..." />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716679344" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="metadata fetched" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716679363" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Found entry COMPACT_READ_FILES" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716679483" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="fetching metadata..." />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716679484" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="metadata fetched" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716679503" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Found entry COMPACT_READ_FILES" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716679623" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="fetching metadata..." />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716679624" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="metadata fetched" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716679643" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Found entry COMPACT_READ_FILES" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716682843" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found tag null" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716682844" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found 1 files with same tag" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716682845" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="fileIds was empty, adding !null!." />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716682846" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Processing preview with tag= null" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716682848" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding file /Users/mas2182/Lab/Projects/GobyWeb/data/pickrell/ZBQVITF-pickrell-NA19203_yale.compact-reads" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716682849" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found #ids:2" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716682851" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding type COMPACT_READS to file /Users/mas2182/Lab/Projects/GobyWeb/data/pickrell/ZBQVITF-pickrell-NA19203_yale.compact-reads" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716682853" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding type SUPPORTED_INPUT_READS to file /Users/mas2182/Lab/Projects/GobyWeb/data/pickrell/ZBQVITF-pickrell-NA19203_yale.compact-reads" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716682858" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Attaching attributes from COMPACT_READS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716682859" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Number of valid mappings definition found 4" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716682860" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Found valid mappings definition for COMPACT_READS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716682867" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Attaching attributes from SUPPORTED_INPUT_READS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716682868" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Number of valid mappings definition found 4" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716682869" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Found valid mappings definition for SUPPORTED_INPUT_READS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716682992" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found tag null" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716682993" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found 1 files with same tag" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716682994" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="fileIds was empty, adding !null!." />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716682995" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Processing preview with tag= null" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716682997" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding file /Users/mas2182/Lab/Projects/GobyWeb/data/pickrell/AHSSOOT-pickrell-NA19203_argonne.compact-reads" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716682998" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found #ids:2" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716683000" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding type COMPACT_READS to file /Users/mas2182/Lab/Projects/GobyWeb/data/pickrell/AHSSOOT-pickrell-NA19203_argonne.compact-reads" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716683002" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding type SUPPORTED_INPUT_READS to file /Users/mas2182/Lab/Projects/GobyWeb/data/pickrell/AHSSOOT-pickrell-NA19203_argonne.compact-reads" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716683007" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Attaching attributes from COMPACT_READS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716683008" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Number of valid mappings definition found 4" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716683009" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Found valid mappings definition for COMPACT_READS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716683016" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Attaching attributes from SUPPORTED_INPUT_READS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716683017" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Number of valid mappings definition found 4" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716683018" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Found valid mappings definition for SUPPORTED_INPUT_READS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716683140" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found tag null" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716683141" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found 1 files with same tag" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716683142" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Processing preview with tag= DKCNADT" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716683144" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding file /Users/mas2182/Lab/Projects/GobyWeb/data/pickrell/AHSSOOT-pickrell-NA19203_argonne.compact-reads" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716683145" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found #ids:1" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716683147" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding type SUPPORTED_INPUT_READS to file /Users/mas2182/Lab/Projects/GobyWeb/data/pickrell/AHSSOOT-pickrell-NA19203_argonne.compact-reads" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716683151" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Attaching attributes from SUPPORTED_INPUT_READS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716683152" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Number of valid mappings definition found 4" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716683153" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Found valid mappings definition for SUPPORTED_INPUT_READS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716683275" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Found distinct tags=null" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378717716230" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Could not share an exception occurred Tag cannot be empty" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.register" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716683282" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Found 1 distinctFileSetTypeIds" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378717716232" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Invoking manager to share instance null with nyosh01,nyosh02,nyosh03,nyosh04,nyosh05,nyosh06,nyosh07,nyosh08,nyosh09,nyosh010" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.share" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378717716233" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Could not share an exception occurred Tag cannot be empty" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.register" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716683283" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Obtained assignedTags=" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378717716235" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Invoking manager to share instance null with nyosh01,nyosh02,nyosh03,nyosh04,nyosh05,nyosh06,nyosh07,nyosh08,nyosh09,nyosh010" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.share" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378717716236" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Could not share an exception occurred Tag cannot be empty" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.register" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716686480" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378717716238" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Invoking manager to share instance null with nyosh01,nyosh02,nyosh03,nyosh04,nyosh05,nyosh06,nyosh07,nyosh08,nyosh09,nyosh010" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.share" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378717716239" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Could not share an exception occurred Tag cannot be empty" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.register" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378717716241" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Invoking manager to share instance null with nyosh01,nyosh02,nyosh03,nyosh04,nyosh05,nyosh06,nyosh07,nyosh08,nyosh09,nyosh010" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.share" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378717716242" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Could not share an exception occurred Tag cannot be empty" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.register" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378717716244" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Invoking manager to share instance null with nyosh01,nyosh02,nyosh03,nyosh04,nyosh05,nyosh06,nyosh07,nyosh08,nyosh09,nyosh010" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.share" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378717716245" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Could not share an exception occurred Tag cannot be empty" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.register" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378718849753" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Invoking manager to share instance DKCNADT with nyosh01,nyosh02,nyosh03,nyosh04,nyosh05,nyosh06,nyosh07,nyosh08,nyosh09,nyosh010" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.share" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716686481" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378718849754" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Instance successfully shared DKCNADT" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.share" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716686602" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="fetching metadata..." />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378718849756" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Invoking manager to share instance MFBNIWE with nyosh01,nyosh02,nyosh03,nyosh04,nyosh05,nyosh06,nyosh07,nyosh08,nyosh09,nyosh010" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.share" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716686603" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="metadata fetched" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378718849757" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Instance successfully shared MFBNIWE" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.share" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378716686622" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Found entry COMPACT_READ_FILES" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378718849759" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Invoking manager to share instance OQDJMMC with nyosh01,nyosh02,nyosh03,nyosh04,nyosh05,nyosh06,nyosh07,nyosh08,nyosh09,nyosh010" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.share" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378718849760" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Instance successfully shared OQDJMMC" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.share" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378718849762" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Invoking manager to share instance PNCHFVE with nyosh01,nyosh02,nyosh03,nyosh04,nyosh05,nyosh06,nyosh07,nyosh08,nyosh09,nyosh010" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.share" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378718849763" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Instance successfully shared PNCHFVE" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.share" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378718849765" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Invoking manager to share instance OIVPNEY with nyosh01,nyosh02,nyosh03,nyosh04,nyosh05,nyosh06,nyosh07,nyosh08,nyosh09,nyosh010" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.share" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378718849766" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Instance successfully shared OIVPNEY" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.share" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378718849768" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Invoking manager to share instance PXSHIVS with nyosh01,nyosh02,nyosh03,nyosh04,nyosh05,nyosh06,nyosh07,nyosh08,nyosh09,nyosh010" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.share" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8560093378718849769" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Instance successfully shared PXSHIVS" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.share" />
     </node>
   </root>
   <root type="9k5.ExecutionNode" typeId="9k5.3050176288337501843" id="8711817271675662831" nodeInfo="ng">
@@ -6480,33 +6258,145 @@
         <property name="size" nameId="bs99.2740821845424881124" value="385 MB" />
       </node>
     </node>
+    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="8560093378716756529" nodeInfo="ng">
+      <property name="size" nameId="bs99.2740821845424982900" value="0" />
+      <property name="tag" nameId="bs99.2051553890368778934" value="GBWGJDF" />
+      <property name="name" nameId="tpck.1169194664001" value="merge-plan" />
+      <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="8560093378716537561" resolveInfo="GOBYWEB_MERGE_PLAN_FILE" />
+    </node>
   </root>
   <root type="bs99.ExecutionTool" typeId="bs99.2465489689642685978" id="8105799869329382959" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="ExecutionTool" />
-    <property name="jobName" nameId="bs99.606449909789338951" value="Pickrell3" />
+    <property name="jobName" nameId="bs99.606449909789338951" value="Pickrell1" />
+    <property name="message" nameId="bs99.3927327347527013400" value="Job successfully submitted. Assigned tag: TKKMWJU" />
     <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="3648805790695509200" resolveInfo="ClusterEnvironment" />
     <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="8560093378716537701" resolveInfo="PROCESS_READS_TASK" />
-    <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="8560093378716536275" nodeInfo="ng">
+    <link role="currentJob" roleId="bs99.5540992037659823465" targetNodeId="8560093378716756667" resolveInfo="Pickrell1" />
+    <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="8560093378716756508" nodeInfo="ng">
       <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="8560093378716537708" resolveInfo="UPLOADS_FILES" />
-      <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="8560093378716536391" nodeInfo="ng">
-        <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="8105799869329362106" resolveInfo="AHSSOOT-pickrell-NA19203_argonne" />
+      <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="8560093378716756521" nodeInfo="ng">
+        <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="8560093378716683143" resolveInfo="AHSSOOT-pickrell-NA19203_argonne" />
       </node>
     </node>
-    <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="8560093378716536276" nodeInfo="ng">
+    <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="8560093378716756509" nodeInfo="ng">
       <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="8560093378716537710" resolveInfo="UPLOAD_MERGE_PLAN" />
-      <node role="values" roleId="bs99.2995632242847956813" type="jlq1.MergePlanEditor" typeId="jlq1.8273662917775851475" id="8560093378716536393" nodeInfo="ng">
-        <link role="registeredMergePlanFSInstance" roleId="jlq1.8273662917776369954" targetNodeId="8560093378716541088" resolveInfo="merge-plan" />
+      <node role="values" roleId="bs99.2995632242847956813" type="jlq1.MergePlanEditor" typeId="jlq1.8273662917775851475" id="8560093378716756523" nodeInfo="ng">
+        <link role="registeredMergePlanFSInstance" roleId="jlq1.8273662917776369954" targetNodeId="8560093378716756529" resolveInfo="merge-plan" />
       </node>
     </node>
-    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="8560093378716536277" nodeInfo="ng">
+    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="8560093378716756510" nodeInfo="ng">
       <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="8560093378716537725" resolveInfo="Tag for the new sample." />
-      <node role="value" roleId="bs99.6506431596944968310" type="bs99.StringOptionValue" typeId="bs99.606449909792929476" id="8560093378716536281" nodeInfo="ng">
-        <property name="value" nameId="bs99.606449909792929477" value="FAKETAG" />
+      <node role="value" roleId="bs99.6506431596944968310" type="bs99.StringOptionValue" typeId="bs99.606449909792929476" id="8560093378716756514" nodeInfo="ng">
+        <property name="value" nameId="bs99.606449909792929477" value="pickrell-NA19203_argonne" />
       </node>
     </node>
+    <node role="listeners" roleId="bs99.7744544840734386662" type="7aad.ObjectCreationHelper" typeId="7aad.7744544840731999292" id="8560093378716756673" nodeInfo="ng" />
   </root>
   <root type="bs99.JobContainer" typeId="bs99.6642819616986824926" id="8105799869329384708" nodeInfo="ng">
     <link role="environment" roleId="bs99.6642819616986825109" targetNodeId="3648805790695509200" resolveInfo="ClusterEnvironment" />
+    <node role="jobs" roleId="bs99.6642819616986825107" type="bs99.Job" typeId="bs99.2051553890368756070" id="8560093378716756667" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="Pickrell1" />
+      <property name="assignedTag" nameId="bs99.2408108650474877836" value="TKKMWJU" />
+      <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="8560093378716537701" resolveInfo="PROCESS_READS_TASK" />
+      <link role="executionEnvironment" roleId="bs99.2051553890368806506" targetNodeId="3648805790695509200" resolveInfo="ClusterEnvironment" />
+      <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="8560093378716756668" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="UPLOADS_FILES" />
+        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="8560093378716756669" nodeInfo="ng">
+          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="8560093378716683143" resolveInfo="AHSSOOT-pickrell-NA19203_argonne" />
+        </node>
+      </node>
+      <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="8560093378716756670" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="UPLOAD_MERGE_PLAN" />
+        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="8560093378716756671" nodeInfo="ng">
+          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="8560093378716756529" resolveInfo="merge-plan" />
+        </node>
+      </node>
+      <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="8560093378716756672" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="TAG" />
+        <property name="value" nameId="bs99.606449909793678507" value="pickrell-NA19203_argonne" />
+      </node>
+      <node role="results" roleId="bs99.606449909788800957" type="bs99.JobResult" typeId="bs99.2051553890369292719" id="8560093378716756677" nodeInfo="ng">
+        <property name="output" nameId="bs99.2051553890369299989" value="SUBMITTED" />
+      </node>
+      <node role="monitor" roleId="bs99.5540992037659759954" type="bbh2.JobMonitor" typeId="bbh2.2017323193335723531" id="8560093378716756679" nodeInfo="ng">
+        <property name="jobtag" nameId="bbh2.2017323193335729124" value="TKKMWJU" />
+        <link role="broker" roleId="bbh2.2017323193335950083" targetNodeId="1212232161621136016" resolveInfo="brokerForMonitor" />
+        <node role="viewer" roleId="bbh2.2017323193335764208" type="bbh2.MessageViewer" typeId="bbh2.2017323193335763037" id="8560093378716756680" nodeInfo="ng">
+          <property name="jobStatus" nameId="bbh2.8711817271669511123" value="running" />
+          <property name="messageCounter" nameId="bbh2.8711817271669613111" value="4" />
+          <property name="message" nameId="bbh2.6041342965312064113" value="refresh invoked" />
+          <property name="autoRefresh" nameId="bbh2.1011954325398115419" value="false" />
+          <link role="listener" roleId="bbh2.1526708538680794525" targetNodeId="8560093378716756681" resolveInfo="NYoSh-TKKMWJU" />
+          <link role="eventListener" roleId="bbh2.1212232161626043352" targetNodeId="8560093378716756679" />
+          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="8560093378716758160" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="RUNNING" />
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="8560093378716758158" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="waldo.pbtech" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Mon Sep 29 10:10:34 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="8560093378716758159" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="Installing mandatory plugin artifacts" />
+              </node>
+            </node>
+          </node>
+          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="8560093378716758163" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="resources" />
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="8560093378716758161" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="waldo.pbtech" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Mon Sep 29 10:10:36 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="8560093378716758162" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="Installing plugin mandatory resources" />
+              </node>
+            </node>
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="8560093378716758164" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="waldo.pbtech" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="ERROR" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Mon Sep 29 10:10:37 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="8560093378716758165" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="Unable to install artifacts. Aborting" />
+              </node>
+            </node>
+          </node>
+          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="8560093378716758168" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="submitted" />
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="8560093378716758166" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="petey.med.cornell.edu" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Mon Sep 29 10:10:41 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="8560093378716758167" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="Task submitted: 357136" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="listener" roleId="bbh2.2017323193335730758" type="bbh2.MessageListener" typeId="bbh2.2017323193335730757" id="8560093378716756681" nodeInfo="ng">
+          <property name="subscribed" nameId="bbh2.2017323193335803495" value="false" />
+          <property name="jobTag" nameId="bbh2.2017323193335763033" value="TKKMWJU" />
+          <property name="name" nameId="tpck.1169194664001" value="NYoSh-TKKMWJU" />
+          <link role="broker" roleId="bbh2.2017323193335803042" targetNodeId="1212232161621136016" resolveInfo="brokerForMonitor" />
+        </node>
+        <node role="jobStatusListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobListener" typeId="bs99.1212232161626260983" id="8560093378716756682" nodeInfo="ng">
+          <property name="rank" nameId="bbh2.7926097513313212588" value="0" />
+          <link role="job" roleId="bs99.1212232161627127088" targetNodeId="8560093378716756667" resolveInfo="Pickrell1" />
+        </node>
+        <node role="fileSetStatusListeners" roleId="bbh2.6587162469552453227" type="bs99.RegisterFileSetListener" typeId="bs99.3403061721254603833" id="8560093378716756685" nodeInfo="ng">
+          <property name="rank" nameId="bbh2.6587162469552164420" value="1" />
+          <link role="job" roleId="bs99.3403061721254603840" targetNodeId="8560093378716756667" resolveInfo="Pickrell1" />
+        </node>
+        <node role="fileSetStatusListeners" roleId="bbh2.6587162469552453227" type="7aad.ListenForSampleFileSets" typeId="7aad.7926097513313207836" id="8560093378716756683" nodeInfo="ng">
+          <property name="rank" nameId="bbh2.6587162469552164420" value="100" />
+        </node>
+        <node role="fileSetStatusListeners" roleId="bbh2.6587162469552453227" type="7aad.ListenForAlignmentFileSets" typeId="7aad.6587162469555572132" id="8560093378716756684" nodeInfo="ng">
+          <property name="rank" nameId="bbh2.6587162469552164420" value="200" />
+        </node>
+        <node role="fileSetStatusListeners" roleId="bbh2.6587162469552453227" type="7aad.ListenForAlignmentAnalysisFileSets" typeId="7aad.8524130661366375999" id="8560093378716756686" nodeInfo="ng">
+          <property name="rank" nameId="bbh2.6587162469552164420" value="300" />
+        </node>
+      </node>
+    </node>
   </root>
   <root type="u5kh.SharingTool" typeId="u5kh.8982654668860900090" id="8105799869331084051" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="SharingTool" />
@@ -6540,48 +6430,49 @@
     <node role="users" roleId="u5kh.8982654668860915046" type="czzw.UserRef" typeId="czzw.8982654668860914855" id="8105799869332024150" nodeInfo="ng">
       <link role="user" roleId="czzw.8982654668860914861" targetNodeId="3423755852522076232" resolveInfo="NYoSh 10" />
     </node>
-    <node role="messages" roleId="u5kh.3423755852520738540" type="u5kh.Message" typeId="u5kh.6393277187635893626" id="8105799869331084077" nodeInfo="ng">
-      <property name="error" nameId="u5kh.6393277187635893627" value="true" />
-      <property name="description" nameId="u5kh.6393277187635893629" value="Failed to share Instance AHSSOOT-pickrell-NA19203_argonne" />
+    <node role="instances" roleId="u5kh.8982654668860900776" type="bs99.FileSetInstanceRefSet" typeId="bs99.2835705609407426008" id="8560093378717716167" nodeInfo="ng">
+      <node role="refs" roleId="bs99.2835705609407426009" type="bs99.FileSetInstanceReference" typeId="bs99.2835705609407425062" id="8560093378717716171" nodeInfo="ng">
+        <link role="fileSetInstance" roleId="bs99.2835705609407425063" targetNodeId="8560093378716683143" resolveInfo="AHSSOOT-pickrell-NA19203_argonne" />
+      </node>
+      <node role="refs" roleId="bs99.2835705609407426009" type="bs99.FileSetInstanceReference" typeId="bs99.2835705609407425062" id="8560093378717716177" nodeInfo="ng">
+        <link role="fileSetInstance" roleId="bs99.2835705609407425063" targetNodeId="8105799869329362124" resolveInfo="AXNKJBI-pickrell-NA19222_argonne" />
+      </node>
+      <node role="refs" roleId="bs99.2835705609407426009" type="bs99.FileSetInstanceReference" typeId="bs99.2835705609407425062" id="8560093378717716185" nodeInfo="ng">
+        <link role="fileSetInstance" roleId="bs99.2835705609407425063" targetNodeId="8105799869329362148" resolveInfo="HRXABYP-pickrell-NA19239_yale" />
+      </node>
+      <node role="refs" roleId="bs99.2835705609407426009" type="bs99.FileSetInstanceReference" typeId="bs99.2835705609407425062" id="8560093378717716195" nodeInfo="ng">
+        <link role="fileSetInstance" roleId="bs99.2835705609407425063" targetNodeId="8105799869329362160" resolveInfo="KNBJXDZ-pickrell-NA19201_yale" />
+      </node>
+      <node role="refs" roleId="bs99.2835705609407426009" type="bs99.FileSetInstanceReference" typeId="bs99.2835705609407425062" id="8560093378717716207" nodeInfo="ng">
+        <link role="fileSetInstance" roleId="bs99.2835705609407425063" targetNodeId="8105799869329362172" resolveInfo="OMVLDZB-pickrell-NA19238_yale" />
+      </node>
+      <node role="refs" roleId="bs99.2835705609407426009" type="bs99.FileSetInstanceReference" typeId="bs99.2835705609407425062" id="8560093378717716221" nodeInfo="ng">
+        <link role="fileSetInstance" roleId="bs99.2835705609407425063" targetNodeId="8105799869329362136" resolveInfo="IKKOOYO-pickrell-NA19210_argonne" />
+      </node>
     </node>
-    <node role="messages" roleId="u5kh.3423755852520738540" type="u5kh.Message" typeId="u5kh.6393277187635893626" id="8105799869331093764" nodeInfo="ng">
+    <node role="messages" roleId="u5kh.3423755852520738540" type="u5kh.Message" typeId="u5kh.6393277187635893626" id="8560093378718849755" nodeInfo="ng">
       <property name="error" nameId="u5kh.6393277187635893627" value="false" />
       <property name="description" nameId="u5kh.6393277187635893629" value="Instance AHSSOOT-pickrell-NA19203_argonne successfully shared" />
     </node>
-    <node role="messages" roleId="u5kh.3423755852520738540" type="u5kh.Message" typeId="u5kh.6393277187635893626" id="8105799869332024164" nodeInfo="ng">
-      <property name="error" nameId="u5kh.6393277187635893627" value="false" />
-      <property name="description" nameId="u5kh.6393277187635893629" value="Instance AHSSOOT-pickrell-NA19203_argonne successfully shared" />
-    </node>
-    <node role="messages" roleId="u5kh.3423755852520738540" type="u5kh.Message" typeId="u5kh.6393277187635893626" id="8105799869332050175" nodeInfo="ng">
+    <node role="messages" roleId="u5kh.3423755852520738540" type="u5kh.Message" typeId="u5kh.6393277187635893626" id="8560093378718849758" nodeInfo="ng">
       <property name="error" nameId="u5kh.6393277187635893627" value="false" />
       <property name="description" nameId="u5kh.6393277187635893629" value="Instance AXNKJBI-pickrell-NA19222_argonne successfully shared" />
     </node>
-    <node role="messages" roleId="u5kh.3423755852520738540" type="u5kh.Message" typeId="u5kh.6393277187635893626" id="8560093378716679068" nodeInfo="ng">
-      <property name="error" nameId="u5kh.6393277187635893627" value="false" />
-      <property name="description" nameId="u5kh.6393277187635893629" value="Instance IKKOOYO-pickrell-NA19210_argonne successfully shared" />
-    </node>
-    <node role="messages" roleId="u5kh.3423755852520738540" type="u5kh.Message" typeId="u5kh.6393277187635893626" id="8560093378716679071" nodeInfo="ng">
-      <property name="error" nameId="u5kh.6393277187635893627" value="false" />
-      <property name="description" nameId="u5kh.6393277187635893629" value="Instance AHSSOOT-pickrell-NA19203_argonne successfully shared" />
-    </node>
-    <node role="messages" roleId="u5kh.3423755852520738540" type="u5kh.Message" typeId="u5kh.6393277187635893626" id="8560093378716679074" nodeInfo="ng">
+    <node role="messages" roleId="u5kh.3423755852520738540" type="u5kh.Message" typeId="u5kh.6393277187635893626" id="8560093378718849761" nodeInfo="ng">
       <property name="error" nameId="u5kh.6393277187635893627" value="false" />
       <property name="description" nameId="u5kh.6393277187635893629" value="Instance HRXABYP-pickrell-NA19239_yale successfully shared" />
     </node>
-    <node role="messages" roleId="u5kh.3423755852520738540" type="u5kh.Message" typeId="u5kh.6393277187635893626" id="8560093378716679077" nodeInfo="ng">
+    <node role="messages" roleId="u5kh.3423755852520738540" type="u5kh.Message" typeId="u5kh.6393277187635893626" id="8560093378718849764" nodeInfo="ng">
       <property name="error" nameId="u5kh.6393277187635893627" value="false" />
       <property name="description" nameId="u5kh.6393277187635893629" value="Instance KNBJXDZ-pickrell-NA19201_yale successfully shared" />
     </node>
-    <node role="messages" roleId="u5kh.3423755852520738540" type="u5kh.Message" typeId="u5kh.6393277187635893626" id="8560093378716679080" nodeInfo="ng">
+    <node role="messages" roleId="u5kh.3423755852520738540" type="u5kh.Message" typeId="u5kh.6393277187635893626" id="8560093378718849767" nodeInfo="ng">
       <property name="error" nameId="u5kh.6393277187635893627" value="false" />
       <property name="description" nameId="u5kh.6393277187635893629" value="Instance OMVLDZB-pickrell-NA19238_yale successfully shared" />
     </node>
-    <node role="instances" roleId="u5kh.8982654668860900776" type="bs99.FileSetInstanceReference" typeId="bs99.2835705609407425062" id="8560093378716686478" nodeInfo="ng">
-      <link role="fileSetInstance" roleId="bs99.2835705609407425063" targetNodeId="8560093378716683143" resolveInfo="AHSSOOT-pickrell-NA19203_argonne" />
-    </node>
-    <node role="messages" roleId="u5kh.3423755852520738540" type="u5kh.Message" typeId="u5kh.6393277187635893626" id="8560093378716686482" nodeInfo="ng">
+    <node role="messages" roleId="u5kh.3423755852520738540" type="u5kh.Message" typeId="u5kh.6393277187635893626" id="8560093378718849770" nodeInfo="ng">
       <property name="error" nameId="u5kh.6393277187635893627" value="false" />
-      <property name="description" nameId="u5kh.6393277187635893629" value="Instance AHSSOOT-pickrell-NA19203_argonne successfully shared" />
+      <property name="description" nameId="u5kh.6393277187635893629" value="Instance IKKOOYO-pickrell-NA19210_argonne successfully shared" />
     </node>
   </root>
 </model>
