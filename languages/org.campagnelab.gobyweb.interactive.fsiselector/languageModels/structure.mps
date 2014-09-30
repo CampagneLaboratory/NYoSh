@@ -31,7 +31,24 @@
       <property name="name" nameId="tpck.1169194664001" value="query" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
     </node>
-    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.AttributeInfo" typeId="tpce.2992811758677295509" id="8560093378718863069" nodeInfo="ng" />
+    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.AttributeInfo" typeId="tpce.2992811758677295509" id="8560093378718863069" nodeInfo="ng">
+      <property name="role" nameId="tpce.7588428831955550663" value="multiSelectionHelper" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8560093378719055560" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="FSI_MultiSelectorHelperForRefSet" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Annotation to help select multiple file set instances in a reference set" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="multiSelectionHelper" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="8560093378718861750" resolveInfo="AbstractFSIMultiSelectionHelper" />
+    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.AttributeInfo" typeId="tpce.2992811758677295509" id="8560093378719055568" nodeInfo="ng">
+      <property name="role" nameId="tpce.7588428831955550663" value="multiSelectionHelper" />
+      <node role="attributed" roleId="tpce.7588428831947959310" type="tpce.AttributeInfo_AttributedConcept" typeId="tpce.6054523464627964745" id="8560093378719055570" nodeInfo="ng">
+        <link role="concept" roleId="tpce.6054523464627965081" targetNodeId="bs99.2835705609407426008" resolveInfo="FileSetInstanceRefSet" />
+      </node>
+      <node role="multiple" roleId="tpce.7588428831955550186" type="tpce.AttributeInfo_IsMultiple" typeId="tpce.6054523464626862044" id="8560093378719487455" nodeInfo="ng">
+        <property name="value" nameId="tpce.6054523464626875854" value="false" />
+      </node>
+    </node>
   </root>
 </model>
 
