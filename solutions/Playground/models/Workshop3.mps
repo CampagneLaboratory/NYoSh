@@ -5986,10 +5986,6 @@
       </node>
     </node>
   </root>
-  <root type="7aad.GobyWebReadSample" typeId="7aad.7926097513313663840" id="8105799869332499193" nodeInfo="ng">
-    <property name="tag" nameId="7aad.7926097513313697603" value="NTNYUIL" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="samples" />
-  </root>
   <root type="bs99.ExecutionTool" typeId="bs99.2465489689642685978" id="8560093378716509833" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="ExecutionTool" />
     <property name="jobName" nameId="bs99.606449909789338951" value="First" />
