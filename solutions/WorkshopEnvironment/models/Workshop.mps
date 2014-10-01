@@ -15,6 +15,8 @@
   <import index="bd2x" modelUID="r:aa9c91aa-8100-4e98-88e5-b9737f1d54b8(model.organisms)" version="-1" implicit="yes" />
   <import index="7c6v" modelUID="r:5ff8ae95-054c-4cda-b392-b0e2d796b9da(org.campagnelab.lucene.tableviewer.structure)" version="7" implicit="yes" />
   <import index="67aq" modelUID="r:26b732da-95fd-458a-87cd-f23b1896a719(org.campagnelab.gobyweb.interactive.fsiselector.structure)" version="-1" implicit="yes" />
+  <import index="dzk5" modelUID="r:2bfcc546-5c51-4762-9df2-c43920be4458(org.campagnelab.gobyweb.plugins.structure)" version="4" implicit="yes" />
+  <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="30" implicit="yes" />
   <root type="9k5.ExecutionNode" typeId="9k5.3050176288337501843" id="3648805790695518925" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="SubmissionNode" />
     <property name="server" nameId="9k5.3050176288337501845" value="petey.med.cornell.edu" />
@@ -40,416 +42,572 @@
   </root>
   <root type="whle.Logger" typeId="whle.1925991773566712428" id="570070230394844591" nodeInfo="ng">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="" />
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098125" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098126" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@29927d97" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098127" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098128" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@2fe86ec3" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098129" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098130" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@3808f95d" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098131" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=SCALA" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098132" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@52f7ff5a" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098133" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=R" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098134" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@7bcef966" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098135" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=DESEQ_SCRIPT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098136" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@6778d39b" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098137" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=EDGE_R_SCRIPT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098138" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098139" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@dca1601" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098140" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098141" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@1c37ace4" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098142" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098143" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@7fa8fca2" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098144" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=ANNOTATE_VCF" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098145" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098146" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@6aa82e24" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098147" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098148" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@33e27b98" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098149" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098150" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@26e13467" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098151" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=BWA_WITH_GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098152" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@771c5115" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098153" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098154" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@2d7dfef1" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098155" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MPS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098156" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098157" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@4de18f8c" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098158" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098159" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@6891aafb" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098160" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098161" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@2acae077" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098162" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=BWA_WITH_GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098163" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@4a2ec90e" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098164" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MPS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098165" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098166" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@5205c49b" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098167" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098168" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@4fc2d1d9" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098169" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098170" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098171" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@64ceb1c1" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098172" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098173" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@fc5058d" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098174" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098175" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@388219bf" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098176" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098177" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@1cfd086" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098178" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MPS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098179" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098180" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@55713881" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098181" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098182" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@3b616fa" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098183" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098184" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@2c4d567d" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098185" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098186" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@587edf37" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098187" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MPS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098188" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098189" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@67c0dbfb" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098190" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098191" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@3519a295" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098192" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098193" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@7c995897" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098194" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098195" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@779859ee" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098196" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=PROCESS_READS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098197" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@20100381" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098198" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=BASH_LIBRARY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098199" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098200" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@45b43a71" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999898392" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Enabling auto refresh" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.enableAutoRefresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999898393" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Updater successfully started" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.enableAutoRefresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999898394" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="refresh invoked" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999898395" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="reader is null" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999898566" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="refresh invoked" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999898570" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="OADHXQA" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999898571" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="#tags found: [OADHXQA]" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999898572" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Registered fileset message received" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.onJobCompleted" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999898574" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Add instance to FSI container: OADHXQA" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addToFSIContainer" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999898581" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Instance OADHXQA added to FSI container in ClusterEnvironment" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addToFSIContainer" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999898584" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="WCRCVYD" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999898585" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="#tags found: [WCRCVYD]" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999898586" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Registered fileset message received" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.onJobCompleted" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999898588" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Add instance to FSI container: WCRCVYD" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addToFSIContainer" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999898595" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Instance WCRCVYD added to FSI container in ClusterEnvironment" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addToFSIContainer" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999898596" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Checking downloaded entry READ_QUALITY_STATS=[/Users/mas2182/.gobyweb/filesets/tmp/W/WCRCVYD/pickrell-NA19238_yale.quality-stats.tsv]" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999898597" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found file /Users/mas2182/.gobyweb/filesets/tmp/W/WCRCVYD/pickrell-NA19238_yale.quality-stats.tsv" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999898600" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="CNEUYXN" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999898601" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="#tags found: [CNEUYXN]" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999898602" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Registered fileset message received" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.onJobCompleted" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999898604" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Add instance to FSI container: CNEUYXN" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addToFSIContainer" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999898611" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Instance CNEUYXN added to FSI container in ClusterEnvironment" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addToFSIContainer" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999898614" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="LXLAULM" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999898615" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="#tags found: [LXLAULM]" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999898616" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Registered fileset message received" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.onJobCompleted" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999898618" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Add instance to FSI container: LXLAULM" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addToFSIContainer" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999898637" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Instance LXLAULM added to FSI container in ClusterEnvironment" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addToFSIContainer" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999898640" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="JMYLEVB" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999898641" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="#tags found: [JMYLEVB]" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999898642" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Registered fileset message received" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.onJobCompleted" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999898644" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Add instance to FSI container: JMYLEVB" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addToFSIContainer" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999898651" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Instance JMYLEVB added to FSI container in ClusterEnvironment" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addToFSIContainer" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999898658" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Job completed message received" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.onJobCompleted" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999899953" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="refresh invoked" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999899974" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="JQZQIQG" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999899975" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="#tags found: [JQZQIQG]" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999899976" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Registered fileset message received" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.onJobCompleted" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999899978" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Add instance to FSI container: JQZQIQG" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addToFSIContainer" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999899985" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Instance JQZQIQG added to FSI container in ClusterEnvironment" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addToFSIContainer" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999899988" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="SHCZUZQ" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999899989" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="#tags found: [SHCZUZQ]" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999899990" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Registered fileset message received" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.onJobCompleted" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999899992" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Add instance to FSI container: SHCZUZQ" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addToFSIContainer" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999899999" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Instance SHCZUZQ added to FSI container in ClusterEnvironment" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addToFSIContainer" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999900000" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Checking downloaded entry READ_QUALITY_STATS=[/Users/mas2182/.gobyweb/filesets/tmp/S/SHCZUZQ/pickrell-NA19238_yale.quality-stats.tsv]" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999900001" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found file /Users/mas2182/.gobyweb/filesets/tmp/S/SHCZUZQ/pickrell-NA19238_yale.quality-stats.tsv" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999900004" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="FBCUWCX" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999900005" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="#tags found: [FBCUWCX]" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999900006" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Registered fileset message received" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.onJobCompleted" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999900008" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Add instance to FSI container: FBCUWCX" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addToFSIContainer" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999900015" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Instance FBCUWCX added to FSI container in ClusterEnvironment" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addToFSIContainer" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999900018" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="CQVPHJL" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999900019" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="#tags found: [CQVPHJL]" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999900020" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Registered fileset message received" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.onJobCompleted" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999900022" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Add instance to FSI container: CQVPHJL" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addToFSIContainer" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999900041" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Instance CQVPHJL added to FSI container in ClusterEnvironment" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addToFSIContainer" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999900044" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="TLNYXDD" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999900045" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="#tags found: [TLNYXDD]" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999900046" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Registered fileset message received" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.onJobCompleted" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999900048" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Add instance to FSI container: TLNYXDD" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addToFSIContainer" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999900055" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Instance TLNYXDD added to FSI container in ClusterEnvironment" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addToFSIContainer" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999900062" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Job completed message received" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.onJobCompleted" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999901442" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="refresh invoked" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999901446" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="ALHHPVI" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999901447" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="#tags found: [ALHHPVI]" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999901448" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Registered fileset message received" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.onJobCompleted" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999901450" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Add instance to FSI container: ALHHPVI" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addToFSIContainer" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999901457" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Instance ALHHPVI added to FSI container in ClusterEnvironment" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addToFSIContainer" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999901460" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="KSUMTXQ" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999901461" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="#tags found: [KSUMTXQ]" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999901462" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Registered fileset message received" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.onJobCompleted" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999901464" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Add instance to FSI container: KSUMTXQ" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addToFSIContainer" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999901471" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Instance KSUMTXQ added to FSI container in ClusterEnvironment" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addToFSIContainer" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999901472" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Checking downloaded entry READ_QUALITY_STATS=[/Users/mas2182/.gobyweb/filesets/tmp/K/KSUMTXQ/pickrell-NA19238_yale.quality-stats.tsv]" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999901473" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found file /Users/mas2182/.gobyweb/filesets/tmp/K/KSUMTXQ/pickrell-NA19238_yale.quality-stats.tsv" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999901476" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="CTPAXSM" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098201" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999901477" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="#tags found: [CTPAXSM]" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098202" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@87ba76a" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098203" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098204" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@387b0aa7" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098205" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098206" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@73828fba" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098207" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MPS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098208" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098209" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@9a4d73e" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098210" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098211" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@11f393ae" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098212" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098213" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098214" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@3b24259a" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098215" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098216" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@38ad5148" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098217" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098218" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@42d19751" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098219" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098220" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@32b7c307" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098221" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=RJAVA" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997098222" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Executed success method" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.reload" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997126375" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Manager is null" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.connect" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997126376" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="StatefulFileSetRPCManager connected" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.connect" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323997841497" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Disconnected" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323998629852" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Manager is not null" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.connect" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323998629853" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="StatefulFileSetRPCManager connected" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.connect" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999901478" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Registered fileset message received" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.onJobCompleted" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999901480" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Add instance to FSI container: CTPAXSM" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addToFSIContainer" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999901487" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Instance CTPAXSM added to FSI container in ClusterEnvironment" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addToFSIContainer" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999901490" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="VADSBJP" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999901491" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="#tags found: [VADSBJP]" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999901492" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Registered fileset message received" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.onJobCompleted" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999901494" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Add instance to FSI container: VADSBJP" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addToFSIContainer" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999901513" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Instance VADSBJP added to FSI container in ClusterEnvironment" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addToFSIContainer" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999901516" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="MZCNQIT" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999901517" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="#tags found: [MZCNQIT]" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999901518" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Registered fileset message received" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.onJobCompleted" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999901520" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Add instance to FSI container: MZCNQIT" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addToFSIContainer" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999901527" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Instance MZCNQIT added to FSI container in ClusterEnvironment" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addToFSIContainer" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999901534" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Job completed message received" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.onJobCompleted" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999902971" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Subscribing the listener to" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.subscribe" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999902972" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Listener successfully subscribed for notifications about job PJDQLYH" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.subscribe" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999902973" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Enabling auto refresh" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.enableAutoRefresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999902974" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Updater successfully started" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.enableAutoRefresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999902975" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="refresh invoked" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999902976" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="reader is null" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999909334" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Found 1 distinctFileSetTypeIds" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.register" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999909335" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Obtained assignedTags=" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.register" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999910687" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Submit pressed" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999910695" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Preparing the job parameters" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999910696" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="FileSetArea.path=/pbtech_mounts/fclab_ctsc_store002/nyosh_shared/FILESET_AREA/" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999910697" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Submitting the job to the cluster with parameters{--plugins-dir,/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins,--job,PROCESS_READS_TASK,--job-tag,DJOSOSR,--owner,instructor,--queue,campagne_ctsc.q,--job-area,nyosh_shared@petey.med.cornell.edu:/home/nyosh_shared/SGE_JOBS,--fileset-area,/pbtech_mounts/fclab_ctsc_store002/nyosh_shared/FILESET_AREA/,--repository,/scratchLocal/nyosh_shared/,--artifact-server,nyosh_shared@petey.med.cornell.edu:/home/nyosh_shared/gobyweb2-plugins,--broker-hostname,toulouse.qib.pbtech,--broker-port,5672,--TAG,pickrell-NA19204_argonne,UPLOADS_FILES:,RIONYTH,UPLOAD_MERGE_PLAN:,LXTKDYU}" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999910708" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Subscribing the listener to" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.subscribe" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999910709" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Listener successfully subscribed for notifications about job DJOSOSR" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.subscribe" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999910710" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Enabling auto refresh" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.enableAutoRefresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999910711" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Updater successfully started" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.enableAutoRefresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999917682" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Job successfully submitted with tag DJOSOSR" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999917683" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Job folder: nyosh_shared@petey.med.cornell.edu:/home/nyosh_shared/SGE_JOBS/instructor/D/DJOSOSR" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999917793" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="refresh invoked" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999917946" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="refresh invoked" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999918068" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="refresh invoked" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999918069" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="reader is null" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999924968" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="refresh invoked" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999924972" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="QZJOUOE" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999924973" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="#tags found: [QZJOUOE]" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999924974" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Registered fileset message received" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.onJobCompleted" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999924976" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Add instance to FSI container: QZJOUOE" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addToFSIContainer" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999924983" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Instance QZJOUOE added to FSI container in ClusterEnvironment" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addToFSIContainer" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999924986" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="VRSLXJI" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999924987" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="#tags found: [VRSLXJI]" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999924988" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Registered fileset message received" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.onJobCompleted" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999924990" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Add instance to FSI container: VRSLXJI" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addToFSIContainer" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999924997" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Instance VRSLXJI added to FSI container in ClusterEnvironment" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addToFSIContainer" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999924998" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Checking downloaded entry READ_QUALITY_STATS=[/Users/mas2182/.gobyweb/filesets/tmp/V/VRSLXJI/pickrell-NA19204_argonne.quality-stats.tsv]" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999924999" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found file /Users/mas2182/.gobyweb/filesets/tmp/V/VRSLXJI/pickrell-NA19204_argonne.quality-stats.tsv" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999925002" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="UNJHHYE" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999925003" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="#tags found: [UNJHHYE]" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999925004" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Registered fileset message received" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.onJobCompleted" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999925006" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Add instance to FSI container: UNJHHYE" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addToFSIContainer" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999925013" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Instance UNJHHYE added to FSI container in ClusterEnvironment" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addToFSIContainer" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999925016" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="WVDKVCN" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999925017" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="#tags found: [WVDKVCN]" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999925018" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Registered fileset message received" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.onJobCompleted" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999925020" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Add instance to FSI container: WVDKVCN" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addToFSIContainer" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999925039" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Instance WVDKVCN added to FSI container in ClusterEnvironment" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addToFSIContainer" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999925042" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="DJOSOSR" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999925043" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="#tags found: [DJOSOSR]" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999925044" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Registered fileset message received" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.onJobCompleted" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999925046" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Add instance to FSI container: DJOSOSR" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addToFSIContainer" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999925053" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Instance DJOSOSR added to FSI container in ClusterEnvironment" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addToFSIContainer" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5391721323999925060" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Job completed message received" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.onJobCompleted" />
     </node>
   </root>
   <root type="9k5.ExecutionNode" typeId="9k5.3050176288337501843" id="8711817271675662831" nodeInfo="ng">
@@ -481,11 +639,5460 @@
     <property name="virtualPackage" nameId="tpck.1193676396447" value="" />
     <link role="owner" roleId="bs99.5865189911929158304" targetNodeId="3423755852522076305" resolveInfo="Instructor" />
     <node role="pluginRepository" roleId="bs99.1997533223701807309" type="bs99.DualPluginRepository" typeId="bs99.6985991452101319714" id="3648805790695511696" nodeInfo="ng">
-      <property name="numPluginsLoaded" nameId="bs99.5704832314560344592" value="0" />
+      <property name="numPluginsLoaded" nameId="bs99.5704832314560344592" value="161" />
       <property name="directory" nameId="bs99.1997533223701200855" value="${org.campagnelab.gobyweb.pluginRepo}" />
-      <property name="loaded" nameId="bs99.5704832314560662319" value="false" />
+      <property name="loaded" nameId="bs99.5704832314560662319" value="true" />
       <property name="remotePath" nameId="bs99.6985991452101336330" value="/home/nyosh_shared/gobyweb2-plugins" />
       <link role="remoteServer" roleId="bs99.7519594704404268446" targetNodeId="3648805790695514086" resolveInfo="SharedNode" />
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838200" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.2" />
+        <property name="name" nameId="tpck.1169194664001" value="ANNOTATE_VCF" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/ANNOTATE_VCF" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838201" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="BASH_LIBRARY" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/BASH_LIBRARY_1.0" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838202" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="2.17.0" />
+        <property name="name" nameId="tpck.1169194664001" value="BEDTOOLS" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/BEDTOOLS_2.17.0" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838203" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="0.7.12.2" />
+        <property name="name" nameId="tpck.1169194664001" value="BISMARK_ARTIFACT" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/BISMARK_0.7.12_ARTIFACT" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838204" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="0.7.4" />
+        <property name="name" nameId="tpck.1169194664001" value="BISMARK" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/BISMARK_0.7.4" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838205" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="2.1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="BOWTIE2_ARTIFACT" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/BOWTIE_2.1.0_ARTIFACT" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838206" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="2.0.0.5" />
+        <property name="name" nameId="tpck.1169194664001" value="BOWTIE2" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/BOWTIE_2_2.0.0.5" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838207" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="0.5.9.16" />
+        <property name="name" nameId="tpck.1169194664001" value="BWA_WITH_GOBY" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/BWA_GOBY_0.5.9.16" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838208" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="0.5.9.16.1" />
+        <property name="name" nameId="tpck.1169194664001" value="BWA_WITH_GOBY" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/BWA_GOBY_0.5.9.16.1" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838209" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="0.5.9.16.2" />
+        <property name="name" nameId="tpck.1169194664001" value="BWA_WITH_GOBY" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/BWA_GOBY_0.5.9.16.2" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838210" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="0.5.9.16.7" />
+        <property name="name" nameId="tpck.1169194664001" value="BWA_WITH_GOBY_ARTIFACT" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/BWA_WITH_GOBY_ARTIFACT_0.5.9.16.5" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838211" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.8.3.2" />
+        <property name="name" nameId="tpck.1169194664001" value="DESEQ" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/DESEQ_1.8.3" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838212" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="2012.07.25" />
+        <property name="name" nameId="tpck.1169194664001" value="DESEQ_SCRIPT" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/DESEQ_SCRIPT" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838213" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="2.6.12.2" />
+        <property name="name" nameId="tpck.1169194664001" value="EDGER" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/EDGE_R_2.6.12" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838214" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="3.6.8" />
+        <property name="name" nameId="tpck.1169194664001" value="EDGER" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/EDGE_R_3.6.4" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838215" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="3.6.8.1" />
+        <property name="name" nameId="tpck.1169194664001" value="EDGER" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/EDGE_R_3.6.8" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838216" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="2013.05.17" />
+        <property name="name" nameId="tpck.1169194664001" value="EDGE_R_SCRIPT" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/EDGE_R_SCRIPT" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838217" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="2014.08.27" />
+        <property name="name" nameId="tpck.1169194664001" value="EDGE_R_SCRIPT" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/EDGE_R_SCRIPT_3.6.4" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838218" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="2014.08.27" />
+        <property name="name" nameId="tpck.1169194664001" value="EDGE_R_SCRIPT" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/EDGE_R_SCRIPT_3.6.8" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838219" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.1.2" />
+        <property name="name" nameId="tpck.1169194664001" value="ENSEMBL_ANNOTATIONS" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/ENSEMBL_ANNOTATIONS_1.0" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838220" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="2.1.3" />
+        <property name="name" nameId="tpck.1169194664001" value="ENSEMBL_ANNOTATIONS" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/ENSEMBL_ANNOTATIONS_2.0" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838221" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="73" />
+        <property name="name" nameId="tpck.1169194664001" value="ENSEMBL_API" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/ENSEMBL_API_70" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838222" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="75.2" />
+        <property name="name" nameId="tpck.1169194664001" value="ENSEMBL_API" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/ENSEMBL_API_75" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838223" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="75.7.7" />
+        <property name="name" nameId="tpck.1169194664001" value="ENSEMBL_API" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/ENSEMBL_API_75.3" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838224" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.2" />
+        <property name="name" nameId="tpck.1169194664001" value="ENSEMBL_GENOMES" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/ENSEMBL_GENOMES_1.0" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838225" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="ENSEMBL_GTF" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/ENSEMBL_GTF_1.0" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838226" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="2012.06.25" />
+        <property name="name" nameId="tpck.1169194664001" value="EXTRACT_NONMATCHED" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/EXTRACT_NONMATCHED_2012.06.04" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838227" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.1.1" />
+        <property name="name" nameId="tpck.1169194664001" value="FAI_INDEXED_GENOMES" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/FAI_INDEXED_GENOMES_1.0" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838228" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.1" />
+        <property name="name" nameId="tpck.1169194664001" value="FETCH_URL" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/FETCH_URL_1.0" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838229" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.1" />
+        <property name="name" nameId="tpck.1169194664001" value="FETCH_URL" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/FETCH_URL_1.1" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838230" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.2" />
+        <property name="name" nameId="tpck.1169194664001" value="FETCH_URL" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/FETCH_URL_1.2" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838231" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="GENOME_ANNOTATIONS" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/GENOME_ANNOTATIONS_1.0" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838232" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="20120216154520" />
+        <property name="name" nameId="tpck.1169194664001" value="GOBY" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/GOBY_1.9.8.3" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838233" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="20130702142133" />
+        <property name="name" nameId="tpck.1169194664001" value="GOBY" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/GOBY_2.3.1" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838234" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="20130717113540" />
+        <property name="name" nameId="tpck.1169194664001" value="GOBY" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/GOBY_2.3.2" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838235" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="20131220161707.1" />
+        <property name="name" nameId="tpck.1169194664001" value="GOBY" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/GOBY_2.3.3" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838236" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="20131006122450" />
+        <property name="name" nameId="tpck.1169194664001" value="GOBY" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/GOBY_2.3.3_contig" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838237" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="20131006122446" />
+        <property name="name" nameId="tpck.1169194664001" value="GOBY" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/GOBY_2.3.3_preview" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838238" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="20140828152218" />
+        <property name="name" nameId="tpck.1169194664001" value="GOBY" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/GOBY_2.3.4.1-preview" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838239" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="20130413162635" />
+        <property name="name" nameId="tpck.1169194664001" value="GOBY" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/GOBY_2_DEV" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838240" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="2.1.2.2" />
+        <property name="name" nameId="tpck.1169194664001" value="GOBY_CPP_API" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/GOBY_CPP_API" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838241" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="GOBY_INDEXED_GENOMES" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/GOBY_INDEXED_GENOMES_1.0" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838242" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="2.1" />
+        <property name="name" nameId="tpck.1169194664001" value="GOBYWEB_SERVER_SIDE" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/GOBYWEB_SERVER_SIDE" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838243" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="2.2" />
+        <property name="name" nameId="tpck.1169194664001" value="GOBYWEB_SERVER_SIDE" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/GOBYWEB_SERVER_SIDE_2.2" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838244" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="2.3" />
+        <property name="name" nameId="tpck.1169194664001" value="GOBYWEB_SERVER_SIDE" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/GOBYWEB_SERVER_SIDE_2.3" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838245" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="2.4.0" />
+        <property name="name" nameId="tpck.1169194664001" value="GOBYWEB_SERVER_SIDE" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/GOBYWEB_SERVER_SIDE_2.4" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838246" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="2.5" />
+        <property name="name" nameId="tpck.1169194664001" value="GOBYWEB_SERVER_SIDE" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/GOBYWEB_SERVER_SIDE_2.5" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838247" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="2.5.1" />
+        <property name="name" nameId="tpck.1169194664001" value="GOBYWEB_SERVER_SIDE" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/GOBYWEB_SERVER_SIDE_2.5.1" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838248" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="2.0.6" />
+        <property name="name" nameId="tpck.1169194664001" value="GROOVY" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/GROOVY_2.0.6" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838249" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="2011.07.07" />
+        <property name="name" nameId="tpck.1169194664001" value="GSNAP_WITH_GOBY" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/GSNAP_GOBY_2011.07.07" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838250" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="2011.10.16" />
+        <property name="name" nameId="tpck.1169194664001" value="GSNAP_WITH_GOBY" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/GSNAP_GOBY_2011.10.16" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838251" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="2011.11.17" />
+        <property name="name" nameId="tpck.1169194664001" value="GSNAP_WITH_GOBY" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/GSNAP_GOBY_2011.11.17" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838252" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="2012.05.23" />
+        <property name="name" nameId="tpck.1169194664001" value="GSNAP_WITH_GOBY" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/GSNAP_GOBY_2012.05.23" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838253" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="2013.06.26" />
+        <property name="name" nameId="tpck.1169194664001" value="GSNAP_WITH_GOBY_ARTIFACT" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/GSNAP_WITH_GOBY_ARTIFACT" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838254" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.5.16" />
+        <property name="name" nameId="tpck.1169194664001" value="IGVTOOLS" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/IGVTOOLS_1_5_16" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838255" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="ILLUMINA_ADAPTERS" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/ILLUMINA_ADAPTERS" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838256" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="189" />
+        <property name="name" nameId="tpck.1169194664001" value="LAST" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/LAST_189" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838257" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="230" />
+        <property name="name" nameId="tpck.1169194664001" value="LAST" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/LAST_230" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838258" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="287" />
+        <property name="name" nameId="tpck.1169194664001" value="LAST_ARTIFACT" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/LAST_287" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838259" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="456" />
+        <property name="name" nameId="tpck.1169194664001" value="LAST_ARTIFACT" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/LAST_456" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838260" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="287" />
+        <property name="name" nameId="tpck.1169194664001" value="LAST_BISULFITE_INDEX" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/LAST_BISULFITE_INDEX" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838261" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="287" />
+        <property name="name" nameId="tpck.1169194664001" value="LAST_INDEX" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/LAST_INDEX" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838262" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="456.1" />
+        <property name="name" nameId="tpck.1169194664001" value="LAST_INDEX" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/LAST_INDEX_456" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838263" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="3.0.5" />
+        <property name="name" nameId="tpck.1169194664001" value="MAVEN" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/MAVEN_3.0.5" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838264" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="MAVEN_ARTIFACTS_DOWNLOADER" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/MAVEN_ARTIFACTS_DOWNLOADER_1.0" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838265" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="MERCURY" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/MERCURY_1.0" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838266" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.4961" />
+        <property name="name" nameId="tpck.1169194664001" value="MINIA" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/MINIA_2013_1.4961" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838267" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="129.380" />
+        <property name="name" nameId="tpck.1169194664001" value="MPS" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/MPS_129.380" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838268" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="135.527" />
+        <property name="name" nameId="tpck.1169194664001" value="MPS" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/MPS_135.527" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838269" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.1.4" />
+        <property name="name" nameId="tpck.1169194664001" value="MUTECT" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/MUTECT_1.1.4" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838270" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.2" />
+        <property name="name" nameId="tpck.1169194664001" value="MUTECT_HOMO_SAPIENS_DATA" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/MUTECT_HOMO_SAPIENS_DATA" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838271" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.2" />
+        <property name="name" nameId="tpck.1169194664001" value="PLAST" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/PARALLEL_LAST" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838272" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="PATHOGEN_DATA" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/PATHOGEN_DATA" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838273" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.1" />
+        <property name="name" nameId="tpck.1169194664001" value="PROCESS_READS" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/PROCESS_READS" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838274" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="2.4.1" />
+        <property name="name" nameId="tpck.1169194664001" value="PROTOBUF_CPP" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/PROTOBUF_CPP" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838275" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="2.14.1" />
+        <property name="name" nameId="tpck.1169194664001" value="R" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/R_2.14.1" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838276" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="2.15.3.5" />
+        <property name="name" nameId="tpck.1169194664001" value="R" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/R_2.15.3" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838277" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="3.1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="R" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/R_3.1.0" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838278" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="0.9.6.4" />
+        <property name="name" nameId="tpck.1169194664001" value="RJAVA" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/RJAVA" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838279" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.84" />
+        <property name="name" nameId="tpck.1169194664001" value="SAM_JDK" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/SAM_JDK_1.84" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838280" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="SAMPLE_RESOURCE_WITH_MPS" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/SAMPLE_RESOURCE_WITH_MPS" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838281" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="0.1.14" />
+        <property name="name" nameId="tpck.1169194664001" value="SAMTOOLS" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/SAMTOOLS_0.1.14" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838282" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="0.1.18" />
+        <property name="name" nameId="tpck.1169194664001" value="SAMTOOLS" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/SAMTOOLS_0.1.18" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838283" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="0.1.18.1" />
+        <property name="name" nameId="tpck.1169194664001" value="SAMTOOLS" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/SAMTOOLS_0.1.18.1" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838284" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="2.9.2" />
+        <property name="name" nameId="tpck.1169194664001" value="SCALA" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/SCALA" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838285" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="2.1.1" />
+        <property name="name" nameId="tpck.1169194664001" value="STAR" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/STAR_2.1.1" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838286" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="2.1.2" />
+        <property name="name" nameId="tpck.1169194664001" value="STAR" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/STAR_2.1.2" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838287" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="2.1.4" />
+        <property name="name" nameId="tpck.1169194664001" value="STAR" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/STAR_2.1.4" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838288" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="2.3.0.6" />
+        <property name="name" nameId="tpck.1169194664001" value="STAR" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/STAR_2.3.0" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838289" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="0.2.6" />
+        <property name="name" nameId="tpck.1169194664001" value="TABIX" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/TABIX_0.2.6" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838290" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="0.32" />
+        <property name="name" nameId="tpck.1169194664001" value="TRIMMOMATIC" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/TRIMMOMATIC_0_32" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838291" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="20120518" />
+        <property name="name" nameId="tpck.1169194664001" value="TRINITY" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/TRINITY_2012.05.18" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838292" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="73" />
+        <property name="name" nameId="tpck.1169194664001" value="VARIANT_EFFECT_PREDICTOR" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/VARIANT_EFFECT_PREDICTOR_2.8" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838293" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="75.7.2" />
+        <property name="name" nameId="tpck.1169194664001" value="VARIANT_EFFECT_PREDICTOR" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/VARIANT_EFFECT_PREDICTOR_75" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="5391721323999838294" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="0.1.10" />
+        <property name="name" nameId="tpck.1169194664001" value="VCF_TOOLS" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/resources/VCF_TOOLS_0.1.10" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.AlignerConfig" typeId="dzk5.2105345521168953464" id="5391721323999838295" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.2" />
+        <property name="name" nameId="tpck.1169194664001" value="BISMARK_BISULFITE_ARTIFACT" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/aligners/BISMARK_BISULFITE_ARTIFACT" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838296" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838265" resolveInfo="MERCURY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838297" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="2.5.1" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838247" resolveInfo="GOBYWEB_SERVER_SIDE" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838298" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="20120620120930" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838238" resolveInfo="GOBY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838299" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="0.7.12.2" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838203" resolveInfo="BISMARK_ARTIFACT" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838300" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="0.1.18" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838283" resolveInfo="SAMTOOLS" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838301" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838255" resolveInfo="ILLUMINA_ADAPTERS" />
+        </node>
+        <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="5391721323999838302" nodeInfo="ng">
+          <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="5391721323999838303" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="INPUT_READS" />
+            <property name="minCardinality" nameId="dzk5.1670346574285355658" value="1" />
+            <property name="maxCardinality" nameId="dzk5.1670346574285355720" value="1" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838304" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COMPACT_READS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="compact reads format" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838305" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838306" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838307" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="GOBY_ALIGNMENT" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838308" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838309" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="COUNTS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838310" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COUNTS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Counts converted from a compact alignment." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838311" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_ALL_FILES" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838312" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_ALL_FILES" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with all the files produced by an aligner" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838313" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_BED" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838314" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_BED" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with bed files produced by an aligner" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838315" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_WIG" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838316" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_WIG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with wig files produced by an aligner" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838317" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_STATS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838318" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Alignment textual statistics" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838319" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="STATS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838320" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Statistics about files in one of the compact Goby formats" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838321" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838322" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
+            </node>
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999838324" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Other aligner options" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="ALIGNER_OPTIONS" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Provide any additional Bismark option here following the syntax expected by the Goby align mode with last&#10;                aligner.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999838326" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="GENOME_REFERENCE_ID" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The reference genome." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.IntegerOption" typeId="dzk5.2123376856175107706" id="5391721323999838328" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="CHUNK_SIZE" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="CHUNK_SIZE" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The number of bytes of compressed reads file to give to a single align part." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="50000000" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.AlignerConfig" typeId="dzk5.2105345521168953464" id="5391721323999838329" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.1" />
+        <property name="name" nameId="tpck.1169194664001" value="BWA_BAM_ARTIFACT" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/aligners/BWA_BAM_ARTIFACT" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838330" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838265" resolveInfo="MERCURY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838331" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="2.5.1" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838247" resolveInfo="GOBYWEB_SERVER_SIDE" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838332" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="0.5.9.16.6" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838210" resolveInfo="BWA_WITH_GOBY_ARTIFACT" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838333" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="0.1.18.1" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838283" resolveInfo="SAMTOOLS" />
+        </node>
+        <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="5391721323999838334" nodeInfo="ng">
+          <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="5391721323999838335" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="INPUT_READS" />
+            <property name="minCardinality" nameId="dzk5.1670346574285355658" value="1" />
+            <property name="maxCardinality" nameId="dzk5.1670346574285355720" value="1" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838336" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COMPACT_READS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="compact reads format" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838337" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838338" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838339" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="BAM_ALIGNMENT" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838340" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="BAM_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="BAM alignment format" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838341" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="COUNTS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838342" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COUNTS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Counts converted from a compact alignment." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838343" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_ALL_FILES" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838344" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_ALL_FILES" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with all the files produced by an aligner" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838345" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_BED" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838346" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_BED" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with bed files produced by an aligner" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838347" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_WIG" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838348" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_WIG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with wig files produced by an aligner" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838349" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_STATS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838350" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Alignment textual statistics" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838351" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="STATS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838352" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Statistics about files in one of the compact Goby formats" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838353" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838354" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
+            </node>
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999838356" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Other aligner options (aln phase)" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="ALIGNER_OPTIONS" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Provide any additional BWA option here following the syntax expected by bwa aln." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999838358" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="GENOME_REFERENCE_ID" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The reference genome." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.IntegerOption" typeId="dzk5.2123376856175107706" id="5391721323999838360" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="CHUNK_SIZE" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="CHUNK_SIZE" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The number of bytes of compressed reads file to give to a single align part." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="50000000" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.AlignerConfig" typeId="dzk5.2105345521168953464" id="5391721323999838361" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.3" />
+        <property name="name" nameId="tpck.1169194664001" value="BWA_GOBY_ARTIFACT" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/aligners/BWA_GOBY_ARTIFACT" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838362" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838265" resolveInfo="MERCURY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838363" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="2.5.1" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838247" resolveInfo="GOBYWEB_SERVER_SIDE" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838364" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="0.5.9.16.6" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838210" resolveInfo="BWA_WITH_GOBY_ARTIFACT" />
+        </node>
+        <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="5391721323999838365" nodeInfo="ng">
+          <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="5391721323999838366" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="INPUT_READS" />
+            <property name="minCardinality" nameId="dzk5.1670346574285355658" value="1" />
+            <property name="maxCardinality" nameId="dzk5.1670346574285355720" value="1" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838367" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COMPACT_READS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="compact reads format" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838368" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838369" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838370" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="GOBY_ALIGNMENT" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838371" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838372" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="COUNTS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838373" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COUNTS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Counts converted from a compact alignment." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838374" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_ALL_FILES" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838375" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_ALL_FILES" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with all the files produced by an aligner" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838376" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_BED" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838377" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_BED" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with bed files produced by an aligner" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838378" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_WIG" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838379" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_WIG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with wig files produced by an aligner" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838380" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_STATS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838381" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Alignment textual statistics" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838382" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="STATS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838383" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Statistics about files in one of the compact Goby formats" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838384" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838385" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
+            </node>
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999838387" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Options for aln phase" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="ALN_OPTIONS" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Provide any additional BWA option here following the syntax expected by bwa aln." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999838389" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Options for samse/sampe phase" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="SAMPE_SAMSE_OPTIONS" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Provide any additional BWA option here following the syntax expected by bwa samse/sampe." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.IntegerOption" typeId="dzk5.2123376856175107706" id="5391721323999838391" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Ambiguity threshold" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="AMBIGUITY_THRESHOLD" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The maximum number of reference sequence locations that can be matched for a read to be considered&#10;                non-ambiguous.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="1" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.IntegerOption" typeId="dzk5.2123376856175107706" id="5391721323999838393" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Max Number Gap Opens" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="MAXIMUM_NUMBER_GAP_OPENS" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Maximum number of gap opens" />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="1" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.IntegerOption" typeId="dzk5.2123376856175107706" id="5391721323999838395" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Max Number Gap Extensions" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="MAXIMUM_NUMBER_GAP_EXTENSIONS" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Maximum number of gap extensions, -1 for k-difference mode (disallowing long gaps)" />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="-1" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999838397" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="GENOME_REFERENCE_ID" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The reference genome." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.IntegerOption" typeId="dzk5.2123376856175107706" id="5391721323999838399" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="CHUNK_SIZE" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="CHUNK_SIZE" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The number of bytes of compressed reads file to give to a single align part." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="50000000" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.AlignerConfig" typeId="dzk5.2105345521168953464" id="5391721323999838400" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="GSNAP_BAM" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/aligners/GSNAP_BAM" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838401" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838265" resolveInfo="MERCURY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838402" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="2.5.1" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838247" resolveInfo="GOBYWEB_SERVER_SIDE" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838403" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="2011.10.16" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838252" resolveInfo="GSNAP_WITH_GOBY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838404" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="0.1.14" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838283" resolveInfo="SAMTOOLS" />
+        </node>
+        <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="5391721323999838405" nodeInfo="ng">
+          <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="5391721323999838406" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="INPUT_READS" />
+            <property name="minCardinality" nameId="dzk5.1670346574285355658" value="1" />
+            <property name="maxCardinality" nameId="dzk5.1670346574285355720" value="1" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838407" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COMPACT_READS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="compact reads format" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838408" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838409" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838410" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="BAM_ALIGNMENT" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838411" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="BAM_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="BAM alignment format" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838412" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="COUNTS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838413" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COUNTS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Counts converted from a compact alignment." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838414" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_ALL_FILES" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838415" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_ALL_FILES" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with all the files produced by an aligner" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838416" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_BED" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838417" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_BED" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with bed files produced by an aligner" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838418" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_WIG" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838419" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_WIG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with wig files produced by an aligner" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838420" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_STATS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838421" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Alignment textual statistics" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838422" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="STATS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838423" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Statistics about files in one of the compact Goby formats" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838424" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838425" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
+            </node>
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999838427" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Other aligner options" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="ALIGNER_OPTIONS" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Provide any additional GSNAP option here following the syntax expected by GSNAP." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.IntegerOption" typeId="dzk5.2123376856175107706" id="5391721323999838429" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Ambiguity threshold" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="AMBIGUITY_THRESHOLD" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The maximum number of locations a read can match in the reference to not be considered ambiguous. Read&#10;                is ambiguous if #hits&gt;threshold.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="1" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.CategoricalOption" typeId="dzk5.2123376856175006363" id="5391721323999838431" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Standness option." />
+          <property name="id" nameId="dzk5.2123376856175546319" value="STRANDNESS" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Determines whether --cmet-stranded of --cmet-nonstranded or --atoi-stranded or --atoi-nonstranded are&#10;                used.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="STRANDED" />
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838432" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="stranded" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="STRANDED" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838433" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="non-stranded" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="NON_STRANDED" />
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.CategoricalOption" typeId="dzk5.2123376856175006363" id="5391721323999838435" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Spliced alignment" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="SPLICED_ALIGNMENT" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Search for splices during alignment" />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="NON_SPLICED" />
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838436" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="Non-spliced" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="NON_SPLICED" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838437" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="Spliced" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="SPLICED" />
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999838439" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="GENOME_REFERENCE_ID" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The reference genome." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.IntegerOption" typeId="dzk5.2123376856175107706" id="5391721323999838441" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="CHUNK_SIZE" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="CHUNK_SIZE" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The number of bytes of compressed reads file to give to a single align part." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="50000000" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.AlignerConfig" typeId="dzk5.2105345521168953464" id="5391721323999838442" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.1" />
+        <property name="name" nameId="tpck.1169194664001" value="GSNAP_GOBY" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/aligners/GSNAP_GOBY" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838443" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838265" resolveInfo="MERCURY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838444" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="2.5.1" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838247" resolveInfo="GOBYWEB_SERVER_SIDE" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838445" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="2011.11.17" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838252" resolveInfo="GSNAP_WITH_GOBY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838446" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838255" resolveInfo="ILLUMINA_ADAPTERS" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838447" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="2012.06.05" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838226" resolveInfo="EXTRACT_NONMATCHED" />
+        </node>
+        <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="5391721323999838448" nodeInfo="ng">
+          <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="5391721323999838449" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="INPUT_READS" />
+            <property name="minCardinality" nameId="dzk5.1670346574285355658" value="1" />
+            <property name="maxCardinality" nameId="dzk5.1670346574285355720" value="1" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838450" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COMPACT_READS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="compact reads format" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838451" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838452" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838453" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="GOBY_ALIGNMENT" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838454" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838455" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="COUNTS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838456" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COUNTS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Counts converted from a compact alignment." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838457" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_ALL_FILES" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838458" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_ALL_FILES" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with all the files produced by an aligner" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838459" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_BED" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838460" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_BED" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with bed files produced by an aligner" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838461" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_WIG" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838462" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_WIG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with wig files produced by an aligner" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838463" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_STATS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838464" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Alignment textual statistics" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838465" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="STATS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838466" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Statistics about files in one of the compact Goby formats" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838467" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838468" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
+            </node>
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999838470" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Other aligner options" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="ALIGNER_OPTIONS" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Provide any additional GSNAP option here following the syntax expected by GSNAP." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.IntegerOption" typeId="dzk5.2123376856175107706" id="5391721323999838472" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Ambiguity threshold" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="AMBIGUITY_THRESHOLD" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The maximum number of locations a read can match in the reference to not be considered ambiguous. Read&#10;                is ambiguous if #hits&gt;threshold.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="1" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.CategoricalOption" typeId="dzk5.2123376856175006363" id="5391721323999838474" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Standness option" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="STRANDNESS" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Determines whether --cmet-stranded of --cmet-nonstranded or --atoi-stranded or --atoi-nonstranded are&#10;                used.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="STRANDED" />
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838475" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="stranded" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="STRANDED" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838476" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="non-stranded" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="NON_STRANDED" />
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.CategoricalOption" typeId="dzk5.2123376856175006363" id="5391721323999838478" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Spliced alignment" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="SPLICED_ALIGNMENT" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Search for splices during alignment" />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="NON_SPLICED" />
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838479" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="Non-spliced" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="NON_SPLICED" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838480" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="Spliced" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="SPLICED" />
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.BooleanOption" typeId="dzk5.2123376856174953285" id="5391721323999838482" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Export non-matching reads" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="NON_MATCHING" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Output unmatched reads after alignment is complete" />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="false" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999838484" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="GENOME_REFERENCE_ID" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The reference genome." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.IntegerOption" typeId="dzk5.2123376856175107706" id="5391721323999838486" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="CHUNK_SIZE" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="CHUNK_SIZE" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The number of bytes of compressed reads file to give to a single align part." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="50000000" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.AlignerConfig" typeId="dzk5.2105345521168953464" id="5391721323999838487" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.1" />
+        <property name="name" nameId="tpck.1169194664001" value="GSNAP_GOBY_ARTIFACT" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/aligners/GSNAP_GOBY_ARTIFACT" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838488" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838265" resolveInfo="MERCURY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838489" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="2.5.1" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838247" resolveInfo="GOBYWEB_SERVER_SIDE" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838490" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="2013.06.26" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838253" resolveInfo="GSNAP_WITH_GOBY_ARTIFACT" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838491" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838255" resolveInfo="ILLUMINA_ADAPTERS" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838492" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="2012.06.05" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838226" resolveInfo="EXTRACT_NONMATCHED" />
+        </node>
+        <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="5391721323999838493" nodeInfo="ng">
+          <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="5391721323999838494" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="INPUT_READS" />
+            <property name="minCardinality" nameId="dzk5.1670346574285355658" value="1" />
+            <property name="maxCardinality" nameId="dzk5.1670346574285355720" value="1" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838495" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COMPACT_READS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="compact reads format" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838496" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838497" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838498" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="GOBY_ALIGNMENT" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838499" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838500" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="COUNTS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838501" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COUNTS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Counts converted from a compact alignment." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838502" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_ALL_FILES" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838503" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_ALL_FILES" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with all the files produced by an aligner" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838504" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_BED" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838505" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_BED" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with bed files produced by an aligner" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838506" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_WIG" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838507" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_WIG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with wig files produced by an aligner" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838508" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_STATS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838509" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Alignment textual statistics" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838510" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="STATS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838511" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Statistics about files in one of the compact Goby formats" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838512" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838513" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
+            </node>
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999838515" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Other aligner options" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="ALIGNER_OPTIONS" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Provide any additional GSNAP option here following the syntax expected by GSNAP." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.IntegerOption" typeId="dzk5.2123376856175107706" id="5391721323999838517" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Ambiguity threshold" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="AMBIGUITY_THRESHOLD" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The maximum number of locations a read can match in the reference to not be considered ambiguous. Read&#10;                is ambiguous if #hits&gt;threshold.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="1" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.CategoricalOption" typeId="dzk5.2123376856175006363" id="5391721323999838519" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Standness option" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="STRANDNESS" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Determines whether --cmet-stranded of --cmet-nonstranded or --atoi-stranded or --atoi-nonstranded are&#10;                used.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="STRANDED" />
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838520" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="stranded" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="STRANDED" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838521" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="non-stranded" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="NON_STRANDED" />
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.CategoricalOption" typeId="dzk5.2123376856175006363" id="5391721323999838523" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Spliced alignment" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="SPLICED_ALIGNMENT" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Search for splices during alignment" />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="NON_SPLICED" />
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838524" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="Non-spliced" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="NON_SPLICED" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838525" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="Spliced" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="SPLICED" />
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.BooleanOption" typeId="dzk5.2123376856174953285" id="5391721323999838527" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Export non-matching reads" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="NON_MATCHING" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Output unmatched reads after alignment is complete" />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="false" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999838529" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="GENOME_REFERENCE_ID" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The reference genome." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.IntegerOption" typeId="dzk5.2123376856175107706" id="5391721323999838531" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="CHUNK_SIZE" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="CHUNK_SIZE" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The number of bytes of compressed reads file to give to a single align part." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="50000000" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.AlignerConfig" typeId="dzk5.2105345521168953464" id="5391721323999838532" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="2.0" />
+        <property name="name" nameId="tpck.1169194664001" value="LAST_BISULFITE_V2_ARTIFACT" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/aligners/LAST_BISULFITE_V2_ARTIFACT" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838533" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838265" resolveInfo="MERCURY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838534" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="2.5.1" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838247" resolveInfo="GOBYWEB_SERVER_SIDE" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838535" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="20130413162635" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838238" resolveInfo="GOBY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838536" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="287" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838258" resolveInfo="LAST_ARTIFACT" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838537" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="287" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838260" resolveInfo="LAST_BISULFITE_INDEX" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838538" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="1.1" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838271" resolveInfo="PLAST" />
+        </node>
+        <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="5391721323999838539" nodeInfo="ng">
+          <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="5391721323999838540" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="INPUT_READS" />
+            <property name="minCardinality" nameId="dzk5.1670346574285355658" value="1" />
+            <property name="maxCardinality" nameId="dzk5.1670346574285355720" value="1" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838541" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COMPACT_READS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="compact reads format" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838542" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838543" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838544" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="GOBY_ALIGNMENT" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838545" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838546" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="COUNTS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838547" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COUNTS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Counts converted from a compact alignment." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838548" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_ALL_FILES" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838549" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_ALL_FILES" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with all the files produced by an aligner" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838550" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_BED" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838551" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_BED" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with bed files produced by an aligner" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838552" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_WIG" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838553" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_WIG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with wig files produced by an aligner" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838554" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_STATS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838555" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Alignment textual statistics" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838556" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="STATS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838557" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Statistics about files in one of the compact Goby formats" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838558" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838559" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
+            </node>
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999838561" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Other aligner options" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="ALIGNER_OPTIONS" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Provide any additional Last option here following the syntax expected by the Goby align mode with last&#10;                aligner.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.IntegerOption" typeId="dzk5.2123376856175107706" id="5391721323999838563" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="d" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="D" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Minimum score for gapless alignments." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="108" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.IntegerOption" typeId="dzk5.2123376856175107706" id="5391721323999838565" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="e" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="E" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Minimum score for gapped alignments." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="120" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.IntegerOption" typeId="dzk5.2123376856175107706" id="5391721323999838567" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="s" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="S" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Score threshold for last-map-probs.py. Should be high enough to&#10;                avoid random, spurious alignments: otherwise, the mismap probabilities&#10;                will not be reliable. A threshold of 150 is often reasonable. For&#10;                instance, if we compare 50 bp reads to the human genome, we expect a&#10;                random alignment with score &gt;= 150 once every few thousand reads.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="150" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999838569" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="GENOME_REFERENCE_ID" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The reference genome." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.IntegerOption" typeId="dzk5.2123376856175107706" id="5391721323999838571" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="CHUNK_SIZE" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="CHUNK_SIZE" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The number of bytes of compressed reads file to give to a single align part." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="50000000" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.AlignerConfig" typeId="dzk5.2105345521168953464" id="5391721323999838572" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.3" />
+        <property name="name" nameId="tpck.1169194664001" value="PLAST_ARTIFACT" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/aligners/PLAST_ARTIFACT" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838573" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838265" resolveInfo="MERCURY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838574" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="2.5.1" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838247" resolveInfo="GOBYWEB_SERVER_SIDE" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838575" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="20140222104439" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838238" resolveInfo="GOBY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838576" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="456" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838259" resolveInfo="LAST_ARTIFACT" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838577" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="456.1" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838262" resolveInfo="LAST_INDEX" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838578" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="1.2" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838271" resolveInfo="PLAST" />
+        </node>
+        <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="5391721323999838579" nodeInfo="ng">
+          <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="5391721323999838580" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="INPUT_READS" />
+            <property name="minCardinality" nameId="dzk5.1670346574285355658" value="1" />
+            <property name="maxCardinality" nameId="dzk5.1670346574285355720" value="1" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838581" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COMPACT_READS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="compact reads format" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838582" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838583" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838584" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="GOBY_ALIGNMENT" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838585" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838586" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="COUNTS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838587" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COUNTS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Counts converted from a compact alignment." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838588" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_ALL_FILES" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838589" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_ALL_FILES" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with all the files produced by an aligner" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838590" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_BED" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838591" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_BED" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with bed files produced by an aligner" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838592" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_WIG" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838593" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_WIG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with wig files produced by an aligner" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838594" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_STATS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838595" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Alignment textual statistics" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838596" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="STATS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838597" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Statistics about files in one of the compact Goby formats" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838598" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838599" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
+            </node>
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999838601" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Other aligner options" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="ALIGNER_OPTIONS" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Provide any additional Last option here following the syntax expected by the Goby align mode with last&#10;                aligner.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.IntegerOption" typeId="dzk5.2123376856175107706" id="5391721323999838603" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="d" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="D" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Minimum score for gapless alignments." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="108" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.IntegerOption" typeId="dzk5.2123376856175107706" id="5391721323999838605" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="e" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="E" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Minimum score for gapped alignments." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="120" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.IntegerOption" typeId="dzk5.2123376856175107706" id="5391721323999838607" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="s" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="S" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Score threshold for last-map-probs.py. Should be high enough to&#10;                avoid random, spurious alignments: otherwise, the mismap probabilities&#10;                will not be reliable. A threshold of 150 is often reasonable. For&#10;                instance, if we compare 50 bp reads to the human genome, we expect a&#10;                random alignment with score &gt;= 150 once every few thousand reads.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="150" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999838609" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="GENOME_REFERENCE_ID" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The reference genome." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.IntegerOption" typeId="dzk5.2123376856175107706" id="5391721323999838611" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="CHUNK_SIZE" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="CHUNK_SIZE" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The number of bytes of compressed reads file to give to a single align part." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="50000000" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.AlignerConfig" typeId="dzk5.2105345521168953464" id="5391721323999838612" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.2" />
+        <property name="name" nameId="tpck.1169194664001" value="STAR22_GOBY" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/aligners/STAR22_GOBY" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838613" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838265" resolveInfo="MERCURY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838614" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="2.5.1" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838247" resolveInfo="GOBYWEB_SERVER_SIDE" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838615" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="2.3.0.6" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838288" resolveInfo="STAR" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838616" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="20120620120930" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838238" resolveInfo="GOBY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838617" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="0.1.18.1" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838283" resolveInfo="SAMTOOLS" />
+        </node>
+        <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="5391721323999838618" nodeInfo="ng">
+          <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="5391721323999838619" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="INPUT_READS" />
+            <property name="minCardinality" nameId="dzk5.1670346574285355658" value="1" />
+            <property name="maxCardinality" nameId="dzk5.1670346574285355720" value="1" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838620" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COMPACT_READS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="compact reads format" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838621" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838622" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838623" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="GOBY_ALIGNMENT" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838624" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838625" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="COUNTS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838626" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COUNTS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Counts converted from a compact alignment." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838627" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_ALL_FILES" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838628" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_ALL_FILES" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with all the files produced by an aligner" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838629" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_BED" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838630" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_BED" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with bed files produced by an aligner" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838631" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_WIG" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838632" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_WIG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Zip archive with wig files produced by an aligner" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838633" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_STATS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838634" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Alignment textual statistics" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838635" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="STATS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838636" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Statistics about files in one of the compact Goby formats" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838637" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838638" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
+            </node>
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.IntegerOption" typeId="dzk5.2123376856175107706" id="5391721323999838640" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Ambiguity threshold" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="AMBIGUITY_THRESHOLD" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The maximum number of reference sequence locations that can be matched for a read to be considered&#10;                non-ambiguous. Please note that STAR currently discards/does not output alignments found to strictly&#10;                match more than the specified ambiguity threshold.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="10" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999838642" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Other aligner options" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="ALIGNER_OPTIONS" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Provide any additional STAR option here following the syntax expected by STAR." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999838644" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="GENOME_REFERENCE_ID" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The reference genome." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.IntegerOption" typeId="dzk5.2123376856175107706" id="5391721323999838646" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="CHUNK_SIZE" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="CHUNK_SIZE" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The number of bytes of compressed reads file to give to a single align part." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="50000000" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.AlignmentAnalysisConfig" typeId="dzk5.2105345521169223215" id="5391721323999838647" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.7" />
+        <property name="name" nameId="tpck.1169194664001" value="CONTAMINANT_EXTRACT" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/analyses/CONTAMINANT_EXTRACT" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838648" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838265" resolveInfo="MERCURY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838649" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="2.5.1" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838247" resolveInfo="GOBYWEB_SERVER_SIDE" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838650" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="20120723142616" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838238" resolveInfo="GOBY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838651" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="1.4961" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838266" resolveInfo="MINIA" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838652" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="20120518" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838291" resolveInfo="TRINITY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838653" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="230" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838257" resolveInfo="LAST" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838654" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="2012.06.04" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838226" resolveInfo="EXTRACT_NONMATCHED" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838655" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="0.5.9.16" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838209" resolveInfo="BWA_WITH_GOBY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838656" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838255" resolveInfo="ILLUMINA_ADAPTERS" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838657" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838272" resolveInfo="PATHOGEN_DATA" />
+        </node>
+        <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="5391721323999838658" nodeInfo="ng">
+          <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="5391721323999838659" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_SOURCE_READS" />
+            <property name="minCardinality" nameId="dzk5.1670346574285355658" value="0" />
+            <property name="maxCardinality" nameId="dzk5.1670346574285355720" value="2147483647" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838660" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COMPACT_READS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="compact reads format" />
+            </node>
+          </node>
+          <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="5391721323999838661" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="INPUT_ALIGNMENTS" />
+            <property name="minCardinality" nameId="dzk5.1670346574285355658" value="1" />
+            <property name="maxCardinality" nameId="dzk5.1670346574285355720" value="2147483647" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838662" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838663" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838664" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838665" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="CONTAMINANT_RESULTS_DB" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838666" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="X_SQLITE3" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="X_SQLITE3 table." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838667" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="CONTAMINANT_RESULTS_LUCENE_INDEX" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838668" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="LUCENE_INDEX" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="A directory containing a Lucene Index." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838669" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="CONTAMINANT_RESULTS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838670" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838671" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="CONTAMINANT_SUMMARY_DB" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838672" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="X_SQLITE3" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="X_SQLITE3 table." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838673" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="CONTAMINANT_SUMMARY_LUCENE_INDEX" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838674" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="LUCENE_INDEX" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="A directory containing a Lucene Index." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838675" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="CONTAMINANT_SUMMARY" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838676" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838677" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="REALIGNED_UNMAPPED_DB" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838678" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="X_SQLITE3" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="X_SQLITE3 table." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838679" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="REALIGNED_UNMAPPED_LUCENE_INDEX" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838680" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="LUCENE_INDEX" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="A directory containing a Lucene Index." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838681" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="REALIGNED_UNMAPPED" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838682" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838683" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ASSEMBLED_READS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838684" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="TAR_GZ" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="TAR GZ Compressed Archive" />
+            </node>
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.CategoricalOption" typeId="dzk5.2123376856175006363" id="5391721323999838686" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Assembler" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="ASSEMBLER" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The assembler to use when combining reads into contigs" />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="MINIA" />
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838687" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="Minia" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="MINIA" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838688" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="Trinity" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="TRINITY" />
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.CategoricalOption" typeId="dzk5.2123376856175006363" id="5391721323999838690" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Aligner" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="ALIGNER" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The aligner to use for realigning reads to contigs" />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="LAST" />
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838691" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="Last" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="LAST" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838692" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="BWA" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="BWA" />
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.CategoricalOption" typeId="dzk5.2123376856175006363" id="5391721323999838694" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Search Reference" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="SEARCH_REFERENCE" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The reference of contaminants to search for" />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="VIRAL" />
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838695" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="Viral" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="VIRAL" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838696" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="Microbial" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="MICROBIAL" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838697" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="Fungal" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="FUNGAL" />
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.DoubleOption" typeId="dzk5.2123376856174994119" id="5391721323999838699" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="E-value Threshold" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="EVALUE_THRESHOLD" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Matches with an E-value above the threshold will not be considered significant" />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="1e-6" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.DoubleOption" typeId="dzk5.2123376856174994119" id="5391721323999838701" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="kmer length" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="KMER_LENGTH" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="kmer length to use for assembly (not supported with trinity)" />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="25" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.DoubleOption" typeId="dzk5.2123376856174994119" id="5391721323999838703" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Percent Identity Threshold" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="IDENTITY_THRESHOLD" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Matches with a percent identity below the threshold will not be considered significant" />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="90" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.BooleanOption" typeId="dzk5.2123376856174953285" id="5391721323999838705" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Trim Illumina Adapters" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="TRIM_ADAPTERS" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Illumina Adapters will be trimmed from unmatched reads before assembly" />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="true" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.BooleanOption" typeId="dzk5.2123376856174953285" id="5391721323999838707" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Merge Groups" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="MERGE_GROUPS" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Combine unmapped reads within each group before assembly" />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="false" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999838709" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GROUP_DEFINITION" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="GROUP_DEFINITION" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The group definition list. Each definition must be in the form: Group_N=TAG,TAG342,TAG231,etc. TAGs must match the ones declared in the SLOTS." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999838711" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="COMPARISON_PAIR" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="COMPARISON_PAIR" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The comparison pair list. Each pair must be in the form Group_Name1/Group_Name2. Group names must match the ones declared in the GROUP_DEFINITION." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.AlignmentAnalysisConfig" typeId="dzk5.2105345521169223215" id="5391721323999838712" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.1" />
+        <property name="name" nameId="tpck.1169194664001" value="DIFF_EXP_DESEQ_ARTIFACT" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/analyses/DIFF_EXP_DESEQ_ARTIFACT" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838713" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838265" resolveInfo="MERCURY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838714" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="2.5.1" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838247" resolveInfo="GOBYWEB_SERVER_SIDE" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838715" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="20111021144833" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838238" resolveInfo="GOBY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838716" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="2012.07.25" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838212" resolveInfo="DESEQ_SCRIPT" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838717" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="1.8.3.2" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838211" resolveInfo="DESEQ" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838718" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="1.1" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838220" resolveInfo="ENSEMBL_ANNOTATIONS" />
+        </node>
+        <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="5391721323999838719" nodeInfo="ng">
+          <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="5391721323999838720" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="INPUT_ALIGNMENTS" />
+            <property name="minCardinality" nameId="dzk5.1670346574285355658" value="1" />
+            <property name="maxCardinality" nameId="dzk5.1670346574285355720" value="2147483647" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838721" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838722" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838723" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838724" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS_DB" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838725" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="X_SQLITE3" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="X_SQLITE3 table." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838726" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS_LUCENE_INDEX" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838727" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="LUCENE_INDEX" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="A directory containing a Lucene Index." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838728" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838729" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838730" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="GENE_SCATTER_PLOT" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838731" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="PNG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Portable Network Graphics" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838732" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="EXON_SCATTER_PLOT" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838733" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="PNG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Portable Network Graphics" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838734" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="OTHER_SCATTER_PLOT" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838735" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="PNG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Portable Network Graphics" />
+            </node>
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.IntegerOption" typeId="dzk5.2123376856175107706" id="5391721323999838738" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Number of top hits" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="NUM_TOP_HITS" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Number of hits to report if no candidates has an adjusted p-value above the q-value threshold." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="10000" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.DoubleOption" typeId="dzk5.2123376856174994119" id="5391721323999838740" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="q-value threshold" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="Q_VALUE_THRESHOLD" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Threshold on q-values to determine if the candidate result should be kept. A candidate is kept if any&#10;                q-value is lower than the threshold.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="1.0" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.CategoricalOption" typeId="dzk5.2123376856175006363" id="5391721323999838742" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="weight adjustment" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="WEIGHT_ADJUSTMENT" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Type of count adjustment." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="NONE" />
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838743" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="None" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="NONE" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838744" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="GC content" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="GC_CONTENT" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838745" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="Heptamers" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="HEPTAMERS" />
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.CategoricalOption" typeId="dzk5.2123376856175006363" id="5391721323999838747" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GC adjustment formula" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="BIAS_ADJUSTMENT_FORMULA" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="When GC weight adjustment is selected, you can configure the type of formula used to adjust counts for&#10;                GC content.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="FORMULA3" />
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838748" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="None" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="NONE" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838749" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="FORMULA1" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="FORMULA1" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838750" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="FORMULA2" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="FORMULA2" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838751" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="FORMULA3" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="FORMULA3" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838752" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="FORMULA4" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="FORMULA4" />
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.CategoricalOption" typeId="dzk5.2123376856175006363" id="5391721323999838754" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Source of annotations" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="ANNOTATION_SOURCE" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Select the source of annotations and type of analysis to perform.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="GENE_EXON_OTHER" />
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838755" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="Gene/Exon/Other" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="GENE_EXON_OTHER" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838756" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="Copy Number Variants" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="CNV" />
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.BooleanOption" typeId="dzk5.2123376856174953285" id="5391721323999838758" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Gene counts" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="ESTIMATE_COUNTS_GENE" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Estimate gene counts." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="true" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.BooleanOption" typeId="dzk5.2123376856174953285" id="5391721323999838760" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Exon counts" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="ESTIMATE_COUNTS_EXON" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Estimate exon counts." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.BooleanOption" typeId="dzk5.2123376856174953285" id="5391721323999838762" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Other counts" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="ESTIMATE_COUNTS_OTHER" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Estimate other counts. The other category represents intergenic regions." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999838764" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GROUP_DEFINITION" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="GROUP_DEFINITION" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The group definition list. Each definition must be in the form: Group_N=TAG,TAG342,TAG231,etc. TAGs must match the ones declared in the SLOTS." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999838766" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="COMPARISON_PAIR" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="COMPARISON_PAIR" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The comparison pair list. Each pair must be in the form Group_Name1/Group_Name2. Group names must match the ones declared in the GROUP_DEFINITION." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.AlignmentAnalysisConfig" typeId="dzk5.2105345521169223215" id="5391721323999838767" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="DIFF_EXP_EDGE_R_ARTIFACT" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/analyses/DIFF_EXP_EDGE_R_ARTIFACT" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838768" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838265" resolveInfo="MERCURY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838769" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="2.5.1" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838247" resolveInfo="GOBYWEB_SERVER_SIDE" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838770" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838220" resolveInfo="ENSEMBL_ANNOTATIONS" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838771" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="20111021144833" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838238" resolveInfo="GOBY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838772" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="2.15.3" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838277" resolveInfo="R" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838773" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="2013.05.17" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838217" resolveInfo="EDGE_R_SCRIPT" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838774" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="1.1" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838220" resolveInfo="ENSEMBL_ANNOTATIONS" />
+        </node>
+        <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="5391721323999838775" nodeInfo="ng">
+          <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="5391721323999838776" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="INPUT_ALIGNMENTS" />
+            <property name="minCardinality" nameId="dzk5.1670346574285355658" value="1" />
+            <property name="maxCardinality" nameId="dzk5.1670346574285355720" value="2147483647" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838777" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838778" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838779" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838780" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS_DB" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838781" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="X_SQLITE3" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="X_SQLITE3 table." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838782" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS_LUCENE_INDEX" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838783" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="LUCENE_INDEX" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="A directory containing a Lucene Index." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838784" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838785" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838786" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="SAMPLE_MDS_PLOT" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838787" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="PNG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Portable Network Graphics" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838788" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ANALYSIS_SMEAR_PLOT" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838789" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="PNG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Portable Network Graphics" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838790" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="COUNTS_TABLE" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838791" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838792" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="EDGE_R_SCRIPT" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838793" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Alignment textual statistics" />
+            </node>
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.IntegerOption" typeId="dzk5.2123376856175107706" id="5391721323999838796" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Number of top hits" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="NUM_TOP_HITS" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Number of hits to report if no candidates has an adjusted p-value above the q-value threshold." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="10000" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.DoubleOption" typeId="dzk5.2123376856174994119" id="5391721323999838798" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="q-value threshold" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="Q_VALUE_THRESHOLD" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Threshold on q-values to determine if the candidate result should be kept. A candidate is kept if any&#10;                q-value is lower than the threshold.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="1.0" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.CategoricalOption" typeId="dzk5.2123376856175006363" id="5391721323999838800" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="weight adjustment" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="WEIGHT_ADJUSTMENT" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Type of count adjustment." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="NONE" />
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838801" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="None" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="NONE" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838802" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="GC content" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="GC_CONTENT" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838803" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="Heptamers" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="HEPTAMERS" />
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.CategoricalOption" typeId="dzk5.2123376856175006363" id="5391721323999838805" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GC adjustment formula" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="BIAS_ADJUSTMENT_FORMULA" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="When GC weight adjustment is selected, you can configure the type of formula used to adjust counts for&#10;                GC content.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="FORMULA3" />
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838806" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="None" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="NONE" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838807" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="FORMULA1" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="FORMULA1" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838808" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="FORMULA2" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="FORMULA2" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838809" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="FORMULA3" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="FORMULA3" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838810" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="FORMULA4" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="FORMULA4" />
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.CategoricalOption" typeId="dzk5.2123376856175006363" id="5391721323999838812" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="normalization factors method" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="NORMALIZATION_FACTORS_METHOD" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Method used to calculate normalization factors to scale the raw library sizes.&#10;                TMM - The weighted trimmed mean of M-values (to the reference) proposed by Robinson and Oshlack (2010),&#10;                where the weights are from the delta method on Binomial data.&#10;                RLE - The scaling factor method proposed by Anders and Huber (2010) -the median library is calculated&#10;                from the geometric mean of all columns and the median ratio of each sample to the median library is&#10;                taken as the scale factor.&#10;                BUQ - The upper-quartile normalization method of Bullard et al (2010), in which the scale factors are&#10;                calculated from the 75% quantile of the counts for each library, after removing transcripts which&#10;                are zero in all libraries.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="TMM" />
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838813" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="TMM" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="TMM" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838814" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="RLE" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="RLE" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838815" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="upperquartile" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="upperquartile" />
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.CategoricalOption" typeId="dzk5.2123376856175006363" id="5391721323999838817" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="dispersion method" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="DISPERSION_METHOD" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Method to estimate the dispersion parameter for the negative binomial model. Options are &quot;common&quot;&#10;                and &quot;tagwise&quot;. See EdgeR documentation.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="tagwise" />
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838818" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="common" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="common" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838819" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="tagwise" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="tagwise" />
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.BooleanOption" typeId="dzk5.2123376856174953285" id="5391721323999838821" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="apply filtering" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="FILTERING" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Indicate whether low count tags should be filtered. This prevents reporting spurious DE tags in the&#10;                final result. See edgeR documentation for more details.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="TRUE" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.CategoricalOption" typeId="dzk5.2123376856175006363" id="5391721323999838823" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Source of annotations" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="ANNOTATION_SOURCE" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Select the source of annotations and type of analysis to perform.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="GENE_EXON_OTHER" />
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838824" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="Gene/Exon/Other" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="GENE_EXON_OTHER" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838825" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="Copy Number Variants" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="CNV" />
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.BooleanOption" typeId="dzk5.2123376856174953285" id="5391721323999838827" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Gene counts" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="ESTIMATE_COUNTS_GENE" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Estimate gene counts." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="true" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.BooleanOption" typeId="dzk5.2123376856174953285" id="5391721323999838829" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Exon counts" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="ESTIMATE_COUNTS_EXON" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Estimate exon counts." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.BooleanOption" typeId="dzk5.2123376856174953285" id="5391721323999838831" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Other counts" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="ESTIMATE_COUNTS_OTHER" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Estimate other counts. The other category represents intergenic regions." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999838833" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GROUP_DEFINITION" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="GROUP_DEFINITION" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The group definition list. Each definition must be in the form: Group_N=TAG,TAG342,TAG231,etc. TAGs must match the ones declared in the SLOTS." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999838835" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="COMPARISON_PAIR" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="COMPARISON_PAIR" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The comparison pair list. Each pair must be in the form Group_Name1/Group_Name2. Group names must match the ones declared in the GROUP_DEFINITION." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.AlignmentAnalysisConfig" typeId="dzk5.2105345521169223215" id="5391721323999838836" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.1" />
+        <property name="name" nameId="tpck.1169194664001" value="DIFF_EXP_GOBY_ARTIFACT" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/analyses/DIFF_EXP_GOBY_ARTIFACT" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838837" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838265" resolveInfo="MERCURY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838838" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="2.5.1" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838247" resolveInfo="GOBYWEB_SERVER_SIDE" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838839" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="20120722101632" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838238" resolveInfo="GOBY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838840" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="1.1.2" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838220" resolveInfo="ENSEMBL_ANNOTATIONS" />
+        </node>
+        <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="5391721323999838841" nodeInfo="ng">
+          <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="5391721323999838842" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="INPUT_ALIGNMENTS" />
+            <property name="minCardinality" nameId="dzk5.1670346574285355658" value="1" />
+            <property name="maxCardinality" nameId="dzk5.1670346574285355720" value="2147483647" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838843" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838844" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838845" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838846" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS_DB" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838847" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="X_SQLITE3" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="X_SQLITE3 table." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838848" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS_LUCENE_INDEX" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838849" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="LUCENE_INDEX" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="A directory containing a Lucene Index." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838850" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838851" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838852" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="GENE_SCATTER_PLOT" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838853" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="PNG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Portable Network Graphics" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838854" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="EXON_SCATTER_PLOT" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838855" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="PNG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Portable Network Graphics" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838856" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="OTHER_SCATTER_PLOT" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838857" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="PNG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Portable Network Graphics" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838858" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="TRANSCRIPT_SCATTER_PLOT" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838859" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="PNG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Portable Network Graphics" />
+            </node>
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.CategoricalOption" typeId="dzk5.2123376856175006363" id="5391721323999838861" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Normalization" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="NORMALIZATION_METHOD" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Normalization method(s)." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="ALIGNED_COUNT" />
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838862" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="aligned-count" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="ALIGNED_COUNT" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838863" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="bullard-upper-quartile" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="BULLARD_UPPER_QUARTILE" />
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.IntegerOption" typeId="dzk5.2123376856175107706" id="5391721323999838866" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Number of top hits" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="NUM_TOP_HITS" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Number of hits to report if no candidates has an adjusted p-value above the q-value threshold." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="10000" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.DoubleOption" typeId="dzk5.2123376856174994119" id="5391721323999838868" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="q-value threshold" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="Q_VALUE_THRESHOLD" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Threshold on q-values to determine if the candidate result should be kept. A candidate is kept if any&#10;                q-value is lower than the threshold.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="1.0" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.CategoricalOption" typeId="dzk5.2123376856175006363" id="5391721323999838870" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="weight adjustment" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="WEIGHT_ADJUSTMENT" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Type of count adjustment." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="NONE" />
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838871" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="None" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="NONE" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838872" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="GC content" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="GC_CONTENT" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838873" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="Heptamers" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="HEPTAMERS" />
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.CategoricalOption" typeId="dzk5.2123376856175006363" id="5391721323999838875" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GC adjustment formula" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="BIAS_ADJUSTMENT_FORMULA" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="When GC weight adjustment is selected, you can configure the type of formula used to adjust counts for&#10;                GC content.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="NONE" />
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838876" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="None" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="NONE" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838877" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="FORMULA1" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="FORMULA1" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838878" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="FORMULA2" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="FORMULA2" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838879" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="FORMULA3" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="FORMULA3" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838880" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="FORMULA4" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="FORMULA4" />
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.CategoricalOption" typeId="dzk5.2123376856175006363" id="5391721323999838882" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Source of annotations" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="ANNOTATION_SOURCE" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Select the source of annotations and type of analysis to perform.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="GENE_EXON_OTHER" />
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838883" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="Gene/Exon/Other" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="GENE_EXON_OTHER" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838884" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="Copy Number Variants" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="CNV" />
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.BooleanOption" typeId="dzk5.2123376856174953285" id="5391721323999838886" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Gene counts" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="ESTIMATE_COUNTS_GENE" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Estimate gene counts." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="true" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.BooleanOption" typeId="dzk5.2123376856174953285" id="5391721323999838888" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Exon counts" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="ESTIMATE_COUNTS_EXON" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Estimate exon counts." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="false" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.BooleanOption" typeId="dzk5.2123376856174953285" id="5391721323999838890" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Other counts" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="ESTIMATE_COUNTS_OTHER" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Estimate other counts. The other category represents intergenic regions." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="false" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999838892" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GROUP_DEFINITION" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="GROUP_DEFINITION" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The group definition list. Each definition must be in the form: Group_N=TAG,TAG342,TAG231,etc. TAGs must match the ones declared in the SLOTS." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999838894" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="COMPARISON_PAIR" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="COMPARISON_PAIR" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The comparison pair list. Each pair must be in the form Group_Name1/Group_Name2. Group names must match the ones declared in the GROUP_DEFINITION." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.AlignmentAnalysisConfig" typeId="dzk5.2105345521169223215" id="5391721323999838895" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.2" />
+        <property name="name" nameId="tpck.1169194664001" value="INDEL_COUNTS_GOBY" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/analyses/INDEL_COUNTS_GOBY" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838896" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838265" resolveInfo="MERCURY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838897" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="2.5.1" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838247" resolveInfo="GOBYWEB_SERVER_SIDE" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838898" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="20120126122456" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838238" resolveInfo="GOBY" />
+        </node>
+        <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="5391721323999838899" nodeInfo="ng">
+          <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="5391721323999838900" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="INPUT_ALIGNMENTS" />
+            <property name="minCardinality" nameId="dzk5.1670346574285355658" value="1" />
+            <property name="maxCardinality" nameId="dzk5.1670346574285355720" value="2147483647" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838901" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838902" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838903" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838904" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS_DB" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838905" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="X_SQLITE3" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="X_SQLITE3 table." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838906" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS_LUCENE_INDEX" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838907" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="LUCENE_INDEX" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="A directory containing a Lucene Index." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838908" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838909" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
+            </node>
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.CategoricalOption" typeId="dzk5.2123376856175006363" id="5391721323999838911" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Type of analysis and output format" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="OUTPUT_FORMAT" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Determines the type of sequence variation analysis to perform and the output format." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="INDEL_COUNTS" />
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838912" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="indel-counts" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="INDEL_COUNTS" />
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.BooleanOption" typeId="dzk5.2123376856174953285" id="5391721323999838914" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Realign reads near indels" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="REALIGN_AROUND_INDELS" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="When this option is active, reads are realigned around indels and this can help prevent alignment&#10;                artifacts.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="false" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.IntegerOption" typeId="dzk5.2123376856175107706" id="5391721323999838916" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Minimum variation support" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="MINIMUM_VARIATION_SUPPORT" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Minimum number of reads that must have the variation for the variation to be reported in the output&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="35" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.IntegerOption" typeId="dzk5.2123376856175107706" id="5391721323999838918" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Minimum number of distinct read indices" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="THRESHOLD_DISTINCT_READ_INDICES" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Number of distinct read indices a position has to have to be reported in the output." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="1" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999838920" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GROUP_DEFINITION" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="GROUP_DEFINITION" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The group definition list. Each definition must be in the form: Group_N=TAG,TAG342,TAG231,etc. TAGs must match the ones declared in the SLOTS." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999838922" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="COMPARISON_PAIR" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="COMPARISON_PAIR" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The comparison pair list. Each pair must be in the form Group_Name1/Group_Name2. Group names must match the ones declared in the GROUP_DEFINITION." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.AlignmentAnalysisConfig" typeId="dzk5.2105345521169223215" id="5391721323999838923" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="MUTECT_SOMATIC_MUTATIONS" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/analyses/MUTECT_SOMATIC_MUTATIONS" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838924" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838265" resolveInfo="MERCURY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838925" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="2.5.1" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838247" resolveInfo="GOBYWEB_SERVER_SIDE" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838926" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="1.1.4" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838269" resolveInfo="MUTECT" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838927" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838270" resolveInfo="MUTECT_HOMO_SAPIENS_DATA" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838928" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="20130411170529" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838238" resolveInfo="GOBY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838929" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838241" resolveInfo="GOBY_INDEXED_GENOMES" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838930" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="1.1" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838227" resolveInfo="FAI_INDEXED_GENOMES" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838931" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="0.1.18.1" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838283" resolveInfo="SAMTOOLS" />
+        </node>
+        <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="5391721323999838932" nodeInfo="ng">
+          <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="5391721323999838933" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="INPUT_ALIGNMENTS" />
+            <property name="minCardinality" nameId="dzk5.1670346574285355658" value="1" />
+            <property name="maxCardinality" nameId="dzk5.1670346574285355720" value="2147483647" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838934" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838935" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838936" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838937" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="RESULTS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838938" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838939" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="RESULTS_LUCENE_INDEX" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838940" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="LUCENE_INDEX" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="A directory containing a Lucene Index." />
+            </node>
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999838942" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Covariate info URL" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="COVARIATE_INFO_URL" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="URL of a covariate information file. The URL should be publicly available and serve a TSV file. See&#10;                http://campagnelab.org/software/goby/tutorials/detecting-tumor-normal-pair-for-mutect-1-1-4/ for the&#10;                format expected in the TSV file.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="NONE" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999838944" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GROUP_DEFINITION" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="GROUP_DEFINITION" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The group definition list. Each definition must be in the form: Group_N=TAG,TAG342,TAG231,etc. TAGs must match the ones declared in the SLOTS." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999838946" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="COMPARISON_PAIR" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="COMPARISON_PAIR" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The comparison pair list. Each pair must be in the form Group_Name1/Group_Name2. Group names must match the ones declared in the GROUP_DEFINITION." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.AlignmentAnalysisConfig" typeId="dzk5.2105345521169223215" id="5391721323999838947" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.2.1" />
+        <property name="name" nameId="tpck.1169194664001" value="SEQ_VAR_GOBY" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/analyses/SEQ_VAR_GOBY" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838948" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838265" resolveInfo="MERCURY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838949" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="2.5.1" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838247" resolveInfo="GOBYWEB_SERVER_SIDE" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838950" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="20130404182251" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838238" resolveInfo="GOBY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838951" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="0.1.10" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838294" resolveInfo="VCF_TOOLS" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838952" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="2.8" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838293" resolveInfo="VARIANT_EFFECT_PREDICTOR" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838953" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838200" resolveInfo="ANNOTATE_VCF" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838954" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="0.9.6" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838278" resolveInfo="RJAVA" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999838955" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838241" resolveInfo="GOBY_INDEXED_GENOMES" />
+        </node>
+        <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="5391721323999838956" nodeInfo="ng">
+          <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="5391721323999838957" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="INPUT_ALIGNMENTS" />
+            <property name="minCardinality" nameId="dzk5.1670346574285355658" value="1" />
+            <property name="maxCardinality" nameId="dzk5.1670346574285355720" value="2147483647" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838958" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838959" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838960" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838961" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS_DB" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838962" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="X_SQLITE3" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="X_SQLITE3 table." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838963" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS_LUCENE_INDEX" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838964" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="LUCENE_INDEX" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="A directory containing a Lucene Index." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838965" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838966" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="VCF" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Variant Calling Format." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999838967" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS_INDEX" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999838968" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="VCF_INDEX" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Variant Calling Format Index (produced with tabix)." />
+            </node>
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.CategoricalOption" typeId="dzk5.2123376856175006363" id="5391721323999838970" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Type of analysis and output format" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="OUTPUT_FORMAT" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Determines the type of sequence variation analysis to perform and the output format." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="GENOTYPES" />
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838971" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="genotypes" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="GENOTYPES" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838972" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="allele_frequencies" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="ALLELE_FREQUENCIES" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838973" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="group_comparisons" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="GROUP_COMPARISONS" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838974" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="somatic variations" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="SOMATIC_VARIATIONS" />
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.BooleanOption" typeId="dzk5.2123376856174953285" id="5391721323999838976" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Realign reads near indels" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="REALIGN_AROUND_INDELS" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="When this option is active, reads are realigned around indels and this can help prevent alignment&#10;                artifacts.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="false" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.BooleanOption" typeId="dzk5.2123376856174953285" id="5391721323999838978" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Call indels" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="CALL_INDELS" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="When this option is active, indels are called and reported in the VCF output file. Please be advised&#10;                that the VCF output may become incompatible with various tools, as rules for reporting indels in VCF are&#10;                far from clearly described and various tools are known to interpret the VCF specification differently.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="false" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.BooleanOption" typeId="dzk5.2123376856174953285" id="5391721323999838980" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Diploid genome" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="FORCE_DIPLOID" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="When this option is active, genotype calls are forced to be diploid. Use when you know that the&#10;                genome the reads were generated from was diploid.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="false" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.BooleanOption" typeId="dzk5.2123376856174953285" id="5391721323999838982" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Annotate variations" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="ANNOTATE_VARIATIONS" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="When this option is active, annotate variations with the Variant Effect Predictor. Not that positions&#10;                that cannot be annotated may be removed from the output.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="true" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.DoubleOption" typeId="dzk5.2123376856174994119" id="5391721323999838984" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="q-value threshold" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="Q_VALUE_THRESHOLD" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Threshold on q-values to determine if the candidate result should be kept. A candidate is kept if any&#10;                q-value is lower than the threshold.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="1.0" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.IntegerOption" typeId="dzk5.2123376856175107706" id="5391721323999838986" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Number of top hits" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="NUM_TOP_HITS" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Number of hits to report if no candidates has an adjusted p-value above the q-value threshold." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="10000" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.IntegerOption" typeId="dzk5.2123376856175107706" id="5391721323999838988" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Minimum variation support" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="MINIMUM_VARIATION_SUPPORT" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Minimum number of reads that must have the variation for the variation to be reported in the output&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="1" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.IntegerOption" typeId="dzk5.2123376856175107706" id="5391721323999838990" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Minimum number of distinct read indices" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="THRESHOLD_DISTINCT_READ_INDICES" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Number of distinct read indices a position has to have to be reported in the output." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="1" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.CategoricalOption" typeId="dzk5.2123376856175006363" id="5391721323999838992" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Annotations" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="ANNOTATIONS" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The annotation file to use to define regions.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="NONE" />
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999838993" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="NONE" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="NONE" />
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999838995" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Covariate info URL" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="COVARIATE_INFO_URL" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="URL of a covariate information file. The URL should be publicly available and serve a TSV file. See&#10;                http://campagnelab.org/software/goby/tutorials/detecting-somatic-variations-with-goby-2-1-3/ for the&#10;                format expected in the TSV file.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="NONE" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999838997" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GROUP_DEFINITION" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="GROUP_DEFINITION" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The group definition list. Each definition must be in the form: Group_N=TAG,TAG342,TAG231,etc. TAGs must match the ones declared in the SLOTS." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999838999" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="COMPARISON_PAIR" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="COMPARISON_PAIR" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The comparison pair list. Each pair must be in the form Group_Name1/Group_Name2. Group names must match the ones declared in the GROUP_DEFINITION." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.AlignmentAnalysisConfig" typeId="dzk5.2105345521169223215" id="5391721323999839000" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.3.2" />
+        <property name="name" nameId="tpck.1169194664001" value="SEQ_VAR_GOBY_METHYLATION" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/analyses/SEQ_VAR_GOBY_METHYLATION" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839001" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838265" resolveInfo="MERCURY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839002" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="2.5.1" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838247" resolveInfo="GOBYWEB_SERVER_SIDE" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839003" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="20120703160732" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838238" resolveInfo="GOBY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839004" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838220" resolveInfo="ENSEMBL_ANNOTATIONS" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839005" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838200" resolveInfo="ANNOTATE_VCF" />
+        </node>
+        <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="5391721323999839006" nodeInfo="ng">
+          <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="5391721323999839007" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="INPUT_ALIGNMENTS" />
+            <property name="minCardinality" nameId="dzk5.1670346574285355658" value="1" />
+            <property name="maxCardinality" nameId="dzk5.1670346574285355720" value="2147483647" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839008" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839009" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839010" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839011" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS_DB" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839012" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="X_SQLITE3" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="X_SQLITE3 table." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839013" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS_LUCENE_INDEX" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839014" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="LUCENE_INDEX" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="A directory containing a Lucene Index." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839015" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839016" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="VCF" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Variant Calling Format." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839017" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS_INDEX" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839018" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="VCF_INDEX" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Variant Calling Format Index (produced with tabix)." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839019" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="DEPTH_RESULTS_DB" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839020" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="X_SQLITE3" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="X_SQLITE3 table." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839021" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="DEPTH_RESULTS_LUCENE_INDEX" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839022" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="LUCENE_INDEX" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="A directory containing a Lucene Index." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839023" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="CONVERSION_RATES_RESULTS_DB" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839024" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="X_SQLITE3" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="X_SQLITE3 table." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839025" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="CONVERSION_RATES_RESULTS_LUCENE_INDEX" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839026" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="LUCENE_INDEX" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="A directory containing a Lucene Index." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839027" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="NON_CONVERSION_RESULTS_DB" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839028" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="X_SQLITE3" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="X_SQLITE3 table." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839029" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="NON_CONVERSION_RESULTS_LUCENE_INDEX" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839030" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="LUCENE_INDEX" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="A directory containing a Lucene Index." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839031" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="DEPTH_RESULTS_TSV" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839032" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839033" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="CONVERSION_RATES_RESULTS_TSV" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839034" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839035" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="NON_CONVERSION_RESULTS_TSV" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839036" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839037" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="SAMPLE_COVERAGE_PLOT" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839038" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="PNG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Portable Network Graphics" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839039" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="BISULFITE_CONVERSION_PLOT" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839040" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="PNG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Portable Network Graphics" />
+            </node>
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.CategoricalOption" typeId="dzk5.2123376856175006363" id="5391721323999839042" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Type of analysis and output format" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="OUTPUT_FORMAT" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Determines the type of sequence variation analysis to perform and the output format." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="METHYLATION" />
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839043" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="methylation" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="METHYLATION" />
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.DoubleOption" typeId="dzk5.2123376856174994119" id="5391721323999839045" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="q-value threshold" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="Q_VALUE_THRESHOLD" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Threshold on q-values to determine if the candidate result should be kept. A candidate is kept if any&#10;                q-value is lower than the threshold.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="0.05" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.IntegerOption" typeId="dzk5.2123376856175107706" id="5391721323999839047" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Number of top hits" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="NUM_TOP_HITS" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Number of hits to report if no candidates has an adjusted p-value above the q-value threshold." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="10000" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.IntegerOption" typeId="dzk5.2123376856175107706" id="5391721323999839049" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Minimum variation support" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="MINIMUM_VARIATION_SUPPORT" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Minimum number of reads that must have the variation for the variation to be reported in the output&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="35" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.IntegerOption" typeId="dzk5.2123376856175107706" id="5391721323999839051" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Minimum number of distinct read indices" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="THRESHOLD_DISTINCT_READ_INDICES" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Number of distinct read indices a position has to have to be reported in the output." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="1" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.BooleanOption" typeId="dzk5.2123376856174953285" id="5391721323999839053" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Diploid genome" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="FORCE_DIPLOID" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="When this option is active, genotype calls are forced to be diploid. Use when you know that the&#10;                genome the reads were generated from was diploid.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="false" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.BooleanOption" typeId="dzk5.2123376856174953285" id="5391721323999839055" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Call indels" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="CALL_INDELS" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="When this option is active, indels are called and reported in the VCF output file. Please be advised&#10;                that the VCF output may become incompatible with various tools, as rules for reporting indels in VCF are&#10;                far from clearly described and various tools are known to interpret the VCF specification differently.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="false" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.CategoricalOption" typeId="dzk5.2123376856175006363" id="5391721323999839057" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Annotations" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="ANNOTATIONS" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The annotation file to use to define regions.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="NONE" />
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839058" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="NONE" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="NONE" />
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.BooleanOption" typeId="dzk5.2123376856174953285" id="5391721323999839060" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Estimate empirical p-values" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="ESTIMATE_INTRA_GROUP_DIFFERENCE_DENSITY" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="When this option is active, estimate an empirical p-value using observed distribution of intra-group&#10;                differences in each group under comparison.&#10;                The empirical p-value requires experimental replicates (i.e., more than one sample in at least one&#10;                group).&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="false" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.CategoricalOption" typeId="dzk5.2123376856175006363" id="5391721323999839062" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="P-value combination method" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="PVALUE_COMBINATOR" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Method to combine evidence from multiple tests." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="median" />
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839063" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="median" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="MEDIAN" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839064" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="Maximum" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="MAX" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839065" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="Sum" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="SUM" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839066" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="QFAST" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="QFAST" />
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.IntegerOption" typeId="dzk5.2123376856175107706" id="5391721323999839068" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Length of a fixed window." />
+          <property name="id" nameId="dzk5.2123376856175546319" value="WINDOW_LENGTH" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="A moving window is used to detect significant sites at the end of a DMR. This parameter indicates the&#10;                length of the moving window.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="1000" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.DoubleOption" typeId="dzk5.2123376856174994119" id="5391721323999839070" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Significance threshold to consider a site significant in a window." />
+          <property name="id" nameId="dzk5.2123376856175546319" value="SIGNIFICANCE_THRESHOLD_FOR_WINDOW" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Sites with empirical p-values below this threshold are counted towards a DMR. Other sites are&#10;                ignored.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="0.05" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999839072" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GROUP_DEFINITION" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="GROUP_DEFINITION" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The group definition list. Each definition must be in the form: Group_N=TAG,TAG342,TAG231,etc. TAGs must match the ones declared in the SLOTS." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999839074" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="COMPARISON_PAIR" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="COMPARISON_PAIR" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The comparison pair list. Each pair must be in the form Group_Name1/Group_Name2. Group names must match the ones declared in the GROUP_DEFINITION." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.AlignmentAnalysisConfig" typeId="dzk5.2105345521169223215" id="5391721323999839075" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.6.3.4" />
+        <property name="name" nameId="tpck.1169194664001" value="SEQ_VAR_GOBY_METHYLATION_REGIONS" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/analyses/SEQ_VAR_GOBY_METHYLATION_REGIONS" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839076" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838265" resolveInfo="MERCURY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839077" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="2.5.1" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838247" resolveInfo="GOBYWEB_SERVER_SIDE" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839078" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="20120608105135" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838238" resolveInfo="GOBY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839079" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="1.5.16" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838254" resolveInfo="IGVTOOLS" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839080" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838200" resolveInfo="ANNOTATE_VCF" />
+        </node>
+        <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="5391721323999839081" nodeInfo="ng">
+          <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="5391721323999839082" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="INPUT_ALIGNMENTS" />
+            <property name="minCardinality" nameId="dzk5.1670346574285355658" value="1" />
+            <property name="maxCardinality" nameId="dzk5.1670346574285355720" value="2147483647" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839083" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839084" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839085" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839086" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS_DB" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839087" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="X_SQLITE3" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="X_SQLITE3 table." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839088" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS_LUCENE_INDEX" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839089" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="LUCENE_INDEX" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="A directory containing a Lucene Index." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839090" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839091" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839092" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="IGV_OUTPUT" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839093" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
+            </node>
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.CategoricalOption" typeId="dzk5.2123376856175006363" id="5391721323999839095" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Type of analysis and output format" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="OUTPUT_FORMAT" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Determines the type of sequence variation analysis to perform and the output format." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="METHYLATION" />
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839096" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="methylation" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="METHYLATION_REGIONS" />
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.DoubleOption" typeId="dzk5.2123376856174994119" id="5391721323999839098" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="q-value threshold" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="Q_VALUE_THRESHOLD" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Threshold on q-values to determine if the candidate result should be kept. A candidate is kept if any&#10;                q-value is lower than the threshold.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="0.05" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.IntegerOption" typeId="dzk5.2123376856175107706" id="5391721323999839100" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Number of top hits" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="NUM_TOP_HITS" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Number of hits to report if no candidates has an adjusted p-value above the q-value threshold." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="10000" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.IntegerOption" typeId="dzk5.2123376856175107706" id="5391721323999839102" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Minimum variation support" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="MINIMUM_VARIATION_SUPPORT" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Minimum number of reads that must have the variation for the variation to be reported in the output&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="35" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.IntegerOption" typeId="dzk5.2123376856175107706" id="5391721323999839104" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Minimum number of distinct read indices" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="THRESHOLD_DISTINCT_READ_INDICES" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Number of distinct read indices a position has to have to be reported in the output." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="1" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.BooleanOption" typeId="dzk5.2123376856174953285" id="5391721323999839106" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Call indels" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="CALL_INDELS" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="When this option is active, indels are called and reported in the VCF output file. Please be advised&#10;                that the VCF output may become incompatible with various tools, as rules for reporting indels in VCF are&#10;                far from clearly described and various tools are known to interpret the VCF specification differently.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="false" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.BooleanOption" typeId="dzk5.2123376856174953285" id="5391721323999839108" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Diploid genome" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="FORCE_DIPLOID" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="When this option is active, genotype calls are forced to be diploid. Use when you know that the&#10;                genome the reads were generated from was diploid.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="false" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.CategoricalOption" typeId="dzk5.2123376856175006363" id="5391721323999839110" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Annotations" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="ANNOTATIONS" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The annotation file to use to define regions." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="NONE" />
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839111" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="Genes" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="GENES" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839112" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="Exons" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="EXONS" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839113" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="Cpg Islands" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="CPG_ISLANDS" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839114" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="Refseq Promoters" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="REFSEQ_PROMOTER" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839115" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="1KB Genome Tiles" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="1KB_Tile" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839116" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="5' Untranslated Region" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="5' UTR" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839117" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="3' Untranslated Region" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="3' UTR" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839118" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="Ensembl Promoters" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="ENSEMBL_PROMOTER" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839119" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="Introns" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="INTRONS" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839120" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="intergenic" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="INTERGENIC" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839121" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="HELP_assay" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="HELP" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839122" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="combined" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="COMBINED" />
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.BooleanOption" typeId="dzk5.2123376856174953285" id="5391721323999839124" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Estimate indel rate" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="INDEL_RATE" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="When this option is active, the rate of indels is estimated over each annotation. The percentage of&#10;                sites where an indel is called is written in the MR field(s).&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="false" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.BooleanOption" typeId="dzk5.2123376856174953285" id="5391721323999839126" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Write Cm C columns in output file" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="WRITE_COUNTS" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="When this option is active, the output file includes C and Cm columns corresponding to the number of&#10;                non-methylated and methylated cytosines respectively.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="false" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.BooleanOption" typeId="dzk5.2123376856174953285" id="5391721323999839128" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Estimate empirical p-values" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="ESTIMATE_INTRA_GROUP_DIFFERENCE_DENSITY" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="When this option is active, estimate an empirical p-value using observed distribution of intra-group&#10;                differences in each group under comparison.&#10;                The empirical p-value requires experimental replicates (i.e., more than one sample in at least one&#10;                group).&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="false" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.CategoricalOption" typeId="dzk5.2123376856175006363" id="5391721323999839130" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="P-value combination method" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="PVALUE_COMBINATOR" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Method to combine evidence from multiple tests." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="median" />
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839131" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="median" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="MEDIAN" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839132" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="Maximum" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="MAX" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839133" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="Sum" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="SUM" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839134" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="QFAST" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="QFAST" />
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999839136" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Cytosine contexts" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="CONTEXTS" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="A comma separated list of contexts, among CpG,CpA,CpC,CpT,CpN.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="CpG" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999839138" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GROUP_DEFINITION" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="GROUP_DEFINITION" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The group definition list. Each definition must be in the form: Group_N=TAG,TAG342,TAG231,etc. TAGs must match the ones declared in the SLOTS." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999839140" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="COMPARISON_PAIR" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="COMPARISON_PAIR" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The comparison pair list. Each pair must be in the form Group_Name1/Group_Name2. Group names must match the ones declared in the GROUP_DEFINITION." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.AlignmentAnalysisConfig" typeId="dzk5.2105345521169223215" id="5391721323999839141" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.6.3.4.3" />
+        <property name="name" nameId="tpck.1169194664001" value="SEQ_VAR_GOBY_METHYLATION_REGIONS_ARTIFACT" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/analyses/SEQ_VAR_GOBY_METHYLATION_REGIONS_ARTIFACT" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839142" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838265" resolveInfo="MERCURY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839143" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="2.5.1" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838247" resolveInfo="GOBYWEB_SERVER_SIDE" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839144" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="20120608105135" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838238" resolveInfo="GOBY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839145" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="1.5.16" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838254" resolveInfo="IGVTOOLS" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839146" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838200" resolveInfo="ANNOTATE_VCF" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839147" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="2.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838220" resolveInfo="ENSEMBL_ANNOTATIONS" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839148" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838241" resolveInfo="GOBY_INDEXED_GENOMES" />
+        </node>
+        <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="5391721323999839149" nodeInfo="ng">
+          <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="5391721323999839150" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="INPUT_ALIGNMENTS" />
+            <property name="minCardinality" nameId="dzk5.1670346574285355658" value="1" />
+            <property name="maxCardinality" nameId="dzk5.1670346574285355720" value="2147483647" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839151" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839152" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839153" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839154" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS_DB" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839155" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="X_SQLITE3" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="X_SQLITE3 table." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839156" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS_LUCENE_INDEX" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839157" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="LUCENE_INDEX" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="A directory containing a Lucene Index." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839158" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839159" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839160" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="IGV_OUTPUT" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839161" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
+            </node>
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.CategoricalOption" typeId="dzk5.2123376856175006363" id="5391721323999839163" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Type of analysis and output format" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="OUTPUT_FORMAT" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Determines the type of sequence variation analysis to perform and the output format." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="METHYLATION" />
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839164" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="methylation" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="METHYLATION_REGIONS" />
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.DoubleOption" typeId="dzk5.2123376856174994119" id="5391721323999839166" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="q-value threshold" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="Q_VALUE_THRESHOLD" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Threshold on q-values to determine if the candidate result should be kept. A candidate is kept if any&#10;                q-value is lower than the threshold.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="0.05" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.IntegerOption" typeId="dzk5.2123376856175107706" id="5391721323999839168" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Number of top hits" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="NUM_TOP_HITS" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Number of hits to report if no candidates has an adjusted p-value above the q-value threshold." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="10000" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.IntegerOption" typeId="dzk5.2123376856175107706" id="5391721323999839170" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Minimum variation support" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="MINIMUM_VARIATION_SUPPORT" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Minimum number of reads that must have the variation for the variation to be reported in the output&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="35" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.IntegerOption" typeId="dzk5.2123376856175107706" id="5391721323999839172" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Minimum number of distinct read indices" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="THRESHOLD_DISTINCT_READ_INDICES" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Number of distinct read indices a position has to have to be reported in the output." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="1" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.BooleanOption" typeId="dzk5.2123376856174953285" id="5391721323999839174" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Call indels" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="CALL_INDELS" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="When this option is active, indels are called and reported in the VCF output file. Please be advised&#10;                that the VCF output may become incompatible with various tools, as rules for reporting indels in VCF are&#10;                far from clearly described and various tools are known to interpret the VCF specification differently.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="false" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.BooleanOption" typeId="dzk5.2123376856174953285" id="5391721323999839176" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Diploid genome" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="FORCE_DIPLOID" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="When this option is active, genotype calls are forced to be diploid. Use when you know that the&#10;                genome the reads were generated from was diploid.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="false" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.CategoricalOption" typeId="dzk5.2123376856175006363" id="5391721323999839178" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Source of annotations" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="ANNOTATION_TYPE" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Select the source of annotations and type of analysis to perform." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="NONE" />
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839179" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="Ensembl Promoters" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="ENSEMBL_PROMOTER" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839180" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="Genes" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="GENES" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839181" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="5' Untranslated Region" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="5_UTR" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839182" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="Exons" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="EXONS" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839183" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="Introns" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="INTRONS" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839184" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="3' Untranslated Region" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="3_UTR" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839185" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="intergenic" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="INTERGENIC" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839186" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="Cpg Islands" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="CPG_ISLANDS" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839187" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="1KB Genome Tiles" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="1KB_Tile" />
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.BooleanOption" typeId="dzk5.2123376856174953285" id="5391721323999839189" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Estimate indel rate" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="INDEL_RATE" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="When this option is active, the rate of indels is estimated over each annotation. The percentage of&#10;                sites where an indel is called is written in the MR field(s).&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="false" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.BooleanOption" typeId="dzk5.2123376856174953285" id="5391721323999839191" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Write Cm C columns in output file" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="WRITE_COUNTS" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="When this option is active, the output file includes C and Cm columns corresponding to the number of&#10;                non-methylated and methylated cytosines respectively.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="false" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.BooleanOption" typeId="dzk5.2123376856174953285" id="5391721323999839193" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Estimate empirical p-values" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="ESTIMATE_INTRA_GROUP_DIFFERENCE_DENSITY" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="When this option is active, estimate an empirical p-value using observed distribution of intra-group&#10;                differences in each group under comparison.&#10;                The empirical p-value requires experimental replicates (i.e., more than one sample in at least one&#10;                group).&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="false" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.CategoricalOption" typeId="dzk5.2123376856175006363" id="5391721323999839195" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="P-value combination method" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="PVALUE_COMBINATOR" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Method to combine evidence from multiple tests." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="median" />
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839196" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="median" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="MEDIAN" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839197" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="Maximum" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="MAX" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839198" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="Sum" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="SUM" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839199" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="QFAST" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="QFAST" />
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999839201" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Cytosine contexts" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="CONTEXTS" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="A comma separated list of contexts, among CpG,CpA,CpC,CpT,CpN.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="CpG" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999839203" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GROUP_DEFINITION" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="GROUP_DEFINITION" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The group definition list. Each definition must be in the form: Group_N=TAG,TAG342,TAG231,etc. TAGs must match the ones declared in the SLOTS." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999839205" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="COMPARISON_PAIR" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="COMPARISON_PAIR" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The comparison pair list. Each pair must be in the form Group_Name1/Group_Name2. Group names must match the ones declared in the GROUP_DEFINITION." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.AlignmentAnalysisConfig" typeId="dzk5.2105345521169223215" id="5391721323999839206" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.2" />
+        <property name="name" nameId="tpck.1169194664001" value="SEQ_VAR_GOBY_NYOSH" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/analyses/SEQ_VAR_GOBY_NYOSH" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839207" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838265" resolveInfo="MERCURY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839208" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="2.5.1" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838247" resolveInfo="GOBYWEB_SERVER_SIDE" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839209" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="20130404182251" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838238" resolveInfo="GOBY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839210" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="0.1.10" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838294" resolveInfo="VCF_TOOLS" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839211" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="2.8" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838293" resolveInfo="VARIANT_EFFECT_PREDICTOR" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839212" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838200" resolveInfo="ANNOTATE_VCF" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839213" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838241" resolveInfo="GOBY_INDEXED_GENOMES" />
+        </node>
+        <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="5391721323999839214" nodeInfo="ng">
+          <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="5391721323999839215" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="INPUT_ALIGNMENTS" />
+            <property name="minCardinality" nameId="dzk5.1670346574285355658" value="1" />
+            <property name="maxCardinality" nameId="dzk5.1670346574285355720" value="2147483647" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839216" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839217" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839218" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839219" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS_DB" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839220" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="X_SQLITE3" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="X_SQLITE3 table." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839221" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="VARIANT_ANNOTATION_PREDICTOR_OUTPUT" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839222" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="LUCENE_INDEX" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="A directory containing a Lucene Index." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839223" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS_LUCENE_INDEX" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839224" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="LUCENE_INDEX" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="A directory containing a Lucene Index." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839225" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839226" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="VCF" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Variant Calling Format." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839227" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS_INDEX" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839228" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="VCF_INDEX" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Variant Calling Format Index (produced with tabix)." />
+            </node>
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.CategoricalOption" typeId="dzk5.2123376856175006363" id="5391721323999839230" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Type of analysis and output format" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="OUTPUT_FORMAT" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Determines the type of sequence variation analysis to perform and the output format." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="GENOTYPES" />
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839231" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="genotypes" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="GENOTYPES" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839232" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="allele_frequencies" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="ALLELE_FREQUENCIES" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839233" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="group_comparisons" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="GROUP_COMPARISONS" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839234" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="somatic variations" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="SOMATIC_VARIATIONS" />
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.BooleanOption" typeId="dzk5.2123376856174953285" id="5391721323999839236" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Realign reads near indels" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="REALIGN_AROUND_INDELS" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="When this option is active, reads are realigned around indels and this can help prevent alignment&#10;                artifacts.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="false" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.BooleanOption" typeId="dzk5.2123376856174953285" id="5391721323999839238" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Call indels" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="CALL_INDELS" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="When this option is active, indels are called and reported in the VCF output file. Please be advised&#10;                that the VCF output may become incompatible with various tools, as rules for reporting indels in VCF are&#10;                far from clearly described and various tools are known to interpret the VCF specification differently.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="false" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.BooleanOption" typeId="dzk5.2123376856174953285" id="5391721323999839240" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Diploid genome" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="FORCE_DIPLOID" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="When this option is active, genotype calls are forced to be diploid. Use when you know that the&#10;                genome the reads were generated from was diploid.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="false" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.BooleanOption" typeId="dzk5.2123376856174953285" id="5391721323999839242" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Annotate variations" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="ANNOTATE_VARIATIONS" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="When this option is active, annotate variations with the Variant Effect Predictor. Not that positions&#10;                that cannot be annotated may be removed from the output.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="true" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.DoubleOption" typeId="dzk5.2123376856174994119" id="5391721323999839244" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="q-value threshold" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="Q_VALUE_THRESHOLD" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Threshold on q-values to determine if the candidate result should be kept. A candidate is kept if any&#10;                q-value is lower than the threshold.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="1.0" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.IntegerOption" typeId="dzk5.2123376856175107706" id="5391721323999839246" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Number of top hits" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="NUM_TOP_HITS" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Number of hits to report if no candidates has an adjusted p-value above the q-value threshold." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="10000" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.IntegerOption" typeId="dzk5.2123376856175107706" id="5391721323999839248" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Minimum variation support" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="MINIMUM_VARIATION_SUPPORT" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Minimum number of reads that must have the variation for the variation to be reported in the output&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="1" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.IntegerOption" typeId="dzk5.2123376856175107706" id="5391721323999839250" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Minimum number of distinct read indices" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="THRESHOLD_DISTINCT_READ_INDICES" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Number of distinct read indices a position has to have to be reported in the output." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="1" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.CategoricalOption" typeId="dzk5.2123376856175006363" id="5391721323999839252" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Annotations" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="ANNOTATIONS" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The annotation file to use to define regions.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="NONE" />
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839253" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="NONE" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="NONE" />
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999839255" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Covariate info URL" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="COVARIATE_INFO_URL" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="URL of a covariate information file. The URL should be publicly available and serve a TSV file. See&#10;                http://campagnelab.org/software/goby/tutorials/detecting-somatic-variations-with-goby-2-1-3/ for the&#10;                format expected in the TSV file.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="NONE" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999839257" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GROUP_DEFINITION" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="GROUP_DEFINITION" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The group definition list. Each definition must be in the form: Group_N=TAG,TAG342,TAG231,etc. TAGs must match the ones declared in the SLOTS." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999839259" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="COMPARISON_PAIR" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="COMPARISON_PAIR" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The comparison pair list. Each pair must be in the form Group_Name1/Group_Name2. Group names must match the ones declared in the GROUP_DEFINITION." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.AlignmentAnalysisConfig" typeId="dzk5.2105345521169223215" id="5391721323999839260" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="SEQ_VAR_SAMTOOLS" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/analyses/SEQ_VAR_SAMTOOLS" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839261" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838265" resolveInfo="MERCURY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839262" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="2.5.1" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838247" resolveInfo="GOBYWEB_SERVER_SIDE" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839263" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="0.1.14" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838283" resolveInfo="SAMTOOLS" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839264" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838200" resolveInfo="ANNOTATE_VCF" />
+        </node>
+        <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="5391721323999839265" nodeInfo="ng">
+          <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="5391721323999839266" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="INPUT_ALIGNMENTS" />
+            <property name="minCardinality" nameId="dzk5.1670346574285355658" value="1" />
+            <property name="maxCardinality" nameId="dzk5.1670346574285355720" value="2147483647" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839267" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="BAM_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="BAM alignment format" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839268" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839269" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
+            </node>
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.CategoricalOption" typeId="dzk5.2123376856175006363" id="5391721323999839271" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Type of analysis and output format" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="OUTPUT_FORMAT" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Determines the type of sequence variation analysis to perform and the output format." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="GENOTYPES" />
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839272" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="genotypes" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="GENOTYPES" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839273" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="group_comparisons" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="GROUP_COMPARISONS" />
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.BooleanOption" typeId="dzk5.2123376856174953285" id="5391721323999839275" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Annotate variations" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="ANNOTATE_VARIATIONS" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="When this option is active, annotate variations with the Variant Effect Predictor. Not that positions&#10;                that cannot be annotated may be removed from the output.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="true" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.IntegerOption" typeId="dzk5.2123376856175107706" id="5391721323999839277" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Number of top hits" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="NUM_TOP_HITS" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Number of hits to report if no candidates has an adjusted p-value above the q-value threshold." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="10000" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999839279" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GROUP_DEFINITION" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="GROUP_DEFINITION" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The group definition list. Each definition must be in the form: Group_N=TAG,TAG342,TAG231,etc. TAGs must match the ones declared in the SLOTS." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999839281" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="COMPARISON_PAIR" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="COMPARISON_PAIR" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The comparison pair list. Each pair must be in the form Group_Name1/Group_Name2. Group names must match the ones declared in the GROUP_DEFINITION." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.AlignmentAnalysisConfig" typeId="dzk5.2105345521169223215" id="5391721323999839282" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.2.1" />
+        <property name="name" nameId="tpck.1169194664001" value="SPLICING_DIFF_EXP" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/analyses/SPLICING_DIFF_EXP" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839283" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838265" resolveInfo="MERCURY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839284" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="2.5.1" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838247" resolveInfo="GOBYWEB_SERVER_SIDE" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839285" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="20121012122417" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838238" resolveInfo="GOBY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839286" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="2.9.2" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838284" resolveInfo="SCALA" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839287" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="2.14.1" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838275" resolveInfo="R" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839288" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="2012.07.25" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838212" resolveInfo="DESEQ_SCRIPT" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839289" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="2013.05.17" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838217" resolveInfo="EDGE_R_SCRIPT" />
+        </node>
+        <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="5391721323999839290" nodeInfo="ng">
+          <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="5391721323999839291" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="INPUT_ALIGNMENTS" />
+            <property name="minCardinality" nameId="dzk5.1670346574285355658" value="1" />
+            <property name="maxCardinality" nameId="dzk5.1670346574285355720" value="2147483647" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839292" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839293" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839294" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839295" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS_DB" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839296" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="X_SQLITE3" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="X_SQLITE3 table." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839297" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS_LUCENE_INDEX" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839298" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="LUCENE_INDEX" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="A directory containing a Lucene Index." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839299" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="STATS_RESULTS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839300" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Sequence Variation Statistics" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839301" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="SAMPLE_MDS_PLOT" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839302" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="PNG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Portable Network Graphics" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839303" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ANALYSIS_SMEAR_PLOT" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839304" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="PNG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Portable Network Graphics" />
+            </node>
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.CategoricalOption" typeId="dzk5.2123376856175006363" id="5391721323999839306" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Estimation method" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="STAT_ENGINE" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The method used to estimate statistical significance of differences.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="NONE" />
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839307" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="DESEQ" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="DESEQ" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839308" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="EDGE_R" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="EDGE_R" />
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.BooleanOption" typeId="dzk5.2123376856174953285" id="5391721323999839310" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Force recalculation of splice junction usage from Goby alignment splice link info." />
+          <property name="id" nameId="dzk5.2123376856175546319" value="FORCE_GOBY_SPLICE_USE" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="When this option is active, splice junction counts are recalculated from the alignment, even in the&#10;                presence of a STAR splice junction TSV file.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="false" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999839312" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GROUP_DEFINITION" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="GROUP_DEFINITION" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The group definition list. Each definition must be in the form: Group_N=TAG,TAG342,TAG231,etc. TAGs must match the ones declared in the SLOTS." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999839314" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="COMPARISON_PAIR" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="COMPARISON_PAIR" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The comparison pair list. Each pair must be in the form Group_Name1/Group_Name2. Group names must match the ones declared in the GROUP_DEFINITION." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="5391721323999839315" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_ALL_FILES" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/filesets/ALIGNMENT_ALL_FILES" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839316" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*-all-files.zip" />
+          <property name="name" nameId="tpck.1169194664001" value="ARCHIVE" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="5391721323999839317" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_BED" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/filesets/ALIGNMENT_BED" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839318" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*-all.bed.gz" />
+          <property name="name" nameId="tpck.1169194664001" value="BED" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="5391721323999839319" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/filesets/ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839320" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.sequence-variation-stats.tsv" />
+          <property name="name" nameId="tpck.1169194664001" value="STATS" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="5391721323999839321" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_STATS" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/filesets/ALIGNMENT_STATS" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839322" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.alignment-stats.txt" />
+          <property name="name" nameId="tpck.1169194664001" value="STATS" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="5391721323999839323" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="ALIGNMENT_WIG" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/filesets/ALIGNMENT_WIG" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839324" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*-all.wig.gz" />
+          <property name="name" nameId="tpck.1169194664001" value="BED" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="5391721323999839325" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="ALLOGENOMICS_PHENOTYPE" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/filesets/ALLOGENOMICS_PHENOTYPE" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839326" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.pairs" />
+          <property name="name" nameId="tpck.1169194664001" value="PHENOTYPE" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="5391721323999839327" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="BAM_ALIGNMENT" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/filesets/BAM_ALIGNMENT" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839328" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.bam" />
+          <property name="name" nameId="tpck.1169194664001" value="BAM" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839329" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.bam.bai" />
+          <property name="name" nameId="tpck.1169194664001" value="INDEX" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="5391721323999839330" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="0.5" />
+        <property name="name" nameId="tpck.1169194664001" value="BWA_INDEX" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/filesets/BWA_INDEX" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839331" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.bwt" />
+          <property name="name" nameId="tpck.1169194664001" value="BWT" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839332" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.pac" />
+          <property name="name" nameId="tpck.1169194664001" value="PAC" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839333" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.ann" />
+          <property name="name" nameId="tpck.1169194664001" value="ANN" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839334" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.amb" />
+          <property name="name" nameId="tpck.1169194664001" value="AMB" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839335" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.sa" />
+          <property name="name" nameId="tpck.1169194664001" value="SA" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839336" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.rpac" />
+          <property name="name" nameId="tpck.1169194664001" value="RPAC" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839337" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.rbwt" />
+          <property name="name" nameId="tpck.1169194664001" value="RBWT" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839338" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.rsa" />
+          <property name="name" nameId="tpck.1169194664001" value="RSA" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="5391721323999839339" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="COMPACT_READS" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/filesets/COMPACT_READS" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839340" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.compact-reads" />
+          <property name="name" nameId="tpck.1169194664001" value="READS_FILE" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="5391721323999839341" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="COUNTS" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/filesets/COUNTS" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839342" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.counts" />
+          <property name="name" nameId="tpck.1169194664001" value="COUNTS" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="5391721323999839343" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="FASTA" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/filesets/FASTA" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839344" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.fa" />
+          <property name="name" nameId="tpck.1169194664001" value="READS_FILE" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="5391721323999839345" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="FASTQ" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/filesets/FASTQ" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839346" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.fastq" />
+          <property name="name" nameId="tpck.1169194664001" value="FASTQ" />
+        </node>
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839347" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.fq" />
+          <property name="name" nameId="tpck.1169194664001" value="FQ" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="5391721323999839348" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="FASTQ_GZ" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/filesets/FASTQ_GZ" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839349" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.fastq.gz" />
+          <property name="name" nameId="tpck.1169194664001" value="FASTQ_GZ" />
+        </node>
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839350" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.fq.gz" />
+          <property name="name" nameId="tpck.1169194664001" value="FQ_GZ" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="5391721323999839351" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="GOBY_ALIGNMENT" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/filesets/GOBY_ALIGNMENT" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839352" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.index" />
+          <property name="name" nameId="tpck.1169194664001" value="INDEX" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839353" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.header" />
+          <property name="name" nameId="tpck.1169194664001" value="HEADER" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839354" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.entries" />
+          <property name="name" nameId="tpck.1169194664001" value="ENTRIES" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839355" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.tmh" />
+          <property name="name" nameId="tpck.1169194664001" value="TMH" />
+        </node>
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839356" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.perm" />
+          <property name="name" nameId="tpck.1169194664001" value="PERM" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="5391721323999839357" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="GOBY_INDEX" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/filesets/GOBY_INDEX" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839358" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.names" />
+          <property name="name" nameId="tpck.1169194664001" value="NAMES" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839359" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.sizes" />
+          <property name="name" nameId="tpck.1169194664001" value="SIZES" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839360" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.bases" />
+          <property name="name" nameId="tpck.1169194664001" value="BASES" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839361" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.ignore" />
+          <property name="name" nameId="tpck.1169194664001" value="IGNORE" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="5391721323999839362" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="GOBYWEB_MERGE_PLAN_FILE" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/filesets/GOBYWEB_MERGE_PLAN_FILE" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839363" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*details.tsv" />
+          <property name="name" nameId="tpck.1169194664001" value="MERGE_PLAN" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="5391721323999839364" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="GZ" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/filesets/GZ" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839365" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.gz" />
+          <property name="name" nameId="tpck.1169194664001" value="GZ" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="5391721323999839366" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="IGV" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/filesets/IGV" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839367" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.igv" />
+          <property name="name" nameId="tpck.1169194664001" value="IGV" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="5391721323999839368" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/filesets/JOB_METADATA" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839369" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.log" />
+          <property name="name" nameId="tpck.1169194664001" value="LOG_HISTORY" />
+        </node>
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839370" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.properties" />
+          <property name="name" nameId="tpck.1169194664001" value="JOB_STATISTICS" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="5391721323999839371" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="LUCENE_INDEX" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/filesets/LUCENE_INDEX" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839372" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.lucene.index" />
+          <property name="name" nameId="tpck.1169194664001" value="INDEX_DIR" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="5391721323999839373" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="PLAIN_TEXT" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/filesets/PLAIN_TEXT" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839374" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.txt" />
+          <property name="name" nameId="tpck.1169194664001" value="TXT" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="5391721323999839375" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="PNG" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/filesets/PNG" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839376" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.png" />
+          <property name="name" nameId="tpck.1169194664001" value="PNG" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="5391721323999839377" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="R_SCRIPT" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/filesets/R_SCRIPT" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839378" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.R" />
+          <property name="name" nameId="tpck.1169194664001" value="SCRIPT" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="5391721323999839379" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="READ_QUALITY_STATS" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/filesets/READ_QUALITY_STATS" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839380" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.tsv" />
+          <property name="name" nameId="tpck.1169194664001" value="READ_QUALITY_STATS" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="5391721323999839381" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="READS_STATS_PROPERTIES_FILE" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/filesets/READS_STATS_PROPERTIES_FILE" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839382" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.properties" />
+          <property name="name" nameId="tpck.1169194664001" value="STATS" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="5391721323999839383" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="STATS" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/filesets/STATS" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839384" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.stats" />
+          <property name="name" nameId="tpck.1169194664001" value="STATS" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="5391721323999839385" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="SUPPORTED_INPUT_READS" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/filesets/SUPPORTED_INPUT_READS" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839386" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.compact-reads" />
+          <property name="name" nameId="tpck.1169194664001" value="COMPACT_READ_FILES" />
+        </node>
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839387" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.fq.gz" />
+          <property name="name" nameId="tpck.1169194664001" value="FQ_GZ_FILES" />
+        </node>
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839388" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.fastq" />
+          <property name="name" nameId="tpck.1169194664001" value="FASTQ_FILES" />
+        </node>
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839389" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.fastq.gz" />
+          <property name="name" nameId="tpck.1169194664001" value="FASTQ_GZ_FILES" />
+        </node>
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839390" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.fq" />
+          <property name="name" nameId="tpck.1169194664001" value="FQ_FILES" />
+        </node>
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839391" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.fa" />
+          <property name="name" nameId="tpck.1169194664001" value="FA_FILES" />
+        </node>
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839392" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.fasta.gz" />
+          <property name="name" nameId="tpck.1169194664001" value="FASTA_GZ_FILES" />
+        </node>
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839393" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.fasta" />
+          <property name="name" nameId="tpck.1169194664001" value="FASTA_FILES" />
+        </node>
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839394" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.fa.gz" />
+          <property name="name" nameId="tpck.1169194664001" value="FA_GZ_FILES" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="5391721323999839395" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="TAR_GZ" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/filesets/TAR_GZ" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839396" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.tar.gz" />
+          <property name="name" nameId="tpck.1169194664001" value="TAR GZ" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="5391721323999839397" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="TSV" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/filesets/TSV" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839398" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.tsv" />
+          <property name="name" nameId="tpck.1169194664001" value="TSV" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="5391721323999839399" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="TXT" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/filesets/TXT" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839400" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.txt" />
+          <property name="name" nameId="tpck.1169194664001" value="TXT" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="5391721323999839401" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="VCF" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/filesets/VCF" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839402" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.vcf" />
+          <property name="name" nameId="tpck.1169194664001" value="VCF" />
+        </node>
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839403" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.vcf.gz" />
+          <property name="name" nameId="tpck.1169194664001" value="VCF_GZ" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="5391721323999839404" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="VCF_INDEX" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/filesets/VCF_INDEX" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839405" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.vcf.tbi" />
+          <property name="name" nameId="tpck.1169194664001" value="VCF_INDEX" />
+        </node>
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839406" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.vcf.gz.tbi" />
+          <property name="name" nameId="tpck.1169194664001" value="VCF_INDEX_GZ" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="5391721323999839407" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="WEIGHT_FILES" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/filesets/WEIGHT_FILES" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839408" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.gc-weights" />
+          <property name="name" nameId="tpck.1169194664001" value="GC_WEIGHTS" />
+        </node>
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839409" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.heptamers-weights" />
+          <property name="name" nameId="tpck.1169194664001" value="HEPTAMER_WEIGHTS" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.FileSetConfig" typeId="dzk5.4277119496932927688" id="5391721323999839410" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="X_SQLITE3" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/filesets/X_SQLITE3" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="elements" roleId="dzk5.4277119496932984293" type="dzk5.PathElement" typeId="dzk5.4277119496932984287" id="5391721323999839411" nodeInfo="ng">
+          <property name="pattern" nameId="dzk5.4277119496932984288" value="*.db" />
+          <property name="name" nameId="tpck.1169194664001" value="TABLE" />
+          <property name="isMandatory" nameId="dzk5.4277119496933675642" value="true" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.TaskConfig" typeId="dzk5.4277119496927940543" id="5391721323999839412" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="ANNOTATE_WITH_VEP" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/tasks/ANNOTATE_WITH_VEP" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839413" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838265" resolveInfo="MERCURY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839414" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="2.5.1" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838247" resolveInfo="GOBYWEB_SERVER_SIDE" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839415" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="1.2" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838200" resolveInfo="ANNOTATE_VCF" />
+        </node>
+        <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="5391721323999839416" nodeInfo="ng">
+          <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="5391721323999839417" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="INPUT_VCF" />
+            <property name="minCardinality" nameId="dzk5.1670346574285355658" value="1" />
+            <property name="maxCardinality" nameId="dzk5.1670346574285355720" value="1" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839418" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="VCF" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Variant Calling Format." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839419" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="EXECUTION_LOG" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839420" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="TXT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Plain text files." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839421" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ANNOTATED_VCF" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839422" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="VCF" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Variant Calling Format." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839423" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839424" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
+            </node>
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.BooleanOption" typeId="dzk5.2123376856174953285" id="5391721323999839426" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Only non synonymous" />
+          <property name="id" nameId="dzk5.2123376856175546319" value="ONLY_NON_SYNONYMOUS" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Report only non synonymous variations. When this option is checked, variations that do not&#10;                change the protein sequence are not reported.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="false" />
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.TaskConfig" typeId="dzk5.4277119496927940543" id="5391721323999839427" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="BWA_ALIGN_TASK_NYOSH" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/tasks/BWA_ALIGN_TASK_NYOSH" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839428" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838265" resolveInfo="MERCURY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839429" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="2.5.1" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838247" resolveInfo="GOBYWEB_SERVER_SIDE" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839430" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="0.5.9.16.2" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838209" resolveInfo="BWA_WITH_GOBY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839431" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="20131006122446" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838238" resolveInfo="GOBY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839432" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="129.380" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838268" resolveInfo="MPS" />
+        </node>
+        <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="5391721323999839433" nodeInfo="ng">
+          <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="5391721323999839434" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="BWA_INDEX" />
+            <property name="minCardinality" nameId="dzk5.1670346574285355658" value="0" />
+            <property name="maxCardinality" nameId="dzk5.1670346574285355720" value="100" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839435" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="BWA_INDEX" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="BWA index format" />
+            </node>
+          </node>
+          <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="5391721323999839436" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="INPUT_READS" />
+            <property name="minCardinality" nameId="dzk5.1670346574285355658" value="0" />
+            <property name="maxCardinality" nameId="dzk5.1670346574285355720" value="100" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839437" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COMPACT_READS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="compact reads format" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839438" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="GOBY_ALIGNMENT" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839439" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839440" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839441" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.TaskConfig" typeId="dzk5.4277119496927940543" id="5391721323999839442" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="BWA_INDEX_TASK_NYOSH" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/tasks/BWA_INDEX_TASK_NYOSH" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839443" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838265" resolveInfo="MERCURY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839444" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="2.5.1" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838247" resolveInfo="GOBYWEB_SERVER_SIDE" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839445" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="0.5.9.16.2" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838209" resolveInfo="BWA_WITH_GOBY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839446" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="129.380" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838268" resolveInfo="MPS" />
+        </node>
+        <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="5391721323999839447" nodeInfo="ng">
+          <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="5391721323999839448" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="FASTA" />
+            <property name="minCardinality" nameId="dzk5.1670346574285355658" value="0" />
+            <property name="maxCardinality" nameId="dzk5.1670346574285355720" value="100" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839449" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="FASTA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="fasta reads format" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839450" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="BWA_INDEX" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839451" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="BWA_INDEX" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="BWA index format" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839452" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839453" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.TaskConfig" typeId="dzk5.4277119496927940543" id="5391721323999839454" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="CONVERT_TABLE" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/tasks/CONVERT_TABLE" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839455" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838265" resolveInfo="MERCURY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839456" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="2.5.1" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838247" resolveInfo="GOBYWEB_SERVER_SIDE" />
+        </node>
+        <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="5391721323999839457" nodeInfo="ng">
+          <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="5391721323999839458" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="INPUT_VCF" />
+            <property name="minCardinality" nameId="dzk5.1670346574285355658" value="0" />
+            <property name="maxCardinality" nameId="dzk5.1670346574285355720" value="1" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839459" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="VCF" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Variant Calling Format." />
+            </node>
+          </node>
+          <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="5391721323999839460" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="INPUT_TSV" />
+            <property name="minCardinality" nameId="dzk5.1670346574285355658" value="0" />
+            <property name="maxCardinality" nameId="dzk5.1670346574285355720" value="1" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839461" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="TSV" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="A tab-separated values file is a simple text format for a database table.&#10;        Each record in the table is one line of the text file. Each field value of a record is separated from the next by a tab stop character." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839462" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="LUCENE_TABLE" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839463" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="LUCENE_INDEX" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="A directory containing a Lucene Index." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839464" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839465" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.TaskConfig" typeId="dzk5.4277119496927940543" id="5391721323999839466" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="GOBY_INDEX_TASK_NYOSH" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/tasks/GOBY_INDEX_TASK_NYOSH" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839467" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838265" resolveInfo="MERCURY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839468" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="2.5.1" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838247" resolveInfo="GOBYWEB_SERVER_SIDE" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839469" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="20131006122446" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838238" resolveInfo="GOBY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839470" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="129.380" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838268" resolveInfo="MPS" />
+        </node>
+        <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="5391721323999839471" nodeInfo="ng">
+          <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="5391721323999839472" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="FASTA" />
+            <property name="minCardinality" nameId="dzk5.1670346574285355658" value="0" />
+            <property name="maxCardinality" nameId="dzk5.1670346574285355720" value="100" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839473" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="FASTA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="fasta reads format" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839474" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="GOBY_INDEX" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839475" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_INDEX" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby index format" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839476" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839477" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.TaskConfig" typeId="dzk5.4277119496927940543" id="5391721323999839478" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="GOBY_VARIANT_CALL_TASK_NYOSH" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/tasks/GOBY_VARIANT_CALL_TASK_NYOSH" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839479" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838265" resolveInfo="MERCURY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839480" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="2.5.1" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838247" resolveInfo="GOBYWEB_SERVER_SIDE" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839481" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="20131006122450" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838238" resolveInfo="GOBY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839482" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="129.380" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838268" resolveInfo="MPS" />
+        </node>
+        <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="5391721323999839483" nodeInfo="ng">
+          <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="5391721323999839484" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="REFERENCE_INDEX" />
+            <property name="minCardinality" nameId="dzk5.1670346574285355658" value="0" />
+            <property name="maxCardinality" nameId="dzk5.1670346574285355720" value="100" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839485" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_INDEX" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby index format" />
+            </node>
+          </node>
+          <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="5391721323999839486" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="FATHER_ALIGNMENT" />
+            <property name="minCardinality" nameId="dzk5.1670346574285355658" value="0" />
+            <property name="maxCardinality" nameId="dzk5.1670346574285355720" value="100" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839487" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
+            </node>
+          </node>
+          <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="5391721323999839488" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="MOTHER_ALIGNMENT" />
+            <property name="minCardinality" nameId="dzk5.1670346574285355658" value="0" />
+            <property name="maxCardinality" nameId="dzk5.1670346574285355720" value="100" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839489" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
+            </node>
+          </node>
+          <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="5391721323999839490" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="PATIENT_BLOOD_ALIGNMENT" />
+            <property name="minCardinality" nameId="dzk5.1670346574285355658" value="0" />
+            <property name="maxCardinality" nameId="dzk5.1670346574285355720" value="100" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839491" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
+            </node>
+          </node>
+          <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="5391721323999839492" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="PATIENT_SKIN_ALIGNMENT" />
+            <property name="minCardinality" nameId="dzk5.1670346574285355658" value="0" />
+            <property name="maxCardinality" nameId="dzk5.1670346574285355720" value="100" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839493" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBY_ALIGNMENT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby alignment format" />
+            </node>
+          </node>
+          <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="5391721323999839494" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="ALN_TABLE" />
+            <property name="minCardinality" nameId="dzk5.1670346574285355658" value="0" />
+            <property name="maxCardinality" nameId="dzk5.1670346574285355720" value="100" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839495" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="PLAIN_TEXT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="File in plain text format." />
+            </node>
+          </node>
+          <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="5391721323999839496" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="COVARIATE_TABLE" />
+            <property name="minCardinality" nameId="dzk5.1670346574285355658" value="0" />
+            <property name="maxCardinality" nameId="dzk5.1670346574285355720" value="100" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839497" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="PLAIN_TEXT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="File in plain text format." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839498" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="VCF_TABLE" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839499" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="VCF" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Variant Calling Format." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839500" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839501" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.TaskConfig" typeId="dzk5.4277119496927940543" id="5391721323999839502" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="PROCESS_READS_TASK" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/tasks/PROCESS_READS_TASK" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839503" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838265" resolveInfo="MERCURY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839504" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="2.5.1" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838247" resolveInfo="GOBYWEB_SERVER_SIDE" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839505" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="20140317155722" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838238" resolveInfo="GOBY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839506" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838273" resolveInfo="PROCESS_READS" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839507" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838201" resolveInfo="BASH_LIBRARY" />
+        </node>
+        <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="5391721323999839508" nodeInfo="ng">
+          <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="5391721323999839509" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="UPLOADS_FILES" />
+            <property name="minCardinality" nameId="dzk5.1670346574285355658" value="1" />
+            <property name="maxCardinality" nameId="dzk5.1670346574285355720" value="2147483647" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839510" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="SUPPORTED_INPUT_READS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="All supported input read file formats." />
+            </node>
+          </node>
+          <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="5391721323999839511" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="UPLOAD_MERGE_PLAN" />
+            <property name="minCardinality" nameId="dzk5.1670346574285355658" value="1" />
+            <property name="maxCardinality" nameId="dzk5.1670346574285355720" value="1" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839512" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="GOBYWEB_MERGE_PLAN_FILE" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="The read merge plan file. Used to be called the details.tsv file." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839513" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="COMPACT_READ_FILES" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839514" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COMPACT_READS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="compact reads format" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839515" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="READ_QUALITY_STATS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839516" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="READ_QUALITY_STATS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="TSV file with read quality score statistics. Generated with the Goby reads-stats mode." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839517" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="WEIGHT_FILES" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839518" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="WEIGHT_FILES" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Goby Weight file format" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839519" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="OUTPUT_STATS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839520" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="READS_STATS_PROPERTIES_FILE" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Statistics about a reads file, in Java properties format. Contains file size information and other meta-data. " />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839521" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839522" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
+            </node>
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999839524" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Sample Name." />
+          <property name="id" nameId="dzk5.2123376856175546319" value="SAMPLE_NAME" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The name of the sample that should be generated from this upload, or a sample name prefix that will be&#10;                used to generate multiple sample names.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="MySamples" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.StringOption" typeId="dzk5.2123376856175497001" id="5391721323999839526" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Tag for the new sample." />
+          <property name="id" nameId="dzk5.2123376856175546319" value="TAG" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The tag will be associated with the sample.&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="true" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="FAKETAG" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.BooleanOption" typeId="dzk5.2123376856174953285" id="5391721323999839528" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Color-space." />
+          <property name="id" nameId="dzk5.2123376856175546319" value="READS_COLOR_SPACE" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="Indicates if the reads are color-space (TRUE) or not (FALSE).&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="FALSE" />
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.CategoricalOption" typeId="dzk5.2123376856175006363" id="5391721323999839530" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Sequencing Platform." />
+          <property name="id" nameId="dzk5.2123376856175546319" value="READS_PLATFORM" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The sequencing platform that was used to sequence these reads..&#10;            " />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="Illumina" />
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839531" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="Gene/Exon/Other" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="Illumina" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839532" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="Helicos" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="Helicos" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839533" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="Roche 454" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="Roche454" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839534" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="Solid" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="SOLID" />
+          </node>
+        </node>
+        <node role="options" roleId="dzk5.2123376856174779241" type="dzk5.CategoricalOption" typeId="dzk5.2123376856175006363" id="5391721323999839536" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Quality Encoding." />
+          <property name="id" nameId="dzk5.2123376856175546319" value="QUALITY_ENCODING" />
+          <property name="helpMessage" nameId="dzk5.2123376856175527879" value="The quality encoding for the uploaded reads." />
+          <property name="required" nameId="dzk5.2123376856176473273" value="false" />
+          <property name="defaultValue" nameId="dzk5.2123376856179854962" value="Sanger" />
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839537" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="Phred/Sanger." />
+            <property name="id" nameId="dzk5.2123376856175593991" value="Sanger" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839538" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="Illumina pipeline 1.3+" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="Illumina" />
+          </node>
+          <node role="categories" roleId="dzk5.2123376856175593986" type="dzk5.Category" typeId="dzk5.2123376856175593990" id="5391721323999839539" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="Solexa" />
+            <property name="id" nameId="dzk5.2123376856175593991" value="Solexa" />
+          </node>
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.TaskConfig" typeId="dzk5.4277119496927940543" id="5391721323999839540" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="SAMPLE_TASK_NYOSH" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/tasks/SAMPLE_TASK_NYOSH" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839541" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838265" resolveInfo="MERCURY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839542" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="2.5.1" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838247" resolveInfo="GOBYWEB_SERVER_SIDE" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839543" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="1.1" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838247" resolveInfo="GOBYWEB_SERVER_SIDE" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839544" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="129.350" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838268" resolveInfo="MPS" />
+        </node>
+        <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="5391721323999839545" nodeInfo="ng">
+          <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="5391721323999839546" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="INPUT_READS" />
+            <property name="minCardinality" nameId="dzk5.1670346574285355658" value="0" />
+            <property name="maxCardinality" nameId="dzk5.1670346574285355720" value="10" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839547" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="COMPACT_READS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="compact reads format" />
+            </node>
+          </node>
+          <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="5391721323999839548" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="TEXT" />
+            <property name="minCardinality" nameId="dzk5.1670346574285355658" value="1" />
+            <property name="maxCardinality" nameId="dzk5.1670346574285355720" value="10" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839549" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="PLAIN_TEXT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="File in plain text format." />
+            </node>
+          </node>
+          <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="5391721323999839550" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="IMAGE" />
+            <property name="minCardinality" nameId="dzk5.1670346574285355658" value="0" />
+            <property name="maxCardinality" nameId="dzk5.1670346574285355720" value="1" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839551" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="PNG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Portable Network Graphics" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839552" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="STATS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839553" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="TSV" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="A tab-separated values file is a simple text format for a database table.&#10;        Each record in the table is one line of the text file. Each field value of a record is separated from the next by a tab stop character." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839554" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="FOO" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839555" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="PNG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Portable Network Graphics" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839556" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="VCF" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839557" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="VCF" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Variant Calling Format." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839558" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839559" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.TaskConfig" typeId="dzk5.4277119496927940543" id="5391721323999839560" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="TARBALLER" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/tasks/TARBALLER" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839561" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838265" resolveInfo="MERCURY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839562" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="2.5.1" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838247" resolveInfo="GOBYWEB_SERVER_SIDE" />
+        </node>
+        <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="5391721323999839563" nodeInfo="ng">
+          <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="5391721323999839564" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="TEXT" />
+            <property name="minCardinality" nameId="dzk5.1670346574285355658" value="1" />
+            <property name="maxCardinality" nameId="dzk5.1670346574285355720" value="1" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839565" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="TSV" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="A tab-separated values file is a simple text format for a database table.&#10;        Each record in the table is one line of the text file. Each field value of a record is separated from the next by a tab stop character." />
+            </node>
+          </node>
+          <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="5391721323999839566" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="IMAGE" />
+            <property name="minCardinality" nameId="dzk5.1670346574285355658" value="1" />
+            <property name="maxCardinality" nameId="dzk5.1670346574285355720" value="1" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839567" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="PNG" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Portable Network Graphics" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839568" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="STATS" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839569" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="TAR_GZ" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="TAR GZ Compressed Archive" />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839570" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839571" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.TaskConfig" typeId="dzk5.4277119496927940543" id="5391721323999839572" nodeInfo="ng">
+        <property name="version" nameId="dzk5.4277119496927940532" value="1.0" />
+        <property name="name" nameId="tpck.1169194664001" value="TEST_GOBY_JAVA_R_INTERFACE" />
+        <property name="repoDirectory" nameId="dzk5.6519147379583750382" value="/Users/mas2182/Lab/Projects/Git/gobyweb2-plugins/plugins/tasks/TEST_GOBY_JAVA_R_INTERFACE" />
+        <property name="disabled" nameId="dzk5.2123376856177278219" value="false" />
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839573" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="1.0" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838265" resolveInfo="MERCURY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839574" nodeInfo="ng">
+          <property name="exactly" nameId="dzk5.6519147379582423991" value="2.5.1" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838247" resolveInfo="GOBYWEB_SERVER_SIDE" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839575" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="20140317155722" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838238" resolveInfo="GOBY" />
+        </node>
+        <node role="requires" roleId="dzk5.2105345521169244662" type="dzk5.ResourceRef" typeId="dzk5.2105345521169244678" id="5391721323999839576" nodeInfo="ng">
+          <property name="atLeast" nameId="dzk5.6519147379582423949" value="0.9.6.1" />
+          <link role="resource" roleId="dzk5.2105345521169244679" targetNodeId="5391721323999838278" resolveInfo="RJAVA" />
+        </node>
+        <node role="ioSchema" roleId="dzk5.4277119496930247909" type="dzk5.IOSchema" typeId="dzk5.4277119496930217564" id="5391721323999839577" nodeInfo="ng">
+          <node role="inputs" roleId="dzk5.4277119496930217616" type="dzk5.PluginInputSlot" typeId="dzk5.4277119496930270546" id="5391721323999839578" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="DUMMY" />
+            <property name="minCardinality" nameId="dzk5.1670346574285355658" value="0" />
+            <property name="maxCardinality" nameId="dzk5.1670346574285355720" value="0" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839579" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="SUPPORTED_INPUT_READS" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="All supported input read file formats." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839580" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="EXECUTION_LOG" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839581" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="TXT" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Plain text files." />
+            </node>
+          </node>
+          <node role="outputs" roleId="dzk5.4277119496930217618" type="dzk5.PluginOutputSlot" typeId="dzk5.4277119496930270547" id="5391721323999839582" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA" />
+            <node role="instanceOf" roleId="dzk5.4277119496930270549" type="935h.PluginReference" typeId="935h.6519147379572947966" id="5391721323999839583" nodeInfo="ng">
+              <property name="pluginID" nameId="935h.6519147379572947967" value="JOB_METADATA" />
+              <property name="pluginDescription" nameId="935h.6519147379572947969" value="Metadata associated to a job executed on the cluster." />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node role="downloadArea" roleId="bs99.202400229141572367" type="bs99.DownloadArea" typeId="bs99.202400229140351294" id="3648805790695529824" nodeInfo="ng">
       <node role="locations" roleId="bs99.202400229140351977" type="bs99.DownloadLocation" typeId="bs99.202400229140474293" id="3648805790695529826" nodeInfo="ng">
@@ -505,7 +6112,7 @@
       <property name="path" nameId="bs99.6449713081311703917" value="/pbtech_mounts/fclab_ctsc_store002/nyosh_shared/FILESET_AREA/" />
       <link role="sshNode" roleId="bs99.6449713081311510412" targetNodeId="3648805790695518925" resolveInfo="SubmissionNode" />
       <link role="fsiContainer" roleId="bs99.6642819616984840610" targetNodeId="3423755852522166400" />
-      <node role="manager" roleId="bs99.664989078355375332" type="bs99.FileSetAreaRPCManager" typeId="bs99.664989078345324995" id="8560093378724049627" nodeInfo="ng">
+      <node role="manager" roleId="bs99.664989078355375332" type="bs99.FileSetAreaRPCManager" typeId="bs99.664989078345324995" id="5391721323999841987" nodeInfo="ng">
         <property name="status" nameId="bs99.4344503499510198037" value="connected" />
         <property name="unreacheable" nameId="bs99.1460397808271971603" value="false" />
         <link role="fileSetArea" roleId="bs99.664989078345325375" targetNodeId="570070230394853084" />
@@ -570,56 +6177,98 @@
   </root>
   <root type="bs99.RegisterFileTool" typeId="bs99.2954990197977709385" id="3423755852522160185" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="RegisterTool" />
-    <property name="messages" nameId="bs99.1879241968980829296" value="RegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/pickrell/AHSSOOT-pickrell-NA19203_argonne.compact-readsRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/pickrell/AXNKJBI-pickrell-NA19222_argonne.compact-readsRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/pickrell/IKKOOYO-pickrell-NA19210_argonne.compact-readsRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/pickrell/HRXABYP-pickrell-NA19239_yale.compact-readsRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/pickrell/KNBJXDZ-pickrell-NA19201_yale.compact-readsRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/pickrell/OMVLDZB-pickrell-NA19238_yale.compact-readsRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/pickrell/AHSSOOT-pickrell-NA19203_argonne.compact-readsRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/pickrell/AXNKJBI-pickrell-NA19222_argonne.compact-readsRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/pickrell/IKKOOYO-pickrell-NA19210_argonne.compact-readsRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/pickrell/HRXABYP-pickrell-NA19239_yale.compact-readsRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/pickrell/KNBJXDZ-pickrell-NA19201_yale.compact-readsRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/pickrell/OMVLDZB-pickrell-NA19238_yale.compact-readsRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/pickrell/ZBQVITF-pickrell-NA19203_yale.compact-readsRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/pickrell/AHSSOOT-pickrell-NA19203_argonne.compact-reads" />
+    <property name="messages" nameId="bs99.1879241968980829296" value="RegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/pickrell/AHSSOOT-pickrell-NA19203_argonne.compact-readsRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/pickrell/AXNKJBI-pickrell-NA19222_argonne.compact-readsRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/pickrell/IKKOOYO-pickrell-NA19210_argonne.compact-readsRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/pickrell/HRXABYP-pickrell-NA19239_yale.compact-readsRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/pickrell/KNBJXDZ-pickrell-NA19201_yale.compact-readsRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/pickrell/OMVLDZB-pickrell-NA19238_yale.compact-readsRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/pickrell/AHSSOOT-pickrell-NA19203_argonne.compact-readsRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/pickrell/AXNKJBI-pickrell-NA19222_argonne.compact-readsRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/pickrell/IKKOOYO-pickrell-NA19210_argonne.compact-readsRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/pickrell/HRXABYP-pickrell-NA19239_yale.compact-readsRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/pickrell/KNBJXDZ-pickrell-NA19201_yale.compact-readsRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/pickrell/OMVLDZB-pickrell-NA19238_yale.compact-readsRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/pickrell/ZBQVITF-pickrell-NA19203_yale.compact-readsRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/pickrell/AHSSOOT-pickrell-NA19203_argonne.compact-readsRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/pickrell/QQPOLQB-pickrell-NA19209_argonne.compact-readsRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/pickrell/SJIECZO-pickrell-NA19209_yale.compact-readsRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/pickrell/UGWCTUQ-pickrell-NA19222_yale.compact-readsRegisterTool /Users/mas2182/Lab/Projects/GobyWeb/data/pickrell/WFJBKXL-pickrell-NA19204_argonne.compact-reads" />
     <property name="filesInError" nameId="bs99.5704832314568278031" value="0" />
-    <property name="willCreateFilesets" nameId="bs99.5704832314568277954" value="1" />
+    <property name="willCreateFilesets" nameId="bs99.5704832314568277954" value="4" />
     <property name="filesMandatoryAndMissing" nameId="bs99.5704832314568278035" value="0" />
     <property name="hasPreview" nameId="bs99.5704832314568883481" value="true" />
     <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="3648805790695509200" resolveInfo="ClusterEnvironment" />
     <node role="registered" roleId="bs99.4459289555262004257" type="bs99.FileSetInstanceRefSet" typeId="bs99.2835705609407426008" id="3423755852522160186" nodeInfo="ng">
-      <node role="refs" roleId="bs99.2835705609407426009" type="bs99.FileSetInstanceReference" typeId="bs99.2835705609407425062" id="8560093378716683284" nodeInfo="ng">
-        <link role="fileSetInstance" roleId="bs99.2835705609407425063" targetNodeId="8560093378716683143" resolveInfo="AHSSOOT-pickrell-NA19203_argonne" />
+      <node role="refs" roleId="bs99.2835705609407426009" type="bs99.FileSetInstanceReference" typeId="bs99.2835705609407425062" id="5391721323999842963" nodeInfo="ng">
+        <link role="fileSetInstance" roleId="bs99.2835705609407425063" targetNodeId="5391721323999837839" resolveInfo="QQPOLQB-pickrell-NA19209_argonne" />
+      </node>
+      <node role="refs" roleId="bs99.2835705609407426009" type="bs99.FileSetInstanceReference" typeId="bs99.2835705609407425062" id="5391721323999842972" nodeInfo="ng">
+        <link role="fileSetInstance" roleId="bs99.2835705609407425063" targetNodeId="5391721323999837857" resolveInfo="SJIECZO-pickrell-NA19209_yale" />
+      </node>
+      <node role="refs" roleId="bs99.2835705609407426009" type="bs99.FileSetInstanceReference" typeId="bs99.2835705609407425062" id="5391721323999842981" nodeInfo="ng">
+        <link role="fileSetInstance" roleId="bs99.2835705609407425063" targetNodeId="5391721323999837869" resolveInfo="UGWCTUQ-pickrell-NA19222_yale" />
+      </node>
+      <node role="refs" roleId="bs99.2835705609407426009" type="bs99.FileSetInstanceReference" typeId="bs99.2835705609407425062" id="5391721323999842990" nodeInfo="ng">
+        <link role="fileSetInstance" roleId="bs99.2835705609407425063" targetNodeId="5391721323999837881" resolveInfo="WFJBKXL-pickrell-NA19204_argonne" />
       </node>
     </node>
     <node role="feedbackView" roleId="bs99.6620797826825978079" type="dhle.FeedbackView" typeId="dhle.6620797826825978917" id="3423755852522160187" nodeInfo="ng">
-      <node role="messages" roleId="dhle.6620797826825978918" type="dhle.Message" typeId="dhle.6620797826827480125" id="8560093378716684884" nodeInfo="ng">
-        <property name="text" nameId="dhle.6620797826827481341" value="Registered FileSetInstance AHSSOOT-pickrell-NA19203_argonne" />
+      <node role="messages" roleId="dhle.6620797826825978918" type="dhle.Message" typeId="dhle.6620797826827480125" id="5391721323999850910" nodeInfo="ng">
+        <property name="text" nameId="dhle.6620797826827481341" value="Registered FileSetInstance UGWCTUQ-pickrell-NA19222_yale" />
+      </node>
+      <node role="messages" roleId="dhle.6620797826825978918" type="dhle.Message" typeId="dhle.6620797826827480125" id="5391721323999856386" nodeInfo="ng">
+        <property name="text" nameId="dhle.6620797826827481341" value="Registered FileSetInstance SJIECZO-pickrell-NA19209_yale" />
+      </node>
+      <node role="messages" roleId="dhle.6620797826825978918" type="dhle.Message" typeId="dhle.6620797826827480125" id="5391721323999857347" nodeInfo="ng">
+        <property name="text" nameId="dhle.6620797826827481341" value="Registered FileSetInstance WFJBKXL-pickrell-NA19204_argonne" />
+      </node>
+      <node role="messages" roleId="dhle.6620797826825978918" type="dhle.Message" typeId="dhle.6620797826827480125" id="5391721323999858307" nodeInfo="ng">
+        <property name="text" nameId="dhle.6620797826827481341" value="Registered FileSetInstance QQPOLQB-pickrell-NA19209_argonne" />
       </node>
     </node>
-    <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="8560093378716682990" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="AHSSOOT-pickrell-NA19203_argonne.compact-reads" />
-      <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/mas2182/Lab/Projects/GobyWeb/data/pickrell/AHSSOOT-pickrell-NA19203_argonne.compact-reads" />
-      <node role="types" roleId="bs99.5704832314562469901" type="bs99.FileSetTypeId" typeId="bs99.5704832314562469955" id="8560093378716683146" nodeInfo="ng">
+    <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="5391721323999833618" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="QQPOLQB-pickrell-NA19209_argonne.compact-reads" />
+      <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/mas2182/Lab/Projects/GobyWeb/data/pickrell/QQPOLQB-pickrell-NA19209_argonne.compact-reads" />
+      <node role="types" roleId="bs99.5704832314562469901" type="bs99.FileSetTypeId" typeId="bs99.5704832314562469955" id="5391721323999837842" nodeInfo="ng">
         <property name="id" nameId="bs99.5704832314562469956" value="SUPPORTED_INPUT_READS" />
         <property name="version" nameId="bs99.2465489689645111090" value="1.0" />
       </node>
     </node>
-    <node role="attributes" roleId="bs99.1405392831552303915" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716683154" nodeInfo="ng">
+    <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="5391721323999833619" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="SJIECZO-pickrell-NA19209_yale.compact-reads" />
+      <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/mas2182/Lab/Projects/GobyWeb/data/pickrell/SJIECZO-pickrell-NA19209_yale.compact-reads" />
+      <node role="types" roleId="bs99.5704832314562469901" type="bs99.FileSetTypeId" typeId="bs99.5704832314562469955" id="5391721323999837860" nodeInfo="ng">
+        <property name="id" nameId="bs99.5704832314562469956" value="SUPPORTED_INPUT_READS" />
+        <property name="version" nameId="bs99.2465489689645111090" value="1.0" />
+      </node>
+    </node>
+    <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="5391721323999833620" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="UGWCTUQ-pickrell-NA19222_yale.compact-reads" />
+      <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/mas2182/Lab/Projects/GobyWeb/data/pickrell/UGWCTUQ-pickrell-NA19222_yale.compact-reads" />
+      <node role="types" roleId="bs99.5704832314562469901" type="bs99.FileSetTypeId" typeId="bs99.5704832314562469955" id="5391721323999837872" nodeInfo="ng">
+        <property name="id" nameId="bs99.5704832314562469956" value="SUPPORTED_INPUT_READS" />
+        <property name="version" nameId="bs99.2465489689645111090" value="1.0" />
+      </node>
+    </node>
+    <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="5391721323999833621" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="WFJBKXL-pickrell-NA19204_argonne.compact-reads" />
+      <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/mas2182/Lab/Projects/GobyWeb/data/pickrell/WFJBKXL-pickrell-NA19204_argonne.compact-reads" />
+      <node role="types" roleId="bs99.5704832314562469901" type="bs99.FileSetTypeId" typeId="bs99.5704832314562469955" id="5391721323999837884" nodeInfo="ng">
+        <property name="id" nameId="bs99.5704832314562469956" value="SUPPORTED_INPUT_READS" />
+        <property name="version" nameId="bs99.2465489689645111090" value="1.0" />
+      </node>
+    </node>
+    <node role="attributes" roleId="bs99.1405392831552303915" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999837850" nodeInfo="ng">
       <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
       <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
       <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
     </node>
-    <node role="attributes" roleId="bs99.1405392831552303915" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716683155" nodeInfo="ng">
+    <node role="attributes" roleId="bs99.1405392831552303915" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999837851" nodeInfo="ng">
       <property name="value" nameId="bs99.1405392831553684183" value="Illumina" />
       <property name="name" nameId="tpck.1169194664001" value="READS_PLATFORM" />
       <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
     </node>
-    <node role="attributes" roleId="bs99.1405392831552303915" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716683156" nodeInfo="ng">
+    <node role="attributes" roleId="bs99.1405392831552303915" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999837852" nodeInfo="ng">
       <property name="value" nameId="bs99.1405392831553684183" value="FF" />
       <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_DIRECTIONS" />
       <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
     </node>
-    <node role="attributes" roleId="bs99.1405392831552303915" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="8560093378716683157" nodeInfo="ng">
+    <node role="attributes" roleId="bs99.1405392831552303915" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="5391721323999837853" nodeInfo="ng">
       <property name="value" nameId="bs99.1405392831553673672" value="false" />
       <property name="name" nameId="tpck.1169194664001" value="COLOR_SPACE" />
       <property name="mandatory" nameId="bs99.4010805091585538096" value="false" />
     </node>
-    <node role="attributes" roleId="bs99.1405392831552303915" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="8560093378716683158" nodeInfo="ng">
+    <node role="attributes" roleId="bs99.1405392831552303915" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="5391721323999837854" nodeInfo="ng">
       <property name="value" nameId="bs99.1405392831553673672" value="false" />
       <property name="name" nameId="tpck.1169194664001" value="BISULFITE_SAMPLE" />
       <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
     </node>
-    <node role="attributes" roleId="bs99.1405392831552303915" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="8560093378716683159" nodeInfo="ng">
+    <node role="attributes" roleId="bs99.1405392831552303915" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="5391721323999837855" nodeInfo="ng">
       <property name="value" nameId="bs99.1405392831553673672" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="LIB_PROTOCOL_PRESERVE_STRAND" />
       <property name="mandatory" nameId="bs99.4010805091585538096" value="false" />
@@ -633,7 +6282,7 @@
       <property name="tag" nameId="bs99.2051553890368778934" value="PNCHFVE" />
       <property name="name" nameId="tpck.1169194664001" value="KNBJXDZ-pickrell-NA19201_yale" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887775" resolveInfo="SUPPORTED_INPUT_READS" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839385" resolveInfo="SUPPORTED_INPUT_READS" />
       <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="8105799869329362167" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="KNBJXDZ-pickrell-NA19201_yale.compact-reads" />
       </node>
@@ -707,7 +6356,7 @@
       <property name="tag" nameId="bs99.2051553890368778934" value="OIVPNEY" />
       <property name="name" nameId="tpck.1169194664001" value="OMVLDZB-pickrell-NA19238_yale" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887775" resolveInfo="SUPPORTED_INPUT_READS" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839385" resolveInfo="SUPPORTED_INPUT_READS" />
       <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="8105799869329362179" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="OMVLDZB-pickrell-NA19238_yale.compact-reads" />
       </node>
@@ -781,7 +6430,7 @@
       <property name="tag" nameId="bs99.2051553890368778934" value="PXSHIVS" />
       <property name="name" nameId="tpck.1169194664001" value="IKKOOYO-pickrell-NA19210_argonne" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887775" resolveInfo="SUPPORTED_INPUT_READS" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839385" resolveInfo="SUPPORTED_INPUT_READS" />
       <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="8105799869329362143" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="IKKOOYO-pickrell-NA19210_argonne.compact-reads" />
       </node>
@@ -855,7 +6504,7 @@
       <property name="tag" nameId="bs99.2051553890368778934" value="OQDJMMC" />
       <property name="name" nameId="tpck.1169194664001" value="HRXABYP-pickrell-NA19239_yale" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887775" resolveInfo="SUPPORTED_INPUT_READS" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839385" resolveInfo="SUPPORTED_INPUT_READS" />
       <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="8105799869329362155" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="HRXABYP-pickrell-NA19239_yale.compact-reads" />
       </node>
@@ -929,7 +6578,7 @@
       <property name="tag" nameId="bs99.2051553890368778934" value="MFBNIWE" />
       <property name="name" nameId="tpck.1169194664001" value="AXNKJBI-pickrell-NA19222_argonne" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887775" resolveInfo="SUPPORTED_INPUT_READS" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839385" resolveInfo="SUPPORTED_INPUT_READS" />
       <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="8105799869329362131" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="AXNKJBI-pickrell-NA19222_argonne.compact-reads" />
       </node>
@@ -1003,7 +6652,7 @@
       <property name="tag" nameId="bs99.2051553890368778934" value="DKCNADT" />
       <property name="name" nameId="tpck.1169194664001" value="AHSSOOT-pickrell-NA19203_argonne" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887775" resolveInfo="SUPPORTED_INPUT_READS" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839385" resolveInfo="SUPPORTED_INPUT_READS" />
       <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="8560093378716683150" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="AHSSOOT-pickrell-NA19203_argonne.compact-reads" />
       </node>
@@ -1077,7 +6726,7 @@
       <property name="name" nameId="tpck.1169194664001" value="merge-plan" />
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887752" resolveInfo="GOBYWEB_MERGE_PLAN_FILE" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839362" resolveInfo="GOBYWEB_MERGE_PLAN_FILE" />
     </node>
     <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="8560093378718989830" nodeInfo="ng">
       <property name="size" nameId="bs99.2740821845424982900" value="397 bytes" />
@@ -1085,7 +6734,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="output-stats" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887771" resolveInfo="READS_STATS_PROPERTIES_FILE" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839381" resolveInfo="READS_STATS_PROPERTIES_FILE" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378718989831" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
         <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
@@ -1114,7 +6763,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="pickrell-NA19203_argonne" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887769" resolveInfo="READ_QUALITY_STATS" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839379" resolveInfo="READ_QUALITY_STATS" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378718989845" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
         <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
@@ -1143,7 +6792,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="pickrell-NA19203_argonne-AHSSOOT-pickrell-NA19203_argonne" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887797" resolveInfo="WEIGHT_FILES" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839407" resolveInfo="WEIGHT_FILES" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378718989861" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
         <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
@@ -1172,7 +6821,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="AHSSOOT-pickrell-NA19203_argonne" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887729" resolveInfo="COMPACT_READS" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839339" resolveInfo="COMPACT_READS" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378718989875" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="false" />
         <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_ALIGNMENT" />
@@ -1249,7 +6898,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="USMYLOQ" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887758" resolveInfo="JOB_METADATA" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839368" resolveInfo="JOB_METADATA" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378718989901" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
         <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
@@ -1278,7 +6927,7 @@
       <property name="name" nameId="tpck.1169194664001" value="merge-plan" />
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887752" resolveInfo="GOBYWEB_MERGE_PLAN_FILE" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839362" resolveInfo="GOBYWEB_MERGE_PLAN_FILE" />
     </node>
     <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="8560093378719000639" nodeInfo="ng">
       <property name="size" nameId="bs99.2740821845424982900" value="397 bytes" />
@@ -1286,7 +6935,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="output-stats" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887771" resolveInfo="READS_STATS_PROPERTIES_FILE" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839381" resolveInfo="READS_STATS_PROPERTIES_FILE" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719000640" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
         <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
@@ -1315,7 +6964,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="pickrell-NA19222_argonne" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887769" resolveInfo="READ_QUALITY_STATS" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839379" resolveInfo="READ_QUALITY_STATS" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719000654" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
         <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
@@ -1344,7 +6993,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="pickrell-NA19222_argonne-AXNKJBI-pickrell-NA19222_argonne" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887797" resolveInfo="WEIGHT_FILES" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839407" resolveInfo="WEIGHT_FILES" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719000670" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
         <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
@@ -1373,7 +7022,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="AXNKJBI-pickrell-NA19222_argonne" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887729" resolveInfo="COMPACT_READS" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839339" resolveInfo="COMPACT_READS" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719000684" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="false" />
         <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_ALIGNMENT" />
@@ -1450,7 +7099,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="LYPWCTK" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887758" resolveInfo="JOB_METADATA" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839368" resolveInfo="JOB_METADATA" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719000710" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
         <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
@@ -1479,7 +7128,7 @@
       <property name="name" nameId="tpck.1169194664001" value="merge-plan" />
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887752" resolveInfo="GOBYWEB_MERGE_PLAN_FILE" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839362" resolveInfo="GOBYWEB_MERGE_PLAN_FILE" />
     </node>
     <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="8560093378719005241" nodeInfo="ng">
       <property name="size" nameId="bs99.2740821845424982900" value="388 bytes" />
@@ -1487,7 +7136,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="output-stats" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887771" resolveInfo="READS_STATS_PROPERTIES_FILE" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839381" resolveInfo="READS_STATS_PROPERTIES_FILE" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719005242" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
         <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
@@ -1516,7 +7165,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="pickrell-NA19239_yale" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887769" resolveInfo="READ_QUALITY_STATS" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839379" resolveInfo="READ_QUALITY_STATS" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719005256" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
         <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
@@ -1545,7 +7194,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="pickrell-NA19239_yale-HRXABYP-pickrell-NA19239_yale" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887797" resolveInfo="WEIGHT_FILES" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839407" resolveInfo="WEIGHT_FILES" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719005272" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
         <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
@@ -1574,7 +7223,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="HRXABYP-pickrell-NA19239_yale" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887729" resolveInfo="COMPACT_READS" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839339" resolveInfo="COMPACT_READS" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719005286" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="false" />
         <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_ALIGNMENT" />
@@ -1651,7 +7300,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="WKBNPAB" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887758" resolveInfo="JOB_METADATA" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839368" resolveInfo="JOB_METADATA" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719005312" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
         <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
@@ -1680,7 +7329,7 @@
       <property name="name" nameId="tpck.1169194664001" value="merge-plan" />
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887752" resolveInfo="GOBYWEB_MERGE_PLAN_FILE" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839362" resolveInfo="GOBYWEB_MERGE_PLAN_FILE" />
     </node>
     <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="8560093378719006561" nodeInfo="ng">
       <property name="size" nameId="bs99.2740821845424982900" value="0" />
@@ -1688,7 +7337,7 @@
       <property name="name" nameId="tpck.1169194664001" value="merge-plan" />
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887752" resolveInfo="GOBYWEB_MERGE_PLAN_FILE" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839362" resolveInfo="GOBYWEB_MERGE_PLAN_FILE" />
     </node>
     <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="8560093378719007277" nodeInfo="ng">
       <property name="size" nameId="bs99.2740821845424982900" value="0" />
@@ -1696,7 +7345,7 @@
       <property name="name" nameId="tpck.1169194664001" value="merge-plan" />
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887752" resolveInfo="GOBYWEB_MERGE_PLAN_FILE" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839362" resolveInfo="GOBYWEB_MERGE_PLAN_FILE" />
     </node>
     <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="8560093378719011409" nodeInfo="ng">
       <property name="size" nameId="bs99.2740821845424982900" value="397 bytes" />
@@ -1704,7 +7353,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="output-stats" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887771" resolveInfo="READS_STATS_PROPERTIES_FILE" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839381" resolveInfo="READS_STATS_PROPERTIES_FILE" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719011410" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
         <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
@@ -1733,7 +7382,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="pickrell-NA19210_argonne" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887769" resolveInfo="READ_QUALITY_STATS" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839379" resolveInfo="READ_QUALITY_STATS" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719011424" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
         <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
@@ -1762,7 +7411,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="pickrell-NA19210_argonne-IKKOOYO-pickrell-NA19210_argonne" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887797" resolveInfo="WEIGHT_FILES" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839407" resolveInfo="WEIGHT_FILES" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719011440" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
         <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
@@ -1791,7 +7440,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="IKKOOYO-pickrell-NA19210_argonne" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887729" resolveInfo="COMPACT_READS" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839339" resolveInfo="COMPACT_READS" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719011454" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="false" />
         <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_ALIGNMENT" />
@@ -1868,7 +7517,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="ATQZJFN" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887758" resolveInfo="JOB_METADATA" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839368" resolveInfo="JOB_METADATA" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719011480" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
         <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
@@ -1897,7 +7546,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="output-stats" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887771" resolveInfo="READS_STATS_PROPERTIES_FILE" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839381" resolveInfo="READS_STATS_PROPERTIES_FILE" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719012029" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
         <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
@@ -1926,7 +7575,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="pickrell-NA19201_yale" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887769" resolveInfo="READ_QUALITY_STATS" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839379" resolveInfo="READ_QUALITY_STATS" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719012043" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
         <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
@@ -1955,7 +7604,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="pickrell-NA19201_yale-KNBJXDZ-pickrell-NA19201_yale" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887797" resolveInfo="WEIGHT_FILES" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839407" resolveInfo="WEIGHT_FILES" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719012059" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
         <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
@@ -1984,7 +7633,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="KNBJXDZ-pickrell-NA19201_yale" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887729" resolveInfo="COMPACT_READS" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839339" resolveInfo="COMPACT_READS" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719012073" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="false" />
         <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_ALIGNMENT" />
@@ -2061,7 +7710,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="VVEMIAY" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887758" resolveInfo="JOB_METADATA" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839368" resolveInfo="JOB_METADATA" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719012099" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
         <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
@@ -2090,7 +7739,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="output-stats" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887771" resolveInfo="READS_STATS_PROPERTIES_FILE" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839381" resolveInfo="READS_STATS_PROPERTIES_FILE" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719012629" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
         <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
@@ -2119,7 +7768,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="pickrell-NA19238_yale" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887769" resolveInfo="READ_QUALITY_STATS" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839379" resolveInfo="READ_QUALITY_STATS" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719012643" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
         <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
@@ -2148,7 +7797,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="pickrell-NA19238_yale-OMVLDZB-pickrell-NA19238_yale" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887797" resolveInfo="WEIGHT_FILES" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839407" resolveInfo="WEIGHT_FILES" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719012659" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
         <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
@@ -2177,7 +7826,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="OMVLDZB-pickrell-NA19238_yale" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887729" resolveInfo="COMPACT_READS" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839339" resolveInfo="COMPACT_READS" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719012673" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="false" />
         <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_ALIGNMENT" />
@@ -2254,7 +7903,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="OGCEKBE" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887758" resolveInfo="JOB_METADATA" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839368" resolveInfo="JOB_METADATA" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719012699" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
         <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
@@ -2283,7 +7932,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="AXNKJBI-pickrell-NA19222_argonne" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887741" resolveInfo="GOBY_ALIGNMENT" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839351" resolveInfo="GOBY_ALIGNMENT" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719036766" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
@@ -2339,7 +7988,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="AXNKJBI-pickrell-NA19222_argonne-all" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887707" resolveInfo="ALIGNMENT_BED" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839317" resolveInfo="ALIGNMENT_BED" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719036788" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
@@ -2380,7 +8029,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="AXNKJBI-pickrell-NA19222_argonne-all" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887713" resolveInfo="ALIGNMENT_WIG" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839323" resolveInfo="ALIGNMENT_WIG" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719036807" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
@@ -2421,7 +8070,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="AXNKJBI-pickrell-NA19222_argonne" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887731" resolveInfo="COUNTS" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839341" resolveInfo="COUNTS" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719036826" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
@@ -2462,7 +8111,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="AXNKJBI-pickrell-NA19222_argonne-all-files" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887705" resolveInfo="ALIGNMENT_ALL_FILES" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839315" resolveInfo="ALIGNMENT_ALL_FILES" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719036845" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
@@ -2503,7 +8152,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="AXNKJBI-pickrell-NA19222_argonne" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887709" resolveInfo="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839319" resolveInfo="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719036864" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
@@ -2544,7 +8193,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="AXNKJBI-pickrell-NA19222_argonne" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887773" resolveInfo="STATS" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839383" resolveInfo="STATS" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719036885" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
@@ -2585,7 +8234,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="AXNKJBI-pickrell-NA19222_argonne" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887711" resolveInfo="ALIGNMENT_STATS" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839321" resolveInfo="ALIGNMENT_STATS" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719036904" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
@@ -2626,7 +8275,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="NRLUUGT" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887758" resolveInfo="JOB_METADATA" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839368" resolveInfo="JOB_METADATA" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719036923" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="STAR22_GOBY" />
         <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
@@ -2655,7 +8304,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="AHSSOOT-pickrell-NA19203_argonne" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887741" resolveInfo="GOBY_ALIGNMENT" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839351" resolveInfo="GOBY_ALIGNMENT" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719038783" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
@@ -2711,7 +8360,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="AHSSOOT-pickrell-NA19203_argonne-all" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887707" resolveInfo="ALIGNMENT_BED" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839317" resolveInfo="ALIGNMENT_BED" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719038805" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
@@ -2752,7 +8401,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="AHSSOOT-pickrell-NA19203_argonne-all" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887713" resolveInfo="ALIGNMENT_WIG" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839323" resolveInfo="ALIGNMENT_WIG" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719038824" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
@@ -2793,7 +8442,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="AHSSOOT-pickrell-NA19203_argonne" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887731" resolveInfo="COUNTS" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839341" resolveInfo="COUNTS" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719038843" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
@@ -2834,7 +8483,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="AHSSOOT-pickrell-NA19203_argonne-all-files" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887705" resolveInfo="ALIGNMENT_ALL_FILES" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839315" resolveInfo="ALIGNMENT_ALL_FILES" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719038862" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
@@ -2875,7 +8524,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="AHSSOOT-pickrell-NA19203_argonne" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887709" resolveInfo="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839319" resolveInfo="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719038881" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
@@ -2916,7 +8565,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="AHSSOOT-pickrell-NA19203_argonne" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887773" resolveInfo="STATS" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839383" resolveInfo="STATS" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719038902" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
@@ -2957,7 +8606,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="AHSSOOT-pickrell-NA19203_argonne" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887711" resolveInfo="ALIGNMENT_STATS" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839321" resolveInfo="ALIGNMENT_STATS" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719038921" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
@@ -2998,7 +8647,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="SUKRAMX" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887758" resolveInfo="JOB_METADATA" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839368" resolveInfo="JOB_METADATA" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719038940" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="STAR22_GOBY" />
         <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
@@ -3027,7 +8676,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="OMVLDZB-pickrell-NA19238_yale" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887741" resolveInfo="GOBY_ALIGNMENT" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839351" resolveInfo="GOBY_ALIGNMENT" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719067259" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
@@ -3083,7 +8732,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="OMVLDZB-pickrell-NA19238_yale-all" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887707" resolveInfo="ALIGNMENT_BED" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839317" resolveInfo="ALIGNMENT_BED" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719067281" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
@@ -3124,7 +8773,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="OMVLDZB-pickrell-NA19238_yale-all" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887713" resolveInfo="ALIGNMENT_WIG" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839323" resolveInfo="ALIGNMENT_WIG" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719067300" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
@@ -3165,7 +8814,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="OMVLDZB-pickrell-NA19238_yale" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887731" resolveInfo="COUNTS" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839341" resolveInfo="COUNTS" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719067319" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
@@ -3206,7 +8855,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="OMVLDZB-pickrell-NA19238_yale-all-files" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887705" resolveInfo="ALIGNMENT_ALL_FILES" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839315" resolveInfo="ALIGNMENT_ALL_FILES" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719067338" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
@@ -3247,7 +8896,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="OMVLDZB-pickrell-NA19238_yale" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887709" resolveInfo="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839319" resolveInfo="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719067357" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
@@ -3288,7 +8937,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="OMVLDZB-pickrell-NA19238_yale" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887773" resolveInfo="STATS" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839383" resolveInfo="STATS" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719067378" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
@@ -3329,7 +8978,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="OMVLDZB-pickrell-NA19238_yale" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887711" resolveInfo="ALIGNMENT_STATS" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839321" resolveInfo="ALIGNMENT_STATS" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719067397" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
@@ -3370,7 +9019,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="BNGACZF" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887758" resolveInfo="JOB_METADATA" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839368" resolveInfo="JOB_METADATA" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719067416" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="STAR22_GOBY" />
         <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
@@ -3399,7 +9048,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="KNBJXDZ-pickrell-NA19201_yale" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887741" resolveInfo="GOBY_ALIGNMENT" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839351" resolveInfo="GOBY_ALIGNMENT" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719068637" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
@@ -3455,7 +9104,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="KNBJXDZ-pickrell-NA19201_yale-all" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887707" resolveInfo="ALIGNMENT_BED" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839317" resolveInfo="ALIGNMENT_BED" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719068659" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
@@ -3496,7 +9145,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="KNBJXDZ-pickrell-NA19201_yale-all" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887713" resolveInfo="ALIGNMENT_WIG" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839323" resolveInfo="ALIGNMENT_WIG" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719068678" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
@@ -3537,7 +9186,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="KNBJXDZ-pickrell-NA19201_yale" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887731" resolveInfo="COUNTS" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839341" resolveInfo="COUNTS" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719068697" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
@@ -3578,7 +9227,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="KNBJXDZ-pickrell-NA19201_yale-all-files" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887705" resolveInfo="ALIGNMENT_ALL_FILES" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839315" resolveInfo="ALIGNMENT_ALL_FILES" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719068716" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
@@ -3619,7 +9268,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="KNBJXDZ-pickrell-NA19201_yale" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887709" resolveInfo="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839319" resolveInfo="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719068735" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
@@ -3660,7 +9309,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="KNBJXDZ-pickrell-NA19201_yale" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887773" resolveInfo="STATS" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839383" resolveInfo="STATS" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719068756" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
@@ -3701,7 +9350,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="KNBJXDZ-pickrell-NA19201_yale" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887711" resolveInfo="ALIGNMENT_STATS" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839321" resolveInfo="ALIGNMENT_STATS" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719068775" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
@@ -3742,7 +9391,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="IOQZXWB" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887758" resolveInfo="JOB_METADATA" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839368" resolveInfo="JOB_METADATA" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719068794" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="STAR22_GOBY" />
         <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
@@ -3771,7 +9420,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="IKKOOYO-pickrell-NA19210_argonne" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887741" resolveInfo="GOBY_ALIGNMENT" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839351" resolveInfo="GOBY_ALIGNMENT" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719070091" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
@@ -3827,7 +9476,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="IKKOOYO-pickrell-NA19210_argonne-all" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887707" resolveInfo="ALIGNMENT_BED" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839317" resolveInfo="ALIGNMENT_BED" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719070113" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
@@ -3868,7 +9517,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="IKKOOYO-pickrell-NA19210_argonne-all" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887713" resolveInfo="ALIGNMENT_WIG" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839323" resolveInfo="ALIGNMENT_WIG" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719070132" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
@@ -3909,7 +9558,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="IKKOOYO-pickrell-NA19210_argonne" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887731" resolveInfo="COUNTS" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839341" resolveInfo="COUNTS" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719070151" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
@@ -3950,7 +9599,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="IKKOOYO-pickrell-NA19210_argonne-all-files" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887705" resolveInfo="ALIGNMENT_ALL_FILES" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839315" resolveInfo="ALIGNMENT_ALL_FILES" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719070170" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
@@ -3991,7 +9640,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="IKKOOYO-pickrell-NA19210_argonne" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887709" resolveInfo="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839319" resolveInfo="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719070189" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
@@ -4032,7 +9681,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="IKKOOYO-pickrell-NA19210_argonne" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887773" resolveInfo="STATS" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839383" resolveInfo="STATS" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719070210" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
@@ -4073,7 +9722,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="IKKOOYO-pickrell-NA19210_argonne" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887711" resolveInfo="ALIGNMENT_STATS" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839321" resolveInfo="ALIGNMENT_STATS" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719070229" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
@@ -4114,7 +9763,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="TKVIRWM" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887758" resolveInfo="JOB_METADATA" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839368" resolveInfo="JOB_METADATA" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719070248" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="STAR22_GOBY" />
         <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
@@ -4143,7 +9792,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="HRXABYP-pickrell-NA19239_yale" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887741" resolveInfo="GOBY_ALIGNMENT" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839351" resolveInfo="GOBY_ALIGNMENT" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719076354" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
@@ -4199,7 +9848,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="HRXABYP-pickrell-NA19239_yale-all" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887707" resolveInfo="ALIGNMENT_BED" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839317" resolveInfo="ALIGNMENT_BED" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719076376" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
@@ -4240,7 +9889,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="HRXABYP-pickrell-NA19239_yale-all" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887713" resolveInfo="ALIGNMENT_WIG" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839323" resolveInfo="ALIGNMENT_WIG" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719076395" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
@@ -4281,7 +9930,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="HRXABYP-pickrell-NA19239_yale" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887731" resolveInfo="COUNTS" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839341" resolveInfo="COUNTS" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719076414" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
@@ -4322,7 +9971,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="HRXABYP-pickrell-NA19239_yale-all-files" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887705" resolveInfo="ALIGNMENT_ALL_FILES" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839315" resolveInfo="ALIGNMENT_ALL_FILES" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719076433" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
@@ -4363,7 +10012,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="HRXABYP-pickrell-NA19239_yale" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887709" resolveInfo="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839319" resolveInfo="ALIGNMENT_SEQUENCE_VARIATION_STATS" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719076452" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
@@ -4404,7 +10053,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="HRXABYP-pickrell-NA19239_yale" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887773" resolveInfo="STATS" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839383" resolveInfo="STATS" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719076473" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
@@ -4445,7 +10094,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="HRXABYP-pickrell-NA19239_yale" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887711" resolveInfo="ALIGNMENT_STATS" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839321" resolveInfo="ALIGNMENT_STATS" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719076492" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
@@ -4486,7 +10135,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="PAQIHST" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887758" resolveInfo="JOB_METADATA" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839368" resolveInfo="JOB_METADATA" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719076511" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="STAR22_GOBY" />
         <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
@@ -4515,7 +10164,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="VBWQJDM-stats" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887761" resolveInfo="LUCENE_INDEX" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839371" resolveInfo="LUCENE_INDEX" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719152028" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="STATS_RESULTS_LUCENE_INDEX" />
         <property name="name" nameId="tpck.1169194664001" value="SOURCE_OUTPUT_SLOT" />
@@ -4560,7 +10209,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="VBWQJDM-mds" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887765" resolveInfo="PNG" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839375" resolveInfo="PNG" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719152047" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="SAMPLE_MDS_PLOT" />
         <property name="name" nameId="tpck.1169194664001" value="SOURCE_OUTPUT_SLOT" />
@@ -4601,7 +10250,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="VBWQJDM-smear" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887765" resolveInfo="PNG" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839375" resolveInfo="PNG" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719152067" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="ANALYSIS_SMEAR_PLOT" />
         <property name="name" nameId="tpck.1169194664001" value="SOURCE_OUTPUT_SLOT" />
@@ -4642,7 +10291,7 @@
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <property name="name" nameId="tpck.1169194664001" value="VBWQJDM" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="985328857377887758" resolveInfo="JOB_METADATA" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839368" resolveInfo="JOB_METADATA" />
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719152091" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="DIFF_EXP_EDGE_R_ARTIFACT" />
         <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
@@ -4665,33 +10314,1100 @@
         <property name="size" nameId="bs99.2740821845424881124" value="207 bytes" />
       </node>
     </node>
+    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="5391721323999837869" nodeInfo="ng">
+      <property name="size" nameId="bs99.2740821845424982900" value="0" />
+      <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+      <property name="tag" nameId="bs99.2051553890368778934" value="CBVMVTY" />
+      <property name="name" nameId="tpck.1169194664001" value="UGWCTUQ-pickrell-NA19222_yale" />
+      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839385" resolveInfo="SUPPORTED_INPUT_READS" />
+      <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="5391721323999837876" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="UGWCTUQ-pickrell-NA19222_yale.compact-reads" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999838041" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+        <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999838042" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="Illumina" />
+        <property name="name" nameId="tpck.1169194664001" value="READS_PLATFORM" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999838043" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="FF" />
+        <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_DIRECTIONS" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="5391721323999838044" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553673672" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="COLOR_SPACE" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="false" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="5391721323999838045" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553673672" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="BISULFITE_SAMPLE" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="5391721323999838046" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553673672" value="true" />
+        <property name="name" nameId="tpck.1169194664001" value="LIB_PROTOCOL_PRESERVE_STRAND" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="false" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999842973" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+        <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999842974" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="Illumina" />
+        <property name="name" nameId="tpck.1169194664001" value="READS_PLATFORM" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999842975" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="FF" />
+        <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_DIRECTIONS" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="5391721323999842976" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553673672" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="COLOR_SPACE" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="false" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="5391721323999842977" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553673672" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="BISULFITE_SAMPLE" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="5391721323999842978" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553673672" value="true" />
+        <property name="name" nameId="tpck.1169194664001" value="LIB_PROTOCOL_PRESERVE_STRAND" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="false" />
+      </node>
+    </node>
+    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="5391721323999837857" nodeInfo="ng">
+      <property name="size" nameId="bs99.2740821845424982900" value="0" />
+      <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+      <property name="tag" nameId="bs99.2051553890368778934" value="TRLKTCM" />
+      <property name="name" nameId="tpck.1169194664001" value="SJIECZO-pickrell-NA19209_yale" />
+      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839385" resolveInfo="SUPPORTED_INPUT_READS" />
+      <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="5391721323999837864" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="SJIECZO-pickrell-NA19209_yale.compact-reads" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999838032" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+        <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999838033" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="Illumina" />
+        <property name="name" nameId="tpck.1169194664001" value="READS_PLATFORM" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999838034" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="FF" />
+        <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_DIRECTIONS" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="5391721323999838035" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553673672" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="COLOR_SPACE" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="false" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="5391721323999838036" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553673672" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="BISULFITE_SAMPLE" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="5391721323999838037" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553673672" value="true" />
+        <property name="name" nameId="tpck.1169194664001" value="LIB_PROTOCOL_PRESERVE_STRAND" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="false" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999842964" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+        <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999842965" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="Illumina" />
+        <property name="name" nameId="tpck.1169194664001" value="READS_PLATFORM" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999842966" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="FF" />
+        <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_DIRECTIONS" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="5391721323999842967" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553673672" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="COLOR_SPACE" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="false" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="5391721323999842968" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553673672" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="BISULFITE_SAMPLE" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="5391721323999842969" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553673672" value="true" />
+        <property name="name" nameId="tpck.1169194664001" value="LIB_PROTOCOL_PRESERVE_STRAND" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="false" />
+      </node>
+    </node>
+    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="5391721323999837881" nodeInfo="ng">
+      <property name="size" nameId="bs99.2740821845424982900" value="0" />
+      <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+      <property name="tag" nameId="bs99.2051553890368778934" value="RIONYTH" />
+      <property name="name" nameId="tpck.1169194664001" value="WFJBKXL-pickrell-NA19204_argonne" />
+      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839385" resolveInfo="SUPPORTED_INPUT_READS" />
+      <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="5391721323999837888" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="WFJBKXL-pickrell-NA19204_argonne.compact-reads" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999838050" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+        <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999838051" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="Illumina" />
+        <property name="name" nameId="tpck.1169194664001" value="READS_PLATFORM" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999838052" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="FF" />
+        <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_DIRECTIONS" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="5391721323999838053" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553673672" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="COLOR_SPACE" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="false" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="5391721323999838054" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553673672" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="BISULFITE_SAMPLE" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="5391721323999838055" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553673672" value="true" />
+        <property name="name" nameId="tpck.1169194664001" value="LIB_PROTOCOL_PRESERVE_STRAND" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="false" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999842982" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+        <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999842983" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="Illumina" />
+        <property name="name" nameId="tpck.1169194664001" value="READS_PLATFORM" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999842984" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="FF" />
+        <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_DIRECTIONS" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="5391721323999842985" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553673672" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="COLOR_SPACE" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="false" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="5391721323999842986" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553673672" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="BISULFITE_SAMPLE" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="5391721323999842987" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553673672" value="true" />
+        <property name="name" nameId="tpck.1169194664001" value="LIB_PROTOCOL_PRESERVE_STRAND" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="false" />
+      </node>
+    </node>
+    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="5391721323999837839" nodeInfo="ng">
+      <property name="size" nameId="bs99.2740821845424982900" value="0" />
+      <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+      <property name="tag" nameId="bs99.2051553890368778934" value="JWPLTAW" />
+      <property name="name" nameId="tpck.1169194664001" value="QQPOLQB-pickrell-NA19209_argonne" />
+      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839385" resolveInfo="SUPPORTED_INPUT_READS" />
+      <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="5391721323999837846" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="QQPOLQB-pickrell-NA19209_argonne.compact-reads" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999838023" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+        <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999838024" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="Illumina" />
+        <property name="name" nameId="tpck.1169194664001" value="READS_PLATFORM" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999838025" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="FF" />
+        <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_DIRECTIONS" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="5391721323999838026" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553673672" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="COLOR_SPACE" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="false" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="5391721323999838027" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553673672" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="BISULFITE_SAMPLE" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="5391721323999838028" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553673672" value="true" />
+        <property name="name" nameId="tpck.1169194664001" value="LIB_PROTOCOL_PRESERVE_STRAND" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="false" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999842955" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+        <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999842956" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="Illumina" />
+        <property name="name" nameId="tpck.1169194664001" value="READS_PLATFORM" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999842957" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="FF" />
+        <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_DIRECTIONS" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="5391721323999842958" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553673672" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="COLOR_SPACE" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="false" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="5391721323999842959" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553673672" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="BISULFITE_SAMPLE" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="5391721323999842960" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553673672" value="true" />
+        <property name="name" nameId="tpck.1169194664001" value="LIB_PROTOCOL_PRESERVE_STRAND" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="false" />
+      </node>
+    </node>
+    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="5391721323999863862" nodeInfo="ng">
+      <property name="size" nameId="bs99.2740821845424982900" value="0" />
+      <property name="tag" nameId="bs99.2051553890368778934" value="AHJPVLF" />
+      <property name="name" nameId="tpck.1169194664001" value="merge-plan" />
+      <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839362" resolveInfo="GOBYWEB_MERGE_PLAN_FILE" />
+    </node>
+    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="5391721323999871657" nodeInfo="ng">
+      <property name="size" nameId="bs99.2740821845424982900" value="0" />
+      <property name="tag" nameId="bs99.2051553890368778934" value="UMAWFNE" />
+      <property name="name" nameId="tpck.1169194664001" value="merge-plan" />
+      <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839362" resolveInfo="GOBYWEB_MERGE_PLAN_FILE" />
+    </node>
+    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="5391721323999874690" nodeInfo="ng">
+      <property name="size" nameId="bs99.2740821845424982900" value="0" />
+      <property name="tag" nameId="bs99.2051553890368778934" value="TRAVKAJ" />
+      <property name="name" nameId="tpck.1169194664001" value="merge-plan" />
+      <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839362" resolveInfo="GOBYWEB_MERGE_PLAN_FILE" />
+    </node>
+    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="5391721323999882694" nodeInfo="ng">
+      <property name="size" nameId="bs99.2740821845424982900" value="0" />
+      <property name="tag" nameId="bs99.2051553890368778934" value="GEFHPHJ" />
+      <property name="name" nameId="tpck.1169194664001" value="merge-plan" />
+      <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839362" resolveInfo="GOBYWEB_MERGE_PLAN_FILE" />
+    </node>
+    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="5391721323999895239" nodeInfo="ng">
+      <property name="size" nameId="bs99.2740821845424982900" value="388 bytes" />
+      <property name="tag" nameId="bs99.2051553890368778934" value="YABQQUO" />
+      <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+      <property name="name" nameId="tpck.1169194664001" value="output-stats" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839381" resolveInfo="READS_STATS_PROPERTIES_FILE" />
+      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999895240" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
+        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999895241" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="output-stats" />
+        <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999895242" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="TASK" />
+        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_TYPE" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999895243" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="PJDQLYH" />
+        <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
+      </node>
+      <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="5391721323999895244" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="STATS" />
+        <property name="path" nameId="bs99.2740821845422344869" value="output-stats.properties" />
+        <property name="size" nameId="bs99.2740821845424881124" value="388 bytes" />
+      </node>
+    </node>
+    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="5391721323999895253" nodeInfo="ng">
+      <property name="size" nameId="bs99.2740821845424982900" value="2 KB" />
+      <property name="tag" nameId="bs99.2051553890368778934" value="QVQPFBJ" />
+      <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+      <property name="name" nameId="tpck.1169194664001" value="pickrell-NA19222_yale" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839379" resolveInfo="READ_QUALITY_STATS" />
+      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999895254" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
+        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999895255" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="pickrell-NA19222_yale" />
+        <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999895256" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="TASK" />
+        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_TYPE" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999895257" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="PJDQLYH" />
+        <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
+      </node>
+      <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="5391721323999895258" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="READ_QUALITY_STATS" />
+        <property name="path" nameId="bs99.2740821845422344869" value="pickrell-NA19222_yale.quality-stats.tsv" />
+        <property name="size" nameId="bs99.2740821845424881124" value="2 KB" />
+      </node>
+    </node>
+    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="5391721323999895269" nodeInfo="ng">
+      <property name="size" nameId="bs99.2740821845424982900" value="3 MB" />
+      <property name="tag" nameId="bs99.2051553890368778934" value="PCRDCRH" />
+      <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+      <property name="name" nameId="tpck.1169194664001" value="pickrell-NA19222_yale-UGWCTUQ-pickrell-NA19222_yale" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839407" resolveInfo="WEIGHT_FILES" />
+      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999895270" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
+        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999895271" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="pickrell-NA19222_yale-UGWCTUQ-pickrell-NA19222_yale" />
+        <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999895272" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="TASK" />
+        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_TYPE" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999895273" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="PJDQLYH" />
+        <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
+      </node>
+      <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="5391721323999895274" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="GC_WEIGHTS" />
+        <property name="path" nameId="bs99.2740821845422344869" value="pickrell-NA19222_yale-UGWCTUQ-pickrell-NA19222_yale.gc-weights" />
+        <property name="size" nameId="bs99.2740821845424881124" value="3 MB" />
+      </node>
+    </node>
+    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="5391721323999895283" nodeInfo="ng">
+      <property name="size" nameId="bs99.2740821845424982900" value="166 MB" />
+      <property name="tag" nameId="bs99.2051553890368778934" value="SFYDBZF" />
+      <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+      <property name="name" nameId="tpck.1169194664001" value="UGWCTUQ-pickrell-NA19222_yale" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839339" resolveInfo="COMPACT_READS" />
+      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999895284" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_ALIGNMENT" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999895285" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="COLOR_SPACE" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999895286" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+        <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999895287" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="YABQQUO" />
+        <property name="name" nameId="tpck.1169194664001" value="STATS_TAGS" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999895288" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="QVQPFBJ" />
+        <property name="name" nameId="tpck.1169194664001" value="QUALITY_TAGS" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999895289" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="Illumina" />
+        <property name="name" nameId="tpck.1169194664001" value="READS_PLATFORM" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999895290" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="UGWCTUQ-pickrell-NA19222_yale" />
+        <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999895291" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="BISULFITE_SAMPLE" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999895292" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="PJDQLYH" />
+        <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999895293" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="true" />
+        <property name="name" nameId="tpck.1169194664001" value="LIB_PROTOCOL_PRESERVE_STRAND" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999895294" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="UGWCTUQ_pickrell_NA19222_yale" />
+        <property name="name" nameId="tpck.1169194664001" value="READS_LABEL" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999895295" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="35" />
+        <property name="name" nameId="tpck.1169194664001" value="INPUT_READ_LENGTH" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999895296" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="PCRDCRH" />
+        <property name="name" nameId="tpck.1169194664001" value="WEIGHT_TAGS" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999895297" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
+        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999895298" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="FF" />
+        <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_DIRECTIONS" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999895299" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="TASK" />
+        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_TYPE" />
+      </node>
+      <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="5391721323999895300" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="READS_FILE" />
+        <property name="path" nameId="bs99.2740821845422344869" value="pickrell-NA19222_yale-UGWCTUQ-pickrell-NA19222_yale.compact-reads" />
+        <property name="size" nameId="bs99.2740821845424881124" value="166 MB" />
+      </node>
+    </node>
+    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="5391721323999895309" nodeInfo="ng">
+      <property name="size" nameId="bs99.2740821845424982900" value="185 bytes" />
+      <property name="tag" nameId="bs99.2051553890368778934" value="PJDQLYH" />
+      <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+      <property name="name" nameId="tpck.1169194664001" value="PJDQLYH" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839368" resolveInfo="JOB_METADATA" />
+      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999895310" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
+        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999895311" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="PJDQLYH" />
+        <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999895312" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="TASK" />
+        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_TYPE" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999895313" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="PJDQLYH" />
+        <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
+      </node>
+      <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="5391721323999895314" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="JOB_STATISTICS" />
+        <property name="path" nameId="bs99.2740821845422344869" value="PJDQLYH.properties" />
+        <property name="size" nameId="bs99.2740821845424881124" value="185 bytes" />
+      </node>
+    </node>
+    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="5391721323999898575" nodeInfo="ng">
+      <property name="size" nameId="bs99.2740821845424982900" value="392 bytes" />
+      <property name="tag" nameId="bs99.2051553890368778934" value="OADHXQA" />
+      <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+      <property name="name" nameId="tpck.1169194664001" value="output-stats" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839381" resolveInfo="READS_STATS_PROPERTIES_FILE" />
+      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999898576" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
+        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999898577" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="output-stats" />
+        <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999898578" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="TASK" />
+        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_TYPE" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999898579" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="JMYLEVB" />
+        <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
+      </node>
+      <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="5391721323999898580" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="STATS" />
+        <property name="path" nameId="bs99.2740821845422344869" value="output-stats.properties" />
+        <property name="size" nameId="bs99.2740821845424881124" value="392 bytes" />
+      </node>
+    </node>
+    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="5391721323999898589" nodeInfo="ng">
+      <property name="size" nameId="bs99.2740821845424982900" value="3 KB" />
+      <property name="tag" nameId="bs99.2051553890368778934" value="WCRCVYD" />
+      <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+      <property name="name" nameId="tpck.1169194664001" value="pickrell-NA19238_yale" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839379" resolveInfo="READ_QUALITY_STATS" />
+      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999898590" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
+        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999898591" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="pickrell-NA19238_yale" />
+        <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999898592" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="TASK" />
+        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_TYPE" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999898593" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="JMYLEVB" />
+        <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
+      </node>
+      <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="5391721323999898594" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="READ_QUALITY_STATS" />
+        <property name="path" nameId="bs99.2740821845422344869" value="pickrell-NA19238_yale.quality-stats.tsv" />
+        <property name="size" nameId="bs99.2740821845424881124" value="3 KB" />
+      </node>
+    </node>
+    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="5391721323999898605" nodeInfo="ng">
+      <property name="size" nameId="bs99.2740821845424982900" value="9 MB" />
+      <property name="tag" nameId="bs99.2051553890368778934" value="CNEUYXN" />
+      <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+      <property name="name" nameId="tpck.1169194664001" value="pickrell-NA19238_yale-QQPOLQB-pickrell-NA19209_argonne" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839407" resolveInfo="WEIGHT_FILES" />
+      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999898606" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
+        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999898607" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="pickrell-NA19238_yale-QQPOLQB-pickrell-NA19209_argonne" />
+        <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999898608" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="TASK" />
+        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_TYPE" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999898609" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="JMYLEVB" />
+        <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
+      </node>
+      <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="5391721323999898610" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="GC_WEIGHTS" />
+        <property name="path" nameId="bs99.2740821845422344869" value="pickrell-NA19238_yale-QQPOLQB-pickrell-NA19209_argonne.gc-weights" />
+        <property name="size" nameId="bs99.2740821845424881124" value="9 MB" />
+      </node>
+    </node>
+    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="5391721323999898619" nodeInfo="ng">
+      <property name="size" nameId="bs99.2740821845424982900" value="442 MB" />
+      <property name="tag" nameId="bs99.2051553890368778934" value="LXLAULM" />
+      <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+      <property name="name" nameId="tpck.1169194664001" value="QQPOLQB-pickrell-NA19209_argonne" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839339" resolveInfo="COMPACT_READS" />
+      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999898620" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_ALIGNMENT" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999898621" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="COLOR_SPACE" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999898622" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+        <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999898623" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="OADHXQA" />
+        <property name="name" nameId="tpck.1169194664001" value="STATS_TAGS" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999898624" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="WCRCVYD" />
+        <property name="name" nameId="tpck.1169194664001" value="QUALITY_TAGS" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999898625" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="Illumina" />
+        <property name="name" nameId="tpck.1169194664001" value="READS_PLATFORM" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999898626" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="QQPOLQB-pickrell-NA19209_argonne" />
+        <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999898627" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="BISULFITE_SAMPLE" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999898628" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="JMYLEVB" />
+        <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999898629" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="true" />
+        <property name="name" nameId="tpck.1169194664001" value="LIB_PROTOCOL_PRESERVE_STRAND" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999898630" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="QQPOLQB_pickrell_NA19209_argonne" />
+        <property name="name" nameId="tpck.1169194664001" value="READS_LABEL" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999898631" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="46" />
+        <property name="name" nameId="tpck.1169194664001" value="INPUT_READ_LENGTH" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999898632" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="CNEUYXN" />
+        <property name="name" nameId="tpck.1169194664001" value="WEIGHT_TAGS" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999898633" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
+        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999898634" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="FF" />
+        <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_DIRECTIONS" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999898635" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="TASK" />
+        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_TYPE" />
+      </node>
+      <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="5391721323999898636" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="READS_FILE" />
+        <property name="path" nameId="bs99.2740821845422344869" value="pickrell-NA19238_yale-QQPOLQB-pickrell-NA19209_argonne.compact-reads" />
+        <property name="size" nameId="bs99.2740821845424881124" value="442 MB" />
+      </node>
+    </node>
+    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="5391721323999898645" nodeInfo="ng">
+      <property name="size" nameId="bs99.2740821845424982900" value="185 bytes" />
+      <property name="tag" nameId="bs99.2051553890368778934" value="JMYLEVB" />
+      <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+      <property name="name" nameId="tpck.1169194664001" value="JMYLEVB" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839368" resolveInfo="JOB_METADATA" />
+      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999898646" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
+        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999898647" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="JMYLEVB" />
+        <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999898648" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="TASK" />
+        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_TYPE" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999898649" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="JMYLEVB" />
+        <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
+      </node>
+      <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="5391721323999898650" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="JOB_STATISTICS" />
+        <property name="path" nameId="bs99.2740821845422344869" value="JMYLEVB.properties" />
+        <property name="size" nameId="bs99.2740821845424881124" value="185 bytes" />
+      </node>
+    </node>
+    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="5391721323999899979" nodeInfo="ng">
+      <property name="size" nameId="bs99.2740821845424982900" value="389 bytes" />
+      <property name="tag" nameId="bs99.2051553890368778934" value="JQZQIQG" />
+      <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+      <property name="name" nameId="tpck.1169194664001" value="output-stats" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839381" resolveInfo="READS_STATS_PROPERTIES_FILE" />
+      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999899980" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
+        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999899981" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="output-stats" />
+        <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999899982" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="TASK" />
+        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_TYPE" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999899983" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="TLNYXDD" />
+        <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
+      </node>
+      <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="5391721323999899984" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="STATS" />
+        <property name="path" nameId="bs99.2740821845422344869" value="output-stats.properties" />
+        <property name="size" nameId="bs99.2740821845424881124" value="389 bytes" />
+      </node>
+    </node>
+    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="5391721323999899993" nodeInfo="ng">
+      <property name="size" nameId="bs99.2740821845424982900" value="2 KB" />
+      <property name="tag" nameId="bs99.2051553890368778934" value="SHCZUZQ" />
+      <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+      <property name="name" nameId="tpck.1169194664001" value="pickrell-NA19238_yale" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839379" resolveInfo="READ_QUALITY_STATS" />
+      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999899994" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
+        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999899995" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="pickrell-NA19238_yale" />
+        <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999899996" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="TASK" />
+        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_TYPE" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999899997" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="TLNYXDD" />
+        <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
+      </node>
+      <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="5391721323999899998" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="READ_QUALITY_STATS" />
+        <property name="path" nameId="bs99.2740821845422344869" value="pickrell-NA19238_yale.quality-stats.tsv" />
+        <property name="size" nameId="bs99.2740821845424881124" value="2 KB" />
+      </node>
+    </node>
+    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="5391721323999900009" nodeInfo="ng">
+      <property name="size" nameId="bs99.2740821845424982900" value="8 MB" />
+      <property name="tag" nameId="bs99.2051553890368778934" value="FBCUWCX" />
+      <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+      <property name="name" nameId="tpck.1169194664001" value="pickrell-NA19238_yale-SJIECZO-pickrell-NA19209_yale" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839407" resolveInfo="WEIGHT_FILES" />
+      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999900010" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
+        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999900011" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="pickrell-NA19238_yale-SJIECZO-pickrell-NA19209_yale" />
+        <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999900012" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="TASK" />
+        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_TYPE" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999900013" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="TLNYXDD" />
+        <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
+      </node>
+      <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="5391721323999900014" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="GC_WEIGHTS" />
+        <property name="path" nameId="bs99.2740821845422344869" value="pickrell-NA19238_yale-SJIECZO-pickrell-NA19209_yale.gc-weights" />
+        <property name="size" nameId="bs99.2740821845424881124" value="8 MB" />
+      </node>
+    </node>
+    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="5391721323999900023" nodeInfo="ng">
+      <property name="size" nameId="bs99.2740821845424982900" value="345 MB" />
+      <property name="tag" nameId="bs99.2051553890368778934" value="CQVPHJL" />
+      <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+      <property name="name" nameId="tpck.1169194664001" value="SJIECZO-pickrell-NA19209_yale" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839339" resolveInfo="COMPACT_READS" />
+      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999900024" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_ALIGNMENT" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999900025" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="COLOR_SPACE" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999900026" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+        <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999900027" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="JQZQIQG" />
+        <property name="name" nameId="tpck.1169194664001" value="STATS_TAGS" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999900028" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="SHCZUZQ" />
+        <property name="name" nameId="tpck.1169194664001" value="QUALITY_TAGS" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999900029" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="Illumina" />
+        <property name="name" nameId="tpck.1169194664001" value="READS_PLATFORM" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999900030" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="SJIECZO-pickrell-NA19209_yale" />
+        <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999900031" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="BISULFITE_SAMPLE" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999900032" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="TLNYXDD" />
+        <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999900033" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="true" />
+        <property name="name" nameId="tpck.1169194664001" value="LIB_PROTOCOL_PRESERVE_STRAND" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999900034" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="SJIECZO_pickrell_NA19209_yale" />
+        <property name="name" nameId="tpck.1169194664001" value="READS_LABEL" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999900035" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="35" />
+        <property name="name" nameId="tpck.1169194664001" value="INPUT_READ_LENGTH" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999900036" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="FBCUWCX" />
+        <property name="name" nameId="tpck.1169194664001" value="WEIGHT_TAGS" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999900037" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
+        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999900038" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="FF" />
+        <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_DIRECTIONS" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999900039" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="TASK" />
+        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_TYPE" />
+      </node>
+      <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="5391721323999900040" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="READS_FILE" />
+        <property name="path" nameId="bs99.2740821845422344869" value="pickrell-NA19238_yale-SJIECZO-pickrell-NA19209_yale.compact-reads" />
+        <property name="size" nameId="bs99.2740821845424881124" value="345 MB" />
+      </node>
+    </node>
+    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="5391721323999909330" nodeInfo="ng">
+      <property name="size" nameId="bs99.2740821845424982900" value="0" />
+      <property name="tag" nameId="bs99.2051553890368778934" value="LXTKDYU" />
+      <property name="name" nameId="tpck.1169194664001" value="merge-plan" />
+      <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839362" resolveInfo="GOBYWEB_MERGE_PLAN_FILE" />
+    </node>
+    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="5391721323999924977" nodeInfo="ng">
+      <property name="size" nameId="bs99.2740821845424982900" value="397 bytes" />
+      <property name="tag" nameId="bs99.2051553890368778934" value="QZJOUOE" />
+      <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+      <property name="name" nameId="tpck.1169194664001" value="output-stats" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839381" resolveInfo="READS_STATS_PROPERTIES_FILE" />
+      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999924978" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
+        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999924979" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="output-stats" />
+        <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999924980" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="TASK" />
+        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_TYPE" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999924981" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="DJOSOSR" />
+        <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
+      </node>
+      <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="5391721323999924982" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="STATS" />
+        <property name="path" nameId="bs99.2740821845422344869" value="output-stats.properties" />
+        <property name="size" nameId="bs99.2740821845424881124" value="397 bytes" />
+      </node>
+    </node>
+    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="5391721323999924991" nodeInfo="ng">
+      <property name="size" nameId="bs99.2740821845424982900" value="3 KB" />
+      <property name="tag" nameId="bs99.2051553890368778934" value="VRSLXJI" />
+      <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+      <property name="name" nameId="tpck.1169194664001" value="pickrell-NA19204_argonne" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839379" resolveInfo="READ_QUALITY_STATS" />
+      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999924992" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
+        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999924993" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="pickrell-NA19204_argonne" />
+        <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999924994" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="TASK" />
+        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_TYPE" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999924995" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="DJOSOSR" />
+        <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
+      </node>
+      <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="5391721323999924996" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="READ_QUALITY_STATS" />
+        <property name="path" nameId="bs99.2740821845422344869" value="pickrell-NA19204_argonne.quality-stats.tsv" />
+        <property name="size" nameId="bs99.2740821845424881124" value="3 KB" />
+      </node>
+    </node>
+    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="5391721323999925007" nodeInfo="ng">
+      <property name="size" nameId="bs99.2740821845424982900" value="7 MB" />
+      <property name="tag" nameId="bs99.2051553890368778934" value="UNJHHYE" />
+      <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+      <property name="name" nameId="tpck.1169194664001" value="pickrell-NA19204_argonne-WFJBKXL-pickrell-NA19204_argonne" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839407" resolveInfo="WEIGHT_FILES" />
+      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999925008" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
+        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999925009" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="pickrell-NA19204_argonne-WFJBKXL-pickrell-NA19204_argonne" />
+        <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999925010" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="TASK" />
+        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_TYPE" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999925011" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="DJOSOSR" />
+        <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
+      </node>
+      <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="5391721323999925012" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="GC_WEIGHTS" />
+        <property name="path" nameId="bs99.2740821845422344869" value="pickrell-NA19204_argonne-WFJBKXL-pickrell-NA19204_argonne.gc-weights" />
+        <property name="size" nameId="bs99.2740821845424881124" value="7 MB" />
+      </node>
+    </node>
+    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="5391721323999925021" nodeInfo="ng">
+      <property name="size" nameId="bs99.2740821845424982900" value="364 MB" />
+      <property name="tag" nameId="bs99.2051553890368778934" value="WVDKVCN" />
+      <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+      <property name="name" nameId="tpck.1169194664001" value="WFJBKXL-pickrell-NA19204_argonne" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839339" resolveInfo="COMPACT_READS" />
+      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999925022" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_ALIGNMENT" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999925023" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="COLOR_SPACE" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999925024" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+        <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999925025" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="QZJOUOE" />
+        <property name="name" nameId="tpck.1169194664001" value="STATS_TAGS" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999925026" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="VRSLXJI" />
+        <property name="name" nameId="tpck.1169194664001" value="QUALITY_TAGS" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999925027" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="Illumina" />
+        <property name="name" nameId="tpck.1169194664001" value="READS_PLATFORM" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999925028" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="WFJBKXL-pickrell-NA19204_argonne" />
+        <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999925029" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="BISULFITE_SAMPLE" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999925030" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="DJOSOSR" />
+        <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999925031" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="true" />
+        <property name="name" nameId="tpck.1169194664001" value="LIB_PROTOCOL_PRESERVE_STRAND" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999925032" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="WFJBKXL_pickrell_NA19204_argonne" />
+        <property name="name" nameId="tpck.1169194664001" value="READS_LABEL" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999925033" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="46" />
+        <property name="name" nameId="tpck.1169194664001" value="INPUT_READ_LENGTH" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999925034" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="UNJHHYE" />
+        <property name="name" nameId="tpck.1169194664001" value="WEIGHT_TAGS" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999925035" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
+        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999925036" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="FF" />
+        <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_DIRECTIONS" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999925037" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="TASK" />
+        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_TYPE" />
+      </node>
+      <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="5391721323999925038" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="READS_FILE" />
+        <property name="path" nameId="bs99.2740821845422344869" value="pickrell-NA19204_argonne-WFJBKXL-pickrell-NA19204_argonne.compact-reads" />
+        <property name="size" nameId="bs99.2740821845424881124" value="364 MB" />
+      </node>
+    </node>
+    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="5391721323999925047" nodeInfo="ng">
+      <property name="size" nameId="bs99.2740821845424982900" value="185 bytes" />
+      <property name="tag" nameId="bs99.2051553890368778934" value="DJOSOSR" />
+      <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+      <property name="name" nameId="tpck.1169194664001" value="DJOSOSR" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="5391721323999839368" resolveInfo="JOB_METADATA" />
+      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="570070230394853084" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999925048" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
+        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999925049" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="DJOSOSR" />
+        <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999925050" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="TASK" />
+        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_TYPE" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="5391721323999925051" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="DJOSOSR" />
+        <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
+      </node>
+      <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="5391721323999925052" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="JOB_STATISTICS" />
+        <property name="path" nameId="bs99.2740821845422344869" value="DJOSOSR.properties" />
+        <property name="size" nameId="bs99.2740821845424881124" value="185 bytes" />
+      </node>
+    </node>
   </root>
   <root type="bs99.ExecutionTool" typeId="bs99.2465489689642685978" id="8105799869329382959" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="ExecutionTool" />
-    <property name="jobName" nameId="bs99.606449909789338951" value="Pickrell6" />
-    <property name="message" nameId="bs99.3927327347527013400" value="Job successfully submitted. Assigned tag: OGCEKBE" />
+    <property name="jobName" nameId="bs99.606449909789338951" value="Pickrell10" />
+    <property name="message" nameId="bs99.3927327347527013400" value="Job successfully submitted. Assigned tag: DJOSOSR" />
     <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="3648805790695509200" resolveInfo="ClusterEnvironment" />
-    <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="8560093378716537701" resolveInfo="PROCESS_READS_TASK" />
-    <link role="currentJob" roleId="bs99.5540992037659823465" targetNodeId="8560093378719007765" resolveInfo="Pickrell6" />
+    <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="5391721323999839502" resolveInfo="PROCESS_READS_TASK" />
+    <link role="currentJob" roleId="bs99.5540992037659823465" targetNodeId="5391721323999910688" resolveInfo="Pickrell10" />
     <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="8560093378716756508" nodeInfo="ng">
-      <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="8560093378716537708" resolveInfo="UPLOADS_FILES" />
-      <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="8560093378719007270" nodeInfo="ng">
-        <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="8105799869329362172" resolveInfo="OMVLDZB-pickrell-NA19238_yale" />
+      <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="5391721323999839509" resolveInfo="UPLOADS_FILES" />
+      <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="5391721323999909323" nodeInfo="ng">
+        <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="5391721323999837881" resolveInfo="WFJBKXL-pickrell-NA19204_argonne" />
       </node>
     </node>
     <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="8560093378716756509" nodeInfo="ng">
-      <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="8560093378716537710" resolveInfo="UPLOAD_MERGE_PLAN" />
+      <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="5391721323999839511" resolveInfo="UPLOAD_MERGE_PLAN" />
       <node role="values" roleId="bs99.2995632242847956813" type="jlq1.MergePlanEditor" typeId="jlq1.8273662917775851475" id="8560093378716756523" nodeInfo="ng">
-        <link role="registeredMergePlanFSInstance" roleId="jlq1.8273662917776369954" targetNodeId="8560093378719007277" resolveInfo="merge-plan" />
+        <link role="registeredMergePlanFSInstance" roleId="jlq1.8273662917776369954" targetNodeId="5391721323999909330" resolveInfo="merge-plan" />
       </node>
     </node>
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="8560093378716756510" nodeInfo="ng">
-      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="8560093378716537725" resolveInfo="Tag for the new sample." />
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="5391721323999839526" resolveInfo="Tag for the new sample." />
       <node role="value" roleId="bs99.6506431596944968310" type="bs99.StringOptionValue" typeId="bs99.606449909792929476" id="8560093378716756514" nodeInfo="ng">
-        <property name="value" nameId="bs99.606449909792929477" value="pickrell-NA19238_yale" />
+        <property name="value" nameId="bs99.606449909792929477" value="pickrell-NA19204_argonne" />
       </node>
     </node>
-    <node role="listeners" roleId="bs99.7744544840734386662" type="7aad.ObjectCreationHelper" typeId="7aad.7744544840731999292" id="8560093378719007771" nodeInfo="ng" />
+    <node role="listeners" roleId="bs99.7744544840734386662" type="7aad.ObjectCreationHelper" typeId="7aad.7744544840731999292" id="5391721323999910694" nodeInfo="ng" />
   </root>
   <root type="bs99.JobContainer" typeId="bs99.6642819616986824926" id="8105799869329384708" nodeInfo="ng">
     <link role="environment" roleId="bs99.6642819616986825109" targetNodeId="3648805790695509200" resolveInfo="ClusterEnvironment" />
@@ -4699,7 +11415,7 @@
       <property name="name" nameId="tpck.1169194664001" value="Pickrell1" />
       <property name="assignedTag" nameId="bs99.2408108650474877836" value="USMYLOQ" />
       <link role="executionEnvironment" roleId="bs99.2051553890368806506" targetNodeId="3648805790695509200" resolveInfo="ClusterEnvironment" />
-      <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="985328857377887892" resolveInfo="PROCESS_READS_TASK" />
+      <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="5391721323999839502" resolveInfo="PROCESS_READS_TASK" />
       <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="8560093378718981783" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="UPLOADS_FILES" />
         <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="8560093378718981784" nodeInfo="ng">
@@ -4909,7 +11625,7 @@
       <property name="name" nameId="tpck.1169194664001" value="Pickrell2" />
       <property name="assignedTag" nameId="bs99.2408108650474877836" value="LYPWCTK" />
       <link role="executionEnvironment" roleId="bs99.2051553890368806506" targetNodeId="3648805790695509200" resolveInfo="ClusterEnvironment" />
-      <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="985328857377887892" resolveInfo="PROCESS_READS_TASK" />
+      <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="5391721323999839502" resolveInfo="PROCESS_READS_TASK" />
       <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="8560093378718993708" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="UPLOADS_FILES" />
         <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="8560093378718993709" nodeInfo="ng">
@@ -5119,7 +11835,7 @@
       <property name="name" nameId="tpck.1169194664001" value="Pickrell3" />
       <property name="assignedTag" nameId="bs99.2408108650474877836" value="WKBNPAB" />
       <link role="executionEnvironment" roleId="bs99.2051553890368806506" targetNodeId="3648805790695509200" resolveInfo="ClusterEnvironment" />
-      <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="985328857377887892" resolveInfo="PROCESS_READS_TASK" />
+      <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="5391721323999839502" resolveInfo="PROCESS_READS_TASK" />
       <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="8560093378719001421" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="UPLOADS_FILES" />
         <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="8560093378719001422" nodeInfo="ng">
@@ -5329,7 +12045,7 @@
       <property name="name" nameId="tpck.1169194664001" value="Pickrell3" />
       <property name="assignedTag" nameId="bs99.2408108650474877836" value="ATQZJFN" />
       <link role="executionEnvironment" roleId="bs99.2051553890368806506" targetNodeId="3648805790695509200" resolveInfo="ClusterEnvironment" />
-      <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="985328857377887892" resolveInfo="PROCESS_READS_TASK" />
+      <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="5391721323999839502" resolveInfo="PROCESS_READS_TASK" />
       <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="8560093378719006123" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="UPLOADS_FILES" />
         <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="8560093378719006124" nodeInfo="ng">
@@ -5611,7 +12327,7 @@
       <property name="name" nameId="tpck.1169194664001" value="Pickrell5" />
       <property name="assignedTag" nameId="bs99.2408108650474877836" value="VVEMIAY" />
       <link role="executionEnvironment" roleId="bs99.2051553890368806506" targetNodeId="3648805790695509200" resolveInfo="ClusterEnvironment" />
-      <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="985328857377887892" resolveInfo="PROCESS_READS_TASK" />
+      <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="5391721323999839502" resolveInfo="PROCESS_READS_TASK" />
       <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="8560093378719006938" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="UPLOADS_FILES" />
         <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="8560093378719006939" nodeInfo="ng">
@@ -5821,7 +12537,7 @@
       <property name="name" nameId="tpck.1169194664001" value="Pickrell6" />
       <property name="assignedTag" nameId="bs99.2408108650474877836" value="OGCEKBE" />
       <link role="executionEnvironment" roleId="bs99.2051553890368806506" targetNodeId="3648805790695509200" resolveInfo="ClusterEnvironment" />
-      <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="985328857377887892" resolveInfo="PROCESS_READS_TASK" />
+      <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="5391721323999839502" resolveInfo="PROCESS_READS_TASK" />
       <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="8560093378719007766" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="UPLOADS_FILES" />
         <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="8560093378719007767" nodeInfo="ng">
@@ -6031,7 +12747,7 @@
       <property name="name" nameId="tpck.1169194664001" value="AlignmentsForPickrell" />
       <property name="assignedTag" nameId="bs99.2408108650474877836" value="SUKRAMX" />
       <link role="executionEnvironment" roleId="bs99.2051553890368806506" targetNodeId="3648805790695509200" resolveInfo="ClusterEnvironment" />
-      <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="985328857377887002" resolveInfo="STAR22_GOBY" />
+      <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="5391721323999838612" resolveInfo="STAR22_GOBY" />
       <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="8560093378719031347" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="INPUT_READS" />
         <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="8560093378719031348" nodeInfo="ng">
@@ -6977,7 +13693,7 @@
       <property name="name" nameId="tpck.1169194664001" value="AlignmentsForPickrell" />
       <property name="assignedTag" nameId="bs99.2408108650474877836" value="NRLUUGT" />
       <link role="executionEnvironment" roleId="bs99.2051553890368806506" targetNodeId="3648805790695509200" resolveInfo="ClusterEnvironment" />
-      <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="985328857377887002" resolveInfo="STAR22_GOBY" />
+      <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="5391721323999838612" resolveInfo="STAR22_GOBY" />
       <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="8560093378719031374" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="INPUT_READS" />
         <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="8560093378719031375" nodeInfo="ng">
@@ -7075,7 +13791,7 @@
       <property name="name" nameId="tpck.1169194664001" value="AlignmentsForPickrell" />
       <property name="assignedTag" nameId="bs99.2408108650474877836" value="PAQIHST" />
       <link role="executionEnvironment" roleId="bs99.2051553890368806506" targetNodeId="3648805790695509200" resolveInfo="ClusterEnvironment" />
-      <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="985328857377887002" resolveInfo="STAR22_GOBY" />
+      <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="5391721323999838612" resolveInfo="STAR22_GOBY" />
       <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="8560093378719045727" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="INPUT_READS" />
         <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="8560093378719045728" nodeInfo="ng">
@@ -7893,7 +14609,7 @@
       <property name="name" nameId="tpck.1169194664001" value="AlignmentsForPickrell" />
       <property name="assignedTag" nameId="bs99.2408108650474877836" value="BNGACZF" />
       <link role="executionEnvironment" roleId="bs99.2051553890368806506" targetNodeId="3648805790695509200" resolveInfo="ClusterEnvironment" />
-      <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="985328857377887002" resolveInfo="STAR22_GOBY" />
+      <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="5391721323999838612" resolveInfo="STAR22_GOBY" />
       <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="8560093378719045754" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="INPUT_READS" />
         <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="8560093378719045755" nodeInfo="ng">
@@ -8711,7 +15427,7 @@
       <property name="name" nameId="tpck.1169194664001" value="AlignmentsForPickrell" />
       <property name="assignedTag" nameId="bs99.2408108650474877836" value="IOQZXWB" />
       <link role="executionEnvironment" roleId="bs99.2051553890368806506" targetNodeId="3648805790695509200" resolveInfo="ClusterEnvironment" />
-      <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="985328857377887002" resolveInfo="STAR22_GOBY" />
+      <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="5391721323999838612" resolveInfo="STAR22_GOBY" />
       <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="8560093378719045781" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="INPUT_READS" />
         <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="8560093378719045782" nodeInfo="ng">
@@ -9529,7 +16245,7 @@
       <property name="name" nameId="tpck.1169194664001" value="AlignmentsForPickrell" />
       <property name="assignedTag" nameId="bs99.2408108650474877836" value="TKVIRWM" />
       <link role="executionEnvironment" roleId="bs99.2051553890368806506" targetNodeId="3648805790695509200" resolveInfo="ClusterEnvironment" />
-      <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="985328857377887002" resolveInfo="STAR22_GOBY" />
+      <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="5391721323999838612" resolveInfo="STAR22_GOBY" />
       <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="8560093378719045808" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="INPUT_READS" />
         <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="8560093378719045809" nodeInfo="ng">
@@ -10411,7 +17127,7 @@
       <property name="name" nameId="tpck.1169194664001" value="AnalysisArgonneVsYale" />
       <property name="assignedTag" nameId="bs99.2408108650474877836" value="VBWQJDM" />
       <link role="executionEnvironment" roleId="bs99.2051553890368806506" targetNodeId="3648805790695509200" resolveInfo="ClusterEnvironment" />
-      <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="985328857377887157" resolveInfo="DIFF_EXP_EDGE_R_ARTIFACT" />
+      <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="5391721323999838767" resolveInfo="DIFF_EXP_EDGE_R_ARTIFACT" />
       <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="8560093378719092297" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="INPUT_ALIGNMENTS" />
         <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="8560093378719092298" nodeInfo="ng">
@@ -10493,7 +17209,7 @@
           <property name="jobStatus" nameId="bbh2.8711817271669511123" value="completed" />
           <property name="messageCounter" nameId="bbh2.8711817271669613111" value="72" />
           <property name="message" nameId="bbh2.6041342965312064113" value="refresh invoked" />
-          <property name="autoRefresh" nameId="bbh2.1011954325398115419" value="false" />
+          <property name="autoRefresh" nameId="bbh2.1011954325398115419" value="true" />
           <link role="listener" roleId="bbh2.1526708538680794525" targetNodeId="8560093378719092333" resolveInfo="NYoSh-VBWQJDM" />
           <link role="eventListener" roleId="bbh2.1212232161626043352" targetNodeId="8560093378719092331" />
           <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="8560093378719102228" nodeInfo="ng">
@@ -11443,7 +18159,7 @@
           </node>
         </node>
         <node role="listener" roleId="bbh2.2017323193335730758" type="bbh2.MessageListener" typeId="bbh2.2017323193335730757" id="8560093378719092333" nodeInfo="ng">
-          <property name="subscribed" nameId="bbh2.2017323193335803495" value="false" />
+          <property name="subscribed" nameId="bbh2.2017323193335803495" value="true" />
           <property name="jobTag" nameId="bbh2.2017323193335763033" value="VBWQJDM" />
           <property name="name" nameId="tpck.1169194664001" value="NYoSh-VBWQJDM" />
           <link role="broker" roleId="bbh2.2017323193335803042" targetNodeId="1212232161621136016" resolveInfo="brokerForMonitor" />
@@ -11463,6 +18179,846 @@
           <property name="rank" nameId="bbh2.6587162469552164420" value="200" />
         </node>
         <node role="fileSetStatusListeners" roleId="bbh2.6587162469552453227" type="7aad.ListenForAlignmentAnalysisFileSets" typeId="7aad.8524130661366375999" id="8560093378719092338" nodeInfo="ng">
+          <property name="rank" nameId="bbh2.6587162469552164420" value="300" />
+        </node>
+      </node>
+    </node>
+    <node role="jobs" roleId="bs99.6642819616986825107" type="bs99.Job" typeId="bs99.2051553890368756070" id="5391721323999864945" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="Pickrell7" />
+      <property name="assignedTag" nameId="bs99.2408108650474877836" value="JMYLEVB" />
+      <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="5391721323999839502" resolveInfo="PROCESS_READS_TASK" />
+      <link role="executionEnvironment" roleId="bs99.2051553890368806506" targetNodeId="3648805790695509200" resolveInfo="ClusterEnvironment" />
+      <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="5391721323999864946" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="UPLOADS_FILES" />
+        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="5391721323999864947" nodeInfo="ng">
+          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="5391721323999837839" resolveInfo="QQPOLQB-pickrell-NA19209_argonne" />
+        </node>
+      </node>
+      <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="5391721323999864948" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="UPLOAD_MERGE_PLAN" />
+        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="5391721323999864949" nodeInfo="ng">
+          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="5391721323999863862" resolveInfo="merge-plan" />
+        </node>
+      </node>
+      <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="5391721323999864950" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="TAG" />
+        <property name="value" nameId="bs99.606449909793678507" value="pickrell-NA19238_yale" />
+      </node>
+      <node role="results" roleId="bs99.606449909788800957" type="bs99.JobResult" typeId="bs99.2051553890369292719" id="5391721323999864955" nodeInfo="ng">
+        <property name="output" nameId="bs99.2051553890369299989" value="SUCCESSFUL" />
+        <node role="filesets" roleId="bs99.1212232161627158989" type="bs99.PublishedFileSetInstance" typeId="bs99.1212232161627158981" id="5391721323999898573" nodeInfo="ng">
+          <property name="tag" nameId="bs99.1212232161627158982" value="OADHXQA" />
+          <property name="type" nameId="bs99.1212232161627158984" value="READS_STATS_PROPERTIES_FILE" />
+        </node>
+        <node role="filesets" roleId="bs99.1212232161627158989" type="bs99.PublishedFileSetInstance" typeId="bs99.1212232161627158981" id="5391721323999898587" nodeInfo="ng">
+          <property name="tag" nameId="bs99.1212232161627158982" value="WCRCVYD" />
+          <property name="type" nameId="bs99.1212232161627158984" value="READ_QUALITY_STATS" />
+        </node>
+        <node role="filesets" roleId="bs99.1212232161627158989" type="bs99.PublishedFileSetInstance" typeId="bs99.1212232161627158981" id="5391721323999898603" nodeInfo="ng">
+          <property name="tag" nameId="bs99.1212232161627158982" value="CNEUYXN" />
+          <property name="type" nameId="bs99.1212232161627158984" value="WEIGHT_FILES" />
+        </node>
+        <node role="filesets" roleId="bs99.1212232161627158989" type="bs99.PublishedFileSetInstance" typeId="bs99.1212232161627158981" id="5391721323999898617" nodeInfo="ng">
+          <property name="tag" nameId="bs99.1212232161627158982" value="LXLAULM" />
+          <property name="type" nameId="bs99.1212232161627158984" value="COMPACT_READS" />
+        </node>
+        <node role="filesets" roleId="bs99.1212232161627158989" type="bs99.PublishedFileSetInstance" typeId="bs99.1212232161627158981" id="5391721323999898643" nodeInfo="ng">
+          <property name="tag" nameId="bs99.1212232161627158982" value="JMYLEVB" />
+          <property name="type" nameId="bs99.1212232161627158984" value="JOB_METADATA" />
+        </node>
+      </node>
+      <node role="monitor" roleId="bs99.5540992037659759954" type="bbh2.JobMonitor" typeId="bbh2.2017323193335723531" id="5391721323999864957" nodeInfo="ng">
+        <property name="jobtag" nameId="bbh2.2017323193335729124" value="JMYLEVB" />
+        <link role="broker" roleId="bbh2.2017323193335950083" targetNodeId="1212232161621136016" resolveInfo="brokerForMonitor" />
+        <node role="viewer" roleId="bbh2.2017323193335764208" type="bbh2.MessageViewer" typeId="bbh2.2017323193335763037" id="5391721323999864958" nodeInfo="ng">
+          <property name="jobStatus" nameId="bbh2.8711817271669511123" value="completed" />
+          <property name="messageCounter" nameId="bbh2.8711817271669613111" value="14" />
+          <property name="message" nameId="bbh2.6041342965312064113" value="refresh invoked" />
+          <property name="autoRefresh" nameId="bbh2.1011954325398115419" value="false" />
+          <link role="listener" roleId="bbh2.1526708538680794525" targetNodeId="5391721323999864959" resolveInfo="NYoSh-JMYLEVB" />
+          <link role="eventListener" roleId="bbh2.1212232161626043352" targetNodeId="5391721323999864957" />
+          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="5391721323999871494" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="RUNNING" />
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999871492" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="farina.pbtech" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 09:57:08 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999871493" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="Installing mandatory plugin artifacts" />
+              </node>
+            </node>
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999871503" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="farina.pbtech" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 09:57:11 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999871504" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="Installing plugin artifacts" />
+              </node>
+            </node>
+          </node>
+          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="5391721323999871497" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="resources" />
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999871495" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="farina.pbtech" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 09:57:09 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999871496" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="Installing plugin mandatory resources" />
+              </node>
+            </node>
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999871498" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="farina.pbtech" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 09:57:10 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999871499" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="Expose environment variables for artifacts.." />
+              </node>
+            </node>
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999871505" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="farina.pbtech" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 09:57:12 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999871506" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="Installing plugin resources" />
+              </node>
+            </node>
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999871507" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="farina.pbtech" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 09:57:13 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999871508" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="Expose environment variables for artifacts.." />
+              </node>
+            </node>
+          </node>
+          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="5391721323999871502" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="submitted" />
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999871500" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="petey.med.cornell.edu" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 09:57:11 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999871501" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="Task submitted: 357664" />
+              </node>
+            </node>
+          </node>
+          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="5391721323999898569" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="registered_filesets" />
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999898567" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="farina.pbtech" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 09:58:21 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999898568" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="READS_STATS_PROPERTIES_FILE:[OADHXQA]" />
+              </node>
+            </node>
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999898582" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="farina.pbtech" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 09:58:22 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999898583" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="READ_QUALITY_STATS:[WCRCVYD]" />
+              </node>
+            </node>
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999898598" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="farina.pbtech" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 09:58:23 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999898599" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="WEIGHT_FILES:[CNEUYXN]" />
+              </node>
+            </node>
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999898612" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="farina.pbtech" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 09:58:30 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999898613" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="COMPACT_READS:[LXLAULM]" />
+              </node>
+            </node>
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999898638" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="farina.pbtech" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 09:58:31 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999898639" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="JOB_METADATA:[JMYLEVB]" />
+              </node>
+            </node>
+          </node>
+          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="5391721323999898654" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="COMPLETED" />
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999898652" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="farina.pbtech" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 09:58:32 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999898653" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="Task completed" />
+              </node>
+            </node>
+          </node>
+          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="5391721323999898657" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="done" />
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999898655" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="farina.pbtech" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 09:58:44 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999898656" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="Job completed" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="listener" roleId="bbh2.2017323193335730758" type="bbh2.MessageListener" typeId="bbh2.2017323193335730757" id="5391721323999864959" nodeInfo="ng">
+          <property name="subscribed" nameId="bbh2.2017323193335803495" value="false" />
+          <property name="jobTag" nameId="bbh2.2017323193335763033" value="JMYLEVB" />
+          <property name="name" nameId="tpck.1169194664001" value="NYoSh-JMYLEVB" />
+          <link role="broker" roleId="bbh2.2017323193335803042" targetNodeId="1212232161621136016" resolveInfo="brokerForMonitor" />
+        </node>
+        <node role="jobStatusListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobListener" typeId="bs99.1212232161626260983" id="5391721323999864960" nodeInfo="ng">
+          <property name="rank" nameId="bbh2.7926097513313212588" value="0" />
+          <link role="job" roleId="bs99.1212232161627127088" targetNodeId="5391721323999864945" resolveInfo="Pickrell7" />
+        </node>
+        <node role="fileSetStatusListeners" roleId="bbh2.6587162469552453227" type="bs99.RegisterFileSetListener" typeId="bs99.3403061721254603833" id="5391721323999864963" nodeInfo="ng">
+          <property name="rank" nameId="bbh2.6587162469552164420" value="1" />
+          <link role="job" roleId="bs99.3403061721254603840" targetNodeId="5391721323999864945" resolveInfo="Pickrell7" />
+        </node>
+        <node role="fileSetStatusListeners" roleId="bbh2.6587162469552453227" type="7aad.ListenForSampleFileSets" typeId="7aad.7926097513313207836" id="5391721323999864961" nodeInfo="ng">
+          <property name="rank" nameId="bbh2.6587162469552164420" value="100" />
+        </node>
+        <node role="fileSetStatusListeners" roleId="bbh2.6587162469552453227" type="7aad.ListenForAlignmentFileSets" typeId="7aad.6587162469555572132" id="5391721323999864962" nodeInfo="ng">
+          <property name="rank" nameId="bbh2.6587162469552164420" value="200" />
+        </node>
+        <node role="fileSetStatusListeners" roleId="bbh2.6587162469552453227" type="7aad.ListenForAlignmentAnalysisFileSets" typeId="7aad.8524130661366375999" id="5391721323999864964" nodeInfo="ng">
+          <property name="rank" nameId="bbh2.6587162469552164420" value="300" />
+        </node>
+      </node>
+    </node>
+    <node role="jobs" roleId="bs99.6642819616986825107" type="bs99.Job" typeId="bs99.2051553890368756070" id="5391721323999872739" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="Pickrell8" />
+      <property name="assignedTag" nameId="bs99.2408108650474877836" value="TLNYXDD" />
+      <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="5391721323999839502" resolveInfo="PROCESS_READS_TASK" />
+      <link role="executionEnvironment" roleId="bs99.2051553890368806506" targetNodeId="3648805790695509200" resolveInfo="ClusterEnvironment" />
+      <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="5391721323999872740" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="UPLOADS_FILES" />
+        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="5391721323999872741" nodeInfo="ng">
+          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="5391721323999837857" resolveInfo="SJIECZO-pickrell-NA19209_yale" />
+        </node>
+      </node>
+      <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="5391721323999872742" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="UPLOAD_MERGE_PLAN" />
+        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="5391721323999872743" nodeInfo="ng">
+          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="5391721323999871657" resolveInfo="merge-plan" />
+        </node>
+      </node>
+      <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="5391721323999872744" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="TAG" />
+        <property name="value" nameId="bs99.606449909793678507" value="pickrell-NA19238_yale" />
+      </node>
+      <node role="results" roleId="bs99.606449909788800957" type="bs99.JobResult" typeId="bs99.2051553890369292719" id="5391721323999872749" nodeInfo="ng">
+        <property name="output" nameId="bs99.2051553890369299989" value="SUCCESSFUL" />
+        <node role="filesets" roleId="bs99.1212232161627158989" type="bs99.PublishedFileSetInstance" typeId="bs99.1212232161627158981" id="5391721323999899977" nodeInfo="ng">
+          <property name="tag" nameId="bs99.1212232161627158982" value="JQZQIQG" />
+          <property name="type" nameId="bs99.1212232161627158984" value="READS_STATS_PROPERTIES_FILE" />
+        </node>
+        <node role="filesets" roleId="bs99.1212232161627158989" type="bs99.PublishedFileSetInstance" typeId="bs99.1212232161627158981" id="5391721323999899991" nodeInfo="ng">
+          <property name="tag" nameId="bs99.1212232161627158982" value="SHCZUZQ" />
+          <property name="type" nameId="bs99.1212232161627158984" value="READ_QUALITY_STATS" />
+        </node>
+        <node role="filesets" roleId="bs99.1212232161627158989" type="bs99.PublishedFileSetInstance" typeId="bs99.1212232161627158981" id="5391721323999900007" nodeInfo="ng">
+          <property name="tag" nameId="bs99.1212232161627158982" value="FBCUWCX" />
+          <property name="type" nameId="bs99.1212232161627158984" value="WEIGHT_FILES" />
+        </node>
+        <node role="filesets" roleId="bs99.1212232161627158989" type="bs99.PublishedFileSetInstance" typeId="bs99.1212232161627158981" id="5391721323999900021" nodeInfo="ng">
+          <property name="tag" nameId="bs99.1212232161627158982" value="CQVPHJL" />
+          <property name="type" nameId="bs99.1212232161627158984" value="COMPACT_READS" />
+        </node>
+        <node role="filesets" roleId="bs99.1212232161627158989" type="bs99.PublishedFileSetInstance" typeId="bs99.1212232161627158981" id="5391721323999900047" nodeInfo="ng">
+          <property name="tag" nameId="bs99.1212232161627158982" value="TLNYXDD" />
+          <property name="type" nameId="bs99.1212232161627158984" value="JOB_METADATA" />
+        </node>
+      </node>
+      <node role="monitor" roleId="bs99.5540992037659759954" type="bbh2.JobMonitor" typeId="bbh2.2017323193335723531" id="5391721323999872751" nodeInfo="ng">
+        <property name="jobtag" nameId="bbh2.2017323193335729124" value="TLNYXDD" />
+        <link role="broker" roleId="bbh2.2017323193335950083" targetNodeId="1212232161621136016" resolveInfo="brokerForMonitor" />
+        <node role="viewer" roleId="bbh2.2017323193335764208" type="bbh2.MessageViewer" typeId="bbh2.2017323193335763037" id="5391721323999872752" nodeInfo="ng">
+          <property name="jobStatus" nameId="bbh2.8711817271669511123" value="completed" />
+          <property name="messageCounter" nameId="bbh2.8711817271669613111" value="14" />
+          <property name="message" nameId="bbh2.6041342965312064113" value="refresh invoked" />
+          <property name="autoRefresh" nameId="bbh2.1011954325398115419" value="false" />
+          <link role="listener" roleId="bbh2.1526708538680794525" targetNodeId="5391721323999872753" resolveInfo="NYoSh-TLNYXDD" />
+          <link role="eventListener" roleId="bbh2.1212232161626043352" targetNodeId="5391721323999872751" />
+          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="5391721323999899956" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="submitted" />
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999899954" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="petey.med.cornell.edu" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 09:58:07 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999899955" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="Task submitted: 357666" />
+              </node>
+            </node>
+          </node>
+          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="5391721323999899959" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="RUNNING" />
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999899957" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="spot.med.cornell.edu" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 09:58:07 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999899958" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="Installing mandatory plugin artifacts" />
+              </node>
+            </node>
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999899965" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="spot.med.cornell.edu" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 09:58:12 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999899966" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="Installing plugin artifacts" />
+              </node>
+            </node>
+          </node>
+          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="5391721323999899962" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="resources" />
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999899960" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="spot.med.cornell.edu" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 09:58:08 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999899961" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="Installing plugin mandatory resources" />
+              </node>
+            </node>
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999899963" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="spot.med.cornell.edu" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 09:58:10 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999899964" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="Expose environment variables for artifacts.." />
+              </node>
+            </node>
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999899967" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="spot.med.cornell.edu" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 09:58:13 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999899968" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="Installing plugin resources" />
+              </node>
+            </node>
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999899969" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="spot.med.cornell.edu" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 09:58:14 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999899970" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="Expose environment variables for artifacts.." />
+              </node>
+            </node>
+          </node>
+          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="5391721323999899973" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="registered_filesets" />
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999899971" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="spot.med.cornell.edu" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 09:59:33 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999899972" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="READS_STATS_PROPERTIES_FILE:[JQZQIQG]" />
+              </node>
+            </node>
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999899986" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="spot.med.cornell.edu" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 09:59:34 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999899987" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="READ_QUALITY_STATS:[SHCZUZQ]" />
+              </node>
+            </node>
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999900002" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="spot.med.cornell.edu" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 09:59:36 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999900003" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="WEIGHT_FILES:[FBCUWCX]" />
+              </node>
+            </node>
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999900016" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="spot.med.cornell.edu" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 09:59:41 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999900017" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="COMPACT_READS:[CQVPHJL]" />
+              </node>
+            </node>
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999900042" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="spot.med.cornell.edu" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 09:59:43 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999900043" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="JOB_METADATA:[TLNYXDD]" />
+              </node>
+            </node>
+          </node>
+          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="5391721323999900058" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="COMPLETED" />
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999900056" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="spot.med.cornell.edu" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 09:59:45 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999900057" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="Task completed" />
+              </node>
+            </node>
+          </node>
+          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="5391721323999900061" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="done" />
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999900059" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="spot.med.cornell.edu" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 09:59:56 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999900060" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="Job completed" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="listener" roleId="bbh2.2017323193335730758" type="bbh2.MessageListener" typeId="bbh2.2017323193335730757" id="5391721323999872753" nodeInfo="ng">
+          <property name="subscribed" nameId="bbh2.2017323193335803495" value="false" />
+          <property name="jobTag" nameId="bbh2.2017323193335763033" value="TLNYXDD" />
+          <property name="name" nameId="tpck.1169194664001" value="NYoSh-TLNYXDD" />
+          <link role="broker" roleId="bbh2.2017323193335803042" targetNodeId="1212232161621136016" resolveInfo="brokerForMonitor" />
+        </node>
+        <node role="jobStatusListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobListener" typeId="bs99.1212232161626260983" id="5391721323999872754" nodeInfo="ng">
+          <property name="rank" nameId="bbh2.7926097513313212588" value="0" />
+          <link role="job" roleId="bs99.1212232161627127088" targetNodeId="5391721323999872739" resolveInfo="Pickrell8" />
+        </node>
+        <node role="fileSetStatusListeners" roleId="bbh2.6587162469552453227" type="bs99.RegisterFileSetListener" typeId="bs99.3403061721254603833" id="5391721323999872757" nodeInfo="ng">
+          <property name="rank" nameId="bbh2.6587162469552164420" value="1" />
+          <link role="job" roleId="bs99.3403061721254603840" targetNodeId="5391721323999872739" resolveInfo="Pickrell8" />
+        </node>
+        <node role="fileSetStatusListeners" roleId="bbh2.6587162469552453227" type="7aad.ListenForSampleFileSets" typeId="7aad.7926097513313207836" id="5391721323999872755" nodeInfo="ng">
+          <property name="rank" nameId="bbh2.6587162469552164420" value="100" />
+        </node>
+        <node role="fileSetStatusListeners" roleId="bbh2.6587162469552453227" type="7aad.ListenForAlignmentFileSets" typeId="7aad.6587162469555572132" id="5391721323999872756" nodeInfo="ng">
+          <property name="rank" nameId="bbh2.6587162469552164420" value="200" />
+        </node>
+        <node role="fileSetStatusListeners" roleId="bbh2.6587162469552453227" type="7aad.ListenForAlignmentAnalysisFileSets" typeId="7aad.8524130661366375999" id="5391721323999872758" nodeInfo="ng">
+          <property name="rank" nameId="bbh2.6587162469552164420" value="300" />
+        </node>
+      </node>
+    </node>
+    <node role="jobs" roleId="bs99.6642819616986825107" type="bs99.Job" typeId="bs99.2051553890368756070" id="5391721323999875770" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="Pickrell9" />
+      <property name="assignedTag" nameId="bs99.2408108650474877836" value="MZCNQIT" />
+      <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="5391721323999839502" resolveInfo="PROCESS_READS_TASK" />
+      <link role="executionEnvironment" roleId="bs99.2051553890368806506" targetNodeId="3648805790695509200" resolveInfo="ClusterEnvironment" />
+      <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="5391721323999875771" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="UPLOADS_FILES" />
+        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="5391721323999875772" nodeInfo="ng">
+          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="5391721323999837869" resolveInfo="UGWCTUQ-pickrell-NA19222_yale" />
+        </node>
+      </node>
+      <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="5391721323999875773" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="UPLOAD_MERGE_PLAN" />
+        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="5391721323999875774" nodeInfo="ng">
+          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="5391721323999874690" resolveInfo="merge-plan" />
+        </node>
+      </node>
+      <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="5391721323999875775" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="TAG" />
+        <property name="value" nameId="bs99.606449909793678507" value="pickrell-NA19238_yale" />
+      </node>
+      <node role="results" roleId="bs99.606449909788800957" type="bs99.JobResult" typeId="bs99.2051553890369292719" id="5391721323999875780" nodeInfo="ng">
+        <property name="output" nameId="bs99.2051553890369299989" value="SUCCESSFUL" />
+        <node role="filesets" roleId="bs99.1212232161627158989" type="bs99.PublishedFileSetInstance" typeId="bs99.1212232161627158981" id="5391721323999901449" nodeInfo="ng">
+          <property name="tag" nameId="bs99.1212232161627158982" value="ALHHPVI" />
+          <property name="type" nameId="bs99.1212232161627158984" value="READS_STATS_PROPERTIES_FILE" />
+        </node>
+        <node role="filesets" roleId="bs99.1212232161627158989" type="bs99.PublishedFileSetInstance" typeId="bs99.1212232161627158981" id="5391721323999901463" nodeInfo="ng">
+          <property name="tag" nameId="bs99.1212232161627158982" value="KSUMTXQ" />
+          <property name="type" nameId="bs99.1212232161627158984" value="READ_QUALITY_STATS" />
+        </node>
+        <node role="filesets" roleId="bs99.1212232161627158989" type="bs99.PublishedFileSetInstance" typeId="bs99.1212232161627158981" id="5391721323999901479" nodeInfo="ng">
+          <property name="tag" nameId="bs99.1212232161627158982" value="CTPAXSM" />
+          <property name="type" nameId="bs99.1212232161627158984" value="WEIGHT_FILES" />
+        </node>
+        <node role="filesets" roleId="bs99.1212232161627158989" type="bs99.PublishedFileSetInstance" typeId="bs99.1212232161627158981" id="5391721323999901493" nodeInfo="ng">
+          <property name="tag" nameId="bs99.1212232161627158982" value="VADSBJP" />
+          <property name="type" nameId="bs99.1212232161627158984" value="COMPACT_READS" />
+        </node>
+        <node role="filesets" roleId="bs99.1212232161627158989" type="bs99.PublishedFileSetInstance" typeId="bs99.1212232161627158981" id="5391721323999901519" nodeInfo="ng">
+          <property name="tag" nameId="bs99.1212232161627158982" value="MZCNQIT" />
+          <property name="type" nameId="bs99.1212232161627158984" value="JOB_METADATA" />
+        </node>
+      </node>
+      <node role="monitor" roleId="bs99.5540992037659759954" type="bbh2.JobMonitor" typeId="bbh2.2017323193335723531" id="5391721323999875782" nodeInfo="ng">
+        <property name="jobtag" nameId="bbh2.2017323193335729124" value="MZCNQIT" />
+        <link role="broker" roleId="bbh2.2017323193335950083" targetNodeId="1212232161621136016" resolveInfo="brokerForMonitor" />
+        <node role="viewer" roleId="bbh2.2017323193335764208" type="bbh2.MessageViewer" typeId="bbh2.2017323193335763037" id="5391721323999875783" nodeInfo="ng">
+          <property name="jobStatus" nameId="bbh2.8711817271669511123" value="completed" />
+          <property name="messageCounter" nameId="bbh2.8711817271669613111" value="14" />
+          <property name="message" nameId="bbh2.6041342965312064113" value="refresh invoked" />
+          <property name="autoRefresh" nameId="bbh2.1011954325398115419" value="false" />
+          <link role="listener" roleId="bbh2.1526708538680794525" targetNodeId="5391721323999875784" resolveInfo="NYoSh-MZCNQIT" />
+          <link role="eventListener" roleId="bbh2.1212232161626043352" targetNodeId="5391721323999875782" />
+          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="5391721323999882532" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="RUNNING" />
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999882530" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="darla.med.cornell.edu" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 09:58:22 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999882531" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="Installing mandatory plugin artifacts" />
+              </node>
+            </node>
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999882541" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="darla.med.cornell.edu" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 09:58:30 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999882542" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="Installing plugin artifacts" />
+              </node>
+            </node>
+          </node>
+          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="5391721323999882535" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="resources" />
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999882533" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="darla.med.cornell.edu" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 09:58:23 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999882534" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="Installing plugin mandatory resources" />
+              </node>
+            </node>
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999882539" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="darla.med.cornell.edu" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 09:58:24 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999882540" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="Expose environment variables for artifacts.." />
+              </node>
+            </node>
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999882543" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="darla.med.cornell.edu" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 09:58:31 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999882544" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="Installing plugin resources" />
+              </node>
+            </node>
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999882545" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="darla.med.cornell.edu" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 09:58:32 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999882546" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="Expose environment variables for artifacts.." />
+              </node>
+            </node>
+          </node>
+          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="5391721323999882538" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="submitted" />
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999882536" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="petey.med.cornell.edu" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 09:58:23 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999882537" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="Task submitted: 357668" />
+              </node>
+            </node>
+          </node>
+          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="5391721323999901445" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="registered_filesets" />
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999901443" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="darla.med.cornell.edu" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 09:59:24 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999901444" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="READS_STATS_PROPERTIES_FILE:[ALHHPVI]" />
+              </node>
+            </node>
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999901458" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="darla.med.cornell.edu" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 09:59:25 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999901459" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="READ_QUALITY_STATS:[KSUMTXQ]" />
+              </node>
+            </node>
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999901474" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="darla.med.cornell.edu" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 09:59:26 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999901475" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="WEIGHT_FILES:[CTPAXSM]" />
+              </node>
+            </node>
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999901488" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="darla.med.cornell.edu" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 09:59:29 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999901489" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="COMPACT_READS:[VADSBJP]" />
+              </node>
+            </node>
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999901514" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="darla.med.cornell.edu" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 09:59:31 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999901515" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="JOB_METADATA:[MZCNQIT]" />
+              </node>
+            </node>
+          </node>
+          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="5391721323999901530" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="COMPLETED" />
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999901528" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="darla.med.cornell.edu" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 09:59:32 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999901529" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="Task completed" />
+              </node>
+            </node>
+          </node>
+          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="5391721323999901533" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="done" />
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999901531" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="darla.med.cornell.edu" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 09:59:43 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999901532" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="Job completed" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="listener" roleId="bbh2.2017323193335730758" type="bbh2.MessageListener" typeId="bbh2.2017323193335730757" id="5391721323999875784" nodeInfo="ng">
+          <property name="subscribed" nameId="bbh2.2017323193335803495" value="false" />
+          <property name="jobTag" nameId="bbh2.2017323193335763033" value="MZCNQIT" />
+          <property name="name" nameId="tpck.1169194664001" value="NYoSh-MZCNQIT" />
+          <link role="broker" roleId="bbh2.2017323193335803042" targetNodeId="1212232161621136016" resolveInfo="brokerForMonitor" />
+        </node>
+        <node role="jobStatusListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobListener" typeId="bs99.1212232161626260983" id="5391721323999875785" nodeInfo="ng">
+          <property name="rank" nameId="bbh2.7926097513313212588" value="0" />
+          <link role="job" roleId="bs99.1212232161627127088" targetNodeId="5391721323999875770" resolveInfo="Pickrell9" />
+        </node>
+        <node role="fileSetStatusListeners" roleId="bbh2.6587162469552453227" type="bs99.RegisterFileSetListener" typeId="bs99.3403061721254603833" id="5391721323999875788" nodeInfo="ng">
+          <property name="rank" nameId="bbh2.6587162469552164420" value="1" />
+          <link role="job" roleId="bs99.3403061721254603840" targetNodeId="5391721323999875770" resolveInfo="Pickrell9" />
+        </node>
+        <node role="fileSetStatusListeners" roleId="bbh2.6587162469552453227" type="7aad.ListenForSampleFileSets" typeId="7aad.7926097513313207836" id="5391721323999875786" nodeInfo="ng">
+          <property name="rank" nameId="bbh2.6587162469552164420" value="100" />
+        </node>
+        <node role="fileSetStatusListeners" roleId="bbh2.6587162469552453227" type="7aad.ListenForAlignmentFileSets" typeId="7aad.6587162469555572132" id="5391721323999875787" nodeInfo="ng">
+          <property name="rank" nameId="bbh2.6587162469552164420" value="200" />
+        </node>
+        <node role="fileSetStatusListeners" roleId="bbh2.6587162469552453227" type="7aad.ListenForAlignmentAnalysisFileSets" typeId="7aad.8524130661366375999" id="5391721323999875789" nodeInfo="ng">
+          <property name="rank" nameId="bbh2.6587162469552164420" value="300" />
+        </node>
+      </node>
+    </node>
+    <node role="jobs" roleId="bs99.6642819616986825107" type="bs99.Job" typeId="bs99.2051553890368756070" id="5391721323999910688" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="Pickrell10" />
+      <property name="assignedTag" nameId="bs99.2408108650474877836" value="DJOSOSR" />
+      <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="5391721323999839502" resolveInfo="PROCESS_READS_TASK" />
+      <link role="executionEnvironment" roleId="bs99.2051553890368806506" targetNodeId="3648805790695509200" resolveInfo="ClusterEnvironment" />
+      <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="5391721323999910689" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="UPLOADS_FILES" />
+        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="5391721323999910690" nodeInfo="ng">
+          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="5391721323999837881" resolveInfo="WFJBKXL-pickrell-NA19204_argonne" />
+        </node>
+      </node>
+      <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="5391721323999910691" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="UPLOAD_MERGE_PLAN" />
+        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="5391721323999910692" nodeInfo="ng">
+          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="5391721323999909330" resolveInfo="merge-plan" />
+        </node>
+      </node>
+      <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="5391721323999910693" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="TAG" />
+        <property name="value" nameId="bs99.606449909793678507" value="pickrell-NA19204_argonne" />
+      </node>
+      <node role="results" roleId="bs99.606449909788800957" type="bs99.JobResult" typeId="bs99.2051553890369292719" id="5391721323999910698" nodeInfo="ng">
+        <property name="output" nameId="bs99.2051553890369299989" value="SUCCESSFUL" />
+        <node role="filesets" roleId="bs99.1212232161627158989" type="bs99.PublishedFileSetInstance" typeId="bs99.1212232161627158981" id="5391721323999924975" nodeInfo="ng">
+          <property name="tag" nameId="bs99.1212232161627158982" value="QZJOUOE" />
+          <property name="type" nameId="bs99.1212232161627158984" value="READS_STATS_PROPERTIES_FILE" />
+        </node>
+        <node role="filesets" roleId="bs99.1212232161627158989" type="bs99.PublishedFileSetInstance" typeId="bs99.1212232161627158981" id="5391721323999924989" nodeInfo="ng">
+          <property name="tag" nameId="bs99.1212232161627158982" value="VRSLXJI" />
+          <property name="type" nameId="bs99.1212232161627158984" value="READ_QUALITY_STATS" />
+        </node>
+        <node role="filesets" roleId="bs99.1212232161627158989" type="bs99.PublishedFileSetInstance" typeId="bs99.1212232161627158981" id="5391721323999925005" nodeInfo="ng">
+          <property name="tag" nameId="bs99.1212232161627158982" value="UNJHHYE" />
+          <property name="type" nameId="bs99.1212232161627158984" value="WEIGHT_FILES" />
+        </node>
+        <node role="filesets" roleId="bs99.1212232161627158989" type="bs99.PublishedFileSetInstance" typeId="bs99.1212232161627158981" id="5391721323999925019" nodeInfo="ng">
+          <property name="tag" nameId="bs99.1212232161627158982" value="WVDKVCN" />
+          <property name="type" nameId="bs99.1212232161627158984" value="COMPACT_READS" />
+        </node>
+        <node role="filesets" roleId="bs99.1212232161627158989" type="bs99.PublishedFileSetInstance" typeId="bs99.1212232161627158981" id="5391721323999925045" nodeInfo="ng">
+          <property name="tag" nameId="bs99.1212232161627158982" value="DJOSOSR" />
+          <property name="type" nameId="bs99.1212232161627158984" value="JOB_METADATA" />
+        </node>
+      </node>
+      <node role="monitor" roleId="bs99.5540992037659759954" type="bbh2.JobMonitor" typeId="bbh2.2017323193335723531" id="5391721323999910700" nodeInfo="ng">
+        <property name="jobtag" nameId="bbh2.2017323193335729124" value="DJOSOSR" />
+        <link role="broker" roleId="bbh2.2017323193335950083" targetNodeId="1212232161621136016" resolveInfo="brokerForMonitor" />
+        <node role="viewer" roleId="bbh2.2017323193335764208" type="bbh2.MessageViewer" typeId="bbh2.2017323193335763037" id="5391721323999910701" nodeInfo="ng">
+          <property name="jobStatus" nameId="bbh2.8711817271669511123" value="completed" />
+          <property name="messageCounter" nameId="bbh2.8711817271669613111" value="14" />
+          <property name="message" nameId="bbh2.6041342965312064113" value="refresh invoked" />
+          <property name="autoRefresh" nameId="bbh2.1011954325398115419" value="false" />
+          <link role="listener" roleId="bbh2.1526708538680794525" targetNodeId="5391721323999910702" resolveInfo="NYoSh-DJOSOSR" />
+          <link role="eventListener" roleId="bbh2.1212232161626043352" targetNodeId="5391721323999910700" />
+          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="5391721323999917796" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="RUNNING" />
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999917794" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="petey.med.cornell.edu" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 10:04:51 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999917795" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="Installing mandatory plugin artifacts" />
+              </node>
+            </node>
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999917805" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="petey.med.cornell.edu" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 10:04:55 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999917806" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="Installing plugin artifacts" />
+              </node>
+            </node>
+          </node>
+          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="5391721323999917799" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="submitted" />
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999917797" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="petey.med.cornell.edu" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 10:04:52 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999917798" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="Task submitted: 357679" />
+              </node>
+            </node>
+          </node>
+          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="5391721323999917802" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="resources" />
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999917800" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="petey.med.cornell.edu" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 10:04:52 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999917801" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="Installing plugin mandatory resources" />
+              </node>
+            </node>
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999917803" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="petey.med.cornell.edu" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 10:04:53 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999917804" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="Expose environment variables for artifacts.." />
+              </node>
+            </node>
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999917807" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="petey.med.cornell.edu" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 10:04:56 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999917808" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="Installing plugin resources" />
+              </node>
+            </node>
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999917947" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="petey.med.cornell.edu" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 10:04:57 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999917948" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="Expose environment variables for artifacts.." />
+              </node>
+            </node>
+          </node>
+          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="5391721323999924971" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="registered_filesets" />
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999924969" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="petey.med.cornell.edu" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 10:06:10 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999924970" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="READS_STATS_PROPERTIES_FILE:[QZJOUOE]" />
+              </node>
+            </node>
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999924984" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="petey.med.cornell.edu" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 10:06:11 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999924985" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="READ_QUALITY_STATS:[VRSLXJI]" />
+              </node>
+            </node>
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999925000" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="petey.med.cornell.edu" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 10:06:12 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999925001" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="WEIGHT_FILES:[UNJHHYE]" />
+              </node>
+            </node>
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999925014" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="petey.med.cornell.edu" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 10:06:18 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999925015" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="COMPACT_READS:[WVDKVCN]" />
+              </node>
+            </node>
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999925040" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="petey.med.cornell.edu" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 10:06:20 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999925041" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="JOB_METADATA:[DJOSOSR]" />
+              </node>
+            </node>
+          </node>
+          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="5391721323999925056" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="COMPLETED" />
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999925054" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="petey.med.cornell.edu" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 10:06:21 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999925055" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="Task completed" />
+              </node>
+            </node>
+          </node>
+          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="5391721323999925059" nodeInfo="ng">
+            <property name="name" nameId="tpck.1169194664001" value="done" />
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="5391721323999925057" nodeInfo="ng">
+              <property name="hostname" nameId="bbh2.2017323193335763100" value="petey.med.cornell.edu" />
+              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Oct 01 10:06:31 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="5391721323999925058" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="Job completed" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="listener" roleId="bbh2.2017323193335730758" type="bbh2.MessageListener" typeId="bbh2.2017323193335730757" id="5391721323999910702" nodeInfo="ng">
+          <property name="subscribed" nameId="bbh2.2017323193335803495" value="false" />
+          <property name="jobTag" nameId="bbh2.2017323193335763033" value="DJOSOSR" />
+          <property name="name" nameId="tpck.1169194664001" value="NYoSh-DJOSOSR" />
+          <link role="broker" roleId="bbh2.2017323193335803042" targetNodeId="1212232161621136016" resolveInfo="brokerForMonitor" />
+        </node>
+        <node role="jobStatusListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobListener" typeId="bs99.1212232161626260983" id="5391721323999910703" nodeInfo="ng">
+          <property name="rank" nameId="bbh2.7926097513313212588" value="0" />
+          <link role="job" roleId="bs99.1212232161627127088" targetNodeId="5391721323999910688" resolveInfo="Pickrell10" />
+        </node>
+        <node role="fileSetStatusListeners" roleId="bbh2.6587162469552453227" type="bs99.RegisterFileSetListener" typeId="bs99.3403061721254603833" id="5391721323999910706" nodeInfo="ng">
+          <property name="rank" nameId="bbh2.6587162469552164420" value="1" />
+          <link role="job" roleId="bs99.3403061721254603840" targetNodeId="5391721323999910688" resolveInfo="Pickrell10" />
+        </node>
+        <node role="fileSetStatusListeners" roleId="bbh2.6587162469552453227" type="7aad.ListenForSampleFileSets" typeId="7aad.7926097513313207836" id="5391721323999910704" nodeInfo="ng">
+          <property name="rank" nameId="bbh2.6587162469552164420" value="100" />
+        </node>
+        <node role="fileSetStatusListeners" roleId="bbh2.6587162469552453227" type="7aad.ListenForAlignmentFileSets" typeId="7aad.6587162469555572132" id="5391721323999910705" nodeInfo="ng">
+          <property name="rank" nameId="bbh2.6587162469552164420" value="200" />
+        </node>
+        <node role="fileSetStatusListeners" roleId="bbh2.6587162469552453227" type="7aad.ListenForAlignmentAnalysisFileSets" typeId="7aad.8524130661366375999" id="5391721323999910707" nodeInfo="ng">
           <property name="rank" nameId="bbh2.6587162469552164420" value="300" />
         </node>
       </node>
@@ -13274,6 +20830,82 @@
         <link role="field" roleId="7c6v.214549661775840875" targetNodeId="8560093378719167130" resolveInfo="Feature ID" />
       </node>
     </node>
+  </root>
+  <root type="7aad.GobyWebReadSample" typeId="7aad.7926097513313663840" id="5391721323999864956" nodeInfo="ng">
+    <property name="tag" nameId="7aad.7926097513313697603" value="JMYLEVB" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="samples" />
+    <property name="minLength" nameId="7aad.7926097513313663894" value="46" />
+    <property name="maxLength" nameId="7aad.7926097513313663897" value="46" />
+    <property name="numberOfReads" nameId="7aad.7926097513313663892" value="10706267" />
+    <property name="isPaired" nameId="7aad.4767454762908097042" value="false" />
+    <property name="isReadyToAlign" nameId="7aad.4767454762908112384" value="true" />
+    <property name="statsTsvFilename" nameId="7aad.314766823432480904" value="WCRCVYD-pickrell-NA19238_yale.quality-stats.tsv" />
+    <property name="organism" nameId="7aad.7926097513313663901" value="homo_sapiens" />
+    <property name="platform" nameId="7aad.7926097513313663906" value="Illumina" />
+    <property name="basename" nameId="7aad.1745780986249997300" value="QQPOLQB-pickrell-NA19209_argonne" />
+    <property name="isBisulfite" nameId="7aad.1745780986249139912" value="false" />
+    <property name="name" nameId="tpck.1169194664001" value="QQPOLQB-pickrell-NA19209_argonne" />
+    <link role="properties" roleId="7aad.4834682855104902359" targetNodeId="5391721323999898575" resolveInfo="output-stats" />
+    <link role="sequenceVariationStats" roleId="7aad.4834682855104902353" targetNodeId="5391721323999898589" resolveInfo="pickrell-NA19238_yale" />
+    <link role="weights" roleId="7aad.314766823431618392" targetNodeId="5391721323999898605" resolveInfo="pickrell-NA19238_yale-QQPOLQB-pickrell-NA19209_argonne" />
+    <link role="reads" roleId="7aad.4834682855104902348" targetNodeId="5391721323999898619" resolveInfo="QQPOLQB-pickrell-NA19209_argonne" />
+  </root>
+  <root type="7aad.GobyWebReadSample" typeId="7aad.7926097513313663840" id="5391721323999872750" nodeInfo="ng">
+    <property name="tag" nameId="7aad.7926097513313697603" value="TLNYXDD" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="samples" />
+    <property name="minLength" nameId="7aad.7926097513313663894" value="35" />
+    <property name="maxLength" nameId="7aad.7926097513313663897" value="35" />
+    <property name="numberOfReads" nameId="7aad.7926097513313663892" value="10301610" />
+    <property name="isPaired" nameId="7aad.4767454762908097042" value="false" />
+    <property name="isReadyToAlign" nameId="7aad.4767454762908112384" value="true" />
+    <property name="statsTsvFilename" nameId="7aad.314766823432480904" value="SHCZUZQ-pickrell-NA19238_yale.quality-stats.tsv" />
+    <property name="organism" nameId="7aad.7926097513313663901" value="homo_sapiens" />
+    <property name="platform" nameId="7aad.7926097513313663906" value="Illumina" />
+    <property name="basename" nameId="7aad.1745780986249997300" value="SJIECZO-pickrell-NA19209_yale" />
+    <property name="isBisulfite" nameId="7aad.1745780986249139912" value="false" />
+    <property name="name" nameId="tpck.1169194664001" value="SJIECZO-pickrell-NA19209_yale" />
+    <link role="properties" roleId="7aad.4834682855104902359" targetNodeId="5391721323999899979" resolveInfo="output-stats" />
+    <link role="sequenceVariationStats" roleId="7aad.4834682855104902353" targetNodeId="5391721323999899993" resolveInfo="pickrell-NA19238_yale" />
+    <link role="weights" roleId="7aad.314766823431618392" targetNodeId="5391721323999900009" resolveInfo="pickrell-NA19238_yale-SJIECZO-pickrell-NA19209_yale" />
+    <link role="reads" roleId="7aad.4834682855104902348" targetNodeId="5391721323999900023" resolveInfo="SJIECZO-pickrell-NA19209_yale" />
+  </root>
+  <root type="7aad.GobyWebReadSample" typeId="7aad.7926097513313663840" id="5391721323999883791" nodeInfo="ng">
+    <property name="tag" nameId="7aad.7926097513313697603" value="PJDQLYH" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="samples" />
+    <property name="minLength" nameId="7aad.7926097513313663894" value="35" />
+    <property name="maxLength" nameId="7aad.7926097513313663897" value="35" />
+    <property name="numberOfReads" nameId="7aad.7926097513313663892" value="4567036" />
+    <property name="isPaired" nameId="7aad.4767454762908097042" value="false" />
+    <property name="isReadyToAlign" nameId="7aad.4767454762908112384" value="true" />
+    <property name="statsTsvFilename" nameId="7aad.314766823432480904" value="QVQPFBJ-pickrell-NA19222_yale.quality-stats.tsv" />
+    <property name="organism" nameId="7aad.7926097513313663901" value="homo_sapiens" />
+    <property name="platform" nameId="7aad.7926097513313663906" value="Illumina" />
+    <property name="basename" nameId="7aad.1745780986249997300" value="UGWCTUQ-pickrell-NA19222_yale" />
+    <property name="isBisulfite" nameId="7aad.1745780986249139912" value="false" />
+    <property name="name" nameId="tpck.1169194664001" value="UGWCTUQ-pickrell-NA19222_yale" />
+    <link role="properties" roleId="7aad.4834682855104902359" targetNodeId="5391721323999895239" resolveInfo="output-stats" />
+    <link role="sequenceVariationStats" roleId="7aad.4834682855104902353" targetNodeId="5391721323999895253" resolveInfo="pickrell-NA19222_yale" />
+    <link role="weights" roleId="7aad.314766823431618392" targetNodeId="5391721323999895269" resolveInfo="pickrell-NA19222_yale-UGWCTUQ-pickrell-NA19222_yale" />
+    <link role="reads" roleId="7aad.4834682855104902348" targetNodeId="5391721323999895283" resolveInfo="UGWCTUQ-pickrell-NA19222_yale" />
+  </root>
+  <root type="7aad.GobyWebReadSample" typeId="7aad.7926097513313663840" id="5391721323999910699" nodeInfo="ng">
+    <property name="tag" nameId="7aad.7926097513313697603" value="DJOSOSR" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="samples" />
+    <property name="minLength" nameId="7aad.7926097513313663894" value="46" />
+    <property name="maxLength" nameId="7aad.7926097513313663897" value="46" />
+    <property name="numberOfReads" nameId="7aad.7926097513313663892" value="8512123" />
+    <property name="isPaired" nameId="7aad.4767454762908097042" value="false" />
+    <property name="isReadyToAlign" nameId="7aad.4767454762908112384" value="true" />
+    <property name="statsTsvFilename" nameId="7aad.314766823432480904" value="VRSLXJI-pickrell-NA19204_argonne.quality-stats.tsv" />
+    <property name="organism" nameId="7aad.7926097513313663901" value="homo_sapiens" />
+    <property name="platform" nameId="7aad.7926097513313663906" value="Illumina" />
+    <property name="basename" nameId="7aad.1745780986249997300" value="WFJBKXL-pickrell-NA19204_argonne" />
+    <property name="isBisulfite" nameId="7aad.1745780986249139912" value="false" />
+    <property name="name" nameId="tpck.1169194664001" value="WFJBKXL-pickrell-NA19204_argonne" />
+    <link role="properties" roleId="7aad.4834682855104902359" targetNodeId="5391721323999924977" resolveInfo="output-stats" />
+    <link role="sequenceVariationStats" roleId="7aad.4834682855104902353" targetNodeId="5391721323999924991" resolveInfo="pickrell-NA19204_argonne" />
+    <link role="weights" roleId="7aad.314766823431618392" targetNodeId="5391721323999925007" resolveInfo="pickrell-NA19204_argonne-WFJBKXL-pickrell-NA19204_argonne" />
+    <link role="reads" roleId="7aad.4834682855104902348" targetNodeId="5391721323999925021" resolveInfo="WFJBKXL-pickrell-NA19204_argonne" />
   </root>
 </model>
 
