@@ -19196,30 +19196,30 @@
       <property name="jobName" nameId="bs99.606449909789338951" value="AlignmentsForPickrell" />
       <property name="message" nameId="bs99.3927327347527013400" value="Job successfully submitted. Assigned tag: TKVIRWM" />
       <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="3648805790695509200" resolveInfo="ClusterEnvironment" />
-      <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="8560093378716536811" resolveInfo="STAR22_GOBY" />
       <link role="currentJob" roleId="bs99.5540992037659823465" targetNodeId="8560093378719045807" resolveInfo="AlignmentsForPickrell" />
+      <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="5391721323999838612" resolveInfo="STAR22_GOBY" />
       <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="8560093378719017470" nodeInfo="ng">
-        <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="8560093378716536818" resolveInfo="INPUT_READS" />
+        <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="5391721323999838619" resolveInfo="INPUT_READS" />
         <node role="values" roleId="bs99.2995632242847956813" type="bs99.MultiToolFileSetInstanceRef" typeId="bs99.5235131979812125015" id="8560093378719045720" nodeInfo="ng">
           <link role="tool" roleId="bs99.5235131979812125016" targetNodeId="8560093378719017603" resolveInfo="MultiToolForAlignments" />
           <link role="ref" roleId="bs99.4058240102192370452" targetNodeId="8560093378719011453" resolveInfo="IKKOOYO-pickrell-NA19210_argonne" />
         </node>
       </node>
       <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="8560093378719017471" nodeInfo="ng">
-        <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="8560093378716536839" resolveInfo="Ambiguity threshold" />
+        <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="5391721323999838640" resolveInfo="Ambiguity threshold" />
         <node role="value" roleId="bs99.6506431596944968310" type="bs99.IntegerOptionValue" typeId="bs99.606449909792930896" id="8560093378719017475" nodeInfo="ng">
           <property name="value" nameId="bs99.606449909792930897" value="10" />
           <property name="isSet" nameId="bs99.83657536365996638" value="true" />
         </node>
       </node>
       <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="8560093378719017477" nodeInfo="ng">
-        <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="8560093378716536843" resolveInfo="GENOME_REFERENCE_ID" />
+        <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="5391721323999838644" resolveInfo="GENOME_REFERENCE_ID" />
         <node role="value" roleId="bs99.6506431596944968310" type="bs99.GenomeReferenceId" typeId="bs99.83657536354463308" id="8560093378719023975" nodeInfo="ng">
           <link role="genomeBuild" roleId="bs99.83657536354473590" targetNodeId="bd2x.3882067466249291147" resolveInfo="1000GENOMES.37" />
         </node>
       </node>
       <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="8560093378719017483" nodeInfo="ng">
-        <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="8560093378716536845" resolveInfo="CHUNK_SIZE" />
+        <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="5391721323999838646" resolveInfo="CHUNK_SIZE" />
         <node role="value" roleId="bs99.6506431596944968310" type="bs99.IntegerOptionValue" typeId="bs99.606449909792930896" id="8560093378719017487" nodeInfo="ng">
           <property name="value" nameId="bs99.606449909792930897" value="50000000" />
           <property name="isSet" nameId="bs99.83657536365996638" value="true" />

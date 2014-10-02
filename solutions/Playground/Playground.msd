@@ -44,6 +44,7 @@
     <usedLanguage>27f97fd8-caeb-43a0-a73f-f8ac957f3a17(org.campagnelab.gobyweb.environment)</usedLanguage>
     <usedLanguage>a8fb88b0-7e9f-478c-aab4-a1b076131192(org.campagnelab.gobyweb.interactive)</usedLanguage>
     <usedLanguage>b146d23e-816e-4cc9-bf33-a10638bedd21(org.campagnelab.gobyweb.interactive.fsiselector)</usedLanguage>
+    <usedLanguage>0e33afe3-d914-492d-8584-911dae0711b2(org.campagnelab.gobyweb.interactive.genomes)</usedLanguage>
     <usedLanguage>3f8906ee-821c-4fd1-ae5d-26a10b3b747c(org.campagnelab.gobyweb.interactive.mergeplan)</usedLanguage>
     <usedLanguage>e2d79ce9-bdd0-4275-a250-1037dd79ddc3(org.campagnelab.gobyweb.interactive.samples)</usedLanguage>
     <usedLanguage>d9858376-ef55-45a1-81ea-9c3bbce200d9(org.campagnelab.gobyweb.interactive.sharing)</usedLanguage>
