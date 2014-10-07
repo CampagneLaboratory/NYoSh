@@ -104,7 +104,7 @@
           <property name="head" nameId="3ior.8618885170173601779" value="build" />
           <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="2714333670778931317" nodeInfo="nn">
             <property name="head" nameId="3ior.8618885170173601779" value="artifacts" />
-            <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="2714333670778931321" nodeInfo="nn">
+            <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="7026862576594786564" nodeInfo="nn">
               <property name="head" nameId="3ior.8618885170173601779" value="XChart" />
             </node>
           </node>

@@ -3,7 +3,7 @@
   <property name="build.dir" location="build" />
   <property name="build.tmp" location="${build.dir}/tmp/org.campagnelab.mps.UI" />
   <property name="build.layout" location="${build.dir}/artifacts/org.campagnelab.mps.UI" />
-  <property name="mps_home" location="${basedir}/../../../../../Applications/MPS 3.1" />
+  <property name="mps_home" location="" />
   <property name="ui.version" value="1.0.3" />
   <property name="artifacts.mpsCore" location="${mps_home}" />
   <property name="artifacts.mps" location="${mps_home}" />

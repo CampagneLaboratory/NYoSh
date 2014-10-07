@@ -3,7 +3,7 @@
   <property name="build.dir" location="build" />
   <property name="build.tmp" location="${build.dir}/tmp/org.campagnelab.Logger" />
   <property name="build.layout" location="${build.dir}/artifacts/org.campagnelab.Logger" />
-  <property name="mps_home" location="${basedir}/../../../../../Applications/MPS 3.1" />
+  <property name="mps_home" location="" />
   <property name="UI.artifacts" location="${basedir}/build/artifacts/org.campagnelab.mps.UI" />
   <property name="logger.version" value="1.0.1" />
   <property name="artifacts.mpsCore" location="${mps_home}" />
