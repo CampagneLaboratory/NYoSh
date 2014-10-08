@@ -266,16 +266,16 @@
   <target name="buildDependents" />
   
   <target name="fetchDependencies">
-    <mkdir dir="${build.tmp}/deps/org.campagnelab.Logger/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip" />
-    <unzip src="${artifacts.org.campagnelab.Logger}/org.campagnelab.logger-${org.campagnelab.Logger.logger.version}.zip" dest="${build.tmp}/deps/org.campagnelab.Logger/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip" />
     <mkdir dir="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip" />
     <unzip src="${artifacts.org.campagnelab.TextOutput}/org.campagnelab.TextOutput-${org.campagnelab.TextOutput.textoutput_version}.zip" dest="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip" />
+    <mkdir dir="${build.tmp}/deps/org.campagnelab.Logger/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip" />
+    <unzip src="${artifacts.org.campagnelab.Logger}/org.campagnelab.logger-${org.campagnelab.Logger.logger.version}.zip" dest="${build.tmp}/deps/org.campagnelab.Logger/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip" />
     <mkdir dir="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip" />
     <unzip src="${artifacts.org.campagnelab.mps.UI}/UI_${org.campagnelab.mps.UI.ui.version}.zip" dest="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip" />
-    <mkdir dir="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip" />
-    <unzip src="${artifacts.org.campagnelab.NYoSh}/NYoSh-2.0.${org.campagnelab.NYoSh.nyosh_build_number}.zip" dest="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip" />
     <mkdir dir="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip" />
     <unzip src="${artifacts.XChart}/XChart_${XChart.XChart_version}.zip" dest="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip" />
+    <mkdir dir="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip" />
+    <unzip src="${artifacts.org.campagnelab.NYoSh}/NYoSh-2.0.${org.campagnelab.NYoSh.nyosh_build_number}.zip" dest="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip" />
   </target>
   
   <target name="build" depends="assemble" />
