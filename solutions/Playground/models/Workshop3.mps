@@ -15,6 +15,7 @@
   <import index="zr4f" modelUID="r:2920e4c4-4b31-4f7c-ac90-f43b38fc4b8c(org.campagnelab.gobyweb.interactive.platforms.structure)" version="9" implicit="yes" />
   <import index="dzk5" modelUID="r:2bfcc546-5c51-4762-9df2-c43920be4458(org.campagnelab.gobyweb.plugins.structure)" version="4" implicit="yes" />
   <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="30" implicit="yes" />
+  <import index="2c0d" modelUID="r:2c38e443-0586-49e0-87de-1937d74417d9(org.campagnelab.gobyweb.interactive.organisms.structure)" version="-1" implicit="yes" />
   <root type="9k5.ExecutionNode" typeId="9k5.3050176288337501843" id="8711817271675662831" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="BrokerNodeForJobs" />
     <property name="server" nameId="9k5.3050176288337501845" value="toulouse.qib.pbtech" />
@@ -6418,10 +6419,9 @@
         <property name="name" nameId="tpck.1169194664001" value="YENUZRL-pickrell-NA19225_argonne.fastq.gz" />
       </node>
     </node>
-    <node role="attributes" roleId="bs99.1405392831552303915" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="7026862576601645597" nodeInfo="ng">
-      <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+    <node role="attributes" roleId="bs99.1405392831552303915" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="7026862576601647180" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
-      <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+      <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="7026862576601647181" nodeInfo="ng" />
     </node>
     <node role="attributes" roleId="bs99.1405392831552303915" type="zr4f.PlatformAttribute" typeId="zr4f.2495307914661212838" id="7026862576601645718" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="READS_PLATFORM" />
@@ -6429,10 +6429,11 @@
         <property name="value" nameId="zr4f.2495307914661369285" value="Illumina" />
       </node>
     </node>
-    <node role="attributes" roleId="bs99.1405392831552303915" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="7026862576601645599" nodeInfo="ng">
-      <property name="value" nameId="bs99.1405392831553684183" value="FF" />
+    <node role="attributes" roleId="bs99.1405392831552303915" type="zr4f.PairedDirectionAttribute" typeId="zr4f.7026862576601086944" id="7026862576601647170" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_DIRECTIONS" />
-      <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+      <node role="direction" roleId="zr4f.7026862576601091392" type="zr4f.FF" typeId="zr4f.7026862576601158913" id="7026862576601647171" nodeInfo="ng">
+        <property name="value" nameId="zr4f.7026862576601088822" value="FF" />
+      </node>
     </node>
     <node role="attributes" roleId="bs99.1405392831552303915" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="7026862576601645600" nodeInfo="ng">
       <property name="value" nameId="bs99.1405392831553673672" value="false" />
