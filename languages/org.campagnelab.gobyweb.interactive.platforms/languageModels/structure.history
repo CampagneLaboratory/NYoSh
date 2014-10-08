@@ -42,5 +42,23 @@
     </dependencies>
     <rename id="zr4f.2495307914661400398" type="CONCEPT" from="OtherPlatforms" to="Unknown" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="zr4f" modelUID="r:2920e4c4-4b31-4f7c-ac90-f43b38fc4b8c(org.campagnelab.gobyweb.interactive.platforms.structure)" version="6" />
+    </dependencies>
+    <rename id="zr4f.2495307914661400398" type="CONCEPT" from="Unknown" to="Other" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="zr4f" modelUID="r:2920e4c4-4b31-4f7c-ac90-f43b38fc4b8c(org.campagnelab.gobyweb.interactive.platforms.structure)" version="7" />
+    </dependencies>
+    <rename id="zr4f.7026862576601086944" type="CONCEPT" from="DirectionAttribute" to="PairedDirectionAttribute" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="zr4f" modelUID="r:2920e4c4-4b31-4f7c-ac90-f43b38fc4b8c(org.campagnelab.gobyweb.interactive.platforms.structure)" version="8" />
+    </dependencies>
+    <rename id="zr4f.7026862576601088794" type="CONCEPT" from="DirectionValue" to="PairedDirectionValue" />
+  </StructureModification>
 </history>
 
