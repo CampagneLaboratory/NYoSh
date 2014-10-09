@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:ab4f2a25-58c5-464f-8c27-956ab4a14e3a(I_MS2)">
+<model modelUID="r:ab4f2a25-58c5-464f-8c27-956ab4a14e3a(I_MS2)" doNotGenerate="true">
   <persistence version="8" />
   <language namespace="3f8906ee-821c-4fd1-ae5d-26a10b3b747c(org.campagnelab.gobyweb.interactive.mergeplan)" />
   <language namespace="e2d79ce9-bdd0-4275-a250-1037dd79ddc3(org.campagnelab.gobyweb.interactive.samples)" />
@@ -30432,8 +30432,8 @@
     </node>
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="2230469015316045320" nodeInfo="ng">
       <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="3648805790692575349" resolveInfo="GENOME_REFERENCE_ID" />
-      <node role="value" roleId="bs99.6506431596944968310" type="bs99.GenomeReferenceId" typeId="bs99.83657536354463308" id="2230469015316047807" nodeInfo="ng">
-        <link role="genomeBuild" roleId="bs99.83657536354473590" targetNodeId="bd2x.2532384616187213688" resolveInfo="NCBI37.57" />
+      <node role="value" roleId="bs99.6506431596944968310" type=".org.campagnelab.gobyweb.interactive.structure.GenomeReferenceId" id="2230469015316047807" nodeInfo="ng">
+        <link role="genomeBuild" targetNodeId="bd2x.2532384616187213688" resolveInfo="NCBI37.57" />
       </node>
     </node>
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="2230469015316045326" nodeInfo="ng">

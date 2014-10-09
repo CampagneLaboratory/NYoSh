@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:ae9fba8c-a2b1-4f61-b794-8aa98fb1fab2(Tutorial)">
+<model modelUID="r:ae9fba8c-a2b1-4f61-b794-8aa98fb1fab2(Tutorial)" doNotGenerate="true">
   <persistence version="8" />
   <language namespace="f05c05d7-dafb-4c87-b842-b836f305120f(org.campagnelab.gobyweb.monitoring)" />
   <language namespace="adfd00cb-58d7-4094-bca8-f941a491e04f(org.campagnelab.gobyweb)" />
