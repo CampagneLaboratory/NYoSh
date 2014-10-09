@@ -393,6 +393,11 @@
           <property name="text" nameId="3ior.4903714810883755350" value="NYoSh" />
         </node>
       </node>
+      <node role="description" roleId="kdzh.2172791612906637490" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="596401645038505853" nodeInfo="ng">
+        <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="596401645038506521" nodeInfo="ng">
+          <property name="text" nameId="3ior.4903714810883755350" value="NYoSh languages. This plugin is part of the NYoSh Analysis Workbench. See http://workbench.campagnelab.org for more information." />
+        </node>
+      </node>
     </node>
     <node role="parts" roleId="3ior.7389400916848080626" type="kdzh.BuildMps_Group" typeId="kdzh.1500819558095907805" id="2714333670778640016" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="NYoSh" />
