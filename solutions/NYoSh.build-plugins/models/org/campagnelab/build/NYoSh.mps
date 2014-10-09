@@ -16,6 +16,9 @@
     <property name="name" nameId="tpck.1169194664001" value="org.campagnelab.NYoSh" />
     <property name="internalBaseDirectory" nameId="3ior.5204048710541015587" value="../../" />
     <property name="fileName" nameId="3ior.4915877860348071612" value="NYoSh.xml" />
+    <node role="aspects" roleId="3ior.3542413272732620719" type="kdzh.BuildMpsAspect" typeId="kdzh.6503355885715333289" id="5109517972587885237" nodeInfo="ng">
+      <property name="bootstrap" nameId="kdzh.6503355885715353788" value="true" />
+    </node>
     <node role="plugins" roleId="3ior.6647099934206700656" type="3ior.BuildJavaPlugin" typeId="3ior.6647099934206700647" id="2714333670778639965" nodeInfo="ng" />
     <node role="plugins" roleId="3ior.6647099934206700656" type="kdzh.BuildMPSPlugin" typeId="kdzh.868032131020265945" id="2714333670778639966" nodeInfo="ng" />
     <node role="macros" roleId="3ior.5617550519002745378" type="3ior.BuildFolderMacro" typeId="3ior.7389400916848136194" id="2714333670778639967" nodeInfo="ng">

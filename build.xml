@@ -7,7 +7,7 @@
     <format property="date" pattern="yyyyMMdd" />
   </tstamp>
   <property name="build.number" value="NYoSh-135.4" />
-  <property name="version" value="2.0" />
+  <property name="version" value="" />
   <property name="mps_home" location="${basedir}/../../../../../Applications/MPS 3.1" />
   <property name="org.campagnelab.goby.workbench.home" location="${basedir}" />
   <property name="XChart.artifacts" location="${basedir}/../XChart/build/artifacts/XChart" />
