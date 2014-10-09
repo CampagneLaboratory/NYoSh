@@ -3,6 +3,7 @@
   <persistence version="8" />
   <language namespace="798100da-4f0a-421a-b991-71f8c50ce5d2(jetbrains.mps.build)" />
   <language namespace="0cf935df-4699-4e9c-a132-fa109541cba3(jetbrains.mps.build.mps)" />
+  <language namespace="479c7a8c-02f9-43b5-9139-d910cb22f298(jetbrains.mps.core.xml)" />
   <import index="ffeo" modelUID="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" version="-1" />
   <import index="ael0" modelUID="r:cc7a346d-c5cf-4c03-b1fd-d5006736ae3a(org.campagnelab.build.UI)" version="-1" />
   <import index="h9g5" modelUID="r:7aca3565-24aa-4c08-aaaf-0fe7bbf3b79f(org.campagnelab.build.Logger)" version="-1" />
@@ -10,6 +11,7 @@
   <import index="3ior" modelUID="r:e9081cad-d8c3-45f2-b4ad-1dabd5ff82af(jetbrains.mps.build.structure)" version="2" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="kdzh" modelUID="r:0353b795-df17-4050-9687-ee47eeb7094f(jetbrains.mps.build.mps.structure)" version="3" implicit="yes" />
+  <import index="iuxj" modelUID="r:64db3a92-5968-4a73-b456-34504a2d97a6(jetbrains.mps.core.xml.structure)" version="2" implicit="yes" />
   <root type="3ior.BuildProject" typeId="3ior.5617550519002745363" id="2714333670778639964" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="org.campagnelab.NYoSh" />
     <property name="internalBaseDirectory" nameId="3ior.5204048710541015587" value="../../" />
@@ -343,6 +345,21 @@
     </node>
     <node role="parts" roleId="3ior.7389400916848080626" type="kdzh.BuildMps_IdeaPlugin" typeId="kdzh.6592112598314498932" id="2714333670778640017" nodeInfo="ng">
       <property name="id" nameId="kdzh.6592112598314498927" value="org.campagnelab.NYoSh" />
+      <node role="xml" roleId="kdzh.1359186315025500371" type="iuxj.XmlElement" typeId="iuxj.6666499814681415858" id="9211726679685791606" nodeInfo="ng">
+        <property name="tagName" nameId="iuxj.6666499814681415862" value="idea-version" />
+        <node role="attributes" roleId="iuxj.6666499814681415861" type="iuxj.XmlAttribute" typeId="iuxj.6666499814681447923" id="9211726679685791607" nodeInfo="ng">
+          <property name="attrName" nameId="iuxj.6666499814681447926" value="until-build" />
+          <node role="value" roleId="iuxj.6666499814681541918" type="iuxj.XmlTextValue" typeId="iuxj.6666499814681541919" id="9211726679685791608" nodeInfo="ng">
+            <property name="text" nameId="iuxj.6666499814681541920" value="136.1" />
+          </node>
+        </node>
+        <node role="attributes" roleId="iuxj.6666499814681415861" type="iuxj.XmlAttribute" typeId="iuxj.6666499814681447923" id="9211726679685791609" nodeInfo="ng">
+          <property name="attrName" nameId="iuxj.6666499814681447926" value="since-build" />
+          <node role="value" roleId="iuxj.6666499814681541918" type="iuxj.XmlTextValue" typeId="iuxj.6666499814681541919" id="9211726679685791610" nodeInfo="ng">
+            <property name="text" nameId="iuxj.6666499814681541920" value="135.1" />
+          </node>
+        </node>
+      </node>
       <node role="name" roleId="kdzh.6592112598314499021" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="2714333670778640018" nodeInfo="ng">
         <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="2714333670778640019" nodeInfo="ng">
           <property name="text" nameId="3ior.4903714810883755350" value="org.campagnelab.NYoSh" />
