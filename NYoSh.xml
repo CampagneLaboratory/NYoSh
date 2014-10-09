@@ -38,6 +38,7 @@
         <name>org.campagnelab.NYoSh</name>
         <description>NYoSh languages. This plugin is part of the NYoSh Analysis Workbench. See http://workbench.campagnelab.org for more information.</description>
         <version>2.0.${nyosh_build_number}</version>
+        <vendor url="http://workbench.campagnelab.org">Campagne Laboratory</vendor>
         <depends>jetbrains.mps.core</depends>
         <depends>com.intellij.modules.mps</depends>
         <depends>org.campagnelab.mps.UI</depends>
