@@ -49,6 +49,7 @@
       <idea-plugin version="2" xmlns:xi="http://www.w3.org/2001/XInclude">
         <id>org.campagnelab.Interactive</id>
         <name>org.campagnelab.Interactive</name>
+        <description>GobyWeb Interactive languages. This plugin is part of the NYoSh Analysis Workbench. See http://workbench.campagnelab.org for more information.</description>
         <version>2.0.${org.campagnelab.NYoSh.nyosh_build_number}</version>
         <vendor url="http://workbench.campagnelab.org">Campagne Laboratory</vendor>
         <depends>jetbrains.mps.core</depends>
@@ -786,6 +787,8 @@
   <target name="fetchDependencies">
     <mkdir dir="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip" />
     <unzip src="${artifacts.XChart}/XChart_${XChart.XChart_version}.zip" dest="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip" />
+    <mkdir dir="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip" />
+    <unzip src="${artifacts.org.campagnelab.NYoSh}/NYoSh-2.0.${org.campagnelab.NYoSh.nyosh_build_number}.zip" dest="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip" />
     <mkdir dir="${build.tmp}/deps/org.campagnelab.Logger/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip" />
     <unzip src="${artifacts.org.campagnelab.Logger}/org.campagnelab.logger-${org.campagnelab.Logger.logger.version}.zip" dest="${build.tmp}/deps/org.campagnelab.Logger/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip" />
     <mkdir dir="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip" />
@@ -798,8 +801,6 @@
     <unzip src="${artifacts.org.campagnelab.TextOutput}/org.campagnelab.TextOutput-${org.campagnelab.TextOutput.textoutput_version}.zip" dest="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip" />
     <mkdir dir="${build.tmp}/deps/org.campagnelab.GobyWeb/GobyWeb-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip" />
     <unzip src="${artifacts.org.campagnelab.GobyWeb}/GobyWeb-2.0.${org.campagnelab.NYoSh.nyosh_build_number}.zip" dest="${build.tmp}/deps/org.campagnelab.GobyWeb/GobyWeb-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip" />
-    <mkdir dir="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip" />
-    <unzip src="${artifacts.org.campagnelab.NYoSh}/NYoSh-2.0.${org.campagnelab.NYoSh.nyosh_build_number}.zip" dest="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip" />
   </target>
   
   <target name="build" depends="assemble" />
