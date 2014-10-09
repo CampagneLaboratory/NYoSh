@@ -36,6 +36,7 @@
       <idea-plugin version="2" xmlns:xi="http://www.w3.org/2001/XInclude">
         <id>org.campagnelab.NYoSh</id>
         <name>org.campagnelab.NYoSh</name>
+        <description>NYoSh languages. This plugin is part of the NYoSh Analysis Workbench. See http://workbench.campagnelab.org for more information.</description>
         <version>2.0.${nyosh_build_number}</version>
         <depends>jetbrains.mps.core</depends>
         <depends>com.intellij.modules.mps</depends>
