@@ -41,6 +41,7 @@
         <depends>com.intellij.modules.mps</depends>
         <depends>org.campagnelab.mps.UI</depends>
         <depends>org.campagnelab.logger</depends>
+        <idea-version until-build="136.1" since-build="135.1" />
         
         <extensions defaultExtensionNs="com.intellij">
           <mps.LanguageLibrary dir="/languages" />

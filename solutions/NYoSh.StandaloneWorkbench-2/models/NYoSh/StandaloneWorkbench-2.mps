@@ -184,11 +184,7 @@
     <node role="macros" roleId="3ior.5617550519002745378" type="3ior.BuildVariableMacro" typeId="3ior.3767587139141066978" id="7354545406081409252" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="version" />
       <node role="initialValue" roleId="3ior.2755237150521975432" type="3ior.BuildVariableMacroInitWithString" typeId="3ior.2755237150521975431" id="7354545406081409282" nodeInfo="ng">
-        <node role="value" roleId="3ior.2755237150521975437" type="3ior.BuildString" typeId="3ior.4380385936562003279" id="7354545406081409281" nodeInfo="ng">
-          <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="7354545406081409280" nodeInfo="ng">
-            <property name="text" nameId="3ior.4903714810883755350" value="2.0" />
-          </node>
-        </node>
+        <node role="value" roleId="3ior.2755237150521975437" type="3ior.BuildString" typeId="3ior.4380385936562003279" id="7354545406081409281" nodeInfo="ng" />
       </node>
     </node>
     <node role="macros" roleId="3ior.5617550519002745378" type="3ior.BuildFolderMacro" typeId="3ior.7389400916848136194" id="2714333670779110268" nodeInfo="ng">
