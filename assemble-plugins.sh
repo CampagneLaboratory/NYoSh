@@ -2,12 +2,21 @@
 MPS_PATH='/Applications/MPS 3.1'
 
 PROPS="-Dmps_home=\"${MPS_PATH}\""
-ant ${PROPS} -f ui.xml && \
-ant ${PROPS} -f TextOutput.xml && \
-ant ${PROPS} -f logger.xml && \
-ant ${PROPS} -f background.xml && \
-ant ${PROPS} -f ClusterConfig.xml && \
-ant ${PROPS} -f NYoSh.xml && \
-ant ${PROPS} -f GobyWeb.xml && \
-ant ${PROPS} -f Interactive.xml 
+function assemble-plugin
+{
+ xml=$1
+ keyword=$2
+ rm -fr build/artifacts/*${keyword}* && ant ${PROPS} -f ${xml} && cp build/artifacts/*${keyword}*/*.zip target/plugins
+}
+mkdir -p target/plugins
+
+assemble-plugin ui.xml UI && \
+assemble-plugin TextOutput.xml TextOutput && \
+assemble-plugin logger.xml Logger && \
+assemble-plugin background.xml Background && \
+assemble-plugin ClusterConfig.xml ClusterConfig && \
+assemble-plugin NYoSh.xml NYoSh && \
+assemble-plugin GobyWeb.xml GobyWeb && \
+assemble-plugin Interactive.xml Interactive
+
 
