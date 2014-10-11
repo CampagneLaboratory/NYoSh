@@ -5,7 +5,7 @@
   <property name="build.layout" location="${build.dir}/artifacts/org.campagnelab.NYoSh" />
   <property name="mps_home" location="" />
   <property name="org.campagnelab.goby.workbench.home" location="" />
-  <property name="nyosh_build_number" value="4" />
+  <property name="nyosh_build_number" value="5" />
   <property name="artifacts.mps" location="${mps_home}" />
   <property name="artifacts.org.campagnelab.mps.UI" location="${basedir}/build/artifacts/org.campagnelab.mps.UI" />
   <property name="artifacts.org.campagnelab.Logger" location="${basedir}/build/artifacts/org.campagnelab.Logger" />
@@ -338,6 +338,51 @@
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.nyosh.pathpatterns-generator-template" prefix="module/generator/template" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.nyosh.pathpatterns-languageModels" prefix="module/languageModels" />
     </jar>
+    <mkdir dir="${build.tmp}/default/org.campagnelab.gobyweb.tags.jar" />
+    <mkdir dir="${build.tmp}/default/org.campagnelab.gobyweb.tags.jar/META-INF" />
+    <echoxml file="${build.tmp}/default/org.campagnelab.gobyweb.tags.jar/META-INF/module.xml">
+      <module namespace="org.campagnelab.gobyweb.tags" type="language" uuid="1f5314a5-15b8-491d-89ca-13256a5ead51">
+        <dependencies>
+          <module ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" />
+          <module ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" />
+          <module ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224(MPS.Editor)" />
+          <module ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" />
+          <module ref="4c6a28d1-2c60-478d-b36e-db9b3cbb21fb(closures.runtime)" />
+          <module ref="9b80526e-f0bf-4992-bdf5-cee39c1833f3(collections.runtime)" />
+          <module ref="a3e4657f-a76c-45bb-bbda-c764596ecc65(jetbrains.mps.baseLanguage.logging.runtime)" />
+          <module ref="d44dab97-aaac-44cb-9745-8a14db674c03(jetbrains.mps.baseLanguage.tuples.runtime)" />
+          <module ref="2af156ab-65c1-4a62-bd0d-ea734f71eab6(jetbrains.mps.dataFlow.runtime)" />
+          <module ref="8fe4c62a-2020-4ff4-8eda-f322a55bdc9f(jetbrains.mps.refactoring.runtime)" />
+          <module ref="9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)" />
+        </dependencies>
+        <sources jar="org.campagnelab.gobyweb.tags-src.jar" descriptor="org.campagnelab.gobyweb.tags.mpl" />
+      </module>
+    </echoxml>
+    <jar destfile="${build.tmp}/default/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.gobyweb.tags.jar">
+      <fileset dir="${build.tmp}/java/out/org.campagnelab.gobyweb.tags" />
+      <fileset dir="${basedir}/languages/org.campagnelab.gobyweb.tags" includes="icons/**, resources/**" />
+      <fileset dir="${build.tmp}/default/org.campagnelab.gobyweb.tags.jar" />
+    </jar>
+    <jar destfile="${build.tmp}/default/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.gobyweb.tags-generator.jar">
+      <fileset dir="${build.tmp}/java/out/org.campagnelab.gobyweb.tags#8273662917780736917" />
+    </jar>
+    <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb.tags-generator-template">
+      <fileset dir="${basedir}/languages/org.campagnelab.gobyweb.tags/generator/template" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
+    </copyModels>
+    <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb.tags-languageModels">
+      <fileset dir="${basedir}/languages/org.campagnelab.gobyweb.tags/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
+    </copyModels>
+    <jar destfile="${build.tmp}/default/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.gobyweb.tags-src.jar">
+      <fileset dir="${basedir}/languages/org.campagnelab.gobyweb.tags/generator/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
+      <fileset dir="${basedir}/languages/org.campagnelab.gobyweb.tags/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
+      <zipfileset file="${basedir}/languages/org.campagnelab.gobyweb.tags/org.campagnelab.gobyweb.tags.mpl" prefix="module" />
+      <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb.tags-generator-template" prefix="module/generator/template" />
+      <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb.tags-languageModels" prefix="module/languageModels" />
+    </jar>
     <mkdir dir="${build.tmp}/default/org.campagnelab.nyosh.interactive.jar" />
     <mkdir dir="${build.tmp}/default/org.campagnelab.nyosh.interactive.jar/META-INF" />
     <echoxml file="${build.tmp}/default/org.campagnelab.nyosh.interactive.jar/META-INF/module.xml">
@@ -385,51 +430,6 @@
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.nyosh.interactive-generator-template" prefix="module/generator/template" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.nyosh.interactive-languageModels" prefix="module/languageModels" />
     </jar>
-    <mkdir dir="${build.tmp}/default/org.campagnelab.gobyweb.tags.jar" />
-    <mkdir dir="${build.tmp}/default/org.campagnelab.gobyweb.tags.jar/META-INF" />
-    <echoxml file="${build.tmp}/default/org.campagnelab.gobyweb.tags.jar/META-INF/module.xml">
-      <module namespace="org.campagnelab.gobyweb.tags" type="language" uuid="1f5314a5-15b8-491d-89ca-13256a5ead51">
-        <dependencies>
-          <module ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" />
-          <module ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" />
-          <module ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224(MPS.Editor)" />
-          <module ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" />
-          <module ref="4c6a28d1-2c60-478d-b36e-db9b3cbb21fb(closures.runtime)" />
-          <module ref="9b80526e-f0bf-4992-bdf5-cee39c1833f3(collections.runtime)" />
-          <module ref="a3e4657f-a76c-45bb-bbda-c764596ecc65(jetbrains.mps.baseLanguage.logging.runtime)" />
-          <module ref="d44dab97-aaac-44cb-9745-8a14db674c03(jetbrains.mps.baseLanguage.tuples.runtime)" />
-          <module ref="2af156ab-65c1-4a62-bd0d-ea734f71eab6(jetbrains.mps.dataFlow.runtime)" />
-          <module ref="8fe4c62a-2020-4ff4-8eda-f322a55bdc9f(jetbrains.mps.refactoring.runtime)" />
-          <module ref="9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)" />
-        </dependencies>
-        <sources jar="org.campagnelab.gobyweb.tags-src.jar" descriptor="org.campagnelab.gobyweb.tags.mpl" />
-      </module>
-    </echoxml>
-    <jar destfile="${build.tmp}/default/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.gobyweb.tags.jar">
-      <fileset dir="${build.tmp}/java/out/org.campagnelab.gobyweb.tags" />
-      <fileset dir="${basedir}/languages/org.campagnelab.gobyweb.tags" includes="icons/**, resources/**" />
-      <fileset dir="${build.tmp}/default/org.campagnelab.gobyweb.tags.jar" />
-    </jar>
-    <jar destfile="${build.tmp}/default/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.gobyweb.tags-generator.jar">
-      <fileset dir="${build.tmp}/java/out/org.campagnelab.gobyweb.tags#8273662917780736917" />
-    </jar>
-    <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb.tags-generator-template">
-      <fileset dir="${basedir}/languages/org.campagnelab.gobyweb.tags/generator/template" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
-    </copyModels>
-    <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb.tags-languageModels">
-      <fileset dir="${basedir}/languages/org.campagnelab.gobyweb.tags/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
-    </copyModels>
-    <jar destfile="${build.tmp}/default/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.gobyweb.tags-src.jar">
-      <fileset dir="${basedir}/languages/org.campagnelab.gobyweb.tags/generator/source_gen">
-        <exclude name="**/trace.info" />
-      </fileset>
-      <fileset dir="${basedir}/languages/org.campagnelab.gobyweb.tags/source_gen">
-        <exclude name="**/trace.info" />
-      </fileset>
-      <zipfileset file="${basedir}/languages/org.campagnelab.gobyweb.tags/org.campagnelab.gobyweb.tags.mpl" prefix="module" />
-      <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb.tags-generator-template" prefix="module/generator/template" />
-      <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb.tags-languageModels" prefix="module/languageModels" />
-    </jar>
     <zip destfile="${build.layout}/NYoSh-2.0.${nyosh_build_number}.zip">
       <zipfileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" prefix="NYoSh" />
       <zipfileset file="${org.campagnelab.goby.workbench.home}/lib/serverside-dependencies-1.0.10-full.jar" prefix="NYoSh" />
@@ -461,10 +461,10 @@
   <target name="buildDependents" />
   
   <target name="fetchDependencies">
-    <mkdir dir="${build.tmp}/deps/org.campagnelab.Logger/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip" />
-    <unzip src="${artifacts.org.campagnelab.Logger}/org.campagnelab.logger-${org.campagnelab.Logger.logger.version}.zip" dest="${build.tmp}/deps/org.campagnelab.Logger/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip" />
     <mkdir dir="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip" />
     <unzip src="${artifacts.org.campagnelab.mps.UI}/UI_${org.campagnelab.mps.UI.ui.version}.zip" dest="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip" />
+    <mkdir dir="${build.tmp}/deps/org.campagnelab.Logger/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip" />
+    <unzip src="${artifacts.org.campagnelab.Logger}/org.campagnelab.logger-${org.campagnelab.Logger.logger.version}.zip" dest="${build.tmp}/deps/org.campagnelab.Logger/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip" />
   </target>
   
   <target name="build" depends="assemble" />
@@ -474,7 +474,7 @@
     <delete dir="${build.layout}" />
   </target>
   
-  <target name="compileJava" depends="java.compile.org.campagnelab.nyosh.environment, java.compile.org.campagnelab.nyosh.environment#3173353997360794809, java.compile.org.campagnelab.NYoSh, java.compile.org.campagnelab.NYoSh#8197864363320338521, java.compile.org.campagnelab.nyosh.gstring, java.compile.org.campagnelab.nyosh.gstring#2328891098885696397, java.compile.org.campagnelab.NYoSh.samples, java.compile.org.campagnelab.nyosh.lib, java.compile.org.campagnelab.nyosh.lib#2108047589035521983, java.compile.org.campagnelab.nyosh.pathpatterns, java.compile.org.campagnelab.nyosh.pathpatterns#1081263916558044417, java.compile.org.campagnelab.nyosh.interactive, java.compile.org.campagnelab.nyosh.interactive#6464425322393235212, java.compile.org.campagnelab.gobyweb.tags, java.compile.org.campagnelab.gobyweb.tags#8273662917780736917" />
+  <target name="compileJava" depends="java.compile.org.campagnelab.nyosh.environment, java.compile.org.campagnelab.nyosh.environment#3173353997360794809, java.compile.org.campagnelab.NYoSh, java.compile.org.campagnelab.NYoSh#8197864363320338521, java.compile.org.campagnelab.nyosh.gstring, java.compile.org.campagnelab.nyosh.gstring#2328891098885696397, java.compile.org.campagnelab.NYoSh.samples, java.compile.org.campagnelab.nyosh.lib, java.compile.org.campagnelab.nyosh.lib#2108047589035521983, java.compile.org.campagnelab.nyosh.pathpatterns, java.compile.org.campagnelab.nyosh.pathpatterns#1081263916558044417, java.compile.org.campagnelab.gobyweb.tags, java.compile.org.campagnelab.gobyweb.tags#8273662917780736917, java.compile.org.campagnelab.nyosh.interactive, java.compile.org.campagnelab.nyosh.interactive#6464425322393235212" />
   
   <target name="processResources" />
   
@@ -1253,6 +1253,87 @@
     </javac>
   </target>
   
+  <target name="java.compile.org.campagnelab.gobyweb.tags" depends="fetchDependencies">
+    <mkdir dir="${basedir}/languages/org.campagnelab.gobyweb.tags/source_gen" />
+    <mkdir dir="${build.tmp}/java/out/org.campagnelab.gobyweb.tags" />
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.tags" fork="true" includeantruntime="false">
+      <compilerarg value="-Xlint:none" />
+      <src>
+        <path location="${basedir}/languages/org.campagnelab.gobyweb.tags/source_gen" />
+      </src>
+      <classpath>
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-core.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
+        <fileset file="${artifacts.mps}/lib/log4j.jar" />
+        <fileset file="${artifacts.mps}/lib/annotations.jar" />
+        <fileset file="${artifacts.mps}/lib/jdom.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
+        <fileset file="${artifacts.mps}/lib/trove4j.jar" />
+        <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
+        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
+        <fileset file="${artifacts.mps}/lib/asm-all.jar" />
+        <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
+        <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.closures.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.collections.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
+      </classpath>
+    </javac>
+  </target>
+  
+  <target name="java.compile.org.campagnelab.gobyweb.tags#8273662917780736917" depends="java.compile.org.campagnelab.gobyweb.tags, fetchDependencies">
+    <mkdir dir="${basedir}/languages/org.campagnelab.gobyweb.tags/generator/source_gen" />
+    <mkdir dir="${build.tmp}/java/out/org.campagnelab.gobyweb.tags#8273662917780736917" />
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.tags#8273662917780736917" fork="true" includeantruntime="false">
+      <compilerarg value="-Xlint:none" />
+      <src>
+        <path location="${basedir}/languages/org.campagnelab.gobyweb.tags/generator/source_gen" />
+      </src>
+      <classpath>
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-core.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.tags" />
+        <fileset file="${artifacts.mps}/lib/log4j.jar" />
+        <fileset file="${artifacts.mps}/lib/annotations.jar" />
+        <fileset file="${artifacts.mps}/lib/jdom.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
+        <fileset file="${artifacts.mps}/lib/trove4j.jar" />
+        <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
+        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
+        <fileset file="${artifacts.mps}/lib/asm-all.jar" />
+        <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
+        <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.closures.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.collections.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
+      </classpath>
+    </javac>
+  </target>
+  
   <target name="java.compile.org.campagnelab.nyosh.interactive" depends="java.compile.org.campagnelab.NYoSh, java.compile.org.campagnelab.gobyweb.tags, java.compile.org.campagnelab.nyosh.gstring, java.compile.org.campagnelab.nyosh.lib, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.nyosh.interactive/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.nyosh.interactive" />
@@ -1355,87 +1436,6 @@
         <fileset file="${artifacts.mps}/lib/mps-icons.jar" />
         <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.interactive" />
-        <fileset file="${artifacts.mps}/lib/log4j.jar" />
-        <fileset file="${artifacts.mps}/lib/annotations.jar" />
-        <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
-        <fileset file="${artifacts.mps}/lib/trove4j.jar" />
-        <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
-        <fileset file="${artifacts.mps}/lib/asm-all.jar" />
-        <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
-        <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
-        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
-        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
-        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.closures.jar" />
-        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.collections.jar" />
-        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
-        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
-        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
-        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
-      </classpath>
-    </javac>
-  </target>
-  
-  <target name="java.compile.org.campagnelab.gobyweb.tags" depends="fetchDependencies">
-    <mkdir dir="${basedir}/languages/org.campagnelab.gobyweb.tags/source_gen" />
-    <mkdir dir="${build.tmp}/java/out/org.campagnelab.gobyweb.tags" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.tags" fork="true" includeantruntime="false">
-      <compilerarg value="-Xlint:none" />
-      <src>
-        <path location="${basedir}/languages/org.campagnelab.gobyweb.tags/source_gen" />
-      </src>
-      <classpath>
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-core.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
-        <fileset file="${artifacts.mps}/lib/log4j.jar" />
-        <fileset file="${artifacts.mps}/lib/annotations.jar" />
-        <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
-        <fileset file="${artifacts.mps}/lib/trove4j.jar" />
-        <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
-        <fileset file="${artifacts.mps}/lib/asm-all.jar" />
-        <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
-        <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
-        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
-        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
-        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.closures.jar" />
-        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.collections.jar" />
-        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
-        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
-        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
-        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
-      </classpath>
-    </javac>
-  </target>
-  
-  <target name="java.compile.org.campagnelab.gobyweb.tags#8273662917780736917" depends="java.compile.org.campagnelab.gobyweb.tags, fetchDependencies">
-    <mkdir dir="${basedir}/languages/org.campagnelab.gobyweb.tags/generator/source_gen" />
-    <mkdir dir="${build.tmp}/java/out/org.campagnelab.gobyweb.tags#8273662917780736917" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.tags#8273662917780736917" fork="true" includeantruntime="false">
-      <compilerarg value="-Xlint:none" />
-      <src>
-        <path location="${basedir}/languages/org.campagnelab.gobyweb.tags/generator/source_gen" />
-      </src>
-      <classpath>
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-core.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.tags" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
