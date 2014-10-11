@@ -283,6 +283,9 @@
       <node role="dependencies" roleId="kdzh.6592112598314499028" type="kdzh.BuildMps_IdeaPluginDependency" typeId="kdzh.6592112598314499027" id="2714333670779143708" nodeInfo="ng">
         <link role="target" roleId="kdzh.6592112598314499066" targetNodeId="x4gu.6642819616994328598" />
       </node>
+      <node role="dependencies" roleId="kdzh.6592112598314499028" type="kdzh.BuildMps_IdeaPluginDependency" typeId="kdzh.6592112598314499027" id="994979606115646486" nodeInfo="ng">
+        <link role="target" roleId="kdzh.6592112598314499066" targetNodeId="9b59.9178698721097033459" />
+      </node>
       <node role="containerName" roleId="kdzh.6592112598314855574" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="2714333670779110355" nodeInfo="ng">
         <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="2714333670779110356" nodeInfo="ng">
           <property name="text" nameId="3ior.4903714810883755350" value="Interactive" />
@@ -1054,8 +1057,8 @@
           </node>
         </node>
         <node role="generator" roleId="kdzh.9200313594498201639" type="kdzh.BuildMps_Generator" typeId="kdzh.5507251971038816436" id="3917754007093616248" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="org.campagnelab.gobyweb.interactive.platforms#2495307914661212733" />
-          <property name="uuid" nameId="kdzh.322010710375892619" value="1c42b2bf-e337-4921-838a-ce36c0af02bf" />
+          <property name="name" nameId="tpck.1169194664001" value="org.campagnelab.gobyweb.interactive.platforms#518208688751652421" />
+          <property name="uuid" nameId="kdzh.322010710375892619" value="4412b6c5-04bb-4129-9267-8e7bab684cf2" />
           <property name="doNotCompile" nameId="kdzh.1500819558096356884" value="false" />
         </node>
       </node>

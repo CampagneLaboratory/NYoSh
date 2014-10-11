@@ -461,10 +461,10 @@
   <target name="buildDependents" />
   
   <target name="fetchDependencies">
-    <mkdir dir="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip" />
-    <unzip src="${artifacts.org.campagnelab.mps.UI}/UI_${org.campagnelab.mps.UI.ui.version}.zip" dest="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip" />
     <mkdir dir="${build.tmp}/deps/org.campagnelab.Logger/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip" />
     <unzip src="${artifacts.org.campagnelab.Logger}/org.campagnelab.logger-${org.campagnelab.Logger.logger.version}.zip" dest="${build.tmp}/deps/org.campagnelab.Logger/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip" />
+    <mkdir dir="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip" />
+    <unzip src="${artifacts.org.campagnelab.mps.UI}/UI_${org.campagnelab.mps.UI.ui.version}.zip" dest="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip" />
   </target>
   
   <target name="build" depends="assemble" />
