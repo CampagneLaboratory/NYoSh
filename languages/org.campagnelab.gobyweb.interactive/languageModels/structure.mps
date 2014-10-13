@@ -1064,6 +1064,10 @@
   <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="5235131979802368422" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="tools" />
     <property name="name" nameId="tpck.1169194664001" value="ExecutableTool" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="4965834343965555115" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="executionCompleted" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657063" resolveInfo="boolean" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5235131979802911248" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="MultiTool" />

@@ -20,7 +20,7 @@
   <devkit namespace="db81b829-e557-4467-b78e-cc1d44965622(org.campagnelab.devkit.gobyweb.interactive)" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="9k5" modelUID="r:df9645c2-d2fa-41cb-a718-044a287b0626(org.campagnelab.clusterConfig.structure)" version="3" implicit="yes" />
-  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="63" implicit="yes" />
+  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="64" implicit="yes" />
   <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="30" implicit="yes" />
   <import index="dzk5" modelUID="r:2bfcc546-5c51-4762-9df2-c43920be4458(org.campagnelab.gobyweb.plugins.structure)" version="4" implicit="yes" />
   <import index="whle" modelUID="r:8e4fd1b7-1955-43a4-ace6-aaf9d13814f8(org.campagnelab.logger.structure)" version="1" implicit="yes" />
@@ -29,9 +29,10 @@
   <import index="eith" modelUID="r:1ed73e49-326d-4559-947b-13dfd134d00a(org.campagnelab.ssh.structure)" version="-1" implicit="yes" />
   <import index="7aad" modelUID="r:37fbe713-b4ed-4c3f-becb-5bf827fba401(org.campagnelab.gobyweb.interactive.samples.structure)" version="1" implicit="yes" />
   <import index="jlq1" modelUID="r:0f28fa4d-9625-4db3-91b7-0ff856663fbf(org.campagnelab.gobyweb.interactive.mergeplan.structure)" version="-1" implicit="yes" />
+  <import index="czzw" modelUID="r:2151664b-13bc-4072-a76b-815bb37c415e(org.campagnelab.gobyweb.interactive.users.structure)" version="0" implicit="yes" />
   <root type="bs99.ExecutionEnvironment" typeId="bs99.2051553890368778876" id="6620797826812345374" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="mac158665" />
-    <property name="owner" nameId="bs99.2051553890368778877" value="fac2003" />
+    <property name="owner" value="fac2003" />
     <node role="pluginRepository" roleId="bs99.1997533223701807309" type="bs99.DualPluginRepository" typeId="bs99.6985991452101319714" id="6985991452102161729" nodeInfo="ng">
       <property name="numPluginsLoaded" nameId="bs99.5704832314560344592" value="157" />
       <property name="directory" nameId="bs99.1997533223701200855" value="${org.campagnelab.gobyweb.pluginRepo}" />
@@ -13792,7 +13793,7 @@
   </root>
   <root type="bs99.ExecutionEnvironment" typeId="bs99.2051553890368778876" id="7926097513310341064" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="gobyweb-trial" />
-    <property name="owner" nameId="bs99.2051553890368778877" value="campagne" />
+    <property name="owner" value="campagne" />
     <node role="pluginRepository" roleId="bs99.1997533223701807309" type="bs99.PluginRepository" typeId="bs99.1997533223701191426" id="7926097513310341065" nodeInfo="ng">
       <property name="numPluginsLoaded" nameId="bs99.5704832314560344592" value="160" />
       <property name="directory" nameId="bs99.1997533223701200855" value="${org.campagnelab.gobyweb.pluginRepo}" />
@@ -19515,6 +19516,12 @@
           <property name="value" nameId="bs99.606449909792929477" value="FAKETAG" />
         </node>
       </node>
+    </node>
+  </root>
+  <root type="czzw.NYoShUsers" typeId="czzw.5865189911928298169" id="4965834343968339159" nodeInfo="ng">
+    <node role="users" roleId="czzw.5865189911928367305" type="bs99.NYoShUser" typeId="bs99.5865189911929158310" id="4965834343968343688" nodeInfo="ng">
+      <property name="id" nameId="czzw.5865189911928341274" value="mas2182" />
+      <property name="name" nameId="tpck.1169194664001" value="Manuele Simi" />
     </node>
   </root>
 </model>
