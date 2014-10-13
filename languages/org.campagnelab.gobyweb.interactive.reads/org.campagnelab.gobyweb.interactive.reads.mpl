@@ -31,6 +31,7 @@
     <dependency reexport="false">3f8906ee-821c-4fd1-ae5d-26a10b3b747c(org.campagnelab.gobyweb.interactive.mergeplan)</dependency>
     <dependency reexport="false">0b7d8bbd-896e-495e-be60-01a0d738a649(org.campagnelab.gobyweb.plugins)</dependency>
     <dependency reexport="false">82ffebe3-3685-4fd9-b560-0c1d348d295c(org.campagnelab.logger)</dependency>
+    <dependency reexport="false">0202ed86-955d-4227-9c20-377dd6b1f9ff(org.campagnelab.nyosh.lib)</dependency>
     <dependency reexport="false">c1ba4037-e4db-47d8-8b61-b3c805b648f2(org.campagnelab.ui)</dependency>
   </dependencies>
   <usedLanguages>
@@ -39,6 +40,7 @@
     <usedLanguage>3f8906ee-821c-4fd1-ae5d-26a10b3b747c(org.campagnelab.gobyweb.interactive.mergeplan)</usedLanguage>
     <usedLanguage>0b7d8bbd-896e-495e-be60-01a0d738a649(org.campagnelab.gobyweb.plugins)</usedLanguage>
     <usedLanguage>82ffebe3-3685-4fd9-b560-0c1d348d295c(org.campagnelab.logger)</usedLanguage>
+    <usedLanguage>0202ed86-955d-4227-9c20-377dd6b1f9ff(org.campagnelab.nyosh.lib)</usedLanguage>
     <usedLanguage>c1ba4037-e4db-47d8-8b61-b3c805b648f2(org.campagnelab.ui)</usedLanguage>
   </usedLanguages>
   <usedDevKits>

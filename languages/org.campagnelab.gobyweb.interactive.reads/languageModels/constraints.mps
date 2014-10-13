@@ -3,7 +3,7 @@
   <persistence version="8" />
   <language namespace="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1(jetbrains.mps.lang.constraints)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <import index="27q2" modelUID="r:e4a2193a-3ae2-4803-813f-958c636d2f2f(org.campagnelab.gobyweb.interactive.reads.structure)" version="0" />
+  <import index="27q2" modelUID="r:e4a2193a-3ae2-4803-813f-958c636d2f2f(org.campagnelab.gobyweb.interactive.reads.structure)" version="1" />
   <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="64" />
   <import index="dzk5" modelUID="r:2bfcc546-5c51-4762-9df2-c43920be4458(org.campagnelab.gobyweb.plugins.structure)" version="4" />
   <import index="tp1t" modelUID="r:00000000-0000-4000-0000-011c8959030d(jetbrains.mps.lang.constraints.structure)" version="9" implicit="yes" />

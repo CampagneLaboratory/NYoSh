@@ -4,7 +4,7 @@
   <language namespace="18bc6592-03a6-4e29-a83a-7ff23bde13ba(jetbrains.mps.lang.editor)" />
   <language namespace="c1ba4037-e4db-47d8-8b61-b3c805b648f2(org.campagnelab.ui)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <import index="27q2" modelUID="r:e4a2193a-3ae2-4803-813f-958c636d2f2f(org.campagnelab.gobyweb.interactive.reads.structure)" version="0" />
+  <import index="27q2" modelUID="r:e4a2193a-3ae2-4803-813f-958c636d2f2f(org.campagnelab.gobyweb.interactive.reads.structure)" version="1" />
   <import index="tpen" modelUID="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" version="-1" />
   <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="64" />
   <import index="lcm8" modelUID="r:19e666fd-ce33-4549-bbc2-aa106ce25584(org.campagnelab.gobyweb.interactive.behavior)" version="0" />
@@ -183,26 +183,80 @@
             <property name="flag" nameId="tpc2.1186414551515" value="true" />
           </node>
         </node>
-        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="4965834343970937280" nodeInfo="nn">
-          <property name="text" nameId="tpc2.1073389577007" value="Define how to concatenate the samples" />
-        </node>
-        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="4965834343970939530" nodeInfo="nn">
-          <property name="text" nameId="tpc2.1073389577007" value=":" />
-          <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.PunctuationLeftStyleClassItem" typeId="tpc2.1233758997495" id="4965834343970942274" nodeInfo="nn">
-            <property name="flag" nameId="tpc2.1186414551515" value="true" />
+        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="3142570469564708523" nodeInfo="nn">
+          <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="3142570469564708524" nodeInfo="nn" />
+          <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="4965834343970937280" nodeInfo="nn">
+            <property name="text" nameId="tpc2.1073389577007" value="Define how to concatenate the samples" />
           </node>
-          <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutNewLineStyleClassItem" typeId="tpc2.1237308012275" id="4965834343970942275" nodeInfo="nn">
+          <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="4965834343970939530" nodeInfo="nn">
+            <property name="text" nameId="tpc2.1073389577007" value=":" />
+            <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.PunctuationLeftStyleClassItem" typeId="tpc2.1233758997495" id="4965834343970942274" nodeInfo="nn">
+              <property name="flag" nameId="tpc2.1186414551515" value="true" />
+            </node>
+            <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutNewLineStyleClassItem" typeId="tpc2.1237308012275" id="4965834343970942275" nodeInfo="nn">
+              <property name="flag" nameId="tpc2.1186414551515" value="true" />
+            </node>
+          </node>
+          <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="3142570469564710311" nodeInfo="ng">
+            <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="27q2.4965834343970834332" />
+          </node>
+          <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="3142570469565778507" nodeInfo="nn">
+            <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutNewLineStyleClassItem" typeId="tpc2.1237308012275" id="3142570469565778508" nodeInfo="nn">
+              <property name="flag" nameId="tpc2.1186414551515" value="true" />
+            </node>
+          </node>
+          <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="3142570469565943689" nodeInfo="nn">
+            <property name="text" nameId="tpc2.1073389577007" value="Samples definitions from:" />
+          </node>
+          <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefCell" typeId="tpc2.1088013125922" id="3142570469565858718" nodeInfo="ng">
+            <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="27q2.3142570469565418188" />
+            <node role="editorComponent" roleId="tpc2.1088186146602" type="tpc2.InlineEditorComponent" typeId="tpc2.1088185857835" id="3142570469565858720" nodeInfo="ng">
+              <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="3142570469565858754" nodeInfo="ng">
+                <property name="readOnly" nameId="tpc2.1140017977771" value="true" />
+                <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="bs99.1997533223701240110" resolveInfo="pathname" />
+              </node>
+            </node>
+          </node>
+          <node role="childCellModel" roleId="tpc2.1073389446424" type="hut6.FileSelectionButton" typeId="hut6.2954990197977599794" id="1879241968974138720" nodeInfo="ng">
+            <property name="messages" nameId="hut6.1879241968974104965" value=" " />
+            <property name="acceptFiles" nameId="hut6.5693159665555023471" value="true" />
+            <node role="defaultPath" roleId="hut6.2020659516091712533" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="1879241968974138721" nodeInfo="nn">
+              <property name="value" nameId="tpee.1070475926801" value="./" />
+            </node>
+            <node role="handler" roleId="hut6.2020659516093754639" type="hut6.ProcessPathHandler" typeId="hut6.2020659516093694820" id="1879241968974138722" nodeInfo="ng">
+              <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="1879241968974138745" nodeInfo="sn">
+                <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="1879241968980835207" nodeInfo="nn">
+                  <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="1879241968980835210" nodeInfo="nr">
+                    <property name="name" nameId="tpck.1169194664001" value="tool" />
+                    <node role="type" roleId="tpee.5680397130376446158" type="tp25.SNodeType" typeId="tp25.1138055754698" id="1879241968980835205" nodeInfo="in">
+                      <link role="concept" roleId="tp25.1138405853777" targetNodeId="27q2.8628570127255966361" resolveInfo="ProcessReadsTool" />
+                    </node>
+                    <node role="initializer" roleId="tpee.1068431790190" type="tp25.SNodeTypeCastExpression" typeId="tp25.1140137987495" id="1879241968980835486" nodeInfo="nn">
+                      <link role="concept" roleId="tp25.1140138128738" targetNodeId="27q2.8628570127255966361" resolveInfo="ProcessReadsTool" />
+                      <node role="leftExpression" roleId="tp25.1140138123956" type="hut6.NodeParameter" typeId="hut6.2020659516094589948" id="1879241968980835289" nodeInfo="ng" />
+                    </node>
+                  </node>
+                </node>
+                <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3142570469565563913" nodeInfo="nn">
+                  <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3142570469565564130" nodeInfo="nn">
+                    <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="3142570469565563911" nodeInfo="nn">
+                      <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1879241968980835210" resolveInfo="tool" />
+                    </node>
+                    <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="3142570469565565786" nodeInfo="nn">
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="y57j.5693159665555429343" resolveInfo="addSamplesDefinitionsFile" />
+                      <node role="actualArgument" roleId="tpee.1068499141038" type="hut6.PathParameter" typeId="hut6.2020659516093744801" id="3142570469565565904" nodeInfo="ng" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.DrawBorderStyleClassItem" typeId="tpc2.1186414976055" id="3142570469565778488" nodeInfo="nn">
             <property name="flag" nameId="tpc2.1186414551515" value="true" />
           </node>
         </node>
         <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="4965834343976147022" nodeInfo="nn">
           <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutNewLineStyleClassItem" typeId="tpc2.1237308012275" id="4965834343976153057" nodeInfo="nn">
-            <property name="flag" nameId="tpc2.1186414551515" value="true" />
-          </node>
-        </node>
-        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="4965834343970942289" nodeInfo="ng">
-          <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="27q2.4965834343970834332" />
-          <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutNewLineStyleClassItem" typeId="tpc2.1237308012275" id="4965834343970943993" nodeInfo="nn">
             <property name="flag" nameId="tpc2.1186414551515" value="true" />
           </node>
         </node>

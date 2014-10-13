@@ -16,7 +16,7 @@
   <import index="bd2x" modelUID="r:aa9c91aa-8100-4e98-88e5-b9737f1d54b8(model.organisms)" version="-1" implicit="yes" />
   <import index="7aad" modelUID="r:37fbe713-b4ed-4c3f-becb-5bf827fba401(org.campagnelab.gobyweb.interactive.samples.structure)" version="1" implicit="yes" />
   <import index="jlq1" modelUID="r:0f28fa4d-9625-4db3-91b7-0ff856663fbf(org.campagnelab.gobyweb.interactive.mergeplan.structure)" version="-1" implicit="yes" />
-  <import index="27q2" modelUID="r:e4a2193a-3ae2-4803-813f-958c636d2f2f(org.campagnelab.gobyweb.interactive.reads.structure)" version="0" implicit="yes" />
+  <import index="27q2" modelUID="r:e4a2193a-3ae2-4803-813f-958c636d2f2f(org.campagnelab.gobyweb.interactive.reads.structure)" version="1" implicit="yes" />
   <root type="9k5.ExecutionNode" typeId="9k5.3050176288337501843" id="7915051628305670571" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="localhost" />
     <property name="server" nameId="9k5.3050176288337501845" value="localhost" />

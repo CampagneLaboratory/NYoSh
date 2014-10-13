@@ -6,5 +6,11 @@
     </dependencies>
     <rename id="27q2.4965834343970834332" type="CHILD" from="mergePlan" to="pairInfo" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="27q2" modelUID="r:e4a2193a-3ae2-4803-813f-958c636d2f2f(org.campagnelab.gobyweb.interactive.reads.structure)" version="0" />
+    </dependencies>
+    <rename id="27q2.1879241968980829296" type="PROPERTY" from="messages" to="filesMessages" />
+  </StructureModification>
 </history>
 
