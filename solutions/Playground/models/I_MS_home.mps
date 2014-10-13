@@ -4,13 +4,19 @@
   <devkit namespace="db81b829-e557-4467-b78e-cc1d44965622(org.campagnelab.devkit.gobyweb.interactive)" />
   <import index="9k5" modelUID="r:df9645c2-d2fa-41cb-a718-044a287b0626(org.campagnelab.clusterConfig.structure)" version="3" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="63" implicit="yes" />
+  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="64" implicit="yes" />
   <import index="dhle" modelUID="r:22d2d7af-29e7-4a54-9633-f2175440f8be(org.campagnelab.feedback.structure)" version="0" implicit="yes" />
   <import index="bbh2" modelUID="r:220d24dc-c962-4ed8-b674-7bde9fb2980c(org.campagnelab.gobyweb.monitoring.structure)" version="4" implicit="yes" />
   <import index="whle" modelUID="r:8e4fd1b7-1955-43a4-ace6-aaf9d13814f8(org.campagnelab.logger.structure)" version="1" implicit="yes" />
   <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="30" implicit="yes" />
   <import index="dzk5" modelUID="r:2bfcc546-5c51-4762-9df2-c43920be4458(org.campagnelab.gobyweb.plugins.structure)" version="4" implicit="yes" />
   <import index="czzw" modelUID="r:2151664b-13bc-4072-a76b-815bb37c415e(org.campagnelab.gobyweb.interactive.users.structure)" version="0" implicit="yes" />
+  <import index="2c0d" modelUID="r:2c38e443-0586-49e0-87de-1937d74417d9(org.campagnelab.gobyweb.interactive.organisms.structure)" version="-1" implicit="yes" />
+  <import index="zr4f" modelUID="r:2920e4c4-4b31-4f7c-ac90-f43b38fc4b8c(org.campagnelab.gobyweb.interactive.platforms.structure)" version="9" implicit="yes" />
+  <import index="bd2x" modelUID="r:aa9c91aa-8100-4e98-88e5-b9737f1d54b8(model.organisms)" version="-1" implicit="yes" />
+  <import index="7aad" modelUID="r:37fbe713-b4ed-4c3f-becb-5bf827fba401(org.campagnelab.gobyweb.interactive.samples.structure)" version="1" implicit="yes" />
+  <import index="jlq1" modelUID="r:0f28fa4d-9625-4db3-91b7-0ff856663fbf(org.campagnelab.gobyweb.interactive.mergeplan.structure)" version="-1" implicit="yes" />
+  <import index="27q2" modelUID="r:e4a2193a-3ae2-4803-813f-958c636d2f2f(org.campagnelab.gobyweb.interactive.reads.structure)" version="-1" implicit="yes" />
   <root type="9k5.ExecutionNode" typeId="9k5.3050176288337501843" id="7915051628305670571" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="localhost" />
     <property name="server" nameId="9k5.3050176288337501845" value="localhost" />
@@ -5505,7557 +5511,1555 @@
   </root>
   <root type="bs99.RegisterFileTool" typeId="bs99.2954990197977709385" id="7915051628305705365" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="RegisterTool" />
-    <property name="messages" nameId="bs99.1879241968980829296" value="RegisterTool /Users/manuelesimi/CampagneLab/tests/R1.fastaRegisterTool /Users/manuelesimi/CampagneLab/tests/WFIWOOJ-details.tsvRegisterTool /Users/manuelesimi/CampagneLab/tests/WFIWOOJ-details.tsvRegisterTool /Users/manuelesimi/CampagneLab/tests/R1.fastaRegisterTool /Users/manuelesimi/CampagneLab/tests/R1.fasta" />
+    <property name="messages" nameId="bs99.1879241968980829296" value="RegisterTool /Users/manuelesimi/CampagneLab/tests/R1.fastaRegisterTool /Users/manuelesimi/CampagneLab/tests/WFIWOOJ-details.tsvRegisterTool /Users/manuelesimi/CampagneLab/tests/WFIWOOJ-details.tsvRegisterTool /Users/manuelesimi/CampagneLab/tests/R1.fastaRegisterTool /Users/manuelesimi/CampagneLab/tests/R1.fastaRegisterTool /Users/manuelesimi/Downloads/merge_plan_sample/S1_1_R1.fastaRegisterTool /Users/manuelesimi/Downloads/merge_plan_sample/S1_1_R2.fastaRegisterTool /Users/manuelesimi/Downloads/merge_plan_sample/S1_2_R1.fastaRegisterTool /Users/manuelesimi/Downloads/merge_plan_sample/S1_2_R2.fastaRegisterTool /Users/manuelesimi/Downloads/merge_plan_sample/S2_1_R1.fastaRegisterTool /Users/manuelesimi/Downloads/merge_plan_sample/S2_1_R2.fastaRegisterTool /Users/manuelesimi/Downloads/merge_plan_sample/S2_2_R1.fastaRegisterTool /Users/manuelesimi/Downloads/merge_plan_sample/S2_2_R2.fasta" />
     <property name="filesInError" nameId="bs99.5704832314568278031" value="0" />
-    <property name="willCreateFilesets" nameId="bs99.5704832314568277954" value="0" />
+    <property name="willCreateFilesets" nameId="bs99.5704832314568277954" value="8" />
     <property name="filesMandatoryAndMissing" nameId="bs99.5704832314568278035" value="0" />
-    <property name="hasPreview" nameId="bs99.5704832314568883481" value="false" />
+    <property name="hasPreview" nameId="bs99.5704832314568883481" value="true" />
     <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="7915051628305677536" resolveInfo="MSNotebook" />
-    <node role="registered" roleId="bs99.4459289555262004257" type="bs99.FileSetInstanceRefSet" typeId="bs99.2835705609407426008" id="7915051628305705366" nodeInfo="ng" />
-    <node role="feedbackView" roleId="bs99.6620797826825978079" type="dhle.FeedbackView" typeId="dhle.6620797826825978917" id="7915051628305705367" nodeInfo="ng" />
+    <node role="registered" roleId="bs99.4459289555262004257" type="bs99.FileSetInstanceRefSet" typeId="bs99.2835705609407426008" id="7915051628305705366" nodeInfo="ng">
+      <node role="refs" roleId="bs99.2835705609407426009" type="bs99.FileSetInstanceReference" typeId="bs99.2835705609407425062" id="2495307914668729482" nodeInfo="ng">
+        <link role="fileSetInstance" roleId="bs99.2835705609407425063" targetNodeId="2495307914668729188" resolveInfo="S1_1_R1" />
+      </node>
+      <node role="refs" roleId="bs99.2835705609407426009" type="bs99.FileSetInstanceReference" typeId="bs99.2835705609407425062" id="2495307914668729494" nodeInfo="ng">
+        <link role="fileSetInstance" roleId="bs99.2835705609407425063" targetNodeId="2495307914668729206" resolveInfo="S1_1_R2" />
+      </node>
+      <node role="refs" roleId="bs99.2835705609407426009" type="bs99.FileSetInstanceReference" typeId="bs99.2835705609407425062" id="2495307914668729506" nodeInfo="ng">
+        <link role="fileSetInstance" roleId="bs99.2835705609407425063" targetNodeId="2495307914668729218" resolveInfo="S1_2_R1" />
+      </node>
+      <node role="refs" roleId="bs99.2835705609407426009" type="bs99.FileSetInstanceReference" typeId="bs99.2835705609407425062" id="2495307914668729518" nodeInfo="ng">
+        <link role="fileSetInstance" roleId="bs99.2835705609407425063" targetNodeId="2495307914668729230" resolveInfo="S1_2_R2" />
+      </node>
+      <node role="refs" roleId="bs99.2835705609407426009" type="bs99.FileSetInstanceReference" typeId="bs99.2835705609407425062" id="2495307914668729530" nodeInfo="ng">
+        <link role="fileSetInstance" roleId="bs99.2835705609407425063" targetNodeId="2495307914668729242" resolveInfo="S2_1_R1" />
+      </node>
+      <node role="refs" roleId="bs99.2835705609407426009" type="bs99.FileSetInstanceReference" typeId="bs99.2835705609407425062" id="2495307914668729542" nodeInfo="ng">
+        <link role="fileSetInstance" roleId="bs99.2835705609407425063" targetNodeId="2495307914668729254" resolveInfo="S2_1_R2" />
+      </node>
+      <node role="refs" roleId="bs99.2835705609407426009" type="bs99.FileSetInstanceReference" typeId="bs99.2835705609407425062" id="2495307914668729554" nodeInfo="ng">
+        <link role="fileSetInstance" roleId="bs99.2835705609407425063" targetNodeId="2495307914668729266" resolveInfo="S2_2_R1" />
+      </node>
+      <node role="refs" roleId="bs99.2835705609407426009" type="bs99.FileSetInstanceReference" typeId="bs99.2835705609407425062" id="2495307914668729566" nodeInfo="ng">
+        <link role="fileSetInstance" roleId="bs99.2835705609407425063" targetNodeId="2495307914668729278" resolveInfo="S2_2_R2" />
+      </node>
+    </node>
+    <node role="feedbackView" roleId="bs99.6620797826825978079" type="dhle.FeedbackView" typeId="dhle.6620797826825978917" id="7915051628305705367" nodeInfo="ng">
+      <node role="messages" roleId="dhle.6620797826825978918" type="dhle.Message" typeId="dhle.6620797826827480125" id="2495307914668729768" nodeInfo="ng">
+        <property name="text" nameId="dhle.6620797826827481341" value="Registered FileSetInstance S1_1_R2" />
+      </node>
+      <node role="messages" roleId="dhle.6620797826825978918" type="dhle.Message" typeId="dhle.6620797826827480125" id="2495307914668729958" nodeInfo="ng">
+        <property name="text" nameId="dhle.6620797826827481341" value="Registered FileSetInstance S1_1_R1" />
+      </node>
+      <node role="messages" roleId="dhle.6620797826825978918" type="dhle.Message" typeId="dhle.6620797826827480125" id="2495307914668730147" nodeInfo="ng">
+        <property name="text" nameId="dhle.6620797826827481341" value="Registered FileSetInstance S2_1_R2" />
+      </node>
+      <node role="messages" roleId="dhle.6620797826825978918" type="dhle.Message" typeId="dhle.6620797826827480125" id="2495307914668730335" nodeInfo="ng">
+        <property name="text" nameId="dhle.6620797826827481341" value="Registered FileSetInstance S2_2_R2" />
+      </node>
+      <node role="messages" roleId="dhle.6620797826825978918" type="dhle.Message" typeId="dhle.6620797826827480125" id="2495307914668730522" nodeInfo="ng">
+        <property name="text" nameId="dhle.6620797826827481341" value="Registered FileSetInstance S2_1_R1" />
+      </node>
+      <node role="messages" roleId="dhle.6620797826825978918" type="dhle.Message" typeId="dhle.6620797826827480125" id="2495307914668730708" nodeInfo="ng">
+        <property name="text" nameId="dhle.6620797826827481341" value="Registered FileSetInstance S2_2_R1" />
+      </node>
+      <node role="messages" roleId="dhle.6620797826825978918" type="dhle.Message" typeId="dhle.6620797826827480125" id="2495307914668730893" nodeInfo="ng">
+        <property name="text" nameId="dhle.6620797826827481341" value="Registered FileSetInstance S1_2_R2" />
+      </node>
+      <node role="messages" roleId="dhle.6620797826825978918" type="dhle.Message" typeId="dhle.6620797826827480125" id="2495307914668731077" nodeInfo="ng">
+        <property name="text" nameId="dhle.6620797826827481341" value="Registered FileSetInstance S1_2_R1" />
+      </node>
+    </node>
+    <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="2495307914668726002" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="S1_1_R1.fasta" />
+      <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/manuelesimi/Downloads/merge_plan_sample/S1_1_R1.fasta" />
+      <node role="types" roleId="bs99.5704832314562469901" type="bs99.FileSetTypeId" typeId="bs99.5704832314562469955" id="2495307914668729191" nodeInfo="ng">
+        <property name="id" nameId="bs99.5704832314562469956" value="SUPPORTED_INPUT_READS" />
+        <property name="version" nameId="bs99.2465489689645111090" value="1.0" />
+      </node>
+    </node>
+    <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="2495307914668726003" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="S1_1_R2.fasta" />
+      <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/manuelesimi/Downloads/merge_plan_sample/S1_1_R2.fasta" />
+      <node role="types" roleId="bs99.5704832314562469901" type="bs99.FileSetTypeId" typeId="bs99.5704832314562469955" id="2495307914668729209" nodeInfo="ng">
+        <property name="id" nameId="bs99.5704832314562469956" value="SUPPORTED_INPUT_READS" />
+        <property name="version" nameId="bs99.2465489689645111090" value="1.0" />
+      </node>
+    </node>
+    <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="2495307914668726004" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="S1_2_R1.fasta" />
+      <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/manuelesimi/Downloads/merge_plan_sample/S1_2_R1.fasta" />
+      <node role="types" roleId="bs99.5704832314562469901" type="bs99.FileSetTypeId" typeId="bs99.5704832314562469955" id="2495307914668729221" nodeInfo="ng">
+        <property name="id" nameId="bs99.5704832314562469956" value="SUPPORTED_INPUT_READS" />
+        <property name="version" nameId="bs99.2465489689645111090" value="1.0" />
+      </node>
+    </node>
+    <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="2495307914668726005" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="S1_2_R2.fasta" />
+      <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/manuelesimi/Downloads/merge_plan_sample/S1_2_R2.fasta" />
+      <node role="types" roleId="bs99.5704832314562469901" type="bs99.FileSetTypeId" typeId="bs99.5704832314562469955" id="2495307914668729233" nodeInfo="ng">
+        <property name="id" nameId="bs99.5704832314562469956" value="SUPPORTED_INPUT_READS" />
+        <property name="version" nameId="bs99.2465489689645111090" value="1.0" />
+      </node>
+    </node>
+    <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="2495307914668726006" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="S2_1_R1.fasta" />
+      <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/manuelesimi/Downloads/merge_plan_sample/S2_1_R1.fasta" />
+      <node role="types" roleId="bs99.5704832314562469901" type="bs99.FileSetTypeId" typeId="bs99.5704832314562469955" id="2495307914668729245" nodeInfo="ng">
+        <property name="id" nameId="bs99.5704832314562469956" value="SUPPORTED_INPUT_READS" />
+        <property name="version" nameId="bs99.2465489689645111090" value="1.0" />
+      </node>
+    </node>
+    <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="2495307914668726007" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="S2_1_R2.fasta" />
+      <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/manuelesimi/Downloads/merge_plan_sample/S2_1_R2.fasta" />
+      <node role="types" roleId="bs99.5704832314562469901" type="bs99.FileSetTypeId" typeId="bs99.5704832314562469955" id="2495307914668729257" nodeInfo="ng">
+        <property name="id" nameId="bs99.5704832314562469956" value="SUPPORTED_INPUT_READS" />
+        <property name="version" nameId="bs99.2465489689645111090" value="1.0" />
+      </node>
+    </node>
+    <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="2495307914668726008" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="S2_2_R1.fasta" />
+      <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/manuelesimi/Downloads/merge_plan_sample/S2_2_R1.fasta" />
+      <node role="types" roleId="bs99.5704832314562469901" type="bs99.FileSetTypeId" typeId="bs99.5704832314562469955" id="2495307914668729269" nodeInfo="ng">
+        <property name="id" nameId="bs99.5704832314562469956" value="SUPPORTED_INPUT_READS" />
+        <property name="version" nameId="bs99.2465489689645111090" value="1.0" />
+      </node>
+    </node>
+    <node role="files" roleId="bs99.2020659516094642708" type="bs99.File" typeId="bs99.1997533223701240107" id="2495307914668726009" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="S2_2_R2.fasta" />
+      <property name="pathname" nameId="bs99.1997533223701240110" value="/Users/manuelesimi/Downloads/merge_plan_sample/S2_2_R2.fasta" />
+      <node role="types" roleId="bs99.5704832314562469901" type="bs99.FileSetTypeId" typeId="bs99.5704832314562469955" id="2495307914668729281" nodeInfo="ng">
+        <property name="id" nameId="bs99.5704832314562469956" value="SUPPORTED_INPUT_READS" />
+        <property name="version" nameId="bs99.2465489689645111090" value="1.0" />
+      </node>
+    </node>
+    <node role="attributes" roleId="bs99.1405392831552303915" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="2495307914668729446" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+      <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="2495307914668729463" nodeInfo="ng">
+        <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+      </node>
+    </node>
+    <node role="attributes" roleId="bs99.1405392831552303915" type="zr4f.PlatformAttribute" typeId="zr4f.2495307914661212838" id="2495307914668729439" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="READS_PLATFORM" />
+      <node role="value" roleId="zr4f.2495307914661369287" type="zr4f.Illumina" typeId="zr4f.2495307914661373456" id="2495307914668729466" nodeInfo="ng">
+        <property name="value" nameId="zr4f.2495307914661369285" value="Illumina" />
+      </node>
+    </node>
+    <node role="attributes" roleId="bs99.1405392831552303915" type="zr4f.PairedDirectionAttribute" typeId="zr4f.7026862576601086944" id="2495307914668729455" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_DIRECTIONS" />
+      <node role="direction" roleId="zr4f.7026862576601091392" type="zr4f.FR" typeId="zr4f.7026862576601214261" id="2495307914668729468" nodeInfo="ng">
+        <property name="value" nameId="zr4f.7026862576601088822" value="FR" />
+      </node>
+    </node>
+    <node role="attributes" roleId="bs99.1405392831552303915" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="2495307914668729202" nodeInfo="ng">
+      <property name="value" nameId="bs99.1405392831553673672" value="false" />
+      <property name="name" nameId="tpck.1169194664001" value="COLOR_SPACE" />
+      <property name="mandatory" nameId="bs99.4010805091585538096" value="false" />
+    </node>
+    <node role="attributes" roleId="bs99.1405392831552303915" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="2495307914668729203" nodeInfo="ng">
+      <property name="value" nameId="bs99.1405392831553673672" value="false" />
+      <property name="name" nameId="tpck.1169194664001" value="BISULFITE_SAMPLE" />
+      <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+    </node>
+    <node role="attributes" roleId="bs99.1405392831552303915" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="2495307914668729204" nodeInfo="ng">
+      <property name="value" nameId="bs99.1405392831553673672" value="true" />
+      <property name="name" nameId="tpck.1169194664001" value="LIB_PROTOCOL_PRESERVE_STRAND" />
+      <property name="mandatory" nameId="bs99.4010805091585538096" value="false" />
+    </node>
   </root>
   <root type="bs99.FSIContainer" typeId="bs99.6642819616982286338" id="3403061721251564833" nodeInfo="ng">
     <link role="environment" roleId="bs99.6642819616982682504" targetNodeId="7915051628305677536" resolveInfo="MSNotebook" />
-    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="3403061721251564920" nodeInfo="ng">
+    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="2495307914668729206" nodeInfo="ng">
       <property name="size" nameId="bs99.2740821845424982900" value="0" />
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
-      <property name="tag" nameId="bs99.2051553890368778934" value="MLUJSMM" />
-      <property name="name" nameId="tpck.1169194664001" value="WFIWOOJ-details" />
+      <property name="tag" nameId="bs99.2051553890368778934" value="DTFKGPA" />
+      <property name="name" nameId="tpck.1169194664001" value="S1_1_R2" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="7915051628305689874" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="3403061721251610895" resolveInfo="GOBYWEB_MERGE_PLAN_FILE" />
-      <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="3403061721251564924" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="WFIWOOJ-details.tsv" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="2495307914667371030" resolveInfo="SUPPORTED_INPUT_READS" />
+      <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="2495307914668729213" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="S1_1_R2.fasta" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="2495307914668729483" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="2495307914668729484" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="zr4f.PlatformAttribute" typeId="zr4f.2495307914661212838" id="2495307914668729485" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="READS_PLATFORM" />
+        <node role="value" roleId="zr4f.2495307914661369287" type="zr4f.Illumina" typeId="zr4f.2495307914661373456" id="2495307914668729486" nodeInfo="ng">
+          <property name="value" nameId="zr4f.2495307914661369285" value="Illumina" />
+        </node>
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="zr4f.PairedDirectionAttribute" typeId="zr4f.7026862576601086944" id="2495307914668729487" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_DIRECTIONS" />
+        <node role="direction" roleId="zr4f.7026862576601091392" type="zr4f.FR" typeId="zr4f.7026862576601214261" id="2495307914668729488" nodeInfo="ng">
+          <property name="value" nameId="zr4f.7026862576601088822" value="FR" />
+        </node>
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="2495307914668729489" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553673672" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="COLOR_SPACE" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="false" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="2495307914668729490" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553673672" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="BISULFITE_SAMPLE" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="2495307914668729491" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553673672" value="true" />
+        <property name="name" nameId="tpck.1169194664001" value="LIB_PROTOCOL_PRESERVE_STRAND" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="false" />
       </node>
     </node>
-    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="3403061721257177491" nodeInfo="ng">
-      <property name="size" nameId="bs99.2740821845424982900" value="694 bytes" />
-      <property name="tag" nameId="bs99.2051553890368778934" value="RXSBBWZ" />
+    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="2495307914668729188" nodeInfo="ng">
+      <property name="size" nameId="bs99.2740821845424982900" value="0" />
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
-      <property name="name" nameId="tpck.1169194664001" value="JOB_METADATA/RXSBBWZ" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="3403061721251610901" resolveInfo="JOB_METADATA" />
+      <property name="tag" nameId="bs99.2051553890368778934" value="EIJFAJN" />
+      <property name="name" nameId="tpck.1169194664001" value="S1_1_R1" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="7915051628305689874" />
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257177492" nodeInfo="ng">
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="2495307914667371030" resolveInfo="SUPPORTED_INPUT_READS" />
+      <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="2495307914668729195" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="S1_1_R1.fasta" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="2495307914668729471" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="2495307914668729472" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="zr4f.PlatformAttribute" typeId="zr4f.2495307914661212838" id="2495307914668729473" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="READS_PLATFORM" />
+        <node role="value" roleId="zr4f.2495307914661369287" type="zr4f.Illumina" typeId="zr4f.2495307914661373456" id="2495307914668729474" nodeInfo="ng">
+          <property name="value" nameId="zr4f.2495307914661369285" value="Illumina" />
+        </node>
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="zr4f.PairedDirectionAttribute" typeId="zr4f.7026862576601086944" id="2495307914668729475" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_DIRECTIONS" />
+        <node role="direction" roleId="zr4f.7026862576601091392" type="zr4f.FR" typeId="zr4f.7026862576601214261" id="2495307914668729476" nodeInfo="ng">
+          <property name="value" nameId="zr4f.7026862576601088822" value="FR" />
+        </node>
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="2495307914668729477" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553673672" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="COLOR_SPACE" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="false" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="2495307914668729478" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553673672" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="BISULFITE_SAMPLE" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="2495307914668729479" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553673672" value="true" />
+        <property name="name" nameId="tpck.1169194664001" value="LIB_PROTOCOL_PRESERVE_STRAND" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="false" />
+      </node>
+    </node>
+    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="2495307914668729254" nodeInfo="ng">
+      <property name="size" nameId="bs99.2740821845424982900" value="0" />
+      <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+      <property name="tag" nameId="bs99.2051553890368778934" value="ZPORIEN" />
+      <property name="name" nameId="tpck.1169194664001" value="S2_1_R2" />
+      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="7915051628305689874" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="2495307914667371030" resolveInfo="SUPPORTED_INPUT_READS" />
+      <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="2495307914668729261" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="S2_1_R2.fasta" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="2495307914668729531" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="2495307914668729532" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="zr4f.PlatformAttribute" typeId="zr4f.2495307914661212838" id="2495307914668729533" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="READS_PLATFORM" />
+        <node role="value" roleId="zr4f.2495307914661369287" type="zr4f.Illumina" typeId="zr4f.2495307914661373456" id="2495307914668729534" nodeInfo="ng">
+          <property name="value" nameId="zr4f.2495307914661369285" value="Illumina" />
+        </node>
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="zr4f.PairedDirectionAttribute" typeId="zr4f.7026862576601086944" id="2495307914668729535" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_DIRECTIONS" />
+        <node role="direction" roleId="zr4f.7026862576601091392" type="zr4f.FR" typeId="zr4f.7026862576601214261" id="2495307914668729536" nodeInfo="ng">
+          <property name="value" nameId="zr4f.7026862576601088822" value="FR" />
+        </node>
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="2495307914668729537" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553673672" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="COLOR_SPACE" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="false" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="2495307914668729538" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553673672" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="BISULFITE_SAMPLE" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="2495307914668729539" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553673672" value="true" />
+        <property name="name" nameId="tpck.1169194664001" value="LIB_PROTOCOL_PRESERVE_STRAND" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="false" />
+      </node>
+    </node>
+    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="2495307914668729278" nodeInfo="ng">
+      <property name="size" nameId="bs99.2740821845424982900" value="0" />
+      <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+      <property name="tag" nameId="bs99.2051553890368778934" value="FISIJKH" />
+      <property name="name" nameId="tpck.1169194664001" value="S2_2_R2" />
+      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="7915051628305689874" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="2495307914667371030" resolveInfo="SUPPORTED_INPUT_READS" />
+      <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="2495307914668729285" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="S2_2_R2.fasta" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="2495307914668729555" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="2495307914668729556" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="zr4f.PlatformAttribute" typeId="zr4f.2495307914661212838" id="2495307914668729557" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="READS_PLATFORM" />
+        <node role="value" roleId="zr4f.2495307914661369287" type="zr4f.Illumina" typeId="zr4f.2495307914661373456" id="2495307914668729558" nodeInfo="ng">
+          <property name="value" nameId="zr4f.2495307914661369285" value="Illumina" />
+        </node>
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="zr4f.PairedDirectionAttribute" typeId="zr4f.7026862576601086944" id="2495307914668729559" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_DIRECTIONS" />
+        <node role="direction" roleId="zr4f.7026862576601091392" type="zr4f.FR" typeId="zr4f.7026862576601214261" id="2495307914668729560" nodeInfo="ng">
+          <property name="value" nameId="zr4f.7026862576601088822" value="FR" />
+        </node>
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="2495307914668729561" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553673672" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="COLOR_SPACE" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="false" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="2495307914668729562" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553673672" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="BISULFITE_SAMPLE" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="2495307914668729563" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553673672" value="true" />
+        <property name="name" nameId="tpck.1169194664001" value="LIB_PROTOCOL_PRESERVE_STRAND" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="false" />
+      </node>
+    </node>
+    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="2495307914668729242" nodeInfo="ng">
+      <property name="size" nameId="bs99.2740821845424982900" value="0" />
+      <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+      <property name="tag" nameId="bs99.2051553890368778934" value="HVHSRDA" />
+      <property name="name" nameId="tpck.1169194664001" value="S2_1_R1" />
+      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="7915051628305689874" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="2495307914667371030" resolveInfo="SUPPORTED_INPUT_READS" />
+      <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="2495307914668729249" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="S2_1_R1.fasta" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="2495307914668729519" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="2495307914668729520" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="zr4f.PlatformAttribute" typeId="zr4f.2495307914661212838" id="2495307914668729521" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="READS_PLATFORM" />
+        <node role="value" roleId="zr4f.2495307914661369287" type="zr4f.Illumina" typeId="zr4f.2495307914661373456" id="2495307914668729522" nodeInfo="ng">
+          <property name="value" nameId="zr4f.2495307914661369285" value="Illumina" />
+        </node>
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="zr4f.PairedDirectionAttribute" typeId="zr4f.7026862576601086944" id="2495307914668729523" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_DIRECTIONS" />
+        <node role="direction" roleId="zr4f.7026862576601091392" type="zr4f.FR" typeId="zr4f.7026862576601214261" id="2495307914668729524" nodeInfo="ng">
+          <property name="value" nameId="zr4f.7026862576601088822" value="FR" />
+        </node>
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="2495307914668729525" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553673672" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="COLOR_SPACE" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="false" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="2495307914668729526" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553673672" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="BISULFITE_SAMPLE" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="2495307914668729527" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553673672" value="true" />
+        <property name="name" nameId="tpck.1169194664001" value="LIB_PROTOCOL_PRESERVE_STRAND" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="false" />
+      </node>
+    </node>
+    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="2495307914668729266" nodeInfo="ng">
+      <property name="size" nameId="bs99.2740821845424982900" value="0" />
+      <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+      <property name="tag" nameId="bs99.2051553890368778934" value="DWLKBGW" />
+      <property name="name" nameId="tpck.1169194664001" value="S2_2_R1" />
+      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="7915051628305689874" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="2495307914667371030" resolveInfo="SUPPORTED_INPUT_READS" />
+      <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="2495307914668729273" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="S2_2_R1.fasta" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="2495307914668729543" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="2495307914668729544" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="zr4f.PlatformAttribute" typeId="zr4f.2495307914661212838" id="2495307914668729545" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="READS_PLATFORM" />
+        <node role="value" roleId="zr4f.2495307914661369287" type="zr4f.Illumina" typeId="zr4f.2495307914661373456" id="2495307914668729546" nodeInfo="ng">
+          <property name="value" nameId="zr4f.2495307914661369285" value="Illumina" />
+        </node>
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="zr4f.PairedDirectionAttribute" typeId="zr4f.7026862576601086944" id="2495307914668729547" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_DIRECTIONS" />
+        <node role="direction" roleId="zr4f.7026862576601091392" type="zr4f.FR" typeId="zr4f.7026862576601214261" id="2495307914668729548" nodeInfo="ng">
+          <property name="value" nameId="zr4f.7026862576601088822" value="FR" />
+        </node>
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="2495307914668729549" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553673672" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="COLOR_SPACE" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="false" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="2495307914668729550" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553673672" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="BISULFITE_SAMPLE" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="2495307914668729551" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553673672" value="true" />
+        <property name="name" nameId="tpck.1169194664001" value="LIB_PROTOCOL_PRESERVE_STRAND" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="false" />
+      </node>
+    </node>
+    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="2495307914668729230" nodeInfo="ng">
+      <property name="size" nameId="bs99.2740821845424982900" value="0" />
+      <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+      <property name="tag" nameId="bs99.2051553890368778934" value="FVJMUEO" />
+      <property name="name" nameId="tpck.1169194664001" value="S1_2_R2" />
+      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="7915051628305689874" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="2495307914667371030" resolveInfo="SUPPORTED_INPUT_READS" />
+      <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="2495307914668729237" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="S1_2_R2.fasta" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="2495307914668729507" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="2495307914668729508" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="zr4f.PlatformAttribute" typeId="zr4f.2495307914661212838" id="2495307914668729509" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="READS_PLATFORM" />
+        <node role="value" roleId="zr4f.2495307914661369287" type="zr4f.Illumina" typeId="zr4f.2495307914661373456" id="2495307914668729510" nodeInfo="ng">
+          <property name="value" nameId="zr4f.2495307914661369285" value="Illumina" />
+        </node>
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="zr4f.PairedDirectionAttribute" typeId="zr4f.7026862576601086944" id="2495307914668729511" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_DIRECTIONS" />
+        <node role="direction" roleId="zr4f.7026862576601091392" type="zr4f.FR" typeId="zr4f.7026862576601214261" id="2495307914668729512" nodeInfo="ng">
+          <property name="value" nameId="zr4f.7026862576601088822" value="FR" />
+        </node>
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="2495307914668729513" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553673672" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="COLOR_SPACE" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="false" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="2495307914668729514" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553673672" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="BISULFITE_SAMPLE" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="2495307914668729515" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553673672" value="true" />
+        <property name="name" nameId="tpck.1169194664001" value="LIB_PROTOCOL_PRESERVE_STRAND" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="false" />
+      </node>
+    </node>
+    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="2495307914668729218" nodeInfo="ng">
+      <property name="size" nameId="bs99.2740821845424982900" value="0" />
+      <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+      <property name="tag" nameId="bs99.2051553890368778934" value="EHCTNMT" />
+      <property name="name" nameId="tpck.1169194664001" value="S1_2_R1" />
+      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="7915051628305689874" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="2495307914667371030" resolveInfo="SUPPORTED_INPUT_READS" />
+      <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="2495307914668729225" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="S1_2_R1.fasta" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="2495307914668729495" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="2495307914668729496" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="zr4f.PlatformAttribute" typeId="zr4f.2495307914661212838" id="2495307914668729497" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="READS_PLATFORM" />
+        <node role="value" roleId="zr4f.2495307914661369287" type="zr4f.Illumina" typeId="zr4f.2495307914661373456" id="2495307914668729498" nodeInfo="ng">
+          <property name="value" nameId="zr4f.2495307914661369285" value="Illumina" />
+        </node>
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="zr4f.PairedDirectionAttribute" typeId="zr4f.7026862576601086944" id="2495307914668729499" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_DIRECTIONS" />
+        <node role="direction" roleId="zr4f.7026862576601091392" type="zr4f.FR" typeId="zr4f.7026862576601214261" id="2495307914668729500" nodeInfo="ng">
+          <property name="value" nameId="zr4f.7026862576601088822" value="FR" />
+        </node>
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="2495307914668729501" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553673672" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="COLOR_SPACE" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="false" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="2495307914668729502" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553673672" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="BISULFITE_SAMPLE" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="2495307914668729503" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553673672" value="true" />
+        <property name="name" nameId="tpck.1169194664001" value="LIB_PROTOCOL_PRESERVE_STRAND" />
+        <property name="mandatory" nameId="bs99.4010805091585538096" value="false" />
+      </node>
+    </node>
+    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="2495307914670883266" nodeInfo="ng">
+      <property name="size" nameId="bs99.2740821845424982900" value="0" />
+      <property name="tag" nameId="bs99.2051553890368778934" value="UWAFONK" />
+      <property name="name" nameId="tpck.1169194664001" value="merge-plan" />
+      <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="7915051628305689874" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="2495307914667371007" resolveInfo="GOBYWEB_MERGE_PLAN_FILE" />
+    </node>
+    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="2495307914670893413" nodeInfo="ng">
+      <property name="size" nameId="bs99.2740821845424982900" value="320 bytes" />
+      <property name="tag" nameId="bs99.2051553890368778934" value="JKCSWZR" />
+      <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+      <property name="name" nameId="tpck.1169194664001" value="output-stats" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="2495307914667371026" resolveInfo="READS_STATS_PROPERTIES_FILE" />
+      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="7915051628305689874" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="2495307914670893414" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
         <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257177493" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="RXSBBWZ" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="2495307914670893415" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="output-stats" />
         <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257177494" nodeInfo="ng">
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="2495307914670893416" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="TASK" />
         <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_TYPE" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257177495" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="RXSBBWZ" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="2495307914670893417" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="HDNDVBC" />
         <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
       </node>
-      <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="3403061721257177496" nodeInfo="ng">
+      <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="2495307914670893418" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="STATS" />
+        <property name="path" nameId="bs99.2740821845422344869" value="output-stats.properties" />
+        <property name="size" nameId="bs99.2740821845424881124" value="320 bytes" />
+      </node>
+    </node>
+    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="2495307914670893427" nodeInfo="ng">
+      <property name="size" nameId="bs99.2740821845424982900" value="71 bytes" />
+      <property name="tag" nameId="bs99.2051553890368778934" value="PJSYNWZ" />
+      <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+      <property name="name" nameId="tpck.1169194664001" value="FAKETAG" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="2495307914667371024" resolveInfo="READ_QUALITY_STATS" />
+      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="7915051628305689874" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="2495307914670893428" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
+        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="2495307914670893429" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="FAKETAG" />
+        <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="2495307914670893430" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="TASK" />
+        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_TYPE" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="2495307914670893431" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="HDNDVBC" />
+        <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
+      </node>
+      <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="2495307914670893432" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="READ_QUALITY_STATS" />
+        <property name="path" nameId="bs99.2740821845422344869" value="FAKETAG.quality-stats.tsv" />
+        <property name="size" nameId="bs99.2740821845424881124" value="71 bytes" />
+      </node>
+    </node>
+    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="2495307914670893533" nodeInfo="ng">
+      <property name="size" nameId="bs99.2740821845424982900" value="197 bytes" />
+      <property name="tag" nameId="bs99.2051553890368778934" value="FMRPNGJ" />
+      <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+      <property name="name" nameId="tpck.1169194664001" value="FAKETAG-S1_1" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="2495307914667371052" resolveInfo="WEIGHT_FILES" />
+      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="7915051628305689874" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="2495307914670893534" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
+        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="2495307914670893535" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="FAKETAG-S1_1" />
+        <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="2495307914670893536" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="TASK" />
+        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_TYPE" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="2495307914670893537" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="HDNDVBC" />
+        <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
+      </node>
+      <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="2495307914670893538" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="GC_WEIGHTS" />
+        <property name="path" nameId="bs99.2740821845422344869" value="FAKETAG-S1_1.gc-weights" />
+        <property name="size" nameId="bs99.2740821845424881124" value="197 bytes" />
+      </node>
+    </node>
+    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="2495307914670893547" nodeInfo="ng">
+      <property name="size" nameId="bs99.2740821845424982900" value="68 bytes" />
+      <property name="tag" nameId="bs99.2051553890368778934" value="HEFQITD" />
+      <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+      <property name="name" nameId="tpck.1169194664001" value="S1_1_R1" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="2495307914667370984" resolveInfo="COMPACT_READS" />
+      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="7915051628305689874" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="2495307914670893548" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_ALIGNMENT" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="2495307914670893549" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="COLOR_SPACE" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="2495307914670893550" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+        <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="2495307914670893551" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="JKCSWZR" />
+        <property name="name" nameId="tpck.1169194664001" value="STATS_TAGS" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="2495307914670893552" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="PJSYNWZ" />
+        <property name="name" nameId="tpck.1169194664001" value="QUALITY_TAGS" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="2495307914670893553" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="Illumina" />
+        <property name="name" nameId="tpck.1169194664001" value="READS_PLATFORM" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="2495307914670893554" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="S1_1_R1" />
+        <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="2495307914670893555" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="BISULFITE_SAMPLE" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="2495307914670893556" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="HDNDVBC" />
+        <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="2495307914670893557" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="true" />
+        <property name="name" nameId="tpck.1169194664001" value="LIB_PROTOCOL_PRESERVE_STRAND" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="2495307914670893558" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="S1_1_R1" />
+        <property name="name" nameId="tpck.1169194664001" value="READS_LABEL" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="2495307914670893559" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="4" />
+        <property name="name" nameId="tpck.1169194664001" value="INPUT_READ_LENGTH" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="2495307914670893560" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="FMRPNGJ" />
+        <property name="name" nameId="tpck.1169194664001" value="WEIGHT_TAGS" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="2495307914670893561" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
+        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="2495307914670893562" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="FR" />
+        <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_DIRECTIONS" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="2495307914670893563" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="TASK" />
+        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_TYPE" />
+      </node>
+      <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="2495307914670893564" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="READS_FILE" />
+        <property name="path" nameId="bs99.2740821845422344869" value="FAKETAG-S1_1.compact-reads" />
+        <property name="size" nameId="bs99.2740821845424881124" value="68 bytes" />
+      </node>
+    </node>
+    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="2495307914670893573" nodeInfo="ng">
+      <property name="size" nameId="bs99.2740821845424982900" value="182 bytes" />
+      <property name="tag" nameId="bs99.2051553890368778934" value="HDNDVBC" />
+      <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+      <property name="name" nameId="tpck.1169194664001" value="HDNDVBC" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="2495307914667371013" resolveInfo="JOB_METADATA" />
+      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="7915051628305689874" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="2495307914670893574" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
+        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="2495307914670893575" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="HDNDVBC" />
+        <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="2495307914670893576" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="TASK" />
+        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_TYPE" />
+      </node>
+      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="2495307914670893577" nodeInfo="ng">
+        <property name="value" nameId="bs99.1405392831553684183" value="HDNDVBC" />
+        <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
+      </node>
+      <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="2495307914670893578" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="JOB_STATISTICS" />
-        <property name="path" nameId="bs99.2740821845422344869" value="RXSBBWZ.properties" />
-        <property name="size" nameId="bs99.2740821845424881124" value="694 bytes" />
-      </node>
-    </node>
-    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="3403061721257179193" nodeInfo="ng">
-      <property name="size" nameId="bs99.2740821845424982900" value="68 bytes" />
-      <property name="tag" nameId="bs99.2051553890368778934" value="MMXRKCW" />
-      <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
-      <property name="name" nameId="tpck.1169194664001" value="COMPACT_READS/R1" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="3403061721251610872" resolveInfo="COMPACT_READS" />
-      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="7915051628305689874" />
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257179194" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="false" />
-        <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_ALIGNMENT" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257179195" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="false" />
-        <property name="name" nameId="tpck.1169194664001" value="COLOR_SPACE" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257179196" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="mus_musculus" />
-        <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257179197" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="INFO  MQTopicConnection    - Opening a new Topic connection with localhost:5672&#10;INFO  JobInterface         - Message published with success.&#10;JUJPRLX" />
-        <property name="name" nameId="tpck.1169194664001" value="STATS_TAGS" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257179198" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="INFO  MQTopicConnection    - Opening a new Topic connection with localhost:5672&#10;INFO  JobInterface         - Message published with success.&#10;SQINSZE" />
-        <property name="name" nameId="tpck.1169194664001" value="QUALITY_TAGS" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257179199" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="mus_musculus" />
-        <property name="name" nameId="tpck.1169194664001" value="READS_PLATFORM" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257179200" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="R1" />
-        <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257179201" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="true" />
-        <property name="name" nameId="tpck.1169194664001" value="BISULFITE_SAMPLE" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257179202" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="RXSBBWZ" />
-        <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257179203" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="true" />
-        <property name="name" nameId="tpck.1169194664001" value="LIB_PROTOCOL_PRESERVE_STRAND" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257179204" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="R1" />
-        <property name="name" nameId="tpck.1169194664001" value="READS_LABEL" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257179205" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="4" />
-        <property name="name" nameId="tpck.1169194664001" value="INPUT_READ_LENGTH" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257179206" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="INFO  MQTopicConnection    - Opening a new Topic connection with localhost:5672&#10;INFO  JobInterface         - Message published with success.&#10;XTLNXGB" />
-        <property name="name" nameId="tpck.1169194664001" value="WEIGHT_TAGS" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257179207" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
-        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257179208" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="mus_musculus" />
-        <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_DIRECTIONS" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257179209" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="TASK" />
-        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_TYPE" />
-      </node>
-      <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="3403061721257179210" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="READS_FILE" />
-        <property name="path" nameId="bs99.2740821845422344869" value="FAK1TAG-testUpload.compact-reads" />
-        <property name="size" nameId="bs99.2740821845424881124" value="68 bytes" />
-      </node>
-    </node>
-    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="3403061721257202616" nodeInfo="ng">
-      <property name="size" nameId="bs99.2740821845424982900" value="68 bytes" />
-      <property name="tag" nameId="bs99.2051553890368778934" value="YRZIIQM" />
-      <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
-      <property name="name" nameId="tpck.1169194664001" value="COMPACT_READS/R1" />
-      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="7915051628305689874" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="3403061721251610872" resolveInfo="COMPACT_READS" />
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257202686" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="false" />
-        <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_ALIGNMENT" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257202687" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="false" />
-        <property name="name" nameId="tpck.1169194664001" value="COLOR_SPACE" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257202688" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="mus_musculus" />
-        <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257202689" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="CDSATLI" />
-        <property name="name" nameId="tpck.1169194664001" value="STATS_TAGS" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257202690" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="EIJPGSJ" />
-        <property name="name" nameId="tpck.1169194664001" value="QUALITY_TAGS" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257202691" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="mus_musculus" />
-        <property name="name" nameId="tpck.1169194664001" value="READS_PLATFORM" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257202692" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="R1" />
-        <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257202693" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="true" />
-        <property name="name" nameId="tpck.1169194664001" value="BISULFITE_SAMPLE" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257202694" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="HSGQPXI" />
-        <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257202695" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="true" />
-        <property name="name" nameId="tpck.1169194664001" value="LIB_PROTOCOL_PRESERVE_STRAND" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257202696" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="R1" />
-        <property name="name" nameId="tpck.1169194664001" value="READS_LABEL" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257202697" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="4" />
-        <property name="name" nameId="tpck.1169194664001" value="INPUT_READ_LENGTH" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257202698" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="TLVHDOQ" />
-        <property name="name" nameId="tpck.1169194664001" value="WEIGHT_TAGS" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257202699" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
-        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257202700" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="mus_musculus" />
-        <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_DIRECTIONS" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257202701" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="TASK" />
-        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_TYPE" />
-      </node>
-      <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="3403061721257202702" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="READS_FILE" />
-        <property name="path" nameId="bs99.2740821845422344869" value="FAK1TAG-testUpload.compact-reads" />
-        <property name="size" nameId="bs99.2740821845424881124" value="68 bytes" />
-      </node>
-    </node>
-    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="3403061721257204638" nodeInfo="ng">
-      <property name="size" nameId="bs99.2740821845424982900" value="0" />
-      <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
-      <property name="tag" nameId="bs99.2051553890368778934" value="EUEDUSK" />
-      <property name="name" nameId="tpck.1169194664001" value="R1" />
-      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="7915051628305689874" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="3403061721251610918" resolveInfo="SUPPORTED_INPUT_READS" />
-      <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="3403061721257204645" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="R1.fasta" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257204771" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="mus_musculus" />
-        <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
-        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257204772" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="Illumina" />
-        <property name="name" nameId="tpck.1169194664001" value="READS_PLATFORM" />
-        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257204773" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="FF" />
-        <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_DIRECTIONS" />
-        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="3403061721257204774" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553673672" value="false" />
-        <property name="name" nameId="tpck.1169194664001" value="COLOR_SPACE" />
-        <property name="mandatory" nameId="bs99.4010805091585538096" value="false" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="3403061721257204775" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553673672" value="true" />
-        <property name="name" nameId="tpck.1169194664001" value="BISULFITE_SAMPLE" />
-        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="3403061721257204776" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553673672" value="true" />
-        <property name="name" nameId="tpck.1169194664001" value="LIB_PROTOCOL_PRESERVE_STRAND" />
-        <property name="mandatory" nameId="bs99.4010805091585538096" value="false" />
-      </node>
-    </node>
-    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="3403061721257357410" nodeInfo="ng">
-      <property name="size" nameId="bs99.2740821845424982900" value="68 bytes" />
-      <property name="tag" nameId="bs99.2051553890368778934" value="XZRMYXU" />
-      <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
-      <property name="name" nameId="tpck.1169194664001" value="COMPACT_READS/R1" />
-      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="7915051628305689874" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="3403061721251610872" resolveInfo="COMPACT_READS" />
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257357500" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="false" />
-        <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_ALIGNMENT" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257357501" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="false" />
-        <property name="name" nameId="tpck.1169194664001" value="COLOR_SPACE" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257357502" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="mus_musculus" />
-        <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257357503" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="NPKEHCM" />
-        <property name="name" nameId="tpck.1169194664001" value="STATS_TAGS" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257357504" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="PTCLZZR" />
-        <property name="name" nameId="tpck.1169194664001" value="QUALITY_TAGS" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257357505" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="Illumina" />
-        <property name="name" nameId="tpck.1169194664001" value="READS_PLATFORM" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257357506" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="R1" />
-        <property name="name" nameId="tpck.1169194664001" value="BASENAME" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257357507" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="true" />
-        <property name="name" nameId="tpck.1169194664001" value="BISULFITE_SAMPLE" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257357508" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="JKVQKQB" />
-        <property name="name" nameId="tpck.1169194664001" value="GENERATED_BY" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257357509" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="true" />
-        <property name="name" nameId="tpck.1169194664001" value="LIB_PROTOCOL_PRESERVE_STRAND" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257357510" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="R1" />
-        <property name="name" nameId="tpck.1169194664001" value="READS_LABEL" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257357511" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="4" />
-        <property name="name" nameId="tpck.1169194664001" value="INPUT_READ_LENGTH" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257357512" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="IDTRZEH" />
-        <property name="name" nameId="tpck.1169194664001" value="WEIGHT_TAGS" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257357513" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="PROCESS_READS_TASK" />
-        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_ID" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257357514" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="FF" />
-        <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_DIRECTIONS" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257357515" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="TASK" />
-        <property name="name" nameId="tpck.1169194664001" value="SOURCE_PLUGIN_TYPE" />
-      </node>
-      <node role="entries" roleId="bs99.2740821845423566866" type="bs99.Entry" typeId="bs99.2740821845422344706" id="3403061721257357516" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="READS_FILE" />
-        <property name="path" nameId="bs99.2740821845422344869" value="FAK1TAG-testUpload.compact-reads" />
-        <property name="size" nameId="bs99.2740821845424881124" value="68 bytes" />
-      </node>
-    </node>
-    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="3403061721257205565" nodeInfo="ng">
-      <property name="size" nameId="bs99.2740821845424982900" value="0" />
-      <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
-      <property name="tag" nameId="bs99.2051553890368778934" value="QYQOXIZ" />
-      <property name="name" nameId="tpck.1169194664001" value="R1" />
-      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="7915051628305689874" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="3403061721251610918" resolveInfo="SUPPORTED_INPUT_READS" />
-      <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="3403061721257205572" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="R1.fasta" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257377765" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="" />
-        <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
-        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257377766" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="" />
-        <property name="name" nameId="tpck.1169194664001" value="READS_PLATFORM" />
-        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721257377767" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="" />
-        <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_DIRECTIONS" />
-        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="3403061721257377768" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553673672" value="false" />
-        <property name="name" nameId="tpck.1169194664001" value="COLOR_SPACE" />
-        <property name="mandatory" nameId="bs99.4010805091585538096" value="false" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="3403061721257377769" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553673672" value="false" />
-        <property name="name" nameId="tpck.1169194664001" value="BISULFITE_SAMPLE" />
-        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="3403061721257377770" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553673672" value="false" />
-        <property name="name" nameId="tpck.1169194664001" value="LIB_PROTOCOL_PRESERVE_STRAND" />
-        <property name="mandatory" nameId="bs99.4010805091585538096" value="false" />
-      </node>
-    </node>
-    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="3403061721257377968" nodeInfo="ng">
-      <property name="size" nameId="bs99.2740821845424982900" value="0" />
-      <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
-      <property name="tag" nameId="bs99.2051553890368778934" value="HUNXKGI" />
-      <property name="name" nameId="tpck.1169194664001" value="R1" />
-      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="7915051628305689874" />
-      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="3403061721251610918" resolveInfo="SUPPORTED_INPUT_READS" />
-      <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="3403061721257377975" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="R1.fasta" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721258408533" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="mus_musculus" />
-        <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
-        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721258408534" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="Illumina" />
-        <property name="name" nameId="tpck.1169194664001" value="READS_PLATFORM" />
-        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3403061721258408535" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="FF" />
-        <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_DIRECTIONS" />
-        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="3403061721258408536" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553673672" value="false" />
-        <property name="name" nameId="tpck.1169194664001" value="COLOR_SPACE" />
-        <property name="mandatory" nameId="bs99.4010805091585538096" value="false" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="3403061721258408537" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553673672" value="false" />
-        <property name="name" nameId="tpck.1169194664001" value="BISULFITE_SAMPLE" />
-        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
-      </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.BooleanAttribute" typeId="bs99.1405392831553673671" id="3403061721258408538" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553673672" value="false" />
-        <property name="name" nameId="tpck.1169194664001" value="LIB_PROTOCOL_PRESERVE_STRAND" />
-        <property name="mandatory" nameId="bs99.4010805091585538096" value="false" />
+        <property name="path" nameId="bs99.2740821845422344869" value="HDNDVBC.properties" />
+        <property name="size" nameId="bs99.2740821845424881124" value="182 bytes" />
       </node>
     </node>
   </root>
   <root type="bs99.ExecutionTool" typeId="bs99.2465489689642685978" id="3403061721251564942" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="ExecutionTool" />
     <property name="jobName" nameId="bs99.606449909789338951" value="second_job" />
-    <property name="message" nameId="bs99.3927327347527013400" value="Job successfully submitted. Assigned tag: JKVQKQB" />
+    <property name="message" nameId="bs99.3927327347527013400" value="Job successfully submitted. Assigned tag: HDNDVBC" />
     <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="7915051628305677536" resolveInfo="MSNotebook" />
-    <link role="currentJob" roleId="bs99.5540992037659823465" targetNodeId="3403061721257205012" resolveInfo="second_job" />
-    <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="3155417396017882225" resolveInfo="PROCESS_READS_TASK" />
-    <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="3403061721251615541" nodeInfo="ng">
-      <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="3403061721251611041" resolveInfo="UPLOADS_FILES" />
-      <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="3403061721257205008" nodeInfo="ng">
-        <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="3403061721257204638" resolveInfo="R1" />
+    <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="2495307914667371147" resolveInfo="PROCESS_READS_TASK" />
+    <link role="currentJob" roleId="bs99.5540992037659823465" targetNodeId="2495307914670883478" resolveInfo="second_job" />
+    <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="2495307914668731601" nodeInfo="ng">
+      <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="2495307914667371154" resolveInfo="UPLOADS_FILES" />
+      <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="2495307914668731735" nodeInfo="ng">
+        <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="2495307914668729188" resolveInfo="S1_1_R1" />
+      </node>
+      <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="2495307914668731740" nodeInfo="ng">
+        <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="2495307914668729206" resolveInfo="S1_1_R2" />
+      </node>
+      <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="2495307914668736834" nodeInfo="ng">
+        <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="2495307914668729218" resolveInfo="S1_2_R1" />
+      </node>
+      <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="2495307914668736844" nodeInfo="ng">
+        <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="2495307914668729230" resolveInfo="S1_2_R2" />
+      </node>
+      <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="2495307914668736856" nodeInfo="ng">
+        <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="2495307914668729242" resolveInfo="S2_1_R1" />
+      </node>
+      <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="2495307914668736870" nodeInfo="ng">
+        <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="2495307914668729254" resolveInfo="S2_1_R2" />
+      </node>
+      <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="2495307914668736909" nodeInfo="ng">
+        <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="2495307914668729266" resolveInfo="S2_2_R1" />
+      </node>
+      <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="2495307914668736927" nodeInfo="ng">
+        <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="2495307914668729278" resolveInfo="S2_2_R2" />
       </node>
     </node>
-    <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="3403061721251615542" nodeInfo="ng">
-      <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="3403061721251611043" resolveInfo="UPLOAD_MERGE_PLAN" />
-      <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="3403061721251616848" nodeInfo="ng">
-        <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="3403061721251564920" resolveInfo="WFIWOOJ-details" />
+    <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="2495307914668731602" nodeInfo="ng">
+      <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="2495307914667371156" resolveInfo="UPLOAD_MERGE_PLAN" />
+      <node role="values" roleId="bs99.2995632242847956813" type="jlq1.MergePlanEditor" typeId="jlq1.8273662917775851475" id="2495307914670877759" nodeInfo="ng">
+        <link role="registeredMergePlanFSInstance" roleId="jlq1.8273662917776369954" targetNodeId="2495307914670883266" resolveInfo="merge-plan" />
+        <node role="pairInfo" roleId="jlq1.8273662917776534287" type="jlq1.WithPairInfo" typeId="jlq1.8273662917776534284" id="2495307914670877793" nodeInfo="ng">
+          <property name="pairIndicator1" nameId="jlq1.8273662917776534256" value="_R1" />
+          <property name="pairIndicator2" nameId="jlq1.8273662917776534258" value="_R2" />
+        </node>
       </node>
     </node>
-    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="3403061721251615543" nodeInfo="ng">
-      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="3403061721251611056" resolveInfo="Tag for the new sample." />
-      <node role="value" roleId="bs99.6506431596944968310" type="bs99.StringOptionValue" typeId="bs99.606449909792929476" id="3403061721251615545" nodeInfo="ng">
-        <property name="value" nameId="bs99.606449909792929477" value="FAK1TAG" />
+    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="2495307914668731603" nodeInfo="ng">
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="2495307914667371171" resolveInfo="Tag for the new sample." />
+      <node role="value" roleId="bs99.6506431596944968310" type="bs99.StringOptionValue" typeId="bs99.606449909792929476" id="2495307914668731607" nodeInfo="ng">
+        <property name="value" nameId="bs99.606449909792929477" value="FAKETAG" />
       </node>
     </node>
+    <node role="listeners" roleId="bs99.7744544840734386662" type="7aad.ObjectCreationHelper" typeId="7aad.7744544840731999292" id="2495307914670883491" nodeInfo="ng" />
   </root>
   <root type="bs99.JobContainer" typeId="bs99.6642819616986824926" id="3403061721251604623" nodeInfo="ng">
     <link role="environment" roleId="bs99.6642819616986825109" targetNodeId="7915051628305677536" resolveInfo="MSNotebook" />
-    <node role="jobs" roleId="bs99.6642819616986825107" type="bs99.Job" typeId="bs99.2051553890368756070" id="3403061721254428394" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="FirstJob" />
-      <property name="assignedTag" nameId="bs99.2408108650474877836" value="QBYRCEZ" />
-      <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="3403061721251611034" resolveInfo="PROCESS_READS_TASK" />
+    <node role="jobs" roleId="bs99.6642819616986825107" type="bs99.Job" typeId="bs99.2051553890368756070" id="2495307914670883478" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="second_job" />
+      <property name="assignedTag" nameId="bs99.2408108650474877836" value="HDNDVBC" />
+      <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="2495307914667371147" resolveInfo="PROCESS_READS_TASK" />
       <link role="executionEnvironment" roleId="bs99.2051553890368806506" targetNodeId="7915051628305677536" resolveInfo="MSNotebook" />
-      <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="3403061721254428395" nodeInfo="ng">
+      <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="2495307914670883479" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="UPLOADS_FILES" />
-        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="3403061721254428396" nodeInfo="ng">
-          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="3403061721251619679" resolveInfo="R1" />
+        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="2495307914670883480" nodeInfo="ng">
+          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="2495307914668729188" resolveInfo="S1_1_R1" />
+        </node>
+        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="2495307914670883481" nodeInfo="ng">
+          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="2495307914668729206" resolveInfo="S1_1_R2" />
+        </node>
+        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="2495307914670883482" nodeInfo="ng">
+          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="2495307914668729218" resolveInfo="S1_2_R1" />
+        </node>
+        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="2495307914670883483" nodeInfo="ng">
+          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="2495307914668729230" resolveInfo="S1_2_R2" />
+        </node>
+        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="2495307914670883484" nodeInfo="ng">
+          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="2495307914668729242" resolveInfo="S2_1_R1" />
+        </node>
+        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="2495307914670883485" nodeInfo="ng">
+          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="2495307914668729254" resolveInfo="S2_1_R2" />
+        </node>
+        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="2495307914670883486" nodeInfo="ng">
+          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="2495307914668729266" resolveInfo="S2_2_R1" />
+        </node>
+        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="2495307914670883487" nodeInfo="ng">
+          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="2495307914668729278" resolveInfo="S2_2_R2" />
         </node>
       </node>
-      <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="3403061721254428397" nodeInfo="ng">
+      <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="2495307914670883488" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="UPLOAD_MERGE_PLAN" />
-        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="3403061721254428398" nodeInfo="ng">
-          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="3403061721251564920" resolveInfo="WFIWOOJ-details" />
+        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="2495307914670883489" nodeInfo="ng">
+          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="2495307914670883266" resolveInfo="merge-plan" />
         </node>
       </node>
-      <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="3403061721254428399" nodeInfo="ng">
+      <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="2495307914670883490" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="TAG" />
-        <property name="value" nameId="bs99.606449909793678507" value="FAK5TAG" />
+        <property name="value" nameId="bs99.606449909793678507" value="FAKETAG" />
       </node>
-      <node role="results" roleId="bs99.606449909788800957" type="bs99.JobResult" typeId="bs99.2051553890369292719" id="3403061721254428403" nodeInfo="ng">
+      <node role="results" roleId="bs99.606449909788800957" type="bs99.JobResult" typeId="bs99.2051553890369292719" id="2495307914670883495" nodeInfo="ng">
         <property name="output" nameId="bs99.2051553890369299989" value="SUCCESSFUL" />
+        <node role="filesets" roleId="bs99.1212232161627158989" type="bs99.PublishedFileSetInstance" typeId="bs99.1212232161627158981" id="2495307914670893411" nodeInfo="ng">
+          <property name="tag" nameId="bs99.1212232161627158982" value="JKCSWZR" />
+          <property name="type" nameId="bs99.1212232161627158984" value="READS_STATS_PROPERTIES_FILE" />
+        </node>
+        <node role="filesets" roleId="bs99.1212232161627158989" type="bs99.PublishedFileSetInstance" typeId="bs99.1212232161627158981" id="2495307914670893425" nodeInfo="ng">
+          <property name="tag" nameId="bs99.1212232161627158982" value="PJSYNWZ" />
+          <property name="type" nameId="bs99.1212232161627158984" value="READ_QUALITY_STATS" />
+        </node>
+        <node role="filesets" roleId="bs99.1212232161627158989" type="bs99.PublishedFileSetInstance" typeId="bs99.1212232161627158981" id="2495307914670893531" nodeInfo="ng">
+          <property name="tag" nameId="bs99.1212232161627158982" value="FMRPNGJ" />
+          <property name="type" nameId="bs99.1212232161627158984" value="WEIGHT_FILES" />
+        </node>
+        <node role="filesets" roleId="bs99.1212232161627158989" type="bs99.PublishedFileSetInstance" typeId="bs99.1212232161627158981" id="2495307914670893545" nodeInfo="ng">
+          <property name="tag" nameId="bs99.1212232161627158982" value="HEFQITD" />
+          <property name="type" nameId="bs99.1212232161627158984" value="COMPACT_READS" />
+        </node>
+        <node role="filesets" roleId="bs99.1212232161627158989" type="bs99.PublishedFileSetInstance" typeId="bs99.1212232161627158981" id="2495307914670893571" nodeInfo="ng">
+          <property name="tag" nameId="bs99.1212232161627158982" value="HDNDVBC" />
+          <property name="type" nameId="bs99.1212232161627158984" value="JOB_METADATA" />
+        </node>
       </node>
-      <node role="monitor" roleId="bs99.5540992037659759954" type="bbh2.JobMonitor" typeId="bbh2.2017323193335723531" id="3403061721254428404" nodeInfo="ng">
-        <property name="jobtag" nameId="bbh2.2017323193335729124" value="QBYRCEZ" />
+      <node role="monitor" roleId="bs99.5540992037659759954" type="bbh2.JobMonitor" typeId="bbh2.2017323193335723531" id="2495307914670883497" nodeInfo="ng">
+        <property name="jobtag" nameId="bbh2.2017323193335729124" value="HDNDVBC" />
         <link role="broker" roleId="bbh2.2017323193335950083" targetNodeId="7915051628305677532" resolveInfo="broker" />
-        <node role="viewer" roleId="bbh2.2017323193335764208" type="bbh2.MessageViewer" typeId="bbh2.2017323193335763037" id="3403061721254428405" nodeInfo="ng">
-          <property name="jobStatus" nameId="bbh2.8711817271669511123" value="completed" />
-          <property name="messageCounter" nameId="bbh2.8711817271669613111" value="12" />
-          <property name="message" nameId="bbh2.6041342965312064113" value="refresh invoked" />
-          <property name="autoRefresh" nameId="bbh2.1011954325398115419" value="true" />
-          <link role="listener" roleId="bbh2.1526708538680794525" targetNodeId="3403061721254428406" resolveInfo="NYoSh-1409509680714" />
-          <link role="eventListener" roleId="bbh2.1212232161626043352" targetNodeId="3403061721254428404" />
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721254430187" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="submitted" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721254430185" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 14:28:17 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721254430186" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Task submitted: " />
-              </node>
-            </node>
-          </node>
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721254430190" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="resources" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721254430188" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 14:28:18 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721254430189" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Installing plugin mandatory resources" />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721254430191" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 14:28:21 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721254430192" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Expose environment variables for artifacts.." />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721254430193" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 14:28:24 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721254430194" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Installing plugin resources" />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721254430195" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 14:28:26 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721254430196" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Expose environment variables for artifacts.." />
-              </node>
-            </node>
-          </node>
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721254430199" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="unclassified" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721254430197" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 14:28:30 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721254430198" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Required resources installed." />
-              </node>
-            </node>
-          </node>
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721254436157" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="registered_filesets" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721254436155" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 14:29:34 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721254436156" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="READS_STATS_PROPERTIES_FILE:[ZQPVNEG]" />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721254436158" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 14:29:36 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721254436159" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="READ_QUALITY_STATS:[WUTDWDZ]" />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721254436160" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 14:29:38 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721254436161" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="WEIGHT_FILES:[PCVQUCB]" />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721254436239" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 14:29:41 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721254436240" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="COMPACT_READS:[ALDQBJO]" />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721254436241" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 14:29:45 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721254436242" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="JOB_METADATA:[QBYRCEZ]" />
-              </node>
-            </node>
-          </node>
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721254436396" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="done" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721254436394" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 14:29:57 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721254436395" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Job completed" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node role="listener" roleId="bbh2.2017323193335730758" type="bbh2.MessageListener" typeId="bbh2.2017323193335730757" id="3403061721254428406" nodeInfo="ng">
-          <property name="subscribed" nameId="bbh2.2017323193335803495" value="true" />
-          <property name="name" nameId="tpck.1169194664001" value="NYoSh-1409509680714" />
-          <property name="jobTag" nameId="bbh2.2017323193335763033" value="QBYRCEZ" />
-          <link role="broker" roleId="bbh2.2017323193335803042" targetNodeId="7915051628305677532" resolveInfo="broker" />
-        </node>
-        <node role="jobStatusListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobListener" typeId="bs99.1212232161626260983" id="3403061721254428407" nodeInfo="ng">
-          <property name="rank" nameId="bbh2.7926097513313212588" value="0" />
-          <link role="job" roleId="bs99.1212232161627127088" targetNodeId="3403061721254428394" resolveInfo="FirstJob" />
-        </node>
-      </node>
-    </node>
-    <node role="jobs" roleId="bs99.6642819616986825107" type="bs99.Job" typeId="bs99.2051553890368756070" id="3403061721255458903" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="FirstJob" />
-      <property name="assignedTag" nameId="bs99.2408108650474877836" value="RSLGSPL" />
-      <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="3403061721251611034" resolveInfo="PROCESS_READS_TASK" />
-      <link role="executionEnvironment" roleId="bs99.2051553890368806506" targetNodeId="7915051628305677536" resolveInfo="MSNotebook" />
-      <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="3403061721255458904" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="UPLOADS_FILES" />
-        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="3403061721255458905" nodeInfo="ng">
-          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="3403061721251619679" resolveInfo="R1" />
-        </node>
-      </node>
-      <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="3403061721255458906" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="UPLOAD_MERGE_PLAN" />
-        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="3403061721255458907" nodeInfo="ng">
-          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="3403061721251564920" resolveInfo="WFIWOOJ-details" />
-        </node>
-      </node>
-      <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="3403061721255458908" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="TAG" />
-        <property name="value" nameId="bs99.606449909793678507" value="FAK5TAG" />
-      </node>
-      <node role="results" roleId="bs99.606449909788800957" type="bs99.JobResult" typeId="bs99.2051553890369292719" id="3403061721255458912" nodeInfo="ng">
-        <property name="output" nameId="bs99.2051553890369299989" value="SUCCESSFUL" />
-      </node>
-      <node role="monitor" roleId="bs99.5540992037659759954" type="bbh2.JobMonitor" typeId="bbh2.2017323193335723531" id="3403061721255458913" nodeInfo="ng">
-        <property name="jobtag" nameId="bbh2.2017323193335729124" value="RSLGSPL" />
-        <link role="broker" roleId="bbh2.2017323193335950083" targetNodeId="7915051628305677532" resolveInfo="broker" />
-        <node role="viewer" roleId="bbh2.2017323193335764208" type="bbh2.MessageViewer" typeId="bbh2.2017323193335763037" id="3403061721255458914" nodeInfo="ng">
+        <node role="viewer" roleId="bbh2.2017323193335764208" type="bbh2.MessageViewer" typeId="bbh2.2017323193335763037" id="2495307914670883498" nodeInfo="ng">
           <property name="jobStatus" nameId="bbh2.8711817271669511123" value="completed" />
           <property name="messageCounter" nameId="bbh2.8711817271669613111" value="12" />
           <property name="message" nameId="bbh2.6041342965312064113" value="refresh invoked" />
           <property name="autoRefresh" nameId="bbh2.1011954325398115419" value="false" />
-          <link role="listener" roleId="bbh2.1526708538680794525" targetNodeId="3403061721255458915" resolveInfo="NYoSh-1409514318391" />
-          <link role="eventListener" roleId="bbh2.1212232161626043352" targetNodeId="3403061721255458913" />
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721255460495" nodeInfo="ng">
+          <link role="listener" roleId="bbh2.1526708538680794525" targetNodeId="2495307914670883499" resolveInfo="NYoSh-HDNDVBC" />
+          <link role="eventListener" roleId="bbh2.1212232161626043352" targetNodeId="2495307914670883497" />
+          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="2495307914670886538" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="submitted" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721255460493" nodeInfo="ng">
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="2495307914670886536" nodeInfo="ng">
               <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
               <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 15:45:36 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721255460494" nodeInfo="ng">
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sat Oct 11 08:56:00 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="2495307914670886537" nodeInfo="ng">
                 <property name="text" nameId="bbh2.5540992037655099356" value="Task submitted: " />
               </node>
             </node>
           </node>
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721255460498" nodeInfo="ng">
+          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="2495307914670886541" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="resources" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721255460496" nodeInfo="ng">
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="2495307914670886539" nodeInfo="ng">
               <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
               <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 15:45:38 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721255460497" nodeInfo="ng">
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sat Oct 11 08:56:01 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="2495307914670886540" nodeInfo="ng">
                 <property name="text" nameId="bbh2.5540992037655099356" value="Installing plugin mandatory resources" />
               </node>
             </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721255460499" nodeInfo="ng">
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="2495307914670886542" nodeInfo="ng">
               <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
               <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 15:45:40 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721255460500" nodeInfo="ng">
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sat Oct 11 08:56:04 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="2495307914670886543" nodeInfo="ng">
                 <property name="text" nameId="bbh2.5540992037655099356" value="Expose environment variables for artifacts.." />
               </node>
             </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721255460501" nodeInfo="ng">
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="2495307914670886544" nodeInfo="ng">
               <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
               <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 15:45:43 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721255460502" nodeInfo="ng">
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sat Oct 11 08:56:06 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="2495307914670886545" nodeInfo="ng">
                 <property name="text" nameId="bbh2.5540992037655099356" value="Installing plugin resources" />
               </node>
             </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721255460503" nodeInfo="ng">
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="2495307914670886546" nodeInfo="ng">
               <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
               <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 15:45:46 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721255460504" nodeInfo="ng">
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sat Oct 11 08:56:09 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="2495307914670886547" nodeInfo="ng">
                 <property name="text" nameId="bbh2.5540992037655099356" value="Expose environment variables for artifacts.." />
               </node>
             </node>
           </node>
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721255460507" nodeInfo="ng">
+          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="2495307914670886550" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="unclassified" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721255460505" nodeInfo="ng">
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="2495307914670886548" nodeInfo="ng">
               <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
               <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 15:45:49 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721255460506" nodeInfo="ng">
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sat Oct 11 08:56:11 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="2495307914670886549" nodeInfo="ng">
                 <property name="text" nameId="bbh2.5540992037655099356" value="Required resources installed." />
               </node>
             </node>
           </node>
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721255460510" nodeInfo="ng">
+          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="2495307914670893407" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="registered_filesets" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721255460508" nodeInfo="ng">
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="2495307914670893405" nodeInfo="ng">
               <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
               <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 15:46:52 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721255460509" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="READS_STATS_PROPERTIES_FILE:[RZKGPTN]" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sat Oct 11 08:57:39 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="2495307914670893406" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="READS_STATS_PROPERTIES_FILE:[JKCSWZR]" />
               </node>
             </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721255460511" nodeInfo="ng">
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="2495307914670893420" nodeInfo="ng">
               <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
               <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 15:46:54 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721255460512" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="READ_QUALITY_STATS:[WVCHKOW]" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sat Oct 11 08:57:41 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="2495307914670893421" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="READ_QUALITY_STATS:[PJSYNWZ]" />
               </node>
             </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721255460513" nodeInfo="ng">
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="2495307914670893526" nodeInfo="ng">
               <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
               <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 15:46:55 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721255460514" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="WEIGHT_FILES:[RQKQLTD]" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sat Oct 11 08:57:43 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="2495307914670893527" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="WEIGHT_FILES:[FMRPNGJ]" />
               </node>
             </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721255460515" nodeInfo="ng">
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="2495307914670893540" nodeInfo="ng">
               <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
               <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 15:46:58 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721255460516" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="COMPACT_READS:[VOMVULD]" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sat Oct 11 08:57:45 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="2495307914670893541" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="COMPACT_READS:[HEFQITD]" />
               </node>
             </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721255460517" nodeInfo="ng">
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="2495307914670893566" nodeInfo="ng">
               <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
               <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 15:47:01 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721255460518" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="JOB_METADATA:[RSLGSPL]" />
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sat Oct 11 08:57:49 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="2495307914670893567" nodeInfo="ng">
+                <property name="text" nameId="bbh2.5540992037655099356" value="JOB_METADATA:[HDNDVBC]" />
               </node>
             </node>
           </node>
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721255460521" nodeInfo="ng">
+          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="2495307914670893582" nodeInfo="ng">
             <property name="name" nameId="tpck.1169194664001" value="done" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721255460519" nodeInfo="ng">
+            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="2495307914670893580" nodeInfo="ng">
               <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
               <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 15:47:13 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721255460520" nodeInfo="ng">
+              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sat Oct 11 08:58:00 EDT 2014" />
+              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="2495307914670893581" nodeInfo="ng">
                 <property name="text" nameId="bbh2.5540992037655099356" value="Job completed" />
               </node>
             </node>
           </node>
         </node>
-        <node role="listener" roleId="bbh2.2017323193335730758" type="bbh2.MessageListener" typeId="bbh2.2017323193335730757" id="3403061721255458915" nodeInfo="ng">
+        <node role="listener" roleId="bbh2.2017323193335730758" type="bbh2.MessageListener" typeId="bbh2.2017323193335730757" id="2495307914670883499" nodeInfo="ng">
           <property name="subscribed" nameId="bbh2.2017323193335803495" value="false" />
-          <property name="name" nameId="tpck.1169194664001" value="NYoSh-1409514318391" />
-          <property name="jobTag" nameId="bbh2.2017323193335763033" value="RSLGSPL" />
+          <property name="jobTag" nameId="bbh2.2017323193335763033" value="HDNDVBC" />
+          <property name="name" nameId="tpck.1169194664001" value="NYoSh-HDNDVBC" />
           <link role="broker" roleId="bbh2.2017323193335803042" targetNodeId="7915051628305677532" resolveInfo="broker" />
         </node>
-        <node role="jobStatusListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobListener" typeId="bs99.1212232161626260983" id="3403061721255458916" nodeInfo="ng">
+        <node role="jobStatusListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobListener" typeId="bs99.1212232161626260983" id="2495307914670883500" nodeInfo="ng">
           <property name="rank" nameId="bbh2.7926097513313212588" value="0" />
-          <link role="job" roleId="bs99.1212232161627127088" targetNodeId="3403061721255458903" resolveInfo="FirstJob" />
+          <link role="job" roleId="bs99.1212232161627127088" targetNodeId="2495307914670883478" resolveInfo="second_job" />
         </node>
-        <node role="fileSetStatusListeners" roleId="bbh2.6587162469552453227" type="bs99.RegisterFileSetListener" typeId="bs99.3403061721254603833" id="3403061721255458917" nodeInfo="ng">
-          <link role="job" roleId="bs99.3403061721254603840" targetNodeId="3403061721255458903" resolveInfo="FirstJob" />
+        <node role="fileSetStatusListeners" roleId="bbh2.6587162469552453227" type="bs99.RegisterFileSetListener" typeId="bs99.3403061721254603833" id="2495307914670883503" nodeInfo="ng">
+          <property name="rank" nameId="bbh2.6587162469552164420" value="1" />
+          <link role="job" roleId="bs99.3403061721254603840" targetNodeId="2495307914670883478" resolveInfo="second_job" />
         </node>
-      </node>
-    </node>
-    <node role="jobs" roleId="bs99.6642819616986825107" type="bs99.Job" typeId="bs99.2051553890368756070" id="3403061721256079049" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="FirstJob" />
-      <property name="assignedTag" nameId="bs99.2408108650474877836" value="RBIFQKE" />
-      <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="3403061721251611034" resolveInfo="PROCESS_READS_TASK" />
-      <link role="executionEnvironment" roleId="bs99.2051553890368806506" targetNodeId="7915051628305677536" resolveInfo="MSNotebook" />
-      <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="3403061721256079050" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="UPLOADS_FILES" />
-        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="3403061721256079051" nodeInfo="ng">
-          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="3403061721251619679" resolveInfo="R1" />
+        <node role="fileSetStatusListeners" roleId="bbh2.6587162469552453227" type="7aad.ListenForSampleFileSets" typeId="7aad.7926097513313207836" id="2495307914670883501" nodeInfo="ng">
+          <property name="rank" nameId="bbh2.6587162469552164420" value="100" />
         </node>
-      </node>
-      <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="3403061721256079052" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="UPLOAD_MERGE_PLAN" />
-        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="3403061721256079053" nodeInfo="ng">
-          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="3403061721251564920" resolveInfo="WFIWOOJ-details" />
+        <node role="fileSetStatusListeners" roleId="bbh2.6587162469552453227" type="7aad.ListenForAlignmentFileSets" typeId="7aad.6587162469555572132" id="2495307914670883502" nodeInfo="ng">
+          <property name="rank" nameId="bbh2.6587162469552164420" value="200" />
         </node>
-      </node>
-      <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="3403061721256079054" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="TAG" />
-        <property name="value" nameId="bs99.606449909793678507" value="FAK1TAG" />
-      </node>
-      <node role="results" roleId="bs99.606449909788800957" type="bs99.JobResult" typeId="bs99.2051553890369292719" id="3403061721256079058" nodeInfo="ng">
-        <property name="output" nameId="bs99.2051553890369299989" value="SUCCESSFUL" />
-      </node>
-      <node role="monitor" roleId="bs99.5540992037659759954" type="bbh2.JobMonitor" typeId="bbh2.2017323193335723531" id="3403061721256079059" nodeInfo="ng">
-        <property name="jobtag" nameId="bbh2.2017323193335729124" value="RBIFQKE" />
-        <link role="broker" roleId="bbh2.2017323193335950083" targetNodeId="7915051628305677532" resolveInfo="broker" />
-        <node role="viewer" roleId="bbh2.2017323193335764208" type="bbh2.MessageViewer" typeId="bbh2.2017323193335763037" id="3403061721256079060" nodeInfo="ng">
-          <property name="jobStatus" nameId="bbh2.8711817271669511123" value="completed" />
-          <property name="messageCounter" nameId="bbh2.8711817271669613111" value="12" />
-          <property name="message" nameId="bbh2.6041342965312064113" value="refresh invoked" />
-          <property name="autoRefresh" nameId="bbh2.1011954325398115419" value="true" />
-          <link role="listener" roleId="bbh2.1526708538680794525" targetNodeId="3403061721256079061" resolveInfo="NYoSh-1409519020030" />
-          <link role="eventListener" roleId="bbh2.1212232161626043352" targetNodeId="3403061721256079059" />
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721256085875" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="submitted" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721256085873" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 17:03:57 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721256085874" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Task submitted: " />
-              </node>
-            </node>
-          </node>
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721256085878" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="resources" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721256085876" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 17:03:58 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721256085877" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Installing plugin mandatory resources" />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721256085879" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 17:04:01 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721256085880" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Expose environment variables for artifacts.." />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721256085881" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 17:04:03 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721256085882" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Installing plugin resources" />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721256085883" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 17:04:06 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721256085884" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Expose environment variables for artifacts.." />
-              </node>
-            </node>
-          </node>
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721256085887" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="unclassified" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721256085885" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 17:04:08 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721256085886" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Required resources installed." />
-              </node>
-            </node>
-          </node>
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721256085890" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="registered_filesets" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721256085888" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 17:05:11 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721256085889" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="READS_STATS_PROPERTIES_FILE:[WZKDCCR]" />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721256085891" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 17:05:13 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721256085892" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="READ_QUALITY_STATS:[VTNKTRG]" />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721256085893" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 17:05:15 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721256085894" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="WEIGHT_FILES:[YCBZDAT]" />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721256085895" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 17:05:16 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721256085896" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="COMPACT_READS:[IXDVHNO]" />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721256085897" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 17:05:20 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721256085898" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="JOB_METADATA:[RBIFQKE]" />
-              </node>
-            </node>
-          </node>
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721256085901" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="done" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721256085899" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 17:05:31 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721256085900" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Job completed" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node role="listener" roleId="bbh2.2017323193335730758" type="bbh2.MessageListener" typeId="bbh2.2017323193335730757" id="3403061721256079061" nodeInfo="ng">
-          <property name="subscribed" nameId="bbh2.2017323193335803495" value="true" />
-          <property name="name" nameId="tpck.1169194664001" value="NYoSh-1409519020030" />
-          <property name="jobTag" nameId="bbh2.2017323193335763033" value="RBIFQKE" />
-          <link role="broker" roleId="bbh2.2017323193335803042" targetNodeId="7915051628305677532" resolveInfo="broker" />
-        </node>
-        <node role="jobStatusListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobListener" typeId="bs99.1212232161626260983" id="3403061721256079062" nodeInfo="ng">
-          <property name="rank" nameId="bbh2.7926097513313212588" value="0" />
-          <link role="job" roleId="bs99.1212232161627127088" targetNodeId="3403061721256079049" resolveInfo="FirstJob" />
-        </node>
-        <node role="fileSetStatusListeners" roleId="bbh2.6587162469552453227" type="bs99.RegisterFileSetListener" typeId="bs99.3403061721254603833" id="3403061721256079063" nodeInfo="ng">
-          <link role="job" roleId="bs99.3403061721254603840" targetNodeId="3403061721256079049" resolveInfo="FirstJob" />
-        </node>
-      </node>
-    </node>
-    <node role="jobs" roleId="bs99.6642819616986825107" type="bs99.Job" typeId="bs99.2051553890368756070" id="3403061721256906695" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="FirstJob" />
-      <property name="assignedTag" nameId="bs99.2408108650474877836" value="ODKGPYR" />
-      <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="3403061721251611034" resolveInfo="PROCESS_READS_TASK" />
-      <link role="executionEnvironment" roleId="bs99.2051553890368806506" targetNodeId="7915051628305677536" resolveInfo="MSNotebook" />
-      <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="3403061721256906696" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="UPLOADS_FILES" />
-        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="3403061721256906697" nodeInfo="ng">
-          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="3403061721251619679" resolveInfo="R1" />
-        </node>
-      </node>
-      <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="3403061721256906698" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="UPLOAD_MERGE_PLAN" />
-        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="3403061721256906699" nodeInfo="ng">
-          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="3403061721251564920" resolveInfo="WFIWOOJ-details" />
-        </node>
-      </node>
-      <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="3403061721256906700" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="TAG" />
-        <property name="value" nameId="bs99.606449909793678507" value="FAK1TAG" />
-      </node>
-      <node role="results" roleId="bs99.606449909788800957" type="bs99.JobResult" typeId="bs99.2051553890369292719" id="3403061721256906704" nodeInfo="ng">
-        <property name="output" nameId="bs99.2051553890369299989" value="SUCCESSFUL" />
-      </node>
-      <node role="monitor" roleId="bs99.5540992037659759954" type="bbh2.JobMonitor" typeId="bbh2.2017323193335723531" id="3403061721256906705" nodeInfo="ng">
-        <property name="jobtag" nameId="bbh2.2017323193335729124" value="ODKGPYR" />
-        <link role="broker" roleId="bbh2.2017323193335950083" targetNodeId="7915051628305677532" resolveInfo="broker" />
-        <node role="viewer" roleId="bbh2.2017323193335764208" type="bbh2.MessageViewer" typeId="bbh2.2017323193335763037" id="3403061721256906706" nodeInfo="ng">
-          <property name="jobStatus" nameId="bbh2.8711817271669511123" value="completed" />
-          <property name="messageCounter" nameId="bbh2.8711817271669613111" value="12" />
-          <property name="message" nameId="bbh2.6041342965312064113" value="refresh invoked" />
-          <property name="autoRefresh" nameId="bbh2.1011954325398115419" value="false" />
-          <link role="listener" roleId="bbh2.1526708538680794525" targetNodeId="3403061721256906707" resolveInfo="NYoSh-1409521411442" />
-          <link role="eventListener" roleId="bbh2.1212232161626043352" targetNodeId="3403061721256906705" />
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721256908298" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="submitted" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721256908296" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 17:43:50 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721256908297" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Task submitted: " />
-              </node>
-            </node>
-          </node>
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721256908301" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="resources" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721256908299" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 17:43:51 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721256908300" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Installing plugin mandatory resources" />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721256908302" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 17:43:54 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721256908303" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Expose environment variables for artifacts.." />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721256908304" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 17:43:57 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721256908305" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Installing plugin resources" />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721256908306" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 17:43:59 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721256908307" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Expose environment variables for artifacts.." />
-              </node>
-            </node>
-          </node>
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721256908310" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="unclassified" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721256908308" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 17:44:02 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721256908309" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Required resources installed." />
-              </node>
-            </node>
-          </node>
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721256909824" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="registered_filesets" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721256909822" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 17:45:44 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721256909823" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="READS_STATS_PROPERTIES_FILE:[FDMMDJX]" />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721256909825" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 17:45:46 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721256909826" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="READ_QUALITY_STATS:[EWESQLS]" />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721256909827" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 17:45:49 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721256909828" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="WEIGHT_FILES:[FOIIFMJ]" />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721256909829" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 17:45:51 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721256909830" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="COMPACT_READS:[NHQYJAW]" />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721256909831" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 17:45:57 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721256909832" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="JOB_METADATA:[ODKGPYR]" />
-              </node>
-            </node>
-          </node>
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721256909835" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="done" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721256909833" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 17:46:08 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721256909834" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Job completed" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node role="listener" roleId="bbh2.2017323193335730758" type="bbh2.MessageListener" typeId="bbh2.2017323193335730757" id="3403061721256906707" nodeInfo="ng">
-          <property name="subscribed" nameId="bbh2.2017323193335803495" value="false" />
-          <property name="name" nameId="tpck.1169194664001" value="NYoSh-1409521411442" />
-          <property name="jobTag" nameId="bbh2.2017323193335763033" value="ODKGPYR" />
-          <link role="broker" roleId="bbh2.2017323193335803042" targetNodeId="7915051628305677532" resolveInfo="broker" />
-        </node>
-        <node role="jobStatusListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobListener" typeId="bs99.1212232161626260983" id="3403061721256906708" nodeInfo="ng">
-          <property name="rank" nameId="bbh2.7926097513313212588" value="0" />
-          <link role="job" roleId="bs99.1212232161627127088" targetNodeId="3403061721256906695" resolveInfo="FirstJob" />
-        </node>
-        <node role="fileSetStatusListeners" roleId="bbh2.6587162469552453227" type="bs99.RegisterFileSetListener" typeId="bs99.3403061721254603833" id="3403061721256906709" nodeInfo="ng">
-          <link role="job" roleId="bs99.3403061721254603840" targetNodeId="3403061721256906695" resolveInfo="FirstJob" />
-        </node>
-      </node>
-    </node>
-    <node role="jobs" roleId="bs99.6642819616986825107" type="bs99.Job" typeId="bs99.2051553890368756070" id="3403061721256953147" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="FirstJob" />
-      <property name="assignedTag" nameId="bs99.2408108650474877836" value="OMCYQPW" />
-      <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="3403061721251611034" resolveInfo="PROCESS_READS_TASK" />
-      <link role="executionEnvironment" roleId="bs99.2051553890368806506" targetNodeId="7915051628305677536" resolveInfo="MSNotebook" />
-      <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="3403061721256953148" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="UPLOADS_FILES" />
-        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="3403061721256953149" nodeInfo="ng">
-          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="3403061721251619679" resolveInfo="R1" />
-        </node>
-      </node>
-      <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="3403061721256953150" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="UPLOAD_MERGE_PLAN" />
-        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="3403061721256953151" nodeInfo="ng">
-          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="3403061721251564920" resolveInfo="WFIWOOJ-details" />
-        </node>
-      </node>
-      <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="3403061721256953152" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="TAG" />
-        <property name="value" nameId="bs99.606449909793678507" value="FAK1TAG" />
-      </node>
-      <node role="results" roleId="bs99.606449909788800957" type="bs99.JobResult" typeId="bs99.2051553890369292719" id="3403061721256953156" nodeInfo="ng">
-        <property name="output" nameId="bs99.2051553890369299989" value="SUBMITTED" />
-      </node>
-    </node>
-    <node role="jobs" roleId="bs99.6642819616986825107" type="bs99.Job" typeId="bs99.2051553890368756070" id="3403061721256956225" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="second_job" />
-      <property name="assignedTag" nameId="bs99.2408108650474877836" value="BGDYVQI" />
-      <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="3403061721251611034" resolveInfo="PROCESS_READS_TASK" />
-      <link role="executionEnvironment" roleId="bs99.2051553890368806506" targetNodeId="7915051628305677536" resolveInfo="MSNotebook" />
-      <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="3403061721256956226" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="UPLOADS_FILES" />
-        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="3403061721256956227" nodeInfo="ng">
-          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="3403061721251619679" resolveInfo="R1" />
-        </node>
-      </node>
-      <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="3403061721256956228" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="UPLOAD_MERGE_PLAN" />
-        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="3403061721256956229" nodeInfo="ng">
-          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="3403061721251564920" resolveInfo="WFIWOOJ-details" />
-        </node>
-      </node>
-      <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="3403061721256956230" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="TAG" />
-        <property name="value" nameId="bs99.606449909793678507" value="FAK1TAG" />
-      </node>
-      <node role="results" roleId="bs99.606449909788800957" type="bs99.JobResult" typeId="bs99.2051553890369292719" id="3403061721256956234" nodeInfo="ng">
-        <property name="output" nameId="bs99.2051553890369299989" value="SUBMITTED" />
-      </node>
-      <node role="monitor" roleId="bs99.5540992037659759954" type="bbh2.JobMonitor" typeId="bbh2.2017323193335723531" id="3403061721256956235" nodeInfo="ng">
-        <property name="jobtag" nameId="bbh2.2017323193335729124" value="BGDYVQI" />
-        <link role="broker" roleId="bbh2.2017323193335950083" targetNodeId="7915051628305677532" resolveInfo="broker" />
-        <node role="viewer" roleId="bbh2.2017323193335764208" type="bbh2.MessageViewer" typeId="bbh2.2017323193335763037" id="3403061721256956236" nodeInfo="ng">
-          <property name="jobStatus" nameId="bbh2.8711817271669511123" value="running" />
-          <property name="messageCounter" nameId="bbh2.8711817271669613111" value="9" />
-          <property name="message" nameId="bbh2.6041342965312064113" value="refresh invoked" />
-          <property name="autoRefresh" nameId="bbh2.1011954325398115419" value="true" />
-          <link role="listener" roleId="bbh2.1526708538680794525" targetNodeId="3403061721256956237" resolveInfo="NYoSh-1409521927491" />
-          <link role="eventListener" roleId="bbh2.1212232161626043352" targetNodeId="3403061721256956235" />
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721256958046" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="submitted" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721256958044" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 17:52:24 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721256958045" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Task submitted: " />
-              </node>
-            </node>
-          </node>
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721256958049" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="resources" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721256958047" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 17:52:26 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721256958048" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Installing plugin mandatory resources" />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721256958050" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 17:52:29 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721256958051" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Expose environment variables for artifacts.." />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721256958052" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 17:52:32 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721256958053" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Installing plugin resources" />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721256958054" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 17:52:34 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721256958055" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Expose environment variables for artifacts.." />
-              </node>
-            </node>
-          </node>
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721256958058" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="unclassified" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721256958056" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 17:52:37 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721256958057" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Required resources installed." />
-              </node>
-            </node>
-          </node>
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721256961339" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="registered_filesets" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721256961337" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 17:53:48 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721256961338" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="READS_STATS_PROPERTIES_FILE:[ZBNBKOC]" />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721256961340" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 17:53:50 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721256961341" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="READ_QUALITY_STATS:[QSWFWVN]" />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721256961420" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 17:53:53 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721256961421" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="WEIGHT_FILES:[QVXJWRK]" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node role="listener" roleId="bbh2.2017323193335730758" type="bbh2.MessageListener" typeId="bbh2.2017323193335730757" id="3403061721256956237" nodeInfo="ng">
-          <property name="subscribed" nameId="bbh2.2017323193335803495" value="true" />
-          <property name="name" nameId="tpck.1169194664001" value="NYoSh-1409521927491" />
-          <property name="jobTag" nameId="bbh2.2017323193335763033" value="BGDYVQI" />
-          <link role="broker" roleId="bbh2.2017323193335803042" targetNodeId="7915051628305677532" resolveInfo="broker" />
-        </node>
-        <node role="jobStatusListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobListener" typeId="bs99.1212232161626260983" id="3403061721256956238" nodeInfo="ng">
-          <property name="rank" nameId="bbh2.7926097513313212588" value="0" />
-          <link role="job" roleId="bs99.1212232161627127088" targetNodeId="3403061721256956225" resolveInfo="second_job" />
-        </node>
-        <node role="fileSetStatusListeners" roleId="bbh2.6587162469552453227" type="bs99.RegisterFileSetListener" typeId="bs99.3403061721254603833" id="3403061721256956239" nodeInfo="ng">
-          <link role="job" roleId="bs99.3403061721254603840" targetNodeId="3403061721256956225" resolveInfo="second_job" />
-        </node>
-      </node>
-    </node>
-    <node role="jobs" roleId="bs99.6642819616986825107" type="bs99.Job" typeId="bs99.2051553890368756070" id="3403061721257021271" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="second_job" />
-      <property name="assignedTag" nameId="bs99.2408108650474877836" value="JWMBEBZ" />
-      <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="3403061721251611034" resolveInfo="PROCESS_READS_TASK" />
-      <link role="executionEnvironment" roleId="bs99.2051553890368806506" targetNodeId="7915051628305677536" resolveInfo="MSNotebook" />
-      <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="3403061721257021272" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="UPLOADS_FILES" />
-        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="3403061721257021273" nodeInfo="ng">
-          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="3403061721251619679" resolveInfo="R1" />
-        </node>
-      </node>
-      <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="3403061721257021274" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="UPLOAD_MERGE_PLAN" />
-        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="3403061721257021275" nodeInfo="ng">
-          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="3403061721251564920" resolveInfo="WFIWOOJ-details" />
-        </node>
-      </node>
-      <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="3403061721257021276" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="TAG" />
-        <property name="value" nameId="bs99.606449909793678507" value="FAK1TAG" />
-      </node>
-      <node role="results" roleId="bs99.606449909788800957" type="bs99.JobResult" typeId="bs99.2051553890369292719" id="3403061721257021280" nodeInfo="ng">
-        <property name="output" nameId="bs99.2051553890369299989" value="SUBMITTED" />
-      </node>
-      <node role="monitor" roleId="bs99.5540992037659759954" type="bbh2.JobMonitor" typeId="bbh2.2017323193335723531" id="3403061721257021281" nodeInfo="ng">
-        <property name="jobtag" nameId="bbh2.2017323193335729124" value="JWMBEBZ" />
-        <link role="broker" roleId="bbh2.2017323193335950083" targetNodeId="7915051628305677532" resolveInfo="broker" />
-        <node role="viewer" roleId="bbh2.2017323193335764208" type="bbh2.MessageViewer" typeId="bbh2.2017323193335763037" id="3403061721257021282" nodeInfo="ng">
-          <property name="jobStatus" nameId="bbh2.8711817271669511123" value="running" />
-          <property name="messageCounter" nameId="bbh2.8711817271669613111" value="6" />
-          <property name="message" nameId="bbh2.6041342965312064113" value="refresh invoked" />
-          <property name="autoRefresh" nameId="bbh2.1011954325398115419" value="false" />
-          <link role="listener" roleId="bbh2.1526708538680794525" targetNodeId="3403061721257021283" resolveInfo="NYoSh-1409523598813" />
-          <link role="eventListener" roleId="bbh2.1212232161626043352" targetNodeId="3403061721257021281" />
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721257023198" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="submitted" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721257023196" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 18:20:17 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721257023197" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Task submitted: " />
-              </node>
-            </node>
-          </node>
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721257023202" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="resources" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721257023200" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 18:20:19 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721257023201" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Installing plugin mandatory resources" />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721257023204" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 18:20:23 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721257023205" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Expose environment variables for artifacts.." />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721257023207" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 18:20:27 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721257023208" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Installing plugin resources" />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721257023210" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 18:20:32 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721257023211" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Expose environment variables for artifacts.." />
-              </node>
-            </node>
-          </node>
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721257023215" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="unclassified" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721257023213" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 18:20:36 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721257023214" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Required resources installed." />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node role="listener" roleId="bbh2.2017323193335730758" type="bbh2.MessageListener" typeId="bbh2.2017323193335730757" id="3403061721257021283" nodeInfo="ng">
-          <property name="subscribed" nameId="bbh2.2017323193335803495" value="false" />
-          <property name="name" nameId="tpck.1169194664001" value="NYoSh-1409523598813" />
-          <property name="jobTag" nameId="bbh2.2017323193335763033" value="JWMBEBZ" />
-          <link role="broker" roleId="bbh2.2017323193335803042" targetNodeId="7915051628305677532" resolveInfo="broker" />
-        </node>
-        <node role="jobStatusListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobListener" typeId="bs99.1212232161626260983" id="3403061721257021284" nodeInfo="ng">
-          <property name="rank" nameId="bbh2.7926097513313212588" value="0" />
-          <link role="job" roleId="bs99.1212232161627127088" targetNodeId="3403061721257021271" resolveInfo="second_job" />
-        </node>
-        <node role="fileSetStatusListeners" roleId="bbh2.6587162469552453227" type="bs99.RegisterFileSetListener" typeId="bs99.3403061721254603833" id="3403061721257021285" nodeInfo="ng">
-          <link role="job" roleId="bs99.3403061721254603840" targetNodeId="3403061721257021271" resolveInfo="second_job" />
-        </node>
-      </node>
-    </node>
-    <node role="jobs" roleId="bs99.6642819616986825107" type="bs99.Job" typeId="bs99.2051553890368756070" id="3403061721257168557" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="second_job" />
-      <property name="assignedTag" nameId="bs99.2408108650474877836" value="RXSBBWZ" />
-      <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="3403061721251611034" resolveInfo="PROCESS_READS_TASK" />
-      <link role="executionEnvironment" roleId="bs99.2051553890368806506" targetNodeId="7915051628305677536" resolveInfo="MSNotebook" />
-      <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="3403061721257168558" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="UPLOADS_FILES" />
-        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="3403061721257168559" nodeInfo="ng">
-          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="3403061721251619679" resolveInfo="R1" />
-        </node>
-      </node>
-      <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="3403061721257168560" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="UPLOAD_MERGE_PLAN" />
-        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="3403061721257168561" nodeInfo="ng">
-          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="3403061721251564920" resolveInfo="WFIWOOJ-details" />
-        </node>
-      </node>
-      <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="3403061721257168562" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="TAG" />
-        <property name="value" nameId="bs99.606449909793678507" value="FAK1TAG" />
-      </node>
-      <node role="results" roleId="bs99.606449909788800957" type="bs99.JobResult" typeId="bs99.2051553890369292719" id="3403061721257168566" nodeInfo="ng">
-        <property name="output" nameId="bs99.2051553890369299989" value="SUCCESSFUL" />
-        <node role="filesets" roleId="bs99.1212232161627158989" type="bs99.PublishedFileSetInstance" typeId="bs99.1212232161627158981" id="3403061721257173989" nodeInfo="ng">
-          <property name="tag" nameId="bs99.1212232161627158982" value="JUJPRLX" />
-          <property name="type" nameId="bs99.1212232161627158984" value="READS_STATS_PROPERTIES_FILE" />
-        </node>
-        <node role="filesets" roleId="bs99.1212232161627158989" type="bs99.PublishedFileSetInstance" typeId="bs99.1212232161627158981" id="3403061721257173995" nodeInfo="ng">
-          <property name="tag" nameId="bs99.1212232161627158982" value="SQINSZE" />
-          <property name="type" nameId="bs99.1212232161627158984" value="READ_QUALITY_STATS" />
-        </node>
-        <node role="filesets" roleId="bs99.1212232161627158989" type="bs99.PublishedFileSetInstance" typeId="bs99.1212232161627158981" id="3403061721257174001" nodeInfo="ng">
-          <property name="tag" nameId="bs99.1212232161627158982" value="XTLNXGB" />
-          <property name="type" nameId="bs99.1212232161627158984" value="WEIGHT_FILES" />
-        </node>
-        <node role="filesets" roleId="bs99.1212232161627158989" type="bs99.PublishedFileSetInstance" typeId="bs99.1212232161627158981" id="3403061721257174007" nodeInfo="ng">
-          <property name="tag" nameId="bs99.1212232161627158982" value="MMXRKCW" />
-          <property name="type" nameId="bs99.1212232161627158984" value="COMPACT_READS" />
-        </node>
-        <node role="filesets" roleId="bs99.1212232161627158989" type="bs99.PublishedFileSetInstance" typeId="bs99.1212232161627158981" id="3403061721257174013" nodeInfo="ng">
-          <property name="tag" nameId="bs99.1212232161627158982" value="RXSBBWZ" />
-          <property name="type" nameId="bs99.1212232161627158984" value="JOB_METADATA" />
-        </node>
-      </node>
-      <node role="monitor" roleId="bs99.5540992037659759954" type="bbh2.JobMonitor" typeId="bbh2.2017323193335723531" id="3403061721257168567" nodeInfo="ng">
-        <property name="jobtag" nameId="bbh2.2017323193335729124" value="RXSBBWZ" />
-        <link role="broker" roleId="bbh2.2017323193335950083" targetNodeId="7915051628305677532" resolveInfo="broker" />
-        <node role="viewer" roleId="bbh2.2017323193335764208" type="bbh2.MessageViewer" typeId="bbh2.2017323193335763037" id="3403061721257168568" nodeInfo="ng">
-          <property name="jobStatus" nameId="bbh2.8711817271669511123" value="completed" />
-          <property name="messageCounter" nameId="bbh2.8711817271669613111" value="12" />
-          <property name="message" nameId="bbh2.6041342965312064113" value="refresh invoked" />
-          <property name="autoRefresh" nameId="bbh2.1011954325398115419" value="true" />
-          <link role="listener" roleId="bbh2.1526708538680794525" targetNodeId="3403061721257168569" resolveInfo="NYoSh-1409523830521" />
-          <link role="eventListener" roleId="bbh2.1212232161626043352" targetNodeId="3403061721257168567" />
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721257173970" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="submitted" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721257173968" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 18:24:10 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721257173969" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Task submitted: " />
-              </node>
-            </node>
-          </node>
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721257173973" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="resources" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721257173971" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 18:24:12 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721257173972" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Installing plugin mandatory resources" />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721257173974" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 18:24:16 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721257173975" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Expose environment variables for artifacts.." />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721257173976" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 18:24:19 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721257173977" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Installing plugin resources" />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721257173978" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 18:24:23 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721257173979" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Expose environment variables for artifacts.." />
-              </node>
-            </node>
-          </node>
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721257173982" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="unclassified" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721257173980" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 18:24:27 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721257173981" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Required resources installed." />
-              </node>
-            </node>
-          </node>
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721257173985" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="registered_filesets" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721257173983" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 18:25:49 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721257173984" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="READS_STATS_PROPERTIES_FILE:[JUJPRLX]" />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721257173990" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 18:25:51 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721257173991" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="READ_QUALITY_STATS:[SQINSZE]" />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721257173996" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 18:25:53 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721257173997" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="WEIGHT_FILES:[XTLNXGB]" />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721257174002" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 18:25:55 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721257174003" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="COMPACT_READS:[MMXRKCW]" />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721257174008" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 18:25:59 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721257174009" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="JOB_METADATA:[RXSBBWZ]" />
-              </node>
-            </node>
-          </node>
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721257174016" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="done" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721257174014" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 18:26:11 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721257174015" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Job completed" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node role="listener" roleId="bbh2.2017323193335730758" type="bbh2.MessageListener" typeId="bbh2.2017323193335730757" id="3403061721257168569" nodeInfo="ng">
-          <property name="subscribed" nameId="bbh2.2017323193335803495" value="true" />
-          <property name="name" nameId="tpck.1169194664001" value="NYoSh-1409523830521" />
-          <property name="jobTag" nameId="bbh2.2017323193335763033" value="RXSBBWZ" />
-          <link role="broker" roleId="bbh2.2017323193335803042" targetNodeId="7915051628305677532" resolveInfo="broker" />
-        </node>
-        <node role="jobStatusListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobListener" typeId="bs99.1212232161626260983" id="3403061721257168570" nodeInfo="ng">
-          <property name="rank" nameId="bbh2.7926097513313212588" value="0" />
-          <link role="job" roleId="bs99.1212232161627127088" targetNodeId="3403061721257168557" resolveInfo="second_job" />
-        </node>
-        <node role="fileSetStatusListeners" roleId="bbh2.6587162469552453227" type="bs99.RegisterFileSetListener" typeId="bs99.3403061721254603833" id="3403061721257168571" nodeInfo="ng">
-          <link role="job" roleId="bs99.3403061721254603840" targetNodeId="3403061721257168557" resolveInfo="second_job" />
-        </node>
-      </node>
-    </node>
-    <node role="jobs" roleId="bs99.6642819616986825107" type="bs99.Job" typeId="bs99.2051553890368756070" id="3403061721257182632" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="second_job" />
-      <property name="assignedTag" nameId="bs99.2408108650474877836" value="ACPIAOL" />
-      <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="3403061721251611034" resolveInfo="PROCESS_READS_TASK" />
-      <link role="executionEnvironment" roleId="bs99.2051553890368806506" targetNodeId="7915051628305677536" resolveInfo="MSNotebook" />
-      <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="3403061721257182633" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="UPLOADS_FILES" />
-        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="3403061721257182634" nodeInfo="ng">
-          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="3403061721251619679" resolveInfo="R1" />
-        </node>
-      </node>
-      <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="3403061721257182635" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="UPLOAD_MERGE_PLAN" />
-        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="3403061721257182636" nodeInfo="ng">
-          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="3403061721251564920" resolveInfo="WFIWOOJ-details" />
-        </node>
-      </node>
-      <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="3403061721257182637" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="TAG" />
-        <property name="value" nameId="bs99.606449909793678507" value="FAK1TAG" />
-      </node>
-      <node role="results" roleId="bs99.606449909788800957" type="bs99.JobResult" typeId="bs99.2051553890369292719" id="3403061721257182641" nodeInfo="ng">
-        <property name="output" nameId="bs99.2051553890369299989" value="SUCCESSFUL" />
-        <node role="filesets" roleId="bs99.1212232161627158989" type="bs99.PublishedFileSetInstance" typeId="bs99.1212232161627158981" id="3403061721257186776" nodeInfo="ng">
-          <property name="tag" nameId="bs99.1212232161627158982" value="TANQPRH" />
-          <property name="type" nameId="bs99.1212232161627158984" value="READS_STATS_PROPERTIES_FILE" />
-        </node>
-        <node role="filesets" roleId="bs99.1212232161627158989" type="bs99.PublishedFileSetInstance" typeId="bs99.1212232161627158981" id="3403061721257186782" nodeInfo="ng">
-          <property name="tag" nameId="bs99.1212232161627158982" value="UABXOUJ" />
-          <property name="type" nameId="bs99.1212232161627158984" value="READ_QUALITY_STATS" />
-        </node>
-        <node role="filesets" roleId="bs99.1212232161627158989" type="bs99.PublishedFileSetInstance" typeId="bs99.1212232161627158981" id="3403061721257186788" nodeInfo="ng">
-          <property name="tag" nameId="bs99.1212232161627158982" value="IRDGDNM" />
-          <property name="type" nameId="bs99.1212232161627158984" value="WEIGHT_FILES" />
-        </node>
-        <node role="filesets" roleId="bs99.1212232161627158989" type="bs99.PublishedFileSetInstance" typeId="bs99.1212232161627158981" id="3403061721257186794" nodeInfo="ng">
-          <property name="tag" nameId="bs99.1212232161627158982" value="NIENAZB" />
-          <property name="type" nameId="bs99.1212232161627158984" value="COMPACT_READS" />
-        </node>
-        <node role="filesets" roleId="bs99.1212232161627158989" type="bs99.PublishedFileSetInstance" typeId="bs99.1212232161627158981" id="3403061721257186800" nodeInfo="ng">
-          <property name="tag" nameId="bs99.1212232161627158982" value="ACPIAOL" />
-          <property name="type" nameId="bs99.1212232161627158984" value="JOB_METADATA" />
-        </node>
-      </node>
-      <node role="monitor" roleId="bs99.5540992037659759954" type="bbh2.JobMonitor" typeId="bbh2.2017323193335723531" id="3403061721257182642" nodeInfo="ng">
-        <property name="jobtag" nameId="bbh2.2017323193335729124" value="ACPIAOL" />
-        <link role="broker" roleId="bbh2.2017323193335950083" targetNodeId="7915051628305677532" resolveInfo="broker" />
-        <node role="viewer" roleId="bbh2.2017323193335764208" type="bbh2.MessageViewer" typeId="bbh2.2017323193335763037" id="3403061721257182643" nodeInfo="ng">
-          <property name="jobStatus" nameId="bbh2.8711817271669511123" value="completed" />
-          <property name="messageCounter" nameId="bbh2.8711817271669613111" value="12" />
-          <property name="message" nameId="bbh2.6041342965312064113" value="refresh invoked" />
-          <property name="autoRefresh" nameId="bbh2.1011954325398115419" value="true" />
-          <link role="listener" roleId="bbh2.1526708538680794525" targetNodeId="3403061721257182644" resolveInfo="NYoSh-1409537390654" />
-          <link role="eventListener" roleId="bbh2.1212232161626043352" targetNodeId="3403061721257182642" />
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721257186757" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="submitted" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721257186755" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 22:10:09 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721257186756" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Task submitted: " />
-              </node>
-            </node>
-          </node>
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721257186760" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="resources" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721257186758" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 22:10:11 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721257186759" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Installing plugin mandatory resources" />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721257186761" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 22:10:13 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721257186762" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Expose environment variables for artifacts.." />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721257186763" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 22:10:16 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721257186764" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Installing plugin resources" />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721257186765" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 22:10:18 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721257186766" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Expose environment variables for artifacts.." />
-              </node>
-            </node>
-          </node>
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721257186769" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="unclassified" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721257186767" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 22:10:20 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721257186768" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Required resources installed." />
-              </node>
-            </node>
-          </node>
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721257186772" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="registered_filesets" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721257186770" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 22:11:14 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721257186771" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="READS_STATS_PROPERTIES_FILE:[TANQPRH]" />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721257186777" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 22:11:15 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721257186778" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="READ_QUALITY_STATS:[UABXOUJ]" />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721257186783" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 22:11:17 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721257186784" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="WEIGHT_FILES:[IRDGDNM]" />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721257186789" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 22:11:19 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721257186790" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="COMPACT_READS:[NIENAZB]" />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721257186795" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 22:11:23 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721257186796" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="JOB_METADATA:[ACPIAOL]" />
-              </node>
-            </node>
-          </node>
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721257186803" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="done" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721257186801" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 22:11:34 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721257186802" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Job completed" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node role="listener" roleId="bbh2.2017323193335730758" type="bbh2.MessageListener" typeId="bbh2.2017323193335730757" id="3403061721257182644" nodeInfo="ng">
-          <property name="subscribed" nameId="bbh2.2017323193335803495" value="true" />
-          <property name="name" nameId="tpck.1169194664001" value="NYoSh-1409537390654" />
-          <property name="jobTag" nameId="bbh2.2017323193335763033" value="ACPIAOL" />
-          <link role="broker" roleId="bbh2.2017323193335803042" targetNodeId="7915051628305677532" resolveInfo="broker" />
-        </node>
-        <node role="jobStatusListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobListener" typeId="bs99.1212232161626260983" id="3403061721257182645" nodeInfo="ng">
-          <property name="rank" nameId="bbh2.7926097513313212588" value="0" />
-          <link role="job" roleId="bs99.1212232161627127088" targetNodeId="3403061721257182632" resolveInfo="second_job" />
-        </node>
-        <node role="fileSetStatusListeners" roleId="bbh2.6587162469552453227" type="bs99.RegisterFileSetListener" typeId="bs99.3403061721254603833" id="3403061721257182646" nodeInfo="ng">
-          <link role="job" roleId="bs99.3403061721254603840" targetNodeId="3403061721257182632" resolveInfo="second_job" />
-        </node>
-      </node>
-    </node>
-    <node role="jobs" roleId="bs99.6642819616986825107" type="bs99.Job" typeId="bs99.2051553890368756070" id="3403061721257192210" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="second_job" />
-      <property name="assignedTag" nameId="bs99.2408108650474877836" value="HSGQPXI" />
-      <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="3403061721251611034" resolveInfo="PROCESS_READS_TASK" />
-      <link role="executionEnvironment" roleId="bs99.2051553890368806506" targetNodeId="7915051628305677536" resolveInfo="MSNotebook" />
-      <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="3403061721257192211" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="UPLOADS_FILES" />
-        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="3403061721257192212" nodeInfo="ng">
-          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="3403061721251619679" resolveInfo="R1" />
-        </node>
-      </node>
-      <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="3403061721257192213" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="UPLOAD_MERGE_PLAN" />
-        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="3403061721257192214" nodeInfo="ng">
-          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="3403061721251564920" resolveInfo="WFIWOOJ-details" />
-        </node>
-      </node>
-      <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="3403061721257192215" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="TAG" />
-        <property name="value" nameId="bs99.606449909793678507" value="FAK1TAG" />
-      </node>
-      <node role="results" roleId="bs99.606449909788800957" type="bs99.JobResult" typeId="bs99.2051553890369292719" id="3403061721257192219" nodeInfo="ng">
-        <property name="output" nameId="bs99.2051553890369299989" value="SUCCESSFUL" />
-        <node role="filesets" roleId="bs99.1212232161627158989" type="bs99.PublishedFileSetInstance" typeId="bs99.1212232161627158981" id="3403061721257200577" nodeInfo="ng">
-          <property name="tag" nameId="bs99.1212232161627158982" value="CDSATLI" />
-          <property name="type" nameId="bs99.1212232161627158984" value="READS_STATS_PROPERTIES_FILE" />
-        </node>
-        <node role="filesets" roleId="bs99.1212232161627158989" type="bs99.PublishedFileSetInstance" typeId="bs99.1212232161627158981" id="3403061721257200583" nodeInfo="ng">
-          <property name="tag" nameId="bs99.1212232161627158982" value="EIJPGSJ" />
-          <property name="type" nameId="bs99.1212232161627158984" value="READ_QUALITY_STATS" />
-        </node>
-        <node role="filesets" roleId="bs99.1212232161627158989" type="bs99.PublishedFileSetInstance" typeId="bs99.1212232161627158981" id="3403061721257200589" nodeInfo="ng">
-          <property name="tag" nameId="bs99.1212232161627158982" value="TLVHDOQ" />
-          <property name="type" nameId="bs99.1212232161627158984" value="WEIGHT_FILES" />
-        </node>
-        <node role="filesets" roleId="bs99.1212232161627158989" type="bs99.PublishedFileSetInstance" typeId="bs99.1212232161627158981" id="3403061721257200595" nodeInfo="ng">
-          <property name="tag" nameId="bs99.1212232161627158982" value="YRZIIQM" />
-          <property name="type" nameId="bs99.1212232161627158984" value="COMPACT_READS" />
-        </node>
-        <node role="filesets" roleId="bs99.1212232161627158989" type="bs99.PublishedFileSetInstance" typeId="bs99.1212232161627158981" id="3403061721257200601" nodeInfo="ng">
-          <property name="tag" nameId="bs99.1212232161627158982" value="HSGQPXI" />
-          <property name="type" nameId="bs99.1212232161627158984" value="JOB_METADATA" />
-        </node>
-      </node>
-      <node role="monitor" roleId="bs99.5540992037659759954" type="bbh2.JobMonitor" typeId="bbh2.2017323193335723531" id="3403061721257192220" nodeInfo="ng">
-        <property name="jobtag" nameId="bbh2.2017323193335729124" value="HSGQPXI" />
-        <link role="broker" roleId="bbh2.2017323193335950083" targetNodeId="7915051628305677532" resolveInfo="broker" />
-        <node role="viewer" roleId="bbh2.2017323193335764208" type="bbh2.MessageViewer" typeId="bbh2.2017323193335763037" id="3403061721257192221" nodeInfo="ng">
-          <property name="jobStatus" nameId="bbh2.8711817271669511123" value="completed" />
-          <property name="messageCounter" nameId="bbh2.8711817271669613111" value="12" />
-          <property name="message" nameId="bbh2.6041342965312064113" value="refresh invoked" />
-          <property name="autoRefresh" nameId="bbh2.1011954325398115419" value="true" />
-          <link role="listener" roleId="bbh2.1526708538680794525" targetNodeId="3403061721257192222" resolveInfo="NYoSh-1409537944383" />
-          <link role="eventListener" roleId="bbh2.1212232161626043352" targetNodeId="3403061721257192220" />
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721257194481" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="submitted" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721257194479" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 22:19:21 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721257194480" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Task submitted: " />
-              </node>
-            </node>
-          </node>
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721257194484" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="resources" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721257194482" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 22:19:23 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721257194483" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Installing plugin mandatory resources" />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721257194485" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 22:19:25 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721257194486" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Expose environment variables for artifacts.." />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721257194487" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 22:19:28 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721257194488" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Installing plugin resources" />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721257194489" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 22:19:31 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721257194490" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Expose environment variables for artifacts.." />
-              </node>
-            </node>
-          </node>
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721257194493" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="unclassified" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721257194491" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 22:19:36 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721257194492" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Required resources installed." />
-              </node>
-            </node>
-          </node>
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721257200573" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="registered_filesets" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721257200571" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 22:20:59 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721257200572" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="READS_STATS_PROPERTIES_FILE:[CDSATLI]" />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721257200578" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 22:21:01 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721257200579" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="READ_QUALITY_STATS:[EIJPGSJ]" />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721257200584" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 22:21:04 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721257200585" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="WEIGHT_FILES:[TLVHDOQ]" />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721257200590" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 22:21:06 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721257200591" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="COMPACT_READS:[YRZIIQM]" />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721257200596" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 22:21:10 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721257200597" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="JOB_METADATA:[HSGQPXI]" />
-              </node>
-            </node>
-          </node>
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3403061721257200604" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="done" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3403061721257200602" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="Manuele-Simis-MacBook-Pro.local" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Sun Aug 31 22:21:22 EDT 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3403061721257200603" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Job completed" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node role="listener" roleId="bbh2.2017323193335730758" type="bbh2.MessageListener" typeId="bbh2.2017323193335730757" id="3403061721257192222" nodeInfo="ng">
-          <property name="subscribed" nameId="bbh2.2017323193335803495" value="true" />
-          <property name="name" nameId="tpck.1169194664001" value="NYoSh-1409537944383" />
-          <property name="jobTag" nameId="bbh2.2017323193335763033" value="HSGQPXI" />
-          <link role="broker" roleId="bbh2.2017323193335803042" targetNodeId="7915051628305677532" resolveInfo="broker" />
-        </node>
-        <node role="jobStatusListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobListener" typeId="bs99.1212232161626260983" id="3403061721257192223" nodeInfo="ng">
-          <property name="rank" nameId="bbh2.7926097513313212588" value="0" />
-          <link role="job" roleId="bs99.1212232161627127088" targetNodeId="3403061721257192210" resolveInfo="second_job" />
-        </node>
-        <node role="fileSetStatusListeners" roleId="bbh2.6587162469552453227" type="bs99.RegisterFileSetListener" typeId="bs99.3403061721254603833" id="3403061721257192224" nodeInfo="ng">
-          <link role="job" roleId="bs99.3403061721254603840" targetNodeId="3403061721257192210" resolveInfo="second_job" />
-        </node>
-      </node>
-    </node>
-    <node role="jobs" roleId="bs99.6642819616986825107" type="bs99.Job" typeId="bs99.2051553890368756070" id="3403061721257205012" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="second_job" />
-      <property name="assignedTag" nameId="bs99.2408108650474877836" value="JKVQKQB" />
-      <link role="executionEnvironment" roleId="bs99.2051553890368806506" targetNodeId="7915051628305677536" resolveInfo="MSNotebook" />
-      <link role="executionPlugin" roleId="bs99.2051553890368756313" targetNodeId="3155417396017882225" resolveInfo="PROCESS_READS_TASK" />
-      <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="3403061721257205013" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="UPLOADS_FILES" />
-        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="3403061721257205014" nodeInfo="ng">
-          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="3403061721257204638" resolveInfo="R1" />
-        </node>
-      </node>
-      <node role="slots" roleId="bs99.2051553890368763379" type="bs99.Slot" typeId="bs99.2051553890368763385" id="3403061721257205015" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="UPLOAD_MERGE_PLAN" />
-        <node role="values" roleId="bs99.2051553890368769719" type="bs99.SlotValue" typeId="bs99.2051553890368774063" id="3403061721257205016" nodeInfo="ng">
-          <link role="filesetInstance" roleId="bs99.2051553890369286172" targetNodeId="3403061721251564920" resolveInfo="WFIWOOJ-details" />
-        </node>
-      </node>
-      <node role="options" roleId="bs99.2051553890368761092" type="bs99.OptionValue" typeId="bs99.2051553890368761097" id="3403061721257205017" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="TAG" />
-        <property name="value" nameId="bs99.606449909793678507" value="FAK1TAG" />
-      </node>
-      <node role="results" roleId="bs99.606449909788800957" type="bs99.JobResult" typeId="bs99.2051553890369292719" id="3403061721257205021" nodeInfo="ng">
-        <property name="output" nameId="bs99.2051553890369299989" value="SUCCESSFUL" />
-        <node role="filesets" roleId="bs99.1212232161627158989" type="bs99.PublishedFileSetInstance" typeId="bs99.1212232161627158981" id="3403061721257357200" nodeInfo="ng">
-          <property name="tag" nameId="bs99.1212232161627158982" value="NPKEHCM" />
-          <property name="type" nameId="bs99.1212232161627158984" value="READS_STATS_PROPERTIES_FILE" />
-        </node>
-        <node role="filesets" roleId="bs99.1212232161627158989" type="bs99.PublishedFileSetInstance" typeId="bs99.1212232161627158981" id="3403061721257357206" nodeInfo="ng">
-          <property name="tag" nameId="bs99.1212232161627158982" value="PTCLZZR" />
-          <property name="type" nameId="bs99.1212232161627158984" value="READ_QUALITY_STATS" />
-        </node>
-        <node role="filesets" roleId="bs99.1212232161627158989" type="bs99.PublishedFileSetInstance" typeId="bs99.1212232161627158981" id="3403061721257357212" nodeInfo="ng">
-          <property name="tag" nameId="bs99.1212232161627158982" value="IDTRZEH" />
-          <property name="type" nameId="bs99.1212232161627158984" value="WEIGHT_FILES" />
-        </node>
-        <node role="filesets" roleId="bs99.1212232161627158989" type="bs99.PublishedFileSetInstance" typeId="bs99.1212232161627158981" id="3403061721257357218" nodeInfo="ng">
-          <property name="tag" nameId="bs99.1212232161627158982" value="XZRMYXU" />
-          <property name="type" nameId="bs99.1212232161627158984" value="COMPACT_READS" />
-        </node>
-        <node role="filesets" roleId="bs99.1212232161627158989" type="bs99.PublishedFileSetInstance" typeId="bs99.1212232161627158981" id="3403061721257357224" nodeInfo="ng">
-          <property name="tag" nameId="bs99.1212232161627158982" value="JKVQKQB" />
-          <property name="type" nameId="bs99.1212232161627158984" value="JOB_METADATA" />
+        <node role="fileSetStatusListeners" roleId="bbh2.6587162469552453227" type="7aad.ListenForAlignmentAnalysisFileSets" typeId="7aad.8524130661366375999" id="2495307914670883504" nodeInfo="ng">
+          <property name="rank" nameId="bbh2.6587162469552164420" value="300" />
         </node>
       </node>
     </node>
   </root>
   <root type="whle.Logger" typeId="whle.1925991773566712428" id="3403061721252933685" nodeInfo="ng">
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257186804" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Job completed message received" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.onJobCompleted" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729192" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Adding type SUPPORTED_INPUT_READS to file /Users/manuelesimi/Downloads/merge_plan_sample/S1_1_R1.fasta" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257192209" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729196" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Attaching attributes from SUPPORTED_INPUT_READS" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729197" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Number of valid mappings definition found 4" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729198" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Found valid mappings definition for SUPPORTED_INPUT_READS" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729205" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Processing preview with tag= DTFKGPA" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729207" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Adding file /Users/manuelesimi/Downloads/merge_plan_sample/S1_1_R2.fasta" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729208" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729210" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Adding type SUPPORTED_INPUT_READS to file /Users/manuelesimi/Downloads/merge_plan_sample/S1_1_R2.fasta" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729214" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Attaching attributes from SUPPORTED_INPUT_READS" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729215" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Number of valid mappings definition found 4" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729216" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Found valid mappings definition for SUPPORTED_INPUT_READS" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729217" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Processing preview with tag= EHCTNMT" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729219" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Adding file /Users/manuelesimi/Downloads/merge_plan_sample/S1_2_R1.fasta" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729220" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729222" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Adding type SUPPORTED_INPUT_READS to file /Users/manuelesimi/Downloads/merge_plan_sample/S1_2_R1.fasta" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729226" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Attaching attributes from SUPPORTED_INPUT_READS" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729227" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Number of valid mappings definition found 4" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729228" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Found valid mappings definition for SUPPORTED_INPUT_READS" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729229" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Processing preview with tag= FVJMUEO" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729231" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Adding file /Users/manuelesimi/Downloads/merge_plan_sample/S1_2_R2.fasta" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729232" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729234" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Adding type SUPPORTED_INPUT_READS to file /Users/manuelesimi/Downloads/merge_plan_sample/S1_2_R2.fasta" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729238" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Attaching attributes from SUPPORTED_INPUT_READS" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729239" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Number of valid mappings definition found 4" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729240" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Found valid mappings definition for SUPPORTED_INPUT_READS" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729241" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Processing preview with tag= HVHSRDA" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729243" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Adding file /Users/manuelesimi/Downloads/merge_plan_sample/S2_1_R1.fasta" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729244" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729246" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Adding type SUPPORTED_INPUT_READS to file /Users/manuelesimi/Downloads/merge_plan_sample/S2_1_R1.fasta" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729250" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Attaching attributes from SUPPORTED_INPUT_READS" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729251" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Number of valid mappings definition found 4" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729252" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Found valid mappings definition for SUPPORTED_INPUT_READS" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729253" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Processing preview with tag= ZPORIEN" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729255" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Adding file /Users/manuelesimi/Downloads/merge_plan_sample/S2_1_R2.fasta" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729256" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729258" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Adding type SUPPORTED_INPUT_READS to file /Users/manuelesimi/Downloads/merge_plan_sample/S2_1_R2.fasta" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729262" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Attaching attributes from SUPPORTED_INPUT_READS" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729263" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Number of valid mappings definition found 4" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729264" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Found valid mappings definition for SUPPORTED_INPUT_READS" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729265" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Processing preview with tag= DWLKBGW" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729267" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Adding file /Users/manuelesimi/Downloads/merge_plan_sample/S2_2_R1.fasta" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729268" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729270" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Adding type SUPPORTED_INPUT_READS to file /Users/manuelesimi/Downloads/merge_plan_sample/S2_2_R1.fasta" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729274" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Attaching attributes from SUPPORTED_INPUT_READS" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729275" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Number of valid mappings definition found 4" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729276" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Found valid mappings definition for SUPPORTED_INPUT_READS" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729277" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Processing preview with tag= FISIJKH" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729279" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Adding file /Users/manuelesimi/Downloads/merge_plan_sample/S2_2_R2.fasta" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729280" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found #ids:1" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729282" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Adding type SUPPORTED_INPUT_READS to file /Users/manuelesimi/Downloads/merge_plan_sample/S2_2_R2.fasta" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729286" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Attaching attributes from SUPPORTED_INPUT_READS" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729287" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Number of valid mappings definition found 4" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729288" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Found valid mappings definition for SUPPORTED_INPUT_READS" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729470" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Found distinct tags=null" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.register" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729480" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Found 1 distinctFileSetTypeIds" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.register" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729481" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Obtained assignedTags=" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.register" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729492" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Found 1 distinctFileSetTypeIds" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.register" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729493" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Obtained assignedTags=" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.register" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729504" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Found 1 distinctFileSetTypeIds" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.register" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729505" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Obtained assignedTags=" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.register" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729516" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Found 1 distinctFileSetTypeIds" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.register" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729517" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Obtained assignedTags=" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.register" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729528" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Found 1 distinctFileSetTypeIds" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.register" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729529" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Obtained assignedTags=" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.register" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729540" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Found 1 distinctFileSetTypeIds" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.register" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729541" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Obtained assignedTags=" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.register" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729552" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Found 1 distinctFileSetTypeIds" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.register" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729553" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Obtained assignedTags=" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.register" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729564" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Found 1 distinctFileSetTypeIds" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.register" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668729565" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Obtained assignedTags=" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.register" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914668731608" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value FAKETAG" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670877811" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Submit pressed" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257192216" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670877826" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Preparing the job parameters" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257192217" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670877827" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="FileSetArea.path=/Users/manuelesimi/CampagneLab/tests/FileSetArea" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257192218" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Submitting the job to the cluster with parameters{--plugins-dir,/Users/manuelesimi/CampagneLab/Projects/gobyweb2-plugins-bitbucket,--job,PROCESS_READS_TASK,--job-tag,HSGQPXI,--owner,manuele,--queue,&lt;null&gt;,--job-area,/Users/manuelesimi/CampagneLab/tests/JobArea,--fileset-area,/Users/manuelesimi/CampagneLab/tests/FileSetArea,--repository,/Users/manuelesimi/CampagneLab/tests/Artifacts,--artifact-server,manuelesimi@Manuele-Simis-MacBook-Pro.local,--broker-hostname,localhost,--broker-port,5672,--TAG,FAK1TAG,UPLOADS_FILES:,EGQGZKH,UPLOAD_MERGE_PLAN:,MLUJSMM}" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670877828" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Submitting the job to the cluster with parameters{--plugins-dir,/Users/manuelesimi/CampagneLab/Projects/gobyweb2-plugins-bitbucket,--job,PROCESS_READS_TASK,--job-tag,CRSYHBL,--owner,manuele,--queue,&lt;null&gt;,--job-area,/Users/manuelesimi/CampagneLab/tests/JobArea,--fileset-area,/Users/manuelesimi/CampagneLab/tests/FileSetArea,--repository,/Users/manuelesimi/CampagneLab/tests/Artifacts,--artifact-server,manuelesimi@Manuele-Simis-MacBook-Pro.local,--broker-hostname,localhost,--broker-port,5672,--TAG,FAKETAG,UPLOADS_FILES:,EIJFAJN,DTFKGPA,EHCTNMT,FVJMUEO,HVHSRDA,ZPORIEN,DWLKBGW,FISIJKH,UPLOAD_MERGE_PLAN:,&lt;null&gt;}" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257192225" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670877839" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Subscribing the listener to" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.subscribe" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257192226" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Listener successfully subscribed for notifications about job HSGQPXI" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670877840" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Failed to subscribe the listener Could not connect to broker URL: tcp://localhost:5672. Reason: java.net.ConnectException: Connection refused" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.subscribe" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257192227" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670877841" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Enabling auto refresh" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.enableAutoRefresh" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257192228" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670877842" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Updater successfully started" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.enableAutoRefresh" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257194478" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="refresh invoked" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670878359" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Job submission failed null" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257196412" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="refresh invoked" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257196413" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="reader is null" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257196524" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="refresh invoked" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257196525" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="reader is null" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257198425" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="refresh invoked" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257198426" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="reader is null" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257198541" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="refresh invoked" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257198542" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="reader is null" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257200450" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Job successfully submitted with tag HSGQPXI" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670878360" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Job successfully submitted with tag CRSYHBL" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257200451" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Job folder: /Users/manuelesimi/CampagneLab/tests/JobArea/manuele/H/HSGQPXI" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670878361" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Job folder: /Users/manuelesimi/CampagneLab/tests/JobArea/manuele/C/CRSYHBL" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257200570" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="refresh invoked" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257200574" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="CDSATLI" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257200575" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="#tags found: [CDSATLI]" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257200576" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Registered fileset message received" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.onJobCompleted" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257200580" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="EIJPGSJ" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257200581" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="#tags found: [EIJPGSJ]" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257200582" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Registered fileset message received" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.onJobCompleted" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257200586" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="TLVHDOQ" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257200587" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="#tags found: [TLVHDOQ]" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257200588" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Registered fileset message received" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.onJobCompleted" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257200592" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="YRZIIQM" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257200593" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="#tags found: [YRZIIQM]" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257200594" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Registered fileset message received" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.onJobCompleted" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257200598" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="HSGQPXI" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257200599" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="#tags found: [HSGQPXI]" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257200600" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Registered fileset message received" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.onJobCompleted" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257200605" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Job completed message received" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.onJobCompleted" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257202684" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="fetching metadata..." />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257202685" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="metadata fetched" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257202703" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Found entry READS_FILE" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257204635" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found tag null" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257204636" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found 1 files with same tag" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257204637" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Processing preview with tag= EUEDUSK" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257204639" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding file /Users/manuelesimi/CampagneLab/tests/R1.fasta" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257204640" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found #ids:1" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257204642" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding type SUPPORTED_INPUT_READS to file /Users/manuelesimi/CampagneLab/tests/R1.fasta" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257204646" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Attaching attributes from SUPPORTED_INPUT_READS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257204647" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Number of valid mappings definition found 4" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257204648" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Found valid mappings definition for SUPPORTED_INPUT_READS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257204770" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Found distinct tags=null" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.register" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257204777" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Found 1 distinctFileSetTypeIds" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.register" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257204778" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Obtained assignedTags=" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.register" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257205011" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670880406" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Submit pressed" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257205018" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670880421" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Preparing the job parameters" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257205019" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670880422" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="FileSetArea.path=/Users/manuelesimi/CampagneLab/tests/FileSetArea" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257205020" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Submitting the job to the cluster with parameters{--plugins-dir,/Users/manuelesimi/CampagneLab/Projects/gobyweb2-plugins-bitbucket,--job,PROCESS_READS_TASK,--job-tag,JKVQKQB,--owner,manuele,--queue,&lt;null&gt;,--job-area,/Users/manuelesimi/CampagneLab/tests/JobArea,--fileset-area,/Users/manuelesimi/CampagneLab/tests/FileSetArea,--repository,/Users/manuelesimi/CampagneLab/tests/Artifacts,--artifact-server,manuelesimi@Manuele-Simis-MacBook-Pro.local,--broker-hostname,localhost,--broker-port,5672,--TAG,FAK1TAG,UPLOADS_FILES:,EUEDUSK,UPLOAD_MERGE_PLAN:,MLUJSMM}" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670880423" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Submitting the job to the cluster with parameters{--plugins-dir,/Users/manuelesimi/CampagneLab/Projects/gobyweb2-plugins-bitbucket,--job,PROCESS_READS_TASK,--job-tag,XYVMYGU,--owner,manuele,--queue,&lt;null&gt;,--job-area,/Users/manuelesimi/CampagneLab/tests/JobArea,--fileset-area,/Users/manuelesimi/CampagneLab/tests/FileSetArea,--repository,/Users/manuelesimi/CampagneLab/tests/Artifacts,--artifact-server,manuelesimi@Manuele-Simis-MacBook-Pro.local,--broker-hostname,localhost,--broker-port,5672,--TAG,FAKETAG,UPLOADS_FILES:,EIJFAJN,DTFKGPA,EHCTNMT,FVJMUEO,HVHSRDA,ZPORIEN,DWLKBGW,FISIJKH,UPLOAD_MERGE_PLAN:,&lt;null&gt;}" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257205027" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670880434" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Subscribing the listener to" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.subscribe" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257205028" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Listener successfully subscribed for notifications about job JKVQKQB" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670880435" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Listener successfully subscribed for notifications about job XYVMYGU" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.subscribe" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257205029" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670880436" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Enabling auto refresh" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.enableAutoRefresh" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257205030" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670880437" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Updater successfully started" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.enableAutoRefresh" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257205561" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found tag null" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670880980" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Job submission failed null" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257205562" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found 1 files with same tag" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257205563" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="fileIds was empty, adding !null!." />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257205564" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Processing preview with tag= QYQOXIZ" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257205566" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding file /Users/manuelesimi/CampagneLab/tests/R1.fasta" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257205567" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found #ids:1" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257205569" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding type SUPPORTED_INPUT_READS to file /Users/manuelesimi/CampagneLab/tests/R1.fasta" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257205573" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Attaching attributes from SUPPORTED_INPUT_READS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257205574" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Number of valid mappings definition found 4" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257205575" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Found valid mappings definition for SUPPORTED_INPUT_READS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257295942" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Job successfully submitted with tag JKVQKQB" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670880981" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Job successfully submitted with tag XYVMYGU" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257295943" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Job folder: /Users/manuelesimi/CampagneLab/tests/JobArea/manuele/J/JKVQKQB" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670880982" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Job folder: /Users/manuelesimi/CampagneLab/tests/JobArea/manuele/X/XYVMYGU" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257357178" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670883050" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="refresh invoked" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257357197" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="NPKEHCM" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670883051" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="reader is null" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257357198" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="#tags found: [NPKEHCM]" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670883157" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="refresh invoked" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257357199" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670883158" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="reader is null" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670883270" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Found 1 distinctFileSetTypeIds" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.register" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670883271" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Obtained assignedTags=" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.register" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670883477" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Submit pressed" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670883492" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Preparing the job parameters" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670883493" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="FileSetArea.path=/Users/manuelesimi/CampagneLab/tests/FileSetArea" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670883494" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Submitting the job to the cluster with parameters{--plugins-dir,/Users/manuelesimi/CampagneLab/Projects/gobyweb2-plugins-bitbucket,--job,PROCESS_READS_TASK,--job-tag,HDNDVBC,--owner,manuele,--queue,&lt;null&gt;,--job-area,/Users/manuelesimi/CampagneLab/tests/JobArea,--fileset-area,/Users/manuelesimi/CampagneLab/tests/FileSetArea,--repository,/Users/manuelesimi/CampagneLab/tests/Artifacts,--artifact-server,manuelesimi@Manuele-Simis-MacBook-Pro.local,--broker-hostname,localhost,--broker-port,5672,--TAG,FAKETAG,UPLOADS_FILES:,EIJFAJN,DTFKGPA,EHCTNMT,FVJMUEO,HVHSRDA,ZPORIEN,DWLKBGW,FISIJKH,UPLOAD_MERGE_PLAN:,UWAFONK}" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670883505" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Subscribing the listener to" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.subscribe" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670883506" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Listener successfully subscribed for notifications about job HDNDVBC" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.subscribe" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670883507" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Enabling auto refresh" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.enableAutoRefresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670883508" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Updater successfully started" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.enableAutoRefresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670886057" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="refresh invoked" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670886058" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="reader is null" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670886168" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="refresh invoked" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670886169" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="reader is null" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670886281" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="refresh invoked" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670886282" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="reader is null" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670886396" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="refresh invoked" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670886397" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="reader is null" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670886535" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="refresh invoked" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670888277" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="refresh invoked" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670888278" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="reader is null" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670889982" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="refresh invoked" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670889983" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="reader is null" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670891691" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Job successfully submitted with tag HDNDVBC" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670891692" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Job folder: /Users/manuelesimi/CampagneLab/tests/JobArea/manuele/H/HDNDVBC" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.submit" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670893404" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="refresh invoked" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670893408" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="JKCSWZR" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670893409" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="#tags found: [JKCSWZR]" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670893410" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Registered fileset message received" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.onJobCompleted" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257357203" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="PTCLZZR" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670893412" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Add instance to FSI container: JKCSWZR" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addToFSIContainer" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670893419" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Instance JKCSWZR added to FSI container in MSNotebook" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addToFSIContainer" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670893422" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="PJSYNWZ" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257357204" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="#tags found: [PTCLZZR]" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670893423" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="#tags found: [PJSYNWZ]" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257357205" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670893424" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Registered fileset message received" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.onJobCompleted" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257357209" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="IDTRZEH" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670893426" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Add instance to FSI container: PJSYNWZ" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addToFSIContainer" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670893433" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Instance PJSYNWZ added to FSI container in MSNotebook" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addToFSIContainer" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670893434" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Checking downloaded entry READ_QUALITY_STATS=[/Users/manuelesimi/.gobyweb/filesets/tmp/P/PJSYNWZ/FAKETAG.quality-stats.tsv]" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670893435" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="found file /Users/manuelesimi/.gobyweb/filesets/tmp/P/PJSYNWZ/FAKETAG.quality-stats.tsv" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.download" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670893528" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="FMRPNGJ" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257357210" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="#tags found: [IDTRZEH]" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670893529" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="#tags found: [FMRPNGJ]" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257357211" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670893530" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Registered fileset message received" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.onJobCompleted" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257357215" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="XZRMYXU" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670893532" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Add instance to FSI container: FMRPNGJ" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addToFSIContainer" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670893539" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Instance FMRPNGJ added to FSI container in MSNotebook" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addToFSIContainer" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670893542" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="HEFQITD" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257357216" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="#tags found: [XZRMYXU]" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670893543" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="#tags found: [HEFQITD]" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257357217" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670893544" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Registered fileset message received" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.onJobCompleted" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257357221" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="JKVQKQB" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670893546" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Add instance to FSI container: HEFQITD" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addToFSIContainer" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670893565" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Instance HEFQITD added to FSI container in MSNotebook" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addToFSIContainer" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670893568" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="HDNDVBC" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257357222" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="#tags found: [JKVQKQB]" />
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670893569" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="#tags found: [HDNDVBC]" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257357223" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670893570" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Registered fileset message received" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.onJobCompleted" />
     </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257357228" nodeInfo="ng">
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670893572" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Add instance to FSI container: HDNDVBC" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addToFSIContainer" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670893579" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Instance HDNDVBC added to FSI container in MSNotebook" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addToFSIContainer" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914670893583" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Job completed message received" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.onJobCompleted" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257357498" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="fetching metadata..." />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257357499" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="metadata fetched" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.fetchMetadata" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257357517" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Found entry READS_FILE" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257377764" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Found distinct tags=null" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.register" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257377771" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Found 1 distinctFileSetTypeIds" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.register" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257377772" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Obtained assignedTags=" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.register" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257377965" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found tag null" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257377966" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found 1 files with same tag" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257377967" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Processing preview with tag= HUNXKGI" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257377969" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding file /Users/manuelesimi/CampagneLab/tests/R1.fasta" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257377970" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="found #ids:1" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257377972" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding type SUPPORTED_INPUT_READS to file /Users/manuelesimi/CampagneLab/tests/R1.fasta" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257377976" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Attaching attributes from SUPPORTED_INPUT_READS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257377977" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Number of valid mappings definition found 4" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721257377978" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Found valid mappings definition for SUPPORTED_INPUT_READS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.addAttributesForFS" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721258408319" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="ORGANISM=" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.hasInvalidAttribute" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721258408425" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="ORGANISM=" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.hasInvalidAttribute" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721258408532" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Found distinct tags=null" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.register" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721258408539" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Found 1 distinctFileSetTypeIds" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.register" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3403061721258408540" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Obtained assignedTags=" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.register" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881007" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ALIGNER_OPTIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881009" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: GENOME_REFERENCE_ID" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881011" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: CHUNK_SIZE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881039" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ALIGNER_OPTIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881041" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: GENOME_REFERENCE_ID" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881043" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: CHUNK_SIZE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881070" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ALN_OPTIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881072" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: SAMPE_SAMSE_OPTIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881074" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: AMBIGUITY_THRESHOLD" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881076" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: MAXIMUM_NUMBER_GAP_OPENS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881078" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: MAXIMUM_NUMBER_GAP_EXTENSIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881080" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: GENOME_REFERENCE_ID" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881082" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: CHUNK_SIZE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881111" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: SAMPE_SAMSE_OPTIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881113" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: AMBIGUITY_THRESHOLD" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881115" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: MAXIMUM_NUMBER_GAP_OPENS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881117" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: MAXIMUM_NUMBER_GAP_EXTENSIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881119" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: GENOME_REFERENCE_ID" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881121" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: CHUNK_SIZE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881149" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ALIGNER_OPTIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881151" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: AMBIGUITY_THRESHOLD" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881153" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: STRANDNESS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881157" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: SPLICED_ALIGNMENT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881161" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: GENOME_REFERENCE_ID" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881163" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: CHUNK_SIZE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881192" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ALIGNER_OPTIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881194" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: AMBIGUITY_THRESHOLD" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881196" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: STRANDNESS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881200" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: SPLICED_ALIGNMENT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881204" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: NON_MATCHING" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881206" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: GENOME_REFERENCE_ID" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881208" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: CHUNK_SIZE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881237" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ALIGNER_OPTIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881239" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: AMBIGUITY_THRESHOLD" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881241" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: STRANDNESS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881245" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: SPLICED_ALIGNMENT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881249" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: NON_MATCHING" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881251" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: GENOME_REFERENCE_ID" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881253" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: CHUNK_SIZE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881283" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ALIGNER_OPTIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881285" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: D" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881287" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: E" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881289" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: S" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881291" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: GENOME_REFERENCE_ID" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881293" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: CHUNK_SIZE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881323" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ALIGNER_OPTIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881325" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: D" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881327" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: E" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881329" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: S" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881331" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: GENOME_REFERENCE_ID" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881333" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: CHUNK_SIZE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881362" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: AMBIGUITY_THRESHOLD" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881364" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ALIGNER_OPTIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881366" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: GENOME_REFERENCE_ID" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881368" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: CHUNK_SIZE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881408" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ASSEMBLER" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881412" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ALIGNER" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881416" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: SEARCH_REFERENCE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881421" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: EVALUE_THRESHOLD" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881423" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: KMER_LENGTH" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881425" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: IDENTITY_THRESHOLD" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881427" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: TRIM_ADAPTERS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881429" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: MERGE_GROUPS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881431" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: GROUP_DEFINITION" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881433" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: COMPARISON_PAIR" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881459" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: REMOVE_SHARED_SEGMENTS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881460" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: NUM_TOP_HITS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881462" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: Q_VALUE_THRESHOLD" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881464" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: WEIGHT_ADJUSTMENT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881469" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: BIAS_ADJUSTMENT_FORMULA" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881476" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ANNOTATION_SOURCE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881480" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ESTIMATE_COUNTS_GENE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881482" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ESTIMATE_COUNTS_EXON" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881484" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ESTIMATE_COUNTS_OTHER" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881486" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: GROUP_DEFINITION" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881488" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: COMPARISON_PAIR" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881517" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: REMOVE_SHARED_SEGMENTS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881518" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: NUM_TOP_HITS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881520" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: Q_VALUE_THRESHOLD" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881522" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: WEIGHT_ADJUSTMENT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881527" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: BIAS_ADJUSTMENT_FORMULA" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881534" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: NORMALIZATION_FACTORS_METHOD" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881539" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: DISPERSION_METHOD" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881543" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: FILTERING" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881545" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ANNOTATION_SOURCE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881549" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ESTIMATE_COUNTS_GENE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881551" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ESTIMATE_COUNTS_EXON" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881553" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ESTIMATE_COUNTS_OTHER" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881555" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: GROUP_DEFINITION" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881557" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: COMPARISON_PAIR" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881583" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: NORMALIZATION_METHOD" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881587" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: REMOVE_SHARED_SEGMENTS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881588" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: NUM_TOP_HITS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881590" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: Q_VALUE_THRESHOLD" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881592" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: WEIGHT_ADJUSTMENT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881597" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: BIAS_ADJUSTMENT_FORMULA" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881604" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ANNOTATION_SOURCE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881608" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ESTIMATE_COUNTS_GENE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881610" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ESTIMATE_COUNTS_EXON" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881612" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ESTIMATE_COUNTS_OTHER" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881614" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: GROUP_DEFINITION" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881616" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: COMPARISON_PAIR" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881633" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: OUTPUT_FORMAT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881636" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: REALIGN_AROUND_INDELS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881638" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: MINIMUM_VARIATION_SUPPORT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881640" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: THRESHOLD_DISTINCT_READ_INDICES" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881642" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: GROUP_DEFINITION" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881644" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: COMPARISON_PAIR" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881664" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: COVARIATE_INFO_URL" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881666" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: GROUP_DEFINITION" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881668" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: COMPARISON_PAIR" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881692" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: OUTPUT_FORMAT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881698" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: REALIGN_AROUND_INDELS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881700" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: CALL_INDELS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881702" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: FORCE_DIPLOID" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881704" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ANNOTATE_VARIATIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881706" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: Q_VALUE_THRESHOLD" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881708" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: NUM_TOP_HITS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881710" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: MINIMUM_VARIATION_SUPPORT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881712" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: THRESHOLD_DISTINCT_READ_INDICES" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881714" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ANNOTATIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881717" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: COVARIATE_INFO_URL" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881719" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: GROUP_DEFINITION" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881721" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: COMPARISON_PAIR" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881764" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: OUTPUT_FORMAT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881767" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: Q_VALUE_THRESHOLD" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881769" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: NUM_TOP_HITS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881771" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: MINIMUM_VARIATION_SUPPORT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881773" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: THRESHOLD_DISTINCT_READ_INDICES" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881775" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: FORCE_DIPLOID" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881777" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: CALL_INDELS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881779" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ANNOTATIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881782" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ESTIMATE_INTRA_GROUP_DIFFERENCE_DENSITY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881784" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: PVALUE_COMBINATOR" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881790" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: WINDOW_LENGTH" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881792" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: SIGNIFICANCE_THRESHOLD_FOR_WINDOW" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881794" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: GROUP_DEFINITION" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881796" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: COMPARISON_PAIR" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881817" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: OUTPUT_FORMAT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881820" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: Q_VALUE_THRESHOLD" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881822" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: NUM_TOP_HITS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881824" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: MINIMUM_VARIATION_SUPPORT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881826" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: THRESHOLD_DISTINCT_READ_INDICES" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881828" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: CALL_INDELS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881830" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: FORCE_DIPLOID" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881832" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ANNOTATIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881846" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: INDEL_RATE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881848" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: WRITE_COUNTS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881850" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ESTIMATE_INTRA_GROUP_DIFFERENCE_DENSITY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881852" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: PVALUE_COMBINATOR" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881858" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: CONTEXTS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881860" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: GROUP_DEFINITION" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881862" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: COMPARISON_PAIR" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881885" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: OUTPUT_FORMAT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881888" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: Q_VALUE_THRESHOLD" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881890" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: NUM_TOP_HITS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881892" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: MINIMUM_VARIATION_SUPPORT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881894" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: THRESHOLD_DISTINCT_READ_INDICES" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881896" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: CALL_INDELS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881898" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: FORCE_DIPLOID" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881900" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ANNOTATION_TYPE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881911" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: INDEL_RATE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881913" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: WRITE_COUNTS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881915" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ESTIMATE_INTRA_GROUP_DIFFERENCE_DENSITY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881917" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: PVALUE_COMBINATOR" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881923" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: CONTEXTS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881925" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: GROUP_DEFINITION" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881927" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: COMPARISON_PAIR" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881952" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: OUTPUT_FORMAT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881958" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: REALIGN_AROUND_INDELS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881960" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: CALL_INDELS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881962" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: FORCE_DIPLOID" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881964" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ANNOTATE_VARIATIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881966" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: Q_VALUE_THRESHOLD" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881968" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: NUM_TOP_HITS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881970" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: MINIMUM_VARIATION_SUPPORT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881972" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: THRESHOLD_DISTINCT_READ_INDICES" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881974" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ANNOTATIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881977" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: COVARIATE_INFO_URL" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881979" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: GROUP_DEFINITION" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881981" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: COMPARISON_PAIR" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881993" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: OUTPUT_FORMAT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881997" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ANNOTATE_VARIATIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017881999" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: NUM_TOP_HITS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882001" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: GROUP_DEFINITION" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882003" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: COMPARISON_PAIR" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882028" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: STAT_ENGINE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882032" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: FORCE_GOBY_SPLICE_USE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882034" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: GROUP_DEFINITION" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882036" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: COMPARISON_PAIR" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882148" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ONLY_NON_SYNONYMOUS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882246" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: SAMPLE_NAME" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882248" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: TAG" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882250" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: READS_COLOR_SPACE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882252" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: READS_PLATFORM" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882258" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: QUALITY_ENCODING" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882307" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882308" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882309" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882310" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882311" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882312" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882313" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882314" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882315" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882316" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882317" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882318" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882319" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882320" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882321" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882322" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882323" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882324" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882325" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882326" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882327" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882328" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882329" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882330" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882331" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882332" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882333" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882334" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882335" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882336" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882337" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882338" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882339" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882340" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882341" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882342" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882343" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882344" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882345" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882346" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882347" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882348" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882349" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882350" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882351" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882352" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882353" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882354" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882355" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882356" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882357" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882358" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882359" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882360" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882361" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882362" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882363" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882364" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882365" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882366" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882367" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882368" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882369" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882370" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882371" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882372" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882373" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882374" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882375" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882376" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882377" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882378" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882379" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882380" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882381" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882382" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882383" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882384" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882385" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882386" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882387" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882388" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882389" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882390" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882391" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882392" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882393" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882394" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882395" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882396" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882397" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882398" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882399" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882400" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882401" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882402" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882403" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@49c13975" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882404" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882405" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@6bf1c978" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882406" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882407" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@49a8a344" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882408" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882409" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@2ae841a8" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882410" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=BISMARK_ARTIFACT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882411" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@18e47c9e" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882412" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=SAMTOOLS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882413" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@528dfac" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882414" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=ILLUMINA_ADAPTERS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882415" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882416" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@622a93db" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882417" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882418" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@6ec7aa76" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882419" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882420" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@7bd57cec" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882421" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=BWA_WITH_GOBY_ARTIFACT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882422" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@122b442f" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882423" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=SAMTOOLS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882424" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882425" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@65dbb183" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882426" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882427" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@44196ad1" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882428" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882429" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@3c2bbf92" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882430" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=BWA_WITH_GOBY_ARTIFACT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882431" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882432" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@dfb3457" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882433" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882434" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@35db4906" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882435" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882436" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@17ecad17" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882437" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=BWA_WITH_GOBY_ARTIFACT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882438" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@396f02fe" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882439" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882440" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@5413ddd1" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882441" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MPS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882442" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882443" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@efd1ce2" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882444" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882445" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@34d6ab58" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882446" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882447" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@28eb305d" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882448" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GSNAP_WITH_GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882449" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@135fbda2" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882450" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=SAMTOOLS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882451" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882452" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@7b057dba" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882453" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882454" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@750b30ef" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882455" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882456" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@2ea66758" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882457" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GSNAP_WITH_GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882458" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@5ba47800" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882459" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=ILLUMINA_ADAPTERS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882460" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@3c4892e4" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882461" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=EXTRACT_NONMATCHED" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882462" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882463" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@69a4f051" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882464" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882465" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@58006d5e" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882466" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882467" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@12887627" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882468" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GSNAP_WITH_GOBY_ARTIFACT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882469" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@8f04bcc" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882470" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=ILLUMINA_ADAPTERS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882471" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@3c325c63" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882472" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=EXTRACT_NONMATCHED" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882473" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882474" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@1832c30a" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882475" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882476" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@5c80d701" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882477" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882478" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@51474a37" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882479" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882480" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@3605f5f6" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882481" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=LAST_ARTIFACT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882482" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@7fac378" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882483" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=LAST_BISULFITE_INDEX" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882484" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@7fb3d69b" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882485" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=PLAST" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882486" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882487" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@75b9971c" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882488" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882489" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@59d00660" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882490" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882491" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@381accd9" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882492" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882493" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@9dd0ba8" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882494" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=LAST_ARTIFACT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882495" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@3cbfb17e" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882496" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=LAST_INDEX" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882497" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@18b70d05" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882498" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=PLAST" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882499" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882500" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@48345ea" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882501" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882502" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@43ee698f" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882503" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882504" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@c90d7f9" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882505" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=STAR" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882506" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@44600818" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882507" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882508" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@77a9200a" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882509" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=SAMTOOLS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882510" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882511" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@31339caf" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882512" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882513" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@284bb415" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882514" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882515" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@3e9f5b82" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882516" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882517" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@7fcf4a38" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882518" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MINIA" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882519" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@b2e6816" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882520" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=TRINITY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882521" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@5871dc28" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882522" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=LAST" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882523" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@1bdacd3e" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882524" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=EXTRACT_NONMATCHED" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882525" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@2abbb3eb" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882526" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=BWA_WITH_GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882527" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@33447f33" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882528" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=ILLUMINA_ADAPTERS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882529" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@2eb806ca" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882530" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=PATHOGEN_DATA" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882531" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882532" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@70c20ce1" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882533" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882534" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@5f2e6e14" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882535" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882536" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@5888266c" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882537" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882538" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@3f524891" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882539" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=DESEQ_SCRIPT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882540" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@6500827b" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882541" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=DESEQ" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882542" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@27578f3e" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882543" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=ENSEMBL_ANNOTATIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882544" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882545" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@73f5baa1" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882546" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882547" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@565105a" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882548" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882549" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@6e10de53" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882550" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=ENSEMBL_ANNOTATIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882551" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@22bcfd9" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882552" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882553" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@3c8bf465" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882554" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=R" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882555" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@1cc8dec3" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882556" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=EDGE_R_SCRIPT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882557" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@4f14cc6a" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882558" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=ENSEMBL_ANNOTATIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882559" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882560" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@2235c8f1" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882561" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882562" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@40b9ae15" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882563" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882564" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@2045cf3b" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882565" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882566" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@1df7f7d2" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882567" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=ENSEMBL_ANNOTATIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882568" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882569" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@6385403c" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882570" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882571" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@193281ef" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882572" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882573" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@5fffc146" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882574" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882575" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882576" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@6b8aa9d6" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882577" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882578" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@4be20f3e" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882579" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882580" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@138502a7" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882581" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MUTECT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882582" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@7da83811" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882583" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MUTECT_HOMO_SAPIENS_DATA" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882584" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@5c5c6ca5" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882585" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882586" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@3313ce35" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882587" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY_INDEXED_GENOMES" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882588" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@8d08cdf" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882589" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=FAI_INDEXED_GENOMES" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882590" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@717f4cbe" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882591" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=SAMTOOLS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882592" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882593" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@18dfb6be" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882594" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882595" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@5907098a" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882596" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882597" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@64ad56a" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882598" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882599" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@70594665" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882600" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=VCF_TOOLS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882601" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@3e0fb3c2" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882602" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=VARIANT_EFFECT_PREDICTOR" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882603" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@16a88c85" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882604" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=ANNOTATE_VCF" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882605" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@577a65b2" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882606" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=RJAVA" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882607" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@176b1f46" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882608" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY_INDEXED_GENOMES" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882609" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882610" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@6046135b" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882611" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882612" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@6f3340d8" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882613" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882614" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@6071192a" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882615" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882616" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@42abc367" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882617" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=ENSEMBL_ANNOTATIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882618" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@6be35475" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882619" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=ANNOTATE_VCF" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882620" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882621" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@4575f32d" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882622" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882623" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@a047ff5" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882624" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882625" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@637dd29a" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882626" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882627" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@766a1eba" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882628" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=IGVTOOLS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882629" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@3d088655" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882630" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=ANNOTATE_VCF" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882631" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882632" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@41c936ab" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882633" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882634" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@5a3c8a75" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882635" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882636" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@4829dd6d" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882637" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882638" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@2bb3e0c4" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882639" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=IGVTOOLS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882640" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@339ed4e6" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882641" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=ANNOTATE_VCF" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882642" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@1018316c" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882643" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=ENSEMBL_ANNOTATIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882644" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@4613b1ef" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882645" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY_INDEXED_GENOMES" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882646" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882647" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@7fb17058" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882648" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882649" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@2447aaf8" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882650" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882651" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@3a505be6" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882652" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882653" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@9566085" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882654" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=VCF_TOOLS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882655" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@59325b3a" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882656" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=VARIANT_EFFECT_PREDICTOR" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882657" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@2ad60f07" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882658" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=ANNOTATE_VCF" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882659" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@1fea7416" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882660" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY_INDEXED_GENOMES" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882661" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882662" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@581974c6" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882663" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882664" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@442486c7" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882665" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882666" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@79422001" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882667" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=SAMTOOLS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882668" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@52e46522" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882669" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=ANNOTATE_VCF" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882670" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882671" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@2944ec3f" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882672" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882673" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@6a5e7eda" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882674" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882675" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@658980aa" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882676" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882677" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@7a3f1c4c" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882678" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=SCALA" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882679" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@1d34ccf4" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882680" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=R" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882681" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@53f32d78" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882682" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=DESEQ_SCRIPT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882683" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@4be503da" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882684" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=EDGE_R_SCRIPT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882685" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882686" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@6fb1f890" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882687" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882688" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@443233c2" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882689" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882690" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@7c89ba20" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882691" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=ANNOTATE_VCF" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882692" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882693" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@7510982d" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882694" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882695" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@61eea815" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882696" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882697" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@2d3d1b50" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882698" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=BWA_WITH_GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882699" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@f84a5c0" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882700" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882701" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@4ec740a9" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882702" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MPS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882703" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882704" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@69573e44" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882705" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882706" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@3afe0f52" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882707" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882708" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@13d746e3" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882709" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=BWA_WITH_GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882710" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@505e8827" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882711" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MPS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882712" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882713" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@5c53ad67" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882714" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882715" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@55d36eab" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882716" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882717" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882718" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@22245f56" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882719" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882720" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@6128dd81" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882721" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882722" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@5117801a" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882723" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882724" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@16d90b38" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882725" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MPS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882726" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882727" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@1535215b" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882728" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882729" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@3485b1c0" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882730" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882731" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@10b04f21" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882732" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882733" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@17d06cec" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882734" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MPS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882735" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882736" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@33150f10" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882737" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882738" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@5e019cf2" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882739" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882740" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@7cd6bc17" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882741" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882742" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@b2a1426" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882743" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=PROCESS_READS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882744" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@6bce308e" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882745" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=BASH_LIBRARY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882746" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882747" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@bf2891c" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882748" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882749" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@20c01473" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882750" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882751" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@2782a7a8" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882752" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882753" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@3d57ad4c" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882754" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MPS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882755" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882756" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@7607cce" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882757" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882758" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@11792621" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882759" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882760" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882761" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@30269aa" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882762" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882763" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@76d5e9dc" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882764" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882765" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@7a82012e" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882766" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882767" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@2571342d" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882768" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=RJAVA" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="3155417396017882769" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Executed success method" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.reload" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667369968" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ALIGNER_OPTIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667369970" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: GENOME_REFERENCE_ID" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667369972" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: CHUNK_SIZE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370000" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ALIGNER_OPTIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370002" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: GENOME_REFERENCE_ID" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370004" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: CHUNK_SIZE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370031" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ALN_OPTIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370033" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: SAMPE_SAMSE_OPTIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370035" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: AMBIGUITY_THRESHOLD" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370037" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: MAXIMUM_NUMBER_GAP_OPENS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370039" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: MAXIMUM_NUMBER_GAP_EXTENSIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370041" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: GENOME_REFERENCE_ID" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370043" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: CHUNK_SIZE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370071" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ALIGNER_OPTIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370073" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: AMBIGUITY_THRESHOLD" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370075" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: STRANDNESS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370079" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: SPLICED_ALIGNMENT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370083" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: GENOME_REFERENCE_ID" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370085" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: CHUNK_SIZE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370114" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ALIGNER_OPTIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370116" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: AMBIGUITY_THRESHOLD" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370118" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: STRANDNESS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370122" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: SPLICED_ALIGNMENT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370126" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: NON_MATCHING" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370128" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: GENOME_REFERENCE_ID" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370130" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: CHUNK_SIZE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370159" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ALIGNER_OPTIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370161" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: AMBIGUITY_THRESHOLD" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370163" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: STRANDNESS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370167" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: SPLICED_ALIGNMENT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370171" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: NON_MATCHING" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370173" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: GENOME_REFERENCE_ID" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370175" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: CHUNK_SIZE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370205" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ALIGNER_OPTIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370207" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: D" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370209" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: E" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370211" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: S" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370213" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: GENOME_REFERENCE_ID" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370215" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: CHUNK_SIZE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370245" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ALIGNER_OPTIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370247" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: D" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370249" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: E" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370251" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: S" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370253" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: GENOME_REFERENCE_ID" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370255" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: CHUNK_SIZE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370284" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: AMBIGUITY_THRESHOLD" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370286" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ALIGNER_OPTIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370288" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: GENOME_REFERENCE_ID" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370290" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: CHUNK_SIZE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370330" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ASSEMBLER" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370334" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ALIGNER" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370338" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: SEARCH_REFERENCE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370343" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: EVALUE_THRESHOLD" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370345" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: KMER_LENGTH" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370347" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: IDENTITY_THRESHOLD" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370349" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: TRIM_ADAPTERS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370351" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: MERGE_GROUPS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370353" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: GROUP_DEFINITION" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370355" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: COMPARISON_PAIR" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370381" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: REMOVE_SHARED_SEGMENTS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370382" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: NUM_TOP_HITS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370384" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: Q_VALUE_THRESHOLD" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370386" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: WEIGHT_ADJUSTMENT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370391" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: BIAS_ADJUSTMENT_FORMULA" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370398" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ANNOTATION_SOURCE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370402" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ESTIMATE_COUNTS_GENE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370404" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ESTIMATE_COUNTS_EXON" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370406" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ESTIMATE_COUNTS_OTHER" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370408" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: GROUP_DEFINITION" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370410" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: COMPARISON_PAIR" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370439" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: REMOVE_SHARED_SEGMENTS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370440" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: NUM_TOP_HITS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370442" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: Q_VALUE_THRESHOLD" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370444" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: WEIGHT_ADJUSTMENT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370449" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: BIAS_ADJUSTMENT_FORMULA" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370456" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: NORMALIZATION_FACTORS_METHOD" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370461" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: DISPERSION_METHOD" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370465" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: FILTERING" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370467" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ANNOTATION_SOURCE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370471" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ESTIMATE_COUNTS_GENE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370473" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ESTIMATE_COUNTS_EXON" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370475" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ESTIMATE_COUNTS_OTHER" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370477" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: GROUP_DEFINITION" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370479" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: COMPARISON_PAIR" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370505" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: NORMALIZATION_METHOD" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370509" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: REMOVE_SHARED_SEGMENTS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370510" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: NUM_TOP_HITS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370512" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: Q_VALUE_THRESHOLD" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370514" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: WEIGHT_ADJUSTMENT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370519" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: BIAS_ADJUSTMENT_FORMULA" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370526" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ANNOTATION_SOURCE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370530" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ESTIMATE_COUNTS_GENE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370532" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ESTIMATE_COUNTS_EXON" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370534" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ESTIMATE_COUNTS_OTHER" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370536" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: GROUP_DEFINITION" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370538" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: COMPARISON_PAIR" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370555" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: OUTPUT_FORMAT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370558" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: REALIGN_AROUND_INDELS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370560" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: MINIMUM_VARIATION_SUPPORT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370562" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: THRESHOLD_DISTINCT_READ_INDICES" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370564" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: GROUP_DEFINITION" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370566" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: COMPARISON_PAIR" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370586" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: COVARIATE_INFO_URL" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370588" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: GROUP_DEFINITION" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370590" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: COMPARISON_PAIR" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370614" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: OUTPUT_FORMAT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370620" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: REALIGN_AROUND_INDELS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370622" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: CALL_INDELS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370624" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: FORCE_DIPLOID" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370626" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ANNOTATE_VARIATIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370628" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: Q_VALUE_THRESHOLD" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370630" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: NUM_TOP_HITS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370632" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: MINIMUM_VARIATION_SUPPORT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370634" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: THRESHOLD_DISTINCT_READ_INDICES" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370636" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ANNOTATIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370639" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: COVARIATE_INFO_URL" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370641" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: GROUP_DEFINITION" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370643" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: COMPARISON_PAIR" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370686" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: OUTPUT_FORMAT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370689" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: Q_VALUE_THRESHOLD" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370691" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: NUM_TOP_HITS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370693" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: MINIMUM_VARIATION_SUPPORT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370695" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: THRESHOLD_DISTINCT_READ_INDICES" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370697" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: FORCE_DIPLOID" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370699" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: CALL_INDELS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370701" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ANNOTATIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370704" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ESTIMATE_INTRA_GROUP_DIFFERENCE_DENSITY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370706" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: PVALUE_COMBINATOR" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370712" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: WINDOW_LENGTH" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370714" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: SIGNIFICANCE_THRESHOLD_FOR_WINDOW" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370716" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: GROUP_DEFINITION" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370718" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: COMPARISON_PAIR" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370739" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: OUTPUT_FORMAT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370742" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: Q_VALUE_THRESHOLD" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370744" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: NUM_TOP_HITS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370746" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: MINIMUM_VARIATION_SUPPORT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370748" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: THRESHOLD_DISTINCT_READ_INDICES" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370750" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: CALL_INDELS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370752" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: FORCE_DIPLOID" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370754" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ANNOTATIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370768" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: INDEL_RATE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370770" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: WRITE_COUNTS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370772" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ESTIMATE_INTRA_GROUP_DIFFERENCE_DENSITY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370774" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: PVALUE_COMBINATOR" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370780" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: CONTEXTS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370782" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: GROUP_DEFINITION" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370784" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: COMPARISON_PAIR" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370807" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: OUTPUT_FORMAT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370810" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: Q_VALUE_THRESHOLD" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370812" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: NUM_TOP_HITS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370814" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: MINIMUM_VARIATION_SUPPORT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370816" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: THRESHOLD_DISTINCT_READ_INDICES" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370818" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: CALL_INDELS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370820" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: FORCE_DIPLOID" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370822" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ANNOTATION_TYPE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370833" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: INDEL_RATE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370835" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: WRITE_COUNTS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370837" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ESTIMATE_INTRA_GROUP_DIFFERENCE_DENSITY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370839" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: PVALUE_COMBINATOR" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370845" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: CONTEXTS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370847" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: GROUP_DEFINITION" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370849" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: COMPARISON_PAIR" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370874" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: OUTPUT_FORMAT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370880" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: REALIGN_AROUND_INDELS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370882" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: CALL_INDELS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370884" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: FORCE_DIPLOID" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370886" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ANNOTATE_VARIATIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370888" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: Q_VALUE_THRESHOLD" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370890" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: NUM_TOP_HITS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370892" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: MINIMUM_VARIATION_SUPPORT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370894" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: THRESHOLD_DISTINCT_READ_INDICES" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370896" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ANNOTATIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370899" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: COVARIATE_INFO_URL" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370901" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: GROUP_DEFINITION" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370903" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: COMPARISON_PAIR" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370915" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: OUTPUT_FORMAT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370919" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ANNOTATE_VARIATIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370921" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: NUM_TOP_HITS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370923" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: GROUP_DEFINITION" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370925" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: COMPARISON_PAIR" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370950" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: STAT_ENGINE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370954" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: FORCE_GOBY_SPLICE_USE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370956" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: GROUP_DEFINITION" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667370958" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: COMPARISON_PAIR" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371070" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: ONLY_NON_SYNONYMOUS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371168" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: SAMPLE_NAME" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371170" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: TAG" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371172" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: READS_COLOR_SPACE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371174" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: READS_PLATFORM" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371180" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Adding options: QUALITY_ENCODING" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.populateOptions" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371229" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371230" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371231" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371232" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371233" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371234" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371235" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371236" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371237" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371238" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371239" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371240" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371241" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371242" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371243" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371244" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371245" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371246" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371247" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371248" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371249" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371250" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371251" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371252" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371253" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371254" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371255" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371256" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371257" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371258" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371259" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371260" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371261" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371262" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371263" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371264" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371265" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371266" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371267" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371268" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371269" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371270" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371271" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371272" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371273" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371274" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371275" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371276" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371277" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371278" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371279" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371280" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371281" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371282" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371283" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371284" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371285" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371286" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371287" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371288" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371289" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371290" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371291" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371292" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371293" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371294" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371295" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371296" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371297" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371298" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371299" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371300" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371301" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371302" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371303" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371304" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371305" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371306" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371307" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371308" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371309" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371310" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371311" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371312" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371313" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371314" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371315" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371316" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371317" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371318" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371319" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371320" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371321" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371322" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371323" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371324" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371325" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@611c738d" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371326" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371327" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@31ec5eff" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371328" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371329" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@4f31c4c0" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371330" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371331" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@7277be68" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371332" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=BISMARK_ARTIFACT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371333" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@6e4456bb" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371334" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=SAMTOOLS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371335" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@5531a42a" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371336" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=ILLUMINA_ADAPTERS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371337" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371338" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@a9be592" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371339" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371340" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@1fc5d625" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371341" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371342" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@670859b8" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371343" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=BWA_WITH_GOBY_ARTIFACT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371344" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@62bdc954" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371345" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=SAMTOOLS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371346" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371347" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@2640a0c3" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371348" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371349" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@117a5eb" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371350" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371351" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@c55d5ec" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371352" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=BWA_WITH_GOBY_ARTIFACT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371353" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371354" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@49a08033" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371355" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371356" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@3b45f645" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371357" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371358" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@57e0a341" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371359" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GSNAP_WITH_GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371360" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@40f7a25e" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371361" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=SAMTOOLS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371362" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371363" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@7a7f2556" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371364" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371365" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@fe59119" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371366" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371367" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@5bf6c6b0" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371368" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GSNAP_WITH_GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371369" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@ef9b734" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371370" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=ILLUMINA_ADAPTERS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371371" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@7a4001b7" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371372" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=EXTRACT_NONMATCHED" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371373" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371374" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@7309c6ed" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371375" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371376" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@7f484369" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371377" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371378" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@61c787c1" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371379" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GSNAP_WITH_GOBY_ARTIFACT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371380" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@2630b3b8" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371381" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=ILLUMINA_ADAPTERS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371382" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@2d6b4af5" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371383" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=EXTRACT_NONMATCHED" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371384" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371385" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@112ba432" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371386" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371387" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@d07251c" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371388" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371389" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@68d9525f" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371390" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371391" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@34b11898" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371392" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=LAST_ARTIFACT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371393" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@631c67a2" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371394" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=LAST_BISULFITE_INDEX" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371395" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@3866367e" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371396" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=PLAST" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371397" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371398" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@3846ef42" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371399" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371400" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@4f951bcc" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371401" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371402" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@3f07a76a" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371403" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371404" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@2e5e5078" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371405" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=LAST_ARTIFACT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371406" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@54d41b86" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371407" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=LAST_INDEX" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371408" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@3d3a657b" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371409" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=PLAST" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371410" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371411" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@2627a8f" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371412" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371413" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@6dd83f25" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371414" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371415" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@3d2d3138" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371416" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=STAR" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371417" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@15a2069b" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371418" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371419" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@1bed4d33" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371420" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=SAMTOOLS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371421" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371422" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@646b158f" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371423" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371424" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@665ac315" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371425" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371426" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@5f5b6b17" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371427" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371428" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@35efa048" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371429" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MINIA" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371430" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@74085aaa" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371431" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=TRINITY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371432" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@5f31d6bb" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371433" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=LAST" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371434" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@151fa35d" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371435" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=EXTRACT_NONMATCHED" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371436" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@6105001c" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371437" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=BWA_WITH_GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371438" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@76a2dffa" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371439" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=ILLUMINA_ADAPTERS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371440" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@33e637f6" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371441" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=PATHOGEN_DATA" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371442" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371443" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@33207031" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371444" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371445" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@5b88b718" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371446" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371447" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@193935bb" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371448" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371449" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@6d5449a9" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371450" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=DESEQ_SCRIPT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371451" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@285b15a4" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371452" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=DESEQ" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371453" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@7e79c0f6" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371454" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=ENSEMBL_ANNOTATIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371455" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371456" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@58f53ffb" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371457" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371458" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@4e847681" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371459" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371460" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@5f7223a2" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371461" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=ENSEMBL_ANNOTATIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371462" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@189d9d1e" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371463" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371464" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@6635ded8" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371465" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=R" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371466" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@6f061744" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371467" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=EDGE_R_SCRIPT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371468" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@294b4ab9" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371469" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=ENSEMBL_ANNOTATIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371470" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371471" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@1f98749a" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371472" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371473" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@6887fc9e" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371474" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371475" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@1ced46f8" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371476" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371477" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@41f33fbd" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371478" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=ENSEMBL_ANNOTATIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371479" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371480" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@39c5d220" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371481" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371482" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@4263e18e" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371483" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371484" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@10e1c6fc" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371485" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371486" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371487" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@2a48a460" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371488" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371489" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@4696fd9c" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371490" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371491" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@483c52a2" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371492" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MUTECT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371493" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@4b09c915" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371494" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MUTECT_HOMO_SAPIENS_DATA" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371495" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@51b92ef" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371496" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371497" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@7cd231c" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371498" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY_INDEXED_GENOMES" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371499" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@f629ee2" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371500" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=FAI_INDEXED_GENOMES" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371501" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@2c869081" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371502" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=SAMTOOLS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371503" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371504" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@167ab528" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371505" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371506" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@104eb890" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371507" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371508" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@31fda30d" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371509" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371510" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@5d9ce86f" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371511" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=VCF_TOOLS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371512" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@54409d28" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371513" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=VARIANT_EFFECT_PREDICTOR" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371514" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@6b9d72ec" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371515" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=ANNOTATE_VCF" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371516" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@79b17ca9" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371517" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=RJAVA" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371518" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@3ff6f4d5" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371519" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY_INDEXED_GENOMES" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371520" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371521" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@bed872d" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371522" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371523" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@3d581439" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371524" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371525" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@3058863f" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371526" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371527" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@30cce3ef" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371528" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=ENSEMBL_ANNOTATIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371529" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@3b8a7b5e" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371530" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=ANNOTATE_VCF" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371531" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371532" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@63459ccd" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371533" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371534" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@2ce94ef3" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371535" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371536" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@4739d66" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371537" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371538" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@3b080cd0" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371539" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=IGVTOOLS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371540" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@47b95b25" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371541" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=ANNOTATE_VCF" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371542" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371543" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@68bd204a" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371544" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371545" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@7e0c3ac5" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371546" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371547" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@51eb38c3" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371548" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371549" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@6bd118c7" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371550" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=IGVTOOLS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371551" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@89c3dce" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371552" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=ANNOTATE_VCF" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371553" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@3aba54f9" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371554" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=ENSEMBL_ANNOTATIONS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371555" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@4368587f" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371556" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY_INDEXED_GENOMES" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371557" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371558" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@69fa18e4" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371559" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371560" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@78c7ee9a" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371561" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371562" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@6121fc6e" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371563" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371564" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@276fc052" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371565" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=VCF_TOOLS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371566" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@5b5b84c5" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371567" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=VARIANT_EFFECT_PREDICTOR" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371568" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@7ba2a2c6" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371569" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=ANNOTATE_VCF" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371570" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@b2e6564" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371571" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY_INDEXED_GENOMES" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371572" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371573" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@5f322904" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371574" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371575" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@7eddad6a" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371576" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371577" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@110d8529" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371578" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=SAMTOOLS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371579" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@271f07fb" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371580" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=ANNOTATE_VCF" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371581" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371582" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@73df7864" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371583" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371584" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@445a1d06" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371585" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371586" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@2ed24cfd" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371587" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371588" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@8392817" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371589" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=SCALA" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371590" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@2e0a1a62" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371591" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=R" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371592" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@f21d979" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371593" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=DESEQ_SCRIPT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371594" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@72bcbd7f" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371595" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=EDGE_R_SCRIPT" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371596" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371597" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@2143da7f" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371598" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371599" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@333d2974" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371600" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371601" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@4f55790d" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371602" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=ANNOTATE_VCF" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371603" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371604" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@32466963" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371605" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371606" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@83fcc84" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371607" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371608" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@1414bba1" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371609" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=BWA_WITH_GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371610" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@2e694f4" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371611" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371612" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@5e254c1e" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371613" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MPS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371614" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371615" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@7a13f519" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371616" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371617" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@54b4b366" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371618" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371619" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@739facbd" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371620" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=BWA_WITH_GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371621" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@7ce1142e" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371622" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MPS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371623" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371624" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@73ac16d5" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371625" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371626" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@35e083e9" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371627" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371628" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371629" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@3778099" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371630" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371631" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@ab067ac" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371632" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371633" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@39371530" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371634" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371635" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@52789f97" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371636" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MPS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371637" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371638" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@60db917e" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371639" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371640" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@2a20a5a2" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371641" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371642" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@6b982e1b" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371643" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371644" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@5992c054" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371645" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MPS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371646" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371647" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@3f90aef5" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371648" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371649" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@385ba395" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371650" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371651" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@51ae5f1b" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371652" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371653" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@3eb9bed0" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371654" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=PROCESS_READS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371655" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@dbbcfaf" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371656" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=BASH_LIBRARY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371657" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371658" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@1193cdb3" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371659" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371660" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@6cbab40d" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371661" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371662" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@2ae67d0" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371663" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371664" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@2b4c6623" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371665" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MPS" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371666" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371667" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@67ed422b" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371668" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371669" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@3bd60d9f" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371670" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371671" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371672" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@1c9e50a1" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371673" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=MERCURY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371674" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@391551ee" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371675" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBYWEB_SERVER_SIDE" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371676" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@326241c1" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371677" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=GOBY" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371678" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Resolving resource: org.campagnelab.gobyweb.plugins.xml.resources.Resource@4080666d" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371679" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="resource=RJAVA" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.resolveResourceRefs" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667371680" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Executed success method" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.reload" />
-    </node>
-    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="2495307914667374286" nodeInfo="ng">
-      <property name="message" nameId="whle.1925991773568778812" value="Creating Local Manager" />
-      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.createManager" />
     </node>
   </root>
   <root type="bbh2.JobMonitorInterface" typeId="bbh2.1212232161612230177" id="9220773117877407358" nodeInfo="ng">
@@ -13345,6 +7349,38 @@
       <property name="id" nameId="czzw.5865189911928341274" value="manuele" />
       <property name="name" nameId="tpck.1169194664001" value="Manuele Simi" />
     </node>
+  </root>
+  <root type="7aad.GobyWebReadSample" typeId="7aad.7926097513313663840" id="2495307914670883496" nodeInfo="ng">
+    <property name="tag" nameId="7aad.7926097513313697603" value="HDNDVBC" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="samples" />
+    <property name="minLength" nameId="7aad.7926097513313663894" value="4" />
+    <property name="maxLength" nameId="7aad.7926097513313663897" value="4" />
+    <property name="numberOfReads" nameId="7aad.7926097513313663892" value="2" />
+    <property name="isPaired" nameId="7aad.4767454762908097042" value="false" />
+    <property name="isReadyToAlign" nameId="7aad.4767454762908112384" value="true" />
+    <property name="statsTsvFilename" nameId="7aad.314766823432480904" value="PJSYNWZ-FAKETAG.quality-stats.tsv" />
+    <property name="organism" nameId="7aad.7926097513313663901" value="homo_sapiens" />
+    <property name="platform" nameId="7aad.7926097513313663906" value="Illumina" />
+    <property name="basename" nameId="7aad.1745780986249997300" value="S1_1_R1" />
+    <property name="isBisulfite" nameId="7aad.1745780986249139912" value="false" />
+    <property name="name" nameId="tpck.1169194664001" value="S1_1_R1" />
+    <link role="properties" roleId="7aad.4834682855104902359" targetNodeId="2495307914670893413" resolveInfo="output-stats" />
+    <link role="sequenceVariationStats" roleId="7aad.4834682855104902353" targetNodeId="2495307914670893427" resolveInfo="FAKETAG" />
+    <link role="weights" roleId="7aad.314766823431618392" targetNodeId="2495307914670893533" resolveInfo="FAKETAG-S1_1" />
+    <link role="reads" roleId="7aad.4834682855104902348" targetNodeId="2495307914670893547" resolveInfo="S1_1_R1" />
+  </root>
+  <root type="27q2.ProcessReadsTool" typeId="27q2.8628570127255966361" id="8628570127258624744" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="ProcessReadsTool" />
+    <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="7915051628305677536" resolveInfo="MSNotebook" />
+    <node role="instances" roleId="27q2.8982654668860900776" type="bs99.FileSetInstanceRefSet" typeId="bs99.2835705609407426008" id="8628570127258624745" nodeInfo="ng">
+      <node role="refs" roleId="bs99.2835705609407426009" type="bs99.FileSetInstanceReference" typeId="bs99.2835705609407425062" id="8628570127258731851" nodeInfo="ng">
+        <link role="fileSetInstance" roleId="bs99.2835705609407425063" targetNodeId="2495307914668729188" resolveInfo="S1_1_R1" />
+      </node>
+      <node role="refs" roleId="bs99.2835705609407426009" type="bs99.FileSetInstanceReference" typeId="bs99.2835705609407425062" id="8628570127258731857" nodeInfo="ng">
+        <link role="fileSetInstance" roleId="bs99.2835705609407425063" targetNodeId="2495307914670893547" resolveInfo="S1_1_R1" />
+      </node>
+    </node>
+    <node role="jobs" roleId="27q2.8628570127256259321" type="bs99.JobRefSet" typeId="bs99.8628570127256259312" id="8628570127258624746" nodeInfo="ng" />
   </root>
 </model>
 

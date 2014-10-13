@@ -12,18 +12,19 @@
   <exported-language name="7620dd3f-7541-48a3-b1e6-01cced81a7a5(org.campagnelab.clusterConfig)" />
   <exported-language name="d9858376-ef55-45a1-81ea-9c3bbce200d9(org.campagnelab.gobyweb.interactive.sharing)" />
   <exported-language name="adfd00cb-58d7-4094-bca8-f941a491e04f(org.campagnelab.gobyweb)" />
-  <exported-language name="0e33afe3-d914-492d-8584-911dae0711b2(org.campagnelab.gobyweb.interactive.genomes)" />
   <exported-language name="e2d79ce9-bdd0-4275-a250-1037dd79ddc3(org.campagnelab.gobyweb.interactive.samples)" />
+  <exported-language name="0e33afe3-d914-492d-8584-911dae0711b2(org.campagnelab.gobyweb.interactive.genomes)" />
   <exported-language name="a5ff6f1b-885e-4f1e-be7d-09432bfbf851(org.campagnelab.lucene.tableviewer)" />
-  <exported-language name="f05c05d7-dafb-4c87-b842-b836f305120f(org.campagnelab.gobyweb.monitoring)" />
+  <exported-language name="f5ac4674-69d1-4bf4-bf2b-474c7d9de542(org.campagnelab.gobyweb.interactive.reads)" />
   <exported-language name="0202ed86-955d-4227-9c20-377dd6b1f9ff(org.campagnelab.nyosh.lib)" />
+  <exported-language name="f05c05d7-dafb-4c87-b842-b836f305120f(org.campagnelab.gobyweb.monitoring)" />
   <exported-language name="82ffebe3-3685-4fd9-b560-0c1d348d295c(org.campagnelab.logger)" />
   <exported-language name="a8fb88b0-7e9f-478c-aab4-a1b076131192(org.campagnelab.gobyweb.interactive)" />
   <exported-solutions>
     <exported-solution>2b3d76b7-a9ea-44f6-8a30-283c3ffb5f0a(org.campagnelab.ui.code)</exported-solution>
     <exported-solution>9fdb2df2-db25-4874-9a5f-47e348e5bce7(org.campagnelab.lucene.tableviewer.runtime)</exported-solution>
-    <exported-solution>592d8eb7-1a36-488a-93f9-794b47361c97(org.campagnelab.gobyweb.interactive.filesets.mappings)</exported-solution>
     <exported-solution>d9ae8a9f-744c-4fb7-8582-794c75c78cf4(org.campagnelab.gobyweb.charts)</exported-solution>
+    <exported-solution>592d8eb7-1a36-488a-93f9-794b47361c97(org.campagnelab.gobyweb.interactive.filesets.mappings)</exported-solution>
     <exported-solution>d0df1055-918a-4cf9-96f9-effded676ae2(org.campagnelab.bio.species.morgs)</exported-solution>
     <exported-solution>876624ad-a590-49cc-af36-d31b84c885cd(org.campagnelab.gobyweb.interactive.viewers)</exported-solution>
   </exported-solutions>
