@@ -99,7 +99,7 @@
                           <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="4965834343968693542" nodeInfo="nn">
                             <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~String%dequals(java%dlang%dObject)%cboolean" resolveInfo="equals" />
                             <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4965834343968694311" nodeInfo="nn">
-                              <property name="value" nameId="tpee.1070475926801" value="PROCESS_READS_TASK" />
+                              <property name="value" nameId="tpee.1070475926801" value="PROCESS_PAIRED_READS_TASK" />
                             </node>
                           </node>
                         </node>
