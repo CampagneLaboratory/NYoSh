@@ -1,12 +1,23 @@
 #!/bin/bash
+
 MPS_PATH='/Applications/MPS 3.1'
 
-PROPS="-Dmps_home=\"${MPS_PATH}\""
+echo "params $#"
+echo $@
+if [ "$#" == "0" ]; then 
+	ANT_BIN=ant
+        PROPS="-Dmps_home=\"${MPS_PATH}\""
+else
+	ANT_BIN="$1/ant"
+        shift
+	PROPS="$@"
+fi
+
 function assemble-plugin
 {
  xml=$1
  keyword=$2
- rm -fr build/artifacts/*${keyword}* && ant ${PROPS} -f ${xml} && cp build/artifacts/*${keyword}*/*.zip target/plugins
+ rm -fr build/artifacts/*${keyword}* && "${ANT_BIN}" ${PROPS} -f ${xml} generate build && cp build/artifacts/*${keyword}*/*.zip target/plugins
 }
 mkdir -p target/plugins
 
@@ -18,5 +29,3 @@ assemble-plugin ClusterConfig.xml ClusterConfig && \
 assemble-plugin NYoSh.xml NYoSh && \
 assemble-plugin GobyWeb.xml GobyWeb && \
 assemble-plugin Interactive.xml Interactive
-
-
