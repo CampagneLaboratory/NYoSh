@@ -15,12 +15,13 @@ else
 	PROPS="$@"
 fi
 
-function assemble-plugin
-{
+function assemble-plugin {
  xml=$1
  keyword=$2
- rm -fr build/artifacts/*${keyword}* && "${ANT_BIN}" ${PROPS} -f ${xml} generate build && cp build/artifacts/*${keyword}*/*.zip target/plugins
+ rm -fr build/artifacts/*${keyword}* && "${ANT_BIN}" ${PROPS} -f ${xml} generate || true 
+ "${ANT_BIN}" ${PROPS} -f ${xml}  && cp build/artifacts/*${keyword}*/*.zip target/plugins
 }
+
 mkdir -p target/plugins
 
 assemble-plugin ui.xml UI && \
