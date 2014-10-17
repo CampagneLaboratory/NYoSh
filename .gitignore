@@ -1,8 +1,8 @@
 .mps/workspace.xml
-*/*/source_gen/**/*
+#*/*/source_gen/**/*
 */*/source_gen.caches/**/*
 */*/classes_gen/**/*
 trace.info
 dependencies
 generated
-QueriesGenerated.java
+#QueriesGenerated.java
