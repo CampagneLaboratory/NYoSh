@@ -1,5 +1,5 @@
 rm -fr build && \
 ./assemble-plugins.sh $@ && \
-ant -f build.xml $@ && \
-ant -f buildDistribution.xml $@
+$1ant -f build.xml $@ && \
+$1ant -f buildDistribution.xml $@
 
