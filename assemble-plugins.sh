@@ -13,6 +13,11 @@ else
 	ANT_BIN="$1/ant"
         shift
 	PROPS="$@"
+        rm -rf  ${MPS_HOME}/config/plugins/XChart
+	cp ../XChart/build/artifacts/XChart/XChart_*.zip ${MPS_HOME}/config/plugins/
+	cd ${MPS_HOME}/config/plugins/
+	unzip XChart_*.zip
+	cd -
 fi
 
 function assemble-plugin {
