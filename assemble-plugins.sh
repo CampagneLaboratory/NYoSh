@@ -18,6 +18,8 @@ else
 	cd ${MPS_PLUGINS_HOME}
 	unzip XChart_*.zip
 	cd -
+	#rm -rf solutions/XChart.build0
+	#cp -r ../XChart/solutions/XChart.build0 solutions/
 fi
 
 function assemble-plugin {
