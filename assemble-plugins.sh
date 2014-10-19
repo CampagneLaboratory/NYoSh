@@ -26,9 +26,7 @@ function assemble-plugin {
  xml=$1
  keyword=$2
  rm -fr build/artifacts/*${keyword}* 
- if [ $keyword != "GobyWeb" ]; then
-        "${ANT_BIN}" ${PROPS} -f ${xml} generate || true
- fi
+ "${ANT_BIN}" ${PROPS} -f ${xml} generate || true
  "${ANT_BIN}" ${PROPS} -f ${xml}  && cp build/artifacts/*${keyword}*/*.zip target/plugins
 }
 
