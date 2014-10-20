@@ -6,6 +6,7 @@
   <property name="mps_home" location="" />
   <property name="UI.artifacts" location="${basedir}/build/artifacts/org.campagnelab.mps.UI" />
   <property name="logger.version" value="1.0.1" />
+  <property name="build_number" value="0" />
   <property name="artifacts.mpsCore" location="${mps_home}" />
   <property name="artifacts.mps" location="${mps_home}" />
   <property name="artifacts.org.campagnelab.mps.UI" location="${UI.artifacts}" />
@@ -19,6 +20,7 @@
   <property name="mps.teamcity.buildConfName" value="${import.mps.mps.teamcity.buildConfName}" />
   <property name="mps.idea.platform.build.number" value="${import.mps.mps.idea.platform.build.number}" />
   <property name="org.campagnelab.mps.UI.ui_version" value="${import.org.campagnelab.mps.UI.org.campagnelab.mps.UI.ui_version}" />
+  <property name="org.campagnelab.mps.UI.build_number" value="${import.org.campagnelab.mps.UI.org.campagnelab.mps.UI.build_number}" />
   
   <path id="path.mps.ant.path">
     <pathelement location="${artifacts.mps}/lib/ant/lib/ant-mps.jar" />
@@ -35,7 +37,7 @@
       <idea-plugin version="2" xmlns:xi="http://www.w3.org/2001/XInclude">
         <id>org.campagnelab.logger</id>
         <name>org.campagnelab.logger</name>
-        <description>This plugin provides the org.campagnelab.logger language that provides a way to log from behavior methods into a Logger root node in a sandbox. </description>
+        <description>This plugin provides the org.campagnelab.logger language that provides a way to log from behavior methods into a Logger root node in a sandbox. Build number: ${build_number}</description>
         <version>${logger.version}</version>
         <vendor url="http://books.campagnelab.org">Campagne Laboratory</vendor>
         <depends>jetbrains.mps.core</depends>
@@ -98,7 +100,7 @@
     <zip destfile="${build.layout}/org.campagnelab.logger-${logger.version}.zip">
       <fileset dir="${build.tmp}/default/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip" />
     </zip>
-    <echo file="${build.layout}/build.properties">org.campagnelab.Logger.logger.version=${logger.version}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}${line.separator}mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}org.campagnelab.mps.UI.ui_version=${org.campagnelab.mps.UI.ui_version}</echo>
+    <echo file="${build.layout}/build.properties">org.campagnelab.Logger.logger.version=${logger.version}${line.separator}org.campagnelab.Logger.build_number=${build_number}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}${line.separator}mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}org.campagnelab.mps.UI.ui_version=${org.campagnelab.mps.UI.ui_version}${line.separator}org.campagnelab.mps.UI.build_number=${org.campagnelab.mps.UI.build_number}</echo>
   </target>
   
   <target name="buildDependents" />

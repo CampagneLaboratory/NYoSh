@@ -28,6 +28,16 @@
         </node>
       </node>
     </node>
+    <node role="macros" roleId="3ior.5617550519002745378" type="3ior.BuildVariableMacro" typeId="3ior.3767587139141066978" id="4833885827903542782" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="build_number" />
+      <node role="initialValue" roleId="3ior.2755237150521975432" type="3ior.BuildVariableMacroInitWithString" typeId="3ior.2755237150521975431" id="4833885827903542954" nodeInfo="ng">
+        <node role="value" roleId="3ior.2755237150521975437" type="3ior.BuildString" typeId="3ior.4380385936562003279" id="4833885827903542953" nodeInfo="ng">
+          <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="4833885827903542952" nodeInfo="ng">
+            <property name="text" nameId="3ior.4903714810883755350" value="0" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node role="dependencies" roleId="3ior.5617550519002745381" type="3ior.BuildProjectDependency" typeId="3ior.4993211115183325728" id="111932942581638299" nodeInfo="ng">
       <link role="script" roleId="3ior.5617550519002745380" targetNodeId="ffeo.6503539749405386437" resolveInfo="mpsCore" />
       <node role="artifacts" roleId="3ior.4129895186893471026" type="3ior.BuildSourceMacroRelativePath" typeId="3ior.7389400916848153117" id="111932942581638345" nodeInfo="ng">
@@ -93,7 +103,10 @@
       </node>
       <node role="description" roleId="kdzh.2172791612906637490" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="6642819616994347677" nodeInfo="ng">
         <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="6642819616994347679" nodeInfo="ng">
-          <property name="text" nameId="3ior.4903714810883755350" value="User Interface language to create buttons and file selection button in an MPS editor." />
+          <property name="text" nameId="3ior.4903714810883755350" value="User Interface language to create buttons and file selection button in an MPS editor. Build number: " />
+        </node>
+        <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildVarRefStringPart" typeId="3ior.4903714810883702017" id="4833885827903542484" nodeInfo="ng">
+          <link role="macro" roleId="3ior.4903714810883702018" targetNodeId="4833885827903542782" resolveInfo="build_number" />
         </node>
       </node>
       <node role="xml" roleId="kdzh.1359186315025500371" type="iuxj.XmlElement" typeId="iuxj.6666499814681415858" id="6642819616994420405" nodeInfo="ng">

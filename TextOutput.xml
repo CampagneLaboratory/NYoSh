@@ -5,6 +5,7 @@
   <property name="build.layout" location="${build.dir}/artifacts/org.campagnelab.TextOutput" />
   <property name="mps_home" location="" />
   <property name="org.campagnelab.goby.workbench.home" location="" />
+  <property name="build_number" value="0" />
   <property name="textoutput_version" value="1.0.1" />
   <property name="artifacts.mps" location="${mps_home}" />
   <property file="${artifacts.mps}/build.properties" prefix="import.mps" />
@@ -30,7 +31,7 @@
       <idea-plugin version="2" xmlns:xi="http://www.w3.org/2001/XInclude">
         <id>org.campagnelab.TextOutput</id>
         <name>org.campagnelab.TextOutput</name>
-        <description>A language to model text filea and generate such files with the MPS generator aspect.</description>
+        <description>A language to model text filea and generate such files with the MPS generator aspect. Build number: ${build_number}</description>
         <version>${textoutput_version}</version>
         <vendor url="http://books.campagnelab.org">Campagne Laboratory</vendor>
         <depends>jetbrains.mps.core</depends>
@@ -91,7 +92,7 @@
     <zip destfile="${build.layout}/org.campagnelab.TextOutput-${textoutput_version}.zip">
       <fileset dir="${build.tmp}/default/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip" />
     </zip>
-    <echo file="${build.layout}/build.properties">org.campagnelab.TextOutput.textoutput_version=${textoutput_version}${line.separator}mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}</echo>
+    <echo file="${build.layout}/build.properties">org.campagnelab.TextOutput.build_number=${build_number}${line.separator}org.campagnelab.TextOutput.textoutput_version=${textoutput_version}${line.separator}mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}</echo>
   </target>
   
   <target name="buildDependents" />

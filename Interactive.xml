@@ -4,6 +4,7 @@
   <property name="build.tmp" location="${build.dir}/tmp/org.campagnelab.Interactive" />
   <property name="build.layout" location="${build.dir}/artifacts/org.campagnelab.Interactive" />
   <property name="interactive_version" value="2.0.6" />
+  <property name="build_number" value="0" />
   <property name="mps_home" location="" />
   <property name="org.campagnelab.xchart.home" location="${basedir}/../XChart" />
   <property name="org.campagnelab.goby.workbench.home" location="${basedir}" />
@@ -26,15 +27,22 @@
   <property name="mps.teamcity.buildConfName" value="${import.mps.mps.teamcity.buildConfName}" />
   <property name="mps.idea.platform.build.number" value="${import.mps.mps.idea.platform.build.number}" />
   <property name="mpsBootstrapCore.version" value="${import.mps.mpsBootstrapCore.version}" />
+  <property name="org.campagnelab.GobyWeb.build_number" value="${import.org.campagnelab.GobyWeb.org.campagnelab.GobyWeb.build_number}" />
   <property name="org.campagnelab.GobyWeb.gobyweb_version" value="${import.org.campagnelab.GobyWeb.org.campagnelab.GobyWeb.gobyweb_version}" />
   <property name="org.campagnelab.mps.UI.ui_version" value="${import.org.campagnelab.GobyWeb.org.campagnelab.mps.UI.ui_version}" />
+  <property name="org.campagnelab.mps.UI.build_number" value="${import.org.campagnelab.GobyWeb.org.campagnelab.mps.UI.build_number}" />
   <property name="org.campagnelab.Logger.logger.version" value="${import.org.campagnelab.GobyWeb.org.campagnelab.Logger.logger.version}" />
+  <property name="org.campagnelab.Logger.build_number" value="${import.org.campagnelab.GobyWeb.org.campagnelab.Logger.build_number}" />
   <property name="org.campagnelab.NYoSh.nyosh_version" value="${import.org.campagnelab.GobyWeb.org.campagnelab.NYoSh.nyosh_version}" />
+  <property name="org.campagnelab.NYoSh.build_number" value="${import.org.campagnelab.GobyWeb.org.campagnelab.NYoSh.build_number}" />
   <property name="XChart.build_number" value="${import.org.campagnelab.GobyWeb.XChart.build_number}" />
   <property name="XChart.XChart_version" value="${import.org.campagnelab.GobyWeb.XChart.XChart_version}" />
+  <property name="org.campagnelab.TextOutput.build_number" value="${import.org.campagnelab.GobyWeb.org.campagnelab.TextOutput.build_number}" />
   <property name="org.campagnelab.TextOutput.textoutput_version" value="${import.org.campagnelab.GobyWeb.org.campagnelab.TextOutput.textoutput_version}" />
   <property name="org.campagnelab.ClusterConfig.clusterConfig_version" value="${import.org.campagnelab.ClusterConfig.org.campagnelab.ClusterConfig.clusterConfig_version}" />
+  <property name="org.campagnelab.ClusterConfig.build_number" value="${import.org.campagnelab.ClusterConfig.org.campagnelab.ClusterConfig.build_number}" />
   <property name="org.campagnelab.Background.background_version" value="${import.org.campagnelab.Background.org.campagnelab.Background.background_version}" />
+  <property name="org.campagnelab.Background.build_number" value="${import.org.campagnelab.Background.org.campagnelab.Background.build_number}" />
   
   <path id="path.mps.ant.path">
     <pathelement location="${artifacts.mps}/lib/ant/lib/ant-mps.jar" />
@@ -51,7 +59,7 @@
       <idea-plugin version="2" xmlns:xi="http://www.w3.org/2001/XInclude">
         <id>org.campagnelab.Interactive</id>
         <name>org.campagnelab.Interactive</name>
-        <description>GobyWeb Interactive languages. This plugin is part of the NYoSh Analysis Workbench. See http://workbench.campagnelab.org for more information.</description>
+        <description>GobyWeb Interactive languages. This plugin is part of the NYoSh Analysis Workbench. See http://workbench.campagnelab.org for more information. Build number: ${build_number}</description>
         <version>${interactive_version}</version>
         <vendor url="http://workbench.campagnelab.org">Campagne Laboratory</vendor>
         <depends>jetbrains.mps.core</depends>
@@ -828,7 +836,7 @@
       <zipfileset file="${basedir}/devkits/org.campagnelab.devkit.gobyweb.interactive.devkit" prefix="Interactive/languages/org.campagnelab.Interactive" />
       <fileset dir="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip" />
     </zip>
-    <echo file="${build.layout}/build.properties">org.campagnelab.Interactive.interactive_version=${interactive_version}${line.separator}mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}${line.separator}org.campagnelab.GobyWeb.gobyweb_version=${org.campagnelab.GobyWeb.gobyweb_version}${line.separator}org.campagnelab.mps.UI.ui_version=${org.campagnelab.mps.UI.ui_version}${line.separator}org.campagnelab.Logger.logger.version=${org.campagnelab.Logger.logger.version}${line.separator}org.campagnelab.NYoSh.nyosh_version=${org.campagnelab.NYoSh.nyosh_version}${line.separator}XChart.build_number=${XChart.build_number}${line.separator}XChart.XChart_version=${XChart.XChart_version}${line.separator}org.campagnelab.TextOutput.textoutput_version=${org.campagnelab.TextOutput.textoutput_version}${line.separator}org.campagnelab.ClusterConfig.clusterConfig_version=${org.campagnelab.ClusterConfig.clusterConfig_version}${line.separator}org.campagnelab.Background.background_version=${org.campagnelab.Background.background_version}</echo>
+    <echo file="${build.layout}/build.properties">org.campagnelab.Interactive.interactive_version=${interactive_version}${line.separator}org.campagnelab.Interactive.build_number=${build_number}${line.separator}mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}${line.separator}org.campagnelab.GobyWeb.build_number=${org.campagnelab.GobyWeb.build_number}${line.separator}org.campagnelab.GobyWeb.gobyweb_version=${org.campagnelab.GobyWeb.gobyweb_version}${line.separator}org.campagnelab.mps.UI.ui_version=${org.campagnelab.mps.UI.ui_version}${line.separator}org.campagnelab.mps.UI.build_number=${org.campagnelab.mps.UI.build_number}${line.separator}org.campagnelab.Logger.logger.version=${org.campagnelab.Logger.logger.version}${line.separator}org.campagnelab.Logger.build_number=${org.campagnelab.Logger.build_number}${line.separator}org.campagnelab.NYoSh.nyosh_version=${org.campagnelab.NYoSh.nyosh_version}${line.separator}org.campagnelab.NYoSh.build_number=${org.campagnelab.NYoSh.build_number}${line.separator}XChart.build_number=${XChart.build_number}${line.separator}XChart.XChart_version=${XChart.XChart_version}${line.separator}org.campagnelab.TextOutput.build_number=${org.campagnelab.TextOutput.build_number}${line.separator}org.campagnelab.TextOutput.textoutput_version=${org.campagnelab.TextOutput.textoutput_version}${line.separator}org.campagnelab.ClusterConfig.clusterConfig_version=${org.campagnelab.ClusterConfig.clusterConfig_version}${line.separator}org.campagnelab.ClusterConfig.build_number=${org.campagnelab.ClusterConfig.build_number}${line.separator}org.campagnelab.Background.background_version=${org.campagnelab.Background.background_version}${line.separator}org.campagnelab.Background.build_number=${org.campagnelab.Background.build_number}</echo>
   </target>
   
   <target name="buildDependents">

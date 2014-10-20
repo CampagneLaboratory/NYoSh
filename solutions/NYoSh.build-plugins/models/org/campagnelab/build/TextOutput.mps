@@ -21,6 +21,16 @@
     <node role="macros" roleId="3ior.5617550519002745378" type="3ior.BuildFolderMacro" typeId="3ior.7389400916848136194" id="2714333670778932005" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="org.campagnelab.goby.workbench.home" />
     </node>
+    <node role="macros" roleId="3ior.5617550519002745378" type="3ior.BuildVariableMacro" typeId="3ior.3767587139141066978" id="4833885827903543062" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="build_number" />
+      <node role="initialValue" roleId="3ior.2755237150521975432" type="3ior.BuildVariableMacroInitWithString" typeId="3ior.2755237150521975431" id="4833885827903543388" nodeInfo="ng">
+        <node role="value" roleId="3ior.2755237150521975437" type="3ior.BuildString" typeId="3ior.4380385936562003279" id="4833885827903543387" nodeInfo="ng">
+          <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="4833885827903543386" nodeInfo="ng">
+            <property name="text" nameId="3ior.4903714810883755350" value="0" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node role="macros" roleId="3ior.5617550519002745378" type="3ior.BuildVariableMacro" typeId="3ior.3767587139141066978" id="2714333670778932380" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="textoutput_version" />
       <node role="initialValue" roleId="3ior.2755237150521975432" type="3ior.BuildVariableMacroInitWithString" typeId="3ior.2755237150521975431" id="2714333670778932426" nodeInfo="ng">
@@ -99,7 +109,10 @@
       </node>
       <node role="description" roleId="kdzh.2172791612906637490" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="2714333670778941632" nodeInfo="ng">
         <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="2714333670778941634" nodeInfo="ng">
-          <property name="text" nameId="3ior.4903714810883755350" value="A language to model text filea and generate such files with the MPS generator aspect." />
+          <property name="text" nameId="3ior.4903714810883755350" value="A language to model text filea and generate such files with the MPS generator aspect. Build number: " />
+        </node>
+        <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildVarRefStringPart" typeId="3ior.4903714810883702017" id="4833885827903543322" nodeInfo="ng">
+          <link role="macro" roleId="3ior.4903714810883702018" targetNodeId="4833885827903543062" resolveInfo="build_number" />
         </node>
       </node>
     </node>

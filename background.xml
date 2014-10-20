@@ -5,6 +5,7 @@
   <property name="build.layout" location="${build.dir}/artifacts/org.campagnelab.Background" />
   <property name="mps_home" location="" />
   <property name="background_version" value="1.0.1" />
+  <property name="build_number" value="0" />
   <property name="artifacts.mpsCore" location="${mps_home}" />
   <property name="artifacts.mps" location="${mps_home}" />
   <property file="${artifacts.mpsCore}/build.properties" prefix="import.mpsCore" />
@@ -31,7 +32,7 @@
       <idea-plugin version="2" xmlns:xi="http://www.w3.org/2001/XInclude">
         <id>org.campagnelab.background</id>
         <name>org.campagnelab.background</name>
-        <description>This plugin provides the org.campagnelab.background language that makes it easier to program backgroundable tasks in MPS. </description>
+        <description>This plugin provides the org.campagnelab.background language that makes it easier to program backgroundable tasks in MPS. Build number: ${build_number}</description>
         <version>${background_version}</version>
         <vendor url="http://books.campagnelab.org">Campagne Laboratory</vendor>
         <depends>jetbrains.mps.core</depends>
@@ -94,7 +95,7 @@
     <zip destfile="${build.layout}/org.campagnelab.background-${background_version}.zip">
       <fileset dir="${build.tmp}/default/org.campagnelab.background-_dl__lbrace_background_version_rbrace_.zip" />
     </zip>
-    <echo file="${build.layout}/build.properties">org.campagnelab.Background.background_version=${background_version}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}${line.separator}mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}</echo>
+    <echo file="${build.layout}/build.properties">org.campagnelab.Background.background_version=${background_version}${line.separator}org.campagnelab.Background.build_number=${build_number}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}${line.separator}mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}</echo>
   </target>
   
   <target name="buildDependents" />
