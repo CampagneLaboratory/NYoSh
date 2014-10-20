@@ -1,13 +1,13 @@
 
-function deploy-artifact {
+function deploy_artifact {
   maven_bin=$1
   artifact_id=$2
   if [ "$#" == "4" ]; then
       original_filename=$(ls -1 build/artifacts/$3 | $4)
   else
-    original_filename=$(ls -1 build/artifacts/$3)
+      original_filename=$(ls -1 build/artifacts/$3)
   fi
-
+  echo "Artifact file: ${original_filename}"
   filename=$(basename $original_filename)
   filename="${filename%.*}"
   version=$(echo ${filename} | cut -d"-" -f2)
@@ -17,13 +17,16 @@ function deploy-artifact {
   -DartifactId=${artifact_id} \
   -Dversion="$version"${VERSION_SUFFIX} \
   -Dpackaging=zip \
+  -Dclassifier=${BUILD_NUMBER} \
+  -DgeneratePom=true \
+  -DgeneratePom.description="Git commit: ${GIT_COMMIT}" \
   -Dfile=${original_filename} \
   -DrepositoryId=${REPO_ID} \
   -Durl=${REPO_URL}
 }
 
 
-function deploy-all-artifacts {
+function deploy_all_artifacts {
    maven_bin=$1/mvn
    deploy-artifact $maven_bin UI org.campagnelab.mps.UI/*.zip && \
    deploy-artifact $maven_bin TextOutput org.campagnelab.TextOutput/*.zip && \
