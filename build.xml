@@ -6,7 +6,7 @@
   <tstamp>
     <format property="date" pattern="yyyyMMdd" />
   </tstamp>
-  <property name="plugin_build_number" value="NYoSh-135" />
+  <property name="nyosh_build_number" value="NYoSh-135.5" />
   <property name="version" value="2.0.5" />
   <property name="mps_home" location="${basedir}/../../../../../Applications/MPS 3.1" />
   <property name="org.campagnelab.goby.workbench.home" location="${basedir}" />
@@ -78,7 +78,7 @@
       <fileset file="${mps_home}/bin/idea.properties" />
       <filterchain>
         <tokenfilter>
-          <replaceregex pattern="\.MPS(\w+)" replace="\.${plugin_build_number}" flags="g" />
+          <replaceregex pattern="\.MPS(\w+)" replace="\.${nyosh_build_number}" flags="g" />
         </tokenfilter>
       </filterchain>
     </copy>
@@ -98,7 +98,7 @@
     <echoxml file="${build.tmp}/default/branding.jar/idea/IdeaApplicationInfo.xml">
       <component>
         <version codename="NYoSh" major="2" minor="0" eap="true" update-channel="NYoShWorkbenchEAP" />
-        <build date="${date}" number="${plugin_build_number}" />
+        <build date="${date}" number="${nyosh_build_number}" />
         <logo url="/splash.png" textcolor="002387" />
         <about url="/about.png" />
         <icon size32="/MPS32.png" size16="/MPS16.png" size32opaque="/MPS32.png" />
@@ -107,7 +107,7 @@
         <names product="NYoSh Workbench" fullname="NYoSh Workbench" />
         <update-urls check="http://campagnelab.org/files/workbench-update.txt" update="http://campagnelab.org/software/workbench-2/" />
         <welcome-screen caption-url="/caption.png" slogan-url="/slogan.png" logo-url="/MPS32.png" />
-        <help file="help" root="${plugin_build_number}" webhelp-url="http://nyosh.campagnelab.org" />
+        <help file="help" root="${nyosh_build_number}" webhelp-url="http://nyosh.campagnelab.org" />
       </component>
     </echoxml>
     <jar destfile="${build.layout}/lib/branding.jar">
@@ -226,8 +226,8 @@
     <copy todir="${build.layout}/plugins/mps-console">
       <fileset dir="${artifacts.mps}/plugins/mps-console" />
     </copy>
-    <echo file="${build.layout}/build.number">build.number=${plugin_build_number}${line.separator}date=${date}${line.separator}version=1.0</echo>
-    <echo file="${build.layout}/build.properties">NYoSh.date=${date}${line.separator}NYoSh.plugin_build_number=${plugin_build_number}${line.separator}NYoSh.version=${version}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}${line.separator}mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}XChart.build_number=${XChart.build_number}${line.separator}XChart.XChart_version=${XChart.XChart_version}${line.separator}org.campagnelab.Background.background_version=${org.campagnelab.Background.background_version}${line.separator}org.campagnelab.Background.build_number=${org.campagnelab.Background.build_number}${line.separator}org.campagnelab.mps.UI.ui_version=${org.campagnelab.mps.UI.ui_version}${line.separator}org.campagnelab.mps.UI.build_number=${org.campagnelab.mps.UI.build_number}${line.separator}org.campagnelab.TextOutput.build_number=${org.campagnelab.TextOutput.build_number}${line.separator}org.campagnelab.TextOutput.textoutput_version=${org.campagnelab.TextOutput.textoutput_version}${line.separator}org.campagnelab.Logger.logger.version=${org.campagnelab.Logger.logger.version}${line.separator}org.campagnelab.Logger.build_number=${org.campagnelab.Logger.build_number}${line.separator}org.campagnelab.ClusterConfig.clusterConfig_version=${org.campagnelab.ClusterConfig.clusterConfig_version}${line.separator}org.campagnelab.ClusterConfig.build_number=${org.campagnelab.ClusterConfig.build_number}${line.separator}org.campagnelab.GobyWeb.build_number=${org.campagnelab.GobyWeb.build_number}${line.separator}org.campagnelab.GobyWeb.gobyweb_version=${org.campagnelab.GobyWeb.gobyweb_version}${line.separator}org.campagnelab.NYoSh.nyosh_version=${org.campagnelab.NYoSh.nyosh_version}${line.separator}org.campagnelab.NYoSh.build_number=${org.campagnelab.NYoSh.build_number}${line.separator}org.campagnelab.Interactive.interactive_version=${org.campagnelab.Interactive.interactive_version}${line.separator}org.campagnelab.Interactive.build_number=${org.campagnelab.Interactive.build_number}</echo>
+    <echo file="${build.layout}/build.number">build.number=${nyosh_build_number}${line.separator}date=${date}${line.separator}version=1.0</echo>
+    <echo file="${build.layout}/build.properties">NYoSh.date=${date}${line.separator}NYoSh.nyosh_build_number=${nyosh_build_number}${line.separator}NYoSh.version=${version}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}${line.separator}mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}XChart.build_number=${XChart.build_number}${line.separator}XChart.XChart_version=${XChart.XChart_version}${line.separator}org.campagnelab.Background.background_version=${org.campagnelab.Background.background_version}${line.separator}org.campagnelab.Background.build_number=${org.campagnelab.Background.build_number}${line.separator}org.campagnelab.mps.UI.ui_version=${org.campagnelab.mps.UI.ui_version}${line.separator}org.campagnelab.mps.UI.build_number=${org.campagnelab.mps.UI.build_number}${line.separator}org.campagnelab.TextOutput.build_number=${org.campagnelab.TextOutput.build_number}${line.separator}org.campagnelab.TextOutput.textoutput_version=${org.campagnelab.TextOutput.textoutput_version}${line.separator}org.campagnelab.Logger.logger.version=${org.campagnelab.Logger.logger.version}${line.separator}org.campagnelab.Logger.build_number=${org.campagnelab.Logger.build_number}${line.separator}org.campagnelab.ClusterConfig.clusterConfig_version=${org.campagnelab.ClusterConfig.clusterConfig_version}${line.separator}org.campagnelab.ClusterConfig.build_number=${org.campagnelab.ClusterConfig.build_number}${line.separator}org.campagnelab.GobyWeb.build_number=${org.campagnelab.GobyWeb.build_number}${line.separator}org.campagnelab.GobyWeb.gobyweb_version=${org.campagnelab.GobyWeb.gobyweb_version}${line.separator}org.campagnelab.NYoSh.nyosh_version=${org.campagnelab.NYoSh.nyosh_version}${line.separator}org.campagnelab.NYoSh.build_number=${org.campagnelab.NYoSh.build_number}${line.separator}org.campagnelab.Interactive.interactive_version=${org.campagnelab.Interactive.interactive_version}${line.separator}org.campagnelab.Interactive.build_number=${org.campagnelab.Interactive.build_number}</echo>
   </target>
   
   <target name="buildDependents">
