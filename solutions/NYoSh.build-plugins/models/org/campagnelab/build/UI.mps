@@ -18,18 +18,12 @@
     <node role="macros" roleId="3ior.5617550519002745378" type="3ior.BuildFolderMacro" typeId="3ior.7389400916848136194" id="6642819616994328579" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="mps_home" />
     </node>
-    <node role="macros" roleId="3ior.5617550519002745378" type="3ior.BuildVariableMacro" typeId="3ior.3767587139141066978" id="2310423895811967067" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="build_number" />
-    </node>
     <node role="macros" roleId="3ior.5617550519002745378" type="3ior.BuildVariableMacro" typeId="3ior.3767587139141066978" id="6442676317064999511" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="ui_version" />
       <node role="initialValue" roleId="3ior.2755237150521975432" type="3ior.BuildVariableMacroInitWithString" typeId="3ior.2755237150521975431" id="6442676317064999674" nodeInfo="ng">
         <node role="value" roleId="3ior.2755237150521975437" type="3ior.BuildString" typeId="3ior.4380385936562003279" id="6442676317064999673" nodeInfo="ng">
           <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="6442676317064999672" nodeInfo="ng">
-            <property name="text" nameId="3ior.4903714810883755350" value="1.0." />
-          </node>
-          <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildVarRefStringPart" typeId="3ior.4903714810883702017" id="2310423895812661650" nodeInfo="ng">
-            <link role="macro" roleId="3ior.4903714810883702018" targetNodeId="2310423895811967067" resolveInfo="build_number" />
+            <property name="text" nameId="3ior.4903714810883755350" value="1.0.3" />
           </node>
         </node>
       </node>
@@ -50,7 +44,7 @@
       <node role="children" roleId="3ior.7389400916848037006" type="3ior.BuildLayout_Zip" typeId="3ior.7389400916848050071" id="6642819616994328608" nodeInfo="ng">
         <node role="containerName" roleId="3ior.4380385936562148502" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="6642819616994328609" nodeInfo="ng">
           <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="6642819616994328610" nodeInfo="ng">
-            <property name="text" nameId="3ior.4903714810883755350" value="UI_" />
+            <property name="text" nameId="3ior.4903714810883755350" value="org.campagnelab.UI-" />
           </node>
           <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildVarRefStringPart" typeId="3ior.4903714810883702017" id="4132417724626074679" nodeInfo="ng">
             <link role="macro" roleId="3ior.4903714810883702018" targetNodeId="6442676317064999511" resolveInfo="ui_version" />

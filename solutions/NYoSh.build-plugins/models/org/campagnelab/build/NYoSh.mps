@@ -27,18 +27,12 @@
     <node role="macros" roleId="3ior.5617550519002745378" type="3ior.BuildFolderMacro" typeId="3ior.7389400916848136194" id="2714333670778639971" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="org.campagnelab.goby.workbench.home" />
     </node>
-    <node role="macros" roleId="3ior.5617550519002745378" type="3ior.BuildVariableMacro" typeId="3ior.3767587139141066978" id="2310423895811967067" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="build_number" />
-    </node>
     <node role="macros" roleId="3ior.5617550519002745378" type="3ior.BuildVariableMacro" typeId="3ior.3767587139141066978" id="9211726679685791580" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="nyosh_version" />
       <node role="initialValue" roleId="3ior.2755237150521975432" type="3ior.BuildVariableMacroInitWithString" typeId="3ior.2755237150521975431" id="9211726679685791581" nodeInfo="ng">
         <node role="value" roleId="3ior.2755237150521975437" type="3ior.BuildString" typeId="3ior.4380385936562003279" id="9211726679685791582" nodeInfo="ng">
           <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="9211726679685791583" nodeInfo="ng">
-            <property name="text" nameId="3ior.4903714810883755350" value="2.0." />
-          </node>
-          <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildVarRefStringPart" typeId="3ior.4903714810883702017" id="2310423895812655631" nodeInfo="ng">
-            <link role="macro" roleId="3ior.4903714810883702018" targetNodeId="2310423895811967067" resolveInfo="build_number" />
+            <property name="text" nameId="3ior.4903714810883755350" value="2.0.5" />
           </node>
         </node>
       </node>
@@ -81,7 +75,7 @@
       <node role="children" roleId="3ior.7389400916848037006" type="3ior.BuildLayout_Zip" typeId="3ior.7389400916848050071" id="2714333670778640027" nodeInfo="ng">
         <node role="containerName" roleId="3ior.4380385936562148502" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="2714333670778640028" nodeInfo="ng">
           <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="2714333670778640029" nodeInfo="ng">
-            <property name="text" nameId="3ior.4903714810883755350" value="NYoSh-" />
+            <property name="text" nameId="3ior.4903714810883755350" value="org.campagnelab.NYoSh-" />
           </node>
           <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildVarRefStringPart" typeId="3ior.4903714810883702017" id="2310423895812659738" nodeInfo="ng">
             <link role="macro" roleId="3ior.4903714810883702018" targetNodeId="9211726679685791580" resolveInfo="nyosh_version" />

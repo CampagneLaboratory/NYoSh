@@ -19,18 +19,12 @@
     <node role="macros" roleId="3ior.5617550519002745378" type="3ior.BuildFolderMacro" typeId="3ior.7389400916848136194" id="6642819616994328579" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="mps_home" />
     </node>
-    <node role="macros" roleId="3ior.5617550519002745378" type="3ior.BuildVariableMacro" typeId="3ior.3767587139141066978" id="2310423895811967067" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="build_number" />
-    </node>
     <node role="macros" roleId="3ior.5617550519002745378" type="3ior.BuildVariableMacro" typeId="3ior.3767587139141066978" id="9211726679685605214" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="background_version" />
       <node role="initialValue" roleId="3ior.2755237150521975432" type="3ior.BuildVariableMacroInitWithString" typeId="3ior.2755237150521975431" id="9211726679685605300" nodeInfo="ng">
         <node role="value" roleId="3ior.2755237150521975437" type="3ior.BuildString" typeId="3ior.4380385936562003279" id="9211726679685605299" nodeInfo="ng">
           <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="9211726679685605298" nodeInfo="ng">
             <property name="text" nameId="3ior.4903714810883755350" value="1.0." />
-          </node>
-          <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildVarRefStringPart" typeId="3ior.4903714810883702017" id="2310423895812640053" nodeInfo="ng">
-            <link role="macro" roleId="3ior.4903714810883702018" targetNodeId="2310423895811967067" resolveInfo="build_number" />
           </node>
           <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="2310423895812640052" nodeInfo="ng">
             <property name="text" nameId="3ior.4903714810883755350" value="1" />

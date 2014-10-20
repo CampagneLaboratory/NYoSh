@@ -33,18 +33,12 @@
         </node>
       </node>
     </node>
-    <node role="macros" roleId="3ior.5617550519002745378" type="3ior.BuildVariableMacro" typeId="3ior.3767587139141066978" id="2310423895811967067" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="build_number" />
-    </node>
     <node role="macros" roleId="3ior.5617550519002745378" type="3ior.BuildVariableMacro" typeId="3ior.3767587139141066978" id="9211726679685791580" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="logger.version" />
-      <node role="initialValue" roleId="3ior.2755237150521975432" type="3ior.BuildVariableMacroInitWithString" typeId="3ior.2755237150521975431" id="9211726679685791581" nodeInfo="ng">
-        <node role="value" roleId="3ior.2755237150521975437" type="3ior.BuildString" typeId="3ior.4380385936562003279" id="9211726679685791582" nodeInfo="ng">
-          <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="9211726679685791583" nodeInfo="ng">
-            <property name="text" nameId="3ior.4903714810883755350" value="1.0." />
-          </node>
-          <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildVarRefStringPart" typeId="3ior.4903714810883702017" id="2310423895812655631" nodeInfo="ng">
-            <link role="macro" roleId="3ior.4903714810883702018" targetNodeId="2310423895811967067" resolveInfo="build_number" />
+      <node role="initialValue" roleId="3ior.2755237150521975432" type="3ior.BuildVariableMacroInitWithString" typeId="3ior.2755237150521975431" id="4833885827903204236" nodeInfo="ng">
+        <node role="value" roleId="3ior.2755237150521975437" type="3ior.BuildString" typeId="3ior.4380385936562003279" id="4833885827903204235" nodeInfo="ng">
+          <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="4833885827903204234" nodeInfo="ng">
+            <property name="text" nameId="3ior.4903714810883755350" value="1.0.1" />
           </node>
         </node>
       </node>

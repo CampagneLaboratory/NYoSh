@@ -10,7 +10,7 @@ function deploy-artifact {
 
   filename=$(basename $original_filename)
   filename="${filename%.*}"
-  version=$(echo ${filename} | cut -d"_" -f2 | cut -d"-" -f2)
+  version=$(echo ${filename} | cut -d"-" -f2)
   echo "detected version for ${artifact_id}: ${version}"
 
   $maven_bin deploy:deploy-file -DgroupId=org.campagnelab.mps \
