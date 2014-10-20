@@ -9,7 +9,6 @@
   <property name="artifacts.NYoSh" location="${build.dir}/artifacts/NYoSh" />
   <property file="${artifacts.NYoSh}/build.properties" prefix="import.NYoSh" />
   <property name="NYoSh.date" value="${import.NYoSh.NYoSh.date}" />
-  <property name="NYoSh.build_number" value="${import.NYoSh.NYoSh.build_number}" />
   <property name="NYoSh.plugin_build_number" value="${import.NYoSh.NYoSh.plugin_build_number}" />
   <property name="NYoSh.version" value="${import.NYoSh.NYoSh.version}" />
   <property name="mpsBootstrapCore.version" value="${import.NYoSh.mpsBootstrapCore.version}" />
@@ -20,22 +19,22 @@
   <property name="mps.idea.platform.build.number" value="${import.NYoSh.mps.idea.platform.build.number}" />
   <property name="XChart.build_number" value="${import.NYoSh.XChart.build_number}" />
   <property name="XChart.XChart_version" value="${import.NYoSh.XChart.XChart_version}" />
-  <property name="org.campagnelab.Background.build_number" value="${import.NYoSh.org.campagnelab.Background.build_number}" />
   <property name="org.campagnelab.Background.background_version" value="${import.NYoSh.org.campagnelab.Background.background_version}" />
-  <property name="org.campagnelab.mps.UI.build_number" value="${import.NYoSh.org.campagnelab.mps.UI.build_number}" />
+  <property name="org.campagnelab.Background.build_number" value="${import.NYoSh.org.campagnelab.Background.build_number}" />
   <property name="org.campagnelab.mps.UI.ui_version" value="${import.NYoSh.org.campagnelab.mps.UI.ui_version}" />
+  <property name="org.campagnelab.mps.UI.build_number" value="${import.NYoSh.org.campagnelab.mps.UI.build_number}" />
   <property name="org.campagnelab.TextOutput.build_number" value="${import.NYoSh.org.campagnelab.TextOutput.build_number}" />
   <property name="org.campagnelab.TextOutput.textoutput_version" value="${import.NYoSh.org.campagnelab.TextOutput.textoutput_version}" />
-  <property name="org.campagnelab.Logger.build_number" value="${import.NYoSh.org.campagnelab.Logger.build_number}" />
   <property name="org.campagnelab.Logger.logger.version" value="${import.NYoSh.org.campagnelab.Logger.logger.version}" />
-  <property name="org.campagnelab.ClusterConfig.build_number" value="${import.NYoSh.org.campagnelab.ClusterConfig.build_number}" />
+  <property name="org.campagnelab.Logger.build_number" value="${import.NYoSh.org.campagnelab.Logger.build_number}" />
   <property name="org.campagnelab.ClusterConfig.clusterConfig_version" value="${import.NYoSh.org.campagnelab.ClusterConfig.clusterConfig_version}" />
+  <property name="org.campagnelab.ClusterConfig.build_number" value="${import.NYoSh.org.campagnelab.ClusterConfig.build_number}" />
   <property name="org.campagnelab.GobyWeb.build_number" value="${import.NYoSh.org.campagnelab.GobyWeb.build_number}" />
   <property name="org.campagnelab.GobyWeb.gobyweb_version" value="${import.NYoSh.org.campagnelab.GobyWeb.gobyweb_version}" />
-  <property name="org.campagnelab.NYoSh.build_number" value="${import.NYoSh.org.campagnelab.NYoSh.build_number}" />
   <property name="org.campagnelab.NYoSh.nyosh_version" value="${import.NYoSh.org.campagnelab.NYoSh.nyosh_version}" />
-  <property name="org.campagnelab.Interactive.build_number" value="${import.NYoSh.org.campagnelab.Interactive.build_number}" />
+  <property name="org.campagnelab.NYoSh.build_number" value="${import.NYoSh.org.campagnelab.NYoSh.build_number}" />
   <property name="org.campagnelab.Interactive.interactive_version" value="${import.NYoSh.org.campagnelab.Interactive.interactive_version}" />
+  <property name="org.campagnelab.Interactive.build_number" value="${import.NYoSh.org.campagnelab.Interactive.build_number}" />
   
   <target name="assemble" depends="fetchDependencies">
     <mkdir dir="${build.layout}" />
@@ -128,7 +127,7 @@
       <zipfileset dir="${build.tmp}/default/_dl__lbrace_plugin_build_number_rbrace_-macos.zip_f755" filemode="755" prefix="NYoSh ${version}.app/Contents" />
       <fileset dir="${build.tmp}/default/_dl__lbrace_plugin_build_number_rbrace_-macos.zip" />
     </zip>
-    <echo file="${build.layout}/build.properties">NYoShDistribution.version=${version}${line.separator}NYoShDistribution.build.number=${build.number}${line.separator}NYoSh.date=${NYoSh.date}${line.separator}NYoSh.build_number=${NYoSh.build_number}${line.separator}NYoSh.plugin_build_number=${NYoSh.plugin_build_number}${line.separator}NYoSh.version=${NYoSh.version}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}${line.separator}mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}XChart.build_number=${XChart.build_number}${line.separator}XChart.XChart_version=${XChart.XChart_version}${line.separator}org.campagnelab.Background.build_number=${org.campagnelab.Background.build_number}${line.separator}org.campagnelab.Background.background_version=${org.campagnelab.Background.background_version}${line.separator}org.campagnelab.mps.UI.build_number=${org.campagnelab.mps.UI.build_number}${line.separator}org.campagnelab.mps.UI.ui_version=${org.campagnelab.mps.UI.ui_version}${line.separator}org.campagnelab.TextOutput.build_number=${org.campagnelab.TextOutput.build_number}${line.separator}org.campagnelab.TextOutput.textoutput_version=${org.campagnelab.TextOutput.textoutput_version}${line.separator}org.campagnelab.Logger.build_number=${org.campagnelab.Logger.build_number}${line.separator}org.campagnelab.Logger.logger.version=${org.campagnelab.Logger.logger.version}${line.separator}org.campagnelab.ClusterConfig.build_number=${org.campagnelab.ClusterConfig.build_number}${line.separator}org.campagnelab.ClusterConfig.clusterConfig_version=${org.campagnelab.ClusterConfig.clusterConfig_version}${line.separator}org.campagnelab.GobyWeb.build_number=${org.campagnelab.GobyWeb.build_number}${line.separator}org.campagnelab.GobyWeb.gobyweb_version=${org.campagnelab.GobyWeb.gobyweb_version}${line.separator}org.campagnelab.NYoSh.build_number=${org.campagnelab.NYoSh.build_number}${line.separator}org.campagnelab.NYoSh.nyosh_version=${org.campagnelab.NYoSh.nyosh_version}${line.separator}org.campagnelab.Interactive.build_number=${org.campagnelab.Interactive.build_number}${line.separator}org.campagnelab.Interactive.interactive_version=${org.campagnelab.Interactive.interactive_version}</echo>
+    <echo file="${build.layout}/build.properties">NYoShDistribution.version=${version}${line.separator}NYoShDistribution.build.number=${build.number}${line.separator}NYoSh.date=${NYoSh.date}${line.separator}NYoSh.plugin_build_number=${NYoSh.plugin_build_number}${line.separator}NYoSh.version=${NYoSh.version}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}${line.separator}mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}XChart.build_number=${XChart.build_number}${line.separator}XChart.XChart_version=${XChart.XChart_version}${line.separator}org.campagnelab.Background.background_version=${org.campagnelab.Background.background_version}${line.separator}org.campagnelab.Background.build_number=${org.campagnelab.Background.build_number}${line.separator}org.campagnelab.mps.UI.ui_version=${org.campagnelab.mps.UI.ui_version}${line.separator}org.campagnelab.mps.UI.build_number=${org.campagnelab.mps.UI.build_number}${line.separator}org.campagnelab.TextOutput.build_number=${org.campagnelab.TextOutput.build_number}${line.separator}org.campagnelab.TextOutput.textoutput_version=${org.campagnelab.TextOutput.textoutput_version}${line.separator}org.campagnelab.Logger.logger.version=${org.campagnelab.Logger.logger.version}${line.separator}org.campagnelab.Logger.build_number=${org.campagnelab.Logger.build_number}${line.separator}org.campagnelab.ClusterConfig.clusterConfig_version=${org.campagnelab.ClusterConfig.clusterConfig_version}${line.separator}org.campagnelab.ClusterConfig.build_number=${org.campagnelab.ClusterConfig.build_number}${line.separator}org.campagnelab.GobyWeb.build_number=${org.campagnelab.GobyWeb.build_number}${line.separator}org.campagnelab.GobyWeb.gobyweb_version=${org.campagnelab.GobyWeb.gobyweb_version}${line.separator}org.campagnelab.NYoSh.nyosh_version=${org.campagnelab.NYoSh.nyosh_version}${line.separator}org.campagnelab.NYoSh.build_number=${org.campagnelab.NYoSh.build_number}${line.separator}org.campagnelab.Interactive.interactive_version=${org.campagnelab.Interactive.interactive_version}${line.separator}org.campagnelab.Interactive.build_number=${org.campagnelab.Interactive.build_number}</echo>
   </target>
   
   <target name="buildDependents">

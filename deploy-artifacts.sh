@@ -28,15 +28,15 @@ function deploy_artifact {
 
 function deploy_all_artifacts {
    maven_bin=$1/mvn
-   deploy-artifact $maven_bin UI org.campagnelab.mps.UI/*.zip && \
-   deploy-artifact $maven_bin TextOutput org.campagnelab.TextOutput/*.zip && \
-   deploy-artifact $maven_bin Logger org.campagnelab.Logger/*.zip && \
-   deploy-artifact $maven_bin Background org.campagnelab.Background/*.zip && \
-   deploy-artifact $maven_bin ClusterConfig org.campagnelab.ClusterConfig/*.zip && \
-   deploy-artifact $maven_bin NYoSh org.campagnelab.NYoSh/*.zip && \
-   deploy-artifact $maven_bin GobyWeb org.campagnelab.GobyWeb/*.zip && \
-   deploy-artifact $maven_bin Interactive org.campagnelab.Interactive/*.zip && \
-   deploy-artifact $maven_bin NYoShDistribution-linux NYoShDistribution/*-linux.tar.gz && \
-   deploy-artifact $maven_bin NYoShDistribution-macos NYoShDistribution/*-macos.zip  && \
-   deploy-artifact $maven_bin NYoShDistribution-generic "NYoShDistribution/*.zip" "grep -v macos"
+   deploy_artifact $maven_bin UI org.campagnelab.mps.UI/*.zip && \
+   deploy_artifact $maven_bin TextOutput org.campagnelab.TextOutput/*.zip && \
+   deploy_artifact $maven_bin Logger org.campagnelab.Logger/*.zip && \
+   deploy_artifact $maven_bin Background org.campagnelab.Background/*.zip && \
+   deploy_artifact $maven_bin ClusterConfig org.campagnelab.ClusterConfig/*.zip && \
+   deploy_artifact $maven_bin NYoSh org.campagnelab.NYoSh/*.zip && \
+   deploy_artifact $maven_bin GobyWeb org.campagnelab.GobyWeb/*.zip && \
+   deploy_artifact $maven_bin Interactive org.campagnelab.Interactive/*.zip && \
+   deploy_artifact $maven_bin NYoShDistribution-linux NYoShDistribution/*-linux.tar.gz && \
+   deploy_artifact $maven_bin NYoShDistribution-macos NYoShDistribution/*-macos.zip  && \
+   deploy_artifact $maven_bin NYoShDistribution-generic "NYoShDistribution/*.zip" "grep -v macos"
 }
