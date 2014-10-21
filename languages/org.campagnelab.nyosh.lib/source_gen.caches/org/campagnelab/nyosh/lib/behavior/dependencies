@@ -5,13 +5,17 @@
     <classNode dependClassName="java.util.Arrays" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.interpreted.BehaviorAspectInterpreted" />
+    <classNode dependClassName="org.campagnelab.nyosh.lib.behavior.NotUsedConcept_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor" />
   </dependency>
-  <dependency className="org.campagnelab.nyosh.lib.behavior.DummyClass" file="DummyClass.java">
-    <classNode dependClassName="java.lang.Void" />
-  </dependency>
-  <dependency className="org.campagnelab.nyosh.lib.behavior.VoidType_Behavior" file="VoidType_Behavior.java">
+  <dependency className="org.campagnelab.nyosh.lib.behavior.NotUsedConcept_Behavior" file="NotUsedConcept_Behavior.java">
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+  </dependency>
+  <dependency className="org.campagnelab.nyosh.lib.behavior.NotUsedConcept_BehaviorDescriptor" file="NotUsedConcept_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
 </dependenciesRoot>
 
