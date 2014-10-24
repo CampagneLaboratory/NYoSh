@@ -3,6 +3,8 @@
   <property name="build.dir" location="build" />
   <property name="build.tmp" location="${build.dir}/tmp/org.campagnelab.Interactive" />
   <property name="build.layout" location="${build.dir}/artifacts/org.campagnelab.Interactive" />
+  <property name="interactive_version" value="2.0.7" />
+  <property name="build_number" value="0" />
   <property name="mps_home" location="" />
   <property name="org.campagnelab.xchart.home" location="${basedir}/../XChart" />
   <property name="org.campagnelab.goby.workbench.home" location="${basedir}" />
@@ -25,14 +27,21 @@
   <property name="mps.teamcity.buildConfName" value="${import.mps.mps.teamcity.buildConfName}" />
   <property name="mps.idea.platform.build.number" value="${import.mps.mps.idea.platform.build.number}" />
   <property name="mpsBootstrapCore.version" value="${import.mps.mpsBootstrapCore.version}" />
-  <property name="org.campagnelab.GobyWeb.workbench_version" value="${import.org.campagnelab.GobyWeb.org.campagnelab.GobyWeb.workbench_version}" />
-  <property name="org.campagnelab.mps.UI.ui.version" value="${import.org.campagnelab.GobyWeb.org.campagnelab.mps.UI.ui.version}" />
+  <property name="org.campagnelab.GobyWeb.build_number" value="${import.org.campagnelab.GobyWeb.org.campagnelab.GobyWeb.build_number}" />
+  <property name="org.campagnelab.GobyWeb.gobyweb_version" value="${import.org.campagnelab.GobyWeb.org.campagnelab.GobyWeb.gobyweb_version}" />
+  <property name="org.campagnelab.mps.UI.ui_version" value="${import.org.campagnelab.GobyWeb.org.campagnelab.mps.UI.ui_version}" />
+  <property name="org.campagnelab.mps.UI.build_number" value="${import.org.campagnelab.GobyWeb.org.campagnelab.mps.UI.build_number}" />
   <property name="org.campagnelab.Logger.logger.version" value="${import.org.campagnelab.GobyWeb.org.campagnelab.Logger.logger.version}" />
-  <property name="org.campagnelab.NYoSh.nyosh_build_number" value="${import.org.campagnelab.GobyWeb.org.campagnelab.NYoSh.nyosh_build_number}" />
+  <property name="org.campagnelab.Logger.build_number" value="${import.org.campagnelab.GobyWeb.org.campagnelab.Logger.build_number}" />
+  <property name="org.campagnelab.NYoSh.nyosh_version" value="${import.org.campagnelab.GobyWeb.org.campagnelab.NYoSh.nyosh_version}" />
+  <property name="org.campagnelab.NYoSh.build_number" value="${import.org.campagnelab.GobyWeb.org.campagnelab.NYoSh.build_number}" />
   <property name="XChart.XChart_version" value="${import.org.campagnelab.GobyWeb.XChart.XChart_version}" />
+  <property name="org.campagnelab.TextOutput.build_number" value="${import.org.campagnelab.GobyWeb.org.campagnelab.TextOutput.build_number}" />
   <property name="org.campagnelab.TextOutput.textoutput_version" value="${import.org.campagnelab.GobyWeb.org.campagnelab.TextOutput.textoutput_version}" />
   <property name="org.campagnelab.ClusterConfig.clusterConfig_version" value="${import.org.campagnelab.ClusterConfig.org.campagnelab.ClusterConfig.clusterConfig_version}" />
-  <property name="org.campagnelab.Background.background.version" value="${import.org.campagnelab.Background.org.campagnelab.Background.background.version}" />
+  <property name="org.campagnelab.ClusterConfig.build_number" value="${import.org.campagnelab.ClusterConfig.org.campagnelab.ClusterConfig.build_number}" />
+  <property name="org.campagnelab.Background.background_version" value="${import.org.campagnelab.Background.org.campagnelab.Background.background_version}" />
+  <property name="org.campagnelab.Background.build_number" value="${import.org.campagnelab.Background.org.campagnelab.Background.build_number}" />
   
   <path id="path.mps.ant.path">
     <pathelement location="${artifacts.mps}/lib/ant/lib/ant-mps.jar" />
@@ -42,15 +51,15 @@
   
   <target name="assemble" depends="classes, declare-mps-tasks">
     <mkdir dir="${build.layout}" />
-    <mkdir dir="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip" />
-    <mkdir dir="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive" />
-    <mkdir dir="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive/META-INF" />
-    <echoxml file="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive/META-INF/plugin.xml">
+    <mkdir dir="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip" />
+    <mkdir dir="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive" />
+    <mkdir dir="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/META-INF" />
+    <echoxml file="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/META-INF/plugin.xml">
       <idea-plugin version="2" xmlns:xi="http://www.w3.org/2001/XInclude">
         <id>org.campagnelab.Interactive</id>
         <name>org.campagnelab.Interactive</name>
-        <description>GobyWeb Interactive languages. This plugin is part of the NYoSh Analysis Workbench. See http://workbench.campagnelab.org for more information.</description>
-        <version>2.0.${org.campagnelab.NYoSh.nyosh_build_number}</version>
+        <description>GobyWeb Interactive languages. This plugin is part of the NYoSh Analysis Workbench. See http://workbench.campagnelab.org for more information. Build number: ${build_number}</description>
+        <version>${interactive_version}</version>
         <vendor url="http://workbench.campagnelab.org">Campagne Laboratory</vendor>
         <depends>jetbrains.mps.core</depends>
         <depends>org.campagnelab.GobyWeb</depends>
@@ -68,8 +77,8 @@
         </extensions>
       </idea-plugin>
     </echoxml>
-    <mkdir dir="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive/languages" />
-    <mkdir dir="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive" />
+    <mkdir dir="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages" />
+    <mkdir dir="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive" />
     <mkdir dir="${build.tmp}/default/org.campagnelab.bio.species.jar" />
     <mkdir dir="${build.tmp}/default/org.campagnelab.bio.species.jar/META-INF" />
     <echoxml file="${build.tmp}/default/org.campagnelab.bio.species.jar/META-INF/module.xml">
@@ -90,12 +99,12 @@
         <sources jar="org.campagnelab.bio.species-src.jar" descriptor="org.campagnelab.bio.species.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.bio.species.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.bio.species.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.bio.species" />
       <fileset dir="${basedir}/languages/org.campagnelab.bio.species" includes="icons/**, resources/**" />
       <fileset dir="${build.tmp}/default/org.campagnelab.bio.species.jar" />
     </jar>
-    <jar destfile="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.bio.species-generator.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.bio.species-generator.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.bio.species#8668161730115426850" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.bio.species-generator-template">
@@ -104,7 +113,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.bio.species-languageModels">
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.bio.species/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.bio.species-src.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.bio.species-src.jar">
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.bio.species/generator/source_gen">
         <exclude name="**/trace.info" />
       </fileset>
@@ -125,7 +134,7 @@
         <sources jar="org.campagnelab.lucene.tableviewer.runtime-src.jar" descriptor="org.campagnelab.lucene.tableviewer.runtime.msd" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.lucene.tableviewer.runtime.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.lucene.tableviewer.runtime.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.lucene.tableviewer.runtime" />
       <fileset dir="${basedir}/languages/org.campagnelab.lucene.tableviewer/runtime" includes="icons/**, resources/**" />
       <fileset dir="${build.tmp}/default/org.campagnelab.lucene.tableviewer.runtime.jar" />
@@ -133,7 +142,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.lucene.tableviewer-runtime-models">
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.lucene.tableviewer/runtime/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.lucene.tableviewer.runtime-src.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.lucene.tableviewer.runtime-src.jar">
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.lucene.tableviewer/runtime/source_gen">
         <exclude name="**/trace.info" />
       </fileset>
@@ -160,12 +169,12 @@
         <sources jar="org.campagnelab.gobyweb.interactive.mappings-src.jar" descriptor="org.campagnelab.gobyweb.interactive.mappings.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.mappings.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.mappings.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.mappings" />
       <fileset dir="${basedir}/languages/org.campagnelab.gobyweb.interactive.mappings" includes="icons/**, resources/**" />
       <fileset dir="${build.tmp}/default/org.campagnelab.gobyweb.interactive.mappings.jar" />
     </jar>
-    <jar destfile="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.mappings-generator.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.mappings-generator.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.mappings#6726552014277525798" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb.interactive.mappings-generator-template">
@@ -174,7 +183,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb.interactive.mappings-languageModels">
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.mappings/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.mappings-src.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.mappings-src.jar">
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.mappings/generator/source_gen">
         <exclude name="**/trace.info" />
       </fileset>
@@ -205,12 +214,12 @@
         <sources jar="org.campagnelab.feedback-src.jar" descriptor="org.campagnelab.feedback.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.feedback.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.feedback.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.feedback" />
       <fileset dir="${basedir}/languages/org.campagnelab.feedback" includes="icons/**, resources/**" />
       <fileset dir="${build.tmp}/default/org.campagnelab.feedback.jar" />
     </jar>
-    <jar destfile="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.feedback-generator.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.feedback-generator.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.feedback#6620797826825978493" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.feedback-generator-template">
@@ -219,7 +228,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.feedback-languageModels">
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.feedback/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.feedback-src.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.feedback-src.jar">
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.feedback/generator/source_gen">
         <exclude name="**/trace.info" />
       </fileset>
@@ -254,12 +263,12 @@
         <sources jar="org.campagnelab.gobyweb.interactive.mergeplan-src.jar" descriptor="org.campagnelab.gobyweb.interactive.mergeplan.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.mergeplan.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.mergeplan.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.mergeplan" />
       <fileset dir="${basedir}/languages/org.campagnelab.gobyweb.interactive.mergeplan" includes="icons/**, resources/**" />
       <fileset dir="${build.tmp}/default/org.campagnelab.gobyweb.interactive.mergeplan.jar" />
     </jar>
-    <jar destfile="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.mergeplan-generator.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.mergeplan-generator.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.mergeplan#8273662917775850173" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb.interactive.mergeplan-generator-template">
@@ -268,7 +277,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb.interactive.mergeplan-languageModels">
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.mergeplan/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.mergeplan-src.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.mergeplan-src.jar">
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.mergeplan/generator/source_gen">
         <exclude name="**/trace.info" />
       </fileset>
@@ -287,7 +296,7 @@
         <sources jar="org.campagnelab.gobyweb.interactive.filesets.mappings-src.jar" descriptor="org.campagnelab.gobyweb.interactive.filesets.mappings.msd" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.filesets.mappings.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.filesets.mappings.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.filesets.mappings" />
       <fileset dir="${basedir}/solutions/org.campagnelab.gobyweb.interactive.filesets.mappings" includes="icons/**, resources/**" />
       <fileset dir="${build.tmp}/default/org.campagnelab.gobyweb.interactive.filesets.mappings.jar" />
@@ -295,7 +304,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-org.campagnelab.gobyweb.interactive.filesets.mappings-models">
       <fileset dir="${org.campagnelab.goby.workbench.home}/solutions/org.campagnelab.gobyweb.interactive.filesets.mappings/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.filesets.mappings-src.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.filesets.mappings-src.jar">
       <fileset dir="${org.campagnelab.goby.workbench.home}/solutions/org.campagnelab.gobyweb.interactive.filesets.mappings/source_gen">
         <exclude name="**/trace.info" />
       </fileset>
@@ -322,7 +331,7 @@
         <sources jar="org.campagnelab.gobyweb.monitoring-src.jar" descriptor="org.campagnelab.gobyweb.monitoring.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.monitoring.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.monitoring.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.gobyweb.monitoring" />
       <fileset dir="${basedir}/languages/org.campagnelab.gobyweb.monitoring" includes="icons/**, resources/**" />
       <fileset dir="${build.tmp}/default/org.campagnelab.gobyweb.monitoring.jar" />
@@ -330,7 +339,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb.monitoring-languageModels">
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.monitoring/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.monitoring-src.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.monitoring-src.jar">
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.monitoring/source_gen">
         <exclude name="**/trace.info" />
       </fileset>
@@ -359,12 +368,12 @@
         <sources jar="org.campagnelab.gobyweb.interactive-src.jar" descriptor="org.campagnelab.gobyweb.interactive.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive" />
       <fileset dir="${basedir}/languages/org.campagnelab.gobyweb.interactive" includes="icons/**, resources/**" />
       <fileset dir="${build.tmp}/default/org.campagnelab.gobyweb.interactive.jar" />
     </jar>
-    <jar destfile="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive-generator.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive-generator.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive#2051553890368756015" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb.interactive-generator">
@@ -373,7 +382,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb.interactive-languageModels">
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive-src.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive-src.jar">
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive/generator/source_gen">
         <exclude name="**/trace.info" />
       </fileset>
@@ -404,12 +413,12 @@
         <sources jar="org.campagnelab.gobyweb.interactive.users-src.jar" descriptor="org.campagnelab.gobyweb.interactive.users.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.users.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.users.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.users" />
       <fileset dir="${basedir}/languages/org.campagnelab.gobyweb.interactive.users" includes="icons/**, resources/**" />
       <fileset dir="${build.tmp}/default/org.campagnelab.gobyweb.interactive.users.jar" />
     </jar>
-    <jar destfile="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.users-generator.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.users-generator.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.users#5865189911928297062" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb.interactive.users-generator-template">
@@ -418,7 +427,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb.interactive.users-languageModels">
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.users/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.users-src.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.users-src.jar">
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.users/generator/source_gen">
         <exclude name="**/trace.info" />
       </fileset>
@@ -452,12 +461,12 @@
         <sources jar="org.campagnelab.gobyweb.interactive.samples-src.jar" descriptor="org.campagnelab.gobyweb.interactive.samples.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.samples.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.samples.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.samples" />
       <fileset dir="${basedir}/languages/org.campagnelab.gobyweb.interactive.samples" includes="icons/**, resources/**" />
       <fileset dir="${build.tmp}/default/org.campagnelab.gobyweb.interactive.samples.jar" />
     </jar>
-    <jar destfile="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.samples-generator.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.samples-generator.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.samples#7926097513313207833" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb.interactive.samples-generator-template">
@@ -466,7 +475,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb.interactive.samples-languageModels">
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.samples/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.samples-src.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.samples-src.jar">
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.samples/generator/source_gen">
         <exclude name="**/trace.info" />
       </fileset>
@@ -500,12 +509,12 @@
         <sources jar="org.campagnelab.gobyweb.interactive.platforms-src.jar" descriptor="org.campagnelab.gobyweb.interactive.platforms.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.platforms.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.platforms.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.platforms" />
       <fileset dir="${basedir}/languages/org.campagnelab.gobyweb.interactive.platforms" includes="icons/**, resources/**" />
       <fileset dir="${build.tmp}/default/org.campagnelab.gobyweb.interactive.platforms.jar" />
     </jar>
-    <jar destfile="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.platforms-generator.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.platforms-generator.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.platforms#518208688751652421" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb.interactive.platforms-generator-template">
@@ -514,7 +523,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb.interactive.platforms-languageModels">
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.platforms/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.platforms-src.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.platforms-src.jar">
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.platforms/generator/source_gen">
         <exclude name="**/trace.info" />
       </fileset>
@@ -548,12 +557,12 @@
         <sources jar="org.campagnelab.gobyweb.interactive.organisms-src.jar" descriptor="org.campagnelab.gobyweb.interactive.organisms.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.organisms.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.organisms.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.organisms" />
       <fileset dir="${basedir}/languages/org.campagnelab.gobyweb.interactive.organisms" includes="icons/**, resources/**" />
       <fileset dir="${build.tmp}/default/org.campagnelab.gobyweb.interactive.organisms.jar" />
     </jar>
-    <jar destfile="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.organisms-generator.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.organisms-generator.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.organisms#7026862576601472488" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb.interactive.organisms-generator-template">
@@ -562,7 +571,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb.interactive.organisms-languageModels">
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.organisms/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.organisms-src.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.organisms-src.jar">
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.organisms/generator/source_gen">
         <exclude name="**/trace.info" />
       </fileset>
@@ -593,12 +602,12 @@
         <sources jar="org.campagnelab.gobyweb.interactive.fsiselector-src.jar" descriptor="org.campagnelab.gobyweb.interactive.fsiselector.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.fsiselector.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.fsiselector.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.fsiselector" />
       <fileset dir="${basedir}/languages/org.campagnelab.gobyweb.interactive.fsiselector" includes="icons/**, resources/**" />
       <fileset dir="${build.tmp}/default/org.campagnelab.gobyweb.interactive.fsiselector.jar" />
     </jar>
-    <jar destfile="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.fsiselector-generator.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.fsiselector-generator.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.fsiselector#6870112335028418600" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb.interactive.fsiselector-generator-template">
@@ -607,7 +616,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb.interactive.fsiselector-languageModels">
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.fsiselector/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.fsiselector-src.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.fsiselector-src.jar">
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.fsiselector/generator/source_gen">
         <exclude name="**/trace.info" />
       </fileset>
@@ -636,7 +645,7 @@
         <sources jar="org.campagnelab.gobyweb.interactive.viewers-src.jar" descriptor="org.campagnelab.gobyweb.interactive.viewers.msd" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.viewers.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.viewers.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.viewers" />
       <fileset dir="${basedir}/solutions/org.campagnelab.gobyweb.interactive.viewers" includes="icons/**, resources/**" />
       <fileset dir="${build.tmp}/default/org.campagnelab.gobyweb.interactive.viewers.jar" />
@@ -644,7 +653,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-org.campagnelab.gobyweb.interactive.viewers-models">
       <fileset dir="${org.campagnelab.goby.workbench.home}/solutions/org.campagnelab.gobyweb.interactive.viewers/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.viewers-src.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.viewers-src.jar">
       <fileset dir="${org.campagnelab.goby.workbench.home}/solutions/org.campagnelab.gobyweb.interactive.viewers/source_gen">
         <exclude name="**/trace.info" />
       </fileset>
@@ -659,7 +668,7 @@
         <sources jar="org.campagnelab.bio.species.morgs-src.jar" descriptor="org.campagnelab.bio.species.morgs.msd" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.bio.species.morgs.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.bio.species.morgs.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.bio.species.morgs" />
       <fileset dir="${basedir}/solutions/org.campagnelab.bio.species.morgs" includes="icons/**, resources/**" />
       <fileset dir="${build.tmp}/default/org.campagnelab.bio.species.morgs.jar" />
@@ -667,7 +676,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-org.campagnelab.bio.species.morgs-models">
       <fileset dir="${org.campagnelab.goby.workbench.home}/solutions/org.campagnelab.bio.species.morgs/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.bio.species.morgs-src.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.bio.species.morgs-src.jar">
       <fileset dir="${org.campagnelab.goby.workbench.home}/solutions/org.campagnelab.bio.species.morgs/source_gen">
         <exclude name="**/trace.info" />
       </fileset>
@@ -697,12 +706,12 @@
         <sources jar="org.campagnelab.gobyweb.interactive.sharing-src.jar" descriptor="org.campagnelab.gobyweb.interactive.sharing.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.sharing.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.sharing.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.sharing" />
       <fileset dir="${basedir}/languages/org.campagnelab.gobyweb.interactive.sharing" includes="icons/**, resources/**" />
       <fileset dir="${build.tmp}/default/org.campagnelab.gobyweb.interactive.sharing.jar" />
     </jar>
-    <jar destfile="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.sharing-generator.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.sharing-generator.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.sharing#8982654668860899943" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb.interactive.sharing-generator-template">
@@ -711,7 +720,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb.interactive.sharing-languageModels">
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.sharing/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.sharing-src.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.sharing-src.jar">
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.sharing/generator/source_gen">
         <exclude name="**/trace.info" />
       </fileset>
@@ -721,6 +730,54 @@
       <zipfileset file="${basedir}/languages/org.campagnelab.gobyweb.interactive.sharing/org.campagnelab.gobyweb.interactive.sharing.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb.interactive.sharing-generator-template" prefix="module/generator/template" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb.interactive.sharing-languageModels" prefix="module/languageModels" />
+    </jar>
+    <mkdir dir="${build.tmp}/default/org.campagnelab.gobyweb.interactive.genomes.jar" />
+    <mkdir dir="${build.tmp}/default/org.campagnelab.gobyweb.interactive.genomes.jar/META-INF" />
+    <echoxml file="${build.tmp}/default/org.campagnelab.gobyweb.interactive.genomes.jar/META-INF/module.xml">
+      <module namespace="org.campagnelab.gobyweb.interactive.genomes" type="language" uuid="0e33afe3-d914-492d-8584-911dae0711b2">
+        <dependencies>
+          <module ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" />
+          <module ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" />
+          <module ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224(MPS.Editor)" />
+          <module ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" />
+          <module ref="4c6a28d1-2c60-478d-b36e-db9b3cbb21fb(closures.runtime)" />
+          <module ref="9b80526e-f0bf-4992-bdf5-cee39c1833f3(collections.runtime)" />
+          <module ref="a3e4657f-a76c-45bb-bbda-c764596ecc65(jetbrains.mps.baseLanguage.logging.runtime)" />
+          <module ref="d44dab97-aaac-44cb-9745-8a14db674c03(jetbrains.mps.baseLanguage.tuples.runtime)" />
+          <module ref="2af156ab-65c1-4a62-bd0d-ea734f71eab6(jetbrains.mps.dataFlow.runtime)" />
+          <module ref="8fe4c62a-2020-4ff4-8eda-f322a55bdc9f(jetbrains.mps.refactoring.runtime)" />
+          <module ref="9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)" />
+          <module ref="d0df1055-918a-4cf9-96f9-effded676ae2(org.campagnelab.bio.species.morgs)" />
+          <module ref="592d8eb7-1a36-488a-93f9-794b47361c97(org.campagnelab.gobyweb.interactive.filesets.mappings)" />
+          <module ref="876624ad-a590-49cc-af36-d31b84c885cd(org.campagnelab.gobyweb.interactive.viewers)" />
+        </dependencies>
+        <sources jar="org.campagnelab.gobyweb.interactive.genomes-src.jar" descriptor="org.campagnelab.gobyweb.interactive.genomes.mpl" />
+      </module>
+    </echoxml>
+    <jar destfile="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.genomes.jar">
+      <fileset dir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.genomes" />
+      <fileset dir="${basedir}/languages/org.campagnelab.gobyweb.interactive.genomes" includes="icons/**, resources/**" />
+      <fileset dir="${build.tmp}/default/org.campagnelab.gobyweb.interactive.genomes.jar" />
+    </jar>
+    <jar destfile="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.genomes-generator.jar">
+      <fileset dir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.genomes#1472681854106822600" />
+    </jar>
+    <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb.interactive.genomes-generator-template">
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.genomes/generator/template" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
+    </copyModels>
+    <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb.interactive.genomes-languageModels">
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.genomes/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
+    </copyModels>
+    <jar destfile="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.gobyweb.interactive.genomes-src.jar">
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.genomes/generator/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.genomes/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
+      <zipfileset file="${basedir}/languages/org.campagnelab.gobyweb.interactive.genomes/org.campagnelab.gobyweb.interactive.genomes.mpl" prefix="module" />
+      <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb.interactive.genomes-generator-template" prefix="module/generator/template" />
+      <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb.interactive.genomes-languageModels" prefix="module/languageModels" />
     </jar>
     <mkdir dir="${build.tmp}/default/org.campagnelab.lucene.tableviewer.jar" />
     <mkdir dir="${build.tmp}/default/org.campagnelab.lucene.tableviewer.jar/META-INF" />
@@ -742,12 +799,12 @@
         <sources jar="org.campagnelab.lucene.tableviewer-src.jar" descriptor="org.campagnelab.lucene.tableviewer.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.lucene.tableviewer.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.lucene.tableviewer.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.lucene.tableviewer" />
       <fileset dir="${basedir}/languages/org.campagnelab.lucene.tableviewer" includes="icons/**, resources/**" />
       <fileset dir="${build.tmp}/default/org.campagnelab.lucene.tableviewer.jar" />
     </jar>
-    <jar destfile="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.lucene.tableviewer-generator.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.lucene.tableviewer-generator.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.lucene.tableviewer#6642819616993943093" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.lucene.tableviewer-generator-template">
@@ -759,7 +816,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.lucene.tableviewer-languageModels">
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.lucene.tableviewer/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.lucene.tableviewer-src.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip/Interactive/languages/org.campagnelab.Interactive/org.campagnelab.lucene.tableviewer-src.jar">
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.lucene.tableviewer/generator/source_gen">
         <exclude name="**/trace.info" />
       </fileset>
@@ -771,14 +828,14 @@
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.lucene.tableviewer-languageAccessories" prefix="module/languageAccessories" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.lucene.tableviewer-languageModels" prefix="module/languageModels" />
     </jar>
-    <zip destfile="${build.layout}/Interactive-2.0.${org.campagnelab.NYoSh.nyosh_build_number}.zip">
+    <zip destfile="${build.layout}/org.campagnelab.Interactive-${interactive_version}.zip">
       <zipfileset file="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.lucene.tableviewer/runtime/lucene-core-3.6.1.jar" prefix="Interactive" />
       <zipfileset file="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.lucene.tableviewer/runtime/icb-groovy-support-2.0.jar" prefix="Interactive" />
       <zipfileset file="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.lucene.tableviewer/runtime/lucene-1.0-SNAPSHOT.jar" prefix="Interactive" />
       <zipfileset file="${basedir}/devkits/org.campagnelab.devkit.gobyweb.interactive.devkit" prefix="Interactive/languages/org.campagnelab.Interactive" />
-      <fileset dir="${build.tmp}/default/Interactive-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip" />
+      <fileset dir="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip" />
     </zip>
-    <echo file="${build.layout}/build.properties">mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}${line.separator}org.campagnelab.GobyWeb.workbench_version=${org.campagnelab.GobyWeb.workbench_version}${line.separator}org.campagnelab.mps.UI.ui.version=${org.campagnelab.mps.UI.ui.version}${line.separator}org.campagnelab.Logger.logger.version=${org.campagnelab.Logger.logger.version}${line.separator}org.campagnelab.NYoSh.nyosh_build_number=${org.campagnelab.NYoSh.nyosh_build_number}${line.separator}XChart.XChart_version=${XChart.XChart_version}${line.separator}org.campagnelab.TextOutput.textoutput_version=${org.campagnelab.TextOutput.textoutput_version}${line.separator}org.campagnelab.ClusterConfig.clusterConfig_version=${org.campagnelab.ClusterConfig.clusterConfig_version}${line.separator}org.campagnelab.Background.background.version=${org.campagnelab.Background.background.version}</echo>
+    <echo file="${build.layout}/build.properties">org.campagnelab.Interactive.interactive_version=${interactive_version}${line.separator}org.campagnelab.Interactive.build_number=${build_number}${line.separator}mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}${line.separator}org.campagnelab.GobyWeb.build_number=${org.campagnelab.GobyWeb.build_number}${line.separator}org.campagnelab.GobyWeb.gobyweb_version=${org.campagnelab.GobyWeb.gobyweb_version}${line.separator}org.campagnelab.mps.UI.ui_version=${org.campagnelab.mps.UI.ui_version}${line.separator}org.campagnelab.mps.UI.build_number=${org.campagnelab.mps.UI.build_number}${line.separator}org.campagnelab.Logger.logger.version=${org.campagnelab.Logger.logger.version}${line.separator}org.campagnelab.Logger.build_number=${org.campagnelab.Logger.build_number}${line.separator}org.campagnelab.NYoSh.nyosh_version=${org.campagnelab.NYoSh.nyosh_version}${line.separator}org.campagnelab.NYoSh.build_number=${org.campagnelab.NYoSh.build_number}${line.separator}XChart.XChart_version=${XChart.XChart_version}${line.separator}org.campagnelab.TextOutput.build_number=${org.campagnelab.TextOutput.build_number}${line.separator}org.campagnelab.TextOutput.textoutput_version=${org.campagnelab.TextOutput.textoutput_version}${line.separator}org.campagnelab.ClusterConfig.clusterConfig_version=${org.campagnelab.ClusterConfig.clusterConfig_version}${line.separator}org.campagnelab.ClusterConfig.build_number=${org.campagnelab.ClusterConfig.build_number}${line.separator}org.campagnelab.Background.background_version=${org.campagnelab.Background.background_version}${line.separator}org.campagnelab.Background.build_number=${org.campagnelab.Background.build_number}</echo>
   </target>
   
   <target name="buildDependents">
@@ -786,22 +843,22 @@
   </target>
   
   <target name="fetchDependencies">
-    <mkdir dir="${build.tmp}/deps/org.campagnelab.ClusterConfig/ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip" />
-    <unzip src="${artifacts.org.campagnelab.ClusterConfig}/ClusterConfig-${org.campagnelab.ClusterConfig.clusterConfig_version}.zip" dest="${build.tmp}/deps/org.campagnelab.ClusterConfig/ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip" />
-    <mkdir dir="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip" />
-    <unzip src="${artifacts.org.campagnelab.TextOutput}/org.campagnelab.TextOutput-${org.campagnelab.TextOutput.textoutput_version}.zip" dest="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip" />
-    <mkdir dir="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip" />
-    <unzip src="${artifacts.XChart}/XChart_${XChart.XChart_version}.zip" dest="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip" />
-    <mkdir dir="${build.tmp}/deps/org.campagnelab.GobyWeb/GobyWeb-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip" />
-    <unzip src="${artifacts.org.campagnelab.GobyWeb}/GobyWeb-2.0.${org.campagnelab.NYoSh.nyosh_build_number}.zip" dest="${build.tmp}/deps/org.campagnelab.GobyWeb/GobyWeb-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip" />
     <mkdir dir="${build.tmp}/deps/org.campagnelab.Logger/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip" />
     <unzip src="${artifacts.org.campagnelab.Logger}/org.campagnelab.logger-${org.campagnelab.Logger.logger.version}.zip" dest="${build.tmp}/deps/org.campagnelab.Logger/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip" />
-    <mkdir dir="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip" />
-    <unzip src="${artifacts.org.campagnelab.mps.UI}/UI_${org.campagnelab.mps.UI.ui.version}.zip" dest="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip" />
-    <mkdir dir="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip" />
-    <unzip src="${artifacts.org.campagnelab.NYoSh}/NYoSh-2.0.${org.campagnelab.NYoSh.nyosh_build_number}.zip" dest="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip" />
-    <mkdir dir="${build.tmp}/deps/org.campagnelab.Background/org.campagnelab.background-_dl__lbrace_background.version_rbrace_.zip" />
-    <unzip src="${artifacts.org.campagnelab.Background}/org.campagnelab.background-${org.campagnelab.Background.background.version}.zip" dest="${build.tmp}/deps/org.campagnelab.Background/org.campagnelab.background-_dl__lbrace_background.version_rbrace_.zip" />
+    <mkdir dir="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip" />
+    <unzip src="${artifacts.org.campagnelab.TextOutput}/org.campagnelab.TextOutput-${org.campagnelab.TextOutput.textoutput_version}.zip" dest="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip" />
+    <mkdir dir="${build.tmp}/deps/org.campagnelab.Background/org.campagnelab.background-_dl__lbrace_background_version_rbrace_.zip" />
+    <unzip src="${artifacts.org.campagnelab.Background}/org.campagnelab.background-${org.campagnelab.Background.background_version}.zip" dest="${build.tmp}/deps/org.campagnelab.Background/org.campagnelab.background-_dl__lbrace_background_version_rbrace_.zip" />
+    <mkdir dir="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip" />
+    <unzip src="${artifacts.org.campagnelab.mps.UI}/org.campagnelab.UI-${org.campagnelab.mps.UI.ui_version}.zip" dest="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip" />
+    <mkdir dir="${build.tmp}/deps/org.campagnelab.GobyWeb/org.campagnelab.GobyWeb-_dl__lbrace_gobyweb_version_rbrace_.zip" />
+    <unzip src="${artifacts.org.campagnelab.GobyWeb}/org.campagnelab.GobyWeb-${org.campagnelab.GobyWeb.gobyweb_version}.zip" dest="${build.tmp}/deps/org.campagnelab.GobyWeb/org.campagnelab.GobyWeb-_dl__lbrace_gobyweb_version_rbrace_.zip" />
+    <mkdir dir="${build.tmp}/deps/org.campagnelab.ClusterConfig/org.campagnelab.ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip" />
+    <unzip src="${artifacts.org.campagnelab.ClusterConfig}/org.campagnelab.ClusterConfig-${org.campagnelab.ClusterConfig.clusterConfig_version}.zip" dest="${build.tmp}/deps/org.campagnelab.ClusterConfig/org.campagnelab.ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip" />
+    <mkdir dir="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip" />
+    <unzip src="${artifacts.XChart}/XChart_${XChart.XChart_version}.zip" dest="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip" />
+    <mkdir dir="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip" />
+    <unzip src="${artifacts.org.campagnelab.NYoSh}/org.campagnelab.NYoSh-${org.campagnelab.NYoSh.nyosh_version}.zip" dest="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip" />
   </target>
   
   <target name="build" depends="assemble" />
@@ -811,7 +868,7 @@
     <delete dir="${build.layout}" />
   </target>
   
-  <target name="compileJava" depends="java.compile.org.campagnelab.bio.species, java.compile.org.campagnelab.bio.species#8668161730115426850, java.compile.org.campagnelab.lucene.tableviewer.runtime, java.compile.org.campagnelab.gobyweb.interactive.mappings, java.compile.org.campagnelab.gobyweb.interactive.mappings#6726552014277525798, java.compile.org.campagnelab.feedback, java.compile.org.campagnelab.feedback#6620797826825978493, java.compile.org.campagnelab.gobyweb.interactive.mergeplan, java.compile.org.campagnelab.gobyweb.interactive.mergeplan#8273662917775850173, java.compile.org.campagnelab.gobyweb.interactive.filesets.mappings, java.compile.org.campagnelab.gobyweb.monitoring, java.compile.org.campagnelab.gobyweb.interactive, java.compile.org.campagnelab.gobyweb.interactive#2051553890368756015, java.compile.org.campagnelab.gobyweb.interactive.users, java.compile.org.campagnelab.gobyweb.interactive.users#5865189911928297062, java.compile.org.campagnelab.gobyweb.interactive.samples, java.compile.org.campagnelab.gobyweb.interactive.samples#7926097513313207833, java.compile.org.campagnelab.gobyweb.interactive.platforms, java.compile.org.campagnelab.gobyweb.interactive.platforms#518208688751652421, java.compile.org.campagnelab.gobyweb.interactive.organisms, java.compile.org.campagnelab.gobyweb.interactive.organisms#7026862576601472488, java.compile.org.campagnelab.gobyweb.interactive.fsiselector, java.compile.org.campagnelab.gobyweb.interactive.fsiselector#6870112335028418600, java.compile.org.campagnelab.gobyweb.interactive.viewers, java.compile.org.campagnelab.bio.species.morgs, java.compile.org.campagnelab.gobyweb.interactive.sharing, java.compile.org.campagnelab.gobyweb.interactive.sharing#8982654668860899943, java.compile.org.campagnelab.lucene.tableviewer, java.compile.org.campagnelab.lucene.tableviewer#6642819616993943093, java.compile.org.campagnelab.gobyweb.interactive.genomes, java.compile.org.campagnelab.gobyweb.interactive.genomes#1472681854106822600" />
+  <target name="compileJava" depends="java.compile.org.campagnelab.bio.species, java.compile.org.campagnelab.bio.species#8668161730115426850, java.compile.org.campagnelab.lucene.tableviewer.runtime, java.compile.org.campagnelab.gobyweb.interactive.mappings, java.compile.org.campagnelab.gobyweb.interactive.mappings#6726552014277525798, java.compile.org.campagnelab.feedback, java.compile.org.campagnelab.feedback#6620797826825978493, java.compile.org.campagnelab.gobyweb.interactive.mergeplan, java.compile.org.campagnelab.gobyweb.interactive.mergeplan#8273662917775850173, java.compile.org.campagnelab.gobyweb.interactive.filesets.mappings, java.compile.org.campagnelab.gobyweb.monitoring, java.compile.org.campagnelab.gobyweb.interactive, java.compile.org.campagnelab.gobyweb.interactive#2051553890368756015, java.compile.org.campagnelab.gobyweb.interactive.users, java.compile.org.campagnelab.gobyweb.interactive.users#5865189911928297062, java.compile.org.campagnelab.gobyweb.interactive.samples, java.compile.org.campagnelab.gobyweb.interactive.samples#7926097513313207833, java.compile.org.campagnelab.gobyweb.interactive.platforms, java.compile.org.campagnelab.gobyweb.interactive.platforms#518208688751652421, java.compile.org.campagnelab.gobyweb.interactive.organisms, java.compile.org.campagnelab.gobyweb.interactive.organisms#7026862576601472488, java.compile.org.campagnelab.gobyweb.interactive.fsiselector, java.compile.org.campagnelab.gobyweb.interactive.fsiselector#6870112335028418600, java.compile.org.campagnelab.gobyweb.interactive.viewers, java.compile.org.campagnelab.bio.species.morgs, java.compile.org.campagnelab.gobyweb.interactive.sharing, java.compile.org.campagnelab.gobyweb.interactive.sharing#8982654668860899943, java.compile.org.campagnelab.gobyweb.interactive.genomes, java.compile.org.campagnelab.gobyweb.interactive.genomes#1472681854106822600, java.compile.org.campagnelab.lucene.tableviewer, java.compile.org.campagnelab.lucene.tableviewer#6642819616993943093" />
   
   <target name="processResources" />
   
@@ -828,13 +885,13 @@
       <plugin path="${artifacts.mps}/plugins/mps-core/META-INF/plugin.xml/../.." />
       <plugin path="${artifacts.mps}/plugins/mps-testing" />
       <plugin path="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart" />
-      <plugin path="${build.tmp}/deps/org.campagnelab.Background/org.campagnelab.background-_dl__lbrace_background.version_rbrace_.zip/Background" />
-      <plugin path="${build.tmp}/deps/org.campagnelab.ClusterConfig/ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig" />
-      <plugin path="${build.tmp}/deps/org.campagnelab.GobyWeb/GobyWeb-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/GobyWeb" />
+      <plugin path="${build.tmp}/deps/org.campagnelab.Background/org.campagnelab.background-_dl__lbrace_background_version_rbrace_.zip/Background" />
+      <plugin path="${build.tmp}/deps/org.campagnelab.ClusterConfig/org.campagnelab.ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig" />
+      <plugin path="${build.tmp}/deps/org.campagnelab.GobyWeb/org.campagnelab.GobyWeb-_dl__lbrace_gobyweb_version_rbrace_.zip/GobyWeb" />
       <plugin path="${build.tmp}/deps/org.campagnelab.Logger/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip/Logger" />
-      <plugin path="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh" />
+      <plugin path="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh" />
       <plugin path="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip/TextOutput" />
-      <plugin path="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip/UI" />
+      <plugin path="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.closures.jar" />
@@ -892,23 +949,23 @@
       <library file="${artifacts.mps}/lib/mps-tuples.jar" />
       <library file="${artifacts.mps}/lib/mps-workbench.jar" />
       <library file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.jar" />
-      <library file="${build.tmp}/deps/org.campagnelab.Background/org.campagnelab.background-_dl__lbrace_background.version_rbrace_.zip/Background/languages/org.campagnelab.background.jar" />
-      <library file="${build.tmp}/deps/org.campagnelab.ClusterConfig/ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.clusterConfig.jar" />
-      <library file="${build.tmp}/deps/org.campagnelab.ClusterConfig/ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.ssh.jar" />
-      <library file="${build.tmp}/deps/org.campagnelab.GobyWeb/GobyWeb-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb.charts.jar" />
-      <library file="${build.tmp}/deps/org.campagnelab.GobyWeb/GobyWeb-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb.environment.jar" />
-      <library file="${build.tmp}/deps/org.campagnelab.GobyWeb/GobyWeb-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb.jar" />
-      <library file="${build.tmp}/deps/org.campagnelab.GobyWeb/GobyWeb-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb.plugins.jar" />
+      <library file="${build.tmp}/deps/org.campagnelab.Background/org.campagnelab.background-_dl__lbrace_background_version_rbrace_.zip/Background/languages/org.campagnelab.background.jar" />
+      <library file="${build.tmp}/deps/org.campagnelab.ClusterConfig/org.campagnelab.ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.clusterConfig.jar" />
+      <library file="${build.tmp}/deps/org.campagnelab.ClusterConfig/org.campagnelab.ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.ssh.jar" />
+      <library file="${build.tmp}/deps/org.campagnelab.GobyWeb/org.campagnelab.GobyWeb-_dl__lbrace_gobyweb_version_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb.charts.jar" />
+      <library file="${build.tmp}/deps/org.campagnelab.GobyWeb/org.campagnelab.GobyWeb-_dl__lbrace_gobyweb_version_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb.environment.jar" />
+      <library file="${build.tmp}/deps/org.campagnelab.GobyWeb/org.campagnelab.GobyWeb-_dl__lbrace_gobyweb_version_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb.jar" />
+      <library file="${build.tmp}/deps/org.campagnelab.GobyWeb/org.campagnelab.GobyWeb-_dl__lbrace_gobyweb_version_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb.plugins.jar" />
       <library file="${build.tmp}/deps/org.campagnelab.Logger/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip/Logger/languages/org.campagnelab.logger.jar" />
-      <library file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.NYoSh.jar" />
-      <library file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.gobyweb.tags.jar" />
-      <library file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.nyosh.environment.jar" />
-      <library file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.nyosh.gstring.jar" />
-      <library file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.nyosh.lib.jar" />
-      <library file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.nyosh.pathpatterns.jar" />
+      <library file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.NYoSh.jar" />
+      <library file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.gobyweb.tags.jar" />
+      <library file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.nyosh.environment.jar" />
+      <library file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.nyosh.gstring.jar" />
+      <library file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.nyosh.lib.jar" />
+      <library file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.nyosh.pathpatterns.jar" />
       <library file="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip/TextOutput/languages/TextOutput/org.campagnelab.textoutput.jar" />
-      <library file="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
-      <library file="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip/UI/languages/org.campagnelab.ui.jar" />
+      <library file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
+      <library file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.jar" />
       <chunk>
         <module file="${basedir}/languages/org.campagnelab.bio.species/org.campagnelab.bio.species.mpl" />
         <module file="${basedir}/languages/org.campagnelab.feedback/org.campagnelab.feedback.mpl" />
@@ -977,6 +1034,7 @@
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
@@ -1018,6 +1076,7 @@
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
@@ -1047,26 +1106,26 @@
       <classpath>
         <fileset file="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.lucene.tableviewer/runtime/lucene-core-3.6.1.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.lucene.tableviewer/runtime/lucene-1.0-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/wildcard-1.03.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/commons-io-2.4.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/groovy-all-1.8.6.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/fastutil-6.4.4.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/option-validation-language-2.1.0.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/scala-library-2.9.2.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/dsiutils-2.0.7.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/org.campagnelab.stepslogger-1.1.0.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/artifacts-2.3.0.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/filesets-1.3.0-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/activemq-client-5.9.1.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/geronimo-jms_1.1_spec-1.1.1.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/mercury-api-1.0-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/hawtbuf-1.9.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/slf4j-api-1.7.5.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.nyosh.lib.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/wildcard-1.03.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/commons-io-2.4.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/groovy-all-1.8.6.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/fastutil-6.4.4.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/option-validation-language-2.1.0.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/scala-library-2.9.2.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/dsiutils-2.0.7.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/org.campagnelab.stepslogger-1.1.0.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/artifacts-2.3.0.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/filesets-1.3.0-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/plugins-2.5.0-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/activemq-client-5.9.1.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/geronimo-jms_1.1_spec-1.1.1.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/mercury-api-1.0-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/hawtbuf-1.9.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/slf4j-api-1.7.5.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.nyosh.lib.jar" />
       </classpath>
     </javac>
   </target>
@@ -1093,6 +1152,7 @@
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
@@ -1134,6 +1194,7 @@
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
@@ -1174,6 +1235,7 @@
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
@@ -1215,6 +1277,7 @@
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
@@ -1258,29 +1321,30 @@
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.users" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.viewers" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.monitoring" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/wildcard-1.03.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/commons-io-2.4.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/groovy-all-1.8.6.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/fastutil-6.4.4.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/option-validation-language-2.1.0.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/scala-library-2.9.2.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/dsiutils-2.0.7.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/org.campagnelab.stepslogger-1.1.0.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/artifacts-2.3.0.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/filesets-1.3.0-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/activemq-client-5.9.1.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/geronimo-jms_1.1_spec-1.1.1.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/mercury-api-1.0-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/hawtbuf-1.9.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/slf4j-api-1.7.5.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/wildcard-1.03.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/commons-io-2.4.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/groovy-all-1.8.6.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/fastutil-6.4.4.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/option-validation-language-2.1.0.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/scala-library-2.9.2.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/dsiutils-2.0.7.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/org.campagnelab.stepslogger-1.1.0.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/artifacts-2.3.0.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/filesets-1.3.0-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/plugins-2.5.0-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/activemq-client-5.9.1.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/geronimo-jms_1.1_spec-1.1.1.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/mercury-api-1.0-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/hawtbuf-1.9.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/slf4j-api-1.7.5.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
@@ -1303,12 +1367,12 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.smodel.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.ClusterConfig/ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.clusterConfig.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.GobyWeb/GobyWeb-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb.plugins.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.gobyweb.tags.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.nyosh.lib.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip/UI/languages/org.campagnelab.ui.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.ClusterConfig/org.campagnelab.ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.clusterConfig.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.GobyWeb/org.campagnelab.GobyWeb-_dl__lbrace_gobyweb_version_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb.plugins.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.gobyweb.tags.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.nyosh.lib.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
       </classpath>
     </javac>
   </target>
@@ -1342,6 +1406,7 @@
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
@@ -1362,9 +1427,9 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.smodel.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.ClusterConfig/ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.clusterConfig.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip/UI/languages/org.campagnelab.ui.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.ClusterConfig/org.campagnelab.ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.clusterConfig.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
       </classpath>
     </javac>
   </target>
@@ -1399,29 +1464,30 @@
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/wildcard-1.03.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/commons-io-2.4.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/groovy-all-1.8.6.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/fastutil-6.4.4.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/option-validation-language-2.1.0.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/scala-library-2.9.2.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/dsiutils-2.0.7.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/org.campagnelab.stepslogger-1.1.0.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/artifacts-2.3.0.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/filesets-1.3.0-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/activemq-client-5.9.1.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/geronimo-jms_1.1_spec-1.1.1.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/mercury-api-1.0-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/hawtbuf-1.9.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/slf4j-api-1.7.5.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/wildcard-1.03.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/commons-io-2.4.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/groovy-all-1.8.6.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/fastutil-6.4.4.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/option-validation-language-2.1.0.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/scala-library-2.9.2.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/dsiutils-2.0.7.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/org.campagnelab.stepslogger-1.1.0.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/artifacts-2.3.0.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/filesets-1.3.0-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/plugins-2.5.0-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/activemq-client-5.9.1.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/geronimo-jms_1.1_spec-1.1.1.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/mercury-api-1.0-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/hawtbuf-1.9.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/slf4j-api-1.7.5.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
@@ -1443,11 +1509,11 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.smodel.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.ClusterConfig/ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.clusterConfig.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.ClusterConfig/org.campagnelab.ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.clusterConfig.jar" />
         <fileset file="${build.tmp}/deps/org.campagnelab.Logger/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip/Logger/languages/org.campagnelab.logger.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.nyosh.lib.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip/UI/languages/org.campagnelab.ui.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.nyosh.lib.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
       </classpath>
     </javac>
   </target>
@@ -1480,30 +1546,31 @@
         <pathelement path="${build.tmp}/java/out/org.campagnelab.lucene.tableviewer.runtime" />
         <fileset file="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.lucene.tableviewer/runtime/lucene-core-3.6.1.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.lucene.tableviewer/runtime/lucene-1.0-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/wildcard-1.03.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/commons-io-2.4.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/groovy-all-1.8.6.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/fastutil-6.4.4.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/option-validation-language-2.1.0.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/scala-library-2.9.2.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/dsiutils-2.0.7.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/org.campagnelab.stepslogger-1.1.0.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/artifacts-2.3.0.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/filesets-1.3.0-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/activemq-client-5.9.1.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/geronimo-jms_1.1_spec-1.1.1.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/mercury-api-1.0-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/hawtbuf-1.9.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/slf4j-api-1.7.5.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.ClusterConfig/ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/jsch-0.1.51.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/wildcard-1.03.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/commons-io-2.4.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/groovy-all-1.8.6.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/fastutil-6.4.4.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/option-validation-language-2.1.0.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/scala-library-2.9.2.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/dsiutils-2.0.7.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/org.campagnelab.stepslogger-1.1.0.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/artifacts-2.3.0.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/filesets-1.3.0-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/plugins-2.5.0-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/activemq-client-5.9.1.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/geronimo-jms_1.1_spec-1.1.1.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/mercury-api-1.0-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/hawtbuf-1.9.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/slf4j-api-1.7.5.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.ClusterConfig/org.campagnelab.ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/jsch-0.1.51.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
@@ -1531,20 +1598,20 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.smodel.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.NYoSh.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.Background/org.campagnelab.background-_dl__lbrace_background.version_rbrace_.zip/Background/languages/org.campagnelab.background.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.ClusterConfig/ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.clusterConfig.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.GobyWeb/GobyWeb-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.GobyWeb/GobyWeb-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb.charts.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.GobyWeb/GobyWeb-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb.plugins.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.NYoSh.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.Background/org.campagnelab.background-_dl__lbrace_background_version_rbrace_.zip/Background/languages/org.campagnelab.background.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.ClusterConfig/org.campagnelab.ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.clusterConfig.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.GobyWeb/org.campagnelab.GobyWeb-_dl__lbrace_gobyweb_version_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.GobyWeb/org.campagnelab.GobyWeb-_dl__lbrace_gobyweb_version_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb.charts.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.GobyWeb/org.campagnelab.GobyWeb-_dl__lbrace_gobyweb_version_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb.plugins.jar" />
         <fileset file="${build.tmp}/deps/org.campagnelab.Logger/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip/Logger/languages/org.campagnelab.logger.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.nyosh.environment.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.nyosh.gstring.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.nyosh.lib.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.ClusterConfig/ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.ssh.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.nyosh.environment.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.nyosh.gstring.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.nyosh.lib.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.ClusterConfig/org.campagnelab.ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.ssh.jar" />
         <fileset file="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip/TextOutput/languages/TextOutput/org.campagnelab.textoutput.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip/UI/languages/org.campagnelab.ui.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
       </classpath>
     </javac>
   </target>
@@ -1574,6 +1641,7 @@
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
@@ -1594,9 +1662,9 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.smodel.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.ClusterConfig/ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.clusterConfig.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip/UI/languages/org.campagnelab.ui.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.ClusterConfig/org.campagnelab.ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.clusterConfig.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
       </classpath>
     </javac>
   </target>
@@ -1623,6 +1691,7 @@
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
@@ -1664,6 +1733,7 @@
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
@@ -1707,29 +1777,30 @@
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.viewers" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.monitoring" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.lucene.tableviewer" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/wildcard-1.03.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/commons-io-2.4.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/groovy-all-1.8.6.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/fastutil-6.4.4.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/option-validation-language-2.1.0.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/scala-library-2.9.2.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/dsiutils-2.0.7.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/org.campagnelab.stepslogger-1.1.0.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/artifacts-2.3.0.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/filesets-1.3.0-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/activemq-client-5.9.1.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/geronimo-jms_1.1_spec-1.1.1.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/mercury-api-1.0-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/hawtbuf-1.9.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/slf4j-api-1.7.5.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/wildcard-1.03.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/commons-io-2.4.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/groovy-all-1.8.6.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/fastutil-6.4.4.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/option-validation-language-2.1.0.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/scala-library-2.9.2.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/dsiutils-2.0.7.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/org.campagnelab.stepslogger-1.1.0.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/artifacts-2.3.0.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/filesets-1.3.0-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/plugins-2.5.0-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/activemq-client-5.9.1.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/geronimo-jms_1.1_spec-1.1.1.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/mercury-api-1.0-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/hawtbuf-1.9.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/slf4j-api-1.7.5.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
@@ -1751,13 +1822,13 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.smodel.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.ClusterConfig/ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.clusterConfig.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.GobyWeb/GobyWeb-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb.charts.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.GobyWeb/GobyWeb-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb.plugins.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.ClusterConfig/org.campagnelab.ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.clusterConfig.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.GobyWeb/org.campagnelab.GobyWeb-_dl__lbrace_gobyweb_version_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb.charts.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.GobyWeb/org.campagnelab.GobyWeb-_dl__lbrace_gobyweb_version_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb.plugins.jar" />
         <fileset file="${build.tmp}/deps/org.campagnelab.Logger/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip/Logger/languages/org.campagnelab.logger.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.nyosh.lib.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip/UI/languages/org.campagnelab.ui.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.nyosh.lib.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
       </classpath>
     </javac>
   </target>
@@ -1791,6 +1862,7 @@
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
@@ -1811,9 +1883,9 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.smodel.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.ClusterConfig/ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.clusterConfig.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip/UI/languages/org.campagnelab.ui.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.ClusterConfig/org.campagnelab.ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.clusterConfig.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
       </classpath>
     </javac>
   </target>
@@ -1846,6 +1918,7 @@
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
@@ -1866,10 +1939,10 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.smodel.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.ClusterConfig/ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.clusterConfig.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.GobyWeb/GobyWeb-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb.plugins.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip/UI/languages/org.campagnelab.ui.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.ClusterConfig/org.campagnelab.ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.clusterConfig.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.GobyWeb/org.campagnelab.GobyWeb-_dl__lbrace_gobyweb_version_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb.plugins.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
       </classpath>
     </javac>
   </target>
@@ -1903,6 +1976,7 @@
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
@@ -1923,9 +1997,9 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.smodel.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.ClusterConfig/ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.clusterConfig.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip/UI/languages/org.campagnelab.ui.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.ClusterConfig/org.campagnelab.ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.clusterConfig.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
       </classpath>
     </javac>
   </target>
@@ -1959,6 +2033,7 @@
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
@@ -1979,9 +2054,9 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.smodel.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.ClusterConfig/ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.clusterConfig.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip/UI/languages/org.campagnelab.ui.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.ClusterConfig/org.campagnelab.ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.clusterConfig.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
       </classpath>
     </javac>
   </target>
@@ -2015,6 +2090,7 @@
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
@@ -2035,9 +2111,9 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.smodel.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.ClusterConfig/ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.clusterConfig.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip/UI/languages/org.campagnelab.ui.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.ClusterConfig/org.campagnelab.ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.clusterConfig.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
       </classpath>
     </javac>
   </target>
@@ -2063,29 +2139,30 @@
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.users" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.monitoring" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/wildcard-1.03.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/commons-io-2.4.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/groovy-all-1.8.6.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/fastutil-6.4.4.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/option-validation-language-2.1.0.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/scala-library-2.9.2.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/dsiutils-2.0.7.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/org.campagnelab.stepslogger-1.1.0.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/artifacts-2.3.0.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/filesets-1.3.0-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/activemq-client-5.9.1.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/geronimo-jms_1.1_spec-1.1.1.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/mercury-api-1.0-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/hawtbuf-1.9.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/slf4j-api-1.7.5.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/wildcard-1.03.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/commons-io-2.4.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/groovy-all-1.8.6.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/fastutil-6.4.4.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/option-validation-language-2.1.0.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/scala-library-2.9.2.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/dsiutils-2.0.7.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/org.campagnelab.stepslogger-1.1.0.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/artifacts-2.3.0.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/filesets-1.3.0-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/plugins-2.5.0-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/activemq-client-5.9.1.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/geronimo-jms_1.1_spec-1.1.1.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/mercury-api-1.0-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/hawtbuf-1.9.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/slf4j-api-1.7.5.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
@@ -2111,16 +2188,16 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.smodel.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.NYoSh.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.ClusterConfig/ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.clusterConfig.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.GobyWeb/GobyWeb-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.GobyWeb/GobyWeb-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb.plugins.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.nyosh.environment.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.nyosh.gstring.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.nyosh.lib.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.NYoSh.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.ClusterConfig/org.campagnelab.ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.clusterConfig.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.GobyWeb/org.campagnelab.GobyWeb-_dl__lbrace_gobyweb_version_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.GobyWeb/org.campagnelab.GobyWeb-_dl__lbrace_gobyweb_version_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb.plugins.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.nyosh.environment.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.nyosh.gstring.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.nyosh.lib.jar" />
         <fileset file="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip/TextOutput/languages/TextOutput/org.campagnelab.textoutput.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip/UI/languages/org.campagnelab.ui.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
       </classpath>
     </javac>
   </target>
@@ -2154,6 +2231,7 @@
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
@@ -2174,9 +2252,9 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.smodel.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.ClusterConfig/ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.clusterConfig.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip/UI/languages/org.campagnelab.ui.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.ClusterConfig/org.campagnelab.ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.clusterConfig.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
       </classpath>
     </javac>
   </target>
@@ -2204,29 +2282,30 @@
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.filesets.mappings" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.users" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.monitoring" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/wildcard-1.03.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/commons-io-2.4.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/groovy-all-1.8.6.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/fastutil-6.4.4.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/option-validation-language-2.1.0.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/scala-library-2.9.2.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/dsiutils-2.0.7.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/org.campagnelab.stepslogger-1.1.0.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/artifacts-2.3.0.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/filesets-1.3.0-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/activemq-client-5.9.1.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/geronimo-jms_1.1_spec-1.1.1.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/mercury-api-1.0-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/hawtbuf-1.9.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/slf4j-api-1.7.5.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/wildcard-1.03.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/commons-io-2.4.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/groovy-all-1.8.6.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/fastutil-6.4.4.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/option-validation-language-2.1.0.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/scala-library-2.9.2.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/dsiutils-2.0.7.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/org.campagnelab.stepslogger-1.1.0.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/artifacts-2.3.0.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/filesets-1.3.0-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/plugins-2.5.0-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/activemq-client-5.9.1.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/geronimo-jms_1.1_spec-1.1.1.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/mercury-api-1.0-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/hawtbuf-1.9.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/slf4j-api-1.7.5.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
@@ -2247,10 +2326,10 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.smodel.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.ClusterConfig/ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.clusterConfig.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.nyosh.lib.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip/UI/languages/org.campagnelab.ui.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.ClusterConfig/org.campagnelab.ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.clusterConfig.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.nyosh.lib.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
       </classpath>
     </javac>
   </target>
@@ -2278,6 +2357,7 @@
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
@@ -2324,6 +2404,7 @@
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
@@ -2344,9 +2425,9 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.smodel.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.ClusterConfig/ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.clusterConfig.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip/UI/languages/org.campagnelab.ui.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.ClusterConfig/org.campagnelab.ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.clusterConfig.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
       </classpath>
     </javac>
   </target>
@@ -2380,6 +2461,7 @@
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
@@ -2400,137 +2482,9 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.smodel.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.ClusterConfig/ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.clusterConfig.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip/UI/languages/org.campagnelab.ui.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
-      </classpath>
-    </javac>
-  </target>
-  
-  <target name="java.compile.org.campagnelab.lucene.tableviewer" depends="java.compile.org.campagnelab.lucene.tableviewer.runtime, fetchDependencies">
-    <mkdir dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.lucene.tableviewer/source_gen" />
-    <mkdir dir="${build.tmp}/java/out/org.campagnelab.lucene.tableviewer" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.lucene.tableviewer" fork="true" includeantruntime="false">
-      <compilerarg value="-Xlint:none" />
-      <src>
-        <path location="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.lucene.tableviewer/source_gen" />
-      </src>
-      <classpath>
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.lucene.tableviewer.runtime" />
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-core.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.lucene.tableviewer/runtime/lucene-core-3.6.1.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.lucene.tableviewer/runtime/lucene-1.0-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/wildcard-1.03.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/commons-io-2.4.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/groovy-all-1.8.6.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/fastutil-6.4.4.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/option-validation-language-2.1.0.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/scala-library-2.9.2.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/dsiutils-2.0.7.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/org.campagnelab.stepslogger-1.1.0.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/artifacts-2.3.0.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/filesets-1.3.0-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/activemq-client-5.9.1.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/geronimo-jms_1.1_spec-1.1.1.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/mercury-api-1.0-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/hawtbuf-1.9.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/slf4j-api-1.7.5.jar" />
-        <fileset file="${artifacts.mps}/lib/log4j.jar" />
-        <fileset file="${artifacts.mps}/lib/annotations.jar" />
-        <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
-        <fileset file="${artifacts.mps}/lib/trove4j.jar" />
-        <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
-        <fileset file="${artifacts.mps}/lib/asm-all.jar" />
-        <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
-        <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
-        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
-        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
-        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.closures.jar" />
-        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.collections.jar" />
-        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
-        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
-        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
-        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.nyosh.lib.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
-      </classpath>
-    </javac>
-  </target>
-  
-  <target name="java.compile.org.campagnelab.lucene.tableviewer#6642819616993943093" depends="java.compile.org.campagnelab.lucene.tableviewer, java.compile.org.campagnelab.lucene.tableviewer.runtime, fetchDependencies">
-    <mkdir dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.lucene.tableviewer/generator/source_gen" />
-    <mkdir dir="${build.tmp}/java/out/org.campagnelab.lucene.tableviewer#6642819616993943093" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.lucene.tableviewer#6642819616993943093" fork="true" includeantruntime="false">
-      <compilerarg value="-Xlint:none" />
-      <src>
-        <path location="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.lucene.tableviewer/generator/source_gen" />
-      </src>
-      <classpath>
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-core.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.lucene.tableviewer" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.lucene.tableviewer.runtime" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.lucene.tableviewer/runtime/lucene-core-3.6.1.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.lucene.tableviewer/runtime/lucene-1.0-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/wildcard-1.03.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/commons-io-2.4.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/groovy-all-1.8.6.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/fastutil-6.4.4.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/option-validation-language-2.1.0.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/scala-library-2.9.2.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/dsiutils-2.0.7.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/org.campagnelab.stepslogger-1.1.0.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/artifacts-2.3.0.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/filesets-1.3.0-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/activemq-client-5.9.1.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/geronimo-jms_1.1_spec-1.1.1.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/mercury-api-1.0-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/hawtbuf-1.9.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/slf4j-api-1.7.5.jar" />
-        <fileset file="${artifacts.mps}/lib/log4j.jar" />
-        <fileset file="${artifacts.mps}/lib/annotations.jar" />
-        <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
-        <fileset file="${artifacts.mps}/lib/trove4j.jar" />
-        <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
-        <fileset file="${artifacts.mps}/lib/asm-all.jar" />
-        <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
-        <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
-        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
-        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
-        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.closures.jar" />
-        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.collections.jar" />
-        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
-        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
-        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
-        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/NYoSh-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.nyosh.lib.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.ClusterConfig/org.campagnelab.ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.clusterConfig.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
       </classpath>
     </javac>
   </target>
@@ -2564,6 +2518,7 @@
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
@@ -2584,10 +2539,10 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.smodel.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.ClusterConfig/ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.clusterConfig.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.GobyWeb/GobyWeb-2.0._dl__lbrace_nyosh_build_number_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb.plugins.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip/UI/languages/org.campagnelab.ui.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.ClusterConfig/org.campagnelab.ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.clusterConfig.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.GobyWeb/org.campagnelab.GobyWeb-_dl__lbrace_gobyweb_version_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb.plugins.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
       </classpath>
     </javac>
   </target>
@@ -2621,6 +2576,7 @@
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
@@ -2641,9 +2597,139 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.smodel.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.ClusterConfig/ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.clusterConfig.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip/UI/languages/org.campagnelab.ui.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/UI__dl__lbrace_ui.version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.ClusterConfig/org.campagnelab.ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.clusterConfig.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
+      </classpath>
+    </javac>
+  </target>
+  
+  <target name="java.compile.org.campagnelab.lucene.tableviewer" depends="java.compile.org.campagnelab.lucene.tableviewer.runtime, fetchDependencies">
+    <mkdir dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.lucene.tableviewer/source_gen" />
+    <mkdir dir="${build.tmp}/java/out/org.campagnelab.lucene.tableviewer" />
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.lucene.tableviewer" fork="true" includeantruntime="false">
+      <compilerarg value="-Xlint:none" />
+      <src>
+        <path location="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.lucene.tableviewer/source_gen" />
+      </src>
+      <classpath>
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.lucene.tableviewer.runtime" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-core.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.lucene.tableviewer/runtime/lucene-core-3.6.1.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.lucene.tableviewer/runtime/lucene-1.0-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/wildcard-1.03.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/commons-io-2.4.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/groovy-all-1.8.6.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/fastutil-6.4.4.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/option-validation-language-2.1.0.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/scala-library-2.9.2.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/dsiutils-2.0.7.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/org.campagnelab.stepslogger-1.1.0.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/artifacts-2.3.0.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/filesets-1.3.0-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/plugins-2.5.0-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/activemq-client-5.9.1.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/geronimo-jms_1.1_spec-1.1.1.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/mercury-api-1.0-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/hawtbuf-1.9.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/slf4j-api-1.7.5.jar" />
+        <fileset file="${artifacts.mps}/lib/log4j.jar" />
+        <fileset file="${artifacts.mps}/lib/annotations.jar" />
+        <fileset file="${artifacts.mps}/lib/jdom.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
+        <fileset file="${artifacts.mps}/lib/trove4j.jar" />
+        <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
+        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
+        <fileset file="${artifacts.mps}/lib/asm-all.jar" />
+        <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
+        <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.closures.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.collections.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.nyosh.lib.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
+      </classpath>
+    </javac>
+  </target>
+  
+  <target name="java.compile.org.campagnelab.lucene.tableviewer#6642819616993943093" depends="java.compile.org.campagnelab.lucene.tableviewer, java.compile.org.campagnelab.lucene.tableviewer.runtime, fetchDependencies">
+    <mkdir dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.lucene.tableviewer/generator/source_gen" />
+    <mkdir dir="${build.tmp}/java/out/org.campagnelab.lucene.tableviewer#6642819616993943093" />
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.lucene.tableviewer#6642819616993943093" fork="true" includeantruntime="false">
+      <compilerarg value="-Xlint:none" />
+      <src>
+        <path location="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.lucene.tableviewer/generator/source_gen" />
+      </src>
+      <classpath>
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-core.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.lucene.tableviewer" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.lucene.tableviewer.runtime" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.lucene.tableviewer/runtime/lucene-core-3.6.1.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.lucene.tableviewer/runtime/lucene-1.0-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/wildcard-1.03.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/commons-io-2.4.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/groovy-all-1.8.6.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/fastutil-6.4.4.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/option-validation-language-2.1.0.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/scala-library-2.9.2.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/dsiutils-2.0.7.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/org.campagnelab.stepslogger-1.1.0.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/artifacts-2.3.0.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/filesets-1.3.0-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/plugins-2.5.0-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/activemq-client-5.9.1.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/geronimo-jms_1.1_spec-1.1.1.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/mercury-api-1.0-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/hawtbuf-1.9.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/slf4j-api-1.7.5.jar" />
+        <fileset file="${artifacts.mps}/lib/log4j.jar" />
+        <fileset file="${artifacts.mps}/lib/annotations.jar" />
+        <fileset file="${artifacts.mps}/lib/jdom.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
+        <fileset file="${artifacts.mps}/lib/trove4j.jar" />
+        <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
+        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
+        <fileset file="${artifacts.mps}/lib/asm-all.jar" />
+        <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
+        <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.closures.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.collections.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.nyosh.lib.jar" />
       </classpath>
     </javac>
   </target>

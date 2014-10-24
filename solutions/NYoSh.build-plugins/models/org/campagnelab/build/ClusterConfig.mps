@@ -37,6 +37,16 @@
         </node>
       </node>
     </node>
+    <node role="macros" roleId="3ior.5617550519002745378" type="3ior.BuildVariableMacro" typeId="3ior.3767587139141066978" id="4833885827903543062" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="build_number" />
+      <node role="initialValue" roleId="3ior.2755237150521975432" type="3ior.BuildVariableMacroInitWithString" typeId="3ior.2755237150521975431" id="4833885827903543388" nodeInfo="ng">
+        <node role="value" roleId="3ior.2755237150521975437" type="3ior.BuildString" typeId="3ior.4380385936562003279" id="4833885827903543387" nodeInfo="ng">
+          <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="4833885827903543386" nodeInfo="ng">
+            <property name="text" nameId="3ior.4903714810883755350" value="0" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node role="dependencies" roleId="3ior.5617550519002745381" type="3ior.BuildProjectDependency" typeId="3ior.4993211115183325728" id="2714333670779119636" nodeInfo="ng">
       <link role="script" roleId="3ior.5617550519002745380" targetNodeId="ffeo.4301118715654192646" resolveInfo="mps" />
       <node role="artifacts" roleId="3ior.4129895186893471026" type="3ior.BuildSourceMacroRelativePath" typeId="3ior.7389400916848153117" id="2714333670779119637" nodeInfo="ng">
@@ -47,7 +57,7 @@
       <node role="children" roleId="3ior.7389400916848037006" type="3ior.BuildLayout_Zip" typeId="3ior.7389400916848050071" id="2714333670779119665" nodeInfo="ng">
         <node role="containerName" roleId="3ior.4380385936562148502" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="2714333670779119666" nodeInfo="ng">
           <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="2714333670779119667" nodeInfo="ng">
-            <property name="text" nameId="3ior.4903714810883755350" value="ClusterConfig-" />
+            <property name="text" nameId="3ior.4903714810883755350" value="org.campagnelab.ClusterConfig-" />
           </node>
           <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildVarRefStringPart" typeId="3ior.4903714810883702017" id="2714333670779471838" nodeInfo="ng">
             <link role="macro" roleId="3ior.4903714810883702018" targetNodeId="2714333670779472016" resolveInfo="clusterConfig_version" />
@@ -122,7 +132,10 @@
       </node>
       <node role="description" roleId="kdzh.2172791612906637490" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="2714333670779120644" nodeInfo="ng">
         <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="2714333670779120646" nodeInfo="ng">
-          <property name="text" nameId="3ior.4903714810883755350" value="A language to describe Clusters and execution nodes. Bundles the ssh language." />
+          <property name="text" nameId="3ior.4903714810883755350" value="A language to describe Clusters and execution nodes. Bundles the ssh language. Build number: " />
+        </node>
+        <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildVarRefStringPart" typeId="3ior.4903714810883702017" id="4833885827903549976" nodeInfo="ng">
+          <link role="macro" roleId="3ior.4903714810883702018" targetNodeId="4833885827903543062" resolveInfo="build_number" />
         </node>
       </node>
     </node>

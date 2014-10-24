@@ -64,6 +64,9 @@
     <stubModelEntry path="${org.campagnelab.goby.workbench.home}/lib/slf4j-api-1.7.5.jar" />
   </stubModelEntries>
   <sourcePath />
+  <usedLanguages>
+    <usedLanguage>f2801650-65d5-424e-bb1b-463a8781b786(jetbrains.mps.baseLanguage.javadoc)</usedLanguage>
+  </usedLanguages>
   <usedDevKits>
     <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>
   </usedDevKits>

@@ -1,5 +1,7 @@
-rm -fr build/artifacts
-ant -f build.xml && \
-ant -f buildDistribution.xml
+rm -fr build && \
+./assemble-plugins.sh $@ && \
+ANT_FOLDER=$1
+shift
+${ANT_FOLDER}/ant -f build.xml $@ && \
+${ANT_FOLDER}/ant -f buildDistribution.xml $@
 
-./assemble-plugins.sh

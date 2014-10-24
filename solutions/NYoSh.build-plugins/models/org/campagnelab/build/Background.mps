@@ -20,11 +20,24 @@
       <property name="name" nameId="tpck.1169194664001" value="mps_home" />
     </node>
     <node role="macros" roleId="3ior.5617550519002745378" type="3ior.BuildVariableMacro" typeId="3ior.3767587139141066978" id="9211726679685605214" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="background.version" />
+      <property name="name" nameId="tpck.1169194664001" value="background_version" />
       <node role="initialValue" roleId="3ior.2755237150521975432" type="3ior.BuildVariableMacroInitWithString" typeId="3ior.2755237150521975431" id="9211726679685605300" nodeInfo="ng">
         <node role="value" roleId="3ior.2755237150521975437" type="3ior.BuildString" typeId="3ior.4380385936562003279" id="9211726679685605299" nodeInfo="ng">
           <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="9211726679685605298" nodeInfo="ng">
-            <property name="text" nameId="3ior.4903714810883755350" value="1.0.1" />
+            <property name="text" nameId="3ior.4903714810883755350" value="1.0." />
+          </node>
+          <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="2310423895812640052" nodeInfo="ng">
+            <property name="text" nameId="3ior.4903714810883755350" value="1" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="macros" roleId="3ior.5617550519002745378" type="3ior.BuildVariableMacro" typeId="3ior.3767587139141066978" id="4833885827903543062" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="build_number" />
+      <node role="initialValue" roleId="3ior.2755237150521975432" type="3ior.BuildVariableMacroInitWithString" typeId="3ior.2755237150521975431" id="4833885827903543388" nodeInfo="ng">
+        <node role="value" roleId="3ior.2755237150521975437" type="3ior.BuildString" typeId="3ior.4380385936562003279" id="4833885827903543387" nodeInfo="ng">
+          <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="4833885827903543386" nodeInfo="ng">
+            <property name="text" nameId="3ior.4903714810883755350" value="0" />
           </node>
         </node>
       </node>
@@ -48,7 +61,7 @@
             <property name="text" nameId="3ior.4903714810883755350" value="org.campagnelab.background-" />
           </node>
           <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildVarRefStringPart" typeId="3ior.4903714810883702017" id="9211726679685804433" nodeInfo="ng">
-            <link role="macro" roleId="3ior.4903714810883702018" targetNodeId="9211726679685605214" resolveInfo="background.version" />
+            <link role="macro" roleId="3ior.4903714810883702018" targetNodeId="9211726679685605214" resolveInfo="background_version" />
           </node>
           <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="9211726679685804432" nodeInfo="ng">
             <property name="text" nameId="3ior.4903714810883755350" value=".zip" />
@@ -68,7 +81,7 @@
       </node>
       <node role="version" roleId="kdzh.6592112598314498931" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="6642819616994328601" nodeInfo="ng">
         <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildVarRefStringPart" typeId="3ior.4903714810883702017" id="6442676317065000277" nodeInfo="ng">
-          <link role="macro" roleId="3ior.4903714810883702018" targetNodeId="9211726679685605214" resolveInfo="background.version" />
+          <link role="macro" roleId="3ior.4903714810883702018" targetNodeId="9211726679685605214" resolveInfo="background_version" />
         </node>
       </node>
       <node role="content" roleId="kdzh.6592112598314499050" type="kdzh.BuildMps_IdeaPluginModule" typeId="kdzh.6592112598314499036" id="9211726679685608401" nodeInfo="ng">
@@ -91,7 +104,10 @@
       </node>
       <node role="description" roleId="kdzh.2172791612906637490" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="6642819616994347677" nodeInfo="ng">
         <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="6642819616994347679" nodeInfo="ng">
-          <property name="text" nameId="3ior.4903714810883755350" value="This plugin provides the org.campagnelab.background language that makes it easier to program backgroundable tasks in MPS. " />
+          <property name="text" nameId="3ior.4903714810883755350" value="This plugin provides the org.campagnelab.background language that makes it easier to program backgroundable tasks in MPS. Build number: " />
+        </node>
+        <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildVarRefStringPart" typeId="3ior.4903714810883702017" id="4833885827903550317" nodeInfo="ng">
+          <link role="macro" roleId="3ior.4903714810883702018" targetNodeId="4833885827903543062" resolveInfo="build_number" />
         </node>
       </node>
       <node role="xml" roleId="kdzh.1359186315025500371" type="iuxj.XmlElement" typeId="iuxj.6666499814681415858" id="6642819616994420405" nodeInfo="ng">
