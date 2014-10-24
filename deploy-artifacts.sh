@@ -25,7 +25,7 @@ function deploy_artifact {
   -Durl=${REPO_URL}
 
   NOW=$(date +"%m-%d-%Y %T")
-  echo "${artifact_id} ${BUILD_NUMBER} ${GIT_COMMIT} ${NOW}" >> ../builds-to-commits.tsv
+  echo "${BUILD_NUMBER} ${artifact_id} ${GIT_COMMIT} ${GIT_BRANCH} ${NOW}" >> ../builds-to-commits.tsv
 }
 
 
