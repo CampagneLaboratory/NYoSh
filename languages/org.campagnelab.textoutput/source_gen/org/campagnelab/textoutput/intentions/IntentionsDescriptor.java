@@ -18,5 +18,6 @@ public class IntentionsDescriptor extends BaseIntentionsDescriptor {
     IntentionsManager.getInstance().registerIntentionFactory(new ParseNewLineForLineContainer_Intention());
     IntentionsManager.getInstance().registerIntentionFactory(new ParseNewLines_Intention());
     IntentionsManager.getInstance().registerIntentionFactory(new SplitLine_Intention());
+    IntentionsManager.getInstance().registerIntentionFactory(new SplitPhrase_Intention());
   }
 }

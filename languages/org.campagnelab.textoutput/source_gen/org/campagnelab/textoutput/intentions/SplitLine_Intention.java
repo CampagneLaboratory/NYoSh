@@ -8,10 +8,10 @@ import jetbrains.mps.intentions.IntentionExecutable;
 import jetbrains.mps.intentions.IntentionType;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.openapi.editor.EditorContext;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import org.jetbrains.mps.openapi.model.SNodeReference;
 import jetbrains.mps.smodel.SNodePointer;
 import java.util.Collections;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
@@ -48,7 +48,14 @@ public class SplitLine_Intention implements IntentionFactory {
   }
 
   public boolean isApplicable(final SNode node, final EditorContext editorContext) {
+    if (!(isApplicableToNode(node, editorContext))) {
+      return false;
+    }
     return true;
+  }
+
+  private boolean isApplicableToNode(final SNode node, final EditorContext editorContext) {
+    return isNotEmptyString(SPropertyOperations.getString(node, "text"));
   }
 
   public SNodeReference getIntentionNodeReference() {
@@ -88,5 +95,9 @@ public class SplitLine_Intention implements IntentionFactory {
     public IntentionDescriptor getDescriptor() {
       return SplitLine_Intention.this;
     }
+  }
+
+  private static boolean isNotEmptyString(String str) {
+    return str != null && str.length() > 0;
   }
 }

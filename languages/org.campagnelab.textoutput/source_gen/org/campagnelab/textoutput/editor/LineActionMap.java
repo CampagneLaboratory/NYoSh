@@ -8,7 +8,7 @@ import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.openapi.editor.cells.CellActionType;
 import jetbrains.mps.editor.runtime.cells.AbstractCellAction;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.smodel.action.SNodeFactoryOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class LineActionMap {
@@ -35,7 +35,7 @@ public class LineActionMap {
     }
 
     public void execute_internal(EditorContext editorContext, SNode node) {
-      SNodeOperations.insertPrevSiblingChild(node, SConceptOperations.createNewNode("org.campagnelab.textoutput.structure.Line", null));
+      SNodeOperations.insertPrevSiblingChild(node, SNodeFactoryOperations.createNewNode("org.campagnelab.textoutput.structure.Line", null));
     }
   }
 
@@ -55,9 +55,7 @@ public class LineActionMap {
     }
 
     public void execute_internal(EditorContext editorContext, SNode node) {
-      SNodeOperations.insertNextSiblingChild(node, SConceptOperations.createNewNode("org.campagnelab.textoutput.structure.Line", null));
-
-
+      SNodeOperations.insertNextSiblingChild(node, SNodeFactoryOperations.createNewNode("org.campagnelab.textoutput.structure.Line", null));
     }
   }
 

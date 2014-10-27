@@ -5,9 +5,12 @@ package org.campagnelab.textoutput.actions;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.smodel.action.NodeSetupContext;
 import jetbrains.mps.smodel.action.SNodeFactoryOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import org.campagnelab.textoutput.behavior.Line_Behavior;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class QueriesGenerated {
@@ -16,10 +19,12 @@ public class QueriesGenerated {
   }
 
   public static void nodeFactory_NodeSetup_Lines_5039633819242645705(final IOperationContext operationContext, final NodeSetupContext _context) {
-    SPropertyOperations.set(_context.getNewNode(), "text", "");
+    Line_Behavior.call_normalize_2806205325594058140(_context.getNewNode());
+    ListSequence.fromList(SLinkOperations.getTargets(_context.getNewNode(), "lines", true)).addElement(SNodeFactoryOperations.createNewNode("org.campagnelab.textoutput.structure.Line", null));
   }
 
   public static void nodeFactory_NodeSetup_Line_1680136183140358394(final IOperationContext operationContext, final NodeSetupContext _context) {
+    Line_Behavior.call_normalize_2806205325594058140(_context.getNewNode());
     SNodeFactoryOperations.addNewChild(_context.getNewNode(), "phrases", "org.campagnelab.textoutput.structure.Phrase");
   }
 

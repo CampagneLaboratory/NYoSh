@@ -8,7 +8,7 @@ import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.openapi.editor.cells.CellActionType;
 import jetbrains.mps.editor.runtime.cells.AbstractCellAction;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.smodel.action.SNodeFactoryOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class PhraseActionMap {
@@ -30,7 +30,7 @@ public class PhraseActionMap {
     }
 
     public void execute_internal(EditorContext editorContext, SNode node) {
-      SNodeOperations.insertPrevSiblingChild(SNodeOperations.getAncestor(node, "org.campagnelab.textoutput.structure.Line", false, false), SConceptOperations.createNewNode("org.campagnelab.textoutput.structure.Line", null));
+      SNodeOperations.insertPrevSiblingChild(SNodeOperations.getAncestor(node, "org.campagnelab.textoutput.structure.Line", false, false), SNodeFactoryOperations.createNewNode("org.campagnelab.textoutput.structure.Line", null));
     }
   }
 
@@ -46,7 +46,7 @@ public class PhraseActionMap {
     }
 
     public void execute_internal(EditorContext editorContext, SNode node) {
-      SNodeOperations.insertNextSiblingChild(SNodeOperations.getAncestor(node, "org.campagnelab.textoutput.structure.Line", false, false), SConceptOperations.createNewNode("org.campagnelab.textoutput.structure.Line", null));
+      SNodeOperations.insertNextSiblingChild(SNodeOperations.getAncestor(node, "org.campagnelab.textoutput.structure.Line", false, false), SNodeFactoryOperations.createNewNode("org.campagnelab.textoutput.structure.Line", null));
     }
   }
 
