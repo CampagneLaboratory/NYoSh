@@ -53,6 +53,7 @@
     <usedLanguage>d9858376-ef55-45a1-81ea-9c3bbce200d9(org.campagnelab.gobyweb.interactive.sharing)</usedLanguage>
     <usedLanguage>f05c05d7-dafb-4c87-b842-b836f305120f(org.campagnelab.gobyweb.monitoring)</usedLanguage>
     <usedLanguage>0b7d8bbd-896e-495e-be60-01a0d738a649(org.campagnelab.gobyweb.plugins)</usedLanguage>
+    <usedLanguage>489e31af-0445-4cbf-894b-a4bab1f18426(org.campagnelab.gobyweb.plugins.test)</usedLanguage>
     <usedLanguage>82ffebe3-3685-4fd9-b560-0c1d348d295c(org.campagnelab.logger)</usedLanguage>
     <usedLanguage>a5ff6f1b-885e-4f1e-be7d-09432bfbf851(org.campagnelab.lucene.tableviewer)</usedLanguage>
     <usedLanguage>5ec1cd3d-0a50-4049-a8fa-ae768d7baa25(org.campagnelab.mps.XChart)</usedLanguage>
