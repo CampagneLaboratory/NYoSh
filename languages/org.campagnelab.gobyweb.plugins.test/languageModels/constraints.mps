@@ -7,7 +7,9 @@
   <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="64" />
   <import index="tp1t" modelUID="r:00000000-0000-4000-0000-011c8959030d(jetbrains.mps.lang.constraints.structure)" version="9" implicit="yes" />
   <import index="90kj" modelUID="r:397eee62-00ff-4904-afbb-029e2b9cd1db(org.campagnelab.gobyweb.plugins.test.structure)" version="1" implicit="yes" />
+  <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <root type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="3827903497649041787" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="config" />
     <link role="concept" roleId="tp1t.1213093996982" targetNodeId="90kj.3827903497649028236" resolveInfo="TestExecutionEnvironment" />
   </root>
 </model>

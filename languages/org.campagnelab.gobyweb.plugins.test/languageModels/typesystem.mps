@@ -13,7 +13,8 @@
   <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="64" implicit="yes" />
   <import index="90kj" modelUID="r:397eee62-00ff-4904-afbb-029e2b9cd1db(org.campagnelab.gobyweb.plugins.test.structure)" version="1" implicit="yes" />
   <root type="tpd4.NonTypesystemRule" typeId="tpd4.1195214364922" id="3827903497649363844" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="TransformToLocalArea" />
+    <property name="name" nameId="tpck.1169194664001" value="ForceLocalFSArea" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="config" />
     <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="3827903497649364196" nodeInfo="sn">
       <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="3827903497649365879" nodeInfo="nn">
         <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="3827903497649365880" nodeInfo="sn">
@@ -24,7 +25,7 @@
               <node role="actualArgument" roleId="tpd4.1210784493590" type="tpd4.TypesystemIntentionArgument" typeId="tpd4.1210784384552" id="3827903497649431845" nodeInfo="ng">
                 <link role="quickFixArgument" roleId="tpd4.1216386999476" targetNodeId="3827903497649431873" resolveInfo="area" />
                 <node role="value" roleId="tpd4.1210784642750" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="3827903497649431855" nodeInfo="nn">
-                  <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="3827903497649365839" resolveInfo="fileSetArea" />
+                  <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="3827903497649365839" resolveInfo="dualFileSetArea" />
                 </node>
               </node>
             </node>
@@ -32,7 +33,7 @@
               <property name="value" nameId="tpee.1070475926801" value="replace with local" />
             </node>
             <node role="nodeToReport" roleId="tpd4.1227096802790" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="3827903497649397934" nodeInfo="nn">
-              <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="3827903497649365839" resolveInfo="fileSetArea" />
+              <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="3827903497649365839" resolveInfo="dualFileSetArea" />
             </node>
           </node>
         </node>
@@ -40,7 +41,7 @@
           <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3827903497649368701" nodeInfo="nn">
             <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3827903497649366015" nodeInfo="nn">
               <node role="operand" roleId="tpee.1197027771414" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="3827903497649365897" nodeInfo="nn">
-                <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="3827903497649365839" resolveInfo="fileSetArea" />
+                <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="3827903497649365839" resolveInfo="dualFileSetArea" />
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_GetParentOperation" typeId="tp25.1139613262185" id="3827903497649368143" nodeInfo="nn" />
             </node>
@@ -56,7 +57,7 @@
                 <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="3827903497651006736" nodeInfo="nn" />
                 <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3827903497651003738" nodeInfo="nn">
                   <node role="operand" roleId="tpee.1197027771414" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="3827903497651003166" nodeInfo="nn">
-                    <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="3827903497649365839" resolveInfo="fileSetArea" />
+                    <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="3827903497649365839" resolveInfo="dualFileSetArea" />
                   </node>
                   <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="3827903497651005593" nodeInfo="nn">
                     <link role="link" roleId="tp25.1138056516764" targetNodeId="bs99.6449713081311510412" />
@@ -68,7 +69,7 @@
                   <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.EqualsExpression" typeId="tpee.1068580123152" id="3827903497650989831" nodeInfo="nn">
                     <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3827903497650989832" nodeInfo="nn">
                       <node role="operand" roleId="tpee.1197027771414" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="3827903497650989833" nodeInfo="nn">
-                        <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="3827903497649365839" resolveInfo="fileSetArea" />
+                        <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="3827903497649365839" resolveInfo="dualFileSetArea" />
                       </node>
                       <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="3827903497650989834" nodeInfo="nn">
                         <link role="link" roleId="tp25.1138056516764" targetNodeId="bs99.664989078355375332" />
@@ -80,7 +81,7 @@
                     <node role="expression" roleId="tpee.1079359253376" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3827903497650989837" nodeInfo="nn">
                       <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3827903497650989838" nodeInfo="nn">
                         <node role="operand" roleId="tpee.1197027771414" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="3827903497650989839" nodeInfo="nn">
-                          <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="3827903497649365839" resolveInfo="fileSetArea" />
+                          <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="3827903497649365839" resolveInfo="dualFileSetArea" />
                         </node>
                         <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="3827903497650989840" nodeInfo="nn">
                           <link role="link" roleId="tp25.1138056516764" targetNodeId="bs99.664989078355375332" />
@@ -101,8 +102,8 @@
       <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="3827903497649376642" nodeInfo="nn" />
     </node>
     <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="3827903497649365839" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="fileSetArea" />
-      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="bs99.2051553890368756473" resolveInfo="FileSetArea" />
+      <property name="name" nameId="tpck.1169194664001" value="dualFileSetArea" />
+      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="90kj.3827903497651083787" resolveInfo="DualFileSetArea" />
     </node>
   </root>
   <root type="tpd4.TypesystemQuickFix" typeId="tpd4.1216383170661" id="3827903497649430700" nodeInfo="ng">
@@ -159,6 +160,7 @@
   </root>
   <root type="tpd4.NonTypesystemRule" typeId="tpd4.1195214364922" id="3827903497649707357" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="TrasformToDualRepo" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="config" />
     <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="3827903497649707358" nodeInfo="sn">
       <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="3827903497649711835" nodeInfo="nn">
         <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="3827903497649711836" nodeInfo="sn">
@@ -252,6 +254,108 @@
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="3827903497649724163" nodeInfo="nn">
                 <link role="link" roleId="tp25.1138056516764" targetNodeId="bs99.1997533223701807309" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </root>
+  <root type="tpd4.NonTypesystemRule" typeId="tpd4.1195214364922" id="3827903497652901692" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="TransformToDualFSA" />
+    <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="3827903497652901693" nodeInfo="sn">
+      <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="3827903497652902257" nodeInfo="nn">
+        <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="3827903497652902258" nodeInfo="sn">
+          <node role="statement" roleId="tpee.1068581517665" type="tpd4.ReportErrorStatement" typeId="tpd4.1175517767210" id="3827903497652902259" nodeInfo="nn">
+            <node role="helginsIntention" roleId="tpd4.1227096802791" type="tpd4.TypesystemIntention" typeId="tpd4.1210784285454" id="3827903497652902260" nodeInfo="ng">
+              <property name="applyImmediately" nameId="tpd4.1216127910019" value="true" />
+              <link role="quickFix" roleId="tpd4.1216388525179" targetNodeId="3827903497652908556" resolveInfo="CreateDualFSA" />
+              <node role="actualArgument" roleId="tpd4.1210784493590" type="tpd4.TypesystemIntentionArgument" typeId="tpd4.1210784384552" id="3827903497652902261" nodeInfo="ng">
+                <link role="quickFixArgument" roleId="tpd4.1216386999476" targetNodeId="3827903497652908832" resolveInfo="testEnv" />
+                <node role="value" roleId="tpd4.1210784642750" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="3827903497652902262" nodeInfo="nn">
+                  <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="3827903497652901695" resolveInfo="testExecutionEnvironment" />
+                </node>
+              </node>
+            </node>
+            <node role="errorString" roleId="tpd4.1175517851849" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3827903497652902263" nodeInfo="nn">
+              <property name="value" nameId="tpee.1070475926801" value="trasform to dual FSA" />
+            </node>
+            <node role="nodeToReport" roleId="tpd4.1227096802790" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3827903497652902264" nodeInfo="nn">
+              <node role="operand" roleId="tpee.1197027771414" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="3827903497652902265" nodeInfo="nn">
+                <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="3827903497652901695" resolveInfo="testExecutionEnvironment" />
+              </node>
+              <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="3827903497652907840" nodeInfo="nn">
+                <link role="link" roleId="tp25.1138056516764" targetNodeId="bs99.2051553890368785072" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="condition" roleId="tpee.1068580123160" type="tpee.OrExpression" typeId="tpee.1080223426719" id="3827903497652902267" nodeInfo="nn">
+          <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.EqualsExpression" typeId="tpee.1068580123152" id="3827903497652902268" nodeInfo="nn">
+            <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3827903497652902269" nodeInfo="nn">
+              <node role="operand" roleId="tpee.1197027771414" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="3827903497652902270" nodeInfo="nn">
+                <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="3827903497652901695" resolveInfo="testExecutionEnvironment" />
+              </node>
+              <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="3827903497652904296" nodeInfo="nn">
+                <link role="link" roleId="tp25.1138056516764" targetNodeId="bs99.2051553890368785072" />
+              </node>
+            </node>
+            <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="3827903497652902272" nodeInfo="nn" />
+          </node>
+          <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.NotExpression" typeId="tpee.1081516740877" id="3827903497652902273" nodeInfo="nn">
+            <node role="expression" roleId="tpee.1081516765348" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3827903497652902274" nodeInfo="nn">
+              <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3827903497652902275" nodeInfo="nn">
+                <node role="operand" roleId="tpee.1197027771414" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="3827903497652902276" nodeInfo="nn">
+                  <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="3827903497652901695" resolveInfo="testExecutionEnvironment" />
+                </node>
+                <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="3827903497652906190" nodeInfo="nn">
+                  <link role="link" roleId="tp25.1138056516764" targetNodeId="bs99.2051553890368785072" />
+                </node>
+              </node>
+              <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_IsInstanceOfOperation" typeId="tp25.1139621453865" id="3827903497652902278" nodeInfo="nn">
+                <node role="conceptArgument" roleId="tp25.1177027386292" type="tp25.RefConcept_Reference" typeId="tp25.1177026924588" id="3827903497652906550" nodeInfo="nn">
+                  <link role="conceptDeclaration" roleId="tp25.1177026940964" targetNodeId="90kj.3827903497651083787" resolveInfo="DualFileSetArea" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="3827903497652901695" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="testExecutionEnvironment" />
+      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="90kj.3827903497649028236" resolveInfo="TestExecutionEnvironment" />
+    </node>
+  </root>
+  <root type="tpd4.TypesystemQuickFix" typeId="tpd4.1216383170661" id="3827903497652908556" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="CreateDualFSA" />
+    <node role="quickFixArgument" roleId="tpd4.1216383476350" type="tpd4.QuickFixArgument" typeId="tpd4.1216383482742" id="3827903497652908832" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="testEnv" />
+      <node role="argumentType" roleId="tpd4.1216383511839" type="tp25.SNodeType" typeId="tp25.1138055754698" id="3827903497652908833" nodeInfo="in">
+        <link role="concept" roleId="tp25.1138405853777" targetNodeId="90kj.3827903497649028236" resolveInfo="TestExecutionEnvironment" />
+      </node>
+    </node>
+    <node role="executeBlock" roleId="tpd4.1216383424566" type="tpd4.QuickFixExecuteBlock" typeId="tpd4.1216383287005" id="3827903497652908557" nodeInfo="nn">
+      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="3827903497652908558" nodeInfo="sn">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3827903497652909034" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="3827903497652909035" nodeInfo="nn">
+            <node role="rValue" roleId="tpee.1068498886297" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3827903497652909036" nodeInfo="nn">
+              <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3827903497652909037" nodeInfo="nn">
+                <node role="operand" roleId="tpee.1197027771414" type="tpd4.QuickFixArgumentReference" typeId="tpd4.1216390348809" id="3827903497652909038" nodeInfo="nn">
+                  <link role="quickFixArgument" roleId="tpd4.1216390348810" targetNodeId="3827903497652908832" resolveInfo="testEnv" />
+                </node>
+                <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_GetModelOperation" typeId="tp25.1143234257716" id="3827903497652909039" nodeInfo="nn" />
+              </node>
+              <node role="operation" roleId="tpee.1197027833540" type="tp25.Model_CreateNewNodeOperation" typeId="tp25.1143235216708" id="3827903497652909040" nodeInfo="nn">
+                <link role="concept" roleId="tp25.1143235391024" targetNodeId="90kj.3827903497651083787" resolveInfo="DualFileSetArea" />
+              </node>
+            </node>
+            <node role="lValue" roleId="tpee.1068498886295" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3827903497652909041" nodeInfo="nn">
+              <node role="operand" roleId="tpee.1197027771414" type="tpd4.QuickFixArgumentReference" typeId="tpd4.1216390348809" id="3827903497652909042" nodeInfo="nn">
+                <link role="quickFixArgument" roleId="tpd4.1216390348810" targetNodeId="3827903497652908832" resolveInfo="testEnv" />
+              </node>
+              <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="3827903497652910820" nodeInfo="nn">
+                <link role="link" roleId="tp25.1138056516764" targetNodeId="bs99.2051553890368785072" />
               </node>
             </node>
           </node>
