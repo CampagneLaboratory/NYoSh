@@ -12,5 +12,11 @@
     </dependencies>
     <rename id="90kj.3827903497649038159" type="CHILD" from="gitRepo" to="gitRepository" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="90kj" modelUID="r:397eee62-00ff-4904-afbb-029e2b9cd1db(org.campagnelab.gobyweb.plugins.test.structure)" version="1" />
+    </dependencies>
+    <rename id="90kj.3827903497663560969" type="CONCEPT" from="ListenForAnyNewFSI" to="ListenAndSyncNewFSI" />
+  </StructureModification>
 </history>
 
