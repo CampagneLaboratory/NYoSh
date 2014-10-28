@@ -100,6 +100,11 @@
         <property name="allowEmptyText" nameId="tpc2.1140114345053" value="true" />
         <property name="emptyNoTargetText" nameId="tpc2.1214560368769" value="true" />
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="p6sl.5493669862519718600" resolveInfo="text" />
+        <node role="menuDescriptor" roleId="tpc2.1164826688380" type="tpc2.CellMenuDescriptor" typeId="tpc2.1164824717996" id="199292086184379808" nodeInfo="ng">
+          <node role="cellMenuPart" roleId="tpc2.1164824815888" type="tpc2.CellMenuPart_ReplaceNode_CustomNodeConcept" typeId="tpc2.1164914519156" id="199292086184439110" nodeInfo="ng">
+            <link role="replacementConcept" roleId="tpc2.1164914727930" targetNodeId="p6sl.5493669862519709805" resolveInfo="Line" />
+          </node>
+        </node>
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNodeList" typeId="tpc2.1073390211982" id="1072453283799954765" nodeInfo="ng">
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="p6sl.1680136183140337477" />
