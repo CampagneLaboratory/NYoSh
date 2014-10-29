@@ -5,7 +5,7 @@
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="9k5" modelUID="r:df9645c2-d2fa-41cb-a718-044a287b0626(org.campagnelab.clusterConfig.structure)" version="3" implicit="yes" />
   <import index="whle" modelUID="r:8e4fd1b7-1955-43a4-ace6-aaf9d13814f8(org.campagnelab.logger.structure)" version="1" implicit="yes" />
-  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="63" implicit="yes" />
+  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="64" implicit="yes" />
   <import index="czzw" modelUID="r:2151664b-13bc-4072-a76b-815bb37c415e(org.campagnelab.gobyweb.interactive.users.structure)" version="0" implicit="yes" />
   <import index="dhle" modelUID="r:22d2d7af-29e7-4a54-9633-f2175440f8be(org.campagnelab.feedback.structure)" version="0" implicit="yes" />
   <import index="u5kh" modelUID="r:da6c53ea-9b36-4ecc-8d36-50c82663565f(org.campagnelab.gobyweb.interactive.sharing.structure)" version="-1" implicit="yes" />
@@ -19428,29 +19428,29 @@
       <property name="message" nameId="bs99.3927327347527013400" value="Job successfully submitted. Assigned tag: TKVIRWM" />
       <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="3648805790695509200" resolveInfo="ClusterEnvironment" />
       <link role="currentJob" roleId="bs99.5540992037659823465" targetNodeId="8560093378719045807" resolveInfo="AlignmentsForPickrell" />
-      <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="5391721323999838612" resolveInfo="STAR22_GOBY" />
+      <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="3119331021098740779" resolveInfo="STAR22_GOBY" />
       <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="8560093378719017470" nodeInfo="ng">
-        <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="5391721323999838619" resolveInfo="INPUT_READS" />
+        <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="3119331021098740786" resolveInfo="INPUT_READS" />
         <node role="values" roleId="bs99.2995632242847956813" type="bs99.MultiToolFileSetInstanceRef" typeId="bs99.5235131979812125015" id="8560093378719045720" nodeInfo="ng">
           <link role="tool" roleId="bs99.5235131979812125016" targetNodeId="8560093378719017603" resolveInfo="MultiToolForAlignments" />
           <link role="ref" roleId="bs99.4058240102192370452" targetNodeId="8560093378719011453" resolveInfo="IKKOOYO-pickrell-NA19210_argonne" />
         </node>
       </node>
       <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="8560093378719017471" nodeInfo="ng">
-        <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="5391721323999838640" resolveInfo="Ambiguity threshold" />
+        <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="3119331021098740807" resolveInfo="Ambiguity threshold" />
         <node role="value" roleId="bs99.6506431596944968310" type="bs99.IntegerOptionValue" typeId="bs99.606449909792930896" id="8560093378719017475" nodeInfo="ng">
           <property name="value" nameId="bs99.606449909792930897" value="10" />
           <property name="isSet" nameId="bs99.83657536365996638" value="true" />
         </node>
       </node>
       <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="8560093378719017477" nodeInfo="ng">
-        <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="5391721323999838644" resolveInfo="GENOME_REFERENCE_ID" />
+        <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="3119331021098740811" resolveInfo="GENOME_REFERENCE_ID" />
         <node role="value" roleId="bs99.6506431596944968310" type=".org.campagnelab.gobyweb.interactive.structure.GenomeReferenceId" id="8560093378719023975" nodeInfo="ng">
           <link role="genomeBuild" targetNodeId="bd2x.3882067466249291147" resolveInfo="1000GENOMES.37" />
         </node>
       </node>
       <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="8560093378719017483" nodeInfo="ng">
-        <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="5391721323999838646" resolveInfo="CHUNK_SIZE" />
+        <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="3119331021098740813" resolveInfo="CHUNK_SIZE" />
         <node role="value" roleId="bs99.6506431596944968310" type="bs99.IntegerOptionValue" typeId="bs99.606449909792930896" id="8560093378719017487" nodeInfo="ng">
           <property name="value" nameId="bs99.606449909792930897" value="50000000" />
           <property name="isSet" nameId="bs99.83657536365996638" value="true" />

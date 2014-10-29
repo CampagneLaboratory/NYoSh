@@ -244,6 +244,16 @@
               </node>
             </node>
           </node>
+          <node role="ifFalseStatement" roleId="tpee.1082485599094" type="tpee.BlockStatement" typeId="tpee.1082485599095" id="3827903497677368536" nodeInfo="nn">
+            <node role="statements" roleId="tpee.1082485599096" type="tpee.StatementList" typeId="tpee.1068580123136" id="3827903497677368537" nodeInfo="sn">
+              <node role="statement" roleId="tpee.1068581517665" type="whle.LogStatement" typeId="whle.6793035292239247242" id="3827903497677369288" nodeInfo="ng">
+                <link role="node" roleId="whle.6793035292239265366" targetNodeId="3827903497663620462" resolveInfo="onFileSetRegistered" />
+                <node role="message" roleId="whle.1925991773565590769" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3827903497677369289" nodeInfo="nn">
+                  <property name="value" nameId="tpee.1070475926801" value="Folder successfully committed." />
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
       </node>
       <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="3827903497663620471" nodeInfo="ir">

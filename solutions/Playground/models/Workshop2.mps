@@ -2,7 +2,7 @@
 <model modelUID="r:26852f03-ebe1-4202-b2c1-632535376897(Workshop2)">
   <persistence version="8" />
   <devkit namespace="db81b829-e557-4467-b78e-cc1d44965622(org.campagnelab.devkit.gobyweb.interactive)" />
-  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="63" implicit="yes" />
+  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="64" implicit="yes" />
   <import index="whle" modelUID="r:8e4fd1b7-1955-43a4-ace6-aaf9d13814f8(org.campagnelab.logger.structure)" version="1" implicit="yes" />
   <import index="dhle" modelUID="r:22d2d7af-29e7-4a54-9633-f2175440f8be(org.campagnelab.feedback.structure)" version="0" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
@@ -16,6 +16,8 @@
   <import index="dzk5" modelUID="r:2bfcc546-5c51-4762-9df2-c43920be4458(org.campagnelab.gobyweb.plugins.structure)" version="4" implicit="yes" />
   <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="30" implicit="yes" />
   <import index="zr4f" modelUID="r:2920e4c4-4b31-4f7c-ac90-f43b38fc4b8c(org.campagnelab.gobyweb.interactive.platforms.structure)" version="9" implicit="yes" />
+  <import index="2c0d" modelUID="r:2c38e443-0586-49e0-87de-1937d74417d9(org.campagnelab.gobyweb.interactive.organisms.structure)" version="-1" implicit="yes" />
+  <import index="bd2x" modelUID="r:aa9c91aa-8100-4e98-88e5-b9737f1d54b8(model.organisms)" version="-1" implicit="yes" />
   <root type="bs99.ExecutionEnvironment" typeId="bs99.2051553890368778876" id="570070230396197555" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="RemoteEnvironmentOnPetey02" />
     <link role="owner" roleId="bs99.5865189911929158304" targetNodeId="3882067466250375886" resolveInfo="NYoSh 02" />
@@ -11437,10 +11439,11 @@
       <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="3882067466248854967" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="AXNKJBI-pickrell-NA19222_argonne.compact-reads" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3882067466248856397" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755722" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
-        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755723" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="zr4f.PlatformAttribute" typeId="zr4f.2495307914661212838" id="7026862576601448882" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="READS_PLATFORM" />
@@ -11484,9 +11487,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="false" />
         <property name="name" nameId="tpck.1169194664001" value="COLOR_SPACE" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3423755852522012173" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755546" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755547" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="zr4f.PairedDirectionAttribute" typeId="zr4f.7026862576601086944" id="7026862576601448711" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_DIRECTIONS" />
@@ -11681,9 +11686,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="false" />
         <property name="name" nameId="tpck.1169194664001" value="COLOR_SPACE" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3882067466249245107" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755193" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755194" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3882067466249245108" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="XQATJKN" />
@@ -11886,9 +11893,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="false" />
         <property name="name" nameId="tpck.1169194664001" value="COLOR_SPACE" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3882067466249259322" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755639" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755640" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3882067466249259323" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="DBVBDIK" />
@@ -11992,9 +12001,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3423755852523983673" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755289" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755290" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3423755852523983674" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="STAR22_GOBY" />
@@ -12048,9 +12059,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3882067466249305271" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755319" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755320" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3882067466249305272" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="STAR22_GOBY" />
@@ -12089,9 +12102,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3882067466249305290" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674748667" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674748668" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3882067466249305291" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="STAR22_GOBY" />
@@ -12130,9 +12145,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3882067466249305309" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755526" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755527" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3882067466249305310" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="STAR22_GOBY" />
@@ -12171,9 +12188,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3882067466249305328" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755733" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755734" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3882067466249305329" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="STAR22_GOBY" />
@@ -12212,9 +12231,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3882067466249305347" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755629" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755630" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3882067466249305348" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="STAR22_GOBY" />
@@ -12253,9 +12274,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3882067466249305368" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755309" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755310" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3882067466249305369" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="STAR22_GOBY" />
@@ -12294,9 +12317,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3882067466249305387" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755183" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755184" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3882067466249305388" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="STAR22_GOBY" />
@@ -12364,9 +12389,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3882067466250393353" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755712" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755713" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3882067466250393354" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="STAR22_GOBY" />
@@ -12420,9 +12447,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3882067466250393375" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755805" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755806" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3882067466250393376" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="STAR22_GOBY" />
@@ -12461,9 +12490,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3882067466250393394" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755339" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755340" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3882067466250393395" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="STAR22_GOBY" />
@@ -12502,9 +12533,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3882067466250393413" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755753" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755754" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3882067466250393414" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="STAR22_GOBY" />
@@ -12543,9 +12576,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3882067466250393432" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755381" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755382" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3882067466250393433" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="STAR22_GOBY" />
@@ -12584,9 +12619,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3882067466250393451" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755568" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755569" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3882067466250393452" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="STAR22_GOBY" />
@@ -12625,9 +12662,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3882067466250393472" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755785" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755786" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3882067466250393473" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="STAR22_GOBY" />
@@ -12666,9 +12705,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3882067466250393491" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755578" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755579" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3882067466250393492" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="STAR22_GOBY" />
@@ -12764,9 +12805,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8105799869330407031" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755598" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755599" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8105799869330407032" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="STAR22_GOBY" />
@@ -12805,9 +12848,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3882067466250407630" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755536" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755537" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3882067466250407631" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="STAR22_GOBY" />
@@ -12846,9 +12891,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3882067466250407649" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755143" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755144" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3882067466250407650" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="STAR22_GOBY" />
@@ -12887,9 +12934,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3882067466250407668" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755588" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755589" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3882067466250407669" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="STAR22_GOBY" />
@@ -12928,9 +12977,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3882067466250407687" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755360" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755361" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3882067466250407688" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="STAR22_GOBY" />
@@ -12969,9 +13020,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3882067466250407708" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755432" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755433" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3882067466250407709" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="STAR22_GOBY" />
@@ -13010,9 +13063,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3423755852523983553" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755462" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755463" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="3423755852523983554" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="STAR22_GOBY" />
@@ -13079,10 +13134,11 @@
       <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="8105799869329303228" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="AXNKJBI-pickrell-NA19222_argonne.compact-reads" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8105799869329303362" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755266" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
-        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755267" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="zr4f.PlatformAttribute" typeId="zr4f.2495307914661212838" id="7026862576601449030" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="READS_PLATFORM" />
@@ -13122,10 +13178,11 @@
       <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="8105799869329303171" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="AHSSOOT-pickrell-NA19203_argonne.compact-reads" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8105799869329303353" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755370" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
-        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755371" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="zr4f.PlatformAttribute" typeId="zr4f.2495307914661212838" id="7026862576601449020" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="READS_PLATFORM" />
@@ -13165,10 +13222,11 @@
       <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="8105799869331076788" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="AXNKJBI-pickrell-NA19222_argonne.compact-reads" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8105799869331076843" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755495" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
-        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755496" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="zr4f.PlatformAttribute" typeId="zr4f.2495307914661212838" id="7026862576601448702" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="READS_PLATFORM" />
@@ -13208,10 +13266,11 @@
       <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="8105799869331076770" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="AHSSOOT-pickrell-NA19203_argonne.compact-reads" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8105799869331076834" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755484" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
-        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755485" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="zr4f.PlatformAttribute" typeId="zr4f.2495307914661212838" id="7026862576601449080" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="READS_PLATFORM" />
@@ -13252,9 +13311,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="false" />
         <property name="name" nameId="tpck.1169194664001" value="COLOR_SPACE" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8105799869332027780" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755472" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755473" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="zr4f.PairedDirectionAttribute" typeId="zr4f.7026862576601086944" id="7026862576601449110" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_DIRECTIONS" />
@@ -13321,9 +13382,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="false" />
         <property name="name" nameId="tpck.1169194664001" value="COLOR_SPACE" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8105799869332484261" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755277" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755278" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="zr4f.PairedDirectionAttribute" typeId="zr4f.7026862576601086944" id="7026862576601448960" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_DIRECTIONS" />
@@ -13388,10 +13451,11 @@
       <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="8560093378716547051" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="XUCJMBO-pickrell-NA19210_yale.compact-reads" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716547216" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755608" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
-        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755609" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="zr4f.PlatformAttribute" typeId="zr4f.2495307914661212838" id="7026862576601449070" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="READS_PLATFORM" />
@@ -13431,10 +13495,11 @@
       <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="8560093378716547063" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="XVVMOSH-pickrell-NA19257_argonne.compact-reads" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716547225" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755701" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
-        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755702" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="zr4f.PlatformAttribute" typeId="zr4f.2495307914661212838" id="7026862576601449039" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="READS_PLATFORM" />
@@ -13474,10 +13539,11 @@
       <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="8560093378716547039" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ZBQVITF-pickrell-NA19203_yale.compact-reads" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716547207" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755763" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
-        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755764" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="zr4f.PlatformAttribute" typeId="zr4f.2495307914661212838" id="7026862576601448864" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="READS_PLATFORM" />
@@ -13517,10 +13583,11 @@
       <node role="filenames" roleId="bs99.5260963271977196872" type="bs99.Filename" typeId="bs99.5260963271977196783" id="8560093378716547021" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ZXLHITM-pickrell-NA19239_argonne.compact-reads" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716547198" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755349" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
-        <property name="mandatory" nameId="bs99.4010805091585538096" value="true" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755350" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="zr4f.PlatformAttribute" typeId="zr4f.2495307914661212838" id="7026862576601448845" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="READS_PLATFORM" />
@@ -13660,9 +13727,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="false" />
         <property name="name" nameId="tpck.1169194664001" value="COLOR_SPACE" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716561439" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755214" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755215" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716561440" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="DIKQOGP" />
@@ -13865,9 +13934,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="false" />
         <property name="name" nameId="tpck.1169194664001" value="COLOR_SPACE" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716573716" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755245" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755246" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716573717" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="TOGNQFH" />
@@ -14062,9 +14133,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="false" />
         <property name="name" nameId="tpck.1169194664001" value="COLOR_SPACE" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716595749" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674748677" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674748678" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716595750" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="GGQLNSJ" />
@@ -14168,9 +14241,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716607172" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755516" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755517" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716607173" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="STAR22_GOBY" />
@@ -14224,9 +14299,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716610400" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755680" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755681" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716610401" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="STAR22_GOBY" />
@@ -14265,9 +14342,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716610419" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755506" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755507" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716610420" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="STAR22_GOBY" />
@@ -14306,9 +14385,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716617376" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755163" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755164" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716617377" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="STAR22_GOBY" />
@@ -14347,9 +14428,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716617395" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755619" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755620" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716617396" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="STAR22_GOBY" />
@@ -14388,9 +14471,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716617414" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755391" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755392" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716617415" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="STAR22_GOBY" />
@@ -14429,9 +14514,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716617435" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755299" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755300" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716617436" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="STAR22_GOBY" />
@@ -14470,9 +14557,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716617454" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755442" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755443" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716617455" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="STAR22_GOBY" />
@@ -14540,9 +14629,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716627060" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755153" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755154" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716627061" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="STAR22_GOBY" />
@@ -14596,9 +14687,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716627082" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755795" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755796" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716627083" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="STAR22_GOBY" />
@@ -14637,9 +14730,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716627101" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755235" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755236" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716627102" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="STAR22_GOBY" />
@@ -14678,9 +14773,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716627120" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755660" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755661" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716627121" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="STAR22_GOBY" />
@@ -14719,9 +14816,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716627139" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755558" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755559" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716627140" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="STAR22_GOBY" />
@@ -14760,9 +14859,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716627158" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674751033" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674751036" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716627159" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="STAR22_GOBY" />
@@ -14801,9 +14902,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716627179" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755422" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755423" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716627180" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="STAR22_GOBY" />
@@ -14842,9 +14945,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716627198" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755452" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755453" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716627199" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="STAR22_GOBY" />
@@ -14916,9 +15021,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716662087" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755690" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755691" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716662088" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="DIFF_EXP_EDGE_R_ARTIFACT" />
@@ -14961,9 +15068,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716662106" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755173" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755174" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716662107" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="DIFF_EXP_EDGE_R_ARTIFACT" />
@@ -15002,9 +15111,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716662126" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755670" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755671" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378716662127" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="DIFF_EXP_EDGE_R_ARTIFACT" />
@@ -15072,9 +15183,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719194749" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755774" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755775" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719194750" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="DIFF_EXP_EDGE_R_ARTIFACT" />
@@ -15117,9 +15230,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719194768" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755743" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755744" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719194769" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="DIFF_EXP_EDGE_R_ARTIFACT" />
@@ -15158,9 +15273,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="1000GENOMES.37" />
         <property name="name" nameId="tpck.1169194664001" value="GENOME_REFERENCE_ID" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719194788" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755329" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755330" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="8560093378719194789" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="DIFF_EXP_EDGE_R_ARTIFACT" />
@@ -15692,9 +15809,11 @@
         <property name="value" nameId="bs99.1405392831553684183" value="false" />
         <property name="name" nameId="tpck.1169194664001" value="COLOR_SPACE" />
       </node>
-      <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="4208600873478149851" nodeInfo="ng">
-        <property name="value" nameId="bs99.1405392831553684183" value="homo_sapiens" />
+      <node role="attributes" roleId="bs99.8258261499122493878" type="2c0d.OrganismAttribute" typeId="2c0d.7026862576601481551" id="3827903497674755401" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
+        <node role="value" roleId="2c0d.7026862576601511204" type="2c0d.OrganismValue" typeId="2c0d.7026862576601488640" id="3827903497674755402" nodeInfo="ng">
+          <link role="organism" roleId="2c0d.7026862576601514724" targetNodeId="bd2x.2532384616186984776" resolveInfo="human" />
+        </node>
       </node>
       <node role="attributes" roleId="bs99.8258261499122493878" type="bs99.StringAttribute" typeId="bs99.1405392831553684079" id="4208600873478149852" nodeInfo="ng">
         <property name="value" nameId="bs99.1405392831553684183" value="QZJOUOE" />
