@@ -36,7 +36,7 @@ public class Line_Behavior {
       SNode newPhrase = SConceptOperations.createNewNode("org.campagnelab.textoutput.structure.Phrase", null);
       SPropertyOperations.set(newPhrase, "text", SPropertyOperations.getString(thisNode, "text"));
       ListSequence.fromList(SLinkOperations.getTargets(thisNode, "phrases", true)).insertElement(0, newPhrase);
-      SPropertyOperations.set(thisNode, "text", "!");
+      SPropertyOperations.set(thisNode, "text", "");
     }
   }
 

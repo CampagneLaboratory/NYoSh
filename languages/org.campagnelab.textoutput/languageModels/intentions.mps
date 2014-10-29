@@ -206,6 +206,15 @@
             </node>
           </node>
         </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="4239459373916336950" nodeInfo="nn">
+          <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="4239459373916336953" nodeInfo="nr">
+            <property name="name" nameId="tpck.1169194664001" value="myIndex" />
+            <node role="type" roleId="tpee.5680397130376446158" type="tpee.IntegerType" typeId="tpee.1070534370425" id="4239459373916336948" nodeInfo="in" />
+            <node role="initializer" roleId="tpee.1068431790190" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="4239459373916337380" nodeInfo="nn">
+              <property name="value" nameId="tpee.1068580320021" value="0" />
+            </node>
+          </node>
+        </node>
         <node role="statement" roleId="tpee.1068581517665" type="tp2q.ForEachStatement" typeId="tp2q.1153943597977" id="1680136183140535167" nodeInfo="nn">
           <node role="variable" roleId="tp2q.1153944400369" type="tp2q.ForEachVariable" typeId="tp2q.1153944193378" id="1680136183140535169" nodeInfo="nr">
             <property name="name" nameId="tpck.1169194664001" value="phrase" />
@@ -253,9 +262,14 @@
                     <link role="link" roleId="tp25.1138056546658" targetNodeId="p6sl.1680136183140337477" />
                   </node>
                 </node>
-                <node role="operation" roleId="tpee.1197027833540" type="tp2q.AddElementOperation" typeId="tp2q.1160612413312" id="1680136183140671440" nodeInfo="nn">
-                  <node role="argument" roleId="tp2q.1160612519549" type="tpee.VariableReference" typeId="tpee.1068498886296" id="1680136183140671886" nodeInfo="nn">
+                <node role="operation" roleId="tpee.1197027833540" type="tp2q.InsertElementOperation" typeId="tp2q.1225621920911" id="4239459373916314455" nodeInfo="nn">
+                  <node role="element" roleId="tp2q.1225621943565" type="tpee.VariableReference" typeId="tpee.1068498886296" id="4239459373916315093" nodeInfo="nn">
                     <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1680136183140609153" resolveInfo="newPhrase" />
+                  </node>
+                  <node role="index" roleId="tp2q.1225621960341" type="tpee.PostfixIncrementExpression" typeId="tpee.1214918800624" id="4239459373916338739" nodeInfo="nn">
+                    <node role="expression" roleId="tpee.1239714902950" type="tpee.VariableReference" typeId="tpee.1068498886296" id="4239459373916338741" nodeInfo="nn">
+                      <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="4239459373916336953" resolveInfo="myIndex" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -599,18 +613,11 @@
                   </node>
                 </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tp2q.InsertElementOperation" typeId="tp2q.1225621920911" id="2806205325593127202" nodeInfo="nn">
-                  <node role="index" roleId="tp2q.1225621960341" type="tpee.MinusExpression" typeId="tpee.1068581242869" id="2806205325594021840" nodeInfo="nn">
-                    <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="2806205325594021845" nodeInfo="nn">
-                      <property name="value" nameId="tpee.1068580320021" value="1" />
-                    </node>
-                    <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PostfixIncrementExpression" typeId="tpee.1214918800624" id="2806205325593133041" nodeInfo="nn">
-                      <node role="expression" roleId="tpee.1239714902950" type="tpee.VariableReference" typeId="tpee.1068498886296" id="2806205325593133043" nodeInfo="nn">
-                        <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2806205325593090808" resolveInfo="myIndex" />
-                      </node>
-                    </node>
-                  </node>
                   <node role="element" roleId="tp2q.1225621943565" type="tpee.VariableReference" typeId="tpee.1068498886296" id="2806205325593134100" nodeInfo="nn">
                     <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2806205325593060053" resolveInfo="newPhrase" />
+                  </node>
+                  <node role="index" roleId="tp2q.1225621960341" type="tpee.VariableReference" typeId="tpee.1068498886296" id="4239459373916291168" nodeInfo="nn">
+                    <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2806205325593090808" resolveInfo="myIndex" />
                   </node>
                 </node>
               </node>
@@ -638,6 +645,13 @@
                   <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2806205325593875620" nodeInfo="nn">
                     <property name="value" nameId="tpee.1070475926801" value=" at index=" />
                   </node>
+                </node>
+              </node>
+            </node>
+            <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="4239459373916289544" nodeInfo="nn">
+              <node role="expression" roleId="tpee.1068580123156" type="tpee.PostfixIncrementExpression" typeId="tpee.1214918800624" id="4239459373916290607" nodeInfo="nn">
+                <node role="expression" roleId="tpee.1239714902950" type="tpee.VariableReference" typeId="tpee.1068498886296" id="4239459373916290609" nodeInfo="nn">
+                  <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2806205325593090808" resolveInfo="myIndex" />
                 </node>
               </node>
             </node>

@@ -83,11 +83,12 @@ public class SplitLine_Intention implements IntentionFactory {
 
     public void execute(final SNode node, final EditorContext editorContext) {
       String[] phrases = SPropertyOperations.getString(node, "text").split("\\%");
+      int myIndex = 0;
       for (String phrase : phrases) {
 
         SNode newPhrase = SConceptOperations.createNewNode("org.campagnelab.textoutput.structure.Phrase", null);
         SPropertyOperations.set(newPhrase, "text", phrase);
-        ListSequence.fromList(SLinkOperations.getTargets(node, "phrases", true)).addElement(newPhrase);
+        ListSequence.fromList(SLinkOperations.getTargets(node, "phrases", true)).insertElement(myIndex++, newPhrase);
       }
       SPropertyOperations.set(node, "text", "");
     }
