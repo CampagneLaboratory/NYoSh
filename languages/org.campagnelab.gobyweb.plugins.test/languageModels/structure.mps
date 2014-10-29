@@ -62,5 +62,11 @@
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="bbh2.6587162469552023660" resolveInfo="FileSetInstanceListener" />
     </node>
   </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3827903497679865605" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="PluginTestCase" />
+    <property name="rootable" nameId="tpce.1096454100552" value="true" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="a test case for a plugin" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="bs99.2465489689642685978" resolveInfo="ExecutionTool" />
+  </root>
 </model>
 
