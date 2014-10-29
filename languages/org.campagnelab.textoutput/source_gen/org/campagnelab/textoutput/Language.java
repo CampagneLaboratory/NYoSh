@@ -5,6 +5,7 @@ package org.campagnelab.textoutput;
 import jetbrains.mps.smodel.language.LanguageRuntime;
 import org.campagnelab.textoutput.editor.EditorAspectDescriptorImpl;
 import jetbrains.mps.lang.typesystem.runtime.IHelginsDescriptor;
+import org.campagnelab.textoutput.typesystem.TypesystemDescriptor;
 import jetbrains.mps.ide.findusages.BaseFindUsagesDescriptor;
 import java.util.Collection;
 import jetbrains.mps.generator.runtime.TemplateModule;
@@ -33,7 +34,7 @@ public class Language extends LanguageRuntime {
 
   @Override
   public IHelginsDescriptor getTypesystem() {
-    return null;
+    return new TypesystemDescriptor();
   }
 
   @Override

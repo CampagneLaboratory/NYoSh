@@ -92,6 +92,9 @@
       </node>
       <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="2806205325593823206" nodeInfo="ng">
         <property name="text" nameId="p6sl.5493669862519718600" value="sd" />
+        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="4239459373916232393" nodeInfo="ng">
+          <property name="text" nameId="p6sl.1680136183140337487" value="" />
+        </node>
         <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="2806205325593823283" nodeInfo="ng">
           <property name="text" nameId="p6sl.1680136183140337487" value="" />
         </node>
@@ -99,6 +102,87 @@
           <property name="text" nameId="p6sl.1680136183140337487" value="" />
         </node>
         <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="2806205325593823207" nodeInfo="ng">
+          <property name="text" nameId="p6sl.1680136183140337487" value="" />
+        </node>
+      </node>
+      <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Lines" typeId="p6sl.5039633819242576787" id="4239459373916257134" nodeInfo="ng">
+        <property name="text" nameId="p6sl.5493669862519718600" value="" />
+        <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="4239459373916257135" nodeInfo="ng">
+          <property name="text" nameId="p6sl.5493669862519718600" value="" />
+        </node>
+        <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="4239459373916257136" nodeInfo="ng">
+          <property name="text" nameId="p6sl.5493669862519718600" value="run in EDT failure" />
+        </node>
+        <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="4239459373916257137" nodeInfo="ng">
+          <property name="text" nameId="p6sl.5493669862519718600" value="java.lang.NullPointerException" />
+        </node>
+        <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="4239459373916257138" nodeInfo="ng">
+          <property name="text" nameId="p6sl.5493669862519718600" value="     at org.campagnelab.textoutput.intentions.ParseNewLines_Intention$IntentionImplementation.execute(Unknown Source)" />
+        </node>
+        <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="4239459373916257139" nodeInfo="ng">
+          <property name="text" nameId="p6sl.5493669862519718600" value="     at jetbrains.mps.nodeEditor.IntentionsSupport$7.run(IntentionsSupport.java:282)" />
+        </node>
+        <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="4239459373916257140" nodeInfo="ng">
+          <property name="text" nameId="p6sl.5493669862519718600" value="     at jetbrains.mps.ide.smodel.WorkbenchModelAccess$CommandRunnable$1.run(WorkbenchModelAccess.java:855)" />
+        </node>
+        <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="4239459373916257141" nodeInfo="ng">
+          <property name="text" nameId="p6sl.5493669862519718600" value="     at jetbrains.mps.ide.smodel.WorkbenchModelAccess.runWriteAction(WorkbenchModelAccess.java:150)" />
+        </node>
+        <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="4239459373916257142" nodeInfo="ng">
+          <property name="text" nameId="p6sl.5493669862519718600" value="     at jetbrains.mps.ide.smodel.WorkbenchModelAccess$CommandRunnable.run(WorkbenchModelAccess.java:850)" />
+        </node>
+        <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="4239459373916257143" nodeInfo="ng">
+          <property name="text" nameId="p6sl.5493669862519718600" value="     at jetbrains.mps.ide.smodel.WorkbenchModelAccess$12.run(WorkbenchModelAccess.java:553)" />
+        </node>
+      </node>
+      <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Lines" typeId="p6sl.5039633819242576787" id="4239459373916257450" nodeInfo="ng">
+        <property name="text" nameId="p6sl.5493669862519718600" value="" />
+        <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="4239459373916257451" nodeInfo="ng">
+          <property name="text" nameId="p6sl.5493669862519718600" value="" />
+        </node>
+        <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="4239459373916257452" nodeInfo="ng">
+          <property name="text" nameId="p6sl.5493669862519718600" value="a" />
+        </node>
+      </node>
+      <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Lines" typeId="p6sl.5039633819242576787" id="4239459373916257613" nodeInfo="ng">
+        <property name="text" nameId="p6sl.5493669862519718600" value="" />
+        <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="4239459373916257614" nodeInfo="ng">
+          <property name="text" nameId="p6sl.5493669862519718600" value="" />
+        </node>
+        <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="4239459373916257615" nodeInfo="ng">
+          <property name="text" nameId="p6sl.5493669862519718600" value="b" />
+        </node>
+        <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="4239459373916257616" nodeInfo="ng">
+          <property name="text" nameId="p6sl.5493669862519718600" value="v" />
+        </node>
+      </node>
+      <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="4239459373916232465" nodeInfo="ng">
+        <property name="text" nameId="p6sl.5493669862519718600" value="" />
+        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="4239459373916232594" nodeInfo="ng">
+          <property name="text" nameId="p6sl.1680136183140337487" value="" />
+        </node>
+        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="4239459373916232466" nodeInfo="ng">
+          <property name="text" nameId="p6sl.1680136183140337487" value="" />
+        </node>
+      </node>
+      <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="4239459373916232600" nodeInfo="ng">
+        <property name="text" nameId="p6sl.5493669862519718600" value="" />
+        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="4239459373916232727" nodeInfo="ng">
+          <property name="text" nameId="p6sl.1680136183140337487" value="" />
+        </node>
+        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="4239459373916232601" nodeInfo="ng">
+          <property name="text" nameId="p6sl.1680136183140337487" value="" />
+        </node>
+      </node>
+      <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Lines" typeId="p6sl.5039633819242576787" id="4239459373916257294" nodeInfo="ng">
+        <property name="text" nameId="p6sl.5493669862519718600" value="" />
+        <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="4239459373916257295" nodeInfo="ng">
+          <property name="text" nameId="p6sl.5493669862519718600" value="" />
+        </node>
+      </node>
+      <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="4239459373916232733" nodeInfo="ng">
+        <property name="text" nameId="p6sl.5493669862519718600" value="" />
+        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="4239459373916232734" nodeInfo="ng">
           <property name="text" nameId="p6sl.1680136183140337487" value="" />
         </node>
       </node>

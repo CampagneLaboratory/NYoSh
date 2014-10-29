@@ -7,10 +7,28 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
+import jetbrains.mps.smodel.behaviour.BehaviorManager;
 
 public class Line_Behavior {
   public static void init(SNode thisNode) {
     SPropertyOperations.set(thisNode, "text", "");
+  }
+
+  public static void virtual_deconvoluteLines_4239459373915862301(SNode thisNode) {
+    String text = SPropertyOperations.getString(thisNode, "text");
+    if (text.contains("\\n")) {
+      String[] subLines = text.split("\\\\n");
+      SNode lines = SConceptOperations.createNewNode("org.campagnelab.textoutput.structure.Lines", null);
+      for (String subline : subLines) {
+        SNode newLine = SConceptOperations.createNewNode("org.campagnelab.textoutput.structure.Line", null);
+        SPropertyOperations.set(newLine, "text", subline);
+        ListSequence.fromList(SLinkOperations.getTargets(lines, "lines", true)).addElement(newLine);
+      }
+      SPropertyOperations.set(thisNode, "text", "");
+      SNodeOperations.insertPrevSiblingChild(thisNode, lines);
+    }
   }
 
   public static void call_normalize_2806205325594058140(SNode thisNode) {
@@ -20,6 +38,16 @@ public class Line_Behavior {
       ListSequence.fromList(SLinkOperations.getTargets(thisNode, "phrases", true)).insertElement(0, newPhrase);
       SPropertyOperations.set(thisNode, "text", "!");
     }
+  }
+
+  @Deprecated
+  public static void call_deconvoluteLines_4239459373915862301(SNode thisNode) {
+    BehaviorReflection.invokeVirtual(Void.class, thisNode, "virtual_deconvoluteLines_4239459373915862301", new Object[]{});
+  }
+
+  @Deprecated
+  public static void callSuper_deconvoluteLines_4239459373915862301(SNode thisNode, String callerConceptFqName) {
+    BehaviorManager.getInstance().invokeSuper(Void.class, SNodeOperations.cast(thisNode, "org.campagnelab.textoutput.structure.Line"), callerConceptFqName, "virtual_deconvoluteLines_4239459373915862301", new Class[]{SNode.class}, new Object[]{});
   }
 
   private static boolean isNotEmptyString(String str) {
