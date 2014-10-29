@@ -18,5 +18,23 @@
     </dependencies>
     <rename id="90kj.3827903497663560969" type="CONCEPT" from="ListenForAnyNewFSI" to="ListenAndSyncNewFSI" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="90kj" modelUID="r:397eee62-00ff-4904-afbb-029e2b9cd1db(org.campagnelab.gobyweb.plugins.test.structure)" version="2" />
+    </dependencies>
+    <rename id="90kj.1090105717921230261" type="CHILD" from="script" to="statementList" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="90kj" modelUID="r:397eee62-00ff-4904-afbb-029e2b9cd1db(org.campagnelab.gobyweb.plugins.test.structure)" version="3" />
+    </dependencies>
+    <rename id="90kj.1090105717921230261" type="CHILD" from="statementList" to="statementScript" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="90kj" modelUID="r:397eee62-00ff-4904-afbb-029e2b9cd1db(org.campagnelab.gobyweb.plugins.test.structure)" version="4" />
+    </dependencies>
+    <rename id="90kj.1090105717921230261" type="CHILD" from="statementScript" to="script" />
+  </StructureModification>
 </history>
 
