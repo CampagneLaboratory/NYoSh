@@ -36,7 +36,7 @@
       <node role="initialValue" roleId="3ior.2755237150521975432" type="3ior.BuildVariableMacroInitWithString" typeId="3ior.2755237150521975431" id="2714333670778932426" nodeInfo="ng">
         <node role="value" roleId="3ior.2755237150521975437" type="3ior.BuildString" typeId="3ior.4380385936562003279" id="2714333670778932425" nodeInfo="ng">
           <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="4833885827903198823" nodeInfo="ng">
-            <property name="text" nameId="3ior.4903714810883755350" value="1.0.3" />
+            <property name="text" nameId="3ior.4903714810883755350" value="1.1.0" />
           </node>
         </node>
       </node>
