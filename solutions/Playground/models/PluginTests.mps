@@ -4,6 +4,7 @@
   <language namespace="489e31af-0445-4cbf-894b-a4bab1f18426(org.campagnelab.gobyweb.plugins.test)" />
   <language namespace="a21a7294-c126-4f63-8335-8fecd8c28c7e(org.campagnelab.NYoSh)" />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
+  <language namespace="760a0a8c-eabb-4521-8bfd-65db761a9ba3(jetbrains.mps.baseLanguage.logging)" />
   <devkit namespace="db81b829-e557-4467-b78e-cc1d44965622(org.campagnelab.devkit.gobyweb.interactive)" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="czzw" modelUID="r:2151664b-13bc-4072-a76b-815bb37c415e(org.campagnelab.gobyweb.interactive.users.structure)" version="0" implicit="yes" />
@@ -21,6 +22,7 @@
   <import index="whle" modelUID="r:8e4fd1b7-1955-43a4-ace6-aaf9d13814f8(org.campagnelab.logger.structure)" version="1" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
   <import index="jlq1" modelUID="r:0f28fa4d-9625-4db3-91b7-0ff856663fbf(org.campagnelab.gobyweb.interactive.mergeplan.structure)" version="-1" implicit="yes" />
+  <import index="tpib" modelUID="r:00000000-0000-4000-0000-011c8959057f(jetbrains.mps.baseLanguage.logging.structure)" version="0" implicit="yes" />
   <root type="czzw.NYoShUsers" typeId="czzw.5865189911928298169" id="3827903497649130398" nodeInfo="ng">
     <node role="users" roleId="czzw.5865189911928367305" type="bs99.NYoShUser" typeId="bs99.5865189911929158310" id="3827903497649130401" nodeInfo="ng">
       <property name="id" nameId="czzw.5865189911928341274" value="gobyweb" />
@@ -97,6 +99,14 @@
     <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="8515523077722758979" nodeInfo="ng">
       <property name="size" nameId="bs99.2740821845424982900" value="0" />
       <property name="tag" nameId="bs99.2051553890368778934" value="TITEWHH" />
+      <property name="name" nameId="tpck.1169194664001" value="merge-plan" />
+      <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
+      <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="8515523077722751148" />
+      <link role="filesetType" roleId="bs99.2465489689644952272" targetNodeId="8515523077722747730" resolveInfo="GOBYWEB_MERGE_PLAN_FILE" />
+    </node>
+    <node role="instances" roleId="bs99.6642819616982286865" type="bs99.FileSetInstance" typeId="bs99.2051553890368778931" id="8515523077731815556" nodeInfo="ng">
+      <property name="size" nameId="bs99.2740821845424982900" value="0" />
+      <property name="tag" nameId="bs99.2051553890368778934" value="VLLGDWD" />
       <property name="name" nameId="tpck.1169194664001" value="merge-plan" />
       <property name="isRegistered" nameId="bs99.5260963271977142244" value="true" />
       <link role="filesetArea" roleId="bs99.2051553890368778936" targetNodeId="8515523077722751148" />
@@ -635,6 +645,42 @@
     </node>
     <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8515523077722758985" nodeInfo="ng">
       <property name="message" nameId="whle.1925991773568778812" value="Obtained assignedTags=TITEWHH" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.register" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8515523077728330988" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="git version 1.7.9.6 (Apple Git-31.1)" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.plugins.test.behavior.gitExec" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8515523077728330989" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="a92a8620c22b5d158fcccac8b75638900464b7e5&#9;HEAD" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.plugins.test.behavior.gitExec" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8515523077728330990" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="a92a8620c22b5d158fcccac8b75638900464b7e5&#9;refs/heads/master" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.plugins.test.behavior.gitExec" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8515523077728335401" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value FAKETAG" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8515523077731815560" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Found 1 distinctFileSetTypeIds" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.register" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8515523077731815562" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="onFileSetRegistered for ListenAndSyncNewFSI" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.plugins.test.behavior.onFileSetRegistered" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8515523077731815563" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="About to commit folder: /Users/mas2182/Lab/Projects/Git/TestFSA/gobyweb/V/VLLGDWD" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.plugins.test.behavior.onFileSetRegistered" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8515523077731815564" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Folder successfully committed." />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.plugins.test.behavior.onFileSetRegistered" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="8515523077731815565" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Obtained assignedTags=VLLGDWD" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.register" />
     </node>
   </root>
@@ -6306,6 +6352,55 @@
         <property name="status" nameId="bs99.4344503499503568233" value="connected" />
         <property name="connected" nameId="bs99.1498629744692194973" value="true" />
         <link role="fileSetArea" roleId="bs99.664989078345325375" targetNodeId="8515523077722751148" />
+      </node>
+    </node>
+  </root>
+  <root type="90kj.PluginTestCase" typeId="90kj.3827903497679865605" id="8515523077728330981" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="READS2-TestCase" />
+    <node role="configuration" roleId="90kj.3827903497682006055" type="90kj.TestJobConfiguration" typeId="90kj.3827903497681813715" id="8515523077728330982" nodeInfo="ng">
+      <property name="executionCompleted" nameId="bs99.4965834343965555115" value="false" />
+      <property name="name" nameId="tpck.1169194664001" value="ExecutionTool" />
+      <property name="jobName" nameId="bs99.606449909789338951" value="SecondCase" />
+      <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="8515523077722744524" resolveInfo="PluginTestExecutionEnvironment" />
+      <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="8515523077722747908" resolveInfo="PROCESS_READS_TASK" />
+      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="90kj.ListenAndSyncNewFSI" typeId="90kj.3827903497663560969" id="8515523077728330985" nodeInfo="ng">
+        <property name="rank" nameId="bbh2.6587162469552164420" value="99" />
+        <link role="testEnvironment" roleId="90kj.3827903497666661570" targetNodeId="8515523077722744524" resolveInfo="PluginTestExecutionEnvironment" />
+      </node>
+      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ListenForSampleFileSets" typeId="7aad.7926097513313207836" id="8515523077728330983" nodeInfo="ng">
+        <property name="rank" nameId="bbh2.6587162469552164420" value="100" />
+      </node>
+      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ListenForAlignmentFileSets" typeId="7aad.6587162469555572132" id="8515523077728330984" nodeInfo="ng">
+        <property name="rank" nameId="bbh2.6587162469552164420" value="200" />
+      </node>
+      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ListenForAlignmentAnalysisFileSets" typeId="7aad.8524130661366375999" id="8515523077728330987" nodeInfo="ng">
+        <property name="rank" nameId="bbh2.6587162469552164420" value="300" />
+      </node>
+      <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="8515523077728335394" nodeInfo="ng">
+        <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="8515523077722747915" resolveInfo="UPLOADS_FILES" />
+        <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="8515523077731815548" nodeInfo="ng">
+          <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="8515523077722758513" resolveInfo="CFS005-466-D1PRE_S11_L001_R1_001" />
+        </node>
+      </node>
+      <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="8515523077728335395" nodeInfo="ng">
+        <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="8515523077722747917" resolveInfo="UPLOAD_MERGE_PLAN" />
+        <node role="values" roleId="bs99.2995632242847956813" type="jlq1.MergePlanEditor" typeId="jlq1.8273662917775851475" id="8515523077731815550" nodeInfo="ng">
+          <link role="registeredMergePlanFSInstance" roleId="jlq1.8273662917776369954" targetNodeId="8515523077731815556" resolveInfo="merge-plan" />
+        </node>
+      </node>
+      <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="8515523077728335396" nodeInfo="ng">
+        <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="8515523077722747932" resolveInfo="Tag for the new sample." />
+        <node role="value" roleId="bs99.6506431596944968310" type="bs99.StringOptionValue" typeId="bs99.606449909792929476" id="8515523077728335400" nodeInfo="ng">
+          <property name="value" nameId="bs99.606449909792929477" value="FAKETAG" />
+        </node>
+      </node>
+    </node>
+    <node role="script" roleId="90kj.1090105717921230261" type="90kj.TestScript" typeId="90kj.3827903497682417639" id="8515523077728330991" nodeInfo="ng">
+      <node role="statements" roleId="90kj.3827903497682417649" type="tpee.StatementList" typeId="tpee.1068580123136" id="8515523077728330992" nodeInfo="sn">
+        <node role="statement" roleId="tpee.1068581517665" type="tpib.LogStatement" typeId="tpib.1167227138527" id="8515523077731815526" nodeInfo="nn">
+          <property name="severity" nameId="tpib.1167245565795" value="warn" />
+          <node role="logExpression" roleId="tpib.1167227463056" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="8515523077731815528" nodeInfo="nn" />
+        </node>
       </node>
     </node>
   </root>
