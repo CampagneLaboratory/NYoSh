@@ -116,10 +116,6 @@
     <property name="name" nameId="tpck.1169194664001" value="DualPluginTestRepository" />
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="extends the dual repository with an additional path used as job parameter" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="bs99.6985991452101319714" resolveInfo="DualPluginRepository" />
-    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="6985991452101336330" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="submissionPath" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
-    </node>
   </root>
 </model>
 

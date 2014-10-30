@@ -733,7 +733,6 @@
     <node role="pluginRepository" roleId="bs99.1997533223701807309" type="90kj.DualPluginTestRepository" typeId="90kj.3827903497686042770" id="8515523077722746564" nodeInfo="ng">
       <property name="numPluginsLoaded" nameId="bs99.5704832314560344592" value="163" />
       <property name="directory" nameId="bs99.1997533223701200855" value="${org.campagnelab.gobyweb.pluginRepo}" />
-      <property name="submissionPath" nameId="90kj.6985991452101336330" value="/home/gridgain/gobyweb2-plugin" />
       <property name="loaded" nameId="bs99.5704832314560662319" value="true" />
       <property name="remotePath" nameId="bs99.6985991452101336330" value="/home/gridgain/gobyweb2-plugin" />
       <link role="remoteServer" roleId="bs99.7519594704404268446" targetNodeId="3827903497649579770" resolveInfo="Toulouse" />
