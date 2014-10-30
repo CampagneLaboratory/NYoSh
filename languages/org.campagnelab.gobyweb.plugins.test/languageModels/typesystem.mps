@@ -5,7 +5,7 @@
   <language namespace="0202ed86-955d-4227-9c20-377dd6b1f9ff(org.campagnelab.nyosh.lib)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   <import index="jlk6" modelUID="f:java_stub#0202ed86-955d-4227-9c20-377dd6b1f9ff#org.campagnelab.gobyweb.clustergateway.registration(org.campagnelab.nyosh.lib/org.campagnelab.gobyweb.clustergateway.registration@java_stub)" version="-1" />
-  <import index="90kj" modelUID="r:397eee62-00ff-4904-afbb-029e2b9cd1db(org.campagnelab.gobyweb.plugins.test.structure)" version="11" />
+  <import index="90kj" modelUID="r:397eee62-00ff-4904-afbb-029e2b9cd1db(org.campagnelab.gobyweb.plugins.test.structure)" version="13" />
   <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="64" />
   <import index="lcm8" modelUID="r:19e666fd-ce33-4549-bbc2-aa106ce25584(org.campagnelab.gobyweb.interactive.behavior)" version="0" />
   <import index="8fzi" modelUID="r:4ad6d336-0d77-4196-8f84-efe18a6925af(org.campagnelab.gobyweb.plugins.test.behavior)" version="-1" />
@@ -109,6 +109,7 @@
   </root>
   <root type="tpd4.TypesystemQuickFix" typeId="tpd4.1216383170661" id="3827903497649430700" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="ResetFSArea" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="config" />
     <node role="quickFixArgument" roleId="tpd4.1216383476350" type="tpd4.QuickFixArgument" typeId="tpd4.1216383482742" id="3827903497649431873" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="area" />
       <node role="argumentType" roleId="tpd4.1216383511839" type="tp25.SNodeType" typeId="tp25.1138055754698" id="3827903497649431881" nodeInfo="in">
@@ -228,6 +229,7 @@
   </root>
   <root type="tpd4.TypesystemQuickFix" typeId="tpd4.1216383170661" id="3827903497649722322" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="CreateDualRepo" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="config" />
     <node role="quickFixArgument" roleId="tpd4.1216383476350" type="tpd4.QuickFixArgument" typeId="tpd4.1216383482742" id="3827903497649722341" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="testEnv" />
       <node role="argumentType" roleId="tpd4.1216383511839" type="tp25.SNodeType" typeId="tp25.1138055754698" id="3827903497649722349" nodeInfo="in">
@@ -246,7 +248,7 @@
                 <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_GetModelOperation" typeId="tp25.1143234257716" id="3827903497649728751" nodeInfo="nn" />
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tp25.Model_CreateNewNodeOperation" typeId="tp25.1143235216708" id="3827903497649730348" nodeInfo="nn">
-                <link role="concept" roleId="tp25.1143235391024" targetNodeId="bs99.6985991452101319714" resolveInfo="DualPluginRepository" />
+                <link role="concept" roleId="tp25.1143235391024" targetNodeId="90kj.3827903497686042770" resolveInfo="DualPluginTestRepository" />
               </node>
             </node>
             <node role="lValue" roleId="tpee.1068498886295" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3827903497649722588" nodeInfo="nn">
@@ -264,6 +266,7 @@
   </root>
   <root type="tpd4.NonTypesystemRule" typeId="tpd4.1195214364922" id="3827903497652901692" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="TransformToDualFSA" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="config" />
     <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="3827903497652901693" nodeInfo="sn">
       <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="3827903497652902257" nodeInfo="nn">
         <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="3827903497652902258" nodeInfo="sn">
@@ -330,6 +333,7 @@
   </root>
   <root type="tpd4.TypesystemQuickFix" typeId="tpd4.1216383170661" id="3827903497652908556" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="CreateDualFSA" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="config" />
     <node role="quickFixArgument" roleId="tpd4.1216383476350" type="tpd4.QuickFixArgument" typeId="tpd4.1216383482742" id="3827903497652908832" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="testEnv" />
       <node role="argumentType" roleId="tpd4.1216383511839" type="tp25.SNodeType" typeId="tp25.1138055754698" id="3827903497652908833" nodeInfo="in">
