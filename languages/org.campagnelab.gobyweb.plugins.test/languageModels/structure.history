@@ -36,5 +36,41 @@
     </dependencies>
     <rename id="90kj.1090105717921230261" type="CHILD" from="statementScript" to="script" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="90kj" modelUID="r:397eee62-00ff-4904-afbb-029e2b9cd1db(org.campagnelab.gobyweb.plugins.test.structure)" version="5" />
+    </dependencies>
+    <rename id="90kj.3827903497681813715" type="CONCEPT" from="TestCase" to="TestCaseConfiguration" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="90kj" modelUID="r:397eee62-00ff-4904-afbb-029e2b9cd1db(org.campagnelab.gobyweb.plugins.test.structure)" version="6" />
+    </dependencies>
+    <rename id="90kj.3827903497681813715" type="CONCEPT" from="TestCaseConfiguration" to="JobSubmissionConfguration" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="90kj" modelUID="r:397eee62-00ff-4904-afbb-029e2b9cd1db(org.campagnelab.gobyweb.plugins.test.structure)" version="7" />
+    </dependencies>
+    <rename id="90kj.3827903497681813715" type="CONCEPT" from="JobSubmissionConfguration" to="TestSubmissionConfguration" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="90kj" modelUID="r:397eee62-00ff-4904-afbb-029e2b9cd1db(org.campagnelab.gobyweb.plugins.test.structure)" version="8" />
+    </dependencies>
+    <rename id="90kj.3827903497681813715" type="CONCEPT" from="TestSubmissionConfguration" to="TestSubmissionConfiguration" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="90kj" modelUID="r:397eee62-00ff-4904-afbb-029e2b9cd1db(org.campagnelab.gobyweb.plugins.test.structure)" version="9" />
+    </dependencies>
+    <rename id="90kj.3827903497682417649" type="CHILD" from="script" to="statements" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="90kj" modelUID="r:397eee62-00ff-4904-afbb-029e2b9cd1db(org.campagnelab.gobyweb.plugins.test.structure)" version="10" />
+    </dependencies>
+    <rename id="90kj.3827903497681813715" type="CONCEPT" from="TestSubmissionConfiguration" to="TestJobConfiguration" />
+  </StructureModification>
 </history>
 

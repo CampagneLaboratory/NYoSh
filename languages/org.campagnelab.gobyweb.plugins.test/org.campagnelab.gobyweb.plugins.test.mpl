@@ -7,17 +7,21 @@
   </models>
   <accessoryModels />
   <generators>
-    <generator generatorUID="org.campagnelab.gobyweb.plugins.test#3827903497649027977" uuid="19499a97-9cf5-4e08-9862-e5728789bd87">
+    <generator name="" generatorUID="org.campagnelab.gobyweb.plugins.test#3827903497649027977" uuid="19499a97-9cf5-4e08-9862-e5728789bd87">
       <models>
         <modelRoot contentPath="${module}" type="default">
           <sourceRoot location="generator/template" />
         </modelRoot>
       </models>
       <external-templates />
+      <dependencies>
+        <dependency reexport="false">901f5cf3-dc77-4c1e-bc5a-6382baee28b4(org.campagnelab.textoutput)</dependency>
+      </dependencies>
       <usedLanguages>
         <usedLanguage>b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)</usedLanguage>
         <usedLanguage>d7706f63-9be2-479c-a3da-ae92af1e64d5(jetbrains.mps.lang.generator.generationContext)</usedLanguage>
         <usedLanguage>489e31af-0445-4cbf-894b-a4bab1f18426(org.campagnelab.gobyweb.plugins.test)</usedLanguage>
+        <usedLanguage>901f5cf3-dc77-4c1e-bc5a-6382baee28b4(org.campagnelab.textoutput)</usedLanguage>
       </usedLanguages>
       <usedDevKits>
         <usedDevKit>fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)</usedDevKit>
