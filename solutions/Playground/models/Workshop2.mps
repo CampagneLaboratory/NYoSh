@@ -2,7 +2,7 @@
 <model modelUID="r:26852f03-ebe1-4202-b2c1-632535376897(Workshop2)">
   <persistence version="8" />
   <devkit namespace="db81b829-e557-4467-b78e-cc1d44965622(org.campagnelab.devkit.gobyweb.interactive)" />
-  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="64" implicit="yes" />
+  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="66" implicit="yes" />
   <import index="whle" modelUID="r:8e4fd1b7-1955-43a4-ace6-aaf9d13814f8(org.campagnelab.logger.structure)" version="1" implicit="yes" />
   <import index="dhle" modelUID="r:22d2d7af-29e7-4a54-9633-f2175440f8be(org.campagnelab.feedback.structure)" version="0" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
@@ -11425,7 +11425,7 @@
         <property name="value" nameId="bs99.606449909792929477" value="FAKETAG" />
       </node>
     </node>
-    <node role="listeners" roleId="bs99.7744544840734386662" type="7aad.ObjectCreationHelper" typeId="7aad.7744544840731999292" id="8560093378716564371" nodeInfo="ng" />
+    <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ObjectCreationHelper" typeId="7aad.7744544840731999292" id="8560093378716564371" nodeInfo="ng" />
   </root>
   <root type="bs99.FSIContainer" typeId="bs99.6642819616982286338" id="3882067466248857844" nodeInfo="ng">
     <link role="environment" roleId="bs99.6642819616982682504" targetNodeId="570070230396197555" resolveInfo="RemoteEnvironmentOnPetey02" />
@@ -26337,7 +26337,7 @@
         <property name="value" nameId="bs99.606449909792920797" value="true" />
       </node>
     </node>
-    <node role="listeners" roleId="bs99.7744544840734386662" type="7aad.ObjectCreationHelper" typeId="7aad.7744544840731999292" id="8560093378719171618" nodeInfo="ng" />
+    <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ObjectCreationHelper" typeId="7aad.7744544840731999292" id="8560093378719171618" nodeInfo="ng" />
   </root>
   <root type="7aad.GobyWebReadSample" typeId="7aad.7926097513313663840" id="8560093378716556336" nodeInfo="ng">
     <property name="tag" nameId="7aad.7926097513313697603" value="TFSMUCX" />

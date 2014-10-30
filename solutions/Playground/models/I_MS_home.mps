@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model modelUID="r:e4f63f04-2302-4dff-87b0-372d5648e028(I_MS_home)">
   <persistence version="8" />
+  <language namespace="f5ac4674-69d1-4bf4-bf2b-474c7d9de542(org.campagnelab.gobyweb.interactive.reads)" />
   <devkit namespace="db81b829-e557-4467-b78e-cc1d44965622(org.campagnelab.devkit.gobyweb.interactive)" />
   <import index="9k5" modelUID="r:df9645c2-d2fa-41cb-a718-044a287b0626(org.campagnelab.clusterConfig.structure)" version="3" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="64" implicit="yes" />
+  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="66" implicit="yes" />
   <import index="dhle" modelUID="r:22d2d7af-29e7-4a54-9633-f2175440f8be(org.campagnelab.feedback.structure)" version="0" implicit="yes" />
   <import index="bbh2" modelUID="r:220d24dc-c962-4ed8-b674-7bde9fb2980c(org.campagnelab.gobyweb.monitoring.structure)" version="4" implicit="yes" />
   <import index="whle" modelUID="r:8e4fd1b7-1955-43a4-ace6-aaf9d13814f8(org.campagnelab.logger.structure)" version="1" implicit="yes" />
@@ -7435,7 +7436,7 @@
         <property name="value" nameId="bs99.606449909792929477" value="FAKETAG" />
       </node>
     </node>
-    <node role="listeners" roleId="bs99.7744544840734386662" type="7aad.ObjectCreationHelper" typeId="7aad.7744544840731999292" id="2495307914670883491" nodeInfo="ng" />
+    <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ObjectCreationHelper" typeId="7aad.7744544840731999292" id="2495307914670883491" nodeInfo="ng" />
   </root>
   <root type="bs99.JobContainer" typeId="bs99.6642819616986824926" id="3403061721251604623" nodeInfo="ng">
     <link role="environment" roleId="bs99.6642819616986825109" targetNodeId="7915051628305677536" resolveInfo="MSNotebook" />
@@ -9668,7 +9669,7 @@
           <property name="value" nameId="bs99.606449909792929477" value="FAKETAG" />
         </node>
       </node>
-      <node role="listeners" roleId="bs99.7744544840734386662" type="7aad.ObjectCreationHelper" typeId="7aad.7744544840731999292" id="8628570127263919386" nodeInfo="ng" />
+      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ObjectCreationHelper" typeId="7aad.7744544840731999292" id="8628570127263919386" nodeInfo="ng" />
     </node>
     <node role="jobs" roleId="27q2.8628570127256259321" type="bs99.JobRefSet" typeId="bs99.8628570127256259312" id="8628570127263913661" nodeInfo="ng">
       <node role="refs" roleId="bs99.8628570127256259315" type="bs99.JobReference" typeId="bs99.8628570127256259039" id="8628570127263919272" nodeInfo="ng">

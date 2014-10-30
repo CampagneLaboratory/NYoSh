@@ -7,7 +7,7 @@
   <devkit namespace="db81b829-e557-4467-b78e-cc1d44965622(org.campagnelab.devkit.gobyweb.interactive)" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="9k5" modelUID="r:df9645c2-d2fa-41cb-a718-044a287b0626(org.campagnelab.clusterConfig.structure)" version="3" implicit="yes" />
-  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="63" implicit="yes" />
+  <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="66" implicit="yes" />
   <import index="bbh2" modelUID="r:220d24dc-c962-4ed8-b674-7bde9fb2980c(org.campagnelab.gobyweb.monitoring.structure)" version="4" implicit="yes" />
   <import index="whle" modelUID="r:8e4fd1b7-1955-43a4-ace6-aaf9d13814f8(org.campagnelab.logger.structure)" version="1" implicit="yes" />
   <import index="dhle" modelUID="r:22d2d7af-29e7-4a54-9633-f2175440f8be(org.campagnelab.feedback.structure)" version="0" implicit="yes" />
@@ -30443,7 +30443,7 @@
         <property name="isSet" nameId="bs99.83657536365996638" value="true" />
       </node>
     </node>
-    <node role="listeners" roleId="bs99.7744544840734386662" type="7aad.ObjectCreationHelper" typeId="7aad.7744544840731999292" id="3648805790693692663" nodeInfo="ng" />
+    <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ObjectCreationHelper" typeId="7aad.7744544840731999292" id="3648805790693692663" nodeInfo="ng" />
   </root>
   <root type="bs99.MultiTool" typeId="bs99.5235131979802911248" id="2230469015320195891" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="MultiProcess" />
@@ -30484,7 +30484,7 @@
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="8982654668860019370" nodeInfo="ng">
       <node role="value" roleId="bs99.6506431596944968310" type="bs99.InputOptionValue" typeId="bs99.6506431596944968499" id="8982654668860019371" nodeInfo="ng" />
     </node>
-    <node role="listeners" roleId="bs99.7744544840734386662" type="7aad.ObjectCreationHelper" typeId="7aad.7744544840731999292" id="3648805790692588774" nodeInfo="ng" />
+    <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ObjectCreationHelper" typeId="7aad.7744544840731999292" id="3648805790692588774" nodeInfo="ng" />
   </root>
   <root type="bbh2.JobMonitorInterface" typeId="bbh2.1212232161612230177" id="4029852567791277660" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="PLYNERW" />
@@ -34270,7 +34270,7 @@
       <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="3648805790692575536" resolveInfo="Other counts" />
       <node role="value" roleId="bs99.6506431596944968310" type="bs99.BooleanOptionValue" typeId="bs99.606449909792920794" id="3648805790694093084" nodeInfo="ng" />
     </node>
-    <node role="listeners" roleId="bs99.7744544840734386662" type="7aad.ObjectCreationHelper" typeId="7aad.7744544840731999292" id="3648805790694093103" nodeInfo="ng" />
+    <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ObjectCreationHelper" typeId="7aad.7744544840731999292" id="3648805790694093103" nodeInfo="ng" />
   </root>
   <root type="7aad.GobyWebAlignment" typeId="7aad.6587162469555371663" id="3648805790692826426" nodeInfo="ng">
     <property name="tag" nameId="7aad.6587162469555371668" value="OLFPWDU" />
