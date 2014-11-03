@@ -5,6 +5,8 @@ package org.campagnelab.gobyweb.plugins.test.generator.template.main;
 import jetbrains.mps.generator.runtime.Generated;
 import jetbrains.mps.generator.template.PropertyMacroContext;
 import org.campagnelab.gobyweb.plugins.test.behavior.PluginTestCase_Behavior;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.generator.template.MappingScriptContext;
 
 @Generated
 public class QueriesGenerated {
@@ -16,5 +18,12 @@ public class QueriesGenerated {
       builder.append(arg).append(" ");
     }
     return builder.toString();
+  }
+
+  public static Object propertyMacro_GetPropertyValue_5807598648179249173(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "name") + "-submit";
+  }
+
+  public static void mappingScript_CodeBlock_5807598648180034296(final MappingScriptContext _context) {
   }
 }
