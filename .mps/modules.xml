@@ -52,6 +52,7 @@
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.gobyweb.interactive.viewers/org.campagnelab.gobyweb.interactive.viewers.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.gobyweb.plugins.test.ru/org.campagnelab.gobyweb.plugins.test.ru.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.ui.code/org.campagnelab.ui.code.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.util/org.campagnelab.util.msd" folder="" />
     </projectModules>
   </component>
   <component name="ProjectModuleManager">
