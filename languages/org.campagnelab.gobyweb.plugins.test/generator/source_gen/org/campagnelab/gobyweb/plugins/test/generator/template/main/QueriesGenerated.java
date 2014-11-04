@@ -4,13 +4,18 @@ package org.campagnelab.gobyweb.plugins.test.generator.template.main;
 
 import jetbrains.mps.generator.runtime.Generated;
 import jetbrains.mps.generator.template.PropertyMacroContext;
-import org.campagnelab.gobyweb.plugins.test.behavior.PluginTestCase_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import org.campagnelab.gobyweb.plugins.test.behavior.PluginTestCase_Behavior;
 import jetbrains.mps.generator.template.MappingScriptContext;
 
 @Generated
 public class QueriesGenerated {
   public final boolean NEEDS_OPCONTEXT = false;
+
+  public static Object propertyMacro_GetPropertyValue_2726670175338063714(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "executionEnvironment", false), "filesetArea", true), "path");
+  }
 
   public static Object propertyMacro_GetPropertyValue_3827903497683124194(final PropertyMacroContext _context) {
     StringBuilder builder = new StringBuilder();
