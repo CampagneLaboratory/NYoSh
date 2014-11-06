@@ -694,7 +694,7 @@
           </node>
         </node>
         <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="827915552515393960" nodeInfo="ng">
-          <property name="text" nameId="p6sl.1680136183140337487" value=" submit.sh \&quot;$@\&quot; &amp;&amp; " />
+          <property name="text" nameId="p6sl.1680136183140337487" value="/submit.sh \&quot;$@\&quot; &amp;&amp; " />
         </node>
         <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="827915552515393961" nodeInfo="ng">
           <property name="text" nameId="p6sl.1680136183140337487" value="path" />
@@ -730,7 +730,7 @@
           </node>
         </node>
         <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="827915552515393962" nodeInfo="ng">
-          <property name="text" nameId="p6sl.1680136183140337487" value="submit.sh&quot;" />
+          <property name="text" nameId="p6sl.1680136183140337487" value="/submit.sh&quot;" />
         </node>
         <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="827915552515345220" nodeInfo="ng">
           <property name="text" nameId="p6sl.1680136183140337487" value="" />
