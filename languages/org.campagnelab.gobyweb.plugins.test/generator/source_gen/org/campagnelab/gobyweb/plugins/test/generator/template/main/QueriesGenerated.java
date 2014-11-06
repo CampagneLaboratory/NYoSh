@@ -10,7 +10,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import org.campagnelab.gobyweb.plugins.test.behavior.DualFileSetArea_Behavior;
 import org.campagnelab.gobyweb.plugins.test.behavior.PluginTestCase_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.generator.template.MappingScriptContext;
+import org.campagnelab.gobyweb.interactive.behavior.JobArea_Behavior;
 
 @Generated
 public class QueriesGenerated {
@@ -36,6 +36,23 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(_context.getNode(), "name") + "-submit";
   }
 
-  public static void mappingScript_CodeBlock_5807598648180034296(final MappingScriptContext _context) {
+  public static Object propertyMacro_GetPropertyValue_827915552515310635(final PropertyMacroContext _context) {
+    return JobArea_Behavior.call_getReference_2408108650476587028(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "executionEnvironment", false), "jobArea", true));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_827915552515346356(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "executionEnvironment", false), "jobArea", true), "executionNode", false), "username") + "@" + SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "executionEnvironment", false), "jobArea", true), "executionNode", false), "username");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_827915552515395263(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "executionEnvironment", false), "jobArea", true), "workingDirectory");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_827915552515395929(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "executionEnvironment", false), "jobArea", true), "workingDirectory");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_827915552515297748(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "name") + "-copy";
   }
 }
