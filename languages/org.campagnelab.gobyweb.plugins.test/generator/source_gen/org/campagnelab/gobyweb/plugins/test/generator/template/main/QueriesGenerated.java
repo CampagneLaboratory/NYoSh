@@ -64,6 +64,18 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(_context.getNode(), "name") + "-submit.sh";
   }
 
+  public static Object propertyMacro_GetPropertyValue_827915552517259508(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "executionEnvironment", false), "jobArea", true), "executionNode", false), "username") + "@" + SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "executionEnvironment", false), "jobArea", true), "executionNode", false), "server");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_827915552517259539(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "executionEnvironment", false), "jobArea", true), "workingDirectory");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_827915552517259554(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "name") + "-submit.sh";
+  }
+
   public static Object propertyMacro_GetPropertyValue_827915552515297748(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), "name") + "-copy";
   }
