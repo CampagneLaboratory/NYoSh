@@ -14146,7 +14146,6 @@
     <node role="filesetArea" roleId="bs99.2051553890368785072" type="90kj.DualFileSetArea" typeId="90kj.3827903497651083787" id="8515523077722751148" nodeInfo="ng">
       <property name="path" nameId="bs99.6449713081311703917" value="/Users/mas2182/Lab/Projects/Git/TestFSA" />
       <property name="remotePath" nameId="90kj.3827903497651086028" value="/zenodotus/campagnelab/scratch/data/gobyweb/test/testfsa" />
-      <link role="remoteServer" roleId="90kj.7519594704404268446" targetNodeId="2243041462222181573" resolveInfo="DarlaNode" />
       <node role="manager" roleId="bs99.664989078355375332" type="bs99.FileSetAreaLocalManager" typeId="bs99.7170488887937312966" id="2726670175338861104" nodeInfo="ng">
         <property name="status" nameId="bs99.4344503499503568233" value="connected" />
         <property name="connected" nameId="bs99.1498629744692194973" value="true" />
