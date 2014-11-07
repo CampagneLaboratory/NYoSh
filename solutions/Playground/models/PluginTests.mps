@@ -8532,7 +8532,7 @@
       <property name="numPluginsLoaded" nameId="bs99.5704832314560344592" value="163" />
       <property name="directory" nameId="bs99.1997533223701200855" value="${org.campagnelab.gobyweb.pluginRepo}" />
       <property name="loaded" nameId="bs99.5704832314560662319" value="true" />
-      <property name="remotePath" nameId="bs99.6985991452101336330" value="/home/gridgain/gobyweb2-plugin" />
+      <property name="remotePath" nameId="bs99.6985991452101336330" value="/zenodotus/campagnelab/scratch/data/gobyweb/test/gobyweb2-plugins" />
       <link role="remoteServer" roleId="bs99.7519594704404268446" targetNodeId="3827903497649579770" resolveInfo="Toulouse" />
       <node role="plugins" roleId="bs99.4277119496928220709" type="dzk5.ResourceConfig" typeId="dzk5.2105345521169244661" id="827915552516827087" nodeInfo="ng">
         <property name="version" nameId="dzk5.4277119496927940532" value="1.2" />
@@ -14145,7 +14145,7 @@
     </node>
     <node role="filesetArea" roleId="bs99.2051553890368785072" type="90kj.DualFileSetArea" typeId="90kj.3827903497651083787" id="8515523077722751148" nodeInfo="ng">
       <property name="path" nameId="bs99.6449713081311703917" value="/Users/mas2182/Lab/Projects/Git/TestFSA" />
-      <property name="remotePath" nameId="90kj.3827903497651086028" value="/zenodotus/campagnelab/scratch/data/gobyweb/test/TestFSA" />
+      <property name="remotePath" nameId="90kj.3827903497651086028" value="/zenodotus/campagnelab/scratch/data/gobyweb/test/testfsa" />
       <link role="remoteServer" roleId="90kj.7519594704404268446" targetNodeId="2243041462222181573" resolveInfo="DarlaNode" />
       <node role="manager" roleId="bs99.664989078355375332" type="bs99.FileSetAreaLocalManager" typeId="bs99.7170488887937312966" id="2726670175338861104" nodeInfo="ng">
         <property name="status" nameId="bs99.4344503499503568233" value="connected" />
