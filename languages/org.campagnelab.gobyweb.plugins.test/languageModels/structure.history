@@ -84,5 +84,11 @@
     </dependencies>
     <rename id="90kj.6985991452101336330" type="PROPERTY" from="remotePath" to="submissionPath" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="90kj" modelUID="r:397eee62-00ff-4904-afbb-029e2b9cd1db(org.campagnelab.gobyweb.plugins.test.structure)" version="13" />
+    </dependencies>
+    <rename id="90kj.827915552519373469" type="PROPERTY" from="SDK_directory" to="SDKDirectory" />
+  </StructureModification>
 </history>
 
