@@ -14137,12 +14137,6 @@
     <node role="gitRepository" roleId="90kj.3827903497649038159" type="90kj.GitRepository" typeId="90kj.3827903497649038027" id="8515523077722751104" nodeInfo="ng">
       <property name="url" nameId="90kj.3827903497649038052" value="git@bitbucket.org:campagnelaboratory/testfsa.git" />
     </node>
-    <node role="jobArea" roleId="bs99.2051553890368785070" type="bs99.JobArea" typeId="bs99.2051553890368761083" id="8515523077722751129" nodeInfo="ng">
-      <property name="artifactRepoPath" nameId="bs99.1997533223704022892" value="/scratchLocal/gobyweb/ARTIFACT_REPOSITORY-NyoSh/" />
-      <property name="workingDirectory" nameId="bs99.6449713081311226572" value="/zenodotus/campagnelab/scratch/data/gobyweb/trial/GOBYWEB_SGE_JOBS/" />
-      <property name="queueName" nameId="bs99.1997533223704022889" value="rascals.q" />
-      <link role="executionNode" roleId="bs99.6449713081311050445" targetNodeId="2243041462222181573" resolveInfo="DarlaNode" />
-    </node>
     <node role="filesetArea" roleId="bs99.2051553890368785072" type="90kj.DualFileSetArea" typeId="90kj.3827903497651083787" id="8515523077722751148" nodeInfo="ng">
       <property name="path" nameId="bs99.6449713081311703917" value="/Users/mas2182/Lab/Projects/Git/TestFSA" />
       <property name="remotePath" nameId="90kj.3827903497651086028" value="/zenodotus/campagnelab/scratch/data/gobyweb/test/testfsa" />
@@ -14151,6 +14145,13 @@
         <property name="connected" nameId="bs99.1498629744692194973" value="true" />
         <link role="fileSetArea" roleId="bs99.664989078345325375" targetNodeId="8515523077722751148" />
       </node>
+    </node>
+    <node role="jobArea" roleId="bs99.2051553890368785070" type="90kj.JobAreaWithSDK" typeId="90kj.827915552519367207" id="827915552519764673" nodeInfo="ng">
+      <property name="queueName" nameId="bs99.1997533223704022889" value="rascals.q" />
+      <property name="artifactRepoPath" nameId="bs99.1997533223704022892" value="/scratchLocal/gobyweb/ARTIFACT_REPOSITORY-NYoSh/" />
+      <property name="workingDirectory" nameId="bs99.6449713081311226572" value="/zenodotus/campagnelab/scratch/data/gobyweb/trial/GOBYWEB_SGE_JOBS/" />
+      <property name="SDKDirectory" nameId="90kj.827915552519373469" value="/zenodotus/campagnelab/scratch/data/gobyweb/test/plugins" />
+      <link role="executionNode" roleId="bs99.6449713081311050445" targetNodeId="2243041462222181573" resolveInfo="DarlaNode" />
     </node>
   </root>
   <root type="90kj.PluginTestCase" typeId="90kj.3827903497679865605" id="8515523077728330981" nodeInfo="ng">
