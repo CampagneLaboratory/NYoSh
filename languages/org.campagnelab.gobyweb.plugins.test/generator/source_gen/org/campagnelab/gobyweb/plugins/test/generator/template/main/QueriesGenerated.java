@@ -4,17 +4,21 @@ package org.campagnelab.gobyweb.plugins.test.generator.template.main;
 
 import jetbrains.mps.generator.runtime.Generated;
 import jetbrains.mps.generator.template.PropertyMacroContext;
-import jetbrains.mps.smodel.behaviour.BehaviorReflection;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import org.campagnelab.gobyweb.plugins.test.behavior.DualFileSetArea_Behavior;
 import org.campagnelab.gobyweb.plugins.test.behavior.PluginTestCase_Behavior;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import org.campagnelab.gobyweb.interactive.behavior.JobArea_Behavior;
 
 @Generated
 public class QueriesGenerated {
   public final boolean NEEDS_OPCONTEXT = false;
+
+  public static Object propertyMacro_GetPropertyValue_1546477733290515288(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SNodeOperations.cast(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "executionEnvironment", false), "jobArea", true), "org.campagnelab.gobyweb.plugins.test.structure.JobAreaWithSDK"), "SDKDirectory");
+  }
 
   public static Object propertyMacro_GetPropertyValue_2726670175338787560(final PropertyMacroContext _context) {
     return BehaviorReflection.invokeVirtual(String.class, SNodeOperations.cast(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "executionEnvironment", false), "pluginRepository", true), "org.campagnelab.gobyweb.interactive.structure.DualPluginRepository"), "virtual_getRemotePluginRepoPath_6985991452103701097", new Object[]{});
