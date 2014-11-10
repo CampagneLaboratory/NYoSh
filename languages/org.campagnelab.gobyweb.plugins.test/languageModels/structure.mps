@@ -111,12 +111,6 @@
       <link role="target" roleId="tpce.1071599976176" targetNodeId="tpee.1070534760951" resolveInfo="ArrayType" />
     </node>
   </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3827903497686042770" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="config" />
-    <property name="name" nameId="tpck.1169194664001" value="DualPluginTestRepository" />
-    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="extends the dual repository with an additional path used as job parameter" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="bs99.6985991452101319714" resolveInfo="DualPluginRepository" />
-  </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="827915552519367207" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="config" />
     <property name="name" nameId="tpck.1169194664001" value="JobAreaWithSDK" />

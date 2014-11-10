@@ -17,7 +17,7 @@ public class QueriesGenerated {
   public final boolean NEEDS_OPCONTEXT = false;
 
   public static Object propertyMacro_GetPropertyValue_2726670175338787560(final PropertyMacroContext _context) {
-    return BehaviorReflection.invokeVirtual(String.class, SNodeOperations.cast(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "executionEnvironment", false), "pluginRepository", true), "org.campagnelab.gobyweb.plugins.test.structure.DualPluginTestRepository"), "virtual_getRemotePluginRepoPath_6985991452103701097", new Object[]{});
+    return BehaviorReflection.invokeVirtual(String.class, SNodeOperations.cast(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "executionEnvironment", false), "pluginRepository", true), "org.campagnelab.gobyweb.interactive.structure.DualPluginRepository"), "virtual_getRemotePluginRepoPath_6985991452103701097", new Object[]{});
   }
 
   public static Object propertyMacro_GetPropertyValue_2726670175338063714(final PropertyMacroContext _context) {

@@ -248,7 +248,7 @@
                 <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_GetModelOperation" typeId="tp25.1143234257716" id="3827903497649728751" nodeInfo="nn" />
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tp25.Model_CreateNewNodeOperation" typeId="tp25.1143235216708" id="3827903497649730348" nodeInfo="nn">
-                <link role="concept" roleId="tp25.1143235391024" targetNodeId="90kj.3827903497686042770" resolveInfo="DualPluginTestRepository" />
+                <link role="concept" roleId="tp25.1143235391024" targetNodeId="bs99.6985991452101319714" resolveInfo="DualPluginRepository" />
               </node>
             </node>
             <node role="lValue" roleId="tpee.1068498886295" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3827903497649722588" nodeInfo="nn">
