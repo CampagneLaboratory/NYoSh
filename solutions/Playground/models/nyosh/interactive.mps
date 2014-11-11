@@ -1837,194 +1837,215 @@
   </root>
   <root type="440p.RecursiveExplicitFileBag" typeId="440p.794091573598763750" id="794091573599537913" nodeInfo="ng">
     <property name="pattern" nameId="440p.794091573598775541" value="*.fastq.gz" />
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537915" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439522" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY1/HY1_ATCACG_L001_R1_001.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537916" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439523" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY1/HY1_ATCACG_L001_R1_002.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537917" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439524" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY1/HY1_ATCACG_L001_R1_003.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537918" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439525" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY10/HY10_ACTTGA_L002_R1_001.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537919" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439526" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY10/HY10_ACTTGA_L002_R1_002.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537920" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439527" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY10/HY10_ACTTGA_L002_R1_003.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537921" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439528" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY11/HY11_GATCAG_L003_R1_001.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537922" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439529" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY11/HY11_GATCAG_L003_R1_002.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537923" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439530" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY11/HY11_GATCAG_L003_R1_003.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537924" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439531" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY12/HY12_GTTTCG_L004_R1_001.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537925" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439532" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY12/HY12_GTTTCG_L004_R1_002.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537926" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439533" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY13/HY13_TGACCA_L001_R1_001.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537927" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439534" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY13/HY13_TGACCA_L001_R1_002.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537928" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439535" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY13/HY13_TGACCA_L001_R1_003.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537929" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439536" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY14/HY14_GCCAAT_L002_R1_001.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537930" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439537" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY14/HY14_GCCAAT_L002_R1_002.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537931" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439538" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY14/HY14_GCCAAT_L002_R1_003.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537932" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439539" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY15/HY15_CTTGTA_L003_R1_001.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537933" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439540" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY15/HY15_CTTGTA_L003_R1_002.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537934" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439541" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY15/HY15_CTTGTA_L003_R1_003.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537935" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439542" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY16/HY16_AGTTCC_L004_R1_001.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537936" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439543" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY16/HY16_AGTTCC_L004_R1_002.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537937" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439544" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY16/HY16_AGTTCC_L004_R1_003.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537938" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439545" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY17/HY17_ACAGTG_L001_R1_001.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537939" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439546" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY17/HY17_ACAGTG_L001_R1_002.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537940" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439547" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY17/HY17_ACAGTG_L001_R1_003.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537941" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439548" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY18/HY18_ATGTCA_L003_R1_001.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537942" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439549" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY18/HY18_ATGTCA_L003_R1_002.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537943" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439550" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY18/HY18_ATGTCA_L003_R1_003.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537944" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439551" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY19/HY19_CCGTCC_L004_R1_001.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537945" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439552" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY19/HY19_CCGTCC_L004_R1_002.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537946" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439553" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY19/HY19_CCGTCC_L004_R1_003.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537947" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439554" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY2/HY2_GTGGCC_L002_R1_001.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537948" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439555" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY2/HY2_GTGGCC_L002_R1_002.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537949" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439556" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY20/HY20_GTCCGC_L001_R1_001.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537950" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439557" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY20/HY20_GTCCGC_L001_R1_002.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537951" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439558" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY20/HY20_GTCCGC_L001_R1_003.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537952" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439559" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY22/HY22_TAGCTT_L002_R1_001.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537953" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439560" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY22/HY22_TAGCTT_L002_R1_002.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537954" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439561" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY22/HY22_TAGCTT_L002_R1_003.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537955" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439562" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY23/HY23_GGCTAC_L003_R1_001.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537956" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439563" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY23/HY23_GGCTAC_L003_R1_002.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537957" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439564" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY23/HY23_GGCTAC_L003_R1_003.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537958" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439565" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY24/HY24_CGTACG_L004_R1_001.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537959" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439566" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY24/HY24_CGTACG_L004_R1_002.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537960" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439567" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY24/HY24_CGTACG_L004_R1_003.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537961" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439568" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY25/HY25_ACTGAT_L002_R1_001.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537962" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439569" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY25/HY25_ACTGAT_L002_R1_002.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537963" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439570" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY25/HY25_ACTGAT_L002_R1_003.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537964" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439571" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY3/HY3_GAGTGG_L003_R1_001.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537965" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439572" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY3/HY3_GAGTGG_L003_R1_002.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537966" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439573" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY3/HY3_GAGTGG_L003_R1_003.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537967" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439574" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY4/HY4_ATTCCT_L004_R1_001.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537968" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439575" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY4/HY4_ATTCCT_L004_R1_002.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537969" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439576" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY4/HY4_ATTCCT_L004_R1_003.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537970" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439577" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY5/HY5_CGATGT_L001_R1_001.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537971" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439578" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY5/HY5_CGATGT_L001_R1_002.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537972" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439579" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY5/HY5_CGATGT_L001_R1_003.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537973" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439580" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY6/HY6_CAGATC_L002_R1_001.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537974" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439581" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY6/HY6_CAGATC_L002_R1_002.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537975" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439582" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY6/HY6_CAGATC_L002_R1_003.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537976" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439583" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY7/HY7_AGTCAA_L003_R1_001.fastq.gz" />
     </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573599537977" nodeInfo="ng">
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439584" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY7/HY7_AGTCAA_L003_R1_002.fastq.gz" />
+    </node>
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439585" nodeInfo="ng">
+      <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY7/HY7_AGTCAA_L003_R1_003.fastq.gz" />
+    </node>
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439586" nodeInfo="ng">
+      <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY8/HY8_GTGAAA_L004_R1_001.fastq.gz" />
+    </node>
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439587" nodeInfo="ng">
+      <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY8/HY8_GTGAAA_L004_R1_002.fastq.gz" />
+    </node>
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439588" nodeInfo="ng">
+      <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY8/HY8_GTGAAA_L004_R1_003.fastq.gz" />
+    </node>
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439589" nodeInfo="ng">
+      <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY9/HY9_TTAGGC_L001_R1_001.fastq.gz" />
+    </node>
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439590" nodeInfo="ng">
+      <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY9/HY9_TTAGGC_L001_R1_002.fastq.gz" />
+    </node>
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573600439591" nodeInfo="ng">
+      <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY9/HY9_TTAGGC_L001_R1_003.fastq.gz" />
     </node>
   </root>
 </model>
