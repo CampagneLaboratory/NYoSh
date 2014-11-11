@@ -2148,5 +2148,31 @@
       <property name="to" nameId="440p.794091573600807341" value="HY24-CORE-4-LPS" />
     </node>
   </root>
+  <root type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573605731307" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="MyBag" />
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573607073092" nodeInfo="ng">
+      <property name="fullPath" nameId="440p.5575801756724621394" value="/data/testDir/1-a.fastq.gz" />
+      <property name="name" nameId="tpck.1169194664001" value="1-a.fastq.gz" />
+    </node>
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573607073093" nodeInfo="ng">
+      <property name="fullPath" nameId="440p.5575801756724621394" value="/data/testDir/1-b.fastq.gz" />
+      <property name="name" nameId="tpck.1169194664001" value="1-b.fastq.gz" />
+    </node>
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573607073094" nodeInfo="ng">
+      <property name="fullPath" nameId="440p.5575801756724621394" value="/data/testDir/2-a.fastq.gz" />
+      <property name="name" nameId="tpck.1169194664001" value="2-a.fastq.gz" />
+    </node>
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573607073095" nodeInfo="ng">
+      <property name="fullPath" nameId="440p.5575801756724621394" value="/data/testDir/2-b.fastq.gz" />
+      <property name="name" nameId="tpck.1169194664001" value="2-b.fastq.gz" />
+    </node>
+  </root>
+  <root type="440p.RenamePlan" typeId="440p.794091573600807021" id="794091573605731862" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="SimpleWildcard" />
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573605731863" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="2-?" />
+      <property name="to" nameId="440p.794091573600807341" value="1-B" />
+    </node>
+  </root>
 </model>
 
