@@ -399,5 +399,15 @@
       <link role="target" roleId="tpce.1071599976176" targetNodeId="1983714652192278664" resolveInfo="ParallelArgumentOptionValue" />
     </node>
   </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="794091573598763750" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="files" />
+    <property name="name" nameId="tpck.1169194664001" value="RecursiveExplicitFileBag" />
+    <property name="rootable" nameId="tpce.1096454100552" value="true" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="5575801756724618415" resolveInfo="ExplicitFileBag" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="794091573598775541" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="pattern" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
+  </root>
 </model>
 
