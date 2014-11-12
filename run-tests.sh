@@ -6,7 +6,7 @@ while read fullfile; do
      file=$(basename "$fullfile")
      cd "${dir}"
      echo "Submitting test ${file}"
-     #/bin/bash "${file}"
+     /bin/bash "${file}"
      echo "Submission completed for ${file}."
      cd "${WORKING_DIR}"
 done
