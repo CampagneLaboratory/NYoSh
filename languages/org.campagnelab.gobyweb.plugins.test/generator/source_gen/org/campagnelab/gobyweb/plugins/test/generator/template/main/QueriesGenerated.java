@@ -28,12 +28,24 @@ public class QueriesGenerated {
     return DualFileSetArea_Behavior.call_getRemoteReference_2726670175338878707(SNodeOperations.cast(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "executionEnvironment", false), "filesetArea", true), "org.campagnelab.gobyweb.plugins.test.structure.DualFileSetArea"));
   }
 
-  public static Object propertyMacro_GetPropertyValue_3827903497683124194(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetPropertyValue_1546477733293570829(final PropertyMacroContext _context) {
     StringBuilder builder = new StringBuilder();
     for (String arg : PluginTestCase_Behavior.call_generateArguments_3827903497680464580(_context.getNode())) {
       builder.append(arg).append(" ");
     }
     return builder.toString();
+  }
+
+  public static Object propertyMacro_GetPropertyValue_1546477733292638210(final PropertyMacroContext _context) {
+    return JobArea_Behavior.call_getReference_2408108650476587028(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "executionEnvironment", false), "jobArea", true));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_1546477733292717210(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "executionEnvironment", false), "owner", false), "id");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_1546477733292705597(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "assignedTag").charAt(0) + "/" + SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "assignedTag");
   }
 
   public static Object propertyMacro_GetPropertyValue_5807598648179249173(final PropertyMacroContext _context) {
