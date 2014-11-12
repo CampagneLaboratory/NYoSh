@@ -43,21 +43,21 @@
       <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="7901651670846592451" nodeInfo="ng">
         <property name="text" nameId="p6sl.5493669862519718600" value="#This script submits a job for a plugin test case. It accepts the following arguments:" />
       </node>
-      <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="827915552513958218" nodeInfo="ng">
-        <property name="text" nameId="p6sl.5493669862519718600" value="# 1) path of the local GobyWeb Plugin Repository" />
-        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="827915552513958221" nodeInfo="ng">
+      <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="1546477733292444459" nodeInfo="ng">
+        <property name="text" nameId="p6sl.5493669862519718600" value="# 1) path of the local installation of the plugins SDK" />
+        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="1546477733292444460" nodeInfo="ng">
+          <property name="text" nameId="p6sl.1680136183140337487" value="" />
+        </node>
+        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="1546477733292444461" nodeInfo="ng">
+          <property name="text" nameId="p6sl.1680136183140337487" value="" />
+        </node>
+        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="1546477733292444462" nodeInfo="ng">
           <property name="text" nameId="p6sl.1680136183140337487" value="" />
         </node>
       </node>
-      <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="2726670175338751757" nodeInfo="ng">
-        <property name="text" nameId="p6sl.5493669862519718600" value="# 2) path of the local installation of the plugins SDK" />
-        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="2726670175338774581" nodeInfo="ng">
-          <property name="text" nameId="p6sl.1680136183140337487" value="" />
-        </node>
-        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="2726670175338752946" nodeInfo="ng">
-          <property name="text" nameId="p6sl.1680136183140337487" value="" />
-        </node>
-        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="2726670175338751758" nodeInfo="ng">
+      <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="827915552513958218" nodeInfo="ng">
+        <property name="text" nameId="p6sl.5493669862519718600" value="# 2) path of the local GobyWeb Plugin Repository" />
+        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="827915552513958221" nodeInfo="ng">
           <property name="text" nameId="p6sl.1680136183140337487" value="" />
         </node>
       </node>
@@ -1306,6 +1306,9 @@
               </node>
             </node>
           </node>
+        </node>
+        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="1546477733292459142" nodeInfo="ng">
+          <property name="text" nameId="p6sl.1680136183140337487" value="&quot;" />
         </node>
         <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="827915552515309195" nodeInfo="ng">
           <property name="text" nameId="p6sl.1680136183140337487" value="" />
