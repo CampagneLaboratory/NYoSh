@@ -1,7 +1,7 @@
 
 WORKING_DIR=`pwd`
-find ./solutions/*/classes_gen -name "*-copy.sh" -print |
-while read fullfile; do
+for fullfile in $(find ./solutions/*/classes_gen -name "*-copy.sh" -print);
+do
      dir=$(dirname "${fullfile}")
      file=$(basename "$fullfile")
      cd "${dir}"
