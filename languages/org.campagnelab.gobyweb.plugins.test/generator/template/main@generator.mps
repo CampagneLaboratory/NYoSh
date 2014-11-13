@@ -396,8 +396,14 @@
         <property name="text" nameId="p6sl.5493669862519718600" value="set -x" />
       </node>
       <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="1546477733293567061" nodeInfo="ng">
-        <property name="text" nameId="p6sl.5493669862519718600" value="" />
+        <property name="text" nameId="p6sl.5493669862519718600" value="source &quot;${HOME}/.bash_profile&quot;" />
         <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="1546477733293567062" nodeInfo="ng">
+          <property name="text" nameId="p6sl.1680136183140337487" value="" />
+        </node>
+      </node>
+      <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="1546477733294389049" nodeInfo="ng">
+        <property name="text" nameId="p6sl.5493669862519718600" value="" />
+        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="1546477733294389050" nodeInfo="ng">
           <property name="text" nameId="p6sl.1680136183140337487" value="" />
         </node>
       </node>

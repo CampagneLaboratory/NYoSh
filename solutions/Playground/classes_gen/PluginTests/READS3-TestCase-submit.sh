@@ -42,6 +42,7 @@ function clean_tag {
 
 #activate debugging
 set -x
+source "${HOME}/.bash_profile"
 
 #PLUGINS SDK
 if [ "$1" == "plugins-sdk:" ]; then
@@ -87,8 +88,8 @@ else
 fi
 
 #SUBMIT THE JOB
-job_arguments="--plugins-dir ${PLUGINS_DIR} --job PROCESS_READS_TASK --job-tag IMXRDPT --owner gobyweb --queue rascals.q --job-area gobyweb@darla.med.cornell.edu:/zenodotus/campagnelab/scratch/data/gobyweb/trial/GOBYWEB_SGE_JOBS/ --fileset-area ${FILESET_AREA} --repository /scratchLocal/gobyweb/ARTIFACT_REPOSITORY-NYoSh/ --artifact-server gobyweb@darla.med.cornell.edu:/zenodotus/campagnelab/scratch/data/gobyweb/test/gobyweb2-plugins --broker-hostname toulouse.qib.pbtech --broker-port 5672 --TAG FAKETAG UPLOADS_FILES: ZAKCWFX UPLOAD_MERGE_PLAN: YDVIMWK "
-clean_tag gobyweb@darla.med.cornell.edu:/zenodotus/campagnelab/scratch/data/gobyweb/trial/GOBYWEB_SGE_JOBS/ gobyweb I/IMXRDPT
+job_arguments="--plugins-dir ${PLUGINS_DIR} --job PROCESS_READS_TASK --job-tag UGZHKVQ --owner gobyweb --queue rascals.q --job-area gobyweb@darla.med.cornell.edu:/zenodotus/campagnelab/scratch/data/gobyweb/trial/GOBYWEB_SGE_JOBS/ --fileset-area ${FILESET_AREA} --repository /scratchLocal/gobyweb/ARTIFACT_REPOSITORY-NYoSh/ --artifact-server gobyweb@darla.med.cornell.edu:/zenodotus/campagnelab/scratch/data/gobyweb/test/gobyweb2-plugins --broker-hostname toulouse.qib.pbtech --broker-port 5672 --TAG FAKETAG UPLOADS_FILES: ZAKCWFX UPLOAD_MERGE_PLAN: YDVIMWK "
+clean_tag gobyweb@darla.med.cornell.edu:/zenodotus/campagnelab/scratch/data/gobyweb/trial/GOBYWEB_SGE_JOBS/ gobyweb U/UGZHKVQ
 plugins-submit-job $@ ${job_arguments}
 
 #TODO: parse the output to extract the JOB ID
