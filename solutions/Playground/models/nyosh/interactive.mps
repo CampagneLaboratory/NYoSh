@@ -19,6 +19,8 @@
   <language namespace="a21a7294-c126-4f63-8335-8fecd8c28c7e(org.campagnelab.NYoSh)" />
   <language namespace="7fa12e9c-b949-4976-b4fa-19accbc320b4(jetbrains.mps.lang.dataFlow)" />
   <language namespace="c6567f13-87ab-4686-8f6f-42e8228c0e27(org.campagnelab.nyosh.gstring)" />
+  <language namespace="27f97fd8-caeb-43a0-a73f-f8ac957f3a17(org.campagnelab.gobyweb.environment)" />
+  <language namespace="0f071fdb-3faa-4b8c-9f5e-1da0a01466d5(org.campagnelab.nyosh.environment)" />
   <import index="rk0i" modelUID="r:5c1a2e64-6ce3-44f3-9901-91d04f21d955(org.campagnelab.nyosh.interactive.behavior)" version="1" />
   <import index="tpfp" modelUID="r:00000000-0000-4000-0000-011c89590519(jetbrains.mps.baseLanguage.regexp.jetbrains.mps.regexp.accessory)" version="-1" />
   <import index="440p" modelUID="r:a6c7903c-0b83-4bcf-8e49-8f150f2412bf(org.campagnelab.nyosh.interactive.structure)" version="8" />
@@ -34,6 +36,7 @@
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
   <import index="f2ff" modelUID="r:48d5f7d2-24be-4d82-ac12-8f4a2d414b11(org.campagnelab.nyosh.gstring.structure)" version="-1" implicit="yes" />
   <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(org.campagnelab.NYoSh.structure)" version="30" implicit="yes" />
+  <import index="6pk0" modelUID="r:48f4e449-1a18-435e-ae88-4830aa794dc7(org.campagnelab.nyosh.environment.structure)" version="17" implicit="yes" />
   <root type="whle.Logger" typeId="whle.1925991773566712428" id="2499106119578556646" nodeInfo="ng" />
   <root type="tpee.ClassConcept" typeId="tpee.1068390468198" id="703430915534100259" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="A" />
@@ -2154,52 +2157,100 @@
             </node>
           </node>
         </node>
-        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573622773135" nodeInfo="nn">
-          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573622773131" nodeInfo="nn">
-            <node role="operand" roleId="tpee.1197027771414" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="794091573622773132" nodeInfo="nn">
-              <link role="classifier" roleId="tpee.1144433057691" targetNodeId="e2lb.~System" resolveInfo="System" />
-              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="e2lb.~System%dout" resolveInfo="out" />
+        <node role="statement" roleId="tpee.1068581517665" type="6pk0.EnvironmentSourceList" typeId="6pk0.3173353997360946752" id="794091573622902456" nodeInfo="nr">
+          <node role="sources" roleId="6pk0.3173353997360946804" type="6pk0.JVMSource" typeId="6pk0.5955265417291063247" id="794091573622902542" nodeInfo="nr">
+            <node role="loader" roleId="6pk0.3173353997360796899" type="6pk0.JVMLoader" typeId="6pk0.5955265417291063310" id="794091573622902545" nodeInfo="nr">
+              <link role="source" roleId="6pk0.3173353997362497485" targetNodeId="794091573622902542" />
             </node>
-            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573622773133" nodeInfo="nn">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fxg7.~PrintStream%dprintln()%cvoid" resolveInfo="println" />
-              <node role="actualArgument" roleId="tpee.1068499141038" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="794091573622773703" nodeInfo="ng">
-                <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="794091573622773798" nodeInfo="ng">
-                  <property name="value" nameId="f2ff.1012285663620336023" value="/Users/fac2003/IdeaProjects/goby/goby 1g fasta-to-compact --concat --quality-encoding Sanger -o " />
-                </node>
-                <node role="components" roleId="f2ff.1012285663620335803" type="440p.GStringParamReference" typeId="440p.1012285663620336025" id="794091573622773799" nodeInfo="ng">
-                  <node role="expression" roleId="440p.794091573621627348" type="440p.SampleIdsParam" typeId="440p.794091573617519915" id="794091573622773800" nodeInfo="ng" />
-                </node>
-                <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="794091573622773801" nodeInfo="ng">
-                  <property name="value" nameId="f2ff.1012285663620336023" value="  " />
-                </node>
-                <node role="components" roleId="f2ff.1012285663620335803" type="440p.GStringParamReference" typeId="440p.1012285663620336025" id="794091573622773802" nodeInfo="ng">
-                  <node role="expression" roleId="440p.794091573621627348" type="440p.FileBagParam" typeId="440p.794091573617882435" id="794091573622773803" nodeInfo="ng" />
-                </node>
-              </node>
+            <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="794091573622902594" nodeInfo="nr">
+              <property name="value" nameId="6pk0.5469406079154538151" value="/private/tmp/com.apple.launchd.CW6eTbBiWX/Render" />
+              <property name="name" nameId="tpck.1169194664001" value="Apple_PubSub_Socket_Render" />
+              <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
+            </node>
+            <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="794091573622902595" nodeInfo="nr">
+              <property name="value" nameId="6pk0.5469406079154538151" value="/private/tmp/com.apple.launchd.9PeRntCtdr/org.macosforge.xquartz:0" />
+              <property name="name" nameId="tpck.1169194664001" value="DISPLAY" />
+              <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
+            </node>
+            <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="794091573622902596" nodeInfo="nr">
+              <property name="value" nameId="6pk0.5469406079154538151" value="/Users/fac2003" />
+              <property name="name" nameId="tpck.1169194664001" value="HOME" />
+              <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
+            </node>
+            <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="794091573622902597" nodeInfo="nr">
+              <property name="value" nameId="6pk0.5469406079154538151" value="fac2003" />
+              <property name="name" nameId="tpck.1169194664001" value="LOGNAME" />
+              <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
+            </node>
+            <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="794091573622902598" nodeInfo="nr">
+              <property name="value" nameId="6pk0.5469406079154538151" value="/usr/bin:/bin:/usr/sbin:/sbin" />
+              <property name="name" nameId="tpck.1169194664001" value="PATH" />
+              <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
+            </node>
+            <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="794091573622902599" nodeInfo="nr">
+              <property name="value" nameId="6pk0.5469406079154538151" value="/bin/bash" />
+              <property name="name" nameId="tpck.1169194664001" value="SHELL" />
+              <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
+            </node>
+            <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="794091573622902600" nodeInfo="nr">
+              <property name="value" nameId="6pk0.5469406079154538151" value="/private/tmp/com.apple.launchd.EbM3M6IaKf/Listeners" />
+              <property name="name" nameId="tpck.1169194664001" value="SSH_AUTH_SOCK" />
+              <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
+            </node>
+            <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="794091573622902601" nodeInfo="nr">
+              <property name="value" nameId="6pk0.5469406079154538151" value="/var/folders/7c/dskpdg6x6f384r541lfzmjk00000gp/T/" />
+              <property name="name" nameId="tpck.1169194664001" value="TMPDIR" />
+              <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
+            </node>
+            <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="794091573622902602" nodeInfo="nr">
+              <property name="value" nameId="6pk0.5469406079154538151" value="fac2003" />
+              <property name="name" nameId="tpck.1169194664001" value="USER" />
+              <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
+            </node>
+            <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="794091573622902603" nodeInfo="nr">
+              <property name="value" nameId="6pk0.5469406079154538151" value="0x0" />
+              <property name="name" nameId="tpck.1169194664001" value="XPC_FLAGS" />
+              <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
+            </node>
+            <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="794091573622902604" nodeInfo="nr">
+              <property name="value" nameId="6pk0.5469406079154538151" value="com.jetbrains.intellij.55980" />
+              <property name="name" nameId="tpck.1169194664001" value="XPC_SERVICE_NAME" />
+              <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
+            </node>
+            <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="794091573622902605" nodeInfo="nr">
+              <property name="value" nameId="6pk0.5469406079154538151" value="0x1F6:0x0:0x0" />
+              <property name="name" nameId="tpck.1169194664001" value="__CF_USER_TEXT_ENCODING" />
+              <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
             </node>
           </node>
         </node>
-        <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="794091573622773943" nodeInfo="nn">
-          <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.StatementCommentPart" typeId="tpee.6329021646629175143" id="794091573622773944" nodeInfo="nn">
-            <node role="commentedStatement" roleId="tpee.6329021646629175144" type="4tvk.ExecuteCommand" typeId="4tvk.8197864363320353692" id="794091573612485805" nodeInfo="ng">
-              <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.GStringCommand" typeId="4tvk.8155370969619067580" id="794091573612485807" nodeInfo="ng">
-                <node role="command" roleId="4tvk.8155370969619067612" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="794091573612485819" nodeInfo="ng">
-                  <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="794091573612485826" nodeInfo="ng">
-                    <property name="value" nameId="f2ff.1012285663620336023" value="/Users/fac2003/IdeaProjects/goby/goby 1g fasta-to-compact --concat --quality-encoding Sanger -o " />
-                  </node>
-                  <node role="components" roleId="f2ff.1012285663620335803" type="440p.GStringParamReference" typeId="440p.1012285663620336025" id="794091573621781331" nodeInfo="ng">
-                    <node role="expression" roleId="440p.794091573621627348" type="440p.SampleIdsParam" typeId="440p.794091573617519915" id="794091573621959784" nodeInfo="ng" />
-                  </node>
-                  <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="794091573622757458" nodeInfo="ng">
-                    <property name="value" nameId="f2ff.1012285663620336023" value="  " />
-                  </node>
-                  <node role="components" roleId="f2ff.1012285663620335803" type="440p.GStringParamReference" typeId="440p.1012285663620336025" id="794091573621961788" nodeInfo="ng">
-                    <node role="expression" roleId="440p.794091573621627348" type="440p.FileBagParam" typeId="440p.794091573617882435" id="794091573621962469" nodeInfo="ng" />
-                  </node>
-                </node>
+        <node role="statement" roleId="tpee.1068581517665" type="6pk0.ExportCommand" typeId="6pk0.6956376092815676508" id="794091573622922910" nodeInfo="nr">
+          <link role="variable" roleId="6pk0.3356917312211328409" targetNodeId="794091573622902598" resolveInfo="PATH" />
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="4tvk.ExecuteCommand" typeId="4tvk.8197864363320353692" id="794091573612485805" nodeInfo="ng">
+          <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.GStringCommand" typeId="4tvk.8155370969619067580" id="794091573612485807" nodeInfo="ng">
+            <node role="command" roleId="4tvk.8155370969619067612" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="794091573612485819" nodeInfo="ng">
+              <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="794091573622880427" nodeInfo="ng">
+                <property name="value" nameId="f2ff.1012285663620336023" value=" " />
+              </node>
+              <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="794091573622864529" nodeInfo="ng">
+                <property name="value" nameId="f2ff.1012285663620336023" value=" /Users/fac2003/IdeaProjects/goby/goby" />
+              </node>
+              <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="794091573612485826" nodeInfo="ng">
+                <property name="value" nameId="f2ff.1012285663620336023" value=" 1g fasta-to-compact --concat --quality-encoding Sanger -o " />
+              </node>
+              <node role="components" roleId="f2ff.1012285663620335803" type="440p.GStringParamReference" typeId="440p.1012285663620336025" id="794091573621781331" nodeInfo="ng">
+                <node role="expression" roleId="440p.794091573621627348" type="440p.SampleIdsParam" typeId="440p.794091573617519915" id="794091573621959784" nodeInfo="ng" />
+              </node>
+              <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="794091573622757458" nodeInfo="ng">
+                <property name="value" nameId="f2ff.1012285663620336023" value="  " />
+              </node>
+              <node role="components" roleId="f2ff.1012285663620335803" type="440p.GStringParamReference" typeId="440p.1012285663620336025" id="794091573621961788" nodeInfo="ng">
+                <node role="expression" roleId="440p.794091573621627348" type="440p.FileBagParam" typeId="440p.794091573617882435" id="794091573621962469" nodeInfo="ng" />
               </node>
             </node>
           </node>
+          <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.PipeOutErrCommandOperator" typeId="4tvk.2248369528797870024" id="794091573623187031" nodeInfo="ng" />
         </node>
       </node>
     </node>
