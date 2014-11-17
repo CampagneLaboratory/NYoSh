@@ -179,5 +179,17 @@
     <move id="rk0i.7365124595417066675" to="p3sh.8273662917780737746" />
     <move id="rk0i.7365124595417066686" to="p3sh.8273662917780737757" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="440p" modelUID="r:a6c7903c-0b83-4bcf-8e49-8f150f2412bf(org.campagnelab.nyosh.interactive.structure)" version="6" />
+    </dependencies>
+    <rename id="440p.794091573617519915" type="CONCEPT" from="SampleIdParam" to="SampleIdsParam" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="440p" modelUID="r:a6c7903c-0b83-4bcf-8e49-8f150f2412bf(org.campagnelab.nyosh.interactive.structure)" version="7" />
+    </dependencies>
+    <rename id="440p.4087517305354402375" type="REFERENCE" from="varRef" to="paramRef" />
+  </StructureModification>
 </history>
 
