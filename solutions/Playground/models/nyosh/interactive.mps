@@ -2131,32 +2131,9 @@
   <root type="440p.ExecuteTool" typeId="440p.794091573612445995" id="794091573612485798" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="ExecuteTool" />
     <link role="setOfFileBags" roleId="440p.794091573612496256" targetNodeId="794091573614021014" resolveInfo="DiamongBagsSet2" />
-    <node role="statements" roleId="440p.794091573612446047" type="tpee.StatementList" typeId="tpee.1068580123136" id="794091573612485799" nodeInfo="sn">
-      <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="794091573612485800" nodeInfo="nn" />
-      <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="794091573612485828" nodeInfo="nn">
-        <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="794091573612485829" nodeInfo="nr">
-          <property name="name" nameId="tpck.1169194664001" value="inputFilenames" />
-          <node role="initializer" roleId="tpee.1068431790190" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573612485830" nodeInfo="nn">
-            <property name="value" nameId="tpee.1070475926801" value="(from set)" />
-          </node>
-          <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="794091573612485831" nodeInfo="in" />
-        </node>
-      </node>
-      <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="794091573612489889" nodeInfo="nn" />
-    </node>
     <node role="function" roleId="440p.794091573618010384" type="440p.ExecuteToolFunction" typeId="440p.794091573617490278" id="794091573618315721" nodeInfo="ng">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="794091573618315722" nodeInfo="sn">
-        <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="794091573618656833" nodeInfo="nn">
-          <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.StatementCommentPart" typeId="tpee.6329021646629175143" id="794091573618656834" nodeInfo="nn">
-            <node role="commentedStatement" roleId="tpee.6329021646629175144" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="794091573618457617" nodeInfo="nn">
-              <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="794091573618457620" nodeInfo="nr">
-                <property name="name" nameId="tpck.1169194664001" value="filenames" />
-                <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="794091573618457615" nodeInfo="in" />
-                <node role="initializer" roleId="tpee.1068431790190" type="440p.FileBagParam" typeId="440p.794091573617882435" id="794091573618457812" nodeInfo="ng" />
-              </node>
-            </node>
-          </node>
-        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="794091573623969874" nodeInfo="nn" />
         <node role="statement" roleId="tpee.1068581517665" type="6pk0.EnvironmentSourceList" typeId="6pk0.3173353997360946752" id="794091573622902456" nodeInfo="nr">
           <node role="sources" roleId="6pk0.3173353997360946804" type="6pk0.JVMSource" typeId="6pk0.5955265417291063247" id="794091573622902542" nodeInfo="nr">
             <node role="loader" roleId="6pk0.3173353997360796899" type="6pk0.JVMLoader" typeId="6pk0.5955265417291063310" id="794091573622902545" nodeInfo="nr">
@@ -2234,7 +2211,7 @@
                 <property name="value" nameId="f2ff.1012285663620336023" value=" " />
               </node>
               <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="794091573622864529" nodeInfo="ng">
-                <property name="value" nameId="f2ff.1012285663620336023" value=" /Users/fac2003/IdeaProjects/goby/goby" />
+                <property name="value" nameId="f2ff.1012285663620336023" value=" echo /Users/fac2003/IdeaProjects/goby/goby" />
               </node>
               <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="794091573612485826" nodeInfo="ng">
                 <property name="value" nameId="f2ff.1012285663620336023" value=" 1g fasta-to-compact --concat --quality-encoding Sanger -o " />
@@ -2250,8 +2227,8 @@
               </node>
             </node>
           </node>
-          <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.PipeOutErrCommandOperator" typeId="4tvk.2248369528797870024" id="794091573623187031" nodeInfo="ng" />
         </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="2948205594683008099" nodeInfo="nn" />
       </node>
     </node>
   </root>
