@@ -507,6 +507,8 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1012285663620336025" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="GStringParamReference" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="executetool" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="$(expression)" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Include an expression that evaluates to string" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="f2ff.1012285663620335805" resolveInfo="GStringComponent" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="794091573621627348" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
