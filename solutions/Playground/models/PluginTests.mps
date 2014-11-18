@@ -11,7 +11,7 @@
   <import index="czzw" modelUID="r:2151664b-13bc-4072-a76b-815bb37c415e(org.campagnelab.gobyweb.interactive.users.structure)" version="0" implicit="yes" />
   <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="66" implicit="yes" />
   <import index="9k5" modelUID="r:df9645c2-d2fa-41cb-a718-044a287b0626(org.campagnelab.clusterConfig.structure)" version="3" implicit="yes" />
-  <import index="90kj" modelUID="r:397eee62-00ff-4904-afbb-029e2b9cd1db(org.campagnelab.gobyweb.plugins.test.structure)" version="19" implicit="yes" />
+  <import index="90kj" modelUID="r:397eee62-00ff-4904-afbb-029e2b9cd1db(org.campagnelab.gobyweb.plugins.test.structure)" version="20" implicit="yes" />
   <import index="zr4f" modelUID="r:2920e4c4-4b31-4f7c-ac90-f43b38fc4b8c(org.campagnelab.gobyweb.interactive.platforms.structure)" version="9" implicit="yes" />
   <import index="2c0d" modelUID="r:2c38e443-0586-49e0-87de-1937d74417d9(org.campagnelab.gobyweb.interactive.organisms.structure)" version="-1" implicit="yes" />
   <import index="bd2x" modelUID="r:aa9c91aa-8100-4e98-88e5-b9737f1d54b8(model.organisms)" version="-1" implicit="yes" />
@@ -9223,6 +9223,7 @@
     <node role="configuration" roleId="90kj.3827903497682006055" type="90kj.TestJobConfiguration" typeId="90kj.3827903497681813715" id="1546477733299206446" nodeInfo="ng">
       <property name="executionCompleted" nameId="bs99.4965834343965555115" value="false" />
       <property name="name" nameId="tpck.1169194664001" value="ExecutionTool" />
+      <property name="jobName" nameId="bs99.606449909789338951" value="treter" />
       <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="8515523077722744524" resolveInfo="PluginTestExecutionEnvironment" />
       <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="1546477733296864785" resolveInfo="PROCESS_READS_TASK" />
       <node role="fsiListeners" roleId="bs99.8515523077722947583" type="90kj.ListenAndSyncNewFSI" typeId="90kj.3827903497663560969" id="1546477733299206449" nodeInfo="ng">
@@ -9240,9 +9241,15 @@
       </node>
       <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="1546477733299206454" nodeInfo="ng">
         <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="1546477733296864792" resolveInfo="UPLOADS_FILES" />
+        <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="1546477733300659777" nodeInfo="ng">
+          <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="1546477733289570063" resolveInfo="CFS005-466-D1PRE_S11_L001_R1_001" />
+        </node>
       </node>
       <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="1546477733299206455" nodeInfo="ng">
         <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="1546477733296864794" resolveInfo="UPLOAD_MERGE_PLAN" />
+        <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="1546477733300659779" nodeInfo="ng">
+          <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="1546477733289576083" resolveInfo="merge-plan" />
+        </node>
       </node>
       <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="1546477733299206456" nodeInfo="ng">
         <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="1546477733296864809" resolveInfo="Tag for the new sample." />
@@ -9253,16 +9260,11 @@
     </node>
     <node role="script" roleId="90kj.1090105717921230261" type="90kj.TestScript" typeId="90kj.3827903497682417639" id="1546477733299206452" nodeInfo="ng">
       <node role="statements" roleId="90kj.3827903497682417649" type="tpee.StatementList" typeId="tpee.1068580123136" id="1546477733299206453" nodeInfo="sn">
-        <node role="statement" roleId="tpee.1068581517665" type="tpe3.AssertTrue" typeId="tpe3.1171981022339" id="1546477733299398425" nodeInfo="nn">
-          <node role="condition" roleId="tpe3.1171981057159" type="tpee.AndExpression" typeId="tpee.1080120340718" id="1546477733299720851" nodeInfo="nn">
-            <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.Expression" typeId="tpee.1068431790191" id="1546477733299720852" nodeInfo="nn" />
-            <node role="leftExpression" roleId="tpee.1081773367580" type="90kj.AssertIsPublished" typeId="90kj.1546477733295778841" id="1546477733299398596" nodeInfo="ng">
-              <link role="slot" roleId="90kj.1546477733296595768" targetNodeId="1546477733296864796" resolveInfo="COMPACT_READ_FILES" />
-            </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpe3.AssertTrue" typeId="tpe3.1171981022339" id="1546477733300841814" nodeInfo="nn">
+          <node role="condition" roleId="tpe3.1171981057159" type="90kj.AssertIsPublished" typeId="90kj.1546477733295778841" id="1546477733301788285" nodeInfo="ng">
+            <node role="slot" roleId="90kj.1546477733301632958" type="90kj.PluginOutputSlotRef" typeId="90kj.1546477733301229863" id="1546477733301788287" nodeInfo="ng" />
           </node>
         </node>
-        <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="1546477733299721055" nodeInfo="nn" />
-        <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="1546477733299721061" nodeInfo="nn" />
       </node>
     </node>
   </root>

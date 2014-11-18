@@ -120,5 +120,11 @@
     </dependencies>
     <rename id="90kj.1546477733295778841" type="CONCEPT" from="IsPublished" to="AssertIsPublished" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="90kj" modelUID="r:397eee62-00ff-4904-afbb-029e2b9cd1db(org.campagnelab.gobyweb.plugins.test.structure)" version="19" />
+    </dependencies>
+    <rename id="90kj.1546477733301232220" type="REFERENCE" from="slot" to="ref" />
+  </StructureModification>
 </history>
 
