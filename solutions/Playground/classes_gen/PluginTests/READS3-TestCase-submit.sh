@@ -88,8 +88,8 @@ else
 fi
 
 #SUBMIT THE JOB
-job_arguments="--plugins-dir ${PLUGINS_DIR} --job PROCESS_READS_TASK --job-tag OMSKUXC --owner gobyweb --queue rascals.q --job-area gobyweb@darla.med.cornell.edu:/zenodotus/campagnelab/scratch/data/gobyweb/trial/GOBYWEB_SGE_JOBS/ --fileset-area ${FILESET_AREA} --repository /scratchLocal/gobyweb/ARTIFACT_REPOSITORY-NYoSh/ --artifact-server gobyweb@darla.med.cornell.edu:/zenodotus/campagnelab/scratch/data/gobyweb/test/gobyweb2-plugins --broker-hostname toulouse.qib.pbtech --broker-port 5672 --TAG FAKETAG UPLOADS_FILES: ZAKCWFX UPLOAD_MERGE_PLAN: YDVIMWK "
-clean_tag gobyweb@darla.med.cornell.edu:/zenodotus/campagnelab/scratch/data/gobyweb/trial/GOBYWEB_SGE_JOBS/ gobyweb O/OMSKUXC
+job_arguments="--plugins-dir ${PLUGINS_DIR} --job null --job-tag OLQVDMO --owner gobyweb --queue rascals.q --job-area gobyweb@darla.med.cornell.edu:/zenodotus/campagnelab/scratch/data/gobyweb/trial/GOBYWEB_SGE_JOBS/ --fileset-area ${FILESET_AREA} --repository /scratchLocal/gobyweb/ARTIFACT_REPOSITORY-NYoSh/ --artifact-server gobyweb@darla.med.cornell.edu:/zenodotus/campagnelab/scratch/data/gobyweb/test/gobyweb2-plugins --broker-hostname toulouse.qib.pbtech --broker-port 5672 --null FAKETAG null: ZAKCWFX null: YDVIMWK "
+clean_tag gobyweb@darla.med.cornell.edu:/zenodotus/campagnelab/scratch/data/gobyweb/trial/GOBYWEB_SGE_JOBS/ gobyweb O/OLQVDMO
 plugins-submit-job $@ ${job_arguments}
 
 #TODO: parse the output to extract the JOB ID
