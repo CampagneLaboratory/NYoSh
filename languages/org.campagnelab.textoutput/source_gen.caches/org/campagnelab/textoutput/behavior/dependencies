@@ -8,6 +8,7 @@
     <classNode dependClassName="org.campagnelab.textoutput.behavior.Line_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.textoutput.behavior.Lines_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.textoutput.behavior.Phrase_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.textoutput.behavior.Phrases_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.textoutput.behavior.TextOutput_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor" />
   </dependency>
@@ -65,6 +66,18 @@
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.textoutput.behavior.Phrases_Behavior" file="Phrases_Behavior.java">
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+  </dependency>
+  <dependency className="org.campagnelab.textoutput.behavior.Phrases_BehaviorDescriptor" file="Phrases_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="org.campagnelab.textoutput.behavior.Phrase_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="org.campagnelab.textoutput.behavior.TextOutput_BehaviorDescriptor" file="TextOutput_BehaviorDescriptor.java">
