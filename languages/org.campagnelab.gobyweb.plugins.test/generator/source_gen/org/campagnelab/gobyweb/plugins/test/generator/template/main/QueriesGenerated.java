@@ -95,4 +95,12 @@ public class QueriesGenerated {
   public static Object propertyMacro_GetPropertyValue_827915552515297748(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), "name") + "-copy";
   }
+
+  public static Object propertyMacro_GetPropertyValue_1171932074421(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SNodeOperations.getAncestor(_context.getNode(), "org.campagnelab.gobyweb.plugins.test.structure.PluginTestCase", false, false), "name");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_5086493755336418407(final PropertyMacroContext _context) {
+    return SPropertyOperations.getBoolean(_context.getNode(), "abstractClass");
+  }
 }

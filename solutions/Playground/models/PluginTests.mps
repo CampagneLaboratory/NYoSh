@@ -9219,7 +9219,7 @@
     </node>
   </root>
   <root type="90kj.PluginTestCase" typeId="90kj.3827903497679865605" id="1546477733299206445" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="&lt;name&gt;-TestCase" />
+    <property name="name" nameId="tpck.1169194664001" value="READS4-TestCase" />
     <node role="configuration" roleId="90kj.3827903497682006055" type="90kj.TestJobConfiguration" typeId="90kj.3827903497681813715" id="1546477733299206446" nodeInfo="ng">
       <property name="executionCompleted" nameId="bs99.4965834343965555115" value="false" />
       <property name="name" nameId="tpck.1169194664001" value="ExecutionTool" />
