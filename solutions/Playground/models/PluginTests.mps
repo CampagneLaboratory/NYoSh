@@ -14907,5 +14907,81 @@
       </node>
     </node>
   </root>
+  <root type="90kj.PluginTestCase" typeId="90kj.3827903497679865605" id="8792472772530104445" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="dfdfd" />
+    <node role="configuration" roleId="90kj.3827903497682006055" type="90kj.TestJobConfiguration" typeId="90kj.3827903497681813715" id="8792472772530104447" nodeInfo="ng">
+      <property name="executionCompleted" nameId="bs99.4965834343965555115" value="false" />
+      <property name="name" nameId="tpck.1169194664001" value="ExecutionTool" />
+      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="90kj.ListenAndSyncNewFSI" typeId="90kj.3827903497663560969" id="8792472772530104450" nodeInfo="ng">
+        <property name="rank" nameId="bbh2.6587162469552164420" value="99" />
+        <link role="testEnvironment" roleId="90kj.3827903497666661570" targetNodeId="8515523077722744524" resolveInfo="PluginTestExecutionEnvironment" />
+      </node>
+      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ListenForSampleFileSets" typeId="7aad.7926097513313207836" id="8792472772530104448" nodeInfo="ng">
+        <property name="rank" nameId="bbh2.6587162469552164420" value="100" />
+      </node>
+      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ListenForAlignmentFileSets" typeId="7aad.6587162469555572132" id="8792472772530104449" nodeInfo="ng">
+        <property name="rank" nameId="bbh2.6587162469552164420" value="200" />
+      </node>
+      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ListenForAlignmentAnalysisFileSets" typeId="7aad.8524130661366375999" id="8792472772530104452" nodeInfo="ng">
+        <property name="rank" nameId="bbh2.6587162469552164420" value="300" />
+      </node>
+    </node>
+    <node role="script" roleId="90kj.1090105717921230261" type="90kj.TestScript" typeId="90kj.3827903497682417639" id="8792472772530104453" nodeInfo="ng">
+      <node role="body" roleId="90kj.3827903497682417649" type="tpee.StatementList" typeId="tpee.1068580123136" id="8792472772530104454" nodeInfo="sn" />
+    </node>
+  </root>
+  <root type="90kj.PluginTestCase" typeId="90kj.3827903497679865605" id="8792472772530569717" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="fdfd" />
+    <node role="configuration" roleId="90kj.3827903497682006055" type="90kj.TestJobConfiguration" typeId="90kj.3827903497681813715" id="8792472772530569720" nodeInfo="ng">
+      <property name="executionCompleted" nameId="bs99.4965834343965555115" value="false" />
+      <property name="name" nameId="tpck.1169194664001" value="ExecutionTool" />
+      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="90kj.ListenAndSyncNewFSI" typeId="90kj.3827903497663560969" id="8792472772530569723" nodeInfo="ng">
+        <property name="rank" nameId="bbh2.6587162469552164420" value="99" />
+        <link role="testEnvironment" roleId="90kj.3827903497666661570" targetNodeId="8515523077722744524" resolveInfo="PluginTestExecutionEnvironment" />
+      </node>
+      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ListenForSampleFileSets" typeId="7aad.7926097513313207836" id="8792472772530569721" nodeInfo="ng">
+        <property name="rank" nameId="bbh2.6587162469552164420" value="100" />
+      </node>
+      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ListenForAlignmentFileSets" typeId="7aad.6587162469555572132" id="8792472772530569722" nodeInfo="ng">
+        <property name="rank" nameId="bbh2.6587162469552164420" value="200" />
+      </node>
+      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ListenForAlignmentAnalysisFileSets" typeId="7aad.8524130661366375999" id="8792472772530569725" nodeInfo="ng">
+        <property name="rank" nameId="bbh2.6587162469552164420" value="300" />
+      </node>
+    </node>
+    <node role="script" roleId="90kj.1090105717921230261" type="90kj.TestScript" typeId="90kj.3827903497682417639" id="8792472772530569726" nodeInfo="ng">
+      <node role="body" roleId="90kj.3827903497682417649" type="tpee.StatementList" typeId="tpee.1068580123136" id="8792472772530569727" nodeInfo="sn" />
+    </node>
+  </root>
+  <root type="90kj.PluginTestSuite" typeId="90kj.1546477733294540654" id="8792472772530925636" nodeInfo="ng">
+    <property name="tagForTestClasses" nameId="90kj.8792472772527950742" value="LPMNCOJ" />
+    <property name="name" nameId="tpck.1169194664001" value="TestSuite" />
+    <node role="testCases" roleId="90kj.1546477733294663984" type="90kj.PluginTestCaseRef" typeId="90kj.1546477733294663107" id="8792472772530925637" nodeInfo="ng">
+      <link role="testCase" roleId="90kj.1546477733294663108" targetNodeId="8792472772530925635" resolveInfo="gggg" />
+    </node>
+  </root>
+  <root type="90kj.PluginTestCase" typeId="90kj.3827903497679865605" id="8792472772530925635" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="gggg" />
+    <node role="configuration" roleId="90kj.3827903497682006055" type="90kj.TestJobConfiguration" typeId="90kj.3827903497681813715" id="8792472772530925638" nodeInfo="ng">
+      <property name="executionCompleted" nameId="bs99.4965834343965555115" value="false" />
+      <property name="name" nameId="tpck.1169194664001" value="ExecutionTool" />
+      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="90kj.ListenAndSyncNewFSI" typeId="90kj.3827903497663560969" id="8792472772530925641" nodeInfo="ng">
+        <property name="rank" nameId="bbh2.6587162469552164420" value="99" />
+        <link role="testEnvironment" roleId="90kj.3827903497666661570" targetNodeId="8515523077722744524" resolveInfo="PluginTestExecutionEnvironment" />
+      </node>
+      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ListenForSampleFileSets" typeId="7aad.7926097513313207836" id="8792472772530925639" nodeInfo="ng">
+        <property name="rank" nameId="bbh2.6587162469552164420" value="100" />
+      </node>
+      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ListenForAlignmentFileSets" typeId="7aad.6587162469555572132" id="8792472772530925640" nodeInfo="ng">
+        <property name="rank" nameId="bbh2.6587162469552164420" value="200" />
+      </node>
+      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ListenForAlignmentAnalysisFileSets" typeId="7aad.8524130661366375999" id="8792472772530925643" nodeInfo="ng">
+        <property name="rank" nameId="bbh2.6587162469552164420" value="300" />
+      </node>
+    </node>
+    <node role="script" roleId="90kj.1090105717921230261" type="90kj.TestScript" typeId="90kj.3827903497682417639" id="8792472772530925644" nodeInfo="ng">
+      <node role="body" roleId="90kj.3827903497682417649" type="tpee.StatementList" typeId="tpee.1068580123136" id="8792472772530925645" nodeInfo="sn" />
+    </node>
+  </root>
 </model>
 
