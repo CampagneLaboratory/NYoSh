@@ -13,16 +13,32 @@
   <language namespace="83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)" />
   <language namespace="daafa647-f1f7-4b0b-b096-69cd7c8408c0(jetbrains.mps.baseLanguage.regexp)" />
   <language namespace="a247e09e-2435-45ba-b8d2-07e93feba96a(jetbrains.mps.baseLanguage.tuples)" />
-  <import index="rk0i" modelUID="r:5c1a2e64-6ce3-44f3-9901-91d04f21d955(org.campagnelab.nyosh.interactive.behavior)" version="0" />
+  <language namespace="760a0a8c-eabb-4521-8bfd-65db761a9ba3(jetbrains.mps.baseLanguage.logging)" />
+  <language namespace="d8f591ec-4d86-4af2-9f92-a9e93c803ffa(jetbrains.mps.lang.scopes)" />
+  <language namespace="4caf0310-491e-41f5-8a9b-2006b3a94898(jetbrains.mps.execution.util)" />
+  <language namespace="a21a7294-c126-4f63-8335-8fecd8c28c7e(org.campagnelab.NYoSh)" />
+  <language namespace="7fa12e9c-b949-4976-b4fa-19accbc320b4(jetbrains.mps.lang.dataFlow)" />
+  <language namespace="c6567f13-87ab-4686-8f6f-42e8228c0e27(org.campagnelab.nyosh.gstring)" />
+  <language namespace="27f97fd8-caeb-43a0-a73f-f8ac957f3a17(org.campagnelab.gobyweb.environment)" />
+  <language namespace="0f071fdb-3faa-4b8c-9f5e-1da0a01466d5(org.campagnelab.nyosh.environment)" />
+  <language namespace="901f5cf3-dc77-4c1e-bc5a-6382baee28b4(org.campagnelab.textoutput)" />
+  <import index="rk0i" modelUID="r:5c1a2e64-6ce3-44f3-9901-91d04f21d955(org.campagnelab.nyosh.interactive.behavior)" version="1" />
   <import index="tpfp" modelUID="r:00000000-0000-4000-0000-011c89590519(jetbrains.mps.baseLanguage.regexp.jetbrains.mps.regexp.accessory)" version="-1" />
-  <import index="440p" modelUID="r:a6c7903c-0b83-4bcf-8e49-8f150f2412bf(org.campagnelab.nyosh.interactive.structure)" version="5" />
+  <import index="440p" modelUID="r:a6c7903c-0b83-4bcf-8e49-8f150f2412bf(org.campagnelab.nyosh.interactive.structure)" version="8" />
   <import index="fxg7" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" version="-1" />
+  <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" />
+  <import index="l8u3" modelUID="r:da1fe7fb-c16e-4ab3-8e8d-707dd37502ce(nyosh.interactive)" version="-1" />
+  <import index="k7g3" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" version="-1" />
+  <import index="r9z8" modelUID="f:java_stub#0202ed86-955d-4227-9c20-377dd6b1f9ff#org.campagnelab.nyosh.exec(org.campagnelab.nyosh.lib/org.campagnelab.nyosh.exec@java_stub)" version="-1" />
   <import index="whle" modelUID="r:8e4fd1b7-1955-43a4-ace6-aaf9d13814f8(org.campagnelab.logger.structure)" version="1" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
-  <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" implicit="yes" />
   <import index="tpfo" modelUID="r:00000000-0000-4000-0000-011c89590518(jetbrains.mps.baseLanguage.regexp.structure)" version="0" implicit="yes" />
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
+  <import index="f2ff" modelUID="r:48d5f7d2-24be-4d82-ac12-8f4a2d414b11(org.campagnelab.nyosh.gstring.structure)" version="-1" implicit="yes" />
+  <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(org.campagnelab.NYoSh.structure)" version="30" implicit="yes" />
+  <import index="6pk0" modelUID="r:48f4e449-1a18-435e-ae88-4830aa794dc7(org.campagnelab.nyosh.environment.structure)" version="17" implicit="yes" />
+  <import index="p6sl" modelUID="r:175e6779-7e81-49b1-b295-33bbabafa8d6(org.campagnelab.textoutput.structure)" version="1" implicit="yes" />
   <root type="whle.Logger" typeId="whle.1925991773566712428" id="2499106119578556646" nodeInfo="ng" />
   <root type="tpee.ClassConcept" typeId="tpee.1068390468198" id="703430915534100259" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="A" />
@@ -87,7 +103,7 @@
               <node role="left" roleId="tpfo.1174485176897" type="tpfo.SeqRegexp" typeId="tpfo.1174484562151" id="5609990910848028240" nodeInfo="ng">
                 <node role="left" roleId="tpfo.1174485176897" type="tpfo.LineStartRegexp" typeId="tpfo.1175161264766" id="5609990910848028241" nodeInfo="ng" />
                 <node role="right" roleId="tpfo.1174485181039" type="tpfo.PlusRegexp" typeId="tpfo.1174482804200" id="5609990910848028242" nodeInfo="ng">
-                  <node role="regexp" roleId="tpfo.1174485243418" type="tpfo.PredefinedSymbolClassRegexp" typeId="tpfo.1174555732504" id="5609990910848028243" nodeInfo="ng">
+                  <node role="regexp" roleId="tpfo.1174485243418" type="tpfo.PredefinedSymbolClassRegexp" typeId="tpfo.1174555732504" id="794091573609534804" nodeInfo="ng">
                     <link role="symbolClass" roleId="tpfo.1174555843709" targetNodeId="tpfp.1174554710194" resolveInfo="\s" />
                   </node>
                 </node>
@@ -121,12 +137,12 @@
                                 <property name="start" nameId="tpfo.1174558315290" value="A" />
                                 <property name="end" nameId="tpfo.1174558317822" value="Z" />
                               </node>
-                              <node role="part" roleId="tpfo.1174557628217" type="tpfo.PredefinedSymbolClassSymbolClassPart" typeId="tpfo.1174558792178" id="703430915533550784" nodeInfo="ng">
+                              <node role="part" roleId="tpfo.1174557628217" type="tpfo.PredefinedSymbolClassSymbolClassPart" typeId="tpfo.1174558792178" id="794091573609534836" nodeInfo="ng">
                                 <link role="declaration" roleId="tpfo.1174558819022" targetNodeId="tpfp.1174554872719" resolveInfo="\p{Punct}" />
                               </node>
                             </node>
                           </node>
-                          <node role="left" roleId="tpfo.1174485176897" type="tpfo.PredefinedSymbolClassRegexp" typeId="tpfo.1174555732504" id="703430915533540666" nodeInfo="ng">
+                          <node role="left" roleId="tpfo.1174485176897" type="tpfo.PredefinedSymbolClassRegexp" typeId="tpfo.1174555732504" id="794091573609534833" nodeInfo="ng">
                             <link role="symbolClass" roleId="tpfo.1174555843709" targetNodeId="tpfp.1174554710194" resolveInfo="\s" />
                           </node>
                         </node>
@@ -160,10 +176,10 @@
                   </node>
                   <node role="right" roleId="tpfo.1174485181039" type="tpfo.SeqRegexp" typeId="tpfo.1174484562151" id="703430915533614981" nodeInfo="ng">
                     <node role="right" roleId="tpfo.1174485181039" type="tpfo.SeqRegexp" typeId="tpfo.1174484562151" id="703430915533618167" nodeInfo="ng">
-                      <node role="left" roleId="tpfo.1174485176897" type="tpfo.PredefinedSymbolClassRegexp" typeId="tpfo.1174555732504" id="703430915533617793" nodeInfo="ng">
+                      <node role="left" roleId="tpfo.1174485176897" type="tpfo.PredefinedSymbolClassRegexp" typeId="tpfo.1174555732504" id="794091573609534827" nodeInfo="ng">
                         <link role="symbolClass" roleId="tpfo.1174555843709" targetNodeId="tpfp.1194467092978" resolveInfo="\n" />
                       </node>
-                      <node role="right" roleId="tpfo.1174485181039" type="tpfo.PredefinedSymbolClassRegexp" typeId="tpfo.1174555732504" id="703430915533618179" nodeInfo="ng">
+                      <node role="right" roleId="tpfo.1174485181039" type="tpfo.PredefinedSymbolClassRegexp" typeId="tpfo.1174555732504" id="794091573609534830" nodeInfo="ng">
                         <link role="symbolClass" roleId="tpfo.1174555843709" targetNodeId="tpfp.1194467092978" resolveInfo="\n" />
                       </node>
                     </node>
@@ -176,15 +192,15 @@
                       <node role="left" roleId="tpfo.1174485176897" type="tpfo.PlusRegexp" typeId="tpfo.1174482804200" id="703430915534066911" nodeInfo="ng">
                         <node role="regexp" roleId="tpfo.1174485243418" type="tpfo.ParensRegexp" typeId="tpfo.1174491169200" id="703430915534064794" nodeInfo="ng">
                           <node role="expr" roleId="tpfo.1174491174779" type="tpfo.SeqRegexp" typeId="tpfo.1174484562151" id="703430915534066457" nodeInfo="ng">
-                            <node role="right" roleId="tpfo.1174485181039" type="tpfo.PredefinedSymbolClassRegexp" typeId="tpfo.1174555732504" id="703430915534066474" nodeInfo="ng">
+                            <node role="right" roleId="tpfo.1174485181039" type="tpfo.PredefinedSymbolClassRegexp" typeId="tpfo.1174555732504" id="794091573609534820" nodeInfo="ng">
                               <link role="symbolClass" roleId="tpfo.1174555843709" targetNodeId="tpfp.1194467092978" resolveInfo="\n" />
                             </node>
                             <node role="left" roleId="tpfo.1174485176897" type="tpfo.PlusRegexp" typeId="tpfo.1174482804200" id="703430915534062683" nodeInfo="ng">
                               <node role="regexp" roleId="tpfo.1174485243418" type="tpfo.NegativeSymbolClassRegexp" typeId="tpfo.1174554238051" id="703430915534070976" nodeInfo="ng">
-                                <node role="part" roleId="tpfo.1174557628217" type="tpfo.PredefinedSymbolClassSymbolClassPart" typeId="tpfo.1174558792178" id="703430915534071304" nodeInfo="ng">
+                                <node role="part" roleId="tpfo.1174557628217" type="tpfo.PredefinedSymbolClassSymbolClassPart" typeId="tpfo.1174558792178" id="794091573609534816" nodeInfo="ng">
                                   <link role="declaration" roleId="tpfo.1174558819022" targetNodeId="tpfp.1194467092978" resolveInfo="\n" />
                                 </node>
-                                <node role="part" roleId="tpfo.1174557628217" type="tpfo.PredefinedSymbolClassSymbolClassPart" typeId="tpfo.1174558792178" id="703430915534072070" nodeInfo="ng">
+                                <node role="part" roleId="tpfo.1174557628217" type="tpfo.PredefinedSymbolClassSymbolClassPart" typeId="tpfo.1174558792178" id="794091573609534823" nodeInfo="ng">
                                   <link role="declaration" roleId="tpfo.1174558819022" targetNodeId="tpfp.1194467108770" resolveInfo="\r" />
                                 </node>
                               </node>
@@ -323,6 +339,9 @@
       </node>
       <node role="parts" roleId="440p.6464425322393293458" type="440p.VariablePart" typeId="440p.6464425322393293455" id="5575801756724028467" nodeInfo="ng">
         <property name="path" nameId="440p.6464425322393293456" value="/sw/bin/" />
+      </node>
+      <node role="parts" roleId="440p.6464425322393293458" type="440p.VariablePart" typeId="440p.6464425322393293455" id="794091573612443707" nodeInfo="ng">
+        <property name="path" nameId="440p.6464425322393293456" value="/Users/fac2003/IdeaProjects/goby/goby" />
       </node>
     </node>
     <node role="variables" roleId="440p.6464425322393293460" type="440p.EnvironmentVariable" typeId="440p.6464425322393260420" id="960208585064121792" nodeInfo="ng">
@@ -1567,120 +1586,18 @@
     <node role="commandLine" roleId="440p.4971186484647521323" type="440p.InteractiveCommandLine" typeId="440p.4971186484647524822" id="6452284053554539090" nodeInfo="ng">
       <node role="command" roleId="440p.4971186484647524823" type="440p.Parallel" typeId="440p.5575801756724250909" id="6452284053554539150" nodeInfo="ng">
         <property name="argumentStrategy" nameId="440p.5575801756725110337" value="1" />
-        <node role="arguments" roleId="440p.5575801756724611619" type="440p.Argument" typeId="440p.5575801756725243344" id="6452284053554539648" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="fastq" />
-          <link role="fileBag" roleId="440p.5575801756725244483" targetNodeId="5575801756725614451" resolveInfo="MyFiles" />
+        <node role="arguments" roleId="440p.5575801756724611619" type="440p.Argument" typeId="440p.5575801756725243344" id="794091573608666397" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="FastqFiles" />
+          <link role="fileBag" roleId="440p.5575801756725244483" targetNodeId="794091573610909186" resolveInfo="Twosets" />
         </node>
-        <node role="command" roleId="440p.5575801756725107301" type="440p.CommandRef" typeId="440p.4971186484648268511" id="7382336670157404778" nodeInfo="ng">
-          <link role="command" roleId="440p.4971186484648268512" targetNodeId="1983714652192259308" resolveInfo="echo" />
-          <node role="options" roleId="440p.1799723199634317823" type="440p.OptionValue" typeId="440p.1799723199634315593" id="7382336670157444125" nodeInfo="ng">
-            <link role="optionDefinition" roleId="440p.1799723199634315670" targetNodeId="7382336670157444127" />
-            <node role="value" roleId="440p.960208585063640454" type="440p.AStringValue" typeId="440p.960208585063641526" id="7382336670157444126" nodeInfo="ng">
-              <property name="value" nameId="440p.960208585063643119" value="" />
-            </node>
-            <node role="selfDefinition" roleId="440p.6452284053554870713" type="440p.UnspecifiedOption" typeId="440p.6319426721283191109" id="7382336670157444127" nodeInfo="ng" />
-          </node>
-          <node role="options" roleId="440p.1799723199634317823" type="440p.OptionValue" typeId="440p.1799723199634315593" id="7382336670157444152" nodeInfo="ng">
-            <link role="optionDefinition" roleId="440p.1799723199634315670" targetNodeId="7382336670157444154" />
-            <node role="value" roleId="440p.960208585063640454" type="440p.AStringValue" typeId="440p.960208585063641526" id="7382336670157444153" nodeInfo="ng">
-              <property name="value" nameId="440p.960208585063643119" value="" />
-            </node>
-            <node role="selfDefinition" roleId="440p.6452284053554870713" type="440p.UnspecifiedOption" typeId="440p.6319426721283191109" id="7382336670157444154" nodeInfo="ng" />
-          </node>
-          <node role="options" roleId="440p.1799723199634317823" type="440p.OptionValue" typeId="440p.1799723199634315593" id="7382336670157444182" nodeInfo="ng">
-            <link role="optionDefinition" roleId="440p.1799723199634315670" targetNodeId="7382336670157444184" />
-            <node role="value" roleId="440p.960208585063640454" type="440p.AStringValue" typeId="440p.960208585063641526" id="7382336670157444183" nodeInfo="ng">
-              <property name="value" nameId="440p.960208585063643119" value="" />
-            </node>
-            <node role="selfDefinition" roleId="440p.6452284053554870713" type="440p.UnspecifiedOption" typeId="440p.6319426721283191109" id="7382336670157444184" nodeInfo="ng" />
-          </node>
-          <node role="options" roleId="440p.1799723199634317823" type="440p.ParallelArgumentOptionValue" typeId="440p.1983714652192278664" id="7382336670157425116" nodeInfo="ng">
-            <link role="optionDefinition" roleId="440p.1799723199634315670" targetNodeId="7382336670157425118" />
-            <link role="argument" roleId="440p.1983714652192280879" targetNodeId="6452284053554539648" resolveInfo="fastq" />
-            <node role="selfDefinition" roleId="440p.6452284053554870713" type="440p.UnspecifiedOption" typeId="440p.6319426721283191109" id="7382336670157425118" nodeInfo="ng" />
-            <node role="value" roleId="440p.3832291027724647822" type="440p.ParallelArgAValue" typeId="440p.3832291027724625778" id="7382336670157425119" nodeInfo="ng">
-              <link role="optionValue" roleId="440p.3832291027724626265" targetNodeId="7382336670157425116" />
-            </node>
-          </node>
-          <node role="options" roleId="440p.1799723199634317823" type="440p.OptionValue" typeId="440p.1799723199634315593" id="7382336670157405297" nodeInfo="ng">
-            <link role="optionDefinition" roleId="440p.1799723199634315670" targetNodeId="1983714652192259309" resolveInfo="file" />
-            <node role="selfDefinition" roleId="440p.6452284053554870713" type="440p.UnspecifiedOption" typeId="440p.6319426721283191109" id="7382336670157405299" nodeInfo="ng" />
-            <node role="value" roleId="440p.960208585063640454" type="440p.APathValue" typeId="440p.960208585063641919" id="7382336670157576025" nodeInfo="ng">
-              <node role="path" roleId="440p.960208585063642352" type="440p.InteractivePath" typeId="440p.8663900622043507972" id="7382336670157576026" nodeInfo="ng">
-                <node role="path" roleId="440p.8663900622043508056" type="440p.PathPart" typeId="440p.8663900622043508058" id="7382336670158690629" nodeInfo="ng">
-                  <property name="part" nameId="440p.8663900622043508062" value="." />
-                  <property name="isDirectory" nameId="440p.8663900622046639162" value="true" />
-                  <property name="isRoot" nameId="440p.8663900622047510234" value="false" />
-                </node>
-                <node role="path" roleId="440p.8663900622043508056" type="440p.PathPart" typeId="440p.8663900622043508058" id="7382336670158990787" nodeInfo="ng">
-                  <property name="part" nameId="440p.8663900622043508062" value=".." />
-                  <property name="isDirectory" nameId="440p.8663900622046639162" value="true" />
-                  <property name="isRoot" nameId="440p.8663900622047510234" value="false" />
-                </node>
-                <node role="path" roleId="440p.8663900622043508056" type="440p.PathPart" typeId="440p.8663900622043508058" id="7382336670158990794" nodeInfo="ng">
-                  <property name="part" nameId="440p.8663900622043508062" value="Contents" />
-                  <property name="isDirectory" nameId="440p.8663900622046639162" value="true" />
-                  <property name="isRoot" nameId="440p.8663900622047510234" value="false" />
-                </node>
-                <node role="path" roleId="440p.8663900622043508056" type="440p.PathPart" typeId="440p.8663900622043508058" id="7382336670159511961" nodeInfo="ng">
-                  <property name="part" nameId="440p.8663900622043508062" value="MacOS" />
-                  <property name="isDirectory" nameId="440p.8663900622046639162" value="true" />
-                  <property name="isRoot" nameId="440p.8663900622047510234" value="false" />
-                </node>
-                <node role="path" roleId="440p.8663900622043508056" type="440p.PathPart" typeId="440p.8663900622043508058" id="7382336670159511966" nodeInfo="ng">
-                  <property name="part" nameId="440p.8663900622043508062" value="" />
-                  <property name="isDirectory" nameId="440p.8663900622046639162" value="false" />
-                  <property name="isRoot" nameId="440p.8663900622047510234" value="false" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node role="options" roleId="440p.1799723199634317823" type="440p.OptionValue" typeId="440p.1799723199634315593" id="7382336670157444080" nodeInfo="ng">
-            <link role="optionDefinition" roleId="440p.1799723199634315670" targetNodeId="7382336670157444082" />
-            <node role="value" roleId="440p.960208585063640454" type="440p.AStringValue" typeId="440p.960208585063641526" id="7382336670157444081" nodeInfo="ng">
-              <property name="value" nameId="440p.960208585063643119" value="" />
-            </node>
-            <node role="selfDefinition" roleId="440p.6452284053554870713" type="440p.UnspecifiedOption" typeId="440p.6319426721283191109" id="7382336670157444082" nodeInfo="ng" />
-          </node>
-          <node role="options" roleId="440p.1799723199634317823" type="440p.OptionValue" typeId="440p.1799723199634315593" id="7382336670157425083" nodeInfo="ng">
-            <link role="optionDefinition" roleId="440p.1799723199634315670" targetNodeId="7382336670157425085" />
-            <node role="value" roleId="440p.960208585063640454" type="440p.AStringValue" typeId="440p.960208585063641526" id="7382336670157425084" nodeInfo="ng">
-              <property name="value" nameId="440p.960208585063643119" value="" />
-            </node>
-            <node role="selfDefinition" roleId="440p.6452284053554870713" type="440p.UnspecifiedOption" typeId="440p.6319426721283191109" id="7382336670157425085" nodeInfo="ng" />
-          </node>
-          <node role="options" roleId="440p.1799723199634317823" type="440p.OptionValue" typeId="440p.1799723199634315593" id="7382336670157425071" nodeInfo="ng">
-            <link role="optionDefinition" roleId="440p.1799723199634315670" targetNodeId="7382336670157425073" />
-            <node role="value" roleId="440p.960208585063640454" type="440p.AStringValue" typeId="440p.960208585063641526" id="7382336670157425072" nodeInfo="ng">
-              <property name="value" nameId="440p.960208585063643119" value="" />
-            </node>
-            <node role="selfDefinition" roleId="440p.6452284053554870713" type="440p.UnspecifiedOption" typeId="440p.6319426721283191109" id="7382336670157425073" nodeInfo="ng" />
-          </node>
-          <node role="options" roleId="440p.1799723199634317823" type="440p.OptionValue" typeId="440p.1799723199634315593" id="7382336670157407394" nodeInfo="ng">
-            <link role="optionDefinition" roleId="440p.1799723199634315670" targetNodeId="7382336670157407396" />
-            <node role="value" roleId="440p.960208585063640454" type="440p.AStringValue" typeId="440p.960208585063641526" id="7382336670157407395" nodeInfo="ng">
-              <property name="value" nameId="440p.960208585063643119" value="" />
-            </node>
-            <node role="selfDefinition" roleId="440p.6452284053554870713" type="440p.UnspecifiedOption" typeId="440p.6319426721283191109" id="7382336670157407396" nodeInfo="ng" />
-          </node>
+        <node role="command" roleId="440p.5575801756725107301" type="440p.TextCommand" typeId="440p.4971186484647513070" id="794091573612440826" nodeInfo="ng">
+          <property name="query" nameId="440p.4971186484647513071" value="goby" />
         </node>
       </node>
     </node>
   </root>
   <root type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="5575801756725614451" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="MyFiles" />
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="5575801756725963765" nodeInfo="ng">
-      <property name="fullPath" nameId="440p.5575801756724621394" value="/data/trimmomatic/Sample_1-P1-Re-1/1-P1-Re-1_AACGTGAT_L006_R1_001.fastq.gz" />
-    </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="5575801756725963766" nodeInfo="ng">
-      <property name="fullPath" nameId="440p.5575801756724621394" value="/data/trimmomatic/Sample_1-P1-Re-1/1-P1-Re-1_AACGTGAT_L006_R1_002.fastq.gz" />
-    </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="5575801756725963767" nodeInfo="ng">
-      <property name="fullPath" nameId="440p.5575801756724621394" value="/data/trimmomatic/Sample_1-P1-Re-1/1-P1-Re-1_AACGTGAT_L006_R2_001.fastq.gz" />
-    </node>
-    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="5575801756725963768" nodeInfo="ng">
-      <property name="fullPath" nameId="440p.5575801756724621394" value="/data/trimmomatic/Sample_1-P1-Re-1/1-P1-Re-1_AACGTGAT_L006_R2_002.fastq.gz" />
-    </node>
   </root>
   <root type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="7365124595416180287" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="CompactReadsAllo4" />
@@ -1833,6 +1750,2524 @@
     <property name="name" nameId="tpck.1169194664001" value="FilesForTesting" />
     <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="7365124595418942503" nodeInfo="ng">
       <property name="fullPath" nameId="440p.5575801756724621394" value="/data/files/PLNFVDJ-a" />
+    </node>
+  </root>
+  <root type="440p.RecursiveExplicitFileBag" typeId="440p.794091573598763750" id="794091573599537913" nodeInfo="ng">
+    <property name="pattern" nameId="440p.794091573598775541" value="*.fastq.gz" />
+    <property name="name" nameId="tpck.1169194664001" value="DiamondProjectFiles" />
+  </root>
+  <root type="440p.RenamePlan" typeId="440p.794091573600807021" id="794091573601650941" nodeInfo="ng">
+    <property name="textImport" nameId="440p.794091573601652603" value="" />
+    <property name="name" nameId="tpck.1169194664001" value="HY" />
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573604580401" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY1" />
+      <property name="to" nameId="440p.794091573600807341" value="HY1-DWEYS-0-NO" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573604580402" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY2" />
+      <property name="to" nameId="440p.794091573600807341" value="HY2-DWEYS-0-NO" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573604580403" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY3" />
+      <property name="to" nameId="440p.794091573600807341" value="HY3-DWEYS-0-NO" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573604580404" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY4" />
+      <property name="to" nameId="440p.794091573600807341" value="HY4-CORE-0-NO" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573604580405" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY5" />
+      <property name="to" nameId="440p.794091573600807341" value="HY5-CORE-0-NO" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573604580406" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY6" />
+      <property name="to" nameId="440p.794091573600807341" value="HY6-CORE-0-NO" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573604580407" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY7" />
+      <property name="to" nameId="440p.794091573600807341" value="HY7-WT-0-NO" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573604580408" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY8" />
+      <property name="to" nameId="440p.794091573600807341" value="HY8-WT-0-NO" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573604580409" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY9" />
+      <property name="to" nameId="440p.794091573600807341" value="HY9-WT-0-NO" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573604580410" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY10" />
+      <property name="to" nameId="440p.794091573600807341" value="HY10-DWEYS-1-LPS" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573604580411" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY11" />
+      <property name="to" nameId="440p.794091573600807341" value="HY11-DWEYS-1-LPS" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573604580412" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY12" />
+      <property name="to" nameId="440p.794091573600807341" value="HY12-DWEYS-1-LPS" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573604580413" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY13" />
+      <property name="to" nameId="440p.794091573600807341" value="HY13-CORE-1-LPS" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573604580414" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY14" />
+      <property name="to" nameId="440p.794091573600807341" value="HY14-CORE-1-LPS" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573604580415" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY15" />
+      <property name="to" nameId="440p.794091573600807341" value="HY15-CORE-1-LPS" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573604580416" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY16" />
+      <property name="to" nameId="440p.794091573600807341" value="HY16-WT-1-LPS" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573604580417" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY17" />
+      <property name="to" nameId="440p.794091573600807341" value="HY17-WT-1-LPS" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573604580418" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY25" />
+      <property name="to" nameId="440p.794091573600807341" value="HY25-WT-1-LPS" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573604580419" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY18" />
+      <property name="to" nameId="440p.794091573600807341" value="HY18-DWEYS-4-LPS" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573604580420" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY19" />
+      <property name="to" nameId="440p.794091573600807341" value="HY19-DWEYS-4-LPS" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573604580421" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY20" />
+      <property name="to" nameId="440p.794091573600807341" value="HY20-DWEYS-4-LPS" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573604580422" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY22" />
+      <property name="to" nameId="440p.794091573600807341" value="HY22-CORE-4-LPS" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573604580423" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY23" />
+      <property name="to" nameId="440p.794091573600807341" value="HY23-CORE-4-LPS" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573604580424" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY24" />
+      <property name="to" nameId="440p.794091573600807341" value="HY24-CORE-4-LPS" />
+    </node>
+  </root>
+  <root type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573605731307" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="MyBag" />
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573607073092" nodeInfo="ng">
+      <property name="fullPath" nameId="440p.5575801756724621394" value="/data/testDir/1-a.fastq.gz" />
+      <property name="name" nameId="tpck.1169194664001" value="1-a.fastq.gz" />
+    </node>
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573607073093" nodeInfo="ng">
+      <property name="fullPath" nameId="440p.5575801756724621394" value="/data/testDir/1-b.fastq.gz" />
+      <property name="name" nameId="tpck.1169194664001" value="1-b.fastq.gz" />
+    </node>
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573607073094" nodeInfo="ng">
+      <property name="fullPath" nameId="440p.5575801756724621394" value="/data/testDir/2-a.fastq.gz" />
+      <property name="name" nameId="tpck.1169194664001" value="2-a.fastq.gz" />
+    </node>
+    <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573607073095" nodeInfo="ng">
+      <property name="fullPath" nameId="440p.5575801756724621394" value="/data/testDir/2-b.fastq.gz" />
+      <property name="name" nameId="tpck.1169194664001" value="2-b.fastq.gz" />
+    </node>
+  </root>
+  <root type="440p.RenamePlan" typeId="440p.794091573600807021" id="794091573605731862" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="Step1" />
+    <property name="textImport" nameId="440p.794091573601652603" value="" />
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573608667046" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY1_" />
+      <property name="to" nameId="440p.794091573600807341" value="HY1-DWEYS-0-NO_" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573608667047" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY2_" />
+      <property name="to" nameId="440p.794091573600807341" value="HY2-DWEYS-0-NO_" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573608667048" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY3_" />
+      <property name="to" nameId="440p.794091573600807341" value="HY3-DWEYS-0-NO_" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573608667049" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY4_" />
+      <property name="to" nameId="440p.794091573600807341" value="HY4-CORE-0-NO_" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573608667050" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY5_" />
+      <property name="to" nameId="440p.794091573600807341" value="HY5-CORE-0-NO_" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573608667051" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY6_" />
+      <property name="to" nameId="440p.794091573600807341" value="HY6-CORE-0-NO_" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573608667052" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY7_" />
+      <property name="to" nameId="440p.794091573600807341" value="HY7-WT-0-NO_" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573608667053" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY8_" />
+      <property name="to" nameId="440p.794091573600807341" value="HY8-WT-0-NO_" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573608667054" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY9_" />
+      <property name="to" nameId="440p.794091573600807341" value="HY9-WT-0-NO_" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573608667055" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY10_" />
+      <property name="to" nameId="440p.794091573600807341" value="HY10-DWEYS-1-LPS_" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573608667056" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY11_" />
+      <property name="to" nameId="440p.794091573600807341" value="HY11-DWEYS-1-LPS_" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573608667057" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY12_" />
+      <property name="to" nameId="440p.794091573600807341" value="HY12-DWEYS-1-LPS_" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573608667058" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY13_" />
+      <property name="to" nameId="440p.794091573600807341" value="HY13-CORE-1-LPS_" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573608667059" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY14_" />
+      <property name="to" nameId="440p.794091573600807341" value="HY14-CORE-1-LPS_" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573608667060" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY15_" />
+      <property name="to" nameId="440p.794091573600807341" value="HY15-CORE-1-LPS_" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573608667061" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY16_" />
+      <property name="to" nameId="440p.794091573600807341" value="HY16-WT-1-LPS_" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573608667062" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY17_" />
+      <property name="to" nameId="440p.794091573600807341" value="HY17-WT-1-LPS_" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573608667063" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY25_" />
+      <property name="to" nameId="440p.794091573600807341" value="HY25-WT-1-LPS_" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573608667064" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY18_" />
+      <property name="to" nameId="440p.794091573600807341" value="HY18-DWEYS-4-LPS_" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573608667065" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY19_" />
+      <property name="to" nameId="440p.794091573600807341" value="HY19-DWEYS-4-LPS_" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573608667066" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY20_" />
+      <property name="to" nameId="440p.794091573600807341" value="HY20-DWEYS-4-LPS_" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573608667067" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY22_" />
+      <property name="to" nameId="440p.794091573600807341" value="HY22-CORE-4-LPS_" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573608667068" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY23_" />
+      <property name="to" nameId="440p.794091573600807341" value="HY23-CORE-4-LPS_" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573608667069" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY24_" />
+      <property name="to" nameId="440p.794091573600807341" value="HY24-CORE-4-LPS_" />
+    </node>
+  </root>
+  <root type="440p.RenamePlan" typeId="440p.794091573600807021" id="794091573607382769" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="RemoveBarCodeFromName" />
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573607382770" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="_??????_L*_R1" />
+    </node>
+  </root>
+  <root type="440p.Environment" typeId="440p.6464425322393236243" id="794091573608647740" nodeInfo="ng">
+    <node role="commands" roleId="440p.4917422094265794240" type="440p.Command" typeId="440p.4917422094265794243" id="794091573612445417" nodeInfo="ng">
+      <node role="options" roleId="440p.2499106119578346697" type="440p.Option" typeId="440p.6319426721283581730" id="794091573612445423" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="1g" />
+      </node>
+    </node>
+    <node role="variables" roleId="440p.6464425322393293460" type="440p.EnvironmentVariable" typeId="440p.6464425322393260420" id="794091573608647741" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="SHELL" />
+      <node role="parts" roleId="440p.6464425322393293458" type="440p.VariablePart" typeId="440p.6464425322393293455" id="794091573608647742" nodeInfo="ng">
+        <property name="path" nameId="440p.6464425322393293456" value="/bin/bash" />
+      </node>
+    </node>
+    <node role="variables" roleId="440p.6464425322393293460" type="440p.EnvironmentVariable" typeId="440p.6464425322393260420" id="794091573608647743" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="TMPDIR" />
+      <node role="parts" roleId="440p.6464425322393293458" type="440p.VariablePart" typeId="440p.6464425322393293455" id="794091573608647744" nodeInfo="ng">
+        <property name="path" nameId="440p.6464425322393293456" value="/var/folders/7c/dskpdg6x6f384r541lfzmjk00000gp/T/" />
+      </node>
+    </node>
+    <node role="variables" roleId="440p.6464425322393293460" type="440p.EnvironmentVariable" typeId="440p.6464425322393260420" id="794091573608647745" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="__CF_USER_TEXT_ENCODING" />
+      <node role="parts" roleId="440p.6464425322393293458" type="440p.VariablePart" typeId="440p.6464425322393293455" id="794091573608647746" nodeInfo="ng">
+        <property name="path" nameId="440p.6464425322393293456" value="0x1F6" />
+      </node>
+      <node role="parts" roleId="440p.6464425322393293458" type="440p.VariablePart" typeId="440p.6464425322393293455" id="794091573608647747" nodeInfo="ng">
+        <property name="path" nameId="440p.6464425322393293456" value="0x0" />
+      </node>
+      <node role="parts" roleId="440p.6464425322393293458" type="440p.VariablePart" typeId="440p.6464425322393293455" id="794091573608647748" nodeInfo="ng">
+        <property name="path" nameId="440p.6464425322393293456" value="0x0" />
+      </node>
+    </node>
+    <node role="variables" roleId="440p.6464425322393293460" type="440p.EnvironmentVariable" typeId="440p.6464425322393260420" id="794091573608647749" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="PATH" />
+      <node role="parts" roleId="440p.6464425322393293458" type="440p.VariablePart" typeId="440p.6464425322393293455" id="794091573608647750" nodeInfo="ng">
+        <property name="path" nameId="440p.6464425322393293456" value="/usr/bin" />
+      </node>
+      <node role="parts" roleId="440p.6464425322393293458" type="440p.VariablePart" typeId="440p.6464425322393293455" id="794091573608647751" nodeInfo="ng">
+        <property name="path" nameId="440p.6464425322393293456" value="/bin" />
+      </node>
+      <node role="parts" roleId="440p.6464425322393293458" type="440p.VariablePart" typeId="440p.6464425322393293455" id="794091573608647752" nodeInfo="ng">
+        <property name="path" nameId="440p.6464425322393293456" value="/usr/sbin" />
+      </node>
+      <node role="parts" roleId="440p.6464425322393293458" type="440p.VariablePart" typeId="440p.6464425322393293455" id="794091573608647753" nodeInfo="ng">
+        <property name="path" nameId="440p.6464425322393293456" value="/sbin" />
+      </node>
+      <node role="parts" roleId="440p.6464425322393293458" type="440p.VariablePart" typeId="440p.6464425322393293455" id="794091573612444843" nodeInfo="ng">
+        <property name="path" nameId="440p.6464425322393293456" value="/Users/fac2003/IdeaProjects/goby/goby" />
+      </node>
+    </node>
+    <node role="variables" roleId="440p.6464425322393293460" type="440p.EnvironmentVariable" typeId="440p.6464425322393260420" id="794091573608647754" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="XPC_FLAGS" />
+      <node role="parts" roleId="440p.6464425322393293458" type="440p.VariablePart" typeId="440p.6464425322393293455" id="794091573608647755" nodeInfo="ng">
+        <property name="path" nameId="440p.6464425322393293456" value="0x0" />
+      </node>
+    </node>
+    <node role="variables" roleId="440p.6464425322393293460" type="440p.EnvironmentVariable" typeId="440p.6464425322393260420" id="794091573608647756" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="DISPLAY" />
+      <node role="parts" roleId="440p.6464425322393293458" type="440p.VariablePart" typeId="440p.6464425322393293455" id="794091573608647757" nodeInfo="ng">
+        <property name="path" nameId="440p.6464425322393293456" value="/private/tmp/com.apple.launchd.9PeRntCtdr/org.macosforge.xquartz" />
+      </node>
+      <node role="parts" roleId="440p.6464425322393293458" type="440p.VariablePart" typeId="440p.6464425322393293455" id="794091573608647758" nodeInfo="ng">
+        <property name="path" nameId="440p.6464425322393293456" value="0" />
+      </node>
+    </node>
+    <node role="variables" roleId="440p.6464425322393293460" type="440p.EnvironmentVariable" typeId="440p.6464425322393260420" id="794091573608647759" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="USER" />
+      <node role="parts" roleId="440p.6464425322393293458" type="440p.VariablePart" typeId="440p.6464425322393293455" id="794091573608647760" nodeInfo="ng">
+        <property name="path" nameId="440p.6464425322393293456" value="fac2003" />
+      </node>
+    </node>
+    <node role="variables" roleId="440p.6464425322393293460" type="440p.EnvironmentVariable" typeId="440p.6464425322393260420" id="794091573608647761" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="HOME" />
+      <node role="parts" roleId="440p.6464425322393293458" type="440p.VariablePart" typeId="440p.6464425322393293455" id="794091573608647762" nodeInfo="ng">
+        <property name="path" nameId="440p.6464425322393293456" value="/Users/fac2003" />
+      </node>
+    </node>
+    <node role="variables" roleId="440p.6464425322393293460" type="440p.EnvironmentVariable" typeId="440p.6464425322393260420" id="794091573608647763" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="XPC_SERVICE_NAME" />
+      <node role="parts" roleId="440p.6464425322393293458" type="440p.VariablePart" typeId="440p.6464425322393293455" id="794091573608647764" nodeInfo="ng">
+        <property name="path" nameId="440p.6464425322393293456" value="com.jetbrains.intellij.55980" />
+      </node>
+    </node>
+    <node role="variables" roleId="440p.6464425322393293460" type="440p.EnvironmentVariable" typeId="440p.6464425322393260420" id="794091573608647765" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="LOGNAME" />
+      <node role="parts" roleId="440p.6464425322393293458" type="440p.VariablePart" typeId="440p.6464425322393293455" id="794091573608647766" nodeInfo="ng">
+        <property name="path" nameId="440p.6464425322393293456" value="fac2003" />
+      </node>
+    </node>
+    <node role="variables" roleId="440p.6464425322393293460" type="440p.EnvironmentVariable" typeId="440p.6464425322393260420" id="794091573608647767" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="Apple_PubSub_Socket_Render" />
+      <node role="parts" roleId="440p.6464425322393293458" type="440p.VariablePart" typeId="440p.6464425322393293455" id="794091573608647768" nodeInfo="ng">
+        <property name="path" nameId="440p.6464425322393293456" value="/private/tmp/com.apple.launchd.CW6eTbBiWX/Render" />
+      </node>
+    </node>
+    <node role="variables" roleId="440p.6464425322393293460" type="440p.EnvironmentVariable" typeId="440p.6464425322393260420" id="794091573608647769" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="SSH_AUTH_SOCK" />
+      <node role="parts" roleId="440p.6464425322393293458" type="440p.VariablePart" typeId="440p.6464425322393293455" id="794091573608647770" nodeInfo="ng">
+        <property name="path" nameId="440p.6464425322393293456" value="/private/tmp/com.apple.launchd.EbM3M6IaKf/Listeners" />
+      </node>
+    </node>
+    <node role="commandLine" roleId="440p.4971186484647521323" type="440p.InteractiveCommandLine" typeId="440p.4971186484647524822" id="794091573608647771" nodeInfo="ng">
+      <node role="command" roleId="440p.4971186484647524823" type="440p.TextCommand" typeId="440p.4971186484647513070" id="794091573608647773" nodeInfo="ng">
+        <property name="query" nameId="440p.4971186484647513071" value="goby" />
+      </node>
+    </node>
+    <node role="path" roleId="440p.8663900622043520901" type="440p.InteractivePath" typeId="440p.8663900622043507972" id="794091573608647774" nodeInfo="ng">
+      <node role="path" roleId="440p.8663900622043508056" type="440p.PathPart" typeId="440p.8663900622043508058" id="794091573608647775" nodeInfo="ng">
+        <property name="part" nameId="440p.8663900622043508062" value="" />
+        <property name="isDirectory" nameId="440p.8663900622046639162" value="true" />
+        <property name="isRoot" nameId="440p.8663900622047510234" value="false" />
+      </node>
+    </node>
+  </root>
+  <root type="440p.RenamePlan" typeId="440p.794091573600807021" id="794091573609033367" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="Assign to Groups" />
+    <property name="textImport" nameId="440p.794091573601652603" value="" />
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573609033369" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="R1" />
+      <property name="to" nameId="440p.794091573600807341" value="Group1" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573609033372" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="R2" />
+      <property name="to" nameId="440p.794091573600807341" value="Group2" />
+    </node>
+  </root>
+  <root type="440p.SetOfBags" typeId="440p.794091573608667617" id="794091573610909186" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="Twosets" />
+    <node role="bags" roleId="440p.794091573608667758" type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573610909187" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="R1" />
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="5575801756725963765" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/trimmomatic/Sample_1-P1-Re-1/1-P1-Re-1_AACGTGAT_L006_R1_001.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="1-P1-Re-1_AACGTGAT_L006_R1_001.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="5575801756725963766" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/trimmomatic/Sample_1-P1-Re-1/1-P1-Re-1_AACGTGAT_L006_R1_002.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="1-P1-Re-1_AACGTGAT_L006_R1_002.fastq.gz" />
+      </node>
+    </node>
+    <node role="bags" roleId="440p.794091573608667758" type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573610909188" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="R2" />
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="5575801756725963767" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/trimmomatic/Sample_1-P1-Re-1/1-P1-Re-1_AACGTGAT_L006_R2_001.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="1-P1-Re-1_AACGTGAT_L006_R2_001.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="5575801756725963768" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/trimmomatic/Sample_1-P1-Re-1/1-P1-Re-1_AACGTGAT_L006_R2_002.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="1-P1-Re-1_AACGTGAT_L006_R2_002.fastq.gz" />
+      </node>
+    </node>
+  </root>
+  <root type="440p.ExecuteTool" typeId="440p.794091573612445995" id="794091573612485798" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="ExecuteTool" />
+    <link role="setOfFileBags" roleId="440p.794091573612496256" targetNodeId="794091573614021014" resolveInfo="DiamongBagsSet2" />
+    <node role="function" roleId="440p.794091573618010384" type="440p.ExecuteToolFunction" typeId="440p.794091573617490278" id="794091573618315721" nodeInfo="ng">
+      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="794091573618315722" nodeInfo="sn">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="794091573623969874" nodeInfo="nn" />
+        <node role="statement" roleId="tpee.1068581517665" type="6pk0.EnvironmentSourceList" typeId="6pk0.3173353997360946752" id="794091573622902456" nodeInfo="nr">
+          <node role="sources" roleId="6pk0.3173353997360946804" type="6pk0.JVMSource" typeId="6pk0.5955265417291063247" id="794091573622902542" nodeInfo="nr">
+            <node role="loader" roleId="6pk0.3173353997360796899" type="6pk0.JVMLoader" typeId="6pk0.5955265417291063310" id="794091573622902545" nodeInfo="nr">
+              <link role="source" roleId="6pk0.3173353997362497485" targetNodeId="794091573622902542" />
+            </node>
+            <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="794091573622902594" nodeInfo="nr">
+              <property name="value" nameId="6pk0.5469406079154538151" value="/private/tmp/com.apple.launchd.CW6eTbBiWX/Render" />
+              <property name="name" nameId="tpck.1169194664001" value="Apple_PubSub_Socket_Render" />
+              <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
+            </node>
+            <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="794091573622902595" nodeInfo="nr">
+              <property name="value" nameId="6pk0.5469406079154538151" value="/private/tmp/com.apple.launchd.9PeRntCtdr/org.macosforge.xquartz:0" />
+              <property name="name" nameId="tpck.1169194664001" value="DISPLAY" />
+              <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
+            </node>
+            <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="794091573622902596" nodeInfo="nr">
+              <property name="value" nameId="6pk0.5469406079154538151" value="/Users/fac2003" />
+              <property name="name" nameId="tpck.1169194664001" value="HOME" />
+              <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
+            </node>
+            <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="794091573622902597" nodeInfo="nr">
+              <property name="value" nameId="6pk0.5469406079154538151" value="fac2003" />
+              <property name="name" nameId="tpck.1169194664001" value="LOGNAME" />
+              <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
+            </node>
+            <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="794091573622902598" nodeInfo="nr">
+              <property name="value" nameId="6pk0.5469406079154538151" value="/usr/bin:/bin:/usr/sbin:/sbin" />
+              <property name="name" nameId="tpck.1169194664001" value="PATH" />
+              <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
+            </node>
+            <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="794091573622902599" nodeInfo="nr">
+              <property name="value" nameId="6pk0.5469406079154538151" value="/bin/bash" />
+              <property name="name" nameId="tpck.1169194664001" value="SHELL" />
+              <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
+            </node>
+            <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="794091573622902600" nodeInfo="nr">
+              <property name="value" nameId="6pk0.5469406079154538151" value="/private/tmp/com.apple.launchd.EbM3M6IaKf/Listeners" />
+              <property name="name" nameId="tpck.1169194664001" value="SSH_AUTH_SOCK" />
+              <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
+            </node>
+            <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="794091573622902601" nodeInfo="nr">
+              <property name="value" nameId="6pk0.5469406079154538151" value="/var/folders/7c/dskpdg6x6f384r541lfzmjk00000gp/T/" />
+              <property name="name" nameId="tpck.1169194664001" value="TMPDIR" />
+              <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
+            </node>
+            <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="794091573622902602" nodeInfo="nr">
+              <property name="value" nameId="6pk0.5469406079154538151" value="fac2003" />
+              <property name="name" nameId="tpck.1169194664001" value="USER" />
+              <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
+            </node>
+            <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="794091573622902603" nodeInfo="nr">
+              <property name="value" nameId="6pk0.5469406079154538151" value="0x0" />
+              <property name="name" nameId="tpck.1169194664001" value="XPC_FLAGS" />
+              <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
+            </node>
+            <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="794091573622902604" nodeInfo="nr">
+              <property name="value" nameId="6pk0.5469406079154538151" value="com.jetbrains.intellij.55980" />
+              <property name="name" nameId="tpck.1169194664001" value="XPC_SERVICE_NAME" />
+              <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
+            </node>
+            <node role="availableVariables" roleId="6pk0.9004698741416289947" type="6pk0.EnvVariableDeclaration" typeId="6pk0.5955265417291138207" id="794091573622902605" nodeInfo="nr">
+              <property name="value" nameId="6pk0.5469406079154538151" value="0x1F6:0x0:0x0" />
+              <property name="name" nameId="tpck.1169194664001" value="__CF_USER_TEXT_ENCODING" />
+              <property name="kind" nameId="6pk0.5463028992315853055" value="STRING" />
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="6pk0.ExportCommand" typeId="6pk0.6956376092815676508" id="794091573622922910" nodeInfo="nr">
+          <link role="variable" roleId="6pk0.3356917312211328409" targetNodeId="794091573622902598" resolveInfo="PATH" />
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="4tvk.ExecuteCommand" typeId="4tvk.8197864363320353692" id="794091573612485805" nodeInfo="ng">
+          <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.GStringCommand" typeId="4tvk.8155370969619067580" id="794091573612485807" nodeInfo="ng">
+            <node role="command" roleId="4tvk.8155370969619067612" type="f2ff.GString" typeId="f2ff.1012285663620319605" id="794091573612485819" nodeInfo="ng">
+              <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="794091573622880427" nodeInfo="ng">
+                <property name="value" nameId="f2ff.1012285663620336023" value=" " />
+              </node>
+              <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="794091573622864529" nodeInfo="ng">
+                <property name="value" nameId="f2ff.1012285663620336023" value=" echo /Users/fac2003/IdeaProjects/goby/goby" />
+              </node>
+              <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="794091573612485826" nodeInfo="ng">
+                <property name="value" nameId="f2ff.1012285663620336023" value=" 1g fasta-to-compact --concat --quality-encoding Sanger -o " />
+              </node>
+              <node role="components" roleId="f2ff.1012285663620335803" type="440p.GStringParamReference" typeId="440p.1012285663620336025" id="794091573621781331" nodeInfo="ng">
+                <node role="expression" roleId="440p.794091573621627348" type="440p.SampleIdsParam" typeId="440p.794091573617519915" id="794091573621959784" nodeInfo="ng" />
+              </node>
+              <node role="components" roleId="f2ff.1012285663620335803" type="f2ff.GStringLiteral" typeId="f2ff.1012285663620336022" id="794091573622757458" nodeInfo="ng">
+                <property name="value" nameId="f2ff.1012285663620336023" value="  " />
+              </node>
+              <node role="components" roleId="f2ff.1012285663620335803" type="440p.GStringParamReference" typeId="440p.1012285663620336025" id="794091573621961788" nodeInfo="ng">
+                <node role="expression" roleId="440p.794091573621627348" type="440p.FileBagParam" typeId="440p.794091573617882435" id="794091573621962469" nodeInfo="ng" />
+              </node>
+            </node>
+          </node>
+          <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.ConsumeCommandOutputWithReader" typeId="4tvk.8155370969620237552" id="2948205594684564897" nodeInfo="ng">
+            <property name="consumeStandardOutput" nameId="4tvk.6839116863305307657" value="true" />
+            <property name="consumeStandardError" nameId="4tvk.6839116863305307659" value="false" />
+            <node role="readerExpression" roleId="4tvk.8155370969620237554" type="4tvk.ConceptFunction_ConsumeOutputReaderBlock" typeId="4tvk.8155370969620027248" id="2948205594684565009" nodeInfo="ng">
+              <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="2948205594684565011" nodeInfo="sn">
+                <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="2948205594684568971" nodeInfo="nn">
+                  <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="2948205594684568974" nodeInfo="nr">
+                    <property name="name" nameId="tpck.1169194664001" value="line" />
+                    <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="2948205594684568969" nodeInfo="in" />
+                    <node role="initializer" roleId="tpee.1068431790190" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="2948205594684569368" nodeInfo="nn" />
+                  </node>
+                </node>
+                <node role="statement" roleId="tpee.1068581517665" type="tpee.WhileStatement" typeId="tpee.1076505808687" id="2948205594684565036" nodeInfo="nn">
+                  <node role="body" roleId="tpee.1154032183016" type="tpee.StatementList" typeId="tpee.1068580123136" id="2948205594684565037" nodeInfo="sn">
+                    <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="2948205594684573150" nodeInfo="nn">
+                      <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2948205594684573146" nodeInfo="nn">
+                        <node role="operand" roleId="tpee.1197027771414" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="2948205594684573147" nodeInfo="nn">
+                          <link role="classifier" roleId="tpee.1144433057691" targetNodeId="e2lb.~System" resolveInfo="System" />
+                          <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="e2lb.~System%dout" resolveInfo="out" />
+                        </node>
+                        <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="2948205594684573148" nodeInfo="nn">
+                          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fxg7.~PrintStream%dprintln(java%dlang%dString)%cvoid" resolveInfo="println" />
+                          <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="2948205594684574015" nodeInfo="nn">
+                            <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.VariableReference" typeId="tpee.1068498886296" id="2948205594684574083" nodeInfo="nn">
+                              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2948205594684568974" resolveInfo="line" />
+                            </node>
+                            <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2948205594684573149" nodeInfo="nn">
+                              <property name="value" nameId="tpee.1070475926801" value="line=" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node role="condition" roleId="tpee.1076505808688" type="tpee.NotEqualsExpression" typeId="tpee.1073239437375" id="2948205594684572534" nodeInfo="nn">
+                    <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="2948205594684572693" nodeInfo="nn" />
+                    <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.ParenthesizedExpression" typeId="tpee.1079359253375" id="2948205594684570614" nodeInfo="nn">
+                      <node role="expression" roleId="tpee.1079359253376" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="2948205594684570999" nodeInfo="nn">
+                        <node role="lValue" roleId="tpee.1068498886295" type="tpee.VariableReference" typeId="tpee.1068498886296" id="2948205594684571396" nodeInfo="nn">
+                          <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2948205594684568974" resolveInfo="line" />
+                        </node>
+                        <node role="rValue" roleId="tpee.1068498886297" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2948205594684565454" nodeInfo="nn">
+                          <node role="operand" roleId="tpee.1197027771414" type="4tvk.ConceptFunctionParameter_outputReader" typeId="4tvk.8155370969620059061" id="2948205594684565056" nodeInfo="ng" />
+                          <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="2948205594684568242" nodeInfo="nn">
+                            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fxg7.~BufferedReader%dreadLine()%cjava%dlang%dString" resolveInfo="readLine" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="2948205594683008099" nodeInfo="nn" />
+      </node>
+    </node>
+  </root>
+  <root type="440p.SetOfBags" typeId="440p.794091573608667617" id="794091573613197311" nodeInfo="ng" />
+  <root type="440p.SetOfBags" typeId="440p.794091573608667617" id="794091573613198062" nodeInfo="ng" />
+  <root type="440p.RenamePlan" typeId="440p.794091573600807021" id="794091573613199358" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="Step1b" />
+    <property name="textImport" nameId="440p.794091573601652603" value="" />
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573613199359" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY1" />
+      <property name="to" nameId="440p.794091573600807341" value="HY1-DWEYS-0-NO_" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573613199360" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY2" />
+      <property name="to" nameId="440p.794091573600807341" value="HY2-DWEYS-0-NO_" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573613199361" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY3" />
+      <property name="to" nameId="440p.794091573600807341" value="HY3-DWEYS-0-NO_" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573613199362" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY4" />
+      <property name="to" nameId="440p.794091573600807341" value="HY4-CORE-0-NO_" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573613199363" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY5" />
+      <property name="to" nameId="440p.794091573600807341" value="HY5-CORE-0-NO_" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573613199364" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY6" />
+      <property name="to" nameId="440p.794091573600807341" value="HY6-CORE-0-NO_" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573613199365" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY7" />
+      <property name="to" nameId="440p.794091573600807341" value="HY7-WT-0-NO_" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573613199366" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY8" />
+      <property name="to" nameId="440p.794091573600807341" value="HY8-WT-0-NO_" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573613199367" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY9" />
+      <property name="to" nameId="440p.794091573600807341" value="HY9-WT-0-NO_" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573613199368" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY10" />
+      <property name="to" nameId="440p.794091573600807341" value="HY10-DWEYS-1-LPS_" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573613199369" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY11" />
+      <property name="to" nameId="440p.794091573600807341" value="HY11-DWEYS-1-LPS_" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573613199370" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY12" />
+      <property name="to" nameId="440p.794091573600807341" value="HY12-DWEYS-1-LPS_" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573613199371" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY13" />
+      <property name="to" nameId="440p.794091573600807341" value="HY13-CORE-1-LPS_" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573613199372" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY14" />
+      <property name="to" nameId="440p.794091573600807341" value="HY14-CORE-1-LPS_" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573613199373" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY15" />
+      <property name="to" nameId="440p.794091573600807341" value="HY15-CORE-1-LPS_" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573613199374" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY16" />
+      <property name="to" nameId="440p.794091573600807341" value="HY16-WT-1-LPS_" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573613199375" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY17" />
+      <property name="to" nameId="440p.794091573600807341" value="HY17-WT-1-LPS_" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573613199376" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY25" />
+      <property name="to" nameId="440p.794091573600807341" value="HY25-WT-1-LPS_" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573613199377" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY18" />
+      <property name="to" nameId="440p.794091573600807341" value="HY18-DWEYS-4-LPS_" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573613199378" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY19" />
+      <property name="to" nameId="440p.794091573600807341" value="HY19-DWEYS-4-LPS_" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573613199379" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY20" />
+      <property name="to" nameId="440p.794091573600807341" value="HY20-DWEYS-4-LPS_" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573613199380" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY22" />
+      <property name="to" nameId="440p.794091573600807341" value="HY22-CORE-4-LPS_" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573613199381" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY23" />
+      <property name="to" nameId="440p.794091573600807341" value="HY23-CORE-4-LPS_" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573613199382" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY24" />
+      <property name="to" nameId="440p.794091573600807341" value="HY24-CORE-4-LPS_" />
+    </node>
+  </root>
+  <root type="440p.SetOfBags" typeId="440p.794091573608667617" id="794091573613199383" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="DiamondBags" />
+    <node role="bags" roleId="440p.794091573608667758" type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573613199384" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="HY1" />
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197922" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY1/HY1-DWEYS-0-NO_001.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY1-DWEYS-0-NO_001.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197923" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY1/HY1-DWEYS-0-NO_002.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY1-DWEYS-0-NO_002.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197924" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY1/HY1-DWEYS-0-NO_003.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY1-DWEYS-0-NO_003.fastq.gz" />
+      </node>
+    </node>
+    <node role="bags" roleId="440p.794091573608667758" type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573613199385" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="HY10" />
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197925" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY10/HY10-DWEYS-1-LPS_001.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY10-DWEYS-1-LPS_001.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197926" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY10/HY10-DWEYS-1-LPS_002.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY10-DWEYS-1-LPS_002.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197927" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY10/HY10-DWEYS-1-LPS_003.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY10-DWEYS-1-LPS_003.fastq.gz" />
+      </node>
+    </node>
+    <node role="bags" roleId="440p.794091573608667758" type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573613199386" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="HY11" />
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197928" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY11/HY11-DWEYS-1-LPS_001.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY11-DWEYS-1-LPS_001.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197929" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY11/HY11-DWEYS-1-LPS_002.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY11-DWEYS-1-LPS_002.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197930" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY11/HY11-DWEYS-1-LPS_003.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY11-DWEYS-1-LPS_003.fastq.gz" />
+      </node>
+    </node>
+    <node role="bags" roleId="440p.794091573608667758" type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573613199387" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="HY12" />
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197931" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY12/HY12-DWEYS-1-LPS_001.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY12-DWEYS-1-LPS_001.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197932" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY12/HY12-DWEYS-1-LPS_002.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY12-DWEYS-1-LPS_002.fastq.gz" />
+      </node>
+    </node>
+    <node role="bags" roleId="440p.794091573608667758" type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573613199388" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="HY13" />
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197933" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY13/HY13-CORE-1-LPS_001.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY13-CORE-1-LPS_001.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197934" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY13/HY13-CORE-1-LPS_002.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY13-CORE-1-LPS_002.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197935" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY13/HY13-CORE-1-LPS_003.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY13-CORE-1-LPS_003.fastq.gz" />
+      </node>
+    </node>
+    <node role="bags" roleId="440p.794091573608667758" type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573613199389" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="HY14" />
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197936" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY14/HY14-CORE-1-LPS_001.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY14-CORE-1-LPS_001.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197937" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY14/HY14-CORE-1-LPS_002.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY14-CORE-1-LPS_002.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197938" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY14/HY14-CORE-1-LPS_003.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY14-CORE-1-LPS_003.fastq.gz" />
+      </node>
+    </node>
+    <node role="bags" roleId="440p.794091573608667758" type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573613199390" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="HY15" />
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197939" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY15/HY15-CORE-1-LPS_001.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY15-CORE-1-LPS_001.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197940" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY15/HY15-CORE-1-LPS_002.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY15-CORE-1-LPS_002.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197941" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY15/HY15-CORE-1-LPS_003.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY15-CORE-1-LPS_003.fastq.gz" />
+      </node>
+    </node>
+    <node role="bags" roleId="440p.794091573608667758" type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573613199391" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="HY16" />
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197942" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY16/HY16-WT-1-LPS_001.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY16-WT-1-LPS_001.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197943" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY16/HY16-WT-1-LPS_002.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY16-WT-1-LPS_002.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197944" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY16/HY16-WT-1-LPS_003.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY16-WT-1-LPS_003.fastq.gz" />
+      </node>
+    </node>
+    <node role="bags" roleId="440p.794091573608667758" type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573613199392" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="HY17" />
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197945" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY17/HY17-WT-1-LPS_001.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY17-WT-1-LPS_001.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197946" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY17/HY17-WT-1-LPS_002.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY17-WT-1-LPS_002.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197947" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY17/HY17-WT-1-LPS_003.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY17-WT-1-LPS_003.fastq.gz" />
+      </node>
+    </node>
+    <node role="bags" roleId="440p.794091573608667758" type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573613199393" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="HY18" />
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197948" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY18/HY18-DWEYS-4-LPS_001.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY18-DWEYS-4-LPS_001.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197949" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY18/HY18-DWEYS-4-LPS_002.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY18-DWEYS-4-LPS_002.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197950" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY18/HY18-DWEYS-4-LPS_003.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY18-DWEYS-4-LPS_003.fastq.gz" />
+      </node>
+    </node>
+    <node role="bags" roleId="440p.794091573608667758" type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573613199394" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="HY19" />
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197951" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY19/HY19-DWEYS-4-LPS_001.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY19-DWEYS-4-LPS_001.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197952" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY19/HY19-DWEYS-4-LPS_002.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY19-DWEYS-4-LPS_002.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197953" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY19/HY19-DWEYS-4-LPS_003.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY19-DWEYS-4-LPS_003.fastq.gz" />
+      </node>
+    </node>
+    <node role="bags" roleId="440p.794091573608667758" type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573613199395" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="HY2" />
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197954" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY2/HY2-DWEYS-0-NO_001.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY2-DWEYS-0-NO_001.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197955" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY2/HY2-DWEYS-0-NO_002.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY2-DWEYS-0-NO_002.fastq.gz" />
+      </node>
+    </node>
+    <node role="bags" roleId="440p.794091573608667758" type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573613199396" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="HY20" />
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197956" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY20/HY20-DWEYS-4-LPS_001.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY20-DWEYS-4-LPS_001.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197957" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY20/HY20-DWEYS-4-LPS_002.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY20-DWEYS-4-LPS_002.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197958" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY20/HY20-DWEYS-4-LPS_003.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY20-DWEYS-4-LPS_003.fastq.gz" />
+      </node>
+    </node>
+    <node role="bags" roleId="440p.794091573608667758" type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573613199397" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="HY22" />
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197959" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY22/HY22-CORE-4-LPS_001.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY22-CORE-4-LPS_001.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197960" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY22/HY22-CORE-4-LPS_002.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY22-CORE-4-LPS_002.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197961" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY22/HY22-CORE-4-LPS_003.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY22-CORE-4-LPS_003.fastq.gz" />
+      </node>
+    </node>
+    <node role="bags" roleId="440p.794091573608667758" type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573613199398" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="HY23" />
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197962" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY23/HY23-CORE-4-LPS_001.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY23-CORE-4-LPS_001.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197963" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY23/HY23-CORE-4-LPS_002.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY23-CORE-4-LPS_002.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197964" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY23/HY23-CORE-4-LPS_003.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY23-CORE-4-LPS_003.fastq.gz" />
+      </node>
+    </node>
+    <node role="bags" roleId="440p.794091573608667758" type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573613199399" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="HY24" />
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197965" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY24/HY24-CORE-4-LPS_001.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY24-CORE-4-LPS_001.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197966" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY24/HY24-CORE-4-LPS_002.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY24-CORE-4-LPS_002.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197967" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY24/HY24-CORE-4-LPS_003.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY24-CORE-4-LPS_003.fastq.gz" />
+      </node>
+    </node>
+    <node role="bags" roleId="440p.794091573608667758" type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573613199400" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="HY25" />
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197968" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY25/HY25-WT-1-LPS_001.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY25-WT-1-LPS_001.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197969" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY25/HY25-WT-1-LPS_002.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY25-WT-1-LPS_002.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197970" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY25/HY25-WT-1-LPS_003.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY25-WT-1-LPS_003.fastq.gz" />
+      </node>
+    </node>
+    <node role="bags" roleId="440p.794091573608667758" type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573613199401" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="HY3" />
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197971" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY3/HY3-DWEYS-0-NO_001.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY3-DWEYS-0-NO_001.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197972" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY3/HY3-DWEYS-0-NO_002.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY3-DWEYS-0-NO_002.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197973" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY3/HY3-DWEYS-0-NO_003.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY3-DWEYS-0-NO_003.fastq.gz" />
+      </node>
+    </node>
+    <node role="bags" roleId="440p.794091573608667758" type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573613199402" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="HY4" />
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197974" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY4/HY4-CORE-0-NO_001.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY4-CORE-0-NO_001.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197975" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY4/HY4-CORE-0-NO_002.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY4-CORE-0-NO_002.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197976" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY4/HY4-CORE-0-NO_003.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY4-CORE-0-NO_003.fastq.gz" />
+      </node>
+    </node>
+    <node role="bags" roleId="440p.794091573608667758" type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573613199403" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="HY5" />
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197977" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY5/HY5-CORE-0-NO_001.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY5-CORE-0-NO_001.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197978" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY5/HY5-CORE-0-NO_002.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY5-CORE-0-NO_002.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197979" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY5/HY5-CORE-0-NO_003.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY5-CORE-0-NO_003.fastq.gz" />
+      </node>
+    </node>
+    <node role="bags" roleId="440p.794091573608667758" type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573613199404" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="HY6" />
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197980" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY6/HY6-CORE-0-NO_001.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY6-CORE-0-NO_001.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197981" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY6/HY6-CORE-0-NO_002.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY6-CORE-0-NO_002.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197982" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY6/HY6-CORE-0-NO_003.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY6-CORE-0-NO_003.fastq.gz" />
+      </node>
+    </node>
+    <node role="bags" roleId="440p.794091573608667758" type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573613199405" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="HY7" />
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197983" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY7/HY7-WT-0-NO_001.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY7-WT-0-NO_001.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197984" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY7/HY7-WT-0-NO_002.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY7-WT-0-NO_002.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197985" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY7/HY7-WT-0-NO_003.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY7-WT-0-NO_003.fastq.gz" />
+      </node>
+    </node>
+    <node role="bags" roleId="440p.794091573608667758" type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573613199406" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="HY8" />
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197986" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY8/HY8-WT-0-NO_001.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY8-WT-0-NO_001.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197987" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY8/HY8-WT-0-NO_002.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY8-WT-0-NO_002.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197988" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY8/HY8-WT-0-NO_003.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY8-WT-0-NO_003.fastq.gz" />
+      </node>
+    </node>
+    <node role="bags" roleId="440p.794091573608667758" type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573613199407" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="HY9" />
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197989" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY9/HY9-WT-0-NO_001.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY9-WT-0-NO_001.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197990" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY9/HY9-WT-0-NO_002.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY9-WT-0-NO_002.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573613197991" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY9/HY9-WT-0-NO_003.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY9-WT-0-NO_003.fastq.gz" />
+      </node>
+    </node>
+  </root>
+  <root type="tpee.ClassConcept" typeId="tpee.1068390468198" id="794091573613207687" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="MyClass" />
+    <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="794091573613207688" nodeInfo="nn" />
+    <node role="member" roleId="tpee.5375687026011219971" type="tpee.StaticMethodDeclaration" typeId="tpee.1081236700938" id="794091573613207705" nodeInfo="igu">
+      <property name="name" nameId="tpck.1169194664001" value="main" />
+      <property name="isFinal" nameId="tpee.1181808852946" value="false" />
+      <property name="isSynchronized" nameId="tpee.4276006055363816570" value="false" />
+      <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="794091573613207706" nodeInfo="ir">
+        <property name="name" nameId="tpck.1169194664001" value="args" />
+        <property name="isFinal" nameId="tpee.1176718929932" value="false" />
+        <node role="type" roleId="tpee.5680397130376446158" type="tpee.ArrayType" typeId="tpee.1070534760951" id="794091573613207708" nodeInfo="in">
+          <node role="componentType" roleId="tpee.1070534760952" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="794091573613207707" nodeInfo="in">
+            <link role="classifier" roleId="tpee.1107535924139" targetNodeId="e2lb.~String" resolveInfo="String" />
+          </node>
+        </node>
+      </node>
+      <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="794091573613207709" nodeInfo="sn">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="794091573614076377" nodeInfo="nn">
+          <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="794091573614076376" nodeInfo="nr">
+            <property name="isFinal" nameId="tpee.1176718929932" value="false" />
+            <property name="name" nameId="tpck.1169194664001" value="samples" />
+            <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="794091573614076378" nodeInfo="in">
+              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="k7g3.~ArrayList" resolveInfo="ArrayList" />
+              <node role="parameter" roleId="tpee.1109201940907" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="794091573614076379" nodeInfo="in">
+                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="e2lb.~String" resolveInfo="String" />
+              </node>
+            </node>
+            <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="794091573614076532" nodeInfo="nn">
+              <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="794091573614076533" nodeInfo="nn">
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%d&lt;init&gt;()" resolveInfo="ArrayList" />
+                <node role="typeParameter" roleId="tpee.1212687122400" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="794091573614076381" nodeInfo="in">
+                  <link role="classifier" roleId="tpee.1107535924139" targetNodeId="e2lb.~String" resolveInfo="String" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573614076382" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573614076537" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573614076536" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573614076376" resolveInfo="samples" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573614076538" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%dadd(java%dlang%dObject)%cboolean" resolveInfo="add" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573614076539" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="HY1-DWEYS-0-NO" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573614076385" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573614076542" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573614076541" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573614076376" resolveInfo="samples" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573614076543" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%dadd(java%dlang%dObject)%cboolean" resolveInfo="add" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573614076544" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="HY10-DWEYS-1-LPS" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573614076388" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573614076547" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573614076546" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573614076376" resolveInfo="samples" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573614076548" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%dadd(java%dlang%dObject)%cboolean" resolveInfo="add" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573614076549" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="HY11-DWEYS-1-LPS" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573614076391" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573614076552" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573614076551" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573614076376" resolveInfo="samples" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573614076553" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%dadd(java%dlang%dObject)%cboolean" resolveInfo="add" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573614076554" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="HY12-DWEYS-1-LPS" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573614076394" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573614076557" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573614076556" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573614076376" resolveInfo="samples" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573614076558" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%dadd(java%dlang%dObject)%cboolean" resolveInfo="add" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573614076559" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="HY13-CORE-1-LPS" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573614076397" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573614076562" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573614076561" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573614076376" resolveInfo="samples" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573614076563" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%dadd(java%dlang%dObject)%cboolean" resolveInfo="add" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573614076564" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="HY14-CORE-1-LPS" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573614076400" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573614076567" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573614076566" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573614076376" resolveInfo="samples" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573614076568" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%dadd(java%dlang%dObject)%cboolean" resolveInfo="add" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573614076569" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="HY15-CORE-1-LPS" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573614076403" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573614076572" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573614076571" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573614076376" resolveInfo="samples" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573614076573" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%dadd(java%dlang%dObject)%cboolean" resolveInfo="add" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573614076574" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="HY16-WT-1-LPS" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573614076406" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573614076577" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573614076576" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573614076376" resolveInfo="samples" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573614076578" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%dadd(java%dlang%dObject)%cboolean" resolveInfo="add" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573614076579" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="HY17-WT-1-LPS" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573614076409" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573614076582" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573614076581" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573614076376" resolveInfo="samples" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573614076583" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%dadd(java%dlang%dObject)%cboolean" resolveInfo="add" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573614076584" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="HY18-DWEYS-4-LPS" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573614076412" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573614076587" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573614076586" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573614076376" resolveInfo="samples" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573614076588" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%dadd(java%dlang%dObject)%cboolean" resolveInfo="add" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573614076589" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="HY19-DWEYS-4-LPS" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573614076415" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573614076592" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573614076591" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573614076376" resolveInfo="samples" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573614076593" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%dadd(java%dlang%dObject)%cboolean" resolveInfo="add" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573614076594" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="HY2-DWEYS-0-NO" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573614076418" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573614076597" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573614076596" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573614076376" resolveInfo="samples" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573614076598" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%dadd(java%dlang%dObject)%cboolean" resolveInfo="add" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573614076599" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="HY20-DWEYS-4-LPS" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573614076421" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573614076602" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573614076601" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573614076376" resolveInfo="samples" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573614076603" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%dadd(java%dlang%dObject)%cboolean" resolveInfo="add" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573614076604" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="HY22-CORE-4-LPS" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573614076424" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573614076607" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573614076606" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573614076376" resolveInfo="samples" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573614076608" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%dadd(java%dlang%dObject)%cboolean" resolveInfo="add" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573614076609" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="HY23-CORE-4-LPS" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573614076427" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573614076612" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573614076611" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573614076376" resolveInfo="samples" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573614076613" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%dadd(java%dlang%dObject)%cboolean" resolveInfo="add" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573614076614" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="HY24-CORE-4-LPS" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573614076430" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573614076617" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573614076616" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573614076376" resolveInfo="samples" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573614076618" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%dadd(java%dlang%dObject)%cboolean" resolveInfo="add" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573614076619" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="HY25-WT-1-LPS" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573614076433" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573614076622" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573614076621" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573614076376" resolveInfo="samples" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573614076623" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%dadd(java%dlang%dObject)%cboolean" resolveInfo="add" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573614076624" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="HY3-DWEYS-0-NO" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573614076436" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573614076627" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573614076626" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573614076376" resolveInfo="samples" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573614076628" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%dadd(java%dlang%dObject)%cboolean" resolveInfo="add" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573614076629" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="HY4-CORE-0-NO" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573614076439" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573614076632" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573614076631" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573614076376" resolveInfo="samples" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573614076633" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%dadd(java%dlang%dObject)%cboolean" resolveInfo="add" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573614076634" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="HY5-CORE-0-NO" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573614076442" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573614076637" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573614076636" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573614076376" resolveInfo="samples" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573614076638" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%dadd(java%dlang%dObject)%cboolean" resolveInfo="add" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573614076639" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="HY6-CORE-0-NO" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573614076445" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573614076642" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573614076641" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573614076376" resolveInfo="samples" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573614076643" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%dadd(java%dlang%dObject)%cboolean" resolveInfo="add" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573614076644" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="HY7-WT-0-NO" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573614076448" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573614076647" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573614076646" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573614076376" resolveInfo="samples" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573614076648" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%dadd(java%dlang%dObject)%cboolean" resolveInfo="add" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573614076649" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="HY8-WT-0-NO" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573614076451" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573614076652" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573614076651" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573614076376" resolveInfo="samples" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573614076653" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%dadd(java%dlang%dObject)%cboolean" resolveInfo="add" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573614076654" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="HY9-WT-0-NO" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="794091573614076455" nodeInfo="nn">
+          <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="794091573614076454" nodeInfo="nr">
+            <property name="isFinal" nameId="tpee.1176718929932" value="false" />
+            <property name="name" nameId="tpck.1169194664001" value="filenames" />
+            <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="794091573614076456" nodeInfo="in">
+              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="k7g3.~ArrayList" resolveInfo="ArrayList" />
+              <node role="parameter" roleId="tpee.1109201940907" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="794091573614076457" nodeInfo="in">
+                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="e2lb.~String" resolveInfo="String" />
+              </node>
+            </node>
+            <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="794091573614076655" nodeInfo="nn">
+              <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="794091573614076656" nodeInfo="nn">
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%d&lt;init&gt;()" resolveInfo="ArrayList" />
+                <node role="typeParameter" roleId="tpee.1212687122400" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="794091573614076459" nodeInfo="in">
+                  <link role="classifier" roleId="tpee.1107535924139" targetNodeId="e2lb.~String" resolveInfo="String" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573614076460" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573614076659" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573614076658" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573614076454" resolveInfo="filenames" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573614076660" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%dadd(java%dlang%dObject)%cboolean" resolveInfo="add" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573614076661" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY1/HY1-DWEYS-0-NO_001.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY1/HY1-DWEYS-0-NO_002.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY1/HY1-DWEYS-0-NO_003.fastq.gz" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573614076463" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573614076664" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573614076663" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573614076454" resolveInfo="filenames" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573614076665" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%dadd(java%dlang%dObject)%cboolean" resolveInfo="add" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573614076666" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY10/HY10-DWEYS-1-LPS_001.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY10/HY10-DWEYS-1-LPS_002.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY10/HY10-DWEYS-1-LPS_003.fastq.gz" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573614076466" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573614076669" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573614076668" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573614076454" resolveInfo="filenames" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573614076670" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%dadd(java%dlang%dObject)%cboolean" resolveInfo="add" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573614076671" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY11/HY11-DWEYS-1-LPS_001.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY11/HY11-DWEYS-1-LPS_002.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY11/HY11-DWEYS-1-LPS_003.fastq.gz" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573614076469" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573614076674" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573614076673" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573614076454" resolveInfo="filenames" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573614076675" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%dadd(java%dlang%dObject)%cboolean" resolveInfo="add" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573614076676" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY12/HY12-DWEYS-1-LPS_001.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY12/HY12-DWEYS-1-LPS_002.fastq.gz" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573614076472" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573614076679" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573614076678" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573614076454" resolveInfo="filenames" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573614076680" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%dadd(java%dlang%dObject)%cboolean" resolveInfo="add" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573614076681" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY13/HY13-CORE-1-LPS_001.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY13/HY13-CORE-1-LPS_002.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY13/HY13-CORE-1-LPS_003.fastq.gz" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573614076475" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573614076684" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573614076683" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573614076454" resolveInfo="filenames" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573614076685" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%dadd(java%dlang%dObject)%cboolean" resolveInfo="add" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573614076686" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY14/HY14-CORE-1-LPS_001.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY14/HY14-CORE-1-LPS_002.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY14/HY14-CORE-1-LPS_003.fastq.gz" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573614076478" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573614076689" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573614076688" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573614076454" resolveInfo="filenames" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573614076690" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%dadd(java%dlang%dObject)%cboolean" resolveInfo="add" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573614076691" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY15/HY15-CORE-1-LPS_001.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY15/HY15-CORE-1-LPS_002.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY15/HY15-CORE-1-LPS_003.fastq.gz" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573614076481" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573614076694" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573614076693" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573614076454" resolveInfo="filenames" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573614076695" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%dadd(java%dlang%dObject)%cboolean" resolveInfo="add" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573614076696" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY16/HY16-WT-1-LPS_001.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY16/HY16-WT-1-LPS_002.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY16/HY16-WT-1-LPS_003.fastq.gz" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573614076484" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573614076699" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573614076698" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573614076454" resolveInfo="filenames" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573614076700" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%dadd(java%dlang%dObject)%cboolean" resolveInfo="add" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573614076701" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY17/HY17-WT-1-LPS_001.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY17/HY17-WT-1-LPS_002.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY17/HY17-WT-1-LPS_003.fastq.gz" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573614076487" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573614076704" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573614076703" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573614076454" resolveInfo="filenames" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573614076705" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%dadd(java%dlang%dObject)%cboolean" resolveInfo="add" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573614076706" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY18/HY18-DWEYS-4-LPS_001.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY18/HY18-DWEYS-4-LPS_002.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY18/HY18-DWEYS-4-LPS_003.fastq.gz" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573614076490" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573614076709" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573614076708" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573614076454" resolveInfo="filenames" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573614076710" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%dadd(java%dlang%dObject)%cboolean" resolveInfo="add" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573614076711" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY19/HY19-DWEYS-4-LPS_001.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY19/HY19-DWEYS-4-LPS_002.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY19/HY19-DWEYS-4-LPS_003.fastq.gz" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573614076493" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573614076714" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573614076713" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573614076454" resolveInfo="filenames" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573614076715" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%dadd(java%dlang%dObject)%cboolean" resolveInfo="add" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573614076716" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY2/HY2-DWEYS-0-NO_001.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY2/HY2-DWEYS-0-NO_002.fastq.gz" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573614076496" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573614076719" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573614076718" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573614076454" resolveInfo="filenames" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573614076720" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%dadd(java%dlang%dObject)%cboolean" resolveInfo="add" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573614076721" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY20/HY20-DWEYS-4-LPS_001.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY20/HY20-DWEYS-4-LPS_002.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY20/HY20-DWEYS-4-LPS_003.fastq.gz" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573614076499" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573614076724" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573614076723" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573614076454" resolveInfo="filenames" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573614076725" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%dadd(java%dlang%dObject)%cboolean" resolveInfo="add" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573614076726" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY22/HY22-CORE-4-LPS_001.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY22/HY22-CORE-4-LPS_002.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY22/HY22-CORE-4-LPS_003.fastq.gz" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573614076502" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573614076729" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573614076728" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573614076454" resolveInfo="filenames" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573614076730" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%dadd(java%dlang%dObject)%cboolean" resolveInfo="add" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573614076731" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY23/HY23-CORE-4-LPS_001.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY23/HY23-CORE-4-LPS_002.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY23/HY23-CORE-4-LPS_003.fastq.gz" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573614076505" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573614076734" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573614076733" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573614076454" resolveInfo="filenames" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573614076735" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%dadd(java%dlang%dObject)%cboolean" resolveInfo="add" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573614076736" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY24/HY24-CORE-4-LPS_001.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY24/HY24-CORE-4-LPS_002.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY24/HY24-CORE-4-LPS_003.fastq.gz" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573614076508" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573614076739" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573614076738" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573614076454" resolveInfo="filenames" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573614076740" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%dadd(java%dlang%dObject)%cboolean" resolveInfo="add" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573614076741" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY25/HY25-WT-1-LPS_001.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY25/HY25-WT-1-LPS_002.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY25/HY25-WT-1-LPS_003.fastq.gz" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573614076511" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573614076744" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573614076743" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573614076454" resolveInfo="filenames" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573614076745" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%dadd(java%dlang%dObject)%cboolean" resolveInfo="add" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573614076746" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY3/HY3-DWEYS-0-NO_001.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY3/HY3-DWEYS-0-NO_002.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY3/HY3-DWEYS-0-NO_003.fastq.gz" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573614076514" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573614076749" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573614076748" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573614076454" resolveInfo="filenames" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573614076750" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%dadd(java%dlang%dObject)%cboolean" resolveInfo="add" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573614076751" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY4/HY4-CORE-0-NO_001.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY4/HY4-CORE-0-NO_002.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY4/HY4-CORE-0-NO_003.fastq.gz" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573614076517" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573614076754" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573614076753" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573614076454" resolveInfo="filenames" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573614076755" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%dadd(java%dlang%dObject)%cboolean" resolveInfo="add" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573614076756" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY5/HY5-CORE-0-NO_001.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY5/HY5-CORE-0-NO_002.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY5/HY5-CORE-0-NO_003.fastq.gz" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573614076520" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573614076759" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573614076758" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573614076454" resolveInfo="filenames" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573614076760" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%dadd(java%dlang%dObject)%cboolean" resolveInfo="add" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573614076761" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY6/HY6-CORE-0-NO_001.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY6/HY6-CORE-0-NO_002.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY6/HY6-CORE-0-NO_003.fastq.gz" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573614076523" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573614076764" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573614076763" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573614076454" resolveInfo="filenames" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573614076765" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%dadd(java%dlang%dObject)%cboolean" resolveInfo="add" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573614076766" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY7/HY7-WT-0-NO_001.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY7/HY7-WT-0-NO_002.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY7/HY7-WT-0-NO_003.fastq.gz" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573614076526" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573614076769" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573614076768" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573614076454" resolveInfo="filenames" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573614076770" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%dadd(java%dlang%dObject)%cboolean" resolveInfo="add" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573614076771" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY8/HY8-WT-0-NO_001.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY8/HY8-WT-0-NO_002.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY8/HY8-WT-0-NO_003.fastq.gz" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573614076529" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573614076774" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573614076773" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573614076454" resolveInfo="filenames" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573614076775" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%dadd(java%dlang%dObject)%cboolean" resolveInfo="add" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573614076776" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY9/HY9-WT-0-NO_001.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY9/HY9-WT-0-NO_002.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY9/HY9-WT-0-NO_003.fastq.gz" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="794091573614073775" nodeInfo="nn" />
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="794091573614074395" nodeInfo="nn" />
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="794091573613748059" nodeInfo="nn">
+          <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="794091573613748062" nodeInfo="nr">
+            <property name="name" nameId="tpck.1169194664001" value="i" />
+            <node role="type" roleId="tpee.5680397130376446158" type="tpee.IntegerType" typeId="tpee.1070534370425" id="794091573613748057" nodeInfo="in" />
+            <node role="initializer" roleId="tpee.1068431790190" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="794091573613760460" nodeInfo="nn">
+              <property name="value" nameId="tpee.1068580320021" value="0" />
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ForeachStatement" typeId="tpee.1144226303539" id="794091573613207788" nodeInfo="nn">
+          <node role="iterable" roleId="tpee.1144226360166" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573613207858" nodeInfo="nn">
+            <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573614076454" resolveInfo="filenames" />
+          </node>
+          <node role="variable" roleId="tpee.1144230900587" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="794091573613207855" nodeInfo="nr">
+            <property name="isFinal" nameId="tpee.1176718929932" value="false" />
+            <property name="name" nameId="tpck.1169194664001" value="filenameList" />
+            <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="794091573613207857" nodeInfo="in">
+              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="e2lb.~String" resolveInfo="String" />
+            </node>
+          </node>
+          <node role="body" roleId="tpee.1154032183016" type="tpee.StatementList" typeId="tpee.1068580123136" id="794091573613207790" nodeInfo="sn">
+            <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="794091573613207792" nodeInfo="nn">
+              <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="794091573613207791" nodeInfo="nr">
+                <property name="isFinal" nameId="tpee.1176718929932" value="false" />
+                <property name="name" nameId="tpck.1169194664001" value="inputfilenames" />
+                <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="794091573613207793" nodeInfo="in">
+                  <link role="classifier" roleId="tpee.1107535924139" targetNodeId="e2lb.~String" resolveInfo="String" />
+                </node>
+                <node role="initializer" roleId="tpee.1068431790190" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573613207794" nodeInfo="nn">
+                  <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573613207855" resolveInfo="filenameList" />
+                </node>
+              </node>
+            </node>
+            <node role="statement" roleId="tpee.1068581517665" type="tpee.BlockStatement" typeId="tpee.1082485599095" id="794091573613207799" nodeInfo="nn">
+              <node role="statements" roleId="tpee.1082485599096" type="tpee.StatementList" typeId="tpee.1068580123136" id="794091573613207800" nodeInfo="sn">
+                <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="794091573613207802" nodeInfo="nn">
+                  <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="794091573613207801" nodeInfo="nr">
+                    <property name="isFinal" nameId="tpee.1176718929932" value="false" />
+                    <property name="name" nameId="tpck.1169194664001" value="commandBuffer" />
+                    <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="794091573613207803" nodeInfo="in">
+                      <link role="classifier" roleId="tpee.1107535924139" targetNodeId="e2lb.~StringBuffer" resolveInfo="StringBuffer" />
+                    </node>
+                    <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="794091573613207984" nodeInfo="nn">
+                      <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="794091573613207985" nodeInfo="nn">
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~StringBuffer%d&lt;init&gt;()" resolveInfo="StringBuffer" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="794091573613207806" nodeInfo="nn">
+                  <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="794091573613207805" nodeInfo="nr">
+                    <property name="isFinal" nameId="tpee.1176718929932" value="false" />
+                    <property name="name" nameId="tpck.1169194664001" value="assembler" />
+                    <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="794091573613207807" nodeInfo="in">
+                      <link role="classifier" roleId="tpee.1107535924139" targetNodeId="r9z8.~CommandAssembler" resolveInfo="CommandAssembler" />
+                    </node>
+                    <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="794091573613546410" nodeInfo="nn">
+                      <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="794091573613546411" nodeInfo="nn">
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="r9z8.~CommandAssembler%d&lt;init&gt;()" resolveInfo="CommandAssembler" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573613858013" nodeInfo="nn">
+                  <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573613859172" nodeInfo="nn">
+                    <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573613858011" nodeInfo="nn">
+                      <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573613207805" resolveInfo="assembler" />
+                    </node>
+                    <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573613861462" nodeInfo="nn">
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="r9z8.~CommandAssembler%dsetLocalEnvironment(java%dutil%dSet)%cvoid" resolveInfo="setLocalEnvironment" />
+                      <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573613871826" nodeInfo="nn">
+                        <node role="operand" roleId="tpee.1197027771414" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="794091573613862177" nodeInfo="nn">
+                          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~System%dgetenv()%cjava%dutil%dMap" resolveInfo="getenv" />
+                          <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="e2lb.~System" resolveInfo="System" />
+                        </node>
+                        <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573613884532" nodeInfo="nn">
+                          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~Map%dkeySet()%cjava%dutil%dSet" resolveInfo="keySet" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="794091573613762478" nodeInfo="nn">
+                  <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="794091573613762481" nodeInfo="nr">
+                    <property name="name" nameId="tpck.1169194664001" value="cmd" />
+                    <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="794091573613762476" nodeInfo="in" />
+                    <node role="initializer" roleId="tpee.1068431790190" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="794091573613735720" nodeInfo="nn">
+                      <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573613735751" nodeInfo="nn">
+                        <property name="value" nameId="tpee.1070475926801" value=".compact-reads" />
+                      </node>
+                      <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="794091573613712696" nodeInfo="nn">
+                        <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="794091573613710383" nodeInfo="nn">
+                          <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="794091573613207990" nodeInfo="nn">
+                            <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573613207991" nodeInfo="nn">
+                              <property name="value" nameId="tpee.1070475926801" value="/Users/fac2003/IdeaProjects/goby/goby 1g fasta-to-compact --parallel --concat --quality-encoding Sanger " />
+                            </node>
+                            <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573613597601" nodeInfo="nn">
+                              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573613207791" resolveInfo="inputfilenames" />
+                            </node>
+                          </node>
+                          <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="794091573613710789" nodeInfo="nn">
+                            <property name="value" nameId="tpee.1070475926801" value=" -o " />
+                          </node>
+                        </node>
+                        <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573613715101" nodeInfo="nn">
+                          <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573613713208" nodeInfo="nn">
+                            <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573614076376" resolveInfo="samples" />
+                          </node>
+                          <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573613733998" nodeInfo="nn">
+                            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~ArrayList%dget(int)%cjava%dlang%dObject" resolveInfo="get" />
+                            <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573613760558" nodeInfo="nn">
+                              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573613748062" resolveInfo="i" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573613931412" nodeInfo="nn">
+                  <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573613931408" nodeInfo="nn">
+                    <node role="operand" roleId="tpee.1197027771414" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="794091573613931409" nodeInfo="nn">
+                      <link role="classifier" roleId="tpee.1144433057691" targetNodeId="e2lb.~System" resolveInfo="System" />
+                      <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="e2lb.~System%dout" resolveInfo="out" />
+                    </node>
+                    <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573613931410" nodeInfo="nn">
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fxg7.~PrintStream%dprintln(java%dlang%dString)%cvoid" resolveInfo="println" />
+                      <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573613934496" nodeInfo="nn">
+                        <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573613762481" resolveInfo="cmd" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573613207809" nodeInfo="nn">
+                  <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573613207988" nodeInfo="nn">
+                    <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573613207987" nodeInfo="nn">
+                      <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573613207805" resolveInfo="assembler" />
+                    </node>
+                    <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573613207989" nodeInfo="nn">
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="r9z8.~CommandAssembler%dappendCommand(java%dlang%dString)%cvoid" resolveInfo="appendCommand" />
+                      <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573613763240" nodeInfo="nn">
+                        <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573613762481" resolveInfo="cmd" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573613207814" nodeInfo="nn">
+                  <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573613207995" nodeInfo="nn">
+                    <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573613207994" nodeInfo="nn">
+                      <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573613207801" resolveInfo="commandBuffer" />
+                    </node>
+                    <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573613207996" nodeInfo="nn">
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~StringBuffer%dappend(java%dlang%dString)%cjava%dlang%dStringBuffer" resolveInfo="append" />
+                      <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573613767278" nodeInfo="nn">
+                        <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573613762481" resolveInfo="cmd" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="794091573613207862" nodeInfo="nn">
+                  <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="794091573613207861" nodeInfo="nn">
+                    <property name="text" nameId="tpee.6329021646629104958" value="process output according to type " />
+                  </node>
+                </node>
+                <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="794091573613207820" nodeInfo="nn">
+                  <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="794091573613207819" nodeInfo="nr">
+                    <property name="isFinal" nameId="tpee.1176718929932" value="false" />
+                    <property name="name" nameId="tpck.1169194664001" value="plan" />
+                    <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="794091573613207821" nodeInfo="in">
+                      <link role="classifier" roleId="tpee.1107535924139" targetNodeId="r9z8.~CommandExecutionPlan" resolveInfo="CommandExecutionPlan" />
+                    </node>
+                    <node role="initializer" roleId="tpee.1068431790190" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="794091573613207822" nodeInfo="nn" />
+                  </node>
+                </node>
+                <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573613207823" nodeInfo="nn">
+                  <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="794091573613207824" nodeInfo="nn">
+                    <node role="lValue" roleId="tpee.1068498886295" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573613207825" nodeInfo="nn">
+                      <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573613588088" resolveInfo="lastExitCode" />
+                    </node>
+                    <node role="rValue" roleId="tpee.1068498886297" type="tpee.UnaryMinus" typeId="tpee.8064396509828172209" id="794091573613207826" nodeInfo="nn">
+                      <node role="expression" roleId="tpee.1239714902950" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="794091573613207827" nodeInfo="nn">
+                        <property name="value" nameId="tpee.1068580320021" value="1" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node role="statement" roleId="tpee.1068581517665" type="tpee.TryStatement" typeId="tpee.1153952380246" id="794091573613207854" nodeInfo="nn">
+                  <node role="finallyBody" roleId="tpee.1153952429843" type="tpee.StatementList" typeId="tpee.1068580123136" id="794091573613207841" nodeInfo="sn">
+                    <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="794091573613207842" nodeInfo="nn">
+                      <node role="condition" roleId="tpee.1068580123160" type="tpee.OrExpression" typeId="tpee.1080223426719" id="794091573613207843" nodeInfo="nn">
+                        <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.EqualsExpression" typeId="tpee.1068580123152" id="794091573613207844" nodeInfo="nn">
+                          <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573613207845" nodeInfo="nn">
+                            <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573613207819" resolveInfo="plan" />
+                          </node>
+                          <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="794091573613207846" nodeInfo="nn" />
+                        </node>
+                        <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.NotExpression" typeId="tpee.1081516740877" id="794091573613207847" nodeInfo="nn">
+                          <node role="expression" roleId="tpee.1081516765348" type="tpee.ParenthesizedExpression" typeId="tpee.1079359253375" id="794091573613207849" nodeInfo="nn">
+                            <node role="expression" roleId="tpee.1079359253376" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573613208002" nodeInfo="nn">
+                              <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573613208001" nodeInfo="nn">
+                                <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573613207819" resolveInfo="plan" />
+                              </node>
+                              <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573613208003" nodeInfo="nn">
+                                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="r9z8.~CommandExecutionPlan%dexecutedCompletely()%cboolean" resolveInfo="executedCompletely" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node role="ifFalseStatement" roleId="tpee.1082485599094" type="tpee.BlockStatement" typeId="tpee.1082485599095" id="794091573613207852" nodeInfo="nn">
+                        <node role="statements" roleId="tpee.1082485599096" type="tpee.StatementList" typeId="tpee.1068580123136" id="794091573613207853" nodeInfo="sn" />
+                      </node>
+                      <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="794091573613207851" nodeInfo="sn" />
+                    </node>
+                  </node>
+                  <node role="body" roleId="tpee.1153952416686" type="tpee.StatementList" typeId="tpee.1068580123136" id="794091573613207829" nodeInfo="sn">
+                    <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573613207830" nodeInfo="nn">
+                      <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573613208006" nodeInfo="nn">
+                        <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573613208005" nodeInfo="nn">
+                          <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573613207805" resolveInfo="assembler" />
+                        </node>
+                        <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573613208007" nodeInfo="nn">
+                          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="r9z8.~CommandAssembler%dfinishAssembly()%cvoid" resolveInfo="finishAssembly" />
+                        </node>
+                      </node>
+                    </node>
+                    <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573613207832" nodeInfo="nn">
+                      <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="794091573613207833" nodeInfo="nn">
+                        <node role="lValue" roleId="tpee.1068498886295" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573613207834" nodeInfo="nn">
+                          <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573613207819" resolveInfo="plan" />
+                        </node>
+                        <node role="rValue" roleId="tpee.1068498886297" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573613208010" nodeInfo="nn">
+                          <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573613208009" nodeInfo="nn">
+                            <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573613207805" resolveInfo="assembler" />
+                          </node>
+                          <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573613208011" nodeInfo="nn">
+                            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="r9z8.~CommandAssembler%dgetCommandExecutionPlan()%corg%dcampagnelab%dnyosh%dexec%dCommandExecutionPlan" resolveInfo="getCommandExecutionPlan" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="794091573613965907" nodeInfo="nn">
+                      <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.StatementCommentPart" typeId="tpee.6329021646629175143" id="794091573613965908" nodeInfo="nn">
+                        <node role="commentedStatement" roleId="tpee.6329021646629175144" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573613207836" nodeInfo="nn">
+                          <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="794091573613207837" nodeInfo="nn">
+                            <node role="lValue" roleId="tpee.1068498886295" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573613207838" nodeInfo="nn">
+                              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573613588088" resolveInfo="lastExitCode" />
+                            </node>
+                            <node role="rValue" roleId="tpee.1068498886297" type="tpee.DotExpression" typeId="tpee.1197027756228" id="794091573613208014" nodeInfo="nn">
+                              <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573613208013" nodeInfo="nn">
+                                <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573613207819" resolveInfo="plan" />
+                              </node>
+                              <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="794091573613208015" nodeInfo="nn">
+                                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="r9z8.~CommandExecutionPlan%drun()%cint" resolveInfo="run" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="794091573614469283" nodeInfo="nn">
+                  <node role="expression" roleId="tpee.1068580123156" type="tpee.PostfixIncrementExpression" typeId="tpee.1214918800624" id="794091573614470910" nodeInfo="nn">
+                    <node role="expression" roleId="tpee.1239714902950" type="tpee.VariableReference" typeId="tpee.1068498886296" id="794091573614470912" nodeInfo="nn">
+                      <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="794091573613748062" resolveInfo="i" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="794091573613207859" nodeInfo="nn" />
+      <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="794091573613207860" nodeInfo="in" />
+    </node>
+    <node role="member" roleId="tpee.5375687026011219971" type="tpee.StaticFieldDeclaration" typeId="tpee.1070462154015" id="794091573613588088" nodeInfo="igu">
+      <property name="isDeprecated" nameId="tpee.1224848525476" value="false" />
+      <property name="name" nameId="tpck.1169194664001" value="lastExitCode" />
+      <property name="isFinal" nameId="tpee.1176718929932" value="false" />
+      <node role="type" roleId="tpee.5680397130376446158" type="tpee.IntegerType" typeId="tpee.1070534370425" id="794091573613554498" nodeInfo="in" />
+    </node>
+  </root>
+  <root type="440p.RenamePlan" typeId="440p.794091573600807021" id="794091573614016206" nodeInfo="ng">
+    <property name="textImport" nameId="440p.794091573601652603" value="" />
+    <property name="name" nameId="tpck.1169194664001" value="SampleNames" />
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573614018541" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY1-DWEYS-0-NO_" />
+      <property name="to" nameId="440p.794091573600807341" value="1" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573614018542" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY2-DWEYS-0-NO_" />
+      <property name="to" nameId="440p.794091573600807341" value="1" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573614018543" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY3-DWEYS-0-NO_" />
+      <property name="to" nameId="440p.794091573600807341" value="1" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573614018544" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY4-CORE-0-NO_" />
+      <property name="to" nameId="440p.794091573600807341" value="1" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573614018545" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY5-CORE-0-NO_" />
+      <property name="to" nameId="440p.794091573600807341" value="1" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573614018546" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY6-CORE-0-NO_" />
+      <property name="to" nameId="440p.794091573600807341" value="1" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573614018547" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY7-WT-0-NO_" />
+      <property name="to" nameId="440p.794091573600807341" value="1" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573614018548" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY8-WT-0-NO_" />
+      <property name="to" nameId="440p.794091573600807341" value="1" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573614018549" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY9-WT-0-NO_" />
+      <property name="to" nameId="440p.794091573600807341" value="1" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573614018550" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY10-DWEYS-1-LPS_" />
+      <property name="to" nameId="440p.794091573600807341" value="1" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573614018551" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY11-DWEYS-1-LPS_" />
+      <property name="to" nameId="440p.794091573600807341" value="1" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573614018552" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY12-DWEYS-1-LPS_" />
+      <property name="to" nameId="440p.794091573600807341" value="1" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573614018553" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY13-CORE-1-LPS_" />
+      <property name="to" nameId="440p.794091573600807341" value="1" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573614018554" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY14-CORE-1-LPS_" />
+      <property name="to" nameId="440p.794091573600807341" value="1" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573614018555" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY15-CORE-1-LPS_" />
+      <property name="to" nameId="440p.794091573600807341" value="1" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573614018556" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY16-WT-1-LPS_" />
+      <property name="to" nameId="440p.794091573600807341" value="1" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573614018557" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY17-WT-1-LPS_" />
+      <property name="to" nameId="440p.794091573600807341" value="1" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573614018558" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY25-WT-1-LPS_" />
+      <property name="to" nameId="440p.794091573600807341" value="1" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573614018559" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY18-DWEYS-4-LPS_" />
+      <property name="to" nameId="440p.794091573600807341" value="1" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573614018560" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY19-DWEYS-4-LPS_" />
+      <property name="to" nameId="440p.794091573600807341" value="1" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573614018561" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY20-DWEYS-4-LPS_" />
+      <property name="to" nameId="440p.794091573600807341" value="1" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573614018562" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY22-CORE-4-LPS_" />
+      <property name="to" nameId="440p.794091573600807341" value="1" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573614018563" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY23-CORE-4-LPS_" />
+      <property name="to" nameId="440p.794091573600807341" value="1" />
+    </node>
+    <node role="instructions" roleId="440p.794091573600981748" type="440p.RenameFileInstruction" typeId="440p.794091573600807175" id="794091573614018564" nodeInfo="ng">
+      <property name="from" nameId="440p.794091573600807339" value="HY24-CORE-4-LPS_" />
+      <property name="to" nameId="440p.794091573600807341" value="1" />
+    </node>
+  </root>
+  <root type="440p.SetOfBags" typeId="440p.794091573608667617" id="794091573614021014" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="DiamongBagsSet2" />
+    <node role="bags" roleId="440p.794091573608667758" type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573614021015" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="HY1-DWEYS-0-NO_" />
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033227" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY1/HY1-DWEYS-0-NO_001.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY1-DWEYS-0-NO_001.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033228" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY1/HY1-DWEYS-0-NO_002.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY1-DWEYS-0-NO_002.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033229" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY1/HY1-DWEYS-0-NO_003.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY1-DWEYS-0-NO_003.fastq.gz" />
+      </node>
+    </node>
+    <node role="bags" roleId="440p.794091573608667758" type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573614021016" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="HY10-DWEYS-1-LPS_" />
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033230" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY10/HY10-DWEYS-1-LPS_001.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY10-DWEYS-1-LPS_001.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033231" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY10/HY10-DWEYS-1-LPS_002.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY10-DWEYS-1-LPS_002.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033232" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY10/HY10-DWEYS-1-LPS_003.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY10-DWEYS-1-LPS_003.fastq.gz" />
+      </node>
+    </node>
+    <node role="bags" roleId="440p.794091573608667758" type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573614021017" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="HY11-DWEYS-1-LPS_" />
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033233" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY11/HY11-DWEYS-1-LPS_001.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY11-DWEYS-1-LPS_001.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033234" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY11/HY11-DWEYS-1-LPS_002.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY11-DWEYS-1-LPS_002.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033235" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY11/HY11-DWEYS-1-LPS_003.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY11-DWEYS-1-LPS_003.fastq.gz" />
+      </node>
+    </node>
+    <node role="bags" roleId="440p.794091573608667758" type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573614021018" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="HY12-DWEYS-1-LPS_" />
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033236" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY12/HY12-DWEYS-1-LPS_001.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY12-DWEYS-1-LPS_001.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033237" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY12/HY12-DWEYS-1-LPS_002.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY12-DWEYS-1-LPS_002.fastq.gz" />
+      </node>
+    </node>
+    <node role="bags" roleId="440p.794091573608667758" type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573614021019" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="HY13-CORE-1-LPS_" />
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033238" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY13/HY13-CORE-1-LPS_001.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY13-CORE-1-LPS_001.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033239" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY13/HY13-CORE-1-LPS_002.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY13-CORE-1-LPS_002.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033240" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY13/HY13-CORE-1-LPS_003.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY13-CORE-1-LPS_003.fastq.gz" />
+      </node>
+    </node>
+    <node role="bags" roleId="440p.794091573608667758" type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573614021020" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="HY14-CORE-1-LPS_" />
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033241" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY14/HY14-CORE-1-LPS_001.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY14-CORE-1-LPS_001.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033242" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY14/HY14-CORE-1-LPS_002.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY14-CORE-1-LPS_002.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033243" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY14/HY14-CORE-1-LPS_003.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY14-CORE-1-LPS_003.fastq.gz" />
+      </node>
+    </node>
+    <node role="bags" roleId="440p.794091573608667758" type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573614021021" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="HY15-CORE-1-LPS_" />
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033244" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY15/HY15-CORE-1-LPS_001.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY15-CORE-1-LPS_001.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033245" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY15/HY15-CORE-1-LPS_002.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY15-CORE-1-LPS_002.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033246" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY15/HY15-CORE-1-LPS_003.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY15-CORE-1-LPS_003.fastq.gz" />
+      </node>
+    </node>
+    <node role="bags" roleId="440p.794091573608667758" type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573614021022" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="HY16-WT-1-LPS_" />
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033247" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY16/HY16-WT-1-LPS_001.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY16-WT-1-LPS_001.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033248" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY16/HY16-WT-1-LPS_002.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY16-WT-1-LPS_002.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033249" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY16/HY16-WT-1-LPS_003.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY16-WT-1-LPS_003.fastq.gz" />
+      </node>
+    </node>
+    <node role="bags" roleId="440p.794091573608667758" type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573614021023" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="HY17-WT-1-LPS_" />
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033250" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY17/HY17-WT-1-LPS_001.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY17-WT-1-LPS_001.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033251" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY17/HY17-WT-1-LPS_002.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY17-WT-1-LPS_002.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033252" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY17/HY17-WT-1-LPS_003.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY17-WT-1-LPS_003.fastq.gz" />
+      </node>
+    </node>
+    <node role="bags" roleId="440p.794091573608667758" type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573614021024" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="HY18-DWEYS-4-LPS_" />
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033253" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY18/HY18-DWEYS-4-LPS_001.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY18-DWEYS-4-LPS_001.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033254" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY18/HY18-DWEYS-4-LPS_002.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY18-DWEYS-4-LPS_002.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033255" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY18/HY18-DWEYS-4-LPS_003.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY18-DWEYS-4-LPS_003.fastq.gz" />
+      </node>
+    </node>
+    <node role="bags" roleId="440p.794091573608667758" type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573614021025" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="HY19-DWEYS-4-LPS_" />
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033256" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY19/HY19-DWEYS-4-LPS_001.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY19-DWEYS-4-LPS_001.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033257" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY19/HY19-DWEYS-4-LPS_002.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY19-DWEYS-4-LPS_002.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033258" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY19/HY19-DWEYS-4-LPS_003.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY19-DWEYS-4-LPS_003.fastq.gz" />
+      </node>
+    </node>
+    <node role="bags" roleId="440p.794091573608667758" type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573614021026" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="HY2-DWEYS-0-NO_" />
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033259" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY2/HY2-DWEYS-0-NO_001.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY2-DWEYS-0-NO_001.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033260" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY2/HY2-DWEYS-0-NO_002.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY2-DWEYS-0-NO_002.fastq.gz" />
+      </node>
+    </node>
+    <node role="bags" roleId="440p.794091573608667758" type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573614021027" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="HY20-DWEYS-4-LPS_" />
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033261" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY20/HY20-DWEYS-4-LPS_001.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY20-DWEYS-4-LPS_001.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033262" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY20/HY20-DWEYS-4-LPS_002.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY20-DWEYS-4-LPS_002.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033263" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY20/HY20-DWEYS-4-LPS_003.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY20-DWEYS-4-LPS_003.fastq.gz" />
+      </node>
+    </node>
+    <node role="bags" roleId="440p.794091573608667758" type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573614021028" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="HY22-CORE-4-LPS_" />
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033264" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY22/HY22-CORE-4-LPS_001.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY22-CORE-4-LPS_001.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033265" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY22/HY22-CORE-4-LPS_002.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY22-CORE-4-LPS_002.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033266" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY22/HY22-CORE-4-LPS_003.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY22-CORE-4-LPS_003.fastq.gz" />
+      </node>
+    </node>
+    <node role="bags" roleId="440p.794091573608667758" type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573614021029" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="HY23-CORE-4-LPS_" />
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033267" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY23/HY23-CORE-4-LPS_001.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY23-CORE-4-LPS_001.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033268" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY23/HY23-CORE-4-LPS_002.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY23-CORE-4-LPS_002.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033269" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY23/HY23-CORE-4-LPS_003.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY23-CORE-4-LPS_003.fastq.gz" />
+      </node>
+    </node>
+    <node role="bags" roleId="440p.794091573608667758" type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573614021030" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="HY24-CORE-4-LPS_" />
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033270" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY24/HY24-CORE-4-LPS_001.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY24-CORE-4-LPS_001.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033271" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY24/HY24-CORE-4-LPS_002.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY24-CORE-4-LPS_002.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033272" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY24/HY24-CORE-4-LPS_003.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY24-CORE-4-LPS_003.fastq.gz" />
+      </node>
+    </node>
+    <node role="bags" roleId="440p.794091573608667758" type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573614021031" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="HY25-WT-1-LPS_" />
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033273" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY25/HY25-WT-1-LPS_001.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY25-WT-1-LPS_001.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033274" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY25/HY25-WT-1-LPS_002.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY25-WT-1-LPS_002.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033275" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY25/HY25-WT-1-LPS_003.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY25-WT-1-LPS_003.fastq.gz" />
+      </node>
+    </node>
+    <node role="bags" roleId="440p.794091573608667758" type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573614021032" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="HY3-DWEYS-0-NO_" />
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033276" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY3/HY3-DWEYS-0-NO_001.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY3-DWEYS-0-NO_001.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033277" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY3/HY3-DWEYS-0-NO_002.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY3-DWEYS-0-NO_002.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033278" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY3/HY3-DWEYS-0-NO_003.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY3-DWEYS-0-NO_003.fastq.gz" />
+      </node>
+    </node>
+    <node role="bags" roleId="440p.794091573608667758" type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573614021033" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="HY4-CORE-0-NO_" />
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033279" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY4/HY4-CORE-0-NO_001.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY4-CORE-0-NO_001.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033280" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY4/HY4-CORE-0-NO_002.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY4-CORE-0-NO_002.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033281" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY4/HY4-CORE-0-NO_003.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY4-CORE-0-NO_003.fastq.gz" />
+      </node>
+    </node>
+    <node role="bags" roleId="440p.794091573608667758" type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573614021034" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="HY5-CORE-0-NO_" />
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033282" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY5/HY5-CORE-0-NO_001.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY5-CORE-0-NO_001.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033283" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY5/HY5-CORE-0-NO_002.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY5-CORE-0-NO_002.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033284" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY5/HY5-CORE-0-NO_003.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY5-CORE-0-NO_003.fastq.gz" />
+      </node>
+    </node>
+    <node role="bags" roleId="440p.794091573608667758" type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573614021035" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="HY6-CORE-0-NO_" />
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033285" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY6/HY6-CORE-0-NO_001.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY6-CORE-0-NO_001.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033286" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY6/HY6-CORE-0-NO_002.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY6-CORE-0-NO_002.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033287" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY6/HY6-CORE-0-NO_003.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY6-CORE-0-NO_003.fastq.gz" />
+      </node>
+    </node>
+    <node role="bags" roleId="440p.794091573608667758" type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573614021036" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="HY7-WT-0-NO_" />
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033288" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY7/HY7-WT-0-NO_001.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY7-WT-0-NO_001.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033289" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY7/HY7-WT-0-NO_002.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY7-WT-0-NO_002.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033290" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY7/HY7-WT-0-NO_003.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY7-WT-0-NO_003.fastq.gz" />
+      </node>
+    </node>
+    <node role="bags" roleId="440p.794091573608667758" type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573614021037" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="HY8-WT-0-NO_" />
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033291" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY8/HY8-WT-0-NO_001.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY8-WT-0-NO_001.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033292" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY8/HY8-WT-0-NO_002.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY8-WT-0-NO_002.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033293" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY8/HY8-WT-0-NO_003.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY8-WT-0-NO_003.fastq.gz" />
+      </node>
+    </node>
+    <node role="bags" roleId="440p.794091573608667758" type="440p.ExplicitFileBag" typeId="440p.5575801756724618415" id="794091573614021038" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="HY9-WT-0-NO_" />
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033294" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY9/HY9-WT-0-NO_001.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY9-WT-0-NO_001.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033295" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY9/HY9-WT-0-NO_002.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY9-WT-0-NO_002.fastq.gz" />
+      </node>
+      <node role="files" roleId="440p.5575801756724622374" type="440p.File" typeId="440p.5575801756724620905" id="794091573609033296" nodeInfo="ng">
+        <property name="fullPath" nameId="440p.5575801756724621394" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY9/HY9-WT-0-NO_003.fastq.gz" />
+        <property name="name" nameId="tpck.1169194664001" value="HY9-WT-0-NO_003.fastq.gz" />
+      </node>
+    </node>
+  </root>
+  <root type="p6sl.TextOutput" typeId="p6sl.6874736155931251147" id="8986731840035106181" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="out" />
+    <property name="extension" nameId="p6sl.4279449414579828182" value="R" />
+    <node role="lineContainer" roleId="p6sl.5039633819243297498" type="p6sl.Lines" typeId="p6sl.5039633819242576787" id="8986731840035106182" nodeInfo="ng">
+      <property name="text" nameId="p6sl.5493669862519718600" value="" />
+      <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8986731840035106183" nodeInfo="ng">
+        <property name="text" nameId="p6sl.5493669862519718600" value="" />
+      </node>
+      <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8986731840035106541" nodeInfo="ng">
+        <property name="text" nameId="p6sl.5493669862519718600" value="" />
+        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrases" typeId="p6sl.8986731840034603051" id="8986731840035108078" nodeInfo="ng">
+          <property name="text" nameId="p6sl.1680136183140337487" value="" />
+          <node role="phrases" roleId="p6sl.8986731840034613153" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8986731840035108079" nodeInfo="ng">
+            <property name="text" nameId="p6sl.1680136183140337487" value="" />
+          </node>
+          <node role="phrases" roleId="p6sl.8986731840034613153" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8986731840035146549" nodeInfo="ng">
+            <property name="text" nameId="p6sl.1680136183140337487" value="d1d" />
+          </node>
+          <node role="phrases" roleId="p6sl.8986731840034613153" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8986731840035146557" nodeInfo="ng">
+            <property name="text" nameId="p6sl.1680136183140337487" value="dd" />
+          </node>
+          <node role="phrases" roleId="p6sl.8986731840034613153" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8986731840035146567" nodeInfo="ng">
+            <property name="text" nameId="p6sl.1680136183140337487" value="" />
+          </node>
+        </node>
+        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8986731840035106542" nodeInfo="ng">
+          <property name="text" nameId="p6sl.1680136183140337487" value="" />
+        </node>
+      </node>
+      <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8986731840035312350" nodeInfo="ng">
+        <property name="text" nameId="p6sl.5493669862519718600" value="ss" />
+        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrases" typeId="p6sl.8986731840034603051" id="8986731840035312401" nodeInfo="ng">
+          <property name="text" nameId="p6sl.1680136183140337487" value="" />
+          <node role="phrases" roleId="p6sl.8986731840034613153" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8986731840035312411" nodeInfo="ng">
+            <property name="text" nameId="p6sl.1680136183140337487" value="1" />
+          </node>
+          <node role="phrases" roleId="p6sl.8986731840034613153" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8986731840035312402" nodeInfo="ng">
+            <property name="text" nameId="p6sl.1680136183140337487" value="" />
+          </node>
+          <node role="phrases" roleId="p6sl.8986731840034613153" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8986731840035312417" nodeInfo="ng">
+            <property name="text" nameId="p6sl.1680136183140337487" value="23" />
+          </node>
+          <node role="phrases" roleId="p6sl.8986731840034613153" type="p6sl.Phrases" typeId="p6sl.8986731840034603051" id="7855151618798355604" nodeInfo="ng">
+            <property name="text" nameId="p6sl.1680136183140337487" value="" />
+            <node role="phrases" roleId="p6sl.8986731840034613153" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="7855151618798355628" nodeInfo="ng">
+              <property name="text" nameId="p6sl.1680136183140337487" value="a" />
+            </node>
+            <node role="phrases" roleId="p6sl.8986731840034613153" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="7855151618798355605" nodeInfo="ng">
+              <property name="text" nameId="p6sl.1680136183140337487" value="" />
+            </node>
+            <node role="phrases" roleId="p6sl.8986731840034613153" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="7855151618798355695" nodeInfo="ng">
+              <property name="text" nameId="p6sl.1680136183140337487" value="b" />
+            </node>
+            <node role="phrases" roleId="p6sl.8986731840034613153" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="7855151618798355700" nodeInfo="ng">
+              <property name="text" nameId="p6sl.1680136183140337487" value="c" />
+            </node>
+          </node>
+        </node>
+        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8986731840035312353" nodeInfo="ng">
+          <property name="text" nameId="p6sl.1680136183140337487" value="" />
+        </node>
+      </node>
+      <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8986731840035312425" nodeInfo="ng">
+        <property name="text" nameId="p6sl.5493669862519718600" value="" />
+        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8986731840035312426" nodeInfo="ng">
+          <property name="text" nameId="p6sl.1680136183140337487" value="" />
+        </node>
+      </node>
+      <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8986731840035108109" nodeInfo="ng">
+        <property name="text" nameId="p6sl.5493669862519718600" value="" />
+        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8986731840035108132" nodeInfo="ng">
+          <property name="text" nameId="p6sl.1680136183140337487" value="" />
+        </node>
+        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8986731840035108110" nodeInfo="ng">
+          <property name="text" nameId="p6sl.1680136183140337487" value="" />
+        </node>
+      </node>
+      <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8986731840035108138" nodeInfo="ng">
+        <property name="text" nameId="p6sl.5493669862519718600" value="" />
+        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8986731840035108167" nodeInfo="ng">
+          <property name="text" nameId="p6sl.1680136183140337487" value="v" />
+        </node>
+        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8986731840035108139" nodeInfo="ng">
+          <property name="text" nameId="p6sl.1680136183140337487" value="" />
+        </node>
+      </node>
+      <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8986731840035108173" nodeInfo="ng">
+        <property name="text" nameId="p6sl.5493669862519718600" value="" />
+        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8986731840035108174" nodeInfo="ng">
+          <property name="text" nameId="p6sl.1680136183140337487" value="" />
+        </node>
+      </node>
+      <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8986731840035106184" nodeInfo="ng">
+        <property name="text" nameId="p6sl.1680136183140337487" value="" />
+      </node>
+      <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8986731840035106186" nodeInfo="ng">
+        <property name="text" nameId="p6sl.5493669862519718600" value="" />
+        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8986731840035106187" nodeInfo="ng">
+          <property name="text" nameId="p6sl.1680136183140337487" value="" />
+        </node>
+      </node>
     </node>
   </root>
 </model>

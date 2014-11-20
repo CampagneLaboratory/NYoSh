@@ -20,11 +20,13 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 2:
         return new ConceptDescriptorBuilder("org.campagnelab.textoutput.structure.Phrase").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").properties("text").create();
       case 3:
+        return new ConceptDescriptorBuilder("org.campagnelab.textoutput.structure.Phrases").super_("org.campagnelab.textoutput.structure.Phrase").parents("org.campagnelab.textoutput.structure.Phrase").children(new String[]{"phrases"}, new boolean[]{true}).create();
+      case 4:
         return new ConceptDescriptorBuilder("org.campagnelab.textoutput.structure.TextOutput").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept").properties("extension", "filename").children(new String[]{"lines", "lineContainer"}, new boolean[]{true, true}).create();
       default:
         return StructureAspectInterpreted.getInstance().getDescriptor(conceptFqName);
     }
   }
 
-  private static String[] stringSwitchCases_1htk8d_a0a0b = new String[]{"org.campagnelab.textoutput.structure.Line", "org.campagnelab.textoutput.structure.Lines", "org.campagnelab.textoutput.structure.Phrase", "org.campagnelab.textoutput.structure.TextOutput"};
+  private static String[] stringSwitchCases_1htk8d_a0a0b = new String[]{"org.campagnelab.textoutput.structure.Line", "org.campagnelab.textoutput.structure.Lines", "org.campagnelab.textoutput.structure.Phrase", "org.campagnelab.textoutput.structure.Phrases", "org.campagnelab.textoutput.structure.TextOutput"};
 }

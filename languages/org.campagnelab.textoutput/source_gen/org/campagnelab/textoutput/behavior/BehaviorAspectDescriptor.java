@@ -12,7 +12,7 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
 
   public BehaviorDescriptor getDescriptor(String fqName) {
     switch (Arrays.binarySearch(stringSwitchCases_846f5o_a0a0b, fqName)) {
-      case 3:
+      case 4:
         return new TextOutput_BehaviorDescriptor();
       case 0:
         return new Line_BehaviorDescriptor();
@@ -20,10 +20,12 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return new Phrase_BehaviorDescriptor();
       case 1:
         return new Lines_BehaviorDescriptor();
+      case 3:
+        return new Phrases_BehaviorDescriptor();
       default:
         return BehaviorAspectInterpreted.getInstance().getDescriptor(fqName);
     }
   }
 
-  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"org.campagnelab.textoutput.structure.Line", "org.campagnelab.textoutput.structure.Lines", "org.campagnelab.textoutput.structure.Phrase", "org.campagnelab.textoutput.structure.TextOutput"};
+  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"org.campagnelab.textoutput.structure.Line", "org.campagnelab.textoutput.structure.Lines", "org.campagnelab.textoutput.structure.Phrase", "org.campagnelab.textoutput.structure.Phrases", "org.campagnelab.textoutput.structure.TextOutput"};
 }

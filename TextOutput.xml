@@ -6,7 +6,7 @@
   <property name="mps_home" location="" />
   <property name="org.campagnelab.goby.workbench.home" location="" />
   <property name="build_number" value="0" />
-  <property name="textoutput_version" value="1.0.3" />
+  <property name="textoutput_version" value="1.2.1" />
   <property name="artifacts.mps" location="${mps_home}" />
   <property file="${artifacts.mps}/build.properties" prefix="import.mps" />
   <property name="mps.build.number" value="${import.mps.mps.build.number}" />
