@@ -44,7 +44,6 @@
   </generators>
   <stubModelEntries>
     <stubModelEntry path="${module}/GobyWebPluginRunner-1.0-SNAPSHOT.jar" />
-    <stubModelEntry path="${org.campagnelab.hta.results_dir}/MPSProjects/git/NYoSh/lib/mercury-api-1.0-SNAPSHOT.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

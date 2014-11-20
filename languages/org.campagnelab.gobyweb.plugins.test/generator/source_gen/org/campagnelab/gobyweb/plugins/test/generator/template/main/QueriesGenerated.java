@@ -98,6 +98,10 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(_context.getNode(), "name") + "-copy";
   }
 
+  public static Object propertyMacro_GetPropertyValue_1546477733304743021(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "slot", true), "ref", false), "name");
+  }
+
   public static Object propertyMacro_GetPropertyValue_1171932074421(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(SNodeOperations.getAncestor(_context.getNode(), "org.campagnelab.gobyweb.plugins.test.structure.PluginTestCase", false, false), "name");
   }
@@ -112,10 +116,6 @@ public class QueriesGenerated {
 
   public static Object propertyMacro_GetPropertyValue_1546477733302961409(final PropertyMacroContext _context) {
     return SPropertyOperations.getInteger(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(SNodeOperations.getAncestor(_context.getNode(), "org.campagnelab.gobyweb.plugins.test.structure.PluginTestCase", false, false), "configuration", true), "executionEnvironment", false), "jobArea", true), "brokerPortForJobs", false), "number");
-  }
-
-  public static Object propertyMacro_GetPropertyValue_1546477733304743021(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "slot", true), "ref", false), "name");
   }
 
   public static SNode sourceNodeQuery_1546477733303134410(final SourceSubstituteMacroNodeContext _context) {
