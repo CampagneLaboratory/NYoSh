@@ -49,6 +49,10 @@
       <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="90kj.3827903497679865605" resolveInfo="PluginTestCase" />
       <link role="template" roleId="tpf8.1167514355421" targetNodeId="8792472772531130202" resolveInfo="post" />
     </node>
+    <node role="rootMappingRule" roleId="tpf8.1167514678247" type="tpf8.Root_MappingRule" typeId="tpf8.1167514355419" id="8792472772533988953" nodeInfo="ng">
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="90kj.3827903497679865605" resolveInfo="PluginTestCase" />
+      <link role="template" roleId="tpf8.1167514355421" targetNodeId="8792472772533947013" resolveInfo="run" />
+    </node>
     <node role="rootMappingRule" roleId="tpf8.1167514678247" type="tpf8.Root_MappingRule" typeId="tpf8.1167514355419" id="1546477733302599512" nodeInfo="ng">
       <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="90kj.3827903497682417639" resolveInfo="TestScript" />
       <link role="template" roleId="tpf8.1167514355421" targetNodeId="1171932074406" resolveInfo="PluginTestCaseImpl" />
@@ -2924,7 +2928,6 @@
         </node>
       </node>
       <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8792472772531130504" nodeInfo="ng">
-        <property name="text" nameId="p6sl.5493669862519718600" value="" />
         <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8792472772531782612" nodeInfo="ng">
           <property name="text" nameId="p6sl.1680136183140337487" value="CLASSES_TAG=" />
         </node>
@@ -2966,8 +2969,52 @@
           <property name="text" nameId="p6sl.1680136183140337487" value="" />
         </node>
       </node>
-      <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8792472772531190943" nodeInfo="ng">
+      <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8792472772534423318" nodeInfo="ng">
         <property name="text" nameId="p6sl.5493669862519718600" value="" />
+        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8792472772534432961" nodeInfo="ng">
+          <property name="text" nameId="p6sl.1680136183140337487" value="clean_tag ${FILESET_AREA_PARAM} " />
+        </node>
+        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8792472772534432962" nodeInfo="ng">
+          <property name="text" nameId="p6sl.1680136183140337487" value="owner" />
+          <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.PropertyMacro" typeId="tpf8.1087833241328" id="8792472772534432970" nodeInfo="nn">
+            <property name="propertyName" nameId="tpck.1757699476691236117" value="text" />
+            <node role="propertyValueFunction" roleId="tpf8.1167756362303" type="tpf8.PropertyMacro_GetPropertyValue" typeId="tpf8.1167756080639" id="8792472772534432971" nodeInfo="nn">
+              <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="8792472772534432972" nodeInfo="sn">
+                <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="8792472772534433681" nodeInfo="nn">
+                  <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8792472772534433682" nodeInfo="nn">
+                    <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8792472772534433683" nodeInfo="nn">
+                      <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8792472772534433684" nodeInfo="nn">
+                        <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8792472772534433685" nodeInfo="nn">
+                          <node role="operand" roleId="tpee.1197027771414" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="8792472772534433686" nodeInfo="nn" />
+                          <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="8792472772534433687" nodeInfo="nn">
+                            <link role="link" roleId="tp25.1138056516764" targetNodeId="90kj.3827903497682006055" />
+                          </node>
+                        </node>
+                        <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="8792472772534433688" nodeInfo="nn">
+                          <link role="link" roleId="tp25.1138056516764" targetNodeId="bs99.4459289555249518561" />
+                        </node>
+                      </node>
+                      <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="8792472772534433689" nodeInfo="nn">
+                        <link role="link" roleId="tp25.1138056516764" targetNodeId="bs99.5865189911929158304" />
+                      </node>
+                    </node>
+                    <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="8792472772534433690" nodeInfo="nn">
+                      <link role="property" roleId="tp25.1138056395725" targetNodeId="czzw.5865189911928341274" resolveInfo="id" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8792472772534432963" nodeInfo="ng">
+          <property name="text" nameId="p6sl.1680136183140337487" value=" ${CLASSES_TAG:0:1}/${CLASSES_TAG}" />
+        </node>
+        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8792472772534423319" nodeInfo="ng">
+          <property name="text" nameId="p6sl.1680136183140337487" value="" />
+        </node>
+      </node>
+      <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8792472772531190943" nodeInfo="ng">
         <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8792472772531781085" nodeInfo="ng">
           <property name="text" nameId="p6sl.1680136183140337487" value="plugins-register-fileset --fileset-area ${FILESET_AREA_PARAM} --plugins-dir ${PLUGINS_DIR} --owner " />
         </node>
@@ -3017,6 +3064,12 @@
       <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8792472772532172989" nodeInfo="ng">
         <property name="text" nameId="p6sl.5493669862519718600" value="echo &quot;Test Classes registered&quot;" />
         <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8792472772532172990" nodeInfo="ng">
+          <property name="text" nameId="p6sl.1680136183140337487" value="" />
+        </node>
+      </node>
+      <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8792472772534458419" nodeInfo="ng">
+        <property name="text" nameId="p6sl.5493669862519718600" value="" />
+        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8792472772534458420" nodeInfo="ng">
           <property name="text" nameId="p6sl.1680136183140337487" value="" />
         </node>
       </node>
@@ -3277,6 +3330,113 @@
               <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8792472772531130613" nodeInfo="nn">
                 <node role="operand" roleId="tpee.1197027771414" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="8792472772531130614" nodeInfo="nn" />
                 <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="8792472772531130615" nodeInfo="nn">
+                  <link role="property" roleId="tp25.1138056395725" targetNodeId="tpck.1169194664001" resolveInfo="name" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </root>
+  <root type="p6sl.TextOutput" typeId="p6sl.6874736155931251147" id="8792472772533947013" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="run" />
+    <property name="extension" nameId="p6sl.4279449414579828182" value="sh" />
+    <property name="filename" nameId="p6sl.4279449414579828201" value="install" />
+    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.RootTemplateAnnotation" typeId="tpf8.1168619357332" id="8792472772533947014" nodeInfo="ng">
+      <link role="applicableConcept" roleId="tpf8.1168619429071" targetNodeId="90kj.3827903497679865605" resolveInfo="PluginTestCase" />
+    </node>
+    <node role="lineContainer" roleId="p6sl.5039633819243297498" type="p6sl.Lines" typeId="p6sl.5039633819242576787" id="8792472772533947015" nodeInfo="ng">
+      <property name="text" nameId="p6sl.5493669862519718600" value="" />
+      <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8792472772533947016" nodeInfo="ng">
+        <property name="text" nameId="p6sl.5493669862519718600" value="#This script runs the main submission script and the post job script for the test case. " />
+      </node>
+      <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8792472772533947017" nodeInfo="ng">
+        <property name="text" nameId="p6sl.5493669862519718600" value="source " />
+        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8792472772533947019" nodeInfo="ng">
+          <property name="text" nameId="p6sl.1680136183140337487" value="submit.sh" />
+          <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.PropertyMacro" typeId="tpf8.1087833241328" id="8792472772533947020" nodeInfo="nn">
+            <property name="propertyName" nameId="tpck.1757699476691236117" value="text" />
+            <node role="propertyValueFunction" roleId="tpf8.1167756362303" type="tpf8.PropertyMacro_GetPropertyValue" typeId="tpf8.1167756080639" id="8792472772533947021" nodeInfo="nn">
+              <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="8792472772533947022" nodeInfo="sn">
+                <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="8792472772533947023" nodeInfo="nn">
+                  <node role="expression" roleId="tpee.1068580123156" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="8792472772533947024" nodeInfo="nn">
+                    <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="8792472772533947025" nodeInfo="nn">
+                      <property name="value" nameId="tpee.1070475926801" value="-submit.sh" />
+                    </node>
+                    <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8792472772533947026" nodeInfo="nn">
+                      <node role="operand" roleId="tpee.1197027771414" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="8792472772533947027" nodeInfo="nn" />
+                      <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="8792472772533947028" nodeInfo="nn">
+                        <link role="property" roleId="tp25.1138056395725" targetNodeId="tpck.1169194664001" resolveInfo="name" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8792472772533947029" nodeInfo="ng">
+          <property name="text" nameId="p6sl.1680136183140337487" value=" &quot;" />
+        </node>
+        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8792472772533947031" nodeInfo="ng">
+          <property name="text" nameId="p6sl.1680136183140337487" value="$@&quot;" />
+        </node>
+        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8792472772533947045" nodeInfo="ng">
+          <property name="text" nameId="p6sl.1680136183140337487" value="" />
+        </node>
+      </node>
+      <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8792472772533969826" nodeInfo="ng">
+        <property name="text" nameId="p6sl.5493669862519718600" value="source " />
+        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8792472772533971010" nodeInfo="ng">
+          <property name="text" nameId="p6sl.1680136183140337487" value="post.sh" />
+          <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.PropertyMacro" typeId="tpf8.1087833241328" id="8792472772533971011" nodeInfo="nn">
+            <property name="propertyName" nameId="tpck.1757699476691236117" value="text" />
+            <node role="propertyValueFunction" roleId="tpf8.1167756362303" type="tpf8.PropertyMacro_GetPropertyValue" typeId="tpf8.1167756080639" id="8792472772533971012" nodeInfo="nn">
+              <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="8792472772533971013" nodeInfo="sn">
+                <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="8792472772533971014" nodeInfo="nn">
+                  <node role="expression" roleId="tpee.1068580123156" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="8792472772533971015" nodeInfo="nn">
+                    <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="8792472772533971016" nodeInfo="nn">
+                      <property name="value" nameId="tpee.1070475926801" value="-post.sh" />
+                    </node>
+                    <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8792472772533971017" nodeInfo="nn">
+                      <node role="operand" roleId="tpee.1197027771414" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="8792472772533971018" nodeInfo="nn" />
+                      <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="8792472772533971019" nodeInfo="nn">
+                        <link role="property" roleId="tp25.1138056395725" targetNodeId="tpck.1169194664001" resolveInfo="name" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8792472772533986404" nodeInfo="ng">
+          <property name="text" nameId="p6sl.1680136183140337487" value=" &quot;$@&quot;" />
+        </node>
+        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8792472772533969827" nodeInfo="ng">
+          <property name="text" nameId="p6sl.1680136183140337487" value="" />
+        </node>
+      </node>
+      <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8792472772533947192" nodeInfo="ng">
+        <property name="text" nameId="p6sl.5493669862519718600" value="" />
+        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8792472772533947193" nodeInfo="ng">
+          <property name="text" nameId="p6sl.1680136183140337487" value="" />
+        </node>
+      </node>
+    </node>
+    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.PropertyMacro" typeId="tpf8.1087833241328" id="8792472772533947194" nodeInfo="nn">
+      <property name="propertyName" nameId="tpck.1757699476691236117" value="name" />
+      <node role="propertyValueFunction" roleId="tpf8.1167756362303" type="tpf8.PropertyMacro_GetPropertyValue" typeId="tpf8.1167756080639" id="8792472772533947195" nodeInfo="nn">
+        <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="8792472772533947196" nodeInfo="sn">
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="8792472772533947197" nodeInfo="nn">
+            <node role="expression" roleId="tpee.1068580123156" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="8792472772533947198" nodeInfo="nn">
+              <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="8792472772533947199" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="-run" />
+              </node>
+              <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8792472772533947200" nodeInfo="nn">
+                <node role="operand" roleId="tpee.1197027771414" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="8792472772533947201" nodeInfo="nn" />
+                <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="8792472772533947202" nodeInfo="nn">
                   <link role="property" roleId="tp25.1138056395725" targetNodeId="tpck.1169194664001" resolveInfo="name" />
                 </node>
               </node>

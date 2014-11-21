@@ -857,7 +857,7 @@
               </node>
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="5807598648180436991" nodeInfo="nn">
                 <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="5807598648180437371" nodeInfo="nn">
-                  <property name="value" nameId="tpee.1070475926801" value="-submit.sh" />
+                  <property name="value" nameId="tpee.1070475926801" value="-run.sh" />
                 </node>
                 <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5807598648180432663" nodeInfo="nn">
                   <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="5807598648180432442" nodeInfo="nn">

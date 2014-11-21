@@ -135,6 +135,10 @@ public class QueriesGenerated {
     return ICBStringUtils.generateRandomString(7);
   }
 
+  public static Object propertyMacro_GetPropertyValue_8792472772534432971(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "executionEnvironment", false), "owner", false), "id");
+  }
+
   public static Object propertyMacro_GetPropertyValue_8792472772531771264(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "executionEnvironment", false), "owner", false), "id");
   }
@@ -161,6 +165,18 @@ public class QueriesGenerated {
 
   public static Object propertyMacro_GetPropertyValue_8792472772531130608(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), "name") + "-post";
+  }
+
+  public static Object propertyMacro_GetPropertyValue_8792472772533947021(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "name") + "-submit.sh";
+  }
+
+  public static Object propertyMacro_GetPropertyValue_8792472772533971012(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "name") + "-post.sh";
+  }
+
+  public static Object propertyMacro_GetPropertyValue_8792472772533947195(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "name") + "-run";
   }
 
   public static SNode sourceNodeQuery_1546477733303134410(final SourceSubstituteMacroNodeContext _context) {
