@@ -163,6 +163,10 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "assignedPostTag").charAt(0) + "/" + SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "assignedPostTag");
   }
 
+  public static Object propertyMacro_GetPropertyValue_233331590116089136(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "assignedTag");
+  }
+
   public static Object propertyMacro_GetPropertyValue_8792472772531130608(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), "name") + "-post";
   }
