@@ -15,7 +15,7 @@
   <import index="czzw" modelUID="r:2151664b-13bc-4072-a76b-815bb37c415e(org.campagnelab.gobyweb.interactive.users.structure)" version="0" implicit="yes" />
   <import index="bs99" modelUID="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" version="66" implicit="yes" />
   <import index="9k5" modelUID="r:df9645c2-d2fa-41cb-a718-044a287b0626(org.campagnelab.clusterConfig.structure)" version="3" implicit="yes" />
-  <import index="90kj" modelUID="r:397eee62-00ff-4904-afbb-029e2b9cd1db(org.campagnelab.gobyweb.plugins.test.structure)" version="21" implicit="yes" />
+  <import index="90kj" modelUID="r:397eee62-00ff-4904-afbb-029e2b9cd1db(org.campagnelab.gobyweb.plugins.test.structure)" version="22" implicit="yes" />
   <import index="zr4f" modelUID="r:2920e4c4-4b31-4f7c-ac90-f43b38fc4b8c(org.campagnelab.gobyweb.interactive.platforms.structure)" version="9" implicit="yes" />
   <import index="2c0d" modelUID="r:2c38e443-0586-49e0-87de-1937d74417d9(org.campagnelab.gobyweb.interactive.organisms.structure)" version="-1" implicit="yes" />
   <import index="bd2x" modelUID="r:aa9c91aa-8100-4e98-88e5-b9737f1d54b8(model.organisms)" version="-1" implicit="yes" />
@@ -14907,80 +14907,14 @@
       </node>
     </node>
   </root>
-  <root type="90kj.PluginTestCase" typeId="90kj.3827903497679865605" id="8792472772530104445" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="dfdfd" />
-    <node role="configuration" roleId="90kj.3827903497682006055" type="90kj.TestJobConfiguration" typeId="90kj.3827903497681813715" id="8792472772530104447" nodeInfo="ng">
-      <property name="executionCompleted" nameId="bs99.4965834343965555115" value="false" />
-      <property name="name" nameId="tpck.1169194664001" value="ExecutionTool" />
-      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="90kj.ListenAndSyncNewFSI" typeId="90kj.3827903497663560969" id="8792472772530104450" nodeInfo="ng">
-        <property name="rank" nameId="bbh2.6587162469552164420" value="99" />
-        <link role="testEnvironment" roleId="90kj.3827903497666661570" targetNodeId="8515523077722744524" resolveInfo="PluginTestExecutionEnvironment" />
-      </node>
-      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ListenForSampleFileSets" typeId="7aad.7926097513313207836" id="8792472772530104448" nodeInfo="ng">
-        <property name="rank" nameId="bbh2.6587162469552164420" value="100" />
-      </node>
-      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ListenForAlignmentFileSets" typeId="7aad.6587162469555572132" id="8792472772530104449" nodeInfo="ng">
-        <property name="rank" nameId="bbh2.6587162469552164420" value="200" />
-      </node>
-      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ListenForAlignmentAnalysisFileSets" typeId="7aad.8524130661366375999" id="8792472772530104452" nodeInfo="ng">
-        <property name="rank" nameId="bbh2.6587162469552164420" value="300" />
-      </node>
-    </node>
-    <node role="script" roleId="90kj.1090105717921230261" type="90kj.TestScript" typeId="90kj.3827903497682417639" id="8792472772530104453" nodeInfo="ng">
-      <node role="body" roleId="90kj.3827903497682417649" type="tpee.StatementList" typeId="tpee.1068580123136" id="8792472772530104454" nodeInfo="sn" />
-    </node>
-  </root>
-  <root type="90kj.PluginTestCase" typeId="90kj.3827903497679865605" id="8792472772530569717" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="fdfd" />
-    <node role="configuration" roleId="90kj.3827903497682006055" type="90kj.TestJobConfiguration" typeId="90kj.3827903497681813715" id="8792472772530569720" nodeInfo="ng">
-      <property name="executionCompleted" nameId="bs99.4965834343965555115" value="false" />
-      <property name="name" nameId="tpck.1169194664001" value="ExecutionTool" />
-      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="90kj.ListenAndSyncNewFSI" typeId="90kj.3827903497663560969" id="8792472772530569723" nodeInfo="ng">
-        <property name="rank" nameId="bbh2.6587162469552164420" value="99" />
-        <link role="testEnvironment" roleId="90kj.3827903497666661570" targetNodeId="8515523077722744524" resolveInfo="PluginTestExecutionEnvironment" />
-      </node>
-      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ListenForSampleFileSets" typeId="7aad.7926097513313207836" id="8792472772530569721" nodeInfo="ng">
-        <property name="rank" nameId="bbh2.6587162469552164420" value="100" />
-      </node>
-      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ListenForAlignmentFileSets" typeId="7aad.6587162469555572132" id="8792472772530569722" nodeInfo="ng">
-        <property name="rank" nameId="bbh2.6587162469552164420" value="200" />
-      </node>
-      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ListenForAlignmentAnalysisFileSets" typeId="7aad.8524130661366375999" id="8792472772530569725" nodeInfo="ng">
-        <property name="rank" nameId="bbh2.6587162469552164420" value="300" />
-      </node>
-    </node>
-    <node role="script" roleId="90kj.1090105717921230261" type="90kj.TestScript" typeId="90kj.3827903497682417639" id="8792472772530569726" nodeInfo="ng">
-      <node role="body" roleId="90kj.3827903497682417649" type="tpee.StatementList" typeId="tpee.1068580123136" id="8792472772530569727" nodeInfo="sn" />
-    </node>
-  </root>
   <root type="90kj.PluginTestSuite" typeId="90kj.1546477733294540654" id="8792472772530925636" nodeInfo="ng">
     <property name="tagForTestClasses" nameId="90kj.8792472772527950742" value="LPMNCOJ" />
     <property name="name" nameId="tpck.1169194664001" value="TestSuite" />
-    <node role="testCases" roleId="90kj.1546477733294663984" type="90kj.PluginTestCaseRef" typeId="90kj.1546477733294663107" id="8792472772530925637" nodeInfo="ng">
-      <link role="testCase" roleId="90kj.1546477733294663108" targetNodeId="8792472772530925635" resolveInfo="gggg" />
+    <node role="testCases" roleId="90kj.1546477733294663984" type="90kj.PluginTestCaseRef" typeId="90kj.1546477733294663107" id="8792472772530932808" nodeInfo="ng">
+      <link role="testCase" roleId="90kj.1546477733294663108" targetNodeId="1546477733299206445" resolveInfo="READS4TestCase" />
     </node>
-  </root>
-  <root type="90kj.PluginTestCase" typeId="90kj.3827903497679865605" id="8792472772530925635" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="gggg" />
-    <node role="configuration" roleId="90kj.3827903497682006055" type="90kj.TestJobConfiguration" typeId="90kj.3827903497681813715" id="8792472772530925638" nodeInfo="ng">
-      <property name="executionCompleted" nameId="bs99.4965834343965555115" value="false" />
-      <property name="name" nameId="tpck.1169194664001" value="ExecutionTool" />
-      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="90kj.ListenAndSyncNewFSI" typeId="90kj.3827903497663560969" id="8792472772530925641" nodeInfo="ng">
-        <property name="rank" nameId="bbh2.6587162469552164420" value="99" />
-        <link role="testEnvironment" roleId="90kj.3827903497666661570" targetNodeId="8515523077722744524" resolveInfo="PluginTestExecutionEnvironment" />
-      </node>
-      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ListenForSampleFileSets" typeId="7aad.7926097513313207836" id="8792472772530925639" nodeInfo="ng">
-        <property name="rank" nameId="bbh2.6587162469552164420" value="100" />
-      </node>
-      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ListenForAlignmentFileSets" typeId="7aad.6587162469555572132" id="8792472772530925640" nodeInfo="ng">
-        <property name="rank" nameId="bbh2.6587162469552164420" value="200" />
-      </node>
-      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ListenForAlignmentAnalysisFileSets" typeId="7aad.8524130661366375999" id="8792472772530925643" nodeInfo="ng">
-        <property name="rank" nameId="bbh2.6587162469552164420" value="300" />
-      </node>
-    </node>
-    <node role="script" roleId="90kj.1090105717921230261" type="90kj.TestScript" typeId="90kj.3827903497682417639" id="8792472772530925644" nodeInfo="ng">
-      <node role="body" roleId="90kj.3827903497682417649" type="tpee.StatementList" typeId="tpee.1068580123136" id="8792472772530925645" nodeInfo="sn" />
+    <node role="testCases" roleId="90kj.1546477733294663984" type="90kj.PluginTestCaseRef" typeId="90kj.1546477733294663107" id="8792472772530932816" nodeInfo="ng">
+      <link role="testCase" roleId="90kj.1546477733294663108" targetNodeId="8792472772527850063" resolveInfo="READS1TestCase" />
     </node>
   </root>
 </model>

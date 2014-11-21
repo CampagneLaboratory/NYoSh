@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:397eee62-00ff-4904-afbb-029e2b9cd1db(org.campagnelab.gobyweb.plugins.test.structure)" version="21">
+<model modelUID="r:397eee62-00ff-4904-afbb-029e2b9cd1db(org.campagnelab.gobyweb.plugins.test.structure)" version="22">
   <persistence version="8" />
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
   <language namespace="0b7d8bbd-896e-495e-be60-01a0d738a649(org.campagnelab.gobyweb.plugins)" />
@@ -12,7 +12,7 @@
   <import index="dzk5" modelUID="r:2bfcc546-5c51-4762-9df2-c43920be4458(org.campagnelab.gobyweb.plugins.structure)" version="4" />
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="90kj" modelUID="r:397eee62-00ff-4904-afbb-029e2b9cd1db(org.campagnelab.gobyweb.plugins.test.structure)" version="21" implicit="yes" />
+  <import index="90kj" modelUID="r:397eee62-00ff-4904-afbb-029e2b9cd1db(org.campagnelab.gobyweb.plugins.test.structure)" version="22" implicit="yes" />
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3827903497649028236" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="TestExecutionEnvironment" />
     <property name="rootable" nameId="tpce.1096454100552" value="true" />
@@ -93,6 +93,10 @@
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="bs99.2465489689642685978" resolveInfo="ExecutionTool" />
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="1546477733293020042" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="assignedTag" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="8792472772533173173" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="assignedPostTag" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
     </node>
   </root>

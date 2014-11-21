@@ -11,6 +11,7 @@ import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import org.campagnelab.gobyweb.plugins.test.behavior.DualFileSetArea_Behavior;
 import org.campagnelab.gobyweb.plugins.test.behavior.PluginTestCase_Behavior;
 import org.campagnelab.gobyweb.interactive.behavior.JobArea_Behavior;
+import edu.cornell.med.icb.util.ICBStringUtils;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 
@@ -116,6 +117,50 @@ public class QueriesGenerated {
 
   public static Object propertyMacro_GetPropertyValue_1546477733302961409(final PropertyMacroContext _context) {
     return SPropertyOperations.getInteger(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(SNodeOperations.getAncestor(_context.getNode(), "org.campagnelab.gobyweb.plugins.test.structure.PluginTestCase", false, false), "configuration", true), "executionEnvironment", false), "jobArea", true), "brokerPortForJobs", false), "number");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_8792472772531130344(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SNodeOperations.cast(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "executionEnvironment", false), "jobArea", true), "org.campagnelab.gobyweb.plugins.test.structure.JobAreaWithSDK"), "SDKDirectory");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_8792472772531130386(final PropertyMacroContext _context) {
+    return BehaviorReflection.invokeVirtual(String.class, SNodeOperations.cast(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "executionEnvironment", false), "pluginRepository", true), "org.campagnelab.gobyweb.interactive.structure.DualPluginRepository"), "virtual_getRemotePluginRepoPath_6985991452103701097", new Object[]{});
+  }
+
+  public static Object propertyMacro_GetPropertyValue_8792472772531130452(final PropertyMacroContext _context) {
+    return DualFileSetArea_Behavior.call_getRemoteReference_2726670175338878707(SNodeOperations.cast(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "executionEnvironment", false), "filesetArea", true), "org.campagnelab.gobyweb.plugins.test.structure.DualFileSetArea"));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_8792472772531782623(final PropertyMacroContext _context) {
+    return ICBStringUtils.generateRandomString(7);
+  }
+
+  public static Object propertyMacro_GetPropertyValue_8792472772531771264(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "executionEnvironment", false), "owner", false), "id");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_8792472772531130516(final PropertyMacroContext _context) {
+    StringBuilder builder = new StringBuilder();
+    for (String arg : PluginTestCase_Behavior.call_generatePostArguments_8792472772533158380(_context.getNode())) {
+      builder.append(arg).append(" ");
+    }
+    return builder.toString();
+  }
+
+  public static Object propertyMacro_GetPropertyValue_8792472772531130548(final PropertyMacroContext _context) {
+    return JobArea_Behavior.call_getReference_2408108650476587028(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "executionEnvironment", false), "jobArea", true));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_8792472772531130563(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "executionEnvironment", false), "owner", false), "id");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_8792472772531130578(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "assignedPostTag").charAt(0) + "/" + SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "assignedPostTag");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_8792472772531130608(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "name") + "-post";
   }
 
   public static SNode sourceNodeQuery_1546477733303134410(final SourceSubstituteMacroNodeContext _context) {
