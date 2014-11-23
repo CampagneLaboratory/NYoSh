@@ -4,13 +4,13 @@ package org.campagnelab.gobyweb.plugins.test.generator.template.main;
 
 import jetbrains.mps.generator.runtime.Generated;
 import jetbrains.mps.generator.template.BaseMappingRuleContext;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import org.campagnelab.gobyweb.plugins.test.behavior.PluginTestCase_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.generator.template.PropertyMacroContext;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import org.campagnelab.gobyweb.plugins.test.behavior.DualFileSetArea_Behavior;
-import org.campagnelab.gobyweb.plugins.test.behavior.PluginTestCase_Behavior;
 import org.campagnelab.gobyweb.interactive.behavior.JobArea_Behavior;
 import edu.cornell.med.icb.util.ICBStringUtils;
 import org.jetbrains.mps.openapi.model.SNode;
@@ -21,23 +21,23 @@ public class QueriesGenerated {
   public final boolean NEEDS_OPCONTEXT = false;
 
   public static boolean baseMappingRule_Condition_689255224959405939(final BaseMappingRuleContext _context) {
-    return !(SPropertyOperations.getBoolean(_context.getNode(), "disabled"));
+    return PluginTestCase_Behavior.call_isEnabled_689255224959846843(_context.getNode());
   }
 
   public static boolean baseMappingRule_Condition_689255224959413965(final BaseMappingRuleContext _context) {
-    return !(SPropertyOperations.getBoolean(_context.getNode(), "disabled"));
+    return PluginTestCase_Behavior.call_isEnabled_689255224959846843(_context.getNode());
   }
 
   public static boolean baseMappingRule_Condition_689255224959415425(final BaseMappingRuleContext _context) {
-    return !(SPropertyOperations.getBoolean(_context.getNode(), "disabled"));
+    return PluginTestCase_Behavior.call_isEnabled_689255224959846843(_context.getNode());
   }
 
   public static boolean baseMappingRule_Condition_689255224959416879(final BaseMappingRuleContext _context) {
-    return !(SPropertyOperations.getBoolean(_context.getNode(), "disabled"));
+    return PluginTestCase_Behavior.call_isEnabled_689255224959846843(_context.getNode());
   }
 
   public static boolean baseMappingRule_Condition_689255224959418333(final BaseMappingRuleContext _context) {
-    return !(SPropertyOperations.getBoolean(SNodeOperations.getAncestor(_context.getNode(), "org.campagnelab.gobyweb.plugins.test.structure.PluginTestCase", false, false), "disabled"));
+    return PluginTestCase_Behavior.call_isEnabled_689255224959846843(SNodeOperations.getAncestor(_context.getNode(), "org.campagnelab.gobyweb.plugins.test.structure.PluginTestCase", false, false));
   }
 
   public static Object propertyMacro_GetPropertyValue_1546477733290515288(final PropertyMacroContext _context) {
@@ -202,6 +202,10 @@ public class QueriesGenerated {
 
   public static Object propertyMacro_GetPropertyValue_8792472772533947195(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), "name") + "-run";
+  }
+
+  public static Object propertyMacro_GetPropertyValue_689255224959643467(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "name");
   }
 
   public static SNode sourceNodeQuery_1546477733303134410(final SourceSubstituteMacroNodeContext _context) {
