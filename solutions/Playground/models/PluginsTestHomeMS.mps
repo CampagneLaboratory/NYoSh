@@ -24904,7 +24904,7 @@
     <property name="tagForTestClasses" nameId="90kj.8792472772527950742" value="NMULHFR" />
     <property name="name" nameId="tpck.1169194664001" value="TestSuite" />
     <node role="testCases" roleId="90kj.1546477733294663984" type="90kj.PluginTestCaseRef" typeId="90kj.1546477733294663107" id="689255224957502915" nodeInfo="ng">
-      <link role="testCase" roleId="90kj.1546477733294663108" targetNodeId="689255224957502913" resolveInfo="READ5-" />
+      <link role="testCase" roleId="90kj.1546477733294663108" targetNodeId="689255224957502913" resolveInfo="READ5" />
     </node>
     <node role="testCases" roleId="90kj.1546477733294663984" type="90kj.PluginTestCaseRef" typeId="90kj.1546477733294663107" id="689255224957548698" nodeInfo="ng">
       <link role="testCase" roleId="90kj.1546477733294663108" targetNodeId="8515523077728330981" resolveInfo="READS2-TestCase" />
@@ -24914,7 +24914,7 @@
     </node>
   </root>
   <root type="90kj.PluginTestCase" typeId="90kj.3827903497679865605" id="689255224957502913" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="READ5-" />
+    <property name="name" nameId="tpck.1169194664001" value="READ5" />
     <node role="configuration" roleId="90kj.3827903497682006055" type="90kj.TestJobConfiguration" typeId="90kj.3827903497681813715" id="689255224957502916" nodeInfo="ng">
       <property name="executionCompleted" nameId="bs99.4965834343965555115" value="false" />
       <property name="name" nameId="tpck.1169194664001" value="ExecutionTool" />
