@@ -24813,6 +24813,7 @@
   </root>
   <root type="90kj.PluginTestCase" typeId="90kj.3827903497679865605" id="8515523077728330981" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="READS2-TestCase" />
+    <property name="disabled" nameId="90kj.689255224958918692" value="true" />
     <node role="configuration" roleId="90kj.3827903497682006055" type="90kj.TestJobConfiguration" typeId="90kj.3827903497681813715" id="8515523077728330982" nodeInfo="ng">
       <property name="executionCompleted" nameId="bs99.4965834343965555115" value="false" />
       <property name="name" nameId="tpck.1169194664001" value="ExecutionTool" />
@@ -24915,6 +24916,7 @@
   </root>
   <root type="90kj.PluginTestCase" typeId="90kj.3827903497679865605" id="689255224957502913" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="READ5" />
+    <property name="disabled" nameId="90kj.689255224958918692" value="true" />
     <node role="configuration" roleId="90kj.3827903497682006055" type="90kj.TestJobConfiguration" typeId="90kj.3827903497681813715" id="689255224957502916" nodeInfo="ng">
       <property name="executionCompleted" nameId="bs99.4965834343965555115" value="false" />
       <property name="name" nameId="tpck.1169194664001" value="ExecutionTool" />
