@@ -368,7 +368,7 @@
                 <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="6062668769033909457" nodeInfo="nn">
                   <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="dbrf.~JLabel%d&lt;init&gt;(java%dlang%dString)" resolveInfo="JLabel" />
                   <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="6062668769033909458" nodeInfo="nn">
-                    <property name="value" nameId="tpee.1070475926801" value="Select PluginTestCase" />
+                    <property name="value" nameId="tpee.1070475926801" value="Select PluginTest to execute" />
                   </node>
                 </node>
               </node>
@@ -688,6 +688,14 @@
             <property name="name" nameId="tpck.1169194664001" value="node" />
             <node role="type" roleId="tpee.5680397130376446158" type="tp25.SNodeType" typeId="tp25.1138055754698" id="2726670175334588688" nodeInfo="in">
               <link role="concept" roleId="tp25.1138405853777" targetNodeId="90kj.3827903497679865605" resolveInfo="PluginTestCase" />
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="7828334301284186779" nodeInfo="nn">
+          <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="7828334301284186780" nodeInfo="nr">
+            <property name="name" nameId="tpck.1169194664001" value="nodeSuite" />
+            <node role="type" roleId="tpee.5680397130376446158" type="tp25.SNodeType" typeId="tp25.1138055754698" id="7828334301284186781" nodeInfo="in">
+              <link role="concept" roleId="tp25.1138405853777" targetNodeId="90kj.1546477733294540654" resolveInfo="PluginTestSuite" />
             </node>
           </node>
         </node>

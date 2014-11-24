@@ -16,8 +16,8 @@ import edu.cornell.med.icb.util.ICBStringUtils;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import jetbrains.mps.generator.template.TemplateQueryContextWithMacro;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 
 @Generated
@@ -217,7 +217,6 @@ public class QueriesGenerated {
   }
 
   public static SNode insertMacro_Query_8518826334832167777(final TemplateQueryContextWithMacro _context) {
-    String[] array = new String[ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "testCases", true)).count()];
     SNode names = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.structure.ArrayLiteral", null);
     for (SNode ref : ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "testCases", true))) {
       if (PluginTestCase_Behavior.call_isEnabled_689255224959846843(SLinkOperations.getTarget(ref, "testCase", false))) {
@@ -225,6 +224,12 @@ public class QueriesGenerated {
         SPropertyOperations.set(name, "value", SModelOperations.getModelName(SNodeOperations.getModel(SLinkOperations.getTarget(ref, "testCase", false))) + "." + SPropertyOperations.getString(SLinkOperations.getTarget(ref, "testCase", false), "name"));
         ListSequence.fromList(SLinkOperations.getTargets(names, "item", true)).addElement(name);
       }
+    }
+    for (SNode refByName : ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "testNames", true))) {
+      // names must already be qualified with a package that might be different from the current one 
+      SNode name = SModelOperations.createNewNode(SNodeOperations.getModel(_context.getNode()), null, "jetbrains.mps.baseLanguage.structure.StringLiteral");
+      SPropertyOperations.set(name, "value", SPropertyOperations.getString(refByName, "name"));
+      ListSequence.fromList(SLinkOperations.getTargets(names, "item", true)).addElement(name);
     }
     return names;
   }

@@ -729,5 +729,11 @@
       <link role="relationDeclaration" roleId="tpc2.1166054297096" targetNodeId="90kj.1546477733301232220" />
     </node>
   </root>
+  <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="7828334301288505725" nodeInfo="ng">
+    <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="90kj.7828334301288505717" resolveInfo="PluginTestCaseRefByName" />
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="7828334301288506408" nodeInfo="ng">
+      <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1169194664001" resolveInfo="name" />
+    </node>
+  </root>
 </model>
 
