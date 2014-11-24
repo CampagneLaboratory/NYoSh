@@ -222,7 +222,7 @@ public class QueriesGenerated {
     for (SNode ref : ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "testCases", true))) {
       if (PluginTestCase_Behavior.call_isEnabled_689255224959846843(SLinkOperations.getTarget(ref, "testCase", false))) {
         SNode name = SModelOperations.createNewNode(SNodeOperations.getModel(_context.getNode()), null, "jetbrains.mps.baseLanguage.structure.StringLiteral");
-        SPropertyOperations.set(name, "value", SPropertyOperations.getString(SLinkOperations.getTarget(ref, "testCase", false), "name"));
+        SPropertyOperations.set(name, "value", SModelOperations.getModelName(SNodeOperations.getModel(SLinkOperations.getTarget(ref, "testCase", false))) + "." + SPropertyOperations.getString(SLinkOperations.getTarget(ref, "testCase", false), "name"));
         ListSequence.fromList(SLinkOperations.getTargets(names, "item", true)).addElement(name);
       }
     }
