@@ -15,6 +15,10 @@ import org.campagnelab.gobyweb.interactive.behavior.JobArea_Behavior;
 import edu.cornell.med.icb.util.ICBStringUtils;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
+import jetbrains.mps.generator.template.TemplateQueryContextWithMacro;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 
 @Generated
 public class QueriesGenerated {
@@ -210,5 +214,18 @@ public class QueriesGenerated {
 
   public static SNode sourceNodeQuery_1546477733303134410(final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "body", true);
+  }
+
+  public static SNode insertMacro_Query_8518826334832167777(final TemplateQueryContextWithMacro _context) {
+    String[] array = new String[ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "testCases", true)).count()];
+    SNode names = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.structure.ArrayLiteral", null);
+    for (SNode ref : ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "testCases", true))) {
+      if (PluginTestCase_Behavior.call_isEnabled_689255224959846843(SLinkOperations.getTarget(ref, "testCase", false))) {
+        SNode name = SModelOperations.createNewNode(SNodeOperations.getModel(_context.getNode()), null, "jetbrains.mps.baseLanguage.structure.StringLiteral");
+        SPropertyOperations.set(name, "value", SPropertyOperations.getString(SLinkOperations.getTarget(ref, "testCase", false), "name"));
+        ListSequence.fromList(SLinkOperations.getTargets(names, "item", true)).addElement(name);
+      }
+    }
+    return names;
   }
 }
