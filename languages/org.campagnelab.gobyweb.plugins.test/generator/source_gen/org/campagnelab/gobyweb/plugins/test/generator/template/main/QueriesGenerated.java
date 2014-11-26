@@ -6,57 +6,69 @@ import jetbrains.mps.generator.runtime.Generated;
 import jetbrains.mps.generator.template.BaseMappingRuleContext;
 import org.campagnelab.gobyweb.plugins.test.behavior.PluginTestCase_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.generator.template.PropertyMacroContext;
+import org.campagnelab.gobyweb.plugins.test.behavior.PluginTestSuite_Behavior;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
+import jetbrains.mps.internal.collections.runtime.IWhereFilter;
+import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.generator.template.PropertyMacroContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import org.campagnelab.gobyweb.plugins.test.behavior.DualFileSetArea_Behavior;
 import org.campagnelab.gobyweb.interactive.behavior.JobArea_Behavior;
 import edu.cornell.med.icb.util.ICBStringUtils;
-import org.jetbrains.mps.openapi.model.SNode;
+import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
+import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 import jetbrains.mps.generator.template.TemplateQueryContextWithMacro;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 
 @Generated
 public class QueriesGenerated {
   public final boolean NEEDS_OPCONTEXT = false;
 
-  public static boolean baseMappingRule_Condition_689255224959405939(final BaseMappingRuleContext _context) {
-    return PluginTestCase_Behavior.call_isEnabled_689255224959846843(_context.getNode());
-  }
-
-  public static boolean baseMappingRule_Condition_689255224959413965(final BaseMappingRuleContext _context) {
-    return PluginTestCase_Behavior.call_isEnabled_689255224959846843(_context.getNode());
-  }
-
-  public static boolean baseMappingRule_Condition_689255224959415425(final BaseMappingRuleContext _context) {
-    return PluginTestCase_Behavior.call_isEnabled_689255224959846843(_context.getNode());
-  }
-
-  public static boolean baseMappingRule_Condition_689255224959416879(final BaseMappingRuleContext _context) {
-    return PluginTestCase_Behavior.call_isEnabled_689255224959846843(_context.getNode());
-  }
-
   public static boolean baseMappingRule_Condition_689255224959418333(final BaseMappingRuleContext _context) {
     return PluginTestCase_Behavior.call_isEnabled_689255224959846843(SNodeOperations.getAncestor(_context.getNode(), "org.campagnelab.gobyweb.plugins.test.structure.PluginTestCase", false, false));
   }
 
+  public static boolean baseMappingRule_Condition_7828334301289663951(final BaseMappingRuleContext _context) {
+    return PluginTestSuite_Behavior.call_atLeastOneCaseEnabled_7828334301283072966(_context.getNode()) && ListSequence.fromList(SModelOperations.getRoots(_context.getInputModel(), "jetbrains.mps.baseLanguage.structure.ClassConcept")).where(new IWhereFilter<SNode>() {
+      public boolean accept(SNode it) {
+        return SPropertyOperations.getString(it, "name").equals(SPropertyOperations.getString(_context.getNode(), "name"));
+      }
+    }).isEmpty();
+  }
+
+  public static boolean baseMappingRule_Condition_7828334301289668507(final BaseMappingRuleContext _context) {
+    return PluginTestSuite_Behavior.call_atLeastOneCaseEnabled_7828334301283072966(_context.getNode());
+  }
+
+  public static boolean baseMappingRule_Condition_7828334301292811079(final BaseMappingRuleContext _context) {
+    return PluginTestSuite_Behavior.call_atLeastOneCaseEnabled_7828334301283072966(_context.getNode());
+  }
+
+  public static boolean baseMappingRule_Condition_8322698551200364101(final BaseMappingRuleContext _context) {
+    return PluginTestSuite_Behavior.call_atLeastOneCaseEnabled_7828334301283072966(_context.getNode());
+  }
+
   public static Object propertyMacro_GetPropertyValue_1546477733290515288(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SNodeOperations.cast(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "executionEnvironment", false), "jobArea", true), "org.campagnelab.gobyweb.plugins.test.structure.JobAreaWithSDK"), "SDKDirectory");
+    return SPropertyOperations.getString(SNodeOperations.cast(SLinkOperations.getTarget(PluginTestSuite_Behavior.call_getEnvironment_7828334301289838301(_context.getNode()), "jobArea", true), "org.campagnelab.gobyweb.plugins.test.structure.JobAreaWithSDK"), "SDKDirectory");
   }
 
   public static Object propertyMacro_GetPropertyValue_2726670175338787560(final PropertyMacroContext _context) {
-    return BehaviorReflection.invokeVirtual(String.class, SNodeOperations.cast(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "executionEnvironment", false), "pluginRepository", true), "org.campagnelab.gobyweb.interactive.structure.DualPluginRepository"), "virtual_getRemotePluginRepoPath_6985991452103701097", new Object[]{});
+    return BehaviorReflection.invokeVirtual(String.class, SNodeOperations.cast(SLinkOperations.getTarget(PluginTestSuite_Behavior.call_getEnvironment_7828334301289838301(_context.getNode()), "pluginRepository", true), "org.campagnelab.gobyweb.interactive.structure.DualPluginRepository"), "virtual_getRemotePluginRepoPath_6985991452103701097", new Object[]{});
   }
 
   public static Object propertyMacro_GetPropertyValue_2726670175338063714(final PropertyMacroContext _context) {
-    return DualFileSetArea_Behavior.call_getRemoteReference_2726670175338878707(SNodeOperations.cast(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "executionEnvironment", false), "filesetArea", true), "org.campagnelab.gobyweb.plugins.test.structure.DualFileSetArea"));
+    return DualFileSetArea_Behavior.call_getRemoteReference_2726670175338878707(SNodeOperations.cast(SLinkOperations.getTarget(PluginTestSuite_Behavior.call_getEnvironment_7828334301289838301(_context.getNode()), "filesetArea", true), "org.campagnelab.gobyweb.plugins.test.structure.DualFileSetArea"));
   }
 
-  public static Object propertyMacro_GetPropertyValue_1546477733293570829(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetPropertyValue_7828334301291538231(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "name");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_7828334301290977108(final PropertyMacroContext _context) {
     StringBuilder builder = new StringBuilder();
     for (String arg : PluginTestCase_Behavior.call_generateArguments_3827903497680464580(_context.getNode())) {
       builder.append(arg).append(" ");
@@ -64,20 +76,69 @@ public class QueriesGenerated {
     return builder.toString();
   }
 
-  public static Object propertyMacro_GetPropertyValue_1546477733292638210(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetPropertyValue_7828334301291288422(final PropertyMacroContext _context) {
     return JobArea_Behavior.call_getReference_2408108650476587028(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "executionEnvironment", false), "jobArea", true));
   }
 
-  public static Object propertyMacro_GetPropertyValue_1546477733292717210(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetPropertyValue_7828334301291288435(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "executionEnvironment", false), "owner", false), "id");
   }
 
-  public static Object propertyMacro_GetPropertyValue_1546477733292705597(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetPropertyValue_7828334301291288450(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "assignedTag").charAt(0) + "/" + SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "assignedTag");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_7828334301290963982(final PropertyMacroContext _context) {
+    return ICBStringUtils.generateRandomString(7);
+  }
+
+  public static Object propertyMacro_GetPropertyValue_7828334301290963993(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(PluginTestSuite_Behavior.call_getEnvironment_7828334301289838301(_context.getNode()), "owner", false), "id");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_7828334301290964010(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(PluginTestSuite_Behavior.call_getEnvironment_7828334301289838301(_context.getNode()), "owner", false), "id");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_7828334301290999843(final PropertyMacroContext _context) {
+    StringBuilder builder = new StringBuilder();
+    for (String arg : PluginTestSuite_Behavior.call_generatePostArguments_8792472772532856395(_context.getNode())) {
+      builder.append(arg).append(" ");
+    }
+    return builder.toString();
+  }
+
+  public static Object propertyMacro_GetPropertyValue_7828334301290999875(final PropertyMacroContext _context) {
+    return JobArea_Behavior.call_getReference_2408108650476587028(SLinkOperations.getTarget(PluginTestSuite_Behavior.call_getEnvironment_7828334301289838301(_context.getNode()), "jobArea", true));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_7828334301290999890(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(PluginTestSuite_Behavior.call_getEnvironment_7828334301289838301(_context.getNode()), "owner", false), "id");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_7828334301290999907(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "assignedJobPostTag").charAt(0) + "/" + SPropertyOperations.getString(_context.getNode(), "assignedJobPostTag");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_7828334301290999936(final PropertyMacroContext _context) {
+    StringBuilder builder = new StringBuilder();
+    for (SNode testcase : Sequence.fromIterable(PluginTestSuite_Behavior.call_getAllEnabledCases_7828334301292430983(_context.getNode()))) {
+      builder.append(SPropertyOperations.getString(SLinkOperations.getTarget(testcase, "configuration", true), "assignedTag")).append(",");
+    }
+    String tags = builder.toString();
+    return tags.substring(0, tags.length() - 1);
   }
 
   public static Object propertyMacro_GetPropertyValue_5807598648179249173(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), "name") + "-submit";
+  }
+
+  public static Object propertyMacro_GetPropertyValue_8322698551200448490(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(PluginTestSuite_Behavior.call_getEnvironment_7828334301289838301(_context.getNode()), "jobArea", true), "workingDirectory");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_8322698551200464709(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(PluginTestSuite_Behavior.call_getEnvironment_7828334301289838301(_context.getNode()), "jobArea", true), "executionNode", false), "username") + "@" + SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(PluginTestSuite_Behavior.call_getEnvironment_7828334301289838301(_context.getNode()), "jobArea", true), "executionNode", false), "server");
   }
 
   public static Object propertyMacro_GetPropertyValue_827915552516181409(final PropertyMacroContext _context) {
@@ -85,35 +146,15 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_827915552515310635(final PropertyMacroContext _context) {
-    return JobArea_Behavior.call_getReference_2408108650476587028(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "executionEnvironment", false), "jobArea", true));
-  }
-
-  public static Object propertyMacro_GetPropertyValue_827915552515346356(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "executionEnvironment", false), "jobArea", true), "executionNode", false), "username") + "@" + SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "executionEnvironment", false), "jobArea", true), "executionNode", false), "server");
-  }
-
-  public static Object propertyMacro_GetPropertyValue_827915552515395263(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "executionEnvironment", false), "jobArea", true), "workingDirectory");
+    return JobArea_Behavior.call_getReference_2408108650476587028(SLinkOperations.getTarget(PluginTestSuite_Behavior.call_getEnvironment_7828334301289838301(_context.getNode()), "jobArea", true));
   }
 
   public static Object propertyMacro_GetPropertyValue_827915552516193547(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), "name") + "-submit.sh";
   }
 
-  public static Object propertyMacro_GetPropertyValue_827915552515395929(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "executionEnvironment", false), "jobArea", true), "workingDirectory");
-  }
-
   public static Object propertyMacro_GetPropertyValue_827915552516199740(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), "name") + "-submit.sh";
-  }
-
-  public static Object propertyMacro_GetPropertyValue_827915552517259508(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "executionEnvironment", false), "jobArea", true), "executionNode", false), "username") + "@" + SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "executionEnvironment", false), "jobArea", true), "executionNode", false), "server");
-  }
-
-  public static Object propertyMacro_GetPropertyValue_827915552517259539(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "executionEnvironment", false), "jobArea", true), "workingDirectory");
   }
 
   public static Object propertyMacro_GetPropertyValue_827915552517259554(final PropertyMacroContext _context) {
@@ -145,51 +186,27 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_8792472772531130344(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SNodeOperations.cast(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "executionEnvironment", false), "jobArea", true), "org.campagnelab.gobyweb.plugins.test.structure.JobAreaWithSDK"), "SDKDirectory");
+    return SPropertyOperations.getString(SNodeOperations.cast(SLinkOperations.getTarget(PluginTestSuite_Behavior.call_getEnvironment_7828334301289838301(_context.getNode()), "jobArea", true), "org.campagnelab.gobyweb.plugins.test.structure.JobAreaWithSDK"), "SDKDirectory");
   }
 
   public static Object propertyMacro_GetPropertyValue_8792472772531130386(final PropertyMacroContext _context) {
-    return BehaviorReflection.invokeVirtual(String.class, SNodeOperations.cast(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "executionEnvironment", false), "pluginRepository", true), "org.campagnelab.gobyweb.interactive.structure.DualPluginRepository"), "virtual_getRemotePluginRepoPath_6985991452103701097", new Object[]{});
+    return BehaviorReflection.invokeVirtual(String.class, SNodeOperations.cast(SLinkOperations.getTarget(PluginTestSuite_Behavior.call_getEnvironment_7828334301289838301(_context.getNode()), "pluginRepository", true), "org.campagnelab.gobyweb.interactive.structure.DualPluginRepository"), "virtual_getRemotePluginRepoPath_6985991452103701097", new Object[]{});
   }
 
   public static Object propertyMacro_GetPropertyValue_8792472772531130452(final PropertyMacroContext _context) {
-    return DualFileSetArea_Behavior.call_getRemoteReference_2726670175338878707(SNodeOperations.cast(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "executionEnvironment", false), "filesetArea", true), "org.campagnelab.gobyweb.plugins.test.structure.DualFileSetArea"));
+    return DualFileSetArea_Behavior.call_getRemoteReference_2726670175338878707(SNodeOperations.cast(SLinkOperations.getTarget(PluginTestSuite_Behavior.call_getEnvironment_7828334301289838301(_context.getNode()), "filesetArea", true), "org.campagnelab.gobyweb.plugins.test.structure.DualFileSetArea"));
   }
 
-  public static Object propertyMacro_GetPropertyValue_8792472772531782623(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetPropertyValue_7828334301290772085(final PropertyMacroContext _context) {
     return ICBStringUtils.generateRandomString(7);
   }
 
-  public static Object propertyMacro_GetPropertyValue_8792472772534432971(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "executionEnvironment", false), "owner", false), "id");
+  public static Object propertyMacro_GetPropertyValue_7828334301290786974(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(PluginTestSuite_Behavior.call_getEnvironment_7828334301289838301(_context.getNode()), "owner", false), "id");
   }
 
-  public static Object propertyMacro_GetPropertyValue_8792472772531771264(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "executionEnvironment", false), "owner", false), "id");
-  }
-
-  public static Object propertyMacro_GetPropertyValue_8792472772531130516(final PropertyMacroContext _context) {
-    StringBuilder builder = new StringBuilder();
-    for (String arg : PluginTestCase_Behavior.call_generatePostArguments_8792472772533158380(_context.getNode())) {
-      builder.append(arg).append(" ");
-    }
-    return builder.toString();
-  }
-
-  public static Object propertyMacro_GetPropertyValue_8792472772531130548(final PropertyMacroContext _context) {
-    return JobArea_Behavior.call_getReference_2408108650476587028(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "executionEnvironment", false), "jobArea", true));
-  }
-
-  public static Object propertyMacro_GetPropertyValue_8792472772531130563(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "executionEnvironment", false), "owner", false), "id");
-  }
-
-  public static Object propertyMacro_GetPropertyValue_8792472772531130578(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "assignedPostTag").charAt(0) + "/" + SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "assignedPostTag");
-  }
-
-  public static Object propertyMacro_GetPropertyValue_233331590116089136(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "configuration", true), "assignedTag");
+  public static Object propertyMacro_GetPropertyValue_7828334301290797395(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(PluginTestSuite_Behavior.call_getEnvironment_7828334301289838301(_context.getNode()), "owner", false), "id");
   }
 
   public static Object propertyMacro_GetPropertyValue_8792472772531130608(final PropertyMacroContext _context) {
@@ -198,10 +215,6 @@ public class QueriesGenerated {
 
   public static Object propertyMacro_GetPropertyValue_8792472772533947021(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), "name") + "-submit.sh";
-  }
-
-  public static Object propertyMacro_GetPropertyValue_8792472772534917558(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(_context.getNode(), "name") + "-post.sh";
   }
 
   public static Object propertyMacro_GetPropertyValue_8792472772533947195(final PropertyMacroContext _context) {
@@ -216,20 +229,18 @@ public class QueriesGenerated {
     return SLinkOperations.getTarget(_context.getNode(), "body", true);
   }
 
+  public static Iterable<SNode> sourceNodesQuery_7828334301290977218(final SourceSubstituteMacroNodesContext _context) {
+    return PluginTestSuite_Behavior.call_getAllEnabledCases_7828334301292430983(_context.getNode());
+  }
+
   public static SNode insertMacro_Query_8518826334832167777(final TemplateQueryContextWithMacro _context) {
     SNode names = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.structure.ArrayLiteral", null);
-    for (SNode ref : ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "testCases", true))) {
-      if (PluginTestCase_Behavior.call_isEnabled_689255224959846843(SLinkOperations.getTarget(ref, "testCase", false))) {
+    for (SNode testCase : Sequence.fromIterable(PluginTestSuite_Behavior.call_getAllEnabledCases_7828334301292430983(_context.getNode()))) {
+      if (PluginTestCase_Behavior.call_isEnabled_689255224959846843(testCase)) {
         SNode name = SModelOperations.createNewNode(SNodeOperations.getModel(_context.getNode()), null, "jetbrains.mps.baseLanguage.structure.StringLiteral");
-        SPropertyOperations.set(name, "value", SModelOperations.getModelName(SNodeOperations.getModel(SLinkOperations.getTarget(ref, "testCase", false))) + "." + SPropertyOperations.getString(SLinkOperations.getTarget(ref, "testCase", false), "name"));
+        SPropertyOperations.set(name, "value", SModelOperations.getModelName(SNodeOperations.getModel(testCase)) + "." + SPropertyOperations.getString(testCase, "name"));
         ListSequence.fromList(SLinkOperations.getTargets(names, "item", true)).addElement(name);
       }
-    }
-    for (SNode refByName : ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "testNames", true))) {
-      // names must already be qualified with a package that might be different from the current one 
-      SNode name = SModelOperations.createNewNode(SNodeOperations.getModel(_context.getNode()), null, "jetbrains.mps.baseLanguage.structure.StringLiteral");
-      SPropertyOperations.set(name, "value", SPropertyOperations.getString(refByName, "name"));
-      ListSequence.fromList(SLinkOperations.getTargets(names, "item", true)).addElement(name);
     }
     return names;
   }
