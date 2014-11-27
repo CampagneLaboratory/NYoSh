@@ -6,14 +6,14 @@ import jetbrains.mps.generator.runtime.Generated;
 import jetbrains.mps.generator.template.BaseMappingRuleContext;
 import org.campagnelab.gobyweb.plugins.test.behavior.PluginTestCase_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import org.campagnelab.gobyweb.plugins.test.behavior.PluginTestSuite_Behavior;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import org.campagnelab.gobyweb.plugins.test.behavior.PluginTestSuite_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.generator.template.PropertyMacroContext;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import org.campagnelab.gobyweb.plugins.test.behavior.DualFileSetArea_Behavior;
 import org.campagnelab.gobyweb.interactive.behavior.JobArea_Behavior;
@@ -29,7 +29,7 @@ public class QueriesGenerated {
   public final boolean NEEDS_OPCONTEXT = false;
 
   public static boolean baseMappingRule_Condition_689255224959418333(final BaseMappingRuleContext _context) {
-    return PluginTestCase_Behavior.call_isEnabled_689255224959846843(SNodeOperations.getAncestor(_context.getNode(), "org.campagnelab.gobyweb.plugins.test.structure.PluginTestCase", false, false));
+    return PluginTestCase_Behavior.call_isEnabled_689255224959846843(SNodeOperations.getAncestor(_context.getNode(), "org.campagnelab.gobyweb.plugins.test.structure.PluginTestCase", false, false)) && ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(_context.getNode(), "body", true), "statement", true)).count() > 0;
   }
 
   public static boolean baseMappingRule_Condition_7828334301289663951(final BaseMappingRuleContext _context) {
@@ -68,7 +68,7 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(_context.getNode(), "name");
   }
 
-  public static Object propertyMacro_GetPropertyValue_7828334301290977108(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetPropertyValue_8322698551207557066(final PropertyMacroContext _context) {
     StringBuilder builder = new StringBuilder();
     for (String arg : PluginTestCase_Behavior.call_generateArguments_3827903497680464580(_context.getNode())) {
       builder.append(arg).append(" ");
@@ -100,7 +100,7 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(SLinkOperations.getTarget(PluginTestSuite_Behavior.call_getEnvironment_7828334301289838301(_context.getNode()), "owner", false), "id");
   }
 
-  public static Object propertyMacro_GetPropertyValue_7828334301290999843(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetPropertyValue_8322698551207552211(final PropertyMacroContext _context) {
     StringBuilder builder = new StringBuilder();
     for (String arg : PluginTestSuite_Behavior.call_generatePostArguments_8792472772532856395(_context.getNode())) {
       builder.append(arg).append(" ");
