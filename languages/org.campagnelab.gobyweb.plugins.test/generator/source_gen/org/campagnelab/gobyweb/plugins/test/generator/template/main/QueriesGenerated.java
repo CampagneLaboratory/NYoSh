@@ -6,14 +6,15 @@ import jetbrains.mps.generator.runtime.Generated;
 import jetbrains.mps.generator.template.BaseMappingRuleContext;
 import org.campagnelab.gobyweb.plugins.test.behavior.PluginTestCase_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import org.campagnelab.gobyweb.plugins.test.behavior.TestScript_Behavior;
 import org.campagnelab.gobyweb.plugins.test.behavior.PluginTestSuite_Behavior;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.generator.template.PropertyMacroContext;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import org.campagnelab.gobyweb.plugins.test.behavior.DualFileSetArea_Behavior;
 import org.campagnelab.gobyweb.interactive.behavior.JobArea_Behavior;
@@ -29,7 +30,7 @@ public class QueriesGenerated {
   public final boolean NEEDS_OPCONTEXT = false;
 
   public static boolean baseMappingRule_Condition_689255224959418333(final BaseMappingRuleContext _context) {
-    return PluginTestCase_Behavior.call_isEnabled_689255224959846843(SNodeOperations.getAncestor(_context.getNode(), "org.campagnelab.gobyweb.plugins.test.structure.PluginTestCase", false, false)) && ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(_context.getNode(), "body", true), "statement", true)).count() > 0;
+    return PluginTestCase_Behavior.call_isEnabled_689255224959846843(SNodeOperations.getAncestor(_context.getNode(), "org.campagnelab.gobyweb.plugins.test.structure.PluginTestCase", false, false)) && TestScript_Behavior.call_hasBody_1070899980260117512(_context.getNode());
   }
 
   public static boolean baseMappingRule_Condition_7828334301289663951(final BaseMappingRuleContext _context) {
@@ -236,7 +237,7 @@ public class QueriesGenerated {
   public static SNode insertMacro_Query_8518826334832167777(final TemplateQueryContextWithMacro _context) {
     SNode names = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.structure.ArrayLiteral", null);
     for (SNode testCase : Sequence.fromIterable(PluginTestSuite_Behavior.call_getAllEnabledCases_7828334301292430983(_context.getNode()))) {
-      if (PluginTestCase_Behavior.call_isEnabled_689255224959846843(testCase)) {
+      if (PluginTestCase_Behavior.call_isEnabled_689255224959846843(testCase) && TestScript_Behavior.call_hasBody_1070899980260117512(SLinkOperations.getTarget(testCase, "script", true))) {
         SNode name = SModelOperations.createNewNode(SNodeOperations.getModel(_context.getNode()), null, "jetbrains.mps.baseLanguage.structure.StringLiteral");
         SPropertyOperations.set(name, "value", SModelOperations.getModelName(SNodeOperations.getModel(testCase)) + "." + SPropertyOperations.getString(testCase, "name"));
         ListSequence.fromList(SLinkOperations.getTargets(names, "item", true)).addElement(name);
