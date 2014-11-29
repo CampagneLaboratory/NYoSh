@@ -15,6 +15,7 @@
   <language namespace="c6567f13-87ab-4686-8f6f-42e8228c0e27(org.campagnelab.nyosh.gstring)" />
   <language namespace="760a0a8c-eabb-4521-8bfd-65db761a9ba3(jetbrains.mps.baseLanguage.logging)" />
   <language namespace="0202ed86-955d-4227-9c20-377dd6b1f9ff(org.campagnelab.nyosh.lib)" />
+  <language namespace="c1d262c7-5fba-470b-a7ad-87f5e0ae0a99(org.campagnelab.nyosh.functions)" />
   <devkit namespace="db81b829-e557-4467-b78e-cc1d44965622(org.campagnelab.devkit.gobyweb.interactive)" />
   <import index="ak0d" modelUID="f:java_stub#0202ed86-955d-4227-9c20-377dd6b1f9ff#org.apache.commons.io(org.campagnelab.nyosh.lib/org.apache.commons.io@java_stub)" version="-1" />
   <import index="4i4s" modelUID="f:java_stub#0202ed86-955d-4227-9c20-377dd6b1f9ff#org.campagnelab.nyosh.logging(org.campagnelab.nyosh.lib/org.campagnelab.nyosh.logging@java_stub)" version="-1" />
@@ -24,12 +25,13 @@
   <import index="6pk0" modelUID="r:48f4e449-1a18-435e-ae88-4830aa794dc7(org.campagnelab.nyosh.environment.structure)" version="17" implicit="yes" />
   <import index="w72s" modelUID="r:98591435-10ae-4084-8086-ed16ddd5fa73(org.campagnelab.gobyweb.environment.structure)" version="0" implicit="yes" />
   <import index="f2ff" modelUID="r:48d5f7d2-24be-4d82-ac12-8f4a2d414b11(org.campagnelab.nyosh.gstring.structure)" version="-1" implicit="yes" />
-  <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(org.campagnelab.NYoSh.structure)" version="30" implicit="yes" />
+  <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(org.campagnelab.NYoSh.structure)" version="35" implicit="yes" />
   <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="30" implicit="yes" />
   <import index="dzk5" modelUID="r:2bfcc546-5c51-4762-9df2-c43920be4458(org.campagnelab.gobyweb.plugins.structure)" version="4" implicit="yes" />
   <import index="tp2c" modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" implicit="yes" />
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" implicit="yes" />
+  <import index="w2mu" modelUID="r:70790e11-3fe8-4ada-b9dd-391c2c690781(org.campagnelab.nyosh.functions.structure)" version="3" implicit="yes" />
   <root type="935h.TaskScript" typeId="935h.6989919346770999332" id="6910057661397971103" nodeInfo="ng">
     <property name="pluginKind" nameId="935h.6874736155930792593" value="tasks" />
     <property name="pluginId" nameId="935h.6874736155930792589" value="TRIM_HALOPLEX_READS" />
@@ -1377,7 +1379,7 @@
   </root>
   <root type="4tvk.StepsLoggingSuccessHandler" typeId="4tvk.4780568564617168379" id="6910057661398557571" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="StepsLoggingSuccessHandler" />
-    <node role="handlerFunction" roleId="4tvk.7507736014957922704" type="4tvk.ConceptFunction_ProcessSuccessBlock" typeId="4tvk.7507736014957922788" id="6910057661398557572" nodeInfo="ng">
+    <node role="handlerFunction" roleId="4tvk.7507736014957922704" type="w2mu.ConceptFunction_ProcessSuccessBlock" typeId="w2mu.7596805840595250209" id="6910057661398557572" nodeInfo="ng">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="6910057661398557573" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="6910057661398557574" nodeInfo="nn">
           <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="6910057661398557575" nodeInfo="nn">
@@ -1390,7 +1392,7 @@
             <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="4i4s.~StepsLoggerHelper" resolveInfo="StepsLoggerHelper" />
             <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="4i4s.~StepsLoggerHelper%ddone(java%dlang%dString,int)%cvoid" resolveInfo="done" />
             <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="6910057661398557578" nodeInfo="nn">
-              <node role="rightExpression" roleId="tpee.1081773367579" type="4tvk.ConceptFunctionParameter_Success_Reason" typeId="4tvk.7507736014957922797" id="6910057661398557579" nodeInfo="ng" />
+              <node role="rightExpression" roleId="tpee.1081773367579" type="w2mu.ConceptFunctionParameter_Success_Reason" typeId="w2mu.7596805840595290693" id="6910057661398557579" nodeInfo="ng" />
               <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="6910057661398557580" nodeInfo="nn">
                 <property name="value" nameId="tpee.1070475926801" value="Step successfully completed: " />
               </node>
@@ -1405,7 +1407,7 @@
   </root>
   <root type="4tvk.StepsLoggingErrorHandler" typeId="4tvk.7015383683227760144" id="6910057661398557582" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="StepsLoggingErrorHandler" />
-    <node role="handlerFunction" roleId="4tvk.8594065538792617639" type="4tvk.ConceptFunction_ProcessExceptionBlock" typeId="4tvk.8594065538794719198" id="6910057661398557583" nodeInfo="ng">
+    <node role="handlerFunction" roleId="4tvk.8594065538792617639" type="w2mu.ConceptFunction_ProcessExceptionBlock" typeId="w2mu.7596805840595250208" id="6910057661398557583" nodeInfo="ng">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="6910057661398557584" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="6910057661398557585" nodeInfo="nn">
           <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="6910057661398557586" nodeInfo="nn">
@@ -1446,7 +1448,7 @@
             </node>
             <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="6910057661398557600" nodeInfo="nn">
               <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6910057661398557601" nodeInfo="nn">
-                <node role="operand" roleId="tpee.1197027771414" type="4tvk.ConceptFunctionParameter_Error_ExceptionType" typeId="4tvk.8594065538794719440" id="6910057661398557602" nodeInfo="ng" />
+                <node role="operand" roleId="tpee.1197027771414" type=".org.campagnelab.NYoSh.structure.ConceptFunctionParameter_Error_ExceptionType" id="6910057661398557602" nodeInfo="ng" />
                 <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="6910057661398557603" nodeInfo="nn">
                   <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~Throwable%dprintStackTrace(java%dio%dPrintWriter)%cvoid" resolveInfo="printStackTrace" />
                   <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="6910057661398557604" nodeInfo="nn">
@@ -1465,7 +1467,7 @@
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="6910057661398557608" nodeInfo="nn">
                   <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="6910057661398557609" nodeInfo="nn">
                     <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="6910057661398557610" nodeInfo="nn">
-                      <node role="rightExpression" roleId="tpee.1081773367579" type="4tvk.ConceptFunctionParameter_Error_Reason" typeId="4tvk.4236149660850302716" id="6910057661398557611" nodeInfo="ng" />
+                      <node role="rightExpression" roleId="tpee.1081773367579" type=".org.campagnelab.NYoSh.structure.ConceptFunctionParameter_Error_Reason" id="6910057661398557611" nodeInfo="ng" />
                       <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="6910057661398557612" nodeInfo="nn">
                         <property name="value" nameId="tpee.1070475926801" value="Step failed: " />
                       </node>
@@ -1488,7 +1490,7 @@
           </node>
           <node role="condition" roleId="tpee.1068580123160" type="tpee.NotEqualsExpression" typeId="tpee.1073239437375" id="6910057661398557617" nodeInfo="nn">
             <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="6910057661398557618" nodeInfo="nn" />
-            <node role="leftExpression" roleId="tpee.1081773367580" type="4tvk.ConceptFunctionParameter_Error_ExceptionType" typeId="4tvk.8594065538794719440" id="6910057661398557619" nodeInfo="ng" />
+            <node role="leftExpression" roleId="tpee.1081773367580" type=".org.campagnelab.NYoSh.structure.ConceptFunctionParameter_Error_ExceptionType" id="6910057661398557619" nodeInfo="ng" />
           </node>
           <node role="ifFalseStatement" roleId="tpee.1082485599094" type="tpee.BlockStatement" typeId="tpee.1082485599095" id="6910057661398557620" nodeInfo="nn">
             <node role="statements" roleId="tpee.1082485599096" type="tpee.StatementList" typeId="tpee.1068580123136" id="6910057661398557621" nodeInfo="sn">
@@ -1500,7 +1502,7 @@
                     <property name="value" nameId="tpee.1068580123138" value="false" />
                   </node>
                   <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="6910057661398557625" nodeInfo="nn">
-                    <node role="rightExpression" roleId="tpee.1081773367579" type="4tvk.ConceptFunctionParameter_Error_Reason" typeId="4tvk.4236149660850302716" id="6910057661398557626" nodeInfo="ng" />
+                    <node role="rightExpression" roleId="tpee.1081773367579" type=".org.campagnelab.NYoSh.structure.ConceptFunctionParameter_Error_Reason" id="6910057661398557626" nodeInfo="ng" />
                     <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="6910057661398557627" nodeInfo="nn">
                       <property name="value" nameId="tpee.1070475926801" value="Step failed: " />
                     </node>

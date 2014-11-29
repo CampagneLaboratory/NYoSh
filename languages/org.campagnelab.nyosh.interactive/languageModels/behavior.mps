@@ -11,6 +11,7 @@
   <language namespace="f2801650-65d5-424e-bb1b-463a8781b786(jetbrains.mps.baseLanguage.javadoc)" />
   <language namespace="a247e09e-2435-45ba-b8d2-07e93feba96a(jetbrains.mps.baseLanguage.tuples)" />
   <language namespace="d8f591ec-4d86-4af2-9f92-a9e93c803ffa(jetbrains.mps.lang.scopes)" />
+  <language namespace="c1d262c7-5fba-470b-a7ad-87f5e0ae0a99(org.campagnelab.nyosh.functions)" />
   <language-engaged-on-generation namespace="82ffebe3-3685-4fd9-b560-0c1d348d295c(org.campagnelab.logger)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   <import index="jj9h" modelUID="f:java_stub#498d89d2-c2e9-11e2-ad49-6cf049e62fe5#com.intellij.execution.configurations(MPS.IDEA/com.intellij.execution.configurations@java_stub)" version="-1" />
@@ -26,7 +27,7 @@
   <import index="lgzw" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util.regex(JDK/java.util.regex@java_stub)" version="-1" />
   <import index="tpek" modelUID="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" version="-1" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" />
-  <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(org.campagnelab.NYoSh.structure)" version="30" />
+  <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(org.campagnelab.NYoSh.structure)" version="35" />
   <import index="piqp" modelUID="r:dbc34bfe-035e-40e7-907e-8abb3a638383(org.campagnelab.nyosh.gstring.behavior)" version="-1" />
   <import index="f2ff" modelUID="r:48d5f7d2-24be-4d82-ac12-8f4a2d414b11(org.campagnelab.nyosh.gstring.structure)" version="-1" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
@@ -41,6 +42,7 @@
   <import index="m373" modelUID="r:4095af4f-a097-4799-aaa9-03df087ddfa6(jetbrains.mps.baseLanguage.javadoc.structure)" version="5" implicit="yes" />
   <import index="tpib" modelUID="r:00000000-0000-4000-0000-011c8959057f(jetbrains.mps.baseLanguage.logging.structure)" version="0" implicit="yes" />
   <import index="tp3r" modelUID="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" version="0" implicit="yes" />
+  <import index="w2mu" modelUID="r:70790e11-3fe8-4ada-b9dd-391c2c690781(org.campagnelab.nyosh.functions.structure)" version="3" implicit="yes" />
   <root type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="6464425322393407586" nodeInfo="ng">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="env" />
     <link role="concept" roleId="1i04.1225194240799" targetNodeId="440p.6464425322393236243" resolveInfo="Environment" />
@@ -796,7 +798,7 @@
           <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.ConsumeCommandOutputWithReader" typeId="4tvk.8155370969620237552" id="5609990910848027111" nodeInfo="ng">
             <property name="consumeStandardOutput" nameId="4tvk.6839116863305307657" value="true" />
             <property name="consumeStandardError" nameId="4tvk.6839116863305307659" value="false" />
-            <node role="readerExpression" roleId="4tvk.8155370969620237554" type="4tvk.ConceptFunction_ConsumeOutputReaderBlock" typeId="4tvk.8155370969620027248" id="5609990910848027113" nodeInfo="ng">
+            <node role="readerExpression" roleId="4tvk.8155370969620237554" type="w2mu.ConceptFunction_ConsumeOutputReaderBlock" typeId="w2mu.7596805840595310795" id="5609990910848027113" nodeInfo="ng">
               <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="5609990910848027115" nodeInfo="sn">
                 <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="5609990910848028225" nodeInfo="nn">
                   <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="5609990910848028226" nodeInfo="nr">
@@ -829,7 +831,7 @@
                               <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="5609990910848028226" resolveInfo="line" />
                             </node>
                             <node role="rValue" roleId="tpee.1068498886297" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5609990910848028273" nodeInfo="nn">
-                              <node role="operand" roleId="tpee.1197027771414" type="4tvk.ConceptFunctionParameter_outputReader" typeId="4tvk.8155370969620059061" id="5609990910848028274" nodeInfo="ng" />
+                              <node role="operand" roleId="tpee.1197027771414" type="w2mu.ConceptFunctionParameter_outputReader" typeId="w2mu.7596805840595310791" id="5609990910848028274" nodeInfo="ng" />
                               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="5609990910848028275" nodeInfo="nn">
                                 <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fxg7.~BufferedReader%dreadLine()%cjava%dlang%dString" resolveInfo="readLine" />
                               </node>
@@ -888,7 +890,7 @@
               <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.ConsumeCommandOutputWithReader" typeId="4tvk.8155370969620237552" id="2499106119577846707" nodeInfo="ng">
                 <property name="consumeStandardOutput" nameId="4tvk.6839116863305307657" value="true" />
                 <property name="consumeStandardError" nameId="4tvk.6839116863305307659" value="false" />
-                <node role="readerExpression" roleId="4tvk.8155370969620237554" type="4tvk.ConceptFunction_ConsumeOutputReaderBlock" typeId="4tvk.8155370969620027248" id="2499106119577846709" nodeInfo="ng">
+                <node role="readerExpression" roleId="4tvk.8155370969620237554" type="w2mu.ConceptFunction_ConsumeOutputReaderBlock" typeId="w2mu.7596805840595310795" id="2499106119577846709" nodeInfo="ng">
                   <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="2499106119577846711" nodeInfo="sn">
                     <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="2499106119577868489" nodeInfo="nn">
                       <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="2499106119577868492" nodeInfo="nr">
@@ -921,7 +923,7 @@
                                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2499106119577868492" resolveInfo="line" />
                                 </node>
                                 <node role="rValue" roleId="tpee.1068498886297" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2499106119577859826" nodeInfo="nn">
-                                  <node role="operand" roleId="tpee.1197027771414" type="4tvk.ConceptFunctionParameter_outputReader" typeId="4tvk.8155370969620059061" id="2499106119577846744" nodeInfo="ng" />
+                                  <node role="operand" roleId="tpee.1197027771414" type="w2mu.ConceptFunctionParameter_outputReader" typeId="w2mu.7596805840595310791" id="2499106119577846744" nodeInfo="ng" />
                                   <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="2499106119577865376" nodeInfo="nn">
                                     <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fxg7.~BufferedReader%dreadLine()%cjava%dlang%dString" resolveInfo="readLine" />
                                   </node>
@@ -980,7 +982,7 @@
                   <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.ConsumeCommandOutputWithReader" typeId="4tvk.8155370969620237552" id="2499106119578311475" nodeInfo="ng">
                     <property name="consumeStandardOutput" nameId="4tvk.6839116863305307657" value="true" />
                     <property name="consumeStandardError" nameId="4tvk.6839116863305307659" value="false" />
-                    <node role="readerExpression" roleId="4tvk.8155370969620237554" type="4tvk.ConceptFunction_ConsumeOutputReaderBlock" typeId="4tvk.8155370969620027248" id="2499106119578311476" nodeInfo="ng">
+                    <node role="readerExpression" roleId="4tvk.8155370969620237554" type="w2mu.ConceptFunction_ConsumeOutputReaderBlock" typeId="w2mu.7596805840595310795" id="2499106119578311476" nodeInfo="ng">
                       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="2499106119578311477" nodeInfo="sn">
                         <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="2499106119578311478" nodeInfo="nn">
                           <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="2499106119578311479" nodeInfo="nr">
@@ -1013,7 +1015,7 @@
                                       <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2499106119578311479" resolveInfo="line" />
                                     </node>
                                     <node role="rValue" roleId="tpee.1068498886297" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2499106119578311515" nodeInfo="nn">
-                                      <node role="operand" roleId="tpee.1197027771414" type="4tvk.ConceptFunctionParameter_outputReader" typeId="4tvk.8155370969620059061" id="2499106119578311516" nodeInfo="ng" />
+                                      <node role="operand" roleId="tpee.1197027771414" type="w2mu.ConceptFunctionParameter_outputReader" typeId="w2mu.7596805840595310791" id="2499106119578311516" nodeInfo="ng" />
                                       <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="2499106119578311517" nodeInfo="nn">
                                         <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fxg7.~BufferedReader%dreadLine()%cjava%dlang%dString" resolveInfo="readLine" />
                                       </node>

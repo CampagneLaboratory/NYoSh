@@ -18,6 +18,7 @@
     <usedLanguage>f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</usedLanguage>
     <usedLanguage>a21a7294-c126-4f63-8335-8fecd8c28c7e(org.campagnelab.NYoSh)</usedLanguage>
     <usedLanguage>0f071fdb-3faa-4b8c-9f5e-1da0a01466d5(org.campagnelab.nyosh.environment)</usedLanguage>
+    <usedLanguage>c1d262c7-5fba-470b-a7ad-87f5e0ae0a99(org.campagnelab.nyosh.functions)</usedLanguage>
     <usedLanguage>0202ed86-955d-4227-9c20-377dd6b1f9ff(org.campagnelab.nyosh.lib)</usedLanguage>
   </usedLanguages>
 </solution>

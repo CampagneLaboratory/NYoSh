@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(org.campagnelab.NYoSh.structure)" version="30">
+<model modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(org.campagnelab.NYoSh.structure)" version="35">
   <persistence version="8" />
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" />
   <import index="4fqr" modelUID="r:fa713d69-08ea-4732-b1f2-cb07f9e103ef(jetbrains.mps.execution.util.structure)" version="-1" />
   <import index="f2ff" modelUID="r:48d5f7d2-24be-4d82-ac12-8f4a2d414b11(org.campagnelab.nyosh.gstring.structure)" version="-1" />
+  <import index="w2mu" modelUID="r:70790e11-3fe8-4ada-b9dd-391c2c690781(org.campagnelab.nyosh.functions.structure)" version="3" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
-  <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(org.campagnelab.NYoSh.structure)" version="30" implicit="yes" />
-  <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" implicit="yes" />
+  <import index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(org.campagnelab.NYoSh.structure)" version="35" implicit="yes" />
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8197864363320245969" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Script" />
     <property name="rootable" nameId="tpce.1096454100552" value="true" />
@@ -75,7 +75,7 @@
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="streamExpression" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="8155370969619548882" resolveInfo="ConceptFunction_ConsumeOutputStreamBlock" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="w2mu.7596805840595310796" resolveInfo="ConceptFunction_ConsumeOutputStreamBlock" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8155370969619067580" nodeInfo="ig">
@@ -91,48 +91,6 @@
       <link role="target" roleId="tpce.1071599976176" targetNodeId="f2ff.1012285663620319605" resolveInfo="GString" />
     </node>
   </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8155370969619548882" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="ConceptFunction_ConsumeOutputStreamBlock" />
-    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="consume stream from previous command" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="get stream" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="consumeOutput" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
-    <node role="conceptLink" roleId="tpce.1105736949336" type="tpce.AggregationConceptLink" typeId="tpce.1105736889287" id="8155370969619702449" nodeInfo="ig">
-      <link role="conceptLinkDeclaration" roleId="tpce.1105736734721" targetNodeId="tpee.1137545148427" resolveInfo="conceptFunctionReturnType" />
-      <node role="target" roleId="tpce.1105736901241" type="tpee.VoidType" typeId="tpee.1068581517677" id="8155370969619702453" nodeInfo="in" />
-    </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8155370969619637137" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="ConceptFunctionParameter_outputStream" />
-    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="output from the previous command" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="stream" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="consumeOutput" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8155370969619668153" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1835621062190663819" resolveInfo="IDontSubstituteByDefault" />
-    </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8155370969620027248" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="ConceptFunction_ConsumeOutputReaderBlock" />
-    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="consume reader from previous command" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="get reader" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="consumeOutput" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
-    <node role="conceptLink" roleId="tpce.1105736949336" type="tpce.AggregationConceptLink" typeId="tpce.1105736889287" id="8155370969620027249" nodeInfo="ig">
-      <link role="conceptLinkDeclaration" roleId="tpce.1105736734721" targetNodeId="tpee.1137545148427" resolveInfo="conceptFunctionReturnType" />
-      <node role="target" roleId="tpce.1105736901241" type="tpee.VoidType" typeId="tpee.1068581517677" id="8155370969620027250" nodeInfo="in" />
-    </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8155370969620059061" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="ConceptFunctionParameter_outputReader" />
-    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="output from the previous command" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="reader" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="consumeOutput" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8155370969620059062" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1835621062190663819" resolveInfo="IDontSubstituteByDefault" />
-    </node>
-  </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8155370969620237552" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="ConsumeCommandOutputWithReader" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="consume reader" />
@@ -143,7 +101,7 @@
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="readerExpression" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="8155370969620027248" resolveInfo="ConceptFunction_ConsumeOutputReaderBlock" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="w2mu.7596805840595310795" resolveInfo="ConceptFunction_ConsumeOutputReaderBlock" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4903231125777492941" nodeInfo="ig">
@@ -305,22 +263,6 @@
     <node role="conceptLink" roleId="tpce.1105736949336" type="tpce.AggregationConceptLink" typeId="tpce.1105736889287" id="4897094796210780979" nodeInfo="ig">
       <link role="conceptLinkDeclaration" roleId="tpce.1105736734721" targetNodeId="tpee.1137545148427" resolveInfo="conceptFunctionReturnType" />
       <node role="target" roleId="tpce.1105736901241" type="tpee.VoidType" typeId="tpee.1068581517677" id="4897094796210780980" nodeInfo="in" />
-    </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4897094796210782421" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="ConceptFunctionParameter_ParsedArguments" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="arguments" />
-    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Arguments parsed with the entry point parser" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="consumeOutput" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="4897094796212941385" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
-      <property name="role" nameId="tpce.1071599776563" value="parserResultType" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="tpee.1068431790189" resolveInfo="Type" />
-    </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="4897094796210782422" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1835621062190663819" resolveInfo="IDontSubstituteByDefault" />
     </node>
   </root>
   <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="2829258213784965274" nodeInfo="ig">
@@ -553,7 +495,7 @@
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="handlerFunction" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="8594065538794719198" resolveInfo="ConceptFunction_ProcessExceptionBlock" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="w2mu.7596805840595250208" resolveInfo="ConceptFunction_ProcessExceptionBlock" />
     </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8594065538793583268" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
@@ -568,66 +510,6 @@
       <property name="role" nameId="tpce.1071599776563" value="handler" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="8594065538792360952" resolveInfo="ErrorHandler" />
-    </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8594065538794719198" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="errors" />
-    <property name="name" nameId="tpck.1169194664001" value="ConceptFunction_ProcessExceptionBlock" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="exception handler" />
-    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Handles exception" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
-    <node role="conceptLink" roleId="tpce.1105736949336" type="tpce.AggregationConceptLink" typeId="tpce.1105736889287" id="8594065538794719423" nodeInfo="ig">
-      <link role="conceptLinkDeclaration" roleId="tpce.1105736734721" targetNodeId="tpee.1137545148427" resolveInfo="conceptFunctionReturnType" />
-      <node role="target" roleId="tpce.1105736901241" type="tpee.VoidType" typeId="tpee.1068581517677" id="8594065538794719427" nodeInfo="in" />
-    </node>
-    <node role="conceptLink" roleId="tpce.1105736949336" type="tpce.AggregationConceptLink" typeId="tpce.1105736889287" id="8594065538798973132" nodeInfo="ig">
-      <link role="conceptLinkDeclaration" roleId="tpce.1105736734721" targetNodeId="tpee.1137546998352" resolveInfo="conceptFunctionParameter" />
-      <node role="target" roleId="tpce.1105736901241" type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8594065538798973223" nodeInfo="ig">
-        <property name="name" nameId="tpck.1169194664001" value="ConceptFunctionParameter_Error_StatusCode" />
-        <property name="conceptAlias" nameId="tpce.5092175715804935370" value="statusCode" />
-        <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="The process return status code that triggered the exception" />
-        <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
-        <node role="conceptLink" roleId="tpce.1105736949336" type="tpce.AggregationConceptLink" typeId="tpce.1105736889287" id="8594065538798973232" nodeInfo="ig">
-          <link role="conceptLinkDeclaration" roleId="tpce.1105736734721" targetNodeId="tpee.1137545963098" resolveInfo="conceptFunctionParameterType" />
-          <node role="target" roleId="tpce.1105736901241" type="tpee.IntegerType" typeId="tpee.1070534370425" id="8594065538798973236" nodeInfo="in" />
-        </node>
-        <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8594065538798973226" nodeInfo="ig">
-          <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1835621062190663819" resolveInfo="IDontSubstituteByDefault" />
-        </node>
-      </node>
-    </node>
-    <node role="conceptLink" roleId="tpce.1105736949336" type="tpce.AggregationConceptLink" typeId="tpce.1105736889287" id="4236149660850302666" nodeInfo="ig">
-      <link role="conceptLinkDeclaration" roleId="tpce.1105736734721" targetNodeId="tpee.1137546998352" resolveInfo="conceptFunctionParameter" />
-      <node role="target" roleId="tpce.1105736901241" type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4236149660850302716" nodeInfo="ig">
-        <property name="name" nameId="tpck.1169194664001" value="ConceptFunctionParameter_Error_Reason" />
-        <property name="conceptAlias" nameId="tpce.5092175715804935370" value="actionDescription" />
-        <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="the step description or reason the exception may have occured" />
-        <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
-        <node role="conceptLink" roleId="tpce.1105736949336" type="tpce.AggregationConceptLink" typeId="tpce.1105736889287" id="4236149660850302723" nodeInfo="ig">
-          <link role="conceptLinkDeclaration" roleId="tpce.1105736734721" targetNodeId="tpee.1137545963098" resolveInfo="conceptFunctionParameterType" />
-          <node role="target" roleId="tpce.1105736901241" type="tpee.StringType" typeId="tpee.1225271177708" id="4236149660850302727" nodeInfo="in" />
-        </node>
-        <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="4236149660850302719" nodeInfo="ig">
-          <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1835621062190663819" resolveInfo="IDontSubstituteByDefault" />
-        </node>
-      </node>
-    </node>
-    <node role="conceptLink" roleId="tpce.1105736949336" type="tpce.AggregationConceptLink" typeId="tpce.1105736889287" id="8594065538794719434" nodeInfo="ig">
-      <link role="conceptLinkDeclaration" roleId="tpce.1105736734721" targetNodeId="tpee.1137546998352" resolveInfo="conceptFunctionParameter" />
-      <node role="target" roleId="tpce.1105736901241" type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8594065538794719440" nodeInfo="ig">
-        <property name="name" nameId="tpck.1169194664001" value="ConceptFunctionParameter_Error_ExceptionType" />
-        <property name="conceptAlias" nameId="tpce.5092175715804935370" value="exception" />
-        <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
-        <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8594065538795213980" nodeInfo="ig">
-          <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1835621062190663819" resolveInfo="IDontSubstituteByDefault" />
-        </node>
-        <node role="conceptLink" roleId="tpce.1105736949336" type="tpce.AggregationConceptLink" typeId="tpce.1105736889287" id="8594065538796491156" nodeInfo="ig">
-          <link role="conceptLinkDeclaration" roleId="tpce.1105736734721" targetNodeId="tpee.1137545963098" resolveInfo="conceptFunctionParameterType" />
-          <node role="target" roleId="tpce.1105736901241" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="8594065538796491160" nodeInfo="in">
-            <link role="classifier" roleId="tpee.1107535924139" targetNodeId="e2lb.~Exception" resolveInfo="Exception" />
-          </node>
-        </node>
-      </node>
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8594065538799097318" nodeInfo="ig">
@@ -695,7 +577,7 @@
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="handlerFunction" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="7507736014957922788" resolveInfo="ConceptFunction_ProcessSuccessBlock" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="w2mu.7596805840595250209" resolveInfo="ConceptFunction_ProcessSuccessBlock" />
     </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="7507736014957922705" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
@@ -710,33 +592,6 @@
       <property name="role" nameId="tpce.1071599776563" value="handler" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="7507736014957922703" resolveInfo="SuccessHandler" />
-    </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7507736014957922788" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="errors" />
-    <property name="name" nameId="tpck.1169194664001" value="ConceptFunction_ProcessSuccessBlock" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="success handler" />
-    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Handles success" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
-    <node role="conceptLink" roleId="tpce.1105736949336" type="tpce.AggregationConceptLink" typeId="tpce.1105736889287" id="7507736014957922789" nodeInfo="ig">
-      <link role="conceptLinkDeclaration" roleId="tpce.1105736734721" targetNodeId="tpee.1137545148427" resolveInfo="conceptFunctionReturnType" />
-      <node role="target" roleId="tpce.1105736901241" type="tpee.VoidType" typeId="tpee.1068581517677" id="7507736014957922790" nodeInfo="in" />
-    </node>
-    <node role="conceptLink" roleId="tpce.1105736949336" type="tpce.AggregationConceptLink" typeId="tpce.1105736889287" id="7507736014957922796" nodeInfo="ig">
-      <link role="conceptLinkDeclaration" roleId="tpce.1105736734721" targetNodeId="tpee.1137546998352" resolveInfo="conceptFunctionParameter" />
-      <node role="target" roleId="tpce.1105736901241" type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7507736014957922797" nodeInfo="ig">
-        <property name="name" nameId="tpck.1169194664001" value="ConceptFunctionParameter_Success_Reason" />
-        <property name="conceptAlias" nameId="tpce.5092175715804935370" value="actionDescription" />
-        <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="the step description or reason the exception may have occured" />
-        <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
-        <node role="conceptLink" roleId="tpce.1105736949336" type="tpce.AggregationConceptLink" typeId="tpce.1105736889287" id="7507736014957922798" nodeInfo="ig">
-          <link role="conceptLinkDeclaration" roleId="tpce.1105736734721" targetNodeId="tpee.1137545963098" resolveInfo="conceptFunctionParameterType" />
-          <node role="target" roleId="tpce.1105736901241" type="tpee.StringType" typeId="tpee.1225271177708" id="7507736014957922799" nodeInfo="in" />
-        </node>
-        <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="7507736014957922800" nodeInfo="ig">
-          <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1835621062190663819" resolveInfo="IDontSubstituteByDefault" />
-        </node>
-      </node>
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8155370969619067689" nodeInfo="ig">

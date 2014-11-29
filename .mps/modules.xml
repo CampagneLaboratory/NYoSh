@@ -2,7 +2,6 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
-      <modulePath path="${org.campagnelab.xchart.home}/solutions/XChart.build0/XChart.build.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/devkits/org.campagnelab.devkit.gobyweb.interactive.devkit" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/NYoSh/org.campagnelab.NYoSh.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.background/org.campagnelab.background.mpl" folder="" />
@@ -31,6 +30,7 @@
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.lucene.tableviewer/org.campagnelab.lucene.tableviewer.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.lucene.tableviewer/runtime/org.campagnelab.lucene.tableviewer.runtime.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.nyosh.environment/org.campagnelab.nyosh.environment.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.nyosh.functions/org.campagnelab.nyosh.functions.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.nyosh.gstring/org.campagnelab.nyosh.gstring.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.nyosh.interactive/org.campagnelab.nyosh.interactive.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.nyosh.lib/org.campagnelab.nyosh.lib.mpl" folder="" />
