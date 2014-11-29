@@ -21,7 +21,9 @@
       <facets>
         <facet type="java" />
       </facets>
-      <external-templates />
+      <external-templates>
+        <generator generatorUID="5f9babc9-8d5d-4825-8e61-17b241ee6272(jetbrains.mps.baseLanguage.collections#1151699677197)" />
+      </external-templates>
       <dependencies>
         <dependency reexport="true">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
         <dependency reexport="false">f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</dependency>
