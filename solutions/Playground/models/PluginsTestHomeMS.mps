@@ -24522,6 +24522,14 @@
       <property name="message" nameId="whle.1925991773568778812" value="Input default value FAKETAG" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
     </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5399476727398820680" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value FAKETAG" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="5399476727398834612" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Creating Local Manager" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.createManager" />
+    </node>
   </root>
   <root type="czzw.NYoShUsers" typeId="czzw.5865189911928298169" id="3827903497649130398" nodeInfo="ng">
     <node role="users" roleId="czzw.5865189911928367305" type="bs99.NYoShUser" typeId="bs99.5865189911929158310" id="3827903497649130401" nodeInfo="ng">
@@ -24535,9 +24543,9 @@
     <node role="filesetArea" roleId="bs99.2051553890368785072" type="90kj.DualFileSetArea" typeId="90kj.3827903497651083787" id="8515523077722751148" nodeInfo="ng">
       <property name="path" nameId="bs99.6449713081311703917" value="/Users/manuelesimi/temp/manuele/testfsa" />
       <property name="remotePath" nameId="90kj.3827903497651086028" value="/Users/manuelesimi/temp/manuele/testfsa" />
-      <node role="manager" roleId="bs99.664989078355375332" type="bs99.FileSetAreaLocalManager" typeId="bs99.7170488887937312966" id="1070899980259269738" nodeInfo="ng">
-        <property name="status" nameId="bs99.4344503499503568233" value="connected" />
-        <property name="connected" nameId="bs99.1498629744692194973" value="true" />
+      <node role="manager" roleId="bs99.664989078355375332" type="bs99.FileSetAreaLocalManager" typeId="bs99.7170488887937312966" id="5399476727398834611" nodeInfo="ng">
+        <property name="status" nameId="bs99.4344503499503568233" value="Newly Created. Use intention to Connect." />
+        <property name="connected" nameId="bs99.1498629744692194973" value="false" />
         <link role="fileSetArea" roleId="bs99.664989078345325375" targetNodeId="8515523077722751148" />
       </node>
     </node>
@@ -30305,19 +30313,6 @@
       <link role="targetNode" roleId="9k5.664989078347742108" targetNodeId="1546477733295775291" resolveInfo="Localhost" />
     </node>
   </root>
-  <root type="90kj.PluginTestSuite" typeId="90kj.1546477733294540654" id="689255224957502914" nodeInfo="ng">
-    <property name="tagForTestClasses" nameId="90kj.8792472772527950742" value="NMULHFR" />
-    <property name="name" nameId="tpck.1169194664001" value="TestSuite" />
-    <node role="testCases" roleId="90kj.1546477733294663984" type="90kj.PluginTestCaseRef" typeId="90kj.1546477733294663107" id="1070899980259247586" nodeInfo="ng">
-      <link role="testCase" roleId="90kj.1546477733294663108" targetNodeId="1070899980259201858" resolveInfo="TestCase1" />
-    </node>
-    <node role="testCases" roleId="90kj.1546477733294663984" type="90kj.PluginTestCaseRef" typeId="90kj.1546477733294663107" id="1070899980259993088" nodeInfo="ng">
-      <link role="testCase" roleId="90kj.1546477733294663108" targetNodeId="1070899980259993087" resolveInfo="TestCase2" />
-    </node>
-    <node role="testCases" roleId="90kj.1546477733294663984" type="90kj.PluginTestCaseRef" typeId="90kj.1546477733294663107" id="1070899980260519790" nodeInfo="ng">
-      <link role="testCase" roleId="90kj.1546477733294663108" targetNodeId="1070899980260507472" resolveInfo="TestCase3" />
-    </node>
-  </root>
   <root type="90kj.PluginTestCase" typeId="90kj.3827903497679865605" id="1070899980259201858" nodeInfo="ng">
     <property name="disabled" nameId="90kj.689255224958918692" value="false" />
     <property name="name" nameId="tpck.1169194664001" value="TestCase1" />
@@ -30486,6 +30481,79 @@
     </node>
     <node role="script" roleId="90kj.1090105717921230261" type="90kj.TestScript" typeId="90kj.3827903497682417639" id="1070899980260507481" nodeInfo="ng">
       <node role="body" roleId="90kj.3827903497682417649" type="tpee.StatementList" typeId="tpee.1068580123136" id="1070899980260507482" nodeInfo="sn" />
+    </node>
+  </root>
+  <root type="90kj.PluginTestSuite" typeId="90kj.1546477733294540654" id="5399476727398768784" nodeInfo="ng">
+    <property name="tagForTestClasses" nameId="90kj.8792472772527950742" value="WQIHWOA" />
+    <property name="name" nameId="tpck.1169194664001" value="TestSuite" />
+    <property name="isInner" nameId="90kj.5399476727397978557" value="false" />
+    <node role="testCases" roleId="90kj.1546477733294663984" type="90kj.PluginTestCaseRef" typeId="90kj.1546477733294663107" id="5399476727398796335" nodeInfo="ng">
+      <link role="testCase" roleId="90kj.1546477733294663108" targetNodeId="1070899980259201858" resolveInfo="TestCase1" />
+    </node>
+    <node role="testCases" roleId="90kj.1546477733294663984" type="90kj.PluginTestCaseRef" typeId="90kj.1546477733294663107" id="5399476727398796340" nodeInfo="ng">
+      <link role="testCase" roleId="90kj.1546477733294663108" targetNodeId="1070899980259993087" resolveInfo="TestCase2" />
+    </node>
+    <node role="testCases" roleId="90kj.1546477733294663984" type="90kj.PluginTestCaseRef" typeId="90kj.1546477733294663107" id="5399476727398796348" nodeInfo="ng">
+      <link role="testCase" roleId="90kj.1546477733294663108" targetNodeId="1070899980260507472" resolveInfo="TestCase3" />
+    </node>
+    <node role="testCases" roleId="90kj.1546477733294663984" type="90kj.PluginTestCaseRef" typeId="90kj.1546477733294663107" id="5399476727398820641" nodeInfo="ng">
+      <link role="testCase" roleId="90kj.1546477733294663108" targetNodeId="5399476727398820640" resolveInfo="TestCase4" />
+    </node>
+  </root>
+  <root type="90kj.PluginTestCase" typeId="90kj.3827903497679865605" id="5399476727398820640" nodeInfo="ng">
+    <property name="disabled" nameId="90kj.689255224958918692" value="false" />
+    <property name="name" nameId="tpck.1169194664001" value="TestCase4" />
+    <node role="wrapperSuite" roleId="90kj.7828334301284657220" type="90kj.PluginTestSuite" typeId="90kj.1546477733294540654" id="5399476727398820642" nodeInfo="ng">
+      <property name="tagForTestClasses" nameId="90kj.8792472772527950742" value="ZEJHXLF" />
+      <property name="name" nameId="tpck.1169194664001" value="TestCase4Suite" />
+      <property name="isInner" nameId="90kj.5399476727397978557" value="true" />
+      <node role="testNames" roleId="90kj.7828334301288506820" type="90kj.PluginTestCaseRefByName" typeId="90kj.7828334301288505717" id="5399476727398820671" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="TestCase4" />
+      </node>
+    </node>
+    <node role="configuration" roleId="90kj.3827903497682006055" type="90kj.TestJobConfiguration" typeId="90kj.3827903497681813715" id="5399476727398820643" nodeInfo="ng">
+      <property name="executionCompleted" nameId="bs99.4965834343965555115" value="false" />
+      <property name="name" nameId="tpck.1169194664001" value="ExecutionTool" />
+      <property name="assignedTag" nameId="90kj.1546477733293020042" value="ECAAIPH" />
+      <property name="jobName" nameId="bs99.606449909789338951" value="4" />
+      <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="8515523077722744524" resolveInfo="PluginTestExecutionEnvironment" />
+      <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="1070899980259254402" resolveInfo="PROCESS_READS_TASK" />
+      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ListenForSampleFileSets" typeId="7aad.7926097513313207836" id="5399476727398820644" nodeInfo="ng">
+        <property name="rank" nameId="bbh2.6587162469552164420" value="100" />
+      </node>
+      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ListenForAlignmentFileSets" typeId="7aad.6587162469555572132" id="5399476727398820645" nodeInfo="ng">
+        <property name="rank" nameId="bbh2.6587162469552164420" value="200" />
+      </node>
+      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ListenForAlignmentAnalysisFileSets" typeId="7aad.8524130661366375999" id="5399476727398820648" nodeInfo="ng">
+        <property name="rank" nameId="bbh2.6587162469552164420" value="300" />
+      </node>
+      <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="5399476727398820673" nodeInfo="ng">
+        <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="1070899980259254409" resolveInfo="UPLOADS_FILES" />
+        <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="5399476727398834252" nodeInfo="ng">
+          <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="8515523077722758513" resolveInfo="CFS005-466-D1PRE_S11_L001_R1_001" />
+        </node>
+      </node>
+      <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="5399476727398820674" nodeInfo="ng">
+        <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="1070899980259254411" resolveInfo="UPLOAD_MERGE_PLAN" />
+        <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="5399476727398834254" nodeInfo="ng">
+          <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="8515523077731815556" resolveInfo="merge-plan" />
+        </node>
+      </node>
+      <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="5399476727398820675" nodeInfo="ng">
+        <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="1070899980259254426" resolveInfo="Tag for the new sample." />
+        <node role="value" roleId="bs99.6506431596944968310" type="bs99.StringOptionValue" typeId="bs99.606449909792929476" id="5399476727398820679" nodeInfo="ng">
+          <property name="value" nameId="bs99.606449909792929477" value="FAKETAG" />
+        </node>
+      </node>
+    </node>
+    <node role="script" roleId="90kj.1090105717921230261" type="90kj.TestScript" typeId="90kj.3827903497682417639" id="5399476727398820649" nodeInfo="ng">
+      <node role="body" roleId="90kj.3827903497682417649" type="tpee.StatementList" typeId="tpee.1068580123136" id="5399476727398820650" nodeInfo="sn">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5399476727398834445" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="5399476727398834444" nodeInfo="nn">
+            <property name="value" nameId="tpee.1068580123138" value="true" />
+          </node>
+        </node>
+      </node>
     </node>
   </root>
 </model>
