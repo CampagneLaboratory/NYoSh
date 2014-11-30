@@ -1311,6 +1311,12 @@
           <property name="text" nameId="p6sl.1680136183140337487" value="" />
         </node>
       </node>
+      <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Lines" typeId="p6sl.5039633819242576787" id="1070899980261270428" nodeInfo="ng">
+        <property name="text" nameId="p6sl.5493669862519718600" value="" />
+        <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="1070899980261270431" nodeInfo="ng">
+          <property name="text" nameId="p6sl.5493669862519718600" value="WORKING_DIR=&quot;$( cd &quot;$( dirname &quot;${BASH_SOURCE[0]}&quot; )&quot; &amp;&amp; pwd )&quot;" />
+        </node>
+      </node>
       <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="7828334301290964006" nodeInfo="ng">
         <property name="text" nameId="p6sl.5493669862519718600" value="" />
         <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="7828334301290964007" nodeInfo="ng">
@@ -1345,10 +1351,10 @@
           </node>
         </node>
         <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="7828334301290964020" nodeInfo="ng">
-          <property name="text" nameId="p6sl.1680136183140337487" value=" --tag ${CLASSES_TAG} JAR: " />
+          <property name="text" nameId="p6sl.1680136183140337487" value=" --tag ${CLASSES_TAG} JAR: &quot;${WORKING_DIR}/" />
         </node>
         <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="7828334301290964021" nodeInfo="ng">
-          <property name="text" nameId="p6sl.1680136183140337487" value="testC        fffvb                  n      c            2q       lasses.jar" />
+          <property name="text" nameId="p6sl.1680136183140337487" value="testClasses.jar" />
         </node>
         <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="7828334301290964022" nodeInfo="ng">
           <property name="text" nameId="p6sl.1680136183140337487" value="" />
