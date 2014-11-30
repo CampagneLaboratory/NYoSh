@@ -6,8 +6,8 @@
       <model index="q17a" modelUID="r:3fd8f008-20f7-41de-ac4a-40f2d89b8fb2(NYoSh.intentions)" version="-1" />
       <model index="q8mp" modelUID="r:e81db3c8-c3eb-4adc-83ad-930c89141029(NYoSh.actions)" version="-1" />
       <model index="aet2" modelUID="r:ab86e397-1503-48ca-8931-8dc598446fee(NYoSh.generator.template.main@generator)" version="-1" />
-      <model index="866" modelUID="r:b5bf8283-80d1-4ef0-93cb-73126a01373f(NYoSh.plugin)" version="-1" />
       <model index="idop" modelUID="r:d274dffc-d0bf-4ec5-bbf4-c1d30ee1f423(NYoSh.typesystem)" version="-1" />
+      <model index="866" modelUID="r:b5bf8283-80d1-4ef0-93cb-73126a01373f(NYoSh.plugin)" version="-1" />
       <model index="4ezj" modelUID="r:2a3903cf-99a2-4e4b-9216-412f36303d74(NYoSh.behavior)" version="-1" />
       <model index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(NYoSh.structure)" version="10" />
       <model index="f6d6" modelUID="r:bbce89e8-2bb0-4c95-b1b7-870a649b438d(NYoSh.constraints)" version="-1" />
@@ -28,8 +28,8 @@
       <model index="q17a" modelUID="r:3fd8f008-20f7-41de-ac4a-40f2d89b8fb2(org.campagnelab.nyosh.intentions)" version="0" />
       <model index="q8mp" modelUID="r:e81db3c8-c3eb-4adc-83ad-930c89141029(org.campagnelab.nyosh.actions)" version="0" />
       <model index="aet2" modelUID="r:ab86e397-1503-48ca-8931-8dc598446fee(org.campagnelab.nyosh.generator.template.main@generator)" version="0" />
-      <model index="866" modelUID="r:b5bf8283-80d1-4ef0-93cb-73126a01373f(org.campagnelab.nyosh.plugin)" version="0" />
       <model index="idop" modelUID="r:d274dffc-d0bf-4ec5-bbf4-c1d30ee1f423(org.campagnelab.nyosh.typesystem)" version="0" />
+      <model index="866" modelUID="r:b5bf8283-80d1-4ef0-93cb-73126a01373f(org.campagnelab.nyosh.plugin)" version="0" />
       <model index="4ezj" modelUID="r:2a3903cf-99a2-4e4b-9216-412f36303d74(org.campagnelab.nyosh.behavior)" version="0" />
       <model index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(org.campagnelab.nyosh.structure)" version="11" />
       <model index="f6d6" modelUID="r:bbce89e8-2bb0-4c95-b1b7-870a649b438d(org.campagnelab.nyosh.constraints)" version="0" />
@@ -49,8 +49,8 @@
       <model index="36xx" modelUID="r:31af932a-3b06-429d-8d4c-b0b4ebe2bde6(org.campagnelab.NYoSh.editor)" version="1" />
       <model index="4ezj" modelUID="r:2a3903cf-99a2-4e4b-9216-412f36303d74(org.campagnelab.NYoSh.behavior)" version="1" />
       <model index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(org.campagnelab.NYoSh.structure)" version="12" />
-      <model index="aolm" modelUID="r:25b034d9-9d15-40d6-b320-353339f9d236(org.campagnelab.gobyweb.editor)" version="-1" />
       <model index="2do4" modelUID="r:37480788-d5bb-44f1-9b59-9a1a08c5e7d7(org.campagnelab.gobyweb.behavior)" version="-1" />
+      <model index="aolm" modelUID="r:25b034d9-9d15-40d6-b320-353339f9d236(org.campagnelab.gobyweb.editor)" version="-1" />
       <model index="3x59" modelUID="r:d679b7ff-0589-488d-88f2-70a6a8ce9f59(org.campagnelab.gobyweb.structure)" version="-1" />
     </dependencies>
     <move id="4tvk.3645074773131327936" to="3x59.1645071448550969710" />
@@ -109,8 +109,8 @@
       <model index="36xx" modelUID="r:31af932a-3b06-429d-8d4c-b0b4ebe2bde6(org.campagnelab.NYoSh.editor)" version="2" />
       <model index="4ezj" modelUID="r:2a3903cf-99a2-4e4b-9216-412f36303d74(org.campagnelab.NYoSh.behavior)" version="2" />
       <model index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(org.campagnelab.NYoSh.structure)" version="14" />
-      <model index="aolm" modelUID="r:25b034d9-9d15-40d6-b320-353339f9d236(org.campagnelab.gobyweb.editor)" version="0" />
       <model index="2do4" modelUID="r:37480788-d5bb-44f1-9b59-9a1a08c5e7d7(org.campagnelab.gobyweb.behavior)" version="0" />
+      <model index="aolm" modelUID="r:25b034d9-9d15-40d6-b320-353339f9d236(org.campagnelab.gobyweb.editor)" version="0" />
       <model index="3x59" modelUID="r:d679b7ff-0589-488d-88f2-70a6a8ce9f59(org.campagnelab.gobyweb.structure)" version="1" />
     </dependencies>
     <move id="4tvk.2829258213793694771" to="3x59.1645071448550974758" />
@@ -153,10 +153,10 @@
     <dependencies>
       <model index="36xx" modelUID="r:31af932a-3b06-429d-8d4c-b0b4ebe2bde6(NYoSh.editor)" version="6" />
       <model index="dph6" modelUID="r:5ea5cfa7-405a-4cc9-8472-d124bf4a8970(NYoSh.generator.template.HelperCode)" version="-1" />
-      <model index="q17a" modelUID="r:3fd8f008-20f7-41de-ac4a-40f2d89b8fb2(NYoSh.intentions)" version="1" />
       <model index="en36" modelUID="r:551ab8cf-6845-4ac9-88f8-60375ccdd853(NYoSh.textGen)" version="0" />
-      <model index="j967" modelUID="r:91802275-7ecf-4bf0-a74a-bd8b2bc1cd21(NYoSh.scripts)" version="-1" />
+      <model index="q17a" modelUID="r:3fd8f008-20f7-41de-ac4a-40f2d89b8fb2(NYoSh.intentions)" version="1" />
       <model index="q8mp" modelUID="r:e81db3c8-c3eb-4adc-83ad-930c89141029(NYoSh.actions)" version="2" />
+      <model index="j967" modelUID="r:91802275-7ecf-4bf0-a74a-bd8b2bc1cd21(NYoSh.scripts)" version="-1" />
       <model index="aet2" modelUID="r:ab86e397-1503-48ca-8931-8dc598446fee(NYoSh.generator.template.main@generator)" version="1" />
       <model index="wyc7" modelUID="r:44ac686c-848f-4e26-a474-0f122990548f(NYoSh.dataFlow)" version="-1" />
       <model index="idop" modelUID="r:d274dffc-d0bf-4ec5-bbf4-c1d30ee1f423(NYoSh.typesystem)" version="1" />
@@ -176,6 +176,300 @@
     <RenameModel oldModel="r:bbce89e8-2bb0-4c95-b1b7-870a649b438d(NYoSh.constraints)" newModel="r:bbce89e8-2bb0-4c95-b1b7-870a649b438d(org.campagnelab.NYoSh.constraints)" />
     <RenameModel oldModel="r:5ea5cfa7-405a-4cc9-8472-d124bf4a8970(NYoSh.generator.template.HelperCode)" newModel="r:5ea5cfa7-405a-4cc9-8472-d124bf4a8970(org.campagnelab.NYoSh.generator.template.HelperCode)" />
     <RenameModel oldModel="r:ab86e397-1503-48ca-8931-8dc598446fee(NYoSh.generator.template.main@generator)" newModel="r:ab86e397-1503-48ca-8931-8dc598446fee(org.campagnelab.NYoSh.generator.template.main@generator)" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="w2mu" modelUID="r:70790e11-3fe8-4ada-b9dd-391c2c690781(org.campagnelab.nyosh.functions.structure)" version="-1" />
+      <model index="qnes" modelUID="r:2f60864f-994c-4413-b324-244fab1c0017(org.campagnelab.nyosh.functions.behavior)" version="-1" />
+      <model index="4ezj" modelUID="r:2a3903cf-99a2-4e4b-9216-412f36303d74(org.campagnelab.NYoSh.behavior)" version="4" />
+      <model index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(org.campagnelab.NYoSh.structure)" version="31" />
+    </dependencies>
+    <move id="4tvk.8594065538794719198" to="w2mu.7596805840595250208" />
+    <move id="4tvk.7507736014957922788" to="w2mu.7596805840595250209" />
+    <move id="4ezj.7596805840592123871" to="qnes.7596805840595250213" />
+    <move id="4ezj.7596805840592127119" to="qnes.7596805840595250257" />
+    <move id="4ezj.7596805840592127137" to="qnes.7596805840595250275" />
+    <move id="4ezj.7596805840592179415" to="qnes.7596805840595250231" />
+    <move id="4ezj.7596805840592127115" to="qnes.7596805840595250253" />
+    <move id="4ezj.7596805840592127120" to="qnes.7596805840595250258" />
+    <move id="4ezj.7596805840592127125" to="qnes.7596805840595250263" />
+    <move id="4ezj.7596805840592179417" to="qnes.7596805840595250233" />
+    <move id="4ezj.7596805840592123889" to="qnes.7596805840595250241" />
+    <move id="4ezj.7596805840592127121" to="qnes.7596805840595250259" />
+    <move id="4ezj.7596805840592127124" to="qnes.7596805840595250262" />
+    <move id="4ezj.7596805840592123882" to="qnes.7596805840595250224" />
+    <move id="4ezj.7596805840592178980" to="qnes.7596805840595250235" />
+    <move id="4ezj.7596805840592127034" to="qnes.7596805840595250278" />
+    <move id="4ezj.7596805840592127138" to="qnes.7596805840595250276" />
+    <move id="4ezj.7596805840592179418" to="qnes.7596805840595250234" />
+    <move id="4ezj.7596805840592178983" to="qnes.7596805840595250238" />
+    <move id="4ezj.7596805840592123872" to="qnes.7596805840595250214" />
+    <move id="4ezj.7596805840592127129" to="qnes.7596805840595250267" />
+    <move id="4ezj.7596805840592179414" to="qnes.7596805840595250230" />
+    <move id="4ezj.7596805840592179416" to="qnes.7596805840595250232" />
+    <move id="4ezj.7596805840592123881" to="qnes.7596805840595250223" />
+    <move id="4ezj.7596805840592123869" to="qnes.7596805840595250211" />
+    <move id="4ezj.7596805840592123886" to="qnes.7596805840595250228" />
+    <move id="4ezj.7596805840592127116" to="qnes.7596805840595250254" />
+    <move id="4ezj.7596805840592127131" to="qnes.7596805840595250269" />
+    <move id="4ezj.7596805840592127130" to="qnes.7596805840595250268" />
+    <move id="4ezj.7596805840592127132" to="qnes.7596805840595250270" />
+    <move id="4ezj.7596805840592127033" to="qnes.7596805840595250277" />
+    <move id="4ezj.7596805840592127127" to="qnes.7596805840595250265" />
+    <move id="4ezj.7596805840592123885" to="qnes.7596805840595250227" />
+    <move id="4ezj.7596805840592123894" to="qnes.7596805840595250247" />
+    <move id="4ezj.7596805840592123884" to="qnes.7596805840595250226" />
+    <move id="4ezj.7596805840592126490" to="qnes.7596805840595250248" />
+    <move id="4ezj.7596805840592127136" to="qnes.7596805840595250274" />
+    <move id="4ezj.7596805840592127135" to="qnes.7596805840595250273" />
+    <move id="4ezj.7596805840592127122" to="qnes.7596805840595250260" />
+    <move id="4ezj.7596805840592127117" to="qnes.7596805840595250255" />
+    <move id="4ezj.7596805840592126491" to="qnes.7596805840595250249" />
+    <move id="4ezj.7596805840592123890" to="qnes.7596805840595250242" />
+    <move id="4ezj.7596805840592127126" to="qnes.7596805840595250264" />
+    <move id="4ezj.7596805840592123887" to="qnes.7596805840595250229" />
+    <move id="4ezj.7596805840592123891" to="qnes.7596805840595250243" />
+    <move id="4ezj.7596805840592127032" to="qnes.7596805840595250250" />
+    <move id="4ezj.7596805840592123874" to="qnes.7596805840595250216" />
+    <move id="4ezj.7596805840592123876" to="qnes.7596805840595250218" />
+    <move id="4ezj.7596805840592178982" to="qnes.7596805840595250237" />
+    <move id="4ezj.7596805840592123877" to="qnes.7596805840595250219" />
+    <move id="4ezj.7596805840592178984" to="qnes.7596805840595250239" />
+    <move id="4ezj.7596805840592123875" to="qnes.7596805840595250217" />
+    <move id="4ezj.7596805840592127133" to="qnes.7596805840595250271" />
+    <move id="4ezj.7596805840592123883" to="qnes.7596805840595250225" />
+    <move id="4ezj.7596805840592127113" to="qnes.7596805840595250251" />
+    <move id="4ezj.7596805840592126489" to="qnes.7596805840595250210" />
+    <move id="4ezj.7596805840592178981" to="qnes.7596805840595250236" />
+    <move id="4ezj.7596805840592123878" to="qnes.7596805840595250220" />
+    <move id="4ezj.7596805840592180845" to="qnes.7596805840595250245" />
+    <move id="4ezj.7596805840592127128" to="qnes.7596805840595250266" />
+    <move id="4ezj.7596805840592127118" to="qnes.7596805840595250256" />
+    <move id="4ezj.7596805840592123870" to="qnes.7596805840595250212" />
+    <move id="4ezj.7596805840592123892" to="qnes.7596805840595250244" />
+    <move id="4ezj.7596805840592123873" to="qnes.7596805840595250215" />
+    <move id="4ezj.7596805840592123879" to="qnes.7596805840595250221" />
+    <move id="4ezj.7596805840592127114" to="qnes.7596805840595250252" />
+    <move id="4ezj.7596805840592127123" to="qnes.7596805840595250261" />
+    <move id="4ezj.7596805840592123888" to="qnes.7596805840595250240" />
+    <move id="4ezj.7596805840592123893" to="qnes.7596805840595250246" />
+    <move id="4ezj.7596805840592127134" to="qnes.7596805840595250272" />
+    <move id="4ezj.7596805840592123880" to="qnes.7596805840595250222" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="w2mu" modelUID="r:70790e11-3fe8-4ada-b9dd-391c2c690781(org.campagnelab.nyosh.functions.structure)" version="0" />
+      <model index="idop" modelUID="r:d274dffc-d0bf-4ec5-bbf4-c1d30ee1f423(org.campagnelab.NYoSh.typesystem)" version="2" />
+      <model index="qnes" modelUID="r:2f60864f-994c-4413-b324-244fab1c0017(org.campagnelab.nyosh.functions.behavior)" version="0" />
+      <model index="4ezj" modelUID="r:2a3903cf-99a2-4e4b-9216-412f36303d74(org.campagnelab.NYoSh.behavior)" version="5" />
+      <model index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(org.campagnelab.NYoSh.structure)" version="32" />
+      <model index="852v" modelUID="r:d56d2262-6122-4522-8a40-dadb86857c2c(org.campagnelab.nyosh.functions.typesystem)" version="-1" />
+    </dependencies>
+    <move id="4tvk.7596805840592127605" to="w2mu.7596805840595271409" />
+    <move id="4tvk.7596805840592177861" to="w2mu.7596805840595271407" />
+    <move id="4tvk.7596805840592127604" to="w2mu.7596805840595271408" />
+    <move id="4tvk.7596805840592178245" to="w2mu.7596805840595271404" />
+    <move id="4tvk.7596805840592178246" to="w2mu.7596805840595271405" />
+    <move id="4tvk.7596805840592177860" to="w2mu.7596805840595271406" />
+    <move id="idop.7596805840592127615" to="852v.7596805840595271410" />
+    <move id="idop.7596805840592174322" to="852v.7596805840595271418" />
+    <move id="idop.7596805840592178263" to="852v.7596805840595271437" />
+    <move id="idop.7596805840592177891" to="852v.7596805840595271427" />
+    <move id="idop.7596805840592177882" to="852v.7596805840595271421" />
+    <move id="idop.7596805840592178516" to="852v.7596805840595271435" />
+    <move id="idop.7596805840592178471" to="852v.7596805840595271434" />
+    <move id="idop.7596805840592178256" to="852v.7596805840595271439" />
+    <move id="idop.7596805840592174316" to="852v.7596805840595271412" />
+    <move id="idop.7596805840592127616" to="852v.7596805840595271411" />
+    <move id="idop.7596805840592177881" to="852v.7596805840595271420" />
+    <move id="idop.7596805840592178144" to="852v.7596805840595271425" />
+    <move id="idop.7596805840592177884" to="852v.7596805840595271429" />
+    <move id="idop.7596805840592178254" to="852v.7596805840595271431" />
+    <move id="idop.7596805840592178080" to="852v.7596805840595271422" />
+    <move id="idop.7596805840592174317" to="852v.7596805840595271413" />
+    <move id="idop.7596805840592174319" to="852v.7596805840595271415" />
+    <move id="idop.7596805840592178099" to="852v.7596805840595271424" />
+    <move id="idop.7596805840592177930" to="852v.7596805840595271428" />
+    <move id="idop.7596805840592178452" to="852v.7596805840595271432" />
+    <move id="idop.7596805840592174320" to="852v.7596805840595271416" />
+    <move id="idop.7596805840592178455" to="852v.7596805840595271436" />
+    <move id="idop.7596805840592178103" to="852v.7596805840595271423" />
+    <move id="idop.7596805840592178083" to="852v.7596805840595271426" />
+    <move id="idop.7596805840592178302" to="852v.7596805840595271438" />
+    <move id="idop.7596805840592178475" to="852v.7596805840595271433" />
+    <move id="idop.7596805840592174321" to="852v.7596805840595271417" />
+    <move id="idop.7596805840592178253" to="852v.7596805840595271430" />
+    <move id="idop.7596805840592127618" to="852v.7596805840595271419" />
+    <move id="idop.7596805840592174318" to="852v.7596805840595271414" />
+    <move id="4ezj.7596805840592127608" to="qnes.7596805840595271441" />
+    <move id="4ezj.7596805840592127609" to="qnes.7596805840595271442" />
+    <move id="4ezj.7596805840592127607" to="qnes.7596805840595271440" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="ldlo" modelUID="r:b7a3821a-18c4-4d64-8a20-33421770b120(org.campagnelab.nyosh.functions.constraints)" version="-1" />
+      <model index="w2mu" modelUID="r:70790e11-3fe8-4ada-b9dd-391c2c690781(org.campagnelab.nyosh.functions.structure)" version="2" />
+      <model index="idop" modelUID="r:d274dffc-d0bf-4ec5-bbf4-c1d30ee1f423(org.campagnelab.NYoSh.typesystem)" version="4" />
+      <model index="qnes" modelUID="r:2f60864f-994c-4413-b324-244fab1c0017(org.campagnelab.nyosh.functions.behavior)" version="1" />
+      <model index="4ezj" modelUID="r:2a3903cf-99a2-4e4b-9216-412f36303d74(org.campagnelab.NYoSh.behavior)" version="6" />
+      <model index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(org.campagnelab.NYoSh.structure)" version="34" />
+      <model index="852v" modelUID="r:d56d2262-6122-4522-8a40-dadb86857c2c(org.campagnelab.nyosh.functions.typesystem)" version="1" />
+      <model index="f6d6" modelUID="r:bbce89e8-2bb0-4c95-b1b7-870a649b438d(org.campagnelab.NYoSh.constraints)" version="2" />
+    </dependencies>
+    <move id="4tvk.8155370969619548882" to="w2mu.7596805840595310796" />
+    <move id="4tvk.8155370969620059062" to="w2mu.7596805840595310792" />
+    <move id="4tvk.4897094796210782421" to="w2mu.7596805840595310788" />
+    <move id="4tvk.8155370969619702449" to="w2mu.7596805840595310797" />
+    <move id="4tvk.4897094796210782422" to="w2mu.7596805840595310790" />
+    <move id="4tvk.8155370969620027248" to="w2mu.7596805840595310795" />
+    <move id="4tvk.8155370969619637137" to="w2mu.7596805840595310793" />
+    <move id="4tvk.4897094796212941385" to="w2mu.7596805840595310789" />
+    <move id="4tvk.8155370969619668153" to="w2mu.7596805840595310794" />
+    <move id="4tvk.8155370969620059061" to="w2mu.7596805840595310791" />
+    <move id="4tvk.8155370969619702453" to="w2mu.7596805840595310798" />
+    <move id="idop.8155370969619778845" to="852v.7596805840595310806" />
+    <move id="idop.8155370969620061428" to="852v.7596805840595310811" />
+    <move id="idop.8155370969619778181" to="852v.7596805840595310804" />
+    <move id="idop.8155370969620061427" to="852v.7596805840595310810" />
+    <move id="idop.8155370969620061429" to="852v.7596805840595310812" />
+    <move id="idop.8155370969620061430" to="852v.7596805840595310813" />
+    <move id="idop.2893726635884035008" to="852v.7596805840595310803" />
+    <move id="idop.8155370969620061435" to="852v.7596805840595310818" />
+    <move id="idop.8155370969619778847" to="852v.7596805840595310805" />
+    <move id="idop.8155370969619768537" to="852v.7596805840595310808" />
+    <move id="idop.8155370969620061433" to="852v.7596805840595310816" />
+    <move id="idop.8155370969619768453" to="852v.7596805840595310800" />
+    <move id="idop.8155370969619768452" to="852v.7596805840595310799" />
+    <move id="idop.8155370969620061431" to="852v.7596805840595310814" />
+    <move id="idop.8155370969620061426" to="852v.7596805840595310809" />
+    <move id="idop.2893726635884035520" to="852v.7596805840595310802" />
+    <move id="idop.8155370969620061434" to="852v.7596805840595310817" />
+    <move id="idop.8155370969620061432" to="852v.7596805840595310815" />
+    <move id="idop.2893726635884035517" to="852v.7596805840595310801" />
+    <move id="idop.8155370969620061774" to="852v.7596805840595310807" />
+    <move id="f6d6.4422088794497805459" to="ldlo.7596805840595310854" />
+    <move id="f6d6.1024752404813027844" to="ldlo.7596805840595310849" />
+    <move id="f6d6.8155370969620214260" to="ldlo.7596805840595310836" />
+    <move id="f6d6.8155370969620214711" to="ldlo.7596805840595310843" />
+    <move id="f6d6.4422088794497806393" to="ldlo.7596805840595310835" />
+    <move id="f6d6.8155370969620214261" to="ldlo.7596805840595310837" />
+    <move id="f6d6.8155370969620214715" to="ldlo.7596805840595310847" />
+    <move id="f6d6.8155370969620212361" to="ldlo.7596805840595310833" />
+    <move id="f6d6.8155370969620209749" to="ldlo.7596805840595310819" />
+    <move id="f6d6.8155370969620209750" to="ldlo.7596805840595310820" />
+    <move id="f6d6.8155370969620106618" to="ldlo.7596805840595310822" />
+    <move id="f6d6.8155370969620213196" to="ldlo.7596805840595310830" />
+    <move id="f6d6.8155370969620214262" to="ldlo.7596805840595310838" />
+    <move id="f6d6.8155370969620214709" to="ldlo.7596805840595310841" />
+    <move id="f6d6.8155370969620109254" to="ldlo.7596805840595310824" />
+    <move id="f6d6.8155370969620122366" to="ldlo.7596805840595310823" />
+    <move id="f6d6.8155370969620214718" to="ldlo.7596805840595310852" />
+    <move id="f6d6.8155370969620214717" to="ldlo.7596805840595310851" />
+    <move id="f6d6.8155370969620214716" to="ldlo.7596805840595310848" />
+    <move id="f6d6.8155370969620106621" to="ldlo.7596805840595310829" />
+    <move id="f6d6.8155370969620214714" to="ldlo.7596805840595310846" />
+    <move id="f6d6.8155370969620214712" to="ldlo.7596805840595310844" />
+    <move id="f6d6.8155370969620209751" to="ldlo.7596805840595310821" />
+    <move id="f6d6.8155370969620211328" to="ldlo.7596805840595310831" />
+    <move id="f6d6.8155370969620107832" to="ldlo.7596805840595310826" />
+    <move id="f6d6.8155370969620200157" to="ldlo.7596805840595310827" />
+    <move id="f6d6.8155370969620214708" to="ldlo.7596805840595310840" />
+    <move id="f6d6.8155370969620214707" to="ldlo.7596805840595310839" />
+    <move id="f6d6.4422088794497805455" to="ldlo.7596805840595310853" />
+    <move id="f6d6.8155370969620212345" to="ldlo.7596805840595310832" />
+    <move id="f6d6.4422088794497806389" to="ldlo.7596805840595310834" />
+    <move id="f6d6.8155370969620214713" to="ldlo.7596805840595310845" />
+    <move id="f6d6.8155370969620115663" to="ldlo.7596805840595310825" />
+    <move id="f6d6.8155370969620214710" to="ldlo.7596805840595310842" />
+    <move id="f6d6.1024752404813027859" to="ldlo.7596805840595310850" />
+    <move id="f6d6.8155370969620207360" to="ldlo.7596805840595310828" />
+    <move id="4ezj.8155370969619623120" to="qnes.7596805840595310883" />
+    <move id="4ezj.8155370969619623283" to="qnes.7596805840595310861" />
+    <move id="4ezj.8155370969620027971" to="qnes.7596805840595310915" />
+    <move id="4ezj.8155370969619623293" to="qnes.7596805840595310871" />
+    <move id="4ezj.8155370969620027949" to="qnes.7596805840595310886" />
+    <move id="4ezj.8155370969619623294" to="qnes.7596805840595310872" />
+    <move id="4ezj.8155370969620027955" to="qnes.7596805840595310892" />
+    <move id="4ezj.8155370969619623281" to="qnes.7596805840595310859" />
+    <move id="4ezj.8155370969619623282" to="qnes.7596805840595310860" />
+    <move id="4ezj.8155370969620027835" to="qnes.7596805840595310920" />
+    <move id="4ezj.8155370969620027974" to="qnes.7596805840595310918" />
+    <move id="4ezj.8155370969620027967" to="qnes.7596805840595310911" />
+    <move id="4ezj.8155370969620027965" to="qnes.7596805840595310909" />
+    <move id="4ezj.8155370969619623325" to="qnes.7596805840595310878" />
+    <move id="4ezj.8155370969620027973" to="qnes.7596805840595310917" />
+    <move id="4ezj.8155370969619623286" to="qnes.7596805840595310864" />
+    <move id="4ezj.8155370969620027952" to="qnes.7596805840595310889" />
+    <move id="4ezj.8155370969619623295" to="qnes.7596805840595310873" />
+    <move id="4ezj.7596805840592123570" to="qnes.7596805840595310897" />
+    <move id="4ezj.8155370969619623296" to="qnes.7596805840595310874" />
+    <move id="4ezj.8155370969619623279" to="qnes.7596805840595310857" />
+    <move id="4ezj.8155370969619623329" to="qnes.7596805840595310882" />
+    <move id="4ezj.7596805840592105227" to="qnes.7596805840595310900" />
+    <move id="4ezj.8155370969619623290" to="qnes.7596805840595310868" />
+    <move id="4ezj.8155370969619623327" to="qnes.7596805840595310880" />
+    <move id="4ezj.8155370969620027951" to="qnes.7596805840595310888" />
+    <move id="4ezj.8155370969619623288" to="qnes.7596805840595310866" />
+    <move id="4ezj.8155370969620027953" to="qnes.7596805840595310890" />
+    <move id="4ezj.8155370969620027964" to="qnes.7596805840595310908" />
+    <move id="4ezj.8155370969619623121" to="qnes.7596805840595310884" />
+    <move id="4ezj.7596805840592105226" to="qnes.7596805840595310896" />
+    <move id="4ezj.8155370969620027969" to="qnes.7596805840595310913" />
+    <move id="4ezj.8155370969620027963" to="qnes.7596805840595310907" />
+    <move id="4ezj.8155370969620027961" to="qnes.7596805840595310905" />
+    <move id="4ezj.8155370969619623297" to="qnes.7596805840595310875" />
+    <move id="4ezj.8155370969619623119" to="qnes.7596805840595310855" />
+    <move id="4ezj.8155370969620027962" to="qnes.7596805840595310906" />
+    <move id="4ezj.8155370969620027960" to="qnes.7596805840595310904" />
+    <move id="4ezj.8155370969619623278" to="qnes.7596805840595310856" />
+    <move id="4ezj.8155370969620027966" to="qnes.7596805840595310910" />
+    <move id="4ezj.8155370969619623328" to="qnes.7596805840595310881" />
+    <move id="4ezj.8155370969619623285" to="qnes.7596805840595310863" />
+    <move id="4ezj.8155370969620027836" to="qnes.7596805840595310921" />
+    <move id="4ezj.8155370969620027834" to="qnes.7596805840595310885" />
+    <move id="4ezj.8155370969619623287" to="qnes.7596805840595310865" />
+    <move id="4ezj.8155370969619623280" to="qnes.7596805840595310858" />
+    <move id="4ezj.8155370969620027957" to="qnes.7596805840595310901" />
+    <move id="4ezj.8155370969619623292" to="qnes.7596805840595310870" />
+    <move id="4ezj.7596805840592123608" to="qnes.7596805840595310898" />
+    <move id="4ezj.8155370969620027958" to="qnes.7596805840595310902" />
+    <move id="4ezj.8155370969619623326" to="qnes.7596805840595310879" />
+    <move id="4ezj.8155370969619623323" to="qnes.7596805840595310876" />
+    <move id="4ezj.7596805840592105221" to="qnes.7596805840595310895" />
+    <move id="4ezj.8155370969620027950" to="qnes.7596805840595310887" />
+    <move id="4ezj.8155370969619623324" to="qnes.7596805840595310877" />
+    <move id="4ezj.8155370969619623284" to="qnes.7596805840595310862" />
+    <move id="4ezj.8155370969619623289" to="qnes.7596805840595310867" />
+    <move id="4ezj.8155370969620027954" to="qnes.7596805840595310891" />
+    <move id="4ezj.8155370969620027968" to="qnes.7596805840595310912" />
+    <move id="4ezj.7596805840592105220" to="qnes.7596805840595310894" />
+    <move id="4ezj.7596805840592123656" to="qnes.7596805840595310899" />
+    <move id="4ezj.8155370969620027970" to="qnes.7596805840595310914" />
+    <move id="4ezj.8155370969619623291" to="qnes.7596805840595310869" />
+    <move id="4ezj.8155370969620027959" to="qnes.7596805840595310903" />
+    <move id="4ezj.8155370969620027975" to="qnes.7596805840595310919" />
+    <move id="4ezj.8155370969620027972" to="qnes.7596805840595310916" />
+    <move id="4ezj.8155370969620027956" to="qnes.7596805840595310893" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="w2mu" modelUID="r:70790e11-3fe8-4ada-b9dd-391c2c690781(org.campagnelab.nyosh.functions.structure)" version="3" />
+      <model index="qnes" modelUID="r:2f60864f-994c-4413-b324-244fab1c0017(org.campagnelab.nyosh.functions.behavior)" version="2" />
+      <model index="4ezj" modelUID="r:2a3903cf-99a2-4e4b-9216-412f36303d74(org.campagnelab.NYoSh.behavior)" version="7" />
+      <model index="4tvk" modelUID="r:70e37d76-af49-4a32-9523-a01860ff8f1c(org.campagnelab.NYoSh.structure)" version="35" />
+    </dependencies>
+    <move id="4tvk.4897094796210780970" to="w2mu.7596805840596148784" />
+    <move id="4tvk.4897094796212553911" to="w2mu.7596805840596148785" />
+    <move id="4ezj.7596805840596143400" to="qnes.7596805840596148794" />
+    <move id="4ezj.7596805840596143360" to="qnes.7596805840596148793" />
+    <move id="4ezj.7596805840596142879" to="qnes.7596805840596148790" />
+    <move id="4ezj.7596805840596142881" to="qnes.7596805840596148791" />
+    <move id="4ezj.7596805840596142527" to="qnes.7596805840596148787" />
+    <move id="4ezj.7596805840596142528" to="qnes.7596805840596148788" />
+    <move id="4ezj.7596805840596142875" to="qnes.7596805840596148789" />
+    <move id="4ezj.7596805840596142526" to="qnes.7596805840596148786" />
+    <move id="4ezj.7596805840596142882" to="qnes.7596805840596148795" />
+    <move id="4ezj.7596805840596143061" to="qnes.7596805840596148792" />
   </StructureModification>
 </history>
 
