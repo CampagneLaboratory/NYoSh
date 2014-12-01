@@ -1354,7 +1354,7 @@
           <property name="text" nameId="p6sl.1680136183140337487" value=" --tag ${CLASSES_TAG} JAR: &quot;${WORKING_DIR}/" />
         </node>
         <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="7828334301290964021" nodeInfo="ng">
-          <property name="text" nameId="p6sl.1680136183140337487" value="testClasses.jar" />
+          <property name="text" nameId="p6sl.1680136183140337487" value="testClasses.jar&quot;" />
         </node>
         <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="7828334301290964022" nodeInfo="ng">
           <property name="text" nameId="p6sl.1680136183140337487" value="" />
