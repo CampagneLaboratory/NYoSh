@@ -24,9 +24,9 @@
   <import index="dhle" modelUID="r:22d2d7af-29e7-4a54-9633-f2175440f8be(org.campagnelab.feedback.structure)" version="0" implicit="yes" />
   <import index="whle" modelUID="r:8e4fd1b7-1955-43a4-ace6-aaf9d13814f8(org.campagnelab.logger.structure)" version="1" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
-  <import index="tpe3" modelUID="r:00000000-0000-4000-0000-011c895902d7(jetbrains.mps.baseLanguage.unitTest.structure)" version="-1" implicit="yes" />
   <import index="dzk5" modelUID="r:2bfcc546-5c51-4762-9df2-c43920be4458(org.campagnelab.gobyweb.plugins.structure)" version="4" implicit="yes" />
   <import index="935h" modelUID="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" version="30" implicit="yes" />
+  <import index="tpe3" modelUID="r:00000000-0000-4000-0000-011c895902d7(jetbrains.mps.baseLanguage.unitTest.structure)" version="-1" implicit="yes" />
   <root type="czzw.NYoShUsers" typeId="czzw.5865189911928298169" id="3827903497649130398" nodeInfo="ng">
     <node role="users" roleId="czzw.5865189911928367305" type="bs99.NYoShUser" typeId="bs99.5865189911929158310" id="3827903497649130401" nodeInfo="ng">
       <property name="id" nameId="czzw.5865189911928341274" value="gobyweb" />
@@ -19675,6 +19675,66 @@
       <property name="message" nameId="whle.1925991773568778812" value="refresh invoked" />
       <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
     </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1649079607295821597" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value FAKETAG" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1649079607295826996" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value FAKETAG" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1649079607295832345" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Input default value FAKETAG" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.interactive.behavior.IntegerOptionValue_Behavior" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1649079607295939892" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Subscribing the listener to" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.subscribe" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1649079607295939893" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Listener successfully subscribed for notifications about job AWVNNPR" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.subscribe" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1649079607295939894" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Enabling auto refresh" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.enableAutoRefresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1649079607295939895" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="Updater successfully started" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.enableAutoRefresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1649079607295944770" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="refresh invoked" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1649079607295949694" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="refresh invoked" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1649079607295949695" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="reader is null" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1649079607295954573" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="refresh invoked" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1649079607295954574" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="reader is null" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1649079607295965895" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="refresh invoked" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1649079607295965905" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="AWVNNPR" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
+    <node role="messages" roleId="whle.1925991773566712429" type="whle.Message" typeId="whle.1925991773568778810" id="1649079607295965906" nodeInfo="ng">
+      <property name="message" nameId="whle.1925991773568778812" value="#tags found: [AWVNNPR]" />
+      <property name="detailedPresentation" nameId="whle.681402515497888013" value="org.campagnelab.gobyweb.monitoring.behavior.refresh" />
+    </node>
   </root>
   <root type="90kj.TestExecutionEnvironment" typeId="90kj.3827903497649028236" id="8515523077722744524" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="PluginTestExecutionEnvironment" />
@@ -25924,340 +25984,6 @@
       </node>
     </node>
   </root>
-  <root type="90kj.PluginTestSuite" typeId="90kj.1546477733294540654" id="1649079607285634215" nodeInfo="ng">
-    <property name="tagForTestClasses" nameId="90kj.8792472772527950742" value="MHUCIQT" />
-    <property name="name" nameId="tpck.1169194664001" value="TestSuite" />
-    <property name="isInner" nameId="90kj.5399476727397978557" value="false" />
-    <node role="testCases" roleId="90kj.1546477733294663984" type="90kj.PluginTestCaseRef" typeId="90kj.1546477733294663107" id="1649079607285634216" nodeInfo="ng">
-      <link role="testCase" roleId="90kj.1546477733294663108" targetNodeId="1649079607285634214" resolveInfo="TestCase1" />
-    </node>
-    <node role="testCases" roleId="90kj.1546477733294663984" type="90kj.PluginTestCaseRef" typeId="90kj.1546477733294663107" id="1649079607285716530" nodeInfo="ng">
-      <link role="testCase" roleId="90kj.1546477733294663108" targetNodeId="1649079607285716420" resolveInfo="TestCase2" />
-    </node>
-    <node role="testCases" roleId="90kj.1546477733294663984" type="90kj.PluginTestCaseRef" typeId="90kj.1546477733294663107" id="1649079607285717033" nodeInfo="ng">
-      <link role="testCase" roleId="90kj.1546477733294663108" targetNodeId="1649079607285716661" resolveInfo="TestCase3" />
-    </node>
-    <node role="testCases" roleId="90kj.1546477733294663984" type="90kj.PluginTestCaseRef" typeId="90kj.1546477733294663107" id="1649079607285717043" nodeInfo="ng">
-      <link role="testCase" roleId="90kj.1546477733294663108" targetNodeId="1649079607285716894" resolveInfo="TestCase4" />
-    </node>
-  </root>
-  <root type="90kj.PluginTestCase" typeId="90kj.3827903497679865605" id="1649079607285634214" nodeInfo="ng">
-    <property name="disabled" nameId="90kj.689255224958918692" value="false" />
-    <property name="name" nameId="tpck.1169194664001" value="TestCase1" />
-    <node role="wrapperSuite" roleId="90kj.7828334301284657220" type="90kj.PluginTestSuite" typeId="90kj.1546477733294540654" id="1649079607285634217" nodeInfo="ng">
-      <property name="tagForTestClasses" nameId="90kj.8792472772527950742" value="FIPCZYW" />
-      <property name="name" nameId="tpck.1169194664001" value="TestCase1Suite" />
-      <property name="isInner" nameId="90kj.5399476727397978557" value="true" />
-      <node role="testNames" roleId="90kj.7828334301288506820" type="90kj.PluginTestCaseRefByName" typeId="90kj.7828334301288505717" id="1649079607286907139" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="TestCase1" />
-      </node>
-      <node role="postJobMonitor" roleId="90kj.1649079607287362318" type="bbh2.JobMonitor" typeId="bbh2.2017323193335723531" id="1649079607291811339" nodeInfo="ng">
-        <link role="broker" roleId="bbh2.2017323193335950083" targetNodeId="1212232161621136016" resolveInfo="brokerForMonitor" />
-        <node role="viewer" roleId="bbh2.2017323193335764208" type="bbh2.MessageViewer" typeId="bbh2.2017323193335763037" id="1649079607291811340" nodeInfo="ng">
-          <property name="jobStatus" nameId="bbh2.8711817271669511123" value="not available" />
-          <property name="messageCounter" nameId="bbh2.8711817271669613111" value="0" />
-          <property name="message" nameId="bbh2.6041342965312064113" value="no message" />
-          <link role="listener" roleId="bbh2.1526708538680794525" targetNodeId="1649079607291811341" />
-          <link role="eventListener" roleId="bbh2.1212232161626043352" targetNodeId="1649079607291811339" />
-        </node>
-        <node role="listener" roleId="bbh2.2017323193335730758" type="bbh2.MessageListener" typeId="bbh2.2017323193335730757" id="1649079607291811341" nodeInfo="ng">
-          <property name="subscribed" nameId="bbh2.2017323193335803495" value="false" />
-        </node>
-      </node>
-    </node>
-    <node role="configuration" roleId="90kj.3827903497682006055" type="90kj.TestJobConfiguration" typeId="90kj.3827903497681813715" id="1649079607285634218" nodeInfo="ng">
-      <property name="executionCompleted" nameId="bs99.4965834343965555115" value="false" />
-      <property name="name" nameId="tpck.1169194664001" value="ExecutionTool" />
-      <property name="assignedTag" nameId="90kj.1546477733293020042" value="WMQPPHL" />
-      <property name="jobName" nameId="bs99.606449909789338951" value="1" />
-      <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="8515523077722744524" resolveInfo="PluginTestExecutionEnvironment" />
-      <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="1649079607285665334" resolveInfo="PROCESS_READS_TASK" />
-      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="90kj.ListenAndSyncNewFSI" typeId="90kj.3827903497663560969" id="1649079607285634221" nodeInfo="ng">
-        <property name="rank" nameId="bbh2.6587162469552164420" value="99" />
-        <link role="testEnvironment" roleId="90kj.3827903497666661570" targetNodeId="8515523077722744524" resolveInfo="PluginTestExecutionEnvironment" />
-      </node>
-      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ListenForSampleFileSets" typeId="7aad.7926097513313207836" id="1649079607285634219" nodeInfo="ng">
-        <property name="rank" nameId="bbh2.6587162469552164420" value="100" />
-      </node>
-      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ListenForAlignmentFileSets" typeId="7aad.6587162469555572132" id="1649079607285634220" nodeInfo="ng">
-        <property name="rank" nameId="bbh2.6587162469552164420" value="200" />
-      </node>
-      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ListenForAlignmentAnalysisFileSets" typeId="7aad.8524130661366375999" id="1649079607285634223" nodeInfo="ng">
-        <property name="rank" nameId="bbh2.6587162469552164420" value="300" />
-      </node>
-      <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="1649079607285643994" nodeInfo="ng">
-        <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="1649079607285665341" resolveInfo="UPLOADS_FILES" />
-        <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="1649079607285688651" nodeInfo="ng">
-          <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="1546477733289570063" resolveInfo="CFS005-466-D1PRE_S11_L001_R1_001" />
-        </node>
-      </node>
-      <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="1649079607285643995" nodeInfo="ng">
-        <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="1649079607285665343" resolveInfo="UPLOAD_MERGE_PLAN" />
-        <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="1649079607285688653" nodeInfo="ng">
-          <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="1546477733289576083" resolveInfo="merge-plan" />
-        </node>
-      </node>
-      <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="1649079607285643996" nodeInfo="ng">
-        <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="1649079607285665358" resolveInfo="Tag for the new sample." />
-        <node role="value" roleId="bs99.6506431596944968310" type="bs99.StringOptionValue" typeId="bs99.606449909792929476" id="1649079607285644000" nodeInfo="ng">
-          <property name="value" nameId="bs99.606449909792929477" value="FAKETAG" />
-        </node>
-      </node>
-    </node>
-    <node role="script" roleId="90kj.1090105717921230261" type="90kj.TestScript" typeId="90kj.3827903497682417639" id="1649079607285634224" nodeInfo="ng">
-      <node role="body" roleId="90kj.3827903497682417649" type="tpee.StatementList" typeId="tpee.1068580123136" id="1649079607285634225" nodeInfo="sn">
-        <node role="statement" roleId="tpee.1068581517665" type="tpe3.AssertTrue" typeId="tpe3.1171981022339" id="1649079607285689031" nodeInfo="nn">
-          <node role="condition" roleId="tpe3.1171981057159" type="tpee.AndExpression" typeId="tpee.1080120340718" id="1649079607285689745" nodeInfo="nn">
-            <node role="rightExpression" roleId="tpee.1081773367579" type="90kj.AssertIsPublished" typeId="90kj.1546477733295778841" id="1649079607285689816" nodeInfo="ng">
-              <node role="slot" roleId="90kj.1546477733301632958" type="90kj.PluginOutputSlotRef" typeId="90kj.1546477733301229863" id="1649079607285689818" nodeInfo="ng">
-                <link role="ref" roleId="90kj.1546477733301232220" targetNodeId="1649079607285665351" resolveInfo="OUTPUT_STATS" />
-              </node>
-            </node>
-            <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.AndExpression" typeId="tpee.1080120340718" id="1649079607285689060" nodeInfo="nn">
-              <node role="leftExpression" roleId="tpee.1081773367580" type="90kj.AssertIsPublished" typeId="90kj.1546477733295778841" id="1649079607285689035" nodeInfo="ng">
-                <node role="slot" roleId="90kj.1546477733301632958" type="90kj.PluginOutputSlotRef" typeId="90kj.1546477733301229863" id="1649079607285689037" nodeInfo="ng">
-                  <link role="ref" roleId="90kj.1546477733301232220" targetNodeId="1649079607285665345" resolveInfo="COMPACT_READ_FILES" />
-                </node>
-              </node>
-              <node role="rightExpression" roleId="tpee.1081773367579" type="90kj.AssertIsPublished" typeId="90kj.1546477733295778841" id="1649079607285689099" nodeInfo="ng">
-                <node role="slot" roleId="90kj.1546477733301632958" type="90kj.PluginOutputSlotRef" typeId="90kj.1546477733301229863" id="1649079607285689101" nodeInfo="ng">
-                  <link role="ref" roleId="90kj.1546477733301232220" targetNodeId="1649079607285665347" resolveInfo="READ_QUALITY_STATS" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </root>
-  <root type="90kj.PluginTestCase" typeId="90kj.3827903497679865605" id="1649079607285716420" nodeInfo="ng">
-    <property name="disabled" nameId="90kj.689255224958918692" value="false" />
-    <property name="name" nameId="tpck.1169194664001" value="TestCase2" />
-    <node role="wrapperSuite" roleId="90kj.7828334301284657220" type="90kj.PluginTestSuite" typeId="90kj.1546477733294540654" id="1649079607285716421" nodeInfo="ng">
-      <property name="tagForTestClasses" nameId="90kj.8792472772527950742" value="FIPCZYW" />
-      <property name="name" nameId="tpck.1169194664001" value="TestCase2Suite" />
-      <property name="isInner" nameId="90kj.5399476727397978557" value="true" />
-      <node role="testNames" roleId="90kj.7828334301288506820" type="90kj.PluginTestCaseRefByName" typeId="90kj.7828334301288505717" id="1649079607286911834" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="TestCase2" />
-      </node>
-    </node>
-    <node role="configuration" roleId="90kj.3827903497682006055" type="90kj.TestJobConfiguration" typeId="90kj.3827903497681813715" id="1649079607285716423" nodeInfo="ng">
-      <property name="executionCompleted" nameId="bs99.4965834343965555115" value="false" />
-      <property name="name" nameId="tpck.1169194664001" value="ExecutionTool" />
-      <property name="assignedTag" nameId="90kj.1546477733293020042" value="BYXPUCS" />
-      <property name="jobName" nameId="bs99.606449909789338951" value="1" />
-      <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="1649079607285665334" resolveInfo="PROCESS_READS_TASK" />
-      <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="8515523077722744524" resolveInfo="PluginTestExecutionEnvironment" />
-      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="90kj.ListenAndSyncNewFSI" typeId="90kj.3827903497663560969" id="1649079607285716424" nodeInfo="ng">
-        <property name="rank" nameId="bbh2.6587162469552164420" value="99" />
-        <link role="testEnvironment" roleId="90kj.3827903497666661570" targetNodeId="8515523077722744524" resolveInfo="PluginTestExecutionEnvironment" />
-      </node>
-      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ListenForSampleFileSets" typeId="7aad.7926097513313207836" id="1649079607285716425" nodeInfo="ng">
-        <property name="rank" nameId="bbh2.6587162469552164420" value="100" />
-      </node>
-      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ListenForAlignmentFileSets" typeId="7aad.6587162469555572132" id="1649079607285716426" nodeInfo="ng">
-        <property name="rank" nameId="bbh2.6587162469552164420" value="200" />
-      </node>
-      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ListenForAlignmentAnalysisFileSets" typeId="7aad.8524130661366375999" id="1649079607285716427" nodeInfo="ng">
-        <property name="rank" nameId="bbh2.6587162469552164420" value="300" />
-      </node>
-      <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="1649079607285716428" nodeInfo="ng">
-        <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="1649079607285665341" resolveInfo="UPLOADS_FILES" />
-        <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="1649079607285716429" nodeInfo="ng">
-          <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="1546477733289570063" resolveInfo="CFS005-466-D1PRE_S11_L001_R1_001" />
-        </node>
-      </node>
-      <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="1649079607285716430" nodeInfo="ng">
-        <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="1649079607285665343" resolveInfo="UPLOAD_MERGE_PLAN" />
-        <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="1649079607285716431" nodeInfo="ng">
-          <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="1546477733289576083" resolveInfo="merge-plan" />
-        </node>
-      </node>
-      <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="1649079607285716432" nodeInfo="ng">
-        <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="1649079607285665358" resolveInfo="Tag for the new sample." />
-        <node role="value" roleId="bs99.6506431596944968310" type="bs99.StringOptionValue" typeId="bs99.606449909792929476" id="1649079607285716433" nodeInfo="ng">
-          <property name="value" nameId="bs99.606449909792929477" value="FAKETAG" />
-        </node>
-      </node>
-    </node>
-    <node role="script" roleId="90kj.1090105717921230261" type="90kj.TestScript" typeId="90kj.3827903497682417639" id="1649079607285716434" nodeInfo="ng">
-      <node role="body" roleId="90kj.3827903497682417649" type="tpee.StatementList" typeId="tpee.1068580123136" id="1649079607285716435" nodeInfo="sn">
-        <node role="statement" roleId="tpee.1068581517665" type="tpe3.AssertTrue" typeId="tpe3.1171981022339" id="1649079607285716436" nodeInfo="nn">
-          <node role="condition" roleId="tpe3.1171981057159" type="tpee.AndExpression" typeId="tpee.1080120340718" id="1649079607285716437" nodeInfo="nn">
-            <node role="rightExpression" roleId="tpee.1081773367579" type="90kj.AssertIsPublished" typeId="90kj.1546477733295778841" id="1649079607285716438" nodeInfo="ng">
-              <node role="slot" roleId="90kj.1546477733301632958" type="90kj.PluginOutputSlotRef" typeId="90kj.1546477733301229863" id="1649079607285716439" nodeInfo="ng">
-                <link role="ref" roleId="90kj.1546477733301232220" targetNodeId="1649079607285665351" resolveInfo="OUTPUT_STATS" />
-              </node>
-            </node>
-            <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.AndExpression" typeId="tpee.1080120340718" id="1649079607285716440" nodeInfo="nn">
-              <node role="leftExpression" roleId="tpee.1081773367580" type="90kj.AssertIsPublished" typeId="90kj.1546477733295778841" id="1649079607285716441" nodeInfo="ng">
-                <node role="slot" roleId="90kj.1546477733301632958" type="90kj.PluginOutputSlotRef" typeId="90kj.1546477733301229863" id="1649079607285716442" nodeInfo="ng">
-                  <link role="ref" roleId="90kj.1546477733301232220" targetNodeId="1649079607285665345" resolveInfo="COMPACT_READ_FILES" />
-                </node>
-              </node>
-              <node role="rightExpression" roleId="tpee.1081773367579" type="90kj.AssertIsPublished" typeId="90kj.1546477733295778841" id="1649079607285716443" nodeInfo="ng">
-                <node role="slot" roleId="90kj.1546477733301632958" type="90kj.PluginOutputSlotRef" typeId="90kj.1546477733301229863" id="1649079607285716444" nodeInfo="ng">
-                  <link role="ref" roleId="90kj.1546477733301232220" targetNodeId="1649079607285665347" resolveInfo="READ_QUALITY_STATS" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </root>
-  <root type="90kj.PluginTestCase" typeId="90kj.3827903497679865605" id="1649079607285716661" nodeInfo="ng">
-    <property name="disabled" nameId="90kj.689255224958918692" value="true" />
-    <property name="name" nameId="tpck.1169194664001" value="TestCase3" />
-    <node role="wrapperSuite" roleId="90kj.7828334301284657220" type="90kj.PluginTestSuite" typeId="90kj.1546477733294540654" id="1649079607285716662" nodeInfo="ng">
-      <property name="tagForTestClasses" nameId="90kj.8792472772527950742" value="FIPCZYW" />
-      <property name="name" nameId="tpck.1169194664001" value="TestCase3Suite" />
-      <property name="isInner" nameId="90kj.5399476727397978557" value="true" />
-      <node role="testNames" roleId="90kj.7828334301288506820" type="90kj.PluginTestCaseRefByName" typeId="90kj.7828334301288505717" id="1649079607286918344" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="TestCase3" />
-      </node>
-    </node>
-    <node role="configuration" roleId="90kj.3827903497682006055" type="90kj.TestJobConfiguration" typeId="90kj.3827903497681813715" id="1649079607285716664" nodeInfo="ng">
-      <property name="executionCompleted" nameId="bs99.4965834343965555115" value="false" />
-      <property name="name" nameId="tpck.1169194664001" value="ExecutionTool" />
-      <property name="assignedTag" nameId="90kj.1546477733293020042" value="FBIURZL" />
-      <property name="jobName" nameId="bs99.606449909789338951" value="1" />
-      <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="1649079607285665334" resolveInfo="PROCESS_READS_TASK" />
-      <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="8515523077722744524" resolveInfo="PluginTestExecutionEnvironment" />
-      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="90kj.ListenAndSyncNewFSI" typeId="90kj.3827903497663560969" id="1649079607285716665" nodeInfo="ng">
-        <property name="rank" nameId="bbh2.6587162469552164420" value="99" />
-        <link role="testEnvironment" roleId="90kj.3827903497666661570" targetNodeId="8515523077722744524" resolveInfo="PluginTestExecutionEnvironment" />
-      </node>
-      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ListenForSampleFileSets" typeId="7aad.7926097513313207836" id="1649079607285716666" nodeInfo="ng">
-        <property name="rank" nameId="bbh2.6587162469552164420" value="100" />
-      </node>
-      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ListenForAlignmentFileSets" typeId="7aad.6587162469555572132" id="1649079607285716667" nodeInfo="ng">
-        <property name="rank" nameId="bbh2.6587162469552164420" value="200" />
-      </node>
-      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ListenForAlignmentAnalysisFileSets" typeId="7aad.8524130661366375999" id="1649079607285716668" nodeInfo="ng">
-        <property name="rank" nameId="bbh2.6587162469552164420" value="300" />
-      </node>
-      <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="1649079607285716669" nodeInfo="ng">
-        <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="1649079607285665341" resolveInfo="UPLOADS_FILES" />
-        <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="1649079607285716670" nodeInfo="ng">
-          <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="1546477733289570063" resolveInfo="CFS005-466-D1PRE_S11_L001_R1_001" />
-        </node>
-      </node>
-      <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="1649079607285716671" nodeInfo="ng">
-        <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="1649079607285665343" resolveInfo="UPLOAD_MERGE_PLAN" />
-        <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="1649079607285716672" nodeInfo="ng">
-          <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="1546477733289576083" resolveInfo="merge-plan" />
-        </node>
-      </node>
-      <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="1649079607285716673" nodeInfo="ng">
-        <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="1649079607285665358" resolveInfo="Tag for the new sample." />
-        <node role="value" roleId="bs99.6506431596944968310" type="bs99.StringOptionValue" typeId="bs99.606449909792929476" id="1649079607285716674" nodeInfo="ng">
-          <property name="value" nameId="bs99.606449909792929477" value="FAKETAG" />
-        </node>
-      </node>
-    </node>
-    <node role="script" roleId="90kj.1090105717921230261" type="90kj.TestScript" typeId="90kj.3827903497682417639" id="1649079607285716675" nodeInfo="ng">
-      <node role="body" roleId="90kj.3827903497682417649" type="tpee.StatementList" typeId="tpee.1068580123136" id="1649079607285716676" nodeInfo="sn">
-        <node role="statement" roleId="tpee.1068581517665" type="tpe3.AssertTrue" typeId="tpe3.1171981022339" id="1649079607285716677" nodeInfo="nn">
-          <node role="condition" roleId="tpe3.1171981057159" type="tpee.AndExpression" typeId="tpee.1080120340718" id="1649079607285716678" nodeInfo="nn">
-            <node role="rightExpression" roleId="tpee.1081773367579" type="90kj.AssertIsPublished" typeId="90kj.1546477733295778841" id="1649079607285716679" nodeInfo="ng">
-              <node role="slot" roleId="90kj.1546477733301632958" type="90kj.PluginOutputSlotRef" typeId="90kj.1546477733301229863" id="1649079607285716680" nodeInfo="ng">
-                <link role="ref" roleId="90kj.1546477733301232220" targetNodeId="1649079607285665351" resolveInfo="OUTPUT_STATS" />
-              </node>
-            </node>
-            <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.AndExpression" typeId="tpee.1080120340718" id="1649079607285716681" nodeInfo="nn">
-              <node role="leftExpression" roleId="tpee.1081773367580" type="90kj.AssertIsPublished" typeId="90kj.1546477733295778841" id="1649079607285716682" nodeInfo="ng">
-                <node role="slot" roleId="90kj.1546477733301632958" type="90kj.PluginOutputSlotRef" typeId="90kj.1546477733301229863" id="1649079607285716683" nodeInfo="ng">
-                  <link role="ref" roleId="90kj.1546477733301232220" targetNodeId="1649079607285665345" resolveInfo="COMPACT_READ_FILES" />
-                </node>
-              </node>
-              <node role="rightExpression" roleId="tpee.1081773367579" type="90kj.AssertIsPublished" typeId="90kj.1546477733295778841" id="1649079607285716684" nodeInfo="ng">
-                <node role="slot" roleId="90kj.1546477733301632958" type="90kj.PluginOutputSlotRef" typeId="90kj.1546477733301229863" id="1649079607285716685" nodeInfo="ng">
-                  <link role="ref" roleId="90kj.1546477733301232220" targetNodeId="1649079607285665347" resolveInfo="READ_QUALITY_STATS" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </root>
-  <root type="90kj.PluginTestCase" typeId="90kj.3827903497679865605" id="1649079607285716894" nodeInfo="ng">
-    <property name="disabled" nameId="90kj.689255224958918692" value="false" />
-    <property name="name" nameId="tpck.1169194664001" value="TestCase4" />
-    <node role="wrapperSuite" roleId="90kj.7828334301284657220" type="90kj.PluginTestSuite" typeId="90kj.1546477733294540654" id="1649079607285716895" nodeInfo="ng">
-      <property name="tagForTestClasses" nameId="90kj.8792472772527950742" value="FIPCZYW" />
-      <property name="name" nameId="tpck.1169194664001" value="TestCase4Suite" />
-      <property name="isInner" nameId="90kj.5399476727397978557" value="true" />
-      <node role="testNames" roleId="90kj.7828334301288506820" type="90kj.PluginTestCaseRefByName" typeId="90kj.7828334301288505717" id="1649079607286918410" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="TestCase4" />
-      </node>
-    </node>
-    <node role="configuration" roleId="90kj.3827903497682006055" type="90kj.TestJobConfiguration" typeId="90kj.3827903497681813715" id="1649079607285716897" nodeInfo="ng">
-      <property name="executionCompleted" nameId="bs99.4965834343965555115" value="false" />
-      <property name="name" nameId="tpck.1169194664001" value="ExecutionTool" />
-      <property name="assignedTag" nameId="90kj.1546477733293020042" value="TTHETWP" />
-      <property name="jobName" nameId="bs99.606449909789338951" value="1" />
-      <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="8515523077722744524" resolveInfo="PluginTestExecutionEnvironment" />
-      <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="1649079607285665334" resolveInfo="PROCESS_READS_TASK" />
-      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="90kj.ListenAndSyncNewFSI" typeId="90kj.3827903497663560969" id="1649079607285716898" nodeInfo="ng">
-        <property name="rank" nameId="bbh2.6587162469552164420" value="99" />
-        <link role="testEnvironment" roleId="90kj.3827903497666661570" targetNodeId="8515523077722744524" resolveInfo="PluginTestExecutionEnvironment" />
-      </node>
-      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ListenForSampleFileSets" typeId="7aad.7926097513313207836" id="1649079607285716899" nodeInfo="ng">
-        <property name="rank" nameId="bbh2.6587162469552164420" value="100" />
-      </node>
-      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ListenForAlignmentFileSets" typeId="7aad.6587162469555572132" id="1649079607285716900" nodeInfo="ng">
-        <property name="rank" nameId="bbh2.6587162469552164420" value="200" />
-      </node>
-      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ListenForAlignmentAnalysisFileSets" typeId="7aad.8524130661366375999" id="1649079607285716901" nodeInfo="ng">
-        <property name="rank" nameId="bbh2.6587162469552164420" value="300" />
-      </node>
-      <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="1649079607285716902" nodeInfo="ng">
-        <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="1649079607285665341" resolveInfo="UPLOADS_FILES" />
-        <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="1649079607285716903" nodeInfo="ng">
-          <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="1546477733289570063" resolveInfo="CFS005-466-D1PRE_S11_L001_R1_001" />
-        </node>
-      </node>
-      <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="1649079607285716904" nodeInfo="ng">
-        <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="1649079607285665343" resolveInfo="UPLOAD_MERGE_PLAN" />
-        <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="1649079607285716905" nodeInfo="ng">
-          <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="1546477733289576083" resolveInfo="merge-plan" />
-        </node>
-      </node>
-      <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="1649079607285716906" nodeInfo="ng">
-        <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="1649079607285665358" resolveInfo="Tag for the new sample." />
-        <node role="value" roleId="bs99.6506431596944968310" type="bs99.StringOptionValue" typeId="bs99.606449909792929476" id="1649079607285716907" nodeInfo="ng">
-          <property name="value" nameId="bs99.606449909792929477" value="FAKETAG" />
-        </node>
-      </node>
-    </node>
-    <node role="script" roleId="90kj.1090105717921230261" type="90kj.TestScript" typeId="90kj.3827903497682417639" id="1649079607285716908" nodeInfo="ng">
-      <node role="body" roleId="90kj.3827903497682417649" type="tpee.StatementList" typeId="tpee.1068580123136" id="1649079607285716909" nodeInfo="sn">
-        <node role="statement" roleId="tpee.1068581517665" type="tpe3.AssertTrue" typeId="tpe3.1171981022339" id="1649079607285716910" nodeInfo="nn">
-          <node role="condition" roleId="tpe3.1171981057159" type="tpee.AndExpression" typeId="tpee.1080120340718" id="1649079607285716911" nodeInfo="nn">
-            <node role="rightExpression" roleId="tpee.1081773367579" type="90kj.AssertIsPublished" typeId="90kj.1546477733295778841" id="1649079607285716912" nodeInfo="ng">
-              <node role="slot" roleId="90kj.1546477733301632958" type="90kj.PluginOutputSlotRef" typeId="90kj.1546477733301229863" id="1649079607285716913" nodeInfo="ng">
-                <link role="ref" roleId="90kj.1546477733301232220" targetNodeId="1649079607285665351" resolveInfo="OUTPUT_STATS" />
-              </node>
-            </node>
-            <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.AndExpression" typeId="tpee.1080120340718" id="1649079607285716914" nodeInfo="nn">
-              <node role="leftExpression" roleId="tpee.1081773367580" type="90kj.AssertIsPublished" typeId="90kj.1546477733295778841" id="1649079607285716915" nodeInfo="ng">
-                <node role="slot" roleId="90kj.1546477733301632958" type="90kj.PluginOutputSlotRef" typeId="90kj.1546477733301229863" id="1649079607285716916" nodeInfo="ng">
-                  <link role="ref" roleId="90kj.1546477733301232220" targetNodeId="1649079607285665345" resolveInfo="COMPACT_READ_FILES" />
-                </node>
-              </node>
-              <node role="rightExpression" roleId="tpee.1081773367579" type="90kj.AssertIsPublished" typeId="90kj.1546477733295778841" id="1649079607285716917" nodeInfo="ng">
-                <node role="slot" roleId="90kj.1546477733301632958" type="90kj.PluginOutputSlotRef" typeId="90kj.1546477733301229863" id="1649079607285716918" nodeInfo="ng">
-                  <link role="ref" roleId="90kj.1546477733301232220" targetNodeId="1649079607285665347" resolveInfo="READ_QUALITY_STATS" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </root>
   <root type="bbh2.JobMonitorInterface" typeId="bbh2.1212232161612230177" id="1649079607287013990" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="PRNWAQX" />
     <property name="jobtag" nameId="bbh2.1212232161613055501" value="PRNWAQX" />
@@ -26398,30 +26124,395 @@
       </node>
     </node>
   </root>
-  <root type="90kj.PluginTestSuite" typeId="90kj.1546477733294540654" id="1649079607291811363" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="TestSuite2" />
-    <property name="tagForTestClasses" nameId="90kj.8792472772527950742" value="NGZAGEY" />
-    <property name="isInner" nameId="90kj.5399476727397978557" value="false" />
-    <node role="testCases" roleId="90kj.1546477733294663984" type="90kj.PluginTestCaseRef" typeId="90kj.1546477733294663107" id="1649079607291811369" nodeInfo="ng">
-      <link role="testCase" roleId="90kj.1546477733294663108" targetNodeId="1649079607285634214" resolveInfo="TestCase1" />
-    </node>
-    <node role="testCases" roleId="90kj.1546477733294663984" type="90kj.PluginTestCaseRef" typeId="90kj.1546477733294663107" id="1649079607291811375" nodeInfo="ng">
-      <link role="testCase" roleId="90kj.1546477733294663108" targetNodeId="1649079607285716420" resolveInfo="TestCase2" />
-    </node>
-    <node role="testCases" roleId="90kj.1546477733294663984" type="90kj.PluginTestCaseRef" typeId="90kj.1546477733294663107" id="1649079607291811383" nodeInfo="ng">
-      <link role="testCase" roleId="90kj.1546477733294663108" targetNodeId="1649079607285716661" resolveInfo="TestCase3" />
-    </node>
-    <node role="postJobMonitor" roleId="90kj.1649079607287362318" type="bbh2.JobMonitor" typeId="bbh2.2017323193335723531" id="1649079607291811364" nodeInfo="ng">
-      <link role="broker" roleId="bbh2.2017323193335950083" targetNodeId="1212232161621136016" resolveInfo="brokerForMonitor" />
-      <node role="viewer" roleId="bbh2.2017323193335764208" type="bbh2.MessageViewer" typeId="bbh2.2017323193335763037" id="1649079607293192280" nodeInfo="ng">
-        <property name="jobStatus" nameId="bbh2.8711817271669511123" value="not available" />
-        <property name="messageCounter" nameId="bbh2.8711817271669613111" value="0" />
-        <property name="message" nameId="bbh2.6041342965312064113" value="no message" />
-        <link role="listener" roleId="bbh2.1526708538680794525" targetNodeId="1649079607293192281" />
-        <link role="eventListener" roleId="bbh2.1212232161626043352" targetNodeId="1649079607291811364" />
+  <root type="90kj.PluginTestCase" typeId="90kj.3827903497679865605" id="1649079607295767948" nodeInfo="ng">
+    <property name="disabled" nameId="90kj.689255224958918692" value="false" />
+    <property name="name" nameId="tpck.1169194664001" value="Test4" />
+    <node role="wrapperSuite" roleId="90kj.7828334301284657220" type="90kj.PluginTestSuite" typeId="90kj.1546477733294540654" id="1649079607295767950" nodeInfo="ng">
+      <property name="tagForTestClasses" nameId="90kj.8792472772527950742" value="EXQIEEA" />
+      <property name="assignedJobPostTag" nameId="90kj.8792472772533173173" value="UUGYNDD" />
+      <property name="isInner" nameId="90kj.5399476727397978557" value="true" />
+      <property name="name" nameId="tpck.1169194664001" value="Test4Suite" />
+      <node role="postJobMonitor" roleId="90kj.1649079607287362318" type="bbh2.JobMonitor" typeId="bbh2.2017323193335723531" id="1649079607295767951" nodeInfo="ng">
+        <property name="jobtag" nameId="bbh2.2017323193335729124" value="UUGYNDD" />
+        <link role="broker" roleId="bbh2.2017323193335950083" targetNodeId="1212232161621136016" resolveInfo="brokerForMonitor" />
+        <node role="viewer" roleId="bbh2.2017323193335764208" type="bbh2.MessageViewer" typeId="bbh2.2017323193335763037" id="1649079607295767952" nodeInfo="ng">
+          <property name="jobStatus" nameId="bbh2.8711817271669511123" value="not available" />
+          <property name="messageCounter" nameId="bbh2.8711817271669613111" value="0" />
+          <property name="message" nameId="bbh2.6041342965312064113" value="no message" />
+          <link role="listener" roleId="bbh2.1526708538680794525" targetNodeId="1649079607295767953" />
+          <link role="eventListener" roleId="bbh2.1212232161626043352" targetNodeId="1649079607295767951" />
+        </node>
+        <node role="listener" roleId="bbh2.2017323193335730758" type="bbh2.MessageListener" typeId="bbh2.2017323193335730757" id="1649079607295767953" nodeInfo="ng">
+          <property name="subscribed" nameId="bbh2.2017323193335803495" value="false" />
+        </node>
       </node>
-      <node role="listener" roleId="bbh2.2017323193335730758" type="bbh2.MessageListener" typeId="bbh2.2017323193335730757" id="1649079607293192281" nodeInfo="ng">
+      <node role="testNames" roleId="90kj.7828334301288506820" type="90kj.PluginTestCaseRefByName" typeId="90kj.7828334301288505717" id="1649079607295774425" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="Test4" />
+      </node>
+    </node>
+    <node role="configuration" roleId="90kj.3827903497682006055" type="90kj.TestJobConfiguration" typeId="90kj.3827903497681813715" id="1649079607295767954" nodeInfo="ng">
+      <property name="executionCompleted" nameId="bs99.4965834343965555115" value="false" />
+      <property name="name" nameId="tpck.1169194664001" value="ExecutionTool" />
+      <property name="assignedTag" nameId="90kj.1546477733293020042" value="BGVUDNN" />
+      <property name="jobName" nameId="bs99.606449909789338951" value="1" />
+      <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="8515523077722744524" resolveInfo="PluginTestExecutionEnvironment" />
+      <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="1649079607285665334" resolveInfo="PROCESS_READS_TASK" />
+      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="90kj.ListenAndSyncNewFSI" typeId="90kj.3827903497663560969" id="1649079607295767957" nodeInfo="ng">
+        <property name="rank" nameId="bbh2.6587162469552164420" value="99" />
+        <link role="testEnvironment" roleId="90kj.3827903497666661570" targetNodeId="8515523077722744524" resolveInfo="PluginTestExecutionEnvironment" />
+      </node>
+      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ListenForSampleFileSets" typeId="7aad.7926097513313207836" id="1649079607295767955" nodeInfo="ng">
+        <property name="rank" nameId="bbh2.6587162469552164420" value="100" />
+      </node>
+      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ListenForAlignmentFileSets" typeId="7aad.6587162469555572132" id="1649079607295767956" nodeInfo="ng">
+        <property name="rank" nameId="bbh2.6587162469552164420" value="200" />
+      </node>
+      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ListenForAlignmentAnalysisFileSets" typeId="7aad.8524130661366375999" id="1649079607295767959" nodeInfo="ng">
+        <property name="rank" nameId="bbh2.6587162469552164420" value="300" />
+      </node>
+      <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="1649079607295821590" nodeInfo="ng">
+        <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="1649079607285665341" resolveInfo="UPLOADS_FILES" />
+        <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="1649079607295826470" nodeInfo="ng">
+          <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="1546477733289570063" resolveInfo="CFS005-466-D1PRE_S11_L001_R1_001" />
+        </node>
+      </node>
+      <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="1649079607295821591" nodeInfo="ng">
+        <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="1649079607285665343" resolveInfo="UPLOAD_MERGE_PLAN" />
+        <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="1649079607295826472" nodeInfo="ng">
+          <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="1546477733289576083" resolveInfo="merge-plan" />
+        </node>
+      </node>
+      <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="1649079607295821592" nodeInfo="ng">
+        <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="1649079607285665358" resolveInfo="Tag for the new sample." />
+        <node role="value" roleId="bs99.6506431596944968310" type="bs99.StringOptionValue" typeId="bs99.606449909792929476" id="1649079607295821596" nodeInfo="ng">
+          <property name="value" nameId="bs99.606449909792929477" value="FAKETAG" />
+        </node>
+      </node>
+    </node>
+    <node role="script" roleId="90kj.1090105717921230261" type="90kj.TestScript" typeId="90kj.3827903497682417639" id="1649079607295767960" nodeInfo="ng">
+      <node role="body" roleId="90kj.3827903497682417649" type="tpee.StatementList" typeId="tpee.1068580123136" id="1649079607295767961" nodeInfo="sn">
+        <node role="statement" roleId="tpee.1068581517665" type="tpe3.AssertTrue" typeId="tpe3.1171981022339" id="1649079607295826850" nodeInfo="nn">
+          <node role="condition" roleId="tpe3.1171981057159" type="tpee.AndExpression" typeId="tpee.1080120340718" id="1649079607295826880" nodeInfo="nn">
+            <node role="rightExpression" roleId="tpee.1081773367579" type="90kj.AssertIsPublished" typeId="90kj.1546477733295778841" id="1649079607295826919" nodeInfo="ng">
+              <node role="slot" roleId="90kj.1546477733301632958" type="90kj.PluginOutputSlotRef" typeId="90kj.1546477733301229863" id="1649079607295826921" nodeInfo="ng">
+                <link role="ref" roleId="90kj.1546477733301232220" targetNodeId="1649079607285665347" resolveInfo="READ_QUALITY_STATS" />
+              </node>
+            </node>
+            <node role="leftExpression" roleId="tpee.1081773367580" type="90kj.AssertIsPublished" typeId="90kj.1546477733295778841" id="1649079607295826854" nodeInfo="ng">
+              <node role="slot" roleId="90kj.1546477733301632958" type="90kj.PluginOutputSlotRef" typeId="90kj.1546477733301229863" id="1649079607295826856" nodeInfo="ng">
+                <link role="ref" roleId="90kj.1546477733301232220" targetNodeId="1649079607285665345" resolveInfo="COMPACT_READ_FILES" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </root>
+  <root type="90kj.PluginTestSuite" typeId="90kj.1546477733294540654" id="1649079607295826956" nodeInfo="ng">
+    <property name="tagForTestClasses" nameId="90kj.8792472772527950742" value="KRAOLQV" />
+    <property name="assignedJobPostTag" nameId="90kj.8792472772533173173" value="AWVNNPR" />
+    <property name="isInner" nameId="90kj.5399476727397978557" value="false" />
+    <property name="name" nameId="tpck.1169194664001" value="TestSuite" />
+    <node role="postJobMonitor" roleId="90kj.1649079607287362318" type="bbh2.JobMonitor" typeId="bbh2.2017323193335723531" id="1649079607295826957" nodeInfo="ng">
+      <property name="jobtag" nameId="bbh2.2017323193335729124" value="AWVNNPR" />
+      <link role="broker" roleId="bbh2.2017323193335950083" targetNodeId="1212232161621136016" resolveInfo="brokerForMonitor" />
+      <node role="viewer" roleId="bbh2.2017323193335764208" type="bbh2.MessageViewer" typeId="bbh2.2017323193335763037" id="1649079607295826958" nodeInfo="ng">
+        <property name="jobStatus" nameId="bbh2.8711817271669511123" value="completed" />
+        <property name="messageCounter" nameId="bbh2.8711817271669613111" value="11" />
+        <property name="message" nameId="bbh2.6041342965312064113" value="refresh invoked" />
+        <property name="autoRefresh" nameId="bbh2.1011954325398115419" value="false" />
+        <link role="listener" roleId="bbh2.1526708538680794525" targetNodeId="1649079607295826959" resolveInfo="NYoSh-AWVNNPR" />
+        <link role="eventListener" roleId="bbh2.1212232161626043352" targetNodeId="1649079607295826957" />
+        <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="1649079607295944773" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="RUNNING" />
+          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1649079607295944771" nodeInfo="ng">
+            <property name="hostname" nameId="bbh2.2017323193335763100" value="froggy.pbtech" />
+            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
+            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Dec 02 09:55:54 EST 2014" />
+            <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="1649079607295944772" nodeInfo="ng">
+              <property name="text" nameId="bbh2.5540992037655099356" value="Installing mandatory plugin artifacts" />
+            </node>
+          </node>
+          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1649079607295944782" nodeInfo="ng">
+            <property name="hostname" nameId="bbh2.2017323193335763100" value="froggy.pbtech" />
+            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
+            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Dec 02 09:56:00 EST 2014" />
+            <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="1649079607295944783" nodeInfo="ng">
+              <property name="text" nameId="bbh2.5540992037655099356" value="Installing plugin artifacts" />
+            </node>
+          </node>
+        </node>
+        <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="1649079607295944776" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="resources" />
+          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1649079607295944774" nodeInfo="ng">
+            <property name="hostname" nameId="bbh2.2017323193335763100" value="froggy.pbtech" />
+            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
+            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Dec 02 09:55:55 EST 2014" />
+            <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="1649079607295944775" nodeInfo="ng">
+              <property name="text" nameId="bbh2.5540992037655099356" value="Installing plugin mandatory resources" />
+            </node>
+          </node>
+          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1649079607295944777" nodeInfo="ng">
+            <property name="hostname" nameId="bbh2.2017323193335763100" value="froggy.pbtech" />
+            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
+            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Dec 02 09:55:57 EST 2014" />
+            <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="1649079607295944778" nodeInfo="ng">
+              <property name="text" nameId="bbh2.5540992037655099356" value="Expose environment variables for artifacts.." />
+            </node>
+          </node>
+          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1649079607295944784" nodeInfo="ng">
+            <property name="hostname" nameId="bbh2.2017323193335763100" value="froggy.pbtech" />
+            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
+            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Dec 02 09:56:01 EST 2014" />
+            <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="1649079607295944785" nodeInfo="ng">
+              <property name="text" nameId="bbh2.5540992037655099356" value="Installing plugin resources" />
+            </node>
+          </node>
+          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1649079607295944786" nodeInfo="ng">
+            <property name="hostname" nameId="bbh2.2017323193335763100" value="froggy.pbtech" />
+            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
+            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Dec 02 09:56:04 EST 2014" />
+            <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="1649079607295944787" nodeInfo="ng">
+              <property name="text" nameId="bbh2.5540992037655099356" value="Expose environment variables for artifacts.." />
+            </node>
+          </node>
+        </node>
+        <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="1649079607295944781" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="submitted" />
+          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1649079607295944779" nodeInfo="ng">
+            <property name="hostname" nameId="bbh2.2017323193335763100" value="darla.med.cornell.edu" />
+            <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
+            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Dec 02 09:55:59 EST 2014" />
+            <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="1649079607295944780" nodeInfo="ng">
+              <property name="text" nameId="bbh2.5540992037655099356" value="Task submitted: 378426" />
+            </node>
+          </node>
+        </node>
+        <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="1649079607295965901" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="post_process" />
+          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1649079607295965896" nodeInfo="ng">
+            <property name="hostname" nameId="bbh2.2017323193335763100" value="froggy.pbtech" />
+            <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
+            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Dec 02 09:56:35 EST 2014" />
+            <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="1649079607295965897" nodeInfo="ng">
+              <property name="text" nameId="bbh2.5540992037655099356" value="-------------------------------------------------------------------------------" />
+            </node>
+            <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="1649079607295965898" nodeInfo="ng">
+              <property name="text" nameId="bbh2.5540992037655099356" value="Test set: PluginTests.TestSuite" />
+            </node>
+            <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="1649079607295965899" nodeInfo="ng">
+              <property name="text" nameId="bbh2.5540992037655099356" value="-------------------------------------------------------------------------------" />
+            </node>
+            <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="1649079607295965900" nodeInfo="ng">
+              <property name="text" nameId="bbh2.5540992037655099356" value="Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.074 sec - in PluginTests.TestSuite" />
+            </node>
+          </node>
+        </node>
+        <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="1649079607295965904" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="registered_filesets" />
+          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1649079607295965902" nodeInfo="ng">
+            <property name="hostname" nameId="bbh2.2017323193335763100" value="froggy.pbtech" />
+            <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
+            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Dec 02 09:56:38 EST 2014" />
+            <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="1649079607295965903" nodeInfo="ng">
+              <property name="text" nameId="bbh2.5540992037655099356" value="JOB_METADATA:[AWVNNPR]" />
+            </node>
+          </node>
+        </node>
+        <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="1649079607295965909" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="COMPLETED" />
+          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1649079607295965907" nodeInfo="ng">
+            <property name="hostname" nameId="bbh2.2017323193335763100" value="froggy.pbtech" />
+            <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
+            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Dec 02 09:56:39 EST 2014" />
+            <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="1649079607295965908" nodeInfo="ng">
+              <property name="text" nameId="bbh2.5540992037655099356" value="Task completed" />
+            </node>
+          </node>
+        </node>
+        <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="1649079607295965912" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="done" />
+          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1649079607295965910" nodeInfo="ng">
+            <property name="hostname" nameId="bbh2.2017323193335763100" value="froggy.pbtech" />
+            <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
+            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Dec 02 09:56:50 EST 2014" />
+            <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="1649079607295965911" nodeInfo="ng">
+              <property name="text" nameId="bbh2.5540992037655099356" value="Job completed" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="listener" roleId="bbh2.2017323193335730758" type="bbh2.MessageListener" typeId="bbh2.2017323193335730757" id="1649079607295826959" nodeInfo="ng">
         <property name="subscribed" nameId="bbh2.2017323193335803495" value="false" />
+        <property name="jobTag" nameId="bbh2.2017323193335763033" value="AWVNNPR" />
+        <property name="name" nameId="tpck.1169194664001" value="NYoSh-AWVNNPR" />
+        <link role="broker" roleId="bbh2.2017323193335803042" targetNodeId="1212232161621136016" resolveInfo="brokerForMonitor" />
+      </node>
+    </node>
+    <node role="testCases" roleId="90kj.1546477733294663984" type="90kj.PluginTestCaseRef" typeId="90kj.1546477733294663107" id="1649079607295831873" nodeInfo="ng">
+      <link role="testCase" roleId="90kj.1546477733294663108" targetNodeId="1649079607295767948" resolveInfo="Test4" />
+    </node>
+    <node role="testCases" roleId="90kj.1546477733294663984" type="90kj.PluginTestCaseRef" typeId="90kj.1546477733294663107" id="1649079607295826960" nodeInfo="ng">
+      <link role="testCase" roleId="90kj.1546477733294663108" targetNodeId="1649079607295826955" resolveInfo="Test2" />
+    </node>
+    <node role="testCases" roleId="90kj.1546477733294663984" type="90kj.PluginTestCaseRef" typeId="90kj.1546477733294663107" id="1649079607295844038" nodeInfo="ng">
+      <link role="testCase" roleId="90kj.1546477733294663108" targetNodeId="1649079607295832307" resolveInfo="Test3" />
+    </node>
+  </root>
+  <root type="90kj.PluginTestCase" typeId="90kj.3827903497679865605" id="1649079607295826955" nodeInfo="ng">
+    <property name="disabled" nameId="90kj.689255224958918692" value="false" />
+    <property name="name" nameId="tpck.1169194664001" value="Test2" />
+    <node role="wrapperSuite" roleId="90kj.7828334301284657220" type="90kj.PluginTestSuite" typeId="90kj.1546477733294540654" id="1649079607295826961" nodeInfo="ng">
+      <property name="tagForTestClasses" nameId="90kj.8792472772527950742" value="HNLIMQW" />
+      <property name="assignedJobPostTag" nameId="90kj.8792472772533173173" value="WUMFDLS" />
+      <property name="isInner" nameId="90kj.5399476727397978557" value="true" />
+      <property name="name" nameId="tpck.1169194664001" value="Test2Suite" />
+      <node role="postJobMonitor" roleId="90kj.1649079607287362318" type="bbh2.JobMonitor" typeId="bbh2.2017323193335723531" id="1649079607295826962" nodeInfo="ng">
+        <property name="jobtag" nameId="bbh2.2017323193335729124" value="WUMFDLS" />
+        <link role="broker" roleId="bbh2.2017323193335950083" targetNodeId="1212232161621136016" resolveInfo="brokerForMonitor" />
+        <node role="viewer" roleId="bbh2.2017323193335764208" type="bbh2.MessageViewer" typeId="bbh2.2017323193335763037" id="1649079607295826963" nodeInfo="ng">
+          <property name="jobStatus" nameId="bbh2.8711817271669511123" value="not available" />
+          <property name="messageCounter" nameId="bbh2.8711817271669613111" value="0" />
+          <property name="message" nameId="bbh2.6041342965312064113" value="no message" />
+          <link role="listener" roleId="bbh2.1526708538680794525" targetNodeId="1649079607295826964" />
+          <link role="eventListener" roleId="bbh2.1212232161626043352" targetNodeId="1649079607295826962" />
+        </node>
+        <node role="listener" roleId="bbh2.2017323193335730758" type="bbh2.MessageListener" typeId="bbh2.2017323193335730757" id="1649079607295826964" nodeInfo="ng">
+          <property name="subscribed" nameId="bbh2.2017323193335803495" value="false" />
+        </node>
+      </node>
+      <node role="testNames" roleId="90kj.7828334301288506820" type="90kj.PluginTestCaseRefByName" typeId="90kj.7828334301288505717" id="1649079607295826987" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="Test2" />
+      </node>
+    </node>
+    <node role="configuration" roleId="90kj.3827903497682006055" type="90kj.TestJobConfiguration" typeId="90kj.3827903497681813715" id="1649079607295826965" nodeInfo="ng">
+      <property name="executionCompleted" nameId="bs99.4965834343965555115" value="false" />
+      <property name="name" nameId="tpck.1169194664001" value="ExecutionTool" />
+      <property name="assignedTag" nameId="90kj.1546477733293020042" value="AYCEGOJ" />
+      <property name="jobName" nameId="bs99.606449909789338951" value="2" />
+      <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="8515523077722744524" resolveInfo="PluginTestExecutionEnvironment" />
+      <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="1649079607285665334" resolveInfo="PROCESS_READS_TASK" />
+      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="90kj.ListenAndSyncNewFSI" typeId="90kj.3827903497663560969" id="1649079607295826968" nodeInfo="ng">
+        <property name="rank" nameId="bbh2.6587162469552164420" value="99" />
+        <link role="testEnvironment" roleId="90kj.3827903497666661570" targetNodeId="8515523077722744524" resolveInfo="PluginTestExecutionEnvironment" />
+      </node>
+      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ListenForSampleFileSets" typeId="7aad.7926097513313207836" id="1649079607295826966" nodeInfo="ng">
+        <property name="rank" nameId="bbh2.6587162469552164420" value="100" />
+      </node>
+      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ListenForAlignmentFileSets" typeId="7aad.6587162469555572132" id="1649079607295826967" nodeInfo="ng">
+        <property name="rank" nameId="bbh2.6587162469552164420" value="200" />
+      </node>
+      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ListenForAlignmentAnalysisFileSets" typeId="7aad.8524130661366375999" id="1649079607295826970" nodeInfo="ng">
+        <property name="rank" nameId="bbh2.6587162469552164420" value="300" />
+      </node>
+      <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="1649079607295826989" nodeInfo="ng">
+        <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="1649079607285665341" resolveInfo="UPLOADS_FILES" />
+        <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="1649079607295831877" nodeInfo="ng">
+          <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="1546477733289570063" resolveInfo="CFS005-466-D1PRE_S11_L001_R1_001" />
+        </node>
+      </node>
+      <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="1649079607295826990" nodeInfo="ng">
+        <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="1649079607285665343" resolveInfo="UPLOAD_MERGE_PLAN" />
+        <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="1649079607295831879" nodeInfo="ng">
+          <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="1546477733289576083" resolveInfo="merge-plan" />
+        </node>
+      </node>
+      <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="1649079607295826991" nodeInfo="ng">
+        <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="1649079607285665358" resolveInfo="Tag for the new sample." />
+        <node role="value" roleId="bs99.6506431596944968310" type="bs99.StringOptionValue" typeId="bs99.606449909792929476" id="1649079607295826995" nodeInfo="ng">
+          <property name="value" nameId="bs99.606449909792929477" value="GHNDUOP" />
+        </node>
+      </node>
+    </node>
+    <node role="script" roleId="90kj.1090105717921230261" type="90kj.TestScript" typeId="90kj.3827903497682417639" id="1649079607295826971" nodeInfo="ng">
+      <node role="body" roleId="90kj.3827903497682417649" type="tpee.StatementList" typeId="tpee.1068580123136" id="1649079607295826972" nodeInfo="sn">
+        <node role="statement" roleId="tpee.1068581517665" type="tpe3.AssertFalse" typeId="tpe3.1171983834376" id="1649079607295832257" nodeInfo="nn">
+          <node role="condition" roleId="tpe3.1171983854940" type="tpee.NotExpression" typeId="tpee.1081516740877" id="1649079607295832261" nodeInfo="nn">
+            <node role="expression" roleId="tpee.1081516765348" type="90kj.AssertIsPublished" typeId="90kj.1546477733295778841" id="1649079607295832283" nodeInfo="ng">
+              <node role="slot" roleId="90kj.1546477733301632958" type="90kj.PluginOutputSlotRef" typeId="90kj.1546477733301229863" id="1649079607295832285" nodeInfo="ng">
+                <link role="ref" roleId="90kj.1546477733301232220" targetNodeId="1649079607285665351" resolveInfo="OUTPUT_STATS" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </root>
+  <root type="90kj.PluginTestCase" typeId="90kj.3827903497679865605" id="1649079607295832307" nodeInfo="ng">
+    <property name="disabled" nameId="90kj.689255224958918692" value="false" />
+    <property name="name" nameId="tpck.1169194664001" value="Test3" />
+    <node role="wrapperSuite" roleId="90kj.7828334301284657220" type="90kj.PluginTestSuite" typeId="90kj.1546477733294540654" id="1649079607295832309" nodeInfo="ng">
+      <property name="tagForTestClasses" nameId="90kj.8792472772527950742" value="SCMSBHF" />
+      <property name="assignedJobPostTag" nameId="90kj.8792472772533173173" value="CHZQJJM" />
+      <property name="isInner" nameId="90kj.5399476727397978557" value="true" />
+      <property name="name" nameId="tpck.1169194664001" value="Test3Suite" />
+      <node role="postJobMonitor" roleId="90kj.1649079607287362318" type="bbh2.JobMonitor" typeId="bbh2.2017323193335723531" id="1649079607295832310" nodeInfo="ng">
+        <property name="jobtag" nameId="bbh2.2017323193335729124" value="CHZQJJM" />
+        <link role="broker" roleId="bbh2.2017323193335950083" targetNodeId="1212232161621136016" resolveInfo="brokerForMonitor" />
+        <node role="viewer" roleId="bbh2.2017323193335764208" type="bbh2.MessageViewer" typeId="bbh2.2017323193335763037" id="1649079607295832311" nodeInfo="ng">
+          <property name="jobStatus" nameId="bbh2.8711817271669511123" value="not available" />
+          <property name="messageCounter" nameId="bbh2.8711817271669613111" value="0" />
+          <property name="message" nameId="bbh2.6041342965312064113" value="no message" />
+          <link role="listener" roleId="bbh2.1526708538680794525" targetNodeId="1649079607295832312" />
+          <link role="eventListener" roleId="bbh2.1212232161626043352" targetNodeId="1649079607295832310" />
+        </node>
+        <node role="listener" roleId="bbh2.2017323193335730758" type="bbh2.MessageListener" typeId="bbh2.2017323193335730757" id="1649079607295832312" nodeInfo="ng">
+          <property name="subscribed" nameId="bbh2.2017323193335803495" value="false" />
+        </node>
+      </node>
+      <node role="testNames" roleId="90kj.7828334301288506820" type="90kj.PluginTestCaseRefByName" typeId="90kj.7828334301288505717" id="1649079607295832336" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="Test3" />
+      </node>
+    </node>
+    <node role="configuration" roleId="90kj.3827903497682006055" type="90kj.TestJobConfiguration" typeId="90kj.3827903497681813715" id="1649079607295832313" nodeInfo="ng">
+      <property name="executionCompleted" nameId="bs99.4965834343965555115" value="false" />
+      <property name="name" nameId="tpck.1169194664001" value="ExecutionTool" />
+      <property name="assignedTag" nameId="90kj.1546477733293020042" value="TKSFBCZ" />
+      <property name="jobName" nameId="bs99.606449909789338951" value="3" />
+      <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="8515523077722744524" resolveInfo="PluginTestExecutionEnvironment" />
+      <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="1649079607285665334" resolveInfo="PROCESS_READS_TASK" />
+      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="90kj.ListenAndSyncNewFSI" typeId="90kj.3827903497663560969" id="1649079607295832316" nodeInfo="ng">
+        <property name="rank" nameId="bbh2.6587162469552164420" value="99" />
+        <link role="testEnvironment" roleId="90kj.3827903497666661570" targetNodeId="8515523077722744524" resolveInfo="PluginTestExecutionEnvironment" />
+      </node>
+      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ListenForSampleFileSets" typeId="7aad.7926097513313207836" id="1649079607295832314" nodeInfo="ng">
+        <property name="rank" nameId="bbh2.6587162469552164420" value="100" />
+      </node>
+      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ListenForAlignmentFileSets" typeId="7aad.6587162469555572132" id="1649079607295832315" nodeInfo="ng">
+        <property name="rank" nameId="bbh2.6587162469552164420" value="200" />
+      </node>
+      <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ListenForAlignmentAnalysisFileSets" typeId="7aad.8524130661366375999" id="1649079607295832318" nodeInfo="ng">
+        <property name="rank" nameId="bbh2.6587162469552164420" value="300" />
+      </node>
+      <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="1649079607295832338" nodeInfo="ng">
+        <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="1649079607285665341" resolveInfo="UPLOADS_FILES" />
+        <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="1649079607295843630" nodeInfo="ng">
+          <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="1546477733289570063" resolveInfo="CFS005-466-D1PRE_S11_L001_R1_001" />
+        </node>
+      </node>
+      <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="1649079607295832339" nodeInfo="ng">
+        <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="1649079607285665343" resolveInfo="UPLOAD_MERGE_PLAN" />
+        <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="1649079607295843632" nodeInfo="ng">
+          <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="1546477733289576083" resolveInfo="merge-plan" />
+        </node>
+      </node>
+      <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="1649079607295832340" nodeInfo="ng">
+        <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="1649079607285665358" resolveInfo="Tag for the new sample." />
+        <node role="value" roleId="bs99.6506431596944968310" type="bs99.StringOptionValue" typeId="bs99.606449909792929476" id="1649079607295832344" nodeInfo="ng">
+          <property name="value" nameId="bs99.606449909792929477" value="FAKETAG" />
+        </node>
+      </node>
+    </node>
+    <node role="script" roleId="90kj.1090105717921230261" type="90kj.TestScript" typeId="90kj.3827903497682417639" id="1649079607295832319" nodeInfo="ng">
+      <node role="body" roleId="90kj.3827903497682417649" type="tpee.StatementList" typeId="tpee.1068580123136" id="1649079607295832320" nodeInfo="sn">
+        <node role="statement" roleId="tpee.1068581517665" type="tpe3.AssertEquals" typeId="tpe3.1171978097730" id="1649079607295844010" nodeInfo="nn">
+          <node role="expected" roleId="tpe3.8427750732757990724" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="1649079607295844016" nodeInfo="nn">
+            <property name="value" nameId="tpee.1068580320021" value="12" />
+          </node>
+          <node role="actual" roleId="tpe3.8427750732757990725" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="1649079607295844024" nodeInfo="nn">
+            <property name="value" nameId="tpee.1068580320021" value="12" />
+          </node>
+        </node>
       </node>
     </node>
   </root>
