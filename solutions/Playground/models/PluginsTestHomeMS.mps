@@ -33029,19 +33029,21 @@
     </node>
   </root>
   <root type="90kj.PluginTestSuite" typeId="90kj.1546477733294540654" id="6537444325064654533" nodeInfo="ng">
-    <property name="assignedJobPostTag" nameId="90kj.8792472772533173173" value="XFOCSIB" />
-    <property name="name" nameId="tpck.1169194664001" value="TestSuite" />
+    <property name="assignedJobPostTag" nameId="90kj.8792472772533173173" value="BBRAISO" />
+    <property name="name" nameId="tpck.1169194664001" value="TestSuite4" />
     <property name="tagForTestClasses" nameId="90kj.8792472772527950742" value="LOSGNPL" />
     <property name="isInner" nameId="90kj.5399476727397978557" value="false" />
     <node role="postJobMonitor" roleId="90kj.1649079607287362318" type="bbh2.JobMonitor" typeId="bbh2.2017323193335723531" id="6537444325064654534" nodeInfo="ng">
-      <node role="viewer" roleId="bbh2.2017323193335764208" type="bbh2.MessageViewer" typeId="bbh2.2017323193335763037" id="6537444325064654535" nodeInfo="ng">
+      <property name="jobtag" nameId="bbh2.2017323193335729124" value="BBRAISO" />
+      <link role="broker" roleId="bbh2.2017323193335950083" targetNodeId="1070899980259253031" resolveInfo="broker" />
+      <node role="viewer" roleId="bbh2.2017323193335764208" type="bbh2.MessageViewer" typeId="bbh2.2017323193335763037" id="6537444325064672500" nodeInfo="ng">
         <property name="jobStatus" nameId="bbh2.8711817271669511123" value="not available" />
         <property name="messageCounter" nameId="bbh2.8711817271669613111" value="0" />
         <property name="message" nameId="bbh2.6041342965312064113" value="no message" />
-        <link role="listener" roleId="bbh2.1526708538680794525" targetNodeId="6537444325064654536" />
+        <link role="listener" roleId="bbh2.1526708538680794525" targetNodeId="6537444325064672501" />
         <link role="eventListener" roleId="bbh2.1212232161626043352" targetNodeId="6537444325064654534" />
       </node>
-      <node role="listener" roleId="bbh2.2017323193335730758" type="bbh2.MessageListener" typeId="bbh2.2017323193335730757" id="6537444325064654536" nodeInfo="ng">
+      <node role="listener" roleId="bbh2.2017323193335730758" type="bbh2.MessageListener" typeId="bbh2.2017323193335730757" id="6537444325064672501" nodeInfo="ng">
         <property name="subscribed" nameId="bbh2.2017323193335803495" value="false" />
       </node>
     </node>
@@ -33059,14 +33061,15 @@
       <property name="isInner" nameId="90kj.5399476727397978557" value="true" />
       <node role="postJobMonitor" roleId="90kj.1649079607287362318" type="bbh2.JobMonitor" typeId="bbh2.2017323193335723531" id="6537444325064654539" nodeInfo="ng">
         <property name="jobtag" nameId="bbh2.2017323193335729124" value="JKGVNWV" />
-        <node role="viewer" roleId="bbh2.2017323193335764208" type="bbh2.MessageViewer" typeId="bbh2.2017323193335763037" id="6537444325064654540" nodeInfo="ng">
+        <link role="broker" roleId="bbh2.2017323193335950083" targetNodeId="1070899980259253031" resolveInfo="broker" />
+        <node role="viewer" roleId="bbh2.2017323193335764208" type="bbh2.MessageViewer" typeId="bbh2.2017323193335763037" id="6537444325065491423" nodeInfo="ng">
           <property name="jobStatus" nameId="bbh2.8711817271669511123" value="not available" />
           <property name="messageCounter" nameId="bbh2.8711817271669613111" value="0" />
           <property name="message" nameId="bbh2.6041342965312064113" value="no message" />
-          <link role="listener" roleId="bbh2.1526708538680794525" targetNodeId="6537444325064654541" />
+          <link role="listener" roleId="bbh2.1526708538680794525" targetNodeId="6537444325065491424" />
           <link role="eventListener" roleId="bbh2.1212232161626043352" targetNodeId="6537444325064654539" />
         </node>
-        <node role="listener" roleId="bbh2.2017323193335730758" type="bbh2.MessageListener" typeId="bbh2.2017323193335730757" id="6537444325064654541" nodeInfo="ng">
+        <node role="listener" roleId="bbh2.2017323193335730758" type="bbh2.MessageListener" typeId="bbh2.2017323193335730757" id="6537444325065491424" nodeInfo="ng">
           <property name="subscribed" nameId="bbh2.2017323193335803495" value="false" />
         </node>
       </node>
@@ -33077,6 +33080,7 @@
     <node role="configuration" roleId="90kj.3827903497682006055" type="90kj.TestJobConfiguration" typeId="90kj.3827903497681813715" id="6537444325064654542" nodeInfo="ng">
       <property name="executionCompleted" nameId="bs99.4965834343965555115" value="false" />
       <property name="assignedTag" nameId="90kj.1546477733293020042" value="NRNCCYK" />
+      <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="8515523077722744524" resolveInfo="PluginTestExecutionEnvironment" />
       <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ListenForSampleFileSets" typeId="7aad.7926097513313207836" id="6537444325064654543" nodeInfo="ng">
         <property name="rank" nameId="bbh2.6587162469552164420" value="100" />
       </node>
