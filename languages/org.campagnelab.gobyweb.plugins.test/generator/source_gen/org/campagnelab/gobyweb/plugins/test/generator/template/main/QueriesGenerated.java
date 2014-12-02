@@ -45,10 +45,6 @@ public class QueriesGenerated {
     return PluginTestSuite_Behavior.call_atLeastOneCaseEnabled_7828334301283072966(_context.getNode());
   }
 
-  public static boolean baseMappingRule_Condition_7828334301292811079(final BaseMappingRuleContext _context) {
-    return PluginTestSuite_Behavior.call_atLeastOneCaseEnabled_7828334301283072966(_context.getNode());
-  }
-
   public static boolean baseMappingRule_Condition_8322698551200364101(final BaseMappingRuleContext _context) {
     return PluginTestSuite_Behavior.call_atLeastOneCaseEnabled_7828334301283072966(_context.getNode());
   }
@@ -228,14 +224,6 @@ public class QueriesGenerated {
 
   public static Object propertyMacro_GetPropertyValue_8792472772531130608(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), "name") + "-post";
-  }
-
-  public static Object propertyMacro_GetPropertyValue_8792472772533947021(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(_context.getNode(), "name") + "-submit.sh";
-  }
-
-  public static Object propertyMacro_GetPropertyValue_8792472772533947195(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(_context.getNode(), "name") + "-run";
   }
 
   public static Object propertyMacro_GetPropertyValue_689255224959643467(final PropertyMacroContext _context) {
