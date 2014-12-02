@@ -658,7 +658,7 @@
         <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="8792472772528063998" nodeInfo="sn">
           <node role="statement" roleId="tpee.1068581517665" type="tpd4.ReportErrorStatement" typeId="tpd4.1175517767210" id="8792472772528070143" nodeInfo="nn">
             <node role="errorString" roleId="tpd4.1175517851849" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="8792472772528070161" nodeInfo="nn">
-              <property name="value" nameId="tpee.1070475926801" value="Tag can't be null or empty" />
+              <property name="value" nameId="tpee.1070475926801" value="Tag for test classes can't be null or empty" />
             </node>
             <node role="nodeToReport" roleId="tpd4.1227096802790" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="8792472772528070349" nodeInfo="nn">
               <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="8792472772528063445" resolveInfo="pluginTestSuite" />
