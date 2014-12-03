@@ -131,7 +131,7 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_8322698551200448490(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(PluginTestSuite_Behavior.call_getEnvironment_7828334301289838301(_context.getNode()), "jobArea", true), "workingDirectory");
+    return SPropertyOperations.getString(SLinkOperations.getTarget(PluginTestSuite_Behavior.call_getEnvironment_7828334301289838301(_context.getNode()), "jobArea", true), "workingDirectory") + "/tmp";
   }
 
   public static Object propertyMacro_GetPropertyValue_1070899980260969164(final PropertyMacroContext _context) {
