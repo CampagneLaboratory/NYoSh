@@ -175,7 +175,7 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_827915552515297748(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(_context.getNode(), "name") + "-copy";
+    return SPropertyOperations.getString(_context.getNode(), "name") + "-remote-submit";
   }
 
   public static Object propertyMacro_GetPropertyValue_1546477733304743021(final PropertyMacroContext _context) {

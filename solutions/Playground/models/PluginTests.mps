@@ -7579,7 +7579,7 @@
       <link role="testCase" roleId="90kj.1546477733294663108" targetNodeId="1649079607295767948" resolveInfo="Test4" />
     </node>
     <node role="testCases" roleId="90kj.1546477733294663984" type="90kj.PluginTestCaseRef" typeId="90kj.1546477733294663107" id="1649079607295826960" nodeInfo="ng">
-      <link role="testCase" roleId="90kj.1546477733294663108" targetNodeId="1649079607295826955" resolveInfo="Test25454" />
+      <link role="testCase" roleId="90kj.1546477733294663108" targetNodeId="1649079607295826955" resolveInfo="Test2" />
     </node>
     <node role="testCases" roleId="90kj.1546477733294663984" type="90kj.PluginTestCaseRef" typeId="90kj.1546477733294663107" id="1649079607295844038" nodeInfo="ng">
       <link role="testCase" roleId="90kj.1546477733294663108" targetNodeId="1649079607295832307" resolveInfo="Test3" />
@@ -7587,156 +7587,34 @@
   </root>
   <root type="90kj.PluginTestCase" typeId="90kj.3827903497679865605" id="1649079607295826955" nodeInfo="ng">
     <property name="disabled" nameId="90kj.689255224958918692" value="false" />
-    <property name="name" nameId="tpck.1169194664001" value="Test25454" />
+    <property name="name" nameId="tpck.1169194664001" value="Test2" />
     <node role="wrapperSuite" roleId="90kj.7828334301284657220" type="90kj.PluginTestSuite" typeId="90kj.1546477733294540654" id="1649079607295826961" nodeInfo="ng">
       <property name="tagForTestClasses" nameId="90kj.8792472772527950742" value="HNLIMQW" />
-      <property name="assignedJobPostTag" nameId="90kj.8792472772533173173" value="YSAZMAK" />
+      <property name="assignedJobPostTag" nameId="90kj.8792472772533173173" value="SFNUNSR" />
       <property name="isInner" nameId="90kj.5399476727397978557" value="true" />
-      <property name="name" nameId="tpck.1169194664001" value="Test25454Suite" />
+      <property name="name" nameId="tpck.1169194664001" value="Test2Suite" />
       <node role="postJobMonitor" roleId="90kj.1649079607287362318" type="bbh2.JobMonitor" typeId="bbh2.2017323193335723531" id="1649079607295826962" nodeInfo="ng">
-        <property name="jobtag" nameId="bbh2.2017323193335729124" value="YSAZMAK" />
+        <property name="jobtag" nameId="bbh2.2017323193335729124" value="SFNUNSR" />
         <link role="broker" roleId="bbh2.2017323193335950083" targetNodeId="1212232161621136016" resolveInfo="brokerForMonitor" />
-        <node role="viewer" roleId="bbh2.2017323193335764208" type="bbh2.MessageViewer" typeId="bbh2.2017323193335763037" id="3561384459161781190" nodeInfo="ng">
-          <property name="jobStatus" nameId="bbh2.8711817271669511123" value="completed" />
-          <property name="messageCounter" nameId="bbh2.8711817271669613111" value="11" />
-          <property name="message" nameId="bbh2.6041342965312064113" value="refresh invoked" />
-          <property name="autoRefresh" nameId="bbh2.1011954325398115419" value="false" />
-          <link role="listener" roleId="bbh2.1526708538680794525" targetNodeId="3561384459161781191" resolveInfo="NYoSh-YSAZMAK-YOGQJ" />
+        <node role="viewer" roleId="bbh2.2017323193335764208" type="bbh2.MessageViewer" typeId="bbh2.2017323193335763037" id="3561384459163665026" nodeInfo="ng">
+          <property name="jobStatus" nameId="bbh2.8711817271669511123" value="not available" />
+          <property name="messageCounter" nameId="bbh2.8711817271669613111" value="0" />
+          <property name="message" nameId="bbh2.6041342965312064113" value="no message" />
+          <link role="listener" roleId="bbh2.1526708538680794525" targetNodeId="3561384459163665027" />
           <link role="eventListener" roleId="bbh2.1212232161626043352" targetNodeId="1649079607295826962" />
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3561384459161781385" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="submitted" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3561384459161781383" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="darla.med.cornell.edu" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Dec 03 12:39:04 EST 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3561384459161781384" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Task submitted: 378652" />
-              </node>
-            </node>
-          </node>
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3561384459161781388" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="RUNNING" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3561384459161781386" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="jane.pbtech" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Dec 03 12:39:11 EST 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3561384459161781387" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Installing mandatory plugin artifacts" />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3561384459161781394" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="jane.pbtech" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Dec 03 12:39:17 EST 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3561384459161781395" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Installing plugin artifacts" />
-              </node>
-            </node>
-          </node>
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3561384459161781391" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="resources" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3561384459161781389" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="jane.pbtech" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Dec 03 12:39:12 EST 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3561384459161781390" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Installing plugin mandatory resources" />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3561384459161781392" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="jane.pbtech" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Dec 03 12:39:15 EST 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3561384459161781393" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Expose environment variables for artifacts.." />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3561384459161781396" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="jane.pbtech" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Dec 03 12:39:18 EST 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3561384459161781397" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Installing plugin resources" />
-              </node>
-            </node>
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3561384459161781398" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="jane.pbtech" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Dec 03 12:39:20 EST 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3561384459161781399" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Expose environment variables for artifacts.." />
-              </node>
-            </node>
-          </node>
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3561384459161781405" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="post_process" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3561384459161781400" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="jane.pbtech" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Dec 03 12:39:50 EST 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3561384459161781401" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="-------------------------------------------------------------------------------" />
-              </node>
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3561384459161781402" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Test set: PluginTests.Test25454Suite" />
-              </node>
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3561384459161781403" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="-------------------------------------------------------------------------------" />
-              </node>
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3561384459161781404" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.038 sec - in PluginTests.Test25454Suite" />
-              </node>
-            </node>
-          </node>
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3561384459161781408" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="registered_filesets" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3561384459161781406" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="jane.pbtech" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Dec 03 12:39:52 EST 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3561384459161781407" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="JOB_METADATA:[YSAZMAK]" />
-              </node>
-            </node>
-          </node>
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3561384459161781413" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="COMPLETED" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3561384459161781411" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="jane.pbtech" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Dec 03 12:39:54 EST 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3561384459161781412" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Task completed" />
-              </node>
-            </node>
-          </node>
-          <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="3561384459161781416" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="done" />
-            <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="3561384459161781414" nodeInfo="ng">
-              <property name="hostname" nameId="bbh2.2017323193335763100" value="jane.pbtech" />
-              <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-              <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Dec 03 12:40:05 EST 2014" />
-              <node role="lines" roleId="bbh2.5540992037655099238" type="bbh2.Line" typeId="bbh2.5540992037655099355" id="3561384459161781415" nodeInfo="ng">
-                <property name="text" nameId="bbh2.5540992037655099356" value="Job completed" />
-              </node>
-            </node>
-          </node>
         </node>
-        <node role="listener" roleId="bbh2.2017323193335730758" type="bbh2.MessageListener" typeId="bbh2.2017323193335730757" id="3561384459161781191" nodeInfo="ng">
+        <node role="listener" roleId="bbh2.2017323193335730758" type="bbh2.MessageListener" typeId="bbh2.2017323193335730757" id="3561384459163665027" nodeInfo="ng">
           <property name="subscribed" nameId="bbh2.2017323193335803495" value="false" />
-          <property name="jobTag" nameId="bbh2.2017323193335763033" value="YSAZMAK" />
-          <property name="name" nameId="tpck.1169194664001" value="NYoSh-YSAZMAK-YOGQJ" />
-          <link role="broker" roleId="bbh2.2017323193335803042" targetNodeId="1212232161621136016" resolveInfo="brokerForMonitor" />
         </node>
       </node>
-      <node role="testNames" roleId="90kj.7828334301288506820" type="90kj.PluginTestCaseRefByName" typeId="90kj.7828334301288505717" id="1649079607297182482" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="Test25454" />
+      <node role="testNames" roleId="90kj.7828334301288506820" type="90kj.PluginTestCaseRefByName" typeId="90kj.7828334301288505717" id="3561384459163665028" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="Test2" />
       </node>
     </node>
     <node role="configuration" roleId="90kj.3827903497682006055" type="90kj.TestJobConfiguration" typeId="90kj.3827903497681813715" id="1649079607295826965" nodeInfo="ng">
       <property name="executionCompleted" nameId="bs99.4965834343965555115" value="false" />
       <property name="name" nameId="tpck.1169194664001" value="ExecutionTool" />
-      <property name="assignedTag" nameId="90kj.1546477733293020042" value="IOWTUSN" />
+      <property name="assignedTag" nameId="90kj.1546477733293020042" value="HBEGWPG" />
       <property name="jobName" nameId="bs99.606449909789338951" value="2" />
       <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="8515523077722744524" resolveInfo="PluginTestExecutionEnvironment" />
       <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="3561384459161250780" resolveInfo="PROCESS_READS_TASK" />

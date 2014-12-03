@@ -1818,6 +1818,9 @@
             </node>
           </node>
         </node>
+        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="3561384459163047076" nodeInfo="ng">
+          <property name="text" nameId="p6sl.1680136183140337487" value="&quot;" />
+        </node>
         <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="1070899980260967069" nodeInfo="ng">
           <property name="text" nameId="p6sl.1680136183140337487" value="" />
         </node>
@@ -1907,7 +1910,7 @@
           <property name="text" nameId="p6sl.1680136183140337487" value="" />
         </node>
         <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="1070899980260924234" nodeInfo="ng">
-          <property name="text" nameId="p6sl.1680136183140337487" value=" &quot;mkdir -p ${TARGET_PATH}/" />
+          <property name="text" nameId="p6sl.1680136183140337487" value=" &quot;mkdir -p ${TARGET_PATH}/&quot;" />
         </node>
         <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="1070899980260922171" nodeInfo="ng">
           <property name="text" nameId="p6sl.1680136183140337487" value="" />
@@ -1977,7 +1980,7 @@
           </node>
         </node>
         <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="1070899980260974093" nodeInfo="ng">
-          <property name="text" nameId="p6sl.1680136183140337487" value="/" />
+          <property name="text" nameId="p6sl.1680136183140337487" value="/tmp/" />
         </node>
         <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="1070899980260978120" nodeInfo="ng">
           <property name="text" nameId="p6sl.1680136183140337487" value="name" />
@@ -2057,7 +2060,7 @@
           </node>
         </node>
         <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="1070899980260985764" nodeInfo="ng">
-          <property name="text" nameId="p6sl.1680136183140337487" value="/" />
+          <property name="text" nameId="p6sl.1680136183140337487" value="/tmp/" />
         </node>
         <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="1070899980260988759" nodeInfo="ng">
           <property name="text" nameId="p6sl.1680136183140337487" value="name" />
@@ -2188,7 +2191,7 @@
           <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="827915552515297750" nodeInfo="nn">
             <node role="expression" roleId="tpee.1068580123156" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="827915552515297751" nodeInfo="nn">
               <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="827915552515297752" nodeInfo="nn">
-                <property name="value" nameId="tpee.1070475926801" value="-copy" />
+                <property name="value" nameId="tpee.1070475926801" value="-remote-submit" />
               </node>
               <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="827915552515297753" nodeInfo="nn">
                 <node role="operand" roleId="tpee.1197027771414" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="827915552515297754" nodeInfo="nn" />
