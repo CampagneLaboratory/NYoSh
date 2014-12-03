@@ -175,7 +175,8 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_827915552515297748(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(_context.getNode(), "name") + "-remote-submit";
+    String primaryExt = (PluginTestSuite_Behavior.call_isInnerSuite_5399476727398371499(_context.getNode()) ? "inn" : "ext");
+    return SPropertyOperations.getString(_context.getNode(), "name") + "-remote-submit." + primaryExt;
   }
 
   public static Object propertyMacro_GetPropertyValue_1546477733304743021(final PropertyMacroContext _context) {
@@ -196,34 +197,6 @@ public class QueriesGenerated {
 
   public static Object propertyMacro_GetPropertyValue_1546477733302961409(final PropertyMacroContext _context) {
     return SPropertyOperations.getInteger(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(SNodeOperations.getAncestor(_context.getNode(), "org.campagnelab.gobyweb.plugins.test.structure.PluginTestCase", false, false), "configuration", true), "executionEnvironment", false), "jobArea", true), "brokerPortForJobs", false), "number");
-  }
-
-  public static Object propertyMacro_GetPropertyValue_8792472772531130344(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SNodeOperations.cast(SLinkOperations.getTarget(PluginTestSuite_Behavior.call_getEnvironment_7828334301289838301(_context.getNode()), "jobArea", true), "org.campagnelab.gobyweb.plugins.test.structure.JobAreaWithSDK"), "SDKDirectory");
-  }
-
-  public static Object propertyMacro_GetPropertyValue_8792472772531130386(final PropertyMacroContext _context) {
-    return BehaviorReflection.invokeVirtual(String.class, SNodeOperations.cast(SLinkOperations.getTarget(PluginTestSuite_Behavior.call_getEnvironment_7828334301289838301(_context.getNode()), "pluginRepository", true), "org.campagnelab.gobyweb.interactive.structure.DualPluginRepository"), "virtual_getRemotePluginRepoPath_6985991452103701097", new Object[]{});
-  }
-
-  public static Object propertyMacro_GetPropertyValue_8792472772531130452(final PropertyMacroContext _context) {
-    return DualFileSetArea_Behavior.call_getRemoteReference_2726670175338878707(SNodeOperations.cast(SLinkOperations.getTarget(PluginTestSuite_Behavior.call_getEnvironment_7828334301289838301(_context.getNode()), "filesetArea", true), "org.campagnelab.gobyweb.plugins.test.structure.DualFileSetArea"));
-  }
-
-  public static Object propertyMacro_GetPropertyValue_7828334301290772085(final PropertyMacroContext _context) {
-    return ICBStringUtils.generateRandomString(7);
-  }
-
-  public static Object propertyMacro_GetPropertyValue_7828334301290786974(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(PluginTestSuite_Behavior.call_getEnvironment_7828334301289838301(_context.getNode()), "owner", false), "id");
-  }
-
-  public static Object propertyMacro_GetPropertyValue_7828334301290797395(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(PluginTestSuite_Behavior.call_getEnvironment_7828334301289838301(_context.getNode()), "owner", false), "id");
-  }
-
-  public static Object propertyMacro_GetPropertyValue_8792472772531130608(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(_context.getNode(), "name") + "-post";
   }
 
   public static Object propertyMacro_GetPropertyValue_689255224959643467(final PropertyMacroContext _context) {
