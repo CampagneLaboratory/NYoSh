@@ -2,6 +2,7 @@
 # 1) path of the local installation of the plugins SDK
 # 2) path of the local GobyWeb Plugin Repository
 # 3) path of the local or remote FileSet Area
+# 4) path where to copy back the test reults
 
  
 #this function extracts the name of the path from the fileset area reference 
@@ -103,6 +104,14 @@ else
   SUBMISSION_FILESET_AREA="${FILESET_AREA}"
 fi
 
+if [ "$1" == "copy-back-location:" ]; then 
+   shift
+   COPY_BACK_LOCATION_OPTION="COPY_BACK_LOCATION: $1"
+   shift
+else
+   COPY_BACK_LOCATION_OPTION=""
+fi 
+
 
 #SUBMIT JOB FOR TEST-CASE Test2
 job_arguments="--plugins-dir ${PLUGINS_DIR} --job PROCESS_READS_TASK --job-tag HBEGWPG --owner gobyweb --queue rascals.q --job-area gobyweb@darla.med.cornell.edu:/zenodotus/campagnelab/scratch/data/gobyweb/trial/GOBYWEB_SGE_JOBS/ --fileset-area ${FILESET_AREA} --repository /scratchLocal/gobyweb/ARTIFACT_REPOSITORY-NYoSh/ --artifact-server gobyweb@darla.med.cornell.edu:/zenodotus/campagnelab/scratch/data/gobyweb/test/gobyweb2-plugins --broker-hostname toulouse.qib.pbtech --broker-port 5672 --TAG GHNDUOP UPLOADS_FILES: ZAKCWFX UPLOAD_MERGE_PLAN: YDVIMWK "
@@ -111,7 +120,7 @@ plugins-submit-job $@ ${job_arguments}
 
 
 #SUBMIT POST JOB
-CLASSES_TAG=HJXNEGO
+CLASSES_TAG=BVUREME
 clean_tag ${FILESET_AREA_PARAM} gobyweb ${CLASSES_TAG:0:1}/${CLASSES_TAG}
 
 WORKING_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
@@ -119,7 +128,7 @@ plugins-register-fileset --fileset-area ${FILESET_AREA_PARAM} --plugins-dir ${PL
 
 job_arguments="--plugins-dir ${PLUGINS_DIR} --job GOBYWEB_PLUGIN_TEST_RUNNER --job-tag SFNUNSR --owner gobyweb --queue rascals.q --job-area gobyweb@darla.med.cornell.edu:/zenodotus/campagnelab/scratch/data/gobyweb/trial/GOBYWEB_SGE_JOBS/ --fileset-area ${FILESET_AREA} --repository /scratchLocal/gobyweb/ARTIFACT_REPOSITORY-NYoSh/ --artifact-server gobyweb@darla.med.cornell.edu:/zenodotus/campagnelab/scratch/data/gobyweb/test/gobyweb2-plugins --broker-hostname toulouse.qib.pbtech --broker-port 5672 --TEST_NAMES Test2Suite "
 clean_tag gobyweb@darla.med.cornell.edu:/zenodotus/campagnelab/scratch/data/gobyweb/trial/GOBYWEB_SGE_JOBS/ gobyweb S/SFNUNSR
-plugins-submit-job ${job_arguments} --depend-on HBEGWPG TEST_CLASSES: ${CLASSES_TAG}
+plugins-submit-job ${job_arguments} --depend-on HBEGWPG TEST_CLASSES: ${CLASSES_TAG} ${COPY_BACK_LOCATION_OPTION}
 
 
 
