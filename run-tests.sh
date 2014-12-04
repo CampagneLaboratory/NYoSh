@@ -7,7 +7,7 @@ do
      file=$(basename "$fullfile")
      cd "${dir}"
      echo "Submitting test ${file}"
-     /bin/bash "${file}" copy-back-location: "${COPY_BACK_LOCATION}"
+     /bin/bash "${file}" copy-back-location: "$USER@$HOSTNAME:${COPY_BACK_LOCATION}"
      echo "Submission completed for ${file}."
      cd "${WORKING_DIR}"
 done
