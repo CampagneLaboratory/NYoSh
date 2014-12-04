@@ -1,6 +1,6 @@
 
 WORKING_DIR=`pwd`
-for fullfile in $(find ./solutions/*/classes_gen -name "*-copy.sh" -print);
+for fullfile in $(find ./solutions/*/classes_gen -name "*-remote-submit.ext.sh" -print);
 do
      dir=$(dirname "${fullfile}")
      file=$(basename "$fullfile")
