@@ -130,7 +130,7 @@ plugins-submit-job $@ ${job_arguments}
 
 
 #SUBMIT POST JOB
-CLASSES_TAG=DKXHPHH
+CLASSES_TAG=UHKRAUW
 clean_tag ${FILESET_AREA_PARAM} gobyweb ${CLASSES_TAG:0:1}/${CLASSES_TAG}
 
 WORKING_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
