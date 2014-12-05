@@ -11,3 +11,9 @@ do
      echo "Submission completed for ${file}."
      cd "${WORKING_DIR}"
 done
+
+#wait until the plugins reports are copied back from the GOBYWEB_PLUGIN_TEST_RUNNER task
+while [ ! -f "${COPY_BACK_LOCATION}/plugins-reports "] ;
+do
+      sleep 10
+done
