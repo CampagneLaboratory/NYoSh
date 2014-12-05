@@ -106,7 +106,7 @@ fi
 
 if [ "$1" == "copy-back-location:" ]; then 
    shift
-   COPY_BACK_LOCATION_OPTION="COPY_BACK_LOCATION: $1"
+   COPY_BACK_LOCATION_OPTION="--COPY_BACK_LOCATION $1"
    shift
 else
    COPY_BACK_LOCATION_OPTION=""
@@ -120,7 +120,7 @@ plugins-submit-job $@ ${job_arguments}
 
 
 #SUBMIT POST JOB
-CLASSES_TAG=TTUNCJA
+CLASSES_TAG=NLBYHQD
 clean_tag ${FILESET_AREA_PARAM} gobyweb ${CLASSES_TAG:0:1}/${CLASSES_TAG}
 
 WORKING_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
@@ -128,7 +128,7 @@ plugins-register-fileset --fileset-area ${FILESET_AREA_PARAM} --plugins-dir ${PL
 
 job_arguments="--plugins-dir ${PLUGINS_DIR} --job GOBYWEB_PLUGIN_TEST_RUNNER --job-tag UUGYNDD --owner gobyweb --queue rascals.q --job-area gobyweb@darla.med.cornell.edu:/zenodotus/campagnelab/scratch/data/gobyweb/trial/GOBYWEB_SGE_JOBS/ --fileset-area ${FILESET_AREA} --repository /scratchLocal/gobyweb/ARTIFACT_REPOSITORY-NYoSh/ --artifact-server gobyweb@darla.med.cornell.edu:/zenodotus/campagnelab/scratch/data/gobyweb/test/gobyweb2-plugins --broker-hostname toulouse.qib.pbtech --broker-port 5672 --TEST_NAMES Test4Suite "
 clean_tag gobyweb@darla.med.cornell.edu:/zenodotus/campagnelab/scratch/data/gobyweb/trial/GOBYWEB_SGE_JOBS/ gobyweb U/UUGYNDD
-plugins-submit-job ${job_arguments} --depend-on BGVUDNN TEST_CLASSES: ${CLASSES_TAG} ${COPY_BACK_LOCATION_OPTION}
+plugins-submit-job ${job_arguments} --depend-on BGVUDNN ${COPY_BACK_LOCATION_OPTION} TEST_CLASSES: ${CLASSES_TAG} 
 
 
 
