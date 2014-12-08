@@ -150,5 +150,11 @@
     </dependencies>
     <rename id="90kj.1649079607287362318" type="CHILD" from="Jo" to="postJobMonitor" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="90kj" modelUID="r:397eee62-00ff-4904-afbb-029e2b9cd1db(org.campagnelab.gobyweb.plugins.test.structure)" version="24" />
+    </dependencies>
+    <rename id="90kj.6537444325066477723" type="CONCEPT" from="GetAllErrorMessages" to="HasErrors" />
+  </StructureModification>
 </history>
 

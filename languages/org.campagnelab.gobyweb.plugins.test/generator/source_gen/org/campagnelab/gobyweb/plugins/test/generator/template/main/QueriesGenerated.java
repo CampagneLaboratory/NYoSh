@@ -203,6 +203,10 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(_context.getNode(), "name");
   }
 
+  public static Object propertyMacro_GetPropertyValue_6537444325066634677(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "message");
+  }
+
   public static SNode sourceNodeQuery_1546477733303134410(final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "body", true);
   }
