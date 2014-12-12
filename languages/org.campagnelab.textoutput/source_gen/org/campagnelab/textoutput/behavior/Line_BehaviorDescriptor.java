@@ -8,11 +8,9 @@ import org.jetbrains.mps.openapi.model.SNode;
 public class Line_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor {
   public Line_BehaviorDescriptor() {
   }
-
   public void virtual_deconvoluteLines_4239459373915862301(SNode thisNode) {
     Line_Behavior.virtual_deconvoluteLines_4239459373915862301(thisNode);
   }
-
   @Override
   public String getConceptFqName() {
     return "org.campagnelab.textoutput.structure.Line";

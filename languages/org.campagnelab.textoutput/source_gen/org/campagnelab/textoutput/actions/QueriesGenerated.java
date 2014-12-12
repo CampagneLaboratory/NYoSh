@@ -5,33 +5,32 @@ package org.campagnelab.textoutput.actions;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.smodel.action.NodeSetupContext;
 import jetbrains.mps.smodel.action.SNodeFactoryOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 import org.campagnelab.textoutput.behavior.Line_Behavior;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class QueriesGenerated {
   public static void nodeFactory_NodeSetup_TextOutput_5493669862520043132(final IOperationContext operationContext, final NodeSetupContext _context) {
-    SNodeFactoryOperations.addNewChild(_context.getNewNode(), "lineContainer", "org.campagnelab.textoutput.structure.Lines");
+    SNodeFactoryOperations.addNewChild(_context.getNewNode(), MetaAdapterFactory.getContainmentLink(new UUID(-8061622605524284386l, -4874474233542072140l), 6874736155931251147l, 5039633819243297498l, "lineContainer"), SNodeFactoryOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(-8061622605524284386l, -4874474233542072140l), 5039633819242576787l, "org.campagnelab.textoutput.structure.Lines")));
   }
-
   public static void nodeFactory_NodeSetup_Lines_5039633819242645705(final IOperationContext operationContext, final NodeSetupContext _context) {
     Line_Behavior.call_normalize_2806205325594058140(_context.getNewNode());
-    ListSequence.fromList(SLinkOperations.getTargets(_context.getNewNode(), "lines", true)).addElement(SNodeFactoryOperations.createNewNode("org.campagnelab.textoutput.structure.Line", null));
+    ListSequence.fromList(SLinkOperations.getChildren(_context.getNewNode(), MetaAdapterFactory.getContainmentLink(new UUID(-8061622605524284386l, -4874474233542072140l), 5039633819242576787l, 5039633819242576854l, "lines"))).addElement(SNodeFactoryOperations.createNewNode(SNodeFactoryOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(-8061622605524284386l, -4874474233542072140l), 5493669862519709805l, "org.campagnelab.textoutput.structure.Line")), null));
   }
-
   public static void nodeFactory_NodeSetup_Line_1680136183140358394(final IOperationContext operationContext, final NodeSetupContext _context) {
     Line_Behavior.call_normalize_2806205325594058140(_context.getNewNode());
-    SNodeFactoryOperations.addNewChild(_context.getNewNode(), "phrases", "org.campagnelab.textoutput.structure.Phrase");
+    SNodeFactoryOperations.addNewChild(_context.getNewNode(), MetaAdapterFactory.getContainmentLink(new UUID(-8061622605524284386l, -4874474233542072140l), 5493669862519709805l, 1680136183140337477l, "phrases"), SNodeFactoryOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(-8061622605524284386l, -4874474233542072140l), 1680136183140337486l, "org.campagnelab.textoutput.structure.Phrase")));
   }
-
   public static void nodeFactory_NodeSetup_Phrase_4279449414583385965(final IOperationContext operationContext, final NodeSetupContext _context) {
-    SNode newLine = SConceptOperations.createNewNode("org.campagnelab.textoutput.structure.Line", null);
-    SPropertyOperations.set(newLine, "text", "newLine");
-    SNodeOperations.insertNextSiblingChild(SNodeOperations.getAncestor(_context.getNewNode(), "org.campagnelab.textoutput.structure.Line", false, false), newLine);
+    SNode newLine = SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(-8061622605524284386l, -4874474233542072140l), 5493669862519709805l, "org.campagnelab.textoutput.structure.Line")));
+    SPropertyOperations.set(newLine, MetaAdapterFactory.getProperty(new UUID(-8061622605524284386l, -4874474233542072140l), 5493669862519709805l, 5493669862519718600l, "text"), "newLine");
+    SNodeOperations.insertNextSiblingChild(SNodeOperations.getNodeAncestor(_context.getNewNode(), MetaAdapterFactory.getConcept(new UUID(-8061622605524284386l, -4874474233542072140l), 5493669862519709805l, "org.campagnelab.textoutput.structure.Line"), false, false), newLine);
     SNodeOperations.detachNode(_context.getNewNode());
   }
 }

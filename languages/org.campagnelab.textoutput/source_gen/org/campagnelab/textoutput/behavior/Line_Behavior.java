@@ -4,52 +4,39 @@ package org.campagnelab.textoutput.behavior;
 
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.smodel.behaviour.BehaviorReflection;
-import jetbrains.mps.smodel.behaviour.BehaviorManager;
 
 public class Line_Behavior {
   public static void init(SNode thisNode) {
-    SPropertyOperations.set(thisNode, "text", "");
+    SPropertyOperations.set(thisNode, MetaAdapterFactory.getProperty(new UUID(-8061622605524284386l, -4874474233542072140l), 5493669862519709805l, 5493669862519718600l, "text"), "");
   }
-
   public static void virtual_deconvoluteLines_4239459373915862301(SNode thisNode) {
-    String text = SPropertyOperations.getString(thisNode, "text");
+    String text = SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(new UUID(-8061622605524284386l, -4874474233542072140l), 5493669862519709805l, 5493669862519718600l, "text"));
     if (text.contains("\\n")) {
       String[] subLines = text.split("\\\\n");
-      SNode lines = SConceptOperations.createNewNode("org.campagnelab.textoutput.structure.Lines", null);
+      SNode lines = SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(-8061622605524284386l, -4874474233542072140l), 5039633819242576787l, "org.campagnelab.textoutput.structure.Lines")));
       for (String subline : subLines) {
-        SNode newLine = SConceptOperations.createNewNode("org.campagnelab.textoutput.structure.Line", null);
-        SPropertyOperations.set(newLine, "text", subline);
-        ListSequence.fromList(SLinkOperations.getTargets(lines, "lines", true)).addElement(newLine);
+        SNode newLine = SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(-8061622605524284386l, -4874474233542072140l), 5493669862519709805l, "org.campagnelab.textoutput.structure.Line")));
+        SPropertyOperations.set(newLine, MetaAdapterFactory.getProperty(new UUID(-8061622605524284386l, -4874474233542072140l), 5493669862519709805l, 5493669862519718600l, "text"), subline);
+        ListSequence.fromList(SLinkOperations.getChildren(lines, MetaAdapterFactory.getContainmentLink(new UUID(-8061622605524284386l, -4874474233542072140l), 5039633819242576787l, 5039633819242576854l, "lines"))).addElement(newLine);
       }
-      SPropertyOperations.set(thisNode, "text", "");
+      SPropertyOperations.set(thisNode, MetaAdapterFactory.getProperty(new UUID(-8061622605524284386l, -4874474233542072140l), 5493669862519709805l, 5493669862519718600l, "text"), "");
       SNodeOperations.insertPrevSiblingChild(thisNode, lines);
     }
   }
-
   public static void call_normalize_2806205325594058140(SNode thisNode) {
-    if (isNotEmptyString(SPropertyOperations.getString(thisNode, "text"))) {
-      SNode newPhrase = SConceptOperations.createNewNode("org.campagnelab.textoutput.structure.Phrase", null);
-      SPropertyOperations.set(newPhrase, "text", SPropertyOperations.getString(thisNode, "text"));
-      ListSequence.fromList(SLinkOperations.getTargets(thisNode, "phrases", true)).insertElement(0, newPhrase);
-      SPropertyOperations.set(thisNode, "text", "");
+    if (isNotEmptyString(SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(new UUID(-8061622605524284386l, -4874474233542072140l), 5493669862519709805l, 5493669862519718600l, "text")))) {
+      SNode newPhrase = SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(-8061622605524284386l, -4874474233542072140l), 1680136183140337486l, "org.campagnelab.textoutput.structure.Phrase")));
+      SPropertyOperations.set(newPhrase, MetaAdapterFactory.getProperty(new UUID(-8061622605524284386l, -4874474233542072140l), 1680136183140337486l, 1680136183140337487l, "text"), SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(new UUID(-8061622605524284386l, -4874474233542072140l), 5493669862519709805l, 5493669862519718600l, "text")));
+      ListSequence.fromList(SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(-8061622605524284386l, -4874474233542072140l), 5493669862519709805l, 1680136183140337477l, "phrases"))).insertElement(0, newPhrase);
+      SPropertyOperations.set(thisNode, MetaAdapterFactory.getProperty(new UUID(-8061622605524284386l, -4874474233542072140l), 5493669862519709805l, 5493669862519718600l, "text"), "");
     }
   }
-
-  @Deprecated
-  public static void call_deconvoluteLines_4239459373915862301(SNode thisNode) {
-    BehaviorReflection.invokeVirtual(Void.class, thisNode, "virtual_deconvoluteLines_4239459373915862301", new Object[]{});
-  }
-
-  @Deprecated
-  public static void callSuper_deconvoluteLines_4239459373915862301(SNode thisNode, String callerConceptFqName) {
-    BehaviorManager.getInstance().invokeSuper(Void.class, SNodeOperations.cast(thisNode, "org.campagnelab.textoutput.structure.Line"), callerConceptFqName, "virtual_deconvoluteLines_4239459373915862301", new Class[]{SNode.class}, new Object[]{});
-  }
-
   private static boolean isNotEmptyString(String str) {
     return str != null && str.length() > 0;
   }

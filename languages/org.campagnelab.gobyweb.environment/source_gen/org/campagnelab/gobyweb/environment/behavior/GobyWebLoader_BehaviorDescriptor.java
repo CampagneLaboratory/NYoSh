@@ -7,7 +7,6 @@ import org.campagnelab.nyosh.environment.behavior.Loader_BehaviorDescriptor;
 public class GobyWebLoader_BehaviorDescriptor extends Loader_BehaviorDescriptor {
   public GobyWebLoader_BehaviorDescriptor() {
   }
-
   @Override
   public String getConceptFqName() {
     return "org.campagnelab.gobyweb.environment.structure.GobyWebLoader";

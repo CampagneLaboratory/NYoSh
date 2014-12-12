@@ -4,20 +4,22 @@ package org.campagnelab.NYoSh.generator.template.HelperCode;
 
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class HelperCode {
 
-
   /**
    * Determine if the _steps global declaration has been generated yet. 
    */
   public static boolean isStepsDeclaredYet(SNode node) {
-    return (SNodeOperations.getAncestor(node, "jetbrains.mps.baseLanguage.structure.ClassConcept", false, false) != null) && ListSequence.fromList(SNodeOperations.getDescendants(SNodeOperations.getAncestor(node, "jetbrains.mps.baseLanguage.structure.ClassConcept", false, false), "jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration", false, new String[]{})).where(new IWhereFilter<SNode>() {
+    return (SNodeOperations.getNodeAncestor(node, MetaAdapterFactory.getConcept(new UUID(-935030926396207931l, -6610165693999523818l), 1068390468198l, "jetbrains.mps.baseLanguage.structure.ClassConcept"), false, false) != null) && ListSequence.fromList(SNodeOperations.getNodeDescendants(SNodeOperations.getNodeAncestor(node, MetaAdapterFactory.getConcept(new UUID(-935030926396207931l, -6610165693999523818l), 1068390468198l, "jetbrains.mps.baseLanguage.structure.ClassConcept"), false, false), MetaAdapterFactory.getConcept(new UUID(-935030926396207931l, -6610165693999523818l), 1081236700938l, "jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration"), false, new SAbstractConcept[]{})).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
-        return SPropertyOperations.getString(it, "name").equals("_steps");
+        return SPropertyOperations.getString(it, MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name")).equals("_steps");
       }
     }).isNotEmpty();
   }

@@ -26,7 +26,7 @@
   </root>
   <root type="4tvk.ErrorHandler" typeId="4tvk.8594065538792360952" id="2149979023199564155" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="DoSomething" />
-    <node role="handlerFunction" roleId="4tvk.8594065538792617639" type="w2mu.ConceptFunction_ProcessExceptionBlock" typeId="w2mu.7596805840595250208" id="2149979023199564156" nodeInfo="ng">
+    <node role="handlerFunction" roleId="4tvk.8594065538792617639" type="w2mu.ConceptFunction_ProcessExceptionBlock" typeId="w2mu.7596805840595250208" id="2149979023199564156" nodeInfo="ig">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="2149979023199564157" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="2149979023199564158" nodeInfo="nn">
           <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2149979023199564159" nodeInfo="nn">

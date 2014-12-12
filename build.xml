@@ -14,7 +14,7 @@
   <property name="artifacts.mpsStandalone" location="${mps_home}" />
   <property name="artifacts.mps" location="${mps_home}" />
   <property name="artifacts.mpsWorkbench" location="${mps_home}" />
-  <property name="artifacts.XChart" location="${XChart.artifacts}" />
+  <property name="artifacts.XChart" location="../XChart/build/artifacts/XChart" />
   <property name="artifacts.org.campagnelab.Background" location="${build.dir}/artifacts/org.campagnelab.Background" />
   <property name="artifacts.org.campagnelab.mps.UI" location="${build.dir}/artifacts/org.campagnelab.mps.UI" />
   <property name="artifacts.org.campagnelab.TextOutput" location="${build.dir}/artifacts/org.campagnelab.TextOutput" />
@@ -230,6 +230,7 @@
   </target>
   
   <target name="buildDependents">
+    <ant antfile="../XChart/build.xml" inheritAll="false" useNativeBasedir="true" />
     <ant antfile="background.xml" inheritAll="false" useNativeBasedir="true" />
     <ant antfile="ui.xml" inheritAll="false" useNativeBasedir="true" />
     <ant antfile="TextOutput.xml" inheritAll="false" useNativeBasedir="true" />

@@ -7,7 +7,6 @@ import jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor;
 public class Phrase_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor {
   public Phrase_BehaviorDescriptor() {
   }
-
   @Override
   public String getConceptFqName() {
     return "org.campagnelab.textoutput.structure.Phrase";

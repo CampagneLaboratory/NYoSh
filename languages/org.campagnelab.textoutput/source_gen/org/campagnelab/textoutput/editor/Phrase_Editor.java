@@ -18,7 +18,6 @@ public class Phrase_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createProperty_82vyzd_a(editorContext, node);
   }
-
   private EditorCell createProperty_82vyzd_a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("text");
@@ -29,8 +28,8 @@ public class Phrase_Editor extends DefaultNodeEditor {
     editorCell.setCellId("property_text");
     editorCell.setBig(true);
     Style style = new StyleImpl();
-    style.set(StyleAttributes.PUNCTUATION_LEFT, true);
-    style.set(StyleAttributes.PUNCTUATION_RIGHT, false);
+    style.set(StyleAttributes.PUNCTUATION_LEFT, 0, true);
+    style.set(StyleAttributes.PUNCTUATION_RIGHT, 0, false);
     editorCell.getStyle().putAll(style);
     PhraseActionMap.setCellActions(editorCell, node, editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());

@@ -5,13 +5,14 @@ package org.campagnelab.textoutput.textGen;
 import jetbrains.mps.textGen.SNodeTextGen;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 
 public class TextOutput_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
     OutputToText.textOutput(node, this);
   }
-
   public String getExtension(SNode node) {
-    return SPropertyOperations.getString(node, "extension");
+    return SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(new UUID(-8061622605524284386l, -4874474233542072140l), 6874736155931251147l, 4279449414579828182l, "extension"));
   }
 }

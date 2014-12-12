@@ -239,7 +239,7 @@
             <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.ConsumeCommandOutputWithReader" typeId="4tvk.8155370969620237552" id="4127768621429696854" nodeInfo="ng">
               <property name="consumeStandardOutput" nameId="4tvk.6839116863305307657" value="true" />
               <property name="consumeStandardError" nameId="4tvk.6839116863305307659" value="false" />
-              <node role="readerExpression" roleId="4tvk.8155370969620237554" type="w2mu.ConceptFunction_ConsumeOutputReaderBlock" typeId="w2mu.7596805840595310795" id="4127768621429696856" nodeInfo="ng">
+              <node role="readerExpression" roleId="4tvk.8155370969620237554" type="w2mu.ConceptFunction_ConsumeOutputReaderBlock" typeId="w2mu.7596805840595310795" id="4127768621429696856" nodeInfo="ig">
                 <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="4127768621429696858" nodeInfo="sn">
                   <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="4127768621429858539" nodeInfo="nn">
                     <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4127768621429865904" nodeInfo="nn">
@@ -586,7 +586,7 @@
             <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.ConsumeCommandOutputWithReader" typeId="4tvk.8155370969620237552" id="7765668276215587388" nodeInfo="ng">
               <property name="consumeStandardOutput" nameId="4tvk.6839116863305307657" value="true" />
               <property name="consumeStandardError" nameId="4tvk.6839116863305307659" value="false" />
-              <node role="readerExpression" roleId="4tvk.8155370969620237554" type="w2mu.ConceptFunction_ConsumeOutputReaderBlock" typeId="w2mu.7596805840595310795" id="7765668276215587389" nodeInfo="ng">
+              <node role="readerExpression" roleId="4tvk.8155370969620237554" type="w2mu.ConceptFunction_ConsumeOutputReaderBlock" typeId="w2mu.7596805840595310795" id="7765668276215587389" nodeInfo="ig">
                 <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="7765668276215587390" nodeInfo="sn">
                   <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="7765668276215587391" nodeInfo="nn">
                     <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7765668276215587392" nodeInfo="nn">
@@ -756,7 +756,7 @@
             <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.ConsumeCommandOutputWithReader" typeId="4tvk.8155370969620237552" id="7765668276215413878" nodeInfo="ng">
               <property name="consumeStandardOutput" nameId="4tvk.6839116863305307657" value="true" />
               <property name="consumeStandardError" nameId="4tvk.6839116863305307659" value="false" />
-              <node role="readerExpression" roleId="4tvk.8155370969620237554" type="w2mu.ConceptFunction_ConsumeOutputReaderBlock" typeId="w2mu.7596805840595310795" id="7765668276215413879" nodeInfo="ng">
+              <node role="readerExpression" roleId="4tvk.8155370969620237554" type="w2mu.ConceptFunction_ConsumeOutputReaderBlock" typeId="w2mu.7596805840595310795" id="7765668276215413879" nodeInfo="ig">
                 <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="7765668276215413880" nodeInfo="sn">
                   <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="7765668276215413881" nodeInfo="nn">
                     <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7765668276215413882" nodeInfo="nn">
@@ -1147,7 +1147,7 @@
             <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.ConsumeCommandOutputWithReader" typeId="4tvk.8155370969620237552" id="787161384137308404" nodeInfo="ng">
               <property name="consumeStandardOutput" nameId="4tvk.6839116863305307657" value="true" />
               <property name="consumeStandardError" nameId="4tvk.6839116863305307659" value="false" />
-              <node role="readerExpression" roleId="4tvk.8155370969620237554" type="w2mu.ConceptFunction_ConsumeOutputReaderBlock" typeId="w2mu.7596805840595310795" id="787161384137308405" nodeInfo="ng">
+              <node role="readerExpression" roleId="4tvk.8155370969620237554" type="w2mu.ConceptFunction_ConsumeOutputReaderBlock" typeId="w2mu.7596805840595310795" id="787161384137308405" nodeInfo="ig">
                 <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="787161384137308406" nodeInfo="sn">
                   <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="8609812755130221464" nodeInfo="nn">
                     <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="8609812755130221465" nodeInfo="nn">
@@ -1337,7 +1337,7 @@
             <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.ConsumeCommandOutputWithStream" typeId="4tvk.8155370969619065197" id="8256281976015065139" nodeInfo="ng">
               <property name="consumeStandardOutput" nameId="4tvk.6839116863305307657" value="true" />
               <property name="consumeStandardError" nameId="4tvk.6839116863305307659" value="false" />
-              <node role="streamExpression" roleId="4tvk.8155370969619067484" type="w2mu.ConceptFunction_ConsumeOutputStreamBlock" typeId="w2mu.7596805840595310796" id="8256281976015065141" nodeInfo="ng">
+              <node role="streamExpression" roleId="4tvk.8155370969619067484" type="w2mu.ConceptFunction_ConsumeOutputStreamBlock" typeId="w2mu.7596805840595310796" id="8256281976015065141" nodeInfo="ig">
                 <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="8256281976015065143" nodeInfo="sn">
                   <node role="statement" roleId="tpee.1068581517665" type="tpee.TryStatement" typeId="tpee.1153952380246" id="8256281976015246475" nodeInfo="nn">
                     <node role="body" roleId="tpee.1153952416686" type="tpee.StatementList" typeId="tpee.1068580123136" id="8256281976015226618" nodeInfo="sn">

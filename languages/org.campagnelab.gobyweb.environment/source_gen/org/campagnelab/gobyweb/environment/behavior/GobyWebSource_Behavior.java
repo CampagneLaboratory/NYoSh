@@ -5,6 +5,8 @@ package org.campagnelab.gobyweb.environment.behavior;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 import org.campagnelab.nyosh.environment.parsers.GobyWebParser;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
@@ -19,50 +21,47 @@ import org.apache.log4j.LogManager;
 public class GobyWebSource_Behavior {
   public static void init(SNode thisNode) {
   }
-
   public static void virtual_load_5955265417294647553(SNode thisNode) {
     if (LOG.isInfoEnabled()) {
       LOG.info("GobyWeb source load invoked");
     }
-    ListSequence.fromList(SLinkOperations.getTargets(thisNode, "availableVariables", true)).clear();
+    ListSequence.fromList(SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(1082869261932317580l, -6963095398150543659l), 3173353997360796893l, 9004698741416289947l, "availableVariables"))).clear();
     GobyWebParser parser = new GobyWebParser();
-    SNode script = SNodeOperations.getAncestor(thisNode, "org.campagnelab.gobyweb.structure.PluginScript", false, false);
+    SNode script = SNodeOperations.getNodeAncestor(thisNode, MetaAdapterFactory.getConcept(new UUID(-5909566262671359852l, -4852354538162495409l), 1090105717920801947l, "org.campagnelab.gobyweb.structure.PluginScript"), false, false);
     if (LOG.isInfoEnabled()) {
-      LOG.info("plugin ID " + SPropertyOperations.getString(script, "pluginId"));
-    }
-    if (LOG.isInfoEnabled()) {
-      LOG.info("plugin kind " + SPropertyOperations.getString_def(script, "pluginKind", "aligners"));
+      LOG.info("plugin ID " + SPropertyOperations.getString(script, MetaAdapterFactory.getProperty(new UUID(-5909566262671359852l, -4852354538162495409l), 1090105717920801947l, 6874736155930792589l, "pluginId")));
     }
     if (LOG.isInfoEnabled()) {
-      LOG.info("plugin system path " + PluginSystemRootDirectory_Behavior.call_getPath_8272164243038473394(SLinkOperations.getTarget(script, "pluginSystem", true)));
+      LOG.info("plugin kind " + SPropertyOperations.getString_def(script, MetaAdapterFactory.getProperty(new UUID(-5909566262671359852l, -4852354538162495409l), 1090105717920801947l, 6874736155930792593l, "pluginKind"), "aligners"));
     }
-    for (ScriptVariable scriptVariable : parser.parseAtDesignTime(SPropertyOperations.getString(script, "pluginId"), SPropertyOperations.getString_def(script, "pluginKind", "aligners"), PluginSystemRootDirectory_Behavior.call_getPath_8272164243038473394(SLinkOperations.getTarget(script, "pluginSystem", true)))) {
-      SNode variableDeclaration = SConceptOperations.createNewNode("org.campagnelab.nyosh.environment.structure.EnvVariableDeclaration", null);
-      SPropertyOperations.set(variableDeclaration, "value", scriptVariable.value);
-      SPropertyOperations.set(variableDeclaration, "name", scriptVariable.name);
-      SPropertyOperations.set(variableDeclaration, "kind", scriptVariable.kind.name());
-      ListSequence.fromList(SLinkOperations.getTargets(thisNode, "availableVariables", true)).addElement(variableDeclaration);
+    if (LOG.isInfoEnabled()) {
+      LOG.info("plugin system path " + PluginSystemRootDirectory_Behavior.call_getPath_8272164243038473394(SLinkOperations.getTarget(script, MetaAdapterFactory.getContainmentLink(new UUID(-5909566262671359852l, -4852354538162495409l), 1090105717920801947l, 1090105717920801999l, "pluginSystem"))));
     }
-    SPropertyOperations.set(SLinkOperations.getTarget(script, "pluginSystem", true), "lastValidationMessage", parser.getLastMessage());
-    SPropertyOperations.set(SLinkOperations.getTarget(script, "pluginSystem", true), "hasError", "" + (parser.hasErrorsToReport()));
-    ListSequence.fromList(SLinkOperations.getTargets(script, "inputSlots", true)).clear();
-    for (SNode slot : ListSequence.fromList(PluginRegistry_Behavior.call_getInputSlots_6519147379572947977(SLinkOperations.getTarget(script, "pluginRegistry", true)))) {
-      ListSequence.fromList(SLinkOperations.getTargets(script, "inputSlots", true)).addElement(slot);
+    for (ScriptVariable scriptVariable : parser.parseAtDesignTime(SPropertyOperations.getString(script, MetaAdapterFactory.getProperty(new UUID(-5909566262671359852l, -4852354538162495409l), 1090105717920801947l, 6874736155930792589l, "pluginId")), SPropertyOperations.getString_def(script, MetaAdapterFactory.getProperty(new UUID(-5909566262671359852l, -4852354538162495409l), 1090105717920801947l, 6874736155930792593l, "pluginKind"), "aligners"), PluginSystemRootDirectory_Behavior.call_getPath_8272164243038473394(SLinkOperations.getTarget(script, MetaAdapterFactory.getContainmentLink(new UUID(-5909566262671359852l, -4852354538162495409l), 1090105717920801947l, 1090105717920801999l, "pluginSystem"))))) {
+      SNode variableDeclaration = SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(1082869261932317580l, -6963095398150543659l), 5955265417291138207l, "org.campagnelab.nyosh.environment.structure.EnvVariableDeclaration")));
+      SPropertyOperations.set(variableDeclaration, MetaAdapterFactory.getProperty(new UUID(1082869261932317580l, -6963095398150543659l), 5955265417291138207l, 5469406079154538151l, "value"), scriptVariable.value);
+      SPropertyOperations.set(variableDeclaration, MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name"), scriptVariable.name);
+      SPropertyOperations.set(variableDeclaration, MetaAdapterFactory.getProperty(new UUID(1082869261932317580l, -6963095398150543659l), 5955265417291138207l, 5463028992315853055l, "kind"), scriptVariable.kind.name());
+      ListSequence.fromList(SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(1082869261932317580l, -6963095398150543659l), 3173353997360796893l, 9004698741416289947l, "availableVariables"))).addElement(variableDeclaration);
     }
-    ListSequence.fromList(SLinkOperations.getTargets(script, "outputSlots", true)).clear();
-    for (SNode slot : ListSequence.fromList(PluginRegistry_Behavior.call_getOutputSlots_6519147379572948090(SLinkOperations.getTarget(script, "pluginRegistry", true)))) {
-      ListSequence.fromList(SLinkOperations.getTargets(script, "outputSlots", true)).addElement(slot);
+    SPropertyOperations.set(SLinkOperations.getTarget(script, MetaAdapterFactory.getContainmentLink(new UUID(-5909566262671359852l, -4852354538162495409l), 1090105717920801947l, 1090105717920801999l, "pluginSystem")), MetaAdapterFactory.getProperty(new UUID(-5909566262671359852l, -4852354538162495409l), 6874736155930792596l, 78530767374283936l, "lastValidationMessage"), parser.getLastMessage());
+    SPropertyOperations.set(SLinkOperations.getTarget(script, MetaAdapterFactory.getContainmentLink(new UUID(-5909566262671359852l, -4852354538162495409l), 1090105717920801947l, 1090105717920801999l, "pluginSystem")), MetaAdapterFactory.getProperty(new UUID(-5909566262671359852l, -4852354538162495409l), 6874736155930792596l, 5131770576692241878l, "hasError"), "" + (parser.hasErrorsToReport()));
+    ListSequence.fromList(SLinkOperations.getChildren(script, MetaAdapterFactory.getContainmentLink(new UUID(-5909566262671359852l, -4852354538162495409l), 1090105717920801947l, 8463050739468865638l, "inputSlots"))).clear();
+    for (SNode slot : ListSequence.fromList(PluginRegistry_Behavior.call_getInputSlots_6519147379572947977(SLinkOperations.getTarget(script, MetaAdapterFactory.getContainmentLink(new UUID(-5909566262671359852l, -4852354538162495409l), 1090105717920801947l, 8463050739472729035l, "pluginRegistry"))))) {
+      ListSequence.fromList(SLinkOperations.getChildren(script, MetaAdapterFactory.getContainmentLink(new UUID(-5909566262671359852l, -4852354538162495409l), 1090105717920801947l, 8463050739468865638l, "inputSlots"))).addElement(slot);
+    }
+    ListSequence.fromList(SLinkOperations.getChildren(script, MetaAdapterFactory.getContainmentLink(new UUID(-5909566262671359852l, -4852354538162495409l), 1090105717920801947l, 8463050739468865642l, "outputSlots"))).clear();
+    for (SNode slot : ListSequence.fromList(PluginRegistry_Behavior.call_getOutputSlots_6519147379572948090(SLinkOperations.getTarget(script, MetaAdapterFactory.getContainmentLink(new UUID(-5909566262671359852l, -4852354538162495409l), 1090105717920801947l, 8463050739472729035l, "pluginRegistry"))))) {
+      ListSequence.fromList(SLinkOperations.getChildren(script, MetaAdapterFactory.getContainmentLink(new UUID(-5909566262671359852l, -4852354538162495409l), 1090105717920801947l, 8463050739468865642l, "outputSlots"))).addElement(slot);
     }
 
   }
-
   public static SNode call_getVariableDeclaration_731554740237430729(SNode thisNode, final String name) {
-    return ListSequence.fromList(SLinkOperations.getTargets(thisNode, "availableVariables", true)).findFirst(new IWhereFilter<SNode>() {
+    return ListSequence.fromList(SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(1082869261932317580l, -6963095398150543659l), 3173353997360796893l, 9004698741416289947l, "availableVariables"))).findFirst(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
-        return SPropertyOperations.hasValue(it, "name", name);
+        return SPropertyOperations.hasValue(it, MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name"), name);
       }
     });
   }
-
   protected static Logger LOG = LogManager.getLogger(GobyWebSource_Behavior.class);
 }
