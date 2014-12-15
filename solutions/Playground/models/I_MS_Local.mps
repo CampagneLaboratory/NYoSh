@@ -195,8 +195,8 @@
     <property name="jobName" nameId="bs99.606449909789338951" value="My" />
     <property name="message" nameId="bs99.3927327347527013400" value="Job successfully submitted. Assigned tag: FSGGIJV" />
     <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="4010805091600466174" resolveInfo="mac150355" />
-    <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="2230469015308471316" resolveInfo="PROCESS_READS_TASK" />
     <link role="currentJob" roleId="bs99.5540992037659823465" targetNodeId="2230469015308563617" resolveInfo="My" />
+    <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="3142570469568320576" resolveInfo="PROCESS_READS_TASK" />
     <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="7416290918779352601" nodeInfo="ng">
       <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="2230469015308471323" resolveInfo="UPLOADS_FILES" />
       <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="2230469015308563285" nodeInfo="ng">
@@ -9798,8 +9798,8 @@
       <property name="jobName" nameId="bs99.606449909789338951" value="MultipleReads-1" />
       <property name="message" nameId="bs99.3927327347527013400" value="Job successfully submitted. Assigned tag: ZGMGQRP" />
       <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="4010805091600466174" resolveInfo="mac150355" />
-      <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="3142570469568065266" resolveInfo="PROCESS_READS_TASK" />
       <link role="currentJob" roleId="bs99.5540992037659823465" targetNodeId="3142570469568294811" resolveInfo="MultipleReads-1" />
+      <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="3142570469568320576" resolveInfo="PROCESS_READS_TASK" />
       <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="3142570469568097140" nodeInfo="ng">
         <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="3142570469568065273" resolveInfo="UPLOADS_FILES" />
         <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="3142570469568294799" nodeInfo="ng">

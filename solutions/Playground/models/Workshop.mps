@@ -14,6 +14,7 @@
   <import index="bd2x" modelUID="r:aa9c91aa-8100-4e98-88e5-b9737f1d54b8(model.organisms)" version="-1" implicit="yes" />
   <import index="czzw" modelUID="r:2151664b-13bc-4072-a76b-815bb37c415e(org.campagnelab.gobyweb.interactive.users.structure)" version="0" implicit="yes" />
   <import index="u5kh" modelUID="r:da6c53ea-9b36-4ecc-8d36-50c82663565f(org.campagnelab.gobyweb.interactive.sharing.structure)" version="-1" implicit="yes" />
+  <import index="viyf" modelUID="r:7c3ccd3b-86e2-4986-8fec-385df969d157(org.campagnelab.gobyweb.interactive.genomes.structure)" version="-1" implicit="yes" />
   <root type="bs99.ExecutionEnvironment" typeId="bs99.2051553890368778876" id="3648805790695509200" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="RemoteEnvironmentOnPetey01" />
     <link role="owner" roleId="bs99.5865189911929158304" targetNodeId="3882067466250375880" resolveInfo="NYoSh 01" />
@@ -8575,8 +8576,8 @@
       </node>
       <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="570070230396185833" nodeInfo="ng">
         <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="8560093378716717437" resolveInfo="GENOME_REFERENCE_ID" />
-        <node role="value" roleId="bs99.6506431596944968310" type=".org.campagnelab.gobyweb.interactive.structure.GenomeReferenceId" id="570070230396186651" nodeInfo="ng">
-          <link role="genomeBuild" targetNodeId="bd2x.2532384616187213688" resolveInfo="NCBI37.57" />
+        <node role="value" roleId="bs99.6506431596944968310" type="viyf.GenomeReferenceId" typeId="viyf.83657536354463308" id="8679175737474337191" nodeInfo="ng">
+          <link role="genomeBuild" roleId="viyf.83657536354473590" targetNodeId="bd2x.2532384616187213688" resolveInfo="NCBI37.57" />
         </node>
       </node>
       <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="570070230396185839" nodeInfo="ng">

@@ -7391,10 +7391,10 @@
     <property name="jobName" nameId="bs99.606449909789338951" value="second_job" />
     <property name="message" nameId="bs99.3927327347527013400" value="Job successfully submitted. Assigned tag: HDNDVBC" />
     <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="7915051628305677536" resolveInfo="MSNotebook" />
-    <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="2495307914667371147" resolveInfo="PROCESS_READS_TASK" />
     <link role="currentJob" roleId="bs99.5540992037659823465" targetNodeId="2495307914670883478" resolveInfo="second_job" />
+    <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="8628570127263890084" resolveInfo="PROCESS_READS_TASK" />
     <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="2495307914668731601" nodeInfo="ng">
-      <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="2495307914667371154" resolveInfo="UPLOADS_FILES" />
+      <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="8628570127263890091" resolveInfo="UPLOADS_FILES" />
       <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="2495307914668731735" nodeInfo="ng">
         <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="2495307914668729188" resolveInfo="S1_1_R1" />
       </node>
@@ -7421,7 +7421,7 @@
       </node>
     </node>
     <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="2495307914668731602" nodeInfo="ng">
-      <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="2495307914667371156" resolveInfo="UPLOAD_MERGE_PLAN" />
+      <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="8628570127263890093" resolveInfo="UPLOAD_MERGE_PLAN" />
       <node role="values" roleId="bs99.2995632242847956813" type="jlq1.MergePlanEditor" typeId="jlq1.8273662917775851475" id="2495307914670877759" nodeInfo="ng">
         <link role="registeredMergePlanFSInstance" roleId="jlq1.8273662917776369954" targetNodeId="2495307914670883266" resolveInfo="merge-plan" />
         <node role="pairInfo" roleId="jlq1.8273662917776534287" type="jlq1.WithPairInfo" typeId="jlq1.8273662917776534284" id="2495307914670877793" nodeInfo="ng">
@@ -7431,7 +7431,7 @@
       </node>
     </node>
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="2495307914668731603" nodeInfo="ng">
-      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="2495307914667371171" resolveInfo="Tag for the new sample." />
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="8628570127263890108" resolveInfo="Tag for the new sample." />
       <node role="value" roleId="bs99.6506431596944968310" type="bs99.StringOptionValue" typeId="bs99.606449909792929476" id="2495307914668731607" nodeInfo="ng">
         <property name="value" nameId="bs99.606449909792929477" value="FAKETAG" />
       </node>

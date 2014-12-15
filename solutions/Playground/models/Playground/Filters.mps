@@ -30,7 +30,6 @@
         </node>
       </node>
     </node>
-    <node role="steps" roleId="o9zf.2057609564418190361" type="o9zf.Step" typeId="o9zf.2057609564419510412" id="2057609564419835577" nodeInfo="ng" />
     <node role="source" roleId="o9zf.2057609564418190347" type="o9zf.VariantCallingFormatSource" typeId="o9zf.2057609564417922266" id="2057609564418699084" nodeInfo="ng">
       <node role="source" roleId="o9zf.2057609564418661095" type="o9zf.GZipDecompression" typeId="o9zf.2057609564418480608" id="2057609564418699086" nodeInfo="ng">
         <node role="source" roleId="o9zf.2057609564418510173" type="o9zf.FileSource" typeId="o9zf.2057609564418544643" id="2057609564418699088" nodeInfo="ng">

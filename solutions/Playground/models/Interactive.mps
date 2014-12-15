@@ -5740,7 +5740,7 @@
     <property name="name" nameId="tpck.1169194664001" value="ExecutionTool_MS" />
     <property name="jobName" nameId="bs99.606449909789338951" value="Third Analysis" />
     <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="2419654323731434878" resolveInfo="TutoriaEnvironment" />
-    <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="6393277187649712773" resolveInfo="SPLICING_DIFF_EXP" />
+    <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="6985991452107399184" resolveInfo="SPLICING_DIFF_EXP" />
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="83657536354575624" nodeInfo="ng">
       <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="6393277187649712802" resolveInfo="GROUP_DEFINITION" />
       <node role="value" roleId="bs99.6506431596944968310" type="bs99.StringOptionValue" typeId="bs99.606449909792929476" id="83657536354575626" nodeInfo="ng" />
@@ -11375,7 +11375,7 @@
     <property name="jobName" nameId="bs99.606449909789338951" value="test" />
     <property name="message" nameId="bs99.3927327347527013400" value="Job successfully submitted. Assigned tag: GDKEBCL" />
     <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="2419654323731434878" resolveInfo="TutoriaEnvironment" />
-    <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="6393277187649712496" resolveInfo="SEQ_VAR_GOBY_METHYLATION" />
+    <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="6985991452107398902" resolveInfo="SEQ_VAR_GOBY_METHYLATION" />
     <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="406260948649236746" nodeInfo="ng">
       <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="6393277187649712502" resolveInfo="INPUT_ALIGNMENTS" />
       <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="3552713013252571663" nodeInfo="ng">
@@ -13142,7 +13142,7 @@
     <property name="jobName" nameId="bs99.606449909789338951" value="FirstAligner" />
     <property name="message" nameId="bs99.3927327347527013400" value="Job successfully submitted. Assigned tag: ASEJEMU" />
     <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="2419654323731434878" resolveInfo="TutoriaEnvironment" />
-    <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="6393277187649712116" resolveInfo="STAR22_GOBY" />
+    <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="6985991452107398514" resolveInfo="STAR22_GOBY" />
     <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="1011954325398503122" nodeInfo="ng">
       <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="6393277187649712122" resolveInfo="INPUT_READS" />
       <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="3552713013252571665" nodeInfo="ng">

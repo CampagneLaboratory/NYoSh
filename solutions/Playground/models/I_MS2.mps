@@ -19,6 +19,7 @@
   <import index="7c6v" modelUID="r:5ff8ae95-054c-4cda-b392-b0e2d796b9da(org.campagnelab.lucene.tableviewer.structure)" version="7" implicit="yes" />
   <import index="czzw" modelUID="r:2151664b-13bc-4072-a76b-815bb37c415e(org.campagnelab.gobyweb.interactive.users.structure)" version="0" implicit="yes" />
   <import index="u5kh" modelUID="r:da6c53ea-9b36-4ecc-8d36-50c82663565f(org.campagnelab.gobyweb.interactive.sharing.structure)" version="-1" implicit="yes" />
+  <import index="viyf" modelUID="r:7c3ccd3b-86e2-4986-8fec-385df969d157(org.campagnelab.gobyweb.interactive.genomes.structure)" version="-1" implicit="yes" />
   <root type="9k5.ExecutionNode" typeId="9k5.3050176288337501843" id="8711817271675662831" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="BrokerNodeForJobs" />
     <property name="server" nameId="9k5.3050176288337501845" value="toulouse.qib.pbtech" />
@@ -30414,9 +30415,9 @@
     <property name="name" nameId="tpck.1169194664001" value="ExecutionTool" />
     <property name="jobName" nameId="bs99.606449909789338951" value="847-WTAlignment" />
     <property name="message" nameId="bs99.3927327347527013400" value="Job successfully submitted. Assigned tag: ZOMRHFS" />
-    <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="4010805091594109919" resolveInfo="RemoteEnvironment" />
     <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="3648805790692575317" resolveInfo="STAR22_GOBY" />
     <link role="currentJob" roleId="bs99.5540992037659823465" targetNodeId="3648805790693692657" resolveInfo="847-WTAlignment" />
+    <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="4010805091594109919" resolveInfo="RemoteEnvironment" />
     <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="2230469015316045313" nodeInfo="ng">
       <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="3648805790692575324" resolveInfo="INPUT_READS" />
       <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="3648805790693692653" nodeInfo="ng">
@@ -30432,8 +30433,8 @@
     </node>
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="2230469015316045320" nodeInfo="ng">
       <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="3648805790692575349" resolveInfo="GENOME_REFERENCE_ID" />
-      <node role="value" roleId="bs99.6506431596944968310" type=".org.campagnelab.gobyweb.interactive.structure.GenomeReferenceId" id="2230469015316047807" nodeInfo="ng">
-        <link role="genomeBuild" targetNodeId="bd2x.2532384616187213688" resolveInfo="NCBI37.57" />
+      <node role="value" roleId="bs99.6506431596944968310" type="viyf.GenomeReferenceId" typeId="viyf.83657536354463308" id="8679175737474333153" nodeInfo="ng">
+        <link role="genomeBuild" roleId="viyf.83657536354473590" targetNodeId="bd2x.2532384616187213688" resolveInfo="NCBI37.57" />
       </node>
     </node>
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="2230469015316045326" nodeInfo="ng">
@@ -30480,9 +30481,6 @@
       <node role="value" roleId="bs99.6506431596944968310" type="bs99.StringOptionValue" typeId="bs99.606449909792929476" id="4029852567791126410" nodeInfo="ng">
         <property name="value" nameId="bs99.606449909792929477" value="FAKETAG" />
       </node>
-    </node>
-    <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="8982654668860019370" nodeInfo="ng">
-      <node role="value" roleId="bs99.6506431596944968310" type="bs99.InputOptionValue" typeId="bs99.6506431596944968499" id="8982654668860019371" nodeInfo="ng" />
     </node>
     <node role="fsiListeners" roleId="bs99.8515523077722947583" type="7aad.ObjectCreationHelper" typeId="7aad.7744544840731999292" id="3648805790692588774" nodeInfo="ng" />
   </root>
