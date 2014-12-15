@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="0b7d8bbd-896e-495e-be60-01a0d738a649/r:0eb0b6ec-c826-4f62-9758-510af16074e8(org.campagnelab.gobyweb.plugins/org.campagnelab.gobyweb.plugins.typesystem)" concise="true">
+<model ref="0b7d8bbd-896e-495e-be60-01a0d738a649/r:0eb0b6ec-c826-4f62-9758-510af16074e8(org.campagnelab.gobyweb.plugins/org.campagnelab.gobyweb.plugins.typesystem)">
   <persistence version="9" />
   <languages>
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="-1" />

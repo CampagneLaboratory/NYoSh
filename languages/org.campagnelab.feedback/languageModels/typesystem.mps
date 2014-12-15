@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="d8e610a4-07e8-4a28-a3f6-a82fb9690d70/r:fa062034-52b0-4587-a1ac-430f338f6086(org.campagnelab.feedback/org.campagnelab.feedback.typesystem)" concise="true">
+<model ref="d8e610a4-07e8-4a28-a3f6-a82fb9690d70/r:fa062034-52b0-4587-a1ac-430f338f6086(org.campagnelab.feedback/org.campagnelab.feedback.typesystem)">
   <persistence version="9" />
   <languages>
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="-1" />

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="6fd15351-eece-43b7-bd1f-2f67ae9238e1/r:fde2fc7b-90ed-409d-a5b0-86587c2008d9(org.campagnelab.gobyweb.interactive.samples#7926097513313207833/org.campagnelab.gobyweb.interactive.samples.generator.template.main@generator)" concise="true">
+<model ref="6fd15351-eece-43b7-bd1f-2f67ae9238e1/r:fde2fc7b-90ed-409d-a5b0-86587c2008d9(org.campagnelab.gobyweb.interactive.samples#7926097513313207833/org.campagnelab.gobyweb.interactive.samples.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
     <use id="e2d79ce9-bdd0-4275-a250-1037dd79ddc3" name="org.campagnelab.gobyweb.interactive.samples" version="-1" />
@@ -8,10 +8,7 @@
     <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
-  <imports>
-    <import index="tpck" ref="ceab5195-25ea-4f22-9b92-103b95ca8c0c/r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core/jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="tpf8" ref="b401a680-8325-4110-8fd3-84331ff25bef/r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator/jetbrains.mps.lang.generator.structure)" implicit="true" />
-  </imports>
+  <imports />
   <registry>
     <language id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator">
       <concept id="1095416546421" name="jetbrains.mps.lang.generator.structure.MappingConfiguration" flags="ig" index="bUwia" />

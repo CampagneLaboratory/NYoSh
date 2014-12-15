@@ -26,6 +26,12 @@ public class Language extends LanguageRuntime {
   public String getNamespace() {
     return "org.campagnelab.textoutput";
   }
+
+  @Override
+  public int getVersion() {
+    return 0;
+  }
+
   public SLanguageId getId() {
     return new SLanguageId(UUID.fromString("901f5cf3-dc77-4c1e-bc5a-6382baee28b4"));
   }

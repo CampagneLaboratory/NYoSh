@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="c0d2441c-f691-42ab-bace-9be04018a027/r:83c4efc2-10c9-49bb-b1ae-62d95d059093(NYoSh.StandaloneWorkbench-2/NYoSh.StandaloneWorkbench-2@tests)" concise="true">
+<model ref="c0d2441c-f691-42ab-bace-9be04018a027/r:83c4efc2-10c9-49bb-b1ae-62d95d059093(NYoSh.StandaloneWorkbench-2/NYoSh.StandaloneWorkbench-2@tests)">
   <persistence version="9" />
   <languages>
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="-1" />

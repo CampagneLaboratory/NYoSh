@@ -1,130 +1,153 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:f5082aca-b99f-4e47-b1ce-daa58a317faa(org.campagnelab.gobyweb.interactive.filesets.mappings.definitions)">
-  <persistence version="8" />
-  <language namespace="853d29f2-dbd7-4a64-a6cd-27608b08e948(org.campagnelab.gobyweb.interactive.mappings)" />
-  <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="6tiq" modelUID="r:fa23f21f-0a09-4a28-9828-16b45648a671(org.campagnelab.gobyweb.interactive.mappings.structure)" version="1" implicit="yes" />
-  <root type="6tiq.AttributeDefinitionList" typeId="6tiq.6726552014277529868" id="6726552014277552549" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="GobyWeb_Read_Attributes" />
-    <node role="attributes" roleId="6tiq.6726552014277529869" type="6tiq.AttributeDefinition" typeId="6tiq.6726552014277527248" id="6726552014277578493" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="ORGANISM" />
-      <property name="type" nameId="6tiq.6726552014277555058" value="STRING" />
+<model ref="592d8eb7-1a36-488a-93f9-794b47361c97/r:f5082aca-b99f-4e47-b1ce-daa58a317faa(org.campagnelab.gobyweb.interactive.filesets.mappings/org.campagnelab.gobyweb.interactive.filesets.mappings.definitions)">
+  <persistence version="9" />
+  <languages>
+    <use id="853d29f2-dbd7-4a64-a6cd-27608b08e948" name="org.campagnelab.gobyweb.interactive.mappings" version="-1" />
+  </languages>
+  <imports />
+  <registry>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+        <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="853d29f2-dbd7-4a64-a6cd-27608b08e948" name="org.campagnelab.gobyweb.interactive.mappings">
+      <concept id="6726552014277527248" name="org.campagnelab.gobyweb.interactive.mappings.structure.AttributeDefinition" flags="ng" index="1jqGmV">
+        <property id="6726552014277555058" name="type" index="1jqz0p" />
+      </concept>
+      <concept id="6726552014277529868" name="org.campagnelab.gobyweb.interactive.mappings.structure.AttributeDefinitionList" flags="ng" index="1jqH9B">
+        <child id="6726552014277529869" name="attributes" index="1jqH9A" />
+      </concept>
+      <concept id="6726552014277534409" name="org.campagnelab.gobyweb.interactive.mappings.structure.AttributeDefinitionRef" flags="ng" index="1jqI6y">
+        <property id="723438572043149397" name="mandatory" index="1lu8Jp" />
+        <reference id="6726552014277534410" name="attribute" index="1jqI6x" />
+      </concept>
+      <concept id="6726552014277534379" name="org.campagnelab.gobyweb.interactive.mappings.structure.FileSetAttributeMappings" flags="ng" index="1jqI70">
+        <child id="6726552014277534396" name="attributes" index="1jqI7n" />
+      </concept>
+    </language>
+  </registry>
+  <node concept="1jqH9B" id="5PpwQGecUA_">
+    <property role="TrG5h" value="GobyWeb_Read_Attributes" />
+    <node concept="1jqGmV" id="5PpwQGed0VX" role="1jqH9A">
+      <property role="TrG5h" value="ORGANISM" />
+      <property role="1jqz0p" value="STRING" />
     </node>
-    <node role="attributes" roleId="6tiq.6726552014277529869" type="6tiq.AttributeDefinition" typeId="6tiq.6726552014277527248" id="6726552014277608891" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="READS_PLATFORM" />
-      <property name="type" nameId="6tiq.6726552014277555058" value="STRING" />
+    <node concept="1jqGmV" id="5PpwQGed8mV" role="1jqH9A">
+      <property role="TrG5h" value="READS_PLATFORM" />
+      <property role="1jqz0p" value="STRING" />
     </node>
-    <node role="attributes" roleId="6tiq.6726552014277529869" type="6tiq.AttributeDefinition" typeId="6tiq.6726552014277527248" id="6726552014277578495" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="PAIRED_END_DIRECTIONS" />
-      <property name="type" nameId="6tiq.6726552014277555058" value="STRING" />
+    <node concept="1jqGmV" id="5PpwQGed0VZ" role="1jqH9A">
+      <property role="TrG5h" value="PAIRED_END_DIRECTIONS" />
+      <property role="1jqz0p" value="STRING" />
     </node>
-    <node role="attributes" roleId="6tiq.6726552014277529869" type="6tiq.AttributeDefinition" typeId="6tiq.6726552014277527248" id="6726552014277614857" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="COLOR_SPACE" />
-      <property name="type" nameId="6tiq.6726552014277555058" value="BOOLEAN" />
+    <node concept="1jqGmV" id="5PpwQGed9O9" role="1jqH9A">
+      <property role="TrG5h" value="COLOR_SPACE" />
+      <property role="1jqz0p" value="BOOLEAN" />
     </node>
-    <node role="attributes" roleId="6tiq.6726552014277529869" type="6tiq.AttributeDefinition" typeId="6tiq.6726552014277527248" id="6726552014277617381" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="LIB_PROTOCOL_PRESERVE_STRAND" />
-      <property name="type" nameId="6tiq.6726552014277555058" value="BOOLEAN" />
+    <node concept="1jqGmV" id="5PpwQGedar_" role="1jqH9A">
+      <property role="TrG5h" value="LIB_PROTOCOL_PRESERVE_STRAND" />
+      <property role="1jqz0p" value="BOOLEAN" />
     </node>
-    <node role="attributes" roleId="6tiq.6726552014277529869" type="6tiq.AttributeDefinition" typeId="6tiq.6726552014277527248" id="4010805091592187101" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="UNUSED" />
+    <node concept="1jqGmV" id="3uDfvGbFyNt" role="1jqH9A">
+      <property role="TrG5h" value="UNUSED" />
     </node>
-    <node role="attributes" roleId="6tiq.6726552014277529869" type="6tiq.AttributeDefinition" typeId="6tiq.6726552014277527248" id="4010805091592187109" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="UNUSED2" />
+    <node concept="1jqGmV" id="3uDfvGbFyN_" role="1jqH9A">
+      <property role="TrG5h" value="UNUSED2" />
     </node>
-    <node role="attributes" roleId="6tiq.6726552014277529869" type="6tiq.AttributeDefinition" typeId="6tiq.6726552014277527248" id="4010805091592187118" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="UNUSED3" />
+    <node concept="1jqGmV" id="3uDfvGbFyNI" role="1jqH9A">
+      <property role="TrG5h" value="UNUSED3" />
     </node>
-    <node role="attributes" roleId="6tiq.6726552014277529869" type="6tiq.AttributeDefinition" typeId="6tiq.6726552014277527248" id="4010805091592571589" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="BISULFITE_SAMPLE" />
-      <property name="type" nameId="6tiq.6726552014277555058" value="BOOLEAN" />
+    <node concept="1jqGmV" id="3uDfvGbH0F5" role="1jqH9A">
+      <property role="TrG5h" value="BISULFITE_SAMPLE" />
+      <property role="1jqz0p" value="BOOLEAN" />
     </node>
-  </root>
-  <root type="6tiq.FileSetAttributeMappings" typeId="6tiq.6726552014277534379" id="6726552014277622941" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="FASTQ_GZ" />
-    <node role="attributes" roleId="6tiq.6726552014277534396" type="6tiq.AttributeDefinitionRef" typeId="6tiq.6726552014277534409" id="6726552014280364020" nodeInfo="ng">
-      <property name="mandatory" nameId="6tiq.723438572043149397" value="true" />
-      <link role="attribute" roleId="6tiq.6726552014277534410" targetNodeId="6726552014277578493" resolveInfo="ORGANISM" />
+  </node>
+  <node concept="1jqI70" id="5PpwQGedbMt">
+    <property role="TrG5h" value="FASTQ_GZ" />
+    <node concept="1jqI6y" id="5PpwQGenCZO" role="1jqI7n">
+      <property role="1lu8Jp" value="true" />
+      <ref role="1jqI6x" node="5PpwQGed0VX" resolve="ORGANISM" />
     </node>
-    <node role="attributes" roleId="6tiq.6726552014277534396" type="6tiq.AttributeDefinitionRef" typeId="6tiq.6726552014277534409" id="6726552014282582702" nodeInfo="ng">
-      <property name="mandatory" nameId="6tiq.723438572043149397" value="true" />
-      <link role="attribute" roleId="6tiq.6726552014277534410" targetNodeId="6726552014277614857" resolveInfo="COLOR_SPACE" />
+    <node concept="1jqI6y" id="5PpwQGew6EI" role="1jqI7n">
+      <property role="1lu8Jp" value="true" />
+      <ref role="1jqI6x" node="5PpwQGed9O9" resolve="COLOR_SPACE" />
     </node>
-    <node role="attributes" roleId="6tiq.6726552014277534396" type="6tiq.AttributeDefinitionRef" typeId="6tiq.6726552014277534409" id="723438572043149339" nodeInfo="ng">
-      <link role="attribute" roleId="6tiq.6726552014277534410" targetNodeId="6726552014277617381" resolveInfo="LIB_PROTOCOL_PRESERVE_STRAND" />
+    <node concept="1jqI6y" id="CaaSLvsE0r" role="1jqI7n">
+      <ref role="1jqI6x" node="5PpwQGedar_" resolve="LIB_PROTOCOL_PRESERVE_STRAND" />
     </node>
-    <node role="attributes" roleId="6tiq.6726552014277534396" type="6tiq.AttributeDefinitionRef" typeId="6tiq.6726552014277534409" id="4010805091592593147" nodeInfo="ng">
-      <link role="attribute" roleId="6tiq.6726552014277534410" targetNodeId="4010805091592571589" resolveInfo="BISULFITE_SAMPLE" />
+    <node concept="1jqI6y" id="3uDfvGbH5VV" role="1jqI7n">
+      <ref role="1jqI6x" node="3uDfvGbH0F5" resolve="BISULFITE_SAMPLE" />
     </node>
-  </root>
-  <root type="6tiq.FileSetAttributeMappings" typeId="6tiq.6726552014277534379" id="723438572043149282" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="COMPACT_READS" />
-    <node role="attributes" roleId="6tiq.6726552014277534396" type="6tiq.AttributeDefinitionRef" typeId="6tiq.6726552014277534409" id="723438572043149283" nodeInfo="ng">
-      <property name="mandatory" nameId="6tiq.723438572043149397" value="true" />
-      <link role="attribute" roleId="6tiq.6726552014277534410" targetNodeId="6726552014277578493" resolveInfo="ORGANISM" />
+  </node>
+  <node concept="1jqI70" id="CaaSLvsDZy">
+    <property role="TrG5h" value="COMPACT_READS" />
+    <node concept="1jqI6y" id="CaaSLvsDZz" role="1jqI7n">
+      <property role="1lu8Jp" value="true" />
+      <ref role="1jqI6x" node="5PpwQGed0VX" resolve="ORGANISM" />
     </node>
-    <node role="attributes" roleId="6tiq.6726552014277534396" type="6tiq.AttributeDefinitionRef" typeId="6tiq.6726552014277534409" id="314766823430594910" nodeInfo="ng">
-      <link role="attribute" roleId="6tiq.6726552014277534410" targetNodeId="4010805091592571589" resolveInfo="BISULFITE_SAMPLE" />
+    <node concept="1jqI6y" id="huhG8pEa5u" role="1jqI7n">
+      <ref role="1jqI6x" node="3uDfvGbH0F5" resolve="BISULFITE_SAMPLE" />
     </node>
-    <node role="attributes" roleId="6tiq.6726552014277534396" type="6tiq.AttributeDefinitionRef" typeId="6tiq.6726552014277534409" id="723438572043149289" nodeInfo="ng">
-      <property name="mandatory" nameId="6tiq.723438572043149397" value="true" />
-      <link role="attribute" roleId="6tiq.6726552014277534410" targetNodeId="6726552014277578495" resolveInfo="PAIRED_END_DIRECTIONS" />
+    <node concept="1jqI6y" id="CaaSLvsDZD" role="1jqI7n">
+      <property role="1lu8Jp" value="true" />
+      <ref role="1jqI6x" node="5PpwQGed0VZ" resolve="PAIRED_END_DIRECTIONS" />
     </node>
-    <node role="attributes" roleId="6tiq.6726552014277534396" type="6tiq.AttributeDefinitionRef" typeId="6tiq.6726552014277534409" id="723438572043149299" nodeInfo="ng">
-      <property name="mandatory" nameId="6tiq.723438572043149397" value="true" />
-      <link role="attribute" roleId="6tiq.6726552014277534410" targetNodeId="6726552014277608891" resolveInfo="READS_PLATFORM" />
+    <node concept="1jqI6y" id="CaaSLvsDZN" role="1jqI7n">
+      <property role="1lu8Jp" value="true" />
+      <ref role="1jqI6x" node="5PpwQGed8mV" resolve="READS_PLATFORM" />
     </node>
-    <node role="attributes" roleId="6tiq.6726552014277534396" type="6tiq.AttributeDefinitionRef" typeId="6tiq.6726552014277534409" id="723438572043149311" nodeInfo="ng">
-      <property name="mandatory" nameId="6tiq.723438572043149397" value="true" />
-      <link role="attribute" roleId="6tiq.6726552014277534410" targetNodeId="6726552014277614857" resolveInfo="COLOR_SPACE" />
+    <node concept="1jqI6y" id="CaaSLvsDZZ" role="1jqI7n">
+      <property role="1lu8Jp" value="true" />
+      <ref role="1jqI6x" node="5PpwQGed9O9" resolve="COLOR_SPACE" />
     </node>
-    <node role="attributes" roleId="6tiq.6726552014277534396" type="6tiq.AttributeDefinitionRef" typeId="6tiq.6726552014277534409" id="723438572043149325" nodeInfo="ng">
-      <property name="mandatory" nameId="6tiq.723438572043149397" value="true" />
-      <link role="attribute" roleId="6tiq.6726552014277534410" targetNodeId="6726552014277617381" resolveInfo="LIB_PROTOCOL_PRESERVE_STRAND" />
+    <node concept="1jqI6y" id="CaaSLvsE0d" role="1jqI7n">
+      <property role="1lu8Jp" value="true" />
+      <ref role="1jqI6x" node="5PpwQGedar_" resolve="LIB_PROTOCOL_PRESERVE_STRAND" />
     </node>
-  </root>
-  <root type="6tiq.FileSetAttributeMappings" typeId="6tiq.6726552014277534379" id="4010805091595508381" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="SUPPORTED_INPUT_READS" />
-    <node role="attributes" roleId="6tiq.6726552014277534396" type="6tiq.AttributeDefinitionRef" typeId="6tiq.6726552014277534409" id="4010805091595508406" nodeInfo="ng">
-      <property name="mandatory" nameId="6tiq.723438572043149397" value="true" />
-      <link role="attribute" roleId="6tiq.6726552014277534410" targetNodeId="6726552014277578493" resolveInfo="ORGANISM" />
+  </node>
+  <node concept="1jqI70" id="3uDfvGbSdEt">
+    <property role="TrG5h" value="SUPPORTED_INPUT_READS" />
+    <node concept="1jqI6y" id="3uDfvGbSdEQ" role="1jqI7n">
+      <property role="1lu8Jp" value="true" />
+      <ref role="1jqI6x" node="5PpwQGed0VX" resolve="ORGANISM" />
     </node>
-    <node role="attributes" roleId="6tiq.6726552014277534396" type="6tiq.AttributeDefinitionRef" typeId="6tiq.6726552014277534409" id="4010805091595533776" nodeInfo="ng">
-      <property name="mandatory" nameId="6tiq.723438572043149397" value="true" />
-      <link role="attribute" roleId="6tiq.6726552014277534410" targetNodeId="6726552014277608891" resolveInfo="READS_PLATFORM" />
+    <node concept="1jqI6y" id="3uDfvGbSjRg" role="1jqI7n">
+      <property role="1lu8Jp" value="true" />
+      <ref role="1jqI6x" node="5PpwQGed8mV" resolve="READS_PLATFORM" />
     </node>
-    <node role="attributes" roleId="6tiq.6726552014277534396" type="6tiq.AttributeDefinitionRef" typeId="6tiq.6726552014277534409" id="4010805091595533810" nodeInfo="ng">
-      <property name="mandatory" nameId="6tiq.723438572043149397" value="true" />
-      <link role="attribute" roleId="6tiq.6726552014277534410" targetNodeId="6726552014277578495" resolveInfo="PAIRED_END_DIRECTIONS" />
+    <node concept="1jqI6y" id="3uDfvGbSjRM" role="1jqI7n">
+      <property role="1lu8Jp" value="true" />
+      <ref role="1jqI6x" node="5PpwQGed0VZ" resolve="PAIRED_END_DIRECTIONS" />
     </node>
-    <node role="attributes" roleId="6tiq.6726552014277534396" type="6tiq.AttributeDefinitionRef" typeId="6tiq.6726552014277534409" id="4010805091595533887" nodeInfo="ng">
-      <link role="attribute" roleId="6tiq.6726552014277534410" targetNodeId="6726552014277614857" resolveInfo="COLOR_SPACE" />
+    <node concept="1jqI6y" id="3uDfvGbSjSZ" role="1jqI7n">
+      <ref role="1jqI6x" node="5PpwQGed9O9" resolve="COLOR_SPACE" />
     </node>
-    <node role="attributes" roleId="6tiq.6726552014277534396" type="6tiq.AttributeDefinitionRef" typeId="6tiq.6726552014277534409" id="4010805091595533929" nodeInfo="ng">
-      <property name="mandatory" nameId="6tiq.723438572043149397" value="true" />
-      <link role="attribute" roleId="6tiq.6726552014277534410" targetNodeId="4010805091592571589" resolveInfo="BISULFITE_SAMPLE" />
+    <node concept="1jqI6y" id="3uDfvGbSjTD" role="1jqI7n">
+      <property role="1lu8Jp" value="true" />
+      <ref role="1jqI6x" node="3uDfvGbH0F5" resolve="BISULFITE_SAMPLE" />
     </node>
-    <node role="attributes" roleId="6tiq.6726552014277534396" type="6tiq.AttributeDefinitionRef" typeId="6tiq.6726552014277534409" id="4010805091595533847" nodeInfo="ng">
-      <link role="attribute" roleId="6tiq.6726552014277534410" targetNodeId="6726552014277617381" resolveInfo="LIB_PROTOCOL_PRESERVE_STRAND" />
+    <node concept="1jqI6y" id="3uDfvGbSjSn" role="1jqI7n">
+      <ref role="1jqI6x" node="5PpwQGedar_" resolve="LIB_PROTOCOL_PRESERVE_STRAND" />
     </node>
-  </root>
-  <root type="6tiq.FileSetAttributeMappings" typeId="6tiq.6726552014277534379" id="2488017961291969146" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="GOBY_ALIGNMENT" />
-    <node role="attributes" roleId="6tiq.6726552014277534396" type="6tiq.AttributeDefinitionRef" typeId="6tiq.6726552014277534409" id="2488017961291969147" nodeInfo="ng">
-      <property name="mandatory" nameId="6tiq.723438572043149397" value="true" />
-      <link role="attribute" roleId="6tiq.6726552014277534410" targetNodeId="6726552014277578493" resolveInfo="ORGANISM" />
+  </node>
+  <node concept="1jqI70" id="2a7dMtpAn9U">
+    <property role="TrG5h" value="GOBY_ALIGNMENT" />
+    <node concept="1jqI6y" id="2a7dMtpAn9V" role="1jqI7n">
+      <property role="1lu8Jp" value="true" />
+      <ref role="1jqI6x" node="5PpwQGed0VX" resolve="ORGANISM" />
     </node>
-    <node role="attributes" roleId="6tiq.6726552014277534396" type="6tiq.AttributeDefinitionRef" typeId="6tiq.6726552014277534409" id="2488017961291969148" nodeInfo="ng">
-      <link role="attribute" roleId="6tiq.6726552014277534410" targetNodeId="4010805091592571589" resolveInfo="BISULFITE_SAMPLE" />
+    <node concept="1jqI6y" id="2a7dMtpAn9W" role="1jqI7n">
+      <ref role="1jqI6x" node="3uDfvGbH0F5" resolve="BISULFITE_SAMPLE" />
     </node>
-    <node role="attributes" roleId="6tiq.6726552014277534396" type="6tiq.AttributeDefinitionRef" typeId="6tiq.6726552014277534409" id="2488017961291969149" nodeInfo="ng">
-      <property name="mandatory" nameId="6tiq.723438572043149397" value="true" />
-      <link role="attribute" roleId="6tiq.6726552014277534410" targetNodeId="6726552014277578495" resolveInfo="PAIRED_END_DIRECTIONS" />
+    <node concept="1jqI6y" id="2a7dMtpAn9X" role="1jqI7n">
+      <property role="1lu8Jp" value="true" />
+      <ref role="1jqI6x" node="5PpwQGed0VZ" resolve="PAIRED_END_DIRECTIONS" />
     </node>
-    <node role="attributes" roleId="6tiq.6726552014277534396" type="6tiq.AttributeDefinitionRef" typeId="6tiq.6726552014277534409" id="2488017961291969151" nodeInfo="ng">
-      <property name="mandatory" nameId="6tiq.723438572043149397" value="true" />
-      <link role="attribute" roleId="6tiq.6726552014277534410" targetNodeId="6726552014277614857" resolveInfo="COLOR_SPACE" />
+    <node concept="1jqI6y" id="2a7dMtpAn9Z" role="1jqI7n">
+      <property role="1lu8Jp" value="true" />
+      <ref role="1jqI6x" node="5PpwQGed9O9" resolve="COLOR_SPACE" />
     </node>
-  </root>
+  </node>
 </model>
 

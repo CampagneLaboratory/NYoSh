@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="a5ff6f1b-885e-4f1e-be7d-09432bfbf851/r:8db50a9d-fbc2-4ee3-8403-093f8da2dedc(org.campagnelab.lucene.tableviewer/org.campagnelab.lucene.tableviewer.actions)" concise="true">
+<model ref="a5ff6f1b-885e-4f1e-be7d-09432bfbf851/r:8db50a9d-fbc2-4ee3-8403-093f8da2dedc(org.campagnelab.lucene.tableviewer/org.campagnelab.lucene.tableviewer.actions)">
   <persistence version="9" />
   <languages>
     <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="-1" />

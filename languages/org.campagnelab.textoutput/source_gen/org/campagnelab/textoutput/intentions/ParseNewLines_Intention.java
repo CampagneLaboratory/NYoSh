@@ -13,7 +13,6 @@ import jetbrains.mps.smodel.SNodePointer;
 import java.util.Collections;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
@@ -46,7 +45,7 @@ public class ParseNewLines_Intention implements IntentionFactory {
     return true;
   }
   public SNodeReference getIntentionNodeReference() {
-    return new SNodePointer("r:55d3455f-42cc-4fb7-8ffb-91281ea900e9(org.campagnelab.textoutput.intentions)", "8245000766498756105");
+    return new SNodePointer("901f5cf3-dc77-4c1e-bc5a-6382baee28b4/r:55d3455f-42cc-4fb7-8ffb-91281ea900e9(org.campagnelab.textoutput/org.campagnelab.textoutput.intentions)", "8245000766498756105");
   }
   public boolean isSurroundWith() {
     return false;
@@ -64,16 +63,16 @@ public class ParseNewLines_Intention implements IntentionFactory {
       return "Split Line at New Line Character";
     }
     public void execute(final SNode node, final EditorContext editorContext) {
-      String text = SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(new UUID(-8061622605524284386l, -4874474233542072140l), 5493669862519709805l, 5493669862519718600l, "text"));
+      String text = SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x4c3d6fa21cc1a06dL, 0x4c3d6fa21cc1c2c8L, "text"));
       if (text.contains("\\n")) {
         String[] subLines = text.split("\\\\n");
-        SNode lines = SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(-8061622605524284386l, -4874474233542072140l), 5039633819242576787l, "org.campagnelab.textoutput.structure.Lines")));
+        SNode lines = SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x45f06041e9ffbb93L, "org.campagnelab.textoutput.structure.Lines")));
         for (String subline : subLines) {
-          SNode newLine = SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(-8061622605524284386l, -4874474233542072140l), 5493669862519709805l, "org.campagnelab.textoutput.structure.Line")));
-          SPropertyOperations.set(newLine, MetaAdapterFactory.getProperty(new UUID(-8061622605524284386l, -4874474233542072140l), 5493669862519709805l, 5493669862519718600l, "text"), subline);
-          ListSequence.fromList(SLinkOperations.getChildren(lines, MetaAdapterFactory.getContainmentLink(new UUID(-8061622605524284386l, -4874474233542072140l), 5039633819242576787l, 5039633819242576854l, "lines"))).addElement(newLine);
+          SNode newLine = SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x4c3d6fa21cc1a06dL, "org.campagnelab.textoutput.structure.Line")));
+          SPropertyOperations.set(newLine, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x4c3d6fa21cc1a06dL, 0x4c3d6fa21cc1c2c8L, "text"), subline);
+          ListSequence.fromList(SLinkOperations.getChildren(lines, MetaAdapterFactory.getContainmentLink(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x45f06041e9ffbb93L, 0x45f06041e9ffbbd6L, "lines"))).addElement(newLine);
         }
-        SPropertyOperations.set(node, MetaAdapterFactory.getProperty(new UUID(-8061622605524284386l, -4874474233542072140l), 5493669862519709805l, 5493669862519718600l, "text"), "");
+        SPropertyOperations.set(node, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x4c3d6fa21cc1a06dL, 0x4c3d6fa21cc1c2c8L, "text"), "");
         SNodeOperations.insertPrevSiblingChild(node, lines);
       }
     }

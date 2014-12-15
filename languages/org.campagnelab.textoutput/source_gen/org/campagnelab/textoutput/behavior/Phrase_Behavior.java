@@ -5,10 +5,9 @@ package org.campagnelab.textoutput.behavior;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 
 public class Phrase_Behavior {
   public static void init(SNode thisNode) {
-    SPropertyOperations.set(thisNode, MetaAdapterFactory.getProperty(new UUID(-8061622605524284386l, -4874474233542072140l), 1680136183140337486l, 1680136183140337487l, "text"), "");
+    SPropertyOperations.set(thisNode, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x17510af4f25c474eL, 0x17510af4f25c474fL, "text"), "");
   }
 }

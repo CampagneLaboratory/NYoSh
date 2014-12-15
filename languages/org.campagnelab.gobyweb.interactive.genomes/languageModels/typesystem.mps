@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="0e33afe3-d914-492d-8584-911dae0711b2/r:685986b5-a522-488c-914e-e7af835801da(org.campagnelab.gobyweb.interactive.genomes/org.campagnelab.gobyweb.interactive.genomes.typesystem)" concise="true">
+<model ref="0e33afe3-d914-492d-8584-911dae0711b2/r:685986b5-a522-488c-914e-e7af835801da(org.campagnelab.gobyweb.interactive.genomes/org.campagnelab.gobyweb.interactive.genomes.typesystem)">
   <persistence version="9" />
   <languages>
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="-1" />

@@ -26,7 +26,6 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 
 public class TextOutput_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
@@ -153,7 +152,7 @@ public class TextOutput_Editor extends DefaultNodeEditor {
     }
   }
   private static boolean renderingCondition_byjkm7_a0f0(SNode node, EditorContext editorContext) {
-    return ListSequence.fromList(SLinkOperations.getChildren(node, MetaAdapterFactory.getContainmentLink(new UUID(-8061622605524284386l, -4874474233542072140l), 6874736155931251147l, 5493669862519699347l, "lines"))).isNotEmpty();
+    return ListSequence.fromList(SLinkOperations.getChildren(node, MetaAdapterFactory.getContainmentLink(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x5f67f81c22d111cbL, 0x4c3d6fa21cc17793L, "lines"))).isNotEmpty();
   }
   private EditorCell createRefNodeList_byjkm7_b5a(EditorContext editorContext, SNode node) {
     AbstractCellListHandler handler = new TextOutput_Editor.lineContainerListHandler_byjkm7_b5a(node, "lineContainer", editorContext);
@@ -209,6 +208,6 @@ public class TextOutput_Editor extends DefaultNodeEditor {
     }
   }
   private static boolean renderingCondition_byjkm7_a1f0(SNode node, EditorContext editorContext) {
-    return ListSequence.fromList(SLinkOperations.getChildren(node, MetaAdapterFactory.getContainmentLink(new UUID(-8061622605524284386l, -4874474233542072140l), 6874736155931251147l, 5039633819243297498l, "lineContainer"))).isNotEmpty();
+    return ListSequence.fromList(SLinkOperations.getChildren(node, MetaAdapterFactory.getContainmentLink(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x5f67f81c22d111cbL, 0x45f06041ea0abadaL, "lineContainer"))).isNotEmpty();
   }
 }

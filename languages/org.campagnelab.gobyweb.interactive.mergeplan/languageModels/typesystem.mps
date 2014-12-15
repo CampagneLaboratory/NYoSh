@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="3f8906ee-821c-4fd1-ae5d-26a10b3b747c/r:dffb1c53-15d1-4678-803f-0fa55d33aba3(org.campagnelab.gobyweb.interactive.mergeplan/org.campagnelab.gobyweb.interactive.mergeplan.typesystem)" concise="true">
+<model ref="3f8906ee-821c-4fd1-ae5d-26a10b3b747c/r:dffb1c53-15d1-4678-803f-0fa55d33aba3(org.campagnelab.gobyweb.interactive.mergeplan/org.campagnelab.gobyweb.interactive.mergeplan.typesystem)">
   <persistence version="9" />
   <languages>
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="-1" />

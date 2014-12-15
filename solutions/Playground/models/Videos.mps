@@ -1,68 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:a22d72ba-fe32-4bf8-b578-e06cd6f4405d(Videos)" concise="true">
+<model ref="5e1a516a-83e0-454d-87d5-b29abfd5aa4c/r:a22d72ba-fe32-4bf8-b578-e06cd6f4405d(Playground/Videos)">
   <persistence version="9" />
   <languages>
     <devkit ref="db81b829-e557-4467-b78e-cc1d44965622(org.campagnelab.devkit.gobyweb.interactive)" />
   </languages>
   <imports>
-    <import index="apyi" ref="r:b1add29a-5fdc-4829-8ab9-29a8ba0266f1(mac158665)" />
-    <import index="xgnk" ref="r:4628b8e8-9ce4-47ec-8064-d824cbf667b0(LuceneTables)" />
-    <import index="bs99" ref="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" implicit="true" />
-    <import index="9k5" ref="r:df9645c2-d2fa-41cb-a718-044a287b0626(org.campagnelab.clusterConfig.structure)" implicit="true" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="7c6v" ref="r:5ff8ae95-054c-4cda-b392-b0e2d796b9da(org.campagnelab.lucene.tableviewer.structure)" implicit="true" />
-    <import index="935h" ref="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" implicit="true" />
-    <import index="dzk5" ref="r:2bfcc546-5c51-4762-9df2-c43920be4458(org.campagnelab.gobyweb.plugins.structure)" implicit="true" />
+    <import index="apyi" ref="5e1a516a-83e0-454d-87d5-b29abfd5aa4c/r:b1add29a-5fdc-4829-8ab9-29a8ba0266f1(Playground/mac158665)" />
+    <import index="xgnk" ref="5e1a516a-83e0-454d-87d5-b29abfd5aa4c/r:4628b8e8-9ce4-47ec-8064-d824cbf667b0(Playground/LuceneTables)" />
   </imports>
   <registry>
+    <language id="00000000-0000-0000-0000-000000000000" name="">
+      <concept id="0" name="" flags="ng" index="00000">
+        <property id="0" name="owner" index="00000" />
+      </concept>
+    </language>
+    <language id="a8fb88b0-7e9f-478c-aab4-a1b076131192" name="org.campagnelab.gobyweb.interactive">
+      <concept id="202400229140351294" name="org.campagnelab.gobyweb.interactive.structure.DownloadArea" flags="ng" index="2y$lzh">
+        <child id="202400229140351977" name="locations" index="2y$lC6" />
+      </concept>
+      <concept id="202400229140474293" name="org.campagnelab.gobyweb.interactive.structure.DownloadLocation" flags="ng" index="2yFNxq">
+        <property id="202400229140474294" name="path" index="2yFNxp" />
+      </concept>
+      <concept id="1997533223701191426" name="org.campagnelab.gobyweb.interactive.structure.PluginRepository" flags="ng" index="Eubbw">
+        <property id="5752449153162294620" name="viewPlugins" index="2_qfHq" />
+        <property id="1997533223701200855" name="directory" index="Eu9oP" />
+        <property id="6519147379582592022" name="query" index="G2cSm" />
+        <property id="5704832314560344592" name="numPluginsLoaded" index="3NC_3j" />
+        <property id="5704832314560662319" name="loaded" index="3NDmBG" />
+        <child id="4277119496928220709" name="plugins" index="1f5Fuw" />
+      </concept>
+      <concept id="2051553890368778876" name="org.campagnelab.gobyweb.interactive.structure.ExecutionEnvironment" flags="ng" index="3lueso">
+        <child id="202400229141572367" name="downloadArea" index="2yJZFw" />
+        <child id="1997533223701807309" name="pluginRepository" index="Esi$J" />
+      </concept>
+    </language>
     <language id="a5ff6f1b-885e-4f1e-be7d-09432bfbf851" name="org.campagnelab.lucene.tableviewer">
-      <concept id="3688269350664395158" name="org.campagnelab.lucene.tableviewer.structure.Query" flags="ng" index="3ho8jS">
-        <child id="3688269350664395159" name="expression" index="3ho8jT" />
-      </concept>
-      <concept id="3688269350663788845" name="org.campagnelab.lucene.tableviewer.structure.TermRangeSearch" flags="ng" index="3hqsh3">
-        <property id="3000071662887704900" name="fromInclusive" index="1IwnKc" />
-        <property id="3000071662887704912" name="toInclusive" index="1IwnKo" />
-        <property id="3688269350663788850" name="to" index="3hqshs" />
-        <property id="3688269350663788848" name="from" index="3hqshu" />
-      </concept>
-      <concept id="3688269350663783363" name="org.campagnelab.lucene.tableviewer.structure.FieldQuery" flags="ng" index="3hqtUH">
-        <reference id="3688269350663783368" name="field" index="3hqtUA" />
-        <child id="3688269350663783364" name="expression" index="3hqtUE" />
-      </concept>
+      <concept id="1382465545655829246" name="org.campagnelab.lucene.tableviewer.structure.ColumnReference" flags="ng" index="309WfC" />
       <concept id="6642819616993943793" name="org.campagnelab.lucene.tableviewer.structure.LuceneTableViewer" flags="ng" index="15QUBe">
-        <property id="6642819616994075174" name="indexBaseName" index="15RqGp" />
         <property id="3842069646169678730" name="exportFilename" index="2r4epQ" />
         <property id="1382465545654824559" name="height" index="31PQXT" />
         <property id="1382465545654824555" name="width" index="31PQXX" />
         <property id="1382465545654648585" name="pageSize" index="31QrSv" />
-        <child id="2718488839587641498" name="columns" index="1GLzIC" />
-        <child id="2718488839587659342" name="visibleColumns" index="1GLBPW" />
+        <property id="6642819616994075174" name="indexBaseName" index="15RqGp" />
         <child id="1382465545655829234" name="columnSelection" index="309Wf$" />
         <child id="3688269350664121203" name="query" index="3hpfot" />
         <child id="214549661775847102" name="sortOrder" index="3qbAlT" />
+        <child id="2718488839587641498" name="columns" index="1GLzIC" />
+        <child id="2718488839587659342" name="visibleColumns" index="1GLBPW" />
       </concept>
       <concept id="6642819616993993151" name="org.campagnelab.lucene.tableviewer.structure.TestPage" flags="ng" index="15R6y0">
         <child id="6642819616993993152" name="viewer" index="15R6zZ" />
       </concept>
+      <concept id="3688269350664395158" name="org.campagnelab.lucene.tableviewer.structure.Query" flags="ng" index="3ho8jS">
+        <child id="3688269350664395159" name="expression" index="3ho8jT" />
+      </concept>
+      <concept id="3688269350663788845" name="org.campagnelab.lucene.tableviewer.structure.TermRangeSearch" flags="ng" index="3hqsh3">
+        <property id="3688269350663788850" name="to" index="3hqshs" />
+        <property id="3688269350663788848" name="from" index="3hqshu" />
+        <property id="3000071662887704900" name="fromInclusive" index="1IwnKc" />
+        <property id="3000071662887704912" name="toInclusive" index="1IwnKo" />
+      </concept>
+      <concept id="3688269350663783371" name="org.campagnelab.lucene.tableviewer.structure.IndexedField" flags="ng" index="3hqtU_" />
+      <concept id="3688269350663783363" name="org.campagnelab.lucene.tableviewer.structure.FieldQuery" flags="ng" index="3hqtUH">
+        <reference id="3688269350663783368" name="field" index="3hqtUA" />
+        <child id="3688269350663783364" name="expression" index="3hqtUE" />
+      </concept>
       <concept id="8794265050549986216" name="org.campagnelab.lucene.tableviewer.structure.Column" flags="ng" index="1kCqbg">
-        <property id="4461009712884923163" name="isSearchable" index="3LYwID" />
-        <property id="2718488839587704871" name="index" index="1GLNcl" />
-        <property id="3000071662888680057" name="type" index="1I$TWL" />
         <property id="4042788916789562353" name="associatedSortColumnName" index="2vexjC" />
         <property id="6295276321619058362" name="internalName" index="2AlkVf" />
+        <property id="2718488839587704871" name="index" index="1GLNcl" />
+        <property id="3000071662888680057" name="type" index="1I$TWL" />
+        <property id="4461009712884923163" name="isSearchable" index="3LYwID" />
       </concept>
-      <concept id="2447038862120075867" name="org.campagnelab.lucene.tableviewer.structure.HasColumnRef" flags="ng" index="1LMYaU">
-        <reference id="2447038862120075868" name="column" index="1LMYaX" />
-        <child id="4461009712883249667" name="field" index="3Q4oaL" />
-      </concept>
-      <concept id="1382465545655829246" name="org.campagnelab.lucene.tableviewer.structure.ColumnReference" flags="ng" index="309WfC" />
-      <concept id="3688269350663783371" name="org.campagnelab.lucene.tableviewer.structure.IndexedField" flags="ng" index="3hqtU_" />
       <concept id="214549661775817568" name="org.campagnelab.lucene.tableviewer.structure.ColumnSort" flags="ng" index="3qat2B">
         <property id="214549661775817569" name="ascending" index="3qat2A" />
         <reference id="214549661775840875" name="field" index="3qbBQG" />
       </concept>
       <concept id="214549661775816073" name="org.campagnelab.lucene.tableviewer.structure.SortOrder" flags="ng" index="3qatTe">
         <child id="214549661775829237" name="columns" index="3qbycM" />
+      </concept>
+      <concept id="2447038862120075867" name="org.campagnelab.lucene.tableviewer.structure.HasColumnRef" flags="ng" index="1LMYaU">
+        <reference id="2447038862120075868" name="column" index="1LMYaX" />
+        <child id="4461009712883249667" name="field" index="3Q4oaL" />
+      </concept>
+    </language>
+    <language id="7620dd3f-7541-48a3-b1e6-01cced81a7a5" name="org.campagnelab.clusterConfig">
+      <concept id="664989078347184634" name="org.campagnelab.clusterConfig.structure.ConnectionPort" flags="ng" index="FnRRL">
+        <property id="664989078347184651" name="number" index="FnRS0" />
+        <property id="8730366339363382117" name="reachable" index="1pS5Ub" />
+        <property id="8730366339363530155" name="connectionChecked" index="1pSxx5" />
+        <reference id="664989078347742108" name="targetNode" index="FlfYn" />
+      </concept>
+      <concept id="3050176288341317031" name="org.campagnelab.clusterConfig.structure.AdhocCluster" flags="ng" index="1iGNab">
+        <child id="3050176288341317059" name="nodes" index="1iGNbJ" />
+      </concept>
+      <concept id="3050176288337501843" name="org.campagnelab.clusterConfig.structure.ExecutionNode" flags="ng" index="1iYnAZ">
+        <property id="3050176288341320771" name="numCores" index="1iGKdJ" />
+        <property id="3050176288337501845" name="server" index="1iYnAT" />
+        <property id="2243041462218990633" name="isReachable" index="1VaspU" />
+        <child id="664989078351252753" name="ports" index="FBC$q" />
+      </concept>
+      <concept id="3050176288343649504" name="org.campagnelab.clusterConfig.structure.NodeRef" flags="ng" index="1jnCJc">
+        <property id="3050176288343649558" name="active" index="1jnCCU" />
+        <reference id="3050176288343649556" name="node" index="1jnCCS" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -71,21 +111,6 @@
       </concept>
     </language>
     <language id="0b7d8bbd-896e-495e-be60-01a0d738a649" name="org.campagnelab.gobyweb.plugins">
-      <concept id="2105345521168953464" name="org.campagnelab.gobyweb.plugins.structure.AlignerConfig" flags="ng" index="3jyS3w" />
-      <concept id="2105345521168932836" name="org.campagnelab.gobyweb.plugins.structure.ExecutableConfig" flags="ng" index="3jz6XW">
-        <child id="2123376856174779241" name="options" index="TSDHD" />
-        <child id="4277119496930247909" name="ioSchema" index="1fdUlw" />
-      </concept>
-      <concept id="2105345521169244661" name="org.campagnelab.gobyweb.plugins.structure.ResourceConfig" flags="ng" index="3jXL5H" />
-      <concept id="2105345521169244678" name="org.campagnelab.gobyweb.plugins.structure.ResourceRef" flags="ng" index="3jXLau">
-        <property id="6519147379582423949" name="atLeast" index="G5nAd" />
-        <property id="6519147379582423991" name="exactly" index="G5nAR" />
-        <reference id="2105345521169244679" name="resource" index="3jXLav" />
-      </concept>
-      <concept id="2105345521169223215" name="org.campagnelab.gobyweb.plugins.structure.AlignmentAnalysisConfig" flags="ng" index="3jXZUR" />
-      <concept id="2105345521169941063" name="org.campagnelab.gobyweb.plugins.structure.ResourceConsumer" flags="ng" index="3jZfbv">
-        <child id="2105345521169244662" name="requires" index="3jXL5I" />
-      </concept>
       <concept id="2123376856175593990" name="org.campagnelab.gobyweb.plugins.structure.Category" flags="ng" index="TPwC6">
         <property id="2123376856175593991" name="id" index="TPwC7" />
       </concept>
@@ -127,57 +152,26 @@
       <concept id="4277119496932927688" name="org.campagnelab.gobyweb.plugins.structure.FileSetConfig" flags="ng" index="1fNG_d">
         <child id="4277119496932984293" name="elements" index="1fNuhw" />
       </concept>
+      <concept id="2105345521168953464" name="org.campagnelab.gobyweb.plugins.structure.AlignerConfig" flags="ng" index="3jyS3w" />
+      <concept id="2105345521168932836" name="org.campagnelab.gobyweb.plugins.structure.ExecutableConfig" flags="ng" index="3jz6XW">
+        <child id="2123376856174779241" name="options" index="TSDHD" />
+        <child id="4277119496930247909" name="ioSchema" index="1fdUlw" />
+      </concept>
+      <concept id="2105345521169244661" name="org.campagnelab.gobyweb.plugins.structure.ResourceConfig" flags="ng" index="3jXL5H" />
+      <concept id="2105345521169244678" name="org.campagnelab.gobyweb.plugins.structure.ResourceRef" flags="ng" index="3jXLau">
+        <property id="6519147379582423949" name="atLeast" index="G5nAd" />
+        <property id="6519147379582423991" name="exactly" index="G5nAR" />
+        <reference id="2105345521169244679" name="resource" index="3jXLav" />
+      </concept>
+      <concept id="2105345521169223215" name="org.campagnelab.gobyweb.plugins.structure.AlignmentAnalysisConfig" flags="ng" index="3jXZUR" />
+      <concept id="2105345521169941063" name="org.campagnelab.gobyweb.plugins.structure.ResourceConsumer" flags="ng" index="3jZfbv">
+        <child id="2105345521169244662" name="requires" index="3jXL5I" />
+      </concept>
     </language>
     <language id="adfd00cb-58d7-4094-bca8-f941a491e04f" name="org.campagnelab.gobyweb">
       <concept id="6519147379572947966" name="org.campagnelab.gobyweb.structure.PluginReference" flags="ng" index="JDp7Y">
         <property id="6519147379572947967" name="pluginID" index="JDp7Z" />
         <property id="6519147379572947969" name="pluginDescription" index="JDpo1" />
-      </concept>
-    </language>
-    <language id="00000000-0000-0000-0000-000000000000" name="">
-      <concept id="0" name="" flags="ng" index="00000">
-        <property id="0" name="owner" index="00000" />
-      </concept>
-    </language>
-    <language id="a8fb88b0-7e9f-478c-aab4-a1b076131192" name="org.campagnelab.gobyweb.interactive">
-      <concept id="2051553890368778876" name="org.campagnelab.gobyweb.interactive.structure.ExecutionEnvironment" flags="ng" index="3lueso">
-        <child id="1997533223701807309" name="pluginRepository" index="Esi$J" />
-        <child id="202400229141572367" name="downloadArea" index="2yJZFw" />
-      </concept>
-      <concept id="1997533223701191426" name="org.campagnelab.gobyweb.interactive.structure.PluginRepository" flags="ng" index="Eubbw">
-        <property id="5704832314560344592" name="numPluginsLoaded" index="3NC_3j" />
-        <property id="1997533223701200855" name="directory" index="Eu9oP" />
-        <property id="6519147379582592022" name="query" index="G2cSm" />
-        <property id="5752449153162294620" name="viewPlugins" index="2_qfHq" />
-        <property id="5704832314560662319" name="loaded" index="3NDmBG" />
-        <child id="4277119496928220709" name="plugins" index="1f5Fuw" />
-      </concept>
-      <concept id="202400229140351294" name="org.campagnelab.gobyweb.interactive.structure.DownloadArea" flags="ng" index="2y$lzh">
-        <child id="202400229140351977" name="locations" index="2y$lC6" />
-      </concept>
-      <concept id="202400229140474293" name="org.campagnelab.gobyweb.interactive.structure.DownloadLocation" flags="ng" index="2yFNxq">
-        <property id="202400229140474294" name="path" index="2yFNxp" />
-      </concept>
-    </language>
-    <language id="7620dd3f-7541-48a3-b1e6-01cced81a7a5" name="org.campagnelab.clusterConfig">
-      <concept id="664989078347184634" name="org.campagnelab.clusterConfig.structure.ConnectionPort" flags="ng" index="FnRRL">
-        <property id="664989078347184651" name="number" index="FnRS0" />
-        <property id="8730366339363382117" name="reachable" index="1pS5Ub" />
-        <property id="8730366339363530155" name="connectionChecked" index="1pSxx5" />
-        <reference id="664989078347742108" name="targetNode" index="FlfYn" />
-      </concept>
-      <concept id="3050176288341317031" name="org.campagnelab.clusterConfig.structure.AdhocCluster" flags="ng" index="1iGNab">
-        <child id="3050176288341317059" name="nodes" index="1iGNbJ" />
-      </concept>
-      <concept id="3050176288337501843" name="org.campagnelab.clusterConfig.structure.ExecutionNode" flags="ng" index="1iYnAZ">
-        <property id="3050176288341320771" name="numCores" index="1iGKdJ" />
-        <property id="3050176288337501845" name="server" index="1iYnAT" />
-        <property id="2243041462218990633" name="isReachable" index="1VaspU" />
-        <child id="664989078351252753" name="ports" index="FBC$q" />
-      </concept>
-      <concept id="3050176288343649504" name="org.campagnelab.clusterConfig.structure.NodeRef" flags="ng" index="1jnCJc">
-        <property id="3050176288343649558" name="active" index="1jnCCU" />
-        <reference id="3050176288343649556" name="node" index="1jnCCS" />
       </concept>
     </language>
   </registry>

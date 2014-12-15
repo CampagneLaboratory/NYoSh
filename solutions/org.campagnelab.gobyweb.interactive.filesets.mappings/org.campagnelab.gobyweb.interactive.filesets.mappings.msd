@@ -10,7 +10,7 @@
     <usedLanguage>853d29f2-dbd7-4a64-a6cd-27608b08e948(org.campagnelab.gobyweb.interactive.mappings)</usedLanguage>
   </usedLanguages>
   <languageVersions>
-    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" fqName="jetbrains.mps.lang.core" version="0" />
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" fqName="jetbrains.mps.lang.core" version="1" />
     <language id="853d29f2-dbd7-4a64-a6cd-27608b08e948" fqName="org.campagnelab.gobyweb.interactive.mappings" version="0" />
   </languageVersions>
 </solution>

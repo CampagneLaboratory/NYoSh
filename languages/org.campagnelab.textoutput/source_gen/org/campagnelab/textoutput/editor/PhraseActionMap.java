@@ -9,7 +9,6 @@ import jetbrains.mps.openapi.editor.cells.CellActionType;
 import jetbrains.mps.editor.runtime.cells.AbstractCellAction;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.smodel.action.SNodeFactoryOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
@@ -28,7 +27,7 @@ public class PhraseActionMap {
       this.execute_internal(editorContext, this.myNode);
     }
     public void execute_internal(EditorContext editorContext, SNode node) {
-      SNodeOperations.insertPrevSiblingChild(SNodeOperations.getNodeAncestor(node, MetaAdapterFactory.getConcept(new UUID(-8061622605524284386l, -4874474233542072140l), 5493669862519709805l, "org.campagnelab.textoutput.structure.Line"), false, false), SNodeFactoryOperations.createNewNode(SNodeFactoryOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(-8061622605524284386l, -4874474233542072140l), 5493669862519709805l, "org.campagnelab.textoutput.structure.Line")), null));
+      SNodeOperations.insertPrevSiblingChild(SNodeOperations.getNodeAncestor(node, MetaAdapterFactory.getConcept(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x4c3d6fa21cc1a06dL, "org.campagnelab.textoutput.structure.Line"), false, false), SNodeFactoryOperations.createNewNode(SNodeFactoryOperations.asInstanceConcept(MetaAdapterFactory.getConcept(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x4c3d6fa21cc1a06dL, "org.campagnelab.textoutput.structure.Line")), null));
     }
   }
   public static class PhraseActionMap_INSERT extends AbstractCellAction {
@@ -40,7 +39,7 @@ public class PhraseActionMap {
       this.execute_internal(editorContext, this.myNode);
     }
     public void execute_internal(EditorContext editorContext, SNode node) {
-      SNodeOperations.insertNextSiblingChild(SNodeOperations.getNodeAncestor(node, MetaAdapterFactory.getConcept(new UUID(-8061622605524284386l, -4874474233542072140l), 5493669862519709805l, "org.campagnelab.textoutput.structure.Line"), false, false), SNodeFactoryOperations.createNewNode(SNodeFactoryOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(-8061622605524284386l, -4874474233542072140l), 5493669862519709805l, "org.campagnelab.textoutput.structure.Line")), null));
+      SNodeOperations.insertNextSiblingChild(SNodeOperations.getNodeAncestor(node, MetaAdapterFactory.getConcept(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x4c3d6fa21cc1a06dL, "org.campagnelab.textoutput.structure.Line"), false, false), SNodeFactoryOperations.createNewNode(SNodeFactoryOperations.asInstanceConcept(MetaAdapterFactory.getConcept(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x4c3d6fa21cc1a06dL, "org.campagnelab.textoutput.structure.Line")), null));
     }
   }
   public static class PhraseActionMap_DELETE_TO_WORD_END extends AbstractCellAction {
@@ -52,8 +51,8 @@ public class PhraseActionMap {
       this.execute_internal(editorContext, this.myNode);
     }
     public void execute_internal(EditorContext editorContext, SNode node) {
-      SNode nextPhrase = SNodeOperations.cast(SNodeOperations.getNextSibling(node), MetaAdapterFactory.getConcept(new UUID(-8061622605524284386l, -4874474233542072140l), 1680136183140337486l, "org.campagnelab.textoutput.structure.Phrase"));
-      SPropertyOperations.set(nextPhrase, MetaAdapterFactory.getProperty(new UUID(-8061622605524284386l, -4874474233542072140l), 1680136183140337486l, 1680136183140337487l, "text"), SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(new UUID(-8061622605524284386l, -4874474233542072140l), 1680136183140337486l, 1680136183140337487l, "text")) + SPropertyOperations.getString(nextPhrase, MetaAdapterFactory.getProperty(new UUID(-8061622605524284386l, -4874474233542072140l), 1680136183140337486l, 1680136183140337487l, "text")));
+      SNode nextPhrase = SNodeOperations.cast(SNodeOperations.getNextSibling(node), MetaAdapterFactory.getConcept(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x17510af4f25c474eL, "org.campagnelab.textoutput.structure.Phrase"));
+      SPropertyOperations.set(nextPhrase, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x17510af4f25c474eL, 0x17510af4f25c474fL, "text"), SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x17510af4f25c474eL, 0x17510af4f25c474fL, "text")) + SPropertyOperations.getString(nextPhrase, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x17510af4f25c474eL, 0x17510af4f25c474fL, "text")));
     }
   }
 }

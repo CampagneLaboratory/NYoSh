@@ -5,7 +5,6 @@ package org.campagnelab.textoutput.behavior;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
@@ -13,28 +12,28 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class Line_Behavior {
   public static void init(SNode thisNode) {
-    SPropertyOperations.set(thisNode, MetaAdapterFactory.getProperty(new UUID(-8061622605524284386l, -4874474233542072140l), 5493669862519709805l, 5493669862519718600l, "text"), "");
+    SPropertyOperations.set(thisNode, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x4c3d6fa21cc1a06dL, 0x4c3d6fa21cc1c2c8L, "text"), "");
   }
   public static void virtual_deconvoluteLines_4239459373915862301(SNode thisNode) {
-    String text = SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(new UUID(-8061622605524284386l, -4874474233542072140l), 5493669862519709805l, 5493669862519718600l, "text"));
+    String text = SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x4c3d6fa21cc1a06dL, 0x4c3d6fa21cc1c2c8L, "text"));
     if (text.contains("\\n")) {
       String[] subLines = text.split("\\\\n");
-      SNode lines = SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(-8061622605524284386l, -4874474233542072140l), 5039633819242576787l, "org.campagnelab.textoutput.structure.Lines")));
+      SNode lines = SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x45f06041e9ffbb93L, "org.campagnelab.textoutput.structure.Lines")));
       for (String subline : subLines) {
-        SNode newLine = SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(-8061622605524284386l, -4874474233542072140l), 5493669862519709805l, "org.campagnelab.textoutput.structure.Line")));
-        SPropertyOperations.set(newLine, MetaAdapterFactory.getProperty(new UUID(-8061622605524284386l, -4874474233542072140l), 5493669862519709805l, 5493669862519718600l, "text"), subline);
-        ListSequence.fromList(SLinkOperations.getChildren(lines, MetaAdapterFactory.getContainmentLink(new UUID(-8061622605524284386l, -4874474233542072140l), 5039633819242576787l, 5039633819242576854l, "lines"))).addElement(newLine);
+        SNode newLine = SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x4c3d6fa21cc1a06dL, "org.campagnelab.textoutput.structure.Line")));
+        SPropertyOperations.set(newLine, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x4c3d6fa21cc1a06dL, 0x4c3d6fa21cc1c2c8L, "text"), subline);
+        ListSequence.fromList(SLinkOperations.getChildren(lines, MetaAdapterFactory.getContainmentLink(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x45f06041e9ffbb93L, 0x45f06041e9ffbbd6L, "lines"))).addElement(newLine);
       }
-      SPropertyOperations.set(thisNode, MetaAdapterFactory.getProperty(new UUID(-8061622605524284386l, -4874474233542072140l), 5493669862519709805l, 5493669862519718600l, "text"), "");
+      SPropertyOperations.set(thisNode, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x4c3d6fa21cc1a06dL, 0x4c3d6fa21cc1c2c8L, "text"), "");
       SNodeOperations.insertPrevSiblingChild(thisNode, lines);
     }
   }
   public static void call_normalize_2806205325594058140(SNode thisNode) {
-    if (isNotEmptyString(SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(new UUID(-8061622605524284386l, -4874474233542072140l), 5493669862519709805l, 5493669862519718600l, "text")))) {
-      SNode newPhrase = SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(-8061622605524284386l, -4874474233542072140l), 1680136183140337486l, "org.campagnelab.textoutput.structure.Phrase")));
-      SPropertyOperations.set(newPhrase, MetaAdapterFactory.getProperty(new UUID(-8061622605524284386l, -4874474233542072140l), 1680136183140337486l, 1680136183140337487l, "text"), SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(new UUID(-8061622605524284386l, -4874474233542072140l), 5493669862519709805l, 5493669862519718600l, "text")));
-      ListSequence.fromList(SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(-8061622605524284386l, -4874474233542072140l), 5493669862519709805l, 1680136183140337477l, "phrases"))).insertElement(0, newPhrase);
-      SPropertyOperations.set(thisNode, MetaAdapterFactory.getProperty(new UUID(-8061622605524284386l, -4874474233542072140l), 5493669862519709805l, 5493669862519718600l, "text"), "");
+    if (isNotEmptyString(SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x4c3d6fa21cc1a06dL, 0x4c3d6fa21cc1c2c8L, "text")))) {
+      SNode newPhrase = SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x17510af4f25c474eL, "org.campagnelab.textoutput.structure.Phrase")));
+      SPropertyOperations.set(newPhrase, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x17510af4f25c474eL, 0x17510af4f25c474fL, "text"), SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x4c3d6fa21cc1a06dL, 0x4c3d6fa21cc1c2c8L, "text")));
+      ListSequence.fromList(SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x4c3d6fa21cc1a06dL, 0x17510af4f25c4745L, "phrases"))).insertElement(0, newPhrase);
+      SPropertyOperations.set(thisNode, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x4c3d6fa21cc1a06dL, 0x4c3d6fa21cc1c2c8L, "text"), "");
     }
   }
   private static boolean isNotEmptyString(String str) {

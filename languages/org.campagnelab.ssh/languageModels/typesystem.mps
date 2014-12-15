@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="857bd616-7b17-4127-8074-519f20641bdb/r:c334560f-4236-4f3e-8a6e-3167e6fa8096(org.campagnelab.ssh/org.campagnelab.ssh.typesystem)" concise="true">
+<model ref="857bd616-7b17-4127-8074-519f20641bdb/r:c334560f-4236-4f3e-8a6e-3167e6fa8096(org.campagnelab.ssh/org.campagnelab.ssh.typesystem)">
   <persistence version="9" />
   <languages>
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="-1" />
