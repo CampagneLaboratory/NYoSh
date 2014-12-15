@@ -31,7 +31,6 @@
     <import index="440p" ref="66f96b90-b2af-4ce4-92ca-dc0e9d7e2b43/r:a6c7903c-0b83-4bcf-8e49-8f150f2412bf(org.campagnelab.nyosh.interactive/org.campagnelab.nyosh.interactive.structure)" />
     <import index="fxg7" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
     <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
-    <import index="l8u3" ref="5e1a516a-83e0-454d-87d5-b29abfd5aa4c/r:da1fe7fb-c16e-4ab3-8e8d-707dd37502ce(Playground/nyosh.interactive)" />
     <import index="k7g3" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
     <import index="r9z8" ref="0202ed86-955d-4227-9c20-377dd6b1f9ff/f:java_stub#0202ed86-955d-4227-9c20-377dd6b1f9ff#org.campagnelab.nyosh.exec(org.campagnelab.nyosh.lib/org.campagnelab.nyosh.exec@java_stub)" />
   </imports>

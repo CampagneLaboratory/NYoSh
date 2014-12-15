@@ -13,7 +13,6 @@
     <import index="dbrf" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.swing(JDK/javax.swing@java_stub)" />
     <import index="gsmj" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.swing.table(JDK/javax.swing.table@java_stub)" />
     <import index="1t7x" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt(JDK/java.awt@java_stub)" />
-    <import index="s50m" ref="a5ff6f1b-885e-4f1e-be7d-09432bfbf851/r:e8e6e1aa-3691-417e-a8a1-64f054078742(org.campagnelab.lucene.tableviewer/org.campagnelab.lucene.tableviewer.code)" />
     <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <import index="vhth" ref="9fdb2df2-db25-4874-9a5f-47e348e5bce7/f:java_stub#9fdb2df2-db25-4874-9a5f-47e348e5bce7#org.apache.lucene(org.campagnelab.lucene.tableviewer.runtime/org.apache.lucene@java_stub)" />
     <import index="oxdg" ref="9fdb2df2-db25-4874-9a5f-47e348e5bce7/f:java_stub#9fdb2df2-db25-4874-9a5f-47e348e5bce7#org.apache.lucene.document(org.campagnelab.lucene.tableviewer.runtime/org.apache.lucene.document@java_stub)" />
