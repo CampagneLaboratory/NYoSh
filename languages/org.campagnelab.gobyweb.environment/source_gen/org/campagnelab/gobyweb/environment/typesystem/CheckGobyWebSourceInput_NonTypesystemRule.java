@@ -9,7 +9,6 @@ import jetbrains.mps.typesystem.inference.TypeCheckingContext;
 import jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.errors.messageTargets.MessageTarget;
 import jetbrains.mps.errors.messageTargets.NodeMessageTarget;
@@ -21,20 +20,20 @@ public class CheckGobyWebSourceInput_NonTypesystemRule extends AbstractNonTypesy
   public CheckGobyWebSourceInput_NonTypesystemRule() {
   }
   public void applyRule(final SNode gobyWebSource, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
-    SNode script = SNodeOperations.getNodeAncestor(gobyWebSource, MetaAdapterFactory.getConcept(new UUID(-5909566262671359852l, -4852354538162495409l), 1090105717920801947l, "org.campagnelab.gobyweb.structure.PluginScript"), false, false);
-    if ((SLinkOperations.getTarget(script, MetaAdapterFactory.getContainmentLink(new UUID(-5909566262671359852l, -4852354538162495409l), 1090105717920801947l, 1090105717920801999l, "pluginSystem")) == null)) {
+    SNode script = SNodeOperations.getNodeAncestor(gobyWebSource, MetaAdapterFactory.getConcept(0xadfd00cb58d74094L, 0xbca8f941a491e04fL, 0xf20d55ff44aa49bL, "org.campagnelab.gobyweb.structure.PluginScript"), false, false);
+    if ((SLinkOperations.getTarget(script, MetaAdapterFactory.getContainmentLink(0xadfd00cb58d74094L, 0xbca8f941a491e04fL, 0xf20d55ff44aa49bL, 0xf20d55ff44aa4cfL, "pluginSystem")) == null)) {
       {
         MessageTarget errorTarget = new NodeMessageTarget();
         IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(gobyWebSource, "The plugin system location has not been defined in the script. GobyWebSource cannot be loaded.", "27f97fd8-caeb-43a0-a73f-f8ac957f3a17/r:e37c2751-4299-4dc3-95ab-e93e92980d61(org.campagnelab.gobyweb.environment/org.campagnelab.gobyweb.environment.typesystem)", "731554740237430764", null, errorTarget);
       }
     }
-    if (isEmptyString(SPropertyOperations.getString(script, MetaAdapterFactory.getProperty(new UUID(-5909566262671359852l, -4852354538162495409l), 1090105717920801947l, 6874736155930792589l, "pluginId"))) || SPropertyOperations.getString(script, MetaAdapterFactory.getProperty(new UUID(-5909566262671359852l, -4852354538162495409l), 1090105717920801947l, 6874736155930792589l, "pluginId")).trim().length() == 0) {
+    if (isEmptyString(SPropertyOperations.getString(script, MetaAdapterFactory.getProperty(0xadfd00cb58d74094L, 0xbca8f941a491e04fL, 0xf20d55ff44aa49bL, 0x5f67f81c22ca128dL, "pluginId"))) || SPropertyOperations.getString(script, MetaAdapterFactory.getProperty(0xadfd00cb58d74094L, 0xbca8f941a491e04fL, 0xf20d55ff44aa49bL, 0x5f67f81c22ca128dL, "pluginId")).trim().length() == 0) {
       {
         MessageTarget errorTarget = new NodeMessageTarget();
         IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(gobyWebSource, "Invalid plugin ID. GobyWebSource cannot be loaded.", "27f97fd8-caeb-43a0-a73f-f8ac957f3a17/r:e37c2751-4299-4dc3-95ab-e93e92980d61(org.campagnelab.gobyweb.environment/org.campagnelab.gobyweb.environment.typesystem)", "731554740237430774", null, errorTarget);
       }
     }
-    if (isEmptyString(SPropertyOperations.getString_def(script, MetaAdapterFactory.getProperty(new UUID(-5909566262671359852l, -4852354538162495409l), 1090105717920801947l, 6874736155930792593l, "pluginKind"), "aligners")) || SPropertyOperations.getString_def(script, MetaAdapterFactory.getProperty(new UUID(-5909566262671359852l, -4852354538162495409l), 1090105717920801947l, 6874736155930792593l, "pluginKind"), "aligners").trim().length() == 0) {
+    if (isEmptyString(SPropertyOperations.getString_def(script, MetaAdapterFactory.getProperty(0xadfd00cb58d74094L, 0xbca8f941a491e04fL, 0xf20d55ff44aa49bL, 0x5f67f81c22ca1291L, "pluginKind"), "aligners")) || SPropertyOperations.getString_def(script, MetaAdapterFactory.getProperty(0xadfd00cb58d74094L, 0xbca8f941a491e04fL, 0xf20d55ff44aa49bL, 0x5f67f81c22ca1291L, "pluginKind"), "aligners").trim().length() == 0) {
       {
         MessageTarget errorTarget = new NodeMessageTarget();
         IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(gobyWebSource, "Invalid plugin kind. GobyWebSource cannot be loaded.", "27f97fd8-caeb-43a0-a73f-f8ac957f3a17/r:e37c2751-4299-4dc3-95ab-e93e92980d61(org.campagnelab.gobyweb.environment/org.campagnelab.gobyweb.environment.typesystem)", "731554740237430794", null, errorTarget);

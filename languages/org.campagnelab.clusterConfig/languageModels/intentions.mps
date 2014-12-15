@@ -10,7 +10,6 @@
     <import index="fxg7" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
     <import index="22fg" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.net(JDK/java.net@java_stub)" />
     <import index="9k5" ref="7620dd3f-7541-48a3-b1e6-01cced81a7a5/r:df9645c2-d2fa-41cb-a718-044a287b0626(org.campagnelab.clusterConfig/org.campagnelab.clusterConfig.structure)" />
-    <import index="ear0" ref="7620dd3f-7541-48a3-b1e6-01cced81a7a5/r:ac2b0e66-c2e8-4839-9ebd-4934e3f1df87(org.campagnelab.clusterConfig/org.campagnelab.clusterConfig.intentions)" />
     <import index="tpck" ref="ceab5195-25ea-4f22-9b92-103b95ca8c0c/r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core/jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="pcsz" ref="857bd616-7b17-4127-8074-519f20641bdb/r:4d33d067-c01f-41ec-95b2-89ce0161e856(org.campagnelab.ssh/org.campagnelab.ssh.behavior)" implicit="true" />
     <import index="46mz" ref="7620dd3f-7541-48a3-b1e6-01cced81a7a5/r:bf68e0f8-5137-4e77-a465-6eead8ac55fe(org.campagnelab.clusterConfig/org.campagnelab.clusterConfig.behavior)" implicit="true" />

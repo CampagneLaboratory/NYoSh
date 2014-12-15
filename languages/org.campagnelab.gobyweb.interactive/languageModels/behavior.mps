@@ -69,17 +69,14 @@
     <import index="fw3h" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/f:java_stub#498d89d2-c2e9-11e2-ad49-6cf049e62fe5#com.intellij.openapi.progress(MPS.IDEA/com.intellij.openapi.progress@java_stub)" />
     <import index="as9o" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/f:java_stub#3f233e7f-b8a6-46d2-a57f-795d56775243#org.jetbrains.annotations(Annotations/org.jetbrains.annotations@java_stub)" />
     <import index="b2mh" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/f:java_stub#498d89d2-c2e9-11e2-ad49-6cf049e62fe5#com.intellij.openapi.project(MPS.IDEA/com.intellij.openapi.project@java_stub)" />
-    <import index="lcm8" ref="a8fb88b0-7e9f-478c-aab4-a1b076131192/r:19e666fd-ce33-4549-bbc2-aa106ce25584(org.campagnelab.gobyweb.interactive/org.campagnelab.gobyweb.interactive.behavior)" />
     <import index="pt5l" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/f:java_stub#742f6602-5a2f-4313-aa6e-ae1cd4ffdc61#jetbrains.mps.ide.project(MPS.Platform/jetbrains.mps.ide.project@java_stub)" />
     <import index="88zw" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.module(MPS.OpenAPI/org.jetbrains.mps.openapi.module@java_stub)" />
     <import index="junt" ref="a5ff6f1b-885e-4f1e-be7d-09432bfbf851/r:fe34b0d7-d443-4c83-b4a4-3e88ac9c1525(org.campagnelab.lucene.tableviewer/org.campagnelab.lucene.tableviewer.behavior)" />
     <import index="cu2c" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel(MPS.Core/jetbrains.mps.smodel@java_stub)" />
-    <import index="s1w7" ref="a8fb88b0-7e9f-478c-aab4-a1b076131192/r:b8445bf6-1122-46c9-9f7b-f37efcf6ebd6(org.campagnelab.gobyweb.interactive/org.campagnelab.gobyweb.interactive.intentions)" />
     <import index="1fmc" ref="2b3d76b7-a9ea-44f6-8a30-283c3ffb5f0a/r:4cec5b5b-0fcc-4674-abb9-27263d97025d(org.campagnelab.ui.code/org.campagnelab.ui.code.Swing)" />
     <import index="oo4f" ref="d8e610a4-07e8-4a28-a3f6-a82fb9690d70/r:df4c552a-682a-4e5b-bb50-69cf446fd0a1(org.campagnelab.feedback/org.campagnelab.feedback.behavior)" />
     <import index="dhle" ref="d8e610a4-07e8-4a28-a3f6-a82fb9690d70/r:22d2d7af-29e7-4a54-9633-f2175440f8be(org.campagnelab.feedback/org.campagnelab.feedback.structure)" />
     <import index="tpee" ref="f3061a53-9226-4cc5-a443-f952ceaf5816/r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage/jetbrains.mps.baseLanguage.structure)" />
-    <import index="vqp9" ref="166cc73c-4d0f-4757-a007-8527cb58de2e/r:25a139b4-0a31-45df-a0c1-7a46c61455c0(org.campagnelab.bio.species/org.campagnelab.bio.species.behavior)" />
     <import index="6tiq" ref="853d29f2-dbd7-4a64-a6cd-27608b08e948/r:fa23f21f-0a09-4a28-9828-16b45648a671(org.campagnelab.gobyweb.interactive.mappings/org.campagnelab.gobyweb.interactive.mappings.structure)" />
     <import index="935h" ref="adfd00cb-58d7-4094-bca8-f941a491e04f/r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb/org.campagnelab.gobyweb.structure)" />
     <import index="czzw" ref="57af9408-ffae-472e-9367-5cb44434e8b3/r:2151664b-13bc-4072-a76b-815bb37c415e(org.campagnelab.gobyweb.interactive.users/org.campagnelab.gobyweb.interactive.users.structure)" />

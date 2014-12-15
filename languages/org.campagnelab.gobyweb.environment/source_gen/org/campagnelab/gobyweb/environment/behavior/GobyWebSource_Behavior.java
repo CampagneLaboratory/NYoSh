@@ -6,7 +6,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import org.campagnelab.nyosh.environment.parsers.GobyWebParser;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
@@ -25,41 +24,41 @@ public class GobyWebSource_Behavior {
     if (LOG.isInfoEnabled()) {
       LOG.info("GobyWeb source load invoked");
     }
-    ListSequence.fromList(SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(1082869261932317580l, -6963095398150543659l), 3173353997360796893l, 9004698741416289947l, "availableVariables"))).clear();
+    ListSequence.fromList(SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(0xf071fdb3faa4b8cL, 0x9f5e1da0a01466d5L, 0x2c0a04a5bf4194ddL, 0x7cf71dcbdf86669bL, "availableVariables"))).clear();
     GobyWebParser parser = new GobyWebParser();
-    SNode script = SNodeOperations.getNodeAncestor(thisNode, MetaAdapterFactory.getConcept(new UUID(-5909566262671359852l, -4852354538162495409l), 1090105717920801947l, "org.campagnelab.gobyweb.structure.PluginScript"), false, false);
+    SNode script = SNodeOperations.getNodeAncestor(thisNode, MetaAdapterFactory.getConcept(0xadfd00cb58d74094L, 0xbca8f941a491e04fL, 0xf20d55ff44aa49bL, "org.campagnelab.gobyweb.structure.PluginScript"), false, false);
     if (LOG.isInfoEnabled()) {
-      LOG.info("plugin ID " + SPropertyOperations.getString(script, MetaAdapterFactory.getProperty(new UUID(-5909566262671359852l, -4852354538162495409l), 1090105717920801947l, 6874736155930792589l, "pluginId")));
-    }
-    if (LOG.isInfoEnabled()) {
-      LOG.info("plugin kind " + SPropertyOperations.getString_def(script, MetaAdapterFactory.getProperty(new UUID(-5909566262671359852l, -4852354538162495409l), 1090105717920801947l, 6874736155930792593l, "pluginKind"), "aligners"));
+      LOG.info("plugin ID " + SPropertyOperations.getString(script, MetaAdapterFactory.getProperty(0xadfd00cb58d74094L, 0xbca8f941a491e04fL, 0xf20d55ff44aa49bL, 0x5f67f81c22ca128dL, "pluginId")));
     }
     if (LOG.isInfoEnabled()) {
-      LOG.info("plugin system path " + PluginSystemRootDirectory_Behavior.call_getPath_8272164243038473394(SLinkOperations.getTarget(script, MetaAdapterFactory.getContainmentLink(new UUID(-5909566262671359852l, -4852354538162495409l), 1090105717920801947l, 1090105717920801999l, "pluginSystem"))));
+      LOG.info("plugin kind " + SPropertyOperations.getString_def(script, MetaAdapterFactory.getProperty(0xadfd00cb58d74094L, 0xbca8f941a491e04fL, 0xf20d55ff44aa49bL, 0x5f67f81c22ca1291L, "pluginKind"), "aligners"));
     }
-    for (ScriptVariable scriptVariable : parser.parseAtDesignTime(SPropertyOperations.getString(script, MetaAdapterFactory.getProperty(new UUID(-5909566262671359852l, -4852354538162495409l), 1090105717920801947l, 6874736155930792589l, "pluginId")), SPropertyOperations.getString_def(script, MetaAdapterFactory.getProperty(new UUID(-5909566262671359852l, -4852354538162495409l), 1090105717920801947l, 6874736155930792593l, "pluginKind"), "aligners"), PluginSystemRootDirectory_Behavior.call_getPath_8272164243038473394(SLinkOperations.getTarget(script, MetaAdapterFactory.getContainmentLink(new UUID(-5909566262671359852l, -4852354538162495409l), 1090105717920801947l, 1090105717920801999l, "pluginSystem"))))) {
-      SNode variableDeclaration = SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(1082869261932317580l, -6963095398150543659l), 5955265417291138207l, "org.campagnelab.nyosh.environment.structure.EnvVariableDeclaration")));
-      SPropertyOperations.set(variableDeclaration, MetaAdapterFactory.getProperty(new UUID(1082869261932317580l, -6963095398150543659l), 5955265417291138207l, 5469406079154538151l, "value"), scriptVariable.value);
-      SPropertyOperations.set(variableDeclaration, MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name"), scriptVariable.name);
-      SPropertyOperations.set(variableDeclaration, MetaAdapterFactory.getProperty(new UUID(1082869261932317580l, -6963095398150543659l), 5955265417291138207l, 5463028992315853055l, "kind"), scriptVariable.kind.name());
-      ListSequence.fromList(SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(1082869261932317580l, -6963095398150543659l), 3173353997360796893l, 9004698741416289947l, "availableVariables"))).addElement(variableDeclaration);
+    if (LOG.isInfoEnabled()) {
+      LOG.info("plugin system path " + PluginSystemRootDirectory_Behavior.call_getPath_8272164243038473394(SLinkOperations.getTarget(script, MetaAdapterFactory.getContainmentLink(0xadfd00cb58d74094L, 0xbca8f941a491e04fL, 0xf20d55ff44aa49bL, 0xf20d55ff44aa4cfL, "pluginSystem"))));
     }
-    SPropertyOperations.set(SLinkOperations.getTarget(script, MetaAdapterFactory.getContainmentLink(new UUID(-5909566262671359852l, -4852354538162495409l), 1090105717920801947l, 1090105717920801999l, "pluginSystem")), MetaAdapterFactory.getProperty(new UUID(-5909566262671359852l, -4852354538162495409l), 6874736155930792596l, 78530767374283936l, "lastValidationMessage"), parser.getLastMessage());
-    SPropertyOperations.set(SLinkOperations.getTarget(script, MetaAdapterFactory.getContainmentLink(new UUID(-5909566262671359852l, -4852354538162495409l), 1090105717920801947l, 1090105717920801999l, "pluginSystem")), MetaAdapterFactory.getProperty(new UUID(-5909566262671359852l, -4852354538162495409l), 6874736155930792596l, 5131770576692241878l, "hasError"), "" + (parser.hasErrorsToReport()));
-    ListSequence.fromList(SLinkOperations.getChildren(script, MetaAdapterFactory.getContainmentLink(new UUID(-5909566262671359852l, -4852354538162495409l), 1090105717920801947l, 8463050739468865638l, "inputSlots"))).clear();
-    for (SNode slot : ListSequence.fromList(PluginRegistry_Behavior.call_getInputSlots_6519147379572947977(SLinkOperations.getTarget(script, MetaAdapterFactory.getContainmentLink(new UUID(-5909566262671359852l, -4852354538162495409l), 1090105717920801947l, 8463050739472729035l, "pluginRegistry"))))) {
-      ListSequence.fromList(SLinkOperations.getChildren(script, MetaAdapterFactory.getContainmentLink(new UUID(-5909566262671359852l, -4852354538162495409l), 1090105717920801947l, 8463050739468865638l, "inputSlots"))).addElement(slot);
+    for (ScriptVariable scriptVariable : parser.parseAtDesignTime(SPropertyOperations.getString(script, MetaAdapterFactory.getProperty(0xadfd00cb58d74094L, 0xbca8f941a491e04fL, 0xf20d55ff44aa49bL, 0x5f67f81c22ca128dL, "pluginId")), SPropertyOperations.getString_def(script, MetaAdapterFactory.getProperty(0xadfd00cb58d74094L, 0xbca8f941a491e04fL, 0xf20d55ff44aa49bL, 0x5f67f81c22ca1291L, "pluginKind"), "aligners"), PluginSystemRootDirectory_Behavior.call_getPath_8272164243038473394(SLinkOperations.getTarget(script, MetaAdapterFactory.getContainmentLink(0xadfd00cb58d74094L, 0xbca8f941a491e04fL, 0xf20d55ff44aa49bL, 0xf20d55ff44aa4cfL, "pluginSystem"))))) {
+      SNode variableDeclaration = SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(0xf071fdb3faa4b8cL, 0x9f5e1da0a01466d5L, 0x52a55a583cce849fL, "org.campagnelab.nyosh.environment.structure.EnvVariableDeclaration")));
+      SPropertyOperations.set(variableDeclaration, MetaAdapterFactory.getProperty(0xf071fdb3faa4b8cL, 0x9f5e1da0a01466d5L, 0x52a55a583cce849fL, 0x4be73bd9d05e46a7L, "value"), scriptVariable.value);
+      SPropertyOperations.set(variableDeclaration, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), scriptVariable.name);
+      SPropertyOperations.set(variableDeclaration, MetaAdapterFactory.getProperty(0xf071fdb3faa4b8cL, 0x9f5e1da0a01466d5L, 0x52a55a583cce849fL, 0x4bd093ec94a588ffL, "kind"), scriptVariable.kind.name());
+      ListSequence.fromList(SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(0xf071fdb3faa4b8cL, 0x9f5e1da0a01466d5L, 0x2c0a04a5bf4194ddL, 0x7cf71dcbdf86669bL, "availableVariables"))).addElement(variableDeclaration);
     }
-    ListSequence.fromList(SLinkOperations.getChildren(script, MetaAdapterFactory.getContainmentLink(new UUID(-5909566262671359852l, -4852354538162495409l), 1090105717920801947l, 8463050739468865642l, "outputSlots"))).clear();
-    for (SNode slot : ListSequence.fromList(PluginRegistry_Behavior.call_getOutputSlots_6519147379572948090(SLinkOperations.getTarget(script, MetaAdapterFactory.getContainmentLink(new UUID(-5909566262671359852l, -4852354538162495409l), 1090105717920801947l, 8463050739472729035l, "pluginRegistry"))))) {
-      ListSequence.fromList(SLinkOperations.getChildren(script, MetaAdapterFactory.getContainmentLink(new UUID(-5909566262671359852l, -4852354538162495409l), 1090105717920801947l, 8463050739468865642l, "outputSlots"))).addElement(slot);
+    SPropertyOperations.set(SLinkOperations.getTarget(script, MetaAdapterFactory.getContainmentLink(0xadfd00cb58d74094L, 0xbca8f941a491e04fL, 0xf20d55ff44aa49bL, 0xf20d55ff44aa4cfL, "pluginSystem")), MetaAdapterFactory.getProperty(0xadfd00cb58d74094L, 0xbca8f941a491e04fL, 0x5f67f81c22ca1294L, 0x116ff511d4874a0L, "lastValidationMessage"), parser.getLastMessage());
+    SPropertyOperations.set(SLinkOperations.getTarget(script, MetaAdapterFactory.getContainmentLink(0xadfd00cb58d74094L, 0xbca8f941a491e04fL, 0xf20d55ff44aa49bL, 0xf20d55ff44aa4cfL, "pluginSystem")), MetaAdapterFactory.getProperty(0xadfd00cb58d74094L, 0xbca8f941a491e04fL, 0x5f67f81c22ca1294L, 0x4737b626748ae5d6L, "hasError"), "" + (parser.hasErrorsToReport()));
+    ListSequence.fromList(SLinkOperations.getChildren(script, MetaAdapterFactory.getContainmentLink(0xadfd00cb58d74094L, 0xbca8f941a491e04fL, 0xf20d55ff44aa49bL, 0x7572cbcef2261066L, "inputSlots"))).clear();
+    for (SNode slot : ListSequence.fromList(PluginRegistry_Behavior.call_getInputSlots_6519147379572947977(SLinkOperations.getTarget(script, MetaAdapterFactory.getContainmentLink(0xadfd00cb58d74094L, 0xbca8f941a491e04fL, 0xf20d55ff44aa49bL, 0x7572cbcef26103cbL, "pluginRegistry"))))) {
+      ListSequence.fromList(SLinkOperations.getChildren(script, MetaAdapterFactory.getContainmentLink(0xadfd00cb58d74094L, 0xbca8f941a491e04fL, 0xf20d55ff44aa49bL, 0x7572cbcef2261066L, "inputSlots"))).addElement(slot);
+    }
+    ListSequence.fromList(SLinkOperations.getChildren(script, MetaAdapterFactory.getContainmentLink(0xadfd00cb58d74094L, 0xbca8f941a491e04fL, 0xf20d55ff44aa49bL, 0x7572cbcef226106aL, "outputSlots"))).clear();
+    for (SNode slot : ListSequence.fromList(PluginRegistry_Behavior.call_getOutputSlots_6519147379572948090(SLinkOperations.getTarget(script, MetaAdapterFactory.getContainmentLink(0xadfd00cb58d74094L, 0xbca8f941a491e04fL, 0xf20d55ff44aa49bL, 0x7572cbcef26103cbL, "pluginRegistry"))))) {
+      ListSequence.fromList(SLinkOperations.getChildren(script, MetaAdapterFactory.getContainmentLink(0xadfd00cb58d74094L, 0xbca8f941a491e04fL, 0xf20d55ff44aa49bL, 0x7572cbcef226106aL, "outputSlots"))).addElement(slot);
     }
 
   }
   public static SNode call_getVariableDeclaration_731554740237430729(SNode thisNode, final String name) {
-    return ListSequence.fromList(SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(1082869261932317580l, -6963095398150543659l), 3173353997360796893l, 9004698741416289947l, "availableVariables"))).findFirst(new IWhereFilter<SNode>() {
+    return ListSequence.fromList(SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(0xf071fdb3faa4b8cL, 0x9f5e1da0a01466d5L, 0x2c0a04a5bf4194ddL, 0x7cf71dcbdf86669bL, "availableVariables"))).findFirst(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
-        return SPropertyOperations.hasValue(it, MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name"), name);
+        return SPropertyOperations.hasValue(it, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), name);
       }
     });
   }

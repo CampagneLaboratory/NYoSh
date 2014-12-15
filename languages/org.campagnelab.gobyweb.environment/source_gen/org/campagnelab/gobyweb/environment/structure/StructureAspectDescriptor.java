@@ -6,7 +6,6 @@ import jetbrains.mps.smodel.runtime.BaseStructureAspectDescriptor;
 import jetbrains.mps.smodel.runtime.ConceptDescriptor;
 import jetbrains.mps.smodel.runtime.impl.ConceptDescriptorBuilder;
 import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
-import java.util.UUID;
 import jetbrains.mps.smodel.runtime.StaticScope;
 import java.util.Collection;
 import java.util.Arrays;
@@ -14,8 +13,8 @@ import org.jetbrains.annotations.Nullable;
 
 public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
-  /*package*/ final ConceptDescriptor myConceptGobyWebLoader = new ConceptDescriptorBuilder("org.campagnelab.gobyweb.environment.structure.GobyWebLoader", MetaIdFactory.conceptId(new UUID(2880474005774222240L, -6395119525716608489L), 731554740237430542L)).super_("org.campagnelab.nyosh.environment.structure.Loader").super_(MetaIdFactory.conceptId(new UUID(1082869261932317580L, -6963095398150543659L), 3173353997360795105L)).parents("org.campagnelab.nyosh.environment.structure.Loader").parentIds(MetaIdFactory.conceptId(new UUID(1082869261932317580L, -6963095398150543659L), 3173353997360795105L)).alias("GobyWeb Environment loader", "load the basic GobyWeb environment").create();
-  /*package*/ final ConceptDescriptor myConceptGobyWebSource = new ConceptDescriptorBuilder("org.campagnelab.gobyweb.environment.structure.GobyWebSource", MetaIdFactory.conceptId(new UUID(2880474005774222240L, -6395119525716608489L), 731554740237430543L)).super_("org.campagnelab.nyosh.environment.structure.EnvironmentSource").super_(MetaIdFactory.conceptId(new UUID(1082869261932317580L, -6963095398150543659L), 3173353997360796893L)).parents("org.campagnelab.nyosh.environment.structure.EnvironmentSource").parentIds(MetaIdFactory.conceptId(new UUID(1082869261932317580L, -6963095398150543659L), 3173353997360796893L)).alias("", "the GobyWeb runtime environment").staticScope(StaticScope.ROOT).create();
+  /*package*/ final ConceptDescriptor myConceptGobyWebLoader = new ConceptDescriptorBuilder("org.campagnelab.gobyweb.environment.structure.GobyWebLoader", MetaIdFactory.conceptId(0x27f97fd8caeb43a0L, 0xa73ff8ac957f3a17L, 0xa270129099aef0eL)).super_("org.campagnelab.nyosh.environment.structure.Loader").super_(MetaIdFactory.conceptId(0xf071fdb3faa4b8cL, 0x9f5e1da0a01466d5L, 0x2c0a04a5bf418de1L)).parents("org.campagnelab.nyosh.environment.structure.Loader").parentIds(MetaIdFactory.conceptId(0xf071fdb3faa4b8cL, 0x9f5e1da0a01466d5L, 0x2c0a04a5bf418de1L)).alias("GobyWeb Environment loader", "load the basic GobyWeb environment").create();
+  /*package*/ final ConceptDescriptor myConceptGobyWebSource = new ConceptDescriptorBuilder("org.campagnelab.gobyweb.environment.structure.GobyWebSource", MetaIdFactory.conceptId(0x27f97fd8caeb43a0L, 0xa73ff8ac957f3a17L, 0xa270129099aef0fL)).super_("org.campagnelab.nyosh.environment.structure.EnvironmentSource").super_(MetaIdFactory.conceptId(0xf071fdb3faa4b8cL, 0x9f5e1da0a01466d5L, 0x2c0a04a5bf4194ddL)).parents("org.campagnelab.nyosh.environment.structure.EnvironmentSource").parentIds(MetaIdFactory.conceptId(0xf071fdb3faa4b8cL, 0x9f5e1da0a01466d5L, 0x2c0a04a5bf4194ddL)).alias("", "the GobyWeb runtime environment").staticScope(StaticScope.ROOT).create();
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {

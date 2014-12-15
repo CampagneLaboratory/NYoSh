@@ -268,8 +268,6 @@
   </node>
   <node concept="3lueso" id="1RmgCvgmvZF">
     <property role="TrG5h" value="RunOnSpanky" />
-    <property role="00000" value="campagne" />
-    <property role="00000" value="rascals.q" />
     <property role="00000" value="/scratchLocal/gobyweb/ARTIFACT_REPOSITORY-PLUGINS-SDK" />
     <node concept="3lubAv" id="1RmgCvgmvZG" role="3lu1Za">
       <property role="00000" value="ZenodotusJobs" />

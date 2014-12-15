@@ -24,6 +24,12 @@ public class Language extends LanguageRuntime {
   public String getNamespace() {
     return "org.campagnelab.gobyweb.environment";
   }
+
+  @Override
+  public int getVersion() {
+    return 0;
+  }
+
   public SLanguageId getId() {
     return new SLanguageId(UUID.fromString("27f97fd8-caeb-43a0-a73f-f8ac957f3a17"));
   }
