@@ -38,7 +38,7 @@
       <node role="initialValue" roleId="3ior.2755237150521975432" type="3ior.BuildVariableMacroInitWithString" typeId="3ior.2755237150521975431" id="4833885827903204236" nodeInfo="ng">
         <node role="value" roleId="3ior.2755237150521975437" type="3ior.BuildString" typeId="3ior.4380385936562003279" id="4833885827903204235" nodeInfo="ng">
           <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="4833885827903204234" nodeInfo="ng">
-            <property name="text" nameId="3ior.4903714810883755350" value="1.0.1" />
+            <property name="text" nameId="3ior.4903714810883755350" value="1.0.2" />
           </node>
         </node>
       </node>
@@ -149,7 +149,7 @@
     <node role="parts" roleId="3ior.7389400916848080626" type="kdzh.BuildMps_Group" typeId="kdzh.1500819558095907805" id="9211726679685791611" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="Logger" />
       <node role="modules" roleId="kdzh.1500819558095907806" type="kdzh.BuildMps_Language" typeId="kdzh.3189788309731840248" id="9211726679685791612" nodeInfo="ng">
-        <property name="compact" nameId="kdzh.8369506495128725901" value="true" />
+        <property name="compact" nameId="kdzh.8369506495128725901" value="false" />
         <property name="name" nameId="tpck.1169194664001" value="org.campagnelab.logger" />
         <property name="uuid" nameId="kdzh.322010710375892619" value="82ffebe3-3685-4fd9-b560-0c1d348d295c" />
         <property name="doNotCompile" nameId="kdzh.1500819558096356884" value="false" />
