@@ -43,7 +43,7 @@
     </generator>
   </generators>
   <stubModelEntries>
-    <stubModelEntry path="${module}/GobyWebPluginRunner-1.0-SNAPSHOT.jar" />
+    <stubModelEntry path="${module}/GobyWebPluginRunner-1.0.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
