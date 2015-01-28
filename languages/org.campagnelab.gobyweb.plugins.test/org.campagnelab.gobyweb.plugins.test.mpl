@@ -5,7 +5,7 @@
       <sourceRoot location="languageModels" />
     </modelRoot>
     <modelRoot contentPath="${module}" type="java_classes">
-      <sourceRoot location="GobyWebPluginRunner-1.0-SNAPSHOT.jar" />
+      <sourceRoot location="GobyWebPluginRunner-1.0.jar" />
     </modelRoot>
   </models>
   <accessoryModels />
@@ -43,7 +43,7 @@
     </generator>
   </generators>
   <stubModelEntries>
-    <stubModelEntry path="${module}/GobyWebPluginRunner-1.0-SNAPSHOT.jar" />
+    <stubModelEntry path="${module}/GobyWebPluginRunner-1.0.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
