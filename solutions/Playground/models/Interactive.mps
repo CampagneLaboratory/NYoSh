@@ -5782,7 +5782,6 @@
   </root>
   <root type="bs99.ExecutionEnvironment" typeId="bs99.2051553890368778876" id="2419654323731434878" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="TutoriaEnvironment" />
-    <property name="owner" value="manuele.simi" />
     <node role="downloadArea" roleId="bs99.202400229141572367" type="bs99.DownloadArea" typeId="bs99.202400229140351294" id="8168148695865726891" nodeInfo="ng">
       <node role="locations" roleId="bs99.202400229140351977" type="bs99.DownloadLocation" typeId="bs99.202400229140474293" id="202400229142566844" nodeInfo="ng">
         <property name="path" nameId="bs99.202400229140474294" value="/Users/mas2182/Downloads" />
@@ -11449,1693 +11448,6 @@
         </node>
       </node>
     </node>
-    <node role="jobMonitor" type="bbh2.JobMonitor" typeId="bbh2.2017323193335723531" id="406260948649242635" nodeInfo="ng">
-      <property name="jobtag" nameId="bbh2.2017323193335729124" value="GDKEBCL" />
-      <link role="broker" roleId="bbh2.2017323193335950083" targetNodeId="1212232161621136016" resolveInfo="brokerForMonitor" />
-      <node role="viewer" roleId="bbh2.2017323193335764208" type="bbh2.MessageViewer" typeId="bbh2.2017323193335763037" id="406260948649242636" nodeInfo="ng">
-        <property name="jobStatus" nameId="bbh2.8711817271669511123" value="failed" />
-        <property name="messageCounter" nameId="bbh2.8711817271669613111" value="275" />
-        <property name="message" nameId="bbh2.6041342965312064113" value="refresh invoked" />
-        <property name="autoRefresh" nameId="bbh2.1011954325398115419" value="false" />
-        <link role="listener" roleId="bbh2.1526708538680794525" targetNodeId="406260948649242637" resolveInfo="NYoSh-1406125082161" />
-        <link role="eventListener" roleId="bbh2.1212232161626043352" targetNodeId="406260948649242635" />
-        <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="406260948649243467" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="diffexp" />
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649243466" nodeInfo="ng">
-            <property name="description" value="Submitting job to the cluster" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:17:58 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649243468" nodeInfo="ng">
-            <property name="description" value="Job successfully submitted" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:18:00 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649243469" nodeInfo="ng">
-            <property name="description" value="Output from submission command: 330320" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:18:01 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999859979" nodeInfo="ng">
-            <property name="description" value="Submitting job to the cluster" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:17:58 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999859980" nodeInfo="ng">
-            <property name="description" value="Job successfully submitted" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:18:00 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999859981" nodeInfo="ng">
-            <property name="description" value="Output from submission command: 330320" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:18:01 EDT 2014" />
-          </node>
-        </node>
-        <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="406260948649244779" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="resources" />
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649244778" nodeInfo="ng">
-            <property name="description" value="Installing plugin mandatory resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="alfalfa.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:18:15 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649245223" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="alfalfa.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:18:19 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649249714" nodeInfo="ng">
-            <property name="description" value="Installing plugin mandatory resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="alfalfa.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:00 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649249715" nodeInfo="ng">
-            <property name="description" value="Installing plugin mandatory resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="alfalfa.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:00 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649249716" nodeInfo="ng">
-            <property name="description" value="Installing plugin mandatory resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="alfalfa.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:00 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649249717" nodeInfo="ng">
-            <property name="description" value="Installing plugin mandatory resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:00 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649249718" nodeInfo="ng">
-            <property name="description" value="Installing plugin mandatory resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="buckwheat.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:01 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649249719" nodeInfo="ng">
-            <property name="description" value="Installing plugin mandatory resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spud.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:01 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649249720" nodeInfo="ng">
-            <property name="description" value="Installing plugin mandatory resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spud.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:01 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649249721" nodeInfo="ng">
-            <property name="description" value="Installing plugin mandatory resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spud.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:02 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250187" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="alfalfa.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:06 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250188" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:07 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250189" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="alfalfa.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:07 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250190" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="buckwheat.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:07 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250191" nodeInfo="ng">
-            <property name="description" value="Installing plugin mandatory resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="froggy.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:08 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250192" nodeInfo="ng">
-            <property name="description" value="Installing plugin mandatory resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="froggy.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:08 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250193" nodeInfo="ng">
-            <property name="description" value="Installing plugin mandatory resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:08 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250194" nodeInfo="ng">
-            <property name="description" value="Installing plugin mandatory resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="butch.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:09 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250195" nodeInfo="ng">
-            <property name="description" value="Installing plugin mandatory resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:09 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250196" nodeInfo="ng">
-            <property name="description" value="Installing plugin mandatory resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="jane.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:09 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250197" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spud.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:09 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250198" nodeInfo="ng">
-            <property name="description" value="Installing plugin mandatory resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:09 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250199" nodeInfo="ng">
-            <property name="description" value="Installing plugin mandatory resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:09 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250200" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="alfalfa.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:11 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250201" nodeInfo="ng">
-            <property name="description" value="Installing plugin mandatory resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="froggy.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:11 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250202" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="alfalfa.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:12 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250203" nodeInfo="ng">
-            <property name="description" value="Installing plugin mandatory resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="butch.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:12 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250204" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="buckwheat.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:12 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250205" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="buckwheat.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:12 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250206" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:12 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250207" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:12 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250208" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spud.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:12 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250209" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spud.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:14 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250210" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spud.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:14 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250701" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="alfalfa.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:16 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250702" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spud.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:16 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250703" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="butch.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:16 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250704" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="buckwheat.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:17 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250705" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spud.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:17 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250706" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spud.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:18 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250707" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:18 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250708" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="jane.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:19 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250709" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="buckwheat.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:20 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250710" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="jane.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:21 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250711" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="buckwheat.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:21 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250712" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="alfalfa.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:21 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250713" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="jane.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:21 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250714" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:21 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250716" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spud.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:21 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250717" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spud.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:22 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250719" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="butch.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:23 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250725" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:26 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250728" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="jane.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:26 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250729" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="froggy.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:28 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250730" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="jane.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:29 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649251255" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="froggy.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:29 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649251256" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:32 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649251257" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="butch.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:32 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649251258" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spud.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:33 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649251259" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="butch.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:33 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649251260" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="froggy.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:33 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649251261" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="jane.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:34 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649251262" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:34 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649251263" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:34 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649251264" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="froggy.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:34 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649251265" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spud.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:34 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649251266" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spud.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:35 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649251267" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:35 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649251268" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="butch.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:36 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649251269" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="butch.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:38 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649251270" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:38 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649251271" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="butch.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:39 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649251272" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="jane.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:39 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649251273" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="butch.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:40 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649251274" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="jane.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:40 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649251275" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="jane.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:41 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649251810" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spud.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:42 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649251811" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spud.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:42 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649252363" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spud.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:43 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649252364" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="jane.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:44 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649252365" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="froggy.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:45 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649252366" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:46 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999859982" nodeInfo="ng">
-            <property name="description" value="Installing plugin mandatory resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="alfalfa.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:18:15 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999859983" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="alfalfa.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:18:19 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999859988" nodeInfo="ng">
-            <property name="description" value="Installing plugin mandatory resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="alfalfa.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:00 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999859989" nodeInfo="ng">
-            <property name="description" value="Installing plugin mandatory resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="alfalfa.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:00 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999859990" nodeInfo="ng">
-            <property name="description" value="Installing plugin mandatory resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="alfalfa.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:00 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999859991" nodeInfo="ng">
-            <property name="description" value="Installing plugin mandatory resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:00 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999859992" nodeInfo="ng">
-            <property name="description" value="Installing plugin mandatory resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="buckwheat.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:01 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999859993" nodeInfo="ng">
-            <property name="description" value="Installing plugin mandatory resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spud.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:01 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999859994" nodeInfo="ng">
-            <property name="description" value="Installing plugin mandatory resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spud.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:01 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999859995" nodeInfo="ng">
-            <property name="description" value="Installing plugin mandatory resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spud.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:02 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999859996" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="alfalfa.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:06 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999859997" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:07 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999859998" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="alfalfa.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:07 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999859999" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="buckwheat.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:07 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860000" nodeInfo="ng">
-            <property name="description" value="Installing plugin mandatory resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="froggy.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:08 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860001" nodeInfo="ng">
-            <property name="description" value="Installing plugin mandatory resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="froggy.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:08 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860002" nodeInfo="ng">
-            <property name="description" value="Installing plugin mandatory resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:08 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860003" nodeInfo="ng">
-            <property name="description" value="Installing plugin mandatory resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="butch.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:09 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860004" nodeInfo="ng">
-            <property name="description" value="Installing plugin mandatory resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:09 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860005" nodeInfo="ng">
-            <property name="description" value="Installing plugin mandatory resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="jane.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:09 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860006" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spud.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:09 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860007" nodeInfo="ng">
-            <property name="description" value="Installing plugin mandatory resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:09 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860008" nodeInfo="ng">
-            <property name="description" value="Installing plugin mandatory resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:09 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860009" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="alfalfa.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:11 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860010" nodeInfo="ng">
-            <property name="description" value="Installing plugin mandatory resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="froggy.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:11 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860011" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="alfalfa.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:12 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860012" nodeInfo="ng">
-            <property name="description" value="Installing plugin mandatory resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="butch.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:12 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860013" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="buckwheat.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:12 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860014" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="buckwheat.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:12 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860015" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:12 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860016" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:12 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860017" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spud.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:12 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860018" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spud.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:14 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860019" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spud.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:14 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860020" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="alfalfa.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:16 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860021" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spud.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:16 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860022" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="butch.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:16 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860023" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="buckwheat.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:17 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860024" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spud.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:17 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860025" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spud.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:18 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860026" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:18 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860027" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="jane.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:19 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860028" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="buckwheat.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:20 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860029" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="jane.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:21 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860030" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="buckwheat.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:21 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860031" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="alfalfa.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:21 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860032" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="jane.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:21 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860033" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:21 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860035" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spud.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:21 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860036" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spud.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:22 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860038" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="butch.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:23 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860044" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:26 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860047" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="jane.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:26 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860048" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="froggy.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:28 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860049" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="jane.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:29 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860050" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="froggy.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:29 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860051" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:32 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860052" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="butch.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:32 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860053" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spud.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:33 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860054" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="butch.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:33 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860055" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="froggy.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:33 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860056" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="jane.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:34 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860057" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:34 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860058" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:34 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860059" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="froggy.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:34 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860060" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spud.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:34 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860061" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spud.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:35 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860062" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:35 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860063" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="butch.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:36 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860064" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="butch.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:38 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860065" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:38 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860066" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="butch.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:39 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860067" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="jane.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:39 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860068" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="butch.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:40 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860069" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="jane.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:40 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860070" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="jane.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:41 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860071" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spud.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:42 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860072" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spud.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:42 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860074" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spud.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:43 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860075" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="jane.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:44 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860076" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="froggy.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:45 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860077" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:46 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860079" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="froggy.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:47 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860080" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:48 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860081" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:48 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860082" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="butch.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:49 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860085" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="butch.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:52 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860086" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="froggy.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:52 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860089" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="jane.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:54 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860091" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="jane.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:54 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860093" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="butch.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:55 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860094" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="jane.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:55 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860095" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spud.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:56 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860096" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:57 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860097" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="butch.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:57 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860098" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:58 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860100" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="froggy.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:58 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860101" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="jane.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:59 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860102" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:20:02 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860103" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="butch.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:20:03 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860104" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="jane.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:20:05 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860105" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="butch.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:20:05 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860107" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="butch.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:20:05 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860108" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:20:06 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860109" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="froggy.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:20:07 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860110" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="jane.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:20:08 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860114" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="butch.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:20:12 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860115" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="froggy.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:20:12 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860118" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:20:14 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860120" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:20:19 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860121" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="butch.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:20:20 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860122" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="butch.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:20:20 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860123" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="froggy.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:20:24 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860125" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="butch.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:20:25 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860129" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="froggy.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:20:27 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860133" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="froggy.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:20:33 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860134" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:20:35 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860136" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="froggy.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:20:37 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860139" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:20:46 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860148" nodeInfo="ng">
-            <property name="description" value="Installing plugin mandatory resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="buddy.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:21:00 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860149" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="buddy.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:21:02 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860150" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="buddy.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:21:04 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860151" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="buddy.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:21:07 EDT 2014" />
-          </node>
-        </node>
-        <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="406260948649248334" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="start" />
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649248333" nodeInfo="ng">
-            <property name="description" value="-" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="alfalfa.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:18:41 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999859984" nodeInfo="ng">
-            <property name="description" value="-" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="alfalfa.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:18:41 EDT 2014" />
-          </node>
-        </node>
-        <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="406260948649248336" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="diff_exp" />
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649248335" nodeInfo="ng">
-            <property name="description" value="Starting to define parallelization plan." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="alfalfa.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:18:42 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649248337" nodeInfo="ng">
-            <property name="description" value="Parallelization plan generated." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="alfalfa.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:18:44 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649248338" nodeInfo="ng">
-            <property name="description" value="Exit status: 0" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="alfalfa.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:18:48 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250715" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 9" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="alfalfa.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:21 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250718" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 5" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="buckwheat.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:22 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250720" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 2" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:24 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250721" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 10" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="alfalfa.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:24 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250722" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 6" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="buckwheat.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:24 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250723" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 7" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="buckwheat.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:24 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250724" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 8" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="alfalfa.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:24 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250726" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 3" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:26 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649250727" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 4" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:26 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649251812" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 45" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spud.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:42 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="406260948649252367" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 47" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spud.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:46 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999859985" nodeInfo="ng">
-            <property name="description" value="Starting to define parallelization plan." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="alfalfa.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:18:42 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999859986" nodeInfo="ng">
-            <property name="description" value="Parallelization plan generated." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="alfalfa.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:18:44 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999859987" nodeInfo="ng">
-            <property name="description" value="Exit status: 0" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="alfalfa.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:18:48 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860034" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 9" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="alfalfa.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:21 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860037" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 5" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="buckwheat.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:22 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860039" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 2" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:24 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860040" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 10" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="alfalfa.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:24 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860041" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 6" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="buckwheat.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:24 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860042" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 7" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="buckwheat.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:24 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860043" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 8" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="alfalfa.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:24 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860045" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 3" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:26 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860046" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 4" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:26 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860073" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 45" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spud.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:42 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860078" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 47" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spud.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:46 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860083" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 42" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spud.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:49 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860084" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 44" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spud.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:51 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860087" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 38" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spud.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:53 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860088" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 39" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spud.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:54 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860090" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 19" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="jane.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:54 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860092" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 46" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spud.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:54 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860099" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 41" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="spud.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:19:58 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860106" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 22" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="jane.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:20:05 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860111" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 18" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="jane.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:20:10 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860112" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 17" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="jane.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:20:11 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860113" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 21" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="jane.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:20:11 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860116" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 20" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="jane.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:20:13 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860117" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 23" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="jane.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:20:13 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860119" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 16" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="butch.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:20:16 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860124" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 13" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="butch.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:20:24 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860126" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 1" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="butch.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:20:25 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860127" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 12" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="butch.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:20:25 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860128" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 15" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="butch.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:20:27 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860130" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 11" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="butch.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:20:28 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860131" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 14" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="butch.med.cornell.edu" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:20:28 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860132" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 30" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:20:31 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860135" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 25" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:20:37 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860137" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 27" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:20:42 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860138" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 29" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:20:44 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860140" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 26" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:20:46 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860141" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 33" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="froggy.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:20:47 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860142" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 34" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="froggy.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:20:49 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860143" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 37" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="froggy.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:20:49 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860144" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 36" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="froggy.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:20:49 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860145" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 35" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="froggy.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:20:49 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860146" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 28" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:20:50 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860147" nodeInfo="ng">
-            <property name="description" value="Processing run_single_alignment_analysis_process for part 31" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="froggy.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:20:50 EDT 2014" />
-          </node>
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860152" nodeInfo="ng">
-            <property name="description" value="Starting to combine results.." />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="buddy.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:21:09 EDT 2014" />
-          </node>
-        </node>
-        <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="1685722937999860154" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="failed" />
-          <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="1685722937999860153" nodeInfo="ng">
-            <property name="description" value="Job failed. Error description: failed to convert results to database" />
-            <property name="hostname" nameId="bbh2.2017323193335763100" value="buddy.pbtech" />
-            <property name="category" nameId="bbh2.2017323193335763085" value="FATAL" />
-            <property name="timestamp" nameId="bbh2.2017323193335763104" value="Wed Jul 23 10:21:15 EDT 2014" />
-          </node>
-        </node>
-      </node>
-      <node role="listener" roleId="bbh2.2017323193335730758" type="bbh2.MessageListener" typeId="bbh2.2017323193335730757" id="406260948649242637" nodeInfo="ng">
-        <property name="subscribed" nameId="bbh2.2017323193335803495" value="true" />
-        <property name="name" nameId="tpck.1169194664001" value="NYoSh-1406125082161" />
-        <property name="jobTag" nameId="bbh2.2017323193335763033" value="GDKEBCL" />
-        <link role="broker" roleId="bbh2.2017323193335803042" targetNodeId="1212232161621136016" resolveInfo="brokerForMonitor" />
-      </node>
-      <node role="jobStatusListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobListener" typeId="bs99.1212232161626260983" id="406260948649242638" nodeInfo="ng">
-        <link role="jobArea" targetNodeId="2419654323731450373" resolveInfo="MSJobArea" />
-        <link role="job" roleId="bs99.1212232161627127088" targetNodeId="406260948649242622" resolveInfo="test" />
-      </node>
-    </node>
   </root>
   <root type="bs99.ExecutionTool" typeId="bs99.2465489689642685978" id="6481326468075586463" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="AlignerSubmission" />
@@ -13167,27 +11479,6 @@
         <property name="value" nameId="bs99.606449909792929477" value="1000GENOMES.37" />
       </node>
     </node>
-    <node role="jobMonitor" type="bbh2.JobMonitor" typeId="bbh2.2017323193335723531" id="6041342965309990315" nodeInfo="ng">
-      <property name="jobtag" nameId="bbh2.2017323193335729124" value="ASEJEMU" />
-      <link role="broker" roleId="bbh2.2017323193335950083" targetNodeId="1212232161621136016" resolveInfo="brokerForMonitor" />
-      <node role="viewer" roleId="bbh2.2017323193335764208" type="bbh2.MessageViewer" typeId="bbh2.2017323193335763037" id="6041342965309990316" nodeInfo="ng">
-        <property name="jobStatus" nameId="bbh2.8711817271669511123" value="not available" />
-        <property name="messageCounter" nameId="bbh2.8711817271669613111" value="0" />
-        <property name="autoRefresh" nameId="bbh2.1011954325398115419" value="true" />
-        <link role="listener" roleId="bbh2.1526708538680794525" targetNodeId="6041342965309990317" resolveInfo="NYoSh-1405969768997" />
-        <link role="eventListener" roleId="bbh2.1212232161626043352" targetNodeId="6041342965309990315" />
-      </node>
-      <node role="listener" roleId="bbh2.2017323193335730758" type="bbh2.MessageListener" typeId="bbh2.2017323193335730757" id="6041342965309990317" nodeInfo="ng">
-        <property name="subscribed" nameId="bbh2.2017323193335803495" value="true" />
-        <property name="name" nameId="tpck.1169194664001" value="NYoSh-1405969768997" />
-        <property name="jobTag" nameId="bbh2.2017323193335763033" value="ASEJEMU" />
-        <link role="broker" roleId="bbh2.2017323193335803042" targetNodeId="1212232161621136016" resolveInfo="brokerForMonitor" />
-      </node>
-      <node role="jobStatusListeners" roleId="bbh2.1212232161625727018" type="bs99.RegisterJobListener" typeId="bs99.1212232161626260983" id="6041342965309990318" nodeInfo="ng">
-        <link role="jobArea" targetNodeId="2419654323731450373" resolveInfo="MSJobArea" />
-        <link role="job" roleId="bs99.1212232161627127088" targetNodeId="6041342965309990308" resolveInfo="FirstAligner" />
-      </node>
-    </node>
   </root>
   <root type="bs99.ExecutionTool" typeId="bs99.2465489689642685978" id="6041342965312382881" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="ExecutionTool" />
@@ -13215,19 +11506,16 @@
         <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="717853706876664417" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="pre_align" />
           <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="717853706876664416" nodeInfo="ng">
-            <property name="description" value="Submitting job to the cluster" />
             <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
             <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
             <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 22 11:10:33 EDT 2014" />
           </node>
           <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="717853706876664418" nodeInfo="ng">
-            <property name="description" value="Job successfully submitted" />
             <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
             <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
             <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 22 11:10:35 EDT 2014" />
           </node>
           <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="717853706876664419" nodeInfo="ng">
-            <property name="description" value="Output from submission command: 330174" />
             <property name="hostname" nameId="bbh2.2017323193335763100" value="spanky.med.cornell.edu" />
             <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
             <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 22 11:10:36 EDT 2014" />
@@ -13236,49 +11524,41 @@
         <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="717853706876664421" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="resources" />
           <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="717853706876664420" nodeInfo="ng">
-            <property name="description" value="Installing plugin mandatory resources" />
             <property name="hostname" nameId="bbh2.2017323193335763100" value="jane.pbtech" />
             <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
             <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 22 11:10:44 EDT 2014" />
           </node>
           <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="717853706876664422" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
             <property name="hostname" nameId="bbh2.2017323193335763100" value="jane.pbtech" />
             <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
             <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 22 11:10:48 EDT 2014" />
           </node>
           <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="717853706876664423" nodeInfo="ng">
-            <property name="description" value="Installing plugin mandatory resources" />
             <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
             <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
             <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 22 11:11:22 EDT 2014" />
           </node>
           <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="717853706876664424" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
             <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
             <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
             <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 22 11:11:27 EDT 2014" />
           </node>
           <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="717853706876664425" nodeInfo="ng">
-            <property name="description" value="Installing plugin resources" />
             <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
             <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
             <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 22 11:11:32 EDT 2014" />
           </node>
           <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="717853706876664426" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
             <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
             <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
             <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 22 11:11:38 EDT 2014" />
           </node>
           <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="717853706876664433" nodeInfo="ng">
-            <property name="description" value="Installing plugin mandatory resources" />
             <property name="hostname" nameId="bbh2.2017323193335763100" value="buckwheat.med.cornell.edu" />
             <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
             <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 22 11:13:05 EDT 2014" />
           </node>
           <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="717853706876664434" nodeInfo="ng">
-            <property name="description" value="Expose environment variables for artifacts.." />
             <property name="hostname" nameId="bbh2.2017323193335763100" value="buckwheat.med.cornell.edu" />
             <property name="category" nameId="bbh2.2017323193335763085" value="TRACE" />
             <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 22 11:13:07 EDT 2014" />
@@ -13287,7 +11567,6 @@
         <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="717853706876664428" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="align" />
           <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="717853706876664427" nodeInfo="ng">
-            <property name="description" value="Align, sub-task 1 of 2, starting" />
             <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
             <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
             <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 22 11:11:44 EDT 2014" />
@@ -13296,7 +11575,6 @@
         <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="717853706876664430" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="sort" />
           <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="717853706876664429" nodeInfo="ng">
-            <property name="description" value="Post-align sort, sub-task 1 of 2, starting" />
             <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
             <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
             <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 22 11:12:51 EDT 2014" />
@@ -13305,25 +11583,21 @@
         <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="717853706876664432" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="completed" />
           <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="717853706876664431" nodeInfo="ng">
-            <property name="description" value="Sub-task 1 of 2, completed" />
             <property name="hostname" nameId="bbh2.2017323193335763100" value="wally.pbtech" />
             <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
             <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 22 11:12:55 EDT 2014" />
           </node>
           <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="717853706876664437" nodeInfo="ng">
-            <property name="description" value="Concat, sub-task 1 of 2 completed" />
             <property name="hostname" nameId="bbh2.2017323193335763100" value="buckwheat.med.cornell.edu" />
             <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
             <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 22 11:13:11 EDT 2014" />
           </node>
           <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="717853706876664479" nodeInfo="ng">
-            <property name="description" value="-" />
             <property name="hostname" nameId="bbh2.2017323193335763100" value="buckwheat.med.cornell.edu" />
             <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
             <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 22 11:13:57 EDT 2014" />
           </node>
           <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="717853706876664480" nodeInfo="ng">
-            <property name="description" value="Job completed" />
             <property name="hostname" nameId="bbh2.2017323193335763100" value="buckwheat.med.cornell.edu" />
             <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
             <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 22 11:13:57 EDT 2014" />
@@ -13332,7 +11606,6 @@
         <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="717853706876664436" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="concat" />
           <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="717853706876664435" nodeInfo="ng">
-            <property name="description" value="Concat, sub-task 1 of 2, starting" />
             <property name="hostname" nameId="bbh2.2017323193335763100" value="buckwheat.med.cornell.edu" />
             <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
             <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 22 11:13:10 EDT 2014" />
@@ -13341,7 +11614,6 @@
         <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="717853706876664439" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="counts" />
           <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="717853706876664438" nodeInfo="ng">
-            <property name="description" value="Counts, sub-task 2 of 2, starting" />
             <property name="hostname" nameId="bbh2.2017323193335763100" value="buckwheat.med.cornell.edu" />
             <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
             <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 22 11:13:12 EDT 2014" />
@@ -13350,7 +11622,6 @@
         <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="717853706876664441" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="alignment_stats" />
           <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="717853706876664440" nodeInfo="ng">
-            <property name="description" value="Alignment Stats, sub-task 2 of 2, starting" />
             <property name="hostname" nameId="bbh2.2017323193335763100" value="buckwheat.med.cornell.edu" />
             <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
             <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 22 11:13:14 EDT 2014" />
@@ -13359,7 +11630,6 @@
         <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="717853706876664443" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="alignment_seq_variation_stats" />
           <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="717853706876664442" nodeInfo="ng">
-            <property name="description" value="Alignment Sequence Variation Stats, sub-task 2 of 2, starting" />
             <property name="hostname" nameId="bbh2.2017323193335763100" value="buckwheat.med.cornell.edu" />
             <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
             <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 22 11:13:27 EDT 2014" />
@@ -13368,13 +11638,11 @@
         <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="717853706876664445" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="wiggles" />
           <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="717853706876664444" nodeInfo="ng">
-            <property name="description" value="Wiggles, sub-task 2 of 2, starting" />
             <property name="hostname" nameId="bbh2.2017323193335763100" value="buckwheat.med.cornell.edu" />
             <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
             <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 22 11:13:29 EDT 2014" />
           </node>
           <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="717853706876664446" nodeInfo="ng">
-            <property name="description" value="Bedgraph, sub-task 2 of 2, starting" />
             <property name="hostname" nameId="bbh2.2017323193335763100" value="buckwheat.med.cornell.edu" />
             <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
             <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 22 11:13:31 EDT 2014" />
@@ -13383,7 +11651,6 @@
         <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="717853706876664448" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="compress" />
           <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="717853706876664447" nodeInfo="ng">
-            <property name="description" value="Compressing files" />
             <property name="hostname" nameId="bbh2.2017323193335763100" value="buckwheat.med.cornell.edu" />
             <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
             <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 22 11:13:34 EDT 2014" />
@@ -13392,49 +11659,41 @@
         <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="717853706876664450" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="transfer" />
           <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="717853706876664449" nodeInfo="ng">
-            <property name="description" value="Pushing results in the fileset area" />
             <property name="hostname" nameId="bbh2.2017323193335763100" value="buckwheat.med.cornell.edu" />
             <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
             <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 22 11:13:35 EDT 2014" />
           </node>
           <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="717853706876664451" nodeInfo="ng">
-            <property name="description" value="The following GOBY_ALIGNMENT instance has been successfully registered: VNXQEVM" />
             <property name="hostname" nameId="bbh2.2017323193335763100" value="buckwheat.med.cornell.edu" />
             <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
             <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 22 11:13:37 EDT 2014" />
           </node>
           <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="717853706876664452" nodeInfo="ng">
-            <property name="description" value="The following ALIGNMENT_BED instance has been successfully registered: WCQMOTQ" />
             <property name="hostname" nameId="bbh2.2017323193335763100" value="buckwheat.med.cornell.edu" />
             <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
             <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 22 11:13:39 EDT 2014" />
           </node>
           <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="717853706876664455" nodeInfo="ng">
-            <property name="description" value="The following COUNTS instance has been successfully registered: JTUWZNI" />
             <property name="hostname" nameId="bbh2.2017323193335763100" value="buckwheat.med.cornell.edu" />
             <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
             <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 22 11:13:44 EDT 2014" />
           </node>
           <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="717853706876664456" nodeInfo="ng">
-            <property name="description" value="The following ALIGNMENT_ALL_FILES instance has been successfully registered: JPTGXKO" />
             <property name="hostname" nameId="bbh2.2017323193335763100" value="buckwheat.med.cornell.edu" />
             <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
             <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 22 11:13:46 EDT 2014" />
           </node>
           <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="717853706876664457" nodeInfo="ng">
-            <property name="description" value="The following ALIGNMENT_SEQUENCE_VARIATION_STATS instance has been successfully registered: TJUBAXB" />
             <property name="hostname" nameId="bbh2.2017323193335763100" value="buckwheat.med.cornell.edu" />
             <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
             <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 22 11:13:48 EDT 2014" />
           </node>
           <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="717853706876664458" nodeInfo="ng">
-            <property name="description" value="The following STATS instance has been successfully registered: UIDYURU" />
             <property name="hostname" nameId="bbh2.2017323193335763100" value="buckwheat.med.cornell.edu" />
             <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
             <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 22 11:13:50 EDT 2014" />
           </node>
           <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="717853706876664459" nodeInfo="ng">
-            <property name="description" value="The following ALIGNMENT_STATS instance has been successfully registered: RIOBOBZ" />
             <property name="hostname" nameId="bbh2.2017323193335763100" value="buckwheat.med.cornell.edu" />
             <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
             <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 22 11:13:53 EDT 2014" />
@@ -13443,7 +11702,6 @@
         <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="717853706876664454" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="unclassified" />
           <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="717853706876664453" nodeInfo="ng">
-            <property name="description" value="The following ALIGNMENT_WIG instance has been successfully registered: ABWFRTF" />
             <property name="hostname" nameId="bbh2.2017323193335763100" value="buckwheat.med.cornell.edu" />
             <property name="category" nameId="bbh2.2017323193335763085" value="DEBUG" />
             <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 22 11:13:41 EDT 2014" />
@@ -13452,13 +11710,11 @@
         <node role="phases" roleId="bbh2.2017323193335763038" type="bbh2.Phase" typeId="bbh2.2017323193335745722" id="717853706876664461" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="registered_filesets" />
           <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="717853706876664460" nodeInfo="ng">
-            <property name="description" value=" GOBY_ALIGNMENT:[VNXQEVM] ALIGNMENT_BED:[WCQMOTQ] COUNTS:[JTUWZNI] ALIGNMENT_ALL_FILES:[JPTGXKO] ALIGNMENT_SEQUENCE_VARIATION_STATS:[TJUBAXB] STATS:[UIDYURU] ALIGNMENT_STATS:[RIOBOBZ]" />
             <property name="hostname" nameId="bbh2.2017323193335763100" value="buckwheat.med.cornell.edu" />
             <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
             <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 22 11:13:53 EDT 2014" />
           </node>
           <node role="messages" roleId="bbh2.2017323193335763012" type="bbh2.Message" typeId="bbh2.2017323193335745731" id="717853706876664477" nodeInfo="ng">
-            <property name="description" value="JOB_METADATA: JLSKNZT" />
             <property name="hostname" nameId="bbh2.2017323193335763100" value="buckwheat.med.cornell.edu" />
             <property name="category" nameId="bbh2.2017323193335763085" value="INFO" />
             <property name="timestamp" nameId="bbh2.2017323193335763104" value="Tue Jul 22 11:13:56 EDT 2014" />
