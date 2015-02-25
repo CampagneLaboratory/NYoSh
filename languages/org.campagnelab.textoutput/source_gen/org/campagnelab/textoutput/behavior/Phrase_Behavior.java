@@ -4,9 +4,10 @@ package org.campagnelab.textoutput.behavior;
 
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 
 public class Phrase_Behavior {
   public static void init(SNode thisNode) {
-    SPropertyOperations.set(thisNode, "text", "");
+    SPropertyOperations.set(thisNode, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x17510af4f25c474eL, 0x17510af4f25c474fL, "text"), "");
   }
 }

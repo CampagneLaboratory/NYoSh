@@ -39,27 +39,27 @@
     <property name="jobName" nameId="bs99.606449909789338951" value="TestAlignerJob" />
     <property name="message" nameId="bs99.3927327347527013400" value="Job successfully submitted. Assigned tag: VDPZWIX" />
     <link role="executionEnvironment" roleId="bs99.4459289555249518561" targetNodeId="45104428785272231" resolveInfo="TutorialEnvironment" />
-    <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="649332775225604310" resolveInfo="STAR22_GOBY" />
+    <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="1472681854108310154" resolveInfo="STAR22_GOBY" />
     <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="45104428787557510" nodeInfo="ng">
-      <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="649332775225604317" resolveInfo="INPUT_READS" />
+      <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="1472681854108310161" resolveInfo="INPUT_READS" />
       <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="45104428789592859" nodeInfo="ng">
         <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="45104428788621183" resolveInfo="COMPACT_READS/testCFS038-459-D2PRE_S10_L001_R1_001" />
       </node>
     </node>
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="45104428787557511" nodeInfo="ng">
-      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="649332775225604338" resolveInfo="Ambiguity threshold" />
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="1472681854108310182" resolveInfo="Ambiguity threshold" />
       <node role="value" roleId="bs99.6506431596944968310" type="bs99.IntegerOptionValue" typeId="bs99.606449909792930896" id="45104428787557513" nodeInfo="ng">
         <property name="value" nameId="bs99.606449909792930897" value="10" />
       </node>
     </node>
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="45104428787557514" nodeInfo="ng">
-      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="649332775225604342" resolveInfo="GENOME_REFERENCE_ID" />
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="1472681854108310186" resolveInfo="GENOME_REFERENCE_ID" />
       <node role="value" roleId="bs99.6506431596944968310" type="bs99.StringOptionValue" typeId="bs99.606449909792929476" id="45104428787557516" nodeInfo="ng">
         <property name="value" nameId="bs99.606449909792929477" value="1000GENOMES.37" />
       </node>
     </node>
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="45104428787557517" nodeInfo="ng">
-      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="649332775225604344" resolveInfo="CHUNK_SIZE" />
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="1472681854108310188" resolveInfo="CHUNK_SIZE" />
       <node role="value" roleId="bs99.6506431596944968310" type="bs99.IntegerOptionValue" typeId="bs99.606449909792930896" id="45104428787557519" nodeInfo="ng">
         <property name="value" nameId="bs99.606449909792930897" value="50000000" />
       </node>

@@ -7,10 +7,8 @@ public class ErrorManagementImplementation {
   public void recordStepDone(String actionDescription) {
 
   }
-
   public void exception(String actionDescription, int statusCode, Exception exception) {
   }
-
 
 
 }

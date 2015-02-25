@@ -5,6 +5,7 @@ package org.campagnelab.background.generator.template.main;
 import jetbrains.mps.generator.runtime.Generated;
 import jetbrains.mps.generator.template.BaseMappingRuleContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.generator.template.PropertyMacroContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
@@ -15,67 +16,52 @@ import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 @Generated
 public class QueriesGenerated {
   public final boolean NEEDS_OPCONTEXT = false;
-
   public static boolean baseMappingRule_Condition_8098307996398949788(final BaseMappingRuleContext _context) {
     // replace this statements when they occur within a backgroundableTask body with the final  
     // version 
-    return (SNodeOperations.getAncestor(_context.getNode(), "org.campagnelab.background.structure.BackgroundableTask", false, false) != null);
+    return (SNodeOperations.getNodeAncestor(_context.getNode(), MetaAdapterFactory.getConcept(0x20d83b64d10f48d1L, 0x990d513b574c4956L, 0x21c94420e72fcbc4L, "org.campagnelab.background.structure.BackgroundableTask"), false, false) != null);
   }
-
   public static Object propertyMacro_GetPropertyValue_2434551981679088017(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(_context.getNode(), "title");
+    return SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x20d83b64d10f48d1L, 0x990d513b574c4956L, 0x21c94420e72fcbc4L, 0x21c94420e7345f54L, "title"));
   }
-
   public static Object propertyMacro_GetPropertyValue_8912022532305770221(final PropertyMacroContext _context) {
-    return (SLinkOperations.getTarget(_context.getNode(), "onCancel", true) != null);
+    return (SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x20d83b64d10f48d1L, 0x990d513b574c4956L, 0x21c94420e72fcbc4L, 0x21c94420e730edefL, "onCancel")) != null);
   }
-
   public static Object propertyMacro_GetPropertyValue_8912022532296043862(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(_context.getNode(), "title");
+    return SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x20d83b64d10f48d1L, 0x990d513b574c4956L, 0x21c94420e72fcbc4L, 0x21c94420e7345f54L, "title"));
   }
-
   public static Object propertyMacro_GetPropertyValue_8912022532303343236(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(_context.getNode(), "title");
+    return SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x20d83b64d10f48d1L, 0x990d513b574c4956L, 0x21c94420e72fcbc4L, 0x21c94420e7345f54L, "title"));
   }
-
   public static boolean ifMacro_Condition_2434551981679026277(final IfMacroContext _context) {
-    return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(_context.getNode(), "access", true), "org.campagnelab.background.structure.WriteAccessType");
+    return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x20d83b64d10f48d1L, 0x990d513b574c4956L, 0x21c94420e72fcbc4L, 0x21c94420e7351e50L, "access")), MetaAdapterFactory.getConcept(0x20d83b64d10f48d1L, 0x990d513b574c4956L, 0x21c94420e7351e4eL, "org.campagnelab.background.structure.WriteAccessType"));
   }
-
   public static boolean ifMacro_Condition_2434551981679042312(final IfMacroContext _context) {
-    return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(_context.getNode(), "access", true), "org.campagnelab.background.structure.ReadAccessType");
+    return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x20d83b64d10f48d1L, 0x990d513b574c4956L, 0x21c94420e72fcbc4L, 0x21c94420e7351e50L, "access")), MetaAdapterFactory.getConcept(0x20d83b64d10f48d1L, 0x990d513b574c4956L, 0x21c94420e7351e49L, "org.campagnelab.background.structure.ReadAccessType"));
   }
-
   public static boolean ifMacro_Condition_8912022532306604724(final IfMacroContext _context) {
-    return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(_context.getNode(), "access", true), "org.campagnelab.background.structure.WriteAccessType");
+    return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x20d83b64d10f48d1L, 0x990d513b574c4956L, 0x21c94420e72fcbc4L, 0x21c94420e7351e50L, "access")), MetaAdapterFactory.getConcept(0x20d83b64d10f48d1L, 0x990d513b574c4956L, 0x21c94420e7351e4eL, "org.campagnelab.background.structure.WriteAccessType"));
   }
-
   public static boolean ifMacro_Condition_8912022532306604756(final IfMacroContext _context) {
-    return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(_context.getNode(), "access", true), "org.campagnelab.background.structure.ReadAccessType");
+    return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x20d83b64d10f48d1L, 0x990d513b574c4956L, 0x21c94420e72fcbc4L, 0x21c94420e7351e50L, "access")), MetaAdapterFactory.getConcept(0x20d83b64d10f48d1L, 0x990d513b574c4956L, 0x21c94420e7351e49L, "org.campagnelab.background.structure.ReadAccessType"));
   }
-
   public static boolean ifMacro_Condition_572350672214579331(final IfMacroContext _context) {
-    SNode enclosingMethod = SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration", false, false);
-    return ((enclosingMethod != null) && SPropertyOperations.getBoolean(enclosingMethod, "isStatic"));
+    SNode enclosingMethod = SNodeOperations.getNodeAncestor(_context.getNode(), MetaAdapterFactory.getConcept(0xaf65afd8f0dd4942L, 0x87d963a55f2a9db1L, 0x11d4348057eL, "jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration"), false, false);
+    return ((enclosingMethod != null) && SPropertyOperations.getBoolean(enclosingMethod, MetaAdapterFactory.getProperty(0xaf65afd8f0dd4942L, 0x87d963a55f2a9db1L, 0x11d4348057eL, 0x51613f7fe129b24dL, "isStatic")));
   }
-
   public static SNode sourceNodeQuery_2434551981681904824(final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(_context.getNode(), "task", true);
+    return SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x20d83b64d10f48d1L, 0x990d513b574c4956L, 0x21c94420e72fcbc4L, 0x21c94420e7306c95L, "task"));
   }
-
   public static SNode sourceNodeQuery_2434551981679022697(final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(_context.getNode(), "onSuccess", true);
+    return SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x20d83b64d10f48d1L, 0x990d513b574c4956L, 0x21c94420e72fcbc4L, 0x21c94420e7306c97L, "onSuccess"));
   }
-
   public static SNode sourceNodeQuery_2434551981679042304(final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(_context.getNode(), "onSuccess", true);
+    return SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x20d83b64d10f48d1L, 0x990d513b574c4956L, 0x21c94420e72fcbc4L, 0x21c94420e7306c97L, "onSuccess"));
   }
-
   public static SNode sourceNodeQuery_8912022532306604716(final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(_context.getNode(), "onCancel", true);
+    return SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x20d83b64d10f48d1L, 0x990d513b574c4956L, 0x21c94420e72fcbc4L, 0x21c94420e730edefL, "onCancel"));
   }
-
   public static SNode sourceNodeQuery_8912022532306604748(final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(_context.getNode(), "onCancel", true);
+    return SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x20d83b64d10f48d1L, 0x990d513b574c4956L, 0x21c94420e72fcbc4L, 0x21c94420e730edefL, "onCancel"));
   }
 }

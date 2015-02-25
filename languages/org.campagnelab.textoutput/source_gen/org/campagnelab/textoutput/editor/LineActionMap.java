@@ -9,6 +9,7 @@ import jetbrains.mps.openapi.editor.cells.CellActionType;
 import jetbrains.mps.editor.runtime.cells.AbstractCellAction;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.smodel.action.SNodeFactoryOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class LineActionMap {
@@ -18,76 +19,58 @@ public class LineActionMap {
     editorCell.setAction(CellActionType.DELETE, new LineActionMap.LineActionMap_DELETE(node));
     editorCell.setAction(CellActionType.BACKSPACE, new LineActionMap.LineActionMap_BACKSPACE(node));
   }
-
   public static class LineActionMap_INSERT_BEFORE extends AbstractCellAction {
     /*package*/ SNode myNode;
-
     public LineActionMap_INSERT_BEFORE(SNode node) {
       this.myNode = node;
     }
-
     public String getDescriptionText() {
       return "Insert line before line";
     }
-
     public void execute(EditorContext editorContext) {
       this.execute_internal(editorContext, this.myNode);
     }
-
     public void execute_internal(EditorContext editorContext, SNode node) {
-      SNodeOperations.insertPrevSiblingChild(node, SNodeFactoryOperations.createNewNode("org.campagnelab.textoutput.structure.Line", null));
+      SNodeOperations.insertPrevSiblingChild(node, SNodeFactoryOperations.createNewNode(SNodeFactoryOperations.asInstanceConcept(MetaAdapterFactory.getConcept(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x4c3d6fa21cc1a06dL, "org.campagnelab.textoutput.structure.Line")), null));
     }
   }
-
   public static class LineActionMap_INSERT extends AbstractCellAction {
     /*package*/ SNode myNode;
-
     public LineActionMap_INSERT(SNode node) {
       this.myNode = node;
     }
-
     public String getDescriptionText() {
       return "Insert";
     }
-
     public void execute(EditorContext editorContext) {
       this.execute_internal(editorContext, this.myNode);
     }
-
     public void execute_internal(EditorContext editorContext, SNode node) {
-      SNodeOperations.insertNextSiblingChild(node, SNodeFactoryOperations.createNewNode("org.campagnelab.textoutput.structure.Line", null));
+      SNodeOperations.insertNextSiblingChild(node, SNodeFactoryOperations.createNewNode(SNodeFactoryOperations.asInstanceConcept(MetaAdapterFactory.getConcept(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x4c3d6fa21cc1a06dL, "org.campagnelab.textoutput.structure.Line")), null));
     }
   }
-
   public static class LineActionMap_DELETE extends AbstractCellAction {
     /*package*/ SNode myNode;
-
     public LineActionMap_DELETE(SNode node) {
       this.myNode = node;
     }
-
     public void execute(EditorContext editorContext) {
       this.execute_internal(editorContext, this.myNode);
     }
-
     public void execute_internal(EditorContext editorContext, SNode node) {
-      SPropertyOperations.set(node, "text", "delete pressed");
+      SPropertyOperations.set(node, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x4c3d6fa21cc1a06dL, 0x4c3d6fa21cc1c2c8L, "text"), "delete pressed");
     }
   }
-
   public static class LineActionMap_BACKSPACE extends AbstractCellAction {
     /*package*/ SNode myNode;
-
     public LineActionMap_BACKSPACE(SNode node) {
       this.myNode = node;
     }
-
     public void execute(EditorContext editorContext) {
       this.execute_internal(editorContext, this.myNode);
     }
-
     public void execute_internal(EditorContext editorContext, SNode node) {
-      SPropertyOperations.set(node, "text", "delete pressed");
+      SPropertyOperations.set(node, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x4c3d6fa21cc1a06dL, 0x4c3d6fa21cc1c2c8L, "text"), "delete pressed");
     }
   }
 }

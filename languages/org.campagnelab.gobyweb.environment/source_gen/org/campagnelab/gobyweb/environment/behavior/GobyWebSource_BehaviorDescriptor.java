@@ -8,11 +8,9 @@ import org.jetbrains.mps.openapi.model.SNode;
 public class GobyWebSource_BehaviorDescriptor extends EnvironmentSource_BehaviorDescriptor {
   public GobyWebSource_BehaviorDescriptor() {
   }
-
   public void virtual_load_5955265417294647553(SNode thisNode) {
     GobyWebSource_Behavior.virtual_load_5955265417294647553(thisNode);
   }
-
   @Override
   public String getConceptFqName() {
     return "org.campagnelab.gobyweb.environment.structure.GobyWebSource";
