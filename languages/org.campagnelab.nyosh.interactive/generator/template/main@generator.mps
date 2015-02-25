@@ -226,9 +226,9 @@
     <node concept="Wx3nA" id="G5bxgOVTBf" role="jymVt">
       <property role="TrG5h" value="LOG" />
       <node concept="2YIFZM" id="G5bxgOVTBh" role="33vP2m">
-        <ref role="37wK5l" to="fagr:~LogManager.getLogger(java.lang.Class):org.apache.log4j.Logger" resolve="getLogger" />
         <ref role="1Pybhc" to="fagr:~LogManager" resolve="LogManager" />
-        <node concept="3VsKOn" id="G5bxgOW5zM" role="37wK5m">
+        <ref role="37wK5l" to="fagr:~LogManager.getLogger(java.lang.String):org.apache.log4j.Logger" resolve="getLogger" />
+        <node concept="3VsKOn" id="2FhRhvHBTi5" role="37wK5m">
           <ref role="3VsUkX" node="G5bxgOk_Uk" resolve="map_ExecuteTool" />
         </node>
       </node>
