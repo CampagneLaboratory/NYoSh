@@ -640,7 +640,7 @@
         </node>
       </node>
       <node concept="1E1JtA" id="2mFg1uCEf5W" role="2G$12L">
-        <property role="BnDLt" value="true" />
+        <property role="BnDLt" value="false" />
         <property role="TrG5h" value="org.campagnelab.gobyweb.samples" />
         <property role="3LESm3" value="788de0e4-8ca2-4e82-8db6-de999c3adab7" />
         <property role="2GAjPV" value="false" />
