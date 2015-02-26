@@ -48,7 +48,6 @@
       </concept>
       <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
       <concept id="1106270571710" name="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" flags="nn" index="2iRkQZ" />
-      <concept id="1106270637846" name="jetbrains.mps.lang.editor.structure.CellLayout_Flow" flags="nn" index="2iR$Sn" />
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
       <concept id="1237307900041" name="jetbrains.mps.lang.editor.structure.IndentLayoutIndentStyleClassItem" flags="ln" index="lj46D" />
       <concept id="1237308012275" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem" flags="ln" index="ljvvj" />
@@ -450,7 +449,7 @@
         <property role="S$F3r" value="true" />
         <property role="2czwfO" value=" " />
         <ref role="1NtTu8" to="4tvk:JisDMEUBsb" />
-        <node concept="2iR$Sn" id="3tH8cPRqcWa" role="2czzBx" />
+        <node concept="l2Vlx" id="2FhRhvIkfoM" role="2czzBx" />
         <node concept="3F0ifn" id="74HGF0nFX5t" role="2czzBI">
           <property role="3F0ifm" value="&lt;no commands&gt;" />
         </node>
