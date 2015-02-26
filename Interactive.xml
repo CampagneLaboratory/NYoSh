@@ -36,6 +36,8 @@
   <property name="org.campagnelab.NYoSh.nyosh_version" value="${import.org.campagnelab.GobyWeb.org.campagnelab.NYoSh.nyosh_version}" />
   <property name="org.campagnelab.NYoSh.build_number" value="${import.org.campagnelab.GobyWeb.org.campagnelab.NYoSh.build_number}" />
   <property name="XChart.build_number" value="${import.org.campagnelab.GobyWeb.XChart.build_number}" />
+  <property name="XChart.reference_commit" value="${import.org.campagnelab.GobyWeb.XChart.reference_commit}" />
+  <property name="XChart.reference_branch" value="${import.org.campagnelab.GobyWeb.XChart.reference_branch}" />
   <property name="XChart.XChart_version" value="${import.org.campagnelab.GobyWeb.XChart.XChart_version}" />
   <property name="org.campagnelab.TextOutput.build_number" value="${import.org.campagnelab.GobyWeb.org.campagnelab.TextOutput.build_number}" />
   <property name="org.campagnelab.TextOutput.textoutput_version" value="${import.org.campagnelab.GobyWeb.org.campagnelab.TextOutput.textoutput_version}" />
@@ -642,6 +644,7 @@
           <module ref="9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)" />
           <module ref="d0df1055-918a-4cf9-96f9-effded676ae2(org.campagnelab.bio.species.morgs)" />
           <module ref="592d8eb7-1a36-488a-93f9-794b47361c97(org.campagnelab.gobyweb.interactive.filesets.mappings)" />
+          <module ref="876624ad-a590-49cc-af36-d31b84c885cd(org.campagnelab.gobyweb.interactive.viewers)" />
         </dependencies>
         <sources jar="org.campagnelab.gobyweb.interactive.viewers-src.jar" descriptor="org.campagnelab.gobyweb.interactive.viewers.msd" />
       </module>
@@ -836,7 +839,7 @@
       <zipfileset file="${basedir}/devkits/org.campagnelab.devkit.gobyweb.interactive.devkit" prefix="Interactive/languages/org.campagnelab.Interactive" />
       <fileset dir="${build.tmp}/default/org.campagnelab.Interactive-_dl__lbrace_interactive_version_rbrace_.zip" />
     </zip>
-    <echo file="${build.layout}/build.properties">org.campagnelab.Interactive.interactive_version=${interactive_version}${line.separator}org.campagnelab.Interactive.build_number=${build_number}${line.separator}mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}${line.separator}org.campagnelab.GobyWeb.build_number=${org.campagnelab.GobyWeb.build_number}${line.separator}org.campagnelab.GobyWeb.gobyweb_version=${org.campagnelab.GobyWeb.gobyweb_version}${line.separator}org.campagnelab.mps.UI.ui_version=${org.campagnelab.mps.UI.ui_version}${line.separator}org.campagnelab.mps.UI.build_number=${org.campagnelab.mps.UI.build_number}${line.separator}org.campagnelab.Logger.logger.version=${org.campagnelab.Logger.logger.version}${line.separator}org.campagnelab.Logger.build_number=${org.campagnelab.Logger.build_number}${line.separator}org.campagnelab.NYoSh.nyosh_version=${org.campagnelab.NYoSh.nyosh_version}${line.separator}org.campagnelab.NYoSh.build_number=${org.campagnelab.NYoSh.build_number}${line.separator}XChart.build_number=${XChart.build_number}${line.separator}XChart.XChart_version=${XChart.XChart_version}${line.separator}org.campagnelab.TextOutput.build_number=${org.campagnelab.TextOutput.build_number}${line.separator}org.campagnelab.TextOutput.textoutput_version=${org.campagnelab.TextOutput.textoutput_version}${line.separator}org.campagnelab.ClusterConfig.clusterConfig_version=${org.campagnelab.ClusterConfig.clusterConfig_version}${line.separator}org.campagnelab.ClusterConfig.build_number=${org.campagnelab.ClusterConfig.build_number}${line.separator}org.campagnelab.Background.background_version=${org.campagnelab.Background.background_version}${line.separator}org.campagnelab.Background.build_number=${org.campagnelab.Background.build_number}</echo>
+    <echo file="${build.layout}/build.properties">org.campagnelab.Interactive.interactive_version=${interactive_version}${line.separator}org.campagnelab.Interactive.build_number=${build_number}${line.separator}mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}${line.separator}org.campagnelab.GobyWeb.build_number=${org.campagnelab.GobyWeb.build_number}${line.separator}org.campagnelab.GobyWeb.gobyweb_version=${org.campagnelab.GobyWeb.gobyweb_version}${line.separator}org.campagnelab.mps.UI.ui_version=${org.campagnelab.mps.UI.ui_version}${line.separator}org.campagnelab.mps.UI.build_number=${org.campagnelab.mps.UI.build_number}${line.separator}org.campagnelab.Logger.logger.version=${org.campagnelab.Logger.logger.version}${line.separator}org.campagnelab.Logger.build_number=${org.campagnelab.Logger.build_number}${line.separator}org.campagnelab.NYoSh.nyosh_version=${org.campagnelab.NYoSh.nyosh_version}${line.separator}org.campagnelab.NYoSh.build_number=${org.campagnelab.NYoSh.build_number}${line.separator}XChart.build_number=${XChart.build_number}${line.separator}XChart.reference_commit=${XChart.reference_commit}${line.separator}XChart.reference_branch=${XChart.reference_branch}${line.separator}XChart.XChart_version=${XChart.XChart_version}${line.separator}org.campagnelab.TextOutput.build_number=${org.campagnelab.TextOutput.build_number}${line.separator}org.campagnelab.TextOutput.textoutput_version=${org.campagnelab.TextOutput.textoutput_version}${line.separator}org.campagnelab.ClusterConfig.clusterConfig_version=${org.campagnelab.ClusterConfig.clusterConfig_version}${line.separator}org.campagnelab.ClusterConfig.build_number=${org.campagnelab.ClusterConfig.build_number}${line.separator}org.campagnelab.Background.background_version=${org.campagnelab.Background.background_version}${line.separator}org.campagnelab.Background.build_number=${org.campagnelab.Background.build_number}</echo>
   </target>
   
   <target name="buildDependents">
@@ -844,22 +847,22 @@
   </target>
   
   <target name="fetchDependencies">
-    <mkdir dir="${build.tmp}/deps/org.campagnelab.Background/org.campagnelab.background-_dl__lbrace_background_version_rbrace_.zip" />
-    <unzip src="${artifacts.org.campagnelab.Background}/org.campagnelab.background-${org.campagnelab.Background.background_version}.zip" dest="${build.tmp}/deps/org.campagnelab.Background/org.campagnelab.background-_dl__lbrace_background_version_rbrace_.zip" />
-    <mkdir dir="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip" />
-    <unzip src="${artifacts.XChart}/XChart_${XChart.XChart_version}.zip" dest="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip" />
-    <mkdir dir="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip" />
-    <unzip src="${artifacts.org.campagnelab.TextOutput}/org.campagnelab.TextOutput-${org.campagnelab.TextOutput.textoutput_version}.zip" dest="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip" />
-    <mkdir dir="${build.tmp}/deps/org.campagnelab.GobyWeb/org.campagnelab.GobyWeb-_dl__lbrace_gobyweb_version_rbrace_.zip" />
-    <unzip src="${artifacts.org.campagnelab.GobyWeb}/org.campagnelab.GobyWeb-${org.campagnelab.GobyWeb.gobyweb_version}.zip" dest="${build.tmp}/deps/org.campagnelab.GobyWeb/org.campagnelab.GobyWeb-_dl__lbrace_gobyweb_version_rbrace_.zip" />
     <mkdir dir="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip" />
     <unzip src="${artifacts.org.campagnelab.mps.UI}/org.campagnelab.UI-${org.campagnelab.mps.UI.ui_version}.zip" dest="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip" />
-    <mkdir dir="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip" />
-    <unzip src="${artifacts.org.campagnelab.NYoSh}/org.campagnelab.NYoSh-${org.campagnelab.NYoSh.nyosh_version}.zip" dest="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip" />
+    <mkdir dir="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip" />
+    <unzip src="${artifacts.org.campagnelab.TextOutput}/org.campagnelab.TextOutput-${org.campagnelab.TextOutput.textoutput_version}.zip" dest="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip" />
     <mkdir dir="${build.tmp}/deps/org.campagnelab.ClusterConfig/org.campagnelab.ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip" />
     <unzip src="${artifacts.org.campagnelab.ClusterConfig}/org.campagnelab.ClusterConfig-${org.campagnelab.ClusterConfig.clusterConfig_version}.zip" dest="${build.tmp}/deps/org.campagnelab.ClusterConfig/org.campagnelab.ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip" />
+    <mkdir dir="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip" />
+    <unzip src="${artifacts.XChart}/XChart_${XChart.XChart_version}.zip" dest="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip" />
+    <mkdir dir="${build.tmp}/deps/org.campagnelab.GobyWeb/org.campagnelab.GobyWeb-_dl__lbrace_gobyweb_version_rbrace_.zip" />
+    <unzip src="${artifacts.org.campagnelab.GobyWeb}/org.campagnelab.GobyWeb-${org.campagnelab.GobyWeb.gobyweb_version}.zip" dest="${build.tmp}/deps/org.campagnelab.GobyWeb/org.campagnelab.GobyWeb-_dl__lbrace_gobyweb_version_rbrace_.zip" />
     <mkdir dir="${build.tmp}/deps/org.campagnelab.Logger/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip" />
     <unzip src="${artifacts.org.campagnelab.Logger}/org.campagnelab.logger-${org.campagnelab.Logger.logger.version}.zip" dest="${build.tmp}/deps/org.campagnelab.Logger/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip" />
+    <mkdir dir="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip" />
+    <unzip src="${artifacts.org.campagnelab.NYoSh}/org.campagnelab.NYoSh-${org.campagnelab.NYoSh.nyosh_version}.zip" dest="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip" />
+    <mkdir dir="${build.tmp}/deps/org.campagnelab.Background/org.campagnelab.background-_dl__lbrace_background_version_rbrace_.zip" />
+    <unzip src="${artifacts.org.campagnelab.Background}/org.campagnelab.background-${org.campagnelab.Background.background_version}.zip" dest="${build.tmp}/deps/org.campagnelab.Background/org.campagnelab.background-_dl__lbrace_background_version_rbrace_.zip" />
   </target>
   
   <target name="build" depends="assemble" />
@@ -881,7 +884,7 @@
   
   <target name="generate" depends="declare-mps-tasks, fetchDependencies">
     <echo message="generating" />
-    <generate strictMode="true" parallelMode="true" parallelThreads="8" useInplaceTransform="false" hideWarnings="false" fork="true">
+    <generate strictMode="true" parallelMode="true" parallelThreads="8" useInplaceTransform="false" hideWarnings="false" fork="true" targetJavaVersion="1.6">
       <plugin path="${artifacts.mps}/plugins/mps-build" />
       <plugin path="${artifacts.mps}/plugins/mps-core/META-INF/plugin.xml/../.." />
       <plugin path="${artifacts.mps}/plugins/mps-testing" />
@@ -914,6 +917,7 @@
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.actions.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.behavior.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.checkedName.jar" />
+      <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.classLike.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.constraints.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.dataFlow.jar" />
@@ -923,6 +927,8 @@
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.generator.generationContext.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.generator.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.intentions.jar" />
+      <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.migration.jar" />
+      <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.migration.runtime.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.pattern.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.plugin.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.project.jar" />
@@ -934,13 +940,14 @@
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.script.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.sharedConcepts.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.smodel.jar" />
+      <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.smodel.util.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
-      <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.stubs.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.textGen.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.typesystem.jar" />
+      <library file="${artifacts.mps}/languages/make/jetbrains.mps.make.facet.jar" />
+      <library file="${artifacts.mps}/languages/make/jetbrains.mps.make.script.jar" />
       <library file="${artifacts.mps}/languages/util/jetbrains.mps.execution.util.jar" />
-      <library file="${artifacts.mps}/languages/xml/jetbrains.mps.core.xml.jar" />
       <library file="${artifacts.mps}/lib/mps-closures.jar" />
       <library file="${artifacts.mps}/lib/mps-collections.jar" />
       <library file="${artifacts.mps}/lib/mps-core.jar" />
@@ -1018,15 +1025,15 @@
   <target name="java.compile.org.campagnelab.bio.species" depends="fetchDependencies">
     <mkdir dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.bio.species/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.bio.species" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.bio.species" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.bio.species" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.bio.species/source_gen" />
       </src>
       <classpath>
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
         <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
@@ -1036,11 +1043,9 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
@@ -1054,20 +1059,23 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.bio.species">
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.bio.species/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.org.campagnelab.bio.species#8668161730115426850" depends="java.compile.org.campagnelab.bio.species, fetchDependencies">
     <mkdir dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.bio.species/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.bio.species#8668161730115426850" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.bio.species#8668161730115426850" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.bio.species#8668161730115426850" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.bio.species/generator/source_gen" />
       </src>
       <classpath>
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
         <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
@@ -1078,11 +1086,9 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
@@ -1096,12 +1102,15 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.bio.species#8668161730115426850">
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.bio.species/generator/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.org.campagnelab.lucene.tableviewer.runtime" depends="fetchDependencies">
     <mkdir dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.lucene.tableviewer/runtime/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.lucene.tableviewer.runtime" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.lucene.tableviewer.runtime" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.lucene.tableviewer.runtime" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.lucene.tableviewer/runtime/source_gen" />
@@ -1131,20 +1140,23 @@
         <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.nyosh.lib.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.lucene.tableviewer.runtime">
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.lucene.tableviewer/runtime/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.org.campagnelab.gobyweb.interactive.mappings" depends="fetchDependencies">
     <mkdir dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.mappings/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.mappings" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.mappings" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.mappings" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.mappings/source_gen" />
       </src>
       <classpath>
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
         <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
@@ -1154,11 +1166,9 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
@@ -1172,20 +1182,23 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.mappings">
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.mappings/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.org.campagnelab.gobyweb.interactive.mappings#6726552014277525798" depends="java.compile.org.campagnelab.gobyweb.interactive.mappings, fetchDependencies">
     <mkdir dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.mappings/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.mappings#6726552014277525798" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.mappings#6726552014277525798" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.mappings#6726552014277525798" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.mappings/generator/source_gen" />
       </src>
       <classpath>
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
         <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
@@ -1196,11 +1209,9 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
@@ -1214,20 +1225,23 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.mappings#6726552014277525798">
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.mappings/generator/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.org.campagnelab.feedback" depends="fetchDependencies">
     <mkdir dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.feedback/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.feedback" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.feedback" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.feedback" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.feedback/source_gen" />
       </src>
       <classpath>
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
         <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
@@ -1237,11 +1251,9 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
@@ -1255,20 +1267,23 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.feedback">
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.feedback/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.org.campagnelab.feedback#6620797826825978493" depends="java.compile.org.campagnelab.feedback, fetchDependencies">
     <mkdir dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.feedback/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.feedback#6620797826825978493" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.feedback#6620797826825978493" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.feedback#6620797826825978493" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.feedback/generator/source_gen" />
       </src>
       <classpath>
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
         <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
@@ -1279,11 +1294,9 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
@@ -1297,12 +1310,15 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.feedback#6620797826825978493">
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.feedback/generator/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.org.campagnelab.gobyweb.interactive.mergeplan" depends="java.compile.org.campagnelab.bio.species.morgs, java.compile.org.campagnelab.feedback, java.compile.org.campagnelab.gobyweb.interactive, java.compile.org.campagnelab.gobyweb.interactive.filesets.mappings, java.compile.org.campagnelab.gobyweb.interactive.users, java.compile.org.campagnelab.gobyweb.interactive.viewers, java.compile.org.campagnelab.gobyweb.monitoring, fetchDependencies">
     <mkdir dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.mergeplan/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.mergeplan" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.mergeplan" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.mergeplan" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.mergeplan/source_gen" />
@@ -1346,11 +1362,9 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
@@ -1378,12 +1392,15 @@
         <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.mergeplan">
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.mergeplan/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.org.campagnelab.gobyweb.interactive.mergeplan#8273662917775850173" depends="java.compile.org.campagnelab.bio.species.morgs, java.compile.org.campagnelab.gobyweb.interactive, java.compile.org.campagnelab.gobyweb.interactive.filesets.mappings, java.compile.org.campagnelab.gobyweb.interactive.mergeplan, java.compile.org.campagnelab.gobyweb.interactive.users, java.compile.org.campagnelab.gobyweb.interactive.viewers, java.compile.org.campagnelab.gobyweb.monitoring, fetchDependencies">
     <mkdir dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.mergeplan/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.mergeplan#8273662917775850173" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.mergeplan#8273662917775850173" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.mergeplan#8273662917775850173" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.mergeplan/generator/source_gen" />
@@ -1395,10 +1412,10 @@
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.bio.species.morgs" />
-        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.filesets.mappings" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.mergeplan" />
@@ -1408,11 +1425,9 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
@@ -1435,38 +1450,44 @@
         <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.mergeplan#8273662917775850173">
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.mergeplan/generator/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.org.campagnelab.gobyweb.interactive.filesets.mappings">
     <mkdir dir="${org.campagnelab.goby.workbench.home}/solutions/org.campagnelab.gobyweb.interactive.filesets.mappings/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.filesets.mappings" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.filesets.mappings" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.filesets.mappings" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${org.campagnelab.goby.workbench.home}/solutions/org.campagnelab.gobyweb.interactive.filesets.mappings/source_gen" />
       </src>
       <classpath />
     </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.filesets.mappings">
+      <fileset dir="${org.campagnelab.goby.workbench.home}/solutions/org.campagnelab.gobyweb.interactive.filesets.mappings/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.org.campagnelab.gobyweb.monitoring" depends="fetchDependencies">
     <mkdir dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.monitoring/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.gobyweb.monitoring" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.monitoring" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.monitoring" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.monitoring/source_gen" />
       </src>
       <classpath>
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
         <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/wildcard-1.03.jar" />
         <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/commons-io-2.4.jar" />
         <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/groovy-all-1.8.6.jar" />
@@ -1489,11 +1510,9 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
@@ -1519,20 +1538,23 @@
         <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.gobyweb.monitoring">
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.monitoring/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.org.campagnelab.gobyweb.interactive" depends="java.compile.org.campagnelab.bio.species, java.compile.org.campagnelab.bio.species.morgs, java.compile.org.campagnelab.feedback, java.compile.org.campagnelab.gobyweb.interactive.mappings, java.compile.org.campagnelab.gobyweb.interactive.users, java.compile.org.campagnelab.gobyweb.monitoring, java.compile.org.campagnelab.lucene.tableviewer, java.compile.org.campagnelab.lucene.tableviewer.runtime, fetchDependencies">
     <mkdir dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive/source_gen" />
       </src>
       <classpath>
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
         <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
@@ -1572,11 +1594,9 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
@@ -1617,37 +1637,38 @@
         <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive">
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.org.campagnelab.gobyweb.interactive#2051553890368756015" depends="java.compile.org.campagnelab.gobyweb.interactive, java.compile.org.campagnelab.gobyweb.interactive.users, java.compile.org.campagnelab.gobyweb.monitoring, fetchDependencies">
     <mkdir dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive#2051553890368756015" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive#2051553890368756015" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive#2051553890368756015" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive/generator/source_gen" />
       </src>
       <classpath>
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
         <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.users" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.monitoring" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
@@ -1670,20 +1691,23 @@
         <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive#2051553890368756015">
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive/generator/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.org.campagnelab.gobyweb.interactive.users" depends="fetchDependencies">
     <mkdir dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.users/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.users" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.users" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.users" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.users/source_gen" />
       </src>
       <classpath>
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
         <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
@@ -1693,11 +1717,9 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
@@ -1711,20 +1733,23 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.users">
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.users/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.org.campagnelab.gobyweb.interactive.users#5865189911928297062" depends="java.compile.org.campagnelab.gobyweb.interactive.users, fetchDependencies">
     <mkdir dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.users/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.users#5865189911928297062" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.users#5865189911928297062" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.users#5865189911928297062" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.users/generator/source_gen" />
       </src>
       <classpath>
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
         <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
@@ -1735,11 +1760,9 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
@@ -1753,12 +1776,15 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.users#5865189911928297062">
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.users/generator/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.org.campagnelab.gobyweb.interactive.samples" depends="java.compile.org.campagnelab.bio.species.morgs, java.compile.org.campagnelab.gobyweb.interactive, java.compile.org.campagnelab.gobyweb.interactive.filesets.mappings, java.compile.org.campagnelab.gobyweb.interactive.users, java.compile.org.campagnelab.gobyweb.interactive.viewers, java.compile.org.campagnelab.gobyweb.monitoring, java.compile.org.campagnelab.lucene.tableviewer, fetchDependencies">
     <mkdir dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.samples/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.samples" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.samples" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.samples" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.samples/source_gen" />
@@ -1770,10 +1796,10 @@
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.bio.species.morgs" />
-        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.filesets.mappings" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.users" />
@@ -1802,11 +1828,9 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
@@ -1834,12 +1858,15 @@
         <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.samples">
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.samples/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.org.campagnelab.gobyweb.interactive.samples#7926097513313207833" depends="java.compile.org.campagnelab.bio.species.morgs, java.compile.org.campagnelab.gobyweb.interactive, java.compile.org.campagnelab.gobyweb.interactive.filesets.mappings, java.compile.org.campagnelab.gobyweb.interactive.samples, java.compile.org.campagnelab.gobyweb.interactive.users, java.compile.org.campagnelab.gobyweb.interactive.viewers, java.compile.org.campagnelab.gobyweb.monitoring, fetchDependencies">
     <mkdir dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.samples/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.samples#7926097513313207833" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.samples#7926097513313207833" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.samples#7926097513313207833" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.samples/generator/source_gen" />
@@ -1851,10 +1878,10 @@
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.bio.species.morgs" />
-        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.filesets.mappings" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.samples" />
@@ -1864,11 +1891,9 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
@@ -1891,12 +1916,15 @@
         <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.samples#7926097513313207833">
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.samples/generator/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.org.campagnelab.gobyweb.interactive.platforms" depends="java.compile.org.campagnelab.bio.species.morgs, java.compile.org.campagnelab.gobyweb.interactive, java.compile.org.campagnelab.gobyweb.interactive.filesets.mappings, java.compile.org.campagnelab.gobyweb.interactive.users, java.compile.org.campagnelab.gobyweb.interactive.viewers, java.compile.org.campagnelab.gobyweb.monitoring, fetchDependencies">
     <mkdir dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.platforms/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.platforms" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.platforms" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.platforms" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.platforms/source_gen" />
@@ -1908,10 +1936,10 @@
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.bio.species.morgs" />
-        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.filesets.mappings" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.users" />
@@ -1920,11 +1948,9 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
@@ -1948,12 +1974,15 @@
         <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.platforms">
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.platforms/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.org.campagnelab.gobyweb.interactive.platforms#518208688751652421" depends="java.compile.org.campagnelab.bio.species.morgs, java.compile.org.campagnelab.gobyweb.interactive, java.compile.org.campagnelab.gobyweb.interactive.filesets.mappings, java.compile.org.campagnelab.gobyweb.interactive.platforms, java.compile.org.campagnelab.gobyweb.interactive.users, java.compile.org.campagnelab.gobyweb.interactive.viewers, java.compile.org.campagnelab.gobyweb.monitoring, fetchDependencies">
     <mkdir dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.platforms/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.platforms#518208688751652421" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.platforms#518208688751652421" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.platforms#518208688751652421" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.platforms/generator/source_gen" />
@@ -1965,10 +1994,10 @@
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.bio.species.morgs" />
-        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.filesets.mappings" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.platforms" />
@@ -1978,11 +2007,9 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
@@ -2005,20 +2032,23 @@
         <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.platforms#518208688751652421">
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.platforms/generator/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.org.campagnelab.gobyweb.interactive.organisms" depends="java.compile.org.campagnelab.bio.species, java.compile.org.campagnelab.bio.species.morgs, java.compile.org.campagnelab.gobyweb.interactive, java.compile.org.campagnelab.gobyweb.interactive.filesets.mappings, java.compile.org.campagnelab.gobyweb.interactive.users, java.compile.org.campagnelab.gobyweb.interactive.viewers, java.compile.org.campagnelab.gobyweb.monitoring, fetchDependencies">
     <mkdir dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.organisms/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.organisms" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.organisms" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.organisms" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.organisms/source_gen" />
       </src>
       <classpath>
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
         <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
@@ -2035,11 +2065,9 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
@@ -2062,12 +2090,15 @@
         <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.organisms">
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.organisms/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.org.campagnelab.gobyweb.interactive.organisms#7026862576601472488" depends="java.compile.org.campagnelab.bio.species.morgs, java.compile.org.campagnelab.gobyweb.interactive, java.compile.org.campagnelab.gobyweb.interactive.filesets.mappings, java.compile.org.campagnelab.gobyweb.interactive.organisms, java.compile.org.campagnelab.gobyweb.interactive.users, java.compile.org.campagnelab.gobyweb.interactive.viewers, java.compile.org.campagnelab.gobyweb.monitoring, fetchDependencies">
     <mkdir dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.organisms/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.organisms#7026862576601472488" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.organisms#7026862576601472488" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.organisms#7026862576601472488" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.organisms/generator/source_gen" />
@@ -2079,10 +2110,10 @@
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.bio.species.morgs" />
-        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.filesets.mappings" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.organisms" />
@@ -2092,11 +2123,9 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
@@ -2119,26 +2148,29 @@
         <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.organisms#7026862576601472488">
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.organisms/generator/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.org.campagnelab.gobyweb.interactive.fsiselector" depends="java.compile.org.campagnelab.gobyweb.interactive, java.compile.org.campagnelab.gobyweb.interactive.users, java.compile.org.campagnelab.gobyweb.monitoring, fetchDependencies">
     <mkdir dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.fsiselector/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.fsiselector" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.fsiselector" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.fsiselector" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.fsiselector/source_gen" />
       </src>
       <classpath>
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
         <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.users" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.monitoring" />
@@ -2164,11 +2196,9 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
@@ -2203,12 +2233,15 @@
         <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.fsiselector">
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.fsiselector/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.org.campagnelab.gobyweb.interactive.fsiselector#6870112335028418600" depends="java.compile.org.campagnelab.bio.species.morgs, java.compile.org.campagnelab.gobyweb.interactive, java.compile.org.campagnelab.gobyweb.interactive.filesets.mappings, java.compile.org.campagnelab.gobyweb.interactive.fsiselector, java.compile.org.campagnelab.gobyweb.interactive.users, java.compile.org.campagnelab.gobyweb.interactive.viewers, java.compile.org.campagnelab.gobyweb.monitoring, fetchDependencies">
     <mkdir dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.fsiselector/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.fsiselector#6870112335028418600" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.fsiselector#6870112335028418600" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.fsiselector#6870112335028418600" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.fsiselector/generator/source_gen" />
@@ -2220,10 +2253,10 @@
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.bio.species.morgs" />
-        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.filesets.mappings" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.fsiselector" />
@@ -2233,11 +2266,9 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
@@ -2260,12 +2291,15 @@
         <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.fsiselector#6870112335028418600">
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.fsiselector/generator/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.org.campagnelab.gobyweb.interactive.viewers" depends="java.compile.org.campagnelab.bio.species.morgs, java.compile.org.campagnelab.gobyweb.interactive, java.compile.org.campagnelab.gobyweb.interactive.filesets.mappings, java.compile.org.campagnelab.gobyweb.interactive.users, java.compile.org.campagnelab.gobyweb.monitoring, fetchDependencies">
     <mkdir dir="${org.campagnelab.goby.workbench.home}/solutions/org.campagnelab.gobyweb.interactive.viewers/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.viewers" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.viewers" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.viewers" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${org.campagnelab.goby.workbench.home}/solutions/org.campagnelab.gobyweb.interactive.viewers/source_gen" />
@@ -2277,10 +2311,10 @@
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.bio.species.morgs" />
-        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.filesets.mappings" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.users" />
@@ -2307,11 +2341,9 @@
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
@@ -2335,20 +2367,23 @@
         <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.viewers">
+      <fileset dir="${org.campagnelab.goby.workbench.home}/solutions/org.campagnelab.gobyweb.interactive.viewers/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.org.campagnelab.bio.species.morgs" depends="java.compile.org.campagnelab.bio.species, fetchDependencies">
     <mkdir dir="${org.campagnelab.goby.workbench.home}/solutions/org.campagnelab.bio.species.morgs/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.bio.species.morgs" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.bio.species.morgs" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.bio.species.morgs" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${org.campagnelab.goby.workbench.home}/solutions/org.campagnelab.bio.species.morgs/source_gen" />
       </src>
       <classpath>
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
         <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
@@ -2359,11 +2394,9 @@
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
@@ -2377,12 +2410,15 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.bio.species.morgs">
+      <fileset dir="${org.campagnelab.goby.workbench.home}/solutions/org.campagnelab.bio.species.morgs/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.org.campagnelab.gobyweb.interactive.sharing" depends="java.compile.org.campagnelab.bio.species.morgs, java.compile.org.campagnelab.gobyweb.interactive, java.compile.org.campagnelab.gobyweb.interactive.filesets.mappings, java.compile.org.campagnelab.gobyweb.interactive.users, java.compile.org.campagnelab.gobyweb.interactive.viewers, java.compile.org.campagnelab.gobyweb.monitoring, fetchDependencies">
     <mkdir dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.sharing/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.sharing" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.sharing" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.sharing" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.sharing/source_gen" />
@@ -2394,10 +2430,10 @@
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.bio.species.morgs" />
-        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.filesets.mappings" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.users" />
@@ -2406,11 +2442,9 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
@@ -2433,12 +2467,15 @@
         <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.sharing">
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.sharing/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.org.campagnelab.gobyweb.interactive.sharing#8982654668860899943" depends="java.compile.org.campagnelab.bio.species.morgs, java.compile.org.campagnelab.gobyweb.interactive, java.compile.org.campagnelab.gobyweb.interactive.filesets.mappings, java.compile.org.campagnelab.gobyweb.interactive.sharing, java.compile.org.campagnelab.gobyweb.interactive.users, java.compile.org.campagnelab.gobyweb.interactive.viewers, java.compile.org.campagnelab.gobyweb.monitoring, fetchDependencies">
     <mkdir dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.sharing/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.sharing#8982654668860899943" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.sharing#8982654668860899943" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.sharing#8982654668860899943" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.sharing/generator/source_gen" />
@@ -2450,10 +2487,10 @@
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.bio.species.morgs" />
-        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.filesets.mappings" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.sharing" />
@@ -2463,11 +2500,9 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
@@ -2490,20 +2525,23 @@
         <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.sharing#8982654668860899943">
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.sharing/generator/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.org.campagnelab.gobyweb.interactive.genomes" depends="java.compile.org.campagnelab.bio.species, java.compile.org.campagnelab.bio.species.morgs, java.compile.org.campagnelab.gobyweb.interactive, java.compile.org.campagnelab.gobyweb.interactive.filesets.mappings, java.compile.org.campagnelab.gobyweb.interactive.users, java.compile.org.campagnelab.gobyweb.interactive.viewers, java.compile.org.campagnelab.gobyweb.monitoring, fetchDependencies">
     <mkdir dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.genomes/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.genomes" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.genomes" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.genomes" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.genomes/source_gen" />
       </src>
       <classpath>
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
         <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
@@ -2520,11 +2558,9 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
@@ -2548,12 +2584,15 @@
         <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.genomes">
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.genomes/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.org.campagnelab.gobyweb.interactive.genomes#1472681854106822600" depends="java.compile.org.campagnelab.bio.species.morgs, java.compile.org.campagnelab.gobyweb.interactive, java.compile.org.campagnelab.gobyweb.interactive.filesets.mappings, java.compile.org.campagnelab.gobyweb.interactive.genomes, java.compile.org.campagnelab.gobyweb.interactive.users, java.compile.org.campagnelab.gobyweb.interactive.viewers, java.compile.org.campagnelab.gobyweb.monitoring, fetchDependencies">
     <mkdir dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.genomes/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.genomes#1472681854106822600" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.genomes#1472681854106822600" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.genomes#1472681854106822600" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.genomes/generator/source_gen" />
@@ -2565,10 +2604,10 @@
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.bio.species.morgs" />
-        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.filesets.mappings" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.genomes" />
@@ -2578,11 +2617,9 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
@@ -2605,21 +2642,24 @@
         <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.gobyweb.interactive.genomes#1472681854106822600">
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.gobyweb.interactive.genomes/generator/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.org.campagnelab.lucene.tableviewer" depends="java.compile.org.campagnelab.lucene.tableviewer.runtime, fetchDependencies">
     <mkdir dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.lucene.tableviewer/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.lucene.tableviewer" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.lucene.tableviewer" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.lucene.tableviewer" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.lucene.tableviewer/source_gen" />
       </src>
       <classpath>
         <pathelement path="${build.tmp}/java/out/org.campagnelab.lucene.tableviewer.runtime" />
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
         <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
@@ -2650,11 +2690,9 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
@@ -2670,20 +2708,23 @@
         <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.lucene.tableviewer">
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.lucene.tableviewer/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.org.campagnelab.lucene.tableviewer#6642819616993943093" depends="java.compile.org.campagnelab.lucene.tableviewer, java.compile.org.campagnelab.lucene.tableviewer.runtime, fetchDependencies">
     <mkdir dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.lucene.tableviewer/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.lucene.tableviewer#6642819616993943093" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.lucene.tableviewer#6642819616993943093" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.lucene.tableviewer#6642819616993943093" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.lucene.tableviewer/generator/source_gen" />
       </src>
       <classpath>
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
         <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
@@ -2716,11 +2757,9 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
@@ -2735,6 +2774,9 @@
         <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.nyosh.lib.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.lucene.tableviewer#6642819616993943093">
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.lucene.tableviewer/generator/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="cleanSources">

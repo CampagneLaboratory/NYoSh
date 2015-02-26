@@ -26,6 +26,8 @@
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.textoutput.behavior.Line_Behavior" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="org.campagnelab.textoutput.behavior.Lines_Behavior" file="Lines_Behavior.java">
@@ -41,7 +43,9 @@
   <dependency className="org.campagnelab.textoutput.behavior.Lines_BehaviorDescriptor" file="Lines_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.textoutput.behavior.Line_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.textoutput.behavior.Lines_Behavior" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="org.campagnelab.textoutput.behavior.Phrase_Behavior" file="Phrase_Behavior.java">
@@ -66,7 +70,7 @@
   <dependency className="org.campagnelab.textoutput.behavior.Phrases_BehaviorDescriptor" file="Phrases_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.textoutput.behavior.Phrase_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="org.campagnelab.textoutput.behavior.TextOutput_BehaviorDescriptor" file="TextOutput_BehaviorDescriptor.java">

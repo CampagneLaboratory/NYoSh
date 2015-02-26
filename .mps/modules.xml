@@ -2,8 +2,6 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
-      <modulePath path="${org.campagnelab.xchart.home}/languages/org.campagnelab.mps.XChart.types/org.campagnelab.mps.XChart.types.mpl" folder="" />
-      <modulePath path="${org.campagnelab.xchart.home}/languages/org.campagnelab.mps.XChart/org.campagnelab.mps.XChart.mpl" folder="" />
       <modulePath path="${org.campagnelab.xchart.home}/solutions/XChart.build0/XChart.build.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/devkits/org.campagnelab.devkit.gobyweb.interactive.devkit" folder="" />
       <modulePath path="$PROJECT_DIR$/devkits/testing/org.campagnelab.devkit.gobyweb.interactive.testing.devkit" folder="" />
