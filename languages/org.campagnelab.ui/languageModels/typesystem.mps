@@ -99,6 +99,7 @@
       </concept>
       <concept id="3364660638048049745" name="jetbrains.mps.lang.core.structure.LinkAttribute" flags="ng" index="A9Btn">
         <property id="1757699476691236116" name="linkRole" index="2qtEX8" />
+        <property id="1341860900488019036" name="linkId" index="P3scX" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -179,6 +180,7 @@
                   <ref role="ehGHo" to="hut6:1Ckq9OShno1" resolve="Button" />
                   <node concept="2c44tb" id="Z0SCxOS3tz" role="lGtFl">
                     <property role="2qtEX8" value="concept" />
+                    <property role="P3scX" value="7866978e-a0f0-4cc7-81bc-4d213d9375e1/1138055754698/1138405853777" />
                     <node concept="2OqwBi" id="Z0SCxOS31$" role="2c44t1">
                       <node concept="2qgKlT" id="Z0SCxOS3cE" role="2OqNvi">
                         <ref role="37wK5l" to="tpcb:67EYkym$wx3" resolve="getConceptDeclaration" />
@@ -286,6 +288,7 @@
                   <ref role="ehGHo" to="hut6:1Ckq9OShno1" resolve="Button" />
                   <node concept="2c44tb" id="3jEGfgvhV6R" role="lGtFl">
                     <property role="2qtEX8" value="concept" />
+                    <property role="P3scX" value="7866978e-a0f0-4cc7-81bc-4d213d9375e1/1138055754698/1138405853777" />
                     <node concept="2OqwBi" id="3jEGfgvhV6S" role="2c44t1">
                       <node concept="2qgKlT" id="3jEGfgvhV6T" role="2OqNvi">
                         <ref role="37wK5l" to="tpcb:67EYkym$wx3" resolve="getConceptDeclaration" />
@@ -339,6 +342,7 @@
                   <ref role="ehGHo" to="hut6:1Ckq9OShno1" resolve="Button" />
                   <node concept="2c44tb" id="3jEGfgvhUgU" role="lGtFl">
                     <property role="2qtEX8" value="concept" />
+                    <property role="P3scX" value="7866978e-a0f0-4cc7-81bc-4d213d9375e1/1138055754698/1138405853777" />
                     <node concept="2OqwBi" id="3jEGfgvhUgV" role="2c44t1">
                       <node concept="2qgKlT" id="3jEGfgvhUgW" role="2OqNvi">
                         <ref role="37wK5l" to="tpcb:67EYkym$wx3" resolve="getConceptDeclaration" />

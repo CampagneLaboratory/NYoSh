@@ -4,9 +4,9 @@
   <languages>
     <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="-1" />
     <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="-1" />
-    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="-1" />
     <use id="20d83b64-d10f-48d1-990d-513b574c4956" name="org.campagnelab.background" version="-1" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="-1" />
+    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -210,6 +210,7 @@
       </concept>
       <concept id="3364660638048049750" name="jetbrains.mps.lang.core.structure.PropertyAttribute" flags="ng" index="A9Btg">
         <property id="1757699476691236117" name="propertyName" index="2qtEX9" />
+        <property id="1341860900487648621" name="propertyId" index="P4ACc" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -335,6 +336,7 @@
                         <property role="Xl_RC" value="title" />
                         <node concept="17Uvod" id="279h23Bd96e" role="lGtFl">
                           <property role="2qtEX9" value="value" />
+                          <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1070475926800/1070475926801" />
                           <node concept="3zFVjK" id="279h23Bd96h" role="3zH0cK">
                             <node concept="3clFbS" id="279h23Bd96i" role="2VODD2">
                               <node concept="3clFbF" id="279h23Bd96o" role="3cqZAp">
@@ -352,6 +354,7 @@
                       <node concept="3clFbT" id="58qBS$fKhnv" role="37wK5m">
                         <node concept="17Uvod" id="7IHRkpOndrG" role="lGtFl">
                           <property role="2qtEX9" value="value" />
+                          <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123137/1068580123138" />
                           <node concept="3zFVjK" id="7IHRkpOndrH" role="3zH0cK">
                             <node concept="3clFbS" id="7IHRkpOndrI" role="2VODD2">
                               <node concept="3clFbF" id="7IHRkpOne8C" role="3cqZAp">
@@ -416,6 +419,7 @@
                                   <property role="Xl_RC" value="Downloading..." />
                                   <node concept="17Uvod" id="7IHRkpNM6Pj" role="lGtFl">
                                     <property role="2qtEX9" value="value" />
+                                    <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1070475926800/1070475926801" />
                                     <node concept="3zFVjK" id="7IHRkpNM6Pm" role="3zH0cK">
                                       <node concept="3clFbS" id="7IHRkpNM6Pn" role="2VODD2">
                                         <node concept="3clFbF" id="7IHRkpNM6Pt" role="3cqZAp">
@@ -491,6 +495,7 @@
                                         <property role="Xl_RC" value="title" />
                                         <node concept="17Uvod" id="7IHRkpOdWU1" role="lGtFl">
                                           <property role="2qtEX9" value="value" />
+                                          <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1070475926800/1070475926801" />
                                           <node concept="3zFVjK" id="7IHRkpOdWU4" role="3zH0cK">
                                             <node concept="3clFbS" id="7IHRkpOdWU5" role="2VODD2">
                                               <node concept="3clFbF" id="7IHRkpOdWUb" role="3cqZAp">

@@ -174,6 +174,7 @@
       </concept>
       <concept id="3364660638048049750" name="jetbrains.mps.lang.core.structure.PropertyAttribute" flags="ng" index="A9Btg">
         <property id="1757699476691236117" name="propertyName" index="2qtEX9" />
+        <property id="1341860900487648621" name="propertyId" index="P4ACc" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -313,6 +314,7 @@
                           <node concept="17QB3L" id="4oxHTQs6Mdy" role="1tU5fm" />
                           <node concept="2EMmih" id="4oxHTQs6MeR" role="lGtFl">
                             <property role="2qtEX9" value="name" />
+                            <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
                             <node concept="2OqwBi" id="4oxHTQs6ME9" role="2c44t1">
                               <node concept="liA8E" id="4oxHTQs6NGx" role="2OqNvi">
                                 <ref role="37wK5l" to="z4lo:~Component.getPayLoad():java.lang.String" resolve="getPayLoad" />

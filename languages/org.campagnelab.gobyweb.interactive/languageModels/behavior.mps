@@ -17,7 +17,7 @@
     <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="-1" />
     <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="-1" />
     <use id="c1ba4037-e4db-47d8-8b61-b3c805b648f2" name="org.campagnelab.ui" version="-1" />
-    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="-1" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -10847,23 +10847,25 @@
             </node>
           </node>
           <node concept="3fqX7Q" id="bf4uYwSjDG" role="3clFbw">
-            <node concept="22lmx$" id="bf4uYwSknl" role="3fr31v">
-              <node concept="3fqX7Q" id="bf4uYwSkoT" role="3uHU7w">
-                <node concept="2OqwBi" id="bf4uYwSkyS" role="3fr31v">
-                  <node concept="37vLTw" id="bf4uYwSkql" role="2Oq$k0">
+            <node concept="1eOMI4" id="31yq_4ryw9Z" role="3fr31v">
+              <node concept="22lmx$" id="31yq_4rywa0" role="1eOMHV">
+                <node concept="3fqX7Q" id="31yq_4rywa1" role="3uHU7w">
+                  <node concept="2OqwBi" id="31yq_4rywa2" role="3fr31v">
+                    <node concept="37vLTw" id="31yq_4rywa3" role="2Oq$k0">
+                      <ref role="3cqZAo" node="bf4uYwSgBr" resolve="dir" />
+                    </node>
+                    <node concept="liA8E" id="31yq_4rywa4" role="2OqNvi">
+                      <ref role="37wK5l" to="fxg7:~File.isDirectory():boolean" resolve="isDirectory" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="31yq_4rywa5" role="3uHU7B">
+                  <node concept="37vLTw" id="31yq_4rywa6" role="2Oq$k0">
                     <ref role="3cqZAo" node="bf4uYwSgBr" resolve="dir" />
                   </node>
-                  <node concept="liA8E" id="bf4uYwSlnd" role="2OqNvi">
-                    <ref role="37wK5l" to="fxg7:~File.isDirectory():boolean" resolve="isDirectory" />
+                  <node concept="liA8E" id="31yq_4rywa7" role="2OqNvi">
+                    <ref role="37wK5l" to="fxg7:~File.exists():boolean" resolve="exists" />
                   </node>
-                </node>
-              </node>
-              <node concept="2OqwBi" id="bf4uYwSjOY" role="3uHU7B">
-                <node concept="37vLTw" id="bf4uYwSjEc" role="2Oq$k0">
-                  <ref role="3cqZAo" node="bf4uYwSgBr" resolve="dir" />
-                </node>
-                <node concept="liA8E" id="bf4uYwSkf7" role="2OqNvi">
-                  <ref role="37wK5l" to="fxg7:~File.exists():boolean" resolve="exists" />
                 </node>
               </node>
             </node>
@@ -19530,23 +19532,25 @@
                 </node>
               </node>
               <node concept="3fqX7Q" id="174XGE0o7oX" role="3clFbw">
-                <node concept="22lmx$" id="174XGE0o7oY" role="3fr31v">
-                  <node concept="3fqX7Q" id="174XGE0o7oZ" role="3uHU7w">
-                    <node concept="2OqwBi" id="174XGE0o7p0" role="3fr31v">
-                      <node concept="37vLTw" id="174XGE0o7p1" role="2Oq$k0">
+                <node concept="1eOMI4" id="31yq_4ryw9O" role="3fr31v">
+                  <node concept="22lmx$" id="31yq_4ryw9P" role="1eOMHV">
+                    <node concept="3fqX7Q" id="31yq_4ryw9Q" role="3uHU7w">
+                      <node concept="2OqwBi" id="31yq_4ryw9R" role="3fr31v">
+                        <node concept="37vLTw" id="31yq_4ryw9S" role="2Oq$k0">
+                          <ref role="3cqZAo" node="174XGE0o7oK" resolve="f" />
+                        </node>
+                        <node concept="liA8E" id="31yq_4ryw9T" role="2OqNvi">
+                          <ref role="37wK5l" to="fxg7:~File.canRead():boolean" resolve="canRead" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="31yq_4ryw9U" role="3uHU7B">
+                      <node concept="liA8E" id="31yq_4ryw9V" role="2OqNvi">
+                        <ref role="37wK5l" to="fxg7:~File.exists():boolean" resolve="exists" />
+                      </node>
+                      <node concept="37vLTw" id="31yq_4ryw9W" role="2Oq$k0">
                         <ref role="3cqZAo" node="174XGE0o7oK" resolve="f" />
                       </node>
-                      <node concept="liA8E" id="174XGE0o7p2" role="2OqNvi">
-                        <ref role="37wK5l" to="fxg7:~File.canRead():boolean" resolve="canRead" />
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="2OqwBi" id="174XGE0o7p3" role="3uHU7B">
-                    <node concept="liA8E" id="174XGE0o7p4" role="2OqNvi">
-                      <ref role="37wK5l" to="fxg7:~File.exists():boolean" resolve="exists" />
-                    </node>
-                    <node concept="37vLTw" id="174XGE0o7p5" role="2Oq$k0">
-                      <ref role="3cqZAo" node="174XGE0o7oK" resolve="f" />
                     </node>
                   </node>
                 </node>
