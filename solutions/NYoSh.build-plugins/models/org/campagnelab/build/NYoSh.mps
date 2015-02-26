@@ -620,11 +620,6 @@
             <ref role="1Busuk" to="ffeo:7Kfy9QB6L4B" resolve="jetbrains.mps.lang.dataFlow" />
           </node>
         </node>
-        <node concept="1SiIV0" id="2mFg1uCDbiD" role="3bR37C">
-          <node concept="1Busua" id="2mFg1uCDbiE" role="1SiIV1">
-            <ref role="1Busuk" to="ffeo:7Kfy9QB6L0h" resolve="jetbrains.mps.baseLanguage.collections" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="2mFg1uCDbiF" role="3bR37C">
           <node concept="1Busua" id="2mFg1uCDbiG" role="1SiIV1">
             <ref role="1Busuk" node="2mFg1uCD9pR" resolve="org.campagnelab.nyosh.gstring" />
@@ -675,6 +670,12 @@
               <property role="3bR36h" value="false" />
               <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5Ak$p3fr17f" role="3bR37C">
+          <node concept="3bR9La" id="5Ak$p3fr17g" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L0h" resolve="jetbrains.mps.baseLanguage.collections" />
           </node>
         </node>
       </node>
@@ -1359,7 +1360,7 @@
         </node>
         <node concept="1SiIV0" id="2mFg1uCDpDe" role="3bR37C">
           <node concept="3bR9La" id="2mFg1uCDpDf" role="1SiIV1">
-            <property role="3bR36h" value="false" />
+            <property role="3bR36h" value="true" />
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
         </node>
