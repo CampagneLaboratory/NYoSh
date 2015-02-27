@@ -964,6 +964,12 @@
             <ref role="1Busuk" node="664r$yjrVvw" resolve="org.campagnelab.gobyweb.interactive.users" />
           </node>
         </node>
+        <node concept="1SiIV0" id="6Br2_xcMcMu" role="3bR37C">
+          <node concept="3bR9La" id="6Br2_xcMcMv" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="2mFg1uCEWeN" resolve="org.campagnelab.gobyweb.interactive.samples" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="664r$yjrVvw" role="2G$12L">
         <property role="BnDLt" value="true" />
