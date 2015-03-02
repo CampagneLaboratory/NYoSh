@@ -2135,7 +2135,7 @@
   <root type="440p.ExecuteTool" typeId="440p.794091573612445995" id="794091573612485798" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="ExecuteTool" />
     <link role="setOfFileBags" roleId="440p.794091573612496256" targetNodeId="794091573614021014" resolveInfo="DiamongBagsSet2" />
-    <node role="function" roleId="440p.794091573618010384" type="440p.ExecuteToolFunction" typeId="440p.794091573617490278" id="794091573618315721" nodeInfo="ng">
+    <node role="function" roleId="440p.794091573618010384" type="440p.ExecuteToolFunction" typeId="440p.794091573617490278" id="794091573618315721" nodeInfo="ig">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="794091573618315722" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="794091573623969874" nodeInfo="nn" />
         <node role="statement" roleId="tpee.1068581517665" type="6pk0.EnvironmentSourceList" typeId="6pk0.3173353997360946752" id="794091573622902456" nodeInfo="nr">
@@ -2234,7 +2234,7 @@
           <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.ConsumeCommandOutputWithReader" typeId="4tvk.8155370969620237552" id="2948205594684564897" nodeInfo="ng">
             <property name="consumeStandardOutput" nameId="4tvk.6839116863305307657" value="true" />
             <property name="consumeStandardError" nameId="4tvk.6839116863305307659" value="false" />
-            <node role="readerExpression" roleId="4tvk.8155370969620237554" type="w2mu.ConceptFunction_ConsumeOutputReaderBlock" typeId="w2mu.7596805840595310795" id="2948205594684565009" nodeInfo="ng">
+            <node role="readerExpression" roleId="4tvk.8155370969620237554" type="w2mu.ConceptFunction_ConsumeOutputReaderBlock" typeId="w2mu.7596805840595310795" id="2948205594684565009" nodeInfo="ig">
               <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="2948205594684565011" nodeInfo="sn">
                 <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="2948205594684568971" nodeInfo="nn">
                   <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="2948205594684568974" nodeInfo="nr">

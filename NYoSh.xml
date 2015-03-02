@@ -46,7 +46,7 @@
         <depends>com.intellij.modules.mps</depends>
         <depends>org.campagnelab.mps.UI</depends>
         <depends>org.campagnelab.logger</depends>
-        <idea-version until-build="136.1" since-build="135.1" />
+        <idea-version until-build="140.1" since-build="139.1" />
         
         <extensions defaultExtensionNs="com.intellij">
           <mps.LanguageLibrary dir="/languages" />
@@ -509,10 +509,10 @@
   <target name="buildDependents" />
   
   <target name="fetchDependencies">
-    <mkdir dir="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip" />
-    <unzip src="${artifacts.org.campagnelab.mps.UI}/org.campagnelab.UI-${org.campagnelab.mps.UI.ui_version}.zip" dest="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip" />
     <mkdir dir="${build.tmp}/deps/org.campagnelab.Logger/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip" />
     <unzip src="${artifacts.org.campagnelab.Logger}/org.campagnelab.logger-${org.campagnelab.Logger.logger.version}.zip" dest="${build.tmp}/deps/org.campagnelab.Logger/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip" />
+    <mkdir dir="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip" />
+    <unzip src="${artifacts.org.campagnelab.mps.UI}/org.campagnelab.UI-${org.campagnelab.mps.UI.ui_version}.zip" dest="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip" />
   </target>
   
   <target name="build" depends="assemble" />
@@ -534,7 +534,7 @@
   
   <target name="generate" depends="declare-mps-tasks, fetchDependencies">
     <echo message="generating" />
-    <generate strictMode="true" parallelMode="true" parallelThreads="8" useInplaceTransform="false" hideWarnings="false" fork="true">
+    <generate strictMode="true" parallelMode="true" parallelThreads="8" useInplaceTransform="false" hideWarnings="false" fork="true" targetJavaVersion="1.6">
       <plugin path="${artifacts.mps}/plugins/mps-build" />
       <plugin path="${artifacts.mps}/plugins/mps-core/META-INF/plugin.xml/../.." />
       <plugin path="${artifacts.mps}/plugins/mps-testing" />
@@ -561,6 +561,7 @@
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.actions.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.behavior.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.checkedName.jar" />
+      <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.classLike.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.constraints.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.dataFlow.jar" />
@@ -571,6 +572,8 @@
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.generator.generationParameters.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.generator.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.intentions.jar" />
+      <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.migration.jar" />
+      <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.migration.runtime.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.pattern.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.plugin.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.project.jar" />
@@ -582,15 +585,14 @@
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.script.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.sharedConcepts.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.smodel.jar" />
+      <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.smodel.util.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
-      <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.stubs.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.textGen.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.typesystem.jar" />
       <library file="${artifacts.mps}/languages/make/jetbrains.mps.make.facet.jar" />
       <library file="${artifacts.mps}/languages/make/jetbrains.mps.make.script.jar" />
       <library file="${artifacts.mps}/languages/util/jetbrains.mps.execution.util.jar" />
-      <library file="${artifacts.mps}/languages/xml/jetbrains.mps.core.xml.jar" />
       <library file="${artifacts.mps}/lib/mps-closures.jar" />
       <library file="${artifacts.mps}/lib/mps-collections.jar" />
       <library file="${artifacts.mps}/lib/mps-core.jar" />
@@ -634,15 +636,15 @@
   <target name="java.compile.org.campagnelab.nyosh.environment" depends="java.compile.org.campagnelab.nyosh.gstring, java.compile.org.campagnelab.nyosh.lib, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.nyosh.environment/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.nyosh.environment" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.environment" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.environment" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/org.campagnelab.nyosh.environment/source_gen" />
       </src>
       <classpath>
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
         <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
@@ -673,11 +675,9 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
@@ -694,20 +694,23 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.nyosh.environment">
+      <fileset dir="${basedir}/languages/org.campagnelab.nyosh.environment/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.org.campagnelab.nyosh.environment#3173353997360794809" depends="java.compile.org.campagnelab.nyosh.environment, java.compile.org.campagnelab.nyosh.gstring, java.compile.org.campagnelab.nyosh.lib, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.nyosh.environment/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.nyosh.environment#3173353997360794809" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.environment#3173353997360794809" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.environment#3173353997360794809" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/org.campagnelab.nyosh.environment/generator/source_gen" />
       </src>
       <classpath>
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
         <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
@@ -739,11 +742,9 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
@@ -760,6 +761,9 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.nyosh.environment#3173353997360794809">
+      <fileset dir="${basedir}/languages/org.campagnelab.nyosh.environment/generator/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.java.modules.cycle.1" depends="java.compile.org.campagnelab.nyosh.gstring, java.compile.org.campagnelab.nyosh.lib, fetchDependencies">
@@ -771,9 +775,9 @@
         <path location="${basedir}/languages/NYoSh/source_gen" />
       </src>
       <classpath>
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
         <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
@@ -783,11 +787,9 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
@@ -834,15 +836,15 @@
   <target name="java.compile.org.campagnelab.nyosh.functions" depends="java.compile.org.campagnelab.nyosh.gstring, java.compile.java.modules.cycle.1, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.nyosh.functions/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.nyosh.functions" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.functions" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.functions" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/org.campagnelab.nyosh.functions/source_gen" />
       </src>
       <classpath>
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
         <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
@@ -853,11 +855,9 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
@@ -879,20 +879,23 @@
         <pathelement path="${build.tmp}/java.modules.cycle.1" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.nyosh.functions">
+      <fileset dir="${basedir}/languages/org.campagnelab.nyosh.functions/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.org.campagnelab.nyosh.functions#7596805840595249578" depends="java.compile.org.campagnelab.nyosh.functions, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.nyosh.functions/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.nyosh.functions#7596805840595249578" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.functions#7596805840595249578" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.functions#7596805840595249578" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/org.campagnelab.nyosh.functions/generator/source_gen" />
       </src>
       <classpath>
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
         <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
@@ -903,11 +906,9 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
@@ -921,20 +922,23 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.nyosh.functions#7596805840595249578">
+      <fileset dir="${basedir}/languages/org.campagnelab.nyosh.functions/generator/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.org.campagnelab.NYoSh" depends="java.compile.org.campagnelab.nyosh.gstring, java.compile.org.campagnelab.nyosh.lib, java.compile.java.modules.cycle.1, fetchDependencies">
     <mkdir dir="${basedir}/languages/NYoSh/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.NYoSh" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.NYoSh" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.NYoSh" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/NYoSh/source_gen" />
       </src>
       <classpath>
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
         <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
@@ -965,11 +969,9 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
@@ -991,20 +993,23 @@
         <pathelement path="${build.tmp}/java.modules.cycle.1" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.NYoSh">
+      <fileset dir="${basedir}/languages/NYoSh/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.org.campagnelab.NYoSh#8197864363320338521" depends="java.compile.org.campagnelab.NYoSh, java.compile.org.campagnelab.nyosh.gstring, java.compile.org.campagnelab.nyosh.lib, fetchDependencies">
     <mkdir dir="${basedir}/languages/NYoSh/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.NYoSh#8197864363320338521" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.NYoSh#8197864363320338521" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.NYoSh#8197864363320338521" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/NYoSh/generator/source_gen" />
       </src>
       <classpath>
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
         <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
@@ -1036,11 +1041,9 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
@@ -1061,20 +1064,23 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.NYoSh#8197864363320338521">
+      <fileset dir="${basedir}/languages/NYoSh/generator/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.org.campagnelab.nyosh.gstring" depends="java.compile.org.campagnelab.nyosh.lib, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.nyosh.gstring/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.nyosh.gstring" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.gstring" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.gstring" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/org.campagnelab.nyosh.gstring/source_gen" />
       </src>
       <classpath>
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
         <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
@@ -1104,11 +1110,9 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
@@ -1122,20 +1126,23 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.nyosh.gstring">
+      <fileset dir="${basedir}/languages/org.campagnelab.nyosh.gstring/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.org.campagnelab.nyosh.gstring#2328891098885696397" depends="java.compile.org.campagnelab.nyosh.gstring, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.nyosh.gstring/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.nyosh.gstring#2328891098885696397" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.gstring#2328891098885696397" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.gstring#2328891098885696397" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/org.campagnelab.nyosh.gstring/generator/source_gen" />
       </src>
       <classpath>
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
         <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
@@ -1146,11 +1153,9 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
@@ -1164,20 +1169,23 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.nyosh.gstring#2328891098885696397">
+      <fileset dir="${basedir}/languages/org.campagnelab.nyosh.gstring/generator/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.org.campagnelab.NYoSh.samples" depends="java.compile.org.campagnelab.nyosh.lib, fetchDependencies">
     <mkdir dir="${basedir}/solutions/org.campagnelab.NYoSh.samples/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.NYoSh.samples" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.NYoSh.samples" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.NYoSh.samples" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/solutions/org.campagnelab.NYoSh.samples/source_gen" />
       </src>
       <classpath>
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
         <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
@@ -1207,11 +1215,9 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
@@ -1226,20 +1232,23 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.NYoSh.samples">
+      <fileset dir="${basedir}/solutions/org.campagnelab.NYoSh.samples/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.org.campagnelab.nyosh.lib" depends="fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.nyosh.lib/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.nyosh.lib" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.lib" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.lib" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/org.campagnelab.nyosh.lib/source_gen" />
       </src>
       <classpath>
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
         <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
@@ -1268,11 +1277,9 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
@@ -1286,20 +1293,23 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.nyosh.lib">
+      <fileset dir="${basedir}/languages/org.campagnelab.nyosh.lib/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.org.campagnelab.nyosh.lib#2108047589035521983" depends="java.compile.org.campagnelab.nyosh.lib, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.nyosh.lib/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.nyosh.lib#2108047589035521983" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.lib#2108047589035521983" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.lib#2108047589035521983" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/org.campagnelab.nyosh.lib/generator/source_gen" />
       </src>
       <classpath>
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
         <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
@@ -1329,11 +1339,9 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
@@ -1347,20 +1355,23 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.nyosh.lib#2108047589035521983">
+      <fileset dir="${basedir}/languages/org.campagnelab.nyosh.lib/generator/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.org.campagnelab.nyosh.pathpatterns" depends="java.compile.org.campagnelab.nyosh.gstring, java.compile.org.campagnelab.nyosh.lib, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.nyosh.pathpatterns/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.nyosh.pathpatterns" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.pathpatterns" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.pathpatterns" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/org.campagnelab.nyosh.pathpatterns/source_gen" />
       </src>
       <classpath>
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
         <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
@@ -1391,11 +1402,9 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
@@ -1409,20 +1418,23 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.nyosh.pathpatterns">
+      <fileset dir="${basedir}/languages/org.campagnelab.nyosh.pathpatterns/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.org.campagnelab.nyosh.pathpatterns#1081263916558044417" depends="java.compile.org.campagnelab.nyosh.gstring, java.compile.org.campagnelab.nyosh.lib, java.compile.org.campagnelab.nyosh.pathpatterns, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.nyosh.pathpatterns/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.nyosh.pathpatterns#1081263916558044417" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.pathpatterns#1081263916558044417" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.pathpatterns#1081263916558044417" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/org.campagnelab.nyosh.pathpatterns/generator/source_gen" />
       </src>
       <classpath>
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
         <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
@@ -1454,11 +1466,9 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
@@ -1472,20 +1482,23 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.nyosh.pathpatterns#1081263916558044417">
+      <fileset dir="${basedir}/languages/org.campagnelab.nyosh.pathpatterns/generator/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.org.campagnelab.gobyweb.tags" depends="fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.gobyweb.tags/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.gobyweb.tags" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.tags" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.tags" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/org.campagnelab.gobyweb.tags/source_gen" />
       </src>
       <classpath>
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
         <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
@@ -1495,11 +1508,9 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
@@ -1513,20 +1524,23 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.gobyweb.tags">
+      <fileset dir="${basedir}/languages/org.campagnelab.gobyweb.tags/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.org.campagnelab.gobyweb.tags#8273662917780736917" depends="java.compile.org.campagnelab.gobyweb.tags, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.gobyweb.tags/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.gobyweb.tags#8273662917780736917" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.tags#8273662917780736917" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.tags#8273662917780736917" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/org.campagnelab.gobyweb.tags/generator/source_gen" />
       </src>
       <classpath>
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
         <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
@@ -1537,11 +1551,9 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
@@ -1555,20 +1567,23 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.gobyweb.tags#8273662917780736917">
+      <fileset dir="${basedir}/languages/org.campagnelab.gobyweb.tags/generator/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.org.campagnelab.nyosh.interactive" depends="java.compile.org.campagnelab.NYoSh, java.compile.org.campagnelab.gobyweb.tags, java.compile.org.campagnelab.nyosh.gstring, java.compile.org.campagnelab.nyosh.lib, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.nyosh.interactive/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.nyosh.interactive" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.interactive" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.interactive" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/org.campagnelab.nyosh.interactive/source_gen" />
       </src>
       <classpath>
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
         <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
@@ -1601,11 +1616,9 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
@@ -1635,20 +1648,23 @@
         <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.nyosh.interactive">
+      <fileset dir="${basedir}/languages/org.campagnelab.nyosh.interactive/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.org.campagnelab.nyosh.interactive#6464425322393235212" depends="java.compile.org.campagnelab.nyosh.gstring, java.compile.org.campagnelab.nyosh.interactive, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.nyosh.interactive/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.nyosh.interactive#6464425322393235212" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.interactive#6464425322393235212" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.interactive#6464425322393235212" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/org.campagnelab.nyosh.interactive/generator/source_gen" />
       </src>
       <classpath>
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
         <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
@@ -1660,11 +1676,9 @@
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
@@ -1679,6 +1693,9 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.nyosh.interactive#6464425322393235212">
+      <fileset dir="${basedir}/languages/org.campagnelab.nyosh.interactive/generator/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="cleanSources">

@@ -12,84 +12,70 @@ import org.jetbrains.mps.openapi.model.SNodeReference;
 import jetbrains.mps.smodel.SNodePointer;
 import java.util.Collections;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.intentions.IntentionDescriptor;
 
 public class ParseNewLines_Intention implements IntentionFactory {
   private Collection<IntentionExecutable> myCachedExecutable;
-
   public ParseNewLines_Intention() {
   }
-
   public String getConcept() {
     return "org.campagnelab.textoutput.structure.Line";
   }
-
   public String getPresentation() {
     return "ParseNewLines";
   }
-
   public String getPersistentStateKey() {
     return "org.campagnelab.textoutput.intentions.ParseNewLines_Intention";
   }
-
   public String getLanguageFqName() {
     return "org.campagnelab.textoutput";
   }
-
   public IntentionType getType() {
     return IntentionType.NORMAL;
   }
-
   public boolean isAvailableInChildNodes() {
     return false;
   }
-
   public boolean isApplicable(final SNode node, final EditorContext editorContext) {
     return true;
   }
-
   public SNodeReference getIntentionNodeReference() {
     return new SNodePointer("r:55d3455f-42cc-4fb7-8ffb-91281ea900e9(org.campagnelab.textoutput.intentions)", "8245000766498756105");
   }
-
   public boolean isSurroundWith() {
     return false;
   }
-
   public Collection<IntentionExecutable> instances(final SNode node, final EditorContext context) {
     if (myCachedExecutable == null) {
       myCachedExecutable = Collections.<IntentionExecutable>singletonList(new ParseNewLines_Intention.IntentionImplementation());
     }
     return myCachedExecutable;
   }
-
   public class IntentionImplementation implements IntentionExecutable {
     public IntentionImplementation() {
     }
-
     public String getDescription(final SNode node, final EditorContext editorContext) {
       return "Split Line at New Line Character";
     }
-
     public void execute(final SNode node, final EditorContext editorContext) {
-      String text = SPropertyOperations.getString(node, "text");
+      String text = SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x4c3d6fa21cc1a06dL, 0x4c3d6fa21cc1c2c8L, "text"));
       if (text.contains("\\n")) {
         String[] subLines = text.split("\\\\n");
-        SNode lines = SConceptOperations.createNewNode("org.campagnelab.textoutput.structure.Lines", null);
+        SNode lines = SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x45f06041e9ffbb93L, "org.campagnelab.textoutput.structure.Lines")));
         for (String subline : subLines) {
-          SNode newLine = SConceptOperations.createNewNode("org.campagnelab.textoutput.structure.Line", null);
-          SPropertyOperations.set(newLine, "text", subline);
-          ListSequence.fromList(SLinkOperations.getTargets(lines, "lines", true)).addElement(newLine);
+          SNode newLine = SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x4c3d6fa21cc1a06dL, "org.campagnelab.textoutput.structure.Line")));
+          SPropertyOperations.set(newLine, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x4c3d6fa21cc1a06dL, 0x4c3d6fa21cc1c2c8L, "text"), subline);
+          ListSequence.fromList(SLinkOperations.getChildren(lines, MetaAdapterFactory.getContainmentLink(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x45f06041e9ffbb93L, 0x45f06041e9ffbbd6L, "lines"))).addElement(newLine);
         }
-        SPropertyOperations.set(node, "text", "");
+        SPropertyOperations.set(node, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x4c3d6fa21cc1a06dL, 0x4c3d6fa21cc1c2c8L, "text"), "");
         SNodeOperations.insertPrevSiblingChild(node, lines);
       }
     }
-
     public IntentionDescriptor getDescriptor() {
       return ParseNewLines_Intention.this;
     }

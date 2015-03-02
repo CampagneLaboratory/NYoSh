@@ -10,18 +10,15 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
-import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 
 public class GobyWebSource_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createConstant_antye6_a(editorContext, node);
   }
-
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
     return this.createCollection_antye6_a(editorContext, node);
   }
-
   private EditorCell createConstant_antye6_a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "GobyWebSource");
     editorCell.setCellId("Constant_antye6_a");
@@ -29,7 +26,6 @@ public class GobyWebSource_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createCollection_antye6_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_antye6_a");
@@ -38,14 +34,12 @@ public class GobyWebSource_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createProperty_antye6_b0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_antye6_a0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "expose variables from this source? ");
     editorCell.setCellId("Constant_antye6_a0");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createProperty_antye6_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("exposeToCommands");
@@ -57,8 +51,7 @@ public class GobyWebSource_Editor extends DefaultNodeEditor {
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
-      IOperationContext opContext = editorContext.getOperationContext();
-      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
+      EditorManager manager = EditorManager.getInstanceFromContext(editorContext);
       return manager.createNodeRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
     } else
     return editorCell;
