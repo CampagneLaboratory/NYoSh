@@ -6,9 +6,9 @@
   <tstamp>
     <format property="date" pattern="yyyyMMdd" />
   </tstamp>
-  <property name="nyosh_build_number" value="NYoSh-135.8" />
+  <property name="nyosh_build_number" value="NYoSh-139.8" />
   <property name="version" value="2.0.5" />
-  <property name="mps_home" location="${basedir}/../../../../../Applications/MPS 3.1" />
+  <property name="mps_home" location="${basedir}/../../../../../../Applications/MPS_3.2_RC1" />
   <property name="org.campagnelab.goby.workbench.home" location="${basedir}" />
   <property name="XChart.artifacts" location="${basedir}/../XChart/build/artifacts/XChart" />
   <property name="artifacts.mpsStandalone" location="${mps_home}" />
