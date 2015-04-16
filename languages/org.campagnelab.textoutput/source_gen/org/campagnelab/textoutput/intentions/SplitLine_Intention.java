@@ -9,95 +9,80 @@ import jetbrains.mps.intentions.IntentionType;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import org.jetbrains.mps.openapi.model.SNodeReference;
 import jetbrains.mps.smodel.SNodePointer;
 import java.util.Collections;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.intentions.IntentionDescriptor;
 
 public class SplitLine_Intention implements IntentionFactory {
   private Collection<IntentionExecutable> myCachedExecutable;
-
   public SplitLine_Intention() {
   }
-
   public String getConcept() {
     return "org.campagnelab.textoutput.structure.Line";
   }
-
   public String getPresentation() {
     return "SplitLine";
   }
-
   public String getPersistentStateKey() {
     return "org.campagnelab.textoutput.intentions.SplitLine_Intention";
   }
-
   public String getLanguageFqName() {
     return "org.campagnelab.textoutput";
   }
-
   public IntentionType getType() {
     return IntentionType.NORMAL;
   }
-
   public boolean isAvailableInChildNodes() {
     return false;
   }
-
   public boolean isApplicable(final SNode node, final EditorContext editorContext) {
     if (!(isApplicableToNode(node, editorContext))) {
       return false;
     }
     return true;
   }
-
   private boolean isApplicableToNode(final SNode node, final EditorContext editorContext) {
-    return isNotEmptyString(SPropertyOperations.getString(node, "text"));
+    return isNotEmptyString(SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x4c3d6fa21cc1a06dL, 0x4c3d6fa21cc1c2c8L, "text")));
   }
-
   public SNodeReference getIntentionNodeReference() {
     return new SNodePointer("r:55d3455f-42cc-4fb7-8ffb-91281ea900e9(org.campagnelab.textoutput.intentions)", "1680136183140478664");
   }
-
   public boolean isSurroundWith() {
     return false;
   }
-
   public Collection<IntentionExecutable> instances(final SNode node, final EditorContext context) {
     if (myCachedExecutable == null) {
       myCachedExecutable = Collections.<IntentionExecutable>singletonList(new SplitLine_Intention.IntentionImplementation());
     }
     return myCachedExecutable;
   }
-
   public class IntentionImplementation implements IntentionExecutable {
     public IntentionImplementation() {
     }
-
     public String getDescription(final SNode node, final EditorContext editorContext) {
       return "Split Line into Phrases at % Characters";
     }
-
     public void execute(final SNode node, final EditorContext editorContext) {
-      String[] phrases = SPropertyOperations.getString(node, "text").split("\\%");
+      String[] phrases = SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x4c3d6fa21cc1a06dL, 0x4c3d6fa21cc1c2c8L, "text")).split("\\%");
       int myIndex = 0;
       for (String phrase : phrases) {
 
-        SNode newPhrase = SConceptOperations.createNewNode("org.campagnelab.textoutput.structure.Phrase", null);
-        SPropertyOperations.set(newPhrase, "text", phrase);
-        ListSequence.fromList(SLinkOperations.getTargets(node, "phrases", true)).insertElement(myIndex++, newPhrase);
+        SNode newPhrase = SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x17510af4f25c474eL, "org.campagnelab.textoutput.structure.Phrase")));
+        SPropertyOperations.set(newPhrase, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x17510af4f25c474eL, 0x17510af4f25c474fL, "text"), phrase);
+        ListSequence.fromList(SLinkOperations.getChildren(node, MetaAdapterFactory.getContainmentLink(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x4c3d6fa21cc1a06dL, 0x17510af4f25c4745L, "phrases"))).insertElement(myIndex++, newPhrase);
       }
-      SPropertyOperations.set(node, "text", "");
+      SPropertyOperations.set(node, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x4c3d6fa21cc1a06dL, 0x4c3d6fa21cc1c2c8L, "text"), "");
     }
-
     public IntentionDescriptor getDescriptor() {
       return SplitLine_Intention.this;
     }
   }
-
   private static boolean isNotEmptyString(String str) {
     return str != null && str.length() > 0;
   }

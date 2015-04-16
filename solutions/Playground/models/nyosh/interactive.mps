@@ -28,7 +28,6 @@
   <import index="440p" modelUID="r:a6c7903c-0b83-4bcf-8e49-8f150f2412bf(org.campagnelab.nyosh.interactive.structure)" version="8" />
   <import index="fxg7" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" version="-1" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" />
-  <import index="l8u3" modelUID="r:da1fe7fb-c16e-4ab3-8e8d-707dd37502ce(nyosh.interactive)" version="-1" />
   <import index="k7g3" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" version="-1" />
   <import index="r9z8" modelUID="f:java_stub#0202ed86-955d-4227-9c20-377dd6b1f9ff#org.campagnelab.nyosh.exec(org.campagnelab.nyosh.lib/org.campagnelab.nyosh.exec@java_stub)" version="-1" />
   <import index="whle" modelUID="r:8e4fd1b7-1955-43a4-ace6-aaf9d13814f8(org.campagnelab.logger.structure)" version="1" implicit="yes" />
@@ -2135,7 +2134,7 @@
   <root type="440p.ExecuteTool" typeId="440p.794091573612445995" id="794091573612485798" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="ExecuteTool" />
     <link role="setOfFileBags" roleId="440p.794091573612496256" targetNodeId="794091573614021014" resolveInfo="DiamongBagsSet2" />
-    <node role="function" roleId="440p.794091573618010384" type="440p.ExecuteToolFunction" typeId="440p.794091573617490278" id="794091573618315721" nodeInfo="ng">
+    <node role="function" roleId="440p.794091573618010384" type="440p.ExecuteToolFunction" typeId="440p.794091573617490278" id="794091573618315721" nodeInfo="ig">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="794091573618315722" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="794091573623969874" nodeInfo="nn" />
         <node role="statement" roleId="tpee.1068581517665" type="6pk0.EnvironmentSourceList" typeId="6pk0.3173353997360946752" id="794091573622902456" nodeInfo="nr">
@@ -2234,7 +2233,7 @@
           <node role="commands" roleId="4tvk.851869296734402315" type="4tvk.ConsumeCommandOutputWithReader" typeId="4tvk.8155370969620237552" id="2948205594684564897" nodeInfo="ng">
             <property name="consumeStandardOutput" nameId="4tvk.6839116863305307657" value="true" />
             <property name="consumeStandardError" nameId="4tvk.6839116863305307659" value="false" />
-            <node role="readerExpression" roleId="4tvk.8155370969620237554" type="w2mu.ConceptFunction_ConsumeOutputReaderBlock" typeId="w2mu.7596805840595310795" id="2948205594684565009" nodeInfo="ng">
+            <node role="readerExpression" roleId="4tvk.8155370969620237554" type="w2mu.ConceptFunction_ConsumeOutputReaderBlock" typeId="w2mu.7596805840595310795" id="2948205594684565009" nodeInfo="ig">
               <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="2948205594684565011" nodeInfo="sn">
                 <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="2948205594684568971" nodeInfo="nn">
                   <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="2948205594684568974" nodeInfo="nr">

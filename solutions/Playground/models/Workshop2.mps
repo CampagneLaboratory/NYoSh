@@ -26243,7 +26243,7 @@
     <link role="currentJob" roleId="bs99.5540992037659823465" targetNodeId="8560093378719171599" resolveInfo="FirtAnalysis" />
     <link role="pluginToExecute" roleId="bs99.2465489689642686104" targetNodeId="7026862576601449728" resolveInfo="DIFF_EXP_EDGE_R_ARTIFACT" />
     <node role="jobInput" roleId="bs99.2465489689644454146" type="bs99.InputSlotValue" typeId="bs99.2465489689644454140" id="3882067466250414556" nodeInfo="ng">
-      <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="8560093378716527637" resolveInfo="INPUT_ALIGNMENTS" />
+      <link role="slot" roleId="bs99.2465489689644454143" targetNodeId="7026862576601449737" resolveInfo="INPUT_ALIGNMENTS" />
       <node role="values" roleId="bs99.2995632242847956813" type="bs99.FileSetInstanceRef" typeId="bs99.2995632242847956675" id="8560093378716645453" nodeInfo="ng">
         <link role="ref" roleId="bs99.2995632242847956811" targetNodeId="3882067466249305247" resolveInfo="AHSSOOT-pickrell-NA19203_argonne" />
       </node>
@@ -26267,14 +26267,14 @@
       </node>
     </node>
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="3882067466250414557" nodeInfo="ng">
-      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="8560093378716527657" resolveInfo="Number of top hits" />
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="7026862576601449757" resolveInfo="Number of top hits" />
       <node role="value" roleId="bs99.6506431596944968310" type="bs99.IntegerOptionValue" typeId="bs99.606449909792930896" id="3882067466250414561" nodeInfo="ng">
         <property name="value" nameId="bs99.606449909792930897" value="10000" />
         <property name="isSet" nameId="bs99.83657536365996638" value="true" />
       </node>
     </node>
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="3882067466250414563" nodeInfo="ng">
-      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="8560093378716527659" resolveInfo="q-value threshold" />
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="7026862576601449759" resolveInfo="q-value threshold" />
       <node role="value" roleId="bs99.6506431596944968310" type="bs99.DoubleOptionValue" typeId="bs99.606449909792936179" id="3882067466250414567" nodeInfo="ng">
         <property name="value" nameId="bs99.606449909792936180" value="1.0" />
       </node>
@@ -26298,7 +26298,7 @@
       </node>
     </node>
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="3882067466250414587" nodeInfo="ng">
-      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="8560093378716527694" resolveInfo="GROUP_DEFINITION" />
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="7026862576601449794" resolveInfo="GROUP_DEFINITION" />
       <node role="value" roleId="bs99.6506431596944968310" type="bs99.GroupDefinitionsOptionValue" typeId="bs99.4301187679980279014" id="3882067466250414838" nodeInfo="ng">
         <node role="groups" roleId="bs99.4301187679980279261" type="bs99.SingleGroupDefinition" typeId="bs99.4301187679980279263" id="3882067466250414840" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="argonne" />
@@ -26321,7 +26321,7 @@
       </node>
     </node>
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="3882067466250414593" nodeInfo="ng">
-      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="8560093378716527696" resolveInfo="COMPARISON_PAIR" />
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="7026862576601449796" resolveInfo="COMPARISON_PAIR" />
       <node role="value" roleId="bs99.6506431596944968310" type="bs99.PairComparisonsOptionValue" typeId="bs99.4301187679980279268" id="3882067466250417892" nodeInfo="ng">
         <node role="pairDefinitions" roleId="bs99.4301187679980279269" type="bs99.PairDefinition" typeId="bs99.4301187679980279271" id="3882067466250417894" nodeInfo="ng">
           <link role="group1" roleId="bs99.4301187679980279274" targetNodeId="3882067466250414840" resolveInfo="argonne" />
@@ -26330,11 +26330,11 @@
       </node>
     </node>
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="3882067466250414793" nodeInfo="ng">
-      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="8560093378716527690" resolveInfo="Exon counts" />
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="7026862576601449790" resolveInfo="Exon counts" />
       <node role="value" roleId="bs99.6506431596944968310" type="bs99.BooleanOptionValue" typeId="bs99.606449909792920794" id="3423755852522150638" nodeInfo="ng" />
     </node>
     <node role="jobOptions" roleId="bs99.606449909792831392" type="bs99.InputOption" typeId="bs99.606449909792831682" id="3882067466250414816" nodeInfo="ng">
-      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="8560093378716527692" resolveInfo="Other counts" />
+      <link role="optionDefinition" roleId="bs99.7862569995357763463" targetNodeId="7026862576601449792" resolveInfo="Other counts" />
       <node role="value" roleId="bs99.6506431596944968310" type="bs99.BooleanOptionValue" typeId="bs99.606449909792920794" id="3882067466250414836" nodeInfo="ng">
         <property name="value" nameId="bs99.606449909792920797" value="true" />
       </node>

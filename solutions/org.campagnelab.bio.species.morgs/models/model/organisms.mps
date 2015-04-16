@@ -1,124 +1,149 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:aa9c91aa-8100-4e98-88e5-b9737f1d54b8(model.organisms)">
-  <persistence version="8" />
-  <language namespace="166cc73c-4d0f-4757-a007-8527cb58de2e(org.campagnelab.bio.species)" />
-  <import index="6llb" modelUID="r:8750ca3b-69d3-462f-a344-0d90d0dcd74b(org.campagnelab.bio.species.structure)" version="-1" implicit="yes" />
-  <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <root type="6llb.OrganismSet" typeId="6llb.2532384616186982903" id="2532384616186984722" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="GobyWeb" />
-    <node role="builds" roleId="6llb.2532384616186995597" type="6llb.EnsemblBuild" typeId="6llb.8668161730115478921" id="2532384616187106586" nodeInfo="ng">
-      <property name="id" nameId="6llb.8668161730115478922" value="NCBI57" />
-      <property name="name" nameId="tpck.1169194664001" value="NCBI57.37" />
-      <property name="version" nameId="6llb.8668161730115478924" value="37" />
-      <link role="species" roleId="6llb.8668161730115478915" targetNodeId="2532384616186984776" resolveInfo="human" />
+<model ref="r:aa9c91aa-8100-4e98-88e5-b9737f1d54b8(model.organisms)">
+  <persistence version="9" />
+  <languages>
+    <use id="166cc73c-4d0f-4757-a007-8527cb58de2e" name="org.campagnelab.bio.species" version="-1" />
+  </languages>
+  <imports />
+  <registry>
+    <language id="166cc73c-4d0f-4757-a007-8527cb58de2e" name="org.campagnelab.bio.species">
+      <concept id="2532384616186982903" name="org.campagnelab.bio.species.structure.OrganismSet" flags="ng" index="9muuj">
+        <child id="2532384616186995597" name="builds" index="9mrnD" />
+        <child id="2532384616186982957" name="elements" index="9muh9" />
+      </concept>
+      <concept id="8668161730115478810" name="org.campagnelab.bio.species.structure.GenomeBuild" flags="ng" index="2jo5CK">
+        <property id="2532384616187213694" name="description" index="9D64q" />
+        <reference id="8668161730115478915" name="species" index="2jo5ED" />
+      </concept>
+      <concept id="8668161730115478921" name="org.campagnelab.bio.species.structure.EnsemblBuild" flags="ng" index="2jo5Ez">
+        <property id="8668161730115478922" name="id" index="2jo5Ew" />
+        <property id="8668161730115478924" name="version" index="2jo5EA" />
+      </concept>
+      <concept id="8668161730115427879" name="org.campagnelab.bio.species.structure.Organism" flags="ng" index="2joi4d">
+        <property id="8668161730115427933" name="species" index="2joi5R" />
+      </concept>
+    </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+        <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+  </registry>
+  <node concept="9muuj" id="2c$PAgEvj$i">
+    <property role="TrG5h" value="GobyWeb" />
+    <node concept="2jo5Ez" id="2c$PAgEvLkq" role="9mrnD">
+      <property role="2jo5Ew" value="NCBI57" />
+      <property role="TrG5h" value="NCBI57.37" />
+      <property role="2jo5EA" value="37" />
+      <ref role="2jo5ED" node="2c$PAgEvj_8" resolve="human" />
     </node>
-    <node role="builds" roleId="6llb.2532384616186995597" type="6llb.EnsemblBuild" typeId="6llb.8668161730115478921" id="2532384616187213631" nodeInfo="ng">
-      <property name="id" nameId="6llb.8668161730115478922" value="GRCh37" />
-      <property name="name" nameId="tpck.1169194664001" value="GRCh37.70" />
-      <property name="version" nameId="6llb.8668161730115478924" value="70" />
-      <link role="species" roleId="6llb.8668161730115478915" targetNodeId="2532384616186984776" resolveInfo="human" />
+    <node concept="2jo5Ez" id="2c$PAgEwbsZ" role="9mrnD">
+      <property role="2jo5Ew" value="GRCh37" />
+      <property role="TrG5h" value="GRCh37.70" />
+      <property role="2jo5EA" value="70" />
+      <ref role="2jo5ED" node="2c$PAgEvj_8" resolve="human" />
     </node>
-    <node role="builds" roleId="6llb.2532384616186995597" type="6llb.EnsemblBuild" typeId="6llb.8668161730115478921" id="2532384616187213657" nodeInfo="ng">
-      <property name="id" nameId="6llb.8668161730115478922" value="NCBI36" />
-      <property name="name" nameId="tpck.1169194664001" value="NCBI36.54" />
-      <property name="version" nameId="6llb.8668161730115478924" value="54" />
-      <link role="species" roleId="6llb.8668161730115478915" targetNodeId="2532384616186984776" resolveInfo="human" />
+    <node concept="2jo5Ez" id="2c$PAgEwbtp" role="9mrnD">
+      <property role="2jo5Ew" value="NCBI36" />
+      <property role="TrG5h" value="NCBI36.54" />
+      <property role="2jo5EA" value="54" />
+      <ref role="2jo5ED" node="2c$PAgEvj_8" resolve="human" />
     </node>
-    <node role="builds" roleId="6llb.2532384616186995597" type="6llb.EnsemblBuild" typeId="6llb.8668161730115478921" id="3882067466249291147" nodeInfo="ng">
-      <property name="id" nameId="6llb.8668161730115478922" value="1000GENOMES" />
-      <property name="name" nameId="tpck.1169194664001" value="1000GENOMES.37" />
-      <property name="version" nameId="6llb.8668161730115478924" value="37" />
-      <link role="species" roleId="6llb.8668161730115478915" targetNodeId="2532384616186984776" resolveInfo="human" />
+    <node concept="2jo5Ez" id="3nvRWFvSWmb" role="9mrnD">
+      <property role="2jo5Ew" value="1000GENOMES" />
+      <property role="TrG5h" value="1000GENOMES.37" />
+      <property role="2jo5EA" value="37" />
+      <ref role="2jo5ED" node="2c$PAgEvj_8" resolve="human" />
     </node>
-    <node role="builds" roleId="6llb.2532384616186995597" type="6llb.EnsemblBuild" typeId="6llb.8668161730115478921" id="2532384616187213674" nodeInfo="ng">
-      <property name="id" nameId="6llb.8668161730115478922" value="NCBI37" />
-      <property name="name" nameId="tpck.1169194664001" value="NCBI37.55" />
-      <property name="version" nameId="6llb.8668161730115478924" value="55" />
-      <property name="description" nameId="6llb.2532384616187213694" value="MM9" />
-      <link role="species" roleId="6llb.8668161730115478915" targetNodeId="2532384616186984778" resolveInfo="mouse" />
+    <node concept="2jo5Ez" id="2c$PAgEwbtE" role="9mrnD">
+      <property role="2jo5Ew" value="NCBI37" />
+      <property role="TrG5h" value="NCBI37.55" />
+      <property role="2jo5EA" value="55" />
+      <property role="9D64q" value="MM9" />
+      <ref role="2jo5ED" node="2c$PAgEvj_a" resolve="mouse" />
     </node>
-    <node role="builds" roleId="6llb.2532384616186995597" type="6llb.EnsemblBuild" typeId="6llb.8668161730115478921" id="2532384616187213688" nodeInfo="ng">
-      <property name="id" nameId="6llb.8668161730115478922" value="NCBI37" />
-      <property name="name" nameId="tpck.1169194664001" value="NCBI37.57" />
-      <property name="version" nameId="6llb.8668161730115478924" value="57" />
-      <link role="species" roleId="6llb.8668161730115478915" targetNodeId="2532384616186984778" resolveInfo="mouse" />
+    <node concept="2jo5Ez" id="2c$PAgEwbtS" role="9mrnD">
+      <property role="2jo5Ew" value="NCBI37" />
+      <property role="TrG5h" value="NCBI37.57" />
+      <property role="2jo5EA" value="57" />
+      <ref role="2jo5ED" node="2c$PAgEvj_a" resolve="mouse" />
     </node>
-    <node role="builds" roleId="6llb.2532384616186995597" type="6llb.EnsemblBuild" typeId="6llb.8668161730115478921" id="2532384616187323462" nodeInfo="ng">
-      <property name="id" nameId="6llb.8668161730115478922" value="BROADD2" />
-      <property name="name" nameId="tpck.1169194664001" value="BROADD2.57" />
-      <property name="version" nameId="6llb.8668161730115478924" value="57" />
-      <link role="species" roleId="6llb.8668161730115478915" targetNodeId="2532384616187323440" resolveInfo="dog" />
+    <node concept="2jo5Ez" id="2c$PAgEwAh6" role="9mrnD">
+      <property role="2jo5Ew" value="BROADD2" />
+      <property role="TrG5h" value="BROADD2.57" />
+      <property role="2jo5EA" value="57" />
+      <ref role="2jo5ED" node="2c$PAgEwAgK" resolve="dog" />
     </node>
-    <node role="builds" roleId="6llb.2532384616186995597" type="6llb.EnsemblBuild" typeId="6llb.8668161730115478921" id="2532384616187323507" nodeInfo="ng">
-      <property name="id" nameId="6llb.8668161730115478922" value="Zv9" />
-      <property name="name" nameId="tpck.1169194664001" value="Zv9.65" />
-      <property name="version" nameId="6llb.8668161730115478924" value="65" />
-      <property name="description" nameId="6llb.2532384616187213694" value="GCA_000002035.2" />
-      <link role="species" roleId="6llb.8668161730115478915" targetNodeId="2532384616187323481" resolveInfo="zebrafish" />
+    <node concept="2jo5Ez" id="2c$PAgEwAhN" role="9mrnD">
+      <property role="2jo5Ew" value="Zv9" />
+      <property role="TrG5h" value="Zv9.65" />
+      <property role="2jo5EA" value="65" />
+      <property role="9D64q" value="GCA_000002035.2" />
+      <ref role="2jo5ED" node="2c$PAgEwAhp" resolve="zebrafish" />
     </node>
-    <node role="builds" roleId="6llb.2532384616186995597" type="6llb.EnsemblBuild" typeId="6llb.8668161730115478921" id="2532384616187323551" nodeInfo="ng">
-      <property name="id" nameId="6llb.8668161730115478922" value="Rnor_5.0" />
-      <property name="name" nameId="tpck.1169194664001" value="Rnor_5.0.76" />
-      <property name="version" nameId="6llb.8668161730115478924" value="76" />
-      <property name="description" nameId="6llb.2532384616187213694" value="GCA_000001895.3" />
-      <link role="species" roleId="6llb.8668161730115478915" targetNodeId="2532384616186984781" resolveInfo="rat" />
+    <node concept="2jo5Ez" id="2c$PAgEwAiv" role="9mrnD">
+      <property role="2jo5Ew" value="Rnor_5.0" />
+      <property role="TrG5h" value="Rnor_5.0.76" />
+      <property role="2jo5EA" value="76" />
+      <property role="9D64q" value="GCA_000001895.3" />
+      <ref role="2jo5ED" node="2c$PAgEvj_d" resolve="rat" />
     </node>
-    <node role="builds" roleId="6llb.2532384616186995597" type="6llb.EnsemblBuild" typeId="6llb.8668161730115478921" id="2532384616187323627" nodeInfo="ng">
-      <property name="id" nameId="6llb.8668161730115478922" value="RGSC3.4.62" />
-      <property name="name" nameId="tpck.1169194664001" value="RGSC3.4.62.62" />
-      <property name="version" nameId="6llb.8668161730115478924" value="62" />
-      <link role="species" roleId="6llb.8668161730115478915" targetNodeId="2532384616186984781" resolveInfo="rat" />
+    <node concept="2jo5Ez" id="2c$PAgEwAjF" role="9mrnD">
+      <property role="2jo5Ew" value="RGSC3.4.62" />
+      <property role="TrG5h" value="RGSC3.4.62.62" />
+      <property role="2jo5EA" value="62" />
+      <ref role="2jo5ED" node="2c$PAgEvj_d" resolve="rat" />
     </node>
-    <node role="builds" roleId="6llb.2532384616186995597" type="6llb.EnsemblBuild" typeId="6llb.8668161730115478921" id="2532384616187323686" nodeInfo="ng">
-      <property name="id" nameId="6llb.8668161730115478922" value="oryCun2" />
-      <property name="name" nameId="tpck.1169194664001" value="oryCun2.69" />
-      <property name="version" nameId="6llb.8668161730115478924" value="69" />
-      <link role="species" roleId="6llb.8668161730115478915" targetNodeId="2532384616187323668" resolveInfo="rabbit" />
+    <node concept="2jo5Ez" id="2c$PAgEwAkA" role="9mrnD">
+      <property role="2jo5Ew" value="oryCun2" />
+      <property role="TrG5h" value="oryCun2.69" />
+      <property role="2jo5EA" value="69" />
+      <ref role="2jo5ED" node="2c$PAgEwAkk" resolve="rabbit" />
     </node>
-    <node role="builds" roleId="6llb.2532384616186995597" type="6llb.EnsemblBuild" typeId="6llb.8668161730115478921" id="2532384616187323752" nodeInfo="ng">
-      <property name="id" nameId="6llb.8668161730115478922" value="WBcel215" />
-      <property name="name" nameId="tpck.1169194664001" value="WBcel215.69" />
-      <property name="version" nameId="6llb.8668161730115478924" value="69" />
-      <link role="species" roleId="6llb.8668161730115478915" targetNodeId="2532384616187323732" resolveInfo="celegans" />
+    <node concept="2jo5Ez" id="2c$PAgEwAlC" role="9mrnD">
+      <property role="2jo5Ew" value="WBcel215" />
+      <property role="TrG5h" value="WBcel215.69" />
+      <property role="2jo5EA" value="69" />
+      <ref role="2jo5ED" node="2c$PAgEwAlk" resolve="celegans" />
     </node>
-    <node role="builds" roleId="6llb.2532384616186995597" type="6llb.EnsemblBuild" typeId="6llb.8668161730115478921" id="2532384616187323845" nodeInfo="ng">
-      <property name="id" nameId="6llb.8668161730115478922" value="JGI_4.2" />
-      <property name="name" nameId="tpck.1169194664001" value="JGI_4.2.67" />
-      <property name="version" nameId="6llb.8668161730115478924" value="67" />
-      <link role="species" roleId="6llb.8668161730115478915" targetNodeId="2532384616187323803" resolveInfo="frog" />
+    <node concept="2jo5Ez" id="2c$PAgEwAn5" role="9mrnD">
+      <property role="2jo5Ew" value="JGI_4.2" />
+      <property role="TrG5h" value="JGI_4.2.67" />
+      <property role="2jo5EA" value="67" />
+      <ref role="2jo5ED" node="2c$PAgEwAmr" resolve="frog" />
     </node>
-    <node role="elements" roleId="6llb.2532384616186982957" type="6llb.Organism" typeId="6llb.8668161730115427879" id="2532384616186984776" nodeInfo="ng">
-      <property name="species" nameId="6llb.8668161730115427933" value="Homo sapiens" />
-      <property name="name" nameId="tpck.1169194664001" value="human" />
+    <node concept="2joi4d" id="2c$PAgEvj_8" role="9muh9">
+      <property role="2joi5R" value="Homo sapiens" />
+      <property role="TrG5h" value="human" />
     </node>
-    <node role="elements" roleId="6llb.2532384616186982957" type="6llb.Organism" typeId="6llb.8668161730115427879" id="2532384616186984778" nodeInfo="ng">
-      <property name="species" nameId="6llb.8668161730115427933" value="Mus musculus" />
-      <property name="name" nameId="tpck.1169194664001" value="mouse" />
+    <node concept="2joi4d" id="2c$PAgEvj_a" role="9muh9">
+      <property role="2joi5R" value="Mus musculus" />
+      <property role="TrG5h" value="mouse" />
     </node>
-    <node role="elements" roleId="6llb.2532384616186982957" type="6llb.Organism" typeId="6llb.8668161730115427879" id="2532384616186984781" nodeInfo="ng">
-      <property name="species" nameId="6llb.8668161730115427933" value="Rattus norvegicus" />
-      <property name="name" nameId="tpck.1169194664001" value="rat" />
+    <node concept="2joi4d" id="2c$PAgEvj_d" role="9muh9">
+      <property role="2joi5R" value="Rattus norvegicus" />
+      <property role="TrG5h" value="rat" />
     </node>
-    <node role="elements" roleId="6llb.2532384616186982957" type="6llb.Organism" typeId="6llb.8668161730115427879" id="2532384616187323440" nodeInfo="ng">
-      <property name="species" nameId="6llb.8668161730115427933" value="Cannis familiaris" />
-      <property name="name" nameId="tpck.1169194664001" value="dog" />
+    <node concept="2joi4d" id="2c$PAgEwAgK" role="9muh9">
+      <property role="2joi5R" value="Cannis familiaris" />
+      <property role="TrG5h" value="dog" />
     </node>
-    <node role="elements" roleId="6llb.2532384616186982957" type="6llb.Organism" typeId="6llb.8668161730115427879" id="2532384616187323481" nodeInfo="ng">
-      <property name="species" nameId="6llb.8668161730115427933" value="Danio rerio" />
-      <property name="name" nameId="tpck.1169194664001" value="zebrafish" />
+    <node concept="2joi4d" id="2c$PAgEwAhp" role="9muh9">
+      <property role="2joi5R" value="Danio rerio" />
+      <property role="TrG5h" value="zebrafish" />
     </node>
-    <node role="elements" roleId="6llb.2532384616186982957" type="6llb.Organism" typeId="6llb.8668161730115427879" id="2532384616187323668" nodeInfo="ng">
-      <property name="species" nameId="6llb.8668161730115427933" value="Oryctolagus cuniculus" />
-      <property name="name" nameId="tpck.1169194664001" value="rabbit" />
+    <node concept="2joi4d" id="2c$PAgEwAkk" role="9muh9">
+      <property role="2joi5R" value="Oryctolagus cuniculus" />
+      <property role="TrG5h" value="rabbit" />
     </node>
-    <node role="elements" roleId="6llb.2532384616186982957" type="6llb.Organism" typeId="6llb.8668161730115427879" id="2532384616187323732" nodeInfo="ng">
-      <property name="species" nameId="6llb.8668161730115427933" value="Caenorhabditis elegans" />
-      <property name="name" nameId="tpck.1169194664001" value="celegans" />
+    <node concept="2joi4d" id="2c$PAgEwAlk" role="9muh9">
+      <property role="2joi5R" value="Caenorhabditis elegans" />
+      <property role="TrG5h" value="celegans" />
     </node>
-    <node role="elements" roleId="6llb.2532384616186982957" type="6llb.Organism" typeId="6llb.8668161730115427879" id="2532384616187323803" nodeInfo="ng">
-      <property name="species" nameId="6llb.8668161730115427933" value="Xenopus tropicalis" />
-      <property name="name" nameId="tpck.1169194664001" value="frog" />
+    <node concept="2joi4d" id="2c$PAgEwAmr" role="9muh9">
+      <property role="2joi5R" value="Xenopus tropicalis" />
+      <property role="TrG5h" value="frog" />
     </node>
-  </root>
+  </node>
 </model>
 

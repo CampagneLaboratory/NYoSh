@@ -1,79 +1,143 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:2bbbdc68-90d8-43c5-9329-7a36981b6aaf(org.campagnelab.ssh.editor)">
-  <persistence version="8" />
-  <language namespace="18bc6592-03a6-4e29-a83a-7ff23bde13ba(jetbrains.mps.lang.editor)" />
-  <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <import index="tpc2" modelUID="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" version="35" implicit="yes" />
-  <import index="eith" modelUID="r:1ed73e49-326d-4559-947b-13dfd134d00a(org.campagnelab.ssh.structure)" version="-1" implicit="yes" />
-  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
-  <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
-  <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="2096113691308261438" nodeInfo="ng">
-    <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="eith.2967045841109794120" resolveInfo="SshPortForwarding" />
-    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="2096113691308269613" nodeInfo="nn">
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2096113691308269620" nodeInfo="nn">
-        <property name="text" nameId="tpc2.1073389577007" value="SSh Port Forwarding" />
+<model ref="r:2bbbdc68-90d8-43c5-9329-7a36981b6aaf(org.campagnelab.ssh.editor)">
+  <persistence version="9" />
+  <languages>
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="-1" />
+    <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
+  </languages>
+  <imports>
+    <import index="eith" ref="r:1ed73e49-326d-4559-947b-13dfd134d00a(org.campagnelab.ssh.structure)" implicit="true" />
+  </imports>
+  <registry>
+    <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
+      <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi" />
+      <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
+      <concept id="1237308012275" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem" flags="ln" index="ljvvj" />
+      <concept id="1142886221719" name="jetbrains.mps.lang.editor.structure.QueryFunction_NodeCondition" flags="in" index="pkWqt" />
+      <concept id="1142886811589" name="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_node" flags="nn" index="pncrf" />
+      <concept id="1237385578942" name="jetbrains.mps.lang.editor.structure.IndentLayoutOnNewLineStyleClassItem" flags="ln" index="pVoyu" />
+      <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
+        <child id="1080736633877" name="cellModel" index="2wV5jI" />
+      </concept>
+      <concept id="1186403694788" name="jetbrains.mps.lang.editor.structure.ColorStyleClassItem" flags="ln" index="VaVBg">
+        <property id="1186403713874" name="color" index="Vb096" />
+      </concept>
+      <concept id="1186404549998" name="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" flags="ln" index="VechU" />
+      <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
+        <property id="1186414551515" name="flag" index="VOm3f" />
+      </concept>
+      <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
+        <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
+      </concept>
+      <concept id="1073389214265" name="jetbrains.mps.lang.editor.structure.EditorCellModel" flags="ng" index="3EYTF0">
+        <child id="1142887637401" name="renderingCondition" index="pqm2j" />
+      </concept>
+      <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
+        <child id="1106270802874" name="cellLayout" index="2iSdaV" />
+        <child id="1073389446424" name="childCellModel" index="3EZMnx" />
+      </concept>
+      <concept id="1073389577006" name="jetbrains.mps.lang.editor.structure.CellModel_Constant" flags="sn" stub="3610246225209162225" index="3F0ifn">
+        <property id="1073389577007" name="text" index="3F0ifm" />
+      </concept>
+      <concept id="1073389658414" name="jetbrains.mps.lang.editor.structure.CellModel_Property" flags="sg" stub="730538219796134133" index="3F0A7n" />
+      <concept id="1219418625346" name="jetbrains.mps.lang.editor.structure.IStyleContainer" flags="ng" index="3F0Thp">
+        <child id="1219418656006" name="styleItem" index="3F10Kt" />
+      </concept>
+      <concept id="1166049232041" name="jetbrains.mps.lang.editor.structure.AbstractComponent" flags="ng" index="1XWOmA">
+        <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
+      </concept>
+    </language>
+    <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
+        <child id="1197027771414" name="operand" index="2Oq$k0" />
+        <child id="1197027833540" name="operation" index="2OqNvi" />
+      </concept>
+      <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
+        <child id="1137022507850" name="body" index="2VODD2" />
+      </concept>
+      <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
+        <child id="1068580123156" name="expression" index="3clFbG" />
+      </concept>
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
+        <child id="1068581517665" name="statement" index="3cqZAp" />
+      </concept>
+      <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
+        <child id="1081516765348" name="expression" index="3fr31v" />
+      </concept>
+    </language>
+    <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
+        <reference id="1138056395725" name="property" index="3TsBF5" />
+      </concept>
+    </language>
+  </registry>
+  <node concept="24kQdi" id="1OmT4JFgK0Y">
+    <ref role="1XX52x" to="eith:2$H47zJDzP8" resolve="SshPortForwarding" />
+    <node concept="3EZMnI" id="1OmT4JFgM0H" role="2wV5jI">
+      <node concept="3F0ifn" id="1OmT4JFgM0O" role="3EZMnx">
+        <property role="3F0ifm" value="SSh Port Forwarding" />
       </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2096113691308323564" nodeInfo="nn">
-        <property name="text" nameId="tpc2.1073389577007" value="Tunnel is connected" />
-        <node role="renderingCondition" roleId="tpc2.1142887637401" type="tpc2.QueryFunction_NodeCondition" typeId="tpc2.1142886221719" id="2096113691308325116" nodeInfo="nn">
-          <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="2096113691308325117" nodeInfo="sn">
-            <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="2096113691308325795" nodeInfo="nn">
-              <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2096113691308326186" nodeInfo="nn">
-                <node role="operand" roleId="tpee.1197027771414" type="tpc2.ConceptFunctionParameter_node" typeId="tpc2.1142886811589" id="2096113691308325794" nodeInfo="nn" />
-                <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="2096113691308329706" nodeInfo="nn">
-                  <link role="property" roleId="tp25.1138056395725" targetNodeId="eith.2967045841109813407" resolveInfo="connected" />
+      <node concept="3F0ifn" id="1OmT4JFgZbG" role="3EZMnx">
+        <property role="3F0ifm" value="Tunnel is connected" />
+        <node concept="pkWqt" id="1OmT4JFgZzW" role="pqm2j">
+          <node concept="3clFbS" id="1OmT4JFgZzX" role="2VODD2">
+            <node concept="3clFbF" id="1OmT4JFgZIz" role="3cqZAp">
+              <node concept="2OqwBi" id="1OmT4JFgZOE" role="3clFbG">
+                <node concept="pncrf" id="1OmT4JFgZIy" role="2Oq$k0" />
+                <node concept="3TrcHB" id="1OmT4JFh0FE" role="2OqNvi">
+                  <ref role="3TsBF5" to="eith:2$H47zJDCyv" resolve="connected" />
                 </node>
               </node>
             </node>
           </node>
         </node>
-        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.ForegroundColorStyleClassItem" typeId="tpc2.1186404549998" id="2096113691308330665" nodeInfo="nn">
-          <property name="color" nameId="tpc2.1186403713874" value="blue" />
+        <node concept="VechU" id="1OmT4JFh0UD" role="3F10Kt">
+          <property role="Vb096" value="blue" />
         </node>
       </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2096113691308269626" nodeInfo="nn">
-        <property name="text" nameId="tpc2.1073389577007" value="Connection" />
-        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutOnNewLineStyleClassItem" typeId="tpc2.1237385578942" id="2096113691308269630" nodeInfo="nn">
-          <property name="flag" nameId="tpc2.1186414551515" value="true" />
+      <node concept="3F0ifn" id="1OmT4JFgM0U" role="3EZMnx">
+        <property role="3F0ifm" value="Connection" />
+        <node concept="pVoyu" id="1OmT4JFgM0Y" role="3F10Kt">
+          <property role="VOm3f" value="true" />
         </node>
       </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="2096113691308292470" nodeInfo="ng">
-        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="eith.2967045841109813398" resolveInfo="username" />
+      <node concept="3F0A7n" id="1OmT4JFgR_Q" role="3EZMnx">
+        <ref role="1NtTu8" to="eith:2$H47zJDCym" resolve="username" />
       </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2096113691308295567" nodeInfo="nn">
-        <property name="text" nameId="tpc2.1073389577007" value="@" />
+      <node concept="3F0ifn" id="1OmT4JFgSmf" role="3EZMnx">
+        <property role="3F0ifm" value="@" />
       </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="2096113691308269646" nodeInfo="ng">
-        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="eith.2967045841109813400" resolveInfo="host" />
+      <node concept="3F0A7n" id="1OmT4JFgM1e" role="3EZMnx">
+        <ref role="1NtTu8" to="eith:2$H47zJDCyo" resolve="host" />
       </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2096113691308269684" nodeInfo="nn">
-        <property name="text" nameId="tpc2.1073389577007" value=":" />
+      <node concept="3F0ifn" id="1OmT4JFgM1O" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
       </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="2096113691308269698" nodeInfo="ng">
-        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="eith.2967045841109813403" resolveInfo="port" />
+      <node concept="3F0A7n" id="1OmT4JFgM22" role="3EZMnx">
+        <ref role="1NtTu8" to="eith:2$H47zJDCyr" resolve="port" />
       </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2096113691308269713" nodeInfo="nn">
-        <property name="text" nameId="tpc2.1073389577007" value="" />
-        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutNewLineStyleClassItem" typeId="tpc2.1237308012275" id="2096113691308269722" nodeInfo="nn">
-          <property name="flag" nameId="tpc2.1186414551515" value="true" />
+      <node concept="3F0ifn" id="1OmT4JFgM2h" role="3EZMnx">
+        <property role="3F0ifm" value="" />
+        <node concept="ljvvj" id="1OmT4JFgM2q" role="3F10Kt">
+          <property role="VOm3f" value="true" />
         </node>
       </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2096113691308269735" nodeInfo="nn">
-        <property name="text" nameId="tpc2.1073389577007" value="use private key?" />
+      <node concept="3F0ifn" id="1OmT4JFgM2B" role="3EZMnx">
+        <property role="3F0ifm" value="use private key?" />
       </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="2096113691308269757" nodeInfo="ng">
-        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="eith.2096113691307818463" resolveInfo="usePrivateKey" />
+      <node concept="3F0A7n" id="1OmT4JFgM2X" role="3EZMnx">
+        <ref role="1NtTu8" to="eith:1OmT4JFf3Rv" resolve="usePrivateKey" />
       </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2096113691308269780" nodeInfo="nn">
-        <property name="text" nameId="tpc2.1073389577007" value="Will prompt for password" />
-        <node role="renderingCondition" roleId="tpc2.1142887637401" type="tpc2.QueryFunction_NodeCondition" typeId="tpc2.1142886221719" id="2096113691308270121" nodeInfo="nn">
-          <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="2096113691308270122" nodeInfo="sn">
-            <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="2096113691308270800" nodeInfo="nn">
-              <node role="expression" roleId="tpee.1068580123156" type="tpee.NotExpression" typeId="tpee.1081516740877" id="2096113691308275495" nodeInfo="nn">
-                <node role="expression" roleId="tpee.1081516765348" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2096113691308275497" nodeInfo="nn">
-                  <node role="operand" roleId="tpee.1197027771414" type="tpc2.ConceptFunctionParameter_node" typeId="tpc2.1142886811589" id="2096113691308275498" nodeInfo="nn" />
-                  <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="2096113691308275499" nodeInfo="nn">
-                    <link role="property" roleId="tp25.1138056395725" targetNodeId="eith.2096113691307818463" resolveInfo="usePrivateKey" />
+      <node concept="3F0ifn" id="1OmT4JFgM3k" role="3EZMnx">
+        <property role="3F0ifm" value="Will prompt for password" />
+        <node concept="pkWqt" id="1OmT4JFgM8D" role="pqm2j">
+          <node concept="3clFbS" id="1OmT4JFgM8E" role="2VODD2">
+            <node concept="3clFbF" id="1OmT4JFgMjg" role="3cqZAp">
+              <node concept="3fqX7Q" id="1OmT4JFgNsB" role="3clFbG">
+                <node concept="2OqwBi" id="1OmT4JFgNsD" role="3fr31v">
+                  <node concept="pncrf" id="1OmT4JFgNsE" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="1OmT4JFgNsF" role="2OqNvi">
+                    <ref role="3TsBF5" to="eith:1OmT4JFf3Rv" resolve="usePrivateKey" />
                   </node>
                 </node>
               </node>
@@ -81,28 +145,28 @@
           </node>
         </node>
       </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2096113691308269806" nodeInfo="nn">
-        <property name="text" nameId="tpc2.1073389577007" value="Will use private key in ~/.ssh/id_rsa" />
-        <node role="renderingCondition" roleId="tpc2.1142887637401" type="tpc2.QueryFunction_NodeCondition" typeId="tpc2.1142886221719" id="2096113691308276285" nodeInfo="nn">
-          <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="2096113691308276286" nodeInfo="sn">
-            <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="2096113691308276964" nodeInfo="nn">
-              <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2096113691308277355" nodeInfo="nn">
-                <node role="operand" roleId="tpee.1197027771414" type="tpc2.ConceptFunctionParameter_node" typeId="tpc2.1142886811589" id="2096113691308276963" nodeInfo="nn" />
-                <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="2096113691308280875" nodeInfo="nn">
-                  <link role="property" roleId="tp25.1138056395725" targetNodeId="eith.2096113691307818463" resolveInfo="usePrivateKey" />
+      <node concept="3F0ifn" id="1OmT4JFgM3I" role="3EZMnx">
+        <property role="3F0ifm" value="Will use private key in ~/.ssh/id_rsa" />
+        <node concept="pkWqt" id="1OmT4JFgNCX" role="pqm2j">
+          <node concept="3clFbS" id="1OmT4JFgNCY" role="2VODD2">
+            <node concept="3clFbF" id="1OmT4JFgNN$" role="3cqZAp">
+              <node concept="2OqwBi" id="1OmT4JFgNTF" role="3clFbG">
+                <node concept="pncrf" id="1OmT4JFgNNz" role="2Oq$k0" />
+                <node concept="3TrcHB" id="1OmT4JFgOKF" role="2OqNvi">
+                  <ref role="3TsBF5" to="eith:1OmT4JFf3Rv" resolve="usePrivateKey" />
                 </node>
               </node>
             </node>
           </node>
         </node>
       </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2096113691308283187" nodeInfo="nn">
-        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutNewLineStyleClassItem" typeId="tpc2.1237308012275" id="2096113691308284735" nodeInfo="nn">
-          <property name="flag" nameId="tpc2.1186414551515" value="true" />
+      <node concept="3F0ifn" id="1OmT4JFgPkN" role="3EZMnx">
+        <node concept="ljvvj" id="1OmT4JFgPGZ" role="3F10Kt">
+          <property role="VOm3f" value="true" />
         </node>
       </node>
-      <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="2096113691308269616" nodeInfo="nn" />
+      <node concept="l2Vlx" id="1OmT4JFgM0K" role="2iSdaV" />
     </node>
-  </root>
+  </node>
 </model>
 
