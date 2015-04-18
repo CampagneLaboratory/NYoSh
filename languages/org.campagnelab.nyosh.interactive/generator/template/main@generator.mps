@@ -122,12 +122,14 @@
         <child id="1168024447342" name="sourceNodeQuery" index="3NFExx" />
       </concept>
       <concept id="1095416546421" name="jetbrains.mps.lang.generator.structure.MappingConfiguration" flags="ig" index="bUwia">
+        <child id="1200911492601" name="mappingLabel" index="2rTMjI" />
         <child id="1167514678247" name="rootMappingRule" index="3lj3bC" />
       </concept>
       <concept id="1168619357332" name="jetbrains.mps.lang.generator.structure.RootTemplateAnnotation" flags="lg" index="n94m4">
         <reference id="1168619429071" name="applicableConcept" index="n9lRv" />
       </concept>
       <concept id="1095672379244" name="jetbrains.mps.lang.generator.structure.TemplateFragment" flags="ng" index="raruj" />
+      <concept id="1200911316486" name="jetbrains.mps.lang.generator.structure.MappingLabelDeclaration" flags="lg" index="2rT7sh" />
       <concept id="1167169188348" name="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" flags="nn" index="30H73N" />
       <concept id="1167169308231" name="jetbrains.mps.lang.generator.structure.BaseMappingRule" flags="ng" index="30H$t8">
         <reference id="1167169349424" name="applicableConcept" index="30HIoZ" />
@@ -197,6 +199,9 @@
     <node concept="3lhOvk" id="G5bxgOk_9D" role="3lj3bC">
       <ref role="30HIoZ" to="440p:G5bxgOjg4F" resolve="ExecuteTool" />
       <ref role="3lhOvi" node="G5bxgOk_Uk" resolve="map_ExecuteTool" />
+    </node>
+    <node concept="2rT7sh" id="2GvbEExYWiB" role="2rTMjI">
+      <property role="TrG5h" value="EXECUTETOOL_CLASS" />
     </node>
   </node>
   <node concept="312cEu" id="G5bxgOk_Uk">

@@ -114,6 +114,11 @@
       <concept id="868032131020265945" name="jetbrains.mps.build.mps.structure.BuildMPSPlugin" flags="ng" index="3b7kt6" />
       <concept id="5253498789149381388" name="jetbrains.mps.build.mps.structure.BuildMps_Module" flags="ng" index="3bQrTs">
         <property id="1500819558096356884" name="doNotCompile" index="2GAjPV" />
+        <child id="5253498789149547704" name="dependencies" index="3bR37C" />
+      </concept>
+      <concept id="5253498789149585690" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleDependencyOnModule" flags="ng" index="3bR9La">
+        <property id="5253498789149547713" name="reexport" index="3bR36h" />
+        <reference id="5253498789149547705" name="module" index="3bR37D" />
       </concept>
       <concept id="5507251971038816436" name="jetbrains.mps.build.mps.structure.BuildMps_Generator" flags="ng" index="1yeLz9" />
       <concept id="3189788309731840248" name="jetbrains.mps.build.mps.structure.BuildMps_Language" flags="ng" index="1E1JtD">
@@ -123,6 +128,9 @@
         <property id="8369506495128725901" name="compact" index="BnDLt" />
         <property id="322010710375892619" name="uuid" index="3LESm3" />
         <child id="322010710375956261" name="path" index="3LF7KH" />
+      </concept>
+      <concept id="7259033139236285166" name="jetbrains.mps.build.mps.structure.BuildMps_ExtractedModuleDependency" flags="nn" index="1SiIV0">
+        <child id="7259033139236285167" name="dependency" index="1SiIV1" />
       </concept>
     </language>
   </registry>
@@ -153,7 +161,7 @@
       <node concept="aVJcg" id="2mFg1uCEgNa" role="aVJcv">
         <node concept="NbPM2" id="2mFg1uCEgN9" role="aVJcq">
           <node concept="3Mxwew" id="4clqoMCXLpB" role="3MwsjC">
-            <property role="3MwjfP" value="1.2.1" />
+            <property role="3MwjfP" value="1.3.0" />
           </node>
         </node>
       </node>
@@ -255,6 +263,12 @@
           <property role="TrG5h" value="org.campagnelab.textoutput#6874736155931251038" />
           <property role="3LESm3" value="2a6b8be2-e610-4c56-b728-d6ee644c94bc" />
           <property role="2GAjPV" value="false" />
+        </node>
+        <node concept="1SiIV0" id="3dPG25809KN" role="3bR37C">
+          <node concept="3bR9La" id="3dPG25809KO" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
+          </node>
         </node>
       </node>
     </node>

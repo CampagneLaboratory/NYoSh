@@ -10,7 +10,9 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
-      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
+      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9">
+        <property id="1225118933224" name="comment" index="YLQ7P" />
+      </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
@@ -59,7 +61,9 @@
       <property role="20kJfa" value="lines" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="4KXrU8sKq1H" resolve="Line" />
-      <node concept="asaX9" id="2rLDe0IOtgS" role="lGtFl" />
+      <node concept="asaX9" id="2rLDe0IOtgS" role="lGtFl">
+        <property role="YLQ7P" value="Use lineContainer instead" />
+      </node>
     </node>
     <node concept="1TJgyj" id="4nKo47E2FFq" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />

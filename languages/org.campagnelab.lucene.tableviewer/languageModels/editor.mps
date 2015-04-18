@@ -23,6 +23,7 @@
     <import index="tpen" ref="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" />
     <import index="fxg7" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
     <import index="tpdr" ref="f:java_stub#9fdb2df2-db25-4874-9a5f-47e348e5bce7#org.apache.commons.io(org.campagnelab.lucene.tableviewer.runtime/org.apache.commons.io@java_stub)" />
+    <import index="tpch" ref="r:00000000-0000-4000-0000-011c8959028d(jetbrains.mps.lang.structure.editor)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
   </imports>
@@ -1616,7 +1617,7 @@
           <node concept="3F0A7n" id="3cJnmVyhDti" role="2wV5jI">
             <property role="1Intyy" value="true" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-            <ref role="1k5W1q" to="tpen:hFD0yD_" resolve="VariableName" />
+            <ref role="1k5W1q" to="tpch:24YP6ZDyde4" resolve="Keyword" />
             <node concept="VPxyj" id="1f7FPMXte0_" role="3F10Kt">
               <property role="VOm3f" value="false" />
             </node>
@@ -1645,16 +1646,13 @@
     <node concept="3EZMnI" id="3cJnmVyhDtV" role="2wV5jI">
       <node concept="3F0ifn" id="3cJnmVyhDu2" role="3EZMnx">
         <property role="3F0ifm" value="&quot;" />
-        <node concept="11LMrY" id="3cJnmVynEkd" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
       </node>
       <node concept="3F0A7n" id="3cJnmVyhDu8" role="3EZMnx">
         <ref role="1NtTu8" to="7c6v:3cJnmVyhCf1" resolve="phrase" />
       </node>
       <node concept="3F0ifn" id="3cJnmVyhDuf" role="3EZMnx">
         <property role="3F0ifm" value="&quot;" />
-        <node concept="11L4FC" id="3cJnmVynElS" role="3F10Kt">
+        <node concept="11LMrY" id="5l1uETBudZh" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
@@ -1772,7 +1770,7 @@
       </node>
       <node concept="3F0A7n" id="3cJnmVyjCoM" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-        <ref role="1k5W1q" to="tpen:hFD0yD_" resolve="VariableName" />
+        <ref role="1k5W1q" to="tpch:24YP6ZDyde4" resolve="Keyword" />
         <node concept="Vb9p2" id="3cJnmVyjCr3" role="3F10Kt">
           <property role="Vbekb" value="BOLD" />
         </node>
