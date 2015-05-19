@@ -117,5 +117,25 @@
       <ref role="20lvS9" node="1th2JjMn4te" resolve="Phrase" />
     </node>
   </node>
+  <node concept="1TIwiD" id="6h$l2DKH1uk">
+    <property role="TrG5h" value="LinesAdapter" />
+    <ref role="1TJDcQ" node="4nKo47DZVIj" resolve="Lines" />
+    <node concept="1TJgyj" id="6h$l2DKHbTG" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="node" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6h$l2DKQPk4">
+    <property role="TrG5h" value="PhraseAdapter" />
+    <ref role="1TJDcQ" node="1th2JjMn4te" resolve="Phrase" />
+    <node concept="1TJgyj" id="6h$l2DKQPk5" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="node" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    </node>
+  </node>
 </model>
 

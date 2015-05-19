@@ -13,6 +13,7 @@
   <language namespace="fd392034-7849-419d-9071-12563d152375(jetbrains.mps.baseLanguage.closures)" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="p6sl" modelUID="r:175e6779-7e81-49b1-b295-33bbabafa8d6(org.campagnelab.textoutput.structure)" version="1" implicit="yes" />
+  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
   <root type="p6sl.TextOutput" typeId="p6sl.6874736155931251147" id="2806205325593464087" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="MyTest" />
     <property name="extension" nameId="p6sl.4279449414579828182" value="R" />
@@ -601,8 +602,16 @@
         <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="6143326256184260909" nodeInfo="ng">
           <property name="text" nameId="p6sl.1680136183140337487" value="" />
         </node>
-        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="6143326256184260910" nodeInfo="ng">
+        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.PhraseAdapter" typeId="p6sl.7233999442722641156" id="3974951868068178953" nodeInfo="ng">
           <property name="text" nameId="p6sl.1680136183140337487" value="" />
+          <node role="node" roleId="p6sl.7233999442722641157" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="3974951868068578794" nodeInfo="nn">
+            <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="3974951868068578797" nodeInfo="nn">
+              <property name="value" nameId="tpee.1068580320021" value="2" />
+            </node>
+            <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="3974951868068577832" nodeInfo="nn">
+              <property name="value" nameId="tpee.1068580320021" value="1" />
+            </node>
+          </node>
         </node>
       </node>
       <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Lines" typeId="p6sl.5039633819242576787" id="6143326256184260911" nodeInfo="ng">

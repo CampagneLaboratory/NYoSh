@@ -7,7 +7,7 @@
   </models>
   <accessoryModels />
   <generators>
-    <generator generatorUID="org.campagnelab.textoutput#6874736155931251038" uuid="2a6b8be2-e610-4c56-b728-d6ee644c94bc">
+    <generator name="" generatorUID="org.campagnelab.textoutput#6874736155931251038" uuid="2a6b8be2-e610-4c56-b728-d6ee644c94bc">
       <models>
         <modelRoot contentPath="${module}" type="default">
           <sourceRoot location="generator/template" />
