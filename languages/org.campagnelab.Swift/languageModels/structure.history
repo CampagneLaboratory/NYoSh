@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="m0w8" modelUID="r:138050e5-379b-4f09-9a50-1fd9e6e2433d(org.campagnelab.Swift.structure)" version="3" />
+    </dependencies>
+    <rename id="m0w8.4680710036726737957" type="CHILD" from="builtInFunction" to="builtInFunctions" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="m0w8" modelUID="r:138050e5-379b-4f09-9a50-1fd9e6e2433d(org.campagnelab.Swift.structure)" version="4" />
+    </dependencies>
+    <rename id="m0w8.8379643869537760279" type="CONCEPT" from="Function" to="FunctionDeclaration" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="m0w8" modelUID="r:138050e5-379b-4f09-9a50-1fd9e6e2433d(org.campagnelab.Swift.structure)" version="5" />
+    </dependencies>
+    <rename id="m0w8.1229447740851850233" type="CHILD" from="comamnd" to="command" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="m0w8" modelUID="r:138050e5-379b-4f09-9a50-1fd9e6e2433d(org.campagnelab.Swift.structure)" version="6" />
+    </dependencies>
+    <rename id="m0w8.1229447740852950320" type="CONCEPT" from="ArgumentCommandPart" to="InputArgumentCommandPart" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="m0w8" modelUID="r:138050e5-379b-4f09-9a50-1fd9e6e2433d(org.campagnelab.Swift.structure)" version="7" />
+    </dependencies>
+    <rename id="m0w8.390277923583401471" type="PROPERTY" from="hasArrayInit" to="hasArrayInitializer" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="m0w8" modelUID="r:138050e5-379b-4f09-9a50-1fd9e6e2433d(org.campagnelab.Swift.structure)" version="8" />
+    </dependencies>
+    <rename id="m0w8.2438995374769013208" type="CONCEPT" from="MoreThanOperator" to="GreaterThanOperator" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="m0w8" modelUID="r:138050e5-379b-4f09-9a50-1fd9e6e2433d(org.campagnelab.Swift.structure)" version="9" />
+    </dependencies>
+    <rename id="m0w8.2438995374769013331" type="CONCEPT" from="MoreThanOrEqualOperator" to="GreaterThanOrEqualOperator" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="m0w8" modelUID="r:138050e5-379b-4f09-9a50-1fd9e6e2433d(org.campagnelab.Swift.structure)" version="10" />
+    </dependencies>
+    <rename id="m0w8.8379643869540676595" type="CONCEPT" from="InputParameter" to="TypedInputParameter" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="m0w8" modelUID="r:138050e5-379b-4f09-9a50-1fd9e6e2433d(org.campagnelab.Swift.structure)" version="11" />
+    </dependencies>
+    <rename id="m0w8.3742568610966642109" type="PROPERTY" from="key" to="argName" />
+  </StructureModification>
+</history>
+
