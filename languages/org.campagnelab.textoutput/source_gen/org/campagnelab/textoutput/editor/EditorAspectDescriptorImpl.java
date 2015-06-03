@@ -19,10 +19,14 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
       case 1:
         return Collections.<ConceptEditor>singletonList(new Lines_Editor());
       case 2:
-        return Collections.<ConceptEditor>singletonList(new Phrase_Editor());
+        return Collections.<ConceptEditor>singletonList(new LinesAdapter_Editor());
       case 3:
-        return Collections.<ConceptEditor>singletonList(new Phrases_Editor());
+        return Collections.<ConceptEditor>singletonList(new Phrase_Editor());
       case 4:
+        return Collections.<ConceptEditor>singletonList(new PhraseAdapter_Editor());
+      case 5:
+        return Collections.<ConceptEditor>singletonList(new Phrases_Editor());
+      case 6:
         return Collections.<ConceptEditor>singletonList(new TextOutput_Editor());
       default:
     }
@@ -33,5 +37,5 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
   }
 
 
-  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"org.campagnelab.textoutput.structure.Line", "org.campagnelab.textoutput.structure.Lines", "org.campagnelab.textoutput.structure.Phrase", "org.campagnelab.textoutput.structure.Phrases", "org.campagnelab.textoutput.structure.TextOutput"};
+  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"org.campagnelab.textoutput.structure.Line", "org.campagnelab.textoutput.structure.Lines", "org.campagnelab.textoutput.structure.LinesAdapter", "org.campagnelab.textoutput.structure.Phrase", "org.campagnelab.textoutput.structure.PhraseAdapter", "org.campagnelab.textoutput.structure.Phrases", "org.campagnelab.textoutput.structure.TextOutput"};
 }

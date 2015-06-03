@@ -4,12 +4,16 @@ package org.campagnelab.textoutput.textGen;
 
 import jetbrains.mps.textGen.SNodeTextGen;
 import org.jetbrains.mps.openapi.model.SNode;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class TextOutput_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
-    OutputToText.textOutput(node, this);
+    for (SNode lines : ListSequence.fromList(SLinkOperations.getChildren(node, MetaAdapterFactory.getContainmentLink(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x5f67f81c22d111cbL, 0x45f06041ea0abadaL, "lineContainer")))) {
+      appendNode(lines);
+    }
   }
   public String getExtension(SNode node) {
     return SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x5f67f81c22d111cbL, 0x3b63a891ae48b5d6L, "extension"));

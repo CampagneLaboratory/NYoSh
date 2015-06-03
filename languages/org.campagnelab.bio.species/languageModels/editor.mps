@@ -8,7 +8,6 @@
   <imports>
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="6llb" ref="r:8750ca3b-69d3-462f-a344-0d90d0dcd74b(org.campagnelab.bio.species.structure)" implicit="true" />
-    <import index="tpen" ref="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -32,9 +31,6 @@
       </concept>
       <concept id="1088013125922" name="jetbrains.mps.lang.editor.structure.CellModel_RefCell" flags="sg" stub="730538219795941030" index="1iCGBv">
         <child id="1088186146602" name="editorComponent" index="1sWHZn" />
-      </concept>
-      <concept id="1381004262292414836" name="jetbrains.mps.lang.editor.structure.ICellStyle" flags="ng" index="1k5N5V">
-        <reference id="1381004262292426837" name="parentStyleClass" index="1k5W1q" />
       </concept>
       <concept id="1236262245656" name="jetbrains.mps.lang.editor.structure.MatchingLabelStyleClassItem" flags="ln" index="3mYdg7">
         <property id="1238091709220" name="labelName" index="1413C4" />
@@ -207,15 +203,13 @@
       <node concept="3F0ifn" id="2c$PAgEvDLn" role="3EZMnx">
         <property role="3F0ifm" value=")" />
       </node>
-      <node concept="3F0ifn" id="2c$PAgEwbvq" role="3EZMnx">
+      <node concept="3F0ifn" id="2GvbEEwSo47" role="3EZMnx">
         <property role="3F0ifm" value="//" />
-        <ref role="1k5W1q" to="tpen:hshO_Yc" resolve="Comment" />
       </node>
       <node concept="3F0A7n" id="2c$PAgEwbvN" role="3EZMnx">
         <property role="1O74Pk" value="true" />
         <property role="39s7Ar" value="true" />
         <ref role="1NtTu8" to="6llb:2c$PAgEwbtY" resolve="description" />
-        <ref role="1k5W1q" to="tpen:hshO_Yc" resolve="Comment" />
       </node>
       <node concept="l2Vlx" id="2c$PAgEvDJW" role="2iSdaV" />
     </node>

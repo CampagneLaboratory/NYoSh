@@ -11,6 +11,15 @@ public class Line_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor {
   public void virtual_deconvoluteLines_4239459373915862301(SNode thisNode) {
     Line_Behavior.virtual_deconvoluteLines_4239459373915862301(thisNode);
   }
+  public int virtual_length_3708063525196288017(SNode thisNode) {
+    return Line_Behavior.virtual_length_3708063525196288017(thisNode);
+  }
+  public void virtual_normalize_2806205325594058140(SNode thisNode) {
+    Line_Behavior.virtual_normalize_2806205325594058140(thisNode);
+  }
+  public String virtual_toText_6143326256185303404(SNode thisNode) {
+    return Line_Behavior.virtual_toText_6143326256185303404(thisNode);
+  }
   @Override
   public String getConceptFqName() {
     return "org.campagnelab.textoutput.structure.Line";

@@ -5,9 +5,37 @@ package org.campagnelab.textoutput.behavior;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import jetbrains.mps.openapi.editor.EditorContext;
+import jetbrains.mps.openapi.editor.cells.EditorCell;
+import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
+import org.apache.log4j.Logger;
+import org.apache.log4j.LogManager;
 
 public class Phrase_Behavior {
   public static void init(SNode thisNode) {
     SPropertyOperations.set(thisNode, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x17510af4f25c474eL, 0x17510af4f25c474fL, "text"), "");
   }
+  public static String virtual_toText_6143326256185335963(SNode thisNode) {
+    return SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x17510af4f25c474eL, 0x17510af4f25c474fL, "text"));
+  }
+  public static void call_insertNewLine_3708063525194973945(SNode thisNode, EditorContext editorContext) {
+    EditorCell contextCell = editorContext.getContextCell();
+    int cursorPosition = 0;
+    if (contextCell instanceof EditorCell_Label) {
+      EditorCell_Label label = (EditorCell_Label) contextCell;
+      cursorPosition = label.getCaretPosition();
+    } else {
+      cursorPosition = 0;
+    }
+    // <node> 
+    SPropertyOperations.set(thisNode, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x17510af4f25c474eL, 0x17510af4f25c474fL, "text"), SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x17510af4f25c474eL, 0x17510af4f25c474fL, "text")).substring(0, cursorPosition) + "\\n" + SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x17510af4f25c474eL, 0x17510af4f25c474fL, "text")).substring(cursorPosition, SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x17510af4f25c474eL, 0x17510af4f25c474fL, "text")).length()));
+
+    editorContext.getSelectionManager().setSelection(thisNode, SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x17510af4f25c474eL, 0x17510af4f25c474fL, "text")), cursorPosition + 2);
+
+
+  }
+  public static int virtual_length_3708063525196317945(SNode thisNode) {
+    return SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x17510af4f25c474eL, 0x17510af4f25c474fL, "text")).length();
+  }
+  protected static Logger LOG = LogManager.getLogger(Phrase_Behavior.class);
 }

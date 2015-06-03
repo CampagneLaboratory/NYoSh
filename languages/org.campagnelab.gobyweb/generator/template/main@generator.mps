@@ -525,157 +525,295 @@
     <node concept="2G3XJi" id="3RWtajc585d" role="2JYHEr">
       <property role="1gZaPE" value="" />
       <node concept="1gZcZf" id="79G88d$14fl" role="2G3XIn">
-        <property role="1gZaPE" value="# Plugins SDK - Alignment Analysis script template" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiHHZ" role="3_3kQL">
+          <property role="3_3kQV" value="# Plugins SDK - Alignment Analysis script template" />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$14fm" role="2G3XIn">
         <property role="1gZaPE" value="" />
       </node>
       <node concept="1gZcZf" id="79G88d$14fn" role="2G3XIn">
-        <property role="1gZaPE" value="# This function is expected to split alignments into parts for parallel processing." />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiHHR" role="3_3kQL">
+          <property role="3_3kQV" value="# This function is expected to split alignments into parts for parallel processing." />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$14fo" role="2G3XIn">
-        <property role="1gZaPE" value="# Parameters:" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiHHp" role="3_3kQL">
+          <property role="3_3kQV" value="# Parameters:" />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$14fp" role="2G3XIn">
-        <property role="1gZaPE" value="#   $1: number of parts" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiHHP" role="3_3kQL">
+          <property role="3_3kQV" value="#   $1: number of parts" />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$14fq" role="2G3XIn">
-        <property role="1gZaPE" value="#   $2: the filename of the output text file to produce with the splicing plan" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiHI3" role="3_3kQL">
+          <property role="3_3kQV" value="#   $2: the filename of the output text file to produce with the splicing plan" />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$14fr" role="2G3XIn">
-        <property role="1gZaPE" value="#   $3...$N: the entries files of the input alignments" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiHIi" role="3_3kQL">
+          <property role="3_3kQV" value="#   $3...$N: the entries files of the input alignments" />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$14fs" role="2G3XIn">
-        <property role="1gZaPE" value="function plugin_alignment_analysis_split {" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiHHD" role="3_3kQL">
+          <property role="3_3kQV" value="function plugin_alignment_analysis_split {" />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$14ft" role="2G3XIn">
-        <property role="1gZaPE" value="    #sample parameters reading" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiHHF" role="3_3kQL">
+          <property role="3_3kQV" value="    #sample parameters reading" />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$14fu" role="2G3XIn">
-        <property role="1gZaPE" value="    NUMBER_OF_PARTS=$1" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiHHX" role="3_3kQL">
+          <property role="3_3kQV" value="    NUMBER_OF_PARTS=$1" />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$14fv" role="2G3XIn">
-        <property role="1gZaPE" value="    SPLICING_PLAN_RESULT=$2" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiHIk" role="3_3kQL">
+          <property role="3_3kQV" value="    SPLICING_PLAN_RESULT=$2" />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$14fw" role="2G3XIn">
-        <property role="1gZaPE" value="    shift" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiHI9" role="3_3kQL">
+          <property role="3_3kQV" value="    shift" />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$14fx" role="2G3XIn">
-        <property role="1gZaPE" value="    shift" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiHHh" role="3_3kQL">
+          <property role="3_3kQV" value="    shift" />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$14fy" role="2G3XIn">
-        <property role="1gZaPE" value="    PARTS=$*" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiHIf" role="3_3kQL">
+          <property role="3_3kQV" value="    PARTS=$*" />
+        </node>
         <node concept="3_3kQU" id="3HzE96IqnLF" role="3_3kQL">
           <property role="3_3kQV" value="" />
         </node>
       </node>
       <node concept="1gZcZf" id="2Ka1amXmRMG" role="2G3XIn">
-        <property role="1gZaPE" value="    #invoke the entry point in the concept model" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiHHt" role="3_3kQL">
+          <property role="3_3kQV" value="    #invoke the entry point in the concept model" />
+        </node>
       </node>
       <node concept="1gZcZf" id="2Ka1amXmRMH" role="2G3XIn">
-        <property role="1gZaPE" value="    . ${JOB_DIR}/run_model.sh plugin_alignment_analysis_split ${NUMBER_OF_PARTS} ${SPLICING_PLAN_RESULT} ${PARTS} " />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiHHH" role="3_3kQL">
+          <property role="3_3kQV" value="    . ${JOB_DIR}/run_model.sh plugin_alignment_analysis_split ${NUMBER_OF_PARTS} ${SPLICING_PLAN_RESULT} ${PARTS} " />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$14f_" role="2G3XIn">
-        <property role="1gZaPE" value="}" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiHHj" role="3_3kQL">
+          <property role="3_3kQV" value="}" />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$14fA" role="2G3XIn">
         <property role="1gZaPE" value="" />
       </node>
       <node concept="1gZcZf" id="79G88d$14fB" role="2G3XIn">
-        <property role="1gZaPE" value="# This function is expected to return the number of parts in the slicing plan or zero if the the alignments could not be split." />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiHHl" role="3_3kQL">
+          <property role="3_3kQV" value="# This function is expected to return the number of parts in the slicing plan or zero if the the alignments could not be split." />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$14fC" role="2G3XIn">
-        <property role="1gZaPE" value="# It is called before to start the analysis process." />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiHH9" role="3_3kQL">
+          <property role="3_3kQV" value="# It is called before to start the analysis process." />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$14fD" role="2G3XIn">
-        <property role="1gZaPE" value="# Parameters:" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiHHN" role="3_3kQL">
+          <property role="3_3kQV" value="# Parameters:" />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$14fE" role="2G3XIn">
-        <property role="1gZaPE" value="#   $1: the file with the splicing plan" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiHti" role="3_3kQL">
+          <property role="3_3kQV" value="#   $1: the file with the splicing plan" />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$14fF" role="2G3XIn">
-        <property role="1gZaPE" value="function plugin_alignment_analysis_num_parts {" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiHGZ" role="3_3kQL">
+          <property role="3_3kQV" value="function plugin_alignment_analysis_num_parts {" />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$14fG" role="2G3XIn">
-        <property role="1gZaPE" value="    #sample parameters reading" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiHI1" role="3_3kQL">
+          <property role="3_3kQV" value="    #sample parameters reading" />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$14fH" role="2G3XIn">
-        <property role="1gZaPE" value="    SPLICING_PLAN_FILE=$1" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiHHr" role="3_3kQL">
+          <property role="3_3kQV" value="    SPLICING_PLAN_FILE=$1" />
+        </node>
       </node>
       <node concept="1gZcZf" id="2Ka1amXmULS" role="2G3XIn">
-        <property role="1gZaPE" value="     #invoke the entry point in the concept model" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiHtd" role="3_3kQL">
+          <property role="3_3kQV" value="     #invoke the entry point in the concept model" />
+        </node>
       </node>
       <node concept="1gZcZf" id="2Ka1amXmTb8" role="2G3XIn">
-        <property role="1gZaPE" value="    . ${JOB_DIR}/run_model.sh plugin_alignment_analysis_num_parts ${SPLICING_PLAN_FILE} " />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiHId" role="3_3kQL">
+          <property role="3_3kQV" value="    . ${JOB_DIR}/run_model.sh plugin_alignment_analysis_num_parts ${SPLICING_PLAN_FILE} " />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$14fL" role="2G3XIn">
-        <property role="1gZaPE" value="}" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiHHB" role="3_3kQL">
+          <property role="3_3kQV" value="}" />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$14fM" role="2G3XIn">
         <property role="1gZaPE" value="" />
       </node>
       <node concept="1gZcZf" id="79G88d$14fN" role="2G3XIn">
-        <property role="1gZaPE" value="function plugin_alignment_analysis_process {" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiHHv" role="3_3kQL">
+          <property role="3_3kQV" value="function plugin_alignment_analysis_process {" />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$14fO" role="2G3XIn">
-        <property role="1gZaPE" value="    #sample parameters reading" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiHHn" role="3_3kQL">
+          <property role="3_3kQV" value="    #sample parameters reading" />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$14fP" role="2G3XIn">
-        <property role="1gZaPE" value="    SLICING_PLAN_FILENAME=$1" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiHH3" role="3_3kQL">
+          <property role="3_3kQV" value="    SLICING_PLAN_FILENAME=$1" />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$14fQ" role="2G3XIn">
-        <property role="1gZaPE" value="    CURRENT_PART=$2" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiHH7" role="3_3kQL">
+          <property role="3_3kQV" value="    CURRENT_PART=$2" />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$14fS" role="2G3XIn">
-        <property role="1gZaPE" value="    #invoke the entry point in the concept model" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiHH_" role="3_3kQL">
+          <property role="3_3kQV" value="    #invoke the entry point in the concept model" />
+        </node>
       </node>
       <node concept="1gZcZf" id="2Ka1amXmVe9" role="2G3XIn">
-        <property role="1gZaPE" value="    . ${JOB_DIR}/run_model.sh plugin_alignment_analysis_process ${SLICING_PLAN_FILENAME} ${CURRENT_PART} " />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiHHf" role="3_3kQL">
+          <property role="3_3kQV" value="    . ${JOB_DIR}/run_model.sh plugin_alignment_analysis_process ${SLICING_PLAN_FILENAME} ${CURRENT_PART} " />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$14fU" role="2G3XIn">
-        <property role="1gZaPE" value="}" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiHI5" role="3_3kQL">
+          <property role="3_3kQV" value="}" />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$14fV" role="2G3XIn">
         <property role="1gZaPE" value="" />
       </node>
       <node concept="1gZcZf" id="79G88d$14fW" role="2G3XIn">
-        <property role="1gZaPE" value="# This function is called after the analysis parts have finished executing." />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiHHx" role="3_3kQL">
+          <property role="3_3kQV" value="# This function is called after the analysis parts have finished executing." />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$14fX" role="2G3XIn">
-        <property role="1gZaPE" value="# It is expected to combine the results of the analysis parts." />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiHHT" role="3_3kQL">
+          <property role="3_3kQV" value="# It is expected to combine the results of the analysis parts." />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$14fY" role="2G3XIn">
-        <property role="1gZaPE" value="# Parameters:" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiHtf" role="3_3kQL">
+          <property role="3_3kQV" value="# Parameters:" />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$14fZ" role="2G3XIn">
-        <property role="1gZaPE" value="#   $1: the name of the result file to produce" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiHI7" role="3_3kQL">
+          <property role="3_3kQV" value="#   $1: the name of the result file to produce" />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$14g0" role="2G3XIn">
-        <property role="1gZaPE" value="#   $2....$N: the list of files produced by plugin_alignment_analysis_num_parts()" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiHH5" role="3_3kQL">
+          <property role="3_3kQV" value="#   $2....$N: the list of files produced by plugin_alignment_analysis_num_parts()" />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$14g1" role="2G3XIn">
-        <property role="1gZaPE" value="function plugin_alignment_analysis_combine {" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiHHJ" role="3_3kQL">
+          <property role="3_3kQV" value="function plugin_alignment_analysis_combine {" />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$14g2" role="2G3XIn">
-        <property role="1gZaPE" value="    #sample parameters reading" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiHHV" role="3_3kQL">
+          <property role="3_3kQV" value="    #sample parameters reading" />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$14g3" role="2G3XIn">
-        <property role="1gZaPE" value="    RESULT_FILE=$1" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiHHz" role="3_3kQL">
+          <property role="3_3kQV" value="    RESULT_FILE=$1" />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$14g4" role="2G3XIn">
-        <property role="1gZaPE" value="    shift" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiHHL" role="3_3kQL">
+          <property role="3_3kQV" value="    shift" />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$14g5" role="2G3XIn">
-        <property role="1gZaPE" value="    PART_RESULT_FILES=$*" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiHHd" role="3_3kQL">
+          <property role="3_3kQV" value="    PART_RESULT_FILES=$*" />
+        </node>
       </node>
       <node concept="1gZcZf" id="2Ka1amXmWyP" role="2G3XIn">
-        <property role="1gZaPE" value="    #invoke the entry point in the concept model" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiHH1" role="3_3kQL">
+          <property role="3_3kQV" value="    #invoke the entry point in the concept model" />
+        </node>
       </node>
       <node concept="1gZcZf" id="2Ka1amXmWyQ" role="2G3XIn">
-        <property role="1gZaPE" value="    . ${JOB_DIR}/run_model.sh plugin_alignment_analysis_combine ${RESULT_FILE} ${PART_RESULT_FILES} " />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiHIb" role="3_3kQL">
+          <property role="3_3kQV" value="    . ${JOB_DIR}/run_model.sh plugin_alignment_analysis_combine ${RESULT_FILE} ${PART_RESULT_FILES} " />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$14g8" role="2G3XIn">
-        <property role="1gZaPE" value="}" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiHHb" role="3_3kQL">
+          <property role="3_3kQV" value="}" />
+        </node>
       </node>
       <node concept="1gZcZf" id="4KXrU8sSyCf" role="2G3XIn">
         <property role="1gZaPE" value=" " />
@@ -717,13 +855,22 @@
     <node concept="2G3XJi" id="3RWtajc57F$" role="2JYHEr">
       <property role="1gZaPE" value="" />
       <node concept="1gZcZf" id="79G88d$0ZJw" role="2G3XIn">
-        <property role="1gZaPE" value="# This is the only function that aligners need to implement." />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiK2V" role="3_3kQL">
+          <property role="3_3kQV" value="# This is the only function that aligners need to implement." />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$0ZJx" role="2G3XIn">
-        <property role="1gZaPE" value="# Parameters:" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiK2P" role="3_3kQL">
+          <property role="3_3kQV" value="# Parameters:" />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$0ZJy" role="2G3XIn">
-        <property role="1gZaPE" value="#   $1: a temporary filename" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiK2X" role="3_3kQL">
+          <property role="3_3kQV" value="#   $1: a temporary filename" />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$0ZJz" role="2G3XIn">
         <node concept="3_3kQU" id="Vy7Dhr6QoP" role="3_3kQL">
@@ -740,25 +887,46 @@
         <property role="1gZaPE" value="" />
       </node>
       <node concept="1gZcZf" id="79G88d$0ZJ_" role="2G3XIn">
-        <property role="1gZaPE" value="function plugin_align {" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiK2L" role="3_3kQL">
+          <property role="3_3kQV" value="function plugin_align {" />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$0ZJA" role="2G3XIn">
-        <property role="1gZaPE" value="  #sample parameters reading" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiK2R" role="3_3kQL">
+          <property role="3_3kQV" value="  #sample parameters reading" />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$0ZJB" role="2G3XIn">
-        <property role="1gZaPE" value="  OUTPUT=$1" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiK2H" role="3_3kQL">
+          <property role="3_3kQV" value="  OUTPUT=$1" />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$0ZJC" role="2G3XIn">
-        <property role="1gZaPE" value="  BASENAME=$2" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiK2J" role="3_3kQL">
+          <property role="3_3kQV" value="  BASENAME=$2" />
+        </node>
       </node>
       <node concept="1gZcZf" id="2Ka1amXmDKP" role="2G3XIn">
-        <property role="1gZaPE" value="  #invoke the model through the script generated by RunMpsScript" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiK2Z" role="3_3kQL">
+          <property role="3_3kQV" value="  #invoke the model through the script generated by RunMpsScript" />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$0ZJD" role="2G3XIn">
-        <property role="1gZaPE" value="  . ${JOB_DIR}/run_model.sh plugin_align ${OUTPUT} ${BASENAME}" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiK2T" role="3_3kQL">
+          <property role="3_3kQV" value="  . ${JOB_DIR}/run_model.sh plugin_align ${OUTPUT} ${BASENAME}" />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$0ZJG" role="2G3XIn">
-        <property role="1gZaPE" value="}" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiK2N" role="3_3kQL">
+          <property role="3_3kQV" value="}" />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88dzZjLb" role="2G3XIn">
         <property role="1gZaPE" value=" " />
@@ -800,34 +968,61 @@
     <node concept="2G3XJi" id="3RWtajc5dp2" role="2JYHEr">
       <property role="1gZaPE" value="" />
       <node concept="1gZcZf" id="79G88d$14S1" role="2G3XIn">
-        <property role="1gZaPE" value="# Plugins SDK - Task script template" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiJGy" role="3_3kQL">
+          <property role="3_3kQV" value="# Plugins SDK - Task script template" />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$14S2" role="2G3XIn">
         <property role="1gZaPE" value="" />
       </node>
       <node concept="1gZcZf" id="79G88d$14S3" role="2G3XIn">
-        <property role="1gZaPE" value="# This is the only function that tasks need to implement." />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiJGE" role="3_3kQL">
+          <property role="3_3kQV" value="# This is the only function that tasks need to implement." />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$14S4" role="2G3XIn">
-        <property role="1gZaPE" value="# It is expected to use FILESET_COMMAND for fetching the input filesets and pushing the produced filesets." />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiJGC" role="3_3kQL">
+          <property role="3_3kQV" value="# It is expected to use FILESET_COMMAND for fetching the input filesets and pushing the produced filesets." />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$14S5" role="2G3XIn">
-        <property role="1gZaPE" value="# No input parameters are passed to the function in the current implementation." />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiJG$" role="3_3kQL">
+          <property role="3_3kQV" value="# No input parameters are passed to the function in the current implementation." />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$14S6" role="2G3XIn">
-        <property role="1gZaPE" value="function plugin_task {" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiJGA" role="3_3kQL">
+          <property role="3_3kQV" value="function plugin_task {" />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$14S7" role="2G3XIn">
-        <property role="1gZaPE" value="     " />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiJGw" role="3_3kQL">
+          <property role="3_3kQV" value="     " />
+        </node>
       </node>
       <node concept="1gZcZf" id="2Ka1amXmXty" role="2G3XIn">
-        <property role="1gZaPE" value="    #invoke the entry point in the concept model" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiJGu" role="3_3kQL">
+          <property role="3_3kQV" value="    #invoke the entry point in the concept model" />
+        </node>
       </node>
       <node concept="1gZcZf" id="2Ka1amXmXtz" role="2G3XIn">
-        <property role="1gZaPE" value="    . ${JOB_DIR}/run_model.sh plugin_task   " />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiJGG" role="3_3kQL">
+          <property role="3_3kQV" value="    . ${JOB_DIR}/run_model.sh plugin_task   " />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$14Sa" role="2G3XIn">
-        <property role="1gZaPE" value="}" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiJGs" role="3_3kQL">
+          <property role="3_3kQV" value="}" />
+        </node>
       </node>
       <node concept="1gZcZf" id="79G88d$14MF" role="2G3XIn">
         <property role="1gZaPE" value=" " />
@@ -877,16 +1072,28 @@
         </node>
       </node>
       <node concept="1gZcZf" id="Vy7DhraDi9" role="2G3XIn">
-        <property role="1gZaPE" value="export MPS_HOME=${RESOURCES_ARTIFACTS_MPS_DISTRIBUTION}" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiIkK" role="3_3kQL">
+          <property role="3_3kQV" value="export MPS_HOME=${RESOURCES_ARTIFACTS_MPS_DISTRIBUTION}" />
+        </node>
       </node>
       <node concept="1gZcZf" id="2Ka1amYQ2mK" role="2G3XIn">
-        <property role="1gZaPE" value="MPS_LIBS=`cat ${RESOURCES_MPS_JARS_LIST} |awk '{ORS=&quot;:&quot;; print $1}'`" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiIkv" role="3_3kQL">
+          <property role="3_3kQV" value="MPS_LIBS=`cat ${RESOURCES_MPS_JARS_LIST} |awk '{ORS=&quot;:&quot;; print $1}'`" />
+        </node>
       </node>
       <node concept="1gZcZf" id="6arqpsaiB3K" role="2G3XIn">
-        <property role="1gZaPE" value="NYOSH_SUPPORT_LIBS=&quot;$RESOURCES_ARTIFACTS_MPS_SUPPORT_LIBS/*&quot;" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiIkx" role="3_3kQL">
+          <property role="3_3kQV" value="NYOSH_SUPPORT_LIBS=&quot;$RESOURCES_ARTIFACTS_MPS_SUPPORT_LIBS/*&quot;" />
+        </node>
       </node>
       <node concept="1gZcZf" id="6arqpsaiCSl" role="2G3XIn">
-        <property role="1gZaPE" value="CLASSPATH=${MPS_LIBS}${NYOSH_SUPPORT_LIBS}:${JOB_DIR}/plugin.jar:${JOB_DIR}" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiIkt" role="3_3kQL">
+          <property role="3_3kQV" value="CLASSPATH=${MPS_LIBS}${NYOSH_SUPPORT_LIBS}:${JOB_DIR}/plugin.jar:${JOB_DIR}" />
+        </node>
       </node>
       <node concept="1gZcZf" id="Vy7DhraDic" role="2G3XIn">
         <node concept="3_3kQU" id="2Ka1amYRygL" role="3_3kQL">
@@ -922,7 +1129,10 @@
         </node>
       </node>
       <node concept="1gZcZf" id="2Ka1amYzXCz" role="2G3XIn">
-        <property role="1gZaPE" value="NYOSH_" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiIkz" role="3_3kQL">
+          <property role="3_3kQV" value="NYOSH_" />
+        </node>
         <node concept="3_3kQU" id="2Ka1amYzXC$" role="3_3kQL">
           <property role="3_3kQV" value="SCRIPTNAME=" />
         </node>
@@ -947,10 +1157,16 @@
         </node>
       </node>
       <node concept="1gZcZf" id="Vy7DhraDig" role="2G3XIn">
-        <property role="1gZaPE" value="CLASSNAME=${MODEL}.${NYOSH_SCRIPTNAME}" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiIkM" role="3_3kQL">
+          <property role="3_3kQV" value="CLASSNAME=${MODEL}.${NYOSH_SCRIPTNAME}" />
+        </node>
       </node>
       <node concept="1gZcZf" id="Vy7DhraDih" role="2G3XIn">
-        <property role="1gZaPE" value="java ${PLUGIN_NEED_DEFAULT_JVM_OPTIONS} -classpath ${CLASSPATH} -Dlog4j.configuration=file:${RESOURCES_GOBYWEB_SERVER_SIDE_LOG4J_PROPERTIES} ${CLASSNAME} &quot;$@&quot;" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5qKJeZuiIkI" role="3_3kQL">
+          <property role="3_3kQV" value="java ${PLUGIN_NEED_DEFAULT_JVM_OPTIONS} -classpath ${CLASSPATH} -Dlog4j.configuration=file:${RESOURCES_GOBYWEB_SERVER_SIDE_LOG4J_PROPERTIES} ${CLASSNAME} &quot;$@&quot;" />
+        </node>
       </node>
       <node concept="1gZcZf" id="Vy7DhraDi4" role="2G3XIn">
         <property role="1gZaPE" value="" />

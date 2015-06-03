@@ -109,6 +109,10 @@
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
+      <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
+      <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
+        <reference id="1138056516764" name="link" index="3Tt5mk" />
+      </concept>
       <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
         <reference id="1138056546658" name="link" index="3TtcxE" />
       </concept>
@@ -232,11 +236,11 @@
                 <node concept="2OqwBi" id="3nvRWFvXRFn" role="3uHU7B">
                   <node concept="2OqwBi" id="3nvRWFvXQd9" role="2Oq$k0">
                     <node concept="pncrf" id="3nvRWFvXQ8g" role="2Oq$k0" />
-                    <node concept="3Tsc0h" id="3nvRWFvXQHf" role="2OqNvi">
-                      <ref role="3TtcxE" to="u5kh:7MCNdh5tkmC" />
+                    <node concept="3TrEf2" id="2GvbEExQvpM" role="2OqNvi">
+                      <ref role="3Tt5mk" to="u5kh:7MCNdh5tkmC" />
                     </node>
                   </node>
-                  <node concept="3GX2aA" id="3nvRWFvXU4R" role="2OqNvi" />
+                  <node concept="3x8VRR" id="2GvbEExVkVj" role="2OqNvi" />
                 </node>
               </node>
             </node>
