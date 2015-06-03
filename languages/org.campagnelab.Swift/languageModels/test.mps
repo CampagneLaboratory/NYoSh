@@ -1,202 +1,267 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:7c058794-8b00-4ae1-84dd-896c3607be62(org.campagnelab.Swift.test)">
-  <persistence version="8" />
-  <language namespace="8585453e-6bfb-4d80-98de-b16074f1d86c(jetbrains.mps.lang.test)" />
-  <language namespace="62720c43-100a-4ea1-a361-2ce300733faf(org.campagnelab.Swift)" />
-  <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <import index="m0w8" modelUID="r:138050e5-379b-4f09-9a50-1fd9e6e2433d(org.campagnelab.Swift.structure)" version="12" />
-  <import index="tp5g" modelUID="r:00000000-0000-4000-0000-011c89590388(jetbrains.mps.lang.test.structure)" version="40" implicit="yes" />
-  <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
-  <import index="lhms" modelUID="r:dd3b468f-3f0f-4da4-b319-5ef9f38ad256(org.campagnelab.Swift.functions)" version="-1" implicit="yes" />
-  <root type="tp5g.TestInfo" typeId="tp5g.5097124989038916362" id="3652469848675510360" nodeInfo="ng" />
-  <root type="tp5g.NodesTestCase" typeId="tp5g.1216913645126" id="3652469848674117109" nodeInfo="lg">
-    <property name="name" nameId="tpck.1169194664001" value="BooleanConditions" />
-    <node role="nodesToCheck" roleId="tp5g.1217501822150" type="tp5g.TestNode" typeId="tp5g.1216989428737" id="3652469848674118681" nodeInfo="ng">
-      <node role="nodeToCheck" roleId="tp5g.1216989461394" type="m0w8.IfStatement" typeId="m0w8.1428779954555466908" id="3652469848674119057" nodeInfo="ng">
-        <node role="ifTrue" roleId="m0w8.1428779954556078463" type="m0w8.SwiftBlockStatement" typeId="m0w8.2438995374754500711" id="3652469848674119058" nodeInfo="ng" />
-        <node role="condition" roleId="m0w8.1428779954556078461" type="m0w8.BooleanLiteral" typeId="m0w8.2438995374765939703" id="3652469848674119075" nodeInfo="ng">
-          <property name="value" nameId="m0w8.2438995374765939704" value="true" />
-          <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tp5g.NodePropertiesContainer" typeId="tp5g.1215507532627" id="3652469848674482930" nodeInfo="ng">
-            <node role="nodeCheckOperations" type="tp5g.NodeTypeCheckOperation" typeId="tp5g.1215526290564" id="3652469848674482946" nodeInfo="ng">
-              <node role="type" type="tpee.BooleanType" typeId="tpee.1070534644030" id="3652469848674482967" nodeInfo="in" />
+<model ref="r:7c058794-8b00-4ae1-84dd-896c3607be62(org.campagnelab.Swift.test)">
+  <persistence version="9" />
+  <languages>
+    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="-1" />
+    <use id="62720c43-100a-4ea1-a361-2ce300733faf" name="org.campagnelab.Swift" version="-1" />
+    <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
+  </languages>
+  <imports>
+    <import index="m0w8" ref="r:138050e5-379b-4f09-9a50-1fd9e6e2433d(org.campagnelab.Swift.structure)" />
+    <import index="lhms" ref="r:dd3b468f-3f0f-4da4-b319-5ef9f38ad256(org.campagnelab.Swift.functions)" implicit="true" />
+  </imports>
+  <registry>
+    <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
+      <concept id="1215507532627" name="jetbrains.mps.lang.test.structure.NodePropertiesContainer" flags="ng" index="1TgD8">
+        <child id="1215507909023" name="nodeCheckOperations" index="1UGy4" />
+      </concept>
+      <concept id="1215507671101" name="jetbrains.mps.lang.test.structure.NodeErrorCheckOperation" flags="ng" index="1TM$A" />
+      <concept id="1215526290564" name="jetbrains.mps.lang.test.structure.NodeTypeCheckOperation" flags="ng" index="30Omv">
+        <child id="1215526393912" name="type" index="31d$z" />
+      </concept>
+      <concept id="1215603922101" name="jetbrains.mps.lang.test.structure.NodeOperationsContainer" flags="ng" index="7CXmI">
+        <child id="1215604436604" name="nodeOperations" index="7EUXB" />
+      </concept>
+      <concept id="1215607067978" name="jetbrains.mps.lang.test.structure.CheckNodeForErrorMessagesOperation" flags="ng" index="7OXhh" />
+      <concept id="5097124989038916362" name="jetbrains.mps.lang.test.structure.TestInfo" flags="ng" index="2XOHcx" />
+      <concept id="1216913645126" name="jetbrains.mps.lang.test.structure.NodesTestCase" flags="lg" index="1lH9Xt">
+        <child id="1217501822150" name="nodesToCheck" index="1SKRRt" />
+      </concept>
+      <concept id="1216989428737" name="jetbrains.mps.lang.test.structure.TestNode" flags="ng" index="1qefOq">
+        <child id="1216989461394" name="nodeToCheck" index="1qenE9" />
+      </concept>
+      <concept id="1210673684636" name="jetbrains.mps.lang.test.structure.TestNodeAnnotation" flags="ng" index="3xLA65" />
+    </language>
+    <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
+    </language>
+    <language id="62720c43-100a-4ea1-a361-2ce300733faf" name="org.campagnelab.Swift">
+      <concept id="143816243730718134" name="org.campagnelab.Swift.structure.FloatLiteral" flags="ng" index="2pvIQE">
+        <property id="143816243730718137" name="value" index="2pvIQ_" />
+      </concept>
+      <concept id="390277923585493114" name="org.campagnelab.Swift.structure.StringLiteral" flags="ng" index="z_Kfe">
+        <property id="390277923585493115" name="literal" index="z_Kff" />
+      </concept>
+      <concept id="2342373417867395029" name="org.campagnelab.Swift.structure.IntLiteral" flags="ng" index="2JN7vz">
+        <property id="2342373417867396297" name="value" index="2JN0NZ" />
+      </concept>
+      <concept id="8379643869540820012" name="org.campagnelab.Swift.structure.FunctionCall" flags="ng" index="382dQv">
+        <reference id="4680710036727456834" name="function" index="3riXMS" />
+        <child id="8379643869540820052" name="inputValues" index="382dRB" />
+      </concept>
+      <concept id="2438995374769012749" name="org.campagnelab.Swift.structure.PlusOperator" flags="ng" index="3od8Pj" />
+      <concept id="2438995374768481699" name="org.campagnelab.Swift.structure.AndOperator" flags="ng" index="3of6zX" />
+      <concept id="2438995374768480959" name="org.campagnelab.Swift.structure.BinaryOperator" flags="ng" index="3of6Zx">
+        <child id="2438995374768481626" name="right" index="3of6w4" />
+        <child id="2438995374768481624" name="left" index="3of6w6" />
+      </concept>
+      <concept id="2438995374765939703" name="org.campagnelab.Swift.structure.BooleanLiteral" flags="ng" index="3opTqD">
+        <property id="2438995374765939704" name="value" index="3opTqA" />
+      </concept>
+      <concept id="2438995374754500711" name="org.campagnelab.Swift.structure.SwiftBlockStatement" flags="ng" index="3oMhOT" />
+      <concept id="1428779954555466908" name="org.campagnelab.Swift.structure.IfStatement" flags="ng" index="1AFzXg">
+        <child id="1428779954556078466" name="elseTrue" index="1AlS9e" />
+        <child id="1428779954556078461" name="condition" index="1AlSaL" />
+        <child id="1428779954556078463" name="ifTrue" index="1AlSaN" />
+      </concept>
+    </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+        <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+  </registry>
+  <node concept="2XOHcx" id="3aKbvBb8exo" />
+  <node concept="1lH9Xt" id="3aKbvBb2UnP">
+    <property role="TrG5h" value="BooleanConditions" />
+    <node concept="1qefOq" id="3aKbvBb2UKp" role="1SKRRt">
+      <node concept="1AFzXg" id="3aKbvBb2UQh" role="1qenE9">
+        <node concept="3oMhOT" id="3aKbvBb2UQi" role="1AlSaN" />
+        <node concept="3opTqD" id="3aKbvBb2UQz" role="1AlSaL">
+          <property role="3opTqA" value="true" />
+          <node concept="1TgD8" id="3aKbvBb4jFM" role="lGtFl">
+            <node concept="30Omv" id="3aKbvBb4jG2" role="1UGy4">
+              <node concept="10P_77" id="3aKbvBb4jGn" role="31d$z" />
             </node>
           </node>
         </node>
-        <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tp5g.TestNodeAnnotation" typeId="tp5g.1210673684636" id="3652469848674124432" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="simpleBoolean" />
-          <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tp5g.NodeOperationsContainer" typeId="tp5g.1215603922101" id="1123051558437799849" nodeInfo="ng">
-            <node role="nodeOperations" type="tp5g.CheckNodeForErrorMessagesOperation" typeId="tp5g.1215607067978" id="1123051558437799853" nodeInfo="ng" />
+        <node concept="3xLA65" id="3aKbvBb2Wag" role="lGtFl">
+          <property role="TrG5h" value="simpleBoolean" />
+          <node concept="7CXmI" id="YlSn4P8$uD" role="lGtFl">
+            <node concept="7OXhh" id="YlSn4P8$uH" role="7EUXB" />
           </node>
         </node>
       </node>
     </node>
-    <node role="nodesToCheck" roleId="tp5g.1217501822150" type="tp5g.TestNode" typeId="tp5g.1216989428737" id="3652469848674484435" nodeInfo="ng">
-      <node role="nodeToCheck" roleId="tp5g.1216989461394" type="m0w8.IfStatement" typeId="m0w8.1428779954555466908" id="3652469848674484445" nodeInfo="ng">
-        <node role="ifTrue" roleId="m0w8.1428779954556078463" type="m0w8.SwiftBlockStatement" typeId="m0w8.2438995374754500711" id="3652469848674484446" nodeInfo="ng" />
-        <node role="condition" roleId="m0w8.1428779954556078461" type="m0w8.AndOperator" typeId="m0w8.2438995374768481699" id="3652469848674484492" nodeInfo="ng">
-          <node role="right" roleId="m0w8.2438995374768481626" type="m0w8.StringLiteral" typeId="m0w8.390277923585493114" id="3652469848674484535" nodeInfo="ng">
-            <property name="literal" nameId="m0w8.390277923585493115" value="a" />
-            <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tp5g.NodePropertiesContainer" typeId="tp5g.1215507532627" id="3652469848674486046" nodeInfo="ng">
-              <node role="nodeCheckOperations" type="tp5g.NodeErrorCheckOperation" typeId="tp5g.1215507671101" id="3652469848674486047" nodeInfo="ng" />
+    <node concept="1qefOq" id="3aKbvBb4k3j" role="1SKRRt">
+      <node concept="1AFzXg" id="3aKbvBb4k3t" role="1qenE9">
+        <node concept="3oMhOT" id="3aKbvBb4k3u" role="1AlSaN" />
+        <node concept="3of6zX" id="3aKbvBb4k4c" role="1AlSaL">
+          <node concept="z_Kfe" id="3aKbvBb4k4R" role="3of6w4">
+            <property role="z_Kff" value="a" />
+            <node concept="1TgD8" id="3aKbvBb4ksu" role="lGtFl">
+              <node concept="1TM$A" id="3aKbvBb4ksv" role="1UGy4" />
             </node>
           </node>
-          <node role="left" roleId="m0w8.2438995374768481624" type="m0w8.BooleanLiteral" typeId="m0w8.2438995374765939703" id="3652469848674484463" nodeInfo="ng">
-            <property name="value" nameId="m0w8.2438995374765939704" value="true" />
+          <node concept="3opTqD" id="3aKbvBb4k3J" role="3of6w6">
+            <property role="3opTqA" value="true" />
           </node>
         </node>
-        <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tp5g.TestNodeAnnotation" typeId="tp5g.1210673684636" id="3652469848674486636" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="string_not_boolean" />
-          <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tp5g.NodeOperationsContainer" typeId="tp5g.1215603922101" id="1123051558437803649" nodeInfo="ng">
-            <node role="nodeOperations" type="tp5g.CheckNodeForErrorMessagesOperation" typeId="tp5g.1215607067978" id="1123051558437804021" nodeInfo="ng" />
+        <node concept="3xLA65" id="3aKbvBb4k_G" role="lGtFl">
+          <property role="TrG5h" value="string_not_boolean" />
+          <node concept="7CXmI" id="YlSn4P8_q1" role="lGtFl">
+            <node concept="7OXhh" id="YlSn4P8_vP" role="7EUXB" />
           </node>
         </node>
       </node>
     </node>
-    <node role="nodesToCheck" roleId="tp5g.1217501822150" type="tp5g.TestNode" typeId="tp5g.1216989428737" id="1123051558437712341" nodeInfo="ng">
-      <node role="nodeToCheck" roleId="tp5g.1216989461394" type="m0w8.IfStatement" typeId="m0w8.1428779954555466908" id="1123051558437712342" nodeInfo="ng">
-        <node role="ifTrue" roleId="m0w8.1428779954556078463" type="m0w8.SwiftBlockStatement" typeId="m0w8.2438995374754500711" id="1123051558437712343" nodeInfo="ng" />
-        <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tp5g.TestNodeAnnotation" typeId="tp5g.1210673684636" id="1123051558437712349" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="int_not_boolean" />
-          <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tp5g.NodeOperationsContainer" typeId="tp5g.1215603922101" id="1123051558437807821" nodeInfo="ng">
-            <node role="nodeOperations" type="tp5g.CheckNodeForErrorMessagesOperation" typeId="tp5g.1215607067978" id="1123051558437808573" nodeInfo="ng" />
+    <node concept="1qefOq" id="YlSn4P8f7l" role="1SKRRt">
+      <node concept="1AFzXg" id="YlSn4P8f7m" role="1qenE9">
+        <node concept="3oMhOT" id="YlSn4P8f7n" role="1AlSaN" />
+        <node concept="3xLA65" id="YlSn4P8f7t" role="lGtFl">
+          <property role="TrG5h" value="int_not_boolean" />
+          <node concept="7CXmI" id="YlSn4P8Ard" role="lGtFl">
+            <node concept="7OXhh" id="YlSn4P8AAX" role="7EUXB" />
           </node>
         </node>
-        <node role="condition" roleId="m0w8.1428779954556078461" type="m0w8.AndOperator" typeId="m0w8.2438995374768481699" id="1123051558437722465" nodeInfo="ng">
-          <node role="right" roleId="m0w8.2438995374768481626" type="m0w8.IntLiteral" typeId="m0w8.2342373417867395029" id="1123051558437722508" nodeInfo="ng">
-            <property name="value" nameId="m0w8.2342373417867396297" value="1" />
-            <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tp5g.NodePropertiesContainer" typeId="tp5g.1215507532627" id="1123051558437723649" nodeInfo="ng">
-              <node role="nodeCheckOperations" type="tp5g.NodeErrorCheckOperation" typeId="tp5g.1215507671101" id="1123051558437723650" nodeInfo="ng" />
+        <node concept="3of6zX" id="YlSn4P8h_x" role="1AlSaL">
+          <node concept="2JN7vz" id="YlSn4P8hAc" role="3of6w4">
+            <property role="2JN0NZ" value="1" />
+            <node concept="1TgD8" id="YlSn4P8hS1" role="lGtFl">
+              <node concept="1TM$A" id="YlSn4P8hS2" role="1UGy4" />
             </node>
           </node>
-          <node role="left" roleId="m0w8.2438995374768481624" type="m0w8.BooleanLiteral" typeId="m0w8.2438995374765939703" id="1123051558437722451" nodeInfo="ng">
-            <property name="value" nameId="m0w8.2438995374765939704" value="true" />
+          <node concept="3opTqD" id="YlSn4P8h_j" role="3of6w6">
+            <property role="3opTqA" value="true" />
           </node>
         </node>
       </node>
     </node>
-    <node role="nodesToCheck" roleId="tp5g.1217501822150" type="tp5g.TestNode" typeId="tp5g.1216989428737" id="1123051558437632056" nodeInfo="ng">
-      <node role="nodeToCheck" roleId="tp5g.1216989461394" type="m0w8.IfStatement" typeId="m0w8.1428779954555466908" id="1123051558437632450" nodeInfo="ng">
-        <node role="ifTrue" roleId="m0w8.1428779954556078463" type="m0w8.SwiftBlockStatement" typeId="m0w8.2438995374754500711" id="1123051558437632451" nodeInfo="ng" />
-        <node role="condition" roleId="m0w8.1428779954556078461" type="m0w8.PlusOperator" typeId="m0w8.2438995374769012749" id="1123051558437670103" nodeInfo="ng">
-          <node role="right" roleId="m0w8.2438995374768481626" type="m0w8.BooleanLiteral" typeId="m0w8.2438995374765939703" id="1123051558437670462" nodeInfo="ng">
-            <property name="value" nameId="m0w8.2438995374765939704" value="false" />
+    <node concept="1qefOq" id="YlSn4P7VwS" role="1SKRRt">
+      <node concept="1AFzXg" id="YlSn4P7VB2" role="1qenE9">
+        <node concept="3oMhOT" id="YlSn4P7VB3" role="1AlSaN" />
+        <node concept="3od8Pj" id="YlSn4P84Nn" role="1AlSaL">
+          <node concept="3opTqD" id="YlSn4P84SY" role="3of6w4">
+            <property role="3opTqA" value="false" />
           </node>
-          <node role="left" roleId="m0w8.2438995374768481624" type="m0w8.BooleanLiteral" typeId="m0w8.2438995374765939703" id="1123051558437669840" nodeInfo="ng">
-            <property name="value" nameId="m0w8.2438995374765939704" value="true" />
-            <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tp5g.NodePropertiesContainer" typeId="tp5g.1215507532627" id="1123051558437692789" nodeInfo="ng">
-              <node role="nodeCheckOperations" type="tp5g.NodeErrorCheckOperation" typeId="tp5g.1215507671101" id="1123051558437692790" nodeInfo="ng" />
-            </node>
-          </node>
-        </node>
-        <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tp5g.TestNodeAnnotation" typeId="tp5g.1210673684636" id="1123051558437676503" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="boolean_addition_error" />
-          <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tp5g.NodeOperationsContainer" typeId="tp5g.1215603922101" id="1123051558437809323" nodeInfo="ng">
-            <node role="nodeOperations" type="tp5g.CheckNodeForErrorMessagesOperation" typeId="tp5g.1215607067978" id="1123051558437809681" nodeInfo="ng" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </root>
-  <root type="tp5g.NodesTestCase" typeId="tp5g.1216913645126" id="1123051558440643593" nodeInfo="lg">
-    <property name="name" nameId="tpck.1169194664001" value="IfStatements" />
-    <node role="nodesToCheck" roleId="tp5g.1217501822150" type="tp5g.TestNode" typeId="tp5g.1216989428737" id="1123051558440643639" nodeInfo="ng">
-      <node role="nodeToCheck" roleId="tp5g.1216989461394" type="m0w8.IfStatement" typeId="m0w8.1428779954555466908" id="1123051558440643641" nodeInfo="ng">
-        <node role="ifTrue" roleId="m0w8.1428779954556078463" type="m0w8.SwiftBlockStatement" typeId="m0w8.2438995374754500711" id="1123051558440643642" nodeInfo="ng" />
-        <node role="condition" roleId="m0w8.1428779954556078461" type="m0w8.AndOperator" typeId="m0w8.2438995374768481699" id="1123051558440643687" nodeInfo="ng">
-          <node role="left" roleId="m0w8.2438995374768481624" type="m0w8.BooleanLiteral" typeId="m0w8.2438995374765939703" id="1123051558440643659" nodeInfo="ng">
-            <property name="value" nameId="m0w8.2438995374765939704" value="true" />
-          </node>
-          <node role="right" roleId="m0w8.2438995374768481626" type="m0w8.FunctionCall" typeId="m0w8.8379643869540820012" id="1123051558441058905" nodeInfo="ng">
-            <link role="function" roleId="m0w8.4680710036727456834" targetNodeId="lhms.3652469848669224252" resolveInfo="booleanReturnValue" />
-          </node>
-        </node>
-        <node role="elseTrue" roleId="m0w8.1428779954556078466" type="m0w8.SwiftBlockStatement" typeId="m0w8.2438995374754500711" id="1123051558440643673" nodeInfo="ng" />
-        <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tp5g.NodeOperationsContainer" typeId="tp5g.1215603922101" id="1123051558441058947" nodeInfo="ng">
-          <node role="nodeOperations" type="tp5g.CheckNodeForErrorMessagesOperation" typeId="tp5g.1215607067978" id="1123051558441058991" nodeInfo="ng" />
-        </node>
-      </node>
-    </node>
-    <node role="nodesToCheck" roleId="tp5g.1217501822150" type="tp5g.TestNode" typeId="tp5g.1216989428737" id="1123051558441059090" nodeInfo="ng">
-      <node role="nodeToCheck" roleId="tp5g.1216989461394" type="m0w8.IfStatement" typeId="m0w8.1428779954555466908" id="1123051558441059121" nodeInfo="ng">
-        <node role="ifTrue" roleId="m0w8.1428779954556078463" type="m0w8.SwiftBlockStatement" typeId="m0w8.2438995374754500711" id="1123051558441059122" nodeInfo="ng" />
-        <node role="condition" roleId="m0w8.1428779954556078461" type="m0w8.AndOperator" typeId="m0w8.2438995374768481699" id="1123051558441059173" nodeInfo="ng">
-          <node role="left" roleId="m0w8.2438995374768481624" type="m0w8.BooleanLiteral" typeId="m0w8.2438995374765939703" id="1123051558441059139" nodeInfo="ng">
-            <property name="value" nameId="m0w8.2438995374765939704" value="true" />
-          </node>
-          <node role="right" roleId="m0w8.2438995374768481626" type="m0w8.FunctionCall" typeId="m0w8.8379643869540820012" id="1123051558441059318" nodeInfo="ng">
-            <link role="function" roleId="m0w8.4680710036727456834" targetNodeId="lhms.1229447740855567833" resolveInfo="@dummy" />
-            <node role="inputValues" roleId="m0w8.8379643869540820052" type="m0w8.StringLiteral" typeId="m0w8.390277923585493114" id="1123051558441221943" nodeInfo="ng">
-              <property name="literal" nameId="m0w8.390277923585493115" value="a" />
-            </node>
-            <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tp5g.NodePropertiesContainer" typeId="tp5g.1215507532627" id="1123051558441232996" nodeInfo="ng">
-              <node role="nodeCheckOperations" type="tp5g.NodeErrorCheckOperation" typeId="tp5g.1215507671101" id="1123051558441232997" nodeInfo="ng" />
+          <node concept="3opTqD" id="YlSn4P84Jg" role="3of6w6">
+            <property role="3opTqA" value="true" />
+            <node concept="1TgD8" id="YlSn4P8alP" role="lGtFl">
+              <node concept="1TM$A" id="YlSn4P8alQ" role="1UGy4" />
             </node>
           </node>
         </node>
-        <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tp5g.NodeOperationsContainer" typeId="tp5g.1215603922101" id="1123051558441233383" nodeInfo="ng">
-          <node role="nodeOperations" type="tp5g.CheckNodeForErrorMessagesOperation" typeId="tp5g.1215607067978" id="1123051558441233982" nodeInfo="ng" />
+        <node concept="3xLA65" id="YlSn4P86nn" role="lGtFl">
+          <property role="TrG5h" value="boolean_addition_error" />
+          <node concept="7CXmI" id="YlSn4P8AMF" role="lGtFl">
+            <node concept="7OXhh" id="YlSn4P8ASh" role="7EUXB" />
+          </node>
         </node>
       </node>
     </node>
-  </root>
-  <root type="tp5g.NodesTestCase" typeId="tp5g.1216913645126" id="1123051558447564534" nodeInfo="lg">
-    <property name="name" nameId="tpck.1169194664001" value="Numbers" />
-    <node role="nodesToCheck" roleId="tp5g.1217501822150" type="tp5g.TestNode" typeId="tp5g.1216989428737" id="1123051558447564601" nodeInfo="ng">
-      <node role="nodeToCheck" roleId="tp5g.1216989461394" type="m0w8.PlusOperator" typeId="m0w8.2438995374769012749" id="1123051558447564613" nodeInfo="ng">
-        <node role="right" roleId="m0w8.2438995374768481626" type="m0w8.IntLiteral" typeId="m0w8.2342373417867395029" id="1123051558447564640" nodeInfo="ng">
-          <property name="value" nameId="m0w8.2342373417867396297" value="1" />
+  </node>
+  <node concept="1lH9Xt" id="YlSn4PjqK9">
+    <property role="TrG5h" value="IfStatements" />
+    <node concept="1qefOq" id="YlSn4PjqKR" role="1SKRRt">
+      <node concept="1AFzXg" id="YlSn4PjqKT" role="1qenE9">
+        <node concept="3oMhOT" id="YlSn4PjqKU" role="1AlSaN" />
+        <node concept="3of6zX" id="YlSn4PjqLB" role="1AlSaL">
+          <node concept="3opTqD" id="YlSn4PjqLb" role="3of6w6">
+            <property role="3opTqA" value="true" />
+          </node>
+          <node concept="382dQv" id="YlSn4Pl09p" role="3of6w4">
+            <ref role="3riXMS" to="lhms:3aKbvBaKfOW" resolve="booleanReturnValue" />
+          </node>
         </node>
-        <node role="left" roleId="m0w8.2438995374768481624" type="m0w8.IntLiteral" typeId="m0w8.2342373417867395029" id="1123051558447564605" nodeInfo="ng">
-          <property name="value" nameId="m0w8.2342373417867396297" value="1" />
+        <node concept="3oMhOT" id="YlSn4PjqLp" role="1AlS9e" />
+        <node concept="7CXmI" id="YlSn4Pl0a3" role="lGtFl">
+          <node concept="7OXhh" id="YlSn4Pl0aJ" role="7EUXB" />
         </node>
-      </node>
-      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tp5g.NodeOperationsContainer" typeId="tp5g.1215603922101" id="6353359297480609661" nodeInfo="ng">
-        <node role="nodeOperations" type="tp5g.CheckNodeForErrorMessagesOperation" typeId="tp5g.1215607067978" id="6353359297480609665" nodeInfo="ng" />
       </node>
     </node>
-    <node role="nodesToCheck" roleId="tp5g.1217501822150" type="tp5g.TestNode" typeId="tp5g.1216989428737" id="1123051558447564664" nodeInfo="ng">
-      <node role="nodeToCheck" roleId="tp5g.1216989461394" type="m0w8.PlusOperator" typeId="m0w8.2438995374769012749" id="6353359297480440560" nodeInfo="ng">
-        <node role="right" roleId="m0w8.2438995374768481626" type="m0w8.IntLiteral" typeId="m0w8.2342373417867395029" id="6353359297480440603" nodeInfo="ng">
-          <property name="value" nameId="m0w8.2342373417867396297" value="2" />
+    <node concept="1qefOq" id="YlSn4Pl0ci" role="1SKRRt">
+      <node concept="1AFzXg" id="YlSn4Pl0cL" role="1qenE9">
+        <node concept="3oMhOT" id="YlSn4Pl0cM" role="1AlSaN" />
+        <node concept="3of6zX" id="YlSn4Pl0d_" role="1AlSaL">
+          <node concept="3opTqD" id="YlSn4Pl0d3" role="3of6w6">
+            <property role="3opTqA" value="true" />
+          </node>
+          <node concept="382dQv" id="YlSn4Pl0fQ" role="3of6w4">
+            <ref role="3riXMS" to="lhms:14fS3jnA$np" resolve="@dummy" />
+            <node concept="z_Kfe" id="YlSn4PlBWR" role="382dRB">
+              <property role="z_Kff" value="a" />
+            </node>
+            <node concept="1TgD8" id="YlSn4PlED$" role="lGtFl">
+              <node concept="1TM$A" id="YlSn4PlED_" role="1UGy4" />
+            </node>
+          </node>
         </node>
-        <node role="left" roleId="m0w8.2438995374768481624" type="m0w8.FloatLiteral" typeId="m0w8.143816243730718134" id="6353359297480438384" nodeInfo="ng">
-          <property name="value" nameId="m0w8.143816243730718137" value="1.0f" />
+        <node concept="7CXmI" id="YlSn4PlEJB" role="lGtFl">
+          <node concept="7OXhh" id="YlSn4PlESY" role="7EUXB" />
         </node>
-      </node>
-      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tp5g.NodeOperationsContainer" typeId="tp5g.1215603922101" id="6353359297480568805" nodeInfo="ng">
-        <node role="nodeOperations" type="tp5g.CheckNodeForErrorMessagesOperation" typeId="tp5g.1215607067978" id="6353359297480568809" nodeInfo="ng" />
       </node>
     </node>
-    <node role="nodesToCheck" roleId="tp5g.1217501822150" type="tp5g.TestNode" typeId="tp5g.1216989428737" id="1123051558447564807" nodeInfo="ng">
-      <node role="nodeToCheck" roleId="tp5g.1216989461394" type="m0w8.PlusOperator" typeId="m0w8.2438995374769012749" id="1123051558447564871" nodeInfo="ng">
-        <node role="right" roleId="m0w8.2438995374768481626" type="m0w8.FloatLiteral" typeId="m0w8.143816243730718134" id="1123051558447564944" nodeInfo="ng">
-          <property name="value" nameId="m0w8.143816243730718137" value="1.0f" />
+  </node>
+  <node concept="1lH9Xt" id="YlSn4PHOrQ">
+    <property role="TrG5h" value="Numbers" />
+    <node concept="1qefOq" id="YlSn4PHOsT" role="1SKRRt">
+      <node concept="3od8Pj" id="YlSn4PHOt5" role="1qenE9">
+        <node concept="2JN7vz" id="YlSn4PHOtw" role="3of6w4">
+          <property role="2JN0NZ" value="1" />
         </node>
-        <node role="left" roleId="m0w8.2438995374768481624" type="m0w8.IntLiteral" typeId="m0w8.2342373417867395029" id="1123051558447564841" nodeInfo="ng">
-          <property name="value" nameId="m0w8.2342373417867396297" value="1" />
-        </node>
-      </node>
-      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tp5g.NodeOperationsContainer" typeId="tp5g.1215603922101" id="6353359297480530175" nodeInfo="ng">
-        <node role="nodeOperations" type="tp5g.CheckNodeForErrorMessagesOperation" typeId="tp5g.1215607067978" id="6353359297480532328" nodeInfo="ng" />
-      </node>
-    </node>
-    <node role="nodesToCheck" roleId="tp5g.1217501822150" type="tp5g.TestNode" typeId="tp5g.1216989428737" id="6353359297480455667" nodeInfo="ng">
-      <node role="nodeToCheck" roleId="tp5g.1216989461394" type="m0w8.PlusOperator" typeId="m0w8.2438995374769012749" id="6353359297480464297" nodeInfo="ng">
-        <node role="right" roleId="m0w8.2438995374768481626" type="m0w8.IntLiteral" typeId="m0w8.2342373417867395029" id="6353359297480464340" nodeInfo="ng">
-          <property name="value" nameId="m0w8.2342373417867396297" value="1" />
-        </node>
-        <node role="left" roleId="m0w8.2438995374768481624" type="m0w8.BooleanLiteral" typeId="m0w8.2438995374765939703" id="6353359297480457832" nodeInfo="ng">
-          <property name="value" nameId="m0w8.2438995374765939704" value="true" />
-        </node>
-        <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tp5g.NodePropertiesContainer" typeId="tp5g.1215507532627" id="6353359297480493254" nodeInfo="ng">
-          <node role="nodeCheckOperations" type="tp5g.NodeErrorCheckOperation" typeId="tp5g.1215507671101" id="6353359297480493255" nodeInfo="ng" />
+        <node concept="2JN7vz" id="YlSn4PHOsX" role="3of6w6">
+          <property role="2JN0NZ" value="1" />
         </node>
       </node>
-      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tp5g.NodeOperationsContainer" typeId="tp5g.1215603922101" id="6353359297480818513" nodeInfo="ng">
-        <node role="nodeOperations" type="tp5g.CheckNodeForErrorMessagesOperation" typeId="tp5g.1215607067978" id="6353359297480818517" nodeInfo="ng" />
+      <node concept="7CXmI" id="5wFEDUoKsXX" role="lGtFl">
+        <node concept="7OXhh" id="5wFEDUoKsY1" role="7EUXB" />
       </node>
     </node>
-  </root>
+    <node concept="1qefOq" id="YlSn4PHOtS" role="1SKRRt">
+      <node concept="3od8Pj" id="5wFEDUoJNFK" role="1qenE9">
+        <node concept="2JN7vz" id="5wFEDUoJNGr" role="3of6w4">
+          <property role="2JN0NZ" value="2" />
+        </node>
+        <node concept="2pvIQE" id="5wFEDUoJN9K" role="3of6w6">
+          <property role="2pvIQ_" value="1.0f" />
+        </node>
+      </node>
+      <node concept="7CXmI" id="5wFEDUoKiZ_" role="lGtFl">
+        <node concept="7OXhh" id="5wFEDUoKiZD" role="7EUXB" />
+      </node>
+    </node>
+    <node concept="1qefOq" id="YlSn4PHOw7" role="1SKRRt">
+      <node concept="3od8Pj" id="YlSn4PHOx7" role="1qenE9">
+        <node concept="2pvIQE" id="YlSn4PHOyg" role="3of6w4">
+          <property role="2pvIQ_" value="1.0f" />
+        </node>
+        <node concept="2JN7vz" id="YlSn4PHOwD" role="3of6w6">
+          <property role="2JN0NZ" value="1" />
+        </node>
+      </node>
+      <node concept="7CXmI" id="5wFEDUoK9zZ" role="lGtFl">
+        <node concept="7OXhh" id="5wFEDUoKa5C" role="7EUXB" />
+      </node>
+    </node>
+    <node concept="1qefOq" id="5wFEDUoJRnN" role="1SKRRt">
+      <node concept="3od8Pj" id="5wFEDUoJTuD" role="1qenE9">
+        <node concept="2JN7vz" id="5wFEDUoJTvk" role="3of6w4">
+          <property role="2JN0NZ" value="1" />
+        </node>
+        <node concept="3opTqD" id="5wFEDUoJRTC" role="3of6w6">
+          <property role="3opTqA" value="true" />
+        </node>
+        <node concept="1TgD8" id="5wFEDUoK0z6" role="lGtFl">
+          <node concept="1TM$A" id="5wFEDUoK0z7" role="1UGy4" />
+        </node>
+      </node>
+      <node concept="7CXmI" id="5wFEDUoLfXh" role="lGtFl">
+        <node concept="7OXhh" id="5wFEDUoLfXl" role="7EUXB" />
+      </node>
+    </node>
+  </node>
 </model>
 

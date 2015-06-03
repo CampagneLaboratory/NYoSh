@@ -80,8 +80,15 @@
       <property role="TrG5h" value="numberOfCores" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
+    <node concept="1TJgyi" id="7YW1Mp5F5u" role="1TKVEl">
+      <property role="TrG5h" value="numberOfNodes" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
     <node concept="PrWs8" id="2DkpMLSTONk" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="7YW1Mp5EAS" role="PzmwI">
+      <ref role="PrY4T" node="7YW1Mp5Ezl" resolve="ICluster" />
     </node>
   </node>
   <node concept="1TIwiD" id="2DkpMLSTPmB">
@@ -152,6 +159,9 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="$Ux0GypvBU" resolve="ConnectionPort" />
     </node>
+  </node>
+  <node concept="PlHQZ" id="7YW1Mp5Ezl">
+    <property role="TrG5h" value="ICluster" />
   </node>
 </model>
 

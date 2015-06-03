@@ -194,12 +194,13 @@
     <node concept="13hLZK" id="2DkpMLSTONn" role="13h7CW">
       <node concept="3clFbS" id="2DkpMLSTONo" role="2VODD2" />
     </node>
-    <node concept="13i0hz" id="2DkpMLSYwsc" role="13h7CS">
-      <property role="TrG5h" value="numberOfCores" />
-      <property role="13i0it" value="false" />
+    <node concept="13i0hz" id="7YW1Mp5EY7" role="13h7CS">
       <property role="13i0iv" value="false" />
-      <node concept="3Tm1VV" id="2DkpMLSYwsd" role="1B3o_S" />
-      <node concept="3clFbS" id="2DkpMLSYwsg" role="3clF47">
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="numberOfCores" />
+      <ref role="13i0hy" node="7YW1Mp5EI$" resolve="numberOfCores" />
+      <node concept="3Tm1VV" id="7YW1Mp5EY8" role="1B3o_S" />
+      <node concept="3clFbS" id="7YW1Mp5EYb" role="3clF47">
         <node concept="3cpWs6" id="2DkpMLSYy_o" role="3cqZAp">
           <node concept="2OqwBi" id="2DkpMLSYyD0" role="3cqZAk">
             <node concept="13iPFW" id="2DkpMLSYy_F" role="2Oq$k0" />
@@ -209,7 +210,25 @@
           </node>
         </node>
       </node>
-      <node concept="10Oyi0" id="2DkpMLSYwsh" role="3clF45" />
+      <node concept="10Oyi0" id="7YW1Mp5EYc" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="7YW1Mp5F6i" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="numberOfNodes" />
+      <ref role="13i0hy" node="7YW1Mp5F5i" resolve="numberOfNodes" />
+      <node concept="3Tm1VV" id="7YW1Mp5F6j" role="1B3o_S" />
+      <node concept="3clFbS" id="7YW1Mp5F6m" role="3clF47">
+        <node concept="3cpWs6" id="7YW1Mp5F8b" role="3cqZAp">
+          <node concept="2OqwBi" id="7YW1Mp5FaM" role="3cqZAk">
+            <node concept="13iPFW" id="7YW1Mp5F8m" role="2Oq$k0" />
+            <node concept="3TrcHB" id="7YW1Mp5FlI" role="2OqNvi">
+              <ref role="3TsBF5" to="9k5:7YW1Mp5F5u" resolve="numberOfNodes" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="10Oyi0" id="7YW1Mp5F6n" role="3clF45" />
     </node>
   </node>
   <node concept="13h7C7" id="2DkpMLSTQh7">
@@ -936,6 +955,28 @@
     </node>
     <node concept="13hLZK" id="75PBcUf_zpV" role="13h7CW">
       <node concept="3clFbS" id="75PBcUf_zpW" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="7YW1Mp5EAW">
+    <ref role="13h7C2" to="9k5:7YW1Mp5Ezl" resolve="ICluster" />
+    <node concept="13i0hz" id="7YW1Mp5EI$" role="13h7CS">
+      <property role="13i0iv" value="true" />
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="numberOfCores" />
+      <node concept="3Tm1VV" id="7YW1Mp5EI_" role="1B3o_S" />
+      <node concept="3clFbS" id="7YW1Mp5EIA" role="3clF47" />
+      <node concept="10Oyi0" id="7YW1Mp5EXj" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="7YW1Mp5F5i" role="13h7CS">
+      <property role="13i0iv" value="true" />
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="numberOfNodes" />
+      <node concept="3Tm1VV" id="7YW1Mp5F5j" role="1B3o_S" />
+      <node concept="3clFbS" id="7YW1Mp5F5k" role="3clF47" />
+      <node concept="10Oyi0" id="7YW1Mp5F5l" role="3clF45" />
+    </node>
+    <node concept="13hLZK" id="7YW1Mp5EAX" role="13h7CW">
+      <node concept="3clFbS" id="7YW1Mp5EAY" role="2VODD2" />
     </node>
   </node>
 </model>
