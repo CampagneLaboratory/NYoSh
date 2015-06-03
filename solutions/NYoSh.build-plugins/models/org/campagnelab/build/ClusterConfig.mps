@@ -321,6 +321,18 @@
           <property role="3LESm3" value="424c0944-2c4e-4f8b-b132-b35f906151f9" />
           <property role="2GAjPV" value="false" />
         </node>
+        <node concept="1SiIV0" id="dMXEhlZVDe" role="3bR37C">
+          <node concept="3bR9La" id="dMXEhlZVDf" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:1d41uYMTVPu" resolve="jetbrains.mps.lang.scopes" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="dMXEhlZVDg" role="3bR37C">
+          <node concept="3bR9La" id="dMXEhlZVDh" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:1d41uYMTVPB" resolve="jetbrains.mps.lang.scopes.runtime" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="2mFg1uCEYw_" role="2G$12L">
         <property role="BnDLt" value="true" />

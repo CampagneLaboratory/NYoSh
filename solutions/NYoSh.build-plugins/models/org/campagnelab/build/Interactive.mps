@@ -740,7 +740,7 @@
         </node>
         <node concept="1SiIV0" id="2mFg1uCF3Vj" role="3bR37C">
           <node concept="3bR9La" id="2mFg1uCF3Vk" role="1SiIV1">
-            <property role="3bR36h" value="false" />
+            <property role="3bR36h" value="true" />
             <ref role="3bR37D" to="t9i9:2mFg1uCD9q3" resolve="org.campagnelab.nyosh.lib" />
           </node>
         </node>
@@ -752,7 +752,7 @@
         </node>
         <node concept="1SiIV0" id="2mFg1uCF3Vn" role="3bR37C">
           <node concept="3bR9La" id="2mFg1uCF3Vo" role="1SiIV1">
-            <property role="3bR36h" value="false" />
+            <property role="3bR36h" value="true" />
             <ref role="3bR37D" to="h9g5:7ZmC9JYEfXW" resolve="org.campagnelab.logger" />
           </node>
         </node>
