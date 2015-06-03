@@ -9,7 +9,7 @@
     <classNode dependClassName="jetbrains.mps.generator.runtime.TemplateModule" />
     <classNode dependClassName="jetbrains.mps.generator.runtime.TemplateUtil" />
     <classNode dependClassName="jetbrains.mps.smodel.adapter.ids.SLanguageId" />
-    <classNode dependClassName="jetbrains.mps.smodel.runtime.LanguageAspectDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.ILanguageAspect" />
     <classNode extendsClassName="jetbrains.mps.smodel.language.LanguageRuntime" />
   </dependency>
 </dependenciesRoot>

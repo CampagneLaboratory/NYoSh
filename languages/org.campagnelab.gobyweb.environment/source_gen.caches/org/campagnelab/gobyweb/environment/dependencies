@@ -13,7 +13,7 @@
     <classNode dependClassName="jetbrains.mps.openapi.editor.descriptor.EditorAspectDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.adapter.ids.SLanguageId" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor" />
-    <classNode dependClassName="jetbrains.mps.smodel.runtime.LanguageAspectDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.ILanguageAspect" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.StructureAspectDescriptor" />
     <classNode dependClassName="org.campagnelab.gobyweb.environment.actions.ActionAspectDescriptorImpl" />
     <classNode dependClassName="org.campagnelab.gobyweb.environment.behavior.BehaviorAspectDescriptor" />

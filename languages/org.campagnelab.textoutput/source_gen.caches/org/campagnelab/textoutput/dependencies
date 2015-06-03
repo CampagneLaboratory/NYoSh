@@ -13,14 +13,14 @@
     <classNode dependClassName="jetbrains.mps.openapi.editor.descriptor.EditorAspectDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.adapter.ids.SLanguageId" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor" />
-    <classNode dependClassName="jetbrains.mps.smodel.runtime.LanguageAspectDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.ILanguageAspect" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.StructureAspectDescriptor" />
-    <classNode dependClassName="jetbrains.mps.smodel.runtime.TextGenAspectDescriptor" />
-    <classNode dependClassName="jetbrains.mps.smodel.runtime.interpreted.TextGenAspectInterpreted" />
+    <classNode dependClassName="jetbrains.mps.text.rt.TextGenAspectDescriptor" />
     <classNode dependClassName="org.campagnelab.textoutput.actions.ActionAspectDescriptorImpl" />
     <classNode dependClassName="org.campagnelab.textoutput.behavior.BehaviorAspectDescriptor" />
     <classNode dependClassName="org.campagnelab.textoutput.editor.EditorAspectDescriptorImpl" />
     <classNode dependClassName="org.campagnelab.textoutput.structure.StructureAspectDescriptor" />
+    <classNode dependClassName="org.campagnelab.textoutput.textGen.TextGenAspectDescriptor" />
     <classNode dependClassName="org.campagnelab.textoutput.typesystem.TypesystemDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.language.LanguageRuntime" />
   </dependency>

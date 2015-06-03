@@ -8,7 +8,7 @@ import java.util.UUID;
 import java.util.Collection;
 import jetbrains.mps.generator.runtime.TemplateModule;
 import jetbrains.mps.generator.runtime.TemplateUtil;
-import jetbrains.mps.smodel.runtime.LanguageAspectDescriptor;
+import jetbrains.mps.smodel.runtime.ILanguageAspect;
 
 public class Language extends LanguageRuntime {
   public static String MODULE_REF = "0202ed86-955d-4227-9c20-377dd6b1f9ff(org.campagnelab.nyosh.lib)";
@@ -36,7 +36,9 @@ public class Language extends LanguageRuntime {
     return TemplateUtil.<TemplateModule>asCollection(TemplateUtil.createInterpretedGenerator(this, "71502830-66bc-4ce0-bdbf-2d7ea7b83989(org.campagnelab.nyosh.lib#2108047589035521983)"));
   }
   @Override
-  protected <T extends LanguageAspectDescriptor> T createAspectDescriptor(Class<T> descriptorClass) {
-    return super.createAspectDescriptor(descriptorClass);
+  protected <T extends ILanguageAspect> T createAspect(Class<T> aspectClass) {
+
+
+    return super.createAspect(aspectClass);
   }
 }
