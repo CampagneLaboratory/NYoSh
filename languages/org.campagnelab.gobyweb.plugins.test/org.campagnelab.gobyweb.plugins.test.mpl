@@ -103,7 +103,7 @@
     <dependency reexport="false">0b7d8bbd-896e-495e-be60-01a0d738a649(org.campagnelab.gobyweb.plugins)</dependency>
     <dependency reexport="false">82ffebe3-3685-4fd9-b560-0c1d348d295c(org.campagnelab.logger)</dependency>
     <dependency reexport="false">0202ed86-955d-4227-9c20-377dd6b1f9ff(org.campagnelab.nyosh.lib)</dependency>
-    <dependency reexport="false">3b3d39a8-ff6e-47f3-9c9e-1888a27699ed(org.campagnelab.util)</dependency>
+    <dependency reexport="true">3b3d39a8-ff6e-47f3-9c9e-1888a27699ed(org.campagnelab.util)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>760a0a8c-eabb-4521-8bfd-65db761a9ba3(jetbrains.mps.baseLanguage.logging)</usedLanguage>
