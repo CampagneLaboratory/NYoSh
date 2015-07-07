@@ -168,7 +168,7 @@
       <node concept="aVJcg" id="4clqoMCXMIc" role="aVJcv">
         <node concept="NbPM2" id="4clqoMCXMIb" role="aVJcq">
           <node concept="3Mxwew" id="4clqoMCXMIa" role="3MwsjC">
-            <property role="3MwjfP" value="1.0.2" />
+            <property role="3MwjfP" value="1.0.3" />
           </node>
         </node>
       </node>
