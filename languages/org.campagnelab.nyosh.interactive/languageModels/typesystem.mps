@@ -877,17 +877,12 @@
         <node concept="3clFbS" id="5uN7hWajRz0" role="3clFbx">
           <node concept="a7r0C" id="5uN7hWajT9s" role="3cqZAp">
             <node concept="3cpWs3" id="5uN7hWajTl1" role="a7wSD">
-              <node concept="2OqwBi" id="5uN7hWajTV0" role="3uHU7w">
-                <node concept="2OqwBi" id="5uN7hWajTt7" role="2Oq$k0">
-                  <node concept="1YBJjd" id="5uN7hWajTlE" role="2Oq$k0">
-                    <ref role="1YBMHb" node="5uN7hWajRum" resolve="interactivePath" />
-                  </node>
-                  <node concept="2qgKlT" id="5uN7hWajTJf" role="2OqNvi">
-                    <ref role="37wK5l" to="rk0i:7wWmVpyeMei" resolve="getPath" />
-                  </node>
+              <node concept="2OqwBi" id="5uN7hWajTt7" role="3uHU7w">
+                <node concept="1YBJjd" id="5uN7hWajTlE" role="2Oq$k0">
+                  <ref role="1YBMHb" node="5uN7hWajRum" resolve="interactivePath" />
                 </node>
-                <node concept="liA8E" id="5uN7hWajVD7" role="2OqNvi">
-                  <ref role="37wK5l" to="fxg7:~File.getAbsolutePath():java.lang.String" resolve="getAbsolutePath" />
+                <node concept="2qgKlT" id="4TFseGE4MIh" role="2OqNvi">
+                  <ref role="37wK5l" to="rk0i:4TFseGE4Kh1" resolve="getRawPath" />
                 </node>
               </node>
               <node concept="Xl_RD" id="5uN7hWajTaK" role="3uHU7B">
@@ -900,17 +895,20 @@
           </node>
         </node>
         <node concept="3fqX7Q" id="5uN7hWajT3c" role="3clFbw">
-          <node concept="2OqwBi" id="5uN7hWajT3e" role="3fr31v">
-            <node concept="2OqwBi" id="5uN7hWajT3f" role="2Oq$k0">
-              <node concept="2qgKlT" id="5uN7hWajT3g" role="2OqNvi">
-                <ref role="37wK5l" to="rk0i:7wWmVpyeMei" resolve="getPath" />
-              </node>
-              <node concept="1YBJjd" id="5uN7hWajT3h" role="2Oq$k0">
-                <ref role="1YBMHb" node="5uN7hWajRum" resolve="interactivePath" />
-              </node>
+          <node concept="2OqwBi" id="4TFseGE4nAc" role="3fr31v">
+            <node concept="1YBJjd" id="4TFseGE4nrm" role="2Oq$k0">
+              <ref role="1YBMHb" node="5uN7hWajRum" resolve="interactivePath" />
             </node>
-            <node concept="liA8E" id="5uN7hWajT3i" role="2OqNvi">
-              <ref role="37wK5l" to="fxg7:~File.exists():boolean" resolve="exists" />
+            <node concept="2qgKlT" id="4TFseGE4nLY" role="2OqNvi">
+              <ref role="37wK5l" to="rk0i:4TFseGE46i_" resolve="doesPathExist" />
+              <node concept="2OqwBi" id="5uN7hWajT3f" role="37wK5m">
+                <node concept="2qgKlT" id="4TFseGE4M_v" role="2OqNvi">
+                  <ref role="37wK5l" to="rk0i:4TFseGE4Kh1" resolve="getRawPath" />
+                </node>
+                <node concept="1YBJjd" id="5uN7hWajT3h" role="2Oq$k0">
+                  <ref role="1YBMHb" node="5uN7hWajRum" resolve="interactivePath" />
+                </node>
+              </node>
             </node>
           </node>
         </node>
