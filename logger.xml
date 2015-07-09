@@ -5,7 +5,7 @@
   <property name="build.layout" location="${build.dir}/artifacts/org.campagnelab.Logger" />
   <property name="mps_home" location="" />
   <property name="UI.artifacts" location="${basedir}/build/artifacts/org.campagnelab.mps.UI" />
-  <property name="logger.version" value="1.0.2" />
+  <property name="logger.version" value="1.0.3" />
   <property name="build_number" value="0" />
   <property name="artifacts.mpsCore" location="${mps_home}" />
   <property name="artifacts.mps" location="${mps_home}" />
@@ -72,12 +72,13 @@
         <sources jar="org.campagnelab.logger-src.jar" descriptor="org.campagnelab.logger.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip/Logger/languages/org.campagnelab.logger.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip/Logger/languages/org.campagnelab.logger.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.logger" />
       <fileset dir="${basedir}/languages/org.campagnelab.logger" includes="icons/**, resources/**" />
+      <fileset dir="${basedir}/languages/org.campagnelab.logger/source_gen" includes="**/trace.info, **/exports" />
       <fileset dir="${build.tmp}/default/org.campagnelab.logger.jar" />
     </jar>
-    <jar destfile="${build.tmp}/default/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip/Logger/languages/org.campagnelab.logger-generator.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip/Logger/languages/org.campagnelab.logger-generator.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.logger#6793035292239232706" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.logger-generator-template">
@@ -86,12 +87,14 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.logger-languageModels">
       <fileset dir="${basedir}/languages/org.campagnelab.logger/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip/Logger/languages/org.campagnelab.logger-src.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip/Logger/languages/org.campagnelab.logger-src.jar" duplicate="preserve">
       <fileset dir="${basedir}/languages/org.campagnelab.logger/generator/source_gen">
         <exclude name="**/trace.info" />
+        <exclude name="**/exports" />
       </fileset>
       <fileset dir="${basedir}/languages/org.campagnelab.logger/source_gen">
         <exclude name="**/trace.info" />
+        <exclude name="**/exports" />
       </fileset>
       <zipfileset file="${basedir}/languages/org.campagnelab.logger/org.campagnelab.logger.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.logger-generator-template" prefix="module/generator/template" />
