@@ -4642,25 +4642,21 @@
     </node>
   </node>
   <node concept="q33qM" id="4TFseGE44$o">
-    <node concept="q33rG" id="5lAW98Yy5EH" role="q33rI">
+    <node concept="q33rG" id="5lAW98YJoq8" role="q33rI">
       <property role="q33rC" value="" />
       <property role="qn6Yc" value="true" />
     </node>
-    <node concept="q33rG" id="5lAW98YzGrN" role="q33rI">
-      <property role="q33rC" value="Library" />
+    <node concept="q33rG" id="5lAW98YZOcV" role="q33rI">
+      <property role="q33rC" value="Applications" />
       <property role="qn6Yc" value="true" />
     </node>
-    <node concept="q33rG" id="5lAW98YzGsf" role="q33rI">
-      <property role="q33rC" value="Automator" />
+    <node concept="q33rG" id="5lAW98YZOd7" role="q33rI">
+      <property role="q33rC" value="Adobe Acrobat X Pro" />
       <property role="qn6Yc" value="true" />
     </node>
-    <node concept="q33rG" id="5lAW98Y_h5M" role="q33rI">
-      <property role="q33rC" value="r" />
-      <property role="qn6Yc" value="false" />
-    </node>
-    <node concept="q33rG" id="5lAW98YzGt4" role="q33rI">
-      <property role="q33rC" value="aaaaI" />
-      <property role="qn6Yc" value="false" />
+    <node concept="q33rG" id="5lAW98YZOdJ" role="q33rI">
+      <property role="q33rC" value="Acrobat Distiller.app" />
+      <property role="qn6Yc" value="true" />
     </node>
   </node>
 </model>
