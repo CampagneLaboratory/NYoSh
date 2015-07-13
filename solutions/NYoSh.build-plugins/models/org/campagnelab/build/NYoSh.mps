@@ -175,7 +175,7 @@
       <node concept="aVJcg" id="7ZmC9JYEfXt" role="aVJcv">
         <node concept="NbPM2" id="7ZmC9JYEfXu" role="aVJcq">
           <node concept="3Mxwew" id="7ZmC9JYEfXv" role="3MwsjC">
-            <property role="3MwjfP" value="2.0.7" />
+            <property role="3MwjfP" value="2.0.8" />
           </node>
         </node>
       </node>
@@ -1417,6 +1417,18 @@
         <node concept="1SiIV0" id="35G_4JGWrZ4" role="3bR37C">
           <node concept="1Busua" id="35G_4JGWrZ5" role="1SiIV1">
             <ref role="1Busuk" to="ffeo:sx8XDLCp97" resolve="jetbrains.mps.execution.util" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5lAW98Z0kYZ" role="3bR37C">
+          <node concept="3bR9La" id="5lAW98Z0kZ0" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5lAW98Z0kZ1" role="3bR37C">
+          <node concept="3bR9La" id="5lAW98Z0kZ2" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:ymnOULAU0H" resolve="jetbrains.mps.lang.test" />
           </node>
         </node>
       </node>
