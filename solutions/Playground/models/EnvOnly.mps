@@ -111,6 +111,9 @@
         <child id="3173353997360796899" name="loader" index="2jiT16" />
         <child id="9004698741416289947" name="availableVariables" index="2zsnHg" />
       </concept>
+      <concept id="2328891098886457362" name="org.campagnelab.nyosh.environment.structure.VariableReaderGStringComponent" flags="ng" index="2HSUCf">
+        <reference id="2328891098886457363" name="envVariable" index="2HSUCe" />
+      </concept>
       <concept id="5955265417291063247" name="org.campagnelab.nyosh.environment.structure.JVMSource" flags="nr" index="1Iq0mn" />
       <concept id="5955265417291063310" name="org.campagnelab.nyosh.environment.structure.JVMLoader" flags="nr" index="1Iq3Dm" />
       <concept id="5955265417291138207" name="org.campagnelab.nyosh.environment.structure.EnvVariableDeclaration" flags="nr" index="1IqXV7">
@@ -155,6 +158,9 @@
       <concept id="2829258213784965274" name="org.campagnelab.NYoSh.structure.IEntryPointPrototype" flags="ng" index="3tKtJ0">
         <property id="7518874264105615641" name="implementationMethodName" index="uzY_n" />
         <property id="3834344539452020032" name="header" index="Dik5b" />
+      </concept>
+      <concept id="8155370969619067580" name="org.campagnelab.NYoSh.structure.GStringCommand" flags="ng" index="1Awc0c">
+        <child id="8155370969619067612" name="command" index="1Awc1G" />
       </concept>
       <concept id="8594065538792360952" name="org.campagnelab.NYoSh.structure.ErrorHandler" flags="ng" index="1RokFF">
         <child id="8594065538792617639" name="handlerFunction" index="1RrbuO" />
@@ -369,7 +375,15 @@
                     </node>
                   </node>
                 </node>
-                <node concept="3clFbH" id="29ze2Frj$5x" role="3cqZAp" />
+                <node concept="XjSAC" id="irqYu7hss0" role="3cqZAp">
+                  <node concept="1Awc0c" id="irqYu7hss2" role="2xe0mn">
+                    <node concept="2hgLk7" id="irqYu7hss4" role="1Awc1G">
+                      <node concept="2HSUCf" id="irqYu7hswS" role="2hgXj9">
+                        <ref role="2HSUCe" node="29ze2Frj$5q" resolve="JAVA_LIBRARY_PATH" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
               </node>
             </node>
           </node>

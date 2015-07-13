@@ -92,12 +92,13 @@
         <sources jar="org.campagnelab.gobyweb.plugins-src.jar" descriptor="org.campagnelab.gobyweb.plugins.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/org.campagnelab.GobyWeb-_dl__lbrace_gobyweb_version_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb.plugins.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.GobyWeb-_dl__lbrace_gobyweb_version_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb.plugins.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.gobyweb.plugins" />
       <fileset dir="${basedir}/languages/org.campagnelab.gobyweb.plugins" includes="icons/**, resources/**" />
+      <fileset dir="${basedir}/languages/org.campagnelab.gobyweb.plugins/source_gen" includes="**/trace.info, **/exports" />
       <fileset dir="${build.tmp}/default/org.campagnelab.gobyweb.plugins.jar" />
     </jar>
-    <jar destfile="${build.tmp}/default/org.campagnelab.GobyWeb-_dl__lbrace_gobyweb_version_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb.plugins-generator.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.GobyWeb-_dl__lbrace_gobyweb_version_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb.plugins-generator.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.gobyweb.plugins#4277119496927940466" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb.plugins-generator-template">
@@ -106,12 +107,14 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb.plugins-languageModels">
       <fileset dir="${basedir}/languages/org.campagnelab.gobyweb.plugins/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/org.campagnelab.GobyWeb-_dl__lbrace_gobyweb_version_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb.plugins-src.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.GobyWeb-_dl__lbrace_gobyweb_version_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb.plugins-src.jar" duplicate="preserve">
       <fileset dir="${basedir}/languages/org.campagnelab.gobyweb.plugins/generator/source_gen">
         <exclude name="**/trace.info" />
+        <exclude name="**/exports" />
       </fileset>
       <fileset dir="${basedir}/languages/org.campagnelab.gobyweb.plugins/source_gen">
         <exclude name="**/trace.info" />
+        <exclude name="**/exports" />
       </fileset>
       <zipfileset file="${basedir}/languages/org.campagnelab.gobyweb.plugins/org.campagnelab.gobyweb.plugins.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb.plugins-generator-template" prefix="module/generator/template" />
@@ -137,12 +140,13 @@
         <sources jar="org.campagnelab.gobyweb.environment-src.jar" descriptor="org.campagnelab.gobyweb.environment.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/org.campagnelab.GobyWeb-_dl__lbrace_gobyweb_version_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb.environment.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.GobyWeb-_dl__lbrace_gobyweb_version_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb.environment.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.gobyweb.environment" />
       <fileset dir="${basedir}/languages/org.campagnelab.gobyweb.environment" includes="icons/**, resources/**" />
+      <fileset dir="${basedir}/languages/org.campagnelab.gobyweb.environment/source_gen" includes="**/trace.info, **/exports" />
       <fileset dir="${build.tmp}/default/org.campagnelab.gobyweb.environment.jar" />
     </jar>
-    <jar destfile="${build.tmp}/default/org.campagnelab.GobyWeb-_dl__lbrace_gobyweb_version_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb.environment-generator.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.GobyWeb-_dl__lbrace_gobyweb_version_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb.environment-generator.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.gobyweb.environment#731554740237426291" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb.environment-generator-template">
@@ -151,12 +155,14 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb.environment-languageModels">
       <fileset dir="${basedir}/languages/org.campagnelab.gobyweb.environment/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/org.campagnelab.GobyWeb-_dl__lbrace_gobyweb_version_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb.environment-src.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.GobyWeb-_dl__lbrace_gobyweb_version_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb.environment-src.jar" duplicate="preserve">
       <fileset dir="${basedir}/languages/org.campagnelab.gobyweb.environment/generator/source_gen">
         <exclude name="**/trace.info" />
+        <exclude name="**/exports" />
       </fileset>
       <fileset dir="${basedir}/languages/org.campagnelab.gobyweb.environment/source_gen">
         <exclude name="**/trace.info" />
+        <exclude name="**/exports" />
       </fileset>
       <zipfileset file="${basedir}/languages/org.campagnelab.gobyweb.environment/org.campagnelab.gobyweb.environment.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb.environment-generator-template" prefix="module/generator/template" />
@@ -184,12 +190,13 @@
         <sources jar="org.campagnelab.gobyweb-src.jar" descriptor="org.campagnelab.gobyweb.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/org.campagnelab.GobyWeb-_dl__lbrace_gobyweb_version_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.GobyWeb-_dl__lbrace_gobyweb_version_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.gobyweb" />
       <fileset dir="${basedir}/languages/org.campagnelab.gobyweb" includes="icons/**, resources/**" />
+      <fileset dir="${basedir}/languages/org.campagnelab.gobyweb/source_gen" includes="**/trace.info, **/exports" />
       <fileset dir="${build.tmp}/default/org.campagnelab.gobyweb.jar" />
     </jar>
-    <jar destfile="${build.tmp}/default/org.campagnelab.GobyWeb-_dl__lbrace_gobyweb_version_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb-generator.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.GobyWeb-_dl__lbrace_gobyweb_version_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb-generator.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.gobyweb#1090105717920801462" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb-generator">
@@ -198,12 +205,14 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb-languageModels">
       <fileset dir="${basedir}/languages/org.campagnelab.gobyweb/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/org.campagnelab.GobyWeb-_dl__lbrace_gobyweb_version_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb-src.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.GobyWeb-_dl__lbrace_gobyweb_version_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb-src.jar" duplicate="preserve">
       <fileset dir="${basedir}/languages/org.campagnelab.gobyweb/generator/source_gen">
         <exclude name="**/trace.info" />
+        <exclude name="**/exports" />
       </fileset>
       <fileset dir="${basedir}/languages/org.campagnelab.gobyweb/source_gen">
         <exclude name="**/trace.info" />
+        <exclude name="**/exports" />
       </fileset>
       <zipfileset file="${basedir}/languages/org.campagnelab.gobyweb/org.campagnelab.gobyweb.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.gobyweb-generator" prefix="module/generator" />
@@ -220,17 +229,19 @@
         <sources jar="org.campagnelab.gobyweb.charts-src.jar" descriptor="org.campagnelab.gobyweb.charts.msd" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/org.campagnelab.GobyWeb-_dl__lbrace_gobyweb_version_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb.charts.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.GobyWeb-_dl__lbrace_gobyweb_version_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb.charts.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.gobyweb.charts" />
       <fileset dir="${basedir}/solutions/org.campagnelab.gobyweb.charts" includes="icons/**, resources/**" />
+      <fileset dir="${basedir}/solutions/org.campagnelab.gobyweb.charts/source_gen" includes="**/trace.info, **/exports" />
       <fileset dir="${build.tmp}/default/org.campagnelab.gobyweb.charts.jar" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-org.campagnelab.gobyweb.charts-models">
       <fileset dir="${basedir}/solutions/org.campagnelab.gobyweb.charts/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/org.campagnelab.GobyWeb-_dl__lbrace_gobyweb_version_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb.charts-src.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.GobyWeb-_dl__lbrace_gobyweb_version_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb.charts-src.jar" duplicate="preserve">
       <fileset dir="${basedir}/solutions/org.campagnelab.gobyweb.charts/source_gen">
         <exclude name="**/trace.info" />
+        <exclude name="**/exports" />
       </fileset>
       <zipfileset file="${basedir}/solutions/org.campagnelab.gobyweb.charts/org.campagnelab.gobyweb.charts.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-org.campagnelab.gobyweb.charts-models" prefix="module/models" />
@@ -253,17 +264,19 @@
         <sources jar="org.campagnelab.gobyweb.samples-src.jar" descriptor="NYoSh.sandbox.msd" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/org.campagnelab.GobyWeb-_dl__lbrace_gobyweb_version_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb.samples.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.GobyWeb-_dl__lbrace_gobyweb_version_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb.samples.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.gobyweb.samples" />
       <fileset dir="${basedir}/solutions/NYoSh.sandbox" includes="icons/**, resources/**" />
+      <fileset dir="${basedir}/solutions/NYoSh.sandbox/source_gen" includes="**/trace.info, **/exports" />
       <fileset dir="${build.tmp}/default/org.campagnelab.gobyweb.samples.jar" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-NYoSh.sandbox-models">
       <fileset dir="${basedir}/solutions/NYoSh.sandbox/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/org.campagnelab.GobyWeb-_dl__lbrace_gobyweb_version_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb.samples-src.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.GobyWeb-_dl__lbrace_gobyweb_version_rbrace_.zip/GobyWeb/languages/GobyWeb/org.campagnelab.gobyweb.samples-src.jar" duplicate="preserve">
       <fileset dir="${basedir}/solutions/NYoSh.sandbox/source_gen">
         <exclude name="**/trace.info" />
+        <exclude name="**/exports" />
       </fileset>
       <zipfileset file="${basedir}/solutions/NYoSh.sandbox/NYoSh.sandbox.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-NYoSh.sandbox-models" prefix="module/models" />
@@ -277,16 +290,16 @@
   <target name="buildDependents" />
   
   <target name="fetchDependencies">
-    <mkdir dir="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip" />
-    <unzip src="${artifacts.XChart}/XChart_${XChart.XChart_version}.zip" dest="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip" />
-    <mkdir dir="${build.tmp}/deps/org.campagnelab.Logger/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip" />
-    <unzip src="${artifacts.org.campagnelab.Logger}/org.campagnelab.logger-${org.campagnelab.Logger.logger.version}.zip" dest="${build.tmp}/deps/org.campagnelab.Logger/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip" />
-    <mkdir dir="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip" />
-    <unzip src="${artifacts.org.campagnelab.NYoSh}/org.campagnelab.NYoSh-${org.campagnelab.NYoSh.nyosh_version}.zip" dest="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip" />
-    <mkdir dir="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip" />
-    <unzip src="${artifacts.org.campagnelab.mps.UI}/org.campagnelab.UI-${org.campagnelab.mps.UI.ui_version}.zip" dest="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip" />
     <mkdir dir="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip" />
     <unzip src="${artifacts.org.campagnelab.TextOutput}/org.campagnelab.TextOutput-${org.campagnelab.TextOutput.textoutput_version}.zip" dest="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip" />
+    <mkdir dir="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip" />
+    <unzip src="${artifacts.org.campagnelab.mps.UI}/org.campagnelab.UI-${org.campagnelab.mps.UI.ui_version}.zip" dest="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip" />
+    <mkdir dir="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip" />
+    <unzip src="${artifacts.org.campagnelab.NYoSh}/org.campagnelab.NYoSh-${org.campagnelab.NYoSh.nyosh_version}.zip" dest="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip" />
+    <mkdir dir="${build.tmp}/deps/org.campagnelab.Logger/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip" />
+    <unzip src="${artifacts.org.campagnelab.Logger}/org.campagnelab.logger-${org.campagnelab.Logger.logger.version}.zip" dest="${build.tmp}/deps/org.campagnelab.Logger/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip" />
+    <mkdir dir="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip" />
+    <unzip src="${artifacts.XChart}/XChart_${XChart.XChart_version}.zip" dest="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip" />
   </target>
   
   <target name="build" depends="assemble" />

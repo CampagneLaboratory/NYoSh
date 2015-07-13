@@ -66,12 +66,13 @@
         <sources jar="org.campagnelab.textoutput-src.jar" descriptor="org.campagnelab.textoutput.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip/TextOutput/languages/TextOutput/org.campagnelab.textoutput.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip/TextOutput/languages/TextOutput/org.campagnelab.textoutput.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.textoutput" />
       <fileset dir="${basedir}/languages/org.campagnelab.textoutput" includes="icons/**, resources/**" />
+      <fileset dir="${basedir}/languages/org.campagnelab.textoutput/source_gen" includes="**/trace.info, **/exports" />
       <fileset dir="${build.tmp}/default/org.campagnelab.textoutput.jar" />
     </jar>
-    <jar destfile="${build.tmp}/default/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip/TextOutput/languages/TextOutput/org.campagnelab.textoutput-generator.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip/TextOutput/languages/TextOutput/org.campagnelab.textoutput-generator.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.textoutput#6874736155931251038" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.textoutput-generator-template">
@@ -80,12 +81,14 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.textoutput-languageModels">
       <fileset dir="${basedir}/languages/org.campagnelab.textoutput/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip/TextOutput/languages/TextOutput/org.campagnelab.textoutput-src.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip/TextOutput/languages/TextOutput/org.campagnelab.textoutput-src.jar" duplicate="preserve">
       <fileset dir="${basedir}/languages/org.campagnelab.textoutput/generator/source_gen">
         <exclude name="**/trace.info" />
+        <exclude name="**/exports" />
       </fileset>
       <fileset dir="${basedir}/languages/org.campagnelab.textoutput/source_gen">
         <exclude name="**/trace.info" />
+        <exclude name="**/exports" />
       </fileset>
       <zipfileset file="${basedir}/languages/org.campagnelab.textoutput/org.campagnelab.textoutput.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.textoutput-generator-template" prefix="module/generator/template" />

@@ -240,10 +240,6 @@
       <property role="TrG5h" value="isDirectory" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
-    <node concept="1TJgyi" id="7wWmVpyrnVq" role="1TKVEl">
-      <property role="TrG5h" value="isRoot" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
   </node>
   <node concept="1TIwiD" id="Pjm9VAZV1l">
     <property role="3GE5qa" value="values" />

@@ -65,12 +65,13 @@
         <sources jar="org.campagnelab.ui-src.jar" descriptor="org.campagnelab.ui.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.ui" />
       <fileset dir="${basedir}/languages/org.campagnelab.ui" includes="icons/**, resources/**" />
+      <fileset dir="${basedir}/languages/org.campagnelab.ui/source_gen" includes="**/trace.info, **/exports" />
       <fileset dir="${build.tmp}/default/org.campagnelab.ui.jar" />
     </jar>
-    <jar destfile="${build.tmp}/default/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui-generator.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui-generator.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.ui#2954990197977593747" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.ui-generator-template">
@@ -79,12 +80,14 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.ui-languageModels">
       <fileset dir="${basedir}/languages/org.campagnelab.ui/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui-src.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui-src.jar" duplicate="preserve">
       <fileset dir="${basedir}/languages/org.campagnelab.ui/generator/source_gen">
         <exclude name="**/trace.info" />
+        <exclude name="**/exports" />
       </fileset>
       <fileset dir="${basedir}/languages/org.campagnelab.ui/source_gen">
         <exclude name="**/trace.info" />
+        <exclude name="**/exports" />
       </fileset>
       <zipfileset file="${basedir}/languages/org.campagnelab.ui/org.campagnelab.ui.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.ui-generator-template" prefix="module/generator/template" />
@@ -106,17 +109,19 @@
         <sources jar="org.campagnelab.ui.code-src.jar" descriptor="org.campagnelab.ui.code.msd" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.ui.code" />
       <fileset dir="${basedir}/solutions/org.campagnelab.ui.code" includes="icons/**, resources/**" />
+      <fileset dir="${basedir}/solutions/org.campagnelab.ui.code/source_gen" includes="**/trace.info, **/exports" />
       <fileset dir="${build.tmp}/default/org.campagnelab.ui.code.jar" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-org.campagnelab.ui.code-models">
       <fileset dir="${basedir}/solutions/org.campagnelab.ui.code/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.code-src.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.code-src.jar" duplicate="preserve">
       <fileset dir="${basedir}/solutions/org.campagnelab.ui.code/source_gen">
         <exclude name="**/trace.info" />
+        <exclude name="**/exports" />
       </fileset>
       <zipfileset file="${basedir}/solutions/org.campagnelab.ui.code/org.campagnelab.ui.code.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-org.campagnelab.ui.code-models" prefix="module/models" />

@@ -66,12 +66,13 @@
         <sources jar="org.campagnelab.clusterConfig-src.jar" descriptor="org.campagnelab.clusterConfig.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/org.campagnelab.ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.clusterConfig.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.clusterConfig.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.clusterConfig" />
       <fileset dir="${basedir}/languages/org.campagnelab.clusterConfig" includes="icons/**, resources/**" />
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.clusterConfig/source_gen" includes="**/trace.info, **/exports" />
       <fileset dir="${build.tmp}/default/org.campagnelab.clusterConfig.jar" />
     </jar>
-    <jar destfile="${build.tmp}/default/org.campagnelab.ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.clusterConfig-generator.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.clusterConfig-generator.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.clusterConfig#3050176288337496437" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.clusterConfig-generator">
@@ -80,12 +81,14 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.clusterConfig-languageModels">
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.clusterConfig/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/org.campagnelab.ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.clusterConfig-src.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.clusterConfig-src.jar" duplicate="preserve">
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.clusterConfig/generator/source_gen">
         <exclude name="**/trace.info" />
+        <exclude name="**/exports" />
       </fileset>
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.clusterConfig/source_gen">
         <exclude name="**/trace.info" />
+        <exclude name="**/exports" />
       </fileset>
       <zipfileset file="${basedir}/languages/org.campagnelab.clusterConfig/org.campagnelab.clusterConfig.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.clusterConfig-generator" prefix="module/generator" />
@@ -112,12 +115,13 @@
         <sources jar="org.campagnelab.ssh-src.jar" descriptor="org.campagnelab.ssh.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/org.campagnelab.ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.ssh.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.ssh.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.ssh" />
       <fileset dir="${basedir}/languages/org.campagnelab.ssh" includes="icons/**, resources/**" />
+      <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.ssh/source_gen" includes="**/trace.info, **/exports" />
       <fileset dir="${build.tmp}/default/org.campagnelab.ssh.jar" />
     </jar>
-    <jar destfile="${build.tmp}/default/org.campagnelab.ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.ssh-generator.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.ssh-generator.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.ssh#2967045841109792428" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.ssh-generator-template">
@@ -126,12 +130,14 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.ssh-languageModels">
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.ssh/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/org.campagnelab.ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.ssh-src.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.ClusterConfig-_dl__lbrace_clusterConfig_version_rbrace_.zip/ClusterConfig/languages/ClusterConfig/org.campagnelab.ssh-src.jar" duplicate="preserve">
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.ssh/generator/source_gen">
         <exclude name="**/trace.info" />
+        <exclude name="**/exports" />
       </fileset>
       <fileset dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.ssh/source_gen">
         <exclude name="**/trace.info" />
+        <exclude name="**/exports" />
       </fileset>
       <zipfileset file="${basedir}/languages/org.campagnelab.ssh/org.campagnelab.ssh.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.ssh-generator-template" prefix="module/generator/template" />

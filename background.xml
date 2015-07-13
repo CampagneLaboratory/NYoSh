@@ -67,12 +67,13 @@
         <sources jar="org.campagnelab.background-src.jar" descriptor="org.campagnelab.background.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/org.campagnelab.background-_dl__lbrace_background_version_rbrace_.zip/Background/languages/org.campagnelab.background.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.background-_dl__lbrace_background_version_rbrace_.zip/Background/languages/org.campagnelab.background.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.background" />
       <fileset dir="${basedir}/languages/org.campagnelab.background" includes="icons/**, resources/**" />
+      <fileset dir="${basedir}/languages/org.campagnelab.background/source_gen" includes="**/trace.info, **/exports" />
       <fileset dir="${build.tmp}/default/org.campagnelab.background.jar" />
     </jar>
-    <jar destfile="${build.tmp}/default/org.campagnelab.background-_dl__lbrace_background_version_rbrace_.zip/Background/languages/org.campagnelab.background-generator.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.background-_dl__lbrace_background_version_rbrace_.zip/Background/languages/org.campagnelab.background-generator.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.background#2434551981678683241" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.background-generator-template">
@@ -81,12 +82,14 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.background-languageModels">
       <fileset dir="${basedir}/languages/org.campagnelab.background/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/org.campagnelab.background-_dl__lbrace_background_version_rbrace_.zip/Background/languages/org.campagnelab.background-src.jar">
+    <jar destfile="${build.tmp}/default/org.campagnelab.background-_dl__lbrace_background_version_rbrace_.zip/Background/languages/org.campagnelab.background-src.jar" duplicate="preserve">
       <fileset dir="${basedir}/languages/org.campagnelab.background/generator/source_gen">
         <exclude name="**/trace.info" />
+        <exclude name="**/exports" />
       </fileset>
       <fileset dir="${basedir}/languages/org.campagnelab.background/source_gen">
         <exclude name="**/trace.info" />
+        <exclude name="**/exports" />
       </fileset>
       <zipfileset file="${basedir}/languages/org.campagnelab.background/org.campagnelab.background.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.background-generator-template" prefix="module/generator/template" />
