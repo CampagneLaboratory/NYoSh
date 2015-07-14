@@ -4658,6 +4658,21 @@
       <property role="q33rC" value="Acrobat Distiller.app" />
       <property role="qn6Yc" value="true" />
     </node>
+    <node concept="q33rG" id="7aSP7xMxwyv" role="q33rI">
+      <property role="q33rC" value="Contents" />
+      <property role="qn6Yc" value="true" />
+    </node>
+    <node concept="q33rG" id="7aSP7xMxwz1" role="q33rI">
+      <property role="q33rC" value="Frameworks" />
+      <property role="qn6Yc" value="true" />
+    </node>
+    <node concept="q33rG" id="7aSP7xMxwzg" role="q33rI">
+      <property role="q33rC" value="AcroAMT.framework" />
+      <property role="qn6Yc" value="true" />
+    </node>
+    <node concept="q33rG" id="7aSP7xMxw$z" role="q33rI">
+      <property role="q33rC" value="" />
+    </node>
   </node>
 </model>
 
