@@ -5,7 +5,7 @@
   <property name="build.layout" location="${build.dir}/artifacts/org.campagnelab.NYoSh" />
   <property name="mps_home" location="" />
   <property name="org.campagnelab.goby.workbench.home" location="" />
-  <property name="nyosh_version" value="2.0.8" />
+  <property name="nyosh_version" value="2.0.9" />
   <property name="build_number" value="0" />
   <property name="artifacts.mps" location="${mps_home}" />
   <property name="artifacts.org.campagnelab.mps.UI" location="${basedir}/build/artifacts/org.campagnelab.mps.UI" />
@@ -55,6 +55,38 @@
     </echoxml>
     <mkdir dir="${build.tmp}/default/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/languages" />
     <mkdir dir="${build.tmp}/default/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/languages/NYoSh" />
+    <mkdir dir="${build.tmp}/default/org.campagnelab.util.jar" />
+    <mkdir dir="${build.tmp}/default/org.campagnelab.util.jar/META-INF" />
+    <echoxml file="${build.tmp}/default/org.campagnelab.util.jar/META-INF/module.xml">
+      <module namespace="org.campagnelab.util" type="solution" uuid="3b3d39a8-ff6e-47f3-9c9e-1888a27699ed">
+        <dependencies>
+          <module ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" />
+          <module ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" />
+          <module ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" />
+          <module ref="4c6a28d1-2c60-478d-b36e-db9b3cbb21fb(closures.runtime)" />
+          <module ref="9b80526e-f0bf-4992-bdf5-cee39c1833f3(collections.runtime)" />
+          <module ref="9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)" />
+        </dependencies>
+        <sources jar="org.campagnelab.util-src.jar" descriptor="org.campagnelab.util.msd" />
+      </module>
+    </echoxml>
+    <jar destfile="${build.tmp}/default/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.util.jar" duplicate="preserve">
+      <fileset dir="${build.tmp}/java/out/org.campagnelab.util" />
+      <fileset dir="${basedir}/solutions/org.campagnelab.util" includes="icons/**, resources/**" />
+      <fileset dir="${basedir}/solutions/org.campagnelab.util/source_gen" includes="**/trace.info, **/exports" />
+      <fileset dir="${build.tmp}/default/org.campagnelab.util.jar" />
+    </jar>
+    <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-org.campagnelab.util-models">
+      <fileset dir="${basedir}/solutions/org.campagnelab.util/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
+    </copyModels>
+    <jar destfile="${build.tmp}/default/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.util-src.jar" duplicate="preserve">
+      <fileset dir="${basedir}/solutions/org.campagnelab.util/source_gen">
+        <exclude name="**/trace.info" />
+        <exclude name="**/exports" />
+      </fileset>
+      <zipfileset file="${basedir}/solutions/org.campagnelab.util/org.campagnelab.util.msd" prefix="module" />
+      <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-org.campagnelab.util-models" prefix="module/models" />
+    </jar>
     <mkdir dir="${build.tmp}/default/org.campagnelab.nyosh.environment.jar" />
     <mkdir dir="${build.tmp}/default/org.campagnelab.nyosh.environment.jar/META-INF" />
     <echoxml file="${build.tmp}/default/org.campagnelab.nyosh.environment.jar/META-INF/module.xml">
@@ -270,6 +302,7 @@
           <module ref="2af156ab-65c1-4a62-bd0d-ea734f71eab6(jetbrains.mps.dataFlow.runtime)" />
           <module ref="d7eb0a2a-bd50-4576-beae-e4a89db35f20(jetbrains.mps.lang.scopes.runtime)" />
           <module ref="9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)" />
+          <module ref="3b3d39a8-ff6e-47f3-9c9e-1888a27699ed(org.campagnelab.util)" />
         </dependencies>
         <sources jar="org.campagnelab.NYoSh.samples-src.jar" descriptor="org.campagnelab.NYoSh.samples.msd" />
       </module>
@@ -374,6 +407,7 @@
           <module ref="2af156ab-65c1-4a62-bd0d-ea734f71eab6(jetbrains.mps.dataFlow.runtime)" />
           <module ref="8fe4c62a-2020-4ff4-8eda-f322a55bdc9f(jetbrains.mps.refactoring.runtime)" />
           <module ref="9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)" />
+          <module ref="3b3d39a8-ff6e-47f3-9c9e-1888a27699ed(org.campagnelab.util)" />
         </dependencies>
         <sources jar="org.campagnelab.nyosh.pathpatterns-src.jar" descriptor="org.campagnelab.nyosh.pathpatterns.mpl" />
       </module>
@@ -535,10 +569,10 @@
   <target name="buildDependents" />
   
   <target name="fetchDependencies">
-    <mkdir dir="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip" />
-    <unzip src="${artifacts.org.campagnelab.mps.UI}/org.campagnelab.UI-${org.campagnelab.mps.UI.ui_version}.zip" dest="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip" />
     <mkdir dir="${build.tmp}/deps/org.campagnelab.Logger/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip" />
     <unzip src="${artifacts.org.campagnelab.Logger}/org.campagnelab.logger-${org.campagnelab.Logger.logger.version}.zip" dest="${build.tmp}/deps/org.campagnelab.Logger/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip" />
+    <mkdir dir="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip" />
+    <unzip src="${artifacts.org.campagnelab.mps.UI}/org.campagnelab.UI-${org.campagnelab.mps.UI.ui_version}.zip" dest="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip" />
   </target>
   
   <target name="build" depends="assemble" />
@@ -548,7 +582,7 @@
     <delete dir="${build.layout}" />
   </target>
   
-  <target name="compileJava" depends="java.compile.org.campagnelab.nyosh.environment, java.compile.org.campagnelab.nyosh.environment#3173353997360794809, java.compile.java.modules.cycle.1, java.compile.org.campagnelab.nyosh.functions, java.compile.org.campagnelab.nyosh.functions#7596805840595249578, java.compile.org.campagnelab.NYoSh, java.compile.org.campagnelab.NYoSh#8197864363320338521, java.compile.org.campagnelab.nyosh.gstring, java.compile.org.campagnelab.nyosh.gstring#2328891098885696397, java.compile.org.campagnelab.NYoSh.samples, java.compile.org.campagnelab.nyosh.lib, java.compile.org.campagnelab.nyosh.lib#2108047589035521983, java.compile.org.campagnelab.nyosh.pathpatterns, java.compile.org.campagnelab.nyosh.pathpatterns#1081263916558044417, java.compile.org.campagnelab.gobyweb.tags, java.compile.org.campagnelab.gobyweb.tags#8273662917780736917, java.compile.org.campagnelab.nyosh.interactive, java.compile.org.campagnelab.nyosh.interactive#6464425322393235212" />
+  <target name="compileJava" depends="java.compile.org.campagnelab.util, java.compile.org.campagnelab.nyosh.environment, java.compile.org.campagnelab.nyosh.environment#3173353997360794809, java.compile.java.modules.cycle.1, java.compile.org.campagnelab.nyosh.functions, java.compile.org.campagnelab.nyosh.functions#7596805840595249578, java.compile.org.campagnelab.NYoSh, java.compile.org.campagnelab.NYoSh#8197864363320338521, java.compile.org.campagnelab.nyosh.gstring, java.compile.org.campagnelab.nyosh.gstring#2328891098885696397, java.compile.org.campagnelab.NYoSh.samples, java.compile.org.campagnelab.nyosh.lib, java.compile.org.campagnelab.nyosh.lib#2108047589035521983, java.compile.org.campagnelab.nyosh.pathpatterns, java.compile.org.campagnelab.nyosh.pathpatterns#1081263916558044417, java.compile.org.campagnelab.gobyweb.tags, java.compile.org.campagnelab.gobyweb.tags#8273662917780736917, java.compile.org.campagnelab.nyosh.interactive, java.compile.org.campagnelab.nyosh.interactive#6464425322393235212" />
   
   <target name="processResources" />
   
@@ -642,6 +676,7 @@
         <module file="${basedir}/languages/org.campagnelab.gobyweb.tags/org.campagnelab.gobyweb.tags.mpl" />
         <module file="${basedir}/languages/org.campagnelab.nyosh.gstring/org.campagnelab.nyosh.gstring.mpl" />
         <module file="${basedir}/languages/org.campagnelab.nyosh.lib/org.campagnelab.nyosh.lib.mpl" />
+        <module file="${basedir}/solutions/org.campagnelab.util/org.campagnelab.util.msd" />
       </chunk>
       <chunk bootstrap="true">
         <module file="${basedir}/languages/NYoSh/org.campagnelab.NYoSh.mpl" bootstrap="true" />
@@ -667,6 +702,62 @@
   </target>
   
   <target name="makeDependents" />
+  
+  <target name="java.compile.org.campagnelab.util" depends="java.compile.org.campagnelab.nyosh.lib, fetchDependencies">
+    <mkdir dir="${basedir}/solutions/org.campagnelab.util/source_gen" />
+    <mkdir dir="${build.tmp}/java/out/org.campagnelab.util" />
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.util" fork="true" includeantruntime="false" source="1.6" target="1.6">
+      <compilerarg value="-Xlint:none" />
+      <src>
+        <path location="${basedir}/solutions/org.campagnelab.util/source_gen" />
+      </src>
+      <classpath>
+        <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-core.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.lib" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/wildcard-1.03.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/commons-io-2.4.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/groovy-all-1.8.6.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/fastutil-6.4.4.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/option-validation-language-2.1.0.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/scala-library-2.9.2.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/dsiutils-2.0.7.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.3.0.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/filesets-1.3.0-SNAPSHOT.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.5.0-SNAPSHOT.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/activemq-client-5.9.1.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/geronimo-jms_1.1_spec-1.1.1.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/mercury-api-1.0-SNAPSHOT.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/hawtbuf-1.9.jar" />
+        <fileset file="${org.campagnelab.goby.workbench.home}/lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${artifacts.mps}/lib/annotations.jar" />
+        <fileset file="${artifacts.mps}/lib/jdom.jar" />
+        <fileset file="${artifacts.mps}/lib/log4j.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
+        <fileset file="${artifacts.mps}/lib/trove4j.jar" />
+        <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
+        <fileset file="${artifacts.mps}/lib/asm-all.jar" />
+        <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
+        <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
+      </classpath>
+    </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.util">
+      <fileset dir="${basedir}/solutions/org.campagnelab.util/source_gen" excludes="**/*.java" />
+    </copy>
+  </target>
   
   <target name="java.compile.org.campagnelab.nyosh.environment" depends="java.compile.org.campagnelab.nyosh.gstring, java.compile.org.campagnelab.nyosh.lib, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.nyosh.environment/source_gen" />
@@ -734,7 +825,7 @@
     </copy>
   </target>
   
-  <target name="java.compile.org.campagnelab.nyosh.environment#3173353997360794809" depends="java.compile.org.campagnelab.nyosh.environment, java.compile.org.campagnelab.nyosh.gstring, java.compile.org.campagnelab.nyosh.lib, fetchDependencies">
+  <target name="java.compile.org.campagnelab.nyosh.environment#3173353997360794809" depends="java.compile.org.campagnelab.nyosh.environment, java.compile.org.campagnelab.nyosh.gstring, java.compile.org.campagnelab.nyosh.lib, java.compile.org.campagnelab.util, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.nyosh.environment/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.nyosh.environment#3173353997360794809" />
     <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.environment#3173353997360794809" fork="true" includeantruntime="false" source="1.6" target="1.6">
@@ -755,6 +846,7 @@
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.environment" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.gstring" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.lib" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.util" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/wildcard-1.03.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/commons-io-2.4.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/groovy-all-1.8.6.jar" />
@@ -1203,7 +1295,7 @@
     </copy>
   </target>
   
-  <target name="java.compile.org.campagnelab.NYoSh.samples" depends="java.compile.org.campagnelab.nyosh.lib, fetchDependencies">
+  <target name="java.compile.org.campagnelab.NYoSh.samples" depends="java.compile.org.campagnelab.nyosh.lib, java.compile.org.campagnelab.util, fetchDependencies">
     <mkdir dir="${basedir}/solutions/org.campagnelab.NYoSh.samples/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.NYoSh.samples" />
     <javac destdir="${build.tmp}/java/out/org.campagnelab.NYoSh.samples" fork="true" includeantruntime="false" source="1.6" target="1.6">
@@ -1222,6 +1314,7 @@
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.lib" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.util" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/wildcard-1.03.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/commons-io-2.4.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/groovy-all-1.8.6.jar" />
@@ -1371,7 +1464,7 @@
     </copy>
   </target>
   
-  <target name="java.compile.org.campagnelab.nyosh.pathpatterns" depends="java.compile.org.campagnelab.nyosh.gstring, java.compile.org.campagnelab.nyosh.lib, fetchDependencies">
+  <target name="java.compile.org.campagnelab.nyosh.pathpatterns" depends="java.compile.org.campagnelab.nyosh.gstring, java.compile.org.campagnelab.nyosh.lib, java.compile.org.campagnelab.util, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.nyosh.pathpatterns/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.nyosh.pathpatterns" />
     <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.pathpatterns" fork="true" includeantruntime="false" source="1.6" target="1.6">
@@ -1391,6 +1484,7 @@
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.gstring" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.lib" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.util" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/wildcard-1.03.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/commons-io-2.4.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/groovy-all-1.8.6.jar" />
@@ -1432,7 +1526,7 @@
     </copy>
   </target>
   
-  <target name="java.compile.org.campagnelab.nyosh.pathpatterns#1081263916558044417" depends="java.compile.org.campagnelab.nyosh.gstring, java.compile.org.campagnelab.nyosh.lib, java.compile.org.campagnelab.nyosh.pathpatterns, fetchDependencies">
+  <target name="java.compile.org.campagnelab.nyosh.pathpatterns#1081263916558044417" depends="java.compile.org.campagnelab.nyosh.gstring, java.compile.org.campagnelab.nyosh.lib, java.compile.org.campagnelab.nyosh.pathpatterns, java.compile.org.campagnelab.util, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.nyosh.pathpatterns/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.nyosh.pathpatterns#1081263916558044417" />
     <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.pathpatterns#1081263916558044417" fork="true" includeantruntime="false" source="1.6" target="1.6">
@@ -1453,6 +1547,7 @@
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.gstring" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.lib" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.pathpatterns" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.util" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/wildcard-1.03.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/commons-io-2.4.jar" />
         <fileset file="${org.campagnelab.goby.workbench.home}/lib/groovy-all-1.8.6.jar" />
@@ -1707,6 +1802,7 @@
     <delete dir="${basedir}/languages/org.campagnelab.nyosh.gstring/source_gen" />
     <delete dir="${basedir}/languages/org.campagnelab.nyosh.lib/source_gen" />
     <delete dir="${basedir}/languages/org.campagnelab.nyosh.lib/generator/source_gen" />
+    <delete dir="${basedir}/solutions/org.campagnelab.util/source_gen" />
     <delete dir="${basedir}/languages/NYoSh/generator/source_gen" />
     <delete dir="${basedir}/solutions/org.campagnelab.NYoSh.samples/source_gen" />
     <delete dir="${basedir}/languages/org.campagnelab.nyosh.functions/generator/source_gen" />
