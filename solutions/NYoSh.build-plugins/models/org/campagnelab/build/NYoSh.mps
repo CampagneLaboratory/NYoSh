@@ -589,12 +589,6 @@
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
         </node>
-        <node concept="1SiIV0" id="nhsmU5vEn7" role="3bR37C">
-          <node concept="3bR9La" id="nhsmU5vEn8" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="nhsmU5vEn9" role="3bR37C">
           <node concept="3bR9La" id="nhsmU5vEna" role="1SiIV1">
             <property role="3bR36h" value="false" />
