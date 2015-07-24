@@ -1259,9 +1259,6 @@
           <property role="3LESm3" value="71502830-66bc-4ce0-bdbf-2d7ea7b83989" />
           <property role="2GAjPV" value="false" />
         </node>
-        <node concept="1E0d5M" id="nhsmU5vErq" role="1E1XAP">
-          <ref role="1E0d5P" node="nhsmU5vDUv" resolve="org.campagnelab.util" />
-        </node>
       </node>
       <node concept="1E1JtD" id="2mFg1uCD9q9" role="2G$12L">
         <property role="BnDLt" value="true" />
