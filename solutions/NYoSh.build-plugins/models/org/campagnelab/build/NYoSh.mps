@@ -172,7 +172,7 @@
       <node concept="aVJcg" id="7ZmC9JYEfXt" role="aVJcv">
         <node concept="NbPM2" id="7ZmC9JYEfXu" role="aVJcq">
           <node concept="3Mxwew" id="7ZmC9JYEfXv" role="3MwsjC">
-            <property role="3MwjfP" value="2.0.9" />
+            <property role="3MwjfP" value="2.0.10" />
           </node>
         </node>
       </node>
@@ -961,7 +961,7 @@
         </node>
       </node>
       <node concept="1E1JtD" id="2mFg1uCD9q3" role="2G$12L">
-        <property role="BnDLt" value="false" />
+        <property role="BnDLt" value="true" />
         <property role="TrG5h" value="org.campagnelab.nyosh.lib" />
         <property role="3LESm3" value="0202ed86-955d-4227-9c20-377dd6b1f9ff" />
         <property role="2GAjPV" value="false" />
