@@ -4,7 +4,6 @@
   <property name="build.tmp" location="${build.dir}/tmp/org.campagnelab.NYoSh" />
   <property name="build.layout" location="${build.dir}/artifacts/org.campagnelab.NYoSh" />
   <property name="mps_home" location="" />
-  <property name="org.campagnelab.goby.workbench.home" location="" />
   <property name="nyosh_version" value="2.0.9" />
   <property name="build_number" value="0" />
   <property name="artifacts.mps" location="${mps_home}" />
@@ -537,28 +536,28 @@
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.nyosh.interactive-languageModels" prefix="module/languageModels" />
     </jar>
     <zip destfile="${build.layout}/org.campagnelab.NYoSh-${nyosh_version}.zip">
-      <zipfileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" prefix="NYoSh" />
-      <zipfileset file="${org.campagnelab.goby.workbench.home}/lib/serverside-dependencies-1.0.10-full.jar" prefix="NYoSh" />
-      <zipfileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1.0.jar" prefix="NYoSh" />
-      <zipfileset file="${org.campagnelab.goby.workbench.home}/lib/commons-io-2.4.jar" prefix="NYoSh" />
-      <zipfileset file="${org.campagnelab.goby.workbench.home}/lib/wildcard-1.03.jar" prefix="NYoSh" />
-      <zipfileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.5.0-SNAPSHOT.jar" prefix="NYoSh" />
-      <zipfileset file="${org.campagnelab.goby.workbench.home}/lib/filesets-1.3.0-SNAPSHOT.jar" prefix="NYoSh" />
-      <zipfileset file="${org.campagnelab.goby.workbench.home}/lib/groovy-all-1.8.6.jar" prefix="NYoSh" />
-      <zipfileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.3.0.jar" prefix="NYoSh" />
-      <zipfileset file="${org.campagnelab.goby.workbench.home}/lib/dsiutils-2.0.7.jar" prefix="NYoSh" />
-      <zipfileset file="${org.campagnelab.goby.workbench.home}/lib/fastutil-6.4.4.jar" prefix="NYoSh" />
-      <zipfileset file="${org.campagnelab.goby.workbench.home}/lib/option-validation-language-2.1.0.jar" prefix="NYoSh" />
-      <zipfileset file="${org.campagnelab.goby.workbench.home}/lib/scala-library-2.9.2.jar" prefix="NYoSh" />
-      <zipfileset file="${org.campagnelab.goby.workbench.home}/lib/mercury-api-1.0-SNAPSHOT.jar" prefix="NYoSh" />
-      <zipfileset file="${org.campagnelab.goby.workbench.home}/lib/activemq-client-5.9.1.jar" prefix="NYoSh" />
-      <zipfileset file="${org.campagnelab.goby.workbench.home}/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" prefix="NYoSh" />
-      <zipfileset file="${org.campagnelab.goby.workbench.home}/lib/geronimo-jms_1.1_spec-1.1.1.jar" prefix="NYoSh" />
-      <zipfileset file="${org.campagnelab.goby.workbench.home}/lib/hawtbuf-1.9.jar" prefix="NYoSh" />
-      <zipfileset file="${org.campagnelab.goby.workbench.home}/lib/slf4j-api-1.7.5.jar" prefix="NYoSh" />
-      <zipfileset file="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.lucene.tableviewer/runtime/lucene-core-3.6.1.jar" prefix="NYoSh" />
-      <zipfileset file="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.lucene.tableviewer/runtime/lucene-1.0-SNAPSHOT.jar" prefix="NYoSh" />
-      <zipfileset file="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.ssh/jsch-0.1.51.jar" prefix="NYoSh" />
+      <zipfileset file="${basedir}/lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" prefix="NYoSh" />
+      <zipfileset file="${basedir}/lib/serverside-dependencies-1.0.10-full.jar" prefix="NYoSh" />
+      <zipfileset file="${basedir}/lib/org.campagnelab.stepslogger-1.1.0.jar" prefix="NYoSh" />
+      <zipfileset file="${basedir}/lib/commons-io-2.4.jar" prefix="NYoSh" />
+      <zipfileset file="${basedir}/lib/wildcard-1.03.jar" prefix="NYoSh" />
+      <zipfileset file="${basedir}/lib/plugins-2.5.0-SNAPSHOT.jar" prefix="NYoSh" />
+      <zipfileset file="${basedir}/lib/filesets-1.3.0-SNAPSHOT.jar" prefix="NYoSh" />
+      <zipfileset file="${basedir}/lib/groovy-all-1.8.6.jar" prefix="NYoSh" />
+      <zipfileset file="${basedir}/lib/artifacts-2.3.0.jar" prefix="NYoSh" />
+      <zipfileset file="${basedir}/lib/dsiutils-2.0.7.jar" prefix="NYoSh" />
+      <zipfileset file="${basedir}/lib/fastutil-6.4.4.jar" prefix="NYoSh" />
+      <zipfileset file="${basedir}/lib/option-validation-language-2.1.0.jar" prefix="NYoSh" />
+      <zipfileset file="${basedir}/lib/scala-library-2.9.2.jar" prefix="NYoSh" />
+      <zipfileset file="${basedir}/lib/mercury-api-1.0-SNAPSHOT.jar" prefix="NYoSh" />
+      <zipfileset file="${basedir}/lib/activemq-client-5.9.1.jar" prefix="NYoSh" />
+      <zipfileset file="${basedir}/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" prefix="NYoSh" />
+      <zipfileset file="${basedir}/lib/geronimo-jms_1.1_spec-1.1.1.jar" prefix="NYoSh" />
+      <zipfileset file="${basedir}/lib/hawtbuf-1.9.jar" prefix="NYoSh" />
+      <zipfileset file="${basedir}/lib/slf4j-api-1.7.5.jar" prefix="NYoSh" />
+      <zipfileset file="${basedir}/languages/org.campagnelab.lucene.tableviewer/runtime/lucene-core-3.6.1.jar" prefix="NYoSh" />
+      <zipfileset file="${basedir}/languages/org.campagnelab.lucene.tableviewer/runtime/lucene-1.0-SNAPSHOT.jar" prefix="NYoSh" />
+      <zipfileset file="${basedir}/languages/org.campagnelab.ssh/jsch-0.1.51.jar" prefix="NYoSh" />
       <fileset dir="${build.tmp}/default/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip" />
     </zip>
     <echo file="${build.layout}/build.properties">org.campagnelab.NYoSh.nyosh_version=${nyosh_version}${line.separator}org.campagnelab.NYoSh.build_number=${build_number}${line.separator}mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}${line.separator}org.campagnelab.mps.UI.ui_version=${org.campagnelab.mps.UI.ui_version}${line.separator}org.campagnelab.mps.UI.build_number=${org.campagnelab.mps.UI.build_number}${line.separator}org.campagnelab.Logger.logger.version=${org.campagnelab.Logger.logger.version}${line.separator}org.campagnelab.Logger.build_number=${org.campagnelab.Logger.build_number}</echo>
@@ -567,10 +566,10 @@
   <target name="buildDependents" />
   
   <target name="fetchDependencies">
-    <mkdir dir="${build.tmp}/deps/org.campagnelab.Logger/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip" />
-    <unzip src="${artifacts.org.campagnelab.Logger}/org.campagnelab.logger-${org.campagnelab.Logger.logger.version}.zip" dest="${build.tmp}/deps/org.campagnelab.Logger/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip" />
     <mkdir dir="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip" />
     <unzip src="${artifacts.org.campagnelab.mps.UI}/org.campagnelab.UI-${org.campagnelab.mps.UI.ui_version}.zip" dest="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip" />
+    <mkdir dir="${build.tmp}/deps/org.campagnelab.Logger/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip" />
+    <unzip src="${artifacts.org.campagnelab.Logger}/org.campagnelab.logger-${org.campagnelab.Logger.logger.version}.zip" dest="${build.tmp}/deps/org.campagnelab.Logger/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip" />
   </target>
   
   <target name="build" depends="assemble" />
@@ -691,7 +690,6 @@
         <arg value="-Xmx512m" />
       </jvmargs>
       <macro name="mps_home" path="${mps_home}" />
-      <macro name="org.campagnelab.goby.workbench.home" path="${org.campagnelab.goby.workbench.home}" />
     </generate>
   </target>
   
@@ -720,25 +718,25 @@
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.lib" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/wildcard-1.03.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/commons-io-2.4.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/groovy-all-1.8.6.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/fastutil-6.4.4.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/option-validation-language-2.1.0.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/scala-library-2.9.2.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/dsiutils-2.0.7.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.3.0.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/filesets-1.3.0-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/activemq-client-5.9.1.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/geronimo-jms_1.1_spec-1.1.1.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/mercury-api-1.0-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/hawtbuf-1.9.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/lib/wildcard-1.03.jar" />
+        <fileset file="${basedir}/lib/commons-io-2.4.jar" />
+        <fileset file="${basedir}/lib/groovy-all-1.8.6.jar" />
+        <fileset file="${basedir}/lib/fastutil-6.4.4.jar" />
+        <fileset file="${basedir}/lib/option-validation-language-2.1.0.jar" />
+        <fileset file="${basedir}/lib/scala-library-2.9.2.jar" />
+        <fileset file="${basedir}/lib/dsiutils-2.0.7.jar" />
+        <fileset file="${basedir}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
+        <fileset file="${basedir}/lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/artifacts-2.3.0.jar" />
+        <fileset file="${basedir}/lib/filesets-1.3.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${basedir}/lib/plugins-2.5.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/activemq-client-5.9.1.jar" />
+        <fileset file="${basedir}/lib/geronimo-jms_1.1_spec-1.1.1.jar" />
+        <fileset file="${basedir}/lib/mercury-api-1.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
+        <fileset file="${basedir}/lib/hawtbuf-1.9.jar" />
+        <fileset file="${basedir}/lib/slf4j-api-1.7.5.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
@@ -777,25 +775,25 @@
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.gstring" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.lib" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/wildcard-1.03.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/commons-io-2.4.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/groovy-all-1.8.6.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/fastutil-6.4.4.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/option-validation-language-2.1.0.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/scala-library-2.9.2.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/dsiutils-2.0.7.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.3.0.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/filesets-1.3.0-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/activemq-client-5.9.1.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/geronimo-jms_1.1_spec-1.1.1.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/mercury-api-1.0-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/hawtbuf-1.9.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/lib/wildcard-1.03.jar" />
+        <fileset file="${basedir}/lib/commons-io-2.4.jar" />
+        <fileset file="${basedir}/lib/groovy-all-1.8.6.jar" />
+        <fileset file="${basedir}/lib/fastutil-6.4.4.jar" />
+        <fileset file="${basedir}/lib/option-validation-language-2.1.0.jar" />
+        <fileset file="${basedir}/lib/scala-library-2.9.2.jar" />
+        <fileset file="${basedir}/lib/dsiutils-2.0.7.jar" />
+        <fileset file="${basedir}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
+        <fileset file="${basedir}/lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/artifacts-2.3.0.jar" />
+        <fileset file="${basedir}/lib/filesets-1.3.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${basedir}/lib/plugins-2.5.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/activemq-client-5.9.1.jar" />
+        <fileset file="${basedir}/lib/geronimo-jms_1.1_spec-1.1.1.jar" />
+        <fileset file="${basedir}/lib/mercury-api-1.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
+        <fileset file="${basedir}/lib/hawtbuf-1.9.jar" />
+        <fileset file="${basedir}/lib/slf4j-api-1.7.5.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
@@ -844,25 +842,25 @@
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.environment" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.gstring" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.lib" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/wildcard-1.03.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/commons-io-2.4.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/groovy-all-1.8.6.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/fastutil-6.4.4.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/option-validation-language-2.1.0.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/scala-library-2.9.2.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/dsiutils-2.0.7.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.3.0.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/filesets-1.3.0-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/activemq-client-5.9.1.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/geronimo-jms_1.1_spec-1.1.1.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/mercury-api-1.0-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/hawtbuf-1.9.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/lib/wildcard-1.03.jar" />
+        <fileset file="${basedir}/lib/commons-io-2.4.jar" />
+        <fileset file="${basedir}/lib/groovy-all-1.8.6.jar" />
+        <fileset file="${basedir}/lib/fastutil-6.4.4.jar" />
+        <fileset file="${basedir}/lib/option-validation-language-2.1.0.jar" />
+        <fileset file="${basedir}/lib/scala-library-2.9.2.jar" />
+        <fileset file="${basedir}/lib/dsiutils-2.0.7.jar" />
+        <fileset file="${basedir}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
+        <fileset file="${basedir}/lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/artifacts-2.3.0.jar" />
+        <fileset file="${basedir}/lib/filesets-1.3.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${basedir}/lib/plugins-2.5.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/activemq-client-5.9.1.jar" />
+        <fileset file="${basedir}/lib/geronimo-jms_1.1_spec-1.1.1.jar" />
+        <fileset file="${basedir}/lib/mercury-api-1.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
+        <fileset file="${basedir}/lib/hawtbuf-1.9.jar" />
+        <fileset file="${basedir}/lib/slf4j-api-1.7.5.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
@@ -932,25 +930,25 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.smodel.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/wildcard-1.03.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/commons-io-2.4.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/groovy-all-1.8.6.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/fastutil-6.4.4.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/option-validation-language-2.1.0.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/scala-library-2.9.2.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/dsiutils-2.0.7.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.3.0.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/filesets-1.3.0-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/activemq-client-5.9.1.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/geronimo-jms_1.1_spec-1.1.1.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/mercury-api-1.0-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/hawtbuf-1.9.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/lib/wildcard-1.03.jar" />
+        <fileset file="${basedir}/lib/commons-io-2.4.jar" />
+        <fileset file="${basedir}/lib/groovy-all-1.8.6.jar" />
+        <fileset file="${basedir}/lib/fastutil-6.4.4.jar" />
+        <fileset file="${basedir}/lib/option-validation-language-2.1.0.jar" />
+        <fileset file="${basedir}/lib/scala-library-2.9.2.jar" />
+        <fileset file="${basedir}/lib/dsiutils-2.0.7.jar" />
+        <fileset file="${basedir}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
+        <fileset file="${basedir}/lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/artifacts-2.3.0.jar" />
+        <fileset file="${basedir}/lib/filesets-1.3.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${basedir}/lib/plugins-2.5.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/activemq-client-5.9.1.jar" />
+        <fileset file="${basedir}/lib/geronimo-jms_1.1_spec-1.1.1.jar" />
+        <fileset file="${basedir}/lib/mercury-api-1.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
+        <fileset file="${basedir}/lib/hawtbuf-1.9.jar" />
+        <fileset file="${basedir}/lib/slf4j-api-1.7.5.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.gstring" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.lib" />
       </classpath>
@@ -1069,25 +1067,25 @@
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.gstring" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.lib" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/wildcard-1.03.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/commons-io-2.4.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/groovy-all-1.8.6.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/fastutil-6.4.4.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/option-validation-language-2.1.0.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/scala-library-2.9.2.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/dsiutils-2.0.7.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.3.0.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/filesets-1.3.0-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/activemq-client-5.9.1.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/geronimo-jms_1.1_spec-1.1.1.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/mercury-api-1.0-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/hawtbuf-1.9.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/lib/wildcard-1.03.jar" />
+        <fileset file="${basedir}/lib/commons-io-2.4.jar" />
+        <fileset file="${basedir}/lib/groovy-all-1.8.6.jar" />
+        <fileset file="${basedir}/lib/fastutil-6.4.4.jar" />
+        <fileset file="${basedir}/lib/option-validation-language-2.1.0.jar" />
+        <fileset file="${basedir}/lib/scala-library-2.9.2.jar" />
+        <fileset file="${basedir}/lib/dsiutils-2.0.7.jar" />
+        <fileset file="${basedir}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
+        <fileset file="${basedir}/lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/artifacts-2.3.0.jar" />
+        <fileset file="${basedir}/lib/filesets-1.3.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${basedir}/lib/plugins-2.5.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/activemq-client-5.9.1.jar" />
+        <fileset file="${basedir}/lib/geronimo-jms_1.1_spec-1.1.1.jar" />
+        <fileset file="${basedir}/lib/mercury-api-1.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
+        <fileset file="${basedir}/lib/hawtbuf-1.9.jar" />
+        <fileset file="${basedir}/lib/slf4j-api-1.7.5.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
@@ -1141,25 +1139,25 @@
         <pathelement path="${build.tmp}/java/out/org.campagnelab.NYoSh" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.gstring" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.lib" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/wildcard-1.03.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/commons-io-2.4.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/groovy-all-1.8.6.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/fastutil-6.4.4.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/option-validation-language-2.1.0.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/scala-library-2.9.2.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/dsiutils-2.0.7.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.3.0.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/filesets-1.3.0-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/activemq-client-5.9.1.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/geronimo-jms_1.1_spec-1.1.1.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/mercury-api-1.0-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/hawtbuf-1.9.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/lib/wildcard-1.03.jar" />
+        <fileset file="${basedir}/lib/commons-io-2.4.jar" />
+        <fileset file="${basedir}/lib/groovy-all-1.8.6.jar" />
+        <fileset file="${basedir}/lib/fastutil-6.4.4.jar" />
+        <fileset file="${basedir}/lib/option-validation-language-2.1.0.jar" />
+        <fileset file="${basedir}/lib/scala-library-2.9.2.jar" />
+        <fileset file="${basedir}/lib/dsiutils-2.0.7.jar" />
+        <fileset file="${basedir}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
+        <fileset file="${basedir}/lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/artifacts-2.3.0.jar" />
+        <fileset file="${basedir}/lib/filesets-1.3.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${basedir}/lib/plugins-2.5.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/activemq-client-5.9.1.jar" />
+        <fileset file="${basedir}/lib/geronimo-jms_1.1_spec-1.1.1.jar" />
+        <fileset file="${basedir}/lib/mercury-api-1.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
+        <fileset file="${basedir}/lib/hawtbuf-1.9.jar" />
+        <fileset file="${basedir}/lib/slf4j-api-1.7.5.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
@@ -1210,25 +1208,25 @@
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.lib" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/wildcard-1.03.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/commons-io-2.4.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/groovy-all-1.8.6.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/fastutil-6.4.4.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/option-validation-language-2.1.0.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/scala-library-2.9.2.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/dsiutils-2.0.7.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.3.0.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/filesets-1.3.0-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/activemq-client-5.9.1.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/geronimo-jms_1.1_spec-1.1.1.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/mercury-api-1.0-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/hawtbuf-1.9.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/lib/wildcard-1.03.jar" />
+        <fileset file="${basedir}/lib/commons-io-2.4.jar" />
+        <fileset file="${basedir}/lib/groovy-all-1.8.6.jar" />
+        <fileset file="${basedir}/lib/fastutil-6.4.4.jar" />
+        <fileset file="${basedir}/lib/option-validation-language-2.1.0.jar" />
+        <fileset file="${basedir}/lib/scala-library-2.9.2.jar" />
+        <fileset file="${basedir}/lib/dsiutils-2.0.7.jar" />
+        <fileset file="${basedir}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
+        <fileset file="${basedir}/lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/artifacts-2.3.0.jar" />
+        <fileset file="${basedir}/lib/filesets-1.3.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${basedir}/lib/plugins-2.5.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/activemq-client-5.9.1.jar" />
+        <fileset file="${basedir}/lib/geronimo-jms_1.1_spec-1.1.1.jar" />
+        <fileset file="${basedir}/lib/mercury-api-1.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
+        <fileset file="${basedir}/lib/hawtbuf-1.9.jar" />
+        <fileset file="${basedir}/lib/slf4j-api-1.7.5.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
@@ -1311,25 +1309,25 @@
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.lib" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/wildcard-1.03.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/commons-io-2.4.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/groovy-all-1.8.6.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/fastutil-6.4.4.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/option-validation-language-2.1.0.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/scala-library-2.9.2.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/dsiutils-2.0.7.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.3.0.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/filesets-1.3.0-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/activemq-client-5.9.1.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/geronimo-jms_1.1_spec-1.1.1.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/mercury-api-1.0-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/hawtbuf-1.9.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/lib/wildcard-1.03.jar" />
+        <fileset file="${basedir}/lib/commons-io-2.4.jar" />
+        <fileset file="${basedir}/lib/groovy-all-1.8.6.jar" />
+        <fileset file="${basedir}/lib/fastutil-6.4.4.jar" />
+        <fileset file="${basedir}/lib/option-validation-language-2.1.0.jar" />
+        <fileset file="${basedir}/lib/scala-library-2.9.2.jar" />
+        <fileset file="${basedir}/lib/dsiutils-2.0.7.jar" />
+        <fileset file="${basedir}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
+        <fileset file="${basedir}/lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/artifacts-2.3.0.jar" />
+        <fileset file="${basedir}/lib/filesets-1.3.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${basedir}/lib/plugins-2.5.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/activemq-client-5.9.1.jar" />
+        <fileset file="${basedir}/lib/geronimo-jms_1.1_spec-1.1.1.jar" />
+        <fileset file="${basedir}/lib/mercury-api-1.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
+        <fileset file="${basedir}/lib/hawtbuf-1.9.jar" />
+        <fileset file="${basedir}/lib/slf4j-api-1.7.5.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
@@ -1367,25 +1365,25 @@
         <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/wildcard-1.03.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/commons-io-2.4.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/groovy-all-1.8.6.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/fastutil-6.4.4.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/option-validation-language-2.1.0.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/scala-library-2.9.2.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/dsiutils-2.0.7.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.3.0.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/filesets-1.3.0-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/activemq-client-5.9.1.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/geronimo-jms_1.1_spec-1.1.1.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/mercury-api-1.0-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/hawtbuf-1.9.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/lib/wildcard-1.03.jar" />
+        <fileset file="${basedir}/lib/commons-io-2.4.jar" />
+        <fileset file="${basedir}/lib/groovy-all-1.8.6.jar" />
+        <fileset file="${basedir}/lib/fastutil-6.4.4.jar" />
+        <fileset file="${basedir}/lib/option-validation-language-2.1.0.jar" />
+        <fileset file="${basedir}/lib/scala-library-2.9.2.jar" />
+        <fileset file="${basedir}/lib/dsiutils-2.0.7.jar" />
+        <fileset file="${basedir}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
+        <fileset file="${basedir}/lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/artifacts-2.3.0.jar" />
+        <fileset file="${basedir}/lib/filesets-1.3.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${basedir}/lib/plugins-2.5.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/activemq-client-5.9.1.jar" />
+        <fileset file="${basedir}/lib/geronimo-jms_1.1_spec-1.1.1.jar" />
+        <fileset file="${basedir}/lib/mercury-api-1.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
+        <fileset file="${basedir}/lib/hawtbuf-1.9.jar" />
+        <fileset file="${basedir}/lib/slf4j-api-1.7.5.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
@@ -1423,25 +1421,25 @@
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.lib" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/wildcard-1.03.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/commons-io-2.4.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/groovy-all-1.8.6.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/fastutil-6.4.4.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/option-validation-language-2.1.0.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/scala-library-2.9.2.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/dsiutils-2.0.7.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.3.0.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/filesets-1.3.0-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/activemq-client-5.9.1.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/geronimo-jms_1.1_spec-1.1.1.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/mercury-api-1.0-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/hawtbuf-1.9.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/lib/wildcard-1.03.jar" />
+        <fileset file="${basedir}/lib/commons-io-2.4.jar" />
+        <fileset file="${basedir}/lib/groovy-all-1.8.6.jar" />
+        <fileset file="${basedir}/lib/fastutil-6.4.4.jar" />
+        <fileset file="${basedir}/lib/option-validation-language-2.1.0.jar" />
+        <fileset file="${basedir}/lib/scala-library-2.9.2.jar" />
+        <fileset file="${basedir}/lib/dsiutils-2.0.7.jar" />
+        <fileset file="${basedir}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
+        <fileset file="${basedir}/lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/artifacts-2.3.0.jar" />
+        <fileset file="${basedir}/lib/filesets-1.3.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${basedir}/lib/plugins-2.5.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/activemq-client-5.9.1.jar" />
+        <fileset file="${basedir}/lib/geronimo-jms_1.1_spec-1.1.1.jar" />
+        <fileset file="${basedir}/lib/mercury-api-1.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
+        <fileset file="${basedir}/lib/hawtbuf-1.9.jar" />
+        <fileset file="${basedir}/lib/slf4j-api-1.7.5.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
@@ -1480,25 +1478,25 @@
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.gstring" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.lib" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/wildcard-1.03.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/commons-io-2.4.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/groovy-all-1.8.6.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/fastutil-6.4.4.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/option-validation-language-2.1.0.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/scala-library-2.9.2.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/dsiutils-2.0.7.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.3.0.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/filesets-1.3.0-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/activemq-client-5.9.1.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/geronimo-jms_1.1_spec-1.1.1.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/mercury-api-1.0-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/hawtbuf-1.9.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/lib/wildcard-1.03.jar" />
+        <fileset file="${basedir}/lib/commons-io-2.4.jar" />
+        <fileset file="${basedir}/lib/groovy-all-1.8.6.jar" />
+        <fileset file="${basedir}/lib/fastutil-6.4.4.jar" />
+        <fileset file="${basedir}/lib/option-validation-language-2.1.0.jar" />
+        <fileset file="${basedir}/lib/scala-library-2.9.2.jar" />
+        <fileset file="${basedir}/lib/dsiutils-2.0.7.jar" />
+        <fileset file="${basedir}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
+        <fileset file="${basedir}/lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/artifacts-2.3.0.jar" />
+        <fileset file="${basedir}/lib/filesets-1.3.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${basedir}/lib/plugins-2.5.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/activemq-client-5.9.1.jar" />
+        <fileset file="${basedir}/lib/geronimo-jms_1.1_spec-1.1.1.jar" />
+        <fileset file="${basedir}/lib/mercury-api-1.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
+        <fileset file="${basedir}/lib/hawtbuf-1.9.jar" />
+        <fileset file="${basedir}/lib/slf4j-api-1.7.5.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
@@ -1542,25 +1540,25 @@
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.gstring" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.lib" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.pathpatterns" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/wildcard-1.03.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/commons-io-2.4.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/groovy-all-1.8.6.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/fastutil-6.4.4.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/option-validation-language-2.1.0.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/scala-library-2.9.2.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/dsiutils-2.0.7.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.3.0.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/filesets-1.3.0-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/activemq-client-5.9.1.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/geronimo-jms_1.1_spec-1.1.1.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/mercury-api-1.0-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/hawtbuf-1.9.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/lib/wildcard-1.03.jar" />
+        <fileset file="${basedir}/lib/commons-io-2.4.jar" />
+        <fileset file="${basedir}/lib/groovy-all-1.8.6.jar" />
+        <fileset file="${basedir}/lib/fastutil-6.4.4.jar" />
+        <fileset file="${basedir}/lib/option-validation-language-2.1.0.jar" />
+        <fileset file="${basedir}/lib/scala-library-2.9.2.jar" />
+        <fileset file="${basedir}/lib/dsiutils-2.0.7.jar" />
+        <fileset file="${basedir}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
+        <fileset file="${basedir}/lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/artifacts-2.3.0.jar" />
+        <fileset file="${basedir}/lib/filesets-1.3.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${basedir}/lib/plugins-2.5.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/activemq-client-5.9.1.jar" />
+        <fileset file="${basedir}/lib/geronimo-jms_1.1_spec-1.1.1.jar" />
+        <fileset file="${basedir}/lib/mercury-api-1.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
+        <fileset file="${basedir}/lib/hawtbuf-1.9.jar" />
+        <fileset file="${basedir}/lib/slf4j-api-1.7.5.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
@@ -1678,25 +1676,25 @@
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.tags" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.gstring" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.lib" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/wildcard-1.03.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/commons-io-2.4.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/groovy-all-1.8.6.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/fastutil-6.4.4.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/option-validation-language-2.1.0.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/scala-library-2.9.2.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/dsiutils-2.0.7.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/artifacts-2.3.0.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/filesets-1.3.0-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/activemq-client-5.9.1.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/geronimo-jms_1.1_spec-1.1.1.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/mercury-api-1.0-SNAPSHOT.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/hawtbuf-1.9.jar" />
-        <fileset file="${org.campagnelab.goby.workbench.home}/lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/lib/wildcard-1.03.jar" />
+        <fileset file="${basedir}/lib/commons-io-2.4.jar" />
+        <fileset file="${basedir}/lib/groovy-all-1.8.6.jar" />
+        <fileset file="${basedir}/lib/fastutil-6.4.4.jar" />
+        <fileset file="${basedir}/lib/option-validation-language-2.1.0.jar" />
+        <fileset file="${basedir}/lib/scala-library-2.9.2.jar" />
+        <fileset file="${basedir}/lib/dsiutils-2.0.7.jar" />
+        <fileset file="${basedir}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
+        <fileset file="${basedir}/lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/artifacts-2.3.0.jar" />
+        <fileset file="${basedir}/lib/filesets-1.3.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${basedir}/lib/plugins-2.5.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/activemq-client-5.9.1.jar" />
+        <fileset file="${basedir}/lib/geronimo-jms_1.1_spec-1.1.1.jar" />
+        <fileset file="${basedir}/lib/mercury-api-1.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
+        <fileset file="${basedir}/lib/hawtbuf-1.9.jar" />
+        <fileset file="${basedir}/lib/slf4j-api-1.7.5.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.unitTest.libs/bsh-core-2.0b4.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.unitTest.libs/cglib-nodep-2.1_3.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.unitTest.libs/hamcrest-core-1.1.jar" />

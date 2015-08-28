@@ -167,9 +167,6 @@
     <node concept="398rNT" id="2mFg1uCD9pv" role="1l3spd">
       <property role="TrG5h" value="mps_home" />
     </node>
-    <node concept="398rNT" id="2mFg1uCD9pz" role="1l3spd">
-      <property role="TrG5h" value="org.campagnelab.goby.workbench.home" />
-    </node>
     <node concept="2kB4xC" id="7ZmC9JYEfXs" role="1l3spd">
       <property role="TrG5h" value="nyosh_version" />
       <node concept="aVJcg" id="7ZmC9JYEfXt" role="aVJcv">
@@ -240,224 +237,204 @@
         <node concept="m$_wl" id="2mFg1uCD9qu" role="39821P">
           <ref role="m_rDy" node="2mFg1uCD9qh" resolve="org.campagnelab.NYoSh" />
           <node concept="28jJK3" id="5PCt8rJDa66" role="39821P">
-            <node concept="398BVA" id="5PCt8rJDa9R" role="28jJRO">
-              <ref role="398BVh" node="2mFg1uCD9pz" resolve="org.campagnelab.goby.workbench.home" />
-              <node concept="2Ry0Ak" id="5PCt8rJDadl" role="iGT6I">
+            <node concept="55IIr" id="1MD2vcZjSMo" role="28jJRO">
+              <node concept="2Ry0Ak" id="1MD2vcZjSMs" role="iGT6I">
                 <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="5PCt8rJDcb1" role="2Ry0An">
+                <node concept="2Ry0Ak" id="1MD2vcZjSMt" role="2Ry0An">
                   <property role="2Ry0Am" value="nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
                 </node>
               </node>
             </node>
           </node>
           <node concept="28jJK3" id="4RUDtMaCaGg" role="39821P">
-            <node concept="398BVA" id="4RUDtMaCaGh" role="28jJRO">
-              <ref role="398BVh" node="2mFg1uCD9pz" resolve="org.campagnelab.goby.workbench.home" />
-              <node concept="2Ry0Ak" id="4RUDtMaCaGi" role="iGT6I">
+            <node concept="55IIr" id="1MD2vcZjSOK" role="28jJRO">
+              <node concept="2Ry0Ak" id="1MD2vcZjSOO" role="iGT6I">
                 <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="7UZXjDlvcRr" role="2Ry0An">
+                <node concept="2Ry0Ak" id="1MD2vcZjSOP" role="2Ry0An">
                   <property role="2Ry0Am" value="serverside-dependencies-1.0.10-full.jar" />
                 </node>
               </node>
             </node>
           </node>
           <node concept="28jJK3" id="1Mp0tSBLUfn" role="39821P">
-            <node concept="398BVA" id="1Mp0tSBLUjW" role="28jJRO">
-              <ref role="398BVh" node="2mFg1uCD9pz" resolve="org.campagnelab.goby.workbench.home" />
-              <node concept="2Ry0Ak" id="1Mp0tSBLUoe" role="iGT6I">
+            <node concept="55IIr" id="1MD2vcZjSR8" role="28jJRO">
+              <node concept="2Ry0Ak" id="1MD2vcZjSRc" role="iGT6I">
                 <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="1Mp0tSBLUog" role="2Ry0An">
+                <node concept="2Ry0Ak" id="1MD2vcZjSRd" role="2Ry0An">
                   <property role="2Ry0Am" value="org.campagnelab.stepslogger-1.1.0.jar" />
                 </node>
               </node>
             </node>
           </node>
           <node concept="28jJK3" id="7ZtxWZ7EgZT" role="39821P">
-            <node concept="398BVA" id="7ZtxWZ7Eh4a" role="28jJRO">
-              <ref role="398BVh" node="2mFg1uCD9pz" resolve="org.campagnelab.goby.workbench.home" />
-              <node concept="2Ry0Ak" id="7ZtxWZ7Eh84" role="iGT6I">
+            <node concept="55IIr" id="1MD2vcZjSTw" role="28jJRO">
+              <node concept="2Ry0Ak" id="1MD2vcZjST$" role="iGT6I">
                 <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="7ZtxWZ7EhfQ" role="2Ry0An">
+                <node concept="2Ry0Ak" id="1MD2vcZjST_" role="2Ry0An">
                   <property role="2Ry0Am" value="commons-io-2.4.jar" />
                 </node>
               </node>
             </node>
           </node>
           <node concept="28jJK3" id="5PCt8rJCVWw" role="39821P">
-            <node concept="398BVA" id="5PCt8rJCW0i" role="28jJRO">
-              <ref role="398BVh" node="2mFg1uCD9pz" resolve="org.campagnelab.goby.workbench.home" />
-              <node concept="2Ry0Ak" id="5PCt8rJCW3K" role="iGT6I">
+            <node concept="55IIr" id="1MD2vcZjSVS" role="28jJRO">
+              <node concept="2Ry0Ak" id="1MD2vcZjSVW" role="iGT6I">
                 <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="5PCt8rJCWaE" role="2Ry0An">
+                <node concept="2Ry0Ak" id="1MD2vcZjSVX" role="2Ry0An">
                   <property role="2Ry0Am" value="wildcard-1.03.jar" />
                 </node>
               </node>
             </node>
           </node>
           <node concept="28jJK3" id="7ZtxWZ7Fe3U" role="39821P">
-            <node concept="398BVA" id="7ZtxWZ7Fe3V" role="28jJRO">
-              <ref role="398BVh" node="2mFg1uCD9pz" resolve="org.campagnelab.goby.workbench.home" />
-              <node concept="2Ry0Ak" id="7ZtxWZ7Fe3W" role="iGT6I">
+            <node concept="55IIr" id="1MD2vcZjSYg" role="28jJRO">
+              <node concept="2Ry0Ak" id="1MD2vcZjSYk" role="iGT6I">
                 <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="3OScZ_AsWnU" role="2Ry0An">
+                <node concept="2Ry0Ak" id="1MD2vcZjSYl" role="2Ry0An">
                   <property role="2Ry0Am" value="plugins-2.5.0-SNAPSHOT.jar" />
                 </node>
               </node>
             </node>
           </node>
           <node concept="28jJK3" id="5_tHT9P8zg" role="39821P">
-            <node concept="398BVA" id="5_tHT9P8zh" role="28jJRO">
-              <ref role="398BVh" node="2mFg1uCD9pz" resolve="org.campagnelab.goby.workbench.home" />
-              <node concept="2Ry0Ak" id="5_tHT9P8zi" role="iGT6I">
+            <node concept="55IIr" id="1MD2vcZjT0L" role="28jJRO">
+              <node concept="2Ry0Ak" id="1MD2vcZjT0P" role="iGT6I">
                 <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="1ISEu8MDIoy" role="2Ry0An">
+                <node concept="2Ry0Ak" id="1MD2vcZjT0Q" role="2Ry0An">
                   <property role="2Ry0Am" value="filesets-1.3.0-SNAPSHOT.jar" />
                 </node>
               </node>
             </node>
           </node>
           <node concept="28jJK3" id="5_tHT9PQKr" role="39821P">
-            <node concept="398BVA" id="5_tHT9PQKt" role="28jJRO">
-              <ref role="398BVh" node="2mFg1uCD9pz" resolve="org.campagnelab.goby.workbench.home" />
-              <node concept="2Ry0Ak" id="5_tHT9PQKu" role="iGT6I">
+            <node concept="55IIr" id="1MD2vcZjT39" role="28jJRO">
+              <node concept="2Ry0Ak" id="1MD2vcZjT3d" role="iGT6I">
                 <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="5_tHT9PQKv" role="2Ry0An">
+                <node concept="2Ry0Ak" id="1MD2vcZjT3e" role="2Ry0An">
                   <property role="2Ry0Am" value="groovy-all-1.8.6.jar" />
                 </node>
               </node>
             </node>
           </node>
           <node concept="28jJK3" id="5_tHT9PSVR" role="39821P">
-            <node concept="398BVA" id="5_tHT9PSVS" role="28jJRO">
-              <ref role="398BVh" node="2mFg1uCD9pz" resolve="org.campagnelab.goby.workbench.home" />
-              <node concept="2Ry0Ak" id="5_tHT9PSVT" role="iGT6I">
+            <node concept="55IIr" id="1MD2vcZjT5x" role="28jJRO">
+              <node concept="2Ry0Ak" id="1MD2vcZjT5_" role="iGT6I">
                 <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="7UZXjDlvdlT" role="2Ry0An">
+                <node concept="2Ry0Ak" id="1MD2vcZjT5A" role="2Ry0An">
                   <property role="2Ry0Am" value="artifacts-2.3.0.jar" />
                 </node>
               </node>
             </node>
           </node>
           <node concept="28jJK3" id="E22kqJdzk$" role="39821P">
-            <node concept="398BVA" id="E22kqJdzL0" role="28jJRO">
-              <ref role="398BVh" node="2mFg1uCD9pz" resolve="org.campagnelab.goby.workbench.home" />
-              <node concept="2Ry0Ak" id="E22kqJdzR2" role="iGT6I">
+            <node concept="55IIr" id="1MD2vcZjT7T" role="28jJRO">
+              <node concept="2Ry0Ak" id="1MD2vcZjT7X" role="iGT6I">
                 <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="E22kqJd$f4" role="2Ry0An">
+                <node concept="2Ry0Ak" id="1MD2vcZjT7Y" role="2Ry0An">
                   <property role="2Ry0Am" value="dsiutils-2.0.7.jar" />
                 </node>
               </node>
             </node>
           </node>
           <node concept="28jJK3" id="5_tHT9Q8Ov" role="39821P">
-            <node concept="398BVA" id="5_tHT9Q8Ow" role="28jJRO">
-              <ref role="398BVh" node="2mFg1uCD9pz" resolve="org.campagnelab.goby.workbench.home" />
-              <node concept="2Ry0Ak" id="5_tHT9Q8Ox" role="iGT6I">
+            <node concept="55IIr" id="1MD2vcZjTah" role="28jJRO">
+              <node concept="2Ry0Ak" id="1MD2vcZjTal" role="iGT6I">
                 <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="5_tHT9Q8Oy" role="2Ry0An">
+                <node concept="2Ry0Ak" id="1MD2vcZjTam" role="2Ry0An">
                   <property role="2Ry0Am" value="fastutil-6.4.4.jar" />
                 </node>
               </node>
             </node>
           </node>
           <node concept="28jJK3" id="5_tHT9QjzQ" role="39821P">
-            <node concept="398BVA" id="5_tHT9QjzR" role="28jJRO">
-              <ref role="398BVh" node="2mFg1uCD9pz" resolve="org.campagnelab.goby.workbench.home" />
-              <node concept="2Ry0Ak" id="5_tHT9QjzS" role="iGT6I">
+            <node concept="55IIr" id="1MD2vcZjTcD" role="28jJRO">
+              <node concept="2Ry0Ak" id="1MD2vcZjTcH" role="iGT6I">
                 <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="5_tHT9QjzT" role="2Ry0An">
+                <node concept="2Ry0Ak" id="1MD2vcZjTcI" role="2Ry0An">
                   <property role="2Ry0Am" value="option-validation-language-2.1.0.jar" />
                 </node>
               </node>
             </node>
           </node>
           <node concept="28jJK3" id="5_tHT9QpkN" role="39821P">
-            <node concept="398BVA" id="5_tHT9QpkO" role="28jJRO">
-              <ref role="398BVh" node="2mFg1uCD9pz" resolve="org.campagnelab.goby.workbench.home" />
-              <node concept="2Ry0Ak" id="5_tHT9QpkP" role="iGT6I">
+            <node concept="55IIr" id="1MD2vcZjTf1" role="28jJRO">
+              <node concept="2Ry0Ak" id="1MD2vcZjTf5" role="iGT6I">
                 <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="5_tHT9QpkQ" role="2Ry0An">
+                <node concept="2Ry0Ak" id="1MD2vcZjTf6" role="2Ry0An">
                   <property role="2Ry0Am" value="scala-library-2.9.2.jar" />
                 </node>
               </node>
             </node>
           </node>
           <node concept="28jJK3" id="1JYYc6fOc7H" role="39821P">
-            <node concept="398BVA" id="1JYYc6fOc7I" role="28jJRO">
-              <ref role="398BVh" node="2mFg1uCD9pz" resolve="org.campagnelab.goby.workbench.home" />
-              <node concept="2Ry0Ak" id="1JYYc6fOc7J" role="iGT6I">
+            <node concept="55IIr" id="1MD2vcZjThp" role="28jJRO">
+              <node concept="2Ry0Ak" id="1MD2vcZjTht" role="iGT6I">
                 <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="1JYYc6fOcrK" role="2Ry0An">
+                <node concept="2Ry0Ak" id="1MD2vcZjThu" role="2Ry0An">
                   <property role="2Ry0Am" value="mercury-api-1.0-SNAPSHOT.jar" />
                 </node>
               </node>
             </node>
           </node>
           <node concept="28jJK3" id="1JYYc6fOcQ6" role="39821P">
-            <node concept="398BVA" id="1JYYc6fOcQ7" role="28jJRO">
-              <ref role="398BVh" node="2mFg1uCD9pz" resolve="org.campagnelab.goby.workbench.home" />
-              <node concept="2Ry0Ak" id="1JYYc6fOcQ8" role="iGT6I">
+            <node concept="55IIr" id="1MD2vcZjTjL" role="28jJRO">
+              <node concept="2Ry0Ak" id="1MD2vcZjTjP" role="iGT6I">
                 <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="1JYYc6fOcRe" role="2Ry0An">
+                <node concept="2Ry0Ak" id="1MD2vcZjTjQ" role="2Ry0An">
                   <property role="2Ry0Am" value="activemq-client-5.9.1.jar" />
                 </node>
               </node>
             </node>
           </node>
           <node concept="28jJK3" id="4Ep9FoywpF" role="39821P">
-            <node concept="398BVA" id="4Ep9FoywpG" role="28jJRO">
-              <ref role="398BVh" node="2mFg1uCD9pz" resolve="org.campagnelab.goby.workbench.home" />
-              <node concept="2Ry0Ak" id="4Ep9FoywpH" role="iGT6I">
+            <node concept="55IIr" id="1MD2vcZjTm9" role="28jJRO">
+              <node concept="2Ry0Ak" id="1MD2vcZjTmd" role="iGT6I">
                 <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="4Ep9FoywD2" role="2Ry0An">
+                <node concept="2Ry0Ak" id="1MD2vcZjTme" role="2Ry0An">
                   <property role="2Ry0Am" value="geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
                 </node>
               </node>
             </node>
           </node>
           <node concept="28jJK3" id="4Ep9FoywR8" role="39821P">
-            <node concept="398BVA" id="4Ep9FoywR9" role="28jJRO">
-              <ref role="398BVh" node="2mFg1uCD9pz" resolve="org.campagnelab.goby.workbench.home" />
-              <node concept="2Ry0Ak" id="4Ep9FoywRa" role="iGT6I">
+            <node concept="55IIr" id="1MD2vcZjTox" role="28jJRO">
+              <node concept="2Ry0Ak" id="1MD2vcZjTo_" role="iGT6I">
                 <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="4Ep9Foyx6z" role="2Ry0An">
+                <node concept="2Ry0Ak" id="1MD2vcZjToA" role="2Ry0An">
                   <property role="2Ry0Am" value="geronimo-jms_1.1_spec-1.1.1.jar" />
                 </node>
               </node>
             </node>
           </node>
           <node concept="28jJK3" id="4Ep9FoyNwl" role="39821P">
-            <node concept="398BVA" id="4Ep9FoyNwm" role="28jJRO">
-              <ref role="398BVh" node="2mFg1uCD9pz" resolve="org.campagnelab.goby.workbench.home" />
-              <node concept="2Ry0Ak" id="4Ep9FoyNwn" role="iGT6I">
+            <node concept="55IIr" id="1MD2vcZjTqT" role="28jJRO">
+              <node concept="2Ry0Ak" id="1MD2vcZjTqX" role="iGT6I">
                 <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="4Ep9FoyNJO" role="2Ry0An">
+                <node concept="2Ry0Ak" id="1MD2vcZjTqY" role="2Ry0An">
                   <property role="2Ry0Am" value="hawtbuf-1.9.jar" />
                 </node>
               </node>
             </node>
           </node>
           <node concept="28jJK3" id="4Ep9FoyNXU" role="39821P">
-            <node concept="398BVA" id="4Ep9FoyNXV" role="28jJRO">
-              <ref role="398BVh" node="2mFg1uCD9pz" resolve="org.campagnelab.goby.workbench.home" />
-              <node concept="2Ry0Ak" id="4Ep9FoyNXW" role="iGT6I">
+            <node concept="55IIr" id="1MD2vcZjTth" role="28jJRO">
+              <node concept="2Ry0Ak" id="1MD2vcZjTtl" role="iGT6I">
                 <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="4Ep9FoyOdt" role="2Ry0An">
+                <node concept="2Ry0Ak" id="1MD2vcZjTtm" role="2Ry0An">
                   <property role="2Ry0Am" value="slf4j-api-1.7.5.jar" />
                 </node>
               </node>
             </node>
           </node>
           <node concept="28jJK3" id="5IhcHXK4oeF" role="39821P">
-            <node concept="398BVA" id="5IhcHXK4oeG" role="28jJRO">
-              <ref role="398BVh" node="2mFg1uCD9pz" resolve="org.campagnelab.goby.workbench.home" />
-              <node concept="2Ry0Ak" id="5IhcHXK4ppJ" role="iGT6I">
+            <node concept="55IIr" id="1MD2vcZjTvD" role="28jJRO">
+              <node concept="2Ry0Ak" id="1MD2vcZjTvJ" role="iGT6I">
                 <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="5IhcHXK4pDP" role="2Ry0An">
+                <node concept="2Ry0Ak" id="1MD2vcZjTvK" role="2Ry0An">
                   <property role="2Ry0Am" value="org.campagnelab.lucene.tableviewer" />
-                  <node concept="2Ry0Ak" id="5IhcHXK4pE1" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="1MD2vcZjTvL" role="2Ry0An">
                     <property role="2Ry0Am" value="runtime" />
-                    <node concept="2Ry0Ak" id="5IhcHXK4pE7" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="1MD2vcZjTvM" role="2Ry0An">
                       <property role="2Ry0Am" value="lucene-core-3.6.1.jar" />
                     </node>
                   </node>
@@ -466,15 +443,14 @@
             </node>
           </node>
           <node concept="28jJK3" id="5IhcHXK4pEa" role="39821P">
-            <node concept="398BVA" id="5IhcHXK4pEb" role="28jJRO">
-              <ref role="398BVh" node="2mFg1uCD9pz" resolve="org.campagnelab.goby.workbench.home" />
-              <node concept="2Ry0Ak" id="5IhcHXK4pEc" role="iGT6I">
+            <node concept="55IIr" id="1MD2vcZjTy7" role="28jJRO">
+              <node concept="2Ry0Ak" id="1MD2vcZjTyd" role="iGT6I">
                 <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="5IhcHXK4pEd" role="2Ry0An">
+                <node concept="2Ry0Ak" id="1MD2vcZjTye" role="2Ry0An">
                   <property role="2Ry0Am" value="org.campagnelab.lucene.tableviewer" />
-                  <node concept="2Ry0Ak" id="5IhcHXK4pEe" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="1MD2vcZjTyf" role="2Ry0An">
                     <property role="2Ry0Am" value="runtime" />
-                    <node concept="2Ry0Ak" id="5IhcHXK4pXo" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="1MD2vcZjTyg" role="2Ry0An">
                       <property role="2Ry0Am" value="lucene-1.0-SNAPSHOT.jar" />
                     </node>
                   </node>
@@ -483,13 +459,12 @@
             </node>
           </node>
           <node concept="28jJK3" id="1JYYc6fOcRu" role="39821P">
-            <node concept="398BVA" id="1JYYc6fOcRv" role="28jJRO">
-              <ref role="398BVh" node="2mFg1uCD9pz" resolve="org.campagnelab.goby.workbench.home" />
-              <node concept="2Ry0Ak" id="1JYYc6fOcRw" role="iGT6I">
+            <node concept="55IIr" id="1MD2vcZjT$_" role="28jJRO">
+              <node concept="2Ry0Ak" id="1MD2vcZjT$E" role="iGT6I">
                 <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="4Ep9Foywbx" role="2Ry0An">
+                <node concept="2Ry0Ak" id="1MD2vcZjT$F" role="2Ry0An">
                   <property role="2Ry0Am" value="org.campagnelab.ssh" />
-                  <node concept="2Ry0Ak" id="5IhcHXK3NRW" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="1MD2vcZjT$G" role="2Ry0An">
                     <property role="2Ry0Am" value="jsch-0.1.51.jar" />
                   </node>
                 </node>
@@ -1003,11 +978,10 @@
         </node>
         <node concept="1SiIV0" id="2mFg1uCD9qW" role="3bR37C">
           <node concept="1BurEX" id="2mFg1uCD9qX" role="1SiIV1">
-            <node concept="398BVA" id="2mFg1uCD9qT" role="1BurEY">
-              <ref role="398BVh" node="2mFg1uCD9pz" resolve="org.campagnelab.goby.workbench.home" />
-              <node concept="2Ry0Ak" id="2mFg1uCD9qU" role="iGT6I">
+            <node concept="55IIr" id="6mjl8CMZMIR" role="1BurEY">
+              <node concept="2Ry0Ak" id="6mjl8CMZMIV" role="iGT6I">
                 <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="2mFg1uCD9qV" role="2Ry0An">
+                <node concept="2Ry0Ak" id="6mjl8CMZMIW" role="2Ry0An">
                   <property role="2Ry0Am" value="wildcard-1.03.jar" />
                 </node>
               </node>
@@ -1016,11 +990,10 @@
         </node>
         <node concept="1SiIV0" id="2mFg1uCD9r1" role="3bR37C">
           <node concept="1BurEX" id="2mFg1uCD9r2" role="1SiIV1">
-            <node concept="398BVA" id="2mFg1uCD9qY" role="1BurEY">
-              <ref role="398BVh" node="2mFg1uCD9pz" resolve="org.campagnelab.goby.workbench.home" />
-              <node concept="2Ry0Ak" id="2mFg1uCD9qZ" role="iGT6I">
+            <node concept="55IIr" id="6mjl8CMZMKm" role="1BurEY">
+              <node concept="2Ry0Ak" id="6mjl8CMZMKq" role="iGT6I">
                 <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="2mFg1uCD9r0" role="2Ry0An">
+                <node concept="2Ry0Ak" id="6mjl8CMZMKr" role="2Ry0An">
                   <property role="2Ry0Am" value="commons-io-2.4.jar" />
                 </node>
               </node>
@@ -1029,11 +1002,10 @@
         </node>
         <node concept="1SiIV0" id="2mFg1uCD9r6" role="3bR37C">
           <node concept="1BurEX" id="2mFg1uCD9r7" role="1SiIV1">
-            <node concept="398BVA" id="2mFg1uCD9r3" role="1BurEY">
-              <ref role="398BVh" node="2mFg1uCD9pz" resolve="org.campagnelab.goby.workbench.home" />
-              <node concept="2Ry0Ak" id="2mFg1uCD9r4" role="iGT6I">
+            <node concept="55IIr" id="6mjl8CMZMLP" role="1BurEY">
+              <node concept="2Ry0Ak" id="6mjl8CMZMLT" role="iGT6I">
                 <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="2mFg1uCD9r5" role="2Ry0An">
+                <node concept="2Ry0Ak" id="6mjl8CMZMLU" role="2Ry0An">
                   <property role="2Ry0Am" value="groovy-all-1.8.6.jar" />
                 </node>
               </node>
@@ -1042,11 +1014,10 @@
         </node>
         <node concept="1SiIV0" id="2mFg1uCD9rb" role="3bR37C">
           <node concept="1BurEX" id="2mFg1uCD9rc" role="1SiIV1">
-            <node concept="398BVA" id="2mFg1uCD9r8" role="1BurEY">
-              <ref role="398BVh" node="2mFg1uCD9pz" resolve="org.campagnelab.goby.workbench.home" />
-              <node concept="2Ry0Ak" id="2mFg1uCD9r9" role="iGT6I">
+            <node concept="55IIr" id="6mjl8CMZMNk" role="1BurEY">
+              <node concept="2Ry0Ak" id="6mjl8CMZMNo" role="iGT6I">
                 <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="2mFg1uCD9ra" role="2Ry0An">
+                <node concept="2Ry0Ak" id="6mjl8CMZMNp" role="2Ry0An">
                   <property role="2Ry0Am" value="fastutil-6.4.4.jar" />
                 </node>
               </node>
@@ -1055,11 +1026,10 @@
         </node>
         <node concept="1SiIV0" id="2mFg1uCD9rg" role="3bR37C">
           <node concept="1BurEX" id="2mFg1uCD9rh" role="1SiIV1">
-            <node concept="398BVA" id="2mFg1uCD9rd" role="1BurEY">
-              <ref role="398BVh" node="2mFg1uCD9pz" resolve="org.campagnelab.goby.workbench.home" />
-              <node concept="2Ry0Ak" id="2mFg1uCD9re" role="iGT6I">
+            <node concept="55IIr" id="6mjl8CMZMON" role="1BurEY">
+              <node concept="2Ry0Ak" id="6mjl8CMZMOR" role="iGT6I">
                 <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="2mFg1uCD9rf" role="2Ry0An">
+                <node concept="2Ry0Ak" id="6mjl8CMZMOS" role="2Ry0An">
                   <property role="2Ry0Am" value="option-validation-language-2.1.0.jar" />
                 </node>
               </node>
@@ -1068,11 +1038,10 @@
         </node>
         <node concept="1SiIV0" id="2mFg1uCD9rl" role="3bR37C">
           <node concept="1BurEX" id="2mFg1uCD9rm" role="1SiIV1">
-            <node concept="398BVA" id="2mFg1uCD9ri" role="1BurEY">
-              <ref role="398BVh" node="2mFg1uCD9pz" resolve="org.campagnelab.goby.workbench.home" />
-              <node concept="2Ry0Ak" id="2mFg1uCD9rj" role="iGT6I">
+            <node concept="55IIr" id="6mjl8CMZMQi" role="1BurEY">
+              <node concept="2Ry0Ak" id="6mjl8CMZMQm" role="iGT6I">
                 <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="2mFg1uCD9rk" role="2Ry0An">
+                <node concept="2Ry0Ak" id="6mjl8CMZMQn" role="2Ry0An">
                   <property role="2Ry0Am" value="scala-library-2.9.2.jar" />
                 </node>
               </node>
@@ -1081,11 +1050,10 @@
         </node>
         <node concept="1SiIV0" id="2mFg1uCD9rq" role="3bR37C">
           <node concept="1BurEX" id="2mFg1uCD9rr" role="1SiIV1">
-            <node concept="398BVA" id="2mFg1uCD9rn" role="1BurEY">
-              <ref role="398BVh" node="2mFg1uCD9pz" resolve="org.campagnelab.goby.workbench.home" />
-              <node concept="2Ry0Ak" id="2mFg1uCD9ro" role="iGT6I">
+            <node concept="55IIr" id="6mjl8CMZMRL" role="1BurEY">
+              <node concept="2Ry0Ak" id="6mjl8CMZMRP" role="iGT6I">
                 <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="2mFg1uCD9rp" role="2Ry0An">
+                <node concept="2Ry0Ak" id="6mjl8CMZMRQ" role="2Ry0An">
                   <property role="2Ry0Am" value="dsiutils-2.0.7.jar" />
                 </node>
               </node>
@@ -1094,11 +1062,10 @@
         </node>
         <node concept="1SiIV0" id="2mFg1uCD9rv" role="3bR37C">
           <node concept="1BurEX" id="2mFg1uCD9rw" role="1SiIV1">
-            <node concept="398BVA" id="2mFg1uCD9rs" role="1BurEY">
-              <ref role="398BVh" node="2mFg1uCD9pz" resolve="org.campagnelab.goby.workbench.home" />
-              <node concept="2Ry0Ak" id="2mFg1uCD9rt" role="iGT6I">
+            <node concept="55IIr" id="6mjl8CMZMTg" role="1BurEY">
+              <node concept="2Ry0Ak" id="6mjl8CMZMTk" role="iGT6I">
                 <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="2mFg1uCD9ru" role="2Ry0An">
+                <node concept="2Ry0Ak" id="6mjl8CMZMTl" role="2Ry0An">
                   <property role="2Ry0Am" value="org.campagnelab.stepslogger-1.1.0.jar" />
                 </node>
               </node>
@@ -1107,11 +1074,10 @@
         </node>
         <node concept="1SiIV0" id="2mFg1uCD9r$" role="3bR37C">
           <node concept="1BurEX" id="2mFg1uCD9r_" role="1SiIV1">
-            <node concept="398BVA" id="2mFg1uCD9rx" role="1BurEY">
-              <ref role="398BVh" node="2mFg1uCD9pz" resolve="org.campagnelab.goby.workbench.home" />
-              <node concept="2Ry0Ak" id="2mFg1uCD9ry" role="iGT6I">
+            <node concept="55IIr" id="6mjl8CMZMUJ" role="1BurEY">
+              <node concept="2Ry0Ak" id="6mjl8CMZMUN" role="iGT6I">
                 <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="2mFg1uCD9rz" role="2Ry0An">
+                <node concept="2Ry0Ak" id="6mjl8CMZMUO" role="2Ry0An">
                   <property role="2Ry0Am" value="nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
                 </node>
               </node>
@@ -1120,11 +1086,10 @@
         </node>
         <node concept="1SiIV0" id="2mFg1uCD9rD" role="3bR37C">
           <node concept="1BurEX" id="2mFg1uCD9rE" role="1SiIV1">
-            <node concept="398BVA" id="2mFg1uCD9rA" role="1BurEY">
-              <ref role="398BVh" node="2mFg1uCD9pz" resolve="org.campagnelab.goby.workbench.home" />
-              <node concept="2Ry0Ak" id="2mFg1uCD9rB" role="iGT6I">
+            <node concept="55IIr" id="6mjl8CMZMWe" role="1BurEY">
+              <node concept="2Ry0Ak" id="6mjl8CMZMWi" role="iGT6I">
                 <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="2mFg1uCD9rC" role="2Ry0An">
+                <node concept="2Ry0Ak" id="6mjl8CMZMWj" role="2Ry0An">
                   <property role="2Ry0Am" value="artifacts-2.3.0.jar" />
                 </node>
               </node>
@@ -1133,11 +1098,10 @@
         </node>
         <node concept="1SiIV0" id="2mFg1uCD9rI" role="3bR37C">
           <node concept="1BurEX" id="2mFg1uCD9rJ" role="1SiIV1">
-            <node concept="398BVA" id="2mFg1uCD9rF" role="1BurEY">
-              <ref role="398BVh" node="2mFg1uCD9pz" resolve="org.campagnelab.goby.workbench.home" />
-              <node concept="2Ry0Ak" id="2mFg1uCD9rG" role="iGT6I">
+            <node concept="55IIr" id="6mjl8CMZMXH" role="1BurEY">
+              <node concept="2Ry0Ak" id="6mjl8CMZMXL" role="iGT6I">
                 <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="2mFg1uCD9rH" role="2Ry0An">
+                <node concept="2Ry0Ak" id="6mjl8CMZMXM" role="2Ry0An">
                   <property role="2Ry0Am" value="filesets-1.3.0-SNAPSHOT.jar" />
                 </node>
               </node>
@@ -1146,11 +1110,10 @@
         </node>
         <node concept="1SiIV0" id="2mFg1uCD9rN" role="3bR37C">
           <node concept="1BurEX" id="2mFg1uCD9rO" role="1SiIV1">
-            <node concept="398BVA" id="2mFg1uCD9rK" role="1BurEY">
-              <ref role="398BVh" node="2mFg1uCD9pz" resolve="org.campagnelab.goby.workbench.home" />
-              <node concept="2Ry0Ak" id="2mFg1uCD9rL" role="iGT6I">
+            <node concept="55IIr" id="6mjl8CMZMZc" role="1BurEY">
+              <node concept="2Ry0Ak" id="6mjl8CMZMZg" role="iGT6I">
                 <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="2mFg1uCD9rM" role="2Ry0An">
+                <node concept="2Ry0Ak" id="6mjl8CMZMZh" role="2Ry0An">
                   <property role="2Ry0Am" value="serverside-dependencies-1.0.10-full.jar" />
                 </node>
               </node>
@@ -1159,11 +1122,10 @@
         </node>
         <node concept="1SiIV0" id="2mFg1uCD9rS" role="3bR37C">
           <node concept="1BurEX" id="2mFg1uCD9rT" role="1SiIV1">
-            <node concept="398BVA" id="2mFg1uCD9rP" role="1BurEY">
-              <ref role="398BVh" node="2mFg1uCD9pz" resolve="org.campagnelab.goby.workbench.home" />
-              <node concept="2Ry0Ak" id="2mFg1uCD9rQ" role="iGT6I">
+            <node concept="55IIr" id="6mjl8CMZN0F" role="1BurEY">
+              <node concept="2Ry0Ak" id="6mjl8CMZN0J" role="iGT6I">
                 <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="2mFg1uCD9rR" role="2Ry0An">
+                <node concept="2Ry0Ak" id="6mjl8CMZN0K" role="2Ry0An">
                   <property role="2Ry0Am" value="plugins-2.5.0-SNAPSHOT.jar" />
                 </node>
               </node>
@@ -1172,11 +1134,10 @@
         </node>
         <node concept="1SiIV0" id="2mFg1uCD9rX" role="3bR37C">
           <node concept="1BurEX" id="2mFg1uCD9rY" role="1SiIV1">
-            <node concept="398BVA" id="2mFg1uCD9rU" role="1BurEY">
-              <ref role="398BVh" node="2mFg1uCD9pz" resolve="org.campagnelab.goby.workbench.home" />
-              <node concept="2Ry0Ak" id="2mFg1uCD9rV" role="iGT6I">
+            <node concept="55IIr" id="6mjl8CMZN2a" role="1BurEY">
+              <node concept="2Ry0Ak" id="6mjl8CMZN2e" role="iGT6I">
                 <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="2mFg1uCD9rW" role="2Ry0An">
+                <node concept="2Ry0Ak" id="6mjl8CMZN2f" role="2Ry0An">
                   <property role="2Ry0Am" value="activemq-client-5.9.1.jar" />
                 </node>
               </node>
@@ -1185,11 +1146,10 @@
         </node>
         <node concept="1SiIV0" id="2mFg1uCD9s2" role="3bR37C">
           <node concept="1BurEX" id="2mFg1uCD9s3" role="1SiIV1">
-            <node concept="398BVA" id="2mFg1uCD9rZ" role="1BurEY">
-              <ref role="398BVh" node="2mFg1uCD9pz" resolve="org.campagnelab.goby.workbench.home" />
-              <node concept="2Ry0Ak" id="2mFg1uCD9s0" role="iGT6I">
+            <node concept="55IIr" id="6mjl8CMZN3D" role="1BurEY">
+              <node concept="2Ry0Ak" id="6mjl8CMZN3H" role="iGT6I">
                 <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="2mFg1uCD9s1" role="2Ry0An">
+                <node concept="2Ry0Ak" id="6mjl8CMZN3I" role="2Ry0An">
                   <property role="2Ry0Am" value="geronimo-jms_1.1_spec-1.1.1.jar" />
                 </node>
               </node>
@@ -1198,11 +1158,10 @@
         </node>
         <node concept="1SiIV0" id="2mFg1uCD9s7" role="3bR37C">
           <node concept="1BurEX" id="2mFg1uCD9s8" role="1SiIV1">
-            <node concept="398BVA" id="2mFg1uCD9s4" role="1BurEY">
-              <ref role="398BVh" node="2mFg1uCD9pz" resolve="org.campagnelab.goby.workbench.home" />
-              <node concept="2Ry0Ak" id="2mFg1uCD9s5" role="iGT6I">
+            <node concept="55IIr" id="6mjl8CMZN58" role="1BurEY">
+              <node concept="2Ry0Ak" id="6mjl8CMZN5c" role="iGT6I">
                 <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="2mFg1uCD9s6" role="2Ry0An">
+                <node concept="2Ry0Ak" id="6mjl8CMZN5d" role="2Ry0An">
                   <property role="2Ry0Am" value="mercury-api-1.0-SNAPSHOT.jar" />
                 </node>
               </node>
@@ -1211,11 +1170,10 @@
         </node>
         <node concept="1SiIV0" id="2mFg1uCD9sc" role="3bR37C">
           <node concept="1BurEX" id="2mFg1uCD9sd" role="1SiIV1">
-            <node concept="398BVA" id="2mFg1uCD9s9" role="1BurEY">
-              <ref role="398BVh" node="2mFg1uCD9pz" resolve="org.campagnelab.goby.workbench.home" />
-              <node concept="2Ry0Ak" id="2mFg1uCD9sa" role="iGT6I">
+            <node concept="55IIr" id="6mjl8CMZN86" role="1BurEY">
+              <node concept="2Ry0Ak" id="6mjl8CMZN8a" role="iGT6I">
                 <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="2mFg1uCD9sb" role="2Ry0An">
+                <node concept="2Ry0Ak" id="6mjl8CMZN8b" role="2Ry0An">
                   <property role="2Ry0Am" value="geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
                 </node>
               </node>
@@ -1224,11 +1182,10 @@
         </node>
         <node concept="1SiIV0" id="2mFg1uCD9sh" role="3bR37C">
           <node concept="1BurEX" id="2mFg1uCD9si" role="1SiIV1">
-            <node concept="398BVA" id="2mFg1uCD9se" role="1BurEY">
-              <ref role="398BVh" node="2mFg1uCD9pz" resolve="org.campagnelab.goby.workbench.home" />
-              <node concept="2Ry0Ak" id="2mFg1uCD9sf" role="iGT6I">
+            <node concept="55IIr" id="6mjl8CMZN6B" role="1BurEY">
+              <node concept="2Ry0Ak" id="6mjl8CMZN6F" role="iGT6I">
                 <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="2mFg1uCD9sg" role="2Ry0An">
+                <node concept="2Ry0Ak" id="6mjl8CMZN6G" role="2Ry0An">
                   <property role="2Ry0Am" value="hawtbuf-1.9.jar" />
                 </node>
               </node>
@@ -1237,11 +1194,10 @@
         </node>
         <node concept="1SiIV0" id="2mFg1uCD9sm" role="3bR37C">
           <node concept="1BurEX" id="2mFg1uCD9sn" role="1SiIV1">
-            <node concept="398BVA" id="2mFg1uCD9sj" role="1BurEY">
-              <ref role="398BVh" node="2mFg1uCD9pz" resolve="org.campagnelab.goby.workbench.home" />
-              <node concept="2Ry0Ak" id="2mFg1uCD9sk" role="iGT6I">
+            <node concept="55IIr" id="6mjl8CMZN9_" role="1BurEY">
+              <node concept="2Ry0Ak" id="6mjl8CMZN9D" role="iGT6I">
                 <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="2mFg1uCD9sl" role="2Ry0An">
+                <node concept="2Ry0Ak" id="6mjl8CMZN9E" role="2Ry0An">
                   <property role="2Ry0Am" value="slf4j-api-1.7.5.jar" />
                 </node>
               </node>
