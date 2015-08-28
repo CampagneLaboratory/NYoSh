@@ -136,6 +136,11 @@
     <language id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" fqName="jetbrains.mps.lang.traceable" version="0" />
     <language id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" fqName="jetbrains.mps.lang.typesystem" version="0" />
     <language id="20d83b64-d10f-48d1-990d-513b574c4956" fqName="org.campagnelab.background" version="0" />
+    <language id="166cc73c-4d0f-4757-a007-8527cb58de2e" fqName="org.campagnelab.bio.species" version="0" />
+    <language id="853d29f2-dbd7-4a64-a6cd-27608b08e948" fqName="org.campagnelab.gobyweb.interactive.mappings" version="0" />
+    <language id="57af9408-ffae-472e-9367-5cb44434e8b3" fqName="org.campagnelab.gobyweb.interactive.users" version="0" />
+    <language id="82ffebe3-3685-4fd9-b560-0c1d348d295c" fqName="org.campagnelab.logger" version="0" />
+    <language id="a5ff6f1b-885e-4f1e-be7d-09432bfbf851" fqName="org.campagnelab.lucene.tableviewer" version="0" />
     <language id="5ec1cd3d-0a50-4049-a8fa-ae768d7baa25" fqName="org.campagnelab.mps.XChart" version="0" />
     <language id="ecf91126-e504-4aae-8ee7-3192d64e77f6" fqName="org.campagnelab.mps.XChart.types" version="0" />
     <language id="c6567f13-87ab-4686-8f6f-42e8228c0e27" fqName="org.campagnelab.nyosh.gstring" version="0" />
