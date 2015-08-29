@@ -61,9 +61,25 @@
     </generator>
   </generators>
   <stubModelEntries>
-    <stubModelEntry path="${module}/mercury-api-1.0-SNAPSHOT.jar" />
+    <stubModelEntry path="${module}/activemq-client-5.9.1.jar" />
     <stubModelEntry path="${module}/fastutil-6.4.4.jar" />
     <stubModelEntry path="${module}/dsiutils-2.0.7.jar" />
+    <stubModelEntry path="${module}/mercury-api-1.0-SNAPSHOT.jar" />
+    <stubModelEntry path="${module}/artifacts-2.3.0.jar" />
+    <stubModelEntry path="${module}/commons-io-2.4.jar" />
+    <stubModelEntry path="${module}/filesets-1.3.0-SNAPSHOT.jar" />
+    <stubModelEntry path="${module}/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
+    <stubModelEntry path="${module}/geronimo-jms_1.1_spec-1.1.1.jar" />
+    <stubModelEntry path="${module}/groovy-all-1.8.6.jar" />
+    <stubModelEntry path="${module}/hawtbuf-1.9.jar" />
+    <stubModelEntry path="${module}/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
+    <stubModelEntry path="${module}/option-validation-language-2.1.0.jar" />
+    <stubModelEntry path="${module}/wildcard-1.03.jar" />
+    <stubModelEntry path="${module}/slf4j-api-1.7.5.jar" />
+    <stubModelEntry path="${module}/serverside-dependencies-1.0.10-full.jar" />
+    <stubModelEntry path="${module}/scala-library-2.9.2.jar" />
+    <stubModelEntry path="${module}/org.campagnelab.stepslogger-1.1.0.jar" />
+    <stubModelEntry path="${module}/plugins-2.5.0-SNAPSHOT.jar" />
   </stubModelEntries>
   <sourcePath />
   <usedLanguages>

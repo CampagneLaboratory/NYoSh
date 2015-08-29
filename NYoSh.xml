@@ -346,19 +346,18 @@
         <library jar="../../artifacts-2.3.0.jar" />
         <library jar="../../commons-io-2.4.jar" />
         <library jar="../../filesets-1.3.0-SNAPSHOT.jar" />
-        <library jar="../../activemq-client-5.9.1.jar" />
         <library jar="../../geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
         <library jar="../../geronimo-jms_1.1_spec-1.1.1.jar" />
         <library jar="../../groovy-all-1.8.6.jar" />
         <library jar="../../hawtbuf-1.9.jar" />
         <library jar="../../nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
         <library jar="../../option-validation-language-2.1.0.jar" />
+        <library jar="../../wildcard-1.03.jar" />
+        <library jar="../../slf4j-api-1.7.5.jar" />
+        <library jar="../../serverside-dependencies-1.0.10-full.jar" />
+        <library jar="../../scala-library-2.9.2.jar" />
         <library jar="../../org.campagnelab.stepslogger-1.1.0.jar" />
         <library jar="../../plugins-2.5.0-SNAPSHOT.jar" />
-        <library jar="../../scala-library-2.9.2.jar" />
-        <library jar="../../serverside-dependencies-1.0.10-full.jar" />
-        <library jar="../../slf4j-api-1.7.5.jar" />
-        <library jar="../../wildcard-1.03.jar" />
         <sources jar="org.campagnelab.nyosh.lib-src.jar" descriptor="org.campagnelab.nyosh.lib.mpl" />
       </module>
     </echoxml>
@@ -567,10 +566,10 @@
   <target name="buildDependents" />
   
   <target name="fetchDependencies">
-    <mkdir dir="${build.tmp}/deps/org.campagnelab.Logger/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip" />
-    <unzip src="${artifacts.org.campagnelab.Logger}/org.campagnelab.logger-${org.campagnelab.Logger.logger.version}.zip" dest="${build.tmp}/deps/org.campagnelab.Logger/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip" />
     <mkdir dir="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip" />
     <unzip src="${artifacts.org.campagnelab.mps.UI}/org.campagnelab.UI-${org.campagnelab.mps.UI.ui_version}.zip" dest="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip" />
+    <mkdir dir="${build.tmp}/deps/org.campagnelab.Logger/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip" />
+    <unzip src="${artifacts.org.campagnelab.Logger}/org.campagnelab.logger-${org.campagnelab.Logger.logger.version}.zip" dest="${build.tmp}/deps/org.campagnelab.Logger/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip" />
   </target>
   
   <target name="build" depends="assemble" />
@@ -732,12 +731,12 @@
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/hawtbuf-1.9.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/option-validation-language-2.1.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/wildcard-1.03.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/scala-library-2.9.2.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/org.campagnelab.stepslogger-1.1.0.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/scala-library-2.9.2.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/slf4j-api-1.7.5.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/wildcard-1.03.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
@@ -789,12 +788,12 @@
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/hawtbuf-1.9.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/option-validation-language-2.1.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/wildcard-1.03.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/scala-library-2.9.2.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/org.campagnelab.stepslogger-1.1.0.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/scala-library-2.9.2.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/slf4j-api-1.7.5.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/wildcard-1.03.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
@@ -856,12 +855,12 @@
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/hawtbuf-1.9.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/option-validation-language-2.1.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/wildcard-1.03.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/scala-library-2.9.2.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/org.campagnelab.stepslogger-1.1.0.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/scala-library-2.9.2.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/slf4j-api-1.7.5.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/wildcard-1.03.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
@@ -944,12 +943,12 @@
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/hawtbuf-1.9.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/option-validation-language-2.1.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/wildcard-1.03.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/scala-library-2.9.2.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/org.campagnelab.stepslogger-1.1.0.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/scala-library-2.9.2.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/slf4j-api-1.7.5.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/wildcard-1.03.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.gstring" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.lib" />
       </classpath>
@@ -1081,12 +1080,12 @@
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/hawtbuf-1.9.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/option-validation-language-2.1.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/wildcard-1.03.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/scala-library-2.9.2.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/org.campagnelab.stepslogger-1.1.0.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/scala-library-2.9.2.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/slf4j-api-1.7.5.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/wildcard-1.03.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
@@ -1153,12 +1152,12 @@
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/hawtbuf-1.9.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/option-validation-language-2.1.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/wildcard-1.03.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/scala-library-2.9.2.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/org.campagnelab.stepslogger-1.1.0.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/scala-library-2.9.2.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/slf4j-api-1.7.5.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/wildcard-1.03.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
@@ -1222,12 +1221,12 @@
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/hawtbuf-1.9.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/option-validation-language-2.1.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/wildcard-1.03.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/scala-library-2.9.2.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/org.campagnelab.stepslogger-1.1.0.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/scala-library-2.9.2.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/slf4j-api-1.7.5.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/wildcard-1.03.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
@@ -1323,12 +1322,12 @@
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/hawtbuf-1.9.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/option-validation-language-2.1.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/wildcard-1.03.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/scala-library-2.9.2.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/org.campagnelab.stepslogger-1.1.0.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/scala-library-2.9.2.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/slf4j-api-1.7.5.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/wildcard-1.03.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
@@ -1379,12 +1378,12 @@
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/hawtbuf-1.9.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/option-validation-language-2.1.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/wildcard-1.03.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/scala-library-2.9.2.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/org.campagnelab.stepslogger-1.1.0.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/scala-library-2.9.2.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/slf4j-api-1.7.5.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/wildcard-1.03.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
@@ -1435,12 +1434,12 @@
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/hawtbuf-1.9.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/option-validation-language-2.1.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/wildcard-1.03.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/scala-library-2.9.2.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/org.campagnelab.stepslogger-1.1.0.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/scala-library-2.9.2.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/slf4j-api-1.7.5.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/wildcard-1.03.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
@@ -1492,12 +1491,12 @@
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/hawtbuf-1.9.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/option-validation-language-2.1.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/wildcard-1.03.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/scala-library-2.9.2.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/org.campagnelab.stepslogger-1.1.0.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/scala-library-2.9.2.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/slf4j-api-1.7.5.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/wildcard-1.03.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
@@ -1554,12 +1553,12 @@
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/hawtbuf-1.9.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/option-validation-language-2.1.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/wildcard-1.03.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/scala-library-2.9.2.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/org.campagnelab.stepslogger-1.1.0.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/scala-library-2.9.2.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/slf4j-api-1.7.5.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/wildcard-1.03.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
@@ -1690,12 +1689,12 @@
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/hawtbuf-1.9.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/option-validation-language-2.1.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/wildcard-1.03.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/scala-library-2.9.2.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/org.campagnelab.stepslogger-1.1.0.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/scala-library-2.9.2.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/slf4j-api-1.7.5.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/wildcard-1.03.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.unitTest.libs/bsh-core-2.0b4.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.unitTest.libs/cglib-nodep-2.1_3.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.unitTest.libs/hamcrest-core-1.1.jar" />
