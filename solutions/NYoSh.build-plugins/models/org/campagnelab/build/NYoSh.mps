@@ -236,196 +236,6 @@
         </node>
         <node concept="m$_wl" id="2mFg1uCD9qu" role="39821P">
           <ref role="m_rDy" node="2mFg1uCD9qh" resolve="org.campagnelab.NYoSh" />
-          <node concept="28jJK3" id="5PCt8rJDa66" role="39821P">
-            <node concept="55IIr" id="1MD2vcZjSMo" role="28jJRO">
-              <node concept="2Ry0Ak" id="1MD2vcZjSMs" role="iGT6I">
-                <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="1MD2vcZjSMt" role="2Ry0An">
-                  <property role="2Ry0Am" value="nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="28jJK3" id="4RUDtMaCaGg" role="39821P">
-            <node concept="55IIr" id="1MD2vcZjSOK" role="28jJRO">
-              <node concept="2Ry0Ak" id="1MD2vcZjSOO" role="iGT6I">
-                <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="1MD2vcZjSOP" role="2Ry0An">
-                  <property role="2Ry0Am" value="serverside-dependencies-1.0.10-full.jar" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="28jJK3" id="1Mp0tSBLUfn" role="39821P">
-            <node concept="55IIr" id="1MD2vcZjSR8" role="28jJRO">
-              <node concept="2Ry0Ak" id="1MD2vcZjSRc" role="iGT6I">
-                <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="1MD2vcZjSRd" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.stepslogger-1.1.0.jar" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="28jJK3" id="7ZtxWZ7EgZT" role="39821P">
-            <node concept="55IIr" id="1MD2vcZjSTw" role="28jJRO">
-              <node concept="2Ry0Ak" id="1MD2vcZjST$" role="iGT6I">
-                <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="1MD2vcZjST_" role="2Ry0An">
-                  <property role="2Ry0Am" value="commons-io-2.4.jar" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="28jJK3" id="5PCt8rJCVWw" role="39821P">
-            <node concept="55IIr" id="1MD2vcZjSVS" role="28jJRO">
-              <node concept="2Ry0Ak" id="1MD2vcZjSVW" role="iGT6I">
-                <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="1MD2vcZjSVX" role="2Ry0An">
-                  <property role="2Ry0Am" value="wildcard-1.03.jar" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="28jJK3" id="7ZtxWZ7Fe3U" role="39821P">
-            <node concept="55IIr" id="1MD2vcZjSYg" role="28jJRO">
-              <node concept="2Ry0Ak" id="1MD2vcZjSYk" role="iGT6I">
-                <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="1MD2vcZjSYl" role="2Ry0An">
-                  <property role="2Ry0Am" value="plugins-2.5.0-SNAPSHOT.jar" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="28jJK3" id="5_tHT9P8zg" role="39821P">
-            <node concept="55IIr" id="1MD2vcZjT0L" role="28jJRO">
-              <node concept="2Ry0Ak" id="1MD2vcZjT0P" role="iGT6I">
-                <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="1MD2vcZjT0Q" role="2Ry0An">
-                  <property role="2Ry0Am" value="filesets-1.3.0-SNAPSHOT.jar" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="28jJK3" id="5_tHT9PQKr" role="39821P">
-            <node concept="55IIr" id="1MD2vcZjT39" role="28jJRO">
-              <node concept="2Ry0Ak" id="1MD2vcZjT3d" role="iGT6I">
-                <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="1MD2vcZjT3e" role="2Ry0An">
-                  <property role="2Ry0Am" value="groovy-all-1.8.6.jar" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="28jJK3" id="5_tHT9PSVR" role="39821P">
-            <node concept="55IIr" id="1MD2vcZjT5x" role="28jJRO">
-              <node concept="2Ry0Ak" id="1MD2vcZjT5_" role="iGT6I">
-                <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="1MD2vcZjT5A" role="2Ry0An">
-                  <property role="2Ry0Am" value="artifacts-2.3.0.jar" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="28jJK3" id="E22kqJdzk$" role="39821P">
-            <node concept="55IIr" id="1MD2vcZjT7T" role="28jJRO">
-              <node concept="2Ry0Ak" id="1MD2vcZjT7X" role="iGT6I">
-                <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="1MD2vcZjT7Y" role="2Ry0An">
-                  <property role="2Ry0Am" value="dsiutils-2.0.7.jar" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="28jJK3" id="5_tHT9Q8Ov" role="39821P">
-            <node concept="55IIr" id="1MD2vcZjTah" role="28jJRO">
-              <node concept="2Ry0Ak" id="1MD2vcZjTal" role="iGT6I">
-                <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="1MD2vcZjTam" role="2Ry0An">
-                  <property role="2Ry0Am" value="fastutil-6.4.4.jar" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="28jJK3" id="5_tHT9QjzQ" role="39821P">
-            <node concept="55IIr" id="1MD2vcZjTcD" role="28jJRO">
-              <node concept="2Ry0Ak" id="1MD2vcZjTcH" role="iGT6I">
-                <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="1MD2vcZjTcI" role="2Ry0An">
-                  <property role="2Ry0Am" value="option-validation-language-2.1.0.jar" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="28jJK3" id="5_tHT9QpkN" role="39821P">
-            <node concept="55IIr" id="1MD2vcZjTf1" role="28jJRO">
-              <node concept="2Ry0Ak" id="1MD2vcZjTf5" role="iGT6I">
-                <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="1MD2vcZjTf6" role="2Ry0An">
-                  <property role="2Ry0Am" value="scala-library-2.9.2.jar" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="28jJK3" id="1JYYc6fOc7H" role="39821P">
-            <node concept="55IIr" id="1MD2vcZjThp" role="28jJRO">
-              <node concept="2Ry0Ak" id="1MD2vcZjTht" role="iGT6I">
-                <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="1MD2vcZjThu" role="2Ry0An">
-                  <property role="2Ry0Am" value="mercury-api-1.0-SNAPSHOT.jar" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="28jJK3" id="1JYYc6fOcQ6" role="39821P">
-            <node concept="55IIr" id="1MD2vcZjTjL" role="28jJRO">
-              <node concept="2Ry0Ak" id="1MD2vcZjTjP" role="iGT6I">
-                <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="1MD2vcZjTjQ" role="2Ry0An">
-                  <property role="2Ry0Am" value="activemq-client-5.9.1.jar" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="28jJK3" id="4Ep9FoywpF" role="39821P">
-            <node concept="55IIr" id="1MD2vcZjTm9" role="28jJRO">
-              <node concept="2Ry0Ak" id="1MD2vcZjTmd" role="iGT6I">
-                <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="1MD2vcZjTme" role="2Ry0An">
-                  <property role="2Ry0Am" value="geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="28jJK3" id="4Ep9FoywR8" role="39821P">
-            <node concept="55IIr" id="1MD2vcZjTox" role="28jJRO">
-              <node concept="2Ry0Ak" id="1MD2vcZjTo_" role="iGT6I">
-                <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="1MD2vcZjToA" role="2Ry0An">
-                  <property role="2Ry0Am" value="geronimo-jms_1.1_spec-1.1.1.jar" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="28jJK3" id="4Ep9FoyNwl" role="39821P">
-            <node concept="55IIr" id="1MD2vcZjTqT" role="28jJRO">
-              <node concept="2Ry0Ak" id="1MD2vcZjTqX" role="iGT6I">
-                <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="1MD2vcZjTqY" role="2Ry0An">
-                  <property role="2Ry0Am" value="hawtbuf-1.9.jar" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="28jJK3" id="4Ep9FoyNXU" role="39821P">
-            <node concept="55IIr" id="1MD2vcZjTth" role="28jJRO">
-              <node concept="2Ry0Ak" id="1MD2vcZjTtl" role="iGT6I">
-                <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="1MD2vcZjTtm" role="2Ry0An">
-                  <property role="2Ry0Am" value="slf4j-api-1.7.5.jar" />
-                </node>
-              </node>
-            </node>
-          </node>
           <node concept="28jJK3" id="5IhcHXK4oeF" role="39821P">
             <node concept="55IIr" id="1MD2vcZjTvD" role="28jJRO">
               <node concept="2Ry0Ak" id="1MD2vcZjTvJ" role="iGT6I">
@@ -466,6 +276,253 @@
                   <property role="2Ry0Am" value="org.campagnelab.ssh" />
                   <node concept="2Ry0Ak" id="1MD2vcZjT$G" role="2Ry0An">
                     <property role="2Ry0Am" value="jsch-0.1.51.jar" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="28jJK3" id="8cuIHOASPJ" role="39821P">
+            <node concept="55IIr" id="8cuIHOAT5M" role="28jJRO">
+              <node concept="2Ry0Ak" id="8cuIHOAThu" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="8cuIHOAThB" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.campagnelab.nyosh.lib" />
+                  <node concept="2Ry0Ak" id="8cuIHOAThK" role="2Ry0An">
+                    <property role="2Ry0Am" value="activemq-client-5.9.1.jar" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="28jJK3" id="8cuIHOATC5" role="39821P">
+            <node concept="55IIr" id="8cuIHOATC7" role="28jJRO">
+              <node concept="2Ry0Ak" id="8cuIHOATSs" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="8cuIHOATS_" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.campagnelab.nyosh.lib" />
+                  <node concept="2Ry0Ak" id="8cuIHOATSI" role="2Ry0An">
+                    <property role="2Ry0Am" value="artifacts-2.3.0.jar" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="28jJK3" id="8cuIHOB5NT" role="39821P">
+            <node concept="55IIr" id="8cuIHOB5NV" role="28jJRO">
+              <node concept="2Ry0Ak" id="8cuIHOB64v" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="8cuIHOB64C" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.campagnelab.nyosh.lib" />
+                  <node concept="2Ry0Ak" id="8cuIHOB64L" role="2Ry0An">
+                    <property role="2Ry0Am" value="commons-io-2.4.jar" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="28jJK3" id="8cuIHOB6lv" role="39821P">
+            <node concept="55IIr" id="8cuIHOB6lx" role="28jJRO">
+              <node concept="2Ry0Ak" id="8cuIHOB6Ak" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="8cuIHOB6At" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.campagnelab.nyosh.lib" />
+                  <node concept="2Ry0Ak" id="8cuIHOB6AA" role="2Ry0An">
+                    <property role="2Ry0Am" value="dsiutils-2.0.7.jar" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="28jJK3" id="8cuIHOB6G1" role="39821P">
+            <node concept="55IIr" id="8cuIHOB6G3" role="28jJRO">
+              <node concept="2Ry0Ak" id="8cuIHOB6X5" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="8cuIHOB6Xe" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.campagnelab.nyosh.lib" />
+                  <node concept="2Ry0Ak" id="8cuIHOB6Xn" role="2Ry0An">
+                    <property role="2Ry0Am" value="fastutil-6.4.4.jar" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="28jJK3" id="8cuIHOB7ez" role="39821P">
+            <node concept="55IIr" id="8cuIHOB7e_" role="28jJRO">
+              <node concept="2Ry0Ak" id="8cuIHOB7vQ" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="8cuIHOB7vZ" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.campagnelab.nyosh.lib" />
+                  <node concept="2Ry0Ak" id="8cuIHOB7w8" role="2Ry0An">
+                    <property role="2Ry0Am" value="filesets-1.3.0-SNAPSHOT.jar" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="28jJK3" id="8cuIHOB7A1" role="39821P">
+            <node concept="55IIr" id="8cuIHOB7A3" role="28jJRO">
+              <node concept="2Ry0Ak" id="8cuIHOB7Rz" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="8cuIHOB7RG" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.campagnelab.nyosh.lib" />
+                  <node concept="2Ry0Ak" id="8cuIHOB7RP" role="2Ry0An">
+                    <property role="2Ry0Am" value="geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="28jJK3" id="8cuIHOB89v" role="39821P">
+            <node concept="55IIr" id="8cuIHOB89x" role="28jJRO">
+              <node concept="2Ry0Ak" id="8cuIHOB8rg" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="8cuIHOB8rp" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.campagnelab.nyosh.lib" />
+                  <node concept="2Ry0Ak" id="8cuIHOB8ry" role="2Ry0An">
+                    <property role="2Ry0Am" value="geronimo-jms_1.1_spec-1.1.1.jar" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="28jJK3" id="8cuIHOB8Hr" role="39821P">
+            <node concept="55IIr" id="8cuIHOB8Ht" role="28jJRO">
+              <node concept="2Ry0Ak" id="8cuIHOB8Zr" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="8cuIHOB8Z$" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.campagnelab.nyosh.lib" />
+                  <node concept="2Ry0Ak" id="8cuIHOB8ZH" role="2Ry0An">
+                    <property role="2Ry0Am" value="groovy-all-1.8.6.jar" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="28jJK3" id="8cuIHOB9hP" role="39821P">
+            <node concept="55IIr" id="8cuIHOB9hR" role="28jJRO">
+              <node concept="2Ry0Ak" id="8cuIHOB9$4" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="8cuIHOB9$d" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.campagnelab.nyosh.lib" />
+                  <node concept="2Ry0Ak" id="8cuIHOB9$m" role="2Ry0An">
+                    <property role="2Ry0Am" value="hawtbuf-1.9.jar" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="28jJK3" id="8cuIHOB9QH" role="39821P">
+            <node concept="55IIr" id="8cuIHOB9QJ" role="28jJRO">
+              <node concept="2Ry0Ak" id="8cuIHOBa9b" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="8cuIHOBa9k" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.campagnelab.nyosh.lib" />
+                  <node concept="2Ry0Ak" id="8cuIHOBa9t" role="2Ry0An">
+                    <property role="2Ry0Am" value="mercury-api-1.0-SNAPSHOT.jar" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="28jJK3" id="8cuIHOBas3" role="39821P">
+            <node concept="55IIr" id="8cuIHOBas5" role="28jJRO">
+              <node concept="2Ry0Ak" id="8cuIHOBaIK" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="8cuIHOBaIT" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.campagnelab.nyosh.lib" />
+                  <node concept="2Ry0Ak" id="8cuIHOBaJ2" role="2Ry0An">
+                    <property role="2Ry0Am" value="nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="28jJK3" id="8cuIHOBb1R" role="39821P">
+            <node concept="55IIr" id="8cuIHOBb1T" role="28jJRO">
+              <node concept="2Ry0Ak" id="8cuIHOBbkN" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="8cuIHOBbkW" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.campagnelab.nyosh.lib" />
+                  <node concept="2Ry0Ak" id="8cuIHOBbl5" role="2Ry0An">
+                    <property role="2Ry0Am" value="option-validation-language-2.1.0.jar" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="28jJK3" id="8cuIHOBbC9" role="39821P">
+            <node concept="55IIr" id="8cuIHOBbCb" role="28jJRO">
+              <node concept="2Ry0Ak" id="8cuIHOBbVk" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="8cuIHOBbVt" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.campagnelab.nyosh.lib" />
+                  <node concept="2Ry0Ak" id="8cuIHOBbVA" role="2Ry0An">
+                    <property role="2Ry0Am" value="org.campagnelab.stepslogger-1.1.0.jar" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="28jJK3" id="8cuIHOBceT" role="39821P">
+            <node concept="55IIr" id="8cuIHOBceV" role="28jJRO">
+              <node concept="2Ry0Ak" id="8cuIHOBcyj" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="8cuIHOBcys" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.campagnelab.nyosh.lib" />
+                  <node concept="2Ry0Ak" id="8cuIHOBcy_" role="2Ry0An">
+                    <property role="2Ry0Am" value="plugins-2.5.0-SNAPSHOT.jar" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="28jJK3" id="8cuIHOBcQ7" role="39821P">
+            <node concept="55IIr" id="8cuIHOBcQ9" role="28jJRO">
+              <node concept="2Ry0Ak" id="8cuIHOBd9K" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="8cuIHOBd9T" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.campagnelab.nyosh.lib" />
+                  <node concept="2Ry0Ak" id="8cuIHOBda2" role="2Ry0An">
+                    <property role="2Ry0Am" value="scala-library-2.9.2.jar" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="28jJK3" id="8cuIHOBdtN" role="39821P">
+            <node concept="55IIr" id="8cuIHOBdtP" role="28jJRO">
+              <node concept="2Ry0Ak" id="8cuIHOBdLF" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="8cuIHOBdLO" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.campagnelab.nyosh.lib" />
+                  <node concept="2Ry0Ak" id="8cuIHOBdLX" role="2Ry0An">
+                    <property role="2Ry0Am" value="serverside-dependencies-1.0.10-full.jar" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="28jJK3" id="8cuIHOBe5X" role="39821P">
+            <node concept="55IIr" id="8cuIHOBe5Z" role="28jJRO">
+              <node concept="2Ry0Ak" id="8cuIHOBeq4" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="8cuIHOBeqd" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.campagnelab.nyosh.lib" />
+                  <node concept="2Ry0Ak" id="8cuIHOBeqm" role="2Ry0An">
+                    <property role="2Ry0Am" value="slf4j-api-1.7.5.jar" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="28jJK3" id="8cuIHOBeI_" role="39821P">
+            <node concept="55IIr" id="8cuIHOBeIB" role="28jJRO">
+              <node concept="2Ry0Ak" id="8cuIHOBf2V" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="8cuIHOBf34" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.campagnelab.nyosh.lib" />
+                  <node concept="2Ry0Ak" id="8cuIHOBf3d" role="2Ry0An">
+                    <property role="2Ry0Am" value="wildcard-1.03.jar" />
                   </node>
                 </node>
               </node>
@@ -961,7 +1018,7 @@
         </node>
       </node>
       <node concept="1E1JtD" id="2mFg1uCD9q3" role="2G$12L">
-        <property role="BnDLt" value="true" />
+        <property role="BnDLt" value="false" />
         <property role="TrG5h" value="org.campagnelab.nyosh.lib" />
         <property role="3LESm3" value="0202ed86-955d-4227-9c20-377dd6b1f9ff" />
         <property role="2GAjPV" value="false" />
@@ -976,238 +1033,276 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="2mFg1uCD9qW" role="3bR37C">
-          <node concept="1BurEX" id="2mFg1uCD9qX" role="1SiIV1">
-            <node concept="55IIr" id="6mjl8CMZMIR" role="1BurEY">
-              <node concept="2Ry0Ak" id="6mjl8CMZMIV" role="iGT6I">
-                <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="6mjl8CMZMIW" role="2Ry0An">
-                  <property role="2Ry0Am" value="wildcard-1.03.jar" />
+        <node concept="1yeLz9" id="2mFg1uCD9so" role="1TViLv">
+          <property role="TrG5h" value="org.campagnelab.nyosh.lib#2108047589035521983" />
+          <property role="3LESm3" value="71502830-66bc-4ce0-bdbf-2d7ea7b83989" />
+          <property role="2GAjPV" value="false" />
+        </node>
+        <node concept="1SiIV0" id="8cuIHOAQqm" role="3bR37C">
+          <node concept="1BurEX" id="8cuIHOAQqn" role="1SiIV1">
+            <node concept="55IIr" id="8cuIHOAQqi" role="1BurEY">
+              <node concept="2Ry0Ak" id="8cuIHOAQqj" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="8cuIHOAQqk" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.campagnelab.nyosh.lib" />
+                  <node concept="2Ry0Ak" id="8cuIHOAQql" role="2Ry0An">
+                    <property role="2Ry0Am" value="mercury-api-1.0-SNAPSHOT.jar" />
+                  </node>
                 </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="2mFg1uCD9r1" role="3bR37C">
-          <node concept="1BurEX" id="2mFg1uCD9r2" role="1SiIV1">
-            <node concept="55IIr" id="6mjl8CMZMKm" role="1BurEY">
-              <node concept="2Ry0Ak" id="6mjl8CMZMKq" role="iGT6I">
-                <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="6mjl8CMZMKr" role="2Ry0An">
-                  <property role="2Ry0Am" value="commons-io-2.4.jar" />
+        <node concept="1SiIV0" id="8cuIHOAQqs" role="3bR37C">
+          <node concept="1BurEX" id="8cuIHOAQqt" role="1SiIV1">
+            <node concept="55IIr" id="8cuIHOAQqo" role="1BurEY">
+              <node concept="2Ry0Ak" id="8cuIHOAQqp" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="8cuIHOAQqq" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.campagnelab.nyosh.lib" />
+                  <node concept="2Ry0Ak" id="8cuIHOAQqr" role="2Ry0An">
+                    <property role="2Ry0Am" value="fastutil-6.4.4.jar" />
+                  </node>
                 </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="2mFg1uCD9r6" role="3bR37C">
-          <node concept="1BurEX" id="2mFg1uCD9r7" role="1SiIV1">
-            <node concept="55IIr" id="6mjl8CMZMLP" role="1BurEY">
-              <node concept="2Ry0Ak" id="6mjl8CMZMLT" role="iGT6I">
-                <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="6mjl8CMZMLU" role="2Ry0An">
-                  <property role="2Ry0Am" value="groovy-all-1.8.6.jar" />
+        <node concept="1SiIV0" id="8cuIHOAQqy" role="3bR37C">
+          <node concept="1BurEX" id="8cuIHOAQqz" role="1SiIV1">
+            <node concept="55IIr" id="8cuIHOAQqu" role="1BurEY">
+              <node concept="2Ry0Ak" id="8cuIHOAQqv" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="8cuIHOAQqw" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.campagnelab.nyosh.lib" />
+                  <node concept="2Ry0Ak" id="8cuIHOAQqx" role="2Ry0An">
+                    <property role="2Ry0Am" value="dsiutils-2.0.7.jar" />
+                  </node>
                 </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="2mFg1uCD9rb" role="3bR37C">
-          <node concept="1BurEX" id="2mFg1uCD9rc" role="1SiIV1">
-            <node concept="55IIr" id="6mjl8CMZMNk" role="1BurEY">
-              <node concept="2Ry0Ak" id="6mjl8CMZMNo" role="iGT6I">
-                <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="6mjl8CMZMNp" role="2Ry0An">
-                  <property role="2Ry0Am" value="fastutil-6.4.4.jar" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="2mFg1uCD9rg" role="3bR37C">
-          <node concept="1BurEX" id="2mFg1uCD9rh" role="1SiIV1">
-            <node concept="55IIr" id="6mjl8CMZMON" role="1BurEY">
-              <node concept="2Ry0Ak" id="6mjl8CMZMOR" role="iGT6I">
-                <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="6mjl8CMZMOS" role="2Ry0An">
-                  <property role="2Ry0Am" value="option-validation-language-2.1.0.jar" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="2mFg1uCD9rl" role="3bR37C">
-          <node concept="1BurEX" id="2mFg1uCD9rm" role="1SiIV1">
-            <node concept="55IIr" id="6mjl8CMZMQi" role="1BurEY">
-              <node concept="2Ry0Ak" id="6mjl8CMZMQm" role="iGT6I">
-                <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="6mjl8CMZMQn" role="2Ry0An">
-                  <property role="2Ry0Am" value="scala-library-2.9.2.jar" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="2mFg1uCD9rq" role="3bR37C">
-          <node concept="1BurEX" id="2mFg1uCD9rr" role="1SiIV1">
-            <node concept="55IIr" id="6mjl8CMZMRL" role="1BurEY">
-              <node concept="2Ry0Ak" id="6mjl8CMZMRP" role="iGT6I">
-                <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="6mjl8CMZMRQ" role="2Ry0An">
-                  <property role="2Ry0Am" value="dsiutils-2.0.7.jar" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="2mFg1uCD9rv" role="3bR37C">
-          <node concept="1BurEX" id="2mFg1uCD9rw" role="1SiIV1">
-            <node concept="55IIr" id="6mjl8CMZMTg" role="1BurEY">
-              <node concept="2Ry0Ak" id="6mjl8CMZMTk" role="iGT6I">
-                <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="6mjl8CMZMTl" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.stepslogger-1.1.0.jar" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="2mFg1uCD9r$" role="3bR37C">
-          <node concept="1BurEX" id="2mFg1uCD9r_" role="1SiIV1">
-            <node concept="55IIr" id="6mjl8CMZMUJ" role="1BurEY">
-              <node concept="2Ry0Ak" id="6mjl8CMZMUN" role="iGT6I">
-                <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="6mjl8CMZMUO" role="2Ry0An">
-                  <property role="2Ry0Am" value="nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="2mFg1uCD9rD" role="3bR37C">
-          <node concept="1BurEX" id="2mFg1uCD9rE" role="1SiIV1">
-            <node concept="55IIr" id="6mjl8CMZMWe" role="1BurEY">
-              <node concept="2Ry0Ak" id="6mjl8CMZMWi" role="iGT6I">
-                <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="6mjl8CMZMWj" role="2Ry0An">
-                  <property role="2Ry0Am" value="artifacts-2.3.0.jar" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="2mFg1uCD9rI" role="3bR37C">
-          <node concept="1BurEX" id="2mFg1uCD9rJ" role="1SiIV1">
-            <node concept="55IIr" id="6mjl8CMZMXH" role="1BurEY">
-              <node concept="2Ry0Ak" id="6mjl8CMZMXL" role="iGT6I">
-                <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="6mjl8CMZMXM" role="2Ry0An">
-                  <property role="2Ry0Am" value="filesets-1.3.0-SNAPSHOT.jar" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="2mFg1uCD9rN" role="3bR37C">
-          <node concept="1BurEX" id="2mFg1uCD9rO" role="1SiIV1">
-            <node concept="55IIr" id="6mjl8CMZMZc" role="1BurEY">
-              <node concept="2Ry0Ak" id="6mjl8CMZMZg" role="iGT6I">
-                <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="6mjl8CMZMZh" role="2Ry0An">
-                  <property role="2Ry0Am" value="serverside-dependencies-1.0.10-full.jar" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="2mFg1uCD9rS" role="3bR37C">
-          <node concept="1BurEX" id="2mFg1uCD9rT" role="1SiIV1">
-            <node concept="55IIr" id="6mjl8CMZN0F" role="1BurEY">
-              <node concept="2Ry0Ak" id="6mjl8CMZN0J" role="iGT6I">
-                <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="6mjl8CMZN0K" role="2Ry0An">
-                  <property role="2Ry0Am" value="plugins-2.5.0-SNAPSHOT.jar" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="2mFg1uCD9rX" role="3bR37C">
-          <node concept="1BurEX" id="2mFg1uCD9rY" role="1SiIV1">
-            <node concept="55IIr" id="6mjl8CMZN2a" role="1BurEY">
-              <node concept="2Ry0Ak" id="6mjl8CMZN2e" role="iGT6I">
-                <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="6mjl8CMZN2f" role="2Ry0An">
+        <node concept="1BurEX" id="8cuIHOBgzQ" role="3bR37C">
+          <node concept="55IIr" id="8cuIHOBgzS" role="1BurEY">
+            <node concept="2Ry0Ak" id="8cuIHOBgKt" role="iGT6I">
+              <property role="2Ry0Am" value="languages" />
+              <node concept="2Ry0Ak" id="8cuIHOBgKA" role="2Ry0An">
+                <property role="2Ry0Am" value="org.campagnelab.nyosh.lib" />
+                <node concept="2Ry0Ak" id="8cuIHOBgKJ" role="2Ry0An">
                   <property role="2Ry0Am" value="activemq-client-5.9.1.jar" />
                 </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="2mFg1uCD9s2" role="3bR37C">
-          <node concept="1BurEX" id="2mFg1uCD9s3" role="1SiIV1">
-            <node concept="55IIr" id="6mjl8CMZN3D" role="1BurEY">
-              <node concept="2Ry0Ak" id="6mjl8CMZN3H" role="iGT6I">
-                <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="6mjl8CMZN3I" role="2Ry0An">
-                  <property role="2Ry0Am" value="geronimo-jms_1.1_spec-1.1.1.jar" />
+        <node concept="1BurEX" id="8cuIHOBhb0" role="3bR37C">
+          <node concept="55IIr" id="8cuIHOBhb1" role="1BurEY">
+            <node concept="2Ry0Ak" id="8cuIHOBhb2" role="iGT6I">
+              <property role="2Ry0Am" value="languages" />
+              <node concept="2Ry0Ak" id="8cuIHOBhb3" role="2Ry0An">
+                <property role="2Ry0Am" value="org.campagnelab.nyosh.lib" />
+                <node concept="2Ry0Ak" id="8cuIHOBhJ6" role="2Ry0An">
+                  <property role="2Ry0Am" value="artifacts-2.3.0.jar" />
                 </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="2mFg1uCD9s7" role="3bR37C">
-          <node concept="1BurEX" id="2mFg1uCD9s8" role="1SiIV1">
-            <node concept="55IIr" id="6mjl8CMZN58" role="1BurEY">
-              <node concept="2Ry0Ak" id="6mjl8CMZN5c" role="iGT6I">
-                <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="6mjl8CMZN5d" role="2Ry0An">
-                  <property role="2Ry0Am" value="mercury-api-1.0-SNAPSHOT.jar" />
+        <node concept="1BurEX" id="8cuIHOBhcC" role="3bR37C">
+          <node concept="55IIr" id="8cuIHOBhcD" role="1BurEY">
+            <node concept="2Ry0Ak" id="8cuIHOBhcE" role="iGT6I">
+              <property role="2Ry0Am" value="languages" />
+              <node concept="2Ry0Ak" id="8cuIHOBhcF" role="2Ry0An">
+                <property role="2Ry0Am" value="org.campagnelab.nyosh.lib" />
+                <node concept="2Ry0Ak" id="8cuIHOBibg" role="2Ry0An">
+                  <property role="2Ry0Am" value="commons-io-2.4.jar" />
                 </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="2mFg1uCD9sc" role="3bR37C">
-          <node concept="1BurEX" id="2mFg1uCD9sd" role="1SiIV1">
-            <node concept="55IIr" id="6mjl8CMZN86" role="1BurEY">
-              <node concept="2Ry0Ak" id="6mjl8CMZN8a" role="iGT6I">
-                <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="6mjl8CMZN8b" role="2Ry0An">
+        <node concept="1BurEX" id="8cuIHOBhq1" role="3bR37C">
+          <node concept="55IIr" id="8cuIHOBhq2" role="1BurEY">
+            <node concept="2Ry0Ak" id="8cuIHOBhq3" role="iGT6I">
+              <property role="2Ry0Am" value="languages" />
+              <node concept="2Ry0Ak" id="8cuIHOBhq4" role="2Ry0An">
+                <property role="2Ry0Am" value="org.campagnelab.nyosh.lib" />
+                <node concept="2Ry0Ak" id="8cuIHOBiys" role="2Ry0An">
+                  <property role="2Ry0Am" value="filesets-1.3.0-SNAPSHOT.jar" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1BurEX" id="8cuIHOBhs7" role="3bR37C">
+          <node concept="55IIr" id="8cuIHOBhs8" role="1BurEY">
+            <node concept="2Ry0Ak" id="8cuIHOBhs9" role="iGT6I">
+              <property role="2Ry0Am" value="languages" />
+              <node concept="2Ry0Ak" id="8cuIHOBhsa" role="2Ry0An">
+                <property role="2Ry0Am" value="org.campagnelab.nyosh.lib" />
+                <node concept="2Ry0Ak" id="8cuIHOBiI2" role="2Ry0An">
+                  <property role="2Ry0Am" value="activemq-client-5.9.1.jar" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1BurEX" id="8cuIHOBhus" role="3bR37C">
+          <node concept="55IIr" id="8cuIHOBhut" role="1BurEY">
+            <node concept="2Ry0Ak" id="8cuIHOBhuu" role="iGT6I">
+              <property role="2Ry0Am" value="languages" />
+              <node concept="2Ry0Ak" id="8cuIHOBhuv" role="2Ry0An">
+                <property role="2Ry0Am" value="org.campagnelab.nyosh.lib" />
+                <node concept="2Ry0Ak" id="8cuIHOBiTC" role="2Ry0An">
                   <property role="2Ry0Am" value="geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
                 </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="2mFg1uCD9sh" role="3bR37C">
-          <node concept="1BurEX" id="2mFg1uCD9si" role="1SiIV1">
-            <node concept="55IIr" id="6mjl8CMZN6B" role="1BurEY">
-              <node concept="2Ry0Ak" id="6mjl8CMZN6F" role="iGT6I">
-                <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="6mjl8CMZN6G" role="2Ry0An">
+        <node concept="1BurEX" id="8cuIHOBhx0" role="3bR37C">
+          <node concept="55IIr" id="8cuIHOBhx1" role="1BurEY">
+            <node concept="2Ry0Ak" id="8cuIHOBhx2" role="iGT6I">
+              <property role="2Ry0Am" value="languages" />
+              <node concept="2Ry0Ak" id="8cuIHOBhx3" role="2Ry0An">
+                <property role="2Ry0Am" value="org.campagnelab.nyosh.lib" />
+                <node concept="2Ry0Ak" id="8cuIHOBj5e" role="2Ry0An">
+                  <property role="2Ry0Am" value="geronimo-jms_1.1_spec-1.1.1.jar" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1BurEX" id="8cuIHOBjv8" role="3bR37C">
+          <node concept="55IIr" id="8cuIHOBjv9" role="1BurEY">
+            <node concept="2Ry0Ak" id="8cuIHOBjva" role="iGT6I">
+              <property role="2Ry0Am" value="languages" />
+              <node concept="2Ry0Ak" id="8cuIHOBjvb" role="2Ry0An">
+                <property role="2Ry0Am" value="org.campagnelab.nyosh.lib" />
+                <node concept="2Ry0Ak" id="8cuIHOBkbq" role="2Ry0An">
+                  <property role="2Ry0Am" value="groovy-all-1.8.6.jar" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1BurEX" id="8cuIHOBjya" role="3bR37C">
+          <node concept="55IIr" id="8cuIHOBjyb" role="1BurEY">
+            <node concept="2Ry0Ak" id="8cuIHOBjyc" role="iGT6I">
+              <property role="2Ry0Am" value="languages" />
+              <node concept="2Ry0Ak" id="8cuIHOBjyd" role="2Ry0An">
+                <property role="2Ry0Am" value="org.campagnelab.nyosh.lib" />
+                <node concept="2Ry0Ak" id="8cuIHOBkn0" role="2Ry0An">
                   <property role="2Ry0Am" value="hawtbuf-1.9.jar" />
                 </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="2mFg1uCD9sm" role="3bR37C">
-          <node concept="1BurEX" id="2mFg1uCD9sn" role="1SiIV1">
-            <node concept="55IIr" id="6mjl8CMZN9_" role="1BurEY">
-              <node concept="2Ry0Ak" id="6mjl8CMZN9D" role="iGT6I">
-                <property role="2Ry0Am" value="lib" />
-                <node concept="2Ry0Ak" id="6mjl8CMZN9E" role="2Ry0An">
+        <node concept="1BurEX" id="8cuIHOBj_r" role="3bR37C">
+          <node concept="55IIr" id="8cuIHOBj_s" role="1BurEY">
+            <node concept="2Ry0Ak" id="8cuIHOBj_t" role="iGT6I">
+              <property role="2Ry0Am" value="languages" />
+              <node concept="2Ry0Ak" id="8cuIHOBj_u" role="2Ry0An">
+                <property role="2Ry0Am" value="org.campagnelab.nyosh.lib" />
+                <node concept="2Ry0Ak" id="8cuIHOBkIc" role="2Ry0An">
+                  <property role="2Ry0Am" value="nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1BurEX" id="8cuIHOBkXh" role="3bR37C">
+          <node concept="55IIr" id="8cuIHOBkXi" role="1BurEY">
+            <node concept="2Ry0Ak" id="8cuIHOBkXj" role="iGT6I">
+              <property role="2Ry0Am" value="languages" />
+              <node concept="2Ry0Ak" id="8cuIHOBkXk" role="2Ry0An">
+                <property role="2Ry0Am" value="org.campagnelab.nyosh.lib" />
+                <node concept="2Ry0Ak" id="8cuIHOBloU" role="2Ry0An">
+                  <property role="2Ry0Am" value="option-validation-language-2.1.0.jar" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1BurEX" id="8cuIHOBl10" role="3bR37C">
+          <node concept="55IIr" id="8cuIHOBl11" role="1BurEY">
+            <node concept="2Ry0Ak" id="8cuIHOBl12" role="iGT6I">
+              <property role="2Ry0Am" value="languages" />
+              <node concept="2Ry0Ak" id="8cuIHOBl13" role="2Ry0An">
+                <property role="2Ry0Am" value="org.campagnelab.nyosh.lib" />
+                <node concept="2Ry0Ak" id="8cuIHOBl$w" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.campagnelab.stepslogger-1.1.0.jar" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1BurEX" id="8cuIHOBl4Y" role="3bR37C">
+          <node concept="55IIr" id="8cuIHOBl4Z" role="1BurEY">
+            <node concept="2Ry0Ak" id="8cuIHOBl50" role="iGT6I">
+              <property role="2Ry0Am" value="languages" />
+              <node concept="2Ry0Ak" id="8cuIHOBl51" role="2Ry0An">
+                <property role="2Ry0Am" value="org.campagnelab.nyosh.lib" />
+                <node concept="2Ry0Ak" id="8cuIHOBlVG" role="2Ry0An">
+                  <property role="2Ry0Am" value="plugins-2.5.0-SNAPSHOT.jar" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1BurEX" id="8cuIHOBl9b" role="3bR37C">
+          <node concept="55IIr" id="8cuIHOBl9c" role="1BurEY">
+            <node concept="2Ry0Ak" id="8cuIHOBl9d" role="iGT6I">
+              <property role="2Ry0Am" value="languages" />
+              <node concept="2Ry0Ak" id="8cuIHOBl9e" role="2Ry0An">
+                <property role="2Ry0Am" value="org.campagnelab.nyosh.lib" />
+                <node concept="2Ry0Ak" id="8cuIHOBm7i" role="2Ry0An">
+                  <property role="2Ry0Am" value="scala-library-2.9.2.jar" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1BurEX" id="8cuIHOBmyP" role="3bR37C">
+          <node concept="55IIr" id="8cuIHOBmyQ" role="1BurEY">
+            <node concept="2Ry0Ak" id="8cuIHOBmyR" role="iGT6I">
+              <property role="2Ry0Am" value="languages" />
+              <node concept="2Ry0Ak" id="8cuIHOBmyS" role="2Ry0An">
+                <property role="2Ry0Am" value="org.campagnelab.nyosh.lib" />
+                <node concept="2Ry0Ak" id="8cuIHOBn3j" role="2Ry0An">
+                  <property role="2Ry0Am" value="serverside-dependencies-1.0.10-full.jar" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1BurEX" id="8cuIHOBmBw" role="3bR37C">
+          <node concept="55IIr" id="8cuIHOBmBx" role="1BurEY">
+            <node concept="2Ry0Ak" id="8cuIHOBmBy" role="iGT6I">
+              <property role="2Ry0Am" value="languages" />
+              <node concept="2Ry0Ak" id="8cuIHOBmBz" role="2Ry0An">
+                <property role="2Ry0Am" value="org.campagnelab.nyosh.lib" />
+                <node concept="2Ry0Ak" id="8cuIHOBneT" role="2Ry0An">
                   <property role="2Ry0Am" value="slf4j-api-1.7.5.jar" />
                 </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="1yeLz9" id="2mFg1uCD9so" role="1TViLv">
-          <property role="TrG5h" value="org.campagnelab.nyosh.lib#2108047589035521983" />
-          <property role="3LESm3" value="71502830-66bc-4ce0-bdbf-2d7ea7b83989" />
-          <property role="2GAjPV" value="false" />
+        <node concept="1BurEX" id="8cuIHOBnjQ" role="3bR37C">
+          <node concept="55IIr" id="8cuIHOBnjR" role="1BurEY">
+            <node concept="2Ry0Ak" id="8cuIHOBnjS" role="iGT6I">
+              <property role="2Ry0Am" value="languages" />
+              <node concept="2Ry0Ak" id="8cuIHOBnjT" role="2Ry0An">
+                <property role="2Ry0Am" value="org.campagnelab.nyosh.lib" />
+                <node concept="2Ry0Ak" id="8cuIHOBn$i" role="2Ry0An">
+                  <property role="2Ry0Am" value="wildcard-1.03.jar" />
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
       </node>
       <node concept="1E1JtD" id="2mFg1uCD9q9" role="2G$12L">

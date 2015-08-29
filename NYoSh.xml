@@ -339,25 +339,26 @@
           <module ref="8fe4c62a-2020-4ff4-8eda-f322a55bdc9f(jetbrains.mps.refactoring.runtime)" />
           <module ref="9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)" />
         </dependencies>
-        <library jar="../../wildcard-1.03.jar" />
-        <library jar="../../commons-io-2.4.jar" />
-        <library jar="../../groovy-all-1.8.6.jar" />
-        <library jar="../../fastutil-6.4.4.jar" />
-        <library jar="../../option-validation-language-2.1.0.jar" />
-        <library jar="../../scala-library-2.9.2.jar" />
-        <library jar="../../dsiutils-2.0.7.jar" />
-        <library jar="../../org.campagnelab.stepslogger-1.1.0.jar" />
-        <library jar="../../nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
-        <library jar="../../artifacts-2.3.0.jar" />
-        <library jar="../../filesets-1.3.0-SNAPSHOT.jar" />
-        <library jar="../../serverside-dependencies-1.0.10-full.jar" />
-        <library jar="../../plugins-2.5.0-SNAPSHOT.jar" />
-        <library jar="../../activemq-client-5.9.1.jar" />
-        <library jar="../../geronimo-jms_1.1_spec-1.1.1.jar" />
         <library jar="../../mercury-api-1.0-SNAPSHOT.jar" />
+        <library jar="../../fastutil-6.4.4.jar" />
+        <library jar="../../dsiutils-2.0.7.jar" />
+        <library jar="../../activemq-client-5.9.1.jar" />
+        <library jar="../../artifacts-2.3.0.jar" />
+        <library jar="../../commons-io-2.4.jar" />
+        <library jar="../../filesets-1.3.0-SNAPSHOT.jar" />
+        <library jar="../../activemq-client-5.9.1.jar" />
         <library jar="../../geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
+        <library jar="../../geronimo-jms_1.1_spec-1.1.1.jar" />
+        <library jar="../../groovy-all-1.8.6.jar" />
         <library jar="../../hawtbuf-1.9.jar" />
+        <library jar="../../nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
+        <library jar="../../option-validation-language-2.1.0.jar" />
+        <library jar="../../org.campagnelab.stepslogger-1.1.0.jar" />
+        <library jar="../../plugins-2.5.0-SNAPSHOT.jar" />
+        <library jar="../../scala-library-2.9.2.jar" />
+        <library jar="../../serverside-dependencies-1.0.10-full.jar" />
         <library jar="../../slf4j-api-1.7.5.jar" />
+        <library jar="../../wildcard-1.03.jar" />
         <sources jar="org.campagnelab.nyosh.lib-src.jar" descriptor="org.campagnelab.nyosh.lib.mpl" />
       </module>
     </echoxml>
@@ -536,28 +537,28 @@
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.nyosh.interactive-languageModels" prefix="module/languageModels" />
     </jar>
     <zip destfile="${build.layout}/org.campagnelab.NYoSh-${nyosh_version}.zip">
-      <zipfileset file="${basedir}/lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" prefix="NYoSh" />
-      <zipfileset file="${basedir}/lib/serverside-dependencies-1.0.10-full.jar" prefix="NYoSh" />
-      <zipfileset file="${basedir}/lib/org.campagnelab.stepslogger-1.1.0.jar" prefix="NYoSh" />
-      <zipfileset file="${basedir}/lib/commons-io-2.4.jar" prefix="NYoSh" />
-      <zipfileset file="${basedir}/lib/wildcard-1.03.jar" prefix="NYoSh" />
-      <zipfileset file="${basedir}/lib/plugins-2.5.0-SNAPSHOT.jar" prefix="NYoSh" />
-      <zipfileset file="${basedir}/lib/filesets-1.3.0-SNAPSHOT.jar" prefix="NYoSh" />
-      <zipfileset file="${basedir}/lib/groovy-all-1.8.6.jar" prefix="NYoSh" />
-      <zipfileset file="${basedir}/lib/artifacts-2.3.0.jar" prefix="NYoSh" />
-      <zipfileset file="${basedir}/lib/dsiutils-2.0.7.jar" prefix="NYoSh" />
-      <zipfileset file="${basedir}/lib/fastutil-6.4.4.jar" prefix="NYoSh" />
-      <zipfileset file="${basedir}/lib/option-validation-language-2.1.0.jar" prefix="NYoSh" />
-      <zipfileset file="${basedir}/lib/scala-library-2.9.2.jar" prefix="NYoSh" />
-      <zipfileset file="${basedir}/lib/mercury-api-1.0-SNAPSHOT.jar" prefix="NYoSh" />
-      <zipfileset file="${basedir}/lib/activemq-client-5.9.1.jar" prefix="NYoSh" />
-      <zipfileset file="${basedir}/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" prefix="NYoSh" />
-      <zipfileset file="${basedir}/lib/geronimo-jms_1.1_spec-1.1.1.jar" prefix="NYoSh" />
-      <zipfileset file="${basedir}/lib/hawtbuf-1.9.jar" prefix="NYoSh" />
-      <zipfileset file="${basedir}/lib/slf4j-api-1.7.5.jar" prefix="NYoSh" />
       <zipfileset file="${basedir}/languages/org.campagnelab.lucene.tableviewer/runtime/lucene-core-3.6.1.jar" prefix="NYoSh" />
       <zipfileset file="${basedir}/languages/org.campagnelab.lucene.tableviewer/runtime/lucene-1.0-SNAPSHOT.jar" prefix="NYoSh" />
       <zipfileset file="${basedir}/languages/org.campagnelab.ssh/jsch-0.1.51.jar" prefix="NYoSh" />
+      <zipfileset file="${basedir}/languages/org.campagnelab.nyosh.lib/activemq-client-5.9.1.jar" prefix="NYoSh" />
+      <zipfileset file="${basedir}/languages/org.campagnelab.nyosh.lib/artifacts-2.3.0.jar" prefix="NYoSh" />
+      <zipfileset file="${basedir}/languages/org.campagnelab.nyosh.lib/commons-io-2.4.jar" prefix="NYoSh" />
+      <zipfileset file="${basedir}/languages/org.campagnelab.nyosh.lib/dsiutils-2.0.7.jar" prefix="NYoSh" />
+      <zipfileset file="${basedir}/languages/org.campagnelab.nyosh.lib/fastutil-6.4.4.jar" prefix="NYoSh" />
+      <zipfileset file="${basedir}/languages/org.campagnelab.nyosh.lib/filesets-1.3.0-SNAPSHOT.jar" prefix="NYoSh" />
+      <zipfileset file="${basedir}/languages/org.campagnelab.nyosh.lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" prefix="NYoSh" />
+      <zipfileset file="${basedir}/languages/org.campagnelab.nyosh.lib/geronimo-jms_1.1_spec-1.1.1.jar" prefix="NYoSh" />
+      <zipfileset file="${basedir}/languages/org.campagnelab.nyosh.lib/groovy-all-1.8.6.jar" prefix="NYoSh" />
+      <zipfileset file="${basedir}/languages/org.campagnelab.nyosh.lib/hawtbuf-1.9.jar" prefix="NYoSh" />
+      <zipfileset file="${basedir}/languages/org.campagnelab.nyosh.lib/mercury-api-1.0-SNAPSHOT.jar" prefix="NYoSh" />
+      <zipfileset file="${basedir}/languages/org.campagnelab.nyosh.lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" prefix="NYoSh" />
+      <zipfileset file="${basedir}/languages/org.campagnelab.nyosh.lib/option-validation-language-2.1.0.jar" prefix="NYoSh" />
+      <zipfileset file="${basedir}/languages/org.campagnelab.nyosh.lib/org.campagnelab.stepslogger-1.1.0.jar" prefix="NYoSh" />
+      <zipfileset file="${basedir}/languages/org.campagnelab.nyosh.lib/plugins-2.5.0-SNAPSHOT.jar" prefix="NYoSh" />
+      <zipfileset file="${basedir}/languages/org.campagnelab.nyosh.lib/scala-library-2.9.2.jar" prefix="NYoSh" />
+      <zipfileset file="${basedir}/languages/org.campagnelab.nyosh.lib/serverside-dependencies-1.0.10-full.jar" prefix="NYoSh" />
+      <zipfileset file="${basedir}/languages/org.campagnelab.nyosh.lib/slf4j-api-1.7.5.jar" prefix="NYoSh" />
+      <zipfileset file="${basedir}/languages/org.campagnelab.nyosh.lib/wildcard-1.03.jar" prefix="NYoSh" />
       <fileset dir="${build.tmp}/default/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip" />
     </zip>
     <echo file="${build.layout}/build.properties">org.campagnelab.NYoSh.nyosh_version=${nyosh_version}${line.separator}org.campagnelab.NYoSh.build_number=${build_number}${line.separator}mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}${line.separator}org.campagnelab.mps.UI.ui_version=${org.campagnelab.mps.UI.ui_version}${line.separator}org.campagnelab.mps.UI.build_number=${org.campagnelab.mps.UI.build_number}${line.separator}org.campagnelab.Logger.logger.version=${org.campagnelab.Logger.logger.version}${line.separator}org.campagnelab.Logger.build_number=${org.campagnelab.Logger.build_number}</echo>
@@ -566,10 +567,10 @@
   <target name="buildDependents" />
   
   <target name="fetchDependencies">
-    <mkdir dir="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip" />
-    <unzip src="${artifacts.org.campagnelab.mps.UI}/org.campagnelab.UI-${org.campagnelab.mps.UI.ui_version}.zip" dest="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip" />
     <mkdir dir="${build.tmp}/deps/org.campagnelab.Logger/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip" />
     <unzip src="${artifacts.org.campagnelab.Logger}/org.campagnelab.logger-${org.campagnelab.Logger.logger.version}.zip" dest="${build.tmp}/deps/org.campagnelab.Logger/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip" />
+    <mkdir dir="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip" />
+    <unzip src="${artifacts.org.campagnelab.mps.UI}/org.campagnelab.UI-${org.campagnelab.mps.UI.ui_version}.zip" dest="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip" />
   </target>
   
   <target name="build" depends="assemble" />
@@ -718,25 +719,25 @@
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.lib" />
-        <fileset file="${basedir}/lib/wildcard-1.03.jar" />
-        <fileset file="${basedir}/lib/commons-io-2.4.jar" />
-        <fileset file="${basedir}/lib/groovy-all-1.8.6.jar" />
-        <fileset file="${basedir}/lib/fastutil-6.4.4.jar" />
-        <fileset file="${basedir}/lib/option-validation-language-2.1.0.jar" />
-        <fileset file="${basedir}/lib/scala-library-2.9.2.jar" />
-        <fileset file="${basedir}/lib/dsiutils-2.0.7.jar" />
-        <fileset file="${basedir}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
-        <fileset file="${basedir}/lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/artifacts-2.3.0.jar" />
-        <fileset file="${basedir}/lib/filesets-1.3.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${basedir}/lib/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/activemq-client-5.9.1.jar" />
-        <fileset file="${basedir}/lib/geronimo-jms_1.1_spec-1.1.1.jar" />
-        <fileset file="${basedir}/lib/mercury-api-1.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
-        <fileset file="${basedir}/lib/hawtbuf-1.9.jar" />
-        <fileset file="${basedir}/lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/mercury-api-1.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/fastutil-6.4.4.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/dsiutils-2.0.7.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/activemq-client-5.9.1.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/artifacts-2.3.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/commons-io-2.4.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/filesets-1.3.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/geronimo-jms_1.1_spec-1.1.1.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/groovy-all-1.8.6.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/hawtbuf-1.9.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/option-validation-language-2.1.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/org.campagnelab.stepslogger-1.1.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/plugins-2.5.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/scala-library-2.9.2.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/wildcard-1.03.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
@@ -775,25 +776,25 @@
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.gstring" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.lib" />
-        <fileset file="${basedir}/lib/wildcard-1.03.jar" />
-        <fileset file="${basedir}/lib/commons-io-2.4.jar" />
-        <fileset file="${basedir}/lib/groovy-all-1.8.6.jar" />
-        <fileset file="${basedir}/lib/fastutil-6.4.4.jar" />
-        <fileset file="${basedir}/lib/option-validation-language-2.1.0.jar" />
-        <fileset file="${basedir}/lib/scala-library-2.9.2.jar" />
-        <fileset file="${basedir}/lib/dsiutils-2.0.7.jar" />
-        <fileset file="${basedir}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
-        <fileset file="${basedir}/lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/artifacts-2.3.0.jar" />
-        <fileset file="${basedir}/lib/filesets-1.3.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${basedir}/lib/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/activemq-client-5.9.1.jar" />
-        <fileset file="${basedir}/lib/geronimo-jms_1.1_spec-1.1.1.jar" />
-        <fileset file="${basedir}/lib/mercury-api-1.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
-        <fileset file="${basedir}/lib/hawtbuf-1.9.jar" />
-        <fileset file="${basedir}/lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/mercury-api-1.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/fastutil-6.4.4.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/dsiutils-2.0.7.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/activemq-client-5.9.1.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/artifacts-2.3.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/commons-io-2.4.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/filesets-1.3.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/geronimo-jms_1.1_spec-1.1.1.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/groovy-all-1.8.6.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/hawtbuf-1.9.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/option-validation-language-2.1.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/org.campagnelab.stepslogger-1.1.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/plugins-2.5.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/scala-library-2.9.2.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/wildcard-1.03.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
@@ -842,25 +843,25 @@
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.environment" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.gstring" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.lib" />
-        <fileset file="${basedir}/lib/wildcard-1.03.jar" />
-        <fileset file="${basedir}/lib/commons-io-2.4.jar" />
-        <fileset file="${basedir}/lib/groovy-all-1.8.6.jar" />
-        <fileset file="${basedir}/lib/fastutil-6.4.4.jar" />
-        <fileset file="${basedir}/lib/option-validation-language-2.1.0.jar" />
-        <fileset file="${basedir}/lib/scala-library-2.9.2.jar" />
-        <fileset file="${basedir}/lib/dsiutils-2.0.7.jar" />
-        <fileset file="${basedir}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
-        <fileset file="${basedir}/lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/artifacts-2.3.0.jar" />
-        <fileset file="${basedir}/lib/filesets-1.3.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${basedir}/lib/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/activemq-client-5.9.1.jar" />
-        <fileset file="${basedir}/lib/geronimo-jms_1.1_spec-1.1.1.jar" />
-        <fileset file="${basedir}/lib/mercury-api-1.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
-        <fileset file="${basedir}/lib/hawtbuf-1.9.jar" />
-        <fileset file="${basedir}/lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/mercury-api-1.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/fastutil-6.4.4.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/dsiutils-2.0.7.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/activemq-client-5.9.1.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/artifacts-2.3.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/commons-io-2.4.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/filesets-1.3.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/geronimo-jms_1.1_spec-1.1.1.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/groovy-all-1.8.6.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/hawtbuf-1.9.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/option-validation-language-2.1.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/org.campagnelab.stepslogger-1.1.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/plugins-2.5.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/scala-library-2.9.2.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/wildcard-1.03.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
@@ -930,25 +931,25 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.smodel.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
-        <fileset file="${basedir}/lib/wildcard-1.03.jar" />
-        <fileset file="${basedir}/lib/commons-io-2.4.jar" />
-        <fileset file="${basedir}/lib/groovy-all-1.8.6.jar" />
-        <fileset file="${basedir}/lib/fastutil-6.4.4.jar" />
-        <fileset file="${basedir}/lib/option-validation-language-2.1.0.jar" />
-        <fileset file="${basedir}/lib/scala-library-2.9.2.jar" />
-        <fileset file="${basedir}/lib/dsiutils-2.0.7.jar" />
-        <fileset file="${basedir}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
-        <fileset file="${basedir}/lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/artifacts-2.3.0.jar" />
-        <fileset file="${basedir}/lib/filesets-1.3.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${basedir}/lib/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/activemq-client-5.9.1.jar" />
-        <fileset file="${basedir}/lib/geronimo-jms_1.1_spec-1.1.1.jar" />
-        <fileset file="${basedir}/lib/mercury-api-1.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
-        <fileset file="${basedir}/lib/hawtbuf-1.9.jar" />
-        <fileset file="${basedir}/lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/mercury-api-1.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/fastutil-6.4.4.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/dsiutils-2.0.7.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/activemq-client-5.9.1.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/artifacts-2.3.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/commons-io-2.4.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/filesets-1.3.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/geronimo-jms_1.1_spec-1.1.1.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/groovy-all-1.8.6.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/hawtbuf-1.9.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/option-validation-language-2.1.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/org.campagnelab.stepslogger-1.1.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/plugins-2.5.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/scala-library-2.9.2.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/wildcard-1.03.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.gstring" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.lib" />
       </classpath>
@@ -1067,25 +1068,25 @@
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.gstring" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.lib" />
-        <fileset file="${basedir}/lib/wildcard-1.03.jar" />
-        <fileset file="${basedir}/lib/commons-io-2.4.jar" />
-        <fileset file="${basedir}/lib/groovy-all-1.8.6.jar" />
-        <fileset file="${basedir}/lib/fastutil-6.4.4.jar" />
-        <fileset file="${basedir}/lib/option-validation-language-2.1.0.jar" />
-        <fileset file="${basedir}/lib/scala-library-2.9.2.jar" />
-        <fileset file="${basedir}/lib/dsiutils-2.0.7.jar" />
-        <fileset file="${basedir}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
-        <fileset file="${basedir}/lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/artifacts-2.3.0.jar" />
-        <fileset file="${basedir}/lib/filesets-1.3.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${basedir}/lib/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/activemq-client-5.9.1.jar" />
-        <fileset file="${basedir}/lib/geronimo-jms_1.1_spec-1.1.1.jar" />
-        <fileset file="${basedir}/lib/mercury-api-1.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
-        <fileset file="${basedir}/lib/hawtbuf-1.9.jar" />
-        <fileset file="${basedir}/lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/mercury-api-1.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/fastutil-6.4.4.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/dsiutils-2.0.7.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/activemq-client-5.9.1.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/artifacts-2.3.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/commons-io-2.4.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/filesets-1.3.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/geronimo-jms_1.1_spec-1.1.1.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/groovy-all-1.8.6.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/hawtbuf-1.9.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/option-validation-language-2.1.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/org.campagnelab.stepslogger-1.1.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/plugins-2.5.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/scala-library-2.9.2.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/wildcard-1.03.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
@@ -1139,25 +1140,25 @@
         <pathelement path="${build.tmp}/java/out/org.campagnelab.NYoSh" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.gstring" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.lib" />
-        <fileset file="${basedir}/lib/wildcard-1.03.jar" />
-        <fileset file="${basedir}/lib/commons-io-2.4.jar" />
-        <fileset file="${basedir}/lib/groovy-all-1.8.6.jar" />
-        <fileset file="${basedir}/lib/fastutil-6.4.4.jar" />
-        <fileset file="${basedir}/lib/option-validation-language-2.1.0.jar" />
-        <fileset file="${basedir}/lib/scala-library-2.9.2.jar" />
-        <fileset file="${basedir}/lib/dsiutils-2.0.7.jar" />
-        <fileset file="${basedir}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
-        <fileset file="${basedir}/lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/artifacts-2.3.0.jar" />
-        <fileset file="${basedir}/lib/filesets-1.3.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${basedir}/lib/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/activemq-client-5.9.1.jar" />
-        <fileset file="${basedir}/lib/geronimo-jms_1.1_spec-1.1.1.jar" />
-        <fileset file="${basedir}/lib/mercury-api-1.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
-        <fileset file="${basedir}/lib/hawtbuf-1.9.jar" />
-        <fileset file="${basedir}/lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/mercury-api-1.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/fastutil-6.4.4.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/dsiutils-2.0.7.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/activemq-client-5.9.1.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/artifacts-2.3.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/commons-io-2.4.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/filesets-1.3.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/geronimo-jms_1.1_spec-1.1.1.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/groovy-all-1.8.6.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/hawtbuf-1.9.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/option-validation-language-2.1.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/org.campagnelab.stepslogger-1.1.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/plugins-2.5.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/scala-library-2.9.2.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/wildcard-1.03.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
@@ -1208,25 +1209,25 @@
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.lib" />
-        <fileset file="${basedir}/lib/wildcard-1.03.jar" />
-        <fileset file="${basedir}/lib/commons-io-2.4.jar" />
-        <fileset file="${basedir}/lib/groovy-all-1.8.6.jar" />
-        <fileset file="${basedir}/lib/fastutil-6.4.4.jar" />
-        <fileset file="${basedir}/lib/option-validation-language-2.1.0.jar" />
-        <fileset file="${basedir}/lib/scala-library-2.9.2.jar" />
-        <fileset file="${basedir}/lib/dsiutils-2.0.7.jar" />
-        <fileset file="${basedir}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
-        <fileset file="${basedir}/lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/artifacts-2.3.0.jar" />
-        <fileset file="${basedir}/lib/filesets-1.3.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${basedir}/lib/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/activemq-client-5.9.1.jar" />
-        <fileset file="${basedir}/lib/geronimo-jms_1.1_spec-1.1.1.jar" />
-        <fileset file="${basedir}/lib/mercury-api-1.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
-        <fileset file="${basedir}/lib/hawtbuf-1.9.jar" />
-        <fileset file="${basedir}/lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/mercury-api-1.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/fastutil-6.4.4.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/dsiutils-2.0.7.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/activemq-client-5.9.1.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/artifacts-2.3.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/commons-io-2.4.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/filesets-1.3.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/geronimo-jms_1.1_spec-1.1.1.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/groovy-all-1.8.6.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/hawtbuf-1.9.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/option-validation-language-2.1.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/org.campagnelab.stepslogger-1.1.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/plugins-2.5.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/scala-library-2.9.2.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/wildcard-1.03.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
@@ -1309,25 +1310,25 @@
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.lib" />
-        <fileset file="${basedir}/lib/wildcard-1.03.jar" />
-        <fileset file="${basedir}/lib/commons-io-2.4.jar" />
-        <fileset file="${basedir}/lib/groovy-all-1.8.6.jar" />
-        <fileset file="${basedir}/lib/fastutil-6.4.4.jar" />
-        <fileset file="${basedir}/lib/option-validation-language-2.1.0.jar" />
-        <fileset file="${basedir}/lib/scala-library-2.9.2.jar" />
-        <fileset file="${basedir}/lib/dsiutils-2.0.7.jar" />
-        <fileset file="${basedir}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
-        <fileset file="${basedir}/lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/artifacts-2.3.0.jar" />
-        <fileset file="${basedir}/lib/filesets-1.3.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${basedir}/lib/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/activemq-client-5.9.1.jar" />
-        <fileset file="${basedir}/lib/geronimo-jms_1.1_spec-1.1.1.jar" />
-        <fileset file="${basedir}/lib/mercury-api-1.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
-        <fileset file="${basedir}/lib/hawtbuf-1.9.jar" />
-        <fileset file="${basedir}/lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/mercury-api-1.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/fastutil-6.4.4.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/dsiutils-2.0.7.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/activemq-client-5.9.1.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/artifacts-2.3.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/commons-io-2.4.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/filesets-1.3.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/geronimo-jms_1.1_spec-1.1.1.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/groovy-all-1.8.6.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/hawtbuf-1.9.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/option-validation-language-2.1.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/org.campagnelab.stepslogger-1.1.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/plugins-2.5.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/scala-library-2.9.2.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/wildcard-1.03.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
@@ -1365,25 +1366,25 @@
         <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
-        <fileset file="${basedir}/lib/wildcard-1.03.jar" />
-        <fileset file="${basedir}/lib/commons-io-2.4.jar" />
-        <fileset file="${basedir}/lib/groovy-all-1.8.6.jar" />
-        <fileset file="${basedir}/lib/fastutil-6.4.4.jar" />
-        <fileset file="${basedir}/lib/option-validation-language-2.1.0.jar" />
-        <fileset file="${basedir}/lib/scala-library-2.9.2.jar" />
-        <fileset file="${basedir}/lib/dsiutils-2.0.7.jar" />
-        <fileset file="${basedir}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
-        <fileset file="${basedir}/lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/artifacts-2.3.0.jar" />
-        <fileset file="${basedir}/lib/filesets-1.3.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${basedir}/lib/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/activemq-client-5.9.1.jar" />
-        <fileset file="${basedir}/lib/geronimo-jms_1.1_spec-1.1.1.jar" />
-        <fileset file="${basedir}/lib/mercury-api-1.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
-        <fileset file="${basedir}/lib/hawtbuf-1.9.jar" />
-        <fileset file="${basedir}/lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/mercury-api-1.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/fastutil-6.4.4.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/dsiutils-2.0.7.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/activemq-client-5.9.1.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/artifacts-2.3.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/commons-io-2.4.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/filesets-1.3.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/geronimo-jms_1.1_spec-1.1.1.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/groovy-all-1.8.6.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/hawtbuf-1.9.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/option-validation-language-2.1.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/org.campagnelab.stepslogger-1.1.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/plugins-2.5.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/scala-library-2.9.2.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/wildcard-1.03.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
@@ -1421,25 +1422,25 @@
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.lib" />
-        <fileset file="${basedir}/lib/wildcard-1.03.jar" />
-        <fileset file="${basedir}/lib/commons-io-2.4.jar" />
-        <fileset file="${basedir}/lib/groovy-all-1.8.6.jar" />
-        <fileset file="${basedir}/lib/fastutil-6.4.4.jar" />
-        <fileset file="${basedir}/lib/option-validation-language-2.1.0.jar" />
-        <fileset file="${basedir}/lib/scala-library-2.9.2.jar" />
-        <fileset file="${basedir}/lib/dsiutils-2.0.7.jar" />
-        <fileset file="${basedir}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
-        <fileset file="${basedir}/lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/artifacts-2.3.0.jar" />
-        <fileset file="${basedir}/lib/filesets-1.3.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${basedir}/lib/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/activemq-client-5.9.1.jar" />
-        <fileset file="${basedir}/lib/geronimo-jms_1.1_spec-1.1.1.jar" />
-        <fileset file="${basedir}/lib/mercury-api-1.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
-        <fileset file="${basedir}/lib/hawtbuf-1.9.jar" />
-        <fileset file="${basedir}/lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/mercury-api-1.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/fastutil-6.4.4.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/dsiutils-2.0.7.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/activemq-client-5.9.1.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/artifacts-2.3.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/commons-io-2.4.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/filesets-1.3.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/geronimo-jms_1.1_spec-1.1.1.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/groovy-all-1.8.6.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/hawtbuf-1.9.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/option-validation-language-2.1.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/org.campagnelab.stepslogger-1.1.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/plugins-2.5.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/scala-library-2.9.2.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/wildcard-1.03.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
@@ -1478,25 +1479,25 @@
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.gstring" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.lib" />
-        <fileset file="${basedir}/lib/wildcard-1.03.jar" />
-        <fileset file="${basedir}/lib/commons-io-2.4.jar" />
-        <fileset file="${basedir}/lib/groovy-all-1.8.6.jar" />
-        <fileset file="${basedir}/lib/fastutil-6.4.4.jar" />
-        <fileset file="${basedir}/lib/option-validation-language-2.1.0.jar" />
-        <fileset file="${basedir}/lib/scala-library-2.9.2.jar" />
-        <fileset file="${basedir}/lib/dsiutils-2.0.7.jar" />
-        <fileset file="${basedir}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
-        <fileset file="${basedir}/lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/artifacts-2.3.0.jar" />
-        <fileset file="${basedir}/lib/filesets-1.3.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${basedir}/lib/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/activemq-client-5.9.1.jar" />
-        <fileset file="${basedir}/lib/geronimo-jms_1.1_spec-1.1.1.jar" />
-        <fileset file="${basedir}/lib/mercury-api-1.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
-        <fileset file="${basedir}/lib/hawtbuf-1.9.jar" />
-        <fileset file="${basedir}/lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/mercury-api-1.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/fastutil-6.4.4.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/dsiutils-2.0.7.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/activemq-client-5.9.1.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/artifacts-2.3.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/commons-io-2.4.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/filesets-1.3.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/geronimo-jms_1.1_spec-1.1.1.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/groovy-all-1.8.6.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/hawtbuf-1.9.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/option-validation-language-2.1.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/org.campagnelab.stepslogger-1.1.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/plugins-2.5.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/scala-library-2.9.2.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/wildcard-1.03.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
@@ -1540,25 +1541,25 @@
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.gstring" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.lib" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.pathpatterns" />
-        <fileset file="${basedir}/lib/wildcard-1.03.jar" />
-        <fileset file="${basedir}/lib/commons-io-2.4.jar" />
-        <fileset file="${basedir}/lib/groovy-all-1.8.6.jar" />
-        <fileset file="${basedir}/lib/fastutil-6.4.4.jar" />
-        <fileset file="${basedir}/lib/option-validation-language-2.1.0.jar" />
-        <fileset file="${basedir}/lib/scala-library-2.9.2.jar" />
-        <fileset file="${basedir}/lib/dsiutils-2.0.7.jar" />
-        <fileset file="${basedir}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
-        <fileset file="${basedir}/lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/artifacts-2.3.0.jar" />
-        <fileset file="${basedir}/lib/filesets-1.3.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${basedir}/lib/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/activemq-client-5.9.1.jar" />
-        <fileset file="${basedir}/lib/geronimo-jms_1.1_spec-1.1.1.jar" />
-        <fileset file="${basedir}/lib/mercury-api-1.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
-        <fileset file="${basedir}/lib/hawtbuf-1.9.jar" />
-        <fileset file="${basedir}/lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/mercury-api-1.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/fastutil-6.4.4.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/dsiutils-2.0.7.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/activemq-client-5.9.1.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/artifacts-2.3.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/commons-io-2.4.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/filesets-1.3.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/geronimo-jms_1.1_spec-1.1.1.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/groovy-all-1.8.6.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/hawtbuf-1.9.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/option-validation-language-2.1.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/org.campagnelab.stepslogger-1.1.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/plugins-2.5.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/scala-library-2.9.2.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/wildcard-1.03.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
@@ -1676,25 +1677,25 @@
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.tags" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.gstring" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.nyosh.lib" />
-        <fileset file="${basedir}/lib/wildcard-1.03.jar" />
-        <fileset file="${basedir}/lib/commons-io-2.4.jar" />
-        <fileset file="${basedir}/lib/groovy-all-1.8.6.jar" />
-        <fileset file="${basedir}/lib/fastutil-6.4.4.jar" />
-        <fileset file="${basedir}/lib/option-validation-language-2.1.0.jar" />
-        <fileset file="${basedir}/lib/scala-library-2.9.2.jar" />
-        <fileset file="${basedir}/lib/dsiutils-2.0.7.jar" />
-        <fileset file="${basedir}/lib/org.campagnelab.stepslogger-1.1.0.jar" />
-        <fileset file="${basedir}/lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/artifacts-2.3.0.jar" />
-        <fileset file="${basedir}/lib/filesets-1.3.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${basedir}/lib/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/activemq-client-5.9.1.jar" />
-        <fileset file="${basedir}/lib/geronimo-jms_1.1_spec-1.1.1.jar" />
-        <fileset file="${basedir}/lib/mercury-api-1.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
-        <fileset file="${basedir}/lib/hawtbuf-1.9.jar" />
-        <fileset file="${basedir}/lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/mercury-api-1.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/fastutil-6.4.4.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/dsiutils-2.0.7.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/activemq-client-5.9.1.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/artifacts-2.3.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/commons-io-2.4.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/filesets-1.3.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/geronimo-jms_1.1_spec-1.1.1.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/groovy-all-1.8.6.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/hawtbuf-1.9.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/option-validation-language-2.1.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/org.campagnelab.stepslogger-1.1.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/plugins-2.5.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/scala-library-2.9.2.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/slf4j-api-1.7.5.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.nyosh.lib/wildcard-1.03.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.unitTest.libs/bsh-core-2.0b4.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.unitTest.libs/cglib-nodep-2.1_3.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.unitTest.libs/hamcrest-core-1.1.jar" />
