@@ -232,6 +232,12 @@
   <node concept="1TIwiD" id="1ORG9zeKa7P">
     <property role="TrG5h" value="ResourceConfig" />
     <ref role="1TJDcQ" node="3HroolOioXY" resolve="PluginConfig" />
+    <node concept="1TJgyj" id="6A9boVQhgBY" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="artifacts" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="6A9boVQh7v0" resolve="Artifact" />
+    </node>
     <node concept="PrWs8" id="1ORG9zeMO99" role="PzmwI">
       <ref role="PrY4T" node="1ORG9zeMO97" resolve="ResourceConsumer" />
     </node>
@@ -344,6 +350,28 @@
     <property role="TrG5h" value="IntegerOption" />
     <property role="34LRSv" value="integer" />
     <ref role="1TJDcQ" node="1PRK00$ytw1" resolve="OptionDefinition" />
+  </node>
+  <node concept="1TIwiD" id="6A9boVQh7v0">
+    <property role="TrG5h" value="Artifact" />
+    <property role="34LRSv" value="artifact" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="6A9boVQh7x9" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyj" id="6A9boVQh90H" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="attributes" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="6A9boVQh8ar" resolve="ArtifactAttribute" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6A9boVQh8ar">
+    <property role="TrG5h" value="ArtifactAttribute" />
+    <property role="34LRSv" value="artifact attribute" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="6A9boVQh8ay" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
   </node>
 </model>
 
