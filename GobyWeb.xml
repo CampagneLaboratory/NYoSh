@@ -7,7 +7,7 @@
   <property name="org.campagnelab.xchart.home" location="${basedir}/../XChart" />
   <property name="org.campagnelab.goby.workbench.home" location="" />
   <property name="build_number" value="0" />
-  <property name="gobyweb_version" value="2.0.7" />
+  <property name="gobyweb_version" value="2.1.0" />
   <property name="artifacts.mps" location="${mps_home}" />
   <property name="artifacts.org.campagnelab.mps.UI" location="${basedir}/build/artifacts/org.campagnelab.mps.UI" />
   <property name="artifacts.org.campagnelab.Logger" location="${basedir}/build/artifacts/org.campagnelab.Logger" />
@@ -290,16 +290,16 @@
   <target name="buildDependents" />
   
   <target name="fetchDependencies">
-    <mkdir dir="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip" />
-    <unzip src="${artifacts.org.campagnelab.TextOutput}/org.campagnelab.TextOutput-${org.campagnelab.TextOutput.textoutput_version}.zip" dest="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip" />
+    <mkdir dir="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip" />
+    <unzip src="${artifacts.XChart}/XChart_${XChart.XChart_version}.zip" dest="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip" />
+    <mkdir dir="${build.tmp}/deps/org.campagnelab.Logger/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip" />
+    <unzip src="${artifacts.org.campagnelab.Logger}/org.campagnelab.logger-${org.campagnelab.Logger.logger.version}.zip" dest="${build.tmp}/deps/org.campagnelab.Logger/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip" />
     <mkdir dir="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip" />
     <unzip src="${artifacts.org.campagnelab.mps.UI}/org.campagnelab.UI-${org.campagnelab.mps.UI.ui_version}.zip" dest="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip" />
     <mkdir dir="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip" />
     <unzip src="${artifacts.org.campagnelab.NYoSh}/org.campagnelab.NYoSh-${org.campagnelab.NYoSh.nyosh_version}.zip" dest="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip" />
-    <mkdir dir="${build.tmp}/deps/org.campagnelab.Logger/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip" />
-    <unzip src="${artifacts.org.campagnelab.Logger}/org.campagnelab.logger-${org.campagnelab.Logger.logger.version}.zip" dest="${build.tmp}/deps/org.campagnelab.Logger/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip" />
-    <mkdir dir="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip" />
-    <unzip src="${artifacts.XChart}/XChart_${XChart.XChart_version}.zip" dest="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip" />
+    <mkdir dir="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip" />
+    <unzip src="${artifacts.org.campagnelab.TextOutput}/org.campagnelab.TextOutput-${org.campagnelab.TextOutput.textoutput_version}.zip" dest="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip" />
   </target>
   
   <target name="build" depends="assemble" />
@@ -443,25 +443,25 @@
         <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/wildcard-1.03.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/commons-io-2.4.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/groovy-all-1.8.6.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/fastutil-6.4.4.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/option-validation-language-2.1.0.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/scala-library-2.9.2.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/dsiutils-2.0.7.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/org.campagnelab.stepslogger-1.1.0.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/artifacts-2.3.0.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/filesets-1.3.0-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/activemq-client-5.9.1.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/geronimo-jms_1.1_spec-1.1.1.jar" />
         <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/mercury-api-1.0-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/fastutil-6.4.4.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/dsiutils-2.0.7.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/activemq-client-5.9.1.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/artifacts-2.3.0.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/commons-io-2.4.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/filesets-1.3.0-SNAPSHOT.jar" />
         <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/geronimo-jms_1.1_spec-1.1.1.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/groovy-all-1.8.6.jar" />
         <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/hawtbuf-1.9.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/option-validation-language-2.1.0.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/wildcard-1.03.jar" />
         <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/slf4j-api-1.7.5.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/scala-library-2.9.2.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/org.campagnelab.stepslogger-1.1.0.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/plugins-2.5.0-SNAPSHOT.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
@@ -519,25 +519,25 @@
         <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/wildcard-1.03.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/commons-io-2.4.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/groovy-all-1.8.6.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/fastutil-6.4.4.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/option-validation-language-2.1.0.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/scala-library-2.9.2.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/dsiutils-2.0.7.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/org.campagnelab.stepslogger-1.1.0.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/artifacts-2.3.0.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/filesets-1.3.0-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/activemq-client-5.9.1.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/geronimo-jms_1.1_spec-1.1.1.jar" />
         <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/mercury-api-1.0-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/fastutil-6.4.4.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/dsiutils-2.0.7.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/activemq-client-5.9.1.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/artifacts-2.3.0.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/commons-io-2.4.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/filesets-1.3.0-SNAPSHOT.jar" />
         <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/geronimo-jms_1.1_spec-1.1.1.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/groovy-all-1.8.6.jar" />
         <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/hawtbuf-1.9.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/option-validation-language-2.1.0.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/wildcard-1.03.jar" />
         <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/slf4j-api-1.7.5.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/scala-library-2.9.2.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/org.campagnelab.stepslogger-1.1.0.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/plugins-2.5.0-SNAPSHOT.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
@@ -630,25 +630,25 @@
         <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/wildcard-1.03.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/commons-io-2.4.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/groovy-all-1.8.6.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/fastutil-6.4.4.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/option-validation-language-2.1.0.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/scala-library-2.9.2.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/dsiutils-2.0.7.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/org.campagnelab.stepslogger-1.1.0.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/artifacts-2.3.0.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/filesets-1.3.0-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/activemq-client-5.9.1.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/geronimo-jms_1.1_spec-1.1.1.jar" />
         <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/mercury-api-1.0-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/fastutil-6.4.4.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/dsiutils-2.0.7.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/activemq-client-5.9.1.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/artifacts-2.3.0.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/commons-io-2.4.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/filesets-1.3.0-SNAPSHOT.jar" />
         <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/geronimo-jms_1.1_spec-1.1.1.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/groovy-all-1.8.6.jar" />
         <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/hawtbuf-1.9.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/option-validation-language-2.1.0.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/wildcard-1.03.jar" />
         <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/slf4j-api-1.7.5.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/scala-library-2.9.2.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/org.campagnelab.stepslogger-1.1.0.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/plugins-2.5.0-SNAPSHOT.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
@@ -752,25 +752,25 @@
         <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/wildcard-1.03.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/commons-io-2.4.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/groovy-all-1.8.6.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/fastutil-6.4.4.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/option-validation-language-2.1.0.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/scala-library-2.9.2.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/dsiutils-2.0.7.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/org.campagnelab.stepslogger-1.1.0.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/artifacts-2.3.0.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/filesets-1.3.0-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/activemq-client-5.9.1.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/geronimo-jms_1.1_spec-1.1.1.jar" />
         <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/mercury-api-1.0-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/fastutil-6.4.4.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/dsiutils-2.0.7.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/activemq-client-5.9.1.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/artifacts-2.3.0.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/commons-io-2.4.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/filesets-1.3.0-SNAPSHOT.jar" />
         <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/geronimo-jms_1.1_spec-1.1.1.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/groovy-all-1.8.6.jar" />
         <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/hawtbuf-1.9.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/option-validation-language-2.1.0.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/wildcard-1.03.jar" />
         <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/slf4j-api-1.7.5.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/scala-library-2.9.2.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/org.campagnelab.stepslogger-1.1.0.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/plugins-2.5.0-SNAPSHOT.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
@@ -835,25 +835,25 @@
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.environment" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.gobyweb.plugins" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/wildcard-1.03.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/commons-io-2.4.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/groovy-all-1.8.6.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/fastutil-6.4.4.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/option-validation-language-2.1.0.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/scala-library-2.9.2.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/dsiutils-2.0.7.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/org.campagnelab.stepslogger-1.1.0.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/artifacts-2.3.0.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/filesets-1.3.0-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/activemq-client-5.9.1.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/geronimo-jms_1.1_spec-1.1.1.jar" />
         <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/mercury-api-1.0-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/fastutil-6.4.4.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/dsiutils-2.0.7.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/activemq-client-5.9.1.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/artifacts-2.3.0.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/commons-io-2.4.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/filesets-1.3.0-SNAPSHOT.jar" />
         <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/geronimo-jms_1.1_spec-1.1.1.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/groovy-all-1.8.6.jar" />
         <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/hawtbuf-1.9.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/option-validation-language-2.1.0.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/wildcard-1.03.jar" />
         <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/slf4j-api-1.7.5.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/scala-library-2.9.2.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/org.campagnelab.stepslogger-1.1.0.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/plugins-2.5.0-SNAPSHOT.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
@@ -913,9 +913,13 @@
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
         <fileset file="${artifacts.mps}/languages/util/jetbrains.mps.execution.util.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
         <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.jar" />
         <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.types.jar" />
       </classpath>
@@ -943,25 +947,25 @@
         <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/wildcard-1.03.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/commons-io-2.4.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/groovy-all-1.8.6.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/fastutil-6.4.4.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/option-validation-language-2.1.0.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/scala-library-2.9.2.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/dsiutils-2.0.7.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/org.campagnelab.stepslogger-1.1.0.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/artifacts-2.3.0.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/filesets-1.3.0-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/serverside-dependencies-1.0.10-full.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/plugins-2.5.0-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/activemq-client-5.9.1.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/geronimo-jms_1.1_spec-1.1.1.jar" />
         <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/mercury-api-1.0-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/fastutil-6.4.4.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/dsiutils-2.0.7.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/activemq-client-5.9.1.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/artifacts-2.3.0.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/commons-io-2.4.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/filesets-1.3.0-SNAPSHOT.jar" />
         <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/geronimo-jms_1.1_spec-1.1.1.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/groovy-all-1.8.6.jar" />
         <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/hawtbuf-1.9.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/option-validation-language-2.1.0.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/wildcard-1.03.jar" />
         <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/slf4j-api-1.7.5.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/serverside-dependencies-1.0.10-full.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/scala-library-2.9.2.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/org.campagnelab.stepslogger-1.1.0.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/plugins-2.5.0-SNAPSHOT.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
