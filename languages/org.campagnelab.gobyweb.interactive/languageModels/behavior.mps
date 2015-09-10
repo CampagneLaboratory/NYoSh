@@ -7549,6 +7549,21 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="6A9boVQ$eQ$" role="3cqZAp">
+          <node concept="BsUDl" id="6A9boVQ$eQ_" role="3clFbG">
+            <ref role="37wK5l" node="1ORG9zeMMxi" resolve="populatedResourceConsumer" />
+            <node concept="37vLTw" id="6A9boVQ$eQA" role="37wK5m">
+              <ref role="3cqZAo" node="1ORG9zeNfyV" resolve="resolver" />
+            </node>
+            <node concept="37vLTw" id="6A9boVQ$hK1" role="37wK5m">
+              <ref role="3cqZAo" node="1ORG9zeK8S4" resolve="resource" />
+            </node>
+            <node concept="37vLTw" id="6A9boVQ$eQC" role="37wK5m">
+              <ref role="3cqZAo" node="1ORG9zeK8S6" resolve="config" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6A9boVQ$esW" role="3cqZAp" />
       </node>
       <node concept="37vLTG" id="1ORG9zeNfyV" role="3clF46">
         <property role="TrG5h" value="resolver" />
