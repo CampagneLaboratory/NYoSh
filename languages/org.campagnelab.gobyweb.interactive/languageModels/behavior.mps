@@ -7393,6 +7393,159 @@
         </node>
       </node>
     </node>
+    <node concept="13i0hz" id="17OfmP$q8Kk" role="13h7CS">
+      <property role="TrG5h" value="resolveResource" />
+      <node concept="3Tm1VV" id="17OfmP$q8Kl" role="1B3o_S" />
+      <node concept="3clFbS" id="17OfmP$q8Km" role="3clF47">
+        <node concept="3cpWs8" id="17OfmP$qsm6" role="3cqZAp">
+          <node concept="3cpWsn" id="17OfmP$qsm7" role="3cpWs9">
+            <property role="TrG5h" value="resolver" />
+            <node concept="3uibUv" id="17OfmP$qsm8" role="1tU5fm">
+              <ref role="3uigEE" to="svs9:~StatefulDependencyResolver" resolve="StatefulDependencyResolver" />
+            </node>
+            <node concept="2ShNRf" id="17OfmP$qsm9" role="33vP2m">
+              <node concept="1pGfFk" id="17OfmP$qsma" role="2ShVmc">
+                <ref role="37wK5l" to="svs9:~StatefulDependencyResolver.&lt;init&gt;(org.campagnelab.gobyweb.plugins.PluginRegistry)" resolve="StatefulDependencyResolver" />
+                <node concept="BsUDl" id="17OfmP$qsmb" role="37wK5m">
+                  <ref role="37wK5l" node="4qwTtAQCKOP" resolve="getRegistry" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="17OfmP$qsq6" role="3cqZAp">
+          <node concept="3cpWsn" id="17OfmP$qsq7" role="3cpWs9">
+            <property role="TrG5h" value="rc" />
+            <node concept="3uibUv" id="17OfmP$qsq8" role="1tU5fm">
+              <ref role="3uigEE" to="mg21:~ResourceConfig" resolve="ResourceConfig" />
+            </node>
+            <node concept="2OqwBi" id="17OfmP$qsq9" role="33vP2m">
+              <node concept="37vLTw" id="17OfmP$qsqa" role="2Oq$k0">
+                <ref role="3cqZAo" node="17OfmP$qsm7" resolve="resolver" />
+              </node>
+              <node concept="liA8E" id="17OfmP$qsqb" role="2OqNvi">
+                <ref role="37wK5l" to="svs9:~StatefulDependencyResolver.resolveResource(java.lang.String,java.lang.String,java.lang.String,java.lang.String):org.campagnelab.gobyweb.plugins.xml.resources.ResourceConfig" resolve="resolveResource" />
+                <node concept="37vLTw" id="17OfmP$quhU" role="37wK5m">
+                  <ref role="3cqZAo" node="17OfmP$qskY" resolve="id" />
+                </node>
+                <node concept="10Nm6u" id="17OfmP$qulr" role="37wK5m" />
+                <node concept="37vLTw" id="17OfmP$quoE" role="37wK5m">
+                  <ref role="3cqZAo" node="17OfmP$qsla" resolve="version" />
+                </node>
+                <node concept="10Nm6u" id="17OfmP$qurg" role="37wK5m" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="17OfmP$qv7T" role="3cqZAp">
+          <node concept="3cpWsn" id="17OfmP$qv7U" role="3cpWs9">
+            <property role="TrG5h" value="rConfig" />
+            <node concept="3Tqbb2" id="17OfmP$qv7V" role="1tU5fm">
+              <ref role="ehGHo" to="dzk5:3HroolOioXY" resolve="PluginConfig" />
+            </node>
+            <node concept="2OqwBi" id="17OfmP$qv7W" role="33vP2m">
+              <node concept="2OqwBi" id="17OfmP$qv7X" role="2Oq$k0">
+                <node concept="2OqwBi" id="17OfmP$qv7Y" role="2Oq$k0">
+                  <node concept="13iPFW" id="17OfmP$qv7Z" role="2Oq$k0" />
+                  <node concept="3Tsc0h" id="17OfmP$qv80" role="2OqNvi">
+                    <ref role="3TtcxE" to="bs99:3HroolOjto_" />
+                  </node>
+                </node>
+                <node concept="3zZkjj" id="17OfmP$qv81" role="2OqNvi">
+                  <node concept="1bVj0M" id="17OfmP$qv82" role="23t8la">
+                    <node concept="3clFbS" id="17OfmP$qv83" role="1bW5cS">
+                      <node concept="3clFbF" id="17OfmP$qv84" role="3cqZAp">
+                        <node concept="1Wc70l" id="17OfmP$qv85" role="3clFbG">
+                          <node concept="2OqwBi" id="17OfmP$qv86" role="3uHU7w">
+                            <node concept="37vLTw" id="17OfmP$qv87" role="2Oq$k0">
+                              <ref role="3cqZAo" node="17OfmP$qv8r" resolve="it" />
+                            </node>
+                            <node concept="1mIQ4w" id="17OfmP$qv88" role="2OqNvi">
+                              <node concept="chp4Y" id="17OfmP$qv89" role="cj9EA">
+                                <ref role="cht4Q" to="dzk5:1ORG9zeKa7P" resolve="ResourceConfig" />
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="1Wc70l" id="17OfmP$qv8a" role="3uHU7B">
+                            <node concept="2OqwBi" id="17OfmP$qv8b" role="3uHU7B">
+                              <node concept="2OqwBi" id="17OfmP$qv8c" role="2Oq$k0">
+                                <node concept="37vLTw" id="17OfmP$qv8d" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="17OfmP$qv8r" resolve="it" />
+                                </node>
+                                <node concept="3TrcHB" id="17OfmP$qv8e" role="2OqNvi">
+                                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                                </node>
+                              </node>
+                              <node concept="liA8E" id="17OfmP$qv8f" role="2OqNvi">
+                                <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                                <node concept="2OqwBi" id="17OfmP$qv8g" role="37wK5m">
+                                  <node concept="37vLTw" id="12v2Kg_r$bS" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="17OfmP$qsq7" resolve="rc" />
+                                  </node>
+                                  <node concept="liA8E" id="12v2Kg_rBUx" role="2OqNvi">
+                                    <ref role="37wK5l" to="svwy:~BaseConfig.getId():java.lang.String" resolve="getId" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="2OqwBi" id="17OfmP$qv8j" role="3uHU7w">
+                              <node concept="2OqwBi" id="17OfmP$qv8k" role="2Oq$k0">
+                                <node concept="37vLTw" id="17OfmP$qv8l" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="17OfmP$qv8r" resolve="it" />
+                                </node>
+                                <node concept="3TrcHB" id="17OfmP$qv8m" role="2OqNvi">
+                                  <ref role="3TsBF5" to="dzk5:3HroolOioYO" resolve="version" />
+                                </node>
+                              </node>
+                              <node concept="liA8E" id="17OfmP$qv8n" role="2OqNvi">
+                                <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                                <node concept="2OqwBi" id="17OfmP$qv8o" role="37wK5m">
+                                  <node concept="37vLTw" id="17OfmP$qv8p" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="17OfmP$qsq7" resolve="rc" />
+                                  </node>
+                                  <node concept="liA8E" id="17OfmP$qv8q" role="2OqNvi">
+                                    <ref role="37wK5l" to="svwy:~BaseConfig.getVersion():java.lang.String" resolve="getVersion" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="Rh6nW" id="17OfmP$qv8r" role="1bW2Oz">
+                      <property role="TrG5h" value="it" />
+                      <node concept="2jxLKc" id="17OfmP$qv8s" role="1tU5fm" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="1uHKPH" id="17OfmP$qv8t" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="17OfmP$qyle" role="3cqZAp">
+          <node concept="1PxgMI" id="17OfmP$qE8S" role="3clFbG">
+            <property role="1BlNFB" value="true" />
+            <ref role="1PxNhF" to="dzk5:1ORG9zeKa7P" resolve="ResourceConfig" />
+            <node concept="37vLTw" id="17OfmP$qylc" role="1PxMeX">
+              <ref role="3cqZAo" node="17OfmP$qv7U" resolve="rConfig" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="17OfmP$qskT" role="3clF45">
+        <ref role="ehGHo" to="dzk5:1ORG9zeKa7P" resolve="ResourceConfig" />
+      </node>
+      <node concept="37vLTG" id="17OfmP$qskY" role="3clF46">
+        <property role="TrG5h" value="id" />
+        <node concept="17QB3L" id="17OfmP$qskX" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="17OfmP$qsla" role="3clF46">
+        <property role="TrG5h" value="version" />
+        <node concept="17QB3L" id="17OfmP$qslm" role="1tU5fm" />
+      </node>
+    </node>
     <node concept="13i0hz" id="1ORG9zeK8RW" role="13h7CS">
       <property role="TrG5h" value="populatedResource" />
       <node concept="3Tm1VV" id="1ORG9zeK8RX" role="1B3o_S" />
