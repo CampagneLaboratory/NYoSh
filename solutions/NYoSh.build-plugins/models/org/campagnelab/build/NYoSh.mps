@@ -300,8 +300,8 @@
                 <property role="2Ry0Am" value="languages" />
                 <node concept="2Ry0Ak" id="8cuIHOATS_" role="2Ry0An">
                   <property role="2Ry0Am" value="org.campagnelab.nyosh.lib" />
-                  <node concept="2Ry0Ak" id="8cuIHOATSI" role="2Ry0An">
-                    <property role="2Ry0Am" value="artifacts-2.3.0.jar" />
+                  <node concept="2Ry0Ak" id="4tpnhtOZowH" role="2Ry0An">
+                    <property role="2Ry0Am" value="artifacts-2.3.2.jar" />
                   </node>
                 </node>
               </node>
@@ -352,8 +352,8 @@
                 <property role="2Ry0Am" value="languages" />
                 <node concept="2Ry0Ak" id="8cuIHOB7vZ" role="2Ry0An">
                   <property role="2Ry0Am" value="org.campagnelab.nyosh.lib" />
-                  <node concept="2Ry0Ak" id="8cuIHOB7w8" role="2Ry0An">
-                    <property role="2Ry0Am" value="filesets-1.3.0-SNAPSHOT.jar" />
+                  <node concept="2Ry0Ak" id="4tpnhtOZozi" role="2Ry0An">
+                    <property role="2Ry0Am" value="filesets-1.3.3.jar" />
                   </node>
                 </node>
               </node>
@@ -430,8 +430,8 @@
                 <property role="2Ry0Am" value="languages" />
                 <node concept="2Ry0Ak" id="8cuIHOBaIT" role="2Ry0An">
                   <property role="2Ry0Am" value="org.campagnelab.nyosh.lib" />
-                  <node concept="2Ry0Ak" id="8cuIHOBaJ2" role="2Ry0An">
-                    <property role="2Ry0Am" value="nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
+                  <node concept="2Ry0Ak" id="4tpnhtOZo_R" role="2Ry0An">
+                    <property role="2Ry0Am" value="nyosh-runtime-support-1.1.3.jar" />
                   </node>
                 </node>
               </node>
@@ -469,8 +469,8 @@
                 <property role="2Ry0Am" value="languages" />
                 <node concept="2Ry0Ak" id="8cuIHOBcys" role="2Ry0An">
                   <property role="2Ry0Am" value="org.campagnelab.nyosh.lib" />
-                  <node concept="2Ry0Ak" id="8cuIHOBcy_" role="2Ry0An">
-                    <property role="2Ry0Am" value="plugins-2.5.0-SNAPSHOT.jar" />
+                  <node concept="2Ry0Ak" id="4tpnhtOZoCs" role="2Ry0An">
+                    <property role="2Ry0Am" value="plugins-2.5.4.jar" />
                   </node>
                 </node>
               </node>
@@ -495,8 +495,8 @@
                 <property role="2Ry0Am" value="languages" />
                 <node concept="2Ry0Ak" id="8cuIHOBdLO" role="2Ry0An">
                   <property role="2Ry0Am" value="org.campagnelab.nyosh.lib" />
-                  <node concept="2Ry0Ak" id="8cuIHOBdLX" role="2Ry0An">
-                    <property role="2Ry0Am" value="serverside-dependencies-1.0.10-full.jar" />
+                  <node concept="2Ry0Ak" id="4tpnhtOZoF1" role="2Ry0An">
+                    <property role="2Ry0Am" value="serverside-dependencies-1.0.13-full.jar" />
                   </node>
                 </node>
               </node>
@@ -1105,8 +1105,8 @@
                 <property role="2Ry0Am" value="languages" />
                 <node concept="2Ry0Ak" id="8cuIHODPJx" role="2Ry0An">
                   <property role="2Ry0Am" value="org.campagnelab.nyosh.lib" />
-                  <node concept="2Ry0Ak" id="8cuIHODPJy" role="2Ry0An">
-                    <property role="2Ry0Am" value="artifacts-2.3.0.jar" />
+                  <node concept="2Ry0Ak" id="4tpnhtOZo9v" role="2Ry0An">
+                    <property role="2Ry0Am" value="artifacts-2.3.2.jar" />
                   </node>
                 </node>
               </node>
@@ -1135,8 +1135,8 @@
                 <property role="2Ry0Am" value="languages" />
                 <node concept="2Ry0Ak" id="8cuIHODPJH" role="2Ry0An">
                   <property role="2Ry0Am" value="org.campagnelab.nyosh.lib" />
-                  <node concept="2Ry0Ak" id="8cuIHODPJI" role="2Ry0An">
-                    <property role="2Ry0Am" value="filesets-1.3.0-SNAPSHOT.jar" />
+                  <node concept="2Ry0Ak" id="4tpnhtOZojR" role="2Ry0An">
+                    <property role="2Ry0Am" value="filesets-1.3.3.jar" />
                   </node>
                 </node>
               </node>
@@ -1210,8 +1210,8 @@
                 <property role="2Ry0Am" value="languages" />
                 <node concept="2Ry0Ak" id="8cuIHODPKb" role="2Ry0An">
                   <property role="2Ry0Am" value="org.campagnelab.nyosh.lib" />
-                  <node concept="2Ry0Ak" id="8cuIHODPKc" role="2Ry0An">
-                    <property role="2Ry0Am" value="nyosh-runtime-support-1.1.2-SNAPSHOT.jar" />
+                  <node concept="2Ry0Ak" id="4tpnhtOZoms" role="2Ry0An">
+                    <property role="2Ry0Am" value="nyosh-runtime-support-1.1.3.jar" />
                   </node>
                 </node>
               </node>
@@ -1270,8 +1270,8 @@
                 <property role="2Ry0Am" value="languages" />
                 <node concept="2Ry0Ak" id="8cuIHODPKz" role="2Ry0An">
                   <property role="2Ry0Am" value="org.campagnelab.nyosh.lib" />
-                  <node concept="2Ry0Ak" id="8cuIHODPK$" role="2Ry0An">
-                    <property role="2Ry0Am" value="serverside-dependencies-1.0.10-full.jar" />
+                  <node concept="2Ry0Ak" id="4tpnhtOZop1" role="2Ry0An">
+                    <property role="2Ry0Am" value="serverside-dependencies-1.0.13-full.jar" />
                   </node>
                 </node>
               </node>
@@ -1315,8 +1315,8 @@
                 <property role="2Ry0Am" value="languages" />
                 <node concept="2Ry0Ak" id="8cuIHODPKP" role="2Ry0An">
                   <property role="2Ry0Am" value="org.campagnelab.nyosh.lib" />
-                  <node concept="2Ry0Ak" id="8cuIHODPKQ" role="2Ry0An">
-                    <property role="2Ry0Am" value="plugins-2.5.0-SNAPSHOT.jar" />
+                  <node concept="2Ry0Ak" id="4tpnhtOZorA" role="2Ry0An">
+                    <property role="2Ry0Am" value="plugins-2.5.4.jar" />
                   </node>
                 </node>
               </node>
@@ -1551,7 +1551,7 @@
       </node>
     </node>
     <node concept="2_Ic$z" id="31yq_4rywjr" role="3989C9">
-      <property role="TZNOO" value="1.6" />
+      <property role="TZNOO" value="1.7" />
     </node>
   </node>
 </model>
