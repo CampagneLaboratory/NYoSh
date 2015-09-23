@@ -39,7 +39,4 @@ function deploy_all_artifacts {
    deploy_artifact $maven_bin NYoSh org.campagnelab.NYoSh/*.zip && \
    deploy_artifact $maven_bin GobyWeb org.campagnelab.GobyWeb/*.zip && \
    deploy_artifact $maven_bin Interactive org.campagnelab.Interactive/*.zip && \
-   # deploy_artifact $maven_bin NYoShDistribution-linux NYoShDistribution/*-linux.tar.gz && \
-   # deploy_artifact $maven_bin NYoShDistribution-macos NYoShDistribution/*-macos.zip  && \
-   # deploy_artifact $maven_bin NYoShDistribution-generic "NYoShDistribution/*.zip" "grep -v macos"
 }
