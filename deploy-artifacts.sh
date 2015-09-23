@@ -38,5 +38,5 @@ function deploy_all_artifacts {
    deploy_artifact $maven_bin ClusterConfig org.campagnelab.ClusterConfig/*.zip && \
    deploy_artifact $maven_bin NYoSh org.campagnelab.NYoSh/*.zip && \
    deploy_artifact $maven_bin GobyWeb org.campagnelab.GobyWeb/*.zip && \
-   deploy_artifact $maven_bin Interactive org.campagnelab.Interactive/*.zip && \
+   deploy_artifact $maven_bin Interactive org.campagnelab.Interactive/*.zip 
 }
