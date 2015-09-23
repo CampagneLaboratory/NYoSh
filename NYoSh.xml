@@ -4,7 +4,7 @@
   <property name="build.tmp" location="${build.dir}/tmp/org.campagnelab.NYoSh" />
   <property name="build.layout" location="${build.dir}/artifacts/org.campagnelab.NYoSh" />
   <property name="mps_home" location="" />
-  <property name="nyosh_version" value="2.0.10" />
+  <property name="nyosh_version" value="2.0.11" />
   <property name="build_number" value="0" />
   <property name="artifacts.mps" location="${mps_home}" />
   <property name="artifacts.org.campagnelab.mps.UI" location="${basedir}/build/artifacts/org.campagnelab.mps.UI" />
