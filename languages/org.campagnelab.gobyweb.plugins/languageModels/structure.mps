@@ -238,6 +238,12 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="6A9boVQh7v0" resolve="Artifact" />
     </node>
+    <node concept="1TJgyj" id="61tPieTTCvJ" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="files" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="61tPieTTCxY" resolve="ResourceFile" />
+    </node>
     <node concept="PrWs8" id="1ORG9zeMO99" role="PzmwI">
       <ref role="PrY4T" node="1ORG9zeMO97" resolve="ResourceConsumer" />
     </node>
@@ -364,6 +370,12 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="6A9boVQh8ar" resolve="ArtifactAttribute" />
     </node>
+    <node concept="1TJgyj" id="61tPieTTLM6" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="files" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="61tPieTTCxY" resolve="ResourceFile" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6A9boVQh8ar">
     <property role="TrG5h" value="ArtifactAttribute" />
@@ -371,6 +383,18 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6A9boVQh8ay" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="61tPieTTCxY">
+    <property role="TrG5h" value="ResourceFile" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="61tPieTTHvA" role="1TKVEl">
+      <property role="TrG5h" value="id" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="61tPieTTHvE" role="1TKVEl">
+      <property role="TrG5h" value="filename" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
 </model>

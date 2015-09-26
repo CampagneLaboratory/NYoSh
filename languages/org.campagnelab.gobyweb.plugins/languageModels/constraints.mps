@@ -75,5 +75,22 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="61tPieTTHFL">
+    <ref role="1M2myG" to="dzk5:61tPieTTCxY" resolve="ResourceFile" />
+    <node concept="nKS2y" id="61tPieTTHG8" role="1MLUbF">
+      <node concept="3clFbS" id="61tPieTTHG9" role="2VODD2">
+        <node concept="3clFbF" id="61tPieTTHIX" role="3cqZAp">
+          <node concept="2OqwBi" id="61tPieTTHIY" role="3clFbG">
+            <node concept="nLn13" id="61tPieTTHIZ" role="2Oq$k0" />
+            <node concept="1mIQ4w" id="61tPieTTHJ0" role="2OqNvi">
+              <node concept="chp4Y" id="61tPieTTHJ1" role="cj9EA">
+                <ref role="cht4Q" to="dzk5:1ORG9zeKa7P" resolve="ResourceConfig" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
