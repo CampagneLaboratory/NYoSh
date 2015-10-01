@@ -49,9 +49,9 @@
     <import index="lgzw" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util.regex(JDK/java.util.regex@java_stub)" />
     <import index="bbh2" ref="r:220d24dc-c962-4ed8-b674-7bde9fb2980c(org.campagnelab.gobyweb.monitoring.structure)" />
     <import index="czzw" ref="r:2151664b-13bc-4072-a76b-815bb37c415e(org.campagnelab.gobyweb.interactive.users.structure)" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples">
@@ -5655,6 +5655,32 @@
                 </node>
               </node>
               <node concept="1v1jN8" id="3DBX391ngBU" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="1msVhua4SJn">
+    <property role="3GE5qa" value="resources" />
+    <property role="TrG5h" value="RefreshRanges" />
+    <ref role="2ZfgGC" to="bs99:1msVhua4SBb" resolve="ResourceRangeContainer" />
+    <node concept="2S6ZIM" id="1msVhua4SJo" role="2ZfVej">
+      <node concept="3clFbS" id="1msVhua4SJp" role="2VODD2">
+        <node concept="3clFbF" id="1msVhua4SJq" role="3cqZAp">
+          <node concept="Xl_RD" id="1msVhua4SJr" role="3clFbG">
+            <property role="Xl_RC" value="Refresh" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="1msVhua4SJs" role="2ZfgGD">
+      <node concept="3clFbS" id="1msVhua4SJt" role="2VODD2">
+        <node concept="3clFbF" id="1msVhua4SJu" role="3cqZAp">
+          <node concept="2OqwBi" id="1msVhua4SJv" role="3clFbG">
+            <node concept="2Sf5sV" id="1msVhua4SJw" role="2Oq$k0" />
+            <node concept="2qgKlT" id="1msVhua4SJx" role="2OqNvi">
+              <ref role="37wK5l" to="lcm8:1msVhua4SGI" resolve="refresh" />
             </node>
           </node>
         </node>

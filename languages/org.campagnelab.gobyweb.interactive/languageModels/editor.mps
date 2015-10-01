@@ -5344,5 +5344,101 @@
       <node concept="l2Vlx" id="HXmcVVP8Ux" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="1msVhua4TjY">
+    <property role="3GE5qa" value="resources" />
+    <ref role="1XX52x" to="bs99:1msVhua4SBb" resolve="ResourceRangeContainer" />
+    <node concept="3EZMnI" id="1msVhua4TjZ" role="2wV5jI">
+      <node concept="3F0ifn" id="1msVhua4Tk0" role="3EZMnx">
+        <property role="3F0ifm" value="Resources:" />
+      </node>
+      <node concept="3EZMnI" id="1msVhua4Tk1" role="3EZMnx">
+        <node concept="2iRkQZ" id="1msVhua4Tk2" role="2iSdaV" />
+        <node concept="3F2HdR" id="1msVhua4Tk3" role="3EZMnx">
+          <ref role="1NtTu8" to="bs99:1msVhua4SBc" />
+          <node concept="lj46D" id="1msVhua4Tk4" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="2iRkQZ" id="1msVhua4Tk5" role="2czzBx" />
+          <node concept="pj6Ft" id="1msVhua4Tk6" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="ljvvj" id="1msVhua4Tk7" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="VPxyj" id="1msVhua4Tk8" role="3F10Kt">
+            <property role="VOm3f" value="false" />
+          </node>
+        </node>
+        <node concept="lj46D" id="1msVhua4Tk9" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="2iRkQZ" id="1msVhua4Tka" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="1msVhua4Tkb">
+    <property role="3GE5qa" value="resources" />
+    <ref role="1XX52x" to="bs99:1msVhua4SB8" resolve="ResourceRange" />
+    <node concept="3EZMnI" id="1msVhua4Tkc" role="2wV5jI">
+      <node concept="3F0A7n" id="1msVhua4Tkd" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F0ifn" id="1msVhua4Tke" role="3EZMnx">
+        <property role="3F0ifm" value="-&gt;" />
+      </node>
+      <node concept="3F0ifn" id="1msVhua4Tkf" role="3EZMnx">
+        <property role="3F0ifm" value="[" />
+      </node>
+      <node concept="3F2HdR" id="1msVhua4Tkg" role="3EZMnx">
+        <property role="2czwfO" value="," />
+        <ref role="1NtTu8" to="bs99:1msVhua4SB9" />
+        <node concept="2iRfu4" id="1msVhua4Tkh" role="2czzBx" />
+        <node concept="pj6Ft" id="1msVhua4Tki" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="2iRfu4" id="1msVhua4Tkj" role="2iSdaV" />
+      <node concept="3F0ifn" id="1msVhua4Tkk" role="3EZMnx">
+        <property role="3F0ifm" value="]" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="1msVhua4Tkl">
+    <property role="3GE5qa" value="resources" />
+    <ref role="1XX52x" to="bs99:1msVhua4SBd" resolve="ResourceVersion" />
+    <node concept="3EZMnI" id="1msVhua4Tkm" role="2wV5jI">
+      <node concept="3F0A7n" id="1msVhua4Tkn" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="2iRfu4" id="1msVhua4Tko" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="1msVhuay9kn">
+    <property role="3GE5qa" value="resources" />
+    <ref role="1XX52x" to="bs99:1msVhuay9kk" resolve="ResourceVersionRange" />
+    <node concept="3EZMnI" id="1msVhuay9ko" role="2wV5jI">
+      <node concept="3F0ifn" id="1msVhuay9kp" role="3EZMnx">
+        <property role="3F0ifm" value="[" />
+      </node>
+      <node concept="3F0ifn" id="1msVhuay9kq" role="3EZMnx">
+        <property role="3F0ifm" value="from" />
+      </node>
+      <node concept="3F0A7n" id="1msVhuay9kr" role="3EZMnx">
+        <property role="1$x2rV" value="version" />
+        <ref role="1NtTu8" to="bs99:1msVhuay9km" resolve="atLeast" />
+      </node>
+      <node concept="3F0ifn" id="1msVhuay9ks" role="3EZMnx">
+        <property role="3F0ifm" value="to" />
+      </node>
+      <node concept="3F0A7n" id="1msVhuay9kt" role="3EZMnx">
+        <property role="1$x2rV" value="version" />
+        <ref role="1NtTu8" to="bs99:1msVhuay9kl" resolve="atMost" />
+      </node>
+      <node concept="3F0ifn" id="1msVhuay9ku" role="3EZMnx">
+        <property role="3F0ifm" value="]" />
+      </node>
+      <node concept="2iRfu4" id="1msVhuay9kv" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

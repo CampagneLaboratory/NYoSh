@@ -433,6 +433,12 @@
       <property role="38shpt" value="true" />
       <ref role="20lvS9" node="5DSEw1Q$otC" resolve="PluginConfigRef" />
     </node>
+    <node concept="1TJgyj" id="1msVhuaiPyW" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="resourcesByVersion" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" node="1msVhua4SBb" resolve="ResourceRangeContainer" />
+    </node>
     <node concept="1TJgyi" id="1ISEu8LK3Zn" role="1TKVEl">
       <property role="TrG5h" value="directory" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
@@ -1417,6 +1423,57 @@
       <property role="20kJfa" value="refs" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="7uYPH2aE0Bv" resolve="JobReference" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1msVhua4SB8">
+    <property role="TrG5h" value="ResourceRange" />
+    <property role="R4oN_" value="A resource with the range of versions available in the plugin repo" />
+    <property role="3GE5qa" value="resources" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1msVhua4SB9" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="versions" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="1msVhua4SBd" resolve="ResourceVersion" />
+    </node>
+    <node concept="PrWs8" id="1msVhua4SBa" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1msVhua4SBb">
+    <property role="3GE5qa" value="resources" />
+    <property role="TrG5h" value="ResourceRangeContainer" />
+    <property role="R4oN_" value="container for resource ranges" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1msVhua4SBc" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="ranges" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="1msVhua4SB8" resolve="ResourceRange" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1msVhua4SBd">
+    <property role="TrG5h" value="ResourceVersion" />
+    <property role="3GE5qa" value="resources" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="1msVhua4SBe" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1msVhuay9kk">
+    <property role="3GE5qa" value="resources" />
+    <property role="TrG5h" value="ResourceVersionRange" />
+    <property role="34LRSv" value="range" />
+    <property role="R4oN_" value="[custom range]" />
+    <ref role="1TJDcQ" node="1msVhua4SBd" resolve="ResourceVersion" />
+    <node concept="1TJgyi" id="1msVhuay9kl" role="1TKVEl">
+      <property role="TrG5h" value="atMost" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="1msVhuay9km" role="1TKVEl">
+      <property role="TrG5h" value="atLeast" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
 </model>
