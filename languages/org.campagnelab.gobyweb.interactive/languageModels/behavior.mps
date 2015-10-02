@@ -486,7 +486,6 @@
       <concept id="1176109685393" name="jetbrains.mps.lang.smodel.structure.Model_RootsIncludingImportedOperation" flags="nn" index="3lApI0">
         <reference id="1176109685394" name="concept" index="3lApI3" />
       </concept>
-      <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
       </concept>
@@ -561,6 +560,9 @@
         <child id="1226511765987" name="elementType" index="2hN53Y" />
       </concept>
       <concept id="1226516258405" name="jetbrains.mps.baseLanguage.collections.structure.HashSetCreator" flags="nn" index="2i4dXS" />
+      <concept id="1224414427926" name="jetbrains.mps.baseLanguage.collections.structure.SequenceCreator" flags="nn" index="kMnCb">
+        <child id="1224414456414" name="elementType" index="kMuH3" />
+      </concept>
       <concept id="1151688443754" name="jetbrains.mps.baseLanguage.collections.structure.ListType" flags="in" index="_YKpA">
         <child id="1151688676805" name="elementType" index="_ZDj9" />
       </concept>
@@ -8284,6 +8286,48 @@
         </node>
         <node concept="x79VA" id="63NezpqAAZ8" role="x79VK">
           <property role="x79VB" value="path to the plugin repository folder, visible to the jobs via ssh." />
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="NHi1GaJIcK" role="13h7CS">
+      <property role="TrG5h" value="getResourcesGroupedByVersion" />
+      <node concept="3Tm1VV" id="NHi1GaJIcL" role="1B3o_S" />
+      <node concept="3clFbS" id="NHi1GaJIcM" role="3clF47">
+        <node concept="3clFbF" id="NHi1GaK0Sf" role="3cqZAp">
+          <node concept="3K4zz7" id="NHi1GaK0S7" role="3clFbG">
+            <node concept="2OqwBi" id="NHi1GaK1n8" role="3K4Cdx">
+              <node concept="2OqwBi" id="NHi1GaK0Ww" role="2Oq$k0">
+                <node concept="13iPFW" id="NHi1GaK0UN" role="2Oq$k0" />
+                <node concept="3TrEf2" id="NHi1GaK1d0" role="2OqNvi">
+                  <ref role="3Tt5mk" to="bs99:1msVhuaiPyW" />
+                </node>
+              </node>
+              <node concept="3x8VRR" id="NHi1GaK1BW" role="2OqNvi" />
+            </node>
+            <node concept="2OqwBi" id="NHi1GaK1Dv" role="3K4E3e">
+              <node concept="2OqwBi" id="NHi1GaK1Dw" role="2Oq$k0">
+                <node concept="13iPFW" id="NHi1GaK1Dx" role="2Oq$k0" />
+                <node concept="3TrEf2" id="NHi1GaK1Dy" role="2OqNvi">
+                  <ref role="3Tt5mk" to="bs99:1msVhuaiPyW" />
+                </node>
+              </node>
+              <node concept="3Tsc0h" id="NHi1GaK1Dz" role="2OqNvi">
+                <ref role="3TtcxE" to="bs99:1msVhua4SBc" />
+              </node>
+            </node>
+            <node concept="2ShNRf" id="NHi1GaK1Fn" role="3K4GZi">
+              <node concept="kMnCb" id="NHi1GaK1Fo" role="2ShVmc">
+                <node concept="3Tqbb2" id="NHi1GaK1Fp" role="kMuH3">
+                  <ref role="ehGHo" to="bs99:1msVhua4SB8" resolve="ResourceRange" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="A3Dl8" id="NHi1GaJQ8S" role="3clF45">
+        <node concept="3Tqbb2" id="NHi1GaJQ8Z" role="A3Ik2">
+          <ref role="ehGHo" to="bs99:1msVhua4SB8" resolve="ResourceRange" />
         </node>
       </node>
     </node>
@@ -24363,29 +24407,6 @@
   <node concept="13h7C7" id="1msVhua4SJ6">
     <property role="3GE5qa" value="resources" />
     <ref role="13h7C2" to="bs99:1msVhua4SB8" resolve="ResourceRange" />
-    <node concept="13i0hz" id="1msVhua4SJ7" role="13h7CS">
-      <property role="TrG5h" value="sourceRepository" />
-      <node concept="3Tm1VV" id="1msVhua4SJ8" role="1B3o_S" />
-      <node concept="3clFbS" id="1msVhua4SJ9" role="3clF47">
-        <node concept="3clFbF" id="1msVhua4SJa" role="3cqZAp">
-          <node concept="2OqwBi" id="1msVhua4SJb" role="3clFbG">
-            <node concept="1PxgMI" id="1msVhua4SJc" role="2Oq$k0">
-              <ref role="1PxNhF" to="bs99:1msVhua4SBb" resolve="ResourceRangeContainer" />
-              <node concept="2OqwBi" id="1msVhua4SJd" role="1PxMeX">
-                <node concept="13iPFW" id="1msVhua4SJe" role="2Oq$k0" />
-                <node concept="1mfA1w" id="1msVhua4SJf" role="2OqNvi" />
-              </node>
-            </node>
-            <node concept="2qgKlT" id="1msVhua4SJg" role="2OqNvi">
-              <ref role="37wK5l" node="1msVhua4SIH" resolve="registry" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3Tqbb2" id="1msVhua4SJk" role="3clF45">
-        <ref role="ehGHo" to="bs99:1ISEu8LK1G2" resolve="PluginRepository" />
-      </node>
-    </node>
     <node concept="13hLZK" id="1msVhua4SJl" role="13h7CW">
       <node concept="3clFbS" id="1msVhua4SJm" role="2VODD2" />
     </node>
