@@ -2657,23 +2657,5 @@
     <property role="3GE5qa" value="tools" />
     <ref role="1M2myG" to="bs99:4yAVcLSsa8g" resolve="MultiTool" />
   </node>
-  <node concept="1M2fIO" id="1msVhua4Tku">
-    <property role="3GE5qa" value="resources" />
-    <ref role="1M2myG" to="bs99:1msVhua4SB8" resolve="ResourceRange" />
-    <node concept="nKS2y" id="1msVhua4Tkv" role="1MLUbF">
-      <node concept="3clFbS" id="1msVhua4Tkw" role="2VODD2">
-        <node concept="3clFbF" id="1msVhua4Tkx" role="3cqZAp">
-          <node concept="2OqwBi" id="1msVhua4Tky" role="3clFbG">
-            <node concept="nLn13" id="1msVhua4Tkz" role="2Oq$k0" />
-            <node concept="1mIQ4w" id="1msVhua4Tk$" role="2OqNvi">
-              <node concept="chp4Y" id="1msVhua4Tk_" role="cj9EA">
-                <ref role="cht4Q" to="bs99:1msVhua4SBb" resolve="ResourceRangeContainer" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
 </model>
 
