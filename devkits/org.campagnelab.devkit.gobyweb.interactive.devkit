@@ -19,6 +19,7 @@
   <exported-language name="0202ed86-955d-4227-9c20-377dd6b1f9ff(org.campagnelab.nyosh.lib)" />
   <exported-language name="82ffebe3-3685-4fd9-b560-0c1d348d295c(org.campagnelab.logger)" />
   <exported-language name="a8fb88b0-7e9f-478c-aab4-a1b076131192(org.campagnelab.gobyweb.interactive)" />
+  <exported-language name="0de824b8-cf25-4b8e-ae24-28f63bb90396(org.campagnelab.gobyweb.plugins.packaging)" />
   <exported-solutions>
     <exported-solution>2b3d76b7-a9ea-44f6-8a30-283c3ffb5f0a(org.campagnelab.ui.code)</exported-solution>
     <exported-solution>9fdb2df2-db25-4874-9a5f-47e348e5bce7(org.campagnelab.lucene.tableviewer.runtime)</exported-solution>
