@@ -1476,5 +1476,12 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
+  <node concept="1TIwiD" id="5cVzYEjCPoi">
+    <property role="3GE5qa" value="resources" />
+    <property role="TrG5h" value="LatestVersionRange" />
+    <property role="34LRSv" value="latest" />
+    <property role="R4oN_" value="latest version available" />
+    <ref role="1TJDcQ" node="1msVhua4SBd" resolve="ResourceVersion" />
+  </node>
 </model>
 

@@ -5440,5 +5440,15 @@
       <node concept="2iRfu4" id="1msVhuay9kv" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="5cVzYEjCPti">
+    <property role="3GE5qa" value="resources" />
+    <ref role="1XX52x" to="bs99:5cVzYEjCPoi" resolve="LatestVersionRange" />
+    <node concept="3EZMnI" id="5cVzYEjCPYO" role="2wV5jI">
+      <node concept="3F0ifn" id="5cVzYEjCPYP" role="3EZMnx">
+        <property role="3F0ifm" value="latest" />
+      </node>
+      <node concept="2iRfu4" id="5cVzYEjCPYV" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 
