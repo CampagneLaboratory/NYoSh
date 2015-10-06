@@ -35,6 +35,7 @@
     <import index="bbh2" ref="r:220d24dc-c962-4ed8-b674-7bde9fb2980c(org.campagnelab.gobyweb.monitoring.structure)" />
     <import index="qjgr" ref="r:b10d96fc-7d87-4bbe-9d4b-cb255f3c8c6c(org.campagnelab.gobyweb.monitoring.behavior)" />
     <import index="czzw" ref="r:2151664b-13bc-4072-a76b-815bb37c415e(org.campagnelab.gobyweb.interactive.users.structure)" />
+    <import index="iuj9" ref="r:b8fcf1e4-ccc5-4a08-9b19-9b2e4e857cd7(org.campagnelab.bash.nyosh.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
@@ -5411,43 +5412,6 @@
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
       <node concept="2iRfu4" id="1msVhua4Tko" role="2iSdaV" />
-    </node>
-  </node>
-  <node concept="24kQdi" id="1msVhuay9kn">
-    <property role="3GE5qa" value="resources" />
-    <ref role="1XX52x" to="bs99:1msVhuay9kk" resolve="ResourceVersionRange" />
-    <node concept="3EZMnI" id="1msVhuay9ko" role="2wV5jI">
-      <node concept="3F0ifn" id="1msVhuay9kp" role="3EZMnx">
-        <property role="3F0ifm" value="[" />
-      </node>
-      <node concept="3F0ifn" id="1msVhuay9kq" role="3EZMnx">
-        <property role="3F0ifm" value="from" />
-      </node>
-      <node concept="3F0A7n" id="1msVhuay9kr" role="3EZMnx">
-        <property role="1$x2rV" value="version" />
-        <ref role="1NtTu8" to="bs99:1msVhuay9km" resolve="atLeast" />
-      </node>
-      <node concept="3F0ifn" id="1msVhuay9ks" role="3EZMnx">
-        <property role="3F0ifm" value="to" />
-      </node>
-      <node concept="3F0A7n" id="1msVhuay9kt" role="3EZMnx">
-        <property role="1$x2rV" value="version" />
-        <ref role="1NtTu8" to="bs99:1msVhuay9kl" resolve="atMost" />
-      </node>
-      <node concept="3F0ifn" id="1msVhuay9ku" role="3EZMnx">
-        <property role="3F0ifm" value="]" />
-      </node>
-      <node concept="2iRfu4" id="1msVhuay9kv" role="2iSdaV" />
-    </node>
-  </node>
-  <node concept="24kQdi" id="5cVzYEjCPti">
-    <property role="3GE5qa" value="resources" />
-    <ref role="1XX52x" to="bs99:5cVzYEjCPoi" resolve="LatestVersionRange" />
-    <node concept="3EZMnI" id="5cVzYEjCPYO" role="2wV5jI">
-      <node concept="3F0ifn" id="5cVzYEjCPYP" role="3EZMnx">
-        <property role="3F0ifm" value="latest" />
-      </node>
-      <node concept="2iRfu4" id="5cVzYEjCPYV" role="2iSdaV" />
     </node>
   </node>
 </model>

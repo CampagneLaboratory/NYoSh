@@ -1461,27 +1461,5 @@
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
-  <node concept="1TIwiD" id="1msVhuay9kk">
-    <property role="3GE5qa" value="resources" />
-    <property role="TrG5h" value="ResourceVersionRange" />
-    <property role="34LRSv" value="range" />
-    <property role="R4oN_" value="[custom range]" />
-    <ref role="1TJDcQ" node="1msVhua4SBd" resolve="ResourceVersion" />
-    <node concept="1TJgyi" id="1msVhuay9kl" role="1TKVEl">
-      <property role="TrG5h" value="atMost" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="1msVhuay9km" role="1TKVEl">
-      <property role="TrG5h" value="atLeast" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="5cVzYEjCPoi">
-    <property role="3GE5qa" value="resources" />
-    <property role="TrG5h" value="LatestVersionRange" />
-    <property role="34LRSv" value="latest" />
-    <property role="R4oN_" value="latest version available" />
-    <ref role="1TJDcQ" node="1msVhua4SBd" resolve="ResourceVersion" />
-  </node>
 </model>
 
