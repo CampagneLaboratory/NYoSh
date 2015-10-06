@@ -970,6 +970,11 @@
             <ref role="3bR37D" node="2mFg1uCEWeN" resolve="org.campagnelab.gobyweb.interactive.samples" />
           </node>
         </node>
+        <node concept="1SiIV0" id="x_3xEV4N1t" role="3bR37C">
+          <node concept="1Busua" id="x_3xEV4N1u" role="1SiIV1">
+            <ref role="1Busuk" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="664r$yjrVvw" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -1189,6 +1194,9 @@
         </node>
         <node concept="3LEDTy" id="664r$yjR0iB" role="3LEDUa">
           <ref role="3LEDTV" node="3puE8cAboZU" resolve="org.campagnelab.gobyweb.interactive.platforms" />
+        </node>
+        <node concept="3LEDTy" id="x_3xEVhLmA" role="3LEDUa">
+          <ref role="3LEDTV" node="x_3xEVhKgi" resolve="org.campagnelab.gobyweb.plugins.packaging" />
         </node>
       </node>
       <node concept="1E1JtD" id="3puE8cAboZU" role="2G$12L">
@@ -1538,6 +1546,70 @@
         <node concept="1yeLz9" id="2mFg1uCEWZx" role="1TViLv">
           <property role="TrG5h" value="org.campagnelab.lucene.tableviewer#6642819616993943093" />
           <property role="3LESm3" value="c1db8f2e-2639-43c2-96f0-d89ea9b0ed38" />
+          <property role="2GAjPV" value="false" />
+        </node>
+      </node>
+      <node concept="1E1JtD" id="x_3xEVhKgi" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="org.campagnelab.gobyweb.plugins.packaging" />
+        <property role="3LESm3" value="0de824b8-cf25-4b8e-ae24-28f63bb90396" />
+        <property role="2GAjPV" value="false" />
+        <node concept="55IIr" id="x_3xEVhKgl" role="3LF7KH">
+          <node concept="2Ry0Ak" id="x_3xEVhKW5" role="iGT6I">
+            <property role="2Ry0Am" value="languages" />
+            <node concept="2Ry0Ak" id="x_3xEVhL0U" role="2Ry0An">
+              <property role="2Ry0Am" value="org.campagnelab.gobyweb.plugins.packaging" />
+              <node concept="2Ry0Ak" id="x_3xEVhLat" role="2Ry0An">
+                <property role="2Ry0Am" value="org.campagnelab.gobyweb.plugins.packaging.mpl" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="x_3xEVhLoF" role="3bR37C">
+          <node concept="3bR9La" id="x_3xEVhLoG" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:1ZViq9oppal" resolve="jetbrains.mps.make.facets" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="x_3xEVhLoH" role="3bR37C">
+          <node concept="3bR9La" id="x_3xEVhLoI" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="t9i9:2mFg1uCD9q3" resolve="org.campagnelab.nyosh.lib" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="x_3xEVhLoJ" role="3bR37C">
+          <node concept="3bR9La" id="x_3xEVhLoK" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6LbO" resolve="jetbrains.mps.lang.traceable" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="x_3xEVhLoL" role="3bR37C">
+          <node concept="3bR9La" id="x_3xEVhLoM" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6LgV" resolve="jetbrains.mps.make.runtime" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="x_3xEVhLoN" role="3bR37C">
+          <node concept="3bR9La" id="x_3xEVhLoO" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6LfQ" resolve="jetbrains.mps.kernel" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="x_3xEVhLoP" role="3bR37C">
+          <node concept="3bR9La" id="x_3xEVhLoQ" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="5f6q:2mFg1uCEf5K" resolve="org.campagnelab.gobyweb" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="x_3xEVhLoR" role="3bR37C">
+          <node concept="3bR9La" id="x_3xEVhLoS" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6Lg2" resolve="jetbrains.mps.smodel.resources" />
+          </node>
+        </node>
+        <node concept="1yeLz9" id="x_3xEVhLoT" role="1TViLv">
+          <property role="TrG5h" value="org.campagnelab.gobyweb.plugins.packaging#5503249779301931285" />
+          <property role="3LESm3" value="9c113383-e59c-4061-91c3-37c1a0de9009" />
           <property role="2GAjPV" value="false" />
         </node>
       </node>
