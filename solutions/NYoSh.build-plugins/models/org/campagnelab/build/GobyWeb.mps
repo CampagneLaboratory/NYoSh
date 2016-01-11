@@ -301,13 +301,13 @@
         <node concept="2pNUuL" id="7ZmC9JYEfXR" role="2pNNFR">
           <property role="2pNUuO" value="until-build" />
           <node concept="2pMdtt" id="7ZmC9JYEfXS" role="2pMdts">
-            <property role="2pMdty" value="140.1" />
+            <property role="2pMdty" value="144.1" />
           </node>
         </node>
         <node concept="2pNUuL" id="7ZmC9JYEfXT" role="2pNNFR">
           <property role="2pNUuO" value="since-build" />
           <node concept="2pMdtt" id="7ZmC9JYEfXU" role="2pMdts">
-            <property role="2pMdty" value="139.1" />
+            <property role="2pMdty" value="143.1" />
           </node>
         </node>
       </node>
@@ -453,7 +453,7 @@
         </node>
       </node>
       <node concept="1E1JtD" id="2mFg1uCEf5K" role="2G$12L">
-        <property role="BnDLt" value="false" />
+        <property role="BnDLt" value="true" />
         <property role="TrG5h" value="org.campagnelab.gobyweb" />
         <property role="3LESm3" value="adfd00cb-58d7-4094-bca8-f941a491e04f" />
         <property role="2GAjPV" value="false" />

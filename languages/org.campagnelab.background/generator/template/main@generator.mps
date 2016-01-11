@@ -268,7 +268,7 @@
       <node concept="3clFbS" id="279h23BciKf" role="9aQI4">
         <node concept="3cpWs8" id="279h23BnH1A" role="3cqZAp">
           <node concept="3cpWsn" id="279h23BnH1B" role="3cpWs9">
-            <property role="TrG5h" value="thisNode" />
+            <property role="TrG5h" value="__thisNode__" />
             <property role="3TUv4t" value="false" />
             <node concept="3uibUv" id="279h23BnH1C" role="1tU5fm">
               <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
@@ -283,7 +283,7 @@
                 <property role="3TUv4t" value="true" />
                 <node concept="3Tqbb2" id="71yY3tf8MDA" role="1tU5fm" />
                 <node concept="37vLTw" id="71yY3tf8Nr1" role="33vP2m">
-                  <ref role="3cqZAo" node="279h23BnH1B" resolve="thisNode" />
+                  <ref role="3cqZAo" node="279h23BnH1B" resolve="__thisNode__" />
                 </node>
               </node>
             </node>
@@ -305,7 +305,7 @@
                           <ref role="37wK5l" to="i8bi:5IkW5anFei4" resolve="getModel" />
                           <ref role="1Pybhc" to="i8bi:5IkW5anFcyt" resolve="SNodeOperations" />
                           <node concept="37vLTw" id="3xhKXWoYGro" role="37wK5m">
-                            <ref role="3cqZAo" node="279h23BnH1B" resolve="thisNode" />
+                            <ref role="3cqZAo" node="279h23BnH1B" resolve="__thisNode__" />
                           </node>
                         </node>
                       </node>
