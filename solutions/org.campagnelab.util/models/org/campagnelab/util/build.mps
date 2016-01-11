@@ -3,13 +3,13 @@
   <persistence version="9" />
   <languages>
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="-1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="1" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
   </languages>
   <imports>
-    <import index="fxg7" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
-    <import index="k7g3" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
-    <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
-    <import index="jjlx" ref="f:java_stub#0202ed86-955d-4227-9c20-377dd6b1f9ff#com.esotericsoftware.wildcard(org.campagnelab.nyosh.lib/com.esotericsoftware.wildcard@java_stub)" />
+    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
+    <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
+    <import index="74u2" ref="0202ed86-955d-4227-9c20-377dd6b1f9ff/java:com.esotericsoftware.wildcard(org.campagnelab.nyosh.lib/)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -158,17 +158,17 @@
           <node concept="3cpWsn" id="3FOZ2RYHu15" role="3cpWs9">
             <property role="TrG5h" value="pluginJar" />
             <node concept="3uibUv" id="3FOZ2RYHu16" role="1tU5fm">
-              <ref role="3uigEE" to="fxg7:~File" resolve="File" />
+              <ref role="3uigEE" to="guwi:~File" resolve="File" />
             </node>
             <node concept="2ShNRf" id="3FOZ2RYHv_x" role="33vP2m">
               <node concept="1pGfFk" id="3FOZ2RYHvQU" role="2ShVmc">
-                <ref role="37wK5l" to="fxg7:~File.&lt;init&gt;(java.lang.String,java.lang.String)" resolve="File" />
+                <ref role="37wK5l" to="guwi:~File.&lt;init&gt;(java.lang.String,java.lang.String)" resolve="File" />
                 <node concept="2OqwBi" id="3FOZ2RYHAOp" role="37wK5m">
                   <node concept="37vLTw" id="3FOZ2RYHvS$" role="2Oq$k0">
                     <ref role="3cqZAo" node="3FOZ2RY2JoE" resolve="classesDir" />
                   </node>
                   <node concept="liA8E" id="3FOZ2RYHDXS" role="2OqNvi">
-                    <ref role="37wK5l" to="fxg7:~File.getAbsolutePath():java.lang.String" resolve="getAbsolutePath" />
+                    <ref role="37wK5l" to="guwi:~File.getAbsolutePath():java.lang.String" resolve="getAbsolutePath" />
                   </node>
                 </node>
                 <node concept="3cpWs3" id="y7MyQVV69_" role="37wK5m">
@@ -196,8 +196,8 @@
                       <property role="Xl_RC" value="/bin/jar" />
                     </node>
                     <node concept="2YIFZM" id="3FOZ2RYk4rN" role="3uHU7B">
-                      <ref role="1Pybhc" to="e2lb:~System" resolve="System" />
-                      <ref role="37wK5l" to="e2lb:~System.getenv(java.lang.String):java.lang.String" resolve="getenv" />
+                      <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
+                      <ref role="37wK5l" to="wyt6:~System.getenv(java.lang.String):java.lang.String" resolve="getenv" />
                       <node concept="Xl_RD" id="3FOZ2RYk4Gi" role="37wK5m">
                         <property role="Xl_RC" value="JDK_HOME" />
                       </node>
@@ -209,11 +209,11 @@
           </node>
           <node concept="2OqwBi" id="3FOZ2RY6jOD" role="3clFbw">
             <node concept="2YIFZM" id="3FOZ2RY6fm3" role="2Oq$k0">
-              <ref role="37wK5l" to="e2lb:~System.getenv():java.util.Map" resolve="getenv" />
-              <ref role="1Pybhc" to="e2lb:~System" resolve="System" />
+              <ref role="37wK5l" to="wyt6:~System.getenv():java.util.Map" resolve="getenv" />
+              <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
             </node>
             <node concept="liA8E" id="3FOZ2RY6rTq" role="2OqNvi">
-              <ref role="37wK5l" to="k7g3:~Map.containsKey(java.lang.Object):boolean" resolve="containsKey" />
+              <ref role="37wK5l" to="33ny:~Map.containsKey(java.lang.Object):boolean" resolve="containsKey" />
               <node concept="Xl_RD" id="3FOZ2RY6rX7" role="37wK5m">
                 <property role="Xl_RC" value="JDK_HOME" />
               </node>
@@ -259,7 +259,7 @@
                   <ref role="3cqZAo" node="3FOZ2RYHu15" resolve="pluginJar" />
                 </node>
                 <node concept="liA8E" id="3FOZ2RYHIAq" role="2OqNvi">
-                  <ref role="37wK5l" to="fxg7:~File.getAbsolutePath():java.lang.String" resolve="getAbsolutePath" />
+                  <ref role="37wK5l" to="guwi:~File.getAbsolutePath():java.lang.String" resolve="getAbsolutePath" />
                 </node>
               </node>
             </node>
@@ -270,11 +270,11 @@
             <property role="TrG5h" value="paths" />
             <node concept="2ShNRf" id="dVl0XjCZEv" role="33vP2m">
               <node concept="1pGfFk" id="dVl0XjD7Sk" role="2ShVmc">
-                <ref role="37wK5l" to="jjlx:~Paths.&lt;init&gt;()" resolve="Paths" />
+                <ref role="37wK5l" to="74u2:~Paths.&lt;init&gt;()" resolve="Paths" />
               </node>
             </node>
             <node concept="3uibUv" id="dVl0XjCZE1" role="1tU5fm">
-              <ref role="3uigEE" to="jjlx:~Paths" resolve="Paths" />
+              <ref role="3uigEE" to="74u2:~Paths" resolve="Paths" />
             </node>
           </node>
         </node>
@@ -296,12 +296,12 @@
                           <ref role="3cqZAo" node="3FOZ2RY2JoE" resolve="classesDir" />
                         </node>
                         <node concept="liA8E" id="3FOZ2RY$d86" role="2OqNvi">
-                          <ref role="37wK5l" to="fxg7:~File.getName():java.lang.String" resolve="getName" />
+                          <ref role="37wK5l" to="guwi:~File.getName():java.lang.String" resolve="getName" />
                         </node>
                       </node>
                       <node concept="10M0yZ" id="3FOZ2RY$dIz" role="3uHU7w">
-                        <ref role="1PxDUh" to="fxg7:~File" resolve="File" />
-                        <ref role="3cqZAo" to="fxg7:~File.separator" resolve="separator" />
+                        <ref role="1PxDUh" to="guwi:~File" resolve="File" />
+                        <ref role="3cqZAo" to="guwi:~File.separator" resolve="separator" />
                       </node>
                     </node>
                   </node>
@@ -319,13 +319,13 @@
                 <ref role="3cqZAo" node="dVl0XjCZE0" resolve="paths" />
               </node>
               <node concept="liA8E" id="3FOZ2RYzwof" role="2OqNvi">
-                <ref role="37wK5l" to="jjlx:~Paths.glob(java.lang.String,java.lang.String...):com.esotericsoftware.wildcard.Paths" resolve="glob" />
+                <ref role="37wK5l" to="74u2:~Paths.glob(java.lang.String,java.lang.String...):com.esotericsoftware.wildcard.Paths" resolve="glob" />
                 <node concept="2OqwBi" id="3FOZ2RYzLB$" role="37wK5m">
                   <node concept="37vLTw" id="3FOZ2RYzDi4" role="2Oq$k0">
                     <ref role="3cqZAo" node="3FOZ2RY2JoE" resolve="classesDir" />
                   </node>
                   <node concept="liA8E" id="3FOZ2RYzPKl" role="2OqNvi">
-                    <ref role="37wK5l" to="fxg7:~File.getAbsolutePath():java.lang.String" resolve="getAbsolutePath" />
+                    <ref role="37wK5l" to="guwi:~File.getAbsolutePath():java.lang.String" resolve="getAbsolutePath" />
                   </node>
                 </node>
                 <node concept="Xl_RD" id="3FOZ2RYzHcd" role="37wK5m">
@@ -334,7 +334,7 @@
               </node>
             </node>
             <node concept="liA8E" id="3FOZ2RYzD6B" role="2OqNvi">
-              <ref role="37wK5l" to="jjlx:~Paths.getRelativePaths():java.util.List" resolve="getRelativePaths" />
+              <ref role="37wK5l" to="74u2:~Paths.getRelativePaths():java.util.List" resolve="getRelativePaths" />
             </node>
           </node>
         </node>
@@ -344,11 +344,11 @@
               <node concept="3cpWsn" id="3FOZ2RY79TT" role="3cpWs9">
                 <property role="TrG5h" value="p" />
                 <node concept="3uibUv" id="3FOZ2RY8jO1" role="1tU5fm">
-                  <ref role="3uigEE" to="e2lb:~ProcessBuilder" resolve="ProcessBuilder" />
+                  <ref role="3uigEE" to="wyt6:~ProcessBuilder" resolve="ProcessBuilder" />
                 </node>
                 <node concept="2ShNRf" id="3FOZ2RY7dFv" role="33vP2m">
                   <node concept="1pGfFk" id="3FOZ2RY7dWK" role="2ShVmc">
-                    <ref role="37wK5l" to="e2lb:~ProcessBuilder.&lt;init&gt;(java.util.List)" resolve="ProcessBuilder" />
+                    <ref role="37wK5l" to="wyt6:~ProcessBuilder.&lt;init&gt;(java.util.List)" resolve="ProcessBuilder" />
                     <node concept="37vLTw" id="3FOZ2RY8N$r" role="37wK5m">
                       <ref role="3cqZAo" node="3FOZ2RY8srX" resolve="command" />
                     </node>
@@ -362,13 +362,13 @@
                   <ref role="3cqZAo" node="3FOZ2RY79TT" resolve="p" />
                 </node>
                 <node concept="liA8E" id="3FOZ2RYxuz0" role="2OqNvi">
-                  <ref role="37wK5l" to="e2lb:~ProcessBuilder.directory(java.io.File):java.lang.ProcessBuilder" resolve="directory" />
+                  <ref role="37wK5l" to="wyt6:~ProcessBuilder.directory(java.io.File):java.lang.ProcessBuilder" resolve="directory" />
                   <node concept="2OqwBi" id="7C58QrJO3O0" role="37wK5m">
                     <node concept="37vLTw" id="3FOZ2RYxu$H" role="2Oq$k0">
                       <ref role="3cqZAo" node="3FOZ2RY2JoE" resolve="classesDir" />
                     </node>
                     <node concept="liA8E" id="7C58QrJO4cZ" role="2OqNvi">
-                      <ref role="37wK5l" to="fxg7:~File.getParentFile():java.io.File" resolve="getParentFile" />
+                      <ref role="37wK5l" to="guwi:~File.getParentFile():java.io.File" resolve="getParentFile" />
                     </node>
                   </node>
                 </node>
@@ -378,14 +378,14 @@
               <node concept="3cpWsn" id="2gOXPSN7PVw" role="3cpWs9">
                 <property role="TrG5h" value="proc" />
                 <node concept="3uibUv" id="2gOXPSN7PVx" role="1tU5fm">
-                  <ref role="3uigEE" to="e2lb:~Process" resolve="Process" />
+                  <ref role="3uigEE" to="wyt6:~Process" resolve="Process" />
                 </node>
                 <node concept="2OqwBi" id="2gOXPSN7SpS" role="33vP2m">
                   <node concept="37vLTw" id="2gOXPSN7SlL" role="2Oq$k0">
                     <ref role="3cqZAo" node="3FOZ2RY79TT" resolve="p" />
                   </node>
                   <node concept="liA8E" id="2gOXPSN7Tzg" role="2OqNvi">
-                    <ref role="37wK5l" to="e2lb:~ProcessBuilder.start():java.lang.Process" resolve="start" />
+                    <ref role="37wK5l" to="wyt6:~ProcessBuilder.start():java.lang.Process" resolve="start" />
                   </node>
                 </node>
               </node>
@@ -396,7 +396,7 @@
                   <ref role="3cqZAo" node="2gOXPSN7PVw" resolve="proc" />
                 </node>
                 <node concept="liA8E" id="2gOXPSN7ZGC" role="2OqNvi">
-                  <ref role="37wK5l" to="e2lb:~Process.waitFor():int" resolve="waitFor" />
+                  <ref role="37wK5l" to="wyt6:~Process.waitFor():int" resolve="waitFor" />
                 </node>
               </node>
             </node>
@@ -405,14 +405,14 @@
             <node concept="3cpWsn" id="2gOXPSN6MUj" role="TDEfY">
               <property role="TrG5h" value="ie" />
               <node concept="3uibUv" id="2gOXPSN6Ofw" role="1tU5fm">
-                <ref role="3uigEE" to="e2lb:~InterruptedException" resolve="InterruptedException" />
+                <ref role="3uigEE" to="wyt6:~InterruptedException" resolve="InterruptedException" />
               </node>
             </node>
             <node concept="3clFbS" id="2gOXPSN6MUn" role="TDEfX">
               <node concept="YS8fn" id="2gOXPSN8Jfx" role="3cqZAp">
                 <node concept="2ShNRf" id="2gOXPSN8Lns" role="YScLw">
                   <node concept="1pGfFk" id="2gOXPSN8NEW" role="2ShVmc">
-                    <ref role="37wK5l" to="fxg7:~IOException.&lt;init&gt;(java.lang.String)" resolve="IOException" />
+                    <ref role="37wK5l" to="guwi:~IOException.&lt;init&gt;(java.lang.String)" resolve="IOException" />
                     <node concept="Xl_RD" id="2gOXPSN8OLq" role="37wK5m">
                       <property role="Xl_RC" value="unable to create the distribution package" />
                     </node>
@@ -430,12 +430,12 @@
       </node>
       <node concept="3Tm1VV" id="y7MyQVULtP" role="1B3o_S" />
       <node concept="3uibUv" id="3FOZ2RY9GFz" role="3clF45">
-        <ref role="3uigEE" to="fxg7:~File" resolve="File" />
+        <ref role="3uigEE" to="guwi:~File" resolve="File" />
       </node>
       <node concept="37vLTG" id="3FOZ2RY2JoE" role="3clF46">
         <property role="TrG5h" value="classesDir" />
         <node concept="3uibUv" id="3FOZ2RY2JoD" role="1tU5fm">
-          <ref role="3uigEE" to="fxg7:~File" resolve="File" />
+          <ref role="3uigEE" to="guwi:~File" resolve="File" />
         </node>
       </node>
       <node concept="37vLTG" id="y7MyQVV3IP" role="3clF46">
@@ -443,7 +443,7 @@
         <node concept="17QB3L" id="y7MyQVV4g9" role="1tU5fm" />
       </node>
       <node concept="3uibUv" id="3FOZ2RY7sja" role="Sfmx6">
-        <ref role="3uigEE" to="fxg7:~IOException" resolve="IOException" />
+        <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
       </node>
     </node>
     <node concept="3Tm1VV" id="3FOZ2RXSWlW" role="1B3o_S" />

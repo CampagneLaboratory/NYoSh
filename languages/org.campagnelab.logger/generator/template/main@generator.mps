@@ -7,10 +7,10 @@
     <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="-1" />
     <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="-1" />
     <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="-1" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="-1" />
     <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="-1" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="-1" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="2" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -20,7 +20,7 @@
     <import index="mak5" ref="r:977bf260-4884-422e-9656-9f0bb268fcb0(org.campagnelab.logger.behavior)" />
     <import index="1i04" ref="r:3270011d-8b2d-4938-8dff-d256a759e017(jetbrains.mps.lang.behavior.structure)" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
-    <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -131,10 +131,13 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
+        <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
+      </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
       <concept id="1171323947159" name="jetbrains.mps.lang.smodel.structure.Model_NodesOperation" flags="nn" index="2SmgA7">
-        <reference id="1171323947160" name="concept" index="2SmgA8" />
+        <child id="1758937410080001570" name="conceptArgument" index="1dBWTz" />
       </concept>
       <concept id="1171999116870" name="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" flags="nn" index="3w_OXm" />
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
@@ -234,7 +237,9 @@
                     <node concept="I4A8Y" id="7arfhhe6ak8" role="2OqNvi" />
                   </node>
                   <node concept="2SmgA7" id="7arfhhe6ak9" role="2OqNvi">
-                    <ref role="2SmgA8" to="whle:1EUvP1fLbDG" resolve="Logger" />
+                    <node concept="chp4Y" id="16pFkr3wWdc" role="1dBWTz">
+                      <ref role="cht4Q" to="whle:1EUvP1fLbDG" resolve="Logger" />
+                    </node>
                   </node>
                 </node>
                 <node concept="1uHKPH" id="7arfhhe6aka" role="2OqNvi" />
@@ -291,7 +296,9 @@
                     <node concept="I4A8Y" id="5T5HpHOC4lG" role="2OqNvi" />
                   </node>
                   <node concept="2SmgA7" id="5T5HpHOC4lH" role="2OqNvi">
-                    <ref role="2SmgA8" to="whle:1EUvP1fLbDG" resolve="Logger" />
+                    <node concept="chp4Y" id="16pFkr3wWde" role="1dBWTz">
+                      <ref role="cht4Q" to="whle:1EUvP1fLbDG" resolve="Logger" />
+                    </node>
                   </node>
                 </node>
                 <node concept="1uHKPH" id="5T5HpHOC4lI" role="2OqNvi" />
@@ -437,7 +444,7 @@
             <node concept="3cpWsn" id="5T5HpHODkxC" role="3cpWs9">
               <property role="TrG5h" value="e" />
               <node concept="3uibUv" id="5T5HpHODkxD" role="1tU5fm">
-                <ref role="3uigEE" to="e2lb:~Exception" resolve="Exception" />
+                <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
               </node>
             </node>
           </node>
@@ -454,7 +461,9 @@
                     <node concept="I4A8Y" id="5T5HpHODicB" role="2OqNvi" />
                   </node>
                   <node concept="2SmgA7" id="5T5HpHODicC" role="2OqNvi">
-                    <ref role="2SmgA8" to="whle:1EUvP1fLbDG" resolve="Logger" />
+                    <node concept="chp4Y" id="16pFkr3wWdg" role="1dBWTz">
+                      <ref role="cht4Q" to="whle:1EUvP1fLbDG" resolve="Logger" />
+                    </node>
                   </node>
                 </node>
                 <node concept="1uHKPH" id="5T5HpHODicD" role="2OqNvi" />

@@ -3,12 +3,9 @@
   <persistence version="9" />
   <languages>
     <use id="0f071fdb-3faa-4b8c-9f5e-1da0a01466d5" name="org.campagnelab.nyosh.environment" version="-1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="-1" />
     <use id="a21a7294-c126-4f63-8335-8fecd8c28c7e" name="org.campagnelab.NYoSh" version="-1" />
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
     <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="-1" />
     <use id="27f97fd8-caeb-43a0-a73f-f8ac957f3a17" name="org.campagnelab.gobyweb.environment" version="-1" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="-1" />
     <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="-1" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="-1" />
     <use id="7fa12e9c-b949-4976-b4fa-19accbc320b4" name="jetbrains.mps.lang.dataFlow" version="-1" />
@@ -17,13 +14,16 @@
     <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="-1" />
     <use id="0202ed86-955d-4227-9c20-377dd6b1f9ff" name="org.campagnelab.nyosh.lib" version="-1" />
     <use id="c1d262c7-5fba-470b-a7ad-87f5e0ae0a99" name="org.campagnelab.nyosh.functions" version="-1" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="2" />
     <devkit ref="db81b829-e557-4467-b78e-cc1d44965622(org.campagnelab.devkit.gobyweb.interactive)" />
   </languages>
   <imports>
-    <import index="ak0d" ref="f:java_stub#0202ed86-955d-4227-9c20-377dd6b1f9ff#org.apache.commons.io(org.campagnelab.nyosh.lib/org.apache.commons.io@java_stub)" />
-    <import index="4i4s" ref="f:java_stub#0202ed86-955d-4227-9c20-377dd6b1f9ff#org.campagnelab.nyosh.logging(org.campagnelab.nyosh.lib/org.campagnelab.nyosh.logging@java_stub)" />
-    <import index="fxg7" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
-    <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
+    <import index="8oaq" ref="0202ed86-955d-4227-9c20-377dd6b1f9ff/java:org.apache.commons.io(org.campagnelab.nyosh.lib/)" />
+    <import index="s3cx" ref="0202ed86-955d-4227-9c20-377dd6b1f9ff/java:org.campagnelab.nyosh.logging(org.campagnelab.nyosh.lib/)" />
+    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -743,7 +743,7 @@
                       <ref role="3cqZAo" node="5Z_tdjX5YW$" resolve="fastqFilenames" />
                     </node>
                     <node concept="liA8E" id="5Z_tdjX6gSB" role="2OqNvi">
-                      <ref role="37wK5l" to="e2lb:~String.split(java.lang.String):java.lang.String[]" resolve="split" />
+                      <ref role="37wK5l" to="wyt6:~String.split(java.lang.String):java.lang.String[]" resolve="split" />
                       <node concept="Xl_RD" id="5Z_tdjX6gSC" role="37wK5m">
                         <property role="Xl_RC" value=" " />
                       </node>
@@ -795,7 +795,7 @@
                                     <ref role="3cqZAo" node="5Z_tdjX6kRF" resolve="it" />
                                   </node>
                                   <node concept="liA8E" id="5Z_tdjX6mlb" role="2OqNvi">
-                                    <ref role="37wK5l" to="e2lb:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                                    <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
                                     <node concept="2jr1HQ" id="5Z_tdjX6mFp" role="37wK5m">
                                       <ref role="1IqXUh" node="2FhRhvI6XCx" resolve="PLUGINS_TASK_TRIM_HALOPLEX_READS_PAIR_INDICATOR_1" />
                                     </node>
@@ -832,7 +832,7 @@
                                     <ref role="3cqZAo" node="5Z_tdjX6rzG" resolve="it" />
                                   </node>
                                   <node concept="liA8E" id="5Z_tdjX6rzE" role="2OqNvi">
-                                    <ref role="37wK5l" to="e2lb:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                                    <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
                                     <node concept="2jr1HQ" id="5Z_tdjX6rzF" role="37wK5m">
                                       <ref role="1IqXUh" node="2FhRhvI6XCy" resolve="PLUGINS_TASK_TRIM_HALOPLEX_READS_PAIR_INDICATOR_2" />
                                     </node>
@@ -888,7 +888,7 @@
                                       <ref role="3cqZAo" node="5Z_tdjX6xoX" resolve="it" />
                                     </node>
                                     <node concept="liA8E" id="5Z_tdjX6xoV" role="2OqNvi">
-                                      <ref role="37wK5l" to="e2lb:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                                      <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
                                       <node concept="37vLTw" id="5Z_tdjX6Rg4" role="37wK5m">
                                         <ref role="3cqZAo" node="5Z_tdjX6R6i" resolve="firstPairIndicator" />
                                       </node>
@@ -909,18 +909,18 @@
                               <node concept="3clFbF" id="5Z_tdjX6FG8" role="3cqZAp">
                                 <node concept="2OqwBi" id="5Z_tdjX6LWc" role="3clFbG">
                                   <node concept="2YIFZM" id="5Z_tdjX6H9B" role="2Oq$k0">
-                                    <ref role="37wK5l" to="ak0d:~FilenameUtils.removeExtension(java.lang.String):java.lang.String" resolve="removeExtension" />
-                                    <ref role="1Pybhc" to="ak0d:~FilenameUtils" resolve="FilenameUtils" />
+                                    <ref role="37wK5l" to="8oaq:~FilenameUtils.removeExtension(java.lang.String):java.lang.String" resolve="removeExtension" />
+                                    <ref role="1Pybhc" to="8oaq:~FilenameUtils" resolve="FilenameUtils" />
                                     <node concept="2YIFZM" id="5Z_tdjX6DpI" role="37wK5m">
-                                      <ref role="37wK5l" to="ak0d:~FilenameUtils.getName(java.lang.String):java.lang.String" resolve="getName" />
-                                      <ref role="1Pybhc" to="ak0d:~FilenameUtils" resolve="FilenameUtils" />
+                                      <ref role="37wK5l" to="8oaq:~FilenameUtils.getName(java.lang.String):java.lang.String" resolve="getName" />
+                                      <ref role="1Pybhc" to="8oaq:~FilenameUtils" resolve="FilenameUtils" />
                                       <node concept="37vLTw" id="5Z_tdjX6ElM" role="37wK5m">
                                         <ref role="3cqZAo" node="5Z_tdjX6$UF" resolve="it" />
                                       </node>
                                     </node>
                                   </node>
                                   <node concept="liA8E" id="5Z_tdjX6P3m" role="2OqNvi">
-                                    <ref role="37wK5l" to="e2lb:~String.replace(java.lang.CharSequence,java.lang.CharSequence):java.lang.String" resolve="replace" />
+                                    <ref role="37wK5l" to="wyt6:~String.replace(java.lang.CharSequence,java.lang.CharSequence):java.lang.String" resolve="replace" />
                                     <node concept="37vLTw" id="5Z_tdjX6S58" role="37wK5m">
                                       <ref role="3cqZAo" node="5Z_tdjX6R6i" resolve="firstPairIndicator" />
                                     </node>
@@ -961,7 +961,7 @@
                                       <ref role="3cqZAo" node="5Z_tdjX6VDg" resolve="it" />
                                     </node>
                                     <node concept="liA8E" id="5Z_tdjX6VDe" role="2OqNvi">
-                                      <ref role="37wK5l" to="e2lb:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                                      <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
                                       <node concept="37vLTw" id="5Z_tdjX6Xrh" role="37wK5m">
                                         <ref role="3cqZAo" node="5Z_tdjX6Xc1" resolve="secondPairIndicator" />
                                       </node>
@@ -982,18 +982,18 @@
                               <node concept="3clFbF" id="5Z_tdjX6VDl" role="3cqZAp">
                                 <node concept="2OqwBi" id="5Z_tdjX6VDm" role="3clFbG">
                                   <node concept="2YIFZM" id="5Z_tdjX6VDn" role="2Oq$k0">
-                                    <ref role="37wK5l" to="ak0d:~FilenameUtils.removeExtension(java.lang.String):java.lang.String" resolve="removeExtension" />
-                                    <ref role="1Pybhc" to="ak0d:~FilenameUtils" resolve="FilenameUtils" />
+                                    <ref role="37wK5l" to="8oaq:~FilenameUtils.removeExtension(java.lang.String):java.lang.String" resolve="removeExtension" />
+                                    <ref role="1Pybhc" to="8oaq:~FilenameUtils" resolve="FilenameUtils" />
                                     <node concept="2YIFZM" id="5Z_tdjX6VDo" role="37wK5m">
-                                      <ref role="37wK5l" to="ak0d:~FilenameUtils.getName(java.lang.String):java.lang.String" resolve="getName" />
-                                      <ref role="1Pybhc" to="ak0d:~FilenameUtils" resolve="FilenameUtils" />
+                                      <ref role="37wK5l" to="8oaq:~FilenameUtils.getName(java.lang.String):java.lang.String" resolve="getName" />
+                                      <ref role="1Pybhc" to="8oaq:~FilenameUtils" resolve="FilenameUtils" />
                                       <node concept="37vLTw" id="5Z_tdjX6VDp" role="37wK5m">
                                         <ref role="3cqZAo" node="5Z_tdjX6VDt" resolve="it" />
                                       </node>
                                     </node>
                                   </node>
                                   <node concept="liA8E" id="5Z_tdjX6VDq" role="2OqNvi">
-                                    <ref role="37wK5l" to="e2lb:~String.replace(java.lang.CharSequence,java.lang.CharSequence):java.lang.String" resolve="replace" />
+                                    <ref role="37wK5l" to="wyt6:~String.replace(java.lang.CharSequence,java.lang.CharSequence):java.lang.String" resolve="replace" />
                                     <node concept="37vLTw" id="5Z_tdjX6XZX" role="37wK5m">
                                       <ref role="3cqZAo" node="5Z_tdjX6Xc1" resolve="secondPairIndicator" />
                                     </node>
@@ -1140,7 +1140,7 @@
                             <ref role="2Gs0qQ" node="5Z_tdjX7ivm" resolve="sample" />
                           </node>
                           <node concept="liA8E" id="5Z_tdjX7t$R" role="2OqNvi">
-                            <ref role="37wK5l" to="e2lb:~String.replace(java.lang.CharSequence,java.lang.CharSequence):java.lang.String" resolve="replace" />
+                            <ref role="37wK5l" to="wyt6:~String.replace(java.lang.CharSequence,java.lang.CharSequence):java.lang.String" resolve="replace" />
                             <node concept="Xl_RD" id="5Z_tdjX7t$S" role="37wK5m">
                               <property role="Xl_RC" value="%PAIR%" />
                             </node>
@@ -1160,7 +1160,7 @@
                             <ref role="2Gs0qQ" node="5Z_tdjX7ivm" resolve="sample" />
                           </node>
                           <node concept="liA8E" id="5Z_tdjX7tF5" role="2OqNvi">
-                            <ref role="37wK5l" to="e2lb:~String.replace(java.lang.CharSequence,java.lang.CharSequence):java.lang.String" resolve="replace" />
+                            <ref role="37wK5l" to="wyt6:~String.replace(java.lang.CharSequence,java.lang.CharSequence):java.lang.String" resolve="replace" />
                             <node concept="Xl_RD" id="5Z_tdjX7tF6" role="37wK5m">
                               <property role="Xl_RC" value="%PAIR%" />
                             </node>
@@ -1188,7 +1188,7 @@
                                       <ref role="3cqZAo" node="5Z_tdjX7q6h" resolve="it" />
                                     </node>
                                     <node concept="liA8E" id="5Z_tdjX7q6b" role="2OqNvi">
-                                      <ref role="37wK5l" to="e2lb:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                                      <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
                                       <node concept="37vLTw" id="5Z_tdjX7uv$" role="37wK5m">
                                         <ref role="3cqZAo" node="5Z_tdjX7thS" resolve="name1" />
                                       </node>
@@ -1222,7 +1222,7 @@
                                       <ref role="3cqZAo" node="5Z_tdjX7qlc" resolve="it" />
                                     </node>
                                     <node concept="liA8E" id="5Z_tdjX7ql6" role="2OqNvi">
-                                      <ref role="37wK5l" to="e2lb:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                                      <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
                                       <node concept="37vLTw" id="5Z_tdjX7v26" role="37wK5m">
                                         <ref role="3cqZAo" node="5Z_tdjX7tF1" resolve="name2" />
                                       </node>
@@ -1670,14 +1670,14 @@
       <node concept="3clFbS" id="5Z_tdjX8ae5" role="2VODD2">
         <node concept="3clFbF" id="5Z_tdjX8ae6" role="3cqZAp">
           <node concept="2YIFZM" id="5Z_tdjX8ae7" role="3clFbG">
-            <ref role="1Pybhc" to="4i4s:~StepsLoggerHelper" resolve="StepsLoggerHelper" />
-            <ref role="37wK5l" to="4i4s:~StepsLoggerHelper.createLogFile():void" resolve="createLogFile" />
+            <ref role="1Pybhc" to="s3cx:~StepsLoggerHelper" resolve="StepsLoggerHelper" />
+            <ref role="37wK5l" to="s3cx:~StepsLoggerHelper.createLogFile():void" resolve="createLogFile" />
           </node>
         </node>
         <node concept="3clFbF" id="5Z_tdjX8ae8" role="3cqZAp">
           <node concept="2YIFZM" id="5Z_tdjX8ae9" role="3clFbG">
-            <ref role="1Pybhc" to="4i4s:~StepsLoggerHelper" resolve="StepsLoggerHelper" />
-            <ref role="37wK5l" to="4i4s:~StepsLoggerHelper.done(java.lang.String,int):void" resolve="done" />
+            <ref role="1Pybhc" to="s3cx:~StepsLoggerHelper" resolve="StepsLoggerHelper" />
+            <ref role="37wK5l" to="s3cx:~StepsLoggerHelper.done(java.lang.String,int):void" resolve="done" />
             <node concept="3cpWs3" id="5Z_tdjX8aea" role="37wK5m">
               <node concept="3X9GNG" id="5Z_tdjX8aeb" role="3uHU7w" />
               <node concept="Xl_RD" id="5Z_tdjX8aec" role="3uHU7B">
@@ -1698,8 +1698,8 @@
       <node concept="3clFbS" id="5Z_tdjX8aeg" role="2VODD2">
         <node concept="3clFbF" id="5Z_tdjX8aeh" role="3cqZAp">
           <node concept="2YIFZM" id="5Z_tdjX8aei" role="3clFbG">
-            <ref role="1Pybhc" to="4i4s:~StepsLoggerHelper" resolve="StepsLoggerHelper" />
-            <ref role="37wK5l" to="4i4s:~StepsLoggerHelper.createLogFile():void" resolve="createLogFile" />
+            <ref role="1Pybhc" to="s3cx:~StepsLoggerHelper" resolve="StepsLoggerHelper" />
+            <ref role="37wK5l" to="s3cx:~StepsLoggerHelper.createLogFile():void" resolve="createLogFile" />
           </node>
         </node>
         <node concept="3clFbJ" id="5Z_tdjX8aej" role="3cqZAp">
@@ -1708,11 +1708,11 @@
               <node concept="3cpWsn" id="5Z_tdjX8aem" role="3cpWs9">
                 <property role="TrG5h" value="stringW" />
                 <node concept="3uibUv" id="5Z_tdjX8aen" role="1tU5fm">
-                  <ref role="3uigEE" to="fxg7:~Writer" resolve="Writer" />
+                  <ref role="3uigEE" to="guwi:~Writer" resolve="Writer" />
                 </node>
                 <node concept="2ShNRf" id="5Z_tdjX8aeo" role="33vP2m">
                   <node concept="1pGfFk" id="5Z_tdjX8aep" role="2ShVmc">
-                    <ref role="37wK5l" to="fxg7:~StringWriter.&lt;init&gt;()" resolve="StringWriter" />
+                    <ref role="37wK5l" to="guwi:~StringWriter.&lt;init&gt;()" resolve="StringWriter" />
                   </node>
                 </node>
               </node>
@@ -1721,11 +1721,11 @@
               <node concept="3cpWsn" id="5Z_tdjX8aer" role="3cpWs9">
                 <property role="TrG5h" value="printW" />
                 <node concept="3uibUv" id="5Z_tdjX8aes" role="1tU5fm">
-                  <ref role="3uigEE" to="fxg7:~PrintWriter" resolve="PrintWriter" />
+                  <ref role="3uigEE" to="guwi:~PrintWriter" resolve="PrintWriter" />
                 </node>
                 <node concept="2ShNRf" id="5Z_tdjX8aet" role="33vP2m">
                   <node concept="1pGfFk" id="5Z_tdjX8aeu" role="2ShVmc">
-                    <ref role="37wK5l" to="fxg7:~PrintWriter.&lt;init&gt;(java.io.Writer)" resolve="PrintWriter" />
+                    <ref role="37wK5l" to="guwi:~PrintWriter.&lt;init&gt;(java.io.Writer)" resolve="PrintWriter" />
                     <node concept="37vLTw" id="5Z_tdjX8aev" role="37wK5m">
                       <ref role="3cqZAo" node="5Z_tdjX8aem" resolve="stringW" />
                     </node>
@@ -1736,7 +1736,7 @@
             <node concept="3clFbF" id="5Z_tdjX8aew" role="3cqZAp">
               <node concept="2OqwBi" id="5Z_tdjX8aex" role="3clFbG">
                 <node concept="liA8E" id="5Z_tdjX8aez" role="2OqNvi">
-                  <ref role="37wK5l" to="e2lb:~Throwable.printStackTrace(java.io.PrintWriter):void" resolve="printStackTrace" />
+                  <ref role="37wK5l" to="wyt6:~Throwable.printStackTrace(java.io.PrintWriter):void" resolve="printStackTrace" />
                   <node concept="37vLTw" id="5Z_tdjX8ae$" role="37wK5m">
                     <ref role="3cqZAo" node="5Z_tdjX8aer" resolve="printW" />
                   </node>
@@ -1746,8 +1746,8 @@
             </node>
             <node concept="3clFbF" id="5Z_tdjX8ae_" role="3cqZAp">
               <node concept="2YIFZM" id="5Z_tdjX8aeA" role="3clFbG">
-                <ref role="1Pybhc" to="4i4s:~StepsLoggerHelper" resolve="StepsLoggerHelper" />
-                <ref role="37wK5l" to="4i4s:~StepsLoggerHelper.assertTrue(boolean,java.lang.String):void" resolve="assertTrue" />
+                <ref role="1Pybhc" to="s3cx:~StepsLoggerHelper" resolve="StepsLoggerHelper" />
+                <ref role="37wK5l" to="s3cx:~StepsLoggerHelper.assertTrue(boolean,java.lang.String):void" resolve="assertTrue" />
                 <node concept="3clFbT" id="5Z_tdjX8aeB" role="37wK5m">
                   <property role="3clFbU" value="false" />
                 </node>
@@ -1760,7 +1760,7 @@
                       <node concept="2OqwBi" id="2FhRhvIp3x0" role="3uHU7w">
                         <node concept="3X9Bxp" id="2FhRhvIp31w" role="2Oq$k0" />
                         <node concept="liA8E" id="2FhRhvIp424" role="2OqNvi">
-                          <ref role="37wK5l" to="e2lb:~Throwable.getStackTrace():java.lang.StackTraceElement[]" resolve="getStackTrace" />
+                          <ref role="37wK5l" to="wyt6:~Throwable.getStackTrace():java.lang.StackTraceElement[]" resolve="getStackTrace" />
                         </node>
                       </node>
                     </node>
@@ -1773,7 +1773,7 @@
                       <ref role="3cqZAo" node="5Z_tdjX8aem" resolve="stringW" />
                     </node>
                     <node concept="liA8E" id="5Z_tdjX8aeK" role="2OqNvi">
-                      <ref role="37wK5l" to="e2lb:~Object.toString():java.lang.String" resolve="toString" />
+                      <ref role="37wK5l" to="wyt6:~Object.toString():java.lang.String" resolve="toString" />
                     </node>
                   </node>
                 </node>
@@ -1788,8 +1788,8 @@
             <node concept="3clFbS" id="5Z_tdjX8aeP" role="9aQI4">
               <node concept="3clFbF" id="5Z_tdjX8aeQ" role="3cqZAp">
                 <node concept="2YIFZM" id="5Z_tdjX8aeR" role="3clFbG">
-                  <ref role="1Pybhc" to="4i4s:~StepsLoggerHelper" resolve="StepsLoggerHelper" />
-                  <ref role="37wK5l" to="4i4s:~StepsLoggerHelper.assertTrue(boolean,java.lang.String):void" resolve="assertTrue" />
+                  <ref role="1Pybhc" to="s3cx:~StepsLoggerHelper" resolve="StepsLoggerHelper" />
+                  <ref role="37wK5l" to="s3cx:~StepsLoggerHelper.assertTrue(boolean,java.lang.String):void" resolve="assertTrue" />
                   <node concept="3clFbT" id="5Z_tdjX8aeS" role="37wK5m">
                     <property role="3clFbU" value="false" />
                   </node>
@@ -1800,7 +1800,7 @@
                     <node concept="2OqwBi" id="2FhRhvIp3f9" role="3uHU7w">
                       <node concept="3X9Bxp" id="2FhRhvIp38k" role="2Oq$k0" />
                       <node concept="liA8E" id="2FhRhvIp3pf" role="2OqNvi">
-                        <ref role="37wK5l" to="e2lb:~Throwable.getMessage():java.lang.String" resolve="getMessage" />
+                        <ref role="37wK5l" to="wyt6:~Throwable.getMessage():java.lang.String" resolve="getMessage" />
                       </node>
                     </node>
                   </node>

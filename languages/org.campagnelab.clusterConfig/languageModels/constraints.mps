@@ -7,10 +7,10 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="cu2c" ref="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel(MPS.Core/jetbrains.mps.smodel@java_stub)" />
-    <import index="vyt2" ref="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.scope(MPS.Core/jetbrains.mps.scope@java_stub)" />
-    <import index="46mz" ref="r:bf68e0f8-5137-4e77-a465-6eead8ac55fe(org.campagnelab.clusterConfig.behavior)" implicit="true" />
+    <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
+    <import index="35tq" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.scope(MPS.Core/)" />
     <import index="9k5" ref="r:df9645c2-d2fa-41cb-a718-044a287b0626(org.campagnelab.clusterConfig.structure)" implicit="true" />
+    <import index="46mz" ref="r:bf68e0f8-5137-4e77-a465-6eead8ac55fe(org.campagnelab.clusterConfig.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -64,10 +64,13 @@
       <concept id="1153138554286" name="jetbrains.mps.lang.constraints.structure.ConstraintsFunctionParameter_propertyValue" flags="nn" index="1Wqviy" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
+        <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
+      </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
       <concept id="1171323947159" name="jetbrains.mps.lang.smodel.structure.Model_NodesOperation" flags="nn" index="2SmgA7">
-        <reference id="1171323947160" name="concept" index="2SmgA8" />
+        <child id="1758937410080001570" name="conceptArgument" index="1dBWTz" />
       </concept>
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
@@ -111,15 +114,17 @@
         <node concept="3clFbS" id="2GvbEExVbqo" role="2VODD2">
           <node concept="3cpWs6" id="2GvbEExVjdC" role="3cqZAp">
             <node concept="2YIFZM" id="2GvbEExVaf2" role="3cqZAk">
-              <ref role="37wK5l" to="vyt2:~ListScope.forNamedElements(java.lang.Iterable):jetbrains.mps.scope.ListScope" resolve="forNamedElements" />
-              <ref role="1Pybhc" to="vyt2:~ListScope" resolve="ListScope" />
+              <ref role="37wK5l" to="35tq:~ListScope.forNamedElements(java.lang.Iterable):jetbrains.mps.scope.ListScope" resolve="forNamedElements" />
+              <ref role="1Pybhc" to="35tq:~ListScope" resolve="ListScope" />
               <node concept="2OqwBi" id="2GvbEExVaf3" role="37wK5m">
                 <node concept="2OqwBi" id="2GvbEExVaf4" role="2Oq$k0">
                   <node concept="2rP1CM" id="2GvbEExVaf5" role="2Oq$k0" />
                   <node concept="I4A8Y" id="2GvbEExVaf6" role="2OqNvi" />
                 </node>
                 <node concept="2SmgA7" id="2GvbEExVaf7" role="2OqNvi">
-                  <ref role="2SmgA8" to="9k5:2DkpMLSFhUj" resolve="ExecutionNode" />
+                  <node concept="chp4Y" id="16pFkr3wS7s" role="1dBWTz">
+                    <ref role="cht4Q" to="9k5:2DkpMLSFhUj" resolve="ExecutionNode" />
+                  </node>
                 </node>
               </node>
             </node>

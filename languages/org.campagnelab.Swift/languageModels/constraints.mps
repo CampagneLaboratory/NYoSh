@@ -87,12 +87,6 @@
         <child id="1163668922816" name="ifTrue" index="3K4E3e" />
         <child id="1163668934364" name="ifFalse" index="3K4GZi" />
       </concept>
-      <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
-      </concept>
-      <concept id="6329021646629175143" name="jetbrains.mps.baseLanguage.structure.StatementCommentPart" flags="nn" index="3SKWN0">
-        <child id="6329021646629175144" name="commentedStatement" index="3SKWNf" />
-      </concept>
     </language>
     <language id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints">
       <concept id="1202989531578" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAChild" flags="in" index="nKS2y" />
@@ -192,9 +186,17 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
+        <property id="709746936026609031" name="linkId" index="3V$3ak" />
+        <property id="709746936026609029" name="linkRole" index="3V$3am" />
+      </concept>
+      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
+        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -524,16 +526,16 @@
     <ref role="1M2myG" to="m0w8:7zfsFc1ZBdL" resolve="NamedTypedRef" />
     <node concept="nKS2y" id="7zfsFc2bYDZ" role="1MLUbF">
       <node concept="3clFbS" id="7zfsFc2bYE0" role="2VODD2">
-        <node concept="3SKdUt" id="7$qHvQ5WblD" role="3cqZAp">
-          <node concept="3SKWN0" id="7$qHvQ5WblE" role="3SKWNk">
-            <node concept="3clFbF" id="7zfsFc2bZkX" role="3SKWNf">
-              <node concept="3fqX7Q" id="7zfsFc2c0$6" role="3clFbG">
-                <node concept="2OqwBi" id="7zfsFc2c0$8" role="3fr31v">
-                  <node concept="nLn13" id="7zfsFc2c0$9" role="2Oq$k0" />
-                  <node concept="1mIQ4w" id="7zfsFc2c0$a" role="2OqNvi">
-                    <node concept="chp4Y" id="7zfsFc2c0$b" role="cj9EA">
-                      <ref role="cht4Q" to="m0w8:3Jcpp0meELJ" resolve="ComplexType" />
-                    </node>
+        <node concept="1X3_iC" id="16pFkr3wWek" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3clFbF" id="7zfsFc2bZkX" role="8Wnug">
+            <node concept="3fqX7Q" id="7zfsFc2c0$6" role="3clFbG">
+              <node concept="2OqwBi" id="7zfsFc2c0$8" role="3fr31v">
+                <node concept="nLn13" id="7zfsFc2c0$9" role="2Oq$k0" />
+                <node concept="1mIQ4w" id="7zfsFc2c0$a" role="2OqNvi">
+                  <node concept="chp4Y" id="7zfsFc2c0$b" role="cj9EA">
+                    <ref role="cht4Q" to="m0w8:3Jcpp0meELJ" resolve="ComplexType" />
                   </node>
                 </node>
               </node>

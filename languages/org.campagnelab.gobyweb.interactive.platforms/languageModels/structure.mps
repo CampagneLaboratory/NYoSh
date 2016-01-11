@@ -2,7 +2,7 @@
 <model ref="r:2920e4c4-4b31-4f7c-ac90-f43b38fc4b8c(org.campagnelab.gobyweb.interactive.platforms.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -15,6 +15,7 @@
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="4628067390765956807" name="final" index="R5$K2" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
+        <property id="1587916991969465369" name="conceptId" index="1pbfSe" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -49,6 +50,7 @@
     <property role="R5$K7" value="false" />
     <property role="R5$K2" value="false" />
     <property role="3GE5qa" value="platforms" />
+    <property role="1pbfSe" value="87773177" />
     <ref role="1TJDcQ" to="bs99:7arfhhdt3J1" resolve="Attribute" />
     <node concept="1TJgyj" id="2ax7lfyB9n7" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -65,6 +67,7 @@
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
     <property role="3GE5qa" value="platforms" />
+    <property role="1pbfSe" value="87929623" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="2ax7lfyB9n5" role="1TKVEl">
       <property role="TrG5h" value="value" />
@@ -75,17 +78,20 @@
     <property role="TrG5h" value="Illumina" />
     <property role="R4oN_" value="Illumina platform" />
     <property role="3GE5qa" value="platforms" />
+    <property role="1pbfSe" value="87933795" />
     <ref role="1TJDcQ" node="2ax7lfyB9n4" resolve="PlatformValue" />
   </node>
   <node concept="1TIwiD" id="2ax7lfyBgXe">
     <property role="TrG5h" value="Other" />
     <property role="R4oN_" value="Other platform" />
     <property role="3GE5qa" value="platforms" />
+    <property role="1pbfSe" value="87960737" />
     <ref role="1TJDcQ" node="2ax7lfyB9n4" resolve="PlatformValue" />
   </node>
   <node concept="1TIwiD" id="664r$yjMNJw">
     <property role="TrG5h" value="PairedDirectionAttribute" />
     <property role="3GE5qa" value="directions" />
+    <property role="1pbfSe" value="179328472" />
     <ref role="1TJDcQ" to="bs99:7arfhhdt3J1" resolve="Attribute" />
     <node concept="1TJgyj" id="664r$yjMOP0" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -99,6 +105,7 @@
     <property role="TrG5h" value="PairedDirectionValue" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
+    <property role="1pbfSe" value="179326622" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="664r$yjMOcQ" role="1TKVEl">
       <property role="TrG5h" value="value" />
@@ -109,42 +116,49 @@
     <property role="3GE5qa" value="platforms" />
     <property role="TrG5h" value="Helicos" />
     <property role="R4oN_" value="Helicos platform" />
+    <property role="1pbfSe" value="179316563" />
     <ref role="1TJDcQ" node="2ax7lfyB9n4" resolve="PlatformValue" />
   </node>
   <node concept="1TIwiD" id="664r$yjMWOp">
     <property role="3GE5qa" value="platforms" />
     <property role="TrG5h" value="SOLiD" />
     <property role="R4oN_" value="SOLiD platform" />
+    <property role="1pbfSe" value="179291295" />
     <ref role="1TJDcQ" node="2ax7lfyB9n4" resolve="PlatformValue" />
   </node>
   <node concept="1TIwiD" id="664r$yjMXAa">
     <property role="3GE5qa" value="platforms" />
     <property role="TrG5h" value="Roche454" />
     <property role="R4oN_" value="Roche454 platform" />
+    <property role="1pbfSe" value="179288110" />
     <ref role="1TJDcQ" node="2ax7lfyB9n4" resolve="PlatformValue" />
   </node>
   <node concept="1TIwiD" id="664r$yjN5k1">
     <property role="3GE5qa" value="directions" />
     <property role="TrG5h" value="FF" />
     <property role="R4oN_" value="forward/forward" />
+    <property role="1pbfSe" value="179256503" />
     <ref role="1TJDcQ" node="664r$yjMOcq" resolve="PairedDirectionValue" />
   </node>
   <node concept="1TIwiD" id="664r$yjNhTO">
     <property role="3GE5qa" value="directions" />
     <property role="TrG5h" value="RF" />
     <property role="R4oN_" value="reverse/forward" />
+    <property role="1pbfSe" value="179204932" />
     <ref role="1TJDcQ" node="664r$yjMOcq" resolve="PairedDirectionValue" />
   </node>
   <node concept="1TIwiD" id="664r$yjNiOP">
     <property role="3GE5qa" value="directions" />
     <property role="TrG5h" value="FR" />
     <property role="R4oN_" value="forward/reverse" />
+    <property role="1pbfSe" value="179201155" />
     <ref role="1TJDcQ" node="664r$yjMOcq" resolve="PairedDirectionValue" />
   </node>
   <node concept="1TIwiD" id="664r$yjNjqG">
     <property role="3GE5qa" value="directions" />
     <property role="TrG5h" value="RR" />
     <property role="R4oN_" value="reverse/reverse" />
+    <property role="1pbfSe" value="179198732" />
     <ref role="1TJDcQ" node="664r$yjMOcq" resolve="PairedDirectionValue" />
   </node>
 </model>

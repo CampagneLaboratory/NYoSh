@@ -2,14 +2,14 @@
 <model ref="r:952a34a4-f957-48dc-8ff0-e1a176937269(org.campagnelab.clusterConfig.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="-1" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
     <import index="9k5" ref="r:df9645c2-d2fa-41cb-a718-044a287b0626(org.campagnelab.clusterConfig.structure)" />
     <import index="46mz" ref="r:bf68e0f8-5137-4e77-a465-6eead8ac55fe(org.campagnelab.clusterConfig.behavior)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -256,8 +256,8 @@
                   <node concept="3clFbS" id="$Ux0Gyhij9" role="2VODD2">
                     <node concept="3clFbF" id="$Ux0Gyhija" role="3cqZAp">
                       <node concept="2YIFZM" id="$Ux0Gyhijb" role="3clFbG">
-                        <ref role="37wK5l" to="e2lb:~Integer.toString(int):java.lang.String" resolve="toString" />
-                        <ref role="1Pybhc" to="e2lb:~Integer" resolve="Integer" />
+                        <ref role="37wK5l" to="wyt6:~Integer.toString(int):java.lang.String" resolve="toString" />
+                        <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
                         <node concept="2OqwBi" id="$Ux0Gyhijc" role="37wK5m">
                           <node concept="2OqwBi" id="$Ux0Gyhijd" role="2Oq$k0">
                             <node concept="pncrf" id="$Ux0Gyhije" role="2Oq$k0" />
@@ -376,8 +376,8 @@
             <node concept="3clFbS" id="2DkpMLT2qa9" role="2VODD2">
               <node concept="3clFbF" id="2DkpMLT2$xT" role="3cqZAp">
                 <node concept="2YIFZM" id="2DkpMLT2_4X" role="3clFbG">
-                  <ref role="37wK5l" to="e2lb:~Integer.toString(int):java.lang.String" resolve="toString" />
-                  <ref role="1Pybhc" to="e2lb:~Integer" resolve="Integer" />
+                  <ref role="37wK5l" to="wyt6:~Integer.toString(int):java.lang.String" resolve="toString" />
+                  <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
                   <node concept="2OqwBi" id="2DkpMLT2qsC" role="37wK5m">
                     <node concept="pncrf" id="2DkpMLT2qll" role="2Oq$k0" />
                     <node concept="2qgKlT" id="2DkpMLT2rM1" role="2OqNvi">

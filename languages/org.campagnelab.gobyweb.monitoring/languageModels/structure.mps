@@ -2,7 +2,7 @@
 <model ref="r:220d24dc-c962-4ed8-b674-7bde9fb2980c(org.campagnelab.gobyweb.monitoring.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -15,6 +15,7 @@
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="4628067390765956807" name="final" index="R5$K2" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
+        <property id="1587916991969465369" name="conceptId" index="1pbfSe" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -45,6 +46,7 @@
   </registry>
   <node concept="1TIwiD" id="1JYYc6fVFob">
     <property role="TrG5h" value="JobMonitor" />
+    <property role="1pbfSe" value="1410486580" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1JYYc6fWyG3" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -87,6 +89,7 @@
   <node concept="1TIwiD" id="1JYYc6fVH95">
     <property role="TrG5h" value="MessageListener" />
     <property role="R4oN_" value="a listener of messages published by a job" />
+    <property role="1pbfSe" value="1410479354" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1JYYc6fVYMy" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -109,6 +112,7 @@
   <node concept="1TIwiD" id="1JYYc6fVKMU">
     <property role="TrG5h" value="Phase" />
     <property role="R4oN_" value="a phase in the job execution" />
+    <property role="1pbfSe" value="1410464389" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1JYYc6fVP14" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -122,6 +126,7 @@
   </node>
   <node concept="1TIwiD" id="1JYYc6fVKN3">
     <property role="TrG5h" value="Message" />
+    <property role="1pbfSe" value="1410464380" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="4N_zIqrGNtA" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -153,6 +158,7 @@
   <node concept="1TIwiD" id="1JYYc6fVP1t">
     <property role="TrG5h" value="MessageViewer" />
     <property role="R4oN_" value="display messages received from a job" />
+    <property role="1pbfSe" value="1410447074" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="7zA_Ur1Ylfj" role="1TKVEl">
       <property role="TrG5h" value="jobStatus" />
@@ -190,6 +196,7 @@
   <node concept="1TIwiD" id="13iHFDMcQSx">
     <property role="TrG5h" value="JobMonitorInterface" />
     <property role="19KtqR" value="true" />
+    <property role="1pbfSe" value="2096749349" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="13iHFDMg0oj" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -213,6 +220,7 @@
   </node>
   <node concept="PlHQZ" id="13iHFDMZUdt">
     <property role="TrG5h" value="JobEventListener" />
+    <property role="1pbfSe" value="2083366377" />
     <node concept="1TJgyi" id="6RZ9V6K91yG" role="1TKVEl">
       <property role="TrG5h" value="rank" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
@@ -222,11 +230,13 @@
     <property role="TrG5h" value="OrderedMessages" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
+    <property role="1pbfSe" value="1737233874" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="4N_zIqrGNvr">
     <property role="TrG5h" value="Line" />
     <property role="R4oN_" value="a text line in a message" />
+    <property role="1pbfSe" value="392640831" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="4N_zIqrGNvs" role="1TKVEl">
       <property role="TrG5h" value="text" />
@@ -235,6 +245,7 @@
   </node>
   <node concept="PlHQZ" id="5HEjlQzrIxG">
     <property role="TrG5h" value="FileSetInstanceListener" />
+    <property role="1pbfSe" value="19319351" />
     <node concept="1TJgyi" id="5HEjlQzsgT4" role="1TKVEl">
       <property role="TrG5h" value="rank" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />

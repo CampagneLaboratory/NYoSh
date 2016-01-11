@@ -3,11 +3,11 @@
   <persistence version="9" />
   <languages>
     <use id="a5ff6f1b-885e-4f1e-be7d-09432bfbf851" name="org.campagnelab.lucene.tableviewer" version="-1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="-1" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
   </languages>
   <imports>
     <import index="awpe" ref="r:5a505993-793e-4b2d-84cf-271f9dde39b3(jetbrains.mps.execution.lib)" />
-    <import index="7eov" ref="f:java_stub#0202ed86-955d-4227-9c20-377dd6b1f9ff#edu.cornell.med.icb.iterators(org.campagnelab.nyosh.lib/edu.cornell.med.icb.iterators@java_stub)" />
+    <import index="uzx0" ref="0202ed86-955d-4227-9c20-377dd6b1f9ff/java:edu.cornell.med.icb.iterators(org.campagnelab.nyosh.lib/)" />
   </imports>
   <registry>
     <language id="a5ff6f1b-885e-4f1e-be7d-09432bfbf851" name="org.campagnelab.lucene.tableviewer">

@@ -5,22 +5,22 @@
     <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="-1" />
     <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="-1" />
     <use id="c1ba4037-e4db-47d8-8b61-b3c805b648f2" name="org.campagnelab.ui" version="-1" />
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="-1" />
     <use id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers" version="-1" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="srng" ref="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.openapi.editor(MPS.Editor/jetbrains.mps.openapi.editor@java_stub)" />
+    <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
     <import index="hut6" ref="r:2b3ce235-653e-4507-849e-e62b0f7e1023(org.campagnelab.ui.structure)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
-    <import index="fxg7" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
-    <import index="cu2c" ref="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel(MPS.Core/jetbrains.mps.smodel@java_stub)" />
-    <import index="ec5l" ref="f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.model(MPS.OpenAPI/org.jetbrains.mps.openapi.model@java_stub)" />
+    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
+    <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
+    <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="1fmc" ref="r:4cec5b5b-0fcc-4674-abb9-27263d97025d(org.campagnelab.ui.code.Swing)" />
-    <import index="k5e6" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.imageio(JDK/javax.imageio@java_stub)" />
+    <import index="oqcp" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.imageio(JDK/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -314,7 +314,7 @@
                         <property role="TrG5h" value="editorContext" />
                         <property role="3TUv4t" value="true" />
                         <node concept="3uibUv" id="1Ckq9ORTU1P" role="1tU5fm">
-                          <ref role="3uigEE" to="srng:~EditorContext" resolve="EditorContext" />
+                          <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
                         </node>
                       </node>
                       <node concept="3Tm1VV" id="1Ckq9ORTU1R" role="1B3o_S" />
@@ -325,11 +325,11 @@
                             <node concept="3clFbF" id="1Ckq9ORP4Xr" role="3cqZAp">
                               <node concept="2OqwBi" id="1Ckq9ORP4Xn" role="3clFbG">
                                 <node concept="10M0yZ" id="1Ckq9ORP4Xo" role="2Oq$k0">
-                                  <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
-                                  <ref role="3cqZAo" to="e2lb:~System.out" resolve="out" />
+                                  <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                                  <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
                                 </node>
                                 <node concept="liA8E" id="1Ckq9ORP4Xp" role="2OqNvi">
-                                  <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
+                                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
                                   <node concept="Xl_RD" id="1Ckq9ORP4Xq" role="37wK5m">
                                     <property role="Xl_RC" value="some statements go here" />
                                   </node>
@@ -445,7 +445,7 @@
                         <property role="TrG5h" value="editorContext" />
                         <property role="3TUv4t" value="true" />
                         <node concept="3uibUv" id="1Ckq9OSh$8x" role="1tU5fm">
-                          <ref role="3uigEE" to="srng:~EditorContext" resolve="EditorContext" />
+                          <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
                         </node>
                       </node>
                       <node concept="3Tm1VV" id="1Ckq9OSh$8y" role="1B3o_S" />
@@ -503,11 +503,11 @@
                             <node concept="3clFbF" id="1Ckq9OSh$8B" role="3cqZAp">
                               <node concept="2OqwBi" id="1Ckq9OSh$8C" role="3clFbG">
                                 <node concept="10M0yZ" id="1Ckq9OSh$8D" role="2Oq$k0">
-                                  <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
-                                  <ref role="3cqZAo" to="e2lb:~System.out" resolve="out" />
+                                  <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                                  <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
                                 </node>
                                 <node concept="liA8E" id="1Ckq9OSh$8E" role="2OqNvi">
-                                  <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
+                                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
                                   <node concept="Xl_RD" id="1Ckq9OSh$8F" role="37wK5m">
                                     <property role="Xl_RC" value="some statements go here" />
                                   </node>
@@ -717,7 +717,7 @@
                         <property role="TrG5h" value="editorContext" />
                         <property role="3TUv4t" value="true" />
                         <node concept="3uibUv" id="4WFCGeXrxgU" role="1tU5fm">
-                          <ref role="3uigEE" to="srng:~EditorContext" resolve="EditorContext" />
+                          <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
                         </node>
                       </node>
                       <node concept="3Tm1VV" id="4WFCGeXrxgV" role="1B3o_S" />
@@ -733,17 +733,17 @@
                             <node concept="3clFbF" id="1nhYb0FOxIO" role="3cqZAp">
                               <node concept="2OqwBi" id="1nhYb0FOxIP" role="3clFbG">
                                 <node concept="2YIFZM" id="1nhYb0FOxIQ" role="2Oq$k0">
-                                  <ref role="1Pybhc" to="cu2c:~ModelAccess" resolve="ModelAccess" />
-                                  <ref role="37wK5l" to="cu2c:~ModelAccess.instance():jetbrains.mps.smodel.ModelAccess" resolve="instance" />
+                                  <ref role="1Pybhc" to="w1kc:~ModelAccess" resolve="ModelAccess" />
+                                  <ref role="37wK5l" to="w1kc:~ModelAccess.instance():jetbrains.mps.smodel.ModelAccess" resolve="instance" />
                                 </node>
                                 <node concept="liA8E" id="1nhYb0FOxIR" role="2OqNvi">
-                                  <ref role="37wK5l" to="cu2c:~ModelCommandExecutor.runWriteActionInCommand(java.lang.Runnable):void" resolve="runWriteActionInCommand" />
+                                  <ref role="37wK5l" to="w1kc:~ModelCommandExecutor.runWriteActionInCommand(java.lang.Runnable):void" resolve="runWriteActionInCommand" />
                                   <node concept="2ShNRf" id="1nhYb0FOxIS" role="37wK5m">
                                     <node concept="YeOm9" id="1nhYb0FOxIT" role="2ShVmc">
                                       <node concept="1Y3b0j" id="1nhYb0FOxIU" role="YeSDq">
                                         <property role="TrG5h" value="" />
-                                        <ref role="37wK5l" to="e2lb:~Object.&lt;init&gt;()" resolve="Object" />
-                                        <ref role="1Y3XeK" to="e2lb:~Runnable" resolve="Runnable" />
+                                        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+                                        <ref role="1Y3XeK" to="wyt6:~Runnable" resolve="Runnable" />
                                         <node concept="3clFb_" id="1nhYb0FOxIV" role="jymVt">
                                           <property role="TrG5h" value="run" />
                                           <node concept="3Tm1VV" id="1nhYb0FOxIW" role="1B3o_S" />
@@ -756,8 +756,8 @@
                                             </node>
                                             <node concept="3clFbF" id="1nhYb0FOxIZ" role="3cqZAp">
                                               <node concept="2YIFZM" id="5CFnob0PbaP" role="3clFbG">
-                                                <ref role="37wK5l" to="ec5l:~SNodeAccessUtil.setProperty(org.jetbrains.mps.openapi.model.SNode,java.lang.String,java.lang.String):void" resolve="setProperty" />
-                                                <ref role="1Pybhc" to="ec5l:~SNodeAccessUtil" resolve="SNodeAccessUtil" />
+                                                <ref role="37wK5l" to="mhbf:~SNodeAccessUtil.setProperty(org.jetbrains.mps.openapi.model.SNode,java.lang.String,java.lang.String):void" resolve="setProperty" />
+                                                <ref role="1Pybhc" to="mhbf:~SNodeAccessUtil" resolve="SNodeAccessUtil" />
                                                 <node concept="37vLTw" id="4WFCGeXs6uA" role="37wK5m">
                                                   <ref role="3cqZAo" node="4WFCGeXrxgR" resolve="node" />
                                                 </node>
@@ -771,7 +771,7 @@
                                             </node>
                                           </node>
                                           <node concept="2AHcQZ" id="3tYsUK_Sabf" role="2AJF6D">
-                                            <ref role="2AI5Lk" to="e2lb:~Override" resolve="Override" />
+                                            <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                                           </node>
                                         </node>
                                       </node>

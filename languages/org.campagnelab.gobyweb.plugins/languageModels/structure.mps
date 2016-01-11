@@ -2,7 +2,7 @@
 <model ref="r:2bfcc546-5c51-4762-9df2-c43920be4458(org.campagnelab.gobyweb.plugins.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -26,6 +26,7 @@
         <property id="4628067390765956807" name="final" index="R5$K2" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
+        <property id="1587916991969465369" name="conceptId" index="1pbfSe" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -61,6 +62,7 @@
     <property role="TrG5h" value="PluginConfig" />
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="PluginConfig" />
+    <property role="1pbfSe" value="1348144893" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="5DSEw1Qwx3I" role="1TKVEl">
       <property role="TrG5h" value="repoDirectory" />
@@ -80,6 +82,7 @@
   </node>
   <node concept="1TIwiD" id="3HroolOioYZ">
     <property role="TrG5h" value="TaskConfig" />
+    <property role="1pbfSe" value="1348144828" />
     <ref role="1TJDcQ" node="1ORG9zeIXZ$" resolve="ExecutableConfig" />
   </node>
   <node concept="1TIwiD" id="3HroolOr4Ts">
@@ -87,6 +90,7 @@
     <property role="34LRSv" value="io-schema" />
     <property role="R4oN_" value="Task IO Schema" />
     <property role="3GE5qa" value="io" />
+    <property role="1pbfSe" value="1345867807" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3HroolOr4Ug" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -104,6 +108,7 @@
   <node concept="1TIwiD" id="3HroolOr4Up">
     <property role="TrG5h" value="IOSlot" />
     <property role="3GE5qa" value="io" />
+    <property role="1pbfSe" value="1345867746" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3HroolOr4Uq" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -113,6 +118,7 @@
     <property role="3GE5qa" value="io" />
     <property role="TrG5h" value="PluginInputSlot" />
     <property role="R4oN_" value="Input slot for a plugin" />
+    <property role="1pbfSe" value="1345814825" />
     <ref role="1TJDcQ" node="3HroolOrhPk" resolve="PluginSlot" />
     <node concept="1TJgyi" id="1sIgPK44rEa" role="1TKVEl">
       <property role="TrG5h" value="minCardinality" />
@@ -127,12 +133,14 @@
     <property role="3GE5qa" value="io" />
     <property role="TrG5h" value="PluginOutputSlot" />
     <property role="R4oN_" value="Output slot for a plugin" />
+    <property role="1pbfSe" value="1345814824" />
     <ref role="1TJDcQ" node="3HroolOrhPk" resolve="PluginSlot" />
   </node>
   <node concept="1TIwiD" id="3HroolOrhPk">
     <property role="3GE5qa" value="io" />
     <property role="R5$K7" value="true" />
     <property role="TrG5h" value="PluginSlot" />
+    <property role="1pbfSe" value="1345814823" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="28RbsXsDl27" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -153,6 +161,7 @@
   <node concept="1TIwiD" id="3HroolO_qz8">
     <property role="TrG5h" value="FileSetConfig" />
     <property role="3GE5qa" value="fileset" />
+    <property role="1pbfSe" value="1343157683" />
     <ref role="1TJDcQ" node="3HroolOioXY" resolve="PluginConfig" />
     <node concept="1TJgyj" id="3HroolO_Cn_" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -164,6 +173,7 @@
   <node concept="1TIwiD" id="3HroolO_Cnv">
     <property role="TrG5h" value="PathElement" />
     <property role="3GE5qa" value="fileset" />
+    <property role="1pbfSe" value="1343101084" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="3HroolO_Cnw" role="1TKVEl">
       <property role="TrG5h" value="pattern" />
@@ -204,6 +214,7 @@
   </node>
   <node concept="1TIwiD" id="1ORG9zeIXZ$">
     <property role="TrG5h" value="ExecutableConfig" />
+    <property role="1pbfSe" value="336359300" />
     <ref role="1TJDcQ" node="3HroolOioXY" resolve="PluginConfig" />
     <node concept="1TJgyj" id="3HroolOrcj_" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -223,14 +234,17 @@
   </node>
   <node concept="1TIwiD" id="1ORG9zeJ31S">
     <property role="TrG5h" value="AlignerConfig" />
+    <property role="1pbfSe" value="336338672" />
     <ref role="1TJDcQ" node="1ORG9zeIXZ$" resolve="ExecutableConfig" />
   </node>
   <node concept="1TIwiD" id="1ORG9zeK4SJ">
     <property role="TrG5h" value="AlignmentAnalysisConfig" />
+    <property role="1pbfSe" value="336068921" />
     <ref role="1TJDcQ" node="1ORG9zeIXZ$" resolve="ExecutableConfig" />
   </node>
   <node concept="1TIwiD" id="1ORG9zeKa7P">
     <property role="TrG5h" value="ResourceConfig" />
+    <property role="1pbfSe" value="336047475" />
     <ref role="1TJDcQ" node="3HroolOioXY" resolve="PluginConfig" />
     <node concept="1TJgyj" id="6A9boVQhgBY" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -250,6 +264,7 @@
   </node>
   <node concept="1TIwiD" id="1ORG9zeKa86">
     <property role="TrG5h" value="ResourceRef" />
+    <property role="1pbfSe" value="336047458" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="5DSEw1Qrted" role="1TKVEl">
       <property role="TrG5h" value="atLeast" />
@@ -272,6 +287,7 @@
   </node>
   <node concept="PlHQZ" id="1ORG9zeMO97">
     <property role="TrG5h" value="ResourceConsumer" />
+    <property role="1pbfSe" value="335351073" />
     <node concept="1TJgyj" id="1ORG9zeKa7Q" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="requires" />
@@ -283,6 +299,7 @@
     <property role="3GE5qa" value="options" />
     <property role="TrG5h" value="StringOption" />
     <property role="34LRSv" value="string" />
+    <property role="1pbfSe" value="1108873001" />
     <ref role="1TJDcQ" node="1PRK00$ytw1" resolve="OptionDefinition" />
   </node>
   <node concept="1TIwiD" id="1PRK00$ytw1">
@@ -290,6 +307,7 @@
     <property role="3GE5qa" value="options" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
+    <property role="1pbfSe" value="1107400705" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="1PRK00$CgZf" role="1TKVEl">
       <property role="TrG5h" value="id" />
@@ -315,12 +333,14 @@
     <property role="3GE5qa" value="options" />
     <property role="TrG5h" value="BooleanOption" />
     <property role="34LRSv" value="boolean" />
+    <property role="1pbfSe" value="1108329285" />
     <ref role="1TJDcQ" node="1PRK00$ytw1" resolve="OptionDefinition" />
   </node>
   <node concept="1TIwiD" id="1PRK00$Adar">
     <property role="3GE5qa" value="options" />
     <property role="TrG5h" value="CategoricalOption" />
     <property role="34LRSv" value="category" />
+    <property role="1pbfSe" value="1108382363" />
     <ref role="1TJDcQ" node="1PRK00$ytw1" resolve="OptionDefinition" />
     <node concept="1TJgyj" id="1PRK00$CsC2" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -332,6 +352,7 @@
   <node concept="1TIwiD" id="1PRK00$CsC6">
     <property role="3GE5qa" value="options" />
     <property role="TrG5h" value="Category" />
+    <property role="1pbfSe" value="1108969990" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="1PRK00$CsC7" role="1TKVEl">
       <property role="TrG5h" value="id" />
@@ -349,17 +370,20 @@
     <property role="3GE5qa" value="options" />
     <property role="TrG5h" value="DoubleOption" />
     <property role="34LRSv" value="double" />
+    <property role="1pbfSe" value="1108370119" />
     <ref role="1TJDcQ" node="1PRK00$ytw1" resolve="OptionDefinition" />
   </node>
   <node concept="1TIwiD" id="1PRK00$A_TU">
     <property role="3GE5qa" value="options" />
     <property role="TrG5h" value="IntegerOption" />
     <property role="34LRSv" value="integer" />
+    <property role="1pbfSe" value="1108483706" />
     <ref role="1TJDcQ" node="1PRK00$ytw1" resolve="OptionDefinition" />
   </node>
   <node concept="1TIwiD" id="6A9boVQh7v0">
     <property role="TrG5h" value="Artifact" />
     <property role="34LRSv" value="artifact" />
+    <property role="1pbfSe" value="1607312718" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6A9boVQh7x9" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -380,6 +404,7 @@
   <node concept="1TIwiD" id="6A9boVQh8ar">
     <property role="TrG5h" value="ArtifactAttribute" />
     <property role="34LRSv" value="artifact attribute" />
+    <property role="1pbfSe" value="1607315497" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6A9boVQh8ay" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -387,6 +412,7 @@
   </node>
   <node concept="1TIwiD" id="61tPieTTCxY">
     <property role="TrG5h" value="ResourceFile" />
+    <property role="1pbfSe" value="440688033" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="61tPieTTHvA" role="1TKVEl">
       <property role="TrG5h" value="id" />

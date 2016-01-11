@@ -2,8 +2,8 @@
 <model ref="r:df9645c2-d2fa-41cb-a718-044a287b0626(org.campagnelab.clusterConfig.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
     <use id="857bd616-7b17-4127-8074-519f20641bdb" name="org.campagnelab.ssh" version="-1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -14,6 +14,7 @@
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
+        <property id="1587916991969465369" name="conceptId" index="1pbfSe" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -45,6 +46,7 @@
   <node concept="1TIwiD" id="2DkpMLSFhUj">
     <property role="TrG5h" value="ExecutionNode" />
     <property role="19KtqR" value="true" />
+    <property role="1pbfSe" value="1560181313" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="$Ux0GyD0Oh" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -75,6 +77,7 @@
   <node concept="1TIwiD" id="2DkpMLSTOMg">
     <property role="TrG5h" value="Cluster" />
     <property role="19KtqR" value="true" />
+    <property role="1pbfSe" value="1556368452" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="2DkpMLSYwxV" role="1TKVEl">
       <property role="TrG5h" value="numberOfCores" />
@@ -95,6 +98,7 @@
     <property role="TrG5h" value="AdhocCluster" />
     <property role="19KtqR" value="true" />
     <property role="R4oN_" value="A collection of compute nodes thrown into an adhoc cluster" />
+    <property role="1pbfSe" value="1556366125" />
     <ref role="1TJDcQ" node="2DkpMLSTOMg" resolve="Cluster" />
     <node concept="1TJgyj" id="2DkpMLSTPn3" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -106,6 +110,7 @@
   <node concept="1TIwiD" id="2DkpMLT2INw">
     <property role="TrG5h" value="NodeRef" />
     <property role="R4oN_" value="Reference to an execution node" />
+    <property role="1pbfSe" value="1554033652" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="2DkpMLT2IOm" role="1TKVEl">
       <property role="TrG5h" value="active" />
@@ -119,6 +124,7 @@
   </node>
   <node concept="1TIwiD" id="$Ux0GypvBU">
     <property role="TrG5h" value="ConnectionPort" />
+    <property role="1pbfSe" value="731938309" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="$Ux0GyrBIs" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -144,9 +150,11 @@
   </node>
   <node concept="PlHQZ" id="1h4o16KLAi0">
     <property role="TrG5h" value="Server" />
+    <property role="1pbfSe" value="989150063" />
   </node>
   <node concept="1TIwiD" id="1h4o16KVkVd">
     <property role="TrG5h" value="TunneledConnectionPort" />
+    <property role="1pbfSe" value="986599714" />
     <ref role="1TJDcQ" node="$Ux0GypvBU" resolve="ConnectionPort" />
     <node concept="1TJgyj" id="1h4o16KVmcn" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -162,6 +170,7 @@
   </node>
   <node concept="PlHQZ" id="7YW1Mp5Ezl">
     <property role="TrG5h" value="ICluster" />
+    <property role="1pbfSe" value="1693083407" />
   </node>
 </model>
 

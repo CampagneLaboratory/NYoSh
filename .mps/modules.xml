@@ -2,7 +2,7 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
-      <modulePath path="${org.campagnelab.xchart.home}/solutions/XChart.build0/XChart.build.msd" folder="" />
+      <modulePath path="${mps_home}/bin/${org.campagnelab.xchart.home}/solutions/XChart.build0/XChart.build.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/devkits/org.campagnelab.devkit.gobyweb.interactive.devkit" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/NYoSh/org.campagnelab.NYoSh.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.Swift/org.campagnelab.Swift.mpl" folder="" />

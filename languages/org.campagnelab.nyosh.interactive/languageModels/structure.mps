@@ -2,14 +2,14 @@
 <model ref="r:a6c7903c-0b83-4bcf-8e49-8f150f2412bf(org.campagnelab.nyosh.interactive.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="f2ff" ref="r:48d5f7d2-24be-4d82-ac12-8f4a2d414b11(org.campagnelab.nyosh.gstring.structure)" />
-    <import index="4fqr" ref="r:fa713d69-08ea-4732-b1f2-cb07f9e103ef(jetbrains.mps.execution.util.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="4fqr" ref="r:fa713d69-08ea-4732-b1f2-cb07f9e103ef(jetbrains.mps.execution.util.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -27,6 +27,7 @@
         <property id="4628067390765956807" name="final" index="R5$K2" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
+        <property id="1587916991969465369" name="conceptId" index="1pbfSe" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -62,6 +63,7 @@
     <property role="TrG5h" value="Environment" />
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="env" />
+    <property role="1pbfSe" value="67122087" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7wWmVpyc9Y5" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -96,6 +98,7 @@
     <property role="TrG5h" value="EnvironmentVariable" />
     <property role="34LRSv" value="env" />
     <property role="3GE5qa" value="env" />
+    <property role="1pbfSe" value="67146264" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5AQg9iEiHai" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -109,6 +112,7 @@
   </node>
   <node concept="1TIwiD" id="5AQg9iEiHaf">
     <property role="TrG5h" value="VariablePart" />
+    <property role="1pbfSe" value="67179299" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="5AQg9iEiHag" role="1TKVEl">
       <property role="TrG5h" value="path" />
@@ -118,6 +122,7 @@
   <node concept="1TIwiD" id="4gYcltjnFV3">
     <property role="TrG5h" value="Command" />
     <property role="3GE5qa" value="commands" />
+    <property role="1pbfSe" value="1751322598" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2aIAWpxuej9" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -136,6 +141,7 @@
   <node concept="1TIwiD" id="4jXcWjLCOJI">
     <property role="TrG5h" value="TextCommand" />
     <property role="3GE5qa" value="commands" />
+    <property role="1pbfSe" value="916488114" />
     <ref role="1TJDcQ" node="4jXcWjLCRBx" resolve="ICommand" />
     <node concept="1TJgyi" id="4jXcWjLCOJJ" role="1TKVEl">
       <property role="TrG5h" value="query" />
@@ -145,6 +151,7 @@
   <node concept="1TIwiD" id="4jXcWjLCRBm">
     <property role="TrG5h" value="InteractiveCommandLine" />
     <property role="3GE5qa" value="commands" />
+    <property role="1pbfSe" value="916499866" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="4jXcWjLCRBn" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -158,6 +165,7 @@
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
     <property role="3GE5qa" value="commands" />
+    <property role="1pbfSe" value="916499877" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="4jXcWjLCRBy" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -166,6 +174,7 @@
   <node concept="1TIwiD" id="4jXcWjLFHbv">
     <property role="TrG5h" value="CommandRef" />
     <property role="3GE5qa" value="commands" />
+    <property role="1pbfSe" value="917243555" />
     <ref role="1TJDcQ" node="4jXcWjLCRBx" resolve="ICommand" />
     <node concept="1TJgyj" id="1zTTFrSeU7Z" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -184,6 +193,7 @@
     <property role="TrG5h" value="DashedOption" />
     <property role="3GE5qa" value="options" />
     <property role="34LRSv" value="-" />
+    <property role="1pbfSe" value="2077785855" />
     <ref role="1TJDcQ" node="5uN7hWacz55" resolve="UnspecifiedOption" />
     <node concept="1TJgyi" id="4RqGgaEhGf5" role="1TKVEl">
       <property role="TrG5h" value="dashes" />
@@ -197,6 +207,7 @@
   <node concept="1TIwiD" id="1zTTFrSeT_9">
     <property role="TrG5h" value="OptionValue" />
     <property role="3GE5qa" value="options" />
+    <property role="1pbfSe" value="288718847" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="Pjm9VAZUQ6" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -220,6 +231,7 @@
     <property role="TrG5h" value="InteractivePath" />
     <property role="3GE5qa" value="paths" />
     <property role="19KtqR" value="true" />
+    <property role="1pbfSe" value="630404934" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7wWmVpyc6Po" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -231,6 +243,7 @@
   <node concept="1TIwiD" id="7wWmVpyc6Pq">
     <property role="TrG5h" value="PathPart" />
     <property role="3GE5qa" value="paths" />
+    <property role="1pbfSe" value="630404848" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="7wWmVpyc6Pu" role="1TKVEl">
       <property role="TrG5h" value="part" />
@@ -246,11 +259,13 @@
     <property role="TrG5h" value="AValue" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
+    <property role="1pbfSe" value="195884813" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="Pjm9VAZV6Q">
     <property role="3GE5qa" value="values" />
     <property role="TrG5h" value="AStringValue" />
+    <property role="1pbfSe" value="195884460" />
     <ref role="1TJDcQ" node="Pjm9VAZV1l" resolve="AValue" />
     <node concept="1TJgyi" id="Pjm9VAZVvJ" role="1TKVEl">
       <property role="TrG5h" value="value" />
@@ -260,6 +275,7 @@
   <node concept="1TIwiD" id="Pjm9VAZVcZ">
     <property role="3GE5qa" value="values" />
     <property role="TrG5h" value="APathValue" />
+    <property role="1pbfSe" value="195884067" />
     <ref role="1TJDcQ" node="Pjm9VAZV1l" resolve="AValue" />
     <node concept="1TJgyj" id="Pjm9VAZVjK" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -271,12 +287,14 @@
   <node concept="1TIwiD" id="5uN7hWacz55">
     <property role="3GE5qa" value="options" />
     <property role="TrG5h" value="UnspecifiedOption" />
+    <property role="1pbfSe" value="1642417764" />
     <ref role="1TJDcQ" node="5uN7hWae2sy" resolve="Option" />
   </node>
   <node concept="1TIwiD" id="5uN7hWae2sy">
     <property role="3GE5qa" value="options" />
     <property role="TrG5h" value="Option" />
     <property role="34LRSv" value="option" />
+    <property role="1pbfSe" value="1642808385" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="5uN7hWacDQ7" role="1TKVEl">
       <property role="TrG5h" value="maxCardinality" />
@@ -293,17 +311,20 @@
   <node concept="1TIwiD" id="1P8Evw4bM$9">
     <property role="3GE5qa" value="commands" />
     <property role="TrG5h" value="InlinedCommandOption" />
+    <property role="1pbfSe" value="561500929" />
     <ref role="1TJDcQ" node="5uN7hWae2sy" resolve="Option" />
   </node>
   <node concept="1TIwiD" id="1P8Evw4d$01">
     <property role="3GE5qa" value="options" />
     <property role="TrG5h" value="FilenameOption" />
     <property role="34LRSv" value="filename" />
+    <property role="1pbfSe" value="561965561" />
     <ref role="1TJDcQ" node="5uN7hWacz55" resolve="UnspecifiedOption" />
   </node>
   <node concept="1TIwiD" id="1P8Evw4dBrl">
     <property role="3GE5qa" value="options" />
     <property role="TrG5h" value="InlinedCommandValue" />
+    <property role="1pbfSe" value="561979597" />
     <ref role="1TJDcQ" node="Pjm9VAZV1l" resolve="AValue" />
     <node concept="1TJgyj" id="1P8Evw4gwvZ" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -314,6 +335,7 @@
   <node concept="1TIwiD" id="4PxeyvBz4$t">
     <property role="3GE5qa" value="parallel" />
     <property role="TrG5h" value="Parallel" />
+    <property role="1pbfSe" value="887980868" />
     <ref role="1TJDcQ" node="4jXcWjLCRBx" resolve="ICommand" />
     <node concept="1TJgyi" id="4PxeyvBAmp1" role="1TKVEl">
       <property role="TrG5h" value="argumentStrategy" />
@@ -340,6 +362,7 @@
     <property role="TrG5h" value="FileBag" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
+    <property role="1pbfSe" value="888341960" />
     <ref role="1TJDcQ" node="1I7$vtbAc_O" resolve="Bag" />
     <node concept="1TJgyj" id="4PxeyvB$vgA" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -351,6 +374,7 @@
   <node concept="1TIwiD" id="4PxeyvB$tIo">
     <property role="3GE5qa" value="files" />
     <property role="TrG5h" value="FileBagRef" />
+    <property role="1pbfSe" value="888346047" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="4PxeyvB$tNt" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -363,11 +387,13 @@
     <property role="3GE5qa" value="files" />
     <property role="TrG5h" value="ExplicitFileBag" />
     <property role="19KtqR" value="true" />
+    <property role="1pbfSe" value="888348374" />
     <ref role="1TJDcQ" node="4PxeyvB$sIx" resolve="FileBag" />
   </node>
   <node concept="1TIwiD" id="4PxeyvB$uTD">
     <property role="3GE5qa" value="files" />
     <property role="TrG5h" value="File" />
+    <property role="1pbfSe" value="888350864" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="4PxeyvB$v1i" role="1TKVEl">
       <property role="TrG5h" value="fullPath" />
@@ -380,6 +406,7 @@
   <node concept="1TIwiD" id="4PxeyvBAm2c">
     <property role="3GE5qa" value="parallel" />
     <property role="TrG5h" value="ArgumentStrategy" />
+    <property role="1pbfSe" value="888838835" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="AxPO7" id="4PxeyvBAmu9">
@@ -399,6 +426,7 @@
   <node concept="1TIwiD" id="4PxeyvBAQRg">
     <property role="3GE5qa" value="parallel" />
     <property role="TrG5h" value="Argument" />
+    <property role="1pbfSe" value="888973303" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="4PxeyvBAQVv" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -415,6 +443,7 @@
     <property role="TrG5h" value="Bag" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
+    <property role="1pbfSe" value="1730173803" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1I7$vtbAcGP" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -423,6 +452,7 @@
   <node concept="1TIwiD" id="1I7$vtbE8y8">
     <property role="3GE5qa" value="options" />
     <property role="TrG5h" value="ParallelArgumentOptionValue" />
+    <property role="1pbfSe" value="1731205759" />
     <ref role="1TJDcQ" node="1zTTFrSeT_9" resolve="OptionValue" />
     <node concept="1TJgyj" id="3kJ26aBsrQe" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -440,6 +470,7 @@
   <node concept="1TIwiD" id="3kJ26aBsmtM">
     <property role="3GE5qa" value="options" />
     <property role="TrG5h" value="ParallelArgAValue" />
+    <property role="1pbfSe" value="593465388" />
     <ref role="1TJDcQ" node="Pjm9VAZV1l" resolve="AValue" />
     <node concept="1TJgyj" id="3kJ26aBsm_p" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -452,6 +483,7 @@
     <property role="3GE5qa" value="files" />
     <property role="TrG5h" value="RecursiveExplicitFileBag" />
     <property role="19KtqR" value="true" />
+    <property role="1pbfSe" value="1048668410" />
     <ref role="1TJDcQ" node="4PxeyvB$uiJ" resolve="ExplicitFileBag" />
     <node concept="1TJgyi" id="G5bxgNv6zP" role="1TKVEl">
       <property role="TrG5h" value="pattern" />
@@ -462,6 +494,7 @@
     <property role="TrG5h" value="RenamePlan" />
     <property role="R4oN_" value="Describe how to rename files" />
     <property role="19KtqR" value="true" />
+    <property role="1pbfSe" value="1050711681" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="G5bxgNE4XV" role="1TKVEl">
       <property role="TrG5h" value="textImport" />
@@ -479,6 +512,7 @@
   </node>
   <node concept="1TIwiD" id="G5bxgNAQ$7">
     <property role="TrG5h" value="RenameFileInstruction" />
+    <property role="1pbfSe" value="1050711835" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="G5bxgNAQAF" role="1TKVEl">
       <property role="TrG5h" value="from" />
@@ -492,6 +526,7 @@
   <node concept="1TIwiD" id="G5bxgO4PBx">
     <property role="TrG5h" value="SetOfBags" />
     <property role="19KtqR" value="true" />
+    <property role="1pbfSe" value="1058572277" />
     <ref role="1TJDcQ" node="1I7$vtbAc_O" resolve="Bag" />
     <node concept="1TJgyj" id="G5bxgO4PDI" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -507,6 +542,7 @@
     <property role="TrG5h" value="ExecuteTool" />
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="executetool" />
+    <property role="1pbfSe" value="1062350655" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="G5bxgOjsm0" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -533,12 +569,14 @@
   <node concept="1TIwiD" id="G5bxgOAv_A">
     <property role="TrG5h" value="ExecuteToolFunction" />
     <property role="3GE5qa" value="executetool" />
+    <property role="1pbfSe" value="1067394938" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
   </node>
   <node concept="1TIwiD" id="G5bxgOAAOF">
     <property role="3GE5qa" value="executetool" />
     <property role="TrG5h" value="SampleIdsParam" />
     <property role="34LRSv" value="sampleName" />
+    <property role="1pbfSe" value="1067424575" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
     <node concept="PrWs8" id="G5bxgOABwf" role="PzmwI">
       <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
@@ -548,6 +586,7 @@
     <property role="3GE5qa" value="executetool" />
     <property role="TrG5h" value="FileBagParam" />
     <property role="34LRSv" value="filenameList" />
+    <property role="1pbfSe" value="1067787095" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="Scn7avjSAp">
@@ -555,6 +594,7 @@
     <property role="3GE5qa" value="executetool" />
     <property role="34LRSv" value="$(expression)" />
     <property role="R4oN_" value="Include an expression that evaluates to string" />
+    <property role="1pbfSe" value="1386486261" />
     <ref role="1TJDcQ" to="f2ff:Scn7avjSyX" resolve="GStringComponent" />
     <node concept="1TJgyj" id="G5bxgOQhBk" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />

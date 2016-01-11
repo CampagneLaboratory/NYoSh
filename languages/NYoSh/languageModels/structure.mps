@@ -2,7 +2,7 @@
 <model ref="r:70e37d76-af49-4a32-9523-a01860ff8f1c(org.campagnelab.NYoSh.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -33,6 +33,7 @@
         <property id="4628067390765956807" name="final" index="R5$K2" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
+        <property id="1587916991969465369" name="conceptId" index="1pbfSe" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -71,6 +72,7 @@
   <node concept="1TIwiD" id="774EzhcynVh">
     <property role="TrG5h" value="Script" />
     <property role="19KtqR" value="true" />
+    <property role="1pbfSe" value="1102173947" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7t4ghc0$5Zc" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -104,6 +106,7 @@
     <property role="34LRSv" value="execute" />
     <property role="3GE5qa" value="commandOperators" />
     <property role="R4oN_" value="execute commands" />
+    <property role="1pbfSe" value="1102066224" />
     <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
     <node concept="1TJgyi" id="3K6Wg7RyK3c" role="1TKVEl">
       <property role="TrG5h" value="ignoreErrors" />
@@ -128,6 +131,7 @@
     <property role="34LRSv" value="consume stream" />
     <property role="3GE5qa" value="consumeOutput" />
     <property role="R4oN_" value="consume output with a stream" />
+    <property role="1pbfSe" value="1998906339" />
     <ref role="1TJDcQ" node="5VDr8PeG_mf" resolve="ConsumeOutput" />
     <node concept="1TJgyj" id="74HGF0nFn9s" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -141,6 +145,7 @@
     <property role="34LRSv" value="command" />
     <property role="3GE5qa" value="commandOperators" />
     <property role="R4oN_" value="generic command" />
+    <property role="1pbfSe" value="1998903956" />
     <ref role="1TJDcQ" node="74HGF0nFncD" resolve="AbstractCommand" />
     <node concept="1TJgyj" id="74HGF0nFnbs" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -154,6 +159,7 @@
     <property role="34LRSv" value="consume reader" />
     <property role="3GE5qa" value="consumeOutput" />
     <property role="R4oN_" value="consume output with a reader" />
+    <property role="1pbfSe" value="1997733984" />
     <ref role="1TJDcQ" node="5VDr8PeG_mf" resolve="ConsumeOutput" />
     <node concept="1TJgyj" id="74HGF0nJONM" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -167,6 +173,7 @@
     <property role="34LRSv" value="&amp;&amp;" />
     <property role="3GE5qa" value="commandOperators" />
     <property role="R4oN_" value="AND operator between two commands" />
+    <property role="1pbfSe" value="1135014535" />
     <ref role="1TJDcQ" node="4gbLFFZBwqO" resolve="BinaryCommandOperator" />
   </node>
   <node concept="1TIwiD" id="4gbLFFZAMLY">
@@ -174,6 +181,7 @@
     <property role="34LRSv" value=";" />
     <property role="3GE5qa" value="commandOperators" />
     <property role="R4oN_" value="separate commands on a single line" />
+    <property role="1pbfSe" value="1135014712" />
     <ref role="1TJDcQ" node="4gbLFFZBwqO" resolve="BinaryCommandOperator" />
   </node>
   <node concept="1TIwiD" id="4gbLFFZBbZl">
@@ -182,6 +190,7 @@
     <property role="2Bxbrw" value="http://goby.campagnelab.org" />
     <property role="3GE5qa" value="commandOperators" />
     <property role="R4oN_" value="connect two commands in a pipe" />
+    <property role="1pbfSe" value="1135117967" />
     <ref role="1TJDcQ" node="4gbLFFZBwqO" resolve="BinaryCommandOperator" />
   </node>
   <node concept="1TIwiD" id="4gbLFFZBwqO">
@@ -189,6 +198,7 @@
     <property role="34LRSv" value="&lt;?&gt;" />
     <property role="3GE5qa" value="commandOperators" />
     <property role="R4oN_" value="binary operator" />
+    <property role="1pbfSe" value="1135201646" />
     <ref role="1TJDcQ" node="74HGF0nFncD" resolve="AbstractCommand" />
     <node concept="1TJgyi" id="14FPBmMbh8C" role="1TKVEl">
       <property role="TrG5h" value="operator" />
@@ -226,6 +236,7 @@
     <property role="34LRSv" value="||" />
     <property role="3GE5qa" value="commandOperators" />
     <property role="R4oN_" value="OR operator between two commands" />
+    <property role="1pbfSe" value="1122047181" />
     <ref role="1TJDcQ" node="4gbLFFZBwqO" resolve="BinaryCommandOperator" />
   </node>
   <node concept="1TIwiD" id="1WNO2MfNNv8">
@@ -234,12 +245,14 @@
     <property role="2Bxbrw" value="http://goby.campagnelab.org" />
     <property role="3GE5qa" value="commandOperators" />
     <property role="R4oN_" value="redirect errors to next command" />
+    <property role="1pbfSe" value="1358755852" />
     <ref role="1TJDcQ" node="4gbLFFZBwqO" resolve="BinaryCommandOperator" />
   </node>
   <node concept="1TIwiD" id="5VDr8PeyJqW">
     <property role="TrG5h" value="ChangeDirectory" />
     <property role="34LRSv" value="cd" />
     <property role="R4oN_" value="change directory" />
+    <property role="1pbfSe" value="1384881335" />
     <ref role="1TJDcQ" node="74HGF0nFncD" resolve="AbstractCommand" />
     <node concept="1TJgyj" id="5VDr8PezkQW" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -253,6 +266,7 @@
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
     <property role="3GE5qa" value="consumeOutput" />
+    <property role="1pbfSe" value="1382301156" />
     <ref role="1TJDcQ" node="74HGF0nFncD" resolve="AbstractCommand" />
     <node concept="1TJgyi" id="5VDr8PeG_o9" role="1TKVEl">
       <property role="TrG5h" value="consumeStandardOutput" />
@@ -266,6 +280,7 @@
   <node concept="1TIwiD" id="3MBjcdJZEXx">
     <property role="TrG5h" value="EntryPoint" />
     <property role="2_RsDV" value="root" />
+    <property role="1pbfSe" value="1398408156" />
     <ref role="1TJDcQ" to="tpee:fK9aQHR" resolve="BlockStatement" />
     <node concept="1TJgyi" id="3kQl0GsaW8M" role="1TKVEl">
       <property role="TrG5h" value="header" />
@@ -302,14 +317,17 @@
   </node>
   <node concept="1TIwiD" id="3MBjcdLefGD">
     <property role="TrG5h" value="ArgumentParser" />
+    <property role="1pbfSe" value="1377810452" />
     <ref role="1TJDcQ" to="tpee:fz12cDA" resolve="ClassConcept" />
   </node>
   <node concept="1TIwiD" id="3MBjcdLefHL">
     <property role="TrG5h" value="ParsedArgumentType" />
+    <property role="1pbfSe" value="1377810380" />
     <ref role="1TJDcQ" to="tpee:fz12cDA" resolve="ClassConcept" />
   </node>
   <node concept="PlHQZ" id="2t3yPFUw_2q">
     <property role="TrG5h" value="IEntryPointPrototype" />
+    <property role="1pbfSe" value="566615028" />
     <node concept="1TJgyi" id="3kQl0GsvLl0" role="1TKVEl">
       <property role="TrG5h" value="header" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
@@ -325,6 +343,7 @@
   <node concept="1TIwiD" id="2t3yPFUw_4q">
     <property role="TrG5h" value="DefaultArgumentPrototype" />
     <property role="34LRSv" value="default" />
+    <property role="1pbfSe" value="566615156" />
     <ref role="1TJDcQ" node="2t3yPFUyLch" resolve="EntryPointPrototype" />
     <node concept="PrWs8" id="2t3yPFUw_4r" role="PzmwI">
       <ref role="PrY4T" node="2t3yPFUw_2q" resolve="IEntryPointPrototype" />
@@ -334,6 +353,7 @@
     <property role="TrG5h" value="EntryPointPrototype" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
+    <property role="1pbfSe" value="567189099" />
     <ref role="1TJDcQ" to="tpee:fK9aQHR" resolve="BlockStatement" />
     <node concept="PrWs8" id="6wKPy2YdK9Z" role="PzmwI">
       <ref role="PrY4T" node="2t3yPFUw_2q" resolve="IEntryPointPrototype" />
@@ -344,6 +364,7 @@
     <property role="R4oN_" value="Assert that the expression is true, or log failure" />
     <property role="34LRSv" value="assert" />
     <property role="3GE5qa" value="stepslogging" />
+    <property role="1pbfSe" value="83989217" />
     <ref role="1TJDcQ" node="ocJaFYXdoZ" resolve="Feedback" />
     <node concept="1TJgyj" id="ocJaFYXdoS" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -356,6 +377,7 @@
     <property role="TrG5h" value="Fail" />
     <property role="34LRSv" value="fail" />
     <property role="3GE5qa" value="stepslogging" />
+    <property role="1pbfSe" value="83989219" />
     <ref role="1TJDcQ" node="ocJaFYXdoZ" resolve="Feedback" />
     <node concept="PrWs8" id="ocJaFYXdoU" role="PzmwI">
       <ref role="PrY4T" node="ocJaFYXdp3" resolve="ISomeStepLoggingStatement" />
@@ -364,6 +386,7 @@
   <node concept="1TIwiD" id="ocJaFYXdoV">
     <property role="TrG5h" value="FailStaticMethod" />
     <property role="3GE5qa" value="stepslogging" />
+    <property role="1pbfSe" value="83989221" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="ocJaFYXdoW" role="PzmwI">
       <ref role="PrY4T" to="tpee:h9ngReX" resolve="ClassifierMember" />
@@ -380,6 +403,7 @@
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
     <property role="3GE5qa" value="stepslogging" />
+    <property role="1pbfSe" value="83989225" />
     <ref role="1TJDcQ" to="tpee:fK9aQHR" resolve="BlockStatement" />
     <node concept="1TJgyj" id="3kQl0GsK2Vo" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -404,11 +428,13 @@
   <node concept="PlHQZ" id="ocJaFYXdp3">
     <property role="TrG5h" value="ISomeStepLoggingStatement" />
     <property role="3GE5qa" value="stepslogging" />
+    <property role="1pbfSe" value="83989229" />
   </node>
   <node concept="1TIwiD" id="ocJaFYXdp4">
     <property role="TrG5h" value="Step" />
     <property role="34LRSv" value="step" />
     <property role="3GE5qa" value="stepslogging" />
+    <property role="1pbfSe" value="83989230" />
     <ref role="1TJDcQ" to="tpee:fK9aQHR" resolve="BlockStatement" />
     <node concept="1TJgyi" id="645cLSg2QRU" role="1TKVEl">
       <property role="TrG5h" value="hidden" />
@@ -431,11 +457,13 @@
     <property role="TrG5h" value="StepMarker" />
     <property role="34LRSv" value="StepMarker" />
     <property role="3GE5qa" value="stepslogging" />
+    <property role="1pbfSe" value="83989234" />
     <ref role="1TJDcQ" to="tpee:fK9aQHR" resolve="BlockStatement" />
   </node>
   <node concept="1TIwiD" id="ocJaFYXdp9">
     <property role="TrG5h" value="StepsLoggerDeclared" />
     <property role="3GE5qa" value="stepslogging" />
+    <property role="1pbfSe" value="83989235" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="ocJaFYXdpa" role="PzmwI">
       <ref role="PrY4T" to="tpee:h9ngReX" resolve="ClassifierMember" />
@@ -451,6 +479,7 @@
     <property role="TrG5h" value="WriteLogFile" />
     <property role="34LRSv" value="write-log-file" />
     <property role="3GE5qa" value="stepslogging" />
+    <property role="1pbfSe" value="83989239" />
     <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
     <node concept="PrWs8" id="ocJaFYXdpe" role="PzmwI">
       <ref role="PrY4T" node="ocJaFYXdp3" resolve="ISomeStepLoggingStatement" />
@@ -458,12 +487,14 @@
   </node>
   <node concept="1TIwiD" id="3kQl0Gt6ajn">
     <property role="TrG5h" value="StaticEntryPointMethod" />
+    <property role="1pbfSe" value="1380907234" />
     <ref role="1TJDcQ" to="tpee:fIYIFWa" resolve="StaticMethodDeclaration" />
   </node>
   <node concept="1TIwiD" id="3kQl0GsNtHq">
     <property role="3GE5qa" value="stepslogging" />
     <property role="TrG5h" value="Done" />
     <property role="34LRSv" value="done" />
+    <property role="1pbfSe" value="1376005989" />
     <ref role="1TJDcQ" node="ocJaFYXdoZ" resolve="Feedback" />
   </node>
   <node concept="1TIwiD" id="3kQl0Gu7i3o">
@@ -471,6 +502,7 @@
     <property role="TrG5h" value="BashFragment" />
     <property role="34LRSv" value="evaluate bash" />
     <property role="R4oN_" value="evaluate a fragment of BASH script" />
+    <property role="1pbfSe" value="1397978339" />
     <ref role="1TJDcQ" node="74HGF0nFncD" resolve="AbstractCommand" />
     <node concept="1TJgyj" id="3kQl0Gu7i67" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -484,6 +516,7 @@
     <property role="3GE5qa" value="consumeOutput" />
     <property role="34LRSv" value="output first line in" />
     <property role="R4oN_" value="output first line in variable" />
+    <property role="1pbfSe" value="1398474533" />
     <ref role="1TJDcQ" node="5VDr8PeG_mf" resolve="ConsumeOutput" />
     <node concept="1TJgyj" id="3kQl0Gu9bj3" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -499,6 +532,7 @@
     <property role="TrG5h" value="RedirectToFile" />
     <property role="34LRSv" value="redirect to file" />
     <property role="R4oN_" value="redirect output to file" />
+    <property role="1pbfSe" value="420682459" />
     <ref role="1TJDcQ" node="5VDr8PeG_mf" resolve="ConsumeOutput" />
     <node concept="1TJgyj" id="4gsmYrkXFXr" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -512,6 +546,7 @@
     <property role="19KtqR" value="true" />
     <property role="R4oN_" value="Describes how errors should be handled" />
     <property role="3GE5qa" value="errors" />
+    <property role="1pbfSe" value="2003389271" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7t4ghc09gJQ" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -533,6 +568,7 @@
     <property role="TrG5h" value="ErrorHandler" />
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="errors" />
+    <property role="1pbfSe" value="2003389707" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7t4ghc0afqB" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -547,6 +583,7 @@
   <node concept="1TIwiD" id="7t4ghc0dV98">
     <property role="3GE5qa" value="errors" />
     <property role="TrG5h" value="ErrorHandlerReference" />
+    <property role="1pbfSe" value="2004611931" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7t4ghc0dV99" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -559,6 +596,7 @@
     <property role="3GE5qa" value="errors" />
     <property role="TrG5h" value="ErrorManagementReference" />
     <property role="R4oN_" value="Refers to a reference management scheme" />
+    <property role="1pbfSe" value="2010126073" />
     <ref role="1TJDcQ" to="tpee:hiABswc" resolve="Annotation" />
     <node concept="1TJgyj" id="7t4ghc0yXnB" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -571,12 +609,14 @@
     <property role="TrG5h" value="StepsLoggingErrorHandler" />
     <property role="34LRSv" value="StepsLoggingErrorHandler" />
     <property role="19KtqR" value="true" />
+    <property role="1pbfSe" value="751281062" />
     <ref role="1TJDcQ" node="7t4ghc09gJS" resolve="ErrorHandler" />
   </node>
   <node concept="1TIwiD" id="1JB8UxZGBxu">
     <property role="3GE5qa" value="errors" />
     <property role="TrG5h" value="ReportException" />
     <property role="34LRSv" value="report exception" />
+    <property role="1pbfSe" value="1684431866" />
     <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
     <node concept="1TJgyj" id="1JB8UxZKAgM" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -595,11 +635,13 @@
   <node concept="PlHQZ" id="1JB8UxZGBA8">
     <property role="3GE5qa" value="errors" />
     <property role="TrG5h" value="ISomeErrorUsage" />
+    <property role="1pbfSe" value="1684431568" />
   </node>
   <node concept="1TIwiD" id="1JB8UxZHGXo">
     <property role="3GE5qa" value="errors" />
     <property role="TrG5h" value="ReportSuccess" />
     <property role="34LRSv" value="report success" />
+    <property role="1pbfSe" value="1684147456" />
     <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
     <node concept="1TJgyj" id="1JB8UxZJdtp" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -615,6 +657,7 @@
     <property role="TrG5h" value="SuccessHandler" />
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="errors" />
+    <property role="1pbfSe" value="657072047" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6wKPy2YYkAg" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -629,6 +672,7 @@
   <node concept="1TIwiD" id="6wKPy2YYkAq">
     <property role="3GE5qa" value="errors" />
     <property role="TrG5h" value="SuccessHandlerReference" />
+    <property role="1pbfSe" value="657072058" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6wKPy2YYkAr" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -642,6 +686,7 @@
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
     <property role="3GE5qa" value="commandOperators" />
+    <property role="1pbfSe" value="1998903847" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="49nZsvIpWnV">
@@ -649,11 +694,13 @@
     <property role="TrG5h" value="StepsLoggingSuccessHandler" />
     <property role="34LRSv" value="StepsLoggingSuccessHandler" />
     <property role="19KtqR" value="true" />
+    <property role="1pbfSe" value="817873858" />
     <ref role="1TJDcQ" node="6wKPy2YYkAf" resolve="SuccessHandler" />
   </node>
   <node concept="1TIwiD" id="3qLImriNhS4">
     <property role="TrG5h" value="Echo" />
     <property role="34LRSv" value="echo" />
+    <property role="1pbfSe" value="159307626" />
     <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
     <node concept="1TJgyj" id="3qLImriNhVl" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -664,6 +711,7 @@
   </node>
   <node concept="1TIwiD" id="5fDViOiociU">
     <property role="TrG5h" value="LocalFunction" />
+    <property role="1pbfSe" value="1716171239" />
     <ref role="1TJDcQ" to="tpee:fIYIFWa" resolve="StaticMethodDeclaration" />
   </node>
   <node concept="1TIwiD" id="54MWBCLlg">
@@ -671,12 +719,14 @@
     <property role="TrG5h" value="CheckExitCode" />
     <property role="34LRSv" value="$?" />
     <property role="R4oN_" value="check the exit status code of the last execute command" />
+    <property role="1pbfSe" value="665331839" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
   </node>
   <node concept="1TIwiD" id="54MWCSe20">
     <property role="3GE5qa" value="commandOperators" />
     <property role="TrG5h" value="IRequireExecuteCommandEnvironment" />
     <property role="R5$K7" value="false" />
+    <property role="1pbfSe" value="686158767" />
     <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
   </node>
 </model>

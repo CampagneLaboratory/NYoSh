@@ -2,7 +2,7 @@
 <model ref="r:2c38e443-0586-49e0-87de-1937d74417d9(org.campagnelab.gobyweb.interactive.organisms.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -13,6 +13,7 @@
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
+        <property id="1587916991969465369" name="conceptId" index="1pbfSe" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
       </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
@@ -33,6 +34,7 @@
   </registry>
   <node concept="1TIwiD" id="664r$yjOk5f">
     <property role="TrG5h" value="OrganismAttribute" />
+    <property role="1pbfSe" value="178933865" />
     <ref role="1TJDcQ" to="bs99:7arfhhdt3J1" resolve="Attribute" />
     <node concept="1TJgyj" id="664r$yjOrk$" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -43,6 +45,7 @@
   </node>
   <node concept="1TIwiD" id="664r$yjOlO0">
     <property role="TrG5h" value="OrganismValue" />
+    <property role="1pbfSe" value="178926776" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="664r$yjOsb$" role="1TKVEi">
       <property role="20lmBu" value="reference" />

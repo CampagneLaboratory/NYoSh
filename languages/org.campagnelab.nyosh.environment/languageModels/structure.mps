@@ -2,7 +2,7 @@
 <model ref="r:48f4e449-1a18-435e-ae88-4830aa794dc7(org.campagnelab.nyosh.environment.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -17,6 +17,7 @@
         <property id="4628067390765956807" name="final" index="R5$K2" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
+        <property id="1587916991969465369" name="conceptId" index="1pbfSe" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -51,6 +52,7 @@
     <property role="TrG5h" value="Loader" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
+    <property role="1pbfSe" value="347368826" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2Ka1amZmSvd" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -65,6 +67,7 @@
     <property role="3GE5qa" value="MapFiles" />
     <property role="34LRSv" value="mapFileLoader" />
     <property role="2_RsDV" value="root" />
+    <property role="1pbfSe" value="347368771" />
     <ref role="1TJDcQ" node="2Ka1amZgoRx" resolve="Loader" />
   </node>
   <node concept="1TIwiD" id="2Ka1amZgpjt">
@@ -72,6 +75,7 @@
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
     <property role="2_RsDV" value="root" />
+    <property role="1pbfSe" value="347367038" />
     <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
     <node concept="1TJgyi" id="1E1ga0wXwgJ" role="1TKVEl">
       <property role="TrG5h" value="exposeToCommands" />
@@ -95,6 +99,7 @@
     <property role="R4oN_" value="text file in which each row is in the format NAME=VALUE" />
     <property role="3GE5qa" value="MapFiles" />
     <property role="2_RsDV" value="root" />
+    <property role="1pbfSe" value="347285629" />
     <ref role="1TJDcQ" node="2Ka1amZgpjt" resolve="EnvironmentSource" />
     <node concept="1TJgyj" id="1gOyA3ZX4$e" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -107,6 +112,7 @@
     <property role="TrG5h" value="EnvironmentSourceList" />
     <property role="34LRSv" value="load environment sources" />
     <property role="2_RsDV" value="root" />
+    <property role="1pbfSe" value="347217179" />
     <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
     <node concept="1TJgyj" id="2Ka1amZgXTO" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -119,6 +125,7 @@
     <property role="TrG5h" value="VariableReader" />
     <property role="R4oN_" value="read an environment variable" />
     <property role="34LRSv" value="${" />
+    <property role="1pbfSe" value="344972168" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="1TJgyj" id="5a_m_wWNCj9" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -132,6 +139,7 @@
     <property role="3GE5qa" value="JVM" />
     <property role="R4oN_" value="the Java runtime environment" />
     <property role="2_RsDV" value="root" />
+    <property role="1pbfSe" value="1888306649" />
     <ref role="1TJDcQ" node="2Ka1amZgpjt" resolve="EnvironmentSource" />
   </node>
   <node concept="1TIwiD" id="5a_m_wWNm0e">
@@ -140,6 +148,7 @@
     <property role="34LRSv" value="Java Environment loader" />
     <property role="R4oN_" value="load the environment visible to the JVM" />
     <property role="2_RsDV" value="root" />
+    <property role="1pbfSe" value="1888306586" />
     <ref role="1TJDcQ" node="2Ka1amZgoRx" resolve="Loader" />
   </node>
   <node concept="1TIwiD" id="5a_m_wWNCiv">
@@ -147,6 +156,7 @@
     <property role="R4oN_" value="variable available" />
     <property role="34LRSv" value="var declaration" />
     <property role="2_RsDV" value="root" />
+    <property role="1pbfSe" value="1888231689" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="4JBeXBgn$qB" role="1TKVEl">
       <property role="TrG5h" value="value" />
@@ -162,6 +172,7 @@
   </node>
   <node concept="1TIwiD" id="1TTwju6TrQ5">
     <property role="TrG5h" value="EnvVariableDeclarationReference" />
+    <property role="1pbfSe" value="1520484676" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1TTwju6TCp_" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -172,6 +183,7 @@
   </node>
   <node concept="1TIwiD" id="1gOyA3ZWMRT">
     <property role="TrG5h" value="SourcePath" />
+    <property role="1pbfSe" value="338147417" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6DdHBUdi$Wj" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -188,6 +200,7 @@
     <property role="34LRSv" value="export" />
     <property role="R4oN_" value="export variables for the next executed commands" />
     <property role="2_RsDV" value="root" />
+    <property role="1pbfSe" value="1865001073" />
     <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
     <node concept="1TJgyj" id="2UmaC9YHLQp" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -199,6 +212,7 @@
     <property role="TrG5h" value="RuntimeVariableReader" />
     <property role="34LRSv" value="$${" />
     <property role="R4oN_" value="read an environment variable using a dynamic name" />
+    <property role="1pbfSe" value="1207753648" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="1TJgyj" id="csArx4T2w6" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -211,6 +225,7 @@
     <property role="TrG5h" value="VariableReaderGStringComponent" />
     <property role="R4oN_" value="read an environment variable" />
     <property role="34LRSv" value="${" />
+    <property role="1pbfSe" value="1375458769" />
     <ref role="1TJDcQ" to="f2ff:Scn7avjSyX" resolve="GStringComponent" />
     <node concept="1TJgyj" id="21hSxQdG$wj" role="1TKVEi">
       <property role="20lmBu" value="reference" />

@@ -8,9 +8,9 @@
   <imports>
     <import index="f2ff" ref="r:48d5f7d2-24be-4d82-ac12-8f4a2d414b11(org.campagnelab.nyosh.gstring.structure)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
-    <import index="z4lo" ref="f:java_stub#0202ed86-955d-4227-9c20-377dd6b1f9ff#org.campagnelab.nyosh.gstring.patterns(org.campagnelab.nyosh.lib/org.campagnelab.nyosh.gstring.patterns@java_stub)" />
-    <import index="k7g3" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
-    <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
+    <import index="f9fb" ref="0202ed86-955d-4227-9c20-377dd6b1f9ff/java:org.campagnelab.nyosh.gstring.patterns(org.campagnelab.nyosh.lib/)" />
+    <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -220,11 +220,11 @@
             <property role="TrG5h" value="matcher" />
             <node concept="2ShNRf" id="1feIZhw9uUm" role="33vP2m">
               <node concept="1pGfFk" id="1feIZhw9yd$" role="2ShVmc">
-                <ref role="37wK5l" to="z4lo:~PatternMatcher.&lt;init&gt;()" resolve="PatternMatcher" />
+                <ref role="37wK5l" to="f9fb:~PatternMatcher.&lt;init&gt;()" resolve="PatternMatcher" />
               </node>
             </node>
             <node concept="3uibUv" id="1feIZhw9i08" role="1tU5fm">
-              <ref role="3uigEE" to="z4lo:~PatternMatcher" resolve="PatternMatcher" />
+              <ref role="3uigEE" to="f9fb:~PatternMatcher" resolve="PatternMatcher" />
             </node>
           </node>
         </node>
@@ -233,7 +233,7 @@
             <property role="TrG5h" value="components" />
             <node concept="2OqwBi" id="4MeD_WsguEq" role="33vP2m">
               <node concept="liA8E" id="4MeD_Wsgv0R" role="2OqNvi">
-                <ref role="37wK5l" to="z4lo:~PatternMatcher.split(java.lang.String):java.util.List" resolve="split" />
+                <ref role="37wK5l" to="f9fb:~PatternMatcher.split(java.lang.String):java.util.List" resolve="split" />
                 <node concept="2OqwBi" id="4MeD_Wsgv8P" role="37wK5m">
                   <node concept="3TrcHB" id="4MeD_WsgvVk" role="2OqNvi">
                     <ref role="3TsBF5" to="f2ff:Scn7avjSAn" resolve="value" />
@@ -246,9 +246,9 @@
               </node>
             </node>
             <node concept="3uibUv" id="4MeD_Wsguxj" role="1tU5fm">
-              <ref role="3uigEE" to="k7g3:~List" resolve="List" />
+              <ref role="3uigEE" to="33ny:~List" resolve="List" />
               <node concept="3uibUv" id="1feIZhw9iyJ" role="11_B2D">
-                <ref role="3uigEE" to="z4lo:~Component" resolve="Component" />
+                <ref role="3uigEE" to="f9fb:~Component" resolve="Component" />
               </node>
             </node>
           </node>
@@ -279,7 +279,7 @@
             <node concept="3clFbJ" id="4MeD_WsgwcL" role="3cqZAp">
               <node concept="2OqwBi" id="1feIZhw9A17" role="3clFbw">
                 <node concept="liA8E" id="1feIZhw9B_M" role="2OqNvi">
-                  <ref role="37wK5l" to="z4lo:~Component.isPattern():boolean" resolve="isPattern" />
+                  <ref role="37wK5l" to="f9fb:~Component.isPattern():boolean" resolve="isPattern" />
                 </node>
                 <node concept="2GrUjf" id="4MeD_Wsgwgp" role="2Oq$k0">
                   <ref role="2Gs0qQ" node="4MeD_Wsgw2k" resolve="component" />
@@ -317,7 +317,7 @@
                             <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
                             <node concept="2OqwBi" id="4oxHTQs6ME9" role="2c44t1">
                               <node concept="liA8E" id="4oxHTQs6NGx" role="2OqNvi">
-                                <ref role="37wK5l" to="z4lo:~Component.getPayLoad():java.lang.String" resolve="getPayLoad" />
+                                <ref role="37wK5l" to="f9fb:~Component.getPayLoad():java.lang.String" resolve="getPayLoad" />
                               </node>
                               <node concept="2GrUjf" id="4oxHTQs6Mff" role="2Oq$k0">
                                 <ref role="2Gs0qQ" node="4MeD_Wsgw2k" resolve="component" />
@@ -335,9 +335,6 @@
                 <node concept="3SKdUt" id="4MeD_WshC$c" role="3cqZAp">
                   <node concept="3SKdUq" id="4MeD_WshCT9" role="3SKWNk">
                     <property role="3SKdUp" value="Add declaration before the node that holds the gstring:" />
-                  </node>
-                  <node concept="3SKdUq" id="4oxHTQsaz1F" role="3SKWNk">
-                    <property role="3SKdUp" value="   " />
                   </node>
                 </node>
                 <node concept="3clFbF" id="4oxHTQsa$HQ" role="3cqZAp">
@@ -389,7 +386,7 @@
                 <node concept="3clFbF" id="4MeD_Wshhp3" role="3cqZAp">
                   <node concept="2OqwBi" id="4MeD_WshiJn" role="3clFbG">
                     <node concept="liA8E" id="4MeD_Wshqnl" role="2OqNvi">
-                      <ref role="37wK5l" to="k7g3:~List.add(java.lang.Object):boolean" resolve="add" />
+                      <ref role="37wK5l" to="33ny:~List.add(java.lang.Object):boolean" resolve="add" />
                       <node concept="37vLTw" id="4MeD_Wshqqx" role="37wK5m">
                         <ref role="3cqZAo" node="4MeD_WsgIdP" resolve="varRef" />
                       </node>
@@ -432,7 +429,7 @@
                           <ref role="2Gs0qQ" node="4MeD_Wsgw2k" resolve="component" />
                         </node>
                         <node concept="liA8E" id="4MeD_Wsh1xV" role="2OqNvi">
-                          <ref role="37wK5l" to="z4lo:~Component.getPayLoad():java.lang.String" resolve="getPayLoad" />
+                          <ref role="37wK5l" to="f9fb:~Component.getPayLoad():java.lang.String" resolve="getPayLoad" />
                         </node>
                       </node>
                     </node>
@@ -440,7 +437,7 @@
                   <node concept="3clFbF" id="4MeD_Wsh5BP" role="3cqZAp">
                     <node concept="2OqwBi" id="4MeD_Wsh6If" role="3clFbG">
                       <node concept="liA8E" id="4MeD_WshetD" role="2OqNvi">
-                        <ref role="37wK5l" to="k7g3:~List.add(java.lang.Object):boolean" resolve="add" />
+                        <ref role="37wK5l" to="33ny:~List.add(java.lang.Object):boolean" resolve="add" />
                         <node concept="37vLTw" id="4MeD_WsheTM" role="37wK5m">
                           <ref role="3cqZAo" node="4MeD_WsgWBA" resolve="literal" />
                         </node>
@@ -575,7 +572,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="5A1YY0qy0YL" role="2OqNvi">
-                <ref role="37wK5l" to="e2lb:~String.replaceAll(java.lang.String,java.lang.String):java.lang.String" resolve="replaceAll" />
+                <ref role="37wK5l" to="wyt6:~String.replaceAll(java.lang.String,java.lang.String):java.lang.String" resolve="replaceAll" />
                 <node concept="Xl_RD" id="5A1YY0qy0ZY" role="37wK5m">
                   <property role="Xl_RC" value="\&quot;" />
                 </node>
@@ -610,7 +607,7 @@
               </node>
             </node>
             <node concept="liA8E" id="5A1YY0qxUHr" role="2OqNvi">
-              <ref role="37wK5l" to="e2lb:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+              <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
               <node concept="Xl_RD" id="5A1YY0qxUWH" role="37wK5m">
                 <property role="Xl_RC" value="\&quot;" />
               </node>

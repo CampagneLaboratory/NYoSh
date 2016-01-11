@@ -2,8 +2,8 @@
 <model ref="r:397eee62-00ff-4904-afbb-029e2b9cd1db(org.campagnelab.gobyweb.plugins.test.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
     <use id="0b7d8bbd-896e-495e-be60-01a0d738a649" name="org.campagnelab.gobyweb.plugins" version="-1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -21,6 +21,7 @@
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
+        <property id="1587916991969465369" name="conceptId" index="1pbfSe" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -55,6 +56,7 @@
     <property role="TrG5h" value="TestExecutionEnvironment" />
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="config" />
+    <property role="1pbfSe" value="1761078911" />
     <ref role="1TJDcQ" to="bs99:1LS_mj9079W" resolve="ExecutionEnvironment" />
     <node concept="1TJgyj" id="3kvsvcNQadf" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -66,6 +68,7 @@
     <property role="TrG5h" value="GitRepository" />
     <property role="R4oN_" value="git repository for test data" />
     <property role="3GE5qa" value="config" />
+    <property role="1pbfSe" value="1761088702" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="3kvsvcNQab$" role="1TKVEl">
       <property role="TrG5h" value="url" />
@@ -79,6 +82,7 @@
     <property role="TrG5h" value="DualFileSetArea" />
     <property role="R4oN_" value="A dual FileSet area with the same remote and local content." />
     <property role="3GE5qa" value="config" />
+    <property role="1pbfSe" value="1763134462" />
     <ref role="1TJDcQ" to="bs99:1LS_mj901FT" resolve="FileSetArea" />
     <node concept="1TJgyi" id="3kvsvcNXYbc" role="1TKVEl">
       <property role="TrG5h" value="remotePath" />
@@ -94,6 +98,7 @@
   <node concept="1TIwiD" id="3kvsvcOHzO9">
     <property role="TrG5h" value="ListenAndSyncNewFSI" />
     <property role="R4oN_" value="synchronize the local FSA and the Git Repo" />
+    <property role="1pbfSe" value="1775611644" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3kvsvcOToN2" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -108,6 +113,7 @@
     <property role="TrG5h" value="PluginTestCase" />
     <property role="19KtqR" value="true" />
     <property role="R4oN_" value="a test case for a plugin" />
+    <property role="1pbfSe" value="1791916280" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="AgIvAFgy0$" role="1TKVEl">
       <property role="TrG5h" value="disabled" />
@@ -138,6 +144,7 @@
   <node concept="1TIwiD" id="3kvsvcPNc3j">
     <property role="TrG5h" value="TestJobConfiguration" />
     <property role="R4oN_" value="configuration of the job submitted with the test case" />
+    <property role="1pbfSe" value="1793864390" />
     <ref role="1TJDcQ" to="bs99:28RbsXsy_oq" resolve="ExecutionTool" />
     <node concept="1TJgyi" id="1lQckS9YPea" role="1TKVEl">
       <property role="TrG5h" value="assignedTag" />
@@ -147,6 +154,7 @@
   <node concept="1TIwiD" id="3kvsvcPPvvB">
     <property role="TrG5h" value="TestScript" />
     <property role="R4oN_" value="script associated to the Test Case" />
+    <property role="1pbfSe" value="1794468314" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3kvsvcPPvvL" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -157,6 +165,7 @@
   </node>
   <node concept="1TIwiD" id="3kvsvcQ01D2">
     <property role="TrG5h" value="TestJobArguments" />
+    <property role="1pbfSe" value="1797229621" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3kvsvcQ01D5" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -168,6 +177,7 @@
   <node concept="1TIwiD" id="HXmcVVW2CB">
     <property role="3GE5qa" value="config" />
     <property role="TrG5h" value="JobAreaWithSDK" />
+    <property role="1pbfSe" value="124617461" />
     <ref role="1TJDcQ" to="bs99:1LS_mj902NV" resolve="JobArea" />
     <node concept="1TJgyi" id="HXmcVVW4at" role="1TKVEl">
       <property role="TrG5h" value="SDKDirectory" />
@@ -178,6 +188,7 @@
     <property role="TrG5h" value="PluginTestSuite" />
     <property role="19KtqR" value="true" />
     <property role="R4oN_" value="bundle plugin test cases and run them together" />
+    <property role="1pbfSe" value="529053884" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1lQckSa56n1" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -215,6 +226,7 @@
   <node concept="1TIwiD" id="1lQckSa56n3">
     <property role="TrG5h" value="PluginTestCaseRef" />
     <property role="R4oN_" value="a reference to a plugin test case" />
+    <property role="1pbfSe" value="529176337" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1lQckSa56n4" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -228,6 +240,7 @@
     <property role="TrG5h" value="AssertIsPublished" />
     <property role="34LRSv" value="is published" />
     <property role="R4oN_" value="check if the output slot has been published" />
+    <property role="1pbfSe" value="530292071" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="1TJgyj" id="1lQckSavFYY" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -239,6 +252,7 @@
   <node concept="1TIwiD" id="1lQckSau9$B">
     <property role="3GE5qa" value="script" />
     <property role="TrG5h" value="PluginOutputSlotRef" />
+    <property role="1pbfSe" value="535743093" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1lQckSaua9s" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -249,6 +263,7 @@
   </node>
   <node concept="1TIwiD" id="6MzP98rjE5P">
     <property role="TrG5h" value="PluginTestCaseRefByName" />
+    <property role="1pbfSe" value="2014153209" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6MzP98rjE5Q" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -258,10 +273,12 @@
     <property role="3GE5qa" value="script" />
     <property role="TrG5h" value="AssertIsSuccess" />
     <property role="34LRSv" value="is success" />
+    <property role="1pbfSe" value="1765063403" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
   </node>
   <node concept="1TIwiD" id="5ETEJCeuL2q">
     <property role="TrG5h" value="ReportedErrors" />
+    <property role="1pbfSe" value="1765063572" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
   </node>
   <node concept="1TIwiD" id="5ETEJCeuL2r">
@@ -269,6 +286,7 @@
     <property role="TrG5h" value="HasErrors" />
     <property role="34LRSv" value="has errors" />
     <property role="R4oN_" value="check if the test case published error messages" />
+    <property role="1pbfSe" value="1765063573" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
   </node>
   <node concept="1TIwiD" id="5ETEJCeuL38">
@@ -276,6 +294,7 @@
     <property role="TrG5h" value="MessageLookup" />
     <property role="R4oN_" value="check if a specific message has been published" />
     <property role="34LRSv" value="published message" />
+    <property role="1pbfSe" value="1765063618" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="1TJgyi" id="5ETEJCeuL39" role="1TKVEl">
       <property role="TrG5h" value="message" />

@@ -2,7 +2,7 @@
 <model ref="r:37fbe713-b4ed-4c3f-becb-5bf827fba401(org.campagnelab.gobyweb.interactive.samples.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -13,6 +13,7 @@
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
+        <property id="1587916991969465369" name="conceptId" index="1pbfSe" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -43,6 +44,7 @@
   </registry>
   <node concept="1TIwiD" id="6RZ9V6K90os">
     <property role="TrG5h" value="ListenForSampleFileSets" />
+    <property role="1pbfSe" value="505621965" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="5HEjlQz_6u2" role="PzmwI">
       <ref role="PrY4T" to="bbh2:5HEjlQzrIxG" resolve="FileSetInstanceListener" />
@@ -51,6 +53,7 @@
   <node concept="1TIwiD" id="6RZ9V6KaJHw">
     <property role="TrG5h" value="GobyWebReadSample" />
     <property role="19KtqR" value="true" />
+    <property role="1pbfSe" value="506077969" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="4cofB44cJjc" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -130,6 +133,7 @@
   <node concept="1TIwiD" id="5HEjlQzCvUf">
     <property role="TrG5h" value="GobyWebAlignment" />
     <property role="19KtqR" value="true" />
+    <property role="1pbfSe" value="15971348" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5HEjlQzCvUg" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -200,6 +204,7 @@
   </node>
   <node concept="1TIwiD" id="5HEjlQzDgQ$">
     <property role="TrG5h" value="ListenForAlignmentFileSets" />
+    <property role="1pbfSe" value="15770879" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="5HEjlQzDgQ_" role="PzmwI">
       <ref role="PrY4T" to="bbh2:5HEjlQzrIxG" resolve="FileSetInstanceListener" />
@@ -208,6 +213,7 @@
   <node concept="1TIwiD" id="7pbMULTJLa0">
     <property role="TrG5h" value="GobyWebAlignmentAnalysis" />
     <property role="19KtqR" value="true" />
+    <property role="1pbfSe" value="267723220" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7pbMULTJMl7" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -262,6 +268,7 @@
   </node>
   <node concept="1TIwiD" id="7pbMULTKyoZ">
     <property role="TrG5h" value="ListenForAlignmentAnalysisFileSets" />
+    <property role="1pbfSe" value="267521557" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="7pbMULTKyp0" role="PzmwI">
       <ref role="PrY4T" to="bbh2:5HEjlQzrIxG" resolve="FileSetInstanceListener" />
@@ -269,6 +276,7 @@
   </node>
   <node concept="1TIwiD" id="7pbMULTN38u">
     <property role="TrG5h" value="AnalysisOutput" />
+    <property role="1pbfSe" value="266863158" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="7pbMULTNuhk" role="1TKVEl">
       <property role="TrG5h" value="description" />
@@ -287,6 +295,7 @@
   </node>
   <node concept="1TIwiD" id="6HU9C0i7oO1">
     <property role="TrG5h" value="LuceneIndexOutput" />
+    <property role="1pbfSe" value="2107093889" />
     <ref role="1TJDcQ" node="7pbMULTN38u" resolve="AnalysisOutput" />
     <node concept="1TJgyi" id="3azaozge7g$" role="1TKVEl">
       <property role="TrG5h" value="dirname" />
@@ -295,10 +304,12 @@
   </node>
   <node concept="1TIwiD" id="6HU9C0i7p_P">
     <property role="TrG5h" value="FileOutput" />
+    <property role="1pbfSe" value="2107097077" />
     <ref role="1TJDcQ" node="7pbMULTN38u" resolve="AnalysisOutput" />
   </node>
   <node concept="1TIwiD" id="6HU9C0i7qsG">
     <property role="TrG5h" value="ImageOutput" />
+    <property role="1pbfSe" value="2107100588" />
     <ref role="1TJDcQ" node="7pbMULTN38u" resolve="AnalysisOutput" />
     <node concept="1TJgyi" id="35c__IhmR8i" role="1TKVEl">
       <property role="TrG5h" value="filename" />
@@ -307,12 +318,15 @@
   </node>
   <node concept="PlHQZ" id="6HU9C0iVauN">
     <property role="TrG5h" value="HigherLevelObject" />
+    <property role="1pbfSe" value="2120666675" />
   </node>
   <node concept="PlHQZ" id="6HU9C0j3BpD">
     <property role="TrG5h" value="JobSubmission" />
+    <property role="1pbfSe" value="2122882281" />
   </node>
   <node concept="1TIwiD" id="6HU9C0iUzKW">
     <property role="TrG5h" value="ObjectCreationHelper" />
+    <property role="1pbfSe" value="2120508092" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6K40ojJ5yQb" role="PzmwI">
       <ref role="PrY4T" to="bs99:6K40ojIZ6Bf" resolve="ExecutionToolListener" />

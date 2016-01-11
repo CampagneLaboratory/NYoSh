@@ -2,7 +2,7 @@
 <model ref="r:5ff8ae95-054c-4cda-b392-b0e2d796b9da(org.campagnelab.lucene.tableviewer.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -23,6 +23,7 @@
         <property id="4628067390765956807" name="final" index="R5$K2" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
+        <property id="1587916991969465369" name="conceptId" index="1pbfSe" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -59,6 +60,7 @@
     <property role="34LRSv" value="LuceneTableViewer" />
     <property role="R4oN_" value="Table Viewer for a Lucene Table Index" />
     <property role="19KtqR" value="true" />
+    <property role="1pbfSe" value="1981524528" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2mU0N99v3yq" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -121,6 +123,7 @@
   <node concept="1TIwiD" id="5KK2jWpV66Z">
     <property role="TrG5h" value="TestPage" />
     <property role="19KtqR" value="true" />
+    <property role="1pbfSe" value="1981573886" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5KK2jWpV670" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -131,6 +134,7 @@
   <node concept="1TIwiD" id="7CbwnwIEyeC">
     <property role="TrG5h" value="Column" />
     <property role="3GE5qa" value="columns" />
+    <property role="1pbfSe" value="1464490720" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="2mU0N99vj0B" role="1TKVEl">
       <property role="TrG5h" value="index" />
@@ -163,6 +167,7 @@
   <node concept="1TIwiD" id="1cJwhrj24bY">
     <property role="TrG5h" value="ColumnReference" />
     <property role="3GE5qa" value="columns" />
+    <property role="1pbfSe" value="432552940" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="27PCe5gf$f0" role="PzmwI">
       <ref role="PrY4T" node="27PCe5gf$9r" resolve="HasColumnRef" />
@@ -174,11 +179,13 @@
     <property role="3GE5qa" value="queries" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
+    <property role="1pbfSe" value="359917105" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="3cJnmVyhbCL">
     <property role="TrG5h" value="Term" />
     <property role="3GE5qa" value="queries" />
+    <property role="1pbfSe" value="359929759" />
     <ref role="1TJDcQ" node="3cJnmVyh8z3" resolve="LuceneQueryExpression" />
     <node concept="1TJgyi" id="3cJnmVyhdL5" role="1TKVEl">
       <property role="TrG5h" value="term" />
@@ -189,6 +196,7 @@
     <property role="TrG5h" value="Phrase" />
     <property role="3GE5qa" value="queries" />
     <property role="34LRSv" value="&quot;" />
+    <property role="1pbfSe" value="360046894" />
     <ref role="1TJDcQ" node="3cJnmVyh8z3" resolve="LuceneQueryExpression" />
     <node concept="1TJgyi" id="3cJnmVyhCf1" role="1TKVEl">
       <property role="TrG5h" value="phrase" />
@@ -198,6 +206,7 @@
   <node concept="1TIwiD" id="3cJnmVyhCf3">
     <property role="TrG5h" value="FieldQuery" />
     <property role="3GE5qa" value="queries" />
+    <property role="1pbfSe" value="360046897" />
     <ref role="1TJDcQ" node="3cJnmVyh8z3" resolve="LuceneQueryExpression" />
     <node concept="1TJgyj" id="3cJnmVyhCf8" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -215,6 +224,7 @@
   <node concept="1TIwiD" id="3cJnmVyhCfb">
     <property role="TrG5h" value="IndexedField" />
     <property role="3GE5qa" value="queries" />
+    <property role="1pbfSe" value="360046905" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3cJnmVyhCg_" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -223,6 +233,7 @@
   <node concept="1TIwiD" id="3cJnmVyhD$C">
     <property role="TrG5h" value="ProximitySearch" />
     <property role="3GE5qa" value="queries" />
+    <property role="1pbfSe" value="360052374" />
     <ref role="1TJDcQ" node="3cJnmVyh8z3" resolve="LuceneQueryExpression" />
     <node concept="1TJgyi" id="3cJnmVyhD$D" role="1TKVEl">
       <property role="TrG5h" value="distance" />
@@ -239,6 +250,7 @@
     <property role="TrG5h" value="TermRangeSearch" />
     <property role="3GE5qa" value="queries" />
     <property role="34LRSv" value="[" />
+    <property role="1pbfSe" value="360052379" />
     <ref role="1TJDcQ" node="3cJnmVyh8z3" resolve="LuceneQueryExpression" />
     <node concept="1TJgyi" id="3cJnmVyhD$K" role="1TKVEl">
       <property role="TrG5h" value="from" />
@@ -262,6 +274,7 @@
     <property role="3GE5qa" value="queries" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
+    <property role="1pbfSe" value="360052442" />
     <ref role="1TJDcQ" node="3cJnmVyh8z3" resolve="LuceneQueryExpression" />
     <node concept="1TJgyj" id="3cJnmVyhD_H" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -280,18 +293,21 @@
     <property role="TrG5h" value="OrOperator" />
     <property role="34LRSv" value="OR" />
     <property role="3GE5qa" value="queries" />
+    <property role="1pbfSe" value="360052459" />
     <ref role="1TJDcQ" node="3cJnmVyhD_G" resolve="BinaryOperator" />
   </node>
   <node concept="1TIwiD" id="3cJnmVyhFw2">
     <property role="TrG5h" value="AndOperator" />
     <property role="34LRSv" value="AND" />
     <property role="3GE5qa" value="queries" />
+    <property role="1pbfSe" value="360060272" />
     <ref role="1TJDcQ" node="3cJnmVyhD_G" resolve="BinaryOperator" />
   </node>
   <node concept="1TIwiD" id="3cJnmVyhY3L">
     <property role="TrG5h" value="NotOperator" />
     <property role="34LRSv" value="NOT" />
     <property role="3GE5qa" value="queries" />
+    <property role="1pbfSe" value="360136287" />
     <ref role="1TJDcQ" node="3cJnmVyh8z3" resolve="LuceneQueryExpression" />
     <node concept="1TJgyj" id="3cJnmVyhY5d" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -303,6 +319,7 @@
   <node concept="1TIwiD" id="3cJnmVyjXAm">
     <property role="TrG5h" value="Query" />
     <property role="3GE5qa" value="queries" />
+    <property role="1pbfSe" value="360658692" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3cJnmVyjXAn" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -314,6 +331,7 @@
     <property role="3GE5qa" value="queries" />
     <property role="TrG5h" value="All" />
     <property role="34LRSv" value="all" />
+    <property role="1pbfSe" value="360780399" />
     <ref role="1TJDcQ" node="3cJnmVyh8z3" resolve="LuceneQueryExpression" />
     <node concept="1TJgyj" id="3cJnmVykrl$" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -326,6 +344,7 @@
     <property role="3GE5qa" value="queries" />
     <property role="TrG5h" value="Any" />
     <property role="34LRSv" value="any" />
+    <property role="1pbfSe" value="360900627" />
     <ref role="1TJDcQ" node="3cJnmVyh8z3" resolve="LuceneQueryExpression" />
     <node concept="1TJgyj" id="3cJnmVykSEA" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -337,6 +356,7 @@
   <node concept="PlHQZ" id="27PCe5gf$9r">
     <property role="3GE5qa" value="columns" />
     <property role="TrG5h" value="HasColumnRef" />
+    <property role="1pbfSe" value="1916003132" />
     <node concept="1TJgyj" id="27PCe5gf$9s" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="column" />
@@ -373,6 +393,7 @@
   <node concept="1TIwiD" id="bUeWvoOYm9">
     <property role="TrG5h" value="SortOrder" />
     <property role="3GE5qa" value="sorting" />
+    <property role="1pbfSe" value="607248048" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="bUeWvoP1zP" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -387,6 +408,7 @@
   <node concept="1TIwiD" id="bUeWvoOYHw">
     <property role="TrG5h" value="ColumnSort" />
     <property role="3GE5qa" value="sorting" />
+    <property role="1pbfSe" value="607246553" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="bUeWvoP4pF" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -402,6 +424,7 @@
   <node concept="PlHQZ" id="bUeWvoP3vO">
     <property role="3GE5qa" value="sorting" />
     <property role="TrG5h" value="HasBuildSort" />
+    <property role="1pbfSe" value="607226949" />
   </node>
 </model>
 

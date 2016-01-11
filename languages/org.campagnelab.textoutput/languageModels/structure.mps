@@ -2,7 +2,7 @@
 <model ref="r:175e6779-7e81-49b1-b295-33bbabafa8d6(org.campagnelab.textoutput.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -14,6 +14,7 @@
         <property id="1225118933224" name="comment" index="YLQ7P" />
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
+        <property id="1587916991969465369" name="conceptId" index="1pbfSe" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -47,6 +48,7 @@
   <node concept="1TIwiD" id="5XBY1KyOh7b">
     <property role="TrG5h" value="TextOutput" />
     <property role="19KtqR" value="true" />
+    <property role="1pbfSe" value="2110191129" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="3HzE96Iibnm" role="1TKVEl">
       <property role="TrG5h" value="extension" />
@@ -77,6 +79,7 @@
   </node>
   <node concept="1TIwiD" id="4KXrU8sKq1H">
     <property role="TrG5h" value="Line" />
+    <property role="1pbfSe" value="1761546255" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="4KXrU8sKsb8" role="1TKVEl">
       <property role="TrG5h" value="text" />
@@ -91,6 +94,7 @@
   </node>
   <node concept="1TIwiD" id="1th2JjMn4te">
     <property role="TrG5h" value="Phrase" />
+    <property role="1pbfSe" value="162353730" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="1th2JjMn4tf" role="1TKVEl">
       <property role="TrG5h" value="text" />
@@ -99,6 +103,7 @@
   </node>
   <node concept="1TIwiD" id="4nKo47DZVIj">
     <property role="TrG5h" value="Lines" />
+    <property role="1pbfSe" value="804264916" />
     <ref role="1TJDcQ" node="4KXrU8sKq1H" resolve="Line" />
     <node concept="1TJgyj" id="4nKo47DZVJm" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -109,6 +114,7 @@
   </node>
   <node concept="1TIwiD" id="7MRifUCX80F">
     <property role="TrG5h" value="Phrases" />
+    <property role="1pbfSe" value="632015145" />
     <ref role="1TJDcQ" node="1th2JjMn4te" resolve="Phrase" />
     <node concept="1TJgyj" id="7MRifUCXaux" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -119,6 +125,7 @@
   </node>
   <node concept="1TIwiD" id="6h$l2DKH1uk">
     <property role="TrG5h" value="LinesAdapter" />
+    <property role="1pbfSe" value="719819842" />
     <ref role="1TJDcQ" node="4nKo47DZVIj" resolve="Lines" />
     <node concept="1TJgyj" id="6h$l2DKHbTG" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -129,6 +136,7 @@
   </node>
   <node concept="1TIwiD" id="6h$l2DKQPk4">
     <property role="TrG5h" value="PhraseAdapter" />
+    <property role="1pbfSe" value="717248210" />
     <ref role="1TJDcQ" node="1th2JjMn4te" resolve="Phrase" />
     <node concept="1TJgyj" id="6h$l2DKQPk5" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />

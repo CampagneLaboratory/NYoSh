@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="-1" />
+    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -12,9 +13,9 @@
     <import index="lcm8" ref="r:19e666fd-ce33-4549-bbc2-aa106ce25584(org.campagnelab.gobyweb.interactive.behavior)" />
     <import index="6llb" ref="r:8750ca3b-69d3-462f-a344-0d90d0dcd74b(org.campagnelab.bio.species.structure)" />
     <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
     <import index="viyf" ref="r:7c3ccd3b-86e2-4986-8fec-385df969d157(org.campagnelab.gobyweb.interactive.genomes.structure)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -87,9 +88,6 @@
       </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
         <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
-      </concept>
-      <concept id="6329021646629175143" name="jetbrains.mps.baseLanguage.structure.StatementCommentPart" flags="nn" index="3SKWN0">
-        <child id="6329021646629175144" name="commentedStatement" index="3SKWNf" />
       </concept>
     </language>
     <language id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints">
@@ -166,9 +164,17 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
+        <property id="709746936026609031" name="linkId" index="3V$3ak" />
+        <property id="709746936026609029" name="linkRole" index="3V$3am" />
+      </concept>
+      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
+        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -223,7 +229,7 @@
                   <property role="Xl_RC" value="GENOME_REFERENCE_ID" />
                 </node>
                 <node concept="liA8E" id="6K40ojJ7M4x" role="2OqNvi">
-                  <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                   <node concept="2OqwBi" id="6K40ojJ7Hcu" role="37wK5m">
                     <node concept="2OqwBi" id="6K40ojJ7GpD" role="2Oq$k0">
                       <node concept="Jnkvi" id="6K40ojJ7GhH" role="2Oq$k0">
@@ -336,7 +342,7 @@
                               </node>
                             </node>
                             <node concept="liA8E" id="4Ddxo9zW4x" role="2OqNvi">
-                              <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                               <node concept="Xl_RD" id="4Ddxo9zWJI" role="37wK5m">
                                 <property role="Xl_RC" value="ORGANISM" />
                               </node>
@@ -365,7 +371,7 @@
                             </node>
                           </node>
                           <node concept="liA8E" id="4Ddxo9$m9Q" role="2OqNvi">
-                            <ref role="37wK5l" to="e2lb:~String.intern():java.lang.String" resolve="intern" />
+                            <ref role="37wK5l" to="wyt6:~String.intern():java.lang.String" resolve="intern" />
                           </node>
                         </node>
                       </node>
@@ -482,31 +488,31 @@
             </node>
           </node>
           <node concept="3clFbH" id="4Ddxo9vLvy" role="3cqZAp" />
-          <node concept="3SKdUt" id="4Ddxo9qvZV" role="3cqZAp">
-            <node concept="3SKWN0" id="4Ddxo9qvZW" role="3SKWNk">
-              <node concept="1gVbGN" id="4Ddxo9nPdN" role="3SKWNf">
-                <node concept="2OqwBi" id="4Ddxo9nPBB" role="1gVkn0">
-                  <node concept="37vLTw" id="4Ddxo9nPlD" role="2Oq$k0">
-                    <ref role="3cqZAo" node="4Ddxo9nLvI" resolve="organismSets" />
-                  </node>
-                  <node concept="3GX2aA" id="4Ddxo9nQqr" role="2OqNvi" />
+          <node concept="1X3_iC" id="16pFkr3wJw6" role="lGtFl">
+            <property role="3V$3am" value="statement" />
+            <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+            <node concept="1gVbGN" id="4Ddxo9nPdN" role="8Wnug">
+              <node concept="2OqwBi" id="4Ddxo9nPBB" role="1gVkn0">
+                <node concept="37vLTw" id="4Ddxo9nPlD" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4Ddxo9nLvI" resolve="organismSets" />
                 </node>
+                <node concept="3GX2aA" id="4Ddxo9nQqr" role="2OqNvi" />
               </node>
             </node>
           </node>
-          <node concept="3SKdUt" id="4Ddxo9scb0" role="3cqZAp">
-            <node concept="3SKWN0" id="4Ddxo9scb1" role="3SKWNk">
-              <node concept="3clFbF" id="4Ddxo9pYE6" role="3SKWNf">
-                <node concept="2YIFZM" id="4Ddxo9q0ff" role="3clFbG">
-                  <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
-                  <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
-                  <node concept="2OqwBi" id="4Ddxo9q3Fe" role="37wK5m">
-                    <node concept="37vLTw" id="4Ddxo9q1KU" role="2Oq$k0">
-                      <ref role="3cqZAo" node="4Ddxo9nLvI" resolve="organismSets" />
-                    </node>
-                    <node concept="13MTOL" id="4Ddxo9q6OJ" role="2OqNvi">
-                      <ref role="13MTZf" to="6llb:2c$PAgEvmed" />
-                    </node>
+          <node concept="1X3_iC" id="16pFkr3wJw7" role="lGtFl">
+            <property role="3V$3am" value="statement" />
+            <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+            <node concept="3clFbF" id="4Ddxo9pYE6" role="8Wnug">
+              <node concept="2YIFZM" id="4Ddxo9q0ff" role="3clFbG">
+                <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+                <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
+                <node concept="2OqwBi" id="4Ddxo9q3Fe" role="37wK5m">
+                  <node concept="37vLTw" id="4Ddxo9q1KU" role="2Oq$k0">
+                    <ref role="3cqZAo" node="4Ddxo9nLvI" resolve="organismSets" />
+                  </node>
+                  <node concept="13MTOL" id="4Ddxo9q6OJ" role="2OqNvi">
+                    <ref role="13MTZf" to="6llb:2c$PAgEvmed" />
                   </node>
                 </node>
               </node>
@@ -577,34 +583,34 @@
               </node>
             </node>
           </node>
-          <node concept="3SKdUt" id="4Ddxo9vlcb" role="3cqZAp">
-            <node concept="3SKWN0" id="4Ddxo9vlcc" role="3SKWNk">
-              <node concept="3clFbF" id="4Ddxo9ux2B" role="3SKWNf">
-                <node concept="2YIFZM" id="4Ddxo9uyWO" role="3clFbG">
-                  <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
-                  <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
-                  <node concept="2OqwBi" id="4Ddxo9uA60" role="37wK5m">
-                    <node concept="37vLTw" id="4Ddxo9u$uH" role="2Oq$k0">
-                      <ref role="3cqZAo" node="4Ddxo9nLvI" resolve="organismSets" />
-                    </node>
-                    <node concept="3goQfb" id="4Ddxo9uBsq" role="2OqNvi">
-                      <node concept="1bVj0M" id="4Ddxo9uBss" role="23t8la">
-                        <node concept="3clFbS" id="4Ddxo9uBst" role="1bW5cS">
-                          <node concept="3clFbF" id="4Ddxo9uDEn" role="3cqZAp">
-                            <node concept="2OqwBi" id="4Ddxo9uEKA" role="3clFbG">
-                              <node concept="37vLTw" id="4Ddxo9uDEm" role="2Oq$k0">
-                                <ref role="3cqZAo" node="4Ddxo9uBsu" resolve="it" />
-                              </node>
-                              <node concept="3Tsc0h" id="4Ddxo9uH1b" role="2OqNvi">
-                                <ref role="3TtcxE" to="6llb:2c$PAgEvmed" />
-                              </node>
+          <node concept="1X3_iC" id="16pFkr3wJw8" role="lGtFl">
+            <property role="3V$3am" value="statement" />
+            <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+            <node concept="3clFbF" id="4Ddxo9ux2B" role="8Wnug">
+              <node concept="2YIFZM" id="4Ddxo9uyWO" role="3clFbG">
+                <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
+                <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+                <node concept="2OqwBi" id="4Ddxo9uA60" role="37wK5m">
+                  <node concept="37vLTw" id="4Ddxo9u$uH" role="2Oq$k0">
+                    <ref role="3cqZAo" node="4Ddxo9nLvI" resolve="organismSets" />
+                  </node>
+                  <node concept="3goQfb" id="4Ddxo9uBsq" role="2OqNvi">
+                    <node concept="1bVj0M" id="4Ddxo9uBss" role="23t8la">
+                      <node concept="3clFbS" id="4Ddxo9uBst" role="1bW5cS">
+                        <node concept="3clFbF" id="4Ddxo9uDEn" role="3cqZAp">
+                          <node concept="2OqwBi" id="4Ddxo9uEKA" role="3clFbG">
+                            <node concept="37vLTw" id="4Ddxo9uDEm" role="2Oq$k0">
+                              <ref role="3cqZAo" node="4Ddxo9uBsu" resolve="it" />
+                            </node>
+                            <node concept="3Tsc0h" id="4Ddxo9uH1b" role="2OqNvi">
+                              <ref role="3TtcxE" to="6llb:2c$PAgEvmed" />
                             </node>
                           </node>
                         </node>
-                        <node concept="Rh6nW" id="4Ddxo9uBsu" role="1bW2Oz">
-                          <property role="TrG5h" value="it" />
-                          <node concept="2jxLKc" id="4Ddxo9uBsv" role="1tU5fm" />
-                        </node>
+                      </node>
+                      <node concept="Rh6nW" id="4Ddxo9uBsu" role="1bW2Oz">
+                        <property role="TrG5h" value="it" />
+                        <node concept="2jxLKc" id="4Ddxo9uBsv" role="1tU5fm" />
                       </node>
                     </node>
                   </node>

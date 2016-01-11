@@ -63,10 +63,13 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
+        <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
+      </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
       <concept id="1171323947159" name="jetbrains.mps.lang.smodel.structure.Model_NodesOperation" flags="nn" index="2SmgA7">
-        <reference id="1171323947160" name="concept" index="2SmgA8" />
+        <child id="1758937410080001570" name="conceptArgument" index="1dBWTz" />
       </concept>
       <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
         <reference id="1138056546658" name="link" index="3TtcxE" />
@@ -107,7 +110,9 @@
                 <node concept="I4A8Y" id="4XFzv63qPf7" role="2OqNvi" />
               </node>
               <node concept="2SmgA7" id="4XFzv63qQsb" role="2OqNvi">
-                <ref role="2SmgA8" to="6pk0:2Ka1amZgXT0" resolve="EnvironmentSourceList" />
+                <node concept="chp4Y" id="16pFkr3wTPk" role="1dBWTz">
+                  <ref role="cht4Q" to="6pk0:2Ka1amZgXT0" resolve="EnvironmentSourceList" />
+                </node>
               </node>
             </node>
             <node concept="2es0OD" id="4XFzv63r6nE" role="2OqNvi">

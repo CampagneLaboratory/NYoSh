@@ -2,7 +2,7 @@
 <model ref="r:70790e11-3fe8-4ada-b9dd-391c2c690781(org.campagnelab.nyosh.functions.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -14,6 +14,7 @@
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
+        <property id="1587916991969465369" name="conceptId" index="1pbfSe" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
       </concept>
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
@@ -45,6 +46,7 @@
     <property role="TrG5h" value="ConceptFunction_ProcessExceptionBlock" />
     <property role="34LRSv" value="exception handler" />
     <property role="R4oN_" value="Handles exception" />
+    <property role="1pbfSe" value="38260023" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
   </node>
   <node concept="1TIwiD" id="6_HhEAkiIKx">
@@ -53,6 +55,7 @@
     <property role="34LRSv" value="success handler" />
     <property role="R4oN_" value="Handles success" />
     <property role="19KtqR" value="true" />
+    <property role="1pbfSe" value="38260022" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
   </node>
   <node concept="1TIwiD" id="6_HhEAkiNVG">
@@ -60,6 +63,7 @@
     <property role="TrG5h" value="ConceptFunctionParam_ActionDescription" />
     <property role="34LRSv" value="actionDescription" />
     <property role="R4oN_" value="The step reason the exception may have occured" />
+    <property role="1pbfSe" value="38238827" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
     <node concept="PrWs8" id="6_HhEAkiNVH" role="PzmwI">
       <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
@@ -70,6 +74,7 @@
     <property role="TrG5h" value="ConceptFunctionParam_StatusCode" />
     <property role="34LRSv" value="statusCode" />
     <property role="R4oN_" value="The process return status code that triggered the exception" />
+    <property role="1pbfSe" value="38238825" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
     <node concept="PrWs8" id="6_HhEAkiNVJ" role="PzmwI">
       <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
@@ -79,6 +84,7 @@
     <property role="3GE5qa" value="errors" />
     <property role="TrG5h" value="ConceptFunctionParameter_Exception" />
     <property role="34LRSv" value="exception" />
+    <property role="1pbfSe" value="38238823" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
     <node concept="PrWs8" id="6_HhEAkiNVL" role="PzmwI">
       <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
@@ -88,6 +94,7 @@
     <property role="TrG5h" value="ConceptFunctionParameter_Success_Reason" />
     <property role="34LRSv" value="actionDescription" />
     <property role="R4oN_" value="the step description or reason the exception may have occured" />
+    <property role="1pbfSe" value="38219538" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
     <node concept="PrWs8" id="6_HhEAkiSD6" role="PzmwI">
       <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
@@ -98,6 +105,7 @@
     <property role="34LRSv" value="arguments" />
     <property role="R4oN_" value="Arguments parsed with the entry point parser" />
     <property role="3GE5qa" value="consumeOutput" />
+    <property role="1pbfSe" value="38199443" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
     <node concept="1TJgyj" id="6_HhEAkiXz5" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -114,6 +122,7 @@
     <property role="R4oN_" value="output from the previous command" />
     <property role="34LRSv" value="reader" />
     <property role="3GE5qa" value="consumeOutput" />
+    <property role="1pbfSe" value="38199440" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
     <node concept="PrWs8" id="6_HhEAkiXz8" role="PzmwI">
       <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
@@ -124,6 +133,7 @@
     <property role="R4oN_" value="output from the previous command" />
     <property role="34LRSv" value="stream" />
     <property role="3GE5qa" value="consumeOutput" />
+    <property role="1pbfSe" value="38199438" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
     <node concept="PrWs8" id="6_HhEAkiXza" role="PzmwI">
       <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
@@ -134,6 +144,7 @@
     <property role="R4oN_" value="consume reader from previous command" />
     <property role="34LRSv" value="get reader" />
     <property role="3GE5qa" value="consumeOutput" />
+    <property role="1pbfSe" value="38199436" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
   </node>
   <node concept="1TIwiD" id="6_HhEAkiXzc">
@@ -141,11 +152,13 @@
     <property role="R4oN_" value="consume stream from previous command" />
     <property role="34LRSv" value="get stream" />
     <property role="3GE5qa" value="consumeOutput" />
+    <property role="1pbfSe" value="38199435" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
   </node>
   <node concept="1TIwiD" id="6_HhEAkma8K">
     <property role="TrG5h" value="ConceptFunction_EntryPoint" />
     <property role="3GE5qa" value="consumeOutput" />
+    <property role="1pbfSe" value="37361447" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
     <node concept="1TJgyj" id="6_HhEAkma8L" role="1TKVEi">
       <property role="20lmBu" value="reference" />

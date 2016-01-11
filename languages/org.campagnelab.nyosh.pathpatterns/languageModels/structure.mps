@@ -2,7 +2,7 @@
 <model ref="r:eb1d368a-5e85-4af8-8740-90a6516e7dd4(org.campagnelab.nyosh.pathpatterns.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -16,6 +16,7 @@
         <property id="4628067390765956807" name="final" index="R5$K2" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
+        <property id="1587916991969465369" name="conceptId" index="1pbfSe" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
       </concept>
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
@@ -41,6 +42,7 @@
   <node concept="1TIwiD" id="W1qWQASY8H">
     <property role="TrG5h" value="Path" />
     <property role="34LRSv" value="paths" />
+    <property role="1pbfSe" value="1243263494" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="1TJgyj" id="3AzIQbgFpvQ" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -62,6 +64,7 @@
     <property role="TrG5h" value="Pattern" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
+    <property role="1pbfSe" value="2039059618" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="19Bf7XBfkaO" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -75,15 +78,18 @@
   </node>
   <node concept="1TIwiD" id="19Bf7XB8_wI">
     <property role="TrG5h" value="IncludePattern" />
+    <property role="1pbfSe" value="2039059629" />
     <ref role="1TJDcQ" node="19Bf7XB8_wz" resolve="Pattern" />
   </node>
   <node concept="1TIwiD" id="19Bf7XB8BDW">
     <property role="TrG5h" value="ExcludePattern" />
+    <property role="1pbfSe" value="2039068411" />
     <ref role="1TJDcQ" node="19Bf7XB8_wz" resolve="Pattern" />
   </node>
   <node concept="1TIwiD" id="19Bf7XBprn$">
     <property role="TrG5h" value="ExcludeList" />
     <property role="34LRSv" value="exclude" />
+    <property role="1pbfSe" value="2043474531" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="19Bf7XBprnQ" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -95,6 +101,7 @@
   <node concept="1TIwiD" id="19Bf7XC0h58">
     <property role="TrG5h" value="PathArray" />
     <property role="34LRSv" value="path-array" />
+    <property role="1pbfSe" value="2053656007" />
     <ref role="1TJDcQ" node="W1qWQASY8H" resolve="Path" />
   </node>
 </model>

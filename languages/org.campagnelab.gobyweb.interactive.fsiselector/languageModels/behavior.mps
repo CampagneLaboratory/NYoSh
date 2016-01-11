@@ -3,8 +3,8 @@
   <persistence version="9" />
   <languages>
     <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="-1" />
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="-1" />
     <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="-1" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -14,7 +14,7 @@
     <import index="935h" ref="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)" />
     <import index="dzk5" ref="r:2bfcc546-5c51-4762-9df2-c43920be4458(org.campagnelab.gobyweb.plugins.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
-    <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -332,7 +332,7 @@
                             </node>
                           </node>
                           <node concept="liA8E" id="7rbzTcqH_AJ" role="2OqNvi">
-                            <ref role="37wK5l" to="e2lb:~String.equalsIgnoreCase(java.lang.String):boolean" resolve="equalsIgnoreCase" />
+                            <ref role="37wK5l" to="wyt6:~String.equalsIgnoreCase(java.lang.String):boolean" resolve="equalsIgnoreCase" />
                             <node concept="37vLTw" id="7rbzTcqH_AK" role="37wK5m">
                               <ref role="3cqZAo" node="7rbzTcqOIPk" resolve="type" />
                             </node>
@@ -348,7 +348,7 @@
                             </node>
                           </node>
                           <node concept="liA8E" id="7rbzTcqH_AP" role="2OqNvi">
-                            <ref role="37wK5l" to="e2lb:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                            <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
                             <node concept="37vLTw" id="7rbzTcqH_AQ" role="37wK5m">
                               <ref role="3cqZAo" node="7rbzTcqH__P" resolve="query" />
                             </node>
@@ -737,7 +737,7 @@
                             </node>
                           </node>
                           <node concept="liA8E" id="7rbzTcqH$hb" role="2OqNvi">
-                            <ref role="37wK5l" to="e2lb:~String.equalsIgnoreCase(java.lang.String):boolean" resolve="equalsIgnoreCase" />
+                            <ref role="37wK5l" to="wyt6:~String.equalsIgnoreCase(java.lang.String):boolean" resolve="equalsIgnoreCase" />
                             <node concept="37vLTw" id="7rbzTcqH$hc" role="37wK5m">
                               <ref role="3cqZAo" node="7rbzTcqH$gA" resolve="type" />
                             </node>
@@ -753,7 +753,7 @@
                             </node>
                           </node>
                           <node concept="liA8E" id="7rbzTcqH$hh" role="2OqNvi">
-                            <ref role="37wK5l" to="e2lb:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                            <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
                             <node concept="37vLTw" id="7rbzTcqH$hi" role="37wK5m">
                               <ref role="3cqZAo" node="7rbzTcqH$gh" resolve="query" />
                             </node>
@@ -1173,7 +1173,7 @@
                                 </node>
                               </node>
                               <node concept="liA8E" id="7rbzTcqPexb" role="2OqNvi">
-                                <ref role="37wK5l" to="e2lb:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                                <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
                                 <node concept="2OqwBi" id="7rbzTcqPfiL" role="37wK5m">
                                   <node concept="13iPFW" id="7rbzTcqPf3G" role="2Oq$k0" />
                                   <node concept="3TrcHB" id="7rbzTcqPgcE" role="2OqNvi">
@@ -1194,7 +1194,7 @@
                             </node>
                           </node>
                           <node concept="liA8E" id="7rbzTcqP8jU" role="2OqNvi">
-                            <ref role="37wK5l" to="e2lb:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                            <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
                             <node concept="37vLTw" id="7rbzTcqP8jV" role="37wK5m">
                               <ref role="3cqZAo" node="7rbzTcqIO8f" resolve="query" />
                             </node>

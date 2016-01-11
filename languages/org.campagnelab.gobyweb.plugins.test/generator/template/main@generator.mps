@@ -7,8 +7,8 @@
     <use id="489e31af-0445-4cbf-894b-a4bab1f18426" name="org.campagnelab.gobyweb.plugins.test" version="-1" />
     <use id="901f5cf3-dc77-4c1e-bc5a-6382baee28b4" name="org.campagnelab.textoutput" version="-1" />
     <use id="0202ed86-955d-4227-9c20-377dd6b1f9ff" name="org.campagnelab.nyosh.lib" version="-1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="1" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
     <generationPart ref="0202ed86-955d-4227-9c20-377dd6b1f9ff(org.campagnelab.nyosh.lib)" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -19,17 +19,17 @@
     <import index="lcm8" ref="r:19e666fd-ce33-4549-bbc2-aa106ce25584(org.campagnelab.gobyweb.interactive.behavior)" />
     <import index="9k5" ref="r:df9645c2-d2fa-41cb-a718-044a287b0626(org.campagnelab.clusterConfig.structure)" />
     <import index="czzw" ref="r:2151664b-13bc-4072-a76b-815bb37c415e(org.campagnelab.gobyweb.interactive.users.structure)" />
-    <import index="s3ut" ref="f:java_stub#0202ed86-955d-4227-9c20-377dd6b1f9ff#org.campagnelab.mercury.messages(org.campagnelab.nyosh.lib/org.campagnelab.mercury.messages@java_stub)" />
-    <import index="fxg7" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
-    <import index="qjxg" ref="f:java_stub#83f155ff-422c-4b5a-a2f2-b459302dd215#org.junit(jetbrains.mps.baseLanguage.unitTest.libs/org.junit@java_stub)" />
+    <import index="gcvk" ref="0202ed86-955d-4227-9c20-377dd6b1f9ff/java:org.campagnelab.mercury.messages(org.campagnelab.nyosh.lib/)" />
+    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
+    <import index="rjhg" ref="83f155ff-422c-4b5a-a2f2-b459302dd215/java:org.junit(jetbrains.mps.baseLanguage.unitTest.libs/)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
-    <import index="pbfx" ref="f:java_stub#489e31af-0445-4cbf-894b-a4bab1f18426#org.campagnelab.gobyweb.plugins.runner(org.campagnelab.gobyweb.plugins.test/org.campagnelab.gobyweb.plugins.runner@java_stub)" />
-    <import index="u67u" ref="f:java_stub#83f155ff-422c-4b5a-a2f2-b459302dd215#org.junit.runner(jetbrains.mps.baseLanguage.unitTest.libs/org.junit.runner@java_stub)" />
-    <import index="ynoo" ref="f:java_stub#0202ed86-955d-4227-9c20-377dd6b1f9ff#edu.cornell.med.icb.util(org.campagnelab.nyosh.lib/edu.cornell.med.icb.util@java_stub)" />
-    <import index="aj7d" ref="f:java_stub#83f155ff-422c-4b5a-a2f2-b459302dd215#org.junit.runners(jetbrains.mps.baseLanguage.unitTest.libs/org.junit.runners@java_stub)" />
+    <import index="4n5s" ref="489e31af-0445-4cbf-894b-a4bab1f18426/java:org.campagnelab.gobyweb.plugins.runner(org.campagnelab.gobyweb.plugins.test/)" />
+    <import index="cvlm" ref="83f155ff-422c-4b5a-a2f2-b459302dd215/java:org.junit.runner(jetbrains.mps.baseLanguage.unitTest.libs/)" />
+    <import index="nifn" ref="0202ed86-955d-4227-9c20-377dd6b1f9ff/java:edu.cornell.med.icb.util(org.campagnelab.nyosh.lib/)" />
+    <import index="bbnd" ref="83f155ff-422c-4b5a-a2f2-b459302dd215/java:org.junit.runners(jetbrains.mps.baseLanguage.unitTest.libs/)" />
     <import index="p6sl" ref="r:175e6779-7e81-49b1-b295-33bbabafa8d6(org.campagnelab.textoutput.structure)" />
-    <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -1531,11 +1531,11 @@
                     <node concept="3cpWsn" id="7e0azMtoBF4" role="3cpWs9">
                       <property role="TrG5h" value="builder" />
                       <node concept="3uibUv" id="7e0azMtoBF5" role="1tU5fm">
-                        <ref role="3uigEE" to="e2lb:~StringBuilder" resolve="StringBuilder" />
+                        <ref role="3uigEE" to="wyt6:~StringBuilder" resolve="StringBuilder" />
                       </node>
                       <node concept="2ShNRf" id="7e0azMtoBF6" role="33vP2m">
                         <node concept="1pGfFk" id="7e0azMtoBF7" role="2ShVmc">
-                          <ref role="37wK5l" to="e2lb:~StringBuilder.&lt;init&gt;()" resolve="StringBuilder" />
+                          <ref role="37wK5l" to="wyt6:~StringBuilder.&lt;init&gt;()" resolve="StringBuilder" />
                         </node>
                       </node>
                     </node>
@@ -1558,14 +1558,14 @@
                               <ref role="3cqZAo" node="7e0azMtoBF4" resolve="builder" />
                             </node>
                             <node concept="liA8E" id="7e0azMtoBFi" role="2OqNvi">
-                              <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
+                              <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                               <node concept="2GrUjf" id="7e0azMtoBFj" role="37wK5m">
                                 <ref role="2Gs0qQ" node="7e0azMtoBF9" resolve="arg" />
                               </node>
                             </node>
                           </node>
                           <node concept="liA8E" id="7e0azMtoBFk" role="2OqNvi">
-                            <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
+                            <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                             <node concept="Xl_RD" id="7e0azMtoBFl" role="37wK5m">
                               <property role="Xl_RC" value=" " />
                             </node>
@@ -1580,7 +1580,7 @@
                         <ref role="3cqZAo" node="7e0azMtoBF4" resolve="builder" />
                       </node>
                       <node concept="liA8E" id="7e0azMtoBFp" role="2OqNvi">
-                        <ref role="37wK5l" to="e2lb:~StringBuilder.toString():java.lang.String" resolve="toString" />
+                        <ref role="37wK5l" to="wyt6:~StringBuilder.toString():java.lang.String" resolve="toString" />
                       </node>
                     </node>
                   </node>
@@ -1705,7 +1705,7 @@
                             </node>
                           </node>
                           <node concept="liA8E" id="6MzP98ruhui" role="2OqNvi">
-                            <ref role="37wK5l" to="e2lb:~String.charAt(int):char" resolve="charAt" />
+                            <ref role="37wK5l" to="wyt6:~String.charAt(int):char" resolve="charAt" />
                             <node concept="3cmrfG" id="6MzP98ruhuj" role="37wK5m">
                               <property role="3cmrfH" value="0" />
                             </node>
@@ -1789,8 +1789,8 @@
               <node concept="3clFbS" id="6MzP98rt2gf" role="2VODD2">
                 <node concept="3clFbF" id="6MzP98rt2gg" role="3cqZAp">
                   <node concept="2YIFZM" id="6MzP98rt2gh" role="3clFbG">
-                    <ref role="37wK5l" to="ynoo:~ICBStringUtils.generateRandomString(int):java.lang.String" resolve="generateRandomString" />
-                    <ref role="1Pybhc" to="ynoo:~ICBStringUtils" resolve="ICBStringUtils" />
+                    <ref role="37wK5l" to="nifn:~ICBStringUtils.generateRandomString(int):java.lang.String" resolve="generateRandomString" />
+                    <ref role="1Pybhc" to="nifn:~ICBStringUtils" resolve="ICBStringUtils" />
                     <node concept="3cmrfG" id="6MzP98rt2gi" role="37wK5m">
                       <property role="3cmrfH" value="7" />
                     </node>
@@ -1929,11 +1929,11 @@
                   <node concept="3cpWsn" id="7e0azMtoAvd" role="3cpWs9">
                     <property role="TrG5h" value="builder" />
                     <node concept="3uibUv" id="7e0azMtoAve" role="1tU5fm">
-                      <ref role="3uigEE" to="e2lb:~StringBuilder" resolve="StringBuilder" />
+                      <ref role="3uigEE" to="wyt6:~StringBuilder" resolve="StringBuilder" />
                     </node>
                     <node concept="2ShNRf" id="7e0azMtoAvf" role="33vP2m">
                       <node concept="1pGfFk" id="7e0azMtoAvg" role="2ShVmc">
-                        <ref role="37wK5l" to="e2lb:~StringBuilder.&lt;init&gt;()" resolve="StringBuilder" />
+                        <ref role="37wK5l" to="wyt6:~StringBuilder.&lt;init&gt;()" resolve="StringBuilder" />
                       </node>
                     </node>
                   </node>
@@ -1956,14 +1956,14 @@
                             <ref role="3cqZAo" node="7e0azMtoAvd" resolve="builder" />
                           </node>
                           <node concept="liA8E" id="7e0azMtoAvr" role="2OqNvi">
-                            <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
+                            <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                             <node concept="2GrUjf" id="7e0azMtoAvs" role="37wK5m">
                               <ref role="2Gs0qQ" node="7e0azMtoAvi" resolve="arg" />
                             </node>
                           </node>
                         </node>
                         <node concept="liA8E" id="7e0azMtoAvt" role="2OqNvi">
-                          <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
+                          <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                           <node concept="Xl_RD" id="7e0azMtoAvu" role="37wK5m">
                             <property role="Xl_RC" value=" " />
                           </node>
@@ -1978,7 +1978,7 @@
                       <ref role="3cqZAo" node="7e0azMtoAvd" resolve="builder" />
                     </node>
                     <node concept="liA8E" id="7e0azMtoAvy" role="2OqNvi">
-                      <ref role="37wK5l" to="e2lb:~StringBuilder.toString():java.lang.String" resolve="toString" />
+                      <ref role="37wK5l" to="wyt6:~StringBuilder.toString():java.lang.String" resolve="toString" />
                     </node>
                   </node>
                 </node>
@@ -2086,7 +2086,7 @@
                           <node concept="30H73N" id="6MzP98rvqdl" role="2Oq$k0" />
                         </node>
                         <node concept="liA8E" id="6MzP98rtb1R" role="2OqNvi">
-                          <ref role="37wK5l" to="e2lb:~String.charAt(int):char" resolve="charAt" />
+                          <ref role="37wK5l" to="wyt6:~String.charAt(int):char" resolve="charAt" />
                           <node concept="3cmrfG" id="6MzP98rtb1S" role="37wK5m">
                             <property role="3cmrfH" value="0" />
                           </node>
@@ -2125,11 +2125,11 @@
                   <node concept="3cpWsn" id="6MzP98rz3EW" role="3cpWs9">
                     <property role="TrG5h" value="builder" />
                     <node concept="3uibUv" id="6MzP98rz3EX" role="1tU5fm">
-                      <ref role="3uigEE" to="e2lb:~StringBuilder" resolve="StringBuilder" />
+                      <ref role="3uigEE" to="wyt6:~StringBuilder" resolve="StringBuilder" />
                     </node>
                     <node concept="2ShNRf" id="6MzP98rz4ut" role="33vP2m">
                       <node concept="1pGfFk" id="6MzP98rz4Tr" role="2ShVmc">
-                        <ref role="37wK5l" to="e2lb:~StringBuilder.&lt;init&gt;()" resolve="StringBuilder" />
+                        <ref role="37wK5l" to="wyt6:~StringBuilder.&lt;init&gt;()" resolve="StringBuilder" />
                       </node>
                     </node>
                   </node>
@@ -2152,7 +2152,7 @@
                             <ref role="3cqZAo" node="6MzP98rz3EW" resolve="builder" />
                           </node>
                           <node concept="liA8E" id="6MzP98rzcGM" role="2OqNvi">
-                            <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
+                            <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                             <node concept="2OqwBi" id="7e0azMsToPu" role="37wK5m">
                               <node concept="2OqwBi" id="6MzP98rznPQ" role="2Oq$k0">
                                 <node concept="2GrUjf" id="6MzP98rzcZ3" role="2Oq$k0">
@@ -2169,7 +2169,7 @@
                           </node>
                         </node>
                         <node concept="liA8E" id="6MzP98rzziZ" role="2OqNvi">
-                          <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
+                          <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                           <node concept="Xl_RD" id="6MzP98rzzBB" role="37wK5m">
                             <property role="Xl_RC" value="," />
                           </node>
@@ -2187,7 +2187,7 @@
                         <ref role="3cqZAo" node="6MzP98rz3EW" resolve="builder" />
                       </node>
                       <node concept="liA8E" id="6MzP98rzLlG" role="2OqNvi">
-                        <ref role="37wK5l" to="e2lb:~StringBuilder.toString():java.lang.String" resolve="toString" />
+                        <ref role="37wK5l" to="wyt6:~StringBuilder.toString():java.lang.String" resolve="toString" />
                       </node>
                     </node>
                   </node>
@@ -2198,7 +2198,7 @@
                       <ref role="3cqZAo" node="6MzP98rzHOS" resolve="tags" />
                     </node>
                     <node concept="liA8E" id="6MzP98rzQA0" role="2OqNvi">
-                      <ref role="37wK5l" to="e2lb:~String.substring(int,int):java.lang.String" resolve="substring" />
+                      <ref role="37wK5l" to="wyt6:~String.substring(int,int):java.lang.String" resolve="substring" />
                       <node concept="3cmrfG" id="6MzP98rzQYk" role="37wK5m">
                         <property role="3cmrfH" value="0" />
                       </node>
@@ -2211,7 +2211,7 @@
                             <ref role="3cqZAo" node="6MzP98rzHOS" resolve="tags" />
                           </node>
                           <node concept="liA8E" id="6MzP98rzVdZ" role="2OqNvi">
-                            <ref role="37wK5l" to="e2lb:~String.length():int" resolve="length" />
+                            <ref role="37wK5l" to="wyt6:~String.length():int" resolve="length" />
                           </node>
                         </node>
                       </node>
@@ -2868,15 +2868,15 @@
       <property role="3TUv4t" value="false" />
       <node concept="3Tm1VV" id="1lQckSazWRi" role="1B3o_S" />
       <node concept="3uibUv" id="1lQckSazXUu" role="1tU5fm">
-        <ref role="3uigEE" to="s3ut:~JobMessageList" resolve="JobMessageList" />
+        <ref role="3uigEE" to="gcvk:~JobMessageList" resolve="JobMessageList" />
       </node>
       <node concept="2ShNRf" id="1lQckSazYQ8" role="33vP2m">
         <node concept="1pGfFk" id="1lQckSazZky" role="2ShVmc">
-          <ref role="37wK5l" to="s3ut:~JobMessageList.&lt;init&gt;()" resolve="JobMessageList" />
+          <ref role="37wK5l" to="gcvk:~JobMessageList.&lt;init&gt;()" resolve="JobMessageList" />
         </node>
       </node>
       <node concept="2AHcQZ" id="7C58QrKetiy" role="2AJF6D">
-        <ref role="2AI5Lk" to="pbfx:~JobMessages" resolve="JobMessages" />
+        <ref role="2AI5Lk" to="4n5s:~JobMessages" resolve="JobMessages" />
       </node>
     </node>
     <node concept="n94m4" id="h3sA56N" role="lGtFl">
@@ -2909,18 +2909,18 @@
     </node>
     <node concept="3Tm1VV" id="h9B3WBN" role="1B3o_S" />
     <node concept="2AHcQZ" id="1lQckSaz$IJ" role="2AJF6D">
-      <ref role="2AI5Lk" to="u67u:~RunWith" resolve="RunWith" />
+      <ref role="2AI5Lk" to="cvlm:~RunWith" resolve="RunWith" />
       <node concept="1SXeKx" id="1lQckSazLgx" role="2B76xF">
-        <ref role="2B6OnR" to="u67u:~RunWith.value()" resolve="value" />
+        <ref role="2B6OnR" to="cvlm:~RunWith.value()" resolve="value" />
         <node concept="3VsKOn" id="1lQckSazLDi" role="2B70Vg">
-          <ref role="3VsUkX" to="pbfx:~GobyWebPluginRunner" resolve="GobyWebPluginRunner" />
+          <ref role="3VsUkX" to="4n5s:~GobyWebPluginRunner" resolve="GobyWebPluginRunner" />
         </node>
       </node>
     </node>
     <node concept="2AHcQZ" id="7THlWl_mJc3" role="2AJF6D">
-      <ref role="2AI5Lk" to="pbfx:~JobData" resolve="JobData" />
+      <ref role="2AI5Lk" to="4n5s:~JobData" resolve="JobData" />
       <node concept="2B6LJw" id="1lQckSazCYg" role="2B76xF">
-        <ref role="2B6OnR" to="pbfx:~JobData.tag()" resolve="tag" />
+        <ref role="2B6OnR" to="4n5s:~JobData.tag()" resolve="tag" />
         <node concept="Xl_RD" id="1lQckSa$K7B" role="2B70Vg">
           <property role="Xl_RC" value="tag" />
           <node concept="17Uvod" id="1lQckSa$K8d" role="lGtFl">
@@ -2956,7 +2956,7 @@
         </node>
       </node>
       <node concept="2B6LJw" id="1lQckSa$JJD" role="2B76xF">
-        <ref role="2B6OnR" to="pbfx:~JobData.broker()" resolve="broker" />
+        <ref role="2B6OnR" to="4n5s:~JobData.broker()" resolve="broker" />
         <node concept="Xl_RD" id="1lQckSa$Kjb" role="2B70Vg">
           <property role="Xl_RC" value="broker" />
           <node concept="17Uvod" id="1lQckSa$KDg" role="lGtFl">
@@ -3012,7 +3012,7 @@
         </node>
       </node>
       <node concept="2B6LJw" id="1lQckSa$JKB" role="2B76xF">
-        <ref role="2B6OnR" to="pbfx:~JobData.port()" resolve="port" />
+        <ref role="2B6OnR" to="4n5s:~JobData.port()" resolve="port" />
         <node concept="3cmrfG" id="1lQckSa$KjG" role="2B70Vg">
           <property role="3cmrfH" value="1" />
           <node concept="17Uvod" id="1lQckSa$Kk0" role="lGtFl">
@@ -3088,7 +3088,7 @@
       <node concept="3Tm1VV" id="1lQckSa_6$T" role="1B3o_S" />
       <node concept="3cqZAl" id="1lQckSa_7tt" role="3clF45" />
       <node concept="2AHcQZ" id="1lQckSa_kkq" role="2AJF6D">
-        <ref role="2AI5Lk" to="qjxg:~Test" resolve="Test" />
+        <ref role="2AI5Lk" to="rjhg:~Test" resolve="Test" />
       </node>
     </node>
     <node concept="2tJIrI" id="1lQckSaCNZY" role="jymVt" />
@@ -3119,15 +3119,15 @@
                         <ref role="3cqZAo" node="1lQckSaCUwd" resolve="message" />
                       </node>
                       <node concept="liA8E" id="iixkmz$kqi" role="2OqNvi">
-                        <ref role="37wK5l" to="s3ut:~JobLogMessageReader.getStatusReader():org.campagnelab.mercury.messages.JobLogMessageReader$StatusReader" resolve="getStatusReader" />
+                        <ref role="37wK5l" to="gcvk:~JobLogMessageReader.getStatusReader():org.campagnelab.mercury.messages.JobLogMessageReader$StatusReader" resolve="getStatusReader" />
                       </node>
                     </node>
                     <node concept="liA8E" id="iixkmz$lLi" role="2OqNvi">
-                      <ref role="37wK5l" to="s3ut:~JobLogMessageReader$StatusReader.getPhase():java.lang.String" resolve="getPhase" />
+                      <ref role="37wK5l" to="gcvk:~JobLogMessageReader$StatusReader.getPhase():java.lang.String" resolve="getPhase" />
                     </node>
                   </node>
                   <node concept="liA8E" id="iixkmz$qgi" role="2OqNvi">
-                    <ref role="37wK5l" to="e2lb:~String.equalsIgnoreCase(java.lang.String):boolean" resolve="equalsIgnoreCase" />
+                    <ref role="37wK5l" to="wyt6:~String.equalsIgnoreCase(java.lang.String):boolean" resolve="equalsIgnoreCase" />
                     <node concept="Xl_RD" id="iixkmz$quB" role="37wK5m">
                       <property role="Xl_RC" value="registered_filesets" />
                     </node>
@@ -3140,7 +3140,7 @@
                         <ref role="3cqZAo" node="1lQckSaCUwd" resolve="message" />
                       </node>
                       <node concept="liA8E" id="iixkmz$cqn" role="2OqNvi">
-                        <ref role="37wK5l" to="s3ut:~JobLogMessageReader.getSlotName():java.lang.String" resolve="getSlotName" />
+                        <ref role="37wK5l" to="gcvk:~JobLogMessageReader.getSlotName():java.lang.String" resolve="getSlotName" />
                       </node>
                     </node>
                     <node concept="10Nm6u" id="iixkmz$cqk" role="3uHU7w" />
@@ -3151,11 +3151,11 @@
                         <ref role="3cqZAo" node="1lQckSaCUwd" resolve="message" />
                       </node>
                       <node concept="liA8E" id="iixkmz$d0K" role="2OqNvi">
-                        <ref role="37wK5l" to="s3ut:~JobLogMessageReader.getSlotName():java.lang.String" resolve="getSlotName" />
+                        <ref role="37wK5l" to="gcvk:~JobLogMessageReader.getSlotName():java.lang.String" resolve="getSlotName" />
                       </node>
                     </node>
                     <node concept="liA8E" id="iixkmz$fnQ" role="2OqNvi">
-                      <ref role="37wK5l" to="e2lb:~String.equalsIgnoreCase(java.lang.String):boolean" resolve="equalsIgnoreCase" />
+                      <ref role="37wK5l" to="wyt6:~String.equalsIgnoreCase(java.lang.String):boolean" resolve="equalsIgnoreCase" />
                       <node concept="37vLTw" id="iixkmz$fqv" role="37wK5m">
                         <ref role="3cqZAo" node="1lQckSaCNkb" resolve="slotName" />
                       </node>
@@ -3168,7 +3168,7 @@
           <node concept="3cpWsn" id="1lQckSaCUwd" role="1Duv9x">
             <property role="TrG5h" value="message" />
             <node concept="3uibUv" id="1lQckSaCVuB" role="1tU5fm">
-              <ref role="3uigEE" to="s3ut:~JobLogMessageReader" resolve="JobLogMessageReader" />
+              <ref role="3uigEE" to="gcvk:~JobLogMessageReader" resolve="JobLogMessageReader" />
             </node>
           </node>
           <node concept="37vLTw" id="1lQckSaCWXo" role="1DdaDG">
@@ -3206,11 +3206,11 @@
                           <ref role="3cqZAo" node="5ETEJCeuS$p" resolve="message" />
                         </node>
                         <node concept="liA8E" id="5ETEJCevfdq" role="2OqNvi">
-                          <ref role="37wK5l" to="s3ut:~JobLogMessageReader.getCategory():java.lang.String" resolve="getCategory" />
+                          <ref role="37wK5l" to="gcvk:~JobLogMessageReader.getCategory():java.lang.String" resolve="getCategory" />
                         </node>
                       </node>
                       <node concept="liA8E" id="4rEm3TU33wK" role="2OqNvi">
-                        <ref role="37wK5l" to="e2lb:~String.equalsIgnoreCase(java.lang.String):boolean" resolve="equalsIgnoreCase" />
+                        <ref role="37wK5l" to="wyt6:~String.equalsIgnoreCase(java.lang.String):boolean" resolve="equalsIgnoreCase" />
                         <node concept="Xl_RD" id="4rEm3TU33wL" role="37wK5m">
                           <property role="Xl_RC" value="FATAL" />
                         </node>
@@ -3222,11 +3222,11 @@
                           <ref role="3cqZAo" node="5ETEJCeuS$p" resolve="message" />
                         </node>
                         <node concept="liA8E" id="5ETEJCevfGe" role="2OqNvi">
-                          <ref role="37wK5l" to="s3ut:~JobLogMessageReader.getCategory():java.lang.String" resolve="getCategory" />
+                          <ref role="37wK5l" to="gcvk:~JobLogMessageReader.getCategory():java.lang.String" resolve="getCategory" />
                         </node>
                       </node>
                       <node concept="liA8E" id="4rEm3TU34kG" role="2OqNvi">
-                        <ref role="37wK5l" to="e2lb:~String.equalsIgnoreCase(java.lang.String):boolean" resolve="equalsIgnoreCase" />
+                        <ref role="37wK5l" to="wyt6:~String.equalsIgnoreCase(java.lang.String):boolean" resolve="equalsIgnoreCase" />
                         <node concept="Xl_RD" id="4rEm3TU34kH" role="37wK5m">
                           <property role="Xl_RC" value="ERROR" />
                         </node>
@@ -3251,15 +3251,15 @@
                       <ref role="3cqZAo" node="5ETEJCeuS$p" resolve="message" />
                     </node>
                     <node concept="liA8E" id="5ETEJCeuS$9" role="2OqNvi">
-                      <ref role="37wK5l" to="s3ut:~JobLogMessageReader.getStatusReader():org.campagnelab.mercury.messages.JobLogMessageReader$StatusReader" resolve="getStatusReader" />
+                      <ref role="37wK5l" to="gcvk:~JobLogMessageReader.getStatusReader():org.campagnelab.mercury.messages.JobLogMessageReader$StatusReader" resolve="getStatusReader" />
                     </node>
                   </node>
                   <node concept="liA8E" id="5ETEJCeuS$a" role="2OqNvi">
-                    <ref role="37wK5l" to="s3ut:~JobLogMessageReader$StatusReader.getPhase():java.lang.String" resolve="getPhase" />
+                    <ref role="37wK5l" to="gcvk:~JobLogMessageReader$StatusReader.getPhase():java.lang.String" resolve="getPhase" />
                   </node>
                 </node>
                 <node concept="liA8E" id="5ETEJCeuS$b" role="2OqNvi">
-                  <ref role="37wK5l" to="e2lb:~String.equalsIgnoreCase(java.lang.String):boolean" resolve="equalsIgnoreCase" />
+                  <ref role="37wK5l" to="wyt6:~String.equalsIgnoreCase(java.lang.String):boolean" resolve="equalsIgnoreCase" />
                   <node concept="Xl_RD" id="5ETEJCeuS$c" role="37wK5m">
                     <property role="Xl_RC" value="done" />
                   </node>
@@ -3270,7 +3270,7 @@
           <node concept="3cpWsn" id="5ETEJCeuS$p" role="1Duv9x">
             <property role="TrG5h" value="message" />
             <node concept="3uibUv" id="5ETEJCeuS$q" role="1tU5fm">
-              <ref role="3uigEE" to="s3ut:~JobLogMessageReader" resolve="JobLogMessageReader" />
+              <ref role="3uigEE" to="gcvk:~JobLogMessageReader" resolve="JobLogMessageReader" />
             </node>
           </node>
           <node concept="37vLTw" id="5ETEJCeuS$y" role="1DdaDG">
@@ -3309,11 +3309,11 @@
                     <ref role="3cqZAo" node="5ETEJCevuVh" resolve="logMessage" />
                   </node>
                   <node concept="liA8E" id="5ETEJCevyCP" role="2OqNvi">
-                    <ref role="37wK5l" to="s3ut:~JobLogMessageReader.getDescription():java.lang.String" resolve="getDescription" />
+                    <ref role="37wK5l" to="gcvk:~JobLogMessageReader.getDescription():java.lang.String" resolve="getDescription" />
                   </node>
                 </node>
                 <node concept="liA8E" id="5ETEJCevAdW" role="2OqNvi">
-                  <ref role="37wK5l" to="e2lb:~String.equalsIgnoreCase(java.lang.String):boolean" resolve="equalsIgnoreCase" />
+                  <ref role="37wK5l" to="wyt6:~String.equalsIgnoreCase(java.lang.String):boolean" resolve="equalsIgnoreCase" />
                   <node concept="37vLTw" id="5ETEJCevAfH" role="37wK5m">
                     <ref role="3cqZAo" node="5ETEJCevqc$" resolve="message" />
                   </node>
@@ -3324,7 +3324,7 @@
           <node concept="3cpWsn" id="5ETEJCevuVh" role="1Duv9x">
             <property role="TrG5h" value="logMessage" />
             <node concept="3uibUv" id="5ETEJCevuVi" role="1tU5fm">
-              <ref role="3uigEE" to="s3ut:~JobLogMessageReader" resolve="JobLogMessageReader" />
+              <ref role="3uigEE" to="gcvk:~JobLogMessageReader" resolve="JobLogMessageReader" />
             </node>
           </node>
           <node concept="37vLTw" id="5ETEJCevuVn" role="1DdaDG">
@@ -3361,11 +3361,11 @@
                       <ref role="3cqZAo" node="5ETEJCexdf9" resolve="logMessage" />
                     </node>
                     <node concept="liA8E" id="5ETEJCexdf6" role="2OqNvi">
-                      <ref role="37wK5l" to="s3ut:~JobLogMessageReader.getCategory():java.lang.String" resolve="getCategory" />
+                      <ref role="37wK5l" to="gcvk:~JobLogMessageReader.getCategory():java.lang.String" resolve="getCategory" />
                     </node>
                   </node>
                   <node concept="liA8E" id="5ETEJCexdf7" role="2OqNvi">
-                    <ref role="37wK5l" to="e2lb:~String.equalsIgnoreCase(java.lang.String):boolean" resolve="equalsIgnoreCase" />
+                    <ref role="37wK5l" to="wyt6:~String.equalsIgnoreCase(java.lang.String):boolean" resolve="equalsIgnoreCase" />
                     <node concept="Xl_RD" id="5ETEJCexmGK" role="37wK5m">
                       <property role="Xl_RC" value="FATAL" />
                     </node>
@@ -3377,11 +3377,11 @@
                       <ref role="3cqZAo" node="5ETEJCexdf9" resolve="logMessage" />
                     </node>
                     <node concept="liA8E" id="5ETEJCex_kq" role="2OqNvi">
-                      <ref role="37wK5l" to="s3ut:~JobLogMessageReader.getCategory():java.lang.String" resolve="getCategory" />
+                      <ref role="37wK5l" to="gcvk:~JobLogMessageReader.getCategory():java.lang.String" resolve="getCategory" />
                     </node>
                   </node>
                   <node concept="liA8E" id="5ETEJCex_kr" role="2OqNvi">
-                    <ref role="37wK5l" to="e2lb:~String.equalsIgnoreCase(java.lang.String):boolean" resolve="equalsIgnoreCase" />
+                    <ref role="37wK5l" to="wyt6:~String.equalsIgnoreCase(java.lang.String):boolean" resolve="equalsIgnoreCase" />
                     <node concept="Xl_RD" id="5ETEJCex_ks" role="37wK5m">
                       <property role="Xl_RC" value="ERROR" />
                     </node>
@@ -3393,7 +3393,7 @@
           <node concept="3cpWsn" id="5ETEJCexdf9" role="1Duv9x">
             <property role="TrG5h" value="logMessage" />
             <node concept="3uibUv" id="5ETEJCexdfa" role="1tU5fm">
-              <ref role="3uigEE" to="s3ut:~JobLogMessageReader" resolve="JobLogMessageReader" />
+              <ref role="3uigEE" to="gcvk:~JobLogMessageReader" resolve="JobLogMessageReader" />
             </node>
           </node>
           <node concept="37vLTw" id="5ETEJCexdff" role="1DdaDG">
@@ -3435,18 +3435,18 @@
     </node>
     <node concept="3Tm1VV" id="AgIvAFjiXl" role="1B3o_S" />
     <node concept="2AHcQZ" id="AgIvAFjiXm" role="2AJF6D">
-      <ref role="2AI5Lk" to="u67u:~RunWith" resolve="RunWith" />
+      <ref role="2AI5Lk" to="cvlm:~RunWith" resolve="RunWith" />
       <node concept="1SXeKx" id="AgIvAFjiXn" role="2B76xF">
-        <ref role="2B6OnR" to="u67u:~RunWith.value()" resolve="value" />
+        <ref role="2B6OnR" to="cvlm:~RunWith.value()" resolve="value" />
         <node concept="3VsKOn" id="AgIvAFlc6s" role="2B70Vg">
-          <ref role="3VsUkX" to="pbfx:~GobyWebPluginSuiteRunner" resolve="GobyWebPluginSuiteRunner" />
+          <ref role="3VsUkX" to="4n5s:~GobyWebPluginSuiteRunner" resolve="GobyWebPluginSuiteRunner" />
         </node>
       </node>
     </node>
     <node concept="2AHcQZ" id="AgIvAFjiXp" role="2AJF6D">
-      <ref role="2AI5Lk" to="pbfx:~GobyWebPluginSuiteRunner$SuiteClassNames" resolve="GobyWebPluginSuiteRunner.SuiteClassNames" />
+      <ref role="2AI5Lk" to="4n5s:~GobyWebPluginSuiteRunner$SuiteClassNames" resolve="GobyWebPluginSuiteRunner.SuiteClassNames" />
       <node concept="1SXeKx" id="7oSWQEQU2v8" role="2B76xF">
-        <ref role="2B6OnR" to="pbfx:~GobyWebPluginSuiteRunner$SuiteClassNames.value()" resolve="value" />
+        <ref role="2B6OnR" to="4n5s:~GobyWebPluginSuiteRunner$SuiteClassNames.value()" resolve="value" />
         <node concept="3_AbJx" id="7oSWQEQUwHw" role="lGtFl">
           <node concept="3_AbJw" id="7oSWQEQUwHx" role="3_A0Ny">
             <node concept="3clFbS" id="7oSWQEQUwHy" role="2VODD2">
@@ -3627,7 +3627,7 @@
                               </node>
                             </node>
                             <node concept="liA8E" id="7e0azMt31rp" role="2OqNvi">
-                              <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                               <node concept="2OqwBi" id="7e0azMt32lg" role="37wK5m">
                                 <node concept="30H73N" id="7e0azMt31N$" role="2Oq$k0" />
                                 <node concept="3TrcHB" id="7e0azMt33cc" role="2OqNvi">

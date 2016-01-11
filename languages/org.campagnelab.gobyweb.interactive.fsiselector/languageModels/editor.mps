@@ -2,16 +2,16 @@
 <model ref="r:66612e4e-705a-45f9-9a0a-d3d831c5d37b(org.campagnelab.gobyweb.interactive.fsiselector.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="-1" />
     <use id="a8fb88b0-7e9f-478c-aab4-a1b076131192" name="org.campagnelab.gobyweb.interactive" version="-1" />
     <use id="c1ba4037-e4db-47d8-8b61-b3c805b648f2" name="org.campagnelab.ui" version="-1" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
     <import index="jcxn" ref="r:7cee66f0-ffc9-4bcb-8565-fb3385c1ba33(org.campagnelab.gobyweb.interactive.editor)" />
-    <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
-    <import index="cgu" ref="r:c416dd08-3abe-4ad4-b62b-396bf1e870a9(org.campagnelab.gobyweb.interactive.fsiselector.behavior)" implicit="true" />
     <import index="67aq" ref="r:26b732da-95fd-458a-87cd-f23b1896a719(org.campagnelab.gobyweb.interactive.fsiselector.structure)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
+    <import index="cgu" ref="r:c416dd08-3abe-4ad4-b62b-396bf1e870a9(org.campagnelab.gobyweb.interactive.fsiselector.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -141,8 +141,8 @@
             <node concept="3clFbS" id="7rbzTcqHBi9" role="2VODD2">
               <node concept="3clFbF" id="7rbzTcqHBia" role="3cqZAp">
                 <node concept="2YIFZM" id="7rbzTcqHBib" role="3clFbG">
-                  <ref role="37wK5l" to="e2lb:~Integer.toString(int):java.lang.String" resolve="toString" />
-                  <ref role="1Pybhc" to="e2lb:~Integer" resolve="Integer" />
+                  <ref role="37wK5l" to="wyt6:~Integer.toString(int):java.lang.String" resolve="toString" />
+                  <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
                   <node concept="2OqwBi" id="7rbzTcqHBic" role="37wK5m">
                     <node concept="pncrf" id="7rbzTcqHBid" role="2Oq$k0" />
                     <node concept="2qgKlT" id="7rbzTcqHBie" role="2OqNvi">

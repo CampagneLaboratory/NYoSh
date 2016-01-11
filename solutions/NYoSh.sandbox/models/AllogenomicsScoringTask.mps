@@ -2,9 +2,7 @@
 <model ref="r:08fb0a98-32a5-4473-a17d-420e137a9b26(AllogenomicsScoringTask)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
     <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="-1" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="-1" />
     <use id="d8f591ec-4d86-4af2-9f92-a9e93c803ffa" name="jetbrains.mps.lang.scopes" version="-1" />
     <use id="a21a7294-c126-4f63-8335-8fecd8c28c7e" name="org.campagnelab.NYoSh" version="-1" />
     <use id="7fa12e9c-b949-4976-b4fa-19accbc320b4" name="jetbrains.mps.lang.dataFlow" version="-1" />
@@ -21,15 +19,17 @@
     <use id="27f97fd8-caeb-43a0-a73f-f8ac957f3a17" name="org.campagnelab.gobyweb.environment" version="-1" />
     <use id="0b7d8bbd-896e-495e-be60-01a0d738a649" name="org.campagnelab.gobyweb.plugins" version="-1" />
     <use id="c1d262c7-5fba-470b-a7ad-87f5e0ae0a99" name="org.campagnelab.nyosh.functions" version="-1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="1" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="2" />
   </languages>
   <imports>
-    <import index="x2pl" ref="f:java_stub#0202ed86-955d-4227-9c20-377dd6b1f9ff#org.campagnelab.stepslogger(org.campagnelab.nyosh.lib/org.campagnelab.stepslogger@java_stub)" />
-    <import index="kl8j" ref="f:java_stub#0202ed86-955d-4227-9c20-377dd6b1f9ff#campagnelab.stepslogger(org.campagnelab.nyosh.lib/campagnelab.stepslogger@java_stub)" />
-    <import index="a9xz" ref="f:java_stub#0202ed86-955d-4227-9c20-377dd6b1f9ff#org.campagnelab.stepslogger.util(org.campagnelab.nyosh.lib/org.campagnelab.stepslogger.util@java_stub)" />
-    <import index="fxg7" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
-    <import index="4i4s" ref="f:java_stub#0202ed86-955d-4227-9c20-377dd6b1f9ff#org.campagnelab.nyosh.logging(org.campagnelab.nyosh.lib/org.campagnelab.nyosh.logging@java_stub)" />
-    <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
+    <import index="ar8u" ref="0202ed86-955d-4227-9c20-377dd6b1f9ff/java:org.campagnelab.stepslogger(org.campagnelab.nyosh.lib/)" />
+    <import index="b3p4" ref="0202ed86-955d-4227-9c20-377dd6b1f9ff/java:campagnelab.stepslogger(org.campagnelab.nyosh.lib/)" />
+    <import index="ugzm" ref="0202ed86-955d-4227-9c20-377dd6b1f9ff/java:org.campagnelab.stepslogger.util(org.campagnelab.nyosh.lib/)" />
+    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
+    <import index="s3cx" ref="0202ed86-955d-4227-9c20-377dd6b1f9ff/java:org.campagnelab.nyosh.logging(org.campagnelab.nyosh.lib/)" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -814,11 +814,11 @@
                 <node concept="3clFbF" id="2pht9ZtMqpF" role="3cqZAp">
                   <node concept="2OqwBi" id="2pht9ZtMqpB" role="3clFbG">
                     <node concept="10M0yZ" id="2pht9ZtMqpC" role="2Oq$k0">
-                      <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
-                      <ref role="3cqZAo" to="e2lb:~System.out" resolve="out" />
+                      <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                      <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
                     </node>
                     <node concept="liA8E" id="2pht9ZtMqpD" role="2OqNvi">
-                      <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
+                      <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
                       <node concept="3cpWs3" id="2pht9ZtMqBC" role="37wK5m">
                         <node concept="37vLTw" id="2pht9ZtMqBJ" role="3uHU7w">
                           <ref role="3cqZAo" node="7bcCoOu39MJ" resolve="tag" />
@@ -1034,8 +1034,8 @@
       <node concept="3clFbS" id="1zHKSeEAK46" role="2VODD2">
         <node concept="3clFbF" id="1zHKSeEAK47" role="3cqZAp">
           <node concept="2YIFZM" id="1zHKSeEAK48" role="3clFbG">
-            <ref role="37wK5l" to="4i4s:~StepsLoggerHelper.createLogFile():void" resolve="createLogFile" />
-            <ref role="1Pybhc" to="4i4s:~StepsLoggerHelper" resolve="StepsLoggerHelper" />
+            <ref role="37wK5l" to="s3cx:~StepsLoggerHelper.createLogFile():void" resolve="createLogFile" />
+            <ref role="1Pybhc" to="s3cx:~StepsLoggerHelper" resolve="StepsLoggerHelper" />
           </node>
         </node>
         <node concept="3clFbJ" id="1zHKSeEAK49" role="3cqZAp">
@@ -1044,11 +1044,11 @@
               <node concept="3cpWsn" id="1zHKSeEAK4c" role="3cpWs9">
                 <property role="TrG5h" value="stringW" />
                 <node concept="3uibUv" id="1zHKSeEAK4d" role="1tU5fm">
-                  <ref role="3uigEE" to="fxg7:~Writer" resolve="Writer" />
+                  <ref role="3uigEE" to="guwi:~Writer" resolve="Writer" />
                 </node>
                 <node concept="2ShNRf" id="1zHKSeEAK4e" role="33vP2m">
                   <node concept="1pGfFk" id="1zHKSeEAK4f" role="2ShVmc">
-                    <ref role="37wK5l" to="fxg7:~StringWriter.&lt;init&gt;()" resolve="StringWriter" />
+                    <ref role="37wK5l" to="guwi:~StringWriter.&lt;init&gt;()" resolve="StringWriter" />
                   </node>
                 </node>
               </node>
@@ -1057,11 +1057,11 @@
               <node concept="3cpWsn" id="1zHKSeEAK4h" role="3cpWs9">
                 <property role="TrG5h" value="printW" />
                 <node concept="3uibUv" id="1zHKSeEAK4i" role="1tU5fm">
-                  <ref role="3uigEE" to="fxg7:~PrintWriter" resolve="PrintWriter" />
+                  <ref role="3uigEE" to="guwi:~PrintWriter" resolve="PrintWriter" />
                 </node>
                 <node concept="2ShNRf" id="1zHKSeEAK4j" role="33vP2m">
                   <node concept="1pGfFk" id="1zHKSeEAK4k" role="2ShVmc">
-                    <ref role="37wK5l" to="fxg7:~PrintWriter.&lt;init&gt;(java.io.Writer)" resolve="PrintWriter" />
+                    <ref role="37wK5l" to="guwi:~PrintWriter.&lt;init&gt;(java.io.Writer)" resolve="PrintWriter" />
                     <node concept="37vLTw" id="1zHKSeEAK4l" role="37wK5m">
                       <ref role="3cqZAo" node="1zHKSeEAK4c" resolve="stringW" />
                     </node>
@@ -1073,7 +1073,7 @@
               <node concept="2OqwBi" id="1zHKSeEAK4n" role="3clFbG">
                 <node concept="3X9Bxp" id="5IGKpp$iaJ" role="2Oq$k0" />
                 <node concept="liA8E" id="1zHKSeEAK4p" role="2OqNvi">
-                  <ref role="37wK5l" to="e2lb:~Throwable.printStackTrace(java.io.PrintWriter):void" resolve="printStackTrace" />
+                  <ref role="37wK5l" to="wyt6:~Throwable.printStackTrace(java.io.PrintWriter):void" resolve="printStackTrace" />
                   <node concept="37vLTw" id="1zHKSeEAK4q" role="37wK5m">
                     <ref role="3cqZAo" node="1zHKSeEAK4h" resolve="printW" />
                   </node>
@@ -1082,8 +1082,8 @@
             </node>
             <node concept="3clFbF" id="1zHKSeEAK4r" role="3cqZAp">
               <node concept="2YIFZM" id="1zHKSeEAK4s" role="3clFbG">
-                <ref role="1Pybhc" to="4i4s:~StepsLoggerHelper" resolve="StepsLoggerHelper" />
-                <ref role="37wK5l" to="4i4s:~StepsLoggerHelper.assertTrue(boolean,java.lang.String):void" resolve="assertTrue" />
+                <ref role="1Pybhc" to="s3cx:~StepsLoggerHelper" resolve="StepsLoggerHelper" />
+                <ref role="37wK5l" to="s3cx:~StepsLoggerHelper.assertTrue(boolean,java.lang.String):void" resolve="assertTrue" />
                 <node concept="3clFbT" id="1zHKSeEAK4t" role="37wK5m">
                   <property role="3clFbU" value="false" />
                 </node>
@@ -1104,7 +1104,7 @@
                       <ref role="3cqZAo" node="1zHKSeEAK4c" resolve="stringW" />
                     </node>
                     <node concept="liA8E" id="1zHKSeEAK4A" role="2OqNvi">
-                      <ref role="37wK5l" to="e2lb:~Object.toString():java.lang.String" resolve="toString" />
+                      <ref role="37wK5l" to="wyt6:~Object.toString():java.lang.String" resolve="toString" />
                     </node>
                   </node>
                 </node>
@@ -1119,8 +1119,8 @@
             <node concept="3clFbS" id="1zHKSeEAK4F" role="9aQI4">
               <node concept="3clFbF" id="1zHKSeEAK4G" role="3cqZAp">
                 <node concept="2YIFZM" id="1zHKSeEAK4H" role="3clFbG">
-                  <ref role="1Pybhc" to="4i4s:~StepsLoggerHelper" resolve="StepsLoggerHelper" />
-                  <ref role="37wK5l" to="4i4s:~StepsLoggerHelper.assertTrue(boolean,java.lang.String):void" resolve="assertTrue" />
+                  <ref role="1Pybhc" to="s3cx:~StepsLoggerHelper" resolve="StepsLoggerHelper" />
+                  <ref role="37wK5l" to="s3cx:~StepsLoggerHelper.assertTrue(boolean,java.lang.String):void" resolve="assertTrue" />
                   <node concept="3clFbT" id="1zHKSeEAK4I" role="37wK5m">
                     <property role="3clFbU" value="false" />
                   </node>
@@ -1144,14 +1144,14 @@
       <node concept="3clFbS" id="1zHKSeEAK3V" role="2VODD2">
         <node concept="3clFbF" id="1zHKSeEAK3W" role="3cqZAp">
           <node concept="2YIFZM" id="1zHKSeEAK3X" role="3clFbG">
-            <ref role="1Pybhc" to="4i4s:~StepsLoggerHelper" resolve="StepsLoggerHelper" />
-            <ref role="37wK5l" to="4i4s:~StepsLoggerHelper.createLogFile():void" resolve="createLogFile" />
+            <ref role="1Pybhc" to="s3cx:~StepsLoggerHelper" resolve="StepsLoggerHelper" />
+            <ref role="37wK5l" to="s3cx:~StepsLoggerHelper.createLogFile():void" resolve="createLogFile" />
           </node>
         </node>
         <node concept="3clFbF" id="1zHKSeEAK3Y" role="3cqZAp">
           <node concept="2YIFZM" id="1zHKSeEAK3Z" role="3clFbG">
-            <ref role="37wK5l" to="4i4s:~StepsLoggerHelper.done(java.lang.String,int):void" resolve="done" />
-            <ref role="1Pybhc" to="4i4s:~StepsLoggerHelper" resolve="StepsLoggerHelper" />
+            <ref role="37wK5l" to="s3cx:~StepsLoggerHelper.done(java.lang.String,int):void" resolve="done" />
+            <ref role="1Pybhc" to="s3cx:~StepsLoggerHelper" resolve="StepsLoggerHelper" />
             <node concept="3cpWs3" id="1zHKSeEAK40" role="37wK5m">
               <node concept="3X9Bx5" id="5IGKpp$iv6" role="3uHU7w" />
               <node concept="Xl_RD" id="1zHKSeEAK42" role="3uHU7B">

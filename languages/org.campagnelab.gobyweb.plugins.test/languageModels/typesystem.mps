@@ -7,15 +7,15 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="jlk6" ref="f:java_stub#0202ed86-955d-4227-9c20-377dd6b1f9ff#org.campagnelab.gobyweb.clustergateway.registration(org.campagnelab.nyosh.lib/org.campagnelab.gobyweb.clustergateway.registration@java_stub)" />
+    <import index="tduj" ref="0202ed86-955d-4227-9c20-377dd6b1f9ff/java:org.campagnelab.gobyweb.clustergateway.registration(org.campagnelab.nyosh.lib/)" />
     <import index="90kj" ref="r:397eee62-00ff-4904-afbb-029e2b9cd1db(org.campagnelab.gobyweb.plugins.test.structure)" />
     <import index="bs99" ref="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" />
     <import index="lcm8" ref="r:19e666fd-ce33-4549-bbc2-aa106ce25584(org.campagnelab.gobyweb.interactive.behavior)" />
     <import index="8fzi" ref="r:4ad6d336-0d77-4196-8f84-efe18a6925af(org.campagnelab.gobyweb.plugins.test.behavior)" />
-    <import index="lgzw" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util.regex(JDK/java.util.regex@java_stub)" />
+    <import index="ni5j" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.regex(JDK/)" />
     <import index="bbh2" ref="r:220d24dc-c962-4ed8-b674-7bde9fb2980c(org.campagnelab.gobyweb.monitoring.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -179,7 +179,7 @@
         <reference id="1143235391024" name="concept" index="I8UWU" />
       </concept>
       <concept id="1171323947159" name="jetbrains.mps.lang.smodel.structure.Model_NodesOperation" flags="nn" index="2SmgA7">
-        <reference id="1171323947160" name="concept" index="2SmgA8" />
+        <child id="1758937410080001570" name="conceptArgument" index="1dBWTz" />
       </concept>
       <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
@@ -772,7 +772,9 @@
                     <node concept="I4A8Y" id="6wKPy2YAKKh" role="2OqNvi" />
                   </node>
                   <node concept="2SmgA7" id="6wKPy2YAMMN" role="2OqNvi">
-                    <ref role="2SmgA8" to="90kj:3kvsvcPFKs5" resolve="PluginTestCase" />
+                    <node concept="chp4Y" id="16pFkr3EDXc" role="1dBWTz">
+                      <ref role="cht4Q" to="90kj:3kvsvcPFKs5" resolve="PluginTestCase" />
+                    </node>
                   </node>
                 </node>
                 <node concept="3zZkjj" id="6wKPy2YB1lr" role="2OqNvi">
@@ -1022,11 +1024,11 @@
           <node concept="3cpWsn" id="AgIvAFfCQi" role="3cpWs9">
             <property role="TrG5h" value="p" />
             <node concept="3uibUv" id="AgIvAFfCQj" role="1tU5fm">
-              <ref role="3uigEE" to="lgzw:~Pattern" resolve="Pattern" />
+              <ref role="3uigEE" to="ni5j:~Pattern" resolve="Pattern" />
             </node>
             <node concept="2YIFZM" id="AgIvAFfCQk" role="33vP2m">
-              <ref role="37wK5l" to="lgzw:~Pattern.compile(java.lang.String):java.util.regex.Pattern" resolve="compile" />
-              <ref role="1Pybhc" to="lgzw:~Pattern" resolve="Pattern" />
+              <ref role="37wK5l" to="ni5j:~Pattern.compile(java.lang.String):java.util.regex.Pattern" resolve="compile" />
+              <ref role="1Pybhc" to="ni5j:~Pattern" resolve="Pattern" />
               <node concept="Xl_RD" id="AgIvAFfCQl" role="37wK5m">
                 <property role="Xl_RC" value="[A-Z]{1}[a-zA-Z0-9]*" />
               </node>
@@ -1037,14 +1039,14 @@
           <node concept="3cpWsn" id="AgIvAFfCQn" role="3cpWs9">
             <property role="TrG5h" value="m" />
             <node concept="3uibUv" id="AgIvAFfCQo" role="1tU5fm">
-              <ref role="3uigEE" to="lgzw:~Matcher" resolve="Matcher" />
+              <ref role="3uigEE" to="ni5j:~Matcher" resolve="Matcher" />
             </node>
             <node concept="2OqwBi" id="AgIvAFfCQp" role="33vP2m">
               <node concept="37vLTw" id="AgIvAFfCQq" role="2Oq$k0">
                 <ref role="3cqZAo" node="AgIvAFfCQi" resolve="p" />
               </node>
               <node concept="liA8E" id="AgIvAFfCQr" role="2OqNvi">
-                <ref role="37wK5l" to="lgzw:~Pattern.matcher(java.lang.CharSequence):java.util.regex.Matcher" resolve="matcher" />
+                <ref role="37wK5l" to="ni5j:~Pattern.matcher(java.lang.CharSequence):java.util.regex.Matcher" resolve="matcher" />
                 <node concept="37vLTw" id="AgIvAFfF0C" role="37wK5m">
                   <ref role="3cqZAo" node="AgIvAFfC_J" resolve="name" />
                 </node>
@@ -1058,7 +1060,7 @@
               <ref role="3cqZAo" node="AgIvAFfCQn" resolve="m" />
             </node>
             <node concept="liA8E" id="AgIvAFfEuj" role="2OqNvi">
-              <ref role="37wK5l" to="lgzw:~Matcher.matches():boolean" resolve="matches" />
+              <ref role="37wK5l" to="ni5j:~Matcher.matches():boolean" resolve="matches" />
             </node>
           </node>
         </node>
@@ -1066,7 +1068,7 @@
       <node concept="37vLTG" id="AgIvAFfC_J" role="3clF46">
         <property role="TrG5h" value="name" />
         <node concept="3uibUv" id="AgIvAFfC_I" role="1tU5fm">
-          <ref role="3uigEE" to="e2lb:~String" resolve="String" />
+          <ref role="3uigEE" to="wyt6:~String" resolve="String" />
         </node>
       </node>
       <node concept="10P_77" id="AgIvAFfCA6" role="3clF45" />
@@ -1095,7 +1097,9 @@
                     <node concept="I4A8Y" id="4FIMRBlAfj4" role="2OqNvi" />
                   </node>
                   <node concept="2SmgA7" id="4FIMRBlAfj5" role="2OqNvi">
-                    <ref role="2SmgA8" to="90kj:1lQckSa4CtI" resolve="PluginTestSuite" />
+                    <node concept="chp4Y" id="16pFkr3EDXe" role="1dBWTz">
+                      <ref role="cht4Q" to="90kj:1lQckSa4CtI" resolve="PluginTestSuite" />
+                    </node>
                   </node>
                 </node>
                 <node concept="3zZkjj" id="4FIMRBlAfj6" role="2OqNvi">

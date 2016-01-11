@@ -5,22 +5,23 @@
     <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="-1" />
     <use id="d8e610a4-07e8-4a28-a3f6-a82fb9690d70" name="org.campagnelab.feedback" version="-1" />
     <use id="1f5314a5-15b8-491d-89ca-13256a5ead51" name="org.campagnelab.gobyweb.tags" version="-1" />
+    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
     <import index="lcm8" ref="r:19e666fd-ce33-4549-bbc2-aa106ce25584(org.campagnelab.gobyweb.interactive.behavior)" />
     <import index="bs99" ref="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" />
-    <import index="k7g3" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
-    <import index="fxg7" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
-    <import index="be3w" ref="f:java_stub#0202ed86-955d-4227-9c20-377dd6b1f9ff#org.javatuples(org.campagnelab.nyosh.lib/org.javatuples@java_stub)" />
-    <import index="jlk6" ref="f:java_stub#0202ed86-955d-4227-9c20-377dd6b1f9ff#org.campagnelab.gobyweb.clustergateway.registration(org.campagnelab.nyosh.lib/org.campagnelab.gobyweb.clustergateway.registration@java_stub)" />
-    <import index="r4ou" ref="f:java_stub#0202ed86-955d-4227-9c20-377dd6b1f9ff#org.campagnelab.gobyweb.filesets.preview(org.campagnelab.nyosh.lib/org.campagnelab.gobyweb.filesets.preview@java_stub)" />
+    <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
+    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
+    <import index="9ehj" ref="0202ed86-955d-4227-9c20-377dd6b1f9ff/java:org.javatuples(org.campagnelab.nyosh.lib/)" />
+    <import index="tduj" ref="0202ed86-955d-4227-9c20-377dd6b1f9ff/java:org.campagnelab.gobyweb.clustergateway.registration(org.campagnelab.nyosh.lib/)" />
+    <import index="fvvt" ref="0202ed86-955d-4227-9c20-377dd6b1f9ff/java:org.campagnelab.gobyweb.filesets.preview(org.campagnelab.nyosh.lib/)" />
     <import index="p3sh" ref="r:88895bb3-ffc1-49c0-97ec-2c49d3499b4b(org.campagnelab.gobyweb.tags.behavior)" />
     <import index="jlq1" ref="r:0f28fa4d-9625-4db3-91b7-0ff856663fbf(org.campagnelab.gobyweb.interactive.mergeplan.structure)" />
     <import index="si8h" ref="r:9e7a8e88-a6d8-4893-85c7-e98bc4f8e6c1(org.campagnelab.gobyweb.tags.structure)" />
     <import index="dhle" ref="r:22d2d7af-29e7-4a54-9633-f2175440f8be(org.campagnelab.feedback.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -158,9 +159,6 @@
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
         <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
       </concept>
-      <concept id="6329021646629175143" name="jetbrains.mps.baseLanguage.structure.StatementCommentPart" flags="nn" index="3SKWN0">
-        <child id="6329021646629175144" name="commentedStatement" index="3SKWNf" />
-      </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
@@ -215,8 +213,18 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
+        <property id="709746936026609031" name="linkId" index="3V$3ak" />
+        <property id="709746936026609029" name="linkRole" index="3V$3am" />
+      </concept>
+      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
+        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -643,7 +651,7 @@
           <node concept="3cpWsn" id="7bhX9q5$Boe" role="3cpWs9">
             <property role="TrG5h" value="mergePlan" />
             <node concept="3uibUv" id="7bhX9q5$Bof" role="1tU5fm">
-              <ref role="3uigEE" to="fxg7:~File" resolve="File" />
+              <ref role="3uigEE" to="guwi:~File" resolve="File" />
             </node>
             <node concept="BsUDl" id="7bhX9q5$BMz" role="33vP2m">
               <ref role="37wK5l" node="7bhX9q5$yMv" resolve="writeMergePlanFile" />
@@ -665,7 +673,7 @@
                 <ref role="3cqZAo" node="7bhX9q5$Boe" resolve="mergePlan" />
               </node>
               <node concept="liA8E" id="7bhX9q5$E7g" role="2OqNvi">
-                <ref role="37wK5l" to="fxg7:~File.getAbsolutePath():java.lang.String" resolve="getAbsolutePath" />
+                <ref role="37wK5l" to="guwi:~File.getAbsolutePath():java.lang.String" resolve="getAbsolutePath" />
               </node>
             </node>
           </node>
@@ -888,16 +896,16 @@
             </node>
           </node>
         </node>
-        <node concept="3SKdUt" id="6K40ojJpsOj" role="3cqZAp">
-          <node concept="3SKWN0" id="6K40ojJpsOk" role="3SKWNk">
-            <node concept="3clFbF" id="6K40ojJncfK" role="3SKWNf">
-              <node concept="37vLTI" id="6K40ojJncW7" role="3clFbG">
-                <node concept="10Nm6u" id="6K40ojJncXF" role="37vLTx" />
-                <node concept="2OqwBi" id="6K40ojJnclZ" role="37vLTJ">
-                  <node concept="13iPFW" id="6K40ojJncfI" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="6K40ojJncLz" role="2OqNvi">
-                    <ref role="3Tt5mk" to="jlq1:6K40ojJm_gi" />
-                  </node>
+        <node concept="1X3_iC" id="16pFkr3wRd_" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3clFbF" id="6K40ojJncfK" role="8Wnug">
+            <node concept="37vLTI" id="6K40ojJncW7" role="3clFbG">
+              <node concept="10Nm6u" id="6K40ojJncXF" role="37vLTx" />
+              <node concept="2OqwBi" id="6K40ojJnclZ" role="37vLTJ">
+                <node concept="13iPFW" id="6K40ojJncfI" role="2Oq$k0" />
+                <node concept="3TrEf2" id="6K40ojJncLz" role="2OqNvi">
+                  <ref role="3Tt5mk" to="jlq1:6K40ojJm_gi" />
                 </node>
               </node>
             </node>
@@ -920,7 +928,7 @@
       <property role="TrG5h" value="writeMergePlanFile" />
       <node concept="3Tm1VV" id="7bhX9q5$yMw" role="1B3o_S" />
       <node concept="3uibUv" id="7bhX9q5$zEZ" role="3clF45">
-        <ref role="3uigEE" to="fxg7:~File" resolve="File" />
+        <ref role="3uigEE" to="guwi:~File" resolve="File" />
       </node>
       <node concept="3clFbS" id="7bhX9q5$yMy" role="3clF47">
         <node concept="3clFbH" id="7bhX9q5J5Ce" role="3cqZAp" />
@@ -930,11 +938,11 @@
               <node concept="3cpWsn" id="7bhX9q5$u8B" role="3cpWs9">
                 <property role="TrG5h" value="mergePlanFile" />
                 <node concept="3uibUv" id="7bhX9q5$u8C" role="1tU5fm">
-                  <ref role="3uigEE" to="fxg7:~File" resolve="File" />
+                  <ref role="3uigEE" to="guwi:~File" resolve="File" />
                 </node>
                 <node concept="2YIFZM" id="7bhX9q5$w7d" role="33vP2m">
-                  <ref role="37wK5l" to="fxg7:~File.createTempFile(java.lang.String,java.lang.String):java.io.File" resolve="createTempFile" />
-                  <ref role="1Pybhc" to="fxg7:~File" resolve="File" />
+                  <ref role="37wK5l" to="guwi:~File.createTempFile(java.lang.String,java.lang.String):java.io.File" resolve="createTempFile" />
+                  <ref role="1Pybhc" to="guwi:~File" resolve="File" />
                   <node concept="Xl_RD" id="7bhX9q5$w7_" role="37wK5m">
                     <property role="Xl_RC" value="merge-plan" />
                   </node>
@@ -948,11 +956,11 @@
               <node concept="3cpWsn" id="7bhX9q5Im2y" role="3cpWs9">
                 <property role="TrG5h" value="writer" />
                 <node concept="3uibUv" id="7bhX9q5Im2z" role="1tU5fm">
-                  <ref role="3uigEE" to="fxg7:~FileWriter" resolve="FileWriter" />
+                  <ref role="3uigEE" to="guwi:~FileWriter" resolve="FileWriter" />
                 </node>
                 <node concept="2ShNRf" id="7bhX9q5ImPi" role="33vP2m">
                   <node concept="1pGfFk" id="7bhX9q5Im_5" role="2ShVmc">
-                    <ref role="37wK5l" to="fxg7:~FileWriter.&lt;init&gt;(java.io.File)" resolve="FileWriter" />
+                    <ref role="37wK5l" to="guwi:~FileWriter.&lt;init&gt;(java.io.File)" resolve="FileWriter" />
                     <node concept="37vLTw" id="7bhX9q5J75t" role="37wK5m">
                       <ref role="3cqZAo" node="7bhX9q5$u8B" resolve="mergePlanFile" />
                     </node>
@@ -1024,7 +1032,7 @@
                   <ref role="3cqZAo" node="7bhX9q5Im2y" resolve="writer" />
                 </node>
                 <node concept="liA8E" id="7kCRckTFdt5" role="2OqNvi">
-                  <ref role="37wK5l" to="fxg7:~Writer.append(java.lang.CharSequence):java.io.Writer" resolve="append" />
+                  <ref role="37wK5l" to="guwi:~Writer.append(java.lang.CharSequence):java.io.Writer" resolve="append" />
                   <node concept="Xl_RD" id="7kCRckTFd$B" role="37wK5m">
                     <property role="Xl_RC" value="sampleName\tfilename\tpairIndicators\tpairing\n" />
                   </node>
@@ -1044,7 +1052,7 @@
                       <ref role="3cqZAo" node="7bhX9q5Im2y" resolve="writer" />
                     </node>
                     <node concept="liA8E" id="6n0YJfSURu7" role="2OqNvi">
-                      <ref role="37wK5l" to="fxg7:~Writer.append(java.lang.CharSequence):java.io.Writer" resolve="append" />
+                      <ref role="37wK5l" to="guwi:~Writer.append(java.lang.CharSequence):java.io.Writer" resolve="append" />
                       <node concept="2OqwBi" id="6n0YJfSURu8" role="37wK5m">
                         <node concept="2OqwBi" id="6n0YJfSURu9" role="2Oq$k0">
                           <node concept="2OqwBi" id="6n0YJfSURua" role="2Oq$k0">
@@ -1252,7 +1260,7 @@
                         <ref role="3cqZAo" node="7bhX9q5Im2y" resolve="writer" />
                       </node>
                       <node concept="liA8E" id="6n0YJfSVong" role="2OqNvi">
-                        <ref role="37wK5l" to="fxg7:~Writer.append(java.lang.CharSequence):java.io.Writer" resolve="append" />
+                        <ref role="37wK5l" to="guwi:~Writer.append(java.lang.CharSequence):java.io.Writer" resolve="append" />
                         <node concept="2OqwBi" id="6n0YJfSVonh" role="37wK5m">
                           <node concept="2OqwBi" id="6n0YJfSVoni" role="2Oq$k0">
                             <node concept="2OqwBi" id="6n0YJfSVonj" role="2Oq$k0">
@@ -1352,7 +1360,7 @@
                   <ref role="3cqZAo" node="7bhX9q5Im2y" resolve="writer" />
                 </node>
                 <node concept="liA8E" id="7bhX9q5J50U" role="2OqNvi">
-                  <ref role="37wK5l" to="fxg7:~OutputStreamWriter.close():void" resolve="close" />
+                  <ref role="37wK5l" to="guwi:~OutputStreamWriter.close():void" resolve="close" />
                 </node>
               </node>
             </node>
@@ -1366,14 +1374,14 @@
             <node concept="3cpWsn" id="7bhX9q5$wSg" role="TDEfY">
               <property role="TrG5h" value="e" />
               <node concept="3uibUv" id="7bhX9q5$xq5" role="1tU5fm">
-                <ref role="3uigEE" to="fxg7:~IOException" resolve="IOException" />
+                <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
               </node>
             </node>
             <node concept="3clFbS" id="7bhX9q5$wSk" role="TDEfX">
               <node concept="YS8fn" id="7bhX9q5$zUd" role="3cqZAp">
                 <node concept="2ShNRf" id="7bhX9q5$_c3" role="YScLw">
                   <node concept="1pGfFk" id="7bhX9q5$_sB" role="2ShVmc">
-                    <ref role="37wK5l" to="e2lb:~RuntimeException.&lt;init&gt;(java.lang.String,java.lang.Throwable)" resolve="RuntimeException" />
+                    <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String,java.lang.Throwable)" resolve="RuntimeException" />
                     <node concept="Xl_RD" id="7bhX9q5$_zq" role="37wK5m">
                       <property role="Xl_RC" value="Unable to create merge plan file " />
                     </node>
@@ -1636,7 +1644,7 @@
                                           </node>
                                         </node>
                                         <node concept="liA8E" id="7bhX9q5vyI4" role="2OqNvi">
-                                          <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                                          <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                                           <node concept="BsUDl" id="7bhX9q5vyI5" role="37wK5m">
                                             <ref role="37wK5l" node="7bhX9q5uUF1" resolve="nameNoPair" />
                                             <node concept="2OqwBi" id="7bhX9q5vyI6" role="37wK5m">
@@ -1731,7 +1739,7 @@
                                           </node>
                                         </node>
                                         <node concept="liA8E" id="7bhX9q5wij2" role="2OqNvi">
-                                          <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                                          <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                                           <node concept="BsUDl" id="7bhX9q5wij3" role="37wK5m">
                                             <ref role="37wK5l" node="7bhX9q5uUF1" resolve="nameNoPair" />
                                             <node concept="2OqwBi" id="7bhX9q5wij4" role="37wK5m">
@@ -1832,7 +1840,7 @@
                   <ref role="3cqZAo" node="7bhX9q5uVaX" resolve="name" />
                 </node>
                 <node concept="liA8E" id="7bhX9q5uXob" role="2OqNvi">
-                  <ref role="37wK5l" to="e2lb:~String.replace(java.lang.CharSequence,java.lang.CharSequence):java.lang.String" resolve="replace" />
+                  <ref role="37wK5l" to="wyt6:~String.replace(java.lang.CharSequence,java.lang.CharSequence):java.lang.String" resolve="replace" />
                   <node concept="2OqwBi" id="7bhX9q5uXvm" role="37wK5m">
                     <node concept="13iPFW" id="7bhX9q5uXrV" role="2Oq$k0" />
                     <node concept="3TrcHB" id="7bhX9q5uXLJ" role="2OqNvi">
@@ -1851,7 +1859,7 @@
               <ref role="3cqZAo" node="7bhX9q5uVaX" resolve="name" />
             </node>
             <node concept="liA8E" id="7bhX9q5uW7e" role="2OqNvi">
-              <ref role="37wK5l" to="e2lb:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+              <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
               <node concept="2OqwBi" id="7bhX9q5uWaw" role="37wK5m">
                 <node concept="13iPFW" id="7bhX9q5uW86" role="2Oq$k0" />
                 <node concept="3TrcHB" id="7bhX9q5uWq1" role="2OqNvi">
@@ -1869,7 +1877,7 @@
                   <ref role="3cqZAo" node="7bhX9q5uVaX" resolve="name" />
                 </node>
                 <node concept="liA8E" id="7bhX9q5uYbQ" role="2OqNvi">
-                  <ref role="37wK5l" to="e2lb:~String.replace(java.lang.CharSequence,java.lang.CharSequence):java.lang.String" resolve="replace" />
+                  <ref role="37wK5l" to="wyt6:~String.replace(java.lang.CharSequence,java.lang.CharSequence):java.lang.String" resolve="replace" />
                   <node concept="2OqwBi" id="7bhX9q5uYbR" role="37wK5m">
                     <node concept="13iPFW" id="7bhX9q5uYbS" role="2Oq$k0" />
                     <node concept="3TrcHB" id="7bhX9q5uYKb" role="2OqNvi">
@@ -1888,7 +1896,7 @@
               <ref role="3cqZAo" node="7bhX9q5uVaX" resolve="name" />
             </node>
             <node concept="liA8E" id="7bhX9q5uYbX" role="2OqNvi">
-              <ref role="37wK5l" to="e2lb:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+              <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
               <node concept="2OqwBi" id="7bhX9q5uYbY" role="37wK5m">
                 <node concept="13iPFW" id="7bhX9q5uYbZ" role="2Oq$k0" />
                 <node concept="3TrcHB" id="7bhX9q5uY_D" role="2OqNvi">
@@ -1927,7 +1935,7 @@
               <ref role="3cqZAo" node="7bhX9q5v8Sv" resolve="name" />
             </node>
             <node concept="liA8E" id="7bhX9q5v8SK" role="2OqNvi">
-              <ref role="37wK5l" to="e2lb:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+              <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
               <node concept="2OqwBi" id="7bhX9q5v8SL" role="37wK5m">
                 <node concept="13iPFW" id="7bhX9q5v8SM" role="2Oq$k0" />
                 <node concept="3TrcHB" id="7bhX9q5v8SN" role="2OqNvi">
@@ -1966,7 +1974,7 @@
               <ref role="3cqZAo" node="7bhX9q5vaOh" resolve="name" />
             </node>
             <node concept="liA8E" id="7bhX9q5vaOs" role="2OqNvi">
-              <ref role="37wK5l" to="e2lb:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+              <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
               <node concept="2OqwBi" id="7bhX9q5vaOt" role="37wK5m">
                 <node concept="13iPFW" id="7bhX9q5vaOu" role="2Oq$k0" />
                 <node concept="3TrcHB" id="7bhX9q5vbNK" role="2OqNvi">

@@ -2,8 +2,8 @@
 <model ref="r:fa23f21f-0a09-4a28-9828-16b45648a671(org.campagnelab.gobyweb.interactive.mappings.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
     <use id="a8fb88b0-7e9f-478c-aab4-a1b076131192" name="org.campagnelab.gobyweb.interactive" version="-1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -22,6 +22,7 @@
         <property id="1083923523171" name="internalValue" index="1uS6qv" />
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
+        <property id="1587916991969465369" name="conceptId" index="1pbfSe" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -55,6 +56,7 @@
   <node concept="1TIwiD" id="5PpwQGecOrg">
     <property role="TrG5h" value="AttributeDefinition" />
     <property role="3GE5qa" value="filesets" />
+    <property role="1pbfSe" value="1804388923" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="5PpwQGecVdM" role="1TKVEl">
       <property role="TrG5h" value="type" />
@@ -68,6 +70,7 @@
     <property role="TrG5h" value="AttributeDefinitionList" />
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="filesets" />
+    <property role="1pbfSe" value="1804391543" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5PpwQGecP4d" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -83,6 +86,7 @@
     <property role="TrG5h" value="FileSetAttributeMappings" />
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="filesets" />
+    <property role="1pbfSe" value="1804396054" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5PpwQGecQaW" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -97,6 +101,7 @@
   <node concept="1TIwiD" id="5PpwQGecQb9">
     <property role="TrG5h" value="AttributeDefinitionRef" />
     <property role="3GE5qa" value="filesets" />
+    <property role="1pbfSe" value="1804396084" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="CaaSLvsE1l" role="1TKVEl">
       <property role="TrG5h" value="mandatory" />

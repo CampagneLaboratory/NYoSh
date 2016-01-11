@@ -3,14 +3,11 @@
   <persistence version="9" />
   <languages>
     <use id="66f96b90-b2af-4ce4-92ca-dc0e9d7e2b43" name="org.campagnelab.nyosh.interactive" version="-1" />
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
     <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="-1" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="-1" />
     <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="-1" />
     <use id="82ffebe3-3685-4fd9-b560-0c1d348d295c" name="org.campagnelab.logger" version="-1" />
     <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="-1" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="-1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="-1" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="-1" />
     <use id="daafa647-f1f7-4b0b-b096-69cd7c8408c0" name="jetbrains.mps.baseLanguage.regexp" version="-1" />
     <use id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples" version="-1" />
@@ -24,15 +21,19 @@
     <use id="0f071fdb-3faa-4b8c-9f5e-1da0a01466d5" name="org.campagnelab.nyosh.environment" version="-1" />
     <use id="901f5cf3-dc77-4c1e-bc5a-6382baee28b4" name="org.campagnelab.textoutput" version="-1" />
     <use id="c1d262c7-5fba-470b-a7ad-87f5e0ae0a99" name="org.campagnelab.nyosh.functions" version="-1" />
+    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="2" />
   </languages>
   <imports>
     <import index="rk0i" ref="r:5c1a2e64-6ce3-44f3-9901-91d04f21d955(org.campagnelab.nyosh.interactive.behavior)" />
     <import index="tpfp" ref="r:00000000-0000-4000-0000-011c89590519(jetbrains.mps.baseLanguage.regexp.jetbrains.mps.regexp.accessory)" />
     <import index="440p" ref="r:a6c7903c-0b83-4bcf-8e49-8f150f2412bf(org.campagnelab.nyosh.interactive.structure)" />
-    <import index="fxg7" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
-    <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
-    <import index="k7g3" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
-    <import index="r9z8" ref="f:java_stub#0202ed86-955d-4227-9c20-377dd6b1f9ff#org.campagnelab.nyosh.exec(org.campagnelab.nyosh.lib/org.campagnelab.nyosh.exec@java_stub)" />
+    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
+    <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
+    <import index="7hgv" ref="0202ed86-955d-4227-9c20-377dd6b1f9ff/java:org.campagnelab.nyosh.exec(org.campagnelab.nyosh.lib/)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -170,9 +171,6 @@
       </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
         <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
-      </concept>
-      <concept id="6329021646629175143" name="jetbrains.mps.baseLanguage.structure.StatementCommentPart" flags="nn" index="3SKWN0">
-        <child id="6329021646629175144" name="commentedStatement" index="3SKWNf" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="8064396509828172209" name="jetbrains.mps.baseLanguage.structure.UnaryMinus" flags="nn" index="1ZRNhn" />
@@ -323,8 +321,18 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
+        <property id="709746936026609031" name="linkId" index="3V$3ak" />
+        <property id="709746936026609029" name="linkRole" index="3V$3am" />
+      </concept>
+      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
+        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
       </concept>
     </language>
     <language id="daafa647-f1f7-4b0b-b096-69cd7c8408c0" name="jetbrains.mps.baseLanguage.regexp">
@@ -432,11 +440,11 @@
             <node concept="3clFbF" id="B35F3ks5sd" role="3cqZAp">
               <node concept="2OqwBi" id="B35F3ks5s9" role="3clFbG">
                 <node concept="10M0yZ" id="B35F3ks5sa" role="2Oq$k0">
-                  <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
-                  <ref role="3cqZAo" to="e2lb:~System.out" resolve="out" />
+                  <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                  <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
                 </node>
                 <node concept="liA8E" id="B35F3ks5sb" role="2OqNvi">
-                  <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
+                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
                   <node concept="3cpWs3" id="B35F3kq52p" role="37wK5m">
                     <node concept="3cpWs3" id="B35F3krfX9" role="3uHU7B">
                       <node concept="3cpWs3" id="B35F3krgpq" role="3uHU7B">
@@ -615,7 +623,7 @@
                 <ref role="3cqZAo" node="7wWmVpycR4q" resolve="path" />
               </node>
               <node concept="liA8E" id="7wWmVpycOfo" role="2OqNvi">
-                <ref role="37wK5l" to="e2lb:~String.split(java.lang.String):java.lang.String[]" resolve="split" />
+                <ref role="37wK5l" to="wyt6:~String.split(java.lang.String):java.lang.String[]" resolve="split" />
                 <node concept="Xl_RD" id="7wWmVpycOgF" role="37wK5m">
                   <property role="Xl_RC" value="/" />
                 </node>
@@ -642,7 +650,7 @@
                     <ref role="2Gs0qQ" node="7wWmVpycO$h" resolve="part" />
                   </node>
                   <node concept="liA8E" id="7wWmVpycP$7" role="2OqNvi">
-                    <ref role="37wK5l" to="e2lb:~String.length():int" resolve="length" />
+                    <ref role="37wK5l" to="wyt6:~String.length():int" resolve="length" />
                   </node>
                 </node>
               </node>
@@ -2617,11 +2625,11 @@
                     <node concept="3clFbF" id="2zE8lSVZ$nu" role="3cqZAp">
                       <node concept="2OqwBi" id="2zE8lSVZ$nq" role="3clFbG">
                         <node concept="10M0yZ" id="2zE8lSVZ$nr" role="2Oq$k0">
-                          <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
-                          <ref role="3cqZAo" to="e2lb:~System.out" resolve="out" />
+                          <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                          <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
                         </node>
                         <node concept="liA8E" id="2zE8lSVZ$ns" role="2OqNvi">
-                          <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
+                          <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
                           <node concept="3cpWs3" id="2zE8lSVZ$$Z" role="37wK5m">
                             <node concept="37vLTw" id="2zE8lSVZ$A3" role="3uHU7w">
                               <ref role="3cqZAo" node="2zE8lSVZzme" resolve="line" />
@@ -2644,7 +2652,7 @@
                         <node concept="2OqwBi" id="2zE8lSVZyve" role="37vLTx">
                           <node concept="3X9DTI" id="2zE8lSVZyp0" role="2Oq$k0" />
                           <node concept="liA8E" id="2zE8lSVZzaM" role="2OqNvi">
-                            <ref role="37wK5l" to="fxg7:~BufferedReader.readLine():java.lang.String" resolve="readLine" />
+                            <ref role="37wK5l" to="guwi:~BufferedReader.readLine():java.lang.String" resolve="readLine" />
                           </node>
                         </node>
                       </node>
@@ -3128,7 +3136,7 @@
         <property role="3TUv4t" value="false" />
         <node concept="10Q1$e" id="G5bxgOma2s" role="1tU5fm">
           <node concept="3uibUv" id="G5bxgOma2r" role="10Q1$1">
-            <ref role="3uigEE" to="e2lb:~String" resolve="String" />
+            <ref role="3uigEE" to="wyt6:~String" resolve="String" />
           </node>
         </node>
       </node>
@@ -3138,16 +3146,16 @@
             <property role="3TUv4t" value="false" />
             <property role="TrG5h" value="samples" />
             <node concept="3uibUv" id="G5bxgOpu7q" role="1tU5fm">
-              <ref role="3uigEE" to="k7g3:~ArrayList" resolve="ArrayList" />
+              <ref role="3uigEE" to="33ny:~ArrayList" resolve="ArrayList" />
               <node concept="3uibUv" id="G5bxgOpu7r" role="11_B2D">
-                <ref role="3uigEE" to="e2lb:~String" resolve="String" />
+                <ref role="3uigEE" to="wyt6:~String" resolve="String" />
               </node>
             </node>
             <node concept="2ShNRf" id="G5bxgOpu9O" role="33vP2m">
               <node concept="1pGfFk" id="G5bxgOpu9P" role="2ShVmc">
-                <ref role="37wK5l" to="k7g3:~ArrayList.&lt;init&gt;()" resolve="ArrayList" />
+                <ref role="37wK5l" to="33ny:~ArrayList.&lt;init&gt;()" resolve="ArrayList" />
                 <node concept="3uibUv" id="G5bxgOpu7t" role="1pMfVU">
-                  <ref role="3uigEE" to="e2lb:~String" resolve="String" />
+                  <ref role="3uigEE" to="wyt6:~String" resolve="String" />
                 </node>
               </node>
             </node>
@@ -3159,7 +3167,7 @@
               <ref role="3cqZAo" node="G5bxgOpu7o" resolve="samples" />
             </node>
             <node concept="liA8E" id="G5bxgOpu9U" role="2OqNvi">
-              <ref role="37wK5l" to="k7g3:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
               <node concept="Xl_RD" id="G5bxgOpu9V" role="37wK5m">
                 <property role="Xl_RC" value="HY1-DWEYS-0-NO" />
               </node>
@@ -3172,7 +3180,7 @@
               <ref role="3cqZAo" node="G5bxgOpu7o" resolve="samples" />
             </node>
             <node concept="liA8E" id="G5bxgOpu9Z" role="2OqNvi">
-              <ref role="37wK5l" to="k7g3:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
               <node concept="Xl_RD" id="G5bxgOpua0" role="37wK5m">
                 <property role="Xl_RC" value="HY10-DWEYS-1-LPS" />
               </node>
@@ -3185,7 +3193,7 @@
               <ref role="3cqZAo" node="G5bxgOpu7o" resolve="samples" />
             </node>
             <node concept="liA8E" id="G5bxgOpua4" role="2OqNvi">
-              <ref role="37wK5l" to="k7g3:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
               <node concept="Xl_RD" id="G5bxgOpua5" role="37wK5m">
                 <property role="Xl_RC" value="HY11-DWEYS-1-LPS" />
               </node>
@@ -3198,7 +3206,7 @@
               <ref role="3cqZAo" node="G5bxgOpu7o" resolve="samples" />
             </node>
             <node concept="liA8E" id="G5bxgOpua9" role="2OqNvi">
-              <ref role="37wK5l" to="k7g3:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
               <node concept="Xl_RD" id="G5bxgOpuaa" role="37wK5m">
                 <property role="Xl_RC" value="HY12-DWEYS-1-LPS" />
               </node>
@@ -3211,7 +3219,7 @@
               <ref role="3cqZAo" node="G5bxgOpu7o" resolve="samples" />
             </node>
             <node concept="liA8E" id="G5bxgOpuae" role="2OqNvi">
-              <ref role="37wK5l" to="k7g3:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
               <node concept="Xl_RD" id="G5bxgOpuaf" role="37wK5m">
                 <property role="Xl_RC" value="HY13-CORE-1-LPS" />
               </node>
@@ -3224,7 +3232,7 @@
               <ref role="3cqZAo" node="G5bxgOpu7o" resolve="samples" />
             </node>
             <node concept="liA8E" id="G5bxgOpuaj" role="2OqNvi">
-              <ref role="37wK5l" to="k7g3:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
               <node concept="Xl_RD" id="G5bxgOpuak" role="37wK5m">
                 <property role="Xl_RC" value="HY14-CORE-1-LPS" />
               </node>
@@ -3237,7 +3245,7 @@
               <ref role="3cqZAo" node="G5bxgOpu7o" resolve="samples" />
             </node>
             <node concept="liA8E" id="G5bxgOpuao" role="2OqNvi">
-              <ref role="37wK5l" to="k7g3:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
               <node concept="Xl_RD" id="G5bxgOpuap" role="37wK5m">
                 <property role="Xl_RC" value="HY15-CORE-1-LPS" />
               </node>
@@ -3250,7 +3258,7 @@
               <ref role="3cqZAo" node="G5bxgOpu7o" resolve="samples" />
             </node>
             <node concept="liA8E" id="G5bxgOpuat" role="2OqNvi">
-              <ref role="37wK5l" to="k7g3:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
               <node concept="Xl_RD" id="G5bxgOpuau" role="37wK5m">
                 <property role="Xl_RC" value="HY16-WT-1-LPS" />
               </node>
@@ -3263,7 +3271,7 @@
               <ref role="3cqZAo" node="G5bxgOpu7o" resolve="samples" />
             </node>
             <node concept="liA8E" id="G5bxgOpuay" role="2OqNvi">
-              <ref role="37wK5l" to="k7g3:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
               <node concept="Xl_RD" id="G5bxgOpuaz" role="37wK5m">
                 <property role="Xl_RC" value="HY17-WT-1-LPS" />
               </node>
@@ -3276,7 +3284,7 @@
               <ref role="3cqZAo" node="G5bxgOpu7o" resolve="samples" />
             </node>
             <node concept="liA8E" id="G5bxgOpuaB" role="2OqNvi">
-              <ref role="37wK5l" to="k7g3:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
               <node concept="Xl_RD" id="G5bxgOpuaC" role="37wK5m">
                 <property role="Xl_RC" value="HY18-DWEYS-4-LPS" />
               </node>
@@ -3289,7 +3297,7 @@
               <ref role="3cqZAo" node="G5bxgOpu7o" resolve="samples" />
             </node>
             <node concept="liA8E" id="G5bxgOpuaG" role="2OqNvi">
-              <ref role="37wK5l" to="k7g3:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
               <node concept="Xl_RD" id="G5bxgOpuaH" role="37wK5m">
                 <property role="Xl_RC" value="HY19-DWEYS-4-LPS" />
               </node>
@@ -3302,7 +3310,7 @@
               <ref role="3cqZAo" node="G5bxgOpu7o" resolve="samples" />
             </node>
             <node concept="liA8E" id="G5bxgOpuaL" role="2OqNvi">
-              <ref role="37wK5l" to="k7g3:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
               <node concept="Xl_RD" id="G5bxgOpuaM" role="37wK5m">
                 <property role="Xl_RC" value="HY2-DWEYS-0-NO" />
               </node>
@@ -3315,7 +3323,7 @@
               <ref role="3cqZAo" node="G5bxgOpu7o" resolve="samples" />
             </node>
             <node concept="liA8E" id="G5bxgOpuaQ" role="2OqNvi">
-              <ref role="37wK5l" to="k7g3:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
               <node concept="Xl_RD" id="G5bxgOpuaR" role="37wK5m">
                 <property role="Xl_RC" value="HY20-DWEYS-4-LPS" />
               </node>
@@ -3328,7 +3336,7 @@
               <ref role="3cqZAo" node="G5bxgOpu7o" resolve="samples" />
             </node>
             <node concept="liA8E" id="G5bxgOpuaV" role="2OqNvi">
-              <ref role="37wK5l" to="k7g3:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
               <node concept="Xl_RD" id="G5bxgOpuaW" role="37wK5m">
                 <property role="Xl_RC" value="HY22-CORE-4-LPS" />
               </node>
@@ -3341,7 +3349,7 @@
               <ref role="3cqZAo" node="G5bxgOpu7o" resolve="samples" />
             </node>
             <node concept="liA8E" id="G5bxgOpub0" role="2OqNvi">
-              <ref role="37wK5l" to="k7g3:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
               <node concept="Xl_RD" id="G5bxgOpub1" role="37wK5m">
                 <property role="Xl_RC" value="HY23-CORE-4-LPS" />
               </node>
@@ -3354,7 +3362,7 @@
               <ref role="3cqZAo" node="G5bxgOpu7o" resolve="samples" />
             </node>
             <node concept="liA8E" id="G5bxgOpub5" role="2OqNvi">
-              <ref role="37wK5l" to="k7g3:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
               <node concept="Xl_RD" id="G5bxgOpub6" role="37wK5m">
                 <property role="Xl_RC" value="HY24-CORE-4-LPS" />
               </node>
@@ -3367,7 +3375,7 @@
               <ref role="3cqZAo" node="G5bxgOpu7o" resolve="samples" />
             </node>
             <node concept="liA8E" id="G5bxgOpuba" role="2OqNvi">
-              <ref role="37wK5l" to="k7g3:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
               <node concept="Xl_RD" id="G5bxgOpubb" role="37wK5m">
                 <property role="Xl_RC" value="HY25-WT-1-LPS" />
               </node>
@@ -3380,7 +3388,7 @@
               <ref role="3cqZAo" node="G5bxgOpu7o" resolve="samples" />
             </node>
             <node concept="liA8E" id="G5bxgOpubf" role="2OqNvi">
-              <ref role="37wK5l" to="k7g3:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
               <node concept="Xl_RD" id="G5bxgOpubg" role="37wK5m">
                 <property role="Xl_RC" value="HY3-DWEYS-0-NO" />
               </node>
@@ -3393,7 +3401,7 @@
               <ref role="3cqZAo" node="G5bxgOpu7o" resolve="samples" />
             </node>
             <node concept="liA8E" id="G5bxgOpubk" role="2OqNvi">
-              <ref role="37wK5l" to="k7g3:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
               <node concept="Xl_RD" id="G5bxgOpubl" role="37wK5m">
                 <property role="Xl_RC" value="HY4-CORE-0-NO" />
               </node>
@@ -3406,7 +3414,7 @@
               <ref role="3cqZAo" node="G5bxgOpu7o" resolve="samples" />
             </node>
             <node concept="liA8E" id="G5bxgOpubp" role="2OqNvi">
-              <ref role="37wK5l" to="k7g3:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
               <node concept="Xl_RD" id="G5bxgOpubq" role="37wK5m">
                 <property role="Xl_RC" value="HY5-CORE-0-NO" />
               </node>
@@ -3419,7 +3427,7 @@
               <ref role="3cqZAo" node="G5bxgOpu7o" resolve="samples" />
             </node>
             <node concept="liA8E" id="G5bxgOpubu" role="2OqNvi">
-              <ref role="37wK5l" to="k7g3:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
               <node concept="Xl_RD" id="G5bxgOpubv" role="37wK5m">
                 <property role="Xl_RC" value="HY6-CORE-0-NO" />
               </node>
@@ -3432,7 +3440,7 @@
               <ref role="3cqZAo" node="G5bxgOpu7o" resolve="samples" />
             </node>
             <node concept="liA8E" id="G5bxgOpubz" role="2OqNvi">
-              <ref role="37wK5l" to="k7g3:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
               <node concept="Xl_RD" id="G5bxgOpub$" role="37wK5m">
                 <property role="Xl_RC" value="HY7-WT-0-NO" />
               </node>
@@ -3445,7 +3453,7 @@
               <ref role="3cqZAo" node="G5bxgOpu7o" resolve="samples" />
             </node>
             <node concept="liA8E" id="G5bxgOpubC" role="2OqNvi">
-              <ref role="37wK5l" to="k7g3:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
               <node concept="Xl_RD" id="G5bxgOpubD" role="37wK5m">
                 <property role="Xl_RC" value="HY8-WT-0-NO" />
               </node>
@@ -3458,7 +3466,7 @@
               <ref role="3cqZAo" node="G5bxgOpu7o" resolve="samples" />
             </node>
             <node concept="liA8E" id="G5bxgOpubH" role="2OqNvi">
-              <ref role="37wK5l" to="k7g3:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
               <node concept="Xl_RD" id="G5bxgOpubI" role="37wK5m">
                 <property role="Xl_RC" value="HY9-WT-0-NO" />
               </node>
@@ -3470,16 +3478,16 @@
             <property role="3TUv4t" value="false" />
             <property role="TrG5h" value="filenames" />
             <node concept="3uibUv" id="G5bxgOpu8C" role="1tU5fm">
-              <ref role="3uigEE" to="k7g3:~ArrayList" resolve="ArrayList" />
+              <ref role="3uigEE" to="33ny:~ArrayList" resolve="ArrayList" />
               <node concept="3uibUv" id="G5bxgOpu8D" role="11_B2D">
-                <ref role="3uigEE" to="e2lb:~String" resolve="String" />
+                <ref role="3uigEE" to="wyt6:~String" resolve="String" />
               </node>
             </node>
             <node concept="2ShNRf" id="G5bxgOpubJ" role="33vP2m">
               <node concept="1pGfFk" id="G5bxgOpubK" role="2ShVmc">
-                <ref role="37wK5l" to="k7g3:~ArrayList.&lt;init&gt;()" resolve="ArrayList" />
+                <ref role="37wK5l" to="33ny:~ArrayList.&lt;init&gt;()" resolve="ArrayList" />
                 <node concept="3uibUv" id="G5bxgOpu8F" role="1pMfVU">
-                  <ref role="3uigEE" to="e2lb:~String" resolve="String" />
+                  <ref role="3uigEE" to="wyt6:~String" resolve="String" />
                 </node>
               </node>
             </node>
@@ -3491,7 +3499,7 @@
               <ref role="3cqZAo" node="G5bxgOpu8A" resolve="filenames" />
             </node>
             <node concept="liA8E" id="G5bxgOpubO" role="2OqNvi">
-              <ref role="37wK5l" to="k7g3:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
               <node concept="Xl_RD" id="G5bxgOpubP" role="37wK5m">
                 <property role="Xl_RC" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY1/HY1-DWEYS-0-NO_001.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY1/HY1-DWEYS-0-NO_002.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY1/HY1-DWEYS-0-NO_003.fastq.gz" />
               </node>
@@ -3504,7 +3512,7 @@
               <ref role="3cqZAo" node="G5bxgOpu8A" resolve="filenames" />
             </node>
             <node concept="liA8E" id="G5bxgOpubT" role="2OqNvi">
-              <ref role="37wK5l" to="k7g3:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
               <node concept="Xl_RD" id="G5bxgOpubU" role="37wK5m">
                 <property role="Xl_RC" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY10/HY10-DWEYS-1-LPS_001.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY10/HY10-DWEYS-1-LPS_002.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY10/HY10-DWEYS-1-LPS_003.fastq.gz" />
               </node>
@@ -3517,7 +3525,7 @@
               <ref role="3cqZAo" node="G5bxgOpu8A" resolve="filenames" />
             </node>
             <node concept="liA8E" id="G5bxgOpubY" role="2OqNvi">
-              <ref role="37wK5l" to="k7g3:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
               <node concept="Xl_RD" id="G5bxgOpubZ" role="37wK5m">
                 <property role="Xl_RC" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY11/HY11-DWEYS-1-LPS_001.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY11/HY11-DWEYS-1-LPS_002.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY11/HY11-DWEYS-1-LPS_003.fastq.gz" />
               </node>
@@ -3530,7 +3538,7 @@
               <ref role="3cqZAo" node="G5bxgOpu8A" resolve="filenames" />
             </node>
             <node concept="liA8E" id="G5bxgOpuc3" role="2OqNvi">
-              <ref role="37wK5l" to="k7g3:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
               <node concept="Xl_RD" id="G5bxgOpuc4" role="37wK5m">
                 <property role="Xl_RC" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY12/HY12-DWEYS-1-LPS_001.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY12/HY12-DWEYS-1-LPS_002.fastq.gz" />
               </node>
@@ -3543,7 +3551,7 @@
               <ref role="3cqZAo" node="G5bxgOpu8A" resolve="filenames" />
             </node>
             <node concept="liA8E" id="G5bxgOpuc8" role="2OqNvi">
-              <ref role="37wK5l" to="k7g3:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
               <node concept="Xl_RD" id="G5bxgOpuc9" role="37wK5m">
                 <property role="Xl_RC" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY13/HY13-CORE-1-LPS_001.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY13/HY13-CORE-1-LPS_002.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY13/HY13-CORE-1-LPS_003.fastq.gz" />
               </node>
@@ -3556,7 +3564,7 @@
               <ref role="3cqZAo" node="G5bxgOpu8A" resolve="filenames" />
             </node>
             <node concept="liA8E" id="G5bxgOpucd" role="2OqNvi">
-              <ref role="37wK5l" to="k7g3:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
               <node concept="Xl_RD" id="G5bxgOpuce" role="37wK5m">
                 <property role="Xl_RC" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY14/HY14-CORE-1-LPS_001.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY14/HY14-CORE-1-LPS_002.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY14/HY14-CORE-1-LPS_003.fastq.gz" />
               </node>
@@ -3569,7 +3577,7 @@
               <ref role="3cqZAo" node="G5bxgOpu8A" resolve="filenames" />
             </node>
             <node concept="liA8E" id="G5bxgOpuci" role="2OqNvi">
-              <ref role="37wK5l" to="k7g3:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
               <node concept="Xl_RD" id="G5bxgOpucj" role="37wK5m">
                 <property role="Xl_RC" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY15/HY15-CORE-1-LPS_001.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY15/HY15-CORE-1-LPS_002.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY15/HY15-CORE-1-LPS_003.fastq.gz" />
               </node>
@@ -3582,7 +3590,7 @@
               <ref role="3cqZAo" node="G5bxgOpu8A" resolve="filenames" />
             </node>
             <node concept="liA8E" id="G5bxgOpucn" role="2OqNvi">
-              <ref role="37wK5l" to="k7g3:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
               <node concept="Xl_RD" id="G5bxgOpuco" role="37wK5m">
                 <property role="Xl_RC" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY16/HY16-WT-1-LPS_001.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY16/HY16-WT-1-LPS_002.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY16/HY16-WT-1-LPS_003.fastq.gz" />
               </node>
@@ -3595,7 +3603,7 @@
               <ref role="3cqZAo" node="G5bxgOpu8A" resolve="filenames" />
             </node>
             <node concept="liA8E" id="G5bxgOpucs" role="2OqNvi">
-              <ref role="37wK5l" to="k7g3:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
               <node concept="Xl_RD" id="G5bxgOpuct" role="37wK5m">
                 <property role="Xl_RC" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY17/HY17-WT-1-LPS_001.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY17/HY17-WT-1-LPS_002.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY17/HY17-WT-1-LPS_003.fastq.gz" />
               </node>
@@ -3608,7 +3616,7 @@
               <ref role="3cqZAo" node="G5bxgOpu8A" resolve="filenames" />
             </node>
             <node concept="liA8E" id="G5bxgOpucx" role="2OqNvi">
-              <ref role="37wK5l" to="k7g3:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
               <node concept="Xl_RD" id="G5bxgOpucy" role="37wK5m">
                 <property role="Xl_RC" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY18/HY18-DWEYS-4-LPS_001.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY18/HY18-DWEYS-4-LPS_002.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY18/HY18-DWEYS-4-LPS_003.fastq.gz" />
               </node>
@@ -3621,7 +3629,7 @@
               <ref role="3cqZAo" node="G5bxgOpu8A" resolve="filenames" />
             </node>
             <node concept="liA8E" id="G5bxgOpucA" role="2OqNvi">
-              <ref role="37wK5l" to="k7g3:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
               <node concept="Xl_RD" id="G5bxgOpucB" role="37wK5m">
                 <property role="Xl_RC" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY19/HY19-DWEYS-4-LPS_001.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY19/HY19-DWEYS-4-LPS_002.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY19/HY19-DWEYS-4-LPS_003.fastq.gz" />
               </node>
@@ -3634,7 +3642,7 @@
               <ref role="3cqZAo" node="G5bxgOpu8A" resolve="filenames" />
             </node>
             <node concept="liA8E" id="G5bxgOpucF" role="2OqNvi">
-              <ref role="37wK5l" to="k7g3:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
               <node concept="Xl_RD" id="G5bxgOpucG" role="37wK5m">
                 <property role="Xl_RC" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY2/HY2-DWEYS-0-NO_001.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY2/HY2-DWEYS-0-NO_002.fastq.gz" />
               </node>
@@ -3647,7 +3655,7 @@
               <ref role="3cqZAo" node="G5bxgOpu8A" resolve="filenames" />
             </node>
             <node concept="liA8E" id="G5bxgOpucK" role="2OqNvi">
-              <ref role="37wK5l" to="k7g3:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
               <node concept="Xl_RD" id="G5bxgOpucL" role="37wK5m">
                 <property role="Xl_RC" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY20/HY20-DWEYS-4-LPS_001.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY20/HY20-DWEYS-4-LPS_002.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY20/HY20-DWEYS-4-LPS_003.fastq.gz" />
               </node>
@@ -3660,7 +3668,7 @@
               <ref role="3cqZAo" node="G5bxgOpu8A" resolve="filenames" />
             </node>
             <node concept="liA8E" id="G5bxgOpucP" role="2OqNvi">
-              <ref role="37wK5l" to="k7g3:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
               <node concept="Xl_RD" id="G5bxgOpucQ" role="37wK5m">
                 <property role="Xl_RC" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY22/HY22-CORE-4-LPS_001.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY22/HY22-CORE-4-LPS_002.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY22/HY22-CORE-4-LPS_003.fastq.gz" />
               </node>
@@ -3673,7 +3681,7 @@
               <ref role="3cqZAo" node="G5bxgOpu8A" resolve="filenames" />
             </node>
             <node concept="liA8E" id="G5bxgOpucU" role="2OqNvi">
-              <ref role="37wK5l" to="k7g3:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
               <node concept="Xl_RD" id="G5bxgOpucV" role="37wK5m">
                 <property role="Xl_RC" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY23/HY23-CORE-4-LPS_001.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY23/HY23-CORE-4-LPS_002.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY23/HY23-CORE-4-LPS_003.fastq.gz" />
               </node>
@@ -3686,7 +3694,7 @@
               <ref role="3cqZAo" node="G5bxgOpu8A" resolve="filenames" />
             </node>
             <node concept="liA8E" id="G5bxgOpucZ" role="2OqNvi">
-              <ref role="37wK5l" to="k7g3:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
               <node concept="Xl_RD" id="G5bxgOpud0" role="37wK5m">
                 <property role="Xl_RC" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY24/HY24-CORE-4-LPS_001.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY24/HY24-CORE-4-LPS_002.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY24/HY24-CORE-4-LPS_003.fastq.gz" />
               </node>
@@ -3699,7 +3707,7 @@
               <ref role="3cqZAo" node="G5bxgOpu8A" resolve="filenames" />
             </node>
             <node concept="liA8E" id="G5bxgOpud4" role="2OqNvi">
-              <ref role="37wK5l" to="k7g3:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
               <node concept="Xl_RD" id="G5bxgOpud5" role="37wK5m">
                 <property role="Xl_RC" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY25/HY25-WT-1-LPS_001.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY25/HY25-WT-1-LPS_002.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY25/HY25-WT-1-LPS_003.fastq.gz" />
               </node>
@@ -3712,7 +3720,7 @@
               <ref role="3cqZAo" node="G5bxgOpu8A" resolve="filenames" />
             </node>
             <node concept="liA8E" id="G5bxgOpud9" role="2OqNvi">
-              <ref role="37wK5l" to="k7g3:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
               <node concept="Xl_RD" id="G5bxgOpuda" role="37wK5m">
                 <property role="Xl_RC" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY3/HY3-DWEYS-0-NO_001.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY3/HY3-DWEYS-0-NO_002.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY3/HY3-DWEYS-0-NO_003.fastq.gz" />
               </node>
@@ -3725,7 +3733,7 @@
               <ref role="3cqZAo" node="G5bxgOpu8A" resolve="filenames" />
             </node>
             <node concept="liA8E" id="G5bxgOpude" role="2OqNvi">
-              <ref role="37wK5l" to="k7g3:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
               <node concept="Xl_RD" id="G5bxgOpudf" role="37wK5m">
                 <property role="Xl_RC" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY4/HY4-CORE-0-NO_001.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY4/HY4-CORE-0-NO_002.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY4/HY4-CORE-0-NO_003.fastq.gz" />
               </node>
@@ -3738,7 +3746,7 @@
               <ref role="3cqZAo" node="G5bxgOpu8A" resolve="filenames" />
             </node>
             <node concept="liA8E" id="G5bxgOpudj" role="2OqNvi">
-              <ref role="37wK5l" to="k7g3:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
               <node concept="Xl_RD" id="G5bxgOpudk" role="37wK5m">
                 <property role="Xl_RC" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY5/HY5-CORE-0-NO_001.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY5/HY5-CORE-0-NO_002.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY5/HY5-CORE-0-NO_003.fastq.gz" />
               </node>
@@ -3751,7 +3759,7 @@
               <ref role="3cqZAo" node="G5bxgOpu8A" resolve="filenames" />
             </node>
             <node concept="liA8E" id="G5bxgOpudo" role="2OqNvi">
-              <ref role="37wK5l" to="k7g3:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
               <node concept="Xl_RD" id="G5bxgOpudp" role="37wK5m">
                 <property role="Xl_RC" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY6/HY6-CORE-0-NO_001.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY6/HY6-CORE-0-NO_002.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY6/HY6-CORE-0-NO_003.fastq.gz" />
               </node>
@@ -3764,7 +3772,7 @@
               <ref role="3cqZAo" node="G5bxgOpu8A" resolve="filenames" />
             </node>
             <node concept="liA8E" id="G5bxgOpudt" role="2OqNvi">
-              <ref role="37wK5l" to="k7g3:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
               <node concept="Xl_RD" id="G5bxgOpudu" role="37wK5m">
                 <property role="Xl_RC" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY7/HY7-WT-0-NO_001.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY7/HY7-WT-0-NO_002.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY7/HY7-WT-0-NO_003.fastq.gz" />
               </node>
@@ -3777,7 +3785,7 @@
               <ref role="3cqZAo" node="G5bxgOpu8A" resolve="filenames" />
             </node>
             <node concept="liA8E" id="G5bxgOpudy" role="2OqNvi">
-              <ref role="37wK5l" to="k7g3:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
               <node concept="Xl_RD" id="G5bxgOpudz" role="37wK5m">
                 <property role="Xl_RC" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY8/HY8-WT-0-NO_001.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY8/HY8-WT-0-NO_002.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY8/HY8-WT-0-NO_003.fastq.gz" />
               </node>
@@ -3790,7 +3798,7 @@
               <ref role="3cqZAo" node="G5bxgOpu8A" resolve="filenames" />
             </node>
             <node concept="liA8E" id="G5bxgOpudB" role="2OqNvi">
-              <ref role="37wK5l" to="k7g3:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
               <node concept="Xl_RD" id="G5bxgOpudC" role="37wK5m">
                 <property role="Xl_RC" value="/data/Diamond/HyeSukYoon_2014_11_04/Sample_HY9/HY9-WT-0-NO_001.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY9/HY9-WT-0-NO_002.fastq.gz /data/Diamond/HyeSukYoon_2014_11_04/Sample_HY9/HY9-WT-0-NO_003.fastq.gz" />
               </node>
@@ -3816,7 +3824,7 @@
             <property role="3TUv4t" value="false" />
             <property role="TrG5h" value="filenameList" />
             <node concept="3uibUv" id="G5bxgOma4L" role="1tU5fm">
-              <ref role="3uigEE" to="e2lb:~String" resolve="String" />
+              <ref role="3uigEE" to="wyt6:~String" resolve="String" />
             </node>
           </node>
           <node concept="3clFbS" id="G5bxgOma3I" role="2LFqv$">
@@ -3825,7 +3833,7 @@
                 <property role="3TUv4t" value="false" />
                 <property role="TrG5h" value="inputfilenames" />
                 <node concept="3uibUv" id="G5bxgOma3L" role="1tU5fm">
-                  <ref role="3uigEE" to="e2lb:~String" resolve="String" />
+                  <ref role="3uigEE" to="wyt6:~String" resolve="String" />
                 </node>
                 <node concept="37vLTw" id="G5bxgOma3M" role="33vP2m">
                   <ref role="3cqZAo" node="G5bxgOma4J" resolve="filenameList" />
@@ -3839,11 +3847,11 @@
                     <property role="3TUv4t" value="false" />
                     <property role="TrG5h" value="commandBuffer" />
                     <node concept="3uibUv" id="G5bxgOma3V" role="1tU5fm">
-                      <ref role="3uigEE" to="e2lb:~StringBuffer" resolve="StringBuffer" />
+                      <ref role="3uigEE" to="wyt6:~StringBuffer" resolve="StringBuffer" />
                     </node>
                     <node concept="2ShNRf" id="G5bxgOma6K" role="33vP2m">
                       <node concept="1pGfFk" id="G5bxgOma6L" role="2ShVmc">
-                        <ref role="37wK5l" to="e2lb:~StringBuffer.&lt;init&gt;()" resolve="StringBuffer" />
+                        <ref role="37wK5l" to="wyt6:~StringBuffer.&lt;init&gt;()" resolve="StringBuffer" />
                       </node>
                     </node>
                   </node>
@@ -3853,11 +3861,11 @@
                     <property role="3TUv4t" value="false" />
                     <property role="TrG5h" value="assembler" />
                     <node concept="3uibUv" id="G5bxgOma3Z" role="1tU5fm">
-                      <ref role="3uigEE" to="r9z8:~CommandAssembler" resolve="CommandAssembler" />
+                      <ref role="3uigEE" to="7hgv:~CommandAssembler" resolve="CommandAssembler" />
                     </node>
                     <node concept="2ShNRf" id="G5bxgOnsIE" role="33vP2m">
                       <node concept="1pGfFk" id="G5bxgOnsIF" role="2ShVmc">
-                        <ref role="37wK5l" to="r9z8:~CommandAssembler.&lt;init&gt;()" resolve="CommandAssembler" />
+                        <ref role="37wK5l" to="7hgv:~CommandAssembler.&lt;init&gt;()" resolve="CommandAssembler" />
                       </node>
                     </node>
                   </node>
@@ -3868,14 +3876,14 @@
                       <ref role="3cqZAo" node="G5bxgOma3X" resolve="assembler" />
                     </node>
                     <node concept="liA8E" id="G5bxgOoDDm" role="2OqNvi">
-                      <ref role="37wK5l" to="r9z8:~CommandAssembler.setLocalEnvironment(java.util.Set):void" resolve="setLocalEnvironment" />
+                      <ref role="37wK5l" to="7hgv:~CommandAssembler.setLocalEnvironment(java.util.Set):void" resolve="setLocalEnvironment" />
                       <node concept="2OqwBi" id="G5bxgOoGbi" role="37wK5m">
                         <node concept="2YIFZM" id="G5bxgOoDOx" role="2Oq$k0">
-                          <ref role="37wK5l" to="e2lb:~System.getenv():java.util.Map" resolve="getenv" />
-                          <ref role="1Pybhc" to="e2lb:~System" resolve="System" />
+                          <ref role="37wK5l" to="wyt6:~System.getenv():java.util.Map" resolve="getenv" />
+                          <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
                         </node>
                         <node concept="liA8E" id="G5bxgOoJhO" role="2OqNvi">
-                          <ref role="37wK5l" to="k7g3:~Map.keySet():java.util.Set" resolve="keySet" />
+                          <ref role="37wK5l" to="33ny:~Map.keySet():java.util.Set" resolve="keySet" />
                         </node>
                       </node>
                     </node>
@@ -3908,7 +3916,7 @@
                             <ref role="3cqZAo" node="G5bxgOpu7o" resolve="samples" />
                           </node>
                           <node concept="liA8E" id="G5bxgOoaxI" role="2OqNvi">
-                            <ref role="37wK5l" to="k7g3:~ArrayList.get(int):java.lang.Object" resolve="get" />
+                            <ref role="37wK5l" to="33ny:~ArrayList.get(int):java.lang.Object" resolve="get" />
                             <node concept="37vLTw" id="G5bxgOoh0I" role="37wK5m">
                               <ref role="3cqZAo" node="G5bxgOodXu" resolve="i" />
                             </node>
@@ -3921,11 +3929,11 @@
                 <node concept="3clFbF" id="G5bxgOoUIk" role="3cqZAp">
                   <node concept="2OqwBi" id="G5bxgOoUIg" role="3clFbG">
                     <node concept="10M0yZ" id="G5bxgOoUIh" role="2Oq$k0">
-                      <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
-                      <ref role="3cqZAo" to="e2lb:~System.out" resolve="out" />
+                      <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                      <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
                     </node>
                     <node concept="liA8E" id="G5bxgOoUIi" role="2OqNvi">
-                      <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
+                      <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
                       <node concept="37vLTw" id="G5bxgOoVuw" role="37wK5m">
                         <ref role="3cqZAo" node="G5bxgOohuL" resolve="cmd" />
                       </node>
@@ -3938,7 +3946,7 @@
                       <ref role="3cqZAo" node="G5bxgOma3X" resolve="assembler" />
                     </node>
                     <node concept="liA8E" id="G5bxgOma6P" role="2OqNvi">
-                      <ref role="37wK5l" to="r9z8:~CommandAssembler.appendCommand(java.lang.String):void" resolve="appendCommand" />
+                      <ref role="37wK5l" to="7hgv:~CommandAssembler.appendCommand(java.lang.String):void" resolve="appendCommand" />
                       <node concept="37vLTw" id="G5bxgOohEC" role="37wK5m">
                         <ref role="3cqZAo" node="G5bxgOohuL" resolve="cmd" />
                       </node>
@@ -3951,7 +3959,7 @@
                       <ref role="3cqZAo" node="G5bxgOma3T" resolve="commandBuffer" />
                     </node>
                     <node concept="liA8E" id="G5bxgOma6W" role="2OqNvi">
-                      <ref role="37wK5l" to="e2lb:~StringBuffer.append(java.lang.String):java.lang.StringBuffer" resolve="append" />
+                      <ref role="37wK5l" to="wyt6:~StringBuffer.append(java.lang.String):java.lang.StringBuffer" resolve="append" />
                       <node concept="37vLTw" id="G5bxgOoiDI" role="37wK5m">
                         <ref role="3cqZAo" node="G5bxgOohuL" resolve="cmd" />
                       </node>
@@ -3968,7 +3976,7 @@
                     <property role="3TUv4t" value="false" />
                     <property role="TrG5h" value="plan" />
                     <node concept="3uibUv" id="G5bxgOma4d" role="1tU5fm">
-                      <ref role="3uigEE" to="r9z8:~CommandExecutionPlan" resolve="CommandExecutionPlan" />
+                      <ref role="3uigEE" to="7hgv:~CommandExecutionPlan" resolve="CommandExecutionPlan" />
                     </node>
                     <node concept="10Nm6u" id="G5bxgOma4e" role="33vP2m" />
                   </node>
@@ -4002,7 +4010,7 @@
                                 <ref role="3cqZAo" node="G5bxgOma4b" resolve="plan" />
                               </node>
                               <node concept="liA8E" id="G5bxgOma73" role="2OqNvi">
-                                <ref role="37wK5l" to="r9z8:~CommandExecutionPlan.executedCompletely():boolean" resolve="executedCompletely" />
+                                <ref role="37wK5l" to="7hgv:~CommandExecutionPlan.executedCompletely():boolean" resolve="executedCompletely" />
                               </node>
                             </node>
                           </node>
@@ -4021,7 +4029,7 @@
                           <ref role="3cqZAo" node="G5bxgOma3X" resolve="assembler" />
                         </node>
                         <node concept="liA8E" id="G5bxgOma77" role="2OqNvi">
-                          <ref role="37wK5l" to="r9z8:~CommandAssembler.finishAssembly():void" resolve="finishAssembly" />
+                          <ref role="37wK5l" to="7hgv:~CommandAssembler.finishAssembly():void" resolve="finishAssembly" />
                         </node>
                       </node>
                     </node>
@@ -4035,25 +4043,25 @@
                             <ref role="3cqZAo" node="G5bxgOma3X" resolve="assembler" />
                           </node>
                           <node concept="liA8E" id="G5bxgOma7b" role="2OqNvi">
-                            <ref role="37wK5l" to="r9z8:~CommandAssembler.getCommandExecutionPlan():org.campagnelab.nyosh.exec.CommandExecutionPlan" resolve="getCommandExecutionPlan" />
+                            <ref role="37wK5l" to="7hgv:~CommandAssembler.getCommandExecutionPlan():org.campagnelab.nyosh.exec.CommandExecutionPlan" resolve="getCommandExecutionPlan" />
                           </node>
                         </node>
                       </node>
                     </node>
-                    <node concept="3SKdUt" id="G5bxgOp39j" role="3cqZAp">
-                      <node concept="3SKWN0" id="G5bxgOp39k" role="3SKWNk">
-                        <node concept="3clFbF" id="G5bxgOma4s" role="3SKWNf">
-                          <node concept="37vLTI" id="G5bxgOma4t" role="3clFbG">
-                            <node concept="37vLTw" id="G5bxgOma4u" role="37vLTJ">
-                              <ref role="3cqZAo" node="G5bxgOnATS" resolve="lastExitCode" />
+                    <node concept="1X3_iC" id="16pFkr3wWqi" role="lGtFl">
+                      <property role="3V$3am" value="statement" />
+                      <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+                      <node concept="3clFbF" id="G5bxgOma4s" role="8Wnug">
+                        <node concept="37vLTI" id="G5bxgOma4t" role="3clFbG">
+                          <node concept="37vLTw" id="G5bxgOma4u" role="37vLTJ">
+                            <ref role="3cqZAo" node="G5bxgOnATS" resolve="lastExitCode" />
+                          </node>
+                          <node concept="2OqwBi" id="G5bxgOma7e" role="37vLTx">
+                            <node concept="37vLTw" id="G5bxgOma7d" role="2Oq$k0">
+                              <ref role="3cqZAo" node="G5bxgOma4b" resolve="plan" />
                             </node>
-                            <node concept="2OqwBi" id="G5bxgOma7e" role="37vLTx">
-                              <node concept="37vLTw" id="G5bxgOma7d" role="2Oq$k0">
-                                <ref role="3cqZAo" node="G5bxgOma4b" resolve="plan" />
-                              </node>
-                              <node concept="liA8E" id="G5bxgOma7f" role="2OqNvi">
-                                <ref role="37wK5l" to="r9z8:~CommandExecutionPlan.run():int" resolve="run" />
-                              </node>
+                            <node concept="liA8E" id="G5bxgOma7f" role="2OqNvi">
+                              <ref role="37wK5l" to="7hgv:~CommandExecutionPlan.run():int" resolve="run" />
                             </node>
                           </node>
                         </node>

@@ -2,7 +2,7 @@
 <model ref="r:0f28fa4d-9625-4db3-91b7-0ff856663fbf(org.campagnelab.gobyweb.interactive.mergeplan.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -13,6 +13,7 @@
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
+        <property id="1587916991969465369" name="conceptId" index="1pbfSe" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -41,6 +42,7 @@
   </registry>
   <node concept="1TIwiD" id="7bhX9q5mvZj">
     <property role="TrG5h" value="MergePlanEditor" />
+    <property role="1pbfSe" value="131337111" />
     <ref role="1TJDcQ" to="bs99:4yAVcLSZo0N" resolve="AbstractFileSetInstanceRef" />
     <node concept="1TJgyj" id="7bhX9q5ou$y" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -66,6 +68,7 @@
   </node>
   <node concept="1TIwiD" id="7bhX9q5m_1s">
     <property role="TrG5h" value="MergedSample" />
+    <property role="1pbfSe" value="131316494" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7bhX9q5mE9Z" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -80,6 +83,7 @@
   <node concept="1TIwiD" id="7bhX9q5mEa1">
     <property role="TrG5h" value="FSInstancesPair" />
     <property role="R4oN_" value="Links fileset instances that belong to a pair of reads" />
+    <property role="1pbfSe" value="131295465" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7bhX9q5mEa4" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -95,6 +99,7 @@
   </node>
   <node concept="1TIwiD" id="7bhX9q5p6Gc">
     <property role="TrG5h" value="WithPairInfo" />
+    <property role="1pbfSe" value="130654302" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="7bhX9q5p6FK" role="1TKVEl">
       <property role="TrG5h" value="pairIndicator1" />

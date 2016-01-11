@@ -2,7 +2,7 @@
 <model ref="r:c68a8ced-fbf7-48e1-b1e0-40266e57501f(org.campagnelab.gobyweb.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -20,6 +20,7 @@
         <property id="4628067390765956807" name="final" index="R5$K2" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
+        <property id="1587916991969465369" name="conceptId" index="1pbfSe" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -54,6 +55,7 @@
     <property role="TrG5h" value="PluginScript" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
+    <property role="1pbfSe" value="57375226" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="5XBY1KyMxad" role="1TKVEl">
       <property role="TrG5h" value="pluginId" />
@@ -96,6 +98,7 @@
   </node>
   <node concept="1TIwiD" id="WwPlZOkKY5">
     <property role="TrG5h" value="PluginTree" />
+    <property role="1pbfSe" value="57926884" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="WwPlZOkKY6" role="1TKVEl">
       <property role="TrG5h" value="pluginRoot" />
@@ -112,6 +115,7 @@
   </node>
   <node concept="1TIwiD" id="5XBY1KyMxak">
     <property role="TrG5h" value="PluginSystemRootDirectory" />
+    <property role="1pbfSe" value="2110649680" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="5XBY1KyMxaK" role="1TKVEl">
       <property role="TrG5h" value="path" />
@@ -129,6 +133,7 @@
   <node concept="1TIwiD" id="Vy7Dhr7POi">
     <property role="TrG5h" value="RunMpsScript" />
     <property role="19KtqR" value="true" />
+    <property role="1pbfSe" value="1778482086" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="Vy7Dhr8Aqh" role="1TKVEl">
       <property role="TrG5h" value="conceptName" />
@@ -149,6 +154,7 @@
   <node concept="1TIwiD" id="Vy7Dhr7PSU">
     <property role="TrG5h" value="ExecutablePluginScript" />
     <property role="19KtqR" value="true" />
+    <property role="1pbfSe" value="1778482382" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="Vy7Dhr8fOe" role="1TKVEl">
       <property role="TrG5h" value="pluginKind" />
@@ -161,6 +167,7 @@
   <node concept="1TIwiD" id="2Ka1amXnA7G">
     <property role="TrG5h" value="AlignerAlignEntryPointPrototype" />
     <property role="3GE5qa" value="aligners" />
+    <property role="1pbfSe" value="379033967" />
     <ref role="1TJDcQ" to="4tvk:2t3yPFUyLch" resolve="EntryPointPrototype" />
     <node concept="PrWs8" id="2Ka1amXnAbX" role="PzmwI">
       <ref role="PrY4T" to="4tvk:2t3yPFUw_2q" resolve="IEntryPointPrototype" />
@@ -169,6 +176,7 @@
   <node concept="1TIwiD" id="2Ka1amXoX4Y">
     <property role="TrG5h" value="AlignerAlignEntryPoint" />
     <property role="3GE5qa" value="aligners" />
+    <property role="1pbfSe" value="378677789" />
     <ref role="1TJDcQ" node="lqjxISMF33" resolve="GobyWebEntryPoint" />
   </node>
   <node concept="1TIwiD" id="2Ka1amXn_om">
@@ -177,6 +185,7 @@
     <property role="R5$K2" value="true" />
     <property role="R5$K7" value="false" />
     <property role="3GE5qa" value="aligners" />
+    <property role="1pbfSe" value="379036997" />
     <ref role="1TJDcQ" node="WwPlZOiEir" resolve="PluginScript" />
   </node>
   <node concept="1TIwiD" id="6QCj_hNFzOK">
@@ -186,16 +195,19 @@
     <property role="R4oN_" value="model a script for artifact installation" />
     <property role="R5$K2" value="true" />
     <property role="R5$K7" value="false" />
+    <property role="1pbfSe" value="514421884" />
     <ref role="1TJDcQ" node="WwPlZOiEir" resolve="PluginScript" />
   </node>
   <node concept="1TIwiD" id="6QCj_hNKUTB">
     <property role="TrG5h" value="ArtifactInstallEntryPoint" />
     <property role="3GE5qa" value="resources" />
+    <property role="1pbfSe" value="513016645" />
     <ref role="1TJDcQ" node="lqjxISMF33" resolve="GobyWebEntryPoint" />
   </node>
   <node concept="1TIwiD" id="6QCj_hNKVQ0">
     <property role="3GE5qa" value="resources" />
     <property role="TrG5h" value="ArtifactInstallEntryPointPrototype" />
+    <property role="1pbfSe" value="513012780" />
     <ref role="1TJDcQ" to="4tvk:2t3yPFUyLch" resolve="EntryPointPrototype" />
     <node concept="PrWs8" id="6QCj_hNKVQ1" role="PzmwI">
       <ref role="PrY4T" to="4tvk:2t3yPFUw_2q" resolve="IEntryPointPrototype" />
@@ -204,11 +216,13 @@
   <node concept="1TIwiD" id="2Ka1amYa7VP">
     <property role="3GE5qa" value="resources" />
     <property role="TrG5h" value="ArtifactAttributeValuesEntryPoint" />
+    <property role="1pbfSe" value="365788262" />
     <ref role="1TJDcQ" node="lqjxISMF33" resolve="GobyWebEntryPoint" />
   </node>
   <node concept="1TIwiD" id="2Ka1amYa80W">
     <property role="3GE5qa" value="resources" />
     <property role="TrG5h" value="ArtifactAttributeValuesEntryPointPrototype" />
+    <property role="1pbfSe" value="365787935" />
     <ref role="1TJDcQ" to="4tvk:2t3yPFUyLch" resolve="EntryPointPrototype" />
     <node concept="PrWs8" id="2Ka1amYaDEf" role="PzmwI">
       <ref role="PrY4T" to="4tvk:2t3yPFUw_2q" resolve="IEntryPointPrototype" />
@@ -216,6 +230,7 @@
   </node>
   <node concept="1TIwiD" id="lqjxISMF33">
     <property role="TrG5h" value="GobyWebEntryPoint" />
+    <property role="1pbfSe" value="1104871714" />
     <ref role="1TJDcQ" to="4tvk:3MBjcdJZEXx" resolve="EntryPoint" />
     <node concept="PrWs8" id="5p_lLDNA7SZ" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
@@ -225,16 +240,19 @@
     <property role="TrG5h" value="TaskScript" />
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="tasks" />
+    <property role="1pbfSe" value="101996864" />
     <ref role="1TJDcQ" node="WwPlZOiEir" resolve="PluginScript" />
   </node>
   <node concept="1TIwiD" id="641bDMoUEke">
     <property role="3GE5qa" value="tasks" />
     <property role="TrG5h" value="TaskEntryPoint" />
+    <property role="1pbfSe" value="101985366" />
     <ref role="1TJDcQ" node="lqjxISMF33" resolve="GobyWebEntryPoint" />
   </node>
   <node concept="1TIwiD" id="641bDMoULaG">
     <property role="3GE5qa" value="tasks" />
     <property role="TrG5h" value="TaskEntryPointPrototype" />
+    <property role="1pbfSe" value="101957304" />
     <ref role="1TJDcQ" to="4tvk:2t3yPFUyLch" resolve="EntryPointPrototype" />
     <node concept="PrWs8" id="641bDMoULeY" role="PzmwI">
       <ref role="PrY4T" to="4tvk:2t3yPFUw_2q" resolve="IEntryPointPrototype" />
@@ -244,31 +262,37 @@
     <property role="TrG5h" value="AlignmentAnalysisScript" />
     <property role="3GE5qa" value="analyses" />
     <property role="19KtqR" value="true" />
+    <property role="1pbfSe" value="773992431" />
     <ref role="1TJDcQ" node="WwPlZOiEir" resolve="PluginScript" />
   </node>
   <node concept="1TIwiD" id="4Ji92Q63agW">
     <property role="3GE5qa" value="analyses" />
     <property role="TrG5h" value="AlignmentAnalysisSplitEntryPoint" />
+    <property role="1pbfSe" value="773928855" />
     <ref role="1TJDcQ" node="lqjxISMF33" resolve="GobyWebEntryPoint" />
   </node>
   <node concept="1TIwiD" id="4Ji92Q65RvG">
     <property role="3GE5qa" value="analyses" />
     <property role="TrG5h" value="AlignmentAnalysisNumPartsEntryPoint" />
+    <property role="1pbfSe" value="773219303" />
     <ref role="1TJDcQ" node="lqjxISMF33" resolve="GobyWebEntryPoint" />
   </node>
   <node concept="1TIwiD" id="4Ji92Q66$zS">
     <property role="3GE5qa" value="analyses" />
     <property role="TrG5h" value="AlignmentAnalysisProcessEntryPoint" />
+    <property role="1pbfSe" value="773034715" />
     <ref role="1TJDcQ" node="lqjxISMF33" resolve="GobyWebEntryPoint" />
   </node>
   <node concept="1TIwiD" id="4Ji92Q68Fjk">
     <property role="3GE5qa" value="analyses" />
     <property role="TrG5h" value="AlignmentAnalysisCombineEntryPoint" />
+    <property role="1pbfSe" value="772482815" />
     <ref role="1TJDcQ" node="lqjxISMF33" resolve="GobyWebEntryPoint" />
   </node>
   <node concept="1TIwiD" id="4Ji92Q68Ma$">
     <property role="3GE5qa" value="analyses" />
     <property role="TrG5h" value="AlignmentAnalysisCombinePrototype" />
+    <property role="1pbfSe" value="772454703" />
     <ref role="1TJDcQ" to="4tvk:2t3yPFUyLch" resolve="EntryPointPrototype" />
     <node concept="PrWs8" id="4Ji92Q68MbY" role="PzmwI">
       <ref role="PrY4T" to="4tvk:2t3yPFUw_2q" resolve="IEntryPointPrototype" />
@@ -277,6 +301,7 @@
   <node concept="1TIwiD" id="4Ji92Q68McO">
     <property role="3GE5qa" value="analyses" />
     <property role="TrG5h" value="AlignmentAnalysisNumPartsPrototype" />
+    <property role="1pbfSe" value="772454559" />
     <ref role="1TJDcQ" to="4tvk:2t3yPFUyLch" resolve="EntryPointPrototype" />
     <node concept="PrWs8" id="4Ji92Q69vw9" role="PzmwI">
       <ref role="PrY4T" to="4tvk:2t3yPFUw_2q" resolve="IEntryPointPrototype" />
@@ -285,6 +310,7 @@
   <node concept="1TIwiD" id="4Ji92Q69HJU">
     <property role="3GE5qa" value="analyses" />
     <property role="TrG5h" value="AlignmentAnalysisSplitPrototype" />
+    <property role="1pbfSe" value="772210649" />
     <ref role="1TJDcQ" to="4tvk:2t3yPFUyLch" resolve="EntryPointPrototype" />
     <node concept="PrWs8" id="4Ji92Q6arwB" role="PzmwI">
       <ref role="PrY4T" to="4tvk:2t3yPFUw_2q" resolve="IEntryPointPrototype" />
@@ -293,6 +319,7 @@
   <node concept="1TIwiD" id="4Ji92Q6arHf">
     <property role="3GE5qa" value="analyses" />
     <property role="TrG5h" value="AlignmentAnalysisProcessPrototype" />
+    <property role="1pbfSe" value="772022404" />
     <ref role="1TJDcQ" to="4tvk:2t3yPFUyLch" resolve="EntryPointPrototype" />
     <node concept="PrWs8" id="4Ji92Q6b9Um" role="PzmwI">
       <ref role="PrY4T" to="4tvk:2t3yPFUw_2q" resolve="IEntryPointPrototype" />
@@ -303,6 +330,7 @@
     <property role="3GE5qa" value="io" />
     <property role="34LRSv" value="is slot available" />
     <property role="R4oN_" value="check if there are filesets associated to the slot " />
+    <property role="1pbfSe" value="1402703966" />
     <ref role="1TJDcQ" node="3NouR0QYw2Y" resolve="FileSetExpression" />
     <node concept="1TJgyj" id="5j6543YQs$s" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -315,6 +343,7 @@
     <property role="3GE5qa" value="io" />
     <property role="TrG5h" value="FileSetCommand" />
     <property role="R5$K7" value="true" />
+    <property role="1pbfSe" value="1403457932" />
     <ref role="1TJDcQ" to="4tvk:74HGF0nFncD" resolve="AbstractCommand" />
     <node concept="1TJgyj" id="3NouR0Q9VXk" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -328,6 +357,7 @@
     <property role="TrG5h" value="FileSetFetchCommand" />
     <property role="R4oN_" value="fetch files from the permanent storage area" />
     <property role="34LRSv" value="fetch files" />
+    <property role="1pbfSe" value="1405233003" />
     <ref role="1TJDcQ" node="5j6543YSfPc" resolve="FileSetCommand" />
     <node concept="1TJgyi" id="3NouR0QAJpW" role="1TKVEl">
       <property role="TrG5h" value="status" />
@@ -345,6 +375,7 @@
     <property role="TrG5h" value="FileSetPushCommand" />
     <property role="34LRSv" value="push files" />
     <property role="R4oN_" value="push files into the permanent storage area" />
+    <property role="1pbfSe" value="1405233129" />
     <ref role="1TJDcQ" node="5j6543YSfPc" resolve="FileSetCommand" />
     <node concept="1TJgyj" id="5j6543YZ1k_" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -364,6 +395,7 @@
     <property role="TrG5h" value="FileSetFetchExpression" />
     <property role="34LRSv" value="fetch files" />
     <property role="R4oN_" value="fetch files from the permanent storage area" />
+    <property role="1pbfSe" value="1406723685" />
     <ref role="1TJDcQ" node="3NouR0QYw2Y" resolve="FileSetExpression" />
     <node concept="1TJgyj" id="5j6543Z4H8E" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -377,6 +409,7 @@
     <property role="TrG5h" value="FileSetPushExpression" />
     <property role="34LRSv" value="push files" />
     <property role="R4oN_" value="push files into the permanent storage area" />
+    <property role="1pbfSe" value="1407487897" />
     <ref role="1TJDcQ" node="3NouR0QYw2Y" resolve="FileSetExpression" />
     <node concept="1TJgyj" id="5j6543Z7C58" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -396,6 +429,7 @@
     <property role="TrG5h" value="FileSetExpression" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
+    <property role="1pbfSe" value="1943174190" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="1TJgyj" id="3NouR0QYw76" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -407,6 +441,7 @@
   <node concept="1TIwiD" id="5DSEw1PRjJY">
     <property role="TrG5h" value="PluginReference" />
     <property role="R4oN_" value="a reference to a plugin" />
+    <property role="1pbfSe" value="799676930" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="5DSEw1PRjJZ" role="1TKVEl">
       <property role="TrG5h" value="pluginID" />
@@ -423,6 +458,7 @@
   </node>
   <node concept="1TIwiD" id="5DSEw1PRjK2">
     <property role="TrG5h" value="PluginRegistry" />
+    <property role="1pbfSe" value="799676926" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5DSEw1PRjK3" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />

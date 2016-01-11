@@ -3,16 +3,16 @@
   <persistence version="9" />
   <languages>
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="-1" />
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
     <import index="bs99" ref="r:29480130-ace9-4987-af0f-a6efca1c6495(org.campagnelab.gobyweb.interactive.structure)" />
     <import index="lcm8" ref="r:19e666fd-ce33-4549-bbc2-aa106ce25584(org.campagnelab.gobyweb.interactive.behavior)" />
     <import index="dzk5" ref="r:2bfcc546-5c51-4762-9df2-c43920be4458(org.campagnelab.gobyweb.plugins.structure)" />
-    <import index="fxg7" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
+    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -628,7 +628,7 @@
             <node concept="2OqwBi" id="4N_zIqrud33" role="3fr31v">
               <node concept="2ShNRf" id="4N_zIqrud34" role="2Oq$k0">
                 <node concept="1pGfFk" id="4N_zIqrud35" role="2ShVmc">
-                  <ref role="37wK5l" to="fxg7:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
+                  <ref role="37wK5l" to="guwi:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
                   <node concept="2OqwBi" id="4N_zIqrud36" role="37wK5m">
                     <node concept="1YBJjd" id="4N_zIqrud37" role="2Oq$k0">
                       <ref role="1YBMHb" node="5HtPvjg_Uk_" resolve="pluginRepository" />
@@ -640,7 +640,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="4N_zIqrud39" role="2OqNvi">
-                <ref role="37wK5l" to="fxg7:~File.exists():boolean" resolve="exists" />
+                <ref role="37wK5l" to="guwi:~File.exists():boolean" resolve="exists" />
               </node>
             </node>
           </node>
@@ -745,7 +745,7 @@
             <node concept="2OqwBi" id="5HtPvjgPH2A" role="3fr31v">
               <node concept="2ShNRf" id="5HtPvjgPH2B" role="2Oq$k0">
                 <node concept="1pGfFk" id="5HtPvjgPH2C" role="2ShVmc">
-                  <ref role="37wK5l" to="fxg7:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
+                  <ref role="37wK5l" to="guwi:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
                   <node concept="2OqwBi" id="5HtPvjgPH2D" role="37wK5m">
                     <node concept="1YBJjd" id="5HtPvjgPH2E" role="2Oq$k0">
                       <ref role="1YBMHb" node="5HtPvjgP_Iz" resolve="downloadLocation" />
@@ -757,7 +757,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="5HtPvjgPH2G" role="2OqNvi">
-                <ref role="37wK5l" to="fxg7:~File.isDirectory():boolean" resolve="isDirectory" />
+                <ref role="37wK5l" to="guwi:~File.isDirectory():boolean" resolve="isDirectory" />
               </node>
             </node>
           </node>
@@ -1171,7 +1171,7 @@
                               </node>
                             </node>
                             <node concept="liA8E" id="6K40ojJaOuf" role="2OqNvi">
-                              <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                               <node concept="2OqwBi" id="6K40ojJaDXP" role="37wK5m">
                                 <node concept="2OqwBi" id="6K40ojJaDXQ" role="2Oq$k0">
                                   <node concept="37vLTw" id="6K40ojJaDXR" role="2Oq$k0">

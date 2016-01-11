@@ -2,12 +2,12 @@
 <model ref="r:48d5f7d2-24be-4d82-ac12-8f4a2d414b11(org.campagnelab.nyosh.gstring.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -16,6 +16,7 @@
         <property id="4628067390765956807" name="final" index="R5$K2" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
+        <property id="1587916991969465369" name="conceptId" index="1pbfSe" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -45,6 +46,7 @@
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="gstring" />
     <property role="R4oN_" value="GStrings support embedded variable references, for instance &quot;some text ${var}&quot; will be a valid GString if var was defined in the scope of the expression." />
+    <property role="1pbfSe" value="1386502681" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="1TJgyj" id="Scn7avjSyV" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -58,11 +60,13 @@
     <property role="2_RsDV" value="root" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
+    <property role="1pbfSe" value="1386486481" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="Scn7avjSAm">
     <property role="TrG5h" value="GStringLiteral" />
     <property role="34LRSv" value="literal" />
+    <property role="1pbfSe" value="1386486264" />
     <ref role="1TJDcQ" node="Scn7avjSyX" resolve="GStringComponent" />
     <node concept="1TJgyi" id="Scn7avjSAn" role="1TKVEl">
       <property role="TrG5h" value="value" />
@@ -71,6 +75,7 @@
   </node>
   <node concept="1TIwiD" id="Scn7avjSAp">
     <property role="TrG5h" value="GStringVarReference" />
+    <property role="1pbfSe" value="1386486261" />
     <ref role="1TJDcQ" node="Scn7avjSyX" resolve="GStringComponent" />
     <node concept="1TJgyj" id="3yTLPkAUjD7" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -81,6 +86,7 @@
   </node>
   <node concept="1TIwiD" id="2pa0lGsYiBM">
     <property role="TrG5h" value="ListOfStringExpressions" />
+    <property role="1pbfSe" value="1128475469" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="1TJgyj" id="2pa0lGsYiBN" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />

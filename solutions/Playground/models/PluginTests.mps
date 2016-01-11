@@ -4,16 +4,16 @@
   <languages>
     <use id="489e31af-0445-4cbf-894b-a4bab1f18426" name="org.campagnelab.gobyweb.plugins.test" version="-1" />
     <use id="a21a7294-c126-4f63-8335-8fecd8c28c7e" name="org.campagnelab.NYoSh" version="-1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="-1" />
     <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="-1" />
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="-1" />
     <use id="0202ed86-955d-4227-9c20-377dd6b1f9ff" name="org.campagnelab.nyosh.lib" version="-1" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
     <devkit ref="db81b829-e557-4467-b78e-cc1d44965622(org.campagnelab.devkit.gobyweb.interactive)" />
   </languages>
   <imports>
-    <import index="s3ut" ref="f:java_stub#0202ed86-955d-4227-9c20-377dd6b1f9ff#org.campagnelab.mercury.messages(org.campagnelab.nyosh.lib/org.campagnelab.mercury.messages@java_stub)" />
-    <import index="pbfx" ref="f:java_stub#489e31af-0445-4cbf-894b-a4bab1f18426#org.campagnelab.gobyweb.plugins.runner(org.campagnelab.gobyweb.plugins.test/org.campagnelab.gobyweb.plugins.runner@java_stub)" />
-    <import index="z178" ref="f:java_stub#0202ed86-955d-4227-9c20-377dd6b1f9ff#org.campagnelab.mercury.messages.job(org.campagnelab.nyosh.lib/org.campagnelab.mercury.messages.job@java_stub)" />
+    <import index="gcvk" ref="0202ed86-955d-4227-9c20-377dd6b1f9ff/java:org.campagnelab.mercury.messages(org.campagnelab.nyosh.lib/)" />
+    <import index="4n5s" ref="489e31af-0445-4cbf-894b-a4bab1f18426/java:org.campagnelab.gobyweb.plugins.runner(org.campagnelab.gobyweb.plugins.test/)" />
+    <import index="a133" ref="0202ed86-955d-4227-9c20-377dd6b1f9ff/java:org.campagnelab.mercury.messages.job(org.campagnelab.nyosh.lib/)" />
     <import index="bd2x" ref="r:aa9c91aa-8100-4e98-88e5-b9737f1d54b8(model.organisms)" implicit="true" />
   </imports>
   <registry>
