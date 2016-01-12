@@ -27,35 +27,7 @@
     </modelRoot>
   </models>
   <accessoryModels />
-  <generators>
-    <generator name="main" generatorUID="org.campagnelab.nyosh.lib#2108047589035521983" uuid="71502830-66bc-4ce0-bdbf-2d7ea7b83989">
-      <models>
-        <modelRoot contentPath="${module}" type="default">
-          <sourceRoot location="generator" />
-        </modelRoot>
-      </models>
-      <external-templates />
-      <usedDevKits>
-        <usedDevKit>fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)</usedDevKit>
-      </usedDevKits>
-      <languageVersions>
-        <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" fqName="jetbrains.mps.lang.core" version="1" />
-        <language id="b401a680-8325-4110-8fd3-84331ff25bef" fqName="jetbrains.mps.lang.generator" version="0" />
-      </languageVersions>
-      <dependencyVersions>
-        <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
-        <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
-        <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
-        <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
-        <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
-        <module reference="d7eb0a2a-bd50-4576-beae-e4a89db35f20(jetbrains.mps.lang.scopes.runtime)" version="0" />
-        <module reference="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" version="0" />
-        <module reference="0202ed86-955d-4227-9c20-377dd6b1f9ff(org.campagnelab.nyosh.lib)" version="0" />
-        <module reference="71502830-66bc-4ce0-bdbf-2d7ea7b83989(org.campagnelab.nyosh.lib#2108047589035521983)" version="0" />
-      </dependencyVersions>
-      <mapping-priorities />
-    </generator>
-  </generators>
+  <generators />
   <stubModelEntries>
     <stubModelEntry path="${module}/activemq-client-5.9.1.jar" />
     <stubModelEntry path="${module}/fastutil-6.4.4.jar" />
