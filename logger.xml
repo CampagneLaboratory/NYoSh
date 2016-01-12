@@ -224,7 +224,7 @@
   <target name="java.compile.org.campagnelab.logger" depends="fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.logger/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.logger" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.logger" fork="false" includeantruntime="false" source="1.6" target="1.6">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.logger" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/org.campagnelab.logger/source_gen" />
@@ -278,7 +278,7 @@
   <target name="java.compile.org.campagnelab.logger#6793035292239232706" depends="java.compile.org.campagnelab.logger, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.logger/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.logger#6793035292239232706" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.logger#6793035292239232706" fork="false" includeantruntime="false" source="1.6" target="1.6">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.logger#6793035292239232706" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/org.campagnelab.logger/generator/source_gen" />

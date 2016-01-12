@@ -210,7 +210,7 @@
   <target name="java.compile.org.campagnelab.background" depends="fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.background/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.background" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.background" fork="false" includeantruntime="false" source="1.6" target="1.6">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.background" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/org.campagnelab.background/source_gen" />
@@ -258,7 +258,7 @@
   <target name="java.compile.org.campagnelab.background#2434551981678683241" depends="java.compile.org.campagnelab.background, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.background/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.background#2434551981678683241" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.background#2434551981678683241" fork="false" includeantruntime="false" source="1.6" target="1.6">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.background#2434551981678683241" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/org.campagnelab.background/generator/source_gen" />

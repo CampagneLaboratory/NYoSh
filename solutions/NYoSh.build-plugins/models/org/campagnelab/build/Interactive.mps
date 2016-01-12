@@ -52,6 +52,7 @@
       </concept>
       <concept id="927724900262033858" name="jetbrains.mps.build.structure.BuildSource_JavaOptions" flags="ng" index="2_Ic$z">
         <property id="6998860900671147996" name="javaLevel" index="TZNOO" />
+        <property id="4416461515995611908" name="fork" index="1ck6Xt" />
       </concept>
       <concept id="4380385936562003279" name="jetbrains.mps.build.structure.BuildString" flags="ng" index="NbPM2">
         <child id="4903714810883783243" name="parts" index="3MwsjC" />
@@ -1616,6 +1617,7 @@
     </node>
     <node concept="2_Ic$z" id="31yq_4rywjw" role="3989C9">
       <property role="TZNOO" value="1.7" />
+      <property role="1ck6Xt" value="true" />
     </node>
   </node>
 </model>

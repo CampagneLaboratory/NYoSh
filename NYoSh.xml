@@ -751,7 +751,7 @@
   <target name="java.compile.org.campagnelab.util" depends="java.compile.org.campagnelab.nyosh.lib, fetchDependencies">
     <mkdir dir="${basedir}/solutions/org.campagnelab.util/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.util" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.util" fork="false" includeantruntime="false" source="1.7" target="1.7">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.util" fork="true" includeantruntime="false" source="1.7" target="1.7">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/solutions/org.campagnelab.util/source_gen" />
@@ -811,7 +811,7 @@
   <target name="java.compile.org.campagnelab.nyosh.environment" depends="java.compile.org.campagnelab.nyosh.gstring, java.compile.org.campagnelab.nyosh.lib, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.nyosh.environment/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.nyosh.environment" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.environment" fork="false" includeantruntime="false" source="1.7" target="1.7">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.environment" fork="true" includeantruntime="false" source="1.7" target="1.7">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/org.campagnelab.nyosh.environment/source_gen" />
@@ -880,7 +880,7 @@
   <target name="java.compile.org.campagnelab.nyosh.environment#3173353997360794809" depends="java.compile.org.campagnelab.nyosh.environment, java.compile.org.campagnelab.nyosh.gstring, java.compile.org.campagnelab.nyosh.lib, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.nyosh.environment/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.nyosh.environment#3173353997360794809" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.environment#3173353997360794809" fork="false" includeantruntime="false" source="1.7" target="1.7">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.environment#3173353997360794809" fork="true" includeantruntime="false" source="1.7" target="1.7">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/org.campagnelab.nyosh.environment/generator/source_gen" />
@@ -1019,7 +1019,7 @@
   <target name="java.compile.org.campagnelab.nyosh.functions" depends="java.compile.org.campagnelab.nyosh.gstring, java.compile.java.modules.cycle.1, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.nyosh.functions/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.nyosh.functions" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.functions" fork="false" includeantruntime="false" source="1.7" target="1.7">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.functions" fork="true" includeantruntime="false" source="1.7" target="1.7">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/org.campagnelab.nyosh.functions/source_gen" />
@@ -1072,7 +1072,7 @@
   <target name="java.compile.org.campagnelab.nyosh.functions#7596805840595249578" depends="java.compile.org.campagnelab.nyosh.functions, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.nyosh.functions/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.nyosh.functions#7596805840595249578" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.functions#7596805840595249578" fork="false" includeantruntime="false" source="1.7" target="1.7">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.functions#7596805840595249578" fork="true" includeantruntime="false" source="1.7" target="1.7">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/org.campagnelab.nyosh.functions/generator/source_gen" />
@@ -1117,7 +1117,7 @@
   <target name="java.compile.org.campagnelab.NYoSh" depends="java.compile.org.campagnelab.nyosh.gstring, java.compile.org.campagnelab.nyosh.lib, java.compile.java.modules.cycle.1, fetchDependencies">
     <mkdir dir="${basedir}/languages/NYoSh/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.NYoSh" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.NYoSh" fork="false" includeantruntime="false" source="1.7" target="1.7">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.NYoSh" fork="true" includeantruntime="false" source="1.7" target="1.7">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/NYoSh/source_gen" />
@@ -1190,7 +1190,7 @@
   <target name="java.compile.org.campagnelab.NYoSh#8197864363320338521" depends="java.compile.org.campagnelab.NYoSh, java.compile.org.campagnelab.nyosh.gstring, java.compile.org.campagnelab.nyosh.lib, fetchDependencies">
     <mkdir dir="${basedir}/languages/NYoSh/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.NYoSh#8197864363320338521" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.NYoSh#8197864363320338521" fork="false" includeantruntime="false" source="1.7" target="1.7">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.NYoSh#8197864363320338521" fork="true" includeantruntime="false" source="1.7" target="1.7">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/NYoSh/generator/source_gen" />
@@ -1263,7 +1263,7 @@
   <target name="java.compile.org.campagnelab.nyosh.gstring" depends="java.compile.org.campagnelab.nyosh.lib, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.nyosh.gstring/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.nyosh.gstring" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.gstring" fork="false" includeantruntime="false" source="1.7" target="1.7">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.gstring" fork="true" includeantruntime="false" source="1.7" target="1.7">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/org.campagnelab.nyosh.gstring/source_gen" />
@@ -1327,7 +1327,7 @@
   <target name="java.compile.org.campagnelab.nyosh.gstring#2328891098885696397" depends="java.compile.org.campagnelab.nyosh.gstring, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.nyosh.gstring/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.nyosh.gstring#2328891098885696397" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.gstring#2328891098885696397" fork="false" includeantruntime="false" source="1.7" target="1.7">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.gstring#2328891098885696397" fork="true" includeantruntime="false" source="1.7" target="1.7">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/org.campagnelab.nyosh.gstring/generator/source_gen" />
@@ -1372,7 +1372,7 @@
   <target name="java.compile.org.campagnelab.NYoSh.samples" depends="java.compile.org.campagnelab.nyosh.lib, fetchDependencies">
     <mkdir dir="${basedir}/solutions/org.campagnelab.NYoSh.samples/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.NYoSh.samples" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.NYoSh.samples" fork="false" includeantruntime="false" source="1.7" target="1.7">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.NYoSh.samples" fork="true" includeantruntime="false" source="1.7" target="1.7">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/solutions/org.campagnelab.NYoSh.samples/source_gen" />
@@ -1432,7 +1432,7 @@
   <target name="java.compile.org.campagnelab.nyosh.lib" depends="fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.nyosh.lib/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.nyosh.lib" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.lib" fork="false" includeantruntime="false" source="1.7" target="1.7">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.lib" fork="true" includeantruntime="false" source="1.7" target="1.7">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/org.campagnelab.nyosh.lib/source_gen" />
@@ -1491,7 +1491,7 @@
   <target name="java.compile.org.campagnelab.nyosh.lib#2108047589035521983" depends="java.compile.org.campagnelab.nyosh.lib, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.nyosh.lib/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.nyosh.lib#2108047589035521983" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.lib#2108047589035521983" fork="false" includeantruntime="false" source="1.7" target="1.7">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.lib#2108047589035521983" fork="true" includeantruntime="false" source="1.7" target="1.7">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/org.campagnelab.nyosh.lib/generator/source_gen" />
@@ -1551,7 +1551,7 @@
   <target name="java.compile.org.campagnelab.nyosh.pathpatterns" depends="java.compile.org.campagnelab.nyosh.gstring, java.compile.org.campagnelab.nyosh.lib, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.nyosh.pathpatterns/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.nyosh.pathpatterns" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.pathpatterns" fork="false" includeantruntime="false" source="1.7" target="1.7">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.pathpatterns" fork="true" includeantruntime="false" source="1.7" target="1.7">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/org.campagnelab.nyosh.pathpatterns/source_gen" />
@@ -1616,7 +1616,7 @@
   <target name="java.compile.org.campagnelab.nyosh.pathpatterns#1081263916558044417" depends="java.compile.org.campagnelab.nyosh.gstring, java.compile.org.campagnelab.nyosh.lib, java.compile.org.campagnelab.nyosh.pathpatterns, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.nyosh.pathpatterns/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.nyosh.pathpatterns#1081263916558044417" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.pathpatterns#1081263916558044417" fork="false" includeantruntime="false" source="1.7" target="1.7">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.pathpatterns#1081263916558044417" fork="true" includeantruntime="false" source="1.7" target="1.7">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/org.campagnelab.nyosh.pathpatterns/generator/source_gen" />
@@ -1682,7 +1682,7 @@
   <target name="java.compile.org.campagnelab.gobyweb.tags" depends="fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.gobyweb.tags/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.gobyweb.tags" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.tags" fork="false" includeantruntime="false" source="1.7" target="1.7">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.tags" fork="true" includeantruntime="false" source="1.7" target="1.7">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/org.campagnelab.gobyweb.tags/source_gen" />
@@ -1722,7 +1722,7 @@
   <target name="java.compile.org.campagnelab.gobyweb.tags#8273662917780736917" depends="java.compile.org.campagnelab.gobyweb.tags, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.gobyweb.tags/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.gobyweb.tags#8273662917780736917" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.tags#8273662917780736917" fork="false" includeantruntime="false" source="1.7" target="1.7">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.gobyweb.tags#8273662917780736917" fork="true" includeantruntime="false" source="1.7" target="1.7">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/org.campagnelab.gobyweb.tags/generator/source_gen" />
@@ -1763,7 +1763,7 @@
   <target name="java.compile.org.campagnelab.nyosh.interactive" depends="java.compile.org.campagnelab.NYoSh, java.compile.org.campagnelab.gobyweb.tags, java.compile.org.campagnelab.nyosh.gstring, java.compile.org.campagnelab.nyosh.lib, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.nyosh.interactive/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.nyosh.interactive" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.interactive" fork="false" includeantruntime="false" source="1.7" target="1.7">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.interactive" fork="true" includeantruntime="false" source="1.7" target="1.7">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/org.campagnelab.nyosh.interactive/source_gen" />
@@ -1854,7 +1854,7 @@
   <target name="java.compile.org.campagnelab.nyosh.interactive#6464425322393235212" depends="java.compile.org.campagnelab.nyosh.gstring, java.compile.org.campagnelab.nyosh.interactive, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.nyosh.interactive/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.nyosh.interactive#6464425322393235212" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.interactive#6464425322393235212" fork="false" includeantruntime="false" source="1.7" target="1.7">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.nyosh.interactive#6464425322393235212" fork="true" includeantruntime="false" source="1.7" target="1.7">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/org.campagnelab.nyosh.interactive/generator/source_gen" />

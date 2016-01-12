@@ -268,7 +268,7 @@
   <target name="java.compile.org.campagnelab.clusterConfig" depends="java.compile.org.campagnelab.ssh, fetchDependencies">
     <mkdir dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.clusterConfig/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.clusterConfig" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.clusterConfig" fork="false" includeantruntime="false" source="1.6" target="1.6">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.clusterConfig" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.clusterConfig/source_gen" />
@@ -317,7 +317,7 @@
   <target name="java.compile.org.campagnelab.clusterConfig#3050176288337496437" depends="java.compile.org.campagnelab.clusterConfig, fetchDependencies">
     <mkdir dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.clusterConfig/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.clusterConfig#3050176288337496437" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.clusterConfig#3050176288337496437" fork="false" includeantruntime="false" source="1.6" target="1.6">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.clusterConfig#3050176288337496437" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.clusterConfig/generator/source_gen" />
@@ -360,7 +360,7 @@
   <target name="java.compile.org.campagnelab.ssh" depends="fetchDependencies">
     <mkdir dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.ssh/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.ssh" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.ssh" fork="false" includeantruntime="false" source="1.6" target="1.6">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.ssh" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.ssh/source_gen" />
@@ -401,7 +401,7 @@
   <target name="java.compile.org.campagnelab.ssh#2967045841109792428" depends="java.compile.org.campagnelab.ssh, fetchDependencies">
     <mkdir dir="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.ssh/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.ssh#2967045841109792428" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.ssh#2967045841109792428" fork="false" includeantruntime="false" source="1.6" target="1.6">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.ssh#2967045841109792428" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${org.campagnelab.goby.workbench.home}/languages/org.campagnelab.ssh/generator/source_gen" />
