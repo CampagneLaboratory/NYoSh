@@ -246,7 +246,7 @@
   <target name="java.compile.org.campagnelab.ui" depends="java.compile.org.campagnelab.ui.code, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.ui/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.ui" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.ui" fork="false" includeantruntime="false" source="1.6" target="1.6">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.ui" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/org.campagnelab.ui/source_gen" />
@@ -298,7 +298,7 @@
   <target name="java.compile.org.campagnelab.ui#2954990197977593747" depends="java.compile.org.campagnelab.ui, java.compile.org.campagnelab.ui.code, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.ui/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.ui#2954990197977593747" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.ui#2954990197977593747" fork="false" includeantruntime="false" source="1.6" target="1.6">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.ui#2954990197977593747" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/org.campagnelab.ui/generator/source_gen" />
@@ -351,7 +351,7 @@
   <target name="java.compile.org.campagnelab.ui.code" depends="fetchDependencies">
     <mkdir dir="${basedir}/solutions/org.campagnelab.ui.code/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.ui.code" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.ui.code" fork="false" includeantruntime="false" source="1.6" target="1.6">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.ui.code" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/solutions/org.campagnelab.ui.code/source_gen" />

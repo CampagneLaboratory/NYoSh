@@ -222,7 +222,7 @@
   <target name="java.compile.org.campagnelab.textoutput" depends="fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.textoutput/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.textoutput" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.textoutput" fork="false" includeantruntime="false" source="1.6" target="1.6">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.textoutput" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/org.campagnelab.textoutput/source_gen" />
@@ -283,7 +283,7 @@
   <target name="java.compile.org.campagnelab.textoutput#6874736155931251038" depends="java.compile.org.campagnelab.textoutput, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.textoutput/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.textoutput#6874736155931251038" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.textoutput#6874736155931251038" fork="false" includeantruntime="false" source="1.6" target="1.6">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.textoutput#6874736155931251038" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/org.campagnelab.textoutput/generator/source_gen" />
