@@ -5,7 +5,7 @@
   <property name="build.layout" location="${build.dir}/artifacts/org.campagnelab.ClusterConfig" />
   <property name="mps_home" location="" />
   <property name="org.campagnelab.goby.workbench.home" location="${basedir}" />
-  <property name="clusterConfig_version" value="1.0.0" />
+  <property name="clusterConfig_version" value="1.1.0" />
   <property name="build_number" value="0" />
   <property name="artifacts.mps" location="${mps_home}" />
   <property file="${artifacts.mps}/build.properties" prefix="import.mps" />

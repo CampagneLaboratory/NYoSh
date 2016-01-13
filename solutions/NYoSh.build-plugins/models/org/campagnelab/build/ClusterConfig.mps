@@ -169,7 +169,7 @@
       <node concept="aVJcg" id="2mFg1uCGkyp" role="aVJcv">
         <node concept="NbPM2" id="2mFg1uCGkyo" role="aVJcq">
           <node concept="3Mxwew" id="2mFg1uCGkyn" role="3MwsjC">
-            <property role="3MwjfP" value="1.0.0" />
+            <property role="3MwjfP" value="1.1.0" />
           </node>
         </node>
       </node>
