@@ -153,7 +153,7 @@
       <node concept="aVJcg" id="5_CYZB1uNbU" role="aVJcv">
         <node concept="NbPM2" id="5_CYZB1uNbT" role="aVJcq">
           <node concept="3Mxwew" id="5_CYZB1uNbS" role="3MwsjC">
-            <property role="3MwjfP" value="1.0.3" />
+            <property role="3MwjfP" value="1.1.0" />
           </node>
         </node>
       </node>
