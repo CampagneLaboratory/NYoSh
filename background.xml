@@ -4,7 +4,7 @@
   <property name="build.tmp" location="${build.dir}/tmp/org.campagnelab.Background" />
   <property name="build.layout" location="${build.dir}/artifacts/org.campagnelab.Background" />
   <property name="mps_home" location="" />
-  <property name="background_version" value="1.0.1" />
+  <property name="background_version" value="1.1.0" />
   <property name="build_number" value="0" />
   <property name="artifacts.mpsCore" location="${mps_home}" />
   <property name="artifacts.mps" location="${mps_home}" />

@@ -173,7 +173,7 @@
       <node concept="aVJcg" id="7ZmC9JYEfXt" role="aVJcv">
         <node concept="NbPM2" id="7ZmC9JYEfXu" role="aVJcq">
           <node concept="3Mxwew" id="7ZmC9JYEfXv" role="3MwsjC">
-            <property role="3MwjfP" value="2.0.11" />
+            <property role="3MwjfP" value="2.1.0" />
           </node>
         </node>
       </node>
@@ -1056,11 +1056,6 @@
               </node>
             </node>
           </node>
-        </node>
-        <node concept="1yeLz9" id="2mFg1uCD9so" role="1TViLv">
-          <property role="TrG5h" value="org.campagnelab.nyosh.lib#2108047589035521983" />
-          <property role="3LESm3" value="71502830-66bc-4ce0-bdbf-2d7ea7b83989" />
-          <property role="2GAjPV" value="false" />
         </node>
         <node concept="1SiIV0" id="8cuIHOAQqm" role="3bR37C">
           <node concept="1BurEX" id="8cuIHOAQqn" role="1SiIV1">
