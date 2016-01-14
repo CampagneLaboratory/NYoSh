@@ -214,8 +214,8 @@
         </node>
       </node>
       <node concept="3_J27D" id="2mFg1uCEgGM" role="m$_w8">
-        <node concept="3Mxwey" id="5Q2BayyE0Dx" role="3MwsjC">
-          <ref role="3Mxwex" node="2mFg1uCEgMs" resolve="textoutput_version" />
+        <node concept="3Mxwew" id="6W4RPA0$Luk" role="3MwsjC">
+          <property role="3MwjfP" value="1.4.0" />
         </node>
       </node>
       <node concept="m$f5U" id="2mFg1uCEgGO" role="m$_yh">
